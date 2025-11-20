@@ -107,10 +107,10 @@ def simplify_stage_table():
                     id = "main_" + str(13 + int(relavantId.split("act")[-1].split("mainss")[0]))
             elif value["storySetType"] == "SS":
                 id = value["relevantActivityId"]
-                backgroundId = value["ssData"]["backgroundId"]
+                backgroundId = f"{value['ssData']['backgroundId']}.png" if value['ssData']['backgroundId'] else None
             elif value["storySetType"] == "COLLECT":
                 id = value["relevantActivityId"]
-                backgroundId = value["collectData"]["backgroundId"]
+                backgroundId = f"{value['collectData']['backgroundId']}.png" if value['collectData']['backgroundId'] else None
             else:
                 print(f"Unknown storySetType: {value['storySetType']} from {key}")
                 continue
@@ -120,8 +120,8 @@ def simplify_stage_table():
                 # "kvImageId": f"assets/torappu/dynamicassets/arts/ui/mixstory/kvs/{value['kvImageId']}",
                 # "titleImageId": f"assets/torappu/dynamicassets/arts/ui/mixstory/retrobkgs/{value['titleImageId']}",
                 # "gameMusicId": f"assets/torappu/dynamicassets/arts/ui/mixstory/titles/{value['gameMusicId']}",
-                "kvImageId": value['kvImageId'],
-                "titleImageId": value['titleImageId'],
+                "kvImageId": f"{value['kvImageId']}.png" if value['kvImageId'] else None,
+                "titleImageId": f"{value['titleImageId']}.png" if value['titleImageId'] else None,
                 "gameMusicId": value['gameMusicId'],
                 "backgroundId": backgroundId
             }
