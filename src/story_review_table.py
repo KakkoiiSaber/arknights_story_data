@@ -3,7 +3,8 @@ import json
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
-def story_review_table():
+def simplify_story_review_table():
+    print("Simplifying story_review_table...")
     database = json.load(open("config/database.json", "r", encoding="utf-8"))
 
     SERVER_LIST = database["serverList"]
@@ -19,10 +20,6 @@ def story_review_table():
         "name", 
         "entryType", 
         "startTime", 
-        "storyEntryPicId", 
-        "storyPicId", 
-        "storyMainColor", 
-        "storyCompleteMedalId",
         "infoUnlockDatas"]
     STORY_INFO_KEY = [
         "storyId", 
@@ -33,6 +30,7 @@ def story_review_table():
         "avgTag"]
 
     for server in SERVER_LIST:
+        print(f"Processing server: {server}...")
         url = f"{GAME_DATABASE_URL}/{server}/{STORY_REVIEW_TABLE_PATH}"
         response = requests.get(url)
         table = response.json()
@@ -63,13 +61,16 @@ def story_review_table():
                 },
         '''
         for id in keys:
+            print(f"Processing story review info for id: {id}...")
             entry = table[id]
             story_review_table[id] = {k: entry[k] for k in STORY_KEY}
             info_list = []
             for info in entry["infoUnlockDatas"]:
                 # replace storyInfo and storyTxt with full url
-                info["storyInfo"] = f"{GAME_DATABASE_URL}/{server}/gamedata/story/[uc]{info['storyInfo']}.txt"
-                info["storyTxt"] = f"{GAME_DATABASE_URL}/{server}/gamedata/story/{info['storyTxt']}.txt"
+                # info["storyInfo"] = f"gamedata/story/[uc]{info['storyInfo']}.txt"
+                # info["storyTxt"] = f"gamedata/story/{info['storyTxt']}.txt"
+                info["storyInfo"] = f"[uc]{info['storyInfo']}.txt"
+                info["storyTxt"] = f"{info['storyTxt']}.txt"
                 info_list.append({k: info[k] for k in STORY_INFO_KEY})
             story_review_table[id]["infoUnlockDatas"] = info_list
 
@@ -83,4 +84,4 @@ def story_review_table():
             json.dump(story_review_table, f, ensure_ascii=False, indent=4)
 
 if __name__ == "__main__":
-    story_review_table()
+    simplify_story_review_table()
