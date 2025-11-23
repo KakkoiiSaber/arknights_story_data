@@ -4,8 +4,10 @@
 from src.story_review_table import simplify_story_review_table
 from src.stage_table import simplify_stage_table
 from src.story_meta_table import get_story_meta_table
+from src.audio_table import audio_table
 
 if __name__ == "__main__":
     simplify_story_review_table()
     simplify_stage_table()
     get_story_meta_table()
+    audio_table()

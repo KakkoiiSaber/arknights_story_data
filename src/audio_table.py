@@ -3,14 +3,12 @@ import json
 import requests
 
 def audio_table():
+    print("Generating audio_table...")
     database = json.load(open("config/database.json", "r", encoding="utf-8"))
 
     SERVER_LIST = database["serverList"]
     GAME_DATABASE_URL = database["gameDatabaseURL"]
-    GAME_ASSETS_BASE_URL = database["gameAssetsBaseURL"]
-    STORY_REVIEW_TABLE_PATH = database["storyReviewTablePath"]
     AUDIO_DATA_PATH = database["audioDataPath"]
-    AUDIO_ASSETS_PATH = database["audioAssetsPath"]
     MUSIC_KEY = ["name", "intro", "loop", "crossfade"]
     '''
     {
@@ -24,30 +22,50 @@ def audio_table():
     },
     '''
 
+
     for server in SERVER_LIST:
+        print(f"Processing server: {server}...")
         url = f"{GAME_DATABASE_URL}/{server}/{AUDIO_DATA_PATH}"
         response = requests.get(url)
         original_audio_table = response.json()
 
-        story_review_table = json.load(open(f"assets/{server}/story_review_table.json", "r", encoding="utf-8"))
+        musics = original_audio_table["musics"]
+        bankAlias = original_audio_table["bankAlias"]
+        bgmBanks = original_audio_table["bgmBanks"]
+
+        audio_table = {}
+
+        story_meta_table = json.load(open(f"assets/{server}/story_meta_table.json", "r", encoding="utf-8"))
         processed_audio_table = {}
-        keys = story_review_table.keys()
-        for key in keys:
-            # for all element in original_audio_table["bgmBanks"], find element["name"] == "sys.ON_ACTIVITY_LOADED." + key
-            target_name = "sys.ON_ACTIVITY_LOADED." + key
-            target_entry = next((entry for entry in original_audio_table["bgmBanks"] if entry["name"] == target_name), None)
-            if target_entry:
-                processed_audio_table[key] = {k: target_entry[k] for k in MUSIC_KEY}
-                introPath = processed_audio_table[key]["intro"]
-                loopPath = processed_audio_table[key]["loop"]
-                if introPath:
-                    processed_audio_table[key]["intro"] = f"{GAME_ASSETS_BASE_URL}/{AUDIO_ASSETS_PATH}/{introPath.lower()}.mp3"
-                if loopPath:
-                    processed_audio_table[key]["loop"] = f"{GAME_ASSETS_BASE_URL}/{AUDIO_ASSETS_PATH}/{loopPath.lower()}.mp3"
+        for key, value in story_meta_table.items():
+            print(f"Processing story meta: {key}...")
+            if value["gameMusicId"] is None:
+                story_meta_table[key]["gameMusicName"] = None
+                continue
             else:
-                processed_audio_table[key] = None
+                gameMusicId = value["gameMusicId"]
+                # find value in musics with id == gameMusicId
+                music_value = next((item for item in musics if item["id"] == gameMusicId), None)
+
+                bankId = music_value["bank"]
+                bankName = bankAlias.get(str(bankId), bankId)
+                story_meta_table[key]["gameMusicName"] = bankName
+                bank_info = next((item for item in bgmBanks if item["name"] == bankName), None)
+                if bank_info["intro"] is not None:
+                    bank_info["intro"] = bank_info["intro"].lower() + ".mp3"
+                if bank_info["loop"] is not None:
+                    bank_info["loop"] = bank_info["loop"].lower() + ".mp3"
+                processed_audio_table[bankName] = bank_info
+
+        # sort infoUnlockDatas to be the last
+        for key, value in story_meta_table.items():
+            infoUnlockDatas = story_meta_table[key].pop("infoUnlockDatas")
+            story_meta_table[key]["infoUnlockDatas"] = infoUnlockDatas
+
         with open(f"assets/{server}/audio_table.json", "w", encoding="utf-8") as f:
             json.dump(processed_audio_table, f, ensure_ascii=False, indent=4)
+        with open(f"assets/{server}/story_meta_table.json", "w", encoding="utf-8") as f:
+            json.dump(story_meta_table, f, ensure_ascii=False, indent=4)
 
 if __name__ == "__main__":
     audio_table()
