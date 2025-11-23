@@ -57,6 +57,15 @@ def audio_table():
                     bank_info["loop"] = bank_info["loop"].lower() + ".mp3"
                 processed_audio_table[bankName] = bank_info
 
+        # append sys on load
+        bankName = "sys.ON_MUSIC.bg_void"
+        bank_info = next((item for item in bgmBanks if item["name"] == bankName), None)
+        if bank_info["intro"] is not None:
+            bank_info["intro"] = bank_info["intro"].lower() + ".mp3"
+        if bank_info["loop"] is not None:
+            bank_info["loop"] = bank_info["loop"].lower() + ".mp3"
+        processed_audio_table[bankName] = bank_info
+
         # sort infoUnlockDatas to be the last
         for key, value in story_meta_table.items():
             infoUnlockDatas = story_meta_table[key].pop("infoUnlockDatas")
