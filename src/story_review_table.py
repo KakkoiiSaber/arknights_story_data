@@ -10,6 +10,7 @@ def simplify_story_review_table():
     SERVER_LIST = database["serverList"]
     GAME_DATABASE_URL = database["gameDatabaseURL"]
     STORY_REVIEW_TABLE_PATH = database["storyReviewTablePath"]
+    STORY_INFO_PATH = database["storyInfoPath"]
 
     ENTRY_TYPE = [
         "MINI_ACTIVITY", 
@@ -26,6 +27,7 @@ def simplify_story_review_table():
         "storyCode", 
         "storyName", 
         "storyInfo", 
+        "storyDesc",
         "storyTxt", 
         "avgTag"]
 
@@ -70,6 +72,8 @@ def simplify_story_review_table():
                 # info["storyInfo"] = f"gamedata/story/[uc]{info['storyInfo']}.txt"
                 # info["storyTxt"] = f"gamedata/story/{info['storyTxt']}.txt"
                 info["storyInfo"] = f"[uc]{info['storyInfo']}.txt"
+                storyDesc = requests.get(f"{GAME_DATABASE_URL}/{server}/{STORY_INFO_PATH}/{info['storyInfo']}").text
+                info["storyDesc"] = storyDesc
                 info["storyTxt"] = f"{info['storyTxt']}.txt"
                 info_list.append({k: info[k] for k in STORY_INFO_KEY})
             story_review_table[id]["infoUnlockDatas"] = info_list

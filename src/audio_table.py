@@ -4,7 +4,7 @@ import json
 import requests
 
 def audio_table():
-    # print("Generating audio_table...")
+    print("Generating audio_table...")
     database = json.load(open("config/database.json", "r", encoding="utf-8"))
 
     SERVER_LIST = database["serverList"]
@@ -24,7 +24,7 @@ def audio_table():
 
 
     for server in SERVER_LIST:
-        # print(f"Processing server: {server}...")
+        print(f"Processing server: {server}...")
         url = f"{GAME_DATABASE_URL}/{server}/{AUDIO_DATA_PATH}"
         response = requests.get(url)
         original_audio_table = response.json()
@@ -38,7 +38,7 @@ def audio_table():
         story_meta_table = json.load(open(f"assets/{server}/story_meta_table.json", "r", encoding="utf-8"))
         processed_audio_table = {}
         for key, value in story_meta_table.items():
-            # print(f"Processing story meta: {key}...")
+            print(f"Processing story meta: {key}...")
             if value["gameMusicId"] is None:
                 story_meta_table[key]["gameMusicName"] = None
                 continue
@@ -52,10 +52,10 @@ def audio_table():
                 story_meta_table[key]["gameMusicName"] = bankName
                 # use copy to avoid duplicated .mp3.mp3. //TODO: But why??
                 bank_info = copy.deepcopy(next((item for item in bgmBanks if item["name"] == bankName), None))
-                if bankName == "sys.ON_ACTIVITY_LOADED.act9d0":
-                    print(server)
-                    print(key)
-                    print(bank_info)
+                # if bankName == "sys.ON_ACTIVITY_LOADED.act9d0":
+                #     print(server)
+                #     print(key)
+                #     print(bank_info)
                 if bank_info["intro"] is not None:
                     bank_info["intro"] = bank_info["intro"].lower() + ".mp3"
                 if bank_info["loop"] is not None:
