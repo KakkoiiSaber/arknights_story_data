@@ -153,7 +153,7 @@ def get_review_info(review_table: json, stage_table: Optional[json], story_desc_
         "name": review_table["name"],
         "desc": stage_table["desc"] if stage_table else None,
         "gameMusicId": stage_table["gameMusicId"] if stage_table else None,
-        "gameMusicName": stage_table["gameMusicName"] if stage_table else None,
+        "gameMusicName": stage_table["gameMusicName"] if stage_table and stage_table["gameMusicId"] else None,
         "backgroundId": stage_table["backgroundId"] if stage_table else None,
         "infoUnlockDatas": info_list
     }
