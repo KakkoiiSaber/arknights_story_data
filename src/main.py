@@ -253,7 +253,7 @@ def main():
             if gameMusicId is not None:
                 audio_info = get_audio_table(gameMusicId, audio_data_origin)
                 audio_data[audio_info["name"]] = audio_info
-                stage_entry["gameMusicName"] = audio_info["name"]
+                stage_entry["gameMusicId"] = audio_info["name"]
 
             story_meta_table[id] = get_story_meta_table(review_entry, stage_entry)
 
