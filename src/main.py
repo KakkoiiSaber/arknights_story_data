@@ -10,7 +10,7 @@ from pathlib import Path
 
 
 logger = logging.getLogger(__name__)
-logger.setLevel(logging.DEBUG)
+logger.setLevel(logging.INFO)
 ch = logging.StreamHandler()
 fmt = "%(asctime)s [%(levelname)s] [%(filename)s:%(lineno)d] %(message)s"
 ch.setFormatter(logging.Formatter(fmt=fmt, datefmt="%Y-%m-%d %H:%M:%S"))
@@ -153,6 +153,7 @@ def get_review_info(review_table: json, stage_table: Optional[json], story_desc_
         "name": review_table["name"],
         "desc": stage_table["desc"] if stage_table else None,
         "gameMusicId": stage_table["gameMusicId"] if stage_table else None,
+        "gameMusicName": stage_table["gameMusicName"] if stage_table and stage_table["gameMusicId"] else None,
         "backgroundId": stage_table["backgroundId"] if stage_table else None,
         "infoUnlockDatas": info_list
     }
@@ -194,15 +195,13 @@ def main():
     for server in SERVER_LIST:
         GAME_DATABASE_URL = database["gameDatabaseURLCN"] if server == "zh_CN" else database["gameDatabaseURLGlobal"]
 
-        logger.info(f"Processing server: {server}...")
-        # Load story_review_table
-        logger.info(f"Loading story_review_table for server: {server}...")
+        logger.debug(f"[Server: {server}] Loading story_review_table...")
         review_url = f"{GAME_DATABASE_URL}/{server}/{STORY_REVIEW_TABLE_PATH}"
         review_response = requests.get(review_url)
         review_table_origin = review_response.json()
 
         # Load stage_table
-        logger.info(f"Loading stage_table for server: {server}...")
+        logger.debug(f"[Server: {server}] Loading stage_table...")
         stage_url = f"{GAME_DATABASE_URL}/{server}/{STAGE_TABLE_PATH}"
         stage_response = requests.get(stage_url)
         stage_table_origin = stage_response.json()["storylineStorySets"]
@@ -212,20 +211,20 @@ def main():
         stage_table_origin.update(stage_table_complement)
 
         # Load audio_data
-        logger.info(f"Loading audio_data for server: {server}...")
+        logger.debug(f"[Server: {server}] Loading audio_data...")
         audio_url = f"{GAME_DATABASE_URL}/{server}/{AUDIO_DATA_PATH}"
         audio_response = requests.get(audio_url)
         audio_data_origin = audio_response.json()
 
         review_table = {}
-        logger.info(f"Simplifying story_review_table for server: {server}...")
+        logger.debug(f"[Server: {server}] Simplifying story_review_table...")
         for id, entry in review_table_origin.items():
             if entry["actType"] in ["MINI_STORY", "ACTIVITY_STORY", "MAIN_STORY"]:
                 simplified_review = simplify_story_review_table(entry)
                 review_table[id] = simplified_review
 
         stage_table = {}
-        logger.info(f"Simplifying stage_table for server: {server}...")
+        logger.debug(f"[Server: {server}] Simplifying stage_table...")
         for id, entry in stage_table_origin.items():
             if entry["storySetType"] in ["MAINLINE", "SS", "COLLECT"]:
                 simplified_stage = simplify_stage_table(entry)
@@ -233,42 +232,63 @@ def main():
                 stage_table[simplified_stage["id"]] = simplified_stage
 
         # print number of keys in review_table and stage_table
-        logger.info(f"Number of entries in simplified story_review_table for server {server}: {len(review_table)}")
-        logger.info(f"Number of entries in simplified stage_table for server {server}: {len(stage_table)}")
+        logger.debug(f"[Server: {server}] Number of stories: {len(review_table)}")
+        logger.debug(f"[Server: {server}] Number of stories: {len(stage_table)}")
 
-        story_meta_table = {}
+        try:
+            story_meta_table = json.load(open(f"assets/{server}/story_meta_table.json", "r", encoding="utf-8"))
+            logger.debug(f"[Server: {server}] Loaded existing story_meta_table.")
+        except FileNotFoundError:
+            story_meta_table = {}
+            logger.debug(f"[Server: {server}] No existing story_meta_table found, generating a new one...")
+        try:
+            audio_data = json.load(open(f"assets/{server}/audio_data.json", "r", encoding="utf-8"))
+            logger.debug(f"[Server: {server}] Loaded existing audio_data.")
+        except FileNotFoundError:
+            audio_data = {}
+            logger.debug(f"[Server: {server}] No existing audio_data found, generating a new one...")
         review_info_table = {}
-        audio_data = {}
+
 
         home_bgm_info = get_audio_table("music_bg_default", audio_data_origin)
         audio_data[home_bgm_info["name"]] = home_bgm_info
 
-        logger.info(f"Generating story_meta_table and review_info_table for server: {server}...")
+        logger.debug(f"[Server: {server}] Generating story_meta_table and review_info_table...")
+        reviewCache = json.load(open(f"cache/{server}/review.json", "r", encoding="utf-8"))
         for id in review_table.keys():
-            logger.info(f"Processing story id: {id}...")
-            review_entry = review_table[id]
-            stage_entry = stage_table.get(id, None)
+            if id in reviewCache:
+                logger.debug(f"[Server: {server}] Review info of {id} found in cache, skip.")
+                continue
+            else:
+                logger.debug(f"[Server: {server}] Review info of {id} not cached, fetching from source...")
+                logger.info(f"[Server: {server}] Processing story id: {id}...")
+                review_entry = review_table[id]
+                stage_entry = stage_table.get(id, None)
 
-            gameMusicId = stage_entry["gameMusicId"] if stage_entry else None
-            if gameMusicId is not None:
-                audio_info = get_audio_table(gameMusicId, audio_data_origin)
-                audio_data[audio_info["name"]] = audio_info
-                stage_entry["gameMusicName"] = audio_info["name"]
+                gameMusicId = stage_entry["gameMusicId"] if stage_entry else None
+                if gameMusicId is not None:
+                    audio_info = get_audio_table(gameMusicId, audio_data_origin)
+                    audio_data[audio_info["name"]] = audio_info
+                    stage_entry["gameMusicName"] = audio_info["name"]
 
-            story_meta_table[id] = get_story_meta_table(review_entry, stage_entry)
-
-            # review_info = get_review_info(review_entry, stage_entry, f"{GAME_DATABASE_URL}/{server}/{STORY_INFO_PATH}")
-            local_path = "assets_origin" if server == "zh_CN" else "assets_origin_yostar"
-            review_info = get_review_info(review_entry, stage_entry, f"{local_path}/{server}/{STORY_INFO_PATH}")
-            review_info_table[id] = review_info
+                story_meta_table[id] = get_story_meta_table(review_entry, stage_entry)
+                # review_info = get_review_info(review_entry, stage_entry, f"{GAME_DATABASE_URL}/{server}/{STORY_INFO_PATH}")
+                local_path = "assets_origin" if server == "zh_CN" else "assets_origin_yostar"
+                review_info = get_review_info(review_entry, stage_entry, f"{local_path}/{server}/{STORY_INFO_PATH}")
+                review_info_table[id] = review_info
+                # update cache
+                reviewCache.append(id)
 
 
         # Save story_meta_table and review_info_table
-        logger.info(f"Saving story_meta_table and review_info_table for server: {server}...")
+        logger.debug(f"[Server: {server}] Saving story_meta_table and review_info_table...")
         save_table(story_meta_table, f"assets/{server}/story_meta_table.json")
         save_table(audio_data, f"assets/{server}/audio_data.json")
         for id, entry in review_info_table.items():
             save_table(entry, f"assets/{server}/story_review_info/{id}.json")
+        
+        # update cache file
+        save_table(reviewCache, f"cache/{server}/review.json")
 
 if __name__ == "__main__":
     main()
