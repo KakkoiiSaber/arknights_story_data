@@ -23,8 +23,11 @@ jobs:
       - name: Install deps
         run: pip install -r requirements.txt
 
-      - name: Run updater
-        run: python src/main.py
+      - name: Update review data
+        run: python src/review.py
+        
+      - name: Update story data
+        run: python src/story.py
 
       - name: Commit and push if changed
         run: |
