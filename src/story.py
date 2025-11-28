@@ -40,7 +40,7 @@ def txt2json(txt_file: str, story_variables: json) -> dict:
                     pass
                 try:
                     var = event["key"].split("$")[1]
-                    event["key"] = story_variables[var].lower() + ".mp3"
+                    event["key"] = f"audio/{story_variables[var].lower()}.mp3"
                 except Exception as e:
                     # logger.debug(f"Error processing play_music event at line {line_number}: {e}")
                     pass
