@@ -710,7 +710,11 @@
     {
         "id": 101,
         "raw": "[charslot(slot = \"l\",posfrom = \"0,0\", posto = \"100,0\",duration = 1)]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "l",
+        "posfrom": "0,0",
+        "posto": "100,0",
+        "duration": 1
     },
     {
         "id": 102,
@@ -839,7 +843,9 @@
     {
         "id": 119,
         "raw": "[charslot(slot = \"m\", focus = \"n\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "focus": "n"
     },
     {
         "id": 120,
@@ -1114,25 +1120,29 @@
         "id": 157,
         "raw": "[curtain(direction = 2,fillfrom = 0.01,fillto = 0.1,block=false)]",
         "type": "curtain",
-        "block": false
+        "direction": "2,fillfrom",
+        "fillto": "0.1,block=false"
     },
     {
         "id": 158,
         "raw": "[curtain(direction = 6,fillfrom = 0.01,fillto = 0.1,block=true)]",
         "type": "curtain",
-        "block": true
+        "direction": "6,fillfrom",
+        "fillto": "0.1,block=true"
     },
     {
         "id": 159,
         "raw": "[curtain(direction = 0,fillfrom = 0.01,fillto = 0.3,block=false)]",
         "type": "curtain",
-        "block": false
+        "direction": "0,fillfrom",
+        "fillto": "0.3,block=false"
     },
     {
         "id": 160,
         "raw": "[curtain(direction = 4,fillfrom = 0.01,fillto = 0.3,block=true)]",
         "type": "curtain",
-        "block": true
+        "direction": "4,fillfrom",
+        "fillto": "0.3,block=true"
     },
     {
         "id": 161,
@@ -1269,7 +1279,9 @@
     {
         "id": 180,
         "raw": "[charslot(slot = \"m\", focus = \"n\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "focus": "n"
     },
     {
         "id": 181,
@@ -1700,6 +1712,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"Announcement:\", x=220,y=270, alignment=\"center\", size=24, delay=0.04, width=800,block=true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "Announcement:",
         "x": "220,y=270,",
         "alignment": "center",
@@ -1711,6 +1724,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n\\nVictoria's famous Crimson Troupe is here in Daremont for three days! Don't miss it!\",block=true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "\\n\\nVictoria's famous Crimson Troupe is here in Daremont for three days! Don't miss it!",
         "block": true
     },
@@ -1718,7 +1732,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n\\nTickets are first-come, first-served!\", block = true)]",
         "type": "sticker",
-        "text": "\\n\\nTickets are first-come, first-served!"
+        "multi": "true,",
+        "text": "\\n\\nTickets are first-come, first-served!",
+        "block": true
     },
     {
         "id": "st1",
@@ -1893,18 +1909,22 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"Police statement on the Daremont Case:\", x=220,y=270, alignment=\"center\", size=24, delay=0.04, width=800, block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "Police statement on the Daremont Case:",
         "x": "220,y=270,",
         "alignment": "center",
         "size": "24,",
         "delay": "0.04,",
-        "width": "800,"
+        "width": "800,",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n\\nAt this time, there is no evidence linking the case to the Crimson Troupe which passed through the area recently. The police has established a special task force to investigate.\", block = true)]",
         "type": "sticker",
-        "text": "\\n\\nAt this time, there is no evidence linking the case to the Crimson Troupe which passed through the area recently. The police has established a special task force to investigate."
+        "multi": "true,",
+        "text": "\\n\\nAt this time, there is no evidence linking the case to the Crimson Troupe which passed through the area recently. The police has established a special task force to investigate.",
+        "block": true
     },
     {
         "id": "st1",
@@ -2191,7 +2211,9 @@
         "id": 312,
         "raw": "[charslot(slot = \"left\",action=\"zoom\", poszoom = \"0.5,0.5\", scale=0.9,name=\"avg_npc_045_nn_1#1\",afrom=0,ato=0)]",
         "type": "charslot",
+        "slot": "left",
         "action": "zoom",
+        "poszoom": "0.5,0.5",
         "scale": "0.9,name=\"avg_npc_045_nn_1#1\",afrom=0,ato=0"
     },
     {
@@ -2199,7 +2221,8 @@
         "raw": "[charslot(slot=\"l\",afrom=0,ato=1,duration=1,posfrom = \"-200,0\", posto = \"0,0\")]",
         "type": "charslot",
         "slot": "l",
-        "afrom": "0,ato=1,duration=1,posfrom"
+        "afrom": "0,ato=1,duration=1,posfrom",
+        "posto": "0,0"
     },
     {
         "id": 314,
@@ -2385,7 +2408,9 @@
         "id": 341,
         "raw": "[charslot(slot = \"m\",action=\"zoom\", poszoom = \"0.5,0.5\", scale=0.9,name=\"avg_npc_045_nn_1#1\")]",
         "type": "charslot",
+        "slot": "m",
         "action": "zoom",
+        "poszoom": "0.5,0.5",
         "scale": "0.9,name=\"avg_npc_045_nn_1#1\""
     },
     {
@@ -2537,12 +2562,18 @@
     {
         "id": 363,
         "raw": "[charslot(slot = \"left\", name = \"avg_npc_1828_1#3$1\",duration = 1)]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "left",
+        "name": "avg_npc_1828_1#3$1.png",
+        "duration": 1
     },
     {
         "id": 364,
         "raw": "[charslot(slot = \"right\", name = \"avg_4198_christ_1#1$1\",duration = 1)]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "right",
+        "name": "avg_4198_christ_1#1$1.png",
+        "duration": 1
     },
     {
         "id": 365,
@@ -2553,7 +2584,9 @@
     {
         "id": 366,
         "raw": "[charslot(slot = \"left\", name = \"avg_npc_1828_1#1$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "left",
+        "name": "avg_npc_1828_1#1$1.png"
     },
     {
         "id": 367,
@@ -2565,6 +2598,8 @@
         "id": 368,
         "raw": "[charslot(slot = \"right\", name = \"avg_4198_christ_1#1$1\",focus=\"r\")]",
         "type": "charslot",
+        "slot": "right",
+        "name": "avg_4198_christ_1#1$1.png",
         "focus": "r"
     },
     {
@@ -2578,6 +2613,8 @@
         "id": 370,
         "raw": "[charslot(slot = \"left\", name = \"avg_npc_1828_1#1$1\",focus=\"l\")]  ",
         "type": "charslot",
+        "slot": "left",
+        "name": "avg_npc_1828_1#1$1.png",
         "focus": "l"
     },
     {
@@ -2591,6 +2628,8 @@
         "id": 372,
         "raw": "[charslot(slot = \"right\", name = \"avg_4198_christ_1#4$1\",focus=\"r\")]",
         "type": "charslot",
+        "slot": "right",
+        "name": "avg_4198_christ_1#4$1.png",
         "focus": "r"
     },
     {
@@ -2604,6 +2643,8 @@
         "id": 374,
         "raw": "[charslot(slot = \"left\", name = \"avg_npc_1828_1#2$1\",focus=\"l\")]",
         "type": "charslot",
+        "slot": "left",
+        "name": "avg_npc_1828_1#2$1.png",
         "focus": "l"
     },
     {
@@ -2617,6 +2658,8 @@
         "id": 376,
         "raw": "[charslot(slot = \"right\", name = \"avg_4198_christ_1#5$1\",focus=\"r\")]",
         "type": "charslot",
+        "slot": "right",
+        "name": "avg_4198_christ_1#5$1.png",
         "focus": "r"
     },
     {
@@ -2630,6 +2673,8 @@
         "id": 378,
         "raw": "[charslot(slot = \"left\", name = \"avg_npc_1828_1#2$1\",focus=\"l\")]",
         "type": "charslot",
+        "slot": "left",
+        "name": "avg_npc_1828_1#2$1.png",
         "focus": "l"
     },
     {
@@ -2643,6 +2688,8 @@
         "id": 380,
         "raw": "[charslot(slot = \"right\", name = \"avg_4198_christ_1#1$1\",focus=\"r\")]",
         "type": "charslot",
+        "slot": "right",
+        "name": "avg_4198_christ_1#1$1.png",
         "focus": "r"
     },
     {
@@ -2663,6 +2710,8 @@
         "id": 383,
         "raw": "[charslot(slot = \"left\", name = \"avg_npc_1828_1#1$1\",focus=\"l\")]",
         "type": "charslot",
+        "slot": "left",
+        "name": "avg_npc_1828_1#1$1.png",
         "focus": "l"
     },
     {
@@ -2676,6 +2725,8 @@
         "id": 385,
         "raw": "[charslot(slot = \"right\", name = \"avg_4198_christ_1#3$1\",focus=\"r\")]",
         "type": "charslot",
+        "slot": "right",
+        "name": "avg_4198_christ_1#3$1.png",
         "focus": "r"
     },
     {
@@ -2689,6 +2740,8 @@
         "id": 387,
         "raw": "[charslot(slot = \"left\", name = \"avg_npc_1828_1#1$1\",focus=\"l\")]",
         "type": "charslot",
+        "slot": "left",
+        "name": "avg_npc_1828_1#1$1.png",
         "focus": "l"
     },
     {
@@ -2702,6 +2755,8 @@
         "id": 389,
         "raw": "[charslot(slot = \"left\", name = \"avg_npc_1828_1#5$1\",focus=\"l\")]",
         "type": "charslot",
+        "slot": "left",
+        "name": "avg_npc_1828_1#5$1.png",
         "focus": "l"
     },
     {
@@ -2715,6 +2770,8 @@
         "id": 391,
         "raw": "[charslot(slot = \"right\", name = \"avg_4198_christ_1#1$1\",focus=\"r\")]",
         "type": "charslot",
+        "slot": "right",
+        "name": "avg_4198_christ_1#1$1.png",
         "focus": "r"
     },
     {
@@ -2728,6 +2785,8 @@
         "id": 393,
         "raw": "[charslot(slot = \"left\", name = \"avg_npc_1828_1#1$1\",focus=\"l\")]",
         "type": "charslot",
+        "slot": "left",
+        "name": "avg_npc_1828_1#1$1.png",
         "focus": "l"
     },
     {
@@ -2755,6 +2814,8 @@
         "id": 397,
         "raw": "[charslot(slot = \"left\", name = \"avg_npc_1828_1#4$1\",focus=\"l\")]",
         "type": "charslot",
+        "slot": "left",
+        "name": "avg_npc_1828_1#4$1.png",
         "focus": "l"
     },
     {
@@ -2775,6 +2836,8 @@
         "id": 400,
         "raw": "[charslot(slot = \"left\", name = \"avg_npc_1828_1#2$1\",focus=\"l\")]",
         "type": "charslot",
+        "slot": "left",
+        "name": "avg_npc_1828_1#2$1.png",
         "focus": "l"
     },
     {
@@ -2788,6 +2851,8 @@
         "id": 402,
         "raw": "[charslot(slot = \"right\", name = \"avg_4198_christ_1#1$1\",focus=\"r\")]",
         "type": "charslot",
+        "slot": "right",
+        "name": "avg_4198_christ_1#1$1.png",
         "focus": "r"
     },
     {
@@ -2808,6 +2873,8 @@
         "id": 405,
         "raw": "[charslot(slot = \"left\", name = \"avg_npc_1828_1#1$1\",focus=\"l\")]",
         "type": "charslot",
+        "slot": "left",
+        "name": "avg_npc_1828_1#1$1.png",
         "focus": "l"
     },
     {
@@ -2821,6 +2888,8 @@
         "id": 407,
         "raw": "[charslot(slot = \"right\", name = \"avg_4198_christ_1#4$1\",focus=\"r\")]",
         "type": "charslot",
+        "slot": "right",
+        "name": "avg_4198_christ_1#4$1.png",
         "focus": "r"
     },
     {
@@ -2841,6 +2910,8 @@
         "id": 410,
         "raw": "[charslot(slot = \"left\", name = \"avg_npc_1828_1#1$1\",focus=\"l\")]",
         "type": "charslot",
+        "slot": "left",
+        "name": "avg_npc_1828_1#1$1.png",
         "focus": "l"
     },
     {

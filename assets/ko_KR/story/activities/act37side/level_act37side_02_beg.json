@@ -64,12 +64,16 @@
         "id": 8,
         "raw": "[curtain(direction = 0,fillfrom = 0.01,fillto = 0.15,grad = true,fadetime=0.1)]",
         "type": "curtain",
+        "direction": "0,fillfrom",
+        "fillto": "0.15,grad",
         "fadetime": 0.1
     },
     {
         "id": 9,
         "raw": "[curtain(direction = 4,fillfrom = 0.01,fillto = 0.15,grad = true,fadetime=0.1)]",
         "type": "curtain",
+        "direction": "4,fillfrom",
+        "fillto": "0.15,grad",
         "fadetime": 0.1
     },
     {
@@ -117,6 +121,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"넓은 대지여 우리의 왕을 지켜 주소서♪\", x=300,y=200, alignment=\"center\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "넓은 대지여 우리의 왕을 지켜 주소서♪",
         "x": "300,y=200,",
         "alignment": "center",
@@ -128,25 +133,33 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n\\n그의 백성과 그의 행복을 지켜 주소서♪\",block = true)]",
         "type": "sticker",
-        "text": "\\n\\n그의 백성과 그의 행복을 지켜 주소서♪"
+        "multi": "true,",
+        "text": "\\n\\n그의 백성과 그의 행복을 지켜 주소서♪",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n\\n우리에게 무한한 은혜를 내려 주소서♪\",block = true)]",
         "type": "sticker",
-        "text": "\\n\\n우리에게 무한한 은혜를 내려 주소서♪"
+        "multi": "true,",
+        "text": "\\n\\n우리에게 무한한 은혜를 내려 주소서♪",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n\\n우리를 즐겁게 노래하게 하소서♪\",block = true)]",
         "type": "sticker",
-        "text": "\\n\\n우리를 즐겁게 노래하게 하소서♪"
+        "multi": "true,",
+        "text": "\\n\\n우리를 즐겁게 노래하게 하소서♪",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n\\n빅토리아, 나의 고향이여!♪\",block = true)]",
         "type": "sticker",
-        "text": "\\n\\n빅토리아, 나의 고향이여!♪"
+        "multi": "true,",
+        "text": "\\n\\n빅토리아, 나의 고향이여!♪",
+        "block": true
     },
     {
         "id": "st1",
@@ -207,10 +220,13 @@
         "type": "dialog_marker"
     },
     {
-        "id": 29,
+        "id": "at1",
         "raw": "[animtext(id = \"at1\", name = \"group_location_stamp\", style=\"avg_both\", pos = \"-400,-200\", block = false)]<p=1>성왕궁 서쪽 회당 알현실</><p=2>1098년 10월 8일 9:45 P.M.</>",
         "type": "anim_text",
+        "name": "group_location_stamp",
         "style": "avg_both",
+        "pos": "-400,-200",
+        "block": false,
         "content": "<p=1>성왕궁 서쪽 회당 알현실</><p=2>1098년 10월 8일 9:45 P.M.</>"
     },
     {
@@ -875,6 +891,8 @@
         "id": 123,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_656_1#1$1\", duration=2)]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_656_1#1$1.png",
         "duration": 2
     },
     {
@@ -967,6 +985,8 @@
         "id": 138,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_656_1#1$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_656_1#1$1.png",
         "focus": "m"
     },
     {
@@ -1087,6 +1107,8 @@
         "id": 153,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_656_1#1$1\",focus=\"n\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_656_1#1$1.png",
         "focus": "n"
     },
     {
@@ -1111,6 +1133,8 @@
         "id": 157,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_656_1#1$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_656_1#1$1.png",
         "focus": "m"
     },
     {
@@ -1225,6 +1249,8 @@
         "id": 171,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_656_1#1$1\",focus=\"n\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_656_1#1$1.png",
         "focus": "n"
     },
     {
@@ -1249,6 +1275,8 @@
         "id": 175,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_656_1#1$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_656_1#1$1.png",
         "focus": "m"
     },
     {
@@ -1433,6 +1461,8 @@
         "id": 198,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_656_1#5$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_656_1#5$1.png",
         "focus": "m"
     },
     {
@@ -1522,6 +1552,8 @@
         "id": 209,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_656_1#5$1\",focus=\"n\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_656_1#5$1.png",
         "focus": "n"
     },
     {
@@ -1546,6 +1578,8 @@
         "id": 213,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_656_1#5$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_656_1#5$1.png",
         "focus": "m"
     },
     {
@@ -1716,10 +1750,13 @@
         "type": "dialog_marker"
     },
     {
-        "id": 235,
+        "id": "at1",
         "raw": "[animtext(id = \"at1\", name = \"group_location_stamp\", style=\"avg_both\", pos = \"-400,-200\", block = false)]<p=1>의장실</><p=2>1098년 12월 10일 7:32 P.M.</>",
         "type": "anim_text",
+        "name": "group_location_stamp",
         "style": "avg_both",
+        "pos": "-400,-200",
+        "block": false,
         "content": "<p=1>의장실</><p=2>1098년 12월 10일 7:32 P.M.</>"
     },
     {
@@ -2637,6 +2674,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>'파라곤 부대'</i>\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>'파라곤 부대'</i>",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2648,13 +2686,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>'우리는 기적을 만들어 낸다.'</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>'우리는 기적을 만들어 낸다.'</i>"
+        "multi": "true,",
+        "text": "\\n<i>'우리는 기적을 만들어 낸다.'</i>",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>하지만 기적이 막을 내린 후에는? 파라곤 부대는 어디로 향해야 하는가?</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>하지만 기적이 막을 내린 후에는? 파라곤 부대는 어디로 향해야 하는가?</i>"
+        "multi": "true,",
+        "text": "\\n<i>하지만 기적이 막을 내린 후에는? 파라곤 부대는 어디로 향해야 하는가?</i>",
+        "block": true
     },
     {
         "id": "st1",
@@ -2672,6 +2714,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>예전 파라곤 부대의 기적은 가울에 남아, 사관학교의 교과서에 실렸다고 혼이 얘기했었다. 그러면 우리는? 런디니움에 돌아가기까지는 실제로 누구도 이 문제에 대해 생각할 필요는 없었다.</i>\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>예전 파라곤 부대의 기적은 가울에 남아, 사관학교의 교과서에 실렸다고 혼이 얘기했었다. 그러면 우리는? 런디니움에 돌아가기까지는 실제로 누구도 이 문제에 대해 생각할 필요는 없었다.</i>",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2683,13 +2726,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>빅토리아인이 다시 자신들의 도시를 탈환했다고 도시 전체에 선언한 순간, 우리 부대에서 가장 어린아이가 물었다.</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>빅토리아인이 다시 자신들의 도시를 탈환했다고 도시 전체에 선언한 순간, 우리 부대에서 가장 어린아이가 물었다.</i>"
+        "multi": "true,",
+        "text": "\\n<i>빅토리아인이 다시 자신들의 도시를 탈환했다고 도시 전체에 선언한 순간, 우리 부대에서 가장 어린아이가 물었다.</i>",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>“이제 우리는 어디로 가?”</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>“이제 우리는 어디로 가?”</i>"
+        "multi": "true,",
+        "text": "\\n<i>“이제 우리는 어디로 가?”</i>",
+        "block": true
     },
     {
         "id": "st1",
@@ -2707,6 +2754,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>나는 흥분해서 말했다. 집으로 돌아갈 거야. '어퍼컷' 복싱장으로 돌아가는 거다. 한나, 비나, 다그다도 같이. 너도 집에 돌아갈 수 있어, 라고.</i>\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>나는 흥분해서 말했다. 집으로 돌아갈 거야. '어퍼컷' 복싱장으로 돌아가는 거다. 한나, 비나, 다그다도 같이. 너도 집에 돌아갈 수 있어, 라고.</i>",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2718,13 +2766,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>하지만 그 아이는 이렇게 말했다……</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>하지만 그 아이는 이렇게 말했다……</i>"
+        "multi": "true,",
+        "text": "\\n<i>하지만 그 아이는 이렇게 말했다……</i>",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>“우리 집은 없어졌어. 나한테는 누나들밖에 없어.”</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>“우리 집은 없어졌어. 나한테는 누나들밖에 없어.”</i>"
+        "multi": "true,",
+        "text": "\\n<i>“우리 집은 없어졌어. 나한테는 누나들밖에 없어.”</i>",
+        "block": true
     },
     {
         "id": "st1",
@@ -3478,6 +3530,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>한때 우리와 함께 도시에 돌입했던 병사는 노을 속에 서서 우리의 '심문'에 답했다.</i>\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>한때 우리와 함께 도시에 돌입했던 병사는 노을 속에 서서 우리의 '심문'에 답했다.</i>",
         "x": "300,y=270,",
         "alignment": "left",
@@ -3489,13 +3542,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>비나가 의회에 영향을 끼칠 수 있다는 것을 모두 잘 알고 있었다…… 비나가 바라기만 한다면.</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>비나가 의회에 영향을 끼칠 수 있다는 것을 모두 잘 알고 있었다…… 비나가 바라기만 한다면.</i>"
+        "multi": "true,",
+        "text": "\\n<i>비나가 의회에 영향을 끼칠 수 있다는 것을 모두 잘 알고 있었다…… 비나가 바라기만 한다면.</i>",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>비나는 이미 글래스고에만 속한 것이 아니라고, 확실히 깨달은 것은 그날부터였다.</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>비나는 이미 글래스고에만 속한 것이 아니라고, 확실히 깨달은 것은 그날부터였다.</i>"
+        "multi": "true,",
+        "text": "\\n<i>비나는 이미 글래스고에만 속한 것이 아니라고, 확실히 깨달은 것은 그날부터였다.</i>",
+        "block": true
     },
     {
         "id": "st1",
@@ -3569,6 +3626,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>어쩌면 그날 오후, 내가 알던 비나는 이미 작별을 고한 것일지도 모른다.</i>\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>어쩌면 그날 오후, 내가 알던 비나는 이미 작별을 고한 것일지도 모른다.</i>",
         "x": "300,y=270,",
         "alignment": "left",
@@ -3580,13 +3638,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>그때, 도시 전체의 공장이 동시에 가동하면서 굉음과 함께 하늘까지 증기를 내뿜었다.</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>그때, 도시 전체의 공장이 동시에 가동하면서 굉음과 함께 하늘까지 증기를 내뿜었다.</i>"
+        "multi": "true,",
+        "text": "\\n<i>그때, 도시 전체의 공장이 동시에 가동하면서 굉음과 함께 하늘까지 증기를 내뿜었다.</i>",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>비나의 금빛 머리카락은 열풍에 흩날리며 일순간 눈에 고였던 눈물을 감추었다. 그녀는 미소와 함께 돌아보며 말했다――</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>비나의 금빛 머리카락은 열풍에 흩날리며 일순간 눈에 고였던 눈물을 감추었다. 그녀는 미소와 함께 돌아보며 말했다――</i>"
+        "multi": "true,",
+        "text": "\\n<i>비나의 금빛 머리카락은 열풍에 흩날리며 일순간 눈에 고였던 눈물을 감추었다. 그녀는 미소와 함께 돌아보며 말했다――</i>",
+        "block": true
     },
     {
         "id": "st1",
@@ -3641,6 +3703,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>집에 돌아왔다. 하지만 모든 것이 예상한 대로 될 리는 없다.</i>\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>집에 돌아왔다. 하지만 모든 것이 예상한 대로 될 리는 없다.</i>",
         "x": "300,y=270,",
         "alignment": "left",
@@ -3652,13 +3715,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>나는 무섭다. 귀향은 이별이라는 것이……</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>나는 무섭다. 귀향은 이별이라는 것이……</i>"
+        "multi": "true,",
+        "text": "\\n<i>나는 무섭다. 귀향은 이별이라는 것이……</i>",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>나는 무섭다…… 비나를 잃는 것이.</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>나는 무섭다…… 비나를 잃는 것이.</i>"
+        "multi": "true,",
+        "text": "\\n<i>나는 무섭다…… 비나를 잃는 것이.</i>",
+        "block": true
     },
     {
         "id": "st1",
@@ -3840,10 +3907,13 @@
         "type": "dialog_marker"
     },
     {
-        "id": 526,
+        "id": "at1",
         "raw": "[animtext(id = \"at1\", name = \"group_location_stamp\", style=\"avg_both\", pos = \"-400,-200\", block = false)]<p=1>런디니움</><p=2>1098년 9월 28일 5:27 P.M.</>",
         "type": "anim_text",
+        "name": "group_location_stamp",
         "style": "avg_both",
+        "pos": "-400,-200",
+        "block": false,
         "content": "<p=1>런디니움</><p=2>1098년 9월 28일 5:27 P.M.</>"
     },
     {
@@ -4682,6 +4752,8 @@
         "id": 642,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1342_1#1$1\", bstart=0.2,bend=0.7,duration=1)]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1342_1#1$1.png",
         "bstart": "0.2,bend=0.7,duration=1"
     },
     {
@@ -4694,6 +4766,8 @@
         "id": 644,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1342_1#1$1\",bstart=0.2,bend=0.7,focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1342_1#1$1.png",
         "bstart": "0.2,bend=0.7,focus=\"m\""
     },
     {
@@ -4753,6 +4827,8 @@
         "id": 653,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1342_1#1$1\",bstart=0.2,bend=0.7,focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1342_1#1$1.png",
         "bstart": "0.2,bend=0.7,focus=\"m\""
     },
     {
@@ -4860,10 +4936,13 @@
         "type": "dialog_marker"
     },
     {
-        "id": 668,
+        "id": "at1",
         "raw": "[animtext(id = \"at1\", name = \"group_location_stamp\", style=\"avg_both\", pos = \"-400,-200\", block = false)]<p=1>의장실</><p=2>1098년 12월 10일 9:28 P.M.</>",
         "type": "anim_text",
+        "name": "group_location_stamp",
         "style": "avg_both",
+        "pos": "-400,-200",
+        "block": false,
         "content": "<p=1>의장실</><p=2>1098년 12월 10일 9:28 P.M.</>"
     },
     {

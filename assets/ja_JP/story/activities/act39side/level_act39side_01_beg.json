@@ -920,6 +920,7 @@
         "id": 134,
         "raw": "[charslot(slot = \"m\",posfrom=\"0,0\", posto=\"-50,0\", afrom=1, ato=0, duration=0.5, isblock=false)]",
         "type": "charslot",
+        "slot": "m",
         "posfrom": "0,0",
         "posto": "-50,0",
         "afrom": "1,",
@@ -1316,7 +1317,8 @@
         "type": "charslot",
         "slot": "m",
         "posfrom": "0,0",
-        "isblock": true
+        "posto": "0,-20",
+        "duration": "1.5,isblock=true"
     },
     {
         "id": 188,
@@ -1330,7 +1332,8 @@
         "type": "charslot",
         "slot": "m",
         "posfrom": "0,-20",
-        "isblock": true
+        "posto": "0,0",
+        "duration": "1,isblock=true"
     },
     {
         "id": 190,
@@ -1420,7 +1423,8 @@
         "type": "charslot",
         "slot": "m",
         "posfrom": "0,0",
-        "isblock": true
+        "posto": "0,-20",
+        "duration": "1.5,isblock=true"
     },
     {
         "id": 203,
@@ -1434,7 +1438,8 @@
         "type": "charslot",
         "slot": "m",
         "posfrom": "0,-20",
-        "isblock": true
+        "posto": "0,0",
+        "duration": "1,isblock=true"
     },
     {
         "id": 205,
@@ -1981,18 +1986,24 @@
         "id": 285,
         "raw": "[curtain(direction = 0,fillfrom = 0.01,fillto = 0.45, fadetime=0.01)]",
         "type": "curtain",
+        "direction": "0,fillfrom",
+        "fillto": "0.45,",
         "fadetime": 0.01
     },
     {
         "id": 286,
         "raw": "[curtain(direction = 4,fillfrom = 0.01,fillto = 0.4, fadetime=0.01)]",
         "type": "curtain",
+        "direction": "4,fillfrom",
+        "fillto": "0.4,",
         "fadetime": 0.01
     },
     {
         "id": 287,
         "raw": "[charslot(slot = \"m\", name = \"avg_293_thorns_1#3$2\",posfrom=\"0,-1200\",posto=\"0,-1200\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_293_thorns_1#3$2.png",
         "posfrom": "0,-1200",
         "posto": "0,-1200"
     },
@@ -2000,8 +2011,11 @@
         "id": 288,
         "raw": "[charslot(slot = \"m\", action=\"zoom\", poszoom = \"0.5,0.5\", scale=3.5, duration = 0)]",
         "type": "charslot",
+        "slot": "m",
         "action": "zoom",
-        "scale": "3.5,"
+        "poszoom": "0.5,0.5",
+        "scale": "3.5,",
+        "duration": 0
     },
     {
         "id": 289,
@@ -2080,6 +2094,8 @@
         "id": 300,
         "raw": "[charslot(slot = \"m\", name = \"avg_293_thorns_1#7$2\",posfrom=\"0,-1200\",posto=\"0,-1200\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_293_thorns_1#7$2.png",
         "posfrom": "0,-1200",
         "posto": "0,-1200"
     },
@@ -2087,8 +2103,11 @@
         "id": 301,
         "raw": "[charslot(slot = \"m\", action=\"zoom\", poszoom = \"0.5,0.5\", scale=3.5, duration = 0)]",
         "type": "charslot",
+        "slot": "m",
         "action": "zoom",
-        "scale": "3.5,"
+        "poszoom": "0.5,0.5",
+        "scale": "3.5,",
+        "duration": 0
     },
     {
         "id": 302,
@@ -2138,12 +2157,16 @@
         "id": 308,
         "raw": "[curtain(direction = 0,fillfrom = 0.4,fillto = 0, fadetime=0.01)]",
         "type": "curtain",
+        "direction": "0,fillfrom",
+        "fillto": "0,",
         "fadetime": 0.01
     },
     {
         "id": 309,
         "raw": "[curtain(direction = 4,fillfrom = 0.4,fillto = 0, fadetime=0.01)]",
         "type": "curtain",
+        "direction": "4,fillfrom",
+        "fillto": "0,",
         "fadetime": 0.01
     },
     {
@@ -2291,7 +2314,8 @@
         "type": "charslot",
         "slot": "m",
         "posfrom": "0,0",
-        "isblock": true
+        "posto": "-50,0",
+        "duration": "0.5,isblock=true"
     },
     {
         "id": 330,
@@ -2317,7 +2341,8 @@
         "type": "charslot",
         "slot": "m",
         "posfrom": "-50,0",
-        "isblock": true
+        "posto": "0,0",
+        "duration": "0.5,isblock=true"
     },
     {
         "id": 333,
@@ -2341,14 +2366,14 @@
         "raw": "[Effect(name=\"$e_slash_01_s\",x =40.2,y=-24.1,rox=99.6,roy=-37.5,roz=-4.51,layer = 1)]",
         "type": "effect",
         "name": "$e_slash_01_s",
-        "y": "-24.1,rox=99.6,roy=-37.5,roz=-4.51,layer"
+        "x": "40.2,y=-24.1,rox=99.6,roy=-37.5,roz=-4.51,layer"
     },
     {
         "id": 337,
         "raw": "[Effect(name=\"$e_thornsblade_large\",x =-199.9,y=44.9,rox=-37.01,roy=-37.5,roz=-4.51,layer = 1)]",
         "type": "effect",
         "name": "$e_thornsblade_large",
-        "y": "44.9,rox=-37.01,roy=-37.5,roz=-4.51,layer"
+        "x": "-199.9,y=44.9,rox=-37.01,roy=-37.5,roz=-4.51,layer"
     },
     {
         "id": 338,
@@ -2360,13 +2385,15 @@
         "id": 339,
         "raw": "[Effect(name=\"$e_spark_02_large\",layer = 1)]",
         "type": "effect",
-        "name": "$e_spark_02_large"
+        "name": "$e_spark_02_large",
+        "layer": 1
     },
     {
         "id": 340,
         "raw": "[Effect(name=\"$e_spark_01_large\",layer = 2)]",
         "type": "effect",
-        "name": "$e_spark_01_large"
+        "name": "$e_spark_01_large",
+        "layer": 2
     },
     {
         "id": 341,
@@ -3218,7 +3245,8 @@
         "type": "charslot",
         "slot": "m",
         "posfrom": "0,0",
-        "isblock": true
+        "posto": "-50,0",
+        "duration": "0.5,isblock=true"
     },
     {
         "id": 457,
@@ -5299,7 +5327,8 @@
         "type": "charslot",
         "slot": "l",
         "posfrom": "0,0",
-        "isblock": false
+        "posto": "-50,0",
+        "duration": "1.5,isblock=false"
     },
     {
         "id": 746,

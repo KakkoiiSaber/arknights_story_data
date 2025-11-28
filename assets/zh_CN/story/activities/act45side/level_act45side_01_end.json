@@ -1365,7 +1365,8 @@
         "id": 190,
         "raw": "[Effect(name=\"$e_blackmask\",layer = 2)]",
         "type": "effect",
-        "name": "$e_blackmask"
+        "name": "$e_blackmask",
+        "layer": 2
     },
     {
         "id": 191,
@@ -1694,25 +1695,30 @@
         "id": 237,
         "raw": "[curtain(direction = 2,fillfrom = 0.05,fillto = 0.05,fadetime=0.01)]",
         "type": "curtain",
-        "fadetime": 0.01
+        "direction": "2,fillfrom",
+        "fillto": "0.05,fadetime=0.01"
     },
     {
         "id": 238,
         "raw": "[curtain(direction = 6,fillfrom = 0.05,fillto = 0.05,fadetime=0.01)]",
         "type": "curtain",
-        "fadetime": 0.01
+        "direction": "6,fillfrom",
+        "fillto": "0.05,fadetime=0.01"
     },
     {
         "id": 239,
         "raw": "[curtain(direction = 0,fillfrom = 0.15,fillto = 0.15,fadetime=0.01)]",
         "type": "curtain",
-        "fadetime": 0.01
+        "direction": "0,fillfrom",
+        "fillto": "0.15,fadetime=0.01"
     },
     {
         "id": 240,
         "raw": "[curtain(direction = 4,fillfrom = 0.15,fillto = 0.15,fadetime=0.01, block = true)]",
         "type": "curtain",
-        "fadetime": "0.01,"
+        "direction": "4,fillfrom",
+        "fillto": "0.15,fadetime=0.01,",
+        "block": true
     },
     {
         "id": 241,
@@ -1816,25 +1822,30 @@
         "id": 254,
         "raw": "[curtain(direction = 2,fillfrom = 0.05,fillto = 0.05,fadetime=0.01)]",
         "type": "curtain",
-        "fadetime": 0.01
+        "direction": "2,fillfrom",
+        "fillto": "0.05,fadetime=0.01"
     },
     {
         "id": 255,
         "raw": "[curtain(direction = 6,fillfrom = 0.05,fillto = 0.05,fadetime=0.01)]",
         "type": "curtain",
-        "fadetime": 0.01
+        "direction": "6,fillfrom",
+        "fillto": "0.05,fadetime=0.01"
     },
     {
         "id": 256,
         "raw": "[curtain(direction = 0,fillfrom = 0.15,fillto = 0.15,fadetime=0.01)]",
         "type": "curtain",
-        "fadetime": 0.01
+        "direction": "0,fillfrom",
+        "fillto": "0.15,fadetime=0.01"
     },
     {
         "id": 257,
         "raw": "[curtain(direction = 4,fillfrom = 0.15,fillto = 0.15,fadetime=0.01, block = true)]",
         "type": "curtain",
-        "fadetime": "0.01,"
+        "direction": "4,fillfrom",
+        "fillto": "0.15,fadetime=0.01,",
+        "block": true
     },
     {
         "id": 258,
@@ -1931,25 +1942,30 @@
         "id": 270,
         "raw": "[curtain(direction = 2,fillfrom = 0.05,fillto = 0.05,fadetime=0.01)]",
         "type": "curtain",
-        "fadetime": 0.01
+        "direction": "2,fillfrom",
+        "fillto": "0.05,fadetime=0.01"
     },
     {
         "id": 271,
         "raw": "[curtain(direction = 6,fillfrom = 0.05,fillto = 0.05,fadetime=0.01)]",
         "type": "curtain",
-        "fadetime": 0.01
+        "direction": "6,fillfrom",
+        "fillto": "0.05,fadetime=0.01"
     },
     {
         "id": 272,
         "raw": "[curtain(direction = 0,fillfrom = 0.15,fillto = 0.15,fadetime=0.01)]",
         "type": "curtain",
-        "fadetime": 0.01
+        "direction": "0,fillfrom",
+        "fillto": "0.15,fadetime=0.01"
     },
     {
         "id": 273,
         "raw": "[curtain(direction = 4,fillfrom = 0.15,fillto = 0.15,fadetime=0.01, block = true)]",
         "type": "curtain",
-        "fadetime": "0.01,"
+        "direction": "4,fillfrom",
+        "fillto": "0.15,fadetime=0.01,",
+        "block": true
     },
     {
         "id": 274,
@@ -2062,25 +2078,30 @@
         "id": 288,
         "raw": "[curtain(direction = 2,fillfrom = 0.05,fillto = 0.05,fadetime=0.01)]",
         "type": "curtain",
-        "fadetime": 0.01
+        "direction": "2,fillfrom",
+        "fillto": "0.05,fadetime=0.01"
     },
     {
         "id": 289,
         "raw": "[curtain(direction = 6,fillfrom = 0.05,fillto = 0.05,fadetime=0.01)]",
         "type": "curtain",
-        "fadetime": 0.01
+        "direction": "6,fillfrom",
+        "fillto": "0.05,fadetime=0.01"
     },
     {
         "id": 290,
         "raw": "[curtain(direction = 0,fillfrom = 0.15,fillto = 0.15,fadetime=0.01)]",
         "type": "curtain",
-        "fadetime": 0.01
+        "direction": "0,fillfrom",
+        "fillto": "0.15,fadetime=0.01"
     },
     {
         "id": 291,
         "raw": "[curtain(direction = 4,fillfrom = 0.15,fillto = 0.15,fadetime=0.01, block = true)]",
         "type": "curtain",
-        "fadetime": "0.01,"
+        "direction": "4,fillfrom",
+        "fillto": "0.15,fadetime=0.01,",
+        "block": true
     },
     {
         "id": 292,
@@ -2422,6 +2443,7 @@
         "id": 336,
         "raw": "[charslot(slot = \"m\", posfrom=\"0,0\", posto=\"-200,0\", afrom=1, ato=0, duration=1)]",
         "type": "charslot",
+        "slot": "m",
         "posfrom": "0,0",
         "posto": "-200,0",
         "afrom": "1,",

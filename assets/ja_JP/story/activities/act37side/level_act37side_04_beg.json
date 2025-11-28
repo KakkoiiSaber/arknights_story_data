@@ -73,10 +73,13 @@
         "type": "dialog_marker"
     },
     {
-        "id": 11,
+        "id": "at1",
         "raw": "[animtext(id = \"at1\", name = \"group_location_stamp\", style=\"avg_both\", pos = \"-400,-200\", block = false)]<p=1>パブ「テンパイント」</><p=2>1098年12月21日 p.m. 5:05</>",
         "type": "anim_text",
+        "name": "group_location_stamp",
         "style": "avg_both",
+        "pos": "-400,-200",
+        "block": false,
         "content": "<p=1>パブ「テンパイント」</><p=2>1098年12月21日 p.m. 5:05</>"
     },
     {
@@ -913,6 +916,9 @@
         "id": 131,
         "raw": "[charslot(slot = \"m\", posfrom = \"0,0\", posto = \"0,-200\",afrom=0,ato=1,duration =0,focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "posfrom": "0,0",
+        "posto": "0,-200",
         "afrom": "0,ato=1,duration",
         "focus": "m"
     },
@@ -959,6 +965,9 @@
         "id": 138,
         "raw": "[charslot(slot = \"m\", posfrom = \"0,0\", posto = \"0,-200\",afrom=0,ato=1,duration =0,focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "posfrom": "0,0",
+        "posto": "0,-200",
         "afrom": "0,ato=1,duration",
         "focus": "m"
     },
@@ -1258,6 +1267,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>あの日、吾輩はヴィーナの後について、ドアを開けてもらった。だって吾輩はつい癖で蹴り開けてしまうから。</i>\", x=300,y=240,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>あの日、吾輩はヴィーナの後について、ドアを開けてもらった。だって吾輩はつい癖で蹴り開けてしまうから。</i>",
         "x": "300,y=240,",
         "alignment": "left",
@@ -1269,7 +1279,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>グラスゴーがオークタリッグ区に場を荒らしに行くことは決してない。決して。</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>グラスゴーがオークタリッグ区に場を荒らしに行くことは決してない。決して。</i>"
+        "multi": "true,",
+        "text": "\\n<i>グラスゴーがオークタリッグ区に場を荒らしに行くことは決してない。決して。</i>",
+        "block": true
     },
     {
         "id": "st1",
@@ -1287,6 +1299,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>今回はただ模範軍の仲間と酒を飲むだけだとヴィーナは言っていた。でも実際には、きっとたくさんのことを考えているのだと分かっていた。</i>\", x=300,y=240,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>今回はただ模範軍の仲間と酒を飲むだけだとヴィーナは言っていた。でも実際には、きっとたくさんのことを考えているのだと分かっていた。</i>",
         "x": "300,y=240,",
         "alignment": "left",
@@ -1298,13 +1311,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>彼女はいくつかの工場の閉鎖を手配し、次の冬に備えて備蓄した精錬源石をどのように分配するか計画を立てた。</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>彼女はいくつかの工場の閉鎖を手配し、次の冬に備えて備蓄した精錬源石をどのように分配するか計画を立てた。</i>"
+        "multi": "true,",
+        "text": "\\n<i>彼女はいくつかの工場の閉鎖を手配し、次の冬に備えて備蓄した精錬源石をどのように分配するか計画を立てた。</i>",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>でもヴィーナの備忘録の最後には、きっと一つの単語――「模範軍」――吾輩たちの旧友があるんだ。</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>でもヴィーナの備忘録の最後には、きっと一つの単語――「模範軍」――吾輩たちの旧友があるんだ。</i>"
+        "multi": "true,",
+        "text": "\\n<i>でもヴィーナの備忘録の最後には、きっと一つの単語――「模範軍」――吾輩たちの旧友があるんだ。</i>",
+        "block": true
     },
     {
         "id": "st1",
@@ -1576,6 +1593,8 @@
         "r": "0,",
         "g": "0,",
         "b": "0,",
+        "style": "slider",
+        "inverse": "true,",
         "fadetime": "2,",
         "block": true
     },
@@ -1958,6 +1977,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>吾輩はシアラー少尉とそこまで気が合うわけではない。長い間、自分の彼に対するイメージをヴィーナに殴られてふらふらだった姿にとどめようとしていた。</i>\", x=300,y=240,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>吾輩はシアラー少尉とそこまで気が合うわけではない。長い間、自分の彼に対するイメージをヴィーナに殴られてふらふらだった姿にとどめようとしていた。</i>",
         "x": "300,y=240,",
         "alignment": "left",
@@ -1969,13 +1989,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>少し頑固だけど、まあ冷静で頼れる軍医。</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>少し頑固だけど、まあ冷静で頼れる軍医。</i>"
+        "multi": "true,",
+        "text": "\\n<i>少し頑固だけど、まあ冷静で頼れる軍医。</i>",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>外科医としての両手は、戦場で多くの人を死から引き戻した。</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>外科医としての両手は、戦場で多くの人を死から引き戻した。</i>"
+        "multi": "true,",
+        "text": "\\n<i>外科医としての両手は、戦場で多くの人を死から引き戻した。</i>",
+        "block": true
     },
     {
         "id": "st1",
@@ -2074,6 +2098,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>でも彼が負傷した箇所は絶対に手ではない、吾輩ははっきりと覚えている。</i>\", x=300,y=240,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>でも彼が負傷した箇所は絶対に手ではない、吾輩ははっきりと覚えている。</i>",
         "x": "300,y=240,",
         "alignment": "left",
@@ -2085,13 +2110,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>それに何にもない感じで座っていたから、デルフィーンちゃんが提供する支援で順調に回復したものだと思っていた。</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>それに何にもない感じで座っていたから、デルフィーンちゃんが提供する支援で順調に回復したものだと思っていた。</i>"
+        "multi": "true,",
+        "text": "\\n<i>それに何にもない感じで座っていたから、デルフィーンちゃんが提供する支援で順調に回復したものだと思っていた。</i>",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>だけど彼の言う通り、ロンディニウムに帰るために、吾輩たちは確かに激戦を潜り抜けてきた。</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>だけど彼の言う通り、ロンディニウムに帰るために、吾輩たちは確かに激戦を潜り抜けてきた。</i>"
+        "multi": "true,",
+        "text": "\\n<i>だけど彼の言う通り、ロンディニウムに帰るために、吾輩たちは確かに激戦を潜り抜けてきた。</i>",
+        "block": true
     },
     {
         "id": "st1",
@@ -2163,10 +2192,13 @@
         "type": "dialog_marker"
     },
     {
-        "id": 304,
+        "id": "at1",
         "raw": "[animtext(id = \"at1\", name = \"group_location_stamp\", style=\"avg_both\", pos = \"-400,-200\", block = false)]<p=1>城壁の下</><p=2>1098年9月25日 a.m. 3:03</>",
         "type": "anim_text",
+        "name": "group_location_stamp",
         "style": "avg_both",
+        "pos": "-400,-200",
+        "block": false,
         "content": "<p=1>城壁の下</><p=2>1098年9月25日 a.m. 3:03</>"
     },
     {
@@ -2915,6 +2947,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>実のところ、戦場で起きる色んなことを吾輩はあまり分かっていない。静と動、勝利と敗北、全部があまりに早く発生する。</i>\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>実のところ、戦場で起きる色んなことを吾輩はあまり分かっていない。静と動、勝利と敗北、全部があまりに早く発生する。</i>",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2926,7 +2959,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>連合軍が都市を包囲して十日近くが経った後、連合軍陣地からいち早く離脱していた「ガストレル」号は、突然自らの駐屯地を離れて連合軍陣地の中心に無理やり停船した。</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>連合軍が都市を包囲して十日近くが経った後、連合軍陣地からいち早く離脱していた「ガストレル」号は、突然自らの駐屯地を離れて連合軍陣地の中心に無理やり停船した。</i>"
+        "multi": "true,",
+        "text": "\\n<i>連合軍が都市を包囲して十日近くが経った後、連合軍陣地からいち早く離脱していた「ガストレル」号は、突然自らの駐屯地を離れて連合軍陣地の中心に無理やり停船した。</i>",
+        "block": true
     },
     {
         "id": "st1",
@@ -2937,6 +2972,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>あの日、連合軍の通信にあの長らく沈黙を続けていた老公爵の声が再び響いた――</i>\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>あの日、連合軍の通信にあの長らく沈黙を続けていた老公爵の声が再び響いた――</i>",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2948,13 +2984,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>「『ガストレル』号の意志が帝国の栄光を取り戻す。」</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>「『ガストレル』号の意志が帝国の栄光を取り戻す。」</i>"
+        "multi": "true,",
+        "text": "\\n<i>「『ガストレル』号の意志が帝国の栄光を取り戻す。」</i>",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>それから、砲火が再び鳴り響いた……</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>それから、砲火が再び鳴り響いた……</i>"
+        "multi": "true,",
+        "text": "\\n<i>それから、砲火が再び鳴り響いた……</i>",
+        "block": true
     },
     {
         "id": "st1",
@@ -3028,6 +3068,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>吾輩たちの城壁に向けて、ためらいなく撃ち込んだんだ。</i>\", x=300,y=340,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>吾輩たちの城壁に向けて、ためらいなく撃ち込んだんだ。</i>",
         "x": "300,y=340,",
         "alignment": "left",
@@ -3141,10 +3182,13 @@
         "type": "dialog_marker"
     },
     {
-        "id": 438,
+        "id": "at1",
         "raw": "[animtext(id = \"at1\", name = \"group_location_stamp\", style=\"avg_both\", pos = \"-400,-200\", block = false)]<p=1>城壁の下</><p=2>1098年9月25日 a.m. 7:33</>",
         "type": "anim_text",
+        "name": "group_location_stamp",
         "style": "avg_both",
+        "pos": "-400,-200",
+        "block": false,
         "content": "<p=1>城壁の下</><p=2>1098年9月25日 a.m. 7:33</>"
     },
     {
@@ -3552,6 +3596,8 @@
         "r": "0,",
         "g": "0,",
         "b": "0,",
+        "style": "slider",
+        "inverse": "true,",
         "fadetime": "1,",
         "block": true
     },
@@ -3631,7 +3677,8 @@
         "id": 506,
         "raw": "[bgeffect(name=\"$eb_eblana_attack\",layer = 1)]",
         "type": "bg_effect",
-        "name": "$eb_eblana_attack"
+        "name": "$eb_eblana_attack",
+        "layer": 1
     },
     {
         "id": 507,
@@ -3712,6 +3759,8 @@
         "r": "0,",
         "g": "0,",
         "b": "0,",
+        "style": "slider",
+        "inverse": "true,",
         "fadetime": "1,",
         "block": true
     },
@@ -3798,7 +3847,8 @@
         "id": 529,
         "raw": "[bgeffect(name=\"$eb_deathburning\",layer = 1)]",
         "type": "bg_effect",
-        "name": "$eb_deathburning"
+        "name": "$eb_deathburning",
+        "layer": 1
     },
     {
         "id": 530,
@@ -3808,6 +3858,8 @@
         "r": "0,",
         "g": "0,",
         "b": "0,",
+        "style": "slider",
+        "inverse": "true,",
         "fadetime": "1,",
         "block": true
     },
@@ -3919,6 +3971,8 @@
         "r": "0,",
         "g": "0,",
         "b": "0,",
+        "style": "slider",
+        "inverse": "true,",
         "fadetime": "1,",
         "block": true
     },

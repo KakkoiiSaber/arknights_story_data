@@ -599,10 +599,13 @@
         "time": 1
     },
     {
-        "id": 86,
+        "id": "at1",
         "raw": "[animtext(id = \"at1\", name = \"group_location_stamp\", style=\"avg_only_medium\", pos = \"-400,-200\", block = false)]<p=2>“荣光”号甲板</>",
         "type": "anim_text",
+        "name": "group_location_stamp",
         "style": "avg_only_medium",
+        "pos": "-400,-200",
+        "block": false,
         "content": "<p=2>“荣光”号甲板</>"
     },
     {
@@ -1470,7 +1473,9 @@
     {
         "id": 205,
         "raw": "[bgeffect(name = \"$eb_lightsnow\" ,layer = 1)]",
-        "type": "bg_effect"
+        "type": "bg_effect",
+        "name": "$eb_lightsnow",
+        "layer": 1
     },
     {
         "id": 206,
@@ -1483,13 +1488,15 @@
         "id": 207,
         "raw": "[curtain(direction = 0,fillfrom = 0.01,fillto = 0.2,fadetime=1)]",
         "type": "curtain",
-        "fadetime": 1
+        "direction": "0,fillfrom",
+        "fillto": "0.2,fadetime=1"
     },
     {
         "id": 208,
         "raw": "[curtain(direction = 4,fillfrom = 0.01,fillto = 0.2,fadetime=1)]",
         "type": "curtain",
-        "fadetime": 1
+        "direction": "4,fillfrom",
+        "fillto": "0.2,fadetime=1"
     },
     {
         "id": 209,
@@ -1787,19 +1794,23 @@
     {
         "id": 243,
         "raw": "[bgeffect(layer =1, fadetime = 2.5)]",
-        "type": "bg_effect"
+        "type": "bg_effect",
+        "layer": "1,",
+        "fadetime": 2.5
     },
     {
         "id": 244,
         "raw": "[curtain(direction = 0,fillfrom = 0.2,fillto = 0.01,fadetime=2.5)]",
         "type": "curtain",
-        "fadetime": 2.5
+        "direction": "0,fillfrom",
+        "fillto": "0.01,fadetime=2.5"
     },
     {
         "id": 245,
         "raw": "[curtain(direction = 4,fillfrom = 0.2,fillto = 0.01,fadetime=2.5)]",
         "type": "curtain",
-        "fadetime": 2.5
+        "direction": "4,fillfrom",
+        "fillto": "0.01,fadetime=2.5"
     },
     {
         "id": 246,
@@ -2081,6 +2092,8 @@
         "r": "0,",
         "g": "0,",
         "b": "0,",
+        "style": "slider",
+        "inverse": "true,",
         "fadetime": "2,",
         "block": true
     },
@@ -2116,6 +2129,8 @@
         "r": "0,",
         "g": "0,",
         "b": "0,",
+        "style": "slider",
+        "inverse": "true,",
         "fadetime": "2,",
         "block": true
     },

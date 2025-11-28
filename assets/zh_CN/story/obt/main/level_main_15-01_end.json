@@ -134,7 +134,11 @@
         "id": 16,
         "raw": "[Effect(name=\"$e_bladeline_01_large\",rox =20, roy =20, roz =292, layer = 1)]",
         "type": "effect",
-        "name": "$e_bladeline_01_large"
+        "name": "$e_bladeline_01_large",
+        "rox": "20,",
+        "roy": "20,",
+        "roz": "292,",
+        "layer": 1
     },
     {
         "id": 17,
@@ -802,10 +806,13 @@
         "time": 1
     },
     {
-        "id": 106,
+        "id": "at1",
         "raw": "[animtext(id = \"at1\", name = \"group_location_stamp\", style=\"avg_both\", pos = \"-400,-200\", block = false)]<p=1>圣王会西部大堂地下王座厅</><p=2>1098年秋</>",
         "type": "anim_text",
+        "name": "group_location_stamp",
         "style": "avg_both",
+        "pos": "-400,-200",
+        "block": false,
         "content": "<p=1>圣王会西部大堂地下王座厅</><p=2>1098年秋</>"
     },
     {
@@ -1476,7 +1483,11 @@
         "id": 209,
         "raw": "[charslot(slot = \"right\", name = \"avg_4132_ascln_1#4$1\",posfrom = \"200,0\", posto = \"0,0\",duration = 0.5,afrom=0.5,ato=0.5,focus=\"m\")]",
         "type": "charslot",
-        "afrom": "0.5,ato=0.5,focus=\"m\""
+        "slot": "right",
+        "name": "avg_4132_ascln_1#4$1.png",
+        "posfrom": "200,0",
+        "posto": "0,0",
+        "duration": "0.5,afrom=0.5,ato=0.5,focus=\"m\""
     },
     {
         "id": 210,
@@ -1639,6 +1650,8 @@
         "id": 230,
         "raw": "[charslot(slot = \"m\", name = \"avg_4132_ascln_1#4$1\",afrom=0.5,ato=0,duration=1)]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_4132_ascln_1#4$1.png",
         "afrom": "0.5,ato=0,duration=1"
     },
     {
@@ -1761,7 +1774,9 @@
     {
         "id": 247,
         "raw": "[charslot(slot = \"m\", focus = \"n\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "focus": "n"
     },
     {
         "id": 248,
@@ -2800,7 +2815,9 @@
     {
         "id": 398,
         "raw": "[charslot(slot = \"m\", focus = \"n\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "focus": "n"
     },
     {
         "id": 399,
@@ -2956,7 +2973,9 @@
     {
         "id": 421,
         "raw": "[charslot(slot = \"m\", focus = \"n\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "focus": "n"
     },
     {
         "id": 422,
@@ -3119,6 +3138,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"“在那片充斥着真相与未知的海中，我看到了......\", x=230,y=270, alignment=\"left\", size=24, delay=0.04, width=800,block = true,duration=0.5)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "“在那片充斥着真相与未知的海中，我看到了......",
         "x": "230,y=270,",
         "alignment": "left",
@@ -3131,6 +3151,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n“看到了诸神死去前的片刻幻影，看到了你所背负的痛苦根源。\", x=300,y=270, alignment=\"left\", size=24, delay=0.04, width=700,block = true,duration=0.5)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "\\n“看到了诸神死去前的片刻幻影，看到了你所背负的痛苦根源。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -3143,6 +3164,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n“我理解了那个已经死去的你......可现在，只剩下我，在同你对话——\", x=300,y=270, alignment=\"left\", size=24, delay=0.04, width=700,block = true,duration=0.5)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "\\n“我理解了那个已经死去的你......可现在，只剩下我，在同你对话——",
         "x": "300,y=270,",
         "alignment": "left",
@@ -3155,6 +3177,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n“在我安眠于此之前，我会毁灭你，为萨卡兹铸造阶梯——\", x=300,y=270, alignment=\"left\", size=24, delay=0.04, width=700,block = true,duration=0.5)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "\\n“在我安眠于此之前，我会毁灭你，为萨卡兹铸造阶梯——",
         "x": "300,y=270,",
         "alignment": "left",
@@ -3167,6 +3190,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n“不会再有人可以玩弄萨卡兹的命运，它将再次属于我们自己，{@nickname}。”\", x=300,y=270, alignment=\"left\", size=24, delay=0.04, width=700,block = true,duration=0.5)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "\\n“不会再有人可以玩弄萨卡兹的命运，它将再次属于我们自己，{@nickname}。”",
         "x": "300,y=270,",
         "alignment": "left",
@@ -3307,6 +3331,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<color=#000000>你做到了，Dr.{@nickname}。</color>\", x=250,y=340, alignment=\"center\", duration=1, size=24, delay=0.04, width=800)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<color=#000000>你做到了，Dr.{@nickname}。</color>",
         "x": "250,y=340,",
         "alignment": "center",
@@ -3618,7 +3643,9 @@
     {
         "id": 513,
         "raw": "[charslot(slot = \"m\", focus = \"n\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "focus": "n"
     },
     {
         "id": 514,
@@ -3664,7 +3691,9 @@
     {
         "id": 520,
         "raw": "[charslot(slot = \"m\", focus = \"n\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "focus": "n"
     },
     {
         "id": 521,
@@ -3701,7 +3730,9 @@
     {
         "id": 526,
         "raw": "[charslot(slot = \"m\", focus = \"n\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "focus": "n"
     },
     {
         "id": 527,
@@ -3779,7 +3810,9 @@
     {
         "id": 538,
         "raw": "[charslot(slot = \"m\", focus = \"n\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "focus": "n"
     },
     {
         "id": 539,
@@ -3851,7 +3884,9 @@
     {
         "id": 549,
         "raw": "[charslot(slot = \"m\", focus = \"n\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "focus": "n"
     },
     {
         "id": 550,
@@ -4092,7 +4127,9 @@
     {
         "id": 586,
         "raw": "[charslot(slot = \"m\", focus = \"n\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "focus": "n"
     },
     {
         "id": 587,
@@ -4215,7 +4252,9 @@
     {
         "id": 604,
         "raw": "[charslot(slot = \"m\", focus = \"n\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "focus": "n"
     },
     {
         "id": 605,
@@ -4334,7 +4373,9 @@
     {
         "id": 622,
         "raw": "[charslot(slot = \"m\", focus = \"n\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "focus": "n"
     },
     {
         "id": 623,
@@ -4411,7 +4452,9 @@
     {
         "id": 634,
         "raw": "[charslot(slot = \"m\", focus = \"n\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "focus": "n"
     },
     {
         "id": 635,
@@ -4468,7 +4511,9 @@
     {
         "id": 643,
         "raw": "[charslot(slot = \"m\", focus = \"n\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "focus": "n"
     },
     {
         "id": 644,
@@ -4523,7 +4568,9 @@
     {
         "id": 652,
         "raw": "[charslot(slot = \"m\", focus = \"n\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "focus": "n"
     },
     {
         "id": 653,
@@ -4567,7 +4614,9 @@
     {
         "id": 659,
         "raw": "[charslot(slot = \"m\", focus = \"n\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "focus": "n"
     },
     {
         "id": 660,
@@ -4632,7 +4681,9 @@
     {
         "id": 669,
         "raw": "[charslot(slot = \"m\", focus = \"n\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "focus": "n"
     },
     {
         "id": 670,
@@ -4676,7 +4727,9 @@
     {
         "id": 676,
         "raw": "[charslot(slot = \"m\", focus = \"n\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "focus": "n"
     },
     {
         "id": 677,
@@ -4707,7 +4760,9 @@
     {
         "id": 681,
         "raw": "[charslot(slot = \"m\", focus = \"n\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "focus": "n"
     },
     {
         "id": 682,
@@ -4972,10 +5027,13 @@
         "type": "dialog_marker"
     },
     {
-        "id": 717,
+        "id": "at1",
         "raw": "[animtext(id = \"at1\", name = \"group_location_stamp\", style=\"avg_both\", pos = \"-400,-200\", block = false)]<p=1>圣王会西部大堂地下王座厅</><p=2>卡兹戴尔“英雄时代”落幕之时</>",
         "type": "anim_text",
+        "name": "group_location_stamp",
         "style": "avg_both",
+        "pos": "-400,-200",
+        "block": false,
         "content": "<p=1>圣王会西部大堂地下王座厅</><p=2>卡兹戴尔“英雄时代”落幕之时</>"
     },
     {
@@ -5146,14 +5204,20 @@
         "raw": "[cgitem(image=\"cgitem_60_i01\", style=\"cg\",afrom = 0., ato = 1, aduration = 3,layer = 1)]",
         "type": "cg_item",
         "image": "cgitem_60_i01",
-        "style": "cg"
+        "style": "cg",
+        "afrom": "0.,",
+        "ato": "1,",
+        "aduration": "3,layer"
     },
     {
         "id": 743,
         "raw": "[cgitem(image=\"cgitem_60_i01\", style=\"cg\",layer = 1,sfrom = 1.5, sto = 1, sduration = 40)]",
         "type": "cg_item",
         "image": "cgitem_60_i01",
-        "style": "cg"
+        "style": "cg",
+        "layer": "1,sfrom",
+        "sto": "1,",
+        "sduration": 40
     },
     {
         "id": 744,
@@ -5658,7 +5722,9 @@
     {
         "id": 813,
         "raw": "[charslot(slot = \"m\", focus = \"n\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "focus": "n"
     },
     {
         "id": 814,

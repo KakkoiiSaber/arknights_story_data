@@ -73,7 +73,8 @@
         "id": 10,
         "raw": "[Effect(name=\"$e_sand\",layer = 1)]",
         "type": "effect",
-        "name": "$e_sand"
+        "name": "$e_sand",
+        "layer": 1
     },
     {
         "id": 11,
@@ -709,7 +710,9 @@
     {
         "id": 103,
         "raw": "[charslot(slot = \"m\", focus = \"n\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "focus": "n"
     },
     {
         "id": 104,
@@ -1090,7 +1093,9 @@
     {
         "id": 157,
         "raw": "[charslot(slot = \"m\", focus = \"n\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "focus": "n"
     },
     {
         "id": 158,
@@ -1120,7 +1125,9 @@
     {
         "id": 162,
         "raw": "[charslot(slot = \"m\", focus = \"n\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "focus": "n"
     },
     {
         "id": 163,
@@ -1286,7 +1293,9 @@
     {
         "id": 185,
         "raw": "[charslot(slot = \"m\", focus = \"n\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "focus": "n"
     },
     {
         "id": 186,
@@ -1353,7 +1362,11 @@
     {
         "id": 194,
         "raw": "[charslot(slot = \"m\",posfrom = \"0,0\", posto = \"-50,-40\",duration = 0.5)]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "posfrom": "0,0",
+        "posto": "-50,-40",
+        "duration": 0.5
     },
     {
         "id": 195,
@@ -1455,7 +1468,10 @@
         "id": 209,
         "raw": "[charslot(slot = \"m\",posfrom = \"0,-50\", posto = \"0,0\",duration = 1,name=\"char_281_popka_1#1\")]",
         "type": "charslot",
-        "name": "char_281_popka_1#1.png"
+        "slot": "m",
+        "posfrom": "0,-50",
+        "posto": "0,0",
+        "duration": "1,name=\"char_281_popka_1#1\""
     },
     {
         "id": 210,
@@ -1507,7 +1523,8 @@
         "raw": "[cgitem(image=\"cgitem_60_i07_1\", style=\"cg\",layer = 2)]",
         "type": "cg_item",
         "image": "cgitem_60_i07_1",
-        "style": "cg"
+        "style": "cg",
+        "layer": 2
     },
     {
         "id": 218,
@@ -1532,7 +1549,12 @@
         "raw": "[cgitem(image=\"cgitem_60_i07_2\", style=\"cg\", afrom = 0, ato = 1, aduration = 3,layer = 1,pfrom = \"0,-22\",pto = \"0,-22\")]",
         "type": "cg_item",
         "image": "cgitem_60_i07_2",
-        "style": "cg"
+        "style": "cg",
+        "afrom": "0,",
+        "ato": "1,",
+        "aduration": "3,layer",
+        "pfrom": "0,-22",
+        "pto": "0,-22"
     },
     {
         "id": 221,
@@ -1636,7 +1658,12 @@
         "raw": "[cgitem(image=\"cgitem_60_i07_2\", style=\"cg\", afrom = 0, ato = 1, aduration = 2,layer = 1,pfrom = \"0,-22\",pto = \"0,-22\")]",
         "type": "cg_item",
         "image": "cgitem_60_i07_2",
-        "style": "cg"
+        "style": "cg",
+        "afrom": "0,",
+        "ato": "1,",
+        "aduration": "2,layer",
+        "pfrom": "0,-22",
+        "pto": "0,-22"
     },
     {
         "id": 236,
@@ -1736,7 +1763,10 @@
         "raw": "[cgitem(image=\"cgitem_60_i07_2\", style=\"cg\", layer = 1,pfrom = \"0,-22\",pto = \"-40,-22\", pduration = 30)]",
         "type": "cg_item",
         "image": "cgitem_60_i07_2",
-        "style": "cg"
+        "style": "cg",
+        "layer": "1,pfrom",
+        "pto": "-40,-22",
+        "pduration": 30
     },
     {
         "id": 252,
@@ -2073,7 +2103,9 @@
     {
         "id": 300,
         "raw": "[charslot(slot = \"m\", focus = \"n\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "focus": "n"
     },
     {
         "id": 301,
@@ -2188,8 +2220,14 @@
         "id": 318,
         "raw": "[interlude(maskid = \"group_interclude_vertical_common\" ,size = \"290,760\", style=0 ,switch = true, offset = \"0,0\", channel = 3,tsfrom = \"0,1\", tsto=\"1,1\",tsduration = 0.5)]",
         "type": "interlude",
+        "maskid": "group_interclude_vertical_common",
+        "size": "290,760",
         "style": 0,
-        "tsto": "1,1"
+        "switch": "true,",
+        "offset": "0,0",
+        "channel": "3,tsfrom",
+        "tsto": "1,1",
+        "tsduration": 0.5
     },
     {
         "id": 319,
@@ -2234,6 +2272,9 @@
         "id": 325,
         "raw": "[interlude(channel = 3, clear = true,tsduration = 0.5,tsfrom = \"1,1\", tsto=\"0,1\")]",
         "type": "interlude",
+        "channel": "3,",
+        "clear": "true,tsduration",
+        "tsfrom": "1,1",
         "tsto": "0,1"
     },
     {
@@ -2323,6 +2364,8 @@
         "id": 338,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1726_1#2$1\", bstart=0.5,bend=0.8,duration=1)]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1726_1#2$1.png",
         "bstart": "0.5,bend=0.8,duration=1"
     },
     {
@@ -2353,6 +2396,8 @@
         "id": 343,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1726_1#2$1\",duration=1)]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1726_1#2$1.png",
         "duration": 1
     },
     {
@@ -2396,7 +2441,11 @@
     {
         "id": 350,
         "raw": "[charslot(slot = \"l\",posfrom = \"0,0\", posto = \"150,0\",duration = 0.3)]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "l",
+        "posfrom": "0,0",
+        "posto": "150,0",
+        "duration": 0.3
     },
     {
         "id": 351,
@@ -2414,6 +2463,9 @@
         "id": 352,
         "raw": "[charslot(slot = \"m\",posfrom = \"0,0\", posto = \"350,0\",duration=0.5,afrom=1,ato=0)]",
         "type": "charslot",
+        "slot": "m",
+        "posfrom": "0,0",
+        "posto": "350,0",
         "duration": "0.5,afrom=1,ato=0"
     },
     {
@@ -2443,12 +2495,15 @@
         "id": 357,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1726_1#2$1\",duration=0.5)]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1726_1#2$1.png",
         "duration": 0.5
     },
     {
         "id": 358,
         "raw": "[charslot(slot =\"m\", action=\"shake\", power=6, times=50, duration=0.5)]",
         "type": "charslot",
+        "slot": "m",
         "action": "shake",
         "power": "6,",
         "times": "50,",
@@ -2804,12 +2859,16 @@
         "id": 407,
         "raw": "[curtain(direction = 0,fillfrom = 0.1,fillto = 0.2, fadetime=0.1)]",
         "type": "curtain",
+        "direction": "0,fillfrom",
+        "fillto": "0.2,",
         "fadetime": 0.1
     },
     {
         "id": 408,
         "raw": "[curtain(direction = 4,fillfrom = 0.1,fillto = 0.2, fadetime=0.1)]",
         "type": "curtain",
+        "direction": "4,fillfrom",
+        "fillto": "0.2,",
         "fadetime": 0.1
     },
     {
@@ -2824,7 +2883,9 @@
         "id": 410,
         "raw": "[charslot(slot = \"m\",action=\"zoom\", poszoom = \"0.5,0.5\", scale=1.3,duration = 0)]",
         "type": "charslot",
+        "slot": "m",
         "action": "zoom",
+        "poszoom": "0.5,0.5",
         "scale": "1.3,duration"
     },
     {
@@ -2832,6 +2893,8 @@
         "raw": "[charslot(slot=\"m\",posfrom = \"50,0\", posto = \"0,0\",duration=2)]",
         "type": "charslot",
         "slot": "m",
+        "posfrom": "50,0",
+        "posto": "0,0",
         "duration": 2
     },
     {
@@ -2920,19 +2983,25 @@
         "id": 423,
         "raw": "[charslot(slot = \"m\",action=\"zoom\", poszoom = \"0.5,0.5\", scale=1,duration = 0.5)]",
         "type": "charslot",
+        "slot": "m",
         "action": "zoom",
+        "poszoom": "0.5,0.5",
         "scale": "1,duration"
     },
     {
         "id": 424,
         "raw": "[curtain(direction = 0,fillfrom = 0.2,fillto = 0, fadetime=0.5)]",
         "type": "curtain",
+        "direction": "0,fillfrom",
+        "fillto": "0,",
         "fadetime": 0.5
     },
     {
         "id": 425,
         "raw": "[curtain(direction = 4,fillfrom = 0.2,fillto = 0, fadetime=0.5)]",
         "type": "curtain",
+        "direction": "4,fillfrom",
+        "fillto": "0,",
         "fadetime": 0.5
     },
     {

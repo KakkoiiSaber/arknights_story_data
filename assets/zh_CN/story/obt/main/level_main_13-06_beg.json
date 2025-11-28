@@ -85,21 +85,35 @@
     {
         "id": 13,
         "raw": "[interlude(maskid = \"ui_cutin_mask_horizon\", style = 1, size = \"1500, 520\",offset = \"20,0\", channel = 2)]",
-        "type": "interlude"
+        "type": "interlude",
+        "maskid": "ui_cutin_mask_horizon",
+        "style": "1,",
+        "size": "1500, 520",
+        "offset": "20,0",
+        "channel": 2
     },
     {
         "id": 14,
         "raw": "[interlude(channel = 2, type = 2, name = \"bg_battlefield\", afrom = 0, ato = 1, aduration = 3, sfrom = \"1.2,1.2\", sto = \"1.2,1.2\", sduration = 0,block=true)]",
-        "type": "interlude",
-        "block": true
+        "type": "2,",
+        "channel": "2,",
+        "name": "bg_battlefield",
+        "afrom": "0,",
+        "ato": "1,",
+        "aduration": "3,",
+        "sfrom": "1.2,1.2",
+        "sto": "1.2,1.2",
+        "sduration": "0,block=true"
     },
     {
         "id": 15,
         "raw": "[interlude(channel = 2, type = 2, name = \"bg_battlefield\", pfrom=\"0,0\",pto=\"-80,0\", duration =30,block=false)]",
-        "type": "interlude",
+        "type": "2,",
+        "channel": "2,",
+        "name": "bg_battlefield",
         "pfrom": "0,0",
         "pto": "-80,0",
-        "block": false
+        "duration": "30,block=false"
     },
     {
         "id": 16,
@@ -122,6 +136,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"很荒唐，我们居然在这片战场上，这片拌满了骨殖、鲜血、烟尘与泥浆的战场上，追逐虚无的幻象。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "很荒唐，我们居然在这片战场上，这片拌满了骨殖、鲜血、烟尘与泥浆的战场上，追逐虚无的幻象。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -133,19 +148,25 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n那些幻象是我们唯一的线索。如巫妖所说，浮沉的历史碎片，就是它留下的辙痕。\",block = true)]",
         "type": "sticker",
-        "text": "\\n那些幻象是我们唯一的线索。如巫妖所说，浮沉的历史碎片，就是它留下的辙痕。"
+        "multi": "true,",
+        "text": "\\n那些幻象是我们唯一的线索。如巫妖所说，浮沉的历史碎片，就是它留下的辙痕。",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n我们穿行过一座座已经泯没的废墟，我们踏足了一段段无人铭记的崩塌。\",block = true)]",
         "type": "sticker",
-        "text": "\\n我们穿行过一座座已经泯没的废墟，我们踏足了一段段无人铭记的崩塌。"
+        "multi": "true,",
+        "text": "\\n我们穿行过一座座已经泯没的废墟，我们踏足了一段段无人铭记的崩塌。",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n这些景色很快就会消散，有不少次，我们只来得及抓到最后的一点残迹。\",block = true)]",
         "type": "sticker",
-        "text": "\\n这些景色很快就会消散，有不少次，我们只来得及抓到最后的一点残迹。"
+        "multi": "true,",
+        "text": "\\n这些景色很快就会消散，有不少次，我们只来得及抓到最后的一点残迹。",
+        "block": true
     },
     {
         "id": "st1",
@@ -155,18 +176,30 @@
     {
         "id": 23,
         "raw": "[interlude(channel = 2, type = 1, slot = \"m\", offset = \"170,0\", name = \"cutin_char_3\",sfrom = \"0.7,0.7\", sto = \"0.7,0.7\",  aduration = 2,block=false)]",
-        "type": "interlude",
-        "block": false
+        "type": "1,",
+        "channel": "2,",
+        "slot": "m",
+        "offset": "170,0",
+        "name": "cutin_char_3",
+        "sfrom": "0.7,0.7",
+        "sto": "0.7,0.7",
+        "aduration": "2,block=false"
     },
     {
         "id": 24,
         "raw": "[interlude(channel = 2, type = 1, slot = \"m\", pfrom = \"170,0\", pto = \"120,0\", duration = 40)]",
-        "type": "interlude"
+        "type": "1,",
+        "channel": "2,",
+        "slot": "m",
+        "pfrom": "170,0",
+        "pto": "120,0",
+        "duration": 40
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"我们找到了十七座血魔的战争法阵。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "我们找到了十七座血魔的战争法阵。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -178,13 +211,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n真正在这片战场上的法阵数量，恐怕还要数倍......乃至数十倍于这个数字。\",block = true)]",
         "type": "sticker",
-        "text": "\\n真正在这片战场上的法阵数量，恐怕还要数倍......乃至数十倍于这个数字。"
+        "multi": "true,",
+        "text": "\\n真正在这片战场上的法阵数量，恐怕还要数倍......乃至数十倍于这个数字。",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n毫无例外，都是最近一周内出现在这片战场上的。这种效率让人胆寒。\",block = true)]",
         "type": "sticker",
-        "text": "\\n毫无例外，都是最近一周内出现在这片战场上的。这种效率让人胆寒。"
+        "multi": "true,",
+        "text": "\\n毫无例外，都是最近一周内出现在这片战场上的。这种效率让人胆寒。",
+        "block": true
     },
     {
         "id": "st1",
@@ -195,6 +232,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"其中有两座，我们发现了队伍通过的痕迹，但根据泥印的深度，他们恐怕都不过是执行巡检、维修的任务。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "其中有两座，我们发现了队伍通过的痕迹，但根据泥印的深度，他们恐怕都不过是执行巡检、维修的任务。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -206,13 +244,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n我十分怀疑摧毁这些法阵的意义，就算毁去了几座，他们似乎也只要“摆放”上新的就行。\",block = true)]",
         "type": "sticker",
-        "text": "\\n我十分怀疑摧毁这些法阵的意义，就算毁去了几座，他们似乎也只要“摆放”上新的就行。"
+        "multi": "true,",
+        "text": "\\n我十分怀疑摧毁这些法阵的意义，就算毁去了几座，他们似乎也只要“摆放”上新的就行。",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n我越发确认，不论那东西是什么，我们都需要尽快掌控它。\",block = true)]",
         "type": "sticker",
-        "text": "\\n我越发确认，不论那东西是什么，我们都需要尽快掌控它。"
+        "multi": "true,",
+        "text": "\\n我越发确认，不论那东西是什么，我们都需要尽快掌控它。",
+        "block": true
     },
     {
         "id": "st1",
@@ -243,7 +285,8 @@
     {
         "id": 36,
         "raw": "[interlude(channel = 2,clear = true)]",
-        "type": "interlude"
+        "type": "interlude",
+        "channel": "2,clear"
     },
     {
         "id": 37,
@@ -497,6 +540,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"自从前几天的那场遭遇之后，W就一直心不在焉。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "自从前几天的那场遭遇之后，W就一直心不在焉。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -508,13 +552,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n我看到她在守夜时，对着火光发呆。\",block = true)]",
         "type": "sticker",
-        "text": "\\n我看到她在守夜时，对着火光发呆。"
+        "multi": "true,",
+        "text": "\\n我看到她在守夜时，对着火光发呆。",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n我帮不了她。她自己会想明白的。\",block = true)]",
         "type": "sticker",
-        "text": "\\n我帮不了她。她自己会想明白的。"
+        "multi": "true,",
+        "text": "\\n我帮不了她。她自己会想明白的。",
+        "block": true
     },
     {
         "id": "st1",
@@ -649,6 +697,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"我看着手中的地图，血魔法阵的位置都已经标了出来，一些零散的圆点。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "我看着手中的地图，血魔法阵的位置都已经标了出来，一些零散的圆点。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -660,19 +709,25 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n我又画了几笔，有刚才那座运输站点的位置，也有食腐者之王的军团营地。\",block = true)]",
         "type": "sticker",
-        "text": "\\n我又画了几笔，有刚才那座运输站点的位置，也有食腐者之王的军团营地。"
+        "multi": "true,",
+        "text": "\\n我又画了几笔，有刚才那座运输站点的位置，也有食腐者之王的军团营地。",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n这些都是曾经以相同的手段“摆放”过东西的地方。\",block = true)]",
         "type": "sticker",
-        "text": "\\n这些都是曾经以相同的手段“摆放”过东西的地方。"
+        "multi": "true,",
+        "text": "\\n这些都是曾经以相同的手段“摆放”过东西的地方。",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n它们之间一定有某种联系。\",block = true)]",
         "type": "sticker",
-        "text": "\\n它们之间一定有某种联系。"
+        "multi": "true,",
+        "text": "\\n它们之间一定有某种联系。",
+        "block": true
     },
     {
         "id": "st1",
@@ -683,6 +738,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"我扫过地图上的这些名字，丘陵、谷地、小片的森林，还有几片规模有限的池塘。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "我扫过地图上的这些名字，丘陵、谷地、小片的森林，还有几片规模有限的池塘。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -694,13 +750,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n也许是某种共性？也许是某些特殊的地理上的共同点？\",block = true)]",
         "type": "sticker",
-        "text": "\\n也许是某种共性？也许是某些特殊的地理上的共同点？"
+        "multi": "true,",
+        "text": "\\n也许是某种共性？也许是某些特殊的地理上的共同点？",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n我的目光停留在一个小镇的名字上，“布伦特伍德”。\",block = true)]",
         "type": "sticker",
-        "text": "\\n我的目光停留在一个小镇的名字上，“布伦特伍德”。"
+        "multi": "true,",
+        "text": "\\n我的目光停留在一个小镇的名字上，“布伦特伍德”。",
+        "block": true
     },
     {
         "id": "st1",
@@ -758,6 +818,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"我在布伦特伍德的位置上画了一个圈。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "我在布伦特伍德的位置上画了一个圈。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -974,6 +1035,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"W无聊地投来一枚石子。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "W无聊地投来一枚石子。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -985,13 +1047,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n她确实心情不好，要是往常，她扔来的该是枚手雷拉环。\",block = true)]",
         "type": "sticker",
-        "text": "\\n她确实心情不好，要是往常，她扔来的该是枚手雷拉环。"
+        "multi": "true,",
+        "text": "\\n她确实心情不好，要是往常，她扔来的该是枚手雷拉环。",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n石子在地图上滚动了几下，刚好挡住了我正在仔细观察的位置，我正想把它扫开——\",block = true)]",
         "type": "sticker",
-        "text": "\\n石子在地图上滚动了几下，刚好挡住了我正在仔细观察的位置，我正想把它扫开——"
+        "multi": "true,",
+        "text": "\\n石子在地图上滚动了几下，刚好挡住了我正在仔细观察的位置，我正想把它扫开——",
+        "block": true
     },
     {
         "id": "st1",
@@ -1002,6 +1068,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"布伦特伍德的背后不远处，有一片小小的山丘。这枚石子恰巧落在那些代表山丘的图标中间。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "布伦特伍德的背后不远处，有一片小小的山丘。这枚石子恰巧落在那些代表山丘的图标中间。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1150,6 +1217,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"山体幽深而漆黑。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "山体幽深而漆黑。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1161,13 +1229,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n我曾在维多利亚人的历史书中看到过一个譬喻。探究历史就是走进这么一座山洞之中，在黑暗中摸索岩壁上的纹理。\",block = true)]",
         "type": "sticker",
-        "text": "\\n我曾在维多利亚人的历史书中看到过一个譬喻。探究历史就是走进这么一座山洞之中，在黑暗中摸索岩壁上的纹理。"
+        "multi": "true,",
+        "text": "\\n我曾在维多利亚人的历史书中看到过一个譬喻。探究历史就是走进这么一座山洞之中，在黑暗中摸索岩壁上的纹理。",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n你其实什么也看不见，你只能通过这些些微的触感，来拼凑出一个“我们从何处来”的似是而非的结论。\",block = true)]",
         "type": "sticker",
-        "text": "\\n你其实什么也看不见，你只能通过这些些微的触感，来拼凑出一个“我们从何处来”的似是而非的结论。"
+        "multi": "true,",
+        "text": "\\n你其实什么也看不见，你只能通过这些些微的触感，来拼凑出一个“我们从何处来”的似是而非的结论。",
+        "block": true
     },
     {
         "id": "st1",
@@ -1178,6 +1250,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"这片大地对历史并不友好。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "这片大地对历史并不友好。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1189,13 +1262,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n源石矿脉几乎会同化地层中的一切有机物，甚至连骨骼都不放过。\",block = true)]",
         "type": "sticker",
-        "text": "\\n源石矿脉几乎会同化地层中的一切有机物，甚至连骨骼都不放过。"
+        "multi": "true,",
+        "text": "\\n源石矿脉几乎会同化地层中的一切有机物，甚至连骨骼都不放过。",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n考古学者们往往只能挖掘出一些被源石侵占殆尽的遗址，对着些金属残片苦思冥想。\",block = true)]",
         "type": "sticker",
-        "text": "\\n考古学者们往往只能挖掘出一些被源石侵占殆尽的遗址，对着些金属残片苦思冥想。"
+        "multi": "true,",
+        "text": "\\n考古学者们往往只能挖掘出一些被源石侵占殆尽的遗址，对着些金属残片苦思冥想。",
+        "block": true
     },
     {
         "id": "st1",
@@ -1206,6 +1283,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"但我们不同，我们是萨卡兹。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "但我们不同，我们是萨卡兹。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1217,19 +1295,25 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n我们回望的手段如此之多。曾有传言，寄宿在卡兹戴尔熔炉中的死魂灵们，偶尔会呢喃起某任魔王的丰功伟绩，或某任魔王的悲惨结局。\",block = true)]",
         "type": "sticker",
-        "text": "\\n我们回望的手段如此之多。曾有传言，寄宿在卡兹戴尔熔炉中的死魂灵们，偶尔会呢喃起某任魔王的丰功伟绩，或某任魔王的悲惨结局。"
+        "multi": "true,",
+        "text": "\\n我们回望的手段如此之多。曾有传言，寄宿在卡兹戴尔熔炉中的死魂灵们，偶尔会呢喃起某任魔王的丰功伟绩，或某任魔王的悲惨结局。",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n在我还小的时候，我总是日复一日地守在那永不熄灭的炉边，等待捕捉到哪怕一丝来自过去的回响。\",block = true)]",
         "type": "sticker",
-        "text": "\\n在我还小的时候，我总是日复一日地守在那永不熄灭的炉边，等待捕捉到哪怕一丝来自过去的回响。"
+        "multi": "true,",
+        "text": "\\n在我还小的时候，我总是日复一日地守在那永不熄灭的炉边，等待捕捉到哪怕一丝来自过去的回响。",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n但我听到的向来只有沉默。\",block = true)]",
         "type": "sticker",
-        "text": "\\n但我听到的向来只有沉默。"
+        "multi": "true,",
+        "text": "\\n但我听到的向来只有沉默。",
+        "block": true
     },
     {
         "id": "st1",
@@ -2711,6 +2795,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"那是什么？\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "那是什么？",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2722,7 +2807,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n山体在颤动......\",block = true)]",
         "type": "sticker",
-        "text": "\\n山体在颤动......"
+        "multi": "true,",
+        "text": "\\n山体在颤动......",
+        "block": true
     },
     {
         "id": "st1",
@@ -2783,6 +2870,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"不，是空间在颤动。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "不，是空间在颤动。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2804,7 +2892,8 @@
     {
         "id": 386,
         "raw": "[interlude(channel = 2,clear = true)]",
-        "type": "interlude"
+        "type": "interlude",
+        "channel": "2,clear"
     },
     {
         "id": 387,
@@ -2976,6 +3065,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"有那么一瞬间，我的眼前浮现出无数的画面。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "有那么一瞬间，我的眼前浮现出无数的画面。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2992,6 +3082,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"臃肿的帝王在宫殿中分崩离析，古老的血裔们割开手腕，供养新生的幼儿。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "臃肿的帝王在宫殿中分崩离析，古老的血裔们割开手腕，供养新生的幼儿。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -3003,13 +3094,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n炎魔的火焰烧干琥珀，青铜巨城下，鹿角的恶魔匍匐，献上遍布斫痕的柳木。\",block = true)]",
         "type": "sticker",
-        "text": "\\n炎魔的火焰烧干琥珀，青铜巨城下，鹿角的恶魔匍匐，献上遍布斫痕的柳木。"
+        "multi": "true,",
+        "text": "\\n炎魔的火焰烧干琥珀，青铜巨城下，鹿角的恶魔匍匐，献上遍布斫痕的柳木。",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n唯一的绳结自虚无中落下，随即分为无数条；红色皮肤的怪物斩断尖角，扎进自己的胸腔。\",block = true)]",
         "type": "sticker",
-        "text": "\\n唯一的绳结自虚无中落下，随即分为无数条；红色皮肤的怪物斩断尖角，扎进自己的胸腔。"
+        "multi": "true,",
+        "text": "\\n唯一的绳结自虚无中落下，随即分为无数条；红色皮肤的怪物斩断尖角，扎进自己的胸腔。",
+        "block": true
     },
     {
         "id": "st1",
@@ -3123,6 +3218,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"纷乱的碎片归为齐整，我看见，一座遥远的城。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "纷乱的碎片归为齐整，我看见，一座遥远的城。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -3134,13 +3230,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n平静，安详，还没有被装上轮子，也没有被嫉恨浸染。它美好得——哪怕在幻象之中——也格格不入，荒诞十足。\",block = true)]",
         "type": "sticker",
-        "text": "\\n平静，安详，还没有被装上轮子，也没有被嫉恨浸染。它美好得——哪怕在幻象之中——也格格不入，荒诞十足。"
+        "multi": "true,",
+        "text": "\\n平静，安详，还没有被装上轮子，也没有被嫉恨浸染。它美好得——哪怕在幻象之中——也格格不入，荒诞十足。",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n那是卡兹戴尔，我毫无缘由地坚信，那就是卡兹戴尔。某段历史中，某个已经不复存在的，我的家园。\",block = true)]",
         "type": "sticker",
-        "text": "\\n那是卡兹戴尔，我毫无缘由地坚信，那就是卡兹戴尔。某段历史中，某个已经不复存在的，我的家园。"
+        "multi": "true,",
+        "text": "\\n那是卡兹戴尔，我毫无缘由地坚信，那就是卡兹戴尔。某段历史中，某个已经不复存在的，我的家园。",
+        "block": true
     },
     {
         "id": "st1",
@@ -3151,6 +3251,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"我想走向那里，走入其中。我想......去看看，曾经我们拥有过怎样的生活。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "我想走向那里，走入其中。我想......去看看，曾经我们拥有过怎样的生活。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -3270,6 +3371,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"我抬起脚，却最终落回了原地。我只是静静地看着它。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "我抬起脚，却最终落回了原地。我只是静静地看着它。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -3281,13 +3383,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n直到一切都归于沉寂。\",block = true)]",
         "type": "sticker",
-        "text": "\\n直到一切都归于沉寂。"
+        "multi": "true,",
+        "text": "\\n直到一切都归于沉寂。",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n直到——\",block = true)]",
         "type": "sticker",
-        "text": "\\n直到——"
+        "multi": "true,",
+        "text": "\\n直到——",
+        "block": true
     },
     {
         "id": "st1",
@@ -3393,6 +3499,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"仅剩白骨的可悲生物，正在轻轻地摆动身体。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "仅剩白骨的可悲生物，正在轻轻地摆动身体。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -3404,13 +3511,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n神经束延展开去，拖拽起庞大的货箱。\",block = true)]",
         "type": "sticker",
-        "text": "\\n神经束延展开去，拖拽起庞大的货箱。"
+        "multi": "true,",
+        "text": "\\n神经束延展开去，拖拽起庞大的货箱。",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n它确实在这里游弋着，它还未死去。\",block = true)]",
         "type": "sticker",
-        "text": "\\n它确实在这里游弋着，它还未死去。"
+        "multi": "true,",
+        "text": "\\n它确实在这里游弋着，它还未死去。",
+        "block": true
     },
     {
         "id": "st1",
@@ -3669,6 +3780,8 @@
         "id": 501,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#1$1\",bstart=0.2,bend=0.7,focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#1$1.png",
         "bstart": "0.2,bend=0.7,focus=\"m\""
     },
     {
@@ -3692,12 +3805,18 @@
         "id": 504,
         "raw": "[charslot(slot = \"l\", name = \"avg_npc_1067_1#1$1\",posfrom = \"0,0\", posto = \"200,0\",focus=\"n\")]",
         "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_1067_1#1$1.png",
+        "posfrom": "0,0",
+        "posto": "200,0",
         "focus": "n"
     },
     {
         "id": 505,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#1$1\",bstart=0,bend=0,duration=2,focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#1$1.png",
         "bstart": "0,bend=0,duration=2,focus=\"m\""
     },
     {
@@ -3710,6 +3829,8 @@
         "id": 507,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#8$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#8$1.png",
         "focus": "m"
     },
     {
@@ -3743,6 +3864,8 @@
         "id": 512,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#8$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#8$1.png",
         "focus": "m"
     },
     {
@@ -3785,6 +3908,8 @@
         "id": 518,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#8$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#8$1.png",
         "focus": "m"
     },
     {
@@ -3820,6 +3945,8 @@
         "id": 523,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#8$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#8$1.png",
         "focus": "m"
     },
     {
@@ -3879,6 +4006,8 @@
         "id": 532,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#2$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#2$1.png",
         "focus": "m"
     },
     {
@@ -3892,6 +4021,8 @@
         "id": 534,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#1$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#1$1.png",
         "focus": "m"
     },
     {

@@ -69,13 +69,25 @@
     {
         "id": 10,
         "raw": "[interlude(maskid = \"ui_cutin_mask_vertical\", style = 1, size = \"500, 720\",offset = \"20,0\", channel = 2)]",
-        "type": "interlude"
+        "type": "interlude",
+        "maskid": "ui_cutin_mask_vertical",
+        "style": "1,",
+        "size": "500, 720",
+        "offset": "20,0",
+        "channel": 2
     },
     {
         "id": 11,
         "raw": "[interlude(channel = 2, type = 2, name = \"34_g4_swamp_n\", afrom = 0, ato = 1, aduration = 3, sfrom = \"1.9,1.9\", sto = \"1.9,1.9\", sduration = 0,block=true)]",
-        "type": "interlude",
-        "block": true
+        "type": "2,",
+        "channel": "2,",
+        "name": "34_g4_swamp_n",
+        "afrom": "0,",
+        "ato": "1,",
+        "aduration": "3,",
+        "sfrom": "1.9,1.9",
+        "sto": "1.9,1.9",
+        "sduration": "0,block=true"
     },
     {
         "id": 12,
@@ -86,13 +98,24 @@
     {
         "id": 13,
         "raw": "[interlude(channel = 2, type = 1, slot = \"m\", offset = \"20,50\", name = \"cutin_char_9\",sfrom = \"0.8,0.8\", sto = \"0.8,0.8\", aduration = 2,block=false)]",
-        "type": "interlude",
-        "block": false
+        "type": "1,",
+        "channel": "2,",
+        "slot": "m",
+        "offset": "20,50",
+        "name": "cutin_char_9",
+        "sfrom": "0.8,0.8",
+        "sto": "0.8,0.8",
+        "aduration": "2,block=false"
     },
     {
         "id": 14,
         "raw": "[interlude(channel = 2, type = 1, slot = \"m\", pfrom = \"20,50\", pto = \"60,50\", duration = 40)]",
-        "type": "interlude"
+        "type": "1,",
+        "channel": "2,",
+        "slot": "m",
+        "pfrom": "20,50",
+        "pto": "60,50",
+        "duration": 40
     },
     {
         "id": 15,
@@ -120,6 +143,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"I was the first to see the scout.\", x=300,y=270, alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "I was the first to see the scout.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -136,6 +160,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"While I scouted the silent government buildings next to the plaza on the other bank, his dead body drifting in the water, still grabbing the reeds by the bank.\", x=300,y=270, alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "While I scouted the silent government buildings next to the plaza on the other bank, his dead body drifting in the water, still grabbing the reeds by the bank.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -147,13 +172,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nIt seems he never gave up trying to survive.\",block = true)]",
         "type": "sticker",
-        "text": "\\nIt seems he never gave up trying to survive."
+        "multi": "true,",
+        "text": "\\nIt seems he never gave up trying to survive.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nNot far from him, his journal lay quietly in a waterproof pouch, the last entry written just before his departure.\",block = true)]",
         "type": "sticker",
-        "text": "\\nNot far from him, his journal lay quietly in a waterproof pouch, the last entry written just before his departure."
+        "multi": "true,",
+        "text": "\\nNot far from him, his journal lay quietly in a waterproof pouch, the last entry written just before his departure.",
+        "block": true
     },
     {
         "id": "st1",
@@ -164,6 +193,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"'I volunteered for this mission to deliver the SOS. I won't come back, whether I succeed or fail.'\", x=300,y=270, alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "'I volunteered for this mission to deliver the SOS. I won't come back, whether I succeed or fail.'",
         "x": "300,y=270,",
         "alignment": "left",
@@ -175,7 +205,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n'No one will survive.' (Crossed out)\",block = true)]",
         "type": "sticker",
-        "text": "\\n'No one will survive.' (Crossed out)"
+        "multi": "true,",
+        "text": "\\n'No one will survive.' (Crossed out)",
+        "block": true
     },
     {
         "id": "st1",
@@ -212,7 +244,8 @@
     {
         "id": 31,
         "raw": "[interlude(channel = 2,clear = true)]",
-        "type": "interlude"
+        "type": "interlude",
+        "channel": "2,clear"
     },
     {
         "id": 32,
@@ -301,6 +334,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"The soldier's journal made me uneasy.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "The soldier's journal made me uneasy.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -312,19 +346,25 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nTwenty-three soldiers, two squads.\",block = true)]",
         "type": "sticker",
-        "text": "\\nTwenty-three soldiers, two squads."
+        "multi": "true,",
+        "text": "\\nTwenty-three soldiers, two squads.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nOther than the city hall, silent in the darkness, the rest of the buildings around the plaza have been reduced to smoldering ruins by artillery fire.\",block = true)]",
         "type": "sticker",
-        "text": "\\nOther than the city hall, silent in the darkness, the rest of the buildings around the plaza have been reduced to smoldering ruins by artillery fire."
+        "multi": "true,",
+        "text": "\\nOther than the city hall, silent in the darkness, the rest of the buildings around the plaza have been reduced to smoldering ruins by artillery fire.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nAt least the tragedy hammers one thing: No one can truly escape death on the battlefield.\",block = true)]",
         "type": "sticker",
-        "text": "\\nAt least the tragedy hammers one thing: No one can truly escape death on the battlefield."
+        "multi": "true,",
+        "text": "\\nAt least the tragedy hammers one thing: No one can truly escape death on the battlefield.",
+        "block": true
     },
     {
         "id": "st1",
@@ -581,6 +621,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"I hardly hear what Vina is saying.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "I hardly hear what Vina is saying.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -592,13 +633,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nIs this a bad joke by Trilby Asher? Or is this how the battlefield is?\",block = true)]",
         "type": "sticker",
-        "text": "\\nIs this a bad joke by Trilby Asher? Or is this how the battlefield is?"
+        "multi": "true,",
+        "text": "\\nIs this a bad joke by Trilby Asher? Or is this how the battlefield is?",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nThe call for help, deciding whether to answer, and the sacrifices that must be made to help... the laws of the battlefield.\",block = true)]",
         "type": "sticker",
-        "text": "\\nThe call for help, deciding whether to answer, and the sacrifices that must be made to help... the laws of the battlefield."
+        "multi": "true,",
+        "text": "\\nThe call for help, deciding whether to answer, and the sacrifices that must be made to help... the laws of the battlefield.",
+        "block": true
     },
     {
         "id": "st1",
@@ -803,6 +848,7 @@
         "widgetID": "1",
         "name": "avgnew_112_siege_1#1$2",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0.5,",
         "offsetx": "0,",
         "width": "200,",
@@ -879,6 +925,7 @@
         "widgetID": "3",
         "name": "avg_155_tiger_1#10$1",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0.5,",
         "offsetx": "0,",
         "width": "200,",
@@ -916,6 +963,7 @@
         "widgetID": "1",
         "name": "avgnew_112_siege_1#10$2",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0,",
         "offsetx": "0,",
         "width": "200,",
@@ -971,6 +1019,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"The light in the window goes out.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "The light in the window goes out.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -982,7 +1031,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nAll is well?\",block = true)]",
         "type": "sticker",
-        "text": "\\nAll is well?"
+        "multi": "true,",
+        "text": "\\nAll is well?",
+        "block": true
     },
     {
         "id": "st1",
@@ -1043,6 +1094,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"Wait... a fowlbeast?\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "Wait... a fowlbeast?",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1054,7 +1106,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nA black fowlbeast flies out of the hut at the crossing, flies a circle above, then heads towards the Sarkaz camp.\",block = true)]",
         "type": "sticker",
-        "text": "\\nA black fowlbeast flies out of the hut at the crossing, flies a circle above, then heads towards the Sarkaz camp."
+        "multi": "true,",
+        "text": "\\nA black fowlbeast flies out of the hut at the crossing, flies a circle above, then heads towards the Sarkaz camp.",
+        "block": true
     },
     {
         "id": "st1",
@@ -1141,6 +1195,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"An agile shadow leaps across the moonlight from the roof of the hut and grabs the fowlbeast.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "An agile shadow leaps across the moonlight from the roof of the hut and grabs the fowlbeast.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1183,6 +1238,7 @@
         "widgetID": "4",
         "name": "avg_npc_396_1#9$1",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0.5,",
         "offsetx": "-300,",
         "width": "200,",
@@ -1214,6 +1270,7 @@
         "widgetID": "3",
         "name": "avg_155_tiger_1#2$1",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0.2,",
         "offsetx": "300,",
         "width": "200,",
@@ -1258,6 +1315,7 @@
         "widgetID": "1",
         "name": "avgnew_112_siege_1#1$2",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0,",
         "offsetx": "0,",
         "width": "200,",
@@ -1302,6 +1360,7 @@
         "widgetID": "5",
         "name": "avg_npc_405_1#5$1",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0,",
         "offsetx": "0,",
         "width": "200,",
@@ -1364,6 +1423,7 @@
         "widgetID": "1",
         "name": "avgnew_112_siege_1#2$2",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0,",
         "offsetx": "0,",
         "width": "200,",
@@ -1383,6 +1443,7 @@
         "widgetID": "1",
         "name": "avgnew_112_siege_1#1$2",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0,",
         "offsetx": "0,",
         "width": "200,",
@@ -1420,6 +1481,7 @@
         "widgetID": "5",
         "name": "avg_npc_405_1#5$1",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0,",
         "offsetx": "0,",
         "width": "200,",
@@ -1482,6 +1544,7 @@
         "widgetID": "1",
         "name": "avgnew_112_siege_1#1$2",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0,",
         "offsetx": "0,",
         "width": "200,",
@@ -1502,6 +1565,7 @@
         "widgetID": "1",
         "name": "avgnew_112_siege_1#10$2",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0,",
         "offsetx": "0,",
         "width": "200,",
@@ -1547,6 +1611,7 @@
         "widgetID": "9",
         "name": "avg_npc_054",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0.5,",
         "offsetx": "0,",
         "width": "200,",
@@ -1654,6 +1719,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"The signal goes silent.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "The signal goes silent.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1670,6 +1736,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"I did not hear anything from them for the next ten minutes.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "I did not hear anything from them for the next ten minutes.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1681,13 +1748,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nHow many men in the building? What's the situation with the surrounded troops? Has Vina's group been discovered?\",block = true)]",
         "type": "sticker",
-        "text": "\\nHow many men in the building? What's the situation with the surrounded troops? Has Vina's group been discovered?"
+        "multi": "true,",
+        "text": "\\nHow many men in the building? What's the situation with the surrounded troops? Has Vina's group been discovered?",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nI'm completely in the dark.\",block = true)]",
         "type": "sticker",
-        "text": "\\nI'm completely in the dark."
+        "multi": "true,",
+        "text": "\\nI'm completely in the dark.",
+        "block": true
     },
     {
         "id": "st1",
@@ -1698,6 +1769,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"Crouched in the dirt on the banks, I feel my heart beat harder with every throb.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "Crouched in the dirt on the banks, I feel my heart beat harder with every throb.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1709,7 +1781,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nThe heartbeats merge into the river, resonating with the flow, growing faster and stronger—\",block = true)]",
         "type": "sticker",
-        "text": "\\nThe heartbeats merge into the river, resonating with the flow, growing faster and stronger—"
+        "multi": "true,",
+        "text": "\\nThe heartbeats merge into the river, resonating with the flow, growing faster and stronger—",
+        "block": true
     },
     {
         "id": "st1",
@@ -1783,6 +1857,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"They've been discovered?\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "They've been discovered?",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1794,7 +1869,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nSomeone's waving from the top of the building, the moon at her back. It's... Vina?\",block = true)]",
         "type": "sticker",
-        "text": "\\nSomeone's waving from the top of the building, the moon at her back. It's... Vina?"
+        "multi": "true,",
+        "text": "\\nSomeone's waving from the top of the building, the moon at her back. It's... Vina?",
+        "block": true
     },
     {
         "id": "st1",
@@ -1894,6 +1971,7 @@
         "widgetID": "1",
         "name": "avgnew_112_siege_1#5$2",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0.2,",
         "offsetx": "-300,",
         "width": "200,",
@@ -1925,6 +2003,7 @@
         "widgetID": "6",
         "name": "avg_npc_229_1#1",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0.5,",
         "offsetx": "300,",
         "width": "200,",
@@ -1951,6 +2030,7 @@
         "widgetID": "1",
         "name": "avgnew_112_siege_1#3$2",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0,",
         "offsetx": "-300,",
         "width": "200,",
@@ -2027,6 +2107,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"'Bzzzzt— Bzzzzt—'\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "'Bzzzzt— Bzzzzt—'",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2038,13 +2119,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nI hear cheers coming from the radio.\",block = true)]",
         "type": "sticker",
-        "text": "\\nI hear cheers coming from the radio."
+        "multi": "true,",
+        "text": "\\nI hear cheers coming from the radio.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nThey did it.\",block = true)]",
         "type": "sticker",
-        "text": "\\nThey did it."
+        "multi": "true,",
+        "text": "\\nThey did it.",
+        "block": true
     },
     {
         "id": "st1",
@@ -2074,6 +2159,7 @@
         "widgetID": "6",
         "name": "avg_npc_229_1#6",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0.2,",
         "offsetx": "0,",
         "width": "200,",
@@ -2118,6 +2204,7 @@
         "widgetID": "1",
         "name": "avgnew_112_siege_1#3$2",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0.2,",
         "offsetx": "0,",
         "width": "200,",
@@ -2162,6 +2249,7 @@
         "widgetID": "6",
         "name": "avg_npc_229_1#1",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0.2,",
         "offsetx": "0,",
         "width": "200,",
@@ -2209,6 +2297,7 @@
         "widgetID": "6",
         "name": "avg_npc_229_1#6",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0,",
         "offsetx": "0,",
         "width": "200,",
@@ -2271,6 +2360,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"Dead silence.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "Dead silence.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2282,13 +2372,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nShe sounded like she was talking about the weather.\",block = true)]",
         "type": "sticker",
-        "text": "\\nShe sounded like she was talking about the weather."
+        "multi": "true,",
+        "text": "\\nShe sounded like she was talking about the weather.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nA vote. On a battlefield, there are only two choices you get to vote for: Life, or death.\",block = true)]",
         "type": "sticker",
-        "text": "\\nA vote. On a battlefield, there are only two choices you get to vote for: Life, or death."
+        "multi": "true,",
+        "text": "\\nA vote. On a battlefield, there are only two choices you get to vote for: Life, or death.",
+        "block": true
     },
     {
         "id": "st1",
@@ -2299,6 +2393,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"Vina seems lost in thought. What decision would I make? What decision would Mother make?\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "Vina seems lost in thought. What decision would I make? What decision would Mother make?",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2334,6 +2429,7 @@
         "widgetID": "1",
         "name": "avgnew_112_siege_1#1$2",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0.2,",
         "offsetx": "0,",
         "width": "200,",
@@ -2455,6 +2551,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"I don't support Vina because she is the heir to the throne.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "I don't support Vina because she is the heir to the throne.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2466,13 +2563,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nShe's brave, competitive, hates losing.\",block = true)]",
         "type": "sticker",
-        "text": "\\nShe's brave, competitive, hates losing."
+        "multi": "true,",
+        "text": "\\nShe's brave, competitive, hates losing.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nSome would call her reckless.\",block = true)]",
         "type": "sticker",
-        "text": "\\nSome would call her reckless."
+        "multi": "true,",
+        "text": "\\nSome would call her reckless.",
+        "block": true
     },
     {
         "id": "st1",
@@ -2483,6 +2584,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"But I count on her to get us there, to find a way out of hell.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "But I count on her to get us there, to find a way out of hell.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2494,7 +2596,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nI have to believe in her. I have to believe to get out of this hell.\",block = true)]",
         "type": "sticker",
-        "text": "\\nI have to believe in her. I have to believe to get out of this hell."
+        "multi": "true,",
+        "text": "\\nI have to believe in her. I have to believe to get out of this hell.",
+        "block": true
     },
     {
         "id": "st1",
@@ -2505,6 +2609,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"I can't even bring myself to think about what happened that day.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "I can't even bring myself to think about what happened that day.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2516,13 +2621,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nFocus, Delphine. Focus.\",block = true)]",
         "type": "sticker",
-        "text": "\\nFocus, Delphine. Focus."
+        "multi": "true,",
+        "text": "\\nFocus, Delphine. Focus.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nThe overwatch mission has ended. Time to meet up with them.\",block = true)]",
         "type": "sticker",
-        "text": "\\nThe overwatch mission has ended. Time to meet up with them."
+        "multi": "true,",
+        "text": "\\nThe overwatch mission has ended. Time to meet up with them.",
+        "block": true
     },
     {
         "id": "st1",
@@ -2670,6 +2779,7 @@
         "widgetID": "1",
         "name": "avg_npc_235",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0.5,",
         "offsetx": "0,",
         "width": "200,",
@@ -3159,6 +3269,7 @@
         "widgetID": "1",
         "name": "avg_155_tiger_1#1$1",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0.5,",
         "offsetx": "0,",
         "width": "200,",
@@ -3196,6 +3307,7 @@
         "widgetID": "2",
         "name": "avg_npc_396_1#9$1",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0.2,",
         "offsetx": "0,",
         "width": "200,",
@@ -3258,6 +3370,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"Vina's hands were trembling.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "Vina's hands were trembling.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -3269,13 +3382,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nExcitement? Fear? Or both?\",block = true)]",
         "type": "sticker",
-        "text": "\\nExcitement? Fear? Or both?"
+        "multi": "true,",
+        "text": "\\nExcitement? Fear? Or both?",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nI do not know. My hands are cold, almost frozen.\",block = true)]",
         "type": "sticker",
-        "text": "\\nI do not know. My hands are cold, almost frozen."
+        "multi": "true,",
+        "text": "\\nI do not know. My hands are cold, almost frozen.",
+        "block": true
     },
     {
         "id": "st1",
@@ -3286,6 +3403,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"Seven days.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "Seven days.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -3297,13 +3415,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nWill the dukes' troops really come? What if we fail? What if more Sarkaz notice?\",block = true)]",
         "type": "sticker",
-        "text": "\\nWill the dukes' troops really come? What if we fail? What if more Sarkaz notice?"
+        "multi": "true,",
+        "text": "\\nWill the dukes' troops really come? What if we fail? What if more Sarkaz notice?",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nI kept going over the possibilities in my head.\",block = true)]",
         "type": "sticker",
-        "text": "\\nI kept going over the possibilities in my head."
+        "multi": "true,",
+        "text": "\\nI kept going over the possibilities in my head.",
+        "block": true
     },
     {
         "id": "st1",
@@ -3552,6 +3674,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"Sirens start blaring in the Sarkaz camp the moment the patrol goes down.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "Sirens start blaring in the Sarkaz camp the moment the patrol goes down.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -3563,7 +3686,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nThere is no time to think. The Defense has begun.\",block = true)]",
         "type": "sticker",
-        "text": "\\nThere is no time to think. The Defense has begun."
+        "multi": "true,",
+        "text": "\\nThere is no time to think. The Defense has begun.",
+        "block": true
     },
     {
         "id": "st1",
@@ -3912,6 +4037,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"Sarkaz.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "Sarkaz.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -3923,7 +4049,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nOnce again, I think back to what happened that day. No, I can't.\",block = true)]",
         "type": "sticker",
-        "text": "\\nOnce again, I think back to what happened that day. No, I can't."
+        "multi": "true,",
+        "text": "\\nOnce again, I think back to what happened that day. No, I can't.",
+        "block": true
     },
     {
         "id": "st1",
@@ -3965,6 +4093,7 @@
         "widgetID": "1",
         "name": "avgnew_112_siege_1#10$2",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0.5,",
         "offsetx": "0,",
         "width": "200,",
@@ -4040,6 +4169,7 @@
         "widgetID": "1",
         "name": "avgnew_112_siege_1#10$2",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0.5,",
         "offsetx": "0,",
         "width": "200,",
@@ -4084,6 +4214,7 @@
         "widgetID": "2",
         "name": "avg_npc_405_1#5$1",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0.5,",
         "offsetx": "-300,",
         "width": "200,",
@@ -4115,6 +4246,7 @@
         "widgetID": "3",
         "name": "avg_155_tiger_1#2$1",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0.5,",
         "offsetx": "300,",
         "width": "200,",
@@ -4134,6 +4266,7 @@
         "widgetID": "2",
         "name": "avg_npc_405_1#3$1",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0,",
         "offsetx": "-300,",
         "width": "200,",
@@ -4160,6 +4293,7 @@
         "widgetID": "3",
         "name": "avg_155_tiger_1#1$1",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0,",
         "offsetx": "300,",
         "width": "200,",
@@ -4204,6 +4338,7 @@
         "widgetID": "1",
         "name": "avgnew_112_siege_1#1$2",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0,",
         "offsetx": "0,",
         "width": "200,",
@@ -4279,6 +4414,7 @@
         "widgetID": "2",
         "name": "avg_npc_405_1#6$1",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0,",
         "offsetx": "0,",
         "width": "200,",
@@ -4323,6 +4459,7 @@
         "widgetID": "1",
         "name": "avgnew_112_siege_1#5$2",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0,",
         "offsetx": "0,",
         "width": "200,",
@@ -4374,6 +4511,7 @@
         "widgetID": "7",
         "name": "avg_npc_235",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0.5,",
         "offsetx": "0,",
         "width": "200,",
@@ -4547,6 +4685,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"I hear a long howl in the distance.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "I hear a long howl in the distance.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -4558,7 +4697,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nA strong sense of unease suddenly comes over me. The air has become filled with malice.\",block = true)]",
         "type": "sticker",
-        "text": "\\nA strong sense of unease suddenly comes over me. The air has become filled with malice."
+        "multi": "true,",
+        "text": "\\nA strong sense of unease suddenly comes over me. The air has become filled with malice.",
+        "block": true
     },
     {
         "id": "st1",
@@ -4944,6 +5085,7 @@
         "id": 665,
         "raw": "[charslot(slot = \"l\", action=\"shake\",random=true, power=5, times=60,duration=0.3)]",
         "type": "charslot",
+        "slot": "l",
         "action": "shake",
         "random": "true,",
         "power": "5,",
@@ -5184,6 +5326,7 @@
         "widgetID": "1",
         "name": "avgnew_112_siege_1#1$2",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0.5,",
         "offsetx": "0,",
         "width": "200,",
@@ -5240,6 +5383,7 @@
         "widgetID": "8",
         "name": "avg_npc_229_1#1",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0.5,",
         "offsetx": "0,",
         "width": "200,",
@@ -5284,6 +5428,7 @@
         "widgetID": "2",
         "name": "avg_npc_405_1#11$1",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0.5,",
         "offsetx": "-300,",
         "width": "200,",
@@ -5315,6 +5460,7 @@
         "widgetID": "3",
         "name": "avg_155_tiger_1#7$1",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0.5,",
         "offsetx": "300,",
         "width": "200,",
@@ -5373,6 +5519,7 @@
         "widgetID": "7",
         "name": "avg_npc_235",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0.5,",
         "offsetx": "-300,",
         "width": "200,",
@@ -5392,6 +5539,7 @@
         "widgetID": "1",
         "name": "avgnew_112_siege_1#5$2",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0.2,",
         "offsetx": "300,",
         "width": "200,",
@@ -5418,6 +5566,7 @@
         "widgetID": "1",
         "name": "avgnew_112_siege_1#1$2",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0,",
         "offsetx": "300,",
         "width": "200,",
@@ -5562,6 +5711,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"I stand at the staircase to the second floor, dumbfounded.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "I stand at the staircase to the second floor, dumbfounded.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -5578,6 +5728,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"It takes me some time to realize that the pile of rubble without the left side wall is the city hall that we've been defending for the better part of a week.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "It takes me some time to realize that the pile of rubble without the left side wall is the city hall that we've been defending for the better part of a week.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -5589,19 +5740,25 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nThe carnage on the plaza is in plain view, without the need for windows or portholes.\",block = true)]",
         "type": "sticker",
-        "text": "\\nThe carnage on the plaza is in plain view, without the need for windows or portholes."
+        "multi": "true,",
+        "text": "\\nThe carnage on the plaza is in plain view, without the need for windows or portholes.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nAmidst the ruins, the red crystals on the war altars shine an eerie red in the rays of dawn, the metal skeleton reflecting an ominous light.\",block = true)]",
         "type": "sticker",
-        "text": "\\nAmidst the ruins, the red crystals on the war altars shine an eerie red in the rays of dawn, the metal skeleton reflecting an ominous light."
+        "multi": "true,",
+        "text": "\\nAmidst the ruins, the red crystals on the war altars shine an eerie red in the rays of dawn, the metal skeleton reflecting an ominous light.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nIt seems to whisper: Gaze upon blood, gaze upon decay, gaze upon death.\",block = true)]",
         "type": "sticker",
-        "text": "\\nIt seems to whisper: Gaze upon blood, gaze upon decay, gaze upon death."
+        "multi": "true,",
+        "text": "\\nIt seems to whisper: Gaze upon blood, gaze upon decay, gaze upon death.",
+        "block": true
     },
     {
         "id": "st1",
@@ -5612,6 +5769,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"This is what Mother had done for so long.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "This is what Mother had done for so long.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -5639,6 +5797,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"And this is the first time I've thought of her in days.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "And this is the first time I've thought of her in days.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -6119,6 +6278,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"Vina's plan is a simple one. Wait for the altars to fire, smash the core, cause a chain reaction.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "Vina's plan is a simple one. Wait for the altars to fire, smash the core, cause a chain reaction.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -6130,7 +6290,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nAll we need is an opportunity. And the opportunity has come.\",block = true)]",
         "type": "sticker",
-        "text": "\\nAll we need is an opportunity. And the opportunity has come."
+        "multi": "true,",
+        "text": "\\nAll we need is an opportunity. And the opportunity has come.",
+        "block": true
     },
     {
         "id": "st1",
@@ -6141,6 +6303,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"They've taken aim.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "They've taken aim.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -6152,7 +6315,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nThe malice is sickening.\",block = true)]",
         "type": "sticker",
-        "text": "\\nThe malice is sickening."
+        "multi": "true,",
+        "text": "\\nThe malice is sickening.",
+        "block": true
     },
     {
         "id": "st1",
@@ -6235,6 +6400,7 @@
         "widgetID": "1",
         "name": "avgnew_112_siege_1#5$2",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0.5,",
         "offsetx": "300,",
         "width": "200,",
@@ -6266,6 +6432,7 @@
         "widgetID": "7",
         "name": "avg_npc_235",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0.5,",
         "offsetx": "-300,",
         "width": "200,",
@@ -6285,6 +6452,7 @@
         "widgetID": "1",
         "name": "avgnew_112_siege_1#10$2",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0,",
         "offsetx": "300,",
         "width": "200,",
@@ -6399,6 +6567,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"Red.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "Red.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -6410,7 +6579,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nThe color on the deck flashes back before my eyes.\",block = true)]",
         "type": "sticker",
-        "text": "\\nThe color on the deck flashes back before my eyes."
+        "multi": "true,",
+        "text": "\\nThe color on the deck flashes back before my eyes.",
+        "block": true
     },
     {
         "id": "st1",
@@ -6421,6 +6592,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"The demonic eye in the altar peers at me.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "The demonic eye in the altar peers at me.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -6455,7 +6627,8 @@
         "id": 869,
         "raw": "[Effect(name=\"$e_slash_fold\",layer = 1)]",
         "type": "effect",
-        "name": "$e_slash_fold"
+        "name": "$e_slash_fold",
+        "layer": 1
     },
     {
         "id": 870,
@@ -6526,6 +6699,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"It is averted by a silver arc.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "It is averted by a silver arc.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -6537,13 +6711,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nThe dagger rips open the necks of a file of Sarkaz artillerymen, leaping back joyfully into Misery's hand.\",block = true)]",
         "type": "sticker",
-        "text": "\\nThe dagger rips open the necks of a file of Sarkaz artillerymen, leaping back joyfully into Misery's hand."
+        "multi": "true,",
+        "text": "\\nThe dagger rips open the necks of a file of Sarkaz artillerymen, leaping back joyfully into Misery's hand.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nTheir hands slow for a moment as they reach for the core, continuing their movements from before they died under the pull of inertia.\",block = true)]",
         "type": "sticker",
-        "text": "\\nTheir hands slow for a moment as they reach for the core, continuing their movements from before they died under the pull of inertia."
+        "multi": "true,",
+        "text": "\\nTheir hands slow for a moment as they reach for the core, continuing their movements from before they died under the pull of inertia.",
+        "block": true
     },
     {
         "id": "st1",
@@ -6629,6 +6807,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"A hammer falls from the sky, impacting lightly with the red wave.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "A hammer falls from the sky, impacting lightly with the red wave.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -6842,6 +7021,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"Bang.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "Bang.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -6853,7 +7033,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nVina is knocked back into the building like a comet.\",block = true)]",
         "type": "sticker",
-        "text": "\\nVina is knocked back into the building like a comet."
+        "multi": "true,",
+        "text": "\\nVina is knocked back into the building like a comet.",
+        "block": true
     },
     {
         "id": "st1",
@@ -6993,6 +7175,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"Half a second.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "Half a second.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -7004,7 +7187,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nThe altar activated faster than anyone expected.\",block = true)]",
         "type": "sticker",
-        "text": "\\nThe altar activated faster than anyone expected."
+        "multi": "true,",
+        "text": "\\nThe altar activated faster than anyone expected.",
+        "block": true
     },
     {
         "id": "st1",
@@ -7092,6 +7277,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"The hammer embeds itself in the broken wall.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "The hammer embeds itself in the broken wall.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -7103,7 +7289,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nI can't see anything in the dust and smoke.\",block = true)]",
         "type": "sticker",
-        "text": "\\nI can't see anything in the dust and smoke."
+        "multi": "true,",
+        "text": "\\nI can't see anything in the dust and smoke.",
+        "block": true
     },
     {
         "id": "st1",
@@ -7161,6 +7349,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"The hammer is gone by the time I wipe the gravel from my eyes.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "The hammer is gone by the time I wipe the gravel from my eyes.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -7280,6 +7469,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"A figure climbs the outer wall swiftly, the hammer pulling her up like a pickaxe, the building trembling under every blow.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "A figure climbs the outer wall swiftly, the hammer pulling her up like a pickaxe, the building trembling under every blow.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -7348,6 +7538,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"Dagda grabs the hand that stretches out from within the light.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "Dagda grabs the hand that stretches out from within the light.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -7359,7 +7550,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nBrick and stone crack and break under Vina's heels. She leaps into the sky.\",block = true)]",
         "type": "sticker",
-        "text": "\\nBrick and stone crack and break under Vina's heels. She leaps into the sky."
+        "multi": "true,",
+        "text": "\\nBrick and stone crack and break under Vina's heels. She leaps into the sky.",
+        "block": true
     },
     {
         "id": "st1",
@@ -7388,6 +7581,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"The red wave has begun to build.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "The red wave has begun to build.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -7473,6 +7667,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"I look up in the storm.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "I look up in the storm.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -7484,7 +7679,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nShe walks upon the rays of dawn, her golden hair burning.\",block = true)]",
         "type": "sticker",
-        "text": "\\nShe walks upon the rays of dawn, her golden hair burning."
+        "multi": "true,",
+        "text": "\\nShe walks upon the rays of dawn, her golden hair burning.",
+        "block": true
     },
     {
         "id": "st1",
@@ -7495,6 +7692,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"She raises her hammer high, and it becomes one with the sun.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "She raises her hammer high, and it becomes one with the sun.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -7506,7 +7704,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nThe wave is torn apart, rampant power streaking towards the core.\",block = true)]",
         "type": "sticker",
-        "text": "\\nThe wave is torn apart, rampant power streaking towards the core."
+        "multi": "true,",
+        "text": "\\nThe wave is torn apart, rampant power streaking towards the core.",
+        "block": true
     },
     {
         "id": "st1",
@@ -7718,6 +7918,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"I lose my voice.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "I lose my voice.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -7729,7 +7930,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nAll that remains is the light that stabs at my eyes.\",block = true)]",
         "type": "sticker",
-        "text": "\\nAll that remains is the light that stabs at my eyes."
+        "multi": "true,",
+        "text": "\\nAll that remains is the light that stabs at my eyes.",
+        "block": true
     },
     {
         "id": "st1",
@@ -7936,6 +8139,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"I should add another entry to the scout's journal.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "I should add another entry to the scout's journal.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -7964,6 +8168,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"'We survived.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "'We survived.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -7975,37 +8180,49 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nIn memory of seven fallen heroes...\",block = true)]",
         "type": "sticker",
-        "text": "\\nIn memory of seven fallen heroes..."
+        "multi": "true,",
+        "text": "\\nIn memory of seven fallen heroes...",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nAbigail, of Norport, civilian. Alexandra, of Chetleigh, civilian.\",block = true)]",
         "type": "sticker",
-        "text": "\\nAbigail, of Norport, civilian. Alexandra, of Chetleigh, civilian."
+        "multi": "true,",
+        "text": "\\nAbigail, of Norport, civilian. Alexandra, of Chetleigh, civilian.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nHenderson, of Auchterigg, soldier. Bentley, of Lynncardine, soldier.\",block = true)]",
         "type": "sticker",
-        "text": "\\nHenderson, of Auchterigg, soldier. Bentley, of Lynncardine, soldier."
+        "multi": "true,",
+        "text": "\\nHenderson, of Auchterigg, soldier. Bentley, of Lynncardine, soldier.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nUnidentified body.\",block = true)]",
         "type": "sticker",
-        "text": "\\nUnidentified body."
+        "multi": "true,",
+        "text": "\\nUnidentified body.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nUnidentified body.\",block = true)]",
         "type": "sticker",
-        "text": "\\nUnidentified body."
+        "multi": "true,",
+        "text": "\\nUnidentified body.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nUnidentified... (illegible)'\",block = true)]",
         "type": "sticker",
-        "text": "\\nUnidentified... (illegible)'"
+        "multi": "true,",
+        "text": "\\nUnidentified... (illegible)'",
+        "block": true
     },
     {
         "id": "st1",

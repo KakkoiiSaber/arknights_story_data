@@ -84,21 +84,35 @@
     {
         "id": 12,
         "raw": "[interlude(maskid = \"ui_cutin_mask_horizon\", style = 1, size = \"1500, 420\",offset = \"20,0\", channel = 2)]",
-        "type": "interlude"
+        "type": "interlude",
+        "maskid": "ui_cutin_mask_horizon",
+        "style": "1,",
+        "size": "1500, 420",
+        "offset": "20,0",
+        "channel": 2
     },
     {
         "id": 13,
         "raw": "[interlude(channel = 2, type = 2, name = \"bg_lungmen_n\", afrom = 0, ato = 1, aduration = 3, sfrom = \"1.6,1.6\", sto = \"1.6,1.6\", sduration = 0,block=true)]",
-        "type": "interlude",
-        "block": true
+        "type": "2,",
+        "channel": "2,",
+        "name": "bg_lungmen_n",
+        "afrom": "0,",
+        "ato": "1,",
+        "aduration": "3,",
+        "sfrom": "1.6,1.6",
+        "sto": "1.6,1.6",
+        "sduration": "0,block=true"
     },
     {
         "id": 14,
         "raw": "[interlude(channel = 2, type = 2, name = \"bg_lungmen_n\", pfrom=\"0,0\",pto=\"-80,0\", duration =30,block=false)]",
-        "type": "interlude",
+        "type": "2,",
+        "channel": "2,",
+        "name": "bg_lungmen_n",
         "pfrom": "0,0",
         "pto": "-80,0",
-        "block": false
+        "duration": "30,block=false"
     },
     {
         "id": 15,
@@ -121,6 +135,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"아직 용문 근위국에 몸을 담고 있던 시절, 나는 가끔 오후 내내 도시를 돌아다니곤 했다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "아직 용문 근위국에 몸을 담고 있던 시절, 나는 가끔 오후 내내 도시를 돌아다니곤 했다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -132,13 +147,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n직책상 내가 무엇과 싸워야 하는지, 난 아주 잘 알고 있었다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n직책상 내가 무엇과 싸워야 하는지, 난 아주 잘 알고 있었다."
+        "multi": "true,",
+        "text": "\\n직책상 내가 무엇과 싸워야 하는지, 난 아주 잘 알고 있었다.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n우리는 질서를 무기로 삼아 혼란을 억제하고, 분쟁을 징벌했으며, 범죄를 단속하고 잘못을 바로잡았다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n우리는 질서를 무기로 삼아 혼란을 억제하고, 분쟁을 징벌했으며, 범죄를 단속하고 잘못을 바로잡았다."
+        "multi": "true,",
+        "text": "\\n우리는 질서를 무기로 삼아 혼란을 억제하고, 분쟁을 징벌했으며, 범죄를 단속하고 잘못을 바로잡았다.",
+        "block": true
     },
     {
         "id": "st1",
@@ -149,6 +168,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"그때의 나는, 인간이란…… 참으로 쉽게 부패하는구나 하고 생각했다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "그때의 나는, 인간이란…… 참으로 쉽게 부패하는구나 하고 생각했다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -160,7 +180,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n우리는 순결무구하게 태어나지만, 나이를 먹을수록 악의는 마치 곰팡이처럼 몸 구석구석으로 퍼져나간다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n우리는 순결무구하게 태어나지만, 나이를 먹을수록 악의는 마치 곰팡이처럼 몸 구석구석으로 퍼져나간다."
+        "multi": "true,",
+        "text": "\\n우리는 순결무구하게 태어나지만, 나이를 먹을수록 악의는 마치 곰팡이처럼 몸 구석구석으로 퍼져나간다.",
+        "block": true
     },
     {
         "id": "st1",
@@ -170,13 +192,24 @@
     {
         "id": 24,
         "raw": "[interlude(channel = 2, type = 1, slot = \"m\", offset = \"-170,50\", name = \"cutin_char_15\",sfrom = \"1,1\", sto = \"1,1\",  aduration = 2,block=false)]",
-        "type": "interlude",
-        "block": false
+        "type": "1,",
+        "channel": "2,",
+        "slot": "m",
+        "offset": "-170,50",
+        "name": "cutin_char_15",
+        "sfrom": "1,1",
+        "sto": "1,1",
+        "aduration": "2,block=false"
     },
     {
         "id": 25,
         "raw": "[interlude(channel = 2, type = 1, slot = \"m\", pfrom = \"-170,50\", pto = \"-120,50\", duration = 40)]",
-        "type": "interlude"
+        "type": "1,",
+        "channel": "2,",
+        "slot": "m",
+        "pfrom": "-170,50",
+        "pto": "-120,50",
+        "duration": 40
     },
     {
         "id": 26,
@@ -188,6 +221,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"예전에 나는 우리에게 충분한 힘과 헌신의 마음만 있다면, 이 땅 위에서 죄악이 사라질 거라 생각했다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "예전에 나는 우리에게 충분한 힘과 헌신의 마음만 있다면, 이 땅 위에서 죄악이 사라질 거라 생각했다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -199,13 +233,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n내가 감염자가 되어 용문의 빈민가로 떨어지기 전까지는 말이다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n내가 감염자가 되어 용문의 빈민가로 떨어지기 전까지는 말이다."
+        "multi": "true,",
+        "text": "\\n내가 감염자가 되어 용문의 빈민가로 떨어지기 전까지는 말이다.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n난 그제서야 '공정함'이라는 단어가 사람보다 더 취약하다는 사실을 진정으로 깨달았다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n난 그제서야 '공정함'이라는 단어가 사람보다 더 취약하다는 사실을 진정으로 깨달았다."
+        "multi": "true,",
+        "text": "\\n난 그제서야 '공정함'이라는 단어가 사람보다 더 취약하다는 사실을 진정으로 깨달았다.",
+        "block": true
     },
     {
         "id": "st1",
@@ -216,6 +254,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"오염된 흙에서 돌연변이 식물이 태어났는데, 온실에서 자란 꽃이 그 뒤틀림을 탓할 자격이 있을까? 그 가지와 덩굴을 잘라낼 권리가 있는 것일까?\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "오염된 흙에서 돌연변이 식물이 태어났는데, 온실에서 자란 꽃이 그 뒤틀림을 탓할 자격이 있을까? 그 가지와 덩굴을 잘라낼 권리가 있는 것일까?",
         "x": "300,y=270,",
         "alignment": "left",
@@ -227,7 +266,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n같은 흙에서 자란 적이 없다면, 공정함이라는 단어를 입에 올려서는 안 된다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n같은 흙에서 자란 적이 없다면, 공정함이라는 단어를 입에 올려서는 안 된다."
+        "multi": "true,",
+        "text": "\\n같은 흙에서 자란 적이 없다면, 공정함이라는 단어를 입에 올려서는 안 된다.",
+        "block": true
     },
     {
         "id": "st1",
@@ -259,7 +300,8 @@
     {
         "id": 37,
         "raw": "[interlude(channel = 2,clear = true)]",
-        "type": "interlude"
+        "type": "interlude",
+        "channel": "2,clear"
     },
     {
         "id": 38,
@@ -573,6 +615,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"비명소리와 울음소리가 울려퍼지고, 진흙탕에 고꾸라졌다가 다시 일어서는 사람도 보였다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "비명소리와 울음소리가 울려퍼지고, 진흙탕에 고꾸라졌다가 다시 일어서는 사람도 보였다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -584,7 +627,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n사람들의 등 뒤로 새빨갛게 타오르는 불길이 보였다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n사람들의 등 뒤로 새빨갛게 타오르는 불길이 보였다."
+        "multi": "true,",
+        "text": "\\n사람들의 등 뒤로 새빨갛게 타오르는 불길이 보였다.",
+        "block": true
     },
     {
         "id": "st1",
@@ -816,6 +861,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"끊임없이 이어지는 비방.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "끊임없이 이어지는 비방.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -827,7 +873,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n끊임없이 주고받는 욕설.\",block = true)]",
         "type": "sticker",
-        "text": "\\n끊임없이 주고받는 욕설."
+        "multi": "true,",
+        "text": "\\n끊임없이 주고받는 욕설.",
+        "block": true
     },
     {
         "id": "st1",
@@ -1361,6 +1409,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"나는 불타고 있는 양조장으로 뛰어들었다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "나는 불타고 있는 양조장으로 뛰어들었다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1372,13 +1421,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n용문에서 지금과 비슷한 규모의 화재에 뛰어들었던 게 한두 번이 아니다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n용문에서 지금과 비슷한 규모의 화재에 뛰어들었던 게 한두 번이 아니다."
+        "multi": "true,",
+        "text": "\\n용문에서 지금과 비슷한 규모의 화재에 뛰어들었던 게 한두 번이 아니다.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n근위국의 경찰로서, 빈민가의 주민으로서.\",block = true)]",
         "type": "sticker",
-        "text": "\\n근위국의 경찰로서, 빈민가의 주민으로서."
+        "multi": "true,",
+        "text": "\\n근위국의 경찰로서, 빈민가의 주민으로서.",
+        "block": true
     },
     {
         "id": "st1",
@@ -1491,6 +1544,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"화재란 상실이자, 파멸을 의미한다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "화재란 상실이자, 파멸을 의미한다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1502,13 +1556,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n사람들이 불에 타고 남은 잔해 앞에서 펑펑 우는 모습을 늘 봐왔다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n사람들이 불에 타고 남은 잔해 앞에서 펑펑 우는 모습을 늘 봐왔다."
+        "multi": "true,",
+        "text": "\\n사람들이 불에 타고 남은 잔해 앞에서 펑펑 우는 모습을 늘 봐왔다.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n어떤 때는 감염자였으며, 어떤 때는 평범한 주민이었다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n어떤 때는 감염자였으며, 어떤 때는 평범한 주민이었다."
+        "multi": "true,",
+        "text": "\\n어떤 때는 감염자였으며, 어떤 때는 평범한 주민이었다.",
+        "block": true
     },
     {
         "id": "st1",
@@ -1519,6 +1577,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"그럴 때면 화재 현장을 지켜보던 사람들 사이에서 온갖 유언비어가 떠돌았다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "그럴 때면 화재 현장을 지켜보던 사람들 사이에서 온갖 유언비어가 떠돌았다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1530,19 +1589,25 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n감염자 몇 명이 죽었네, 일반인 몇 명이 죽었네. 괴롭힘 당하던 감염자가 복수를 한 거다, 이웃들이 건물에 가득 차 있던 환자들을 더 이상 견딜 수 없었던 거다라면서.\",block = true)]",
         "type": "sticker",
-        "text": "\\n감염자 몇 명이 죽었네, 일반인 몇 명이 죽었네. 괴롭힘 당하던 감염자가 복수를 한 거다, 이웃들이 건물에 가득 차 있던 환자들을 더 이상 견딜 수 없었던 거다라면서."
+        "multi": "true,",
+        "text": "\\n감염자 몇 명이 죽었네, 일반인 몇 명이 죽었네. 괴롭힘 당하던 감염자가 복수를 한 거다, 이웃들이 건물에 가득 차 있던 환자들을 더 이상 견딜 수 없었던 거다라면서.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n하지만 시가지의 화재가 늘 가장 먼저 진압된다는 건 그 누구도 입 밖으로 꺼내지 않았다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n하지만 시가지의 화재가 늘 가장 먼저 진압된다는 건 그 누구도 입 밖으로 꺼내지 않았다."
+        "multi": "true,",
+        "text": "\\n하지만 시가지의 화재가 늘 가장 먼저 진압된다는 건 그 누구도 입 밖으로 꺼내지 않았다.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n수많은 건물이 파괴되고, 수많은 사람들을 죽인 대형 화재는 언제나 빈민가에서나 일어났다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n수많은 건물이 파괴되고, 수많은 사람들을 죽인 대형 화재는 언제나 빈민가에서나 일어났다."
+        "multi": "true,",
+        "text": "\\n수많은 건물이 파괴되고, 수많은 사람들을 죽인 대형 화재는 언제나 빈민가에서나 일어났다.",
+        "block": true
     },
     {
         "id": "st1",
@@ -1642,6 +1707,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"양조장의 문을 박차고 들어간 나는, 멀지 않은 곳에서 맹렬하게 일어나고 있는 붕괴를 볼 수 있었다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "양조장의 문을 박차고 들어간 나는, 멀지 않은 곳에서 맹렬하게 일어나고 있는 붕괴를 볼 수 있었다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1653,13 +1719,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n금속과 잔해 밖으로 뻗어나온 손이 보였다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n금속과 잔해 밖으로 뻗어나온 손이 보였다."
+        "multi": "true,",
+        "text": "\\n금속과 잔해 밖으로 뻗어나온 손이 보였다.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n손에 쥐어져 있는 것은 가드의 녹음기였다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n손에 쥐어져 있는 것은 가드의 녹음기였다."
+        "multi": "true,",
+        "text": "\\n손에 쥐어져 있는 것은 가드의 녹음기였다.",
+        "block": true
     },
     {
         "id": "st1",
@@ -1773,6 +1843,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"“아니면…… 우리와 힘을 합쳐야 할 사람들, 함께 가시밭길을 헤쳐나가길 원하는 사람들이……”\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "“아니면…… 우리와 힘을 합쳐야 할 사람들, 함께 가시밭길을 헤쳐나가길 원하는 사람들이……”",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1784,13 +1855,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n“과연 감염자뿐일까?”\",block = true)]",
         "type": "sticker",
-        "text": "\\n“과연 감염자뿐일까?”"
+        "multi": "true,",
+        "text": "\\n“과연 감염자뿐일까?”",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n“정말…… 그들뿐일까?”\",block = true)]",
         "type": "sticker",
-        "text": "\\n“정말…… 그들뿐일까?”"
+        "multi": "true,",
+        "text": "\\n“정말…… 그들뿐일까?”",
+        "block": true
     },
     {
         "id": "st1",
@@ -1801,6 +1876,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"“감염자는…… 언제나 밑바닥 중의 밑바닥이다…… 우린 비슷한 처치기에 함께 모였다.”\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "“감염자는…… 언제나 밑바닥 중의 밑바닥이다…… 우린 비슷한 처치기에 함께 모였다.”",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1812,7 +1888,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n“하지만 우리가 함께 맞서 싸워야 할 상대는…… 병만이 아니다.”\",block = true)]",
         "type": "sticker",
-        "text": "\\n“하지만 우리가 함께 맞서 싸워야 할 상대는…… 병만이 아니다.”"
+        "multi": "true,",
+        "text": "\\n“하지만 우리가 함께 맞서 싸워야 할 상대는…… 병만이 아니다.”",
+        "block": true
     },
     {
         "id": "st1",
@@ -1823,6 +1901,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"“우리가 만난 사람이…… 귀족이고, 만일 그가 자신의 권력을 이용하여 사람들을 착취하고 있다면, 우리는 그 사람을 어떻게 대해야 하는 걸까?”\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "“우리가 만난 사람이…… 귀족이고, 만일 그가 자신의 권력을 이용하여 사람들을 착취하고 있다면, 우리는 그 사람을 어떻게 대해야 하는 걸까?”",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1834,7 +1913,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n“그런데…… 그 귀족이 사실은 감염자라면?”\",block = true)]",
         "type": "sticker",
-        "text": "\\n“그런데…… 그 귀족이 사실은 감염자라면?”"
+        "multi": "true,",
+        "text": "\\n“그런데…… 그 귀족이 사실은 감염자라면?”",
+        "block": true
     },
     {
         "id": "st1",
@@ -1845,6 +1926,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"“우리는 감염 여부만을…… 유일한 잣대로, 유일한 구호로 삼아서는 안 된다.”\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "“우리는 감염 여부만을…… 유일한 잣대로, 유일한 구호로 삼아서는 안 된다.”",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1856,25 +1938,33 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n“우리들의 동료에게 필요한 것은, 신념을 같이 하는 것이다…… 예전에 받은 박해에 대한 보복 뿐만이 아니라, 우리와 같은 고통을 겪는 사람들을 고난에서 해방시켜야 한다.”\",block = true)]",
         "type": "sticker",
-        "text": "\\n“우리들의 동료에게 필요한 것은, 신념을 같이 하는 것이다…… 예전에 받은 박해에 대한 보복 뿐만이 아니라, 우리와 같은 고통을 겪는 사람들을 고난에서 해방시켜야 한다.”"
+        "multi": "true,",
+        "text": "\\n“우리들의 동료에게 필요한 것은, 신념을 같이 하는 것이다…… 예전에 받은 박해에 대한 보복 뿐만이 아니라, 우리와 같은 고통을 겪는 사람들을 고난에서 해방시켜야 한다.”",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n“이 대지 위에서 착취당하는 건 우리들뿐만이 아니다…… 우리는 그들과 함께해야 한다.”\",block = true)]",
         "type": "sticker",
-        "text": "\\n“이 대지 위에서 착취당하는 건 우리들뿐만이 아니다…… 우리는 그들과 함께해야 한다.”"
+        "multi": "true,",
+        "text": "\\n“이 대지 위에서 착취당하는 건 우리들뿐만이 아니다…… 우리는 그들과 함께해야 한다.”",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n“우리는 그들을…… 반드시 우리와 함께 하도록 해야 한다.”\",block = true)]",
         "type": "sticker",
-        "text": "\\n“우리는 그들을…… 반드시 우리와 함께 하도록 해야 한다.”"
+        "multi": "true,",
+        "text": "\\n“우리는 그들을…… 반드시 우리와 함께 하도록 해야 한다.”",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n“우리는…… 병에 맞서 싸우기만 해선 안 된다.”\",block = true)]",
         "type": "sticker",
-        "text": "\\n“우리는…… 병에 맞서 싸우기만 해선 안 된다.”"
+        "multi": "true,",
+        "text": "\\n“우리는…… 병에 맞서 싸우기만 해선 안 된다.”",
+        "block": true
     },
     {
         "id": "st1",
@@ -1885,6 +1975,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"“우리가 맞서 싸워야 하는 건, 대체 무엇일까?”\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "“우리가 맞서 싸워야 하는 건, 대체 무엇일까?”",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1896,13 +1987,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n“우리가 이뤄야 하는 건…… 또 무엇일까?”\",block = true)]",
         "type": "sticker",
-        "text": "\\n“우리가 이뤄야 하는 건…… 또 무엇일까?”"
+        "multi": "true,",
+        "text": "\\n“우리가 이뤄야 하는 건…… 또 무엇일까?”",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n“나는……”\",block = true)]",
         "type": "sticker",
-        "text": "\\n“나는……”"
+        "multi": "true,",
+        "text": "\\n“나는……”",
+        "block": true
     },
     {
         "id": "st1",
@@ -1913,6 +2008,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"*바스락거리는 소리*\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "*바스락거리는 소리*",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1929,6 +2025,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"“아주 오래 전, 내가 막 감염이 됐을 무렵…… 난 술을 엄청 좋아했었다. 그때, 에이스 대장이 이렇게 살면…… 언젠가는 술독에 빠져 죽을 거라며 한 소리 했었다.”\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "“아주 오래 전, 내가 막 감염이 됐을 무렵…… 난 술을 엄청 좋아했었다. 그때, 에이스 대장이 이렇게 살면…… 언젠가는 술독에 빠져 죽을 거라며 한 소리 했었다.”",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1940,13 +2037,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n“……하하.”\",block = true)]",
         "type": "sticker",
-        "text": "\\n“……하하.”"
+        "multi": "true,",
+        "text": "\\n“……하하.”",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n“여긴…… 확실히 양조장이 맞나보다.”\",block = true)]",
         "type": "sticker",
-        "text": "\\n“여긴…… 확실히 양조장이 맞나보다.”"
+        "multi": "true,",
+        "text": "\\n“여긴…… 확실히 양조장이 맞나보다.”",
+        "block": true
     },
     {
         "id": "st1",
@@ -1957,6 +2058,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"“……”\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "“……”",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2833,6 +2935,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"난 메이스라는 사람이 내게 준 꽃잎을 바라보았다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "난 메이스라는 사람이 내게 준 꽃잎을 바라보았다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2844,19 +2947,25 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n이곳의 리유니온 의사가 일평생을 이 약초에 바쳤다고 한다. 메이스의 말에 따르면 가드도 이 꽃잎을 지키다 죽었다고 했다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n이곳의 리유니온 의사가 일평생을 이 약초에 바쳤다고 한다. 메이스의 말에 따르면 가드도 이 꽃잎을 지키다 죽었다고 했다."
+        "multi": "true,",
+        "text": "\\n이곳의 리유니온 의사가 일평생을 이 약초에 바쳤다고 한다. 메이스의 말에 따르면 가드도 이 꽃잎을 지키다 죽었다고 했다.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n이 중 대부분은, 현대의 제약 회사가 생겨나기 전에 감염자들이 통증을 완화하기 위하여 씹는 약초라고 알고 있다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n이 중 대부분은, 현대의 제약 회사가 생겨나기 전에 감염자들이 통증을 완화하기 위하여 씹는 약초라고 알고 있다."
+        "multi": "true,",
+        "text": "\\n이 중 대부분은, 현대의 제약 회사가 생겨나기 전에 감염자들이 통증을 완화하기 위하여 씹는 약초라고 알고 있다.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n이걸 참고하면 우리의 조악한 약도 좀 더 효과가 좋게 개량할 수 있을지도 모른다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n이걸 참고하면 우리의 조악한 약도 좀 더 효과가 좋게 개량할 수 있을지도 모른다."
+        "multi": "true,",
+        "text": "\\n이걸 참고하면 우리의 조악한 약도 좀 더 효과가 좋게 개량할 수 있을지도 모른다.",
+        "block": true
     },
     {
         "id": "st1",
@@ -2867,6 +2976,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"우린 종착점에서 추락하는 사람들을 기다려선 안 된다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "우린 종착점에서 추락하는 사람들을 기다려선 안 된다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2878,7 +2988,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n우리가 해야 할 일은 그뿐만이 아니니까 말이다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n우리가 해야 할 일은 그뿐만이 아니니까 말이다."
+        "multi": "true,",
+        "text": "\\n우리가 해야 할 일은 그뿐만이 아니니까 말이다.",
+        "block": true
     },
     {
         "id": "st1",
@@ -3050,6 +3162,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"그 불길은 밤새 타올랐다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "그 불길은 밤새 타올랐다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -3061,7 +3174,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n우리는 결국 가드의 시체를 회수하는 걸 포기했다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n우리는 결국 가드의 시체를 회수하는 걸 포기했다."
+        "multi": "true,",
+        "text": "\\n우리는 결국 가드의 시체를 회수하는 걸 포기했다.",
+        "block": true
     },
     {
         "id": "st1",
@@ -3072,6 +3187,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"레드는 하늘을 향해 곧게 뻗은, 예쁜 나무를 찾았다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "레드는 하늘을 향해 곧게 뻗은, 예쁜 나무를 찾았다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -3083,19 +3199,25 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n레드는 구덩이를 판 후, 가드가 가지고 있던 아기자기한 손수건을 묻었다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n레드는 구덩이를 판 후, 가드가 가지고 있던 아기자기한 손수건을 묻었다."
+        "multi": "true,",
+        "text": "\\n레드는 구덩이를 판 후, 가드가 가지고 있던 아기자기한 손수건을 묻었다.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n방금 판 구덩이 주위에 꽃이 피기 시작했다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n방금 판 구덩이 주위에 꽃이 피기 시작했다."
+        "multi": "true,",
+        "text": "\\n방금 판 구덩이 주위에 꽃이 피기 시작했다.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n손수건에 새겨진 조악한 꽃은, 그렇기에 오히려 주변 풍경과 더 잘 어울렸다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n손수건에 새겨진 조악한 꽃은, 그렇기에 오히려 주변 풍경과 더 잘 어울렸다."
+        "multi": "true,",
+        "text": "\\n손수건에 새겨진 조악한 꽃은, 그렇기에 오히려 주변 풍경과 더 잘 어울렸다.",
+        "block": true
     },
     {
         "id": "st1",

@@ -69,12 +69,25 @@
     {
         "id": 10,
         "raw": "[interlude(maskid = \"ui_cutin_mask_vertical\", style = 1, size = \"600, 720\",offset = \"-120,0\", channel = 2)]",
-        "type": "interlude"
+        "type": "interlude",
+        "maskid": "ui_cutin_mask_vertical",
+        "style": "1,",
+        "size": "600, 720",
+        "offset": "-120,0",
+        "channel": 2
     },
     {
         "id": 11,
         "raw": "[interlude(channel = 2, type = 2, name = \"43_g8_wildernesswarcircle\", afrom = 0, ato = 1, aduration = 3, sfrom = \"1.9,1.9\", sto = \"1.9,1.9\", sduration = 0)]",
-        "type": "interlude"
+        "type": "2,",
+        "channel": "2,",
+        "name": "43_g8_wildernesswarcircle",
+        "afrom": "0,",
+        "ato": "1,",
+        "aduration": "3,",
+        "sfrom": "1.9,1.9",
+        "sto": "1.9,1.9",
+        "sduration": 0
     },
     {
         "id": 12,
@@ -85,13 +98,24 @@
     {
         "id": 13,
         "raw": "[interlude(channel = 2, type = 1, slot = \"m\", offset = \"-120,50\", name = \"cutin_char_5\",sfrom = \"1.2,1.2\", sto = \"1.2,1.2\",  aduration = 2,block=false)]",
-        "type": "interlude",
-        "block": false
+        "type": "1,",
+        "channel": "2,",
+        "slot": "m",
+        "offset": "-120,50",
+        "name": "cutin_char_5",
+        "sfrom": "1.2,1.2",
+        "sto": "1.2,1.2",
+        "aduration": "2,block=false"
     },
     {
         "id": 14,
         "raw": "[interlude(channel = 2, type = 1, slot = \"m\", pfrom = \"-120,50\", pto = \"-170,50\", duration = 40)]",
-        "type": "interlude"
+        "type": "1,",
+        "channel": "2,",
+        "slot": "m",
+        "pfrom": "-120,50",
+        "pto": "-170,50",
+        "duration": 40
     },
     {
         "id": 15,
@@ -119,6 +143,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"我从没这么明白地感觉到，我的血在自己的血管里流动。\", x=300,y=270, alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "我从没这么明白地感觉到，我的血在自己的血管里流动。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -130,7 +155,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n它们横冲乱撞，穿过四肢，最终汇总在我的心脏里。 \",block = true)]",
         "type": "sticker",
-        "text": "\\n它们横冲乱撞，穿过四肢，最终汇总在我的心脏里。 "
+        "multi": "true,",
+        "text": "\\n它们横冲乱撞，穿过四肢，最终汇总在我的心脏里。 ",
+        "block": true
     },
     {
         "id": "st1",
@@ -141,6 +168,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"在罗德岛，那些医疗干员给我做检查的时候，想给我打一种......那东西叫什么来着，我忘了。 \",x=300,y=270, alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "在罗德岛，那些医疗干员给我做检查的时候，想给我打一种......那东西叫什么来着，我忘了。 ",
         "x": "300,y=270,",
         "alignment": "left",
@@ -157,6 +185,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"我吓唬了他们一顿，我可不想自己的身体里除了源石，还要再混上些什么乱七八糟的东西。 \",x=300,y=270, alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "我吓唬了他们一顿，我可不想自己的身体里除了源石，还要再混上些什么乱七八糟的东西。 ",
         "x": "300,y=270,",
         "alignment": "left",
@@ -168,7 +197,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n好吧，现在我知道了，我们的确靠着这些血来活着。 \",block = true)]",
         "type": "sticker",
-        "text": "\\n好吧，现在我知道了，我们的确靠着这些血来活着。 "
+        "multi": "true,",
+        "text": "\\n好吧，现在我知道了，我们的确靠着这些血来活着。 ",
+        "block": true
     },
     {
         "id": "st1",
@@ -179,6 +210,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"携带氧气什么的，赫德雷和我讲过。 \",x=300,y=270, alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "携带氧气什么的，赫德雷和我讲过。 ",
         "x": "300,y=270,",
         "alignment": "left",
@@ -190,7 +222,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n不过现在，我恨这种感觉。 \",block = true)]",
         "type": "sticker",
-        "text": "\\n不过现在，我恨这种感觉。 "
+        "multi": "true,",
+        "text": "\\n不过现在，我恨这种感觉。 ",
+        "block": true
     },
     {
         "id": "st1",
@@ -217,6 +251,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"你们既然是我的血，那就要听我的。\", x=300,y=270, alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "你们既然是我的血，那就要听我的。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -228,7 +263,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n否则，就滚出我的身体。 \",block = true)]",
         "type": "sticker",
-        "text": "\\n否则，就滚出我的身体。 "
+        "multi": "true,",
+        "text": "\\n否则，就滚出我的身体。 ",
+        "block": true
     },
     {
         "id": "st1",
@@ -239,6 +276,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"我摸向腰间的刀。\", x=300,y=270, alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "我摸向腰间的刀。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -281,7 +319,8 @@
     {
         "id": 40,
         "raw": "[interlude(channel = 2,clear = true)]",
-        "type": "interlude"
+        "type": "interlude",
+        "channel": "2,clear"
     },
     {
         "id": 41,
@@ -493,6 +532,8 @@
         "id": 71,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_869_1#6$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_869_1#6$1.png",
         "focus": "m"
     },
     {
@@ -527,6 +568,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"赫德雷皱着眉头，那巫妖也正紧紧抓着自己的帽子。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "赫德雷皱着眉头，那巫妖也正紧紧抓着自己的帽子。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -538,7 +580,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n躁动终于平息了。不，应该说，是顽强的我们适应了。\",block = true)]",
         "type": "sticker",
-        "text": "\\n躁动终于平息了。不，应该说，是顽强的我们适应了。"
+        "multi": "true,",
+        "text": "\\n躁动终于平息了。不，应该说，是顽强的我们适应了。",
+        "block": true
     },
     {
         "id": "st1",
@@ -665,6 +709,8 @@
         "id": 94,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_869_1#9$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_869_1#9$1.png",
         "focus": "m"
     },
     {
@@ -678,6 +724,8 @@
         "id": 96,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_869_1#8$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_869_1#8$1.png",
         "focus": "m"
     },
     {
@@ -765,6 +813,8 @@
         "id": 108,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_869_1#9$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_869_1#9$1.png",
         "focus": "m"
     },
     {
@@ -793,6 +843,8 @@
         "id": 112,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_869_1#9$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_869_1#9$1.png",
         "focus": "m"
     },
     {
@@ -821,6 +873,8 @@
         "id": 116,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_869_1#7$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_869_1#7$1.png",
         "focus": "m"
     },
     {
@@ -850,6 +904,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"啧。这女人刚才瞟了我一眼。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "啧。这女人刚才瞟了我一眼。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -897,6 +952,8 @@
         "id": 126,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_869_1#7$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_869_1#7$1.png",
         "focus": "m"
     },
     {
@@ -926,6 +983,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"她要是再说一句，我就真的那么做。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "她要是再说一句，我就真的那么做。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -953,6 +1011,8 @@
         "id": 133,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_869_1#2$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_869_1#2$1.png",
         "focus": "m"
     },
     {
@@ -966,6 +1026,8 @@
         "id": 135,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_869_1#9$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_869_1#9$1.png",
         "focus": "m"
     },
     {
@@ -1008,6 +1070,8 @@
         "id": 141,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_869_1#9$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_869_1#9$1.png",
         "focus": "m"
     },
     {
@@ -1021,6 +1085,8 @@
         "id": 143,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_869_1#1$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_869_1#1$1.png",
         "focus": "m"
     },
     {
@@ -1049,6 +1115,8 @@
         "id": 147,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_869_1#1$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_869_1#1$1.png",
         "focus": "m"
     },
     {
@@ -1077,6 +1145,8 @@
         "id": 151,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_869_1#1$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_869_1#1$1.png",
         "focus": "m"
     },
     {
@@ -1119,6 +1189,8 @@
         "id": 157,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_869_1#1$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_869_1#1$1.png",
         "focus": "m"
     },
     {
@@ -1154,6 +1226,8 @@
         "id": 162,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_869_1#1$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_869_1#1$1.png",
         "focus": "m"
     },
     {
@@ -1198,6 +1272,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"伊内丝第一次插话了。她不耐烦了，很好。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "伊内丝第一次插话了。她不耐烦了，很好。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1226,6 +1301,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"她吸引了注意，我来弄死这个什么巫妖。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "她吸引了注意，我来弄死这个什么巫妖。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1264,6 +1340,8 @@
         "id": 177,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_869_1#1$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_869_1#1$1.png",
         "focus": "m"
     },
     {
@@ -1299,6 +1377,8 @@
         "id": 182,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_869_1#1$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_869_1#1$1.png",
         "focus": "m"
     },
     {
@@ -1327,6 +1407,8 @@
         "id": 186,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_869_1#1$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_869_1#1$1.png",
         "focus": "m"
     },
     {
@@ -1340,6 +1422,8 @@
         "id": 188,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_869_1#9$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_869_1#9$1.png",
         "focus": "m"
     },
     {
@@ -1454,6 +1538,8 @@
         "id": 204,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_869_1#9$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_869_1#9$1.png",
         "focus": "m"
     },
     {
@@ -1474,6 +1560,8 @@
         "id": 207,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_869_1#6$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_869_1#6$1.png",
         "focus": "m"
     },
     {
@@ -1487,6 +1575,8 @@
         "id": 209,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_869_1#9$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_869_1#9$1.png",
         "focus": "m"
     },
     {
@@ -1535,6 +1625,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"又是流亡。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "又是流亡。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1546,7 +1637,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n说什么废话，难道我们现在没在流亡吗？我们是在哪座移动城市上安居乐业看着天灾云喝下午茶了？\",block = true)]",
         "type": "sticker",
-        "text": "\\n说什么废话，难道我们现在没在流亡吗？我们是在哪座移动城市上安居乐业看着天灾云喝下午茶了？"
+        "multi": "true,",
+        "text": "\\n说什么废话，难道我们现在没在流亡吗？我们是在哪座移动城市上安居乐业看着天灾云喝下午茶了？",
+        "block": true
     },
     {
         "id": "st1",
@@ -1613,6 +1706,8 @@
         "id": 226,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_869_1#1$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_869_1#1$1.png",
         "focus": "m"
     },
     {
@@ -1641,6 +1736,8 @@
         "id": 230,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_869_1#9$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_869_1#9$1.png",
         "focus": "m"
     },
     {
@@ -1690,6 +1787,8 @@
         "id": 237,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_869_1#11$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_869_1#11$1.png",
         "focus": "m"
     },
     {
@@ -1732,6 +1831,8 @@
         "id": 243,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_869_1#8$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_869_1#8$1.png",
         "focus": "m"
     },
     {
@@ -1753,6 +1854,8 @@
         "id": 246,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_869_1#9$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_869_1#9$1.png",
         "focus": "m"
     },
     {
@@ -1818,6 +1921,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"特蕾西娅。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "特蕾西娅。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1829,7 +1933,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n我一直试图把这个名字和这场战争分割开来。\",block = true)]",
         "type": "sticker",
-        "text": "\\n我一直试图把这个名字和这场战争分割开来。"
+        "multi": "true,",
+        "text": "\\n我一直试图把这个名字和这场战争分割开来。",
+        "block": true
     },
     {
         "id": "st1",
@@ -1840,6 +1946,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"殿下，她......\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "殿下，她......",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1851,7 +1958,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n一场和以前毫无区别的战争，又能让谁安眠？\",block = true)]",
         "type": "sticker",
-        "text": "\\n一场和以前毫无区别的战争，又能让谁安眠？"
+        "multi": "true,",
+        "text": "\\n一场和以前毫无区别的战争，又能让谁安眠？",
+        "block": true
     },
     {
         "id": "st1",
@@ -1862,6 +1971,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"哈哈，大概是那混蛋特雷西斯弄的什么障眼法，他杀了殿下，他还亵渎了她。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "哈哈，大概是那混蛋特雷西斯弄的什么障眼法，他杀了殿下，他还亵渎了她。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1873,13 +1983,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n我会让他跪下来道歉。\",block = true)]",
         "type": "sticker",
-        "text": "\\n我会让他跪下来道歉。"
+        "multi": "true,",
+        "text": "\\n我会让他跪下来道歉。",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n等他道完歉，再把他的脑袋炸开花。\",block = true)]",
         "type": "sticker",
-        "text": "\\n等他道完歉，再把他的脑袋炸开花。"
+        "multi": "true,",
+        "text": "\\n等他道完歉，再把他的脑袋炸开花。",
+        "block": true
     },
     {
         "id": "st1",
@@ -1912,6 +2026,8 @@
         "id": 268,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_869_1#1$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_869_1#1$1.png",
         "focus": "m"
     },
     {
@@ -1940,6 +2056,8 @@
         "id": 272,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_869_1#7$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_869_1#7$1.png",
         "focus": "m"
     },
     {
@@ -1975,6 +2093,8 @@
         "id": 277,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_869_1#6$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_869_1#6$1.png",
         "focus": "m"
     },
     {
@@ -1995,6 +2115,8 @@
         "id": 280,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_869_1#1$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_869_1#1$1.png",
         "focus": "m"
     },
     {
@@ -2059,6 +2181,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"“她”？\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "“她”？",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2070,7 +2193,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n慢着。\",block = true)]",
         "type": "sticker",
-        "text": "\\n慢着。"
+        "multi": "true,",
+        "text": "\\n慢着。",
+        "block": true
     },
     {
         "id": "st1",
@@ -2187,6 +2312,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"我在说什么？我也不知道。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "我在说什么？我也不知道。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2198,7 +2324,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n真恶心，这种多愁善感的发言应该留给赫德雷。\",block = true)]",
         "type": "sticker",
-        "text": "\\n真恶心，这种多愁善感的发言应该留给赫德雷。"
+        "multi": "true,",
+        "text": "\\n真恶心，这种多愁善感的发言应该留给赫德雷。",
+        "block": true
     },
     {
         "id": "st1",
@@ -2209,6 +2337,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"......可是，到底是什么？\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "......可是，到底是什么？",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2304,6 +2433,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"不远的地方，有个人坐在山头。就在原本消散的那个幻象的边缘。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "不远的地方，有个人坐在山头。就在原本消散的那个幻象的边缘。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2315,13 +2445,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n她只是坐在那里，好像什么都没在挂念。\",block = true)]",
         "type": "sticker",
-        "text": "\\n她只是坐在那里，好像什么都没在挂念。"
+        "multi": "true,",
+        "text": "\\n她只是坐在那里，好像什么都没在挂念。",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n她的粉白色长发从肩头披下，一如往常。\",block = true)]",
         "type": "sticker",
-        "text": "\\n她的粉白色长发从肩头披下，一如往常。"
+        "multi": "true,",
+        "text": "\\n她的粉白色长发从肩头披下，一如往常。",
+        "block": true
     },
     {
         "id": "st1",
@@ -2369,6 +2503,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"还有那种眼神，那种......悲伤的......\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "还有那种眼神，那种......悲伤的......",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2434,6 +2569,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"我移开了目光。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "我移开了目光。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2545,6 +2681,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"......怎么可能？\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "......怎么可能？",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2556,7 +2693,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n怎么可能怎么可能怎么可能......\",block = true)]",
         "type": "sticker",
-        "text": "\\n怎么可能怎么可能怎么可能......"
+        "multi": "true,",
+        "text": "\\n怎么可能怎么可能怎么可能......",
+        "block": true
     },
     {
         "id": "st1",
@@ -2567,6 +2706,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"不，那不是幻觉......\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "不，那不是幻觉......",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2578,7 +2718,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n在我看到她的那一刻，我就知道，那不是幻觉。\",block = true)]",
         "type": "sticker",
-        "text": "\\n在我看到她的那一刻，我就知道，那不是幻觉。"
+        "multi": "true,",
+        "text": "\\n在我看到她的那一刻，我就知道，那不是幻觉。",
+        "block": true
     },
     {
         "id": "st1",
@@ -2589,6 +2731,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"那就是她。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "那就是她。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2721,6 +2864,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"她走了。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "她走了。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2732,7 +2876,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n我想伸出手——\",block = true)]",
         "type": "sticker",
-        "text": "\\n我想伸出手——"
+        "multi": "true,",
+        "text": "\\n我想伸出手——",
+        "block": true
     },
     {
         "id": "st1",
@@ -2743,6 +2889,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"不，算了。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "不，算了。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2754,13 +2901,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n也许该留到下次。\",block = true)]",
         "type": "sticker",
-        "text": "\\n也许该留到下次。"
+        "multi": "true,",
+        "text": "\\n也许该留到下次。",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n反正......她不会是真的。\",block = true)]",
         "type": "sticker",
-        "text": "\\n反正......她不会是真的。"
+        "multi": "true,",
+        "text": "\\n反正......她不会是真的。",
+        "block": true
     },
     {
         "id": "st1",
@@ -2771,6 +2922,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"她只是......很像很像，以假乱真，能骗过绝大多数糊涂蛋的眼睛。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "她只是......很像很像，以假乱真，能骗过绝大多数糊涂蛋的眼睛。",
         "x": "300,y=270,",
         "alignment": "left",

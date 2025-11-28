@@ -61,12 +61,25 @@
     {
         "id": 9,
         "raw": "[interlude(maskid = \"ui_cutin_mask_horizon\", style = 1, size = \"1280, 100\",offset = \"0,0\", channel = 2)]",
-        "type": "interlude"
+        "type": "interlude",
+        "maskid": "ui_cutin_mask_horizon",
+        "style": "1,",
+        "size": "1280, 100",
+        "offset": "0,0",
+        "channel": 2
     },
     {
         "id": 10,
         "raw": "[interlude(channel = 2, type = 2, name = \"bg_black\", afrom = 0, ato = 1, aduration = 0.3,sfrom = \"1.3,1.3\", sto = \"1.3,1.3\", sduration = 0, block = false)]",
-        "type": "interlude"
+        "type": "2,",
+        "channel": "2,",
+        "name": "bg_black",
+        "afrom": "0,",
+        "ato": "1,",
+        "aduration": "0.3,sfrom",
+        "sto": "1.3,1.3",
+        "sduration": "0,",
+        "block": false
     },
     {
         "id": "st1",
@@ -105,7 +118,9 @@
     {
         "id": 15,
         "raw": "[interlude(channel = 2, clear = true)]",
-        "type": "interlude"
+        "type": "interlude",
+        "channel": "2,",
+        "clear": true
     },
     {
         "id": 16,
@@ -630,7 +645,9 @@
     {
         "id": 87,
         "raw": "[charslot(slot = \"m\", focus = \"n\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "focus": "n"
     },
     {
         "id": 88,
@@ -916,7 +933,9 @@
     {
         "id": 119,
         "raw": "[charslot(slot = \"m\", focus = \"n\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "focus": "n"
     },
     {
         "id": 120,
@@ -1587,7 +1606,9 @@
     {
         "id": 218,
         "raw": "[charslot(slot = \"m\", focus = \"n\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "focus": "n"
     },
     {
         "id": 219,
@@ -1625,7 +1646,9 @@
     {
         "id": 224,
         "raw": "[charslot(slot = \"m\", focus = \"n\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "focus": "n"
     },
     {
         "id": 225,
@@ -1679,7 +1702,7 @@
         "raw": "[Effect(name=\"$e_slash_02_s\",x = 170,y=100,rox=-80,roy=89,roz=150,layer = 1)]",
         "type": "effect",
         "name": "$e_slash_02_s",
-        "y": "100,rox=-80,roy=89,roz=150,layer"
+        "x": "170,y=100,rox=-80,roy=89,roz=150,layer"
     },
     {
         "id": 233,
@@ -1715,6 +1738,7 @@
         "id": 237,
         "raw": "[charslot(slot =\"m\", action=\"shake\", power=10, times=50, duration=0.5)]",
         "type": "charslot",
+        "slot": "m",
         "action": "shake",
         "power": "10,",
         "times": "50,",
@@ -1754,7 +1778,10 @@
         "id": 242,
         "raw": "[charslot(slot = \"m\",posfrom = \"0,0\", posto = \"0,-100\",duration = 0.7,afrom=1,ato=0)]",
         "type": "charslot",
-        "afrom": "1,ato=0"
+        "slot": "m",
+        "posfrom": "0,0",
+        "posto": "0,-100",
+        "duration": "0.7,afrom=1,ato=0"
     },
     {
         "id": 243,
@@ -2035,7 +2062,11 @@
     {
         "id": 284,
         "raw": "[charslot(slot = \"m\",posfrom = \"0,0\", posto = \"200,0\",duration = 0.2)]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "posfrom": "0,0",
+        "posto": "200,0",
+        "duration": 0.2
     },
     {
         "id": 285,
@@ -2069,6 +2100,7 @@
         "slot": "l",
         "name": "avg_4132_ascln_1#4$1.png",
         "duration": "0.3,posfrom",
+        "posto": "150,0",
         "afrom": "1,ato=0"
     },
     {
@@ -2098,7 +2130,8 @@
         "id": 293,
         "raw": "[Effect(name=\"$e_spark_01_mid\",layer = 1)]",
         "type": "effect",
-        "name": "$e_spark_01_mid"
+        "name": "$e_spark_01_mid",
+        "layer": 1
     },
     {
         "id": 294,
@@ -2143,7 +2176,8 @@
         "raw": "[charslot(slot=\"r\",duration=0.3,posfrom = \"0,0\", posto = \"150,0\")]",
         "type": "charslot",
         "slot": "r",
-        "duration": "0.3,posfrom"
+        "duration": "0.3,posfrom",
+        "posto": "150,0"
     },
     {
         "id": 299,
@@ -2156,14 +2190,16 @@
         "raw": "[charslot(slot=\"r\",duration=0.5,posfrom = \"150,0\", posto = \"100,0\")]",
         "type": "charslot",
         "slot": "r",
-        "duration": "0.5,posfrom"
+        "duration": "0.5,posfrom",
+        "posto": "100,0"
     },
     {
         "id": 301,
         "raw": "[charslot(slot=\"l\",duration=0.5,name=\"avg_4132_ascln_1#4$1\",posfrom = \"-100,0\", posto = \"-100,0\")]",
         "type": "charslot",
         "slot": "l",
-        "duration": "0.5,name=\"avg_4132_ascln_1#4$1\",posfrom"
+        "duration": "0.5,name=\"avg_4132_ascln_1#4$1\",posfrom",
+        "posto": "-100,0"
     },
     {
         "id": 302,
@@ -2221,14 +2257,16 @@
         "raw": "[charslot(slot=\"r\",duration=0.3,posfrom = \"100,0\", posto = \"-50,0\")]",
         "type": "charslot",
         "slot": "r",
-        "duration": "0.3,posfrom"
+        "duration": "0.3,posfrom",
+        "posto": "-50,0"
     },
     {
         "id": 310,
         "raw": "[charslot(slot=\"l\",duration=0.3,posfrom = \"-100,0\", posto = \"100,0\")]",
         "type": "charslot",
         "slot": "l",
-        "duration": "0.3,posfrom"
+        "duration": "0.3,posfrom",
+        "posto": "100,0"
     },
     {
         "id": 311,
@@ -2321,7 +2359,8 @@
         "type": "charslot",
         "slot": "r",
         "name": "avg_npc_1302_1#8$1.png",
-        "duration": "0.5,posfrom"
+        "duration": "0.5,posfrom",
+        "posto": "0,0"
     },
     {
         "id": 323,
@@ -2537,7 +2576,8 @@
         "type": "charslot",
         "slot": "m",
         "name": "avg_npc_1302_1#8$1.png",
-        "duration": "1,posfrom"
+        "duration": "1,posfrom",
+        "posto": "0,0"
     },
     {
         "id": 354,
@@ -2576,12 +2616,16 @@
     {
         "id": 359,
         "raw": "[charslot(slot = \"right\", name = \"avg_npc_1297_1#8$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "right",
+        "name": "avg_npc_1297_1#8$1.png"
     },
     {
         "id": 360,
         "raw": "[charslot(slot = \"left\", name = \"avg_npc_1296_1#8$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "left",
+        "name": "avg_npc_1296_1#8$1.png"
     },
     {
         "id": 361,
@@ -2598,6 +2642,8 @@
         "id": 362,
         "raw": "[charslot(slot = \"left\", name = \"avg_npc_1296_1#8$1\",focus=\"l\")]",
         "type": "charslot",
+        "slot": "left",
+        "name": "avg_npc_1296_1#8$1.png",
         "focus": "l"
     },
     {
@@ -2659,12 +2705,16 @@
         "id": 372,
         "raw": "[charslot(slot = \"right\", name = \"avg_npc_1297_1#8$1\",focus=\"l\")]",
         "type": "charslot",
+        "slot": "right",
+        "name": "avg_npc_1297_1#8$1.png",
         "focus": "l"
     },
     {
         "id": 373,
         "raw": "[charslot(slot = \"left\", name = \"avg_npc_1296_1#9$1\",focus=\"l\")]",
         "type": "charslot",
+        "slot": "left",
+        "name": "avg_npc_1296_1#9$1.png",
         "focus": "l"
     },
     {
@@ -2678,6 +2728,8 @@
         "id": 375,
         "raw": "[charslot(slot = \"right\", name = \"avg_npc_1297_1#8$1\",focus=\"r\")]",
         "type": "charslot",
+        "slot": "right",
+        "name": "avg_npc_1297_1#8$1.png",
         "focus": "r"
     },
     {
@@ -2842,12 +2894,16 @@
         "id": 400,
         "raw": "[charslot(slot = \"right\", name = \"avg_npc_1297_1#8$1\",focus=\"l\")]",
         "type": "charslot",
+        "slot": "right",
+        "name": "avg_npc_1297_1#8$1.png",
         "focus": "l"
     },
     {
         "id": 401,
         "raw": "[charslot(slot = \"left\", name = \"avg_npc_1296_1#8$1\",focus=\"l\")]",
         "type": "charslot",
+        "slot": "left",
+        "name": "avg_npc_1296_1#8$1.png",
         "focus": "l"
     },
     {
@@ -3210,12 +3266,20 @@
     {
         "id": 452,
         "raw": "[charslot(slot = \"left\", name = \"avg_4132_ascln_1#4$1\",posfrom = \"120,0\", posto = \"120,0\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "left",
+        "name": "avg_4132_ascln_1#4$1.png",
+        "posfrom": "120,0",
+        "posto": "120,0"
     },
     {
         "id": 453,
         "raw": "[charslot(slot = \"right\", name = \"avg_npc_404_1#2$1\",posfrom = \"-120,0\", posto = \"-120,0\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "right",
+        "name": "avg_npc_404_1#2$1.png",
+        "posfrom": "-120,0",
+        "posto": "-120,0"
     },
     {
         "id": 454,
@@ -3258,14 +3322,16 @@
         "raw": "[charslot(slot=\"r\",duration=0.5,posfrom = \"-120,0\", posto = \"120,0\")]",
         "type": "charslot",
         "slot": "r",
-        "duration": "0.5,posfrom"
+        "duration": "0.5,posfrom",
+        "posto": "120,0"
     },
     {
         "id": 459,
         "raw": "[charslot(slot=\"l\",duration=0.5,posfrom = \"120,0\", posto = \"-120,0\")]",
         "type": "charslot",
         "slot": "l",
-        "duration": "0.5,posfrom"
+        "duration": "0.5,posfrom",
+        "posto": "-120,0"
     },
     {
         "id": 460,
@@ -3285,6 +3351,8 @@
         "id": 462,
         "raw": "[charslot(slot = \"left\", name = \"avg_4132_ascln_1#1$1\",focus=\"l\")]",
         "type": "charslot",
+        "slot": "left",
+        "name": "avg_4132_ascln_1#1$1.png",
         "focus": "l"
     },
     {
@@ -3298,6 +3366,8 @@
         "id": 464,
         "raw": "[charslot(slot = \"right\", name = \"avg_npc_404_1#1$1\",focus=\"r\")]",
         "type": "charslot",
+        "slot": "right",
+        "name": "avg_npc_404_1#1$1.png",
         "focus": "r"
     },
     {
@@ -3311,6 +3381,8 @@
         "id": 466,
         "raw": "[charslot(slot = \"left\", name = \"avg_4132_ascln_1#1$1\",focus=\"l\")]",
         "type": "charslot",
+        "slot": "left",
+        "name": "avg_4132_ascln_1#1$1.png",
         "focus": "l"
     },
     {
@@ -3324,6 +3396,8 @@
         "id": 468,
         "raw": "[charslot(slot = \"right\", name = \"avg_npc_404_1#6$1\",focus=\"r\")]",
         "type": "charslot",
+        "slot": "right",
+        "name": "avg_npc_404_1#6$1.png",
         "focus": "r"
     },
     {
@@ -3344,6 +3418,8 @@
         "id": 471,
         "raw": "[charslot(slot = \"left\", name = \"avg_4132_ascln_1#4$1\",focus=\"l\")]",
         "type": "charslot",
+        "slot": "left",
+        "name": "avg_4132_ascln_1#4$1.png",
         "focus": "l"
     },
     {
@@ -3364,6 +3440,8 @@
         "id": 474,
         "raw": "[charslot(slot = \"right\", name = \"avg_npc_404_1#1$1\",focus=\"r\")]",
         "type": "charslot",
+        "slot": "right",
+        "name": "avg_npc_404_1#1$1.png",
         "focus": "r"
     },
     {
@@ -3377,6 +3455,8 @@
         "id": 476,
         "raw": "[charslot(slot = \"right\", name = \"avg_npc_404_1#2$1\",focus=\"r\")]",
         "type": "charslot",
+        "slot": "right",
+        "name": "avg_npc_404_1#2$1.png",
         "focus": "r"
     },
     {
@@ -3390,6 +3470,8 @@
         "id": 478,
         "raw": "[charslot(slot = \"left\", name = \"avg_4132_ascln_1#1$1\",focus=\"l\")]",
         "type": "charslot",
+        "slot": "left",
+        "name": "avg_4132_ascln_1#1$1.png",
         "focus": "l"
     },
     {
@@ -3403,6 +3485,8 @@
         "id": 480,
         "raw": "[charslot(slot = \"right\", name = \"avg_npc_404_1#7$1\",focus=\"r\")]",
         "type": "charslot",
+        "slot": "right",
+        "name": "avg_npc_404_1#7$1.png",
         "focus": "r"
     },
     {
@@ -3416,6 +3500,8 @@
         "id": 482,
         "raw": "[charslot(slot = \"right\", name = \"avg_npc_404_1#2$1\",focus=\"r\")]",
         "type": "charslot",
+        "slot": "right",
+        "name": "avg_npc_404_1#2$1.png",
         "focus": "r"
     },
     {
@@ -3436,6 +3522,8 @@
         "id": 485,
         "raw": "[charslot(slot = \"left\", name = \"avg_4132_ascln_1#1$1\",focus=\"l\")]",
         "type": "charslot",
+        "slot": "left",
+        "name": "avg_4132_ascln_1#1$1.png",
         "focus": "l"
     },
     {
@@ -3475,7 +3563,8 @@
         "id": 491,
         "raw": "[charslot(slot = \"left\",duration = 1,afrom=1,ato=0)]",
         "type": "charslot",
-        "afrom": "1,ato=0"
+        "slot": "left",
+        "duration": "1,afrom=1,ato=0"
     },
     {
         "id": 492,
@@ -3487,6 +3576,8 @@
         "id": 493,
         "raw": "[charslot(slot = \"right\", name = \"avg_npc_404_1#2$1\",focus=\"r\")]",
         "type": "charslot",
+        "slot": "right",
+        "name": "avg_npc_404_1#2$1.png",
         "focus": "r"
     },
     {
@@ -3499,7 +3590,9 @@
     {
         "id": 495,
         "raw": "[charslot(slot = \"m\", focus = \"n\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "focus": "n"
     },
     {
         "id": 496,
@@ -3541,7 +3634,9 @@
     {
         "id": 502,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_404_1#3$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_404_1#3$1.png"
     },
     {
         "id": 503,
@@ -3636,7 +3731,9 @@
     {
         "id": 516,
         "raw": "[charslot(slot = \"m\", focus = \"n\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "focus": "n"
     },
     {
         "id": 517,
@@ -4081,6 +4178,7 @@
         "id": 579,
         "raw": "[charslot(slot = \"r\",afrom=1,ato=0,duration = 1)]",
         "type": "charslot",
+        "slot": "r",
         "afrom": "1,ato=0,duration"
     },
     {

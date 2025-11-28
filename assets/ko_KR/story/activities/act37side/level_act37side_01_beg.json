@@ -82,10 +82,13 @@
         "type": "dialog_marker"
     },
     {
-        "id": 12,
+        "id": "at1",
         "raw": "[animtext(id = \"at1\", name = \"group_location_stamp\", style=\"avg_both\", pos = \"-400,-200\", block = false)]<p=1>런디니움 폐공장</><p=2>1098년 12월 8일 4:43 P.M.</>",
         "type": "anim_text",
+        "name": "group_location_stamp",
         "style": "avg_both",
+        "pos": "-400,-200",
+        "block": false,
         "content": "<p=1>런디니움 폐공장</><p=2>1098년 12월 8일 4:43 P.M.</>"
     },
     {
@@ -179,12 +182,16 @@
         "id": 26,
         "raw": "[charslot(slot = \"l\", name = \"avg_npc_399_1#1$1\", duration=0.5)]",
         "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_399_1#1$1.png",
         "duration": 0.5
     },
     {
         "id": 27,
         "raw": "[charslot(slot = \"r\", name = \"avg_npc_399_1#1$1\", duration=0.5)]",
         "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_399_1#1$1.png",
         "duration": 0.5
     },
     {
@@ -729,6 +736,7 @@
         "id": 106,
         "raw": "[charslot(slot = \"m\", action=\"shake\",random=true, power=5, times=20,duration=0.3)]",
         "type": "charslot",
+        "slot": "m",
         "action": "shake",
         "random": "true,",
         "power": "5,",
@@ -1779,6 +1787,7 @@
         "id": 255,
         "raw": "[charslot(slot = \"l\", name=\"avg_npc_1342_1#1$1\",posfrom=\"50,0\",posto=\"0,0\",duration=2)]",
         "type": "charslot",
+        "slot": "l",
         "name": "avg_npc_1342_1#1$1.png",
         "posfrom": "50,0",
         "posto": "0,0",
@@ -1805,6 +1814,7 @@
         "id": 259,
         "raw": "[charslot(slot = \"r\", name=\"avg_npc_397_1#1$1\",posfrom=\"-50,-5\",posto=\"0,-5\",duration=2)]",
         "type": "charslot",
+        "slot": "r",
         "name": "avg_npc_397_1#1$1.png",
         "posfrom": "-50,-5",
         "posto": "0,-5",
@@ -1997,6 +2007,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>시네셀드는 한때 왕가의 소유였으며, 연회장으로 귀족들에게 대관하는 장소였다. 새 의회실을 어디로 할지 모두가 고민하던 때, 비나는 런디니움 사람들에게 남은 선택지가 그렇게 많지 않다는 것을 깨달았다.</i>\", x=300,y=240,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>시네셀드는 한때 왕가의 소유였으며, 연회장으로 귀족들에게 대관하는 장소였다. 새 의회실을 어디로 할지 모두가 고민하던 때, 비나는 런디니움 사람들에게 남은 선택지가 그렇게 많지 않다는 것을 깨달았다.</i>",
         "x": "300,y=240,",
         "alignment": "left",
@@ -2008,7 +2019,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>그 혼란은 이 도시의 너무나 많은 것들을 파괴했다.</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>그 혼란은 이 도시의 너무나 많은 것들을 파괴했다.</i>"
+        "multi": "true,",
+        "text": "\\n<i>그 혼란은 이 도시의 너무나 많은 것들을 파괴했다.</i>",
+        "block": true
     },
     {
         "id": "st1",
@@ -2019,6 +2032,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>포스터나 영화에서 여러 번 본 적이 있는 방이었다. 지금까지는 이 장소가 넓은 지역을 아우르는 갱단의 모든 멤버가 모여 각자 구역에 관해 토론할 수 있을 정도로 넓다고 생각했었다.</i>\", x=300,y=240,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>포스터나 영화에서 여러 번 본 적이 있는 방이었다. 지금까지는 이 장소가 넓은 지역을 아우르는 갱단의 모든 멤버가 모여 각자 구역에 관해 토론할 수 있을 정도로 넓다고 생각했었다.</i>",
         "x": "300,y=240,",
         "alignment": "left",
@@ -2030,13 +2044,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>그러나 지금은 질식할 것처럼 답답하게만 느껴지는 실망스러운 장소일 뿐이다.</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>그러나 지금은 질식할 것처럼 답답하게만 느껴지는 실망스러운 장소일 뿐이다.</i>"
+        "multi": "true,",
+        "text": "\\n<i>그러나 지금은 질식할 것처럼 답답하게만 느껴지는 실망스러운 장소일 뿐이다.</i>",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>비나가 직접 인정한 적은 없지만, 분명 나와 같은 생각일 것이다……</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>비나가 직접 인정한 적은 없지만, 분명 나와 같은 생각일 것이다……</i>"
+        "multi": "true,",
+        "text": "\\n<i>비나가 직접 인정한 적은 없지만, 분명 나와 같은 생각일 것이다……</i>",
+        "block": true
     },
     {
         "id": "st1",
@@ -2567,6 +2585,7 @@
         "id": 365,
         "raw": "[charslot(slot = \"m\", action=\"shake\",random=true, power=5, times=30,duration=0.7)]",
         "type": "charslot",
+        "slot": "m",
         "action": "shake",
         "random": "true,",
         "power": "5,",
@@ -3305,6 +3324,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>솔직히 나는 단 한 번도 그런 문제에 대해 생각해 본 적이 없었다.</i>\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>솔직히 나는 단 한 번도 그런 문제에 대해 생각해 본 적이 없었다.</i>",
         "x": "300,y=270,",
         "alignment": "left",
@@ -3316,13 +3336,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>자칭 '롱샷'이라고 하는 살카즈의 목소리는 그다지 묵직하지는 않았지만, 소란스러웠던 의회실이 그 한 마디에 일순 고요해졌다.</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>자칭 '롱샷'이라고 하는 살카즈의 목소리는 그다지 묵직하지는 않았지만, 소란스러웠던 의회실이 그 한 마디에 일순 고요해졌다.</i>"
+        "multi": "true,",
+        "text": "\\n<i>자칭 '롱샷'이라고 하는 살카즈의 목소리는 그다지 묵직하지는 않았지만, 소란스러웠던 의회실이 그 한 마디에 일순 고요해졌다.</i>",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>나는 주변 사람, 특히 귀족들의 표정을 관찰했다.</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>나는 주변 사람, 특히 귀족들의 표정을 관찰했다.</i>"
+        "multi": "true,",
+        "text": "\\n<i>나는 주변 사람, 특히 귀족들의 표정을 관찰했다.</i>",
+        "block": true
     },
     {
         "id": "st1",
@@ -3340,6 +3364,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>이미 답을 떠올린 사람은 선뜻 말을 꺼내려 하지 않았다. 별다른 생각 없이 벌벌 떨고 있는 사람은 누가 먼저 말을 꺼낼지 살피며, 그에 동조할 준비를 하고 있을 뿐이었다.</i>\", x=300,y=240,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>이미 답을 떠올린 사람은 선뜻 말을 꺼내려 하지 않았다. 별다른 생각 없이 벌벌 떨고 있는 사람은 누가 먼저 말을 꺼낼지 살피며, 그에 동조할 준비를 하고 있을 뿐이었다.</i>",
         "x": "300,y=240,",
         "alignment": "left",
@@ -3351,13 +3376,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>하지만 나는 그 어느 쪽도 아닌, 생각하는 게 귀찮은 쪽이었다. 어차피 비나가 나 대신 생각해 줄 테니까.</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>하지만 나는 그 어느 쪽도 아닌, 생각하는 게 귀찮은 쪽이었다. 어차피 비나가 나 대신 생각해 줄 테니까.</i>"
+        "multi": "true,",
+        "text": "\\n<i>하지만 나는 그 어느 쪽도 아닌, 생각하는 게 귀찮은 쪽이었다. 어차피 비나가 나 대신 생각해 줄 테니까.</i>",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>그래서 그날, 나는 비나의 답을 기다리기만 하면 됐다.</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>그래서 그날, 나는 비나의 답을 기다리기만 하면 됐다.</i>"
+        "multi": "true,",
+        "text": "\\n<i>그래서 그날, 나는 비나의 답을 기다리기만 하면 됐다.</i>",
+        "block": true
     },
     {
         "id": "st1",
@@ -3375,6 +3404,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>성벽 위에서 도시를 떠나는 살카즈 부대를 바라보며, 비나가 답을 주기를 기다리던 그때처럼.</i>\", x=300,y=310,  alignment=\"left\", size=24, delay=0.04, width=710,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>성벽 위에서 도시를 떠나는 살카즈 부대를 바라보며, 비나가 답을 주기를 기다리던 그때처럼.</i>",
         "x": "300,y=310,",
         "alignment": "left",
@@ -3524,6 +3554,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>그 광경은 아무리 시간이 흘러도 잊지 못할 것이다.</i>\", x=300,y=240,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>그 광경은 아무리 시간이 흘러도 잊지 못할 것이다.</i>",
         "x": "300,y=240,",
         "alignment": "left",
@@ -3535,7 +3566,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>그날, 나는 비나에게 질문을 하나 던졌다. 베어드를 죽인 살카즈들이 어째서 저렇게 당당하게 떠날 수 있냐고.</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>그날, 나는 비나에게 질문을 하나 던졌다. 베어드를 죽인 살카즈들이 어째서 저렇게 당당하게 떠날 수 있냐고.</i>"
+        "multi": "true,",
+        "text": "\\n<i>그날, 나는 비나에게 질문을 하나 던졌다. 베어드를 죽인 살카즈들이 어째서 저렇게 당당하게 떠날 수 있냐고.</i>",
+        "block": true
     },
     {
         "id": "st1",
@@ -3608,6 +3641,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>하지만 비나는 아무 말도 하지 않았다.</i>\", x=300,y=240,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>하지만 비나는 아무 말도 하지 않았다.</i>",
         "x": "300,y=240,",
         "alignment": "left",
@@ -3643,10 +3677,13 @@
         "type": "dialog_marker"
     },
     {
-        "id": 509,
+        "id": "at1",
         "raw": "[animtext(id = \"at1\", name = \"group_location_stamp\", style=\"avg_both\", pos = \"-400,-200\", block = false)]<p=1>런디니움 성벽 위</><p=2>1098년 10월 8일 8:48 P.M.</>",
         "type": "anim_text",
+        "name": "group_location_stamp",
         "style": "avg_both",
+        "pos": "-400,-200",
+        "block": false,
         "content": "<p=1>런디니움 성벽 위</><p=2>1098년 10월 8일 8:48 P.M.</>"
     },
     {

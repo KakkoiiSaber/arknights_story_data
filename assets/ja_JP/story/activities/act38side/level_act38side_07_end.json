@@ -61,10 +61,13 @@
         "volume": 0.6
     },
     {
-        "id": 9,
+        "id": "at1",
         "raw": "[animtext(id = \"at1\", name = \"group_location_stamp\", style=\"avg_only_medium\", pos = \"-400,-200\", block = false)]<p=2>1100年11月7日 p.m. 12:00</>",
         "type": "anim_text",
+        "name": "group_location_stamp",
         "style": "avg_only_medium",
+        "pos": "-400,-200",
+        "block": false,
         "content": "<p=2>1100年11月7日 p.m. 12:00</>"
     },
     {
@@ -754,7 +757,9 @@
     {
         "id": 110,
         "raw": "[charslot(slot = \"m\", focus = \"n\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "focus": "n"
     },
     {
         "id": 111,
@@ -868,13 +873,29 @@
         "id": 127,
         "raw": "[interlude(maskid = \"ui_cutin_mask_horizon\" ,size = \"1280,160\",tsfrom=\"1,0.5\", tsto =\"1,1\",tsduration = 1, style = 1,offset = \"0,0\", channel = 3)]",
         "type": "interlude",
-        "tsfrom": "1,0.5"
+        "maskid": "ui_cutin_mask_horizon",
+        "size": "1280,160",
+        "tsfrom": "1,0.5",
+        "tsto": "1,1",
+        "tsduration": "1,",
+        "style": "1,offset",
+        "channel": 3
     },
     {
         "id": 128,
         "raw": "[interlude(channel = 3, type = 2, name = \"56_g13_cutin_char_20\", sfrom = \"1.45,1.45\", sto = \"1.4,1.4\", sduration = 0, pfrom = \"20,-300\", pto=\"70,-300\", duration = 3, afrom = 0, ato = 1, aduration = 3)]",
-        "type": "interlude",
-        "pto": "70,-300"
+        "type": "2,",
+        "channel": "3,",
+        "name": "56_g13_cutin_char_20",
+        "sfrom": "1.45,1.45",
+        "sto": "1.4,1.4",
+        "sduration": "0,",
+        "pfrom": "20,-300",
+        "pto": "70,-300",
+        "duration": "3,",
+        "afrom": "0,",
+        "ato": "1,",
+        "aduration": 3
     },
     {
         "id": 129,
@@ -885,7 +906,19 @@
     {
         "id": 130,
         "raw": "[interlude(channel = 3, type = 1, slot = \"m\", offset = \"400,0\", name = \"cutin_char_20\", sfrom = \"1,1\", sto = \"0.8,0.8\",pfrom = \"-30,-110\", pto = \"0,-90\", duration = 3, afrom = 0, ato = 1, aduration = 3)]",
-        "type": "interlude"
+        "type": "1,",
+        "channel": "3,",
+        "slot": "m",
+        "offset": "400,0",
+        "name": "cutin_char_20",
+        "sfrom": "1,1",
+        "sto": "0.8,0.8",
+        "pfrom": "-30,-110",
+        "pto": "0,-90",
+        "duration": "3,",
+        "afrom": "0,",
+        "ato": "1,",
+        "aduration": 3
     },
     {
         "id": 131,
@@ -919,9 +952,8 @@
         "id": 135,
         "raw": "[interlude(channel = 3, clear = true,tsfrom=\"1,1\",tsto=\"1,0\",tsduration=0)]",
         "type": "interlude",
-        "tsfrom": "1,1",
-        "tsto": "1,0",
-        "tsduration": 0
+        "channel": "3,",
+        "clear": "true,tsfrom=\"1,1\",tsto=\"1,0\",tsduration=0"
     },
     {
         "id": 136,
@@ -1705,12 +1737,16 @@
         "id": 245,
         "raw": "[curtain(direction = 0,fillfrom = 0.1,fillto = 0.1, fadetime=0.1)]",
         "type": "curtain",
+        "direction": "0,fillfrom",
+        "fillto": "0.1,",
         "fadetime": 0.1
     },
     {
         "id": 246,
         "raw": "[curtain(direction = 4,fillfrom = 0.1,fillto = 0.1, fadetime=0.1)]",
         "type": "curtain",
+        "direction": "4,fillfrom",
+        "fillto": "0.1,",
         "fadetime": 0.1
     },
     {
@@ -2242,12 +2278,16 @@
     {
         "id": 320,
         "raw": "[interlude(channel = 2, clear = true)]",
-        "type": "interlude"
+        "type": "interlude",
+        "channel": "2,",
+        "clear": true
     },
     {
         "id": 321,
         "raw": "[interlude(channel = 3, clear = true)]",
-        "type": "interlude"
+        "type": "interlude",
+        "channel": "3,",
+        "clear": true
     },
     {
         "id": 322,
@@ -2337,13 +2377,19 @@
         "id": 334,
         "raw": "[charslot(slot = \"r\",posfrom = \"0,0\", posto = \"200,0\",duration = 0.8,afrom=1,ato=0)]",
         "type": "charslot",
-        "afrom": "1,ato=0"
+        "slot": "r",
+        "posfrom": "0,0",
+        "posto": "200,0",
+        "duration": "0.8,afrom=1,ato=0"
     },
     {
         "id": 335,
         "raw": "[charslot(slot = \"m\",posfrom = \"0,0\", posto = \"200,0\",duration = 0.8,afrom=1,ato=0)]",
         "type": "charslot",
-        "afrom": "1,ato=0"
+        "slot": "m",
+        "posfrom": "0,0",
+        "posto": "200,0",
+        "duration": "0.8,afrom=1,ato=0"
     },
     {
         "id": 336,
@@ -2672,12 +2718,18 @@
     {
         "id": 380,
         "raw": "[charslot(slot = \"left\", name = \"avg_npc_686_1#1$1\",duration = 1)]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "left",
+        "name": "avg_npc_686_1#1$1.png",
+        "duration": 1
     },
     {
         "id": 381,
         "raw": "[charslot(slot = \"right\", name = \"avg_npc_1542_1#2$1\",duration = 1)]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "right",
+        "name": "avg_npc_1542_1#2$1.png",
+        "duration": 1
     },
     {
         "id": 382,
@@ -2689,6 +2741,8 @@
         "id": 383,
         "raw": "[charslot(slot = \"left\", name = \"avg_npc_686_1#1$1\",focus=\"l\")]",
         "type": "charslot",
+        "slot": "left",
+        "name": "avg_npc_686_1#1$1.png",
         "focus": "l"
     },
     {
@@ -2785,12 +2839,16 @@
         "id": 398,
         "raw": "[charslot(slot = \"left\", name = \"avg_npc_686_1#1$1\",focus=\"r\")]",
         "type": "charslot",
+        "slot": "left",
+        "name": "avg_npc_686_1#1$1.png",
         "focus": "r"
     },
     {
         "id": 399,
         "raw": "[charslot(slot = \"right\", name = \"avg_npc_1542_1#2$1\",focus=\"r\")]",
         "type": "charslot",
+        "slot": "right",
+        "name": "avg_npc_1542_1#2$1.png",
         "focus": "r"
     },
     {
@@ -2804,6 +2862,8 @@
         "id": 401,
         "raw": "[charslot(slot = \"left\", name = \"avg_npc_686_1#9$1\",focus=\"l\")]",
         "type": "charslot",
+        "slot": "left",
+        "name": "avg_npc_686_1#9$1.png",
         "focus": "l"
     },
     {
@@ -2885,10 +2945,13 @@
         "time": 1
     },
     {
-        "id": 413,
+        "id": "at1",
         "raw": "[animtext(id = \"at1\", name = \"group_location_stamp\", style=\"avg_only_medium\", pos = \"-400,-200\", block = false)]<p=2>1100年11月8日 a.m. 10:00</>",
         "type": "anim_text",
+        "name": "group_location_stamp",
         "style": "avg_only_medium",
+        "pos": "-400,-200",
+        "block": false,
         "content": "<p=2>1100年11月8日 a.m. 10:00</>"
     },
     {
@@ -2919,6 +2982,8 @@
         "id": 418,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1564_1#9$1\",duration=0.5)]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1564_1#9$1.png",
         "duration": 0.5
     },
     {
@@ -2951,7 +3016,9 @@
     {
         "id": 423,
         "raw": "[charslot(slot = \"m\", name = \"avg_1028_texas2_1#1$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_1028_texas2_1#1$1.png"
     },
     {
         "id": 424,
@@ -2974,18 +3041,24 @@
         "id": 427,
         "raw": "[charslot(slot = \"r\", name = \"avg_npc_1554_1#1$1\",duration=0.5)]",
         "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_1554_1#1$1.png",
         "duration": 0.5
     },
     {
         "id": 428,
         "raw": "[charslot(slot = \"l\", name = \"avg_npc_1554_1#1$1\",duration=0.5)]",
         "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_1554_1#1$1.png",
         "duration": 0.5
     },
     {
         "id": 429,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_686_1#1$1\",duration=0.5)]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_686_1#1$1.png",
         "duration": 0.5
     },
     {
@@ -2998,17 +3071,28 @@
         "id": 431,
         "raw": "[charslot(slot = \"m\",posfrom = \"0,0\", posto = \"-250,0\",duration = 1.5,focus=\"m\")]",
         "type": "charslot",
-        "focus": "m"
+        "slot": "m",
+        "posfrom": "0,0",
+        "posto": "-250,0",
+        "duration": "1.5,focus=\"m\""
     },
     {
         "id": 432,
         "raw": "[charslot(slot = \"r\",posfrom = \"0,0\", posto = \"-200,0\",duration = 1.5)]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "r",
+        "posfrom": "0,0",
+        "posto": "-200,0",
+        "duration": 1.5
     },
     {
         "id": 433,
         "raw": "[charslot(slot = \"l\",posfrom = \"0,0\", posto = \"-200,0\",duration = 1.5)]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "l",
+        "posfrom": "0,0",
+        "posto": "-200,0",
+        "duration": 1.5
     },
     {
         "id": 434,
@@ -3031,18 +3115,24 @@
         "id": 437,
         "raw": "[charslot(slot = \"r\", name = \"avg_npc_1555_1#1$1\",duration=0.5)]",
         "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_1555_1#1$1.png",
         "duration": 0.5
     },
     {
         "id": 438,
         "raw": "[charslot(slot = \"l\", name = \"avg_npc_1555_1#1$1\",duration=0.5)]",
         "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_1555_1#1$1.png",
         "duration": 0.5
     },
     {
         "id": 439,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1544_1#1$1\",duration=0.5)]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1544_1#1$1.png",
         "duration": 0.5
     },
     {
@@ -3055,17 +3145,28 @@
         "id": 441,
         "raw": "[charslot(slot = \"m\",posfrom = \"0,0\", posto = \"250,0\",duration = 1.5,focus=\"m\")]",
         "type": "charslot",
-        "focus": "m"
+        "slot": "m",
+        "posfrom": "0,0",
+        "posto": "250,0",
+        "duration": "1.5,focus=\"m\""
     },
     {
         "id": 442,
         "raw": "[charslot(slot = \"r\",posfrom = \"0,0\", posto = \"200,0\",duration = 1.5)]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "r",
+        "posfrom": "0,0",
+        "posto": "200,0",
+        "duration": 1.5
     },
     {
         "id": 443,
         "raw": "[charslot(slot = \"l\",posfrom = \"0,0\", posto = \"200,0\",duration = 1.5)]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "l",
+        "posfrom": "0,0",
+        "posto": "200,0",
+        "duration": 1.5
     },
     {
         "id": 444,
@@ -3087,7 +3188,9 @@
     {
         "id": 447,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1564_1#9$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1564_1#9$1.png"
     },
     {
         "id": 448,
@@ -3099,7 +3202,9 @@
     {
         "id": 449,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1564_1#3$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1564_1#3$1.png"
     },
     {
         "id": 450,
@@ -3118,7 +3223,9 @@
     {
         "id": 452,
         "raw": "[charslot(slot = \"m\", name = \"avg_1028_texas2_1#1$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_1028_texas2_1#1$1.png"
     },
     {
         "id": 453,
@@ -3137,7 +3244,9 @@
     {
         "id": 455,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1564_1#9$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1564_1#9$1.png"
     },
     {
         "id": 456,
@@ -3156,7 +3265,9 @@
     {
         "id": 458,
         "raw": "[charslot(slot = \"m\", name = \"avg_1028_texas2_1#1$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_1028_texas2_1#1$1.png"
     },
     {
         "id": 459,
@@ -3168,7 +3279,9 @@
     {
         "id": 460,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1564_1#3$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1564_1#3$1.png"
     },
     {
         "id": 461,
@@ -3194,7 +3307,9 @@
     {
         "id": 464,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1564_1#9$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1564_1#9$1.png"
     },
     {
         "id": 465,
@@ -3263,6 +3378,8 @@
         "id": 475,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1542_1#2$1\",duration=1)]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1542_1#2$1.png",
         "duration": 1
     },
     {
@@ -3495,7 +3612,10 @@
         "id": 507,
         "raw": "[charslot(slot = \"r\",posfrom = \"0,0\", posto = \"300,0\",duration = 1,afrom=1,ato=0)]",
         "type": "charslot",
-        "afrom": "1,ato=0"
+        "slot": "r",
+        "posfrom": "0,0",
+        "posto": "300,0",
+        "duration": "1,afrom=1,ato=0"
     },
     {
         "id": 508,
@@ -3651,7 +3771,10 @@
     {
         "id": 531,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1542_1#2$1\", focus = \"n\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1542_1#2$1.png",
+        "focus": "n"
     },
     {
         "id": 532,
@@ -3681,7 +3804,9 @@
     {
         "id": 535,
         "raw": "[charslot(slot = \"m\", focus = \"n\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "focus": "n"
     },
     {
         "id": 536,
@@ -3735,7 +3860,9 @@
     {
         "id": 543,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1542_1#2$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1542_1#2$1.png"
     },
     {
         "id": 544,
@@ -3747,7 +3874,9 @@
     {
         "id": 545,
         "raw": "[charslot(slot = \"m\", focus = \"n\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "focus": "n"
     },
     {
         "id": 546,
@@ -3764,7 +3893,9 @@
     {
         "id": 548,
         "raw": "[charslot(slot = \"m\", name = \"avg_1028_texas2_1#1$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_1028_texas2_1#1$1.png"
     },
     {
         "id": 549,
@@ -3776,7 +3907,9 @@
     {
         "id": 550,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1564_1#9$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1564_1#9$1.png"
     },
     {
         "id": 551,
@@ -3802,7 +3935,9 @@
     {
         "id": 554,
         "raw": "[charslot(slot = \"m\", name = \"avg_1028_texas2_1#1$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_1028_texas2_1#1$1.png"
     },
     {
         "id": 555,
@@ -3821,7 +3956,9 @@
     {
         "id": 557,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1564_1#3$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1564_1#3$1.png"
     },
     {
         "id": 558,
@@ -3833,7 +3970,9 @@
     {
         "id": 559,
         "raw": "[charslot(slot = \"m\", focus = \"n\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "focus": "n"
     },
     {
         "id": 560,
@@ -3844,7 +3983,9 @@
     {
         "id": 561,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1564_1#3$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1564_1#3$1.png"
     },
     {
         "id": 562,
@@ -3856,7 +3997,9 @@
     {
         "id": 563,
         "raw": "[charslot(slot = \"m\", name = \"avg_1028_texas2_1#1$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_1028_texas2_1#1$1.png"
     },
     {
         "id": 564,
@@ -3925,7 +4068,9 @@
     {
         "id": 574,
         "raw": "[charslot(slot = \"m\", focus = \"n\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "focus": "n"
     },
     {
         "id": 575,
@@ -3992,12 +4137,18 @@
     {
         "id": 585,
         "raw": "[charslot(slot = \"left\", name = \"avg_1028_texas2_1#1$1\",duration = 1)]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "left",
+        "name": "avg_1028_texas2_1#1$1.png",
+        "duration": 1
     },
     {
         "id": 586,
         "raw": "[charslot(slot = \"right\", name = \"avg_npc_1564_1#3$1\",duration = 1)]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "right",
+        "name": "avg_npc_1564_1#3$1.png",
+        "duration": 1
     },
     {
         "id": 587,
@@ -4009,6 +4160,8 @@
         "id": 588,
         "raw": "[charslot(slot = \"right\", name = \"avg_npc_1564_1#3$1\",focus=\"r\")]",
         "type": "charslot",
+        "slot": "right",
+        "name": "avg_npc_1564_1#3$1.png",
         "focus": "r"
     },
     {
@@ -4147,7 +4300,9 @@
     {
         "id": 608,
         "raw": "[charslot(slot = \"m\", focus = \"n\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "focus": "n"
     },
     {
         "id": 609,
@@ -4169,12 +4324,18 @@
     {
         "id": 612,
         "raw": "[charslot(slot = \"left\", name = \"avg_npc_1555_1#1$1\",duration = 1)]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "left",
+        "name": "avg_npc_1555_1#1$1.png",
+        "duration": 1
     },
     {
         "id": 613,
         "raw": "[charslot(slot = \"right\", name = \"avg_npc_1555_1#1$1\",duration = 1)]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "right",
+        "name": "avg_npc_1555_1#1$1.png",
+        "duration": 1
     },
     {
         "id": 614,
@@ -4186,6 +4347,7 @@
         "id": 615,
         "raw": "[charslot(slot = \"left\", focus=\"l\")]",
         "type": "charslot",
+        "slot": "left",
         "focus": "l"
     },
     {
@@ -4199,6 +4361,7 @@
         "id": 617,
         "raw": "[charslot(slot = \"r\", focus=\"r\")]",
         "type": "charslot",
+        "slot": "r",
         "focus": "r"
     },
     {
@@ -4230,7 +4393,9 @@
     {
         "id": 622,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1555_1#1$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1555_1#1$1.png"
     },
     {
         "id": 623,
@@ -4256,7 +4421,9 @@
     {
         "id": 626,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1555_1#1$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1555_1#1$1.png"
     },
     {
         "id": 627,
@@ -4490,7 +4657,9 @@
     {
         "id": 652,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1542_1#2$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1542_1#2$1.png"
     },
     {
         "id": 653,
@@ -4584,7 +4753,9 @@
     {
         "id": 665,
         "raw": "[charslot(slot = \"m\", focus = \"n\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "focus": "n"
     },
     {
         "id": 666,
@@ -4629,7 +4800,10 @@
         "id": 672,
         "raw": "[charslot(slot = \"m\",posfrom = \"0,0\", posto = \"-150,0\",duration = 0.9,afrom=1,ato=0)]",
         "type": "charslot",
-        "afrom": "1,ato=0"
+        "slot": "m",
+        "posfrom": "0,0",
+        "posto": "-150,0",
+        "duration": "0.9,afrom=1,ato=0"
     },
     {
         "id": 673,
@@ -4650,7 +4824,11 @@
     {
         "id": 675,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1564_1#9$1\",posfrom = \"0,0\", posto = \"0,0\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1564_1#9$1.png",
+        "posfrom": "0,0",
+        "posto": "0,0"
     },
     {
         "id": 676,
@@ -4669,7 +4847,8 @@
         "type": "charslot",
         "slot": "r",
         "name": "avg_npc_686_1#1$1.png",
-        "duration": "1,posfrom"
+        "duration": "1,posfrom",
+        "posto": "200,0"
     },
     {
         "id": 678,
@@ -4687,6 +4866,8 @@
         "id": 680,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1564_1#9$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1564_1#9$1.png",
         "focus": "m"
     },
     {
@@ -4726,7 +4907,10 @@
         "id": 686,
         "raw": "[charslot(slot = \"r\",posfrom = \"200,0\", posto = \"0,0\",duration = 1.5,afrom=1,ato=0,focus=\"r\")]",
         "type": "charslot",
-        "afrom": "1,ato=0,focus=\"r\""
+        "slot": "r",
+        "posfrom": "200,0",
+        "posto": "0,0",
+        "duration": "1.5,afrom=1,ato=0,focus=\"r\""
     },
     {
         "id": 687,
@@ -4738,6 +4922,8 @@
         "id": 688,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1564_1#9$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1564_1#9$1.png",
         "focus": "m"
     },
     {
@@ -4757,7 +4943,9 @@
     {
         "id": 691,
         "raw": "[charslot(slot = \"m\", name = \"avg_1028_texas2_1#1$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_1028_texas2_1#1$1.png"
     },
     {
         "id": 692,
@@ -4788,7 +4976,9 @@
     {
         "id": 696,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1542_1#4$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1542_1#4$1.png"
     },
     {
         "id": 697,
@@ -4800,7 +4990,9 @@
     {
         "id": 698,
         "raw": "[charslot(slot = \"m\", focus = \"n\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "focus": "n"
     },
     {
         "id": 699,
@@ -4913,7 +5105,9 @@
     {
         "id": 715,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1555_1#1$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1555_1#1$1.png"
     },
     {
         "id": 716,
@@ -4939,7 +5133,9 @@
     {
         "id": 719,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1547_1#10$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1547_1#10$1.png"
     },
     {
         "id": 720,
@@ -4951,7 +5147,9 @@
     {
         "id": 721,
         "raw": "[charslot(slot = \"m\", focus = \"n\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "focus": "n"
     },
     {
         "id": 722,
@@ -4962,7 +5160,9 @@
     {
         "id": 723,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1547_1#10$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1547_1#10$1.png"
     },
     {
         "id": 724,
@@ -4974,7 +5174,9 @@
     {
         "id": 725,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1555_1#1$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1555_1#1$1.png"
     },
     {
         "id": 726,
@@ -5000,7 +5202,9 @@
     {
         "id": 729,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1547_1#9$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1547_1#9$1.png"
     },
     {
         "id": 730,
@@ -5012,7 +5216,9 @@
     {
         "id": 731,
         "raw": "[charslot(slot = \"m\", focus = \"n\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "focus": "n"
     },
     {
         "id": 732,
@@ -5023,7 +5229,9 @@
     {
         "id": 733,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1547_1#10$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1547_1#10$1.png"
     },
     {
         "id": 734,
@@ -5281,7 +5489,9 @@
     {
         "id": 763,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1542_1#2$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1542_1#2$1.png"
     },
     {
         "id": 764,
@@ -5326,7 +5536,9 @@
     {
         "id": 770,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1564_1#9$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1564_1#9$1.png"
     },
     {
         "id": 771,
@@ -5345,7 +5557,9 @@
     {
         "id": 773,
         "raw": "[charslot(slot = \"m\", name = \"avg_1028_texas2_1#2$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_1028_texas2_1#2$1.png"
     },
     {
         "id": 774,
@@ -5357,7 +5571,9 @@
     {
         "id": 775,
         "raw": "[charslot(slot = \"m\", name = \"avg_1028_texas2_1#1$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_1028_texas2_1#1$1.png"
     },
     {
         "id": 776,
@@ -5390,7 +5606,9 @@
     {
         "id": 780,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1564_1#9$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1564_1#9$1.png"
     },
     {
         "id": 781,
@@ -5409,7 +5627,9 @@
     {
         "id": 783,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1564_1#3$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1564_1#3$1.png"
     },
     {
         "id": 784,
@@ -5421,7 +5641,9 @@
     {
         "id": 785,
         "raw": "[charslot(slot = \"m\", name = \"avg_1028_texas2_1#7$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_1028_texas2_1#7$1.png"
     },
     {
         "id": 786,
@@ -5461,7 +5683,9 @@
     {
         "id": 791,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1547_1#10$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1547_1#10$1.png"
     },
     {
         "id": 792,
@@ -5525,7 +5749,9 @@
     {
         "id": 800,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1547_1#11$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1547_1#11$1.png"
     },
     {
         "id": 801,
@@ -5834,7 +6060,9 @@
     {
         "id": 844,
         "raw": "[charslot(slot = \"m\", focus = \"n\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "focus": "n"
     },
     {
         "id": 845,

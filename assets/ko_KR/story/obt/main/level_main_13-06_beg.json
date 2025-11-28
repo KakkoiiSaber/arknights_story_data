@@ -85,21 +85,35 @@
     {
         "id": 13,
         "raw": "[interlude(maskid = \"ui_cutin_mask_horizon\", style = 1, size = \"1500, 520\",offset = \"20,0\", channel = 2)]",
-        "type": "interlude"
+        "type": "interlude",
+        "maskid": "ui_cutin_mask_horizon",
+        "style": "1,",
+        "size": "1500, 520",
+        "offset": "20,0",
+        "channel": 2
     },
     {
         "id": 14,
         "raw": "[interlude(channel = 2, type = 2, name = \"bg_battlefield\", afrom = 0, ato = 1, aduration = 3, sfrom = \"1.2,1.2\", sto = \"1.2,1.2\", sduration = 0,block=true)]",
-        "type": "interlude",
-        "block": true
+        "type": "2,",
+        "channel": "2,",
+        "name": "bg_battlefield",
+        "afrom": "0,",
+        "ato": "1,",
+        "aduration": "3,",
+        "sfrom": "1.2,1.2",
+        "sto": "1.2,1.2",
+        "sduration": "0,block=true"
     },
     {
         "id": 15,
         "raw": "[interlude(channel = 2, type = 2, name = \"bg_battlefield\", pfrom=\"0,0\",pto=\"-80,0\", duration =30,block=false)]",
-        "type": "interlude",
+        "type": "2,",
+        "channel": "2,",
+        "name": "bg_battlefield",
         "pfrom": "0,0",
         "pto": "-80,0",
-        "block": false
+        "duration": "30,block=false"
     },
     {
         "id": 16,
@@ -122,6 +136,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"어처구니가 없다. 우리가 이런 뼈, 핏자국, 먼지와 진흙이 가득한 전장에서 허구의 환상이나 쫓고 있을 줄이야.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "어처구니가 없다. 우리가 이런 뼈, 핏자국, 먼지와 진흙이 가득한 전장에서 허구의 환상이나 쫓고 있을 줄이야.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -133,19 +148,25 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n그 환상들은 우리에게 남겨진 유일한 단서다. 리치의 말에 따르면 부유하는 그 역사의 파편이 바로 그것이 남긴 흔적이라고 한다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n그 환상들은 우리에게 남겨진 유일한 단서다. 리치의 말에 따르면 부유하는 그 역사의 파편이 바로 그것이 남긴 흔적이라고 한다."
+        "multi": "true,",
+        "text": "\\n그 환상들은 우리에게 남겨진 유일한 단서다. 리치의 말에 따르면 부유하는 그 역사의 파편이 바로 그것이 남긴 흔적이라고 한다.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n우리는 흔적도 남지 않은 폐허를 지나, 그 누구 하나 기억하지 않는 붕괴 현장에 발을 디뎠다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n우리는 흔적도 남지 않은 폐허를 지나, 그 누구 하나 기억하지 않는 붕괴 현장에 발을 디뎠다."
+        "multi": "true,",
+        "text": "\\n우리는 흔적도 남지 않은 폐허를 지나, 그 누구 하나 기억하지 않는 붕괴 현장에 발을 디뎠다.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n이 풍경들은 모두 금방 모습을 감추기에, 우리는 그 풍경들이 남긴 마지막 흔적을 잡아내는 것조차 쉽지 않다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n이 풍경들은 모두 금방 모습을 감추기에, 우리는 그 풍경들이 남긴 마지막 흔적을 잡아내는 것조차 쉽지 않다."
+        "multi": "true,",
+        "text": "\\n이 풍경들은 모두 금방 모습을 감추기에, 우리는 그 풍경들이 남긴 마지막 흔적을 잡아내는 것조차 쉽지 않다.",
+        "block": true
     },
     {
         "id": "st1",
@@ -155,18 +176,30 @@
     {
         "id": 23,
         "raw": "[interlude(channel = 2, type = 1, slot = \"m\", offset = \"170,0\", name = \"cutin_char_3\",sfrom = \"0.7,0.7\", sto = \"0.7,0.7\",  aduration = 2,block=false)]",
-        "type": "interlude",
-        "block": false
+        "type": "1,",
+        "channel": "2,",
+        "slot": "m",
+        "offset": "170,0",
+        "name": "cutin_char_3",
+        "sfrom": "0.7,0.7",
+        "sto": "0.7,0.7",
+        "aduration": "2,block=false"
     },
     {
         "id": 24,
         "raw": "[interlude(channel = 2, type = 1, slot = \"m\", pfrom = \"170,0\", pto = \"120,0\", duration = 40)]",
-        "type": "interlude"
+        "type": "1,",
+        "channel": "2,",
+        "slot": "m",
+        "pfrom": "170,0",
+        "pto": "120,0",
+        "duration": 40
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"우리는 뱀파이어의 전쟁용 마법진 17개를 찾아냈다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "우리는 뱀파이어의 전쟁용 마법진 17개를 찾아냈다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -178,13 +211,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n이 전장에 설치된 마법진의 수는 아마 이것들의 몇 배…… 어쩌면 수십 배일 수도 있다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n이 전장에 설치된 마법진의 수는 아마 이것들의 몇 배…… 어쩌면 수십 배일 수도 있다."
+        "multi": "true,",
+        "text": "\\n이 전장에 설치된 마법진의 수는 아마 이것들의 몇 배…… 어쩌면 수십 배일 수도 있다.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n마법진들은 모두 예외 없이 최근 일주일 내에 설치된 것들이다. 소름 끼칠 정도로 효율성이 뛰어나다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n마법진들은 모두 예외 없이 최근 일주일 내에 설치된 것들이다. 소름 끼칠 정도로 효율성이 뛰어나다."
+        "multi": "true,",
+        "text": "\\n마법진들은 모두 예외 없이 최근 일주일 내에 설치된 것들이다. 소름 끼칠 정도로 효율성이 뛰어나다.",
+        "block": true
     },
     {
         "id": "st1",
@@ -195,6 +232,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"이중 두 곳에서 어떤 부대가 지나간 흔적을 발견했지만, 진흙 자국의 깊이로 미뤄볼 때 모두 점검 및 유지보수 업무에 불과했을 것으로 추정된다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "이중 두 곳에서 어떤 부대가 지나간 흔적을 발견했지만, 진흙 자국의 깊이로 미뤄볼 때 모두 점검 및 유지보수 업무에 불과했을 것으로 추정된다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -206,13 +244,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n나는 이 마법진들을 부수고 다니는 것에 대해 의문을 가졌다. 우리가 마법진 몇 개를 파괴할지라도, 상대가 다시 새로운 마법진을 '설치'하기만 하면 아무 문제 없을 것처럼 보였기 때문이다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n나는 이 마법진들을 부수고 다니는 것에 대해 의문을 가졌다. 우리가 마법진 몇 개를 파괴할지라도, 상대가 다시 새로운 마법진을 '설치'하기만 하면 아무 문제 없을 것처럼 보였기 때문이다."
+        "multi": "true,",
+        "text": "\\n나는 이 마법진들을 부수고 다니는 것에 대해 의문을 가졌다. 우리가 마법진 몇 개를 파괴할지라도, 상대가 다시 새로운 마법진을 '설치'하기만 하면 아무 문제 없을 것처럼 보였기 때문이다.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n진실이 무엇이든 우리가 가능한 빨리 이 상황을 통제해야 한다는 확신이 내 안에서 점점 더 커졌다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n진실이 무엇이든 우리가 가능한 빨리 이 상황을 통제해야 한다는 확신이 내 안에서 점점 더 커졌다."
+        "multi": "true,",
+        "text": "\\n진실이 무엇이든 우리가 가능한 빨리 이 상황을 통제해야 한다는 확신이 내 안에서 점점 더 커졌다.",
+        "block": true
     },
     {
         "id": "st1",
@@ -243,7 +285,8 @@
     {
         "id": 36,
         "raw": "[interlude(channel = 2,clear = true)]",
-        "type": "interlude"
+        "type": "interlude",
+        "channel": "2,clear"
     },
     {
         "id": 37,
@@ -497,6 +540,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"며칠 전에 있었던 그 만남 이후, W의 정신은 계속 딴 곳에 있었다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "며칠 전에 있었던 그 만남 이후, W의 정신은 계속 딴 곳에 있었다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -508,13 +552,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n나는 그녀가 불침번을 설 때 타오르는 불빛을 보며 멍하니 있는 모습을 본 적도 있다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n나는 그녀가 불침번을 설 때 타오르는 불빛을 보며 멍하니 있는 모습을 본 적도 있다."
+        "multi": "true,",
+        "text": "\\n나는 그녀가 불침번을 설 때 타오르는 불빛을 보며 멍하니 있는 모습을 본 적도 있다.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n나로선 그녀를 도울 방법이 없다. 이런 일은 그녀 스스로 해결해야 한다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n나로선 그녀를 도울 방법이 없다. 이런 일은 그녀 스스로 해결해야 한다."
+        "multi": "true,",
+        "text": "\\n나로선 그녀를 도울 방법이 없다. 이런 일은 그녀 스스로 해결해야 한다.",
+        "block": true
     },
     {
         "id": "st1",
@@ -649,6 +697,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"나는 손에 든 지도를 보았다. 뱀파이어 마법진의 위치가 표시된 점들이 흩어져 있다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "나는 손에 든 지도를 보았다. 뱀파이어 마법진의 위치가 표시된 점들이 흩어져 있다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -660,19 +709,25 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n나는 펜으로 방금 있었던 운송 지점과 나흐체러르 킹 군단의 캠프 위치를 표기했다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n나는 펜으로 방금 있었던 운송 지점과 나흐체러르 킹 군단의 캠프 위치를 표기했다."
+        "multi": "true,",
+        "text": "\\n나는 펜으로 방금 있었던 운송 지점과 나흐체러르 킹 군단의 캠프 위치를 표기했다.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n이 위치들은 모두 일찍이 동일한 방법으로 물건을 '설치'했던 장소다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n이 위치들은 모두 일찍이 동일한 방법으로 물건을 '설치'했던 장소다."
+        "multi": "true,",
+        "text": "\\n이 위치들은 모두 일찍이 동일한 방법으로 물건을 '설치'했던 장소다.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n이 사이에 분명 모종의 연관이 있을 것이다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n이 사이에 분명 모종의 연관이 있을 것이다."
+        "multi": "true,",
+        "text": "\\n이 사이에 분명 모종의 연관이 있을 것이다.",
+        "block": true
     },
     {
         "id": "st1",
@@ -683,6 +738,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"나는 지도 위에 표기된 이름, 언덕, 골짜기, 숲, 그리고 적당한 크기의 연못을 살펴 보았다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "나는 지도 위에 표기된 이름, 언덕, 골짜기, 숲, 그리고 적당한 크기의 연못을 살펴 보았다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -694,13 +750,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n이들 사이의 공통점은 뭘까? 아니면 어떤 특수한 지리적인 공통점?\",block = true)]",
         "type": "sticker",
-        "text": "\\n이들 사이의 공통점은 뭘까? 아니면 어떤 특수한 지리적인 공통점?"
+        "multi": "true,",
+        "text": "\\n이들 사이의 공통점은 뭘까? 아니면 어떤 특수한 지리적인 공통점?",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n내 눈빛은 어느 한 카운티의 이름에 멈춰섰다. '브렌트우드'.\",block = true)]",
         "type": "sticker",
-        "text": "\\n내 눈빛은 어느 한 카운티의 이름에 멈춰섰다. '브렌트우드'."
+        "multi": "true,",
+        "text": "\\n내 눈빛은 어느 한 카운티의 이름에 멈춰섰다. '브렌트우드'.",
+        "block": true
     },
     {
         "id": "st1",
@@ -758,6 +818,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"나는 브렌트우드의 위치에 원을 그렸다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "나는 브렌트우드의 위치에 원을 그렸다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -974,6 +1035,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"W는 지루하다는 듯 돌멩이를 던져 왔다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "W는 지루하다는 듯 돌멩이를 던져 왔다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -985,13 +1047,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n그녀의 기분은 확실히 좋지 않아 보인다. 평소였다면 돌멩이가 아니라 수류탄 안전 고리를 던졌을 텐데.\",block = true)]",
         "type": "sticker",
-        "text": "\\n그녀의 기분은 확실히 좋지 않아 보인다. 평소였다면 돌멩이가 아니라 수류탄 안전 고리를 던졌을 텐데."
+        "multi": "true,",
+        "text": "\\n그녀의 기분은 확실히 좋지 않아 보인다. 평소였다면 돌멩이가 아니라 수류탄 안전 고리를 던졌을 텐데.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n돌멩이는 지도 위에서 몇 번 구르더니, 내가 자세히 관찰하고 있던 위치를 가렸다. 그리고 내가 그것을 치우려던 순간……\",block = true)]",
         "type": "sticker",
-        "text": "\\n돌멩이는 지도 위에서 몇 번 구르더니, 내가 자세히 관찰하고 있던 위치를 가렸다. 그리고 내가 그것을 치우려던 순간……"
+        "multi": "true,",
+        "text": "\\n돌멩이는 지도 위에서 몇 번 구르더니, 내가 자세히 관찰하고 있던 위치를 가렸다. 그리고 내가 그것을 치우려던 순간……",
+        "block": true
     },
     {
         "id": "st1",
@@ -1002,6 +1068,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"브렌트우드의 뒤쪽, 멀지 않은 곳엔 작은 언덕이 하나 위치하고 있다. 돌멩이는 언덕을 의미하는 아이콘을 절묘하게 가렸다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "브렌트우드의 뒤쪽, 멀지 않은 곳엔 작은 언덕이 하나 위치하고 있다. 돌멩이는 언덕을 의미하는 아이콘을 절묘하게 가렸다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1150,6 +1217,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"깊고 어두운 산이다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "깊고 어두운 산이다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1161,13 +1229,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n내가 예전에 읽었던 빅토리아 역사책에는 이런 비유가 있었다. 역사를 탐구한다는 것은 이처럼 깊고 어두운 동굴 속에서 암벽에 새겨진 무늬를 조사하는 것과도 같다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n내가 예전에 읽었던 빅토리아 역사책에는 이런 비유가 있었다. 역사를 탐구한다는 것은 이처럼 깊고 어두운 동굴 속에서 암벽에 새겨진 무늬를 조사하는 것과도 같다."
+        "multi": "true,",
+        "text": "\\n내가 예전에 읽었던 빅토리아 역사책에는 이런 비유가 있었다. 역사를 탐구한다는 것은 이처럼 깊고 어두운 동굴 속에서 암벽에 새겨진 무늬를 조사하는 것과도 같다.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n실제로 아무것도 보이지 않는 상태에서, 오직 이런 희미한 촉감을 통해 '우리는 어디에서 왔는가'에 대한 그럴 듯한 결론을 끼워 맞출 수밖에 없다는 것이다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n실제로 아무것도 보이지 않는 상태에서, 오직 이런 희미한 촉감을 통해 '우리는 어디에서 왔는가'에 대한 그럴 듯한 결론을 끼워 맞출 수밖에 없다는 것이다."
+        "multi": "true,",
+        "text": "\\n실제로 아무것도 보이지 않는 상태에서, 오직 이런 희미한 촉감을 통해 '우리는 어디에서 왔는가'에 대한 그럴 듯한 결론을 끼워 맞출 수밖에 없다는 것이다.",
+        "block": true
     },
     {
         "id": "st1",
@@ -1178,6 +1250,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"이 대지는 역사 친화적인 장소가 아니다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "이 대지는 역사 친화적인 장소가 아니다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1189,13 +1262,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n오리지늄 광맥은 지층 중의 모든 유기물과 동화되어 버린다. 유골조차 놓치지 않을 정도로.\",block = true)]",
         "type": "sticker",
-        "text": "\\n오리지늄 광맥은 지층 중의 모든 유기물과 동화되어 버린다. 유골조차 놓치지 않을 정도로."
+        "multi": "true,",
+        "text": "\\n오리지늄 광맥은 지층 중의 모든 유기물과 동화되어 버린다. 유골조차 놓치지 않을 정도로.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n고고학자들은 오리지늄으로 뒤덮인 유적지를 발굴하면, 금속 쪼가리를 들고서 고민하는 것 외에 할 수 있는 것이 없다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n고고학자들은 오리지늄으로 뒤덮인 유적지를 발굴하면, 금속 쪼가리를 들고서 고민하는 것 외에 할 수 있는 것이 없다."
+        "multi": "true,",
+        "text": "\\n고고학자들은 오리지늄으로 뒤덮인 유적지를 발굴하면, 금속 쪼가리를 들고서 고민하는 것 외에 할 수 있는 것이 없다.",
+        "block": true
     },
     {
         "id": "st1",
@@ -1206,6 +1283,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"하지만 우린 다르다, 우린 살카즈다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "하지만 우린 다르다, 우린 살카즈다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1217,19 +1295,25 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n우리가 과거를 돌아볼 수 있는 수단은 꽤나 다양하다. 한때 카즈델의 용광로에 깃든 레버넌트들이 이따끔씩 어떤 마왕의 위대한 업적이나, 비극적인 최후에 대해 떠들어댄다는 소문도 있었다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n우리가 과거를 돌아볼 수 있는 수단은 꽤나 다양하다. 한때 카즈델의 용광로에 깃든 레버넌트들이 이따끔씩 어떤 마왕의 위대한 업적이나, 비극적인 최후에 대해 떠들어댄다는 소문도 있었다."
+        "multi": "true,",
+        "text": "\\n우리가 과거를 돌아볼 수 있는 수단은 꽤나 다양하다. 한때 카즈델의 용광로에 깃든 레버넌트들이 이따끔씩 어떤 마왕의 위대한 업적이나, 비극적인 최후에 대해 떠들어댄다는 소문도 있었다.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n나 또한 어렸을 땐 불이 꺼지지 않는 용광로 옆에 머물면서, 과거의 메아리가 조금이라도 들리길 기다렸었다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n나 또한 어렸을 땐 불이 꺼지지 않는 용광로 옆에 머물면서, 과거의 메아리가 조금이라도 들리길 기다렸었다."
+        "multi": "true,",
+        "text": "\\n나 또한 어렸을 땐 불이 꺼지지 않는 용광로 옆에 머물면서, 과거의 메아리가 조금이라도 들리길 기다렸었다.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n하지만 내가 들을 수 있었던 건 침묵 뿐이었다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n하지만 내가 들을 수 있었던 건 침묵 뿐이었다."
+        "multi": "true,",
+        "text": "\\n하지만 내가 들을 수 있었던 건 침묵 뿐이었다.",
+        "block": true
     },
     {
         "id": "st1",
@@ -2711,6 +2795,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"저건 대체 뭘까?\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "저건 대체 뭘까?",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2722,7 +2807,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n산이 울리고 있다……\",block = true)]",
         "type": "sticker",
-        "text": "\\n산이 울리고 있다……"
+        "multi": "true,",
+        "text": "\\n산이 울리고 있다……",
+        "block": true
     },
     {
         "id": "st1",
@@ -2783,6 +2870,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"아니, 공간이 울리고 있다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "아니, 공간이 울리고 있다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2804,7 +2892,8 @@
     {
         "id": 386,
         "raw": "[interlude(channel = 2,clear = true)]",
-        "type": "interlude"
+        "type": "interlude",
+        "channel": "2,clear"
     },
     {
         "id": 387,
@@ -2976,6 +3065,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"그 순간 내 눈앞에 무수히 많은 화면들이 떠올랐다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "그 순간 내 눈앞에 무수히 많은 화면들이 떠올랐다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2992,6 +3082,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"궁전 안에서 지리멸렬하고 있는 살찐 제왕, 손목을 그어 그 피를 새로 태어난 아기에게 먹이는 고대의 후손.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "궁전 안에서 지리멸렬하고 있는 살찐 제왕, 손목을 그어 그 피를 새로 태어난 아기에게 먹이는 고대의 후손.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -3003,13 +3094,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n호박을 불태우는 다이아볼릭의 화염, 청동 성채 아래 엎드린 채 난도질한 자국이 남아 있는 버드나무를 바치는 사슴뿔이 달린 악마.\",block = true)]",
         "type": "sticker",
-        "text": "\\n호박을 불태우는 다이아볼릭의 화염, 청동 성채 아래 엎드린 채 난도질한 자국이 남아 있는 버드나무를 바치는 사슴뿔이 달린 악마."
+        "multi": "true,",
+        "text": "\\n호박을 불태우는 다이아볼릭의 화염, 청동 성채 아래 엎드린 채 난도질한 자국이 남아 있는 버드나무를 바치는 사슴뿔이 달린 악마.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n밧줄 하나가 허공으로부터 떨어져, 무수한 갈래로 나뉘어진다. 붉은 피부의 괴물은 날카로운 뿔을 잘라, 이를 자신의 가슴에 찔러넣었다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n밧줄 하나가 허공으로부터 떨어져, 무수한 갈래로 나뉘어진다. 붉은 피부의 괴물은 날카로운 뿔을 잘라, 이를 자신의 가슴에 찔러넣었다."
+        "multi": "true,",
+        "text": "\\n밧줄 하나가 허공으로부터 떨어져, 무수한 갈래로 나뉘어진다. 붉은 피부의 괴물은 날카로운 뿔을 잘라, 이를 자신의 가슴에 찔러넣었다.",
+        "block": true
     },
     {
         "id": "st1",
@@ -3123,6 +3218,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"어지럽게 흩어져 있던 조각들이 제자리를 찾아가고, 어느 머나먼 도시가 눈에 들어왔다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "어지럽게 흩어져 있던 조각들이 제자리를 찾아가고, 어느 머나먼 도시가 눈에 들어왔다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -3134,13 +3230,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n고요하고, 차분하다. 도시는 아직 바퀴조차 채 달지 않은 상태였고, 질투와 원망에 스며들지도 않았다. 환각이지만 그것의 아름다움은 어색하고 황당할 정도로 뛰어났다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n고요하고, 차분하다. 도시는 아직 바퀴조차 채 달지 않은 상태였고, 질투와 원망에 스며들지도 않았다. 환각이지만 그것의 아름다움은 어색하고 황당할 정도로 뛰어났다."
+        "multi": "true,",
+        "text": "\\n고요하고, 차분하다. 도시는 아직 바퀴조차 채 달지 않은 상태였고, 질투와 원망에 스며들지도 않았다. 환각이지만 그것의 아름다움은 어색하고 황당할 정도로 뛰어났다.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n그것은 바로 카즈델이다. 나는 아무런 근거도 없이 그것이 카즈델이라고 믿게 되었다. 그 어떤 역사 속에서도 등장하지 않으며, 다시는 존재할 수 없는, 나의 고향.\",block = true)]",
         "type": "sticker",
-        "text": "\\n그것은 바로 카즈델이다. 나는 아무런 근거도 없이 그것이 카즈델이라고 믿게 되었다. 그 어떤 역사 속에서도 등장하지 않으며, 다시는 존재할 수 없는, 나의 고향."
+        "multi": "true,",
+        "text": "\\n그것은 바로 카즈델이다. 나는 아무런 근거도 없이 그것이 카즈델이라고 믿게 되었다. 그 어떤 역사 속에서도 등장하지 않으며, 다시는 존재할 수 없는, 나의 고향.",
+        "block": true
     },
     {
         "id": "st1",
@@ -3151,6 +3251,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"나는 그곳으로 가고 싶었다. 나는…… 과거의 우리가 어떤 생활을 했었는지 보고 싶었다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "나는 그곳으로 가고 싶었다. 나는…… 과거의 우리가 어떤 생활을 했었는지 보고 싶었다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -3270,6 +3371,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"나는 발을 들었으나, 결국 내딛지 못하였다. 나는 묵묵히 지켜볼 뿐이었다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "나는 발을 들었으나, 결국 내딛지 못하였다. 나는 묵묵히 지켜볼 뿐이었다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -3281,13 +3383,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n이 모든 게 침묵으로 돌아갈 때까지.\",block = true)]",
         "type": "sticker",
-        "text": "\\n이 모든 게 침묵으로 돌아갈 때까지."
+        "multi": "true,",
+        "text": "\\n이 모든 게 침묵으로 돌아갈 때까지.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n그리고……\",block = true)]",
         "type": "sticker",
-        "text": "\\n그리고……"
+        "multi": "true,",
+        "text": "\\n그리고……",
+        "block": true
     },
     {
         "id": "st1",
@@ -3393,6 +3499,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"백골만 남게 된 가여운 생물은 가볍게 몸을 움직이고 있다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "백골만 남게 된 가여운 생물은 가볍게 몸을 움직이고 있다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -3404,13 +3511,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n신경다발은 쭉 뻗어나가며, 거대한 화물 상자를 들어 올렸다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n신경다발은 쭉 뻗어나가며, 거대한 화물 상자를 들어 올렸다."
+        "multi": "true,",
+        "text": "\\n신경다발은 쭉 뻗어나가며, 거대한 화물 상자를 들어 올렸다.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n그것은 확실히 아직 산 채로 이곳에서 떠돌고 있었다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n그것은 확실히 아직 산 채로 이곳에서 떠돌고 있었다."
+        "multi": "true,",
+        "text": "\\n그것은 확실히 아직 산 채로 이곳에서 떠돌고 있었다.",
+        "block": true
     },
     {
         "id": "st1",
@@ -3669,6 +3780,8 @@
         "id": 501,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#1$1\",bstart=0.2,bend=0.7,focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#1$1.png",
         "bstart": "0.2,bend=0.7,focus=\"m\""
     },
     {
@@ -3692,12 +3805,18 @@
         "id": 504,
         "raw": "[charslot(slot = \"l\", name = \"avg_npc_1067_1#1$1\",posfrom = \"0,0\", posto = \"200,0\",focus=\"n\")]",
         "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_1067_1#1$1.png",
+        "posfrom": "0,0",
+        "posto": "200,0",
         "focus": "n"
     },
     {
         "id": 505,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#1$1\",bstart=0,bend=0,duration=2,focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#1$1.png",
         "bstart": "0,bend=0,duration=2,focus=\"m\""
     },
     {
@@ -3710,6 +3829,8 @@
         "id": 507,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#8$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#8$1.png",
         "focus": "m"
     },
     {
@@ -3743,6 +3864,8 @@
         "id": 512,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#8$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#8$1.png",
         "focus": "m"
     },
     {
@@ -3785,6 +3908,8 @@
         "id": 518,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#8$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#8$1.png",
         "focus": "m"
     },
     {
@@ -3820,6 +3945,8 @@
         "id": 523,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#8$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#8$1.png",
         "focus": "m"
     },
     {
@@ -3879,6 +4006,8 @@
         "id": 532,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#2$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#2$1.png",
         "focus": "m"
     },
     {
@@ -3892,6 +4021,8 @@
         "id": 534,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#1$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#1$1.png",
         "focus": "m"
     },
     {

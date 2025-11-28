@@ -64,12 +64,16 @@
         "id": 8,
         "raw": "[curtain(direction = 0,fillfrom = 0.01,fillto = 0.15,grad = true,fadetime=0.1)]",
         "type": "curtain",
+        "direction": "0,fillfrom",
+        "fillto": "0.15,grad",
         "fadetime": 0.1
     },
     {
         "id": 9,
         "raw": "[curtain(direction = 4,fillfrom = 0.01,fillto = 0.15,grad = true,fadetime=0.1)]",
         "type": "curtain",
+        "direction": "4,fillfrom",
+        "fillto": "0.15,grad",
         "fadetime": 0.1
     },
     {
@@ -117,6 +121,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"大いなる大地よ、我らが王を守り給え♪\", x=300,y=200, alignment=\"center\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "大いなる大地よ、我らが王を守り給え♪",
         "x": "300,y=200,",
         "alignment": "center",
@@ -128,25 +133,33 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n\\n彼の民と彼に幸福を与え給え♪\",block = true)]",
         "type": "sticker",
-        "text": "\\n\\n彼の民と彼に幸福を与え給え♪"
+        "multi": "true,",
+        "text": "\\n\\n彼の民と彼に幸福を与え給え♪",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n\\n我らに無限の恩恵を賜り給え♪\",block = true)]",
         "type": "sticker",
-        "text": "\\n\\n我らに無限の恩恵を賜り給え♪"
+        "multi": "true,",
+        "text": "\\n\\n我らに無限の恩恵を賜り給え♪",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n\\n我ら愉快に声上げて歌おう♪\",block = true)]",
         "type": "sticker",
-        "text": "\\n\\n我ら愉快に声上げて歌おう♪"
+        "multi": "true,",
+        "text": "\\n\\n我ら愉快に声上げて歌おう♪",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n\\nヴィクトリア、我が故郷♪\",block = true)]",
         "type": "sticker",
-        "text": "\\n\\nヴィクトリア、我が故郷♪"
+        "multi": "true,",
+        "text": "\\n\\nヴィクトリア、我が故郷♪",
+        "block": true
     },
     {
         "id": "st1",
@@ -207,10 +220,13 @@
         "type": "dialog_marker"
     },
     {
-        "id": 29,
+        "id": "at1",
         "raw": "[animtext(id = \"at1\", name = \"group_location_stamp\", style=\"avg_both\", pos = \"-400,-200\", block = false)]<p=1>聖王会西部大広間玉座の間</><p=2>1098年10月8日 p.m. 9:45</>",
         "type": "anim_text",
+        "name": "group_location_stamp",
         "style": "avg_both",
+        "pos": "-400,-200",
+        "block": false,
         "content": "<p=1>聖王会西部大広間玉座の間</><p=2>1098年10月8日 p.m. 9:45</>"
     },
     {
@@ -875,6 +891,8 @@
         "id": 123,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_656_1#1$1\", duration=2)]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_656_1#1$1.png",
         "duration": 2
     },
     {
@@ -967,6 +985,8 @@
         "id": 138,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_656_1#1$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_656_1#1$1.png",
         "focus": "m"
     },
     {
@@ -1087,6 +1107,8 @@
         "id": 153,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_656_1#1$1\",focus=\"n\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_656_1#1$1.png",
         "focus": "n"
     },
     {
@@ -1111,6 +1133,8 @@
         "id": 157,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_656_1#1$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_656_1#1$1.png",
         "focus": "m"
     },
     {
@@ -1225,6 +1249,8 @@
         "id": 171,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_656_1#1$1\",focus=\"n\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_656_1#1$1.png",
         "focus": "n"
     },
     {
@@ -1249,6 +1275,8 @@
         "id": 175,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_656_1#1$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_656_1#1$1.png",
         "focus": "m"
     },
     {
@@ -1433,6 +1461,8 @@
         "id": 198,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_656_1#5$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_656_1#5$1.png",
         "focus": "m"
     },
     {
@@ -1522,6 +1552,8 @@
         "id": 209,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_656_1#5$1\",focus=\"n\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_656_1#5$1.png",
         "focus": "n"
     },
     {
@@ -1546,6 +1578,8 @@
         "id": 213,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_656_1#5$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_656_1#5$1.png",
         "focus": "m"
     },
     {
@@ -1716,10 +1750,13 @@
         "type": "dialog_marker"
     },
     {
-        "id": 235,
+        "id": "at1",
         "raw": "[animtext(id = \"at1\", name = \"group_location_stamp\", style=\"avg_both\", pos = \"-400,-200\", block = false)]<p=1>議長室</><p=2>1098年12月10日 p.m. 7:32</>",
         "type": "anim_text",
+        "name": "group_location_stamp",
         "style": "avg_both",
+        "pos": "-400,-200",
+        "block": false,
         "content": "<p=1>議長室</><p=2>1098年12月10日 p.m. 7:32</>"
     },
     {
@@ -2637,6 +2674,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>「模範軍」</i>\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>「模範軍」</i>",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2648,13 +2686,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>「我々は奇跡を創り出す。」</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>「我々は奇跡を創り出す。」</i>"
+        "multi": "true,",
+        "text": "\\n<i>「我々は奇跡を創り出す。」</i>",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>けれど奇跡が幕を閉じた後は？　模範軍はどこへ向かえばいいの？</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>けれど奇跡が幕を閉じた後は？　模範軍はどこへ向かえばいいの？</i>"
+        "multi": "true,",
+        "text": "\\n<i>けれど奇跡が幕を閉じた後は？　模範軍はどこへ向かえばいいの？</i>",
+        "block": true
     },
     {
         "id": "st1",
@@ -2672,6 +2714,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>ホルンちゃんが言ってた。前の模範軍の奇跡はガリアに記憶され士官学校の教科書に残ったって。なら吾輩たちは？ 実際にロンディニウムに戻るまで、誰もこの問題について考える必要なんてなかった。</i>\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>ホルンちゃんが言ってた。前の模範軍の奇跡はガリアに記憶され士官学校の教科書に残ったって。なら吾輩たちは？ 実際にロンディニウムに戻るまで、誰もこの問題について考える必要なんてなかった。</i>",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2683,13 +2726,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>ヴィクトリア人が再び自分たちの都市を接収したと都市全域に宣言した瞬間に、隊の最年少の子が尋ねてきた。</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>ヴィクトリア人が再び自分たちの都市を接収したと都市全域に宣言した瞬間に、隊の最年少の子が尋ねてきた。</i>"
+        "multi": "true,",
+        "text": "\\n<i>ヴィクトリア人が再び自分たちの都市を接収したと都市全域に宣言した瞬間に、隊の最年少の子が尋ねてきた。</i>",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>「これから、私たちはどこへ行くの？」</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>「これから、私たちはどこへ行くの？」</i>"
+        "multi": "true,",
+        "text": "\\n<i>「これから、私たちはどこへ行くの？」</i>",
+        "block": true
     },
     {
         "id": "st1",
@@ -2707,6 +2754,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>吾輩は興奮して言った。家に帰るんだ、「スロバーノッカー」のボクシングジムに帰るんだよ。ハンナちゃん、ヴィーナ、ダグザちゃんと一緒に。あんたも家に帰っていいんだよ！</i>\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>吾輩は興奮して言った。家に帰るんだ、「スロバーノッカー」のボクシングジムに帰るんだよ。ハンナちゃん、ヴィーナ、ダグザちゃんと一緒に。あんたも家に帰っていいんだよ！</i>",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2718,13 +2766,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>でもその子は言った……</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>でもその子は言った……</i>"
+        "multi": "true,",
+        "text": "\\n<i>でもその子は言った……</i>",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>「僕の家はもうなくなっちゃった。僕にはお姉さんたちしかいないよ。」</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>「僕の家はもうなくなっちゃった。僕にはお姉さんたちしかいないよ。」</i>"
+        "multi": "true,",
+        "text": "\\n<i>「僕の家はもうなくなっちゃった。僕にはお姉さんたちしかいないよ。」</i>",
+        "block": true
     },
     {
         "id": "st1",
@@ -3478,6 +3530,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>かつて吾輩たちと共に都市に突入した兵士は夕日の中に立ち、吾輩たちの「尋問」に応じる。</i>\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>かつて吾輩たちと共に都市に突入した兵士は夕日の中に立ち、吾輩たちの「尋問」に応じる。</i>",
         "x": "300,y=270,",
         "alignment": "left",
@@ -3489,13 +3542,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>ヴィーナが議会に影響を与えられることをみんながよく分かっていた……彼女が望みさえすれば。</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>ヴィーナが議会に影響を与えられることをみんながよく分かっていた……彼女が望みさえすれば。</i>"
+        "multi": "true,",
+        "text": "\\n<i>ヴィーナが議会に影響を与えられることをみんながよく分かっていた……彼女が望みさえすれば。</i>",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>その日、吾輩は唐突に本当の意味で理解したんだ――ヴィーナはとっくにグラスゴーだけのヴィーナではなくなっていたことを。</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>その日、吾輩は唐突に本当の意味で理解したんだ――ヴィーナはとっくにグラスゴーだけのヴィーナではなくなっていたことを。</i>"
+        "multi": "true,",
+        "text": "\\n<i>その日、吾輩は唐突に本当の意味で理解したんだ――ヴィーナはとっくにグラスゴーだけのヴィーナではなくなっていたことを。</i>",
+        "block": true
     },
     {
         "id": "st1",
@@ -3569,6 +3626,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>もしかしたらあの午後にはもう、吾輩のヴィーナはグラスゴーの仲間に別れを告げていたのかもしれない。</i>\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>もしかしたらあの午後にはもう、吾輩のヴィーナはグラスゴーの仲間に別れを告げていたのかもしれない。</i>",
         "x": "300,y=270,",
         "alignment": "left",
@@ -3580,13 +3638,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>あの時、都市全体の工場が同時に稼働し、一斉に轟音を鳴らすと立ち上る蒸気が空を衝いた。</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>あの時、都市全体の工場が同時に稼働し、一斉に轟音を鳴らすと立ち上る蒸気が空を衝いた。</i>"
+        "multi": "true,",
+        "text": "\\n<i>あの時、都市全体の工場が同時に稼働し、一斉に轟音を鳴らすと立ち上る蒸気が空を衝いた。</i>",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>彼女の金色の髪は熱風になびいて、目に浮かんだ一瞬の涙を覆い隠した。彼女は笑顔で振り返って言った――</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>彼女の金色の髪は熱風になびいて、目に浮かんだ一瞬の涙を覆い隠した。彼女は笑顔で振り返って言った――</i>"
+        "multi": "true,",
+        "text": "\\n<i>彼女の金色の髪は熱風になびいて、目に浮かんだ一瞬の涙を覆い隠した。彼女は笑顔で振り返って言った――</i>",
+        "block": true
     },
     {
         "id": "st1",
@@ -3641,6 +3703,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>家に着いた。だけど全てが予想した通りに進んでいるわけではない。</i>\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>家に着いた。だけど全てが予想した通りに進んでいるわけではない。</i>",
         "x": "300,y=270,",
         "alignment": "left",
@@ -3652,13 +3715,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>吾輩は怖い。帰郷が、別れになってしまうことが――</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>吾輩は怖い。帰郷が、別れになってしまうことが――</i>"
+        "multi": "true,",
+        "text": "\\n<i>吾輩は怖い。帰郷が、別れになってしまうことが――</i>",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>吾輩は怖いんだ……ヴィーナを失ってしまうことが。</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>吾輩は怖いんだ……ヴィーナを失ってしまうことが。</i>"
+        "multi": "true,",
+        "text": "\\n<i>吾輩は怖いんだ……ヴィーナを失ってしまうことが。</i>",
+        "block": true
     },
     {
         "id": "st1",
@@ -3840,10 +3907,13 @@
         "type": "dialog_marker"
     },
     {
-        "id": 526,
+        "id": "at1",
         "raw": "[animtext(id = \"at1\", name = \"group_location_stamp\", style=\"avg_both\", pos = \"-400,-200\", block = false)]<p=1>ロンディニウム</><p=2>1098年9月28日 p.m. 5:27</>",
         "type": "anim_text",
+        "name": "group_location_stamp",
         "style": "avg_both",
+        "pos": "-400,-200",
+        "block": false,
         "content": "<p=1>ロンディニウム</><p=2>1098年9月28日 p.m. 5:27</>"
     },
     {
@@ -4682,6 +4752,8 @@
         "id": 642,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1342_1#1$1\", bstart=0.2,bend=0.7,duration=1)]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1342_1#1$1.png",
         "bstart": "0.2,bend=0.7,duration=1"
     },
     {
@@ -4694,6 +4766,8 @@
         "id": 644,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1342_1#1$1\",bstart=0.2,bend=0.7,focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1342_1#1$1.png",
         "bstart": "0.2,bend=0.7,focus=\"m\""
     },
     {
@@ -4753,6 +4827,8 @@
         "id": 653,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1342_1#1$1\",bstart=0.2,bend=0.7,focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1342_1#1$1.png",
         "bstart": "0.2,bend=0.7,focus=\"m\""
     },
     {
@@ -4860,10 +4936,13 @@
         "type": "dialog_marker"
     },
     {
-        "id": 668,
+        "id": "at1",
         "raw": "[animtext(id = \"at1\", name = \"group_location_stamp\", style=\"avg_both\", pos = \"-400,-200\", block = false)]<p=1>議長室</><p=2>1098年12月10日 p.m. 9:28</>",
         "type": "anim_text",
+        "name": "group_location_stamp",
         "style": "avg_both",
+        "pos": "-400,-200",
+        "block": false,
         "content": "<p=1>議長室</><p=2>1098年12月10日 p.m. 9:28</>"
     },
     {

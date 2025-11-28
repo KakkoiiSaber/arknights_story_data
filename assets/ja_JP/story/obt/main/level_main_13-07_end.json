@@ -69,13 +69,25 @@
     {
         "id": 10,
         "raw": "[interlude(maskid = \"ui_cutin_mask_vertical\", style = 1, size = \"500, 720\",offset = \"20,0\", channel = 2)]",
-        "type": "interlude"
+        "type": "interlude",
+        "maskid": "ui_cutin_mask_vertical",
+        "style": "1,",
+        "size": "500, 720",
+        "offset": "20,0",
+        "channel": 2
     },
     {
         "id": 11,
         "raw": "[interlude(channel = 2, type = 2, name = \"43_g4_spinestops_ex\", afrom = 0, ato = 1, aduration = 3, sfrom = \"1.9,1.9\", sto = \"1.9,1.9\", sduration = 0,block=true)]",
-        "type": "interlude",
-        "block": true
+        "type": "2,",
+        "channel": "2,",
+        "name": "43_g4_spinestops_ex",
+        "afrom": "0,",
+        "ato": "1,",
+        "aduration": "3,",
+        "sfrom": "1.9,1.9",
+        "sto": "1.9,1.9",
+        "sduration": "0,block=true"
     },
     {
         "id": 12,
@@ -86,13 +98,24 @@
     {
         "id": 13,
         "raw": "[interlude(channel = 2, type = 1, slot = \"m\", offset = \"20,50\", name = \"cutin_char_11\",sfrom = \"0.8,0.8\", sto = \"0.8,0.8\", aduration = 2,block=false)]",
-        "type": "interlude",
-        "block": false
+        "type": "1,",
+        "channel": "2,",
+        "slot": "m",
+        "offset": "20,50",
+        "name": "cutin_char_11",
+        "sfrom": "0.8,0.8",
+        "sto": "0.8,0.8",
+        "aduration": "2,block=false"
     },
     {
         "id": 14,
         "raw": "[interlude(channel = 2, type = 1, slot = \"m\", pfrom = \"20,50\", pto = \"60,50\", duration = 40)]",
-        "type": "interlude"
+        "type": "1,",
+        "channel": "2,",
+        "slot": "m",
+        "pfrom": "20,50",
+        "pto": "60,50",
+        "duration": 40
     },
     {
         "id": 15,
@@ -115,6 +138,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"「旧友との再会」という言葉は、サルカズにとって必ずしも好ましいこととは限らないわ。\", x=300,y=270, alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "「旧友との再会」という言葉は、サルカズにとって必ずしも好ましいこととは限らないわ。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -131,6 +155,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"サルカズではない私でも知っている。大抵の場合、その言葉が「覚悟を決めろ」という意味を含むことを。\",x=300,y=270, alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "サルカズではない私でも知っている。大抵の場合、その言葉が「覚悟を決めろ」という意味を含むことを。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -147,6 +172,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"子供というのは、何も知らず愚かで、ほんの少し一緒に行動をしただけでも相手に混じりけのない信頼を置いてしまうもの。\",x=300,y=270, alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "子供というのは、何も知らず愚かで、ほんの少し一緒に行動をしただけでも相手に混じりけのない信頼を置いてしまうもの。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -158,7 +184,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nたとえ共に行動したその場所が、臭気の立ち込めるカズデルだとしても。\",block = true)]",
         "type": "sticker",
-        "text": "\\nたとえ共に行動したその場所が、臭気の立ち込めるカズデルだとしても。"
+        "multi": "true,",
+        "text": "\\nたとえ共に行動したその場所が、臭気の立ち込めるカズデルだとしても。",
+        "block": true
     },
     {
         "id": "st1",
@@ -169,6 +197,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"それからある時、人は成長する。それは初めて人を殺した瞬間かもしれないし、あるいは多くの血を流して死にかけた時か、死体の山から這い出た時かもしれない。\",x=300,y=270, alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "それからある時、人は成長する。それは初めて人を殺した瞬間かもしれないし、あるいは多くの血を流して死にかけた時か、死体の山から這い出た時かもしれない。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -180,7 +209,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nその子供はどうすれば大人のように生きられるかを学び始め、残忍になったり、手段を選ばないようになったり、果ては自分が生き延びるためだけに戦友を捨てるようになった。誰もそれを責めはしないわ。\",block = true)]",
         "type": "sticker",
-        "text": "\\nその子供はどうすれば大人のように生きられるかを学び始め、残忍になったり、手段を選ばないようになったり、果ては自分が生き延びるためだけに戦友を捨てるようになった。誰もそれを責めはしないわ。"
+        "multi": "true,",
+        "text": "\\nその子供はどうすれば大人のように生きられるかを学び始め、残忍になったり、手段を選ばないようになったり、果ては自分が生き延びるためだけに戦友を捨てるようになった。誰もそれを責めはしないわ。",
+        "block": true
     },
     {
         "id": "st1",
@@ -191,6 +222,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"その後で、「旧友との再会」というありふれたシーンが訪れる。\", x=300,y=270, alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "その後で、「旧友との再会」というありふれたシーンが訪れる。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -202,7 +234,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n正直、これだけ久しぶりだとたとえ古馴染みだとしても、話せることなんてそんなにないけど。\",block = true)]",
         "type": "sticker",
-        "text": "\\n正直、これだけ久しぶりだとたとえ古馴染みだとしても、話せることなんてそんなにないけど。"
+        "multi": "true,",
+        "text": "\\n正直、これだけ久しぶりだとたとえ古馴染みだとしても、話せることなんてそんなにないけど。",
+        "block": true
     },
     {
         "id": "st1",
@@ -213,6 +247,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"けど……かつて、若く愚かな子供だった頃、確かに「友情」を結んだことがあったの。\", x=300,y=270, alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "けど……かつて、若く愚かな子供だった頃、確かに「友情」を結んだことがあったの。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -229,6 +264,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"カズデルで「友情」を語ってバカにされない機会があるのは、あの頃くらいのものよ。\", x=300,y=270, alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "カズデルで「友情」を語ってバカにされない機会があるのは、あの頃くらいのものよ。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -271,7 +307,8 @@
     {
         "id": 38,
         "raw": "[interlude(channel = 2,clear = true)]",
-        "type": "interlude"
+        "type": "interlude",
+        "channel": "2,clear"
     },
     {
         "id": 39,
@@ -337,6 +374,8 @@
         "id": 47,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#5$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#5$1.png",
         "focus": "m"
     },
     {
@@ -379,6 +418,8 @@
         "id": 53,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#1$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#1$1.png",
         "focus": "m"
     },
     {
@@ -392,6 +433,8 @@
         "id": 55,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#8$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#8$1.png",
         "focus": "m"
     },
     {
@@ -432,6 +475,8 @@
         "id": 60,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#8$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#8$1.png",
         "focus": "m"
     },
     {
@@ -467,6 +512,8 @@
         "id": 65,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#8$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#8$1.png",
         "focus": "m"
     },
     {
@@ -512,6 +559,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"ウルスラの横顔と、吊り上がった口の端が見えた。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "ウルスラの横顔と、吊り上がった口の端が見えた。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -523,13 +571,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n昔……昔、ね。\",block = true)]",
         "type": "sticker",
-        "text": "\\n昔……昔、ね。"
+        "multi": "true,",
+        "text": "\\n昔……昔、ね。",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n少なくとも、こいつのこういう嫌なとこはちっとも変ってないみたいだわ。\",block = true)]",
         "type": "sticker",
-        "text": "\\n少なくとも、こいつのこういう嫌なとこはちっとも変ってないみたいだわ。"
+        "multi": "true,",
+        "text": "\\n少なくとも、こいつのこういう嫌なとこはちっとも変ってないみたいだわ。",
+        "block": true
     },
     {
         "id": "st1",
@@ -605,6 +657,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"若きサルカズの靴職人はヘドリーのそばまで行くと、こっそり壺を渡した。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "若きサルカズの靴職人はヘドリーのそばまで行くと、こっそり壺を渡した。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -686,6 +739,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"はぁ。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "はぁ。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -713,6 +767,8 @@
         "id": 96,
         "raw": "[charslot(slot = \"m\", name = \"avg_4087_ines_1#13$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_4087_ines_1#13$1.png",
         "focus": "m"
     },
     {
@@ -814,6 +870,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"どうやら、イニシエーションすら済ませていないようね。テレジア殿下がいた日々は、ああいう過保護に育てられた子供を生んだ。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "どうやら、イニシエーションすら済ませていないようね。テレジア殿下がいた日々は、ああいう過保護に育てられた子供を生んだ。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -825,7 +882,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nそして今となっては、その子も、ロンディニウムの戦場に来た。ふっ、あの兄妹二人して、史上最悪のジョークを作り出してくれたじゃない。\",block = true)]",
         "type": "sticker",
-        "text": "\\nそして今となっては、その子も、ロンディニウムの戦場に来た。ふっ、あの兄妹二人して、史上最悪のジョークを作り出してくれたじゃない。"
+        "multi": "true,",
+        "text": "\\nそして今となっては、その子も、ロンディニウムの戦場に来た。ふっ、あの兄妹二人して、史上最悪のジョークを作り出してくれたじゃない。",
+        "block": true
     },
     {
         "id": "st1",
@@ -836,6 +895,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"これがジョークじゃなければ、どんなにいいことか。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "これがジョークじゃなければ、どんなにいいことか。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -863,6 +923,8 @@
         "id": 117,
         "raw": "[charslot(slot = \"m\", name = \"avg_4087_ines_1#1$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_4087_ines_1#1$1.png",
         "focus": "m"
     },
     {
@@ -924,6 +986,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"ヘドリーは黙ったままノートをしまった。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "ヘドリーは黙ったままノートをしまった。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -951,6 +1014,8 @@
         "id": 129,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#8$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#8$1.png",
         "focus": "m"
     },
     {
@@ -971,6 +1036,8 @@
         "id": 132,
         "raw": "[charslot(slot = \"m\", name = \"avg_4087_ines_1#1$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_4087_ines_1#1$1.png",
         "focus": "m"
     },
     {
@@ -991,6 +1058,8 @@
         "id": 135,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#8$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#8$1.png",
         "focus": "m"
     },
     {
@@ -1026,6 +1095,8 @@
         "id": 140,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#8$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#8$1.png",
         "focus": "m"
     },
     {
@@ -1046,6 +1117,8 @@
         "id": 143,
         "raw": "[charslot(slot = \"m\", name = \"avg_4087_ines_1#3$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_4087_ines_1#3$1.png",
         "focus": "m"
     },
     {
@@ -1059,6 +1132,8 @@
         "id": 145,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#8$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#8$1.png",
         "focus": "m"
     },
     {
@@ -1072,6 +1147,8 @@
         "id": 147,
         "raw": "[charslot(slot = \"m\", name = \"avg_4087_ines_1#1$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_4087_ines_1#1$1.png",
         "focus": "m"
     },
     {
@@ -1085,6 +1162,8 @@
         "id": 149,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#8$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#8$1.png",
         "focus": "m"
     },
     {
@@ -1115,6 +1194,8 @@
         "id": 154,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#9$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#9$1.png",
         "focus": "m"
     },
     {
@@ -1128,6 +1209,8 @@
         "id": 156,
         "raw": "[charslot(slot = \"m\", name = \"avg_4087_ines_1#3$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_4087_ines_1#3$1.png",
         "focus": "m"
     },
     {
@@ -1141,6 +1224,8 @@
         "id": 158,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#8$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#8$1.png",
         "focus": "m"
     },
     {
@@ -1192,6 +1277,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"彼女は私の目の前まで来て、こちらをしげしげと見定めたあと、ヘドリーにちらりと目を向けた。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "彼女は私の目の前まで来て、こちらをしげしげと見定めたあと、ヘドリーにちらりと目を向けた。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1224,6 +1310,8 @@
         "id": 169,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#8$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#8$1.png",
         "focus": "m"
     },
     {
@@ -1237,6 +1325,8 @@
         "id": 171,
         "raw": "[charslot(slot = \"m\", name = \"avg_4087_ines_1#1$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_4087_ines_1#1$1.png",
         "focus": "m"
     },
     {
@@ -1250,6 +1340,8 @@
         "id": 173,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#8$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#8$1.png",
         "focus": "m"
     },
     {
@@ -1263,6 +1355,8 @@
         "id": 175,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#10$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#10$1.png",
         "focus": "m"
     },
     {
@@ -1291,6 +1385,8 @@
         "id": 179,
         "raw": "[charslot(slot = \"m\", name = \"avg_4087_ines_1#2$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_4087_ines_1#2$1.png",
         "focus": "m"
     },
     {
@@ -1304,6 +1400,8 @@
         "id": 181,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#8$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#8$1.png",
         "focus": "m"
     },
     {
@@ -1361,6 +1459,8 @@
         "id": 189,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#8$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#8$1.png",
         "focus": "m"
     },
     {
@@ -1374,6 +1474,8 @@
         "id": 191,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#8$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#8$1.png",
         "focus": "m"
     },
     {
@@ -1394,6 +1496,8 @@
         "id": 194,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#7$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#7$1.png",
         "focus": "m"
     },
     {
@@ -1429,6 +1533,8 @@
         "id": 199,
         "raw": "[charslot(slot = \"m\", name = \"avg_4087_ines_1#9$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_4087_ines_1#9$1.png",
         "focus": "m"
     },
     {
@@ -1449,6 +1555,8 @@
         "id": 202,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#8$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#8$1.png",
         "focus": "m"
     },
     {
@@ -1493,12 +1601,16 @@
         "id": 209,
         "raw": "[charslot(slot = \"l\", name = \"avg_npc_419_1#1$1\",duration=1)]",
         "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_419_1#1$1.png",
         "duration": 1
     },
     {
         "id": 210,
         "raw": "[charslot(slot = \"r\", name = \"avg_npc_419_1#1$1\",duration=1)]",
         "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_419_1#1$1.png",
         "duration": 1
     },
     {
@@ -1553,6 +1665,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"チッ、いつの間に？\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "チッ、いつの間に？",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1564,7 +1677,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nこいつ、前はこんな手を使ってはこなかったはず。\",block = true)]",
         "type": "sticker",
-        "text": "\\nこいつ、前はこんな手を使ってはこなかったはず。"
+        "multi": "true,",
+        "text": "\\nこいつ、前はこんな手を使ってはこなかったはず。",
+        "block": true
     },
     {
         "id": "st1",
@@ -1586,6 +1701,8 @@
         "id": 222,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#8$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#8$1.png",
         "focus": "m"
     },
     {
@@ -1626,6 +1743,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"その口元は変わらず吊り上がっていたが、こいつは本気だ。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "その口元は変わらず吊り上がっていたが、こいつは本気だ。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1653,6 +1771,8 @@
         "id": 230,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#8$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#8$1.png",
         "focus": "m"
     },
     {
@@ -1666,6 +1786,8 @@
         "id": 232,
         "raw": "[charslot(slot = \"m\", name = \"avg_4087_ines_1#9$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_4087_ines_1#9$1.png",
         "focus": "m"
     },
     {
@@ -1679,6 +1801,8 @@
         "id": 234,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#5$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#5$1.png",
         "focus": "m"
     },
     {
@@ -1721,6 +1845,8 @@
         "id": 240,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#5$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#5$1.png",
         "focus": "m"
     },
     {
@@ -1777,6 +1903,8 @@
         "id": 248,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#6$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#6$1.png",
         "focus": "m"
     },
     {
@@ -1797,6 +1925,8 @@
         "id": 251,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#5$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#5$1.png",
         "focus": "m"
     },
     {
@@ -1824,6 +1954,8 @@
         "id": 255,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#1$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#1$1.png",
         "focus": "m"
     },
     {
@@ -1852,6 +1984,8 @@
         "id": 259,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#5$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#5$1.png",
         "focus": "m"
     },
     {
@@ -1865,6 +1999,8 @@
         "id": 261,
         "raw": "[charslot(slot = \"m\", name = \"avg_4087_ines_1#5$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_4087_ines_1#5$1.png",
         "focus": "m"
     },
     {
@@ -1878,6 +2014,8 @@
         "id": 263,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#5$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#5$1.png",
         "focus": "m"
     },
     {
@@ -1911,6 +2049,8 @@
         "id": 268,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#5$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#5$1.png",
         "focus": "m"
     },
     {
@@ -1997,13 +2137,21 @@
         "id": 279,
         "raw": "[Effect(name=\"$e_bladeline_red\", rox = 33, roy =86, roz = 35, layer = 1)]",
         "type": "effect",
-        "name": "$e_bladeline_red"
+        "name": "$e_bladeline_red",
+        "rox": "33,",
+        "roy": "86,",
+        "roz": "35,",
+        "layer": 1
     },
     {
         "id": 280,
         "raw": "[Effect(name=\"$e_bladeline_red\", rox = -39, roy =106, roz = -125, layer = 2)]",
         "type": "effect",
-        "name": "$e_bladeline_red"
+        "name": "$e_bladeline_red",
+        "rox": "-39,",
+        "roy": "106,",
+        "roz": "-125,",
+        "layer": 2
     },
     {
         "id": 281,
@@ -2095,14 +2243,15 @@
         "id": 291,
         "raw": "[Effect(name=\"$e_slash_fold\",x = 50,layer = 1)]",
         "type": "effect",
-        "name": "$e_slash_fold"
+        "name": "$e_slash_fold",
+        "x": "50,layer"
     },
     {
         "id": 292,
         "raw": "[Effect(name=\"$e_slash_fold\",x = 50,roy=180,layer = 2,delay=0.2)]",
         "type": "effect",
         "name": "$e_slash_fold",
-        "roy": "180,layer",
+        "x": "50,roy=180,layer",
         "delay": 0.2
     },
     {
@@ -2180,6 +2329,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"「旧友との再会」……まったく素晴らしいわね。初めから覚悟はできていたわ。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "「旧友との再会」……まったく素晴らしいわね。初めから覚悟はできていたわ。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2191,7 +2341,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n何も言わずとも察したように、ヘドリーは私を通り越してあのバカな子の……軍事委員会の少佐様の前に出た。\",block = true)]",
         "type": "sticker",
-        "text": "\\n何も言わずとも察したように、ヘドリーは私を通り越してあのバカな子の……軍事委員会の少佐様の前に出た。"
+        "multi": "true,",
+        "text": "\\n何も言わずとも察したように、ヘドリーは私を通り越してあのバカな子の……軍事委員会の少佐様の前に出た。",
+        "block": true
     },
     {
         "id": "st1",
@@ -2356,6 +2508,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"私は立ちはだかるサルカズどもをするりと避けていく。奴らのくるぶしに自分自身の影が絡みついた。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "私は立ちはだかるサルカズどもをするりと避けていく。奴らのくるぶしに自分自身の影が絡みついた。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2367,7 +2520,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nだから思い切り跳び上がって、この恐ろしい生き物の神経束を掴んで登っていく。ぬめぬめとした感触が気持ち悪い。\",block = true)]",
         "type": "sticker",
-        "text": "\\nだから思い切り跳び上がって、この恐ろしい生き物の神経束を掴んで登っていく。ぬめぬめとした感触が気持ち悪い。"
+        "multi": "true,",
+        "text": "\\nだから思い切り跳び上がって、この恐ろしい生き物の神経束を掴んで登っていく。ぬめぬめとした感触が気持ち悪い。",
+        "block": true
     },
     {
         "id": "st1",
@@ -2378,6 +2533,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"これが「巨獣」？　初めて見たわ。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "これが「巨獣」？　初めて見たわ。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2389,7 +2545,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nそれじゃあ、あなたの頭の中にどんな秘密が詰まってるのか見せてもらおうかしら。\",block = true)]",
         "type": "sticker",
-        "text": "\\nそれじゃあ、あなたの頭の中にどんな秘密が詰まってるのか見せてもらおうかしら。"
+        "multi": "true,",
+        "text": "\\nそれじゃあ、あなたの頭の中にどんな秘密が詰まってるのか見せてもらおうかしら。",
+        "block": true
     },
     {
         "id": "st1",
@@ -2513,6 +2671,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"あまり歩きやすい船室じゃないわね。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "あまり歩きやすい船室じゃないわね。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2524,13 +2683,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n近頃の私はツイてない。前はレヴァナントで、今回はこいつ。いつも何かの怪物の体内に潜り込むことを強いられてる。\",block = true)]",
         "type": "sticker",
-        "text": "\\n近頃の私はツイてない。前はレヴァナントで、今回はこいつ。いつも何かの怪物の体内に潜り込むことを強いられてる。"
+        "multi": "true,",
+        "text": "\\n近頃の私はツイてない。前はレヴァナントで、今回はこいつ。いつも何かの怪物の体内に潜り込むことを強いられてる。",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nはぁ、今度も跳び下りる羽目にならなければいいんだけど。\",block = true)]",
         "type": "sticker",
-        "text": "\\nはぁ、今度も跳び下りる羽目にならなければいいんだけど。"
+        "multi": "true,",
+        "text": "\\nはぁ、今度も跳び下りる羽目にならなければいいんだけど。",
+        "block": true
     },
     {
         "id": "st1",
@@ -2552,6 +2715,8 @@
         "id": 351,
         "raw": "[charslot(slot = \"m\", name = \"avg_4087_ines_1#7$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_4087_ines_1#7$1.png",
         "focus": "m"
     },
     {
@@ -2602,12 +2767,16 @@
         "id": 359,
         "raw": "[charslot(slot = \"l\", name = \"avg_npc_419_1#1$1\",duration=1)]",
         "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_419_1#1$1.png",
         "duration": 1
     },
     {
         "id": 360,
         "raw": "[charslot(slot = \"r\", name = \"avg_npc_419_1#1$1\",duration=1)]",
         "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_419_1#1$1.png",
         "duration": 1
     },
     {
@@ -2659,6 +2828,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"チッ、思ったより早いわね。あいつら、骨をよじ登って追いかけてきてる。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "チッ、思ったより早いわね。あいつら、骨をよじ登って追いかけてきてる。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2670,7 +2840,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n骨の間の筋節をハシゴのように使って、血肉を失った残骸を武器にしてるみたいだわ。\",block = true)]",
         "type": "sticker",
-        "text": "\\n骨の間の筋節をハシゴのように使って、血肉を失った残骸を武器にしてるみたいだわ。"
+        "multi": "true,",
+        "text": "\\n骨の間の筋節をハシゴのように使って、血肉を失った残骸を武器にしてるみたいだわ。",
+        "block": true
     },
     {
         "id": "st1",
@@ -2697,6 +2869,8 @@
         "id": 372,
         "raw": "[charslot(slot = \"m\", name = \"avg_4087_ines_1#1$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_4087_ines_1#1$1.png",
         "focus": "m"
     },
     {
@@ -2888,6 +3062,8 @@
         "id": 394,
         "raw": "[charslot(slot = \"m\", name = \"avg_4087_ines_1#3$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_4087_ines_1#3$1.png",
         "focus": "m"
     },
     {
@@ -2913,6 +3089,8 @@
         "id": 398,
         "raw": "[charslot(slot = \"m\", name = \"avg_4087_ines_1#3$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_4087_ines_1#3$1.png",
         "focus": "m"
     },
     {
@@ -2962,12 +3140,16 @@
         "id": 406,
         "raw": "[charslot(slot = \"l\", name = \"avg_npc_419_1#1$1\",focus=\"all\")]",
         "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_419_1#1$1.png",
         "focus": "all"
     },
     {
         "id": 407,
         "raw": "[charslot(slot = \"r\", name = \"avg_npc_419_1#1$1\",focus=\"all\")]",
         "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_419_1#1$1.png",
         "focus": "all"
     },
     {
@@ -3009,7 +3191,12 @@
         "id": 412,
         "raw": "[Effect(name=\"$e_bladeline_01_large\",x = -1, y = 8.3,rox =-98.5, roy =10, roz =121, layer = 1)]",
         "type": "effect",
-        "name": "$e_bladeline_01_large"
+        "name": "$e_bladeline_01_large",
+        "x": "-1,",
+        "y": "8.3,rox",
+        "roy": "10,",
+        "roz": "121,",
+        "layer": 1
     },
     {
         "id": 413,
@@ -3099,6 +3286,8 @@
         "id": 424,
         "raw": "[charslot(slot = \"m\", name = \"avg_4087_ines_1#4$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_4087_ines_1#4$1.png",
         "focus": "m"
     },
     {
@@ -3112,6 +3301,8 @@
         "id": 426,
         "raw": "[charslot(slot = \"m\", name = \"avg_4087_ines_1#6$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_4087_ines_1#6$1.png",
         "focus": "m"
     },
     {
@@ -3196,6 +3387,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"ふいに得体の知れない直感が脳裏をよぎり、私は無意識に片側に跳びのいた。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "ふいに得体の知れない直感が脳裏をよぎり、私は無意識に片側に跳びのいた。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -3207,7 +3399,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n頭上から巨大な神経束が襲ってきたんだ。私がさっき立っていた場所の骨はすでに砕け散り、崩壊していた。\",block = true)]",
         "type": "sticker",
-        "text": "\\n頭上から巨大な神経束が襲ってきたんだ。私がさっき立っていた場所の骨はすでに砕け散り、崩壊していた。"
+        "multi": "true,",
+        "text": "\\n頭上から巨大な神経束が襲ってきたんだ。私がさっき立っていた場所の骨はすでに砕け散り、崩壊していた。",
+        "block": true
     },
     {
         "id": "st1",
@@ -3234,6 +3428,8 @@
         "id": 443,
         "raw": "[charslot(slot = \"m\", name = \"avg_4087_ines_1#7$1\",duration=0.5)]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_4087_ines_1#7$1.png",
         "duration": 0.5
     },
     {
@@ -3246,6 +3442,8 @@
         "id": 445,
         "raw": "[charslot(slot = \"m\", name = \"avg_4087_ines_1#7$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_4087_ines_1#7$1.png",
         "focus": "m"
     },
     {
@@ -3291,6 +3489,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"ふん、どうやらこいつの骨や繊維の一つ一つが、どれも致命的な武器になり得るようね。厄介だこと。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "ふん、どうやらこいつの骨や繊維の一つ一つが、どれも致命的な武器になり得るようね。厄介だこと。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -3302,13 +3501,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n神経束が、再び絡みついてくる。私がナイフを思い切り突き刺すと、それらはぎゅっと縮み上がって、私を高々と持ち上げた。\",block = true)]",
         "type": "sticker",
-        "text": "\\n神経束が、再び絡みついてくる。私がナイフを思い切り突き刺すと、それらはぎゅっと縮み上がって、私を高々と持ち上げた。"
+        "multi": "true,",
+        "text": "\\n神経束が、再び絡みついてくる。私がナイフを思い切り突き刺すと、それらはぎゅっと縮み上がって、私を高々と持ち上げた。",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n最低限の反射神経は具わってるみたいね。\",block = true)]",
         "type": "sticker",
-        "text": "\\n最低限の反射神経は具わってるみたいね。"
+        "multi": "true,",
+        "text": "\\n最低限の反射神経は具わってるみたいね。",
+        "block": true
     },
     {
         "id": "st1",
@@ -3319,6 +3522,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"よし、前方に船室がある。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "よし、前方に船室がある。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -3351,12 +3555,16 @@
         "id": 459,
         "raw": "[charslot(slot = \"l\", name = \"avg_npc_419_1#1$1\",focus=\"all\")]",
         "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_419_1#1$1.png",
         "focus": "all"
     },
     {
         "id": 460,
         "raw": "[charslot(slot = \"r\", name = \"avg_npc_419_1#1$1\",focus=\"all\")]",
         "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_419_1#1$1.png",
         "focus": "all"
     },
     {
@@ -3478,6 +3686,8 @@
         "id": 475,
         "raw": "[charslot(slot = \"m\", name = \"avg_4087_ines_1#9$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_4087_ines_1#9$1.png",
         "focus": "m"
     },
     {
@@ -3566,6 +3776,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"私はぶら下がる神経束を掴むと、全力で跳び上がった。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "私はぶら下がる神経束を掴むと、全力で跳び上がった。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -3665,6 +3876,8 @@
         "id": 501,
         "raw": "[charslot(slot = \"m\", name = \"avg_4087_ines_1#13$1\",duration=0.7)]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_4087_ines_1#13$1.png",
         "duration": 0.7
     },
     {
@@ -3677,6 +3890,8 @@
         "id": 503,
         "raw": "[charslot(slot = \"m\", name = \"avg_4087_ines_1#13$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_4087_ines_1#13$1.png",
         "focus": "m"
     },
     {
@@ -3697,6 +3912,8 @@
         "id": 506,
         "raw": "[charslot(slot = \"m\", name = \"avg_4087_ines_1#14$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_4087_ines_1#14$1.png",
         "focus": "m"
     },
     {
@@ -3729,6 +3946,8 @@
         "id": 511,
         "raw": "[charslot(slot = \"m\", name = \"avg_4087_ines_1#9$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_4087_ines_1#9$1.png",
         "focus": "m"
     },
     {
@@ -3797,14 +4016,21 @@
         "raw": "[Effect(name=\"$e_bladeline_red\",x=-30,rox = 33, roy =86, roz = 35, layer = 1)]",
         "type": "effect",
         "name": "$e_bladeline_red",
-        "x": "-30,rox"
+        "x": "-30,rox",
+        "roy": "86,",
+        "roz": "35,",
+        "layer": 1
     },
     {
         "id": 520,
         "raw": "[Effect(name=\"$e_bladeline_red\",x=-30, rox = -39, roy =106, roz = -125, layer = 2)]",
         "type": "effect",
         "name": "$e_bladeline_red",
-        "x": "-30,"
+        "x": "-30,",
+        "rox": "-39,",
+        "roy": "106,",
+        "roz": "-125,",
+        "layer": 2
     },
     {
         "id": 521,
@@ -3826,6 +4052,8 @@
         "id": 523,
         "raw": "[charslot(slot = \"m\", name = \"avg_4087_ines_1#9$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_4087_ines_1#9$1.png",
         "focus": "m"
     },
     {
@@ -3849,6 +4077,8 @@
         "id": 527,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#1$1\",focus=\"m\",duration=1)]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#1$1.png",
         "focus": "m",
         "duration": 1
     },
@@ -3869,6 +4099,8 @@
         "id": 530,
         "raw": "[charslot(slot = \"m\", name = \"avg_4087_ines_1#3$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_4087_ines_1#3$1.png",
         "focus": "m"
     },
     {
@@ -3889,6 +4121,8 @@
         "id": 533,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#5$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#5$1.png",
         "focus": "m"
     },
     {
@@ -3902,6 +4136,8 @@
         "id": 535,
         "raw": "[charslot(slot = \"m\", name = \"avg_4087_ines_1#3$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_4087_ines_1#3$1.png",
         "focus": "m"
     },
     {
@@ -3920,6 +4156,8 @@
         "id": 538,
         "raw": "[charslot(slot = \"m\", name = \"avg_4087_ines_1#3$1\",focus=\"n\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_4087_ines_1#3$1.png",
         "focus": "n"
     },
     {
@@ -3951,6 +4189,8 @@
         "id": 542,
         "raw": "[charslot(slot = \"m\", name = \"avg_4087_ines_1#3$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_4087_ines_1#3$1.png",
         "focus": "m"
     },
     {
@@ -3964,6 +4204,8 @@
         "id": 544,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#8$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#8$1.png",
         "focus": "m"
     },
     {
@@ -3984,6 +4226,8 @@
         "id": 547,
         "raw": "[charslot(slot = \"m\", name = \"avg_4087_ines_1#3$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_4087_ines_1#3$1.png",
         "focus": "m"
     },
     {
@@ -3997,6 +4241,8 @@
         "id": 549,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#8$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#8$1.png",
         "focus": "m"
     },
     {
@@ -4010,6 +4256,8 @@
         "id": 551,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#5$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#5$1.png",
         "focus": "m"
     },
     {
@@ -4028,6 +4276,8 @@
         "id": 554,
         "raw": "[charslot(slot = \"m\", name = \"avg_4087_ines_1#9$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_4087_ines_1#9$1.png",
         "focus": "m"
     },
     {
@@ -4047,7 +4297,12 @@
         "id": 557,
         "raw": "[Effect(name=\"$e_bladeline_01_large\",x = -1, y = 8.3,rox =-98.5, roy =20, roz =121, layer = 1)]",
         "type": "effect",
-        "name": "$e_bladeline_01_large"
+        "name": "$e_bladeline_01_large",
+        "x": "-1,",
+        "y": "8.3,rox",
+        "roy": "20,",
+        "roz": "121,",
+        "layer": 1
     },
     {
         "id": 558,
@@ -4216,6 +4471,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"巨大な力に引き倒されて、私は地面に倒れ込んだ。神経束が私をこの場から引き剥がそうとして、狂ったように襲い掛かってくる。巨獣はゆっくりと身体を揺らしていた。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "巨大な力に引き倒されて、私は地面に倒れ込んだ。神経束が私をこの場から引き剥がそうとして、狂ったように襲い掛かってくる。巨獣はゆっくりと身体を揺らしていた。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -4227,13 +4483,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nここにはたくさんの船室が設置されている。\",block = true)]",
         "type": "sticker",
-        "text": "\\nここにはたくさんの船室が設置されている。"
+        "multi": "true,",
+        "text": "\\nここにはたくさんの船室が設置されている。",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nそしてこいつは、常に空間を漂っている。\",block = true)]",
         "type": "sticker",
-        "text": "\\nそしてこいつは、常に空間を漂っている。"
+        "multi": "true,",
+        "text": "\\nそしてこいつは、常に空間を漂っている。",
+        "block": true
     },
     {
         "id": "st1",
@@ -4244,6 +4504,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"もしこいつが泳ぎ回っている時に、船室内にいなければどうなってしまうの？\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "もしこいつが泳ぎ回っている時に、船室内にいなければどうなってしまうの？",
         "x": "300,y=270,",
         "alignment": "left",
@@ -4255,13 +4516,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n試してみる気も起こらないわ。\",block = true)]",
         "type": "sticker",
-        "text": "\\n試してみる気も起こらないわ。"
+        "multi": "true,",
+        "text": "\\n試してみる気も起こらないわ。",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n私はヘドリーとは違って、歴史の中に埋められることに興味なんてないもの。\",block = true)]",
         "type": "sticker",
-        "text": "\\n私はヘドリーとは違って、歴史の中に埋められることに興味なんてないもの。"
+        "multi": "true,",
+        "text": "\\n私はヘドリーとは違って、歴史の中に埋められることに興味なんてないもの。",
+        "block": true
     },
     {
         "id": "st1",
@@ -4272,6 +4537,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"影がまるで刃のように、骨でできた大広間全体を巻き込んでいく。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "影がまるで刃のように、骨でできた大広間全体を巻き込んでいく。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -4304,6 +4570,8 @@
         "id": 589,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#5$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#5$1.png",
         "focus": "m"
     },
     {
@@ -4371,7 +4639,8 @@
         "id": 597,
         "raw": "[Effect(name=\"$e_spark_02_large\",layer = 2)]",
         "type": "effect",
-        "name": "$e_spark_02_large"
+        "name": "$e_spark_02_large",
+        "layer": 2
     },
     {
         "id": 598,
@@ -4401,6 +4670,8 @@
         "id": 601,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#5$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#5$1.png",
         "focus": "m"
     },
     {
@@ -4453,6 +4724,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"風化した骨の粉末が再び舞い上がり、視界を埋め尽くした。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "風化した骨の粉末が再び舞い上がり、視界を埋め尽くした。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -4480,6 +4752,8 @@
         "id": 611,
         "raw": "[charslot(slot = \"m\", name = \"avg_4087_ines_1#9$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_4087_ines_1#9$1.png",
         "focus": "m"
     },
     {
@@ -4510,6 +4784,8 @@
         "id": 616,
         "raw": "[charslot(slot = \"m\", name = \"avg_4087_ines_1#9$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_4087_ines_1#9$1.png",
         "focus": "m"
     },
     {
@@ -4757,6 +5033,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"ヘドリーは確かに、私の良きパートナーだわ。そのことは私自身でさえ認めざるを得ない場合が多い。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "ヘドリーは確かに、私の良きパートナーだわ。そのことは私自身でさえ認めざるを得ない場合が多い。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -4768,13 +5045,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n互いに裏切り合わなかったことを、正直幸運に思っているわ。彼のようなサルカズをもう一度見つけるのは難しいでしょうから。\",block = true)]",
         "type": "sticker",
-        "text": "\\n互いに裏切り合わなかったことを、正直幸運に思っているわ。彼のようなサルカズをもう一度見つけるのは難しいでしょうから。"
+        "multi": "true,",
+        "text": "\\n互いに裏切り合わなかったことを、正直幸運に思っているわ。彼のようなサルカズをもう一度見つけるのは難しいでしょうから。",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n今までも、そしてこれからも。\",block = true)]",
         "type": "sticker",
-        "text": "\\n今までも、そしてこれからも。"
+        "multi": "true,",
+        "text": "\\n今までも、そしてこれからも。",
+        "block": true
     },
     {
         "id": "st1",
@@ -4785,6 +5066,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"微かな明かりと灰とが共に立ち昇り、ねじれ合う。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "微かな明かりと灰とが共に立ち昇り、ねじれ合う。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -4796,13 +5078,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n余燼の中から、ヘドリーの姿が現れた。風に舞う火花が、彼のマントと、私の髪の先を焦がした。\",block = true)]",
         "type": "sticker",
-        "text": "\\n余燼の中から、ヘドリーの姿が現れた。風に舞う火花が、彼のマントと、私の髪の先を焦がした。"
+        "multi": "true,",
+        "text": "\\n余燼の中から、ヘドリーの姿が現れた。風に舞う火花が、彼のマントと、私の髪の先を焦がした。",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n……本当にごくたまにだけ、彼のはた迷惑なアーツを許してやりたい気持ちになることもあるわ。\",block = true)]",
         "type": "sticker",
-        "text": "\\n……本当にごくたまにだけ、彼のはた迷惑なアーツを許してやりたい気持ちになることもあるわ。"
+        "multi": "true,",
+        "text": "\\n……本当にごくたまにだけ、彼のはた迷惑なアーツを許してやりたい気持ちになることもあるわ。",
+        "block": true
     },
     {
         "id": "st1",
@@ -4888,6 +5174,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"乱気流が加速していく。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "乱気流が加速していく。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -4899,7 +5186,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n私は彼の手を掴んだ。\",block = true)]",
         "type": "sticker",
-        "text": "\\n私は彼の手を掴んだ。"
+        "multi": "true,",
+        "text": "\\n私は彼の手を掴んだ。",
+        "block": true
     },
     {
         "id": "st1",
@@ -4996,6 +5285,8 @@
         "id": 676,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#2$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#2$1.png",
         "focus": "m"
     },
     {
@@ -5009,6 +5300,8 @@
         "id": 678,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#8$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#8$1.png",
         "focus": "m"
     },
     {
@@ -5036,6 +5329,8 @@
         "id": 682,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#10$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#10$1.png",
         "focus": "m"
     },
     {
@@ -5059,12 +5354,16 @@
         "id": 686,
         "raw": "[charslot(slot = \"l\", name = \"avg_4088_hodrer_1#9$1\",focus=\"r\")]",
         "type": "charslot",
+        "slot": "l",
+        "name": "avg_4088_hodrer_1#9$1.png",
         "focus": "r"
     },
     {
         "id": 687,
         "raw": "[charslot(slot = \"r\", name = \"avg_4087_ines_1#9$1\",focus=\"r\")]",
         "type": "charslot",
+        "slot": "r",
+        "name": "avg_4087_ines_1#9$1.png",
         "focus": "r"
     },
     {
@@ -5078,6 +5377,8 @@
         "id": 689,
         "raw": "[charslot(slot = \"r\", name = \"avg_4087_ines_1#11$1\",focus=\"r\")]",
         "type": "charslot",
+        "slot": "r",
+        "name": "avg_4087_ines_1#11$1.png",
         "focus": "r"
     },
     {
@@ -5098,6 +5399,8 @@
         "id": 692,
         "raw": "[charslot(slot = \"l\", name = \"avg_4088_hodrer_1#9$1\",focus=\"l\")]",
         "type": "charslot",
+        "slot": "l",
+        "name": "avg_4088_hodrer_1#9$1.png",
         "focus": "l"
     },
     {
@@ -5234,6 +5537,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"湧き起こる影が道を指し示し、灼熱の余燼が私たちを包み込んで押し出す。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "湧き起こる影が道を指し示し、灼熱の余燼が私たちを包み込んで押し出す。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -5551,6 +5855,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"幻が次々と目の前をよぎっていく。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "幻が次々と目の前をよぎっていく。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -5562,7 +5867,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n落下のスピードが十分に高まるなら、歴史は確かに嘘くさくて脆いもののように見えることに、ふと気が付いたわ。\",block = true)]",
         "type": "sticker",
-        "text": "\\n落下のスピードが十分に高まるなら、歴史は確かに嘘くさくて脆いもののように見えることに、ふと気が付いたわ。"
+        "multi": "true,",
+        "text": "\\n落下のスピードが十分に高まるなら、歴史は確かに嘘くさくて脆いもののように見えることに、ふと気が付いたわ。",
+        "block": true
     },
     {
         "id": "st1",
@@ -5573,6 +5880,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"目の前に見覚えのある原野が広がっている。あれは戦火が止んだばかりの、カズデルの戦場ね。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "目の前に見覚えのある原野が広がっている。あれは戦火が止んだばかりの、カズデルの戦場ね。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -5584,7 +5892,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nその時ふいに昔を思い出した。ヘドリーはずっと、同族が殺し合う戦争から遠ざかろうと願っていた。私が辛うじて横を見ると、彼は脇目も振らず着地点を捉え続けていた。\",block = true)]",
         "type": "sticker",
-        "text": "\\nその時ふいに昔を思い出した。ヘドリーはずっと、同族が殺し合う戦争から遠ざかろうと願っていた。私が辛うじて横を見ると、彼は脇目も振らず着地点を捉え続けていた。"
+        "multi": "true,",
+        "text": "\\nその時ふいに昔を思い出した。ヘドリーはずっと、同族が殺し合う戦争から遠ざかろうと願っていた。私が辛うじて横を見ると、彼は脇目も振らず着地点を捉え続けていた。",
+        "block": true
     },
     {
         "id": "st1",
@@ -5688,6 +5998,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"戦争から逃げる、ね。ハッ。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "戦争から逃げる、ね。ハッ。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -5704,6 +6015,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"殿下が暗殺された時、私たちはバベルにいなかった。本来ならそのままカズデルを離れることもできたはずなのに、どうして踵を返してWの元へ戻ったの？\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "殿下が暗殺された時、私たちはバベルにいなかった。本来ならそのままカズデルを離れることもできたはずなのに、どうして踵を返してWの元へ戻ったの？",
         "x": "300,y=270,",
         "alignment": "left",
@@ -5715,13 +6027,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nなぜレユニオンに加わったの？　そしてなぜ、今日に至るまでロンディニウムに潜伏しているの？\",block = true)]",
         "type": "sticker",
-        "text": "\\nなぜレユニオンに加わったの？　そしてなぜ、今日に至るまでロンディニウムに潜伏しているの？"
+        "multi": "true,",
+        "text": "\\nなぜレユニオンに加わったの？　そしてなぜ、今日に至るまでロンディニウムに潜伏しているの？",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nヘドリーは一体なんのために戦っているの？\",block = true)]",
         "type": "sticker",
-        "text": "\\nヘドリーは一体なんのために戦っているの？"
+        "multi": "true,",
+        "text": "\\nヘドリーは一体なんのために戦っているの？",
+        "block": true
     },
     {
         "id": "st1",
@@ -5732,6 +6048,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"私は……なんのために戦っているのかしら？\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "私は……なんのために戦っているのかしら？",
         "x": "300,y=270,",
         "alignment": "left",
@@ -5863,6 +6180,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"私たちはその大地を突き破った。幻は消え去り、元の景色が姿を現した。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "私たちはその大地を突き破った。幻は消え去り、元の景色が姿を現した。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -5874,13 +6192,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nヘドリーは手を返して私の腕を掴み、着地に向けて備えを促してきた。\",block = true)]",
         "type": "sticker",
-        "text": "\\nヘドリーは手を返して私の腕を掴み、着地に向けて備えを促してきた。"
+        "multi": "true,",
+        "text": "\\nヘドリーは手を返して私の腕を掴み、着地に向けて備えを促してきた。",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nアーツが私たち二人を包み込む。視界が明瞭になり、影が地面から立ち昇る。\",block = true)]",
         "type": "sticker",
-        "text": "\\nアーツが私たち二人を包み込む。視界が明瞭になり、影が地面から立ち昇る。"
+        "multi": "true,",
+        "text": "\\nアーツが私たち二人を包み込む。視界が明瞭になり、影が地面から立ち昇る。",
+        "block": true
     },
     {
         "id": "st1",
@@ -5891,6 +6213,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"ひょっとしたら私たちはもう、とうに逃げることなどやめているのかもしれないわ。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "ひょっとしたら私たちはもう、とうに逃げることなどやめているのかもしれないわ。",
         "x": "300,y=270,",
         "alignment": "left",

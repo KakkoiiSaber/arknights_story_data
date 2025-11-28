@@ -82,10 +82,13 @@
         "type": "dialog_marker"
     },
     {
-        "id": 12,
+        "id": "at1",
         "raw": "[animtext(id = \"at1\", name = \"group_location_stamp\", style=\"avg_both\", pos = \"-400,-200\", block = false)]<p=1>ロンディニウム廃工場</><p=2>1098年12月8日 p.m. 4:43 </>",
         "type": "anim_text",
+        "name": "group_location_stamp",
         "style": "avg_both",
+        "pos": "-400,-200",
+        "block": false,
         "content": "<p=1>ロンディニウム廃工場</><p=2>1098年12月8日 p.m. 4:43 </>"
     },
     {
@@ -179,12 +182,16 @@
         "id": 26,
         "raw": "[charslot(slot = \"l\", name = \"avg_npc_399_1#1$1\", duration=0.5)]",
         "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_399_1#1$1.png",
         "duration": 0.5
     },
     {
         "id": 27,
         "raw": "[charslot(slot = \"r\", name = \"avg_npc_399_1#1$1\", duration=0.5)]",
         "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_399_1#1$1.png",
         "duration": 0.5
     },
     {
@@ -729,6 +736,7 @@
         "id": 106,
         "raw": "[charslot(slot = \"m\", action=\"shake\",random=true, power=5, times=20,duration=0.3)]",
         "type": "charslot",
+        "slot": "m",
         "action": "shake",
         "random": "true,",
         "power": "5,",
@@ -1779,6 +1787,7 @@
         "id": 255,
         "raw": "[charslot(slot = \"l\", name=\"avg_npc_1342_1#1$1\",posfrom=\"50,0\",posto=\"0,0\",duration=2)]",
         "type": "charslot",
+        "slot": "l",
         "name": "avg_npc_1342_1#1$1.png",
         "posfrom": "50,0",
         "posto": "0,0",
@@ -1805,6 +1814,7 @@
         "id": 259,
         "raw": "[charslot(slot = \"r\", name=\"avg_npc_397_1#1$1\",posfrom=\"-50,-5\",posto=\"0,-5\",duration=2)]",
         "type": "charslot",
+        "slot": "r",
         "name": "avg_npc_397_1#1$1.png",
         "posfrom": "-50,-5",
         "posto": "0,-5",
@@ -1997,6 +2007,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>シネセルド大広間はかつて王室の所有物であり、宴の場として貴族たちに貸し出されていた。新たな議会ホールをどこに選定するかで皆が頭を悩ませていた時、ロンディニウム人に残された選択肢はそれほど多くないことにヴィーナは気づいた。</i>\", x=300,y=240,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>シネセルド大広間はかつて王室の所有物であり、宴の場として貴族たちに貸し出されていた。新たな議会ホールをどこに選定するかで皆が頭を悩ませていた時、ロンディニウム人に残された選択肢はそれほど多くないことにヴィーナは気づいた。</i>",
         "x": "300,y=240,",
         "alignment": "left",
@@ -2008,7 +2019,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>先の混乱は、この都市のあまりに多くのものを破壊した。</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>先の混乱は、この都市のあまりに多くのものを破壊した。</i>"
+        "multi": "true,",
+        "text": "\\n<i>先の混乱は、この都市のあまりに多くのものを破壊した。</i>",
+        "block": true
     },
     {
         "id": "st1",
@@ -2019,6 +2032,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>ポスターや映画でこの部屋を何度も見た。これまでこの場所は、吾輩たち広い地域を束ねるギャングの頭が兄弟全員を連れてきても、一緒に座ってそれぞれのシマのことについて話せるほど広いと思っていた。</i>\", x=300,y=240,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>ポスターや映画でこの部屋を何度も見た。これまでこの場所は、吾輩たち広い地域を束ねるギャングの頭が兄弟全員を連れてきても、一緒に座ってそれぞれのシマのことについて話せるほど広いと思っていた。</i>",
         "x": "300,y=240,",
         "alignment": "left",
@@ -2030,13 +2044,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>けれど今、ここは息が詰まりそうなほど窮屈で吾輩は失望している。</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>けれど今、ここは息が詰まりそうなほど窮屈で吾輩は失望している。</i>"
+        "multi": "true,",
+        "text": "\\n<i>けれど今、ここは息が詰まりそうなほど窮屈で吾輩は失望している。</i>",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>ヴィーナが認めたわけではないが、彼女は絶対に吾輩と同じ考えであると――</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>ヴィーナが認めたわけではないが、彼女は絶対に吾輩と同じ考えであると――</i>"
+        "multi": "true,",
+        "text": "\\n<i>ヴィーナが認めたわけではないが、彼女は絶対に吾輩と同じ考えであると――</i>",
+        "block": true
     },
     {
         "id": "st1",
@@ -2567,6 +2585,7 @@
         "id": 365,
         "raw": "[charslot(slot = \"m\", action=\"shake\",random=true, power=5, times=30,duration=0.7)]",
         "type": "charslot",
+        "slot": "m",
         "action": "shake",
         "random": "true,",
         "power": "5,",
@@ -3305,6 +3324,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>正直な話、そんな問題なんて吾輩は考えたこともなかった。</i>\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>正直な話、そんな問題なんて吾輩は考えたこともなかった。</i>",
         "x": "300,y=270,",
         "alignment": "left",
@@ -3316,13 +3336,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>「ロングショット」と名乗るサルカズの声は別に重々しいものではなかった。だけど元々ざわついていた議会ホールは一瞬にして静まり返った。</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>「ロングショット」と名乗るサルカズの声は別に重々しいものではなかった。だけど元々ざわついていた議会ホールは一瞬にして静まり返った。</i>"
+        "multi": "true,",
+        "text": "\\n<i>「ロングショット」と名乗るサルカズの声は別に重々しいものではなかった。だけど元々ざわついていた議会ホールは一瞬にして静まり返った。</i>",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>吾輩は周囲の人、特に貴族たちの表情をずっと観察していた。</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>吾輩は周囲の人、特に貴族たちの表情をずっと観察していた。</i>"
+        "multi": "true,",
+        "text": "\\n<i>吾輩は周囲の人、特に貴族たちの表情をずっと観察していた。</i>",
+        "block": true
     },
     {
         "id": "st1",
@@ -3340,6 +3364,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>答えを思い浮かべている人は口を開くのに慎重になっていた。そして特に考えがなく、びくびくしている人は誰が初めに発言するかを盗み見て、それに同調するのにだけ集中してた。</i>\", x=300,y=240,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>答えを思い浮かべている人は口を開くのに慎重になっていた。そして特に考えがなく、びくびくしている人は誰が初めに発言するかを盗み見て、それに同調するのにだけ集中してた。</i>",
         "x": "300,y=240,",
         "alignment": "left",
@@ -3351,13 +3376,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>でも吾輩はそのどちらでもなく、考えるのがめんどくさかった。なぜならヴィーナが吾輩の代わりに考えてくれるからだ。</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>でも吾輩はそのどちらでもなく、考えるのがめんどくさかった。なぜならヴィーナが吾輩の代わりに考えてくれるからだ。</i>"
+        "multi": "true,",
+        "text": "\\n<i>でも吾輩はそのどちらでもなく、考えるのがめんどくさかった。なぜならヴィーナが吾輩の代わりに考えてくれるからだ。</i>",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>だからその日、吾輩はただヴィーナの答えを待つだけでよかった。</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>だからその日、吾輩はただヴィーナの答えを待つだけでよかった。</i>"
+        "multi": "true,",
+        "text": "\\n<i>だからその日、吾輩はただヴィーナの答えを待つだけでよかった。</i>",
+        "block": true
     },
     {
         "id": "st1",
@@ -3375,6 +3404,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>かつて城壁の上で、都市を出て行くサルカズの部隊を眺めながらヴィーナが答えをくれるのを待っていたように。</i>\", x=300,y=310,  alignment=\"left\", size=24, delay=0.04, width=710,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>かつて城壁の上で、都市を出て行くサルカズの部隊を眺めながらヴィーナが答えをくれるのを待っていたように。</i>",
         "x": "300,y=310,",
         "alignment": "left",
@@ -3524,6 +3554,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>あの光景は、これから何年経とうが忘れないだろう。</i>\", x=300,y=240,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>あの光景は、これから何年経とうが忘れないだろう。</i>",
         "x": "300,y=240,",
         "alignment": "left",
@@ -3535,7 +3566,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>あの日、吾輩もヴィーナに一つ質問をした。ベアードを殺したサルカズたちが、どうしてこんな風に堂々と都市から去ることができるのか、と。</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>あの日、吾輩もヴィーナに一つ質問をした。ベアードを殺したサルカズたちが、どうしてこんな風に堂々と都市から去ることができるのか、と。</i>"
+        "multi": "true,",
+        "text": "\\n<i>あの日、吾輩もヴィーナに一つ質問をした。ベアードを殺したサルカズたちが、どうしてこんな風に堂々と都市から去ることができるのか、と。</i>",
+        "block": true
     },
     {
         "id": "st1",
@@ -3608,6 +3641,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>でもヴィーナは何も言わなかった。</i>\", x=300,y=240,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>でもヴィーナは何も言わなかった。</i>",
         "x": "300,y=240,",
         "alignment": "left",
@@ -3643,10 +3677,13 @@
         "type": "dialog_marker"
     },
     {
-        "id": 509,
+        "id": "at1",
         "raw": "[animtext(id = \"at1\", name = \"group_location_stamp\", style=\"avg_both\", pos = \"-400,-200\", block = false)]<p=1>ロンディニウム城壁の上</><p=2>1098年10月8日 p.m. 8:48 </>",
         "type": "anim_text",
+        "name": "group_location_stamp",
         "style": "avg_both",
+        "pos": "-400,-200",
+        "block": false,
         "content": "<p=1>ロンディニウム城壁の上</><p=2>1098年10月8日 p.m. 8:48 </>"
     },
     {

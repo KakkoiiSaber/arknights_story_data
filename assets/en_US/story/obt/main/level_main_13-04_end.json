@@ -69,13 +69,25 @@
     {
         "id": 10,
         "raw": "[interlude(maskid = \"ui_cutin_mask_vertical\", style = 1, size = \"600, 720\",offset = \"-120,0\", channel = 2)]",
-        "type": "interlude"
+        "type": "interlude",
+        "maskid": "ui_cutin_mask_vertical",
+        "style": "1,",
+        "size": "600, 720",
+        "offset": "-120,0",
+        "channel": 2
     },
     {
         "id": 11,
         "raw": "[interlude(channel = 2, type = 2, name = \"34_g11_hispdwarshipdeck\", afrom = 0, ato = 1, aduration = 3, sfrom = \"1.9,1.9\", sto = \"1.9,1.9\", sduration = 0,block=true)]",
-        "type": "interlude",
-        "block": true
+        "type": "2,",
+        "channel": "2,",
+        "name": "34_g11_hispdwarshipdeck",
+        "afrom": "0,",
+        "ato": "1,",
+        "aduration": "3,",
+        "sfrom": "1.9,1.9",
+        "sto": "1.9,1.9",
+        "sduration": "0,block=true"
     },
     {
         "id": 12,
@@ -86,13 +98,22 @@
     {
         "id": 13,
         "raw": "[interlude(channel = 2, type = 1, slot = \"m\", offset = \"-120,50\", name = \"cutin_char_8\", aduration = 2,block=false)]",
-        "type": "interlude",
-        "block": false
+        "type": "1,",
+        "channel": "2,",
+        "slot": "m",
+        "offset": "-120,50",
+        "name": "cutin_char_8",
+        "aduration": "2,block=false"
     },
     {
         "id": 14,
         "raw": "[interlude(channel = 2, type = 1, slot = \"m\", pfrom = \"-120,50\", pto = \"-170,50\", duration = 40)]",
-        "type": "interlude"
+        "type": "1,",
+        "channel": "2,",
+        "slot": "m",
+        "pfrom": "-120,50",
+        "pto": "-170,50",
+        "duration": 40
     },
     {
         "id": 15,
@@ -115,6 +136,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"Do you know what the cruelest thing in the world is?\", x=300,y=270, alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "Do you know what the cruelest thing in the world is?",
         "x": "300,y=270,",
         "alignment": "left",
@@ -131,6 +153,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"Neither total darkness, nor endless torment, nor a dark alley filled with murderers.\", x=300,y=270, alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "Neither total darkness, nor endless torment, nor a dark alley filled with murderers.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -142,19 +165,25 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nIt is when a gentle hand pulls you out of a nightmare, just as you thought it was over, and all the pain would come to an end.\",block = true)]",
         "type": "sticker",
-        "text": "\\nIt is when a gentle hand pulls you out of a nightmare, just as you thought it was over, and all the pain would come to an end."
+        "multi": "true,",
+        "text": "\\nIt is when a gentle hand pulls you out of a nightmare, just as you thought it was over, and all the pain would come to an end.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nOnly for you to realize that salvation was just a cruel joke, a brief respite before falling further into the darkness.\",block = true)]",
         "type": "sticker",
-        "text": "\\nOnly for you to realize that salvation was just a cruel joke, a brief respite before falling further into the darkness."
+        "multi": "true,",
+        "text": "\\nOnly for you to realize that salvation was just a cruel joke, a brief respite before falling further into the darkness.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nEven greater suffering is gazing upon you, within a stone's throw.\",block = true)]",
         "type": "sticker",
-        "text": "\\nEven greater suffering is gazing upon you, within a stone's throw."
+        "multi": "true,",
+        "text": "\\nEven greater suffering is gazing upon you, within a stone's throw.",
+        "block": true
     },
     {
         "id": "st1",
@@ -165,6 +194,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"And you are powerless before such mockery.\", x=300,y=270, alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "And you are powerless before such mockery.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -198,7 +228,8 @@
     {
         "id": 28,
         "raw": "[interlude(channel = 2,clear = true)]",
-        "type": "interlude"
+        "type": "interlude",
+        "channel": "2,clear"
     },
     {
         "id": 29,
@@ -292,6 +323,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"She keeps looking at the place where her mother had fallen, even though any trace of blood is long gone.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "She keeps looking at the place where her mother had fallen, even though any trace of blood is long gone.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -308,6 +340,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"It may not be a good idea to invite her now...\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "It may not be a good idea to invite her now...",
         "x": "300,y=270,",
         "alignment": "left",
@@ -319,7 +352,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nI'm already starting to regret it.\",block = true)]",
         "type": "sticker",
-        "text": "\\nI'm already starting to regret it."
+        "multi": "true,",
+        "text": "\\nI'm already starting to regret it.",
+        "block": true
     },
     {
         "id": "st1",
@@ -554,6 +589,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"I gaze at the late-arriving battleships, their standards flying high.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "I gaze at the late-arriving battleships, their standards flying high.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -565,7 +601,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nFor some reason, I am reminded of Allerdale.\",block = true)]",
         "type": "sticker",
-        "text": "\\nFor some reason, I am reminded of Allerdale."
+        "multi": "true,",
+        "text": "\\nFor some reason, I am reminded of Allerdale.",
+        "block": true
     },
     {
         "id": "st1",
@@ -959,6 +997,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"Heir.\", x=300,y=270, alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "Heir.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1309,6 +1348,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"Dust rises from the escort fleet that has only just rendezvoused with us.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "Dust rises from the escort fleet that has only just rendezvoused with us.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1320,7 +1360,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nThey're sailing away.\",block = true)]",
         "type": "sticker",
-        "text": "\\nThey're sailing away."
+        "multi": "true,",
+        "text": "\\nThey're sailing away.",
+        "block": true
     },
     {
         "id": "st1",
@@ -1459,6 +1501,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"She stands on the deck, where her mother left this world, holding her mother's sword in her arms, as she did before I went below.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "She stands on the deck, where her mother left this world, holding her mother's sword in her arms, as she did before I went below.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1470,7 +1513,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nThe wind sweeps at her short hair. Her solitude makes her look even smaller than she is.\",block = true)]",
         "type": "sticker",
-        "text": "\\nThe wind sweeps at her short hair. Her solitude makes her look even smaller than she is."
+        "multi": "true,",
+        "text": "\\nThe wind sweeps at her short hair. Her solitude makes her look even smaller than she is.",
+        "block": true
     },
     {
         "id": "st1",
@@ -1575,6 +1620,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"I grab her shoulder. Only then does she come out of her stupor.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "I grab her shoulder. Only then does she come out of her stupor.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1586,13 +1632,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nI see none of the anger, fear, or sorrow that I expected to see. She's wearing barely any emotion at all.\",block = true)]",
         "type": "sticker",
-        "text": "\\nI see none of the anger, fear, or sorrow that I expected to see. She's wearing barely any emotion at all."
+        "multi": "true,",
+        "text": "\\nI see none of the anger, fear, or sorrow that I expected to see. She's wearing barely any emotion at all.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nOnly calm, flat disappointment, and a quiet so deep it is painful to see.\",block = true)]",
         "type": "sticker",
-        "text": "\\nOnly calm, flat disappointment, and a quiet so deep it is painful to see."
+        "multi": "true,",
+        "text": "\\nOnly calm, flat disappointment, and a quiet so deep it is painful to see.",
+        "block": true
     },
     {
         "id": "st1",
@@ -1650,6 +1700,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"Her voice trembles a little.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "Her voice trembles a little.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1661,7 +1712,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nBut it's still too calm.\",block = true)]",
         "type": "sticker",
-        "text": "\\nBut it's still too calm."
+        "multi": "true,",
+        "text": "\\nBut it's still too calm.",
+        "block": true
     },
     {
         "id": "st1",
@@ -1834,6 +1887,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"Pah.\", x=300,y=270, alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "Pah.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1850,6 +1904,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"I've never gazed upon the tail of a battleship so intently.\", x=300,y=270, alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "I've never gazed upon the tail of a battleship so intently.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1861,7 +1916,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nHow ridiculous.\",block = true)]",
         "type": "sticker",
-        "text": "\\nHow ridiculous."
+        "multi": "true,",
+        "text": "\\nHow ridiculous.",
+        "block": true
     },
     {
         "id": "st1",
@@ -1976,6 +2033,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"The marks that the rain of blood left on our clothes is a lingering reminder of that cruel attack.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "The marks that the rain of blood left on our clothes is a lingering reminder of that cruel attack.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1992,6 +2050,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"Several hours have passed since we left the Duke of Windermere's flagship.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "Several hours have passed since we left the Duke of Windermere's flagship.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2003,13 +2062,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nBad news keeps coming. We did a head count as we left the ship. The Doctor, Amiya and Ascalon were not there.\",block = true)]",
         "type": "sticker",
-        "text": "\\nBad news keeps coming. We did a head count as we left the ship. The Doctor, Amiya and Ascalon were not there."
+        "multi": "true,",
+        "text": "\\nBad news keeps coming. We did a head count as we left the ship. The Doctor, Amiya and Ascalon were not there.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nWe only had time to do a brief search, which came up empty.\",block = true)]",
         "type": "sticker",
-        "text": "\\nWe only had time to do a brief search, which came up empty."
+        "multi": "true,",
+        "text": "\\nWe only had time to do a brief search, which came up empty.",
+        "block": true
     },
     {
         "id": "st1",
@@ -2020,6 +2083,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"All I can do is keep faith in their strength. But for some reason, I think back to Amiya's lean shoulders.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "All I can do is keep faith in their strength. But for some reason, I think back to Amiya's lean shoulders.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2031,7 +2095,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nSorrow and helplessness are luxuries that this group can no longer afford.\",block = true)]",
         "type": "sticker",
-        "text": "\\nSorrow and helplessness are luxuries that this group can no longer afford."
+        "multi": "true,",
+        "text": "\\nSorrow and helplessness are luxuries that this group can no longer afford.",
+        "block": true
     },
     {
         "id": "st1",
@@ -2237,6 +2303,7 @@
         "id": 303,
         "raw": "[charslot(slot = \"m\", posfrom=\"0,0\", posto=\"-200,0\", duration=0.3)]",
         "type": "charslot",
+        "slot": "m",
         "posfrom": "0,0",
         "posto": "-200,0",
         "duration": 0.3
@@ -2394,6 +2461,7 @@
         "id": 324,
         "raw": "[charslot(slot = \"m\", posfrom=\"-200,0\", posto=\"-170,0\", duration=0.7,isblock=true)]",
         "type": "charslot",
+        "slot": "m",
         "posfrom": "-200,0",
         "posto": "-170,0",
         "duration": "0.7,isblock=true"
@@ -2441,6 +2509,7 @@
         "id": 330,
         "raw": "[charslot(slot = \"m\", posfrom=\"-170,0\", posto=\"-200,0\", duration=0.5)]",
         "type": "charslot",
+        "slot": "m",
         "posfrom": "-170,0",
         "posto": "-200,0",
         "duration": 0.5
@@ -2508,6 +2577,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"Infection, a curse they fear more than any other.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "Infection, a curse they fear more than any other.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2519,7 +2589,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nCatch up to the ship that abandoned them. Hide the growing black crystals under the bandage.\",block = true)]",
         "type": "sticker",
-        "text": "\\nCatch up to the ship that abandoned them. Hide the growing black crystals under the bandage."
+        "multi": "true,",
+        "text": "\\nCatch up to the ship that abandoned them. Hide the growing black crystals under the bandage.",
+        "block": true
     },
     {
         "id": "st1",
@@ -2530,6 +2602,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"Fool yourself.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "Fool yourself.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2801,6 +2874,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"He avoids my gaze.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "He avoids my gaze.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2927,6 +3001,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"I need not hear what they're saying. I saw what happened.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "I need not hear what they're saying. I saw what happened.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2943,6 +3018,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"Someone bled his last in the long, silent wall of people.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "Someone bled his last in the long, silent wall of people.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2954,13 +3030,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nHe left behind a long trail of blood, mixed in with the mud.\",block = true)]",
         "type": "sticker",
-        "text": "\\nHe left behind a long trail of blood, mixed in with the mud."
+        "multi": "true,",
+        "text": "\\nHe left behind a long trail of blood, mixed in with the mud.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nThe Lieutenant's silence hardly lasts two breaths.\",block = true)]",
         "type": "sticker",
-        "text": "\\nThe Lieutenant's silence hardly lasts two breaths."
+        "multi": "true,",
+        "text": "\\nThe Lieutenant's silence hardly lasts two breaths.",
+        "block": true
     },
     {
         "id": "st1",
@@ -3031,6 +3111,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"Idiot.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "Idiot.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -3085,6 +3166,7 @@
         "raw": "[Effect(name=\"$e_fist_hit_02\",layer = 1,x = -50,y=180)]",
         "type": "effect",
         "name": "$e_fist_hit_02",
+        "layer": "1,x",
         "y": 180
     },
     {
@@ -3152,6 +3234,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"My fist leaves its mark on his face.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "My fist leaves its mark on his face.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -3163,7 +3246,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nI heard a crisp sound. I think I dislocated his jaw.\",block = true)]",
         "type": "sticker",
-        "text": "\\nI heard a crisp sound. I think I dislocated his jaw."
+        "multi": "true,",
+        "text": "\\nI heard a crisp sound. I think I dislocated his jaw.",
+        "block": true
     },
     {
         "id": "st1",
@@ -3218,6 +3303,7 @@
         "id": 436,
         "raw": "[charslot(slot = \"m\", action=\"shake\",random=true, power=5, times=60,duration=0.3)]",
         "type": "charslot",
+        "slot": "m",
         "action": "shake",
         "random": "true,",
         "power": "5,",
@@ -3256,6 +3342,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"He quickly puts his jaw back in place. Must have dealt with this sort of thing a lot.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "He quickly puts his jaw back in place. Must have dealt with this sort of thing a lot.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -3424,6 +3511,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"The fist is a solution that can only be used once in a while.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "The fist is a solution that can only be used once in a while.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -3490,6 +3578,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"Dagda, Morgan, and Indra stand in front of the soldiers on edge.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "Dagda, Morgan, and Indra stand in front of the soldiers on edge.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -3501,13 +3590,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nThe civilians surround us silently.\",block = true)]",
         "type": "sticker",
-        "text": "\\nThe civilians surround us silently."
+        "multi": "true,",
+        "text": "\\nThe civilians surround us silently.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nIt reminds me of how we used to fight turf wars on the streets.\",block = true)]",
         "type": "sticker",
-        "text": "\\nIt reminds me of how we used to fight turf wars on the streets."
+        "multi": "true,",
+        "text": "\\nIt reminds me of how we used to fight turf wars on the streets.",
+        "block": true
     },
     {
         "id": "st1",
@@ -3629,14 +3722,15 @@
         "id": 492,
         "raw": "[Effect(name=\"$e_fist_01\",layer = 1)]",
         "type": "effect",
-        "name": "$e_fist_01"
+        "name": "$e_fist_01",
+        "layer": 1
     },
     {
         "id": 493,
         "raw": "[Effect(name=\"$e_fist_hit_01\",layer = 2,delay=0.1)]",
         "type": "effect",
         "name": "$e_fist_hit_01",
-        "delay": 0.1
+        "layer": "2,delay=0.1"
     },
     {
         "id": 494,
@@ -3699,14 +3793,15 @@
         "id": 500,
         "raw": "[Effect(name=\"$e_fist_02\",layer = 3)]",
         "type": "effect",
-        "name": "$e_fist_02"
+        "name": "$e_fist_02",
+        "layer": 3
     },
     {
         "id": 501,
         "raw": "[Effect(name=\"$e_fist_hit_02\",layer = 4,delay=0.1)]",
         "type": "effect",
         "name": "$e_fist_hit_02",
-        "delay": 0.1
+        "layer": "4,delay=0.1"
     },
     {
         "id": 502,
@@ -3996,6 +4091,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"Frightened soldiers, silent civilians, the Infected, the wounded.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "Frightened soldiers, silent civilians, the Infected, the wounded.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -4007,7 +4103,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nThe people standing around us.\",block = true)]",
         "type": "sticker",
-        "text": "\\nThe people standing around us."
+        "multi": "true,",
+        "text": "\\nThe people standing around us.",
+        "block": true
     },
     {
         "id": "st1",
@@ -4188,6 +4286,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"Delphine clutches the hilt of her sword.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "Delphine clutches the hilt of her sword.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -4204,6 +4303,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"It surprises me. Even more than it surprises Lieutenant Shearer. He's surprised, and angry.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "It surprises me. Even more than it surprises Lieutenant Shearer. He's surprised, and angry.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -4215,7 +4315,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nI'm suddenly reminded that he had provided medical aid to everyone on the ship, before Irnclad Galavae abandoned us.\",block = true)]",
         "type": "sticker",
-        "text": "\\nI'm suddenly reminded that he had provided medical aid to everyone on the ship, before Irnclad Galavae abandoned us."
+        "multi": "true,",
+        "text": "\\nI'm suddenly reminded that he had provided medical aid to everyone on the ship, before Irnclad Galavae abandoned us.",
+        "block": true
     },
     {
         "id": "st1",
@@ -4593,6 +4695,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"The Lieutenant's eyelid twitches. Delphine's words are certainly subversive.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "The Lieutenant's eyelid twitches. Delphine's words are certainly subversive.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -4725,6 +4828,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"The man gazes calmly at me. I clench my fist, preparing for a sucker punch.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "The man gazes calmly at me. I clench my fist, preparing for a sucker punch.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -4971,6 +5075,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"I look in the direction where the Lieutenant departed.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "I look in the direction where the Lieutenant departed.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -4982,7 +5087,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nOf course.\",block = true)]",
         "type": "sticker",
-        "text": "\\nOf course."
+        "multi": "true,",
+        "text": "\\nOf course.",
+        "block": true
     },
     {
         "id": "st1",
@@ -5724,6 +5831,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"I'm surprised. Perhaps it's a Caster trick...\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "I'm surprised. Perhaps it's a Caster trick...",
         "x": "300,y=270,",
         "alignment": "left",
@@ -5735,7 +5843,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nBut he is encouraging me to form my own Reunion.\",block = true)]",
         "type": "sticker",
-        "text": "\\nBut he is encouraging me to form my own Reunion."
+        "multi": "true,",
+        "text": "\\nBut he is encouraging me to form my own Reunion.",
+        "block": true
     },
     {
         "id": "st1",
@@ -6066,6 +6176,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"'Bzzzz—'\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "'Bzzzz—'",
         "x": "300,y=270,",
         "alignment": "left",
@@ -6082,6 +6193,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"'Need... support... Chetleigh...'\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "'Need... support... Chetleigh...'",
         "x": "300,y=270,",
         "alignment": "left",
@@ -6093,7 +6205,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n'Surrounded... Tempest Platoon...'\",block = true)]",
         "type": "sticker",
-        "text": "\\n'Surrounded... Tempest Platoon...'"
+        "multi": "true,",
+        "text": "\\n'Surrounded... Tempest Platoon...'",
+        "block": true
     },
     {
         "id": "st1",
@@ -6104,6 +6218,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"'Requesting aid!'\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "'Requesting aid!'",
         "x": "300,y=270,",
         "alignment": "left",

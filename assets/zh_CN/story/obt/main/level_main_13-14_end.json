@@ -84,21 +84,35 @@
     {
         "id": 12,
         "raw": "[interlude(maskid = \"ui_cutin_mask_horizon\", style = 1, size = \"1500, 420\",offset = \"20,0\", channel = 2)]",
-        "type": "interlude"
+        "type": "interlude",
+        "maskid": "ui_cutin_mask_horizon",
+        "style": "1,",
+        "size": "1500, 420",
+        "offset": "20,0",
+        "channel": 2
     },
     {
         "id": 13,
         "raw": "[interlude(channel = 2, type = 2, name = \"bg_lungmen_n\", afrom = 0, ato = 1, aduration = 3, sfrom = \"1.6,1.6\", sto = \"1.6,1.6\", sduration = 0,block=true)]",
-        "type": "interlude",
-        "block": true
+        "type": "2,",
+        "channel": "2,",
+        "name": "bg_lungmen_n",
+        "afrom": "0,",
+        "ato": "1,",
+        "aduration": "3,",
+        "sfrom": "1.6,1.6",
+        "sto": "1.6,1.6",
+        "sduration": "0,block=true"
     },
     {
         "id": 14,
         "raw": "[interlude(channel = 2, type = 2, name = \"bg_lungmen_n\", pfrom=\"0,0\",pto=\"-80,0\", duration =30,block=false)]",
-        "type": "interlude",
+        "type": "2,",
+        "channel": "2,",
+        "name": "bg_lungmen_n",
         "pfrom": "0,0",
         "pto": "-80,0",
-        "block": false
+        "duration": "30,block=false"
     },
     {
         "id": 15,
@@ -121,6 +135,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"我还在龙门近卫局的时候，有时会抽上一个下午的时间，在那座城市中穿行。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "我还在龙门近卫局的时候，有时会抽上一个下午的时间，在那座城市中穿行。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -132,13 +147,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n我深知我的职责要求我对抗什么。\",block = true)]",
         "type": "sticker",
-        "text": "\\n我深知我的职责要求我对抗什么。"
+        "multi": "true,",
+        "text": "\\n我深知我的职责要求我对抗什么。",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n我们以秩序作为自己的武器，约束混乱，惩戒纷争，打击犯罪，纠正错误。\",block = true)]",
         "type": "sticker",
-        "text": "\\n我们以秩序作为自己的武器，约束混乱，惩戒纷争，打击犯罪，纠正错误。"
+        "multi": "true,",
+        "text": "\\n我们以秩序作为自己的武器，约束混乱，惩戒纷争，打击犯罪，纠正错误。",
+        "block": true
     },
     {
         "id": "st1",
@@ -149,6 +168,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"在那时，我总是会想，人们......太容易腐坏了。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "在那时，我总是会想，人们......太容易腐坏了。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -160,7 +180,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n我们出生的时候总是纯洁无瑕，但随着年龄的增长，那些恶就如同霉变，侵蚀每一缕枝叶。\",block = true)]",
         "type": "sticker",
-        "text": "\\n我们出生的时候总是纯洁无瑕，但随着年龄的增长，那些恶就如同霉变，侵蚀每一缕枝叶。"
+        "multi": "true,",
+        "text": "\\n我们出生的时候总是纯洁无瑕，但随着年龄的增长，那些恶就如同霉变，侵蚀每一缕枝叶。",
+        "block": true
     },
     {
         "id": "st1",
@@ -170,13 +192,24 @@
     {
         "id": 24,
         "raw": "[interlude(channel = 2, type = 1, slot = \"m\", offset = \"-170,50\", name = \"cutin_char_15\",sfrom = \"1,1\", sto = \"1,1\",  aduration = 2,block=false)]",
-        "type": "interlude",
-        "block": false
+        "type": "1,",
+        "channel": "2,",
+        "slot": "m",
+        "offset": "-170,50",
+        "name": "cutin_char_15",
+        "sfrom": "1,1",
+        "sto": "1,1",
+        "aduration": "2,block=false"
     },
     {
         "id": 25,
         "raw": "[interlude(channel = 2, type = 1, slot = \"m\", pfrom = \"-170,50\", pto = \"-120,50\", duration = 40)]",
-        "type": "interlude"
+        "type": "1,",
+        "channel": "2,",
+        "slot": "m",
+        "pfrom": "-170,50",
+        "pto": "-120,50",
+        "duration": 40
     },
     {
         "id": 26,
@@ -188,6 +221,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"曾经我以为，如果我们足够强大，足够无私，这片大地上就不再会有罪恶。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "曾经我以为，如果我们足够强大，足够无私，这片大地上就不再会有罪恶。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -199,13 +233,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n直到我成为了感染者，直到我来到了龙门的贫民区。\",block = true)]",
         "type": "sticker",
-        "text": "\\n直到我成为了感染者，直到我来到了龙门的贫民区。"
+        "multi": "true,",
+        "text": "\\n直到我成为了感染者，直到我来到了龙门的贫民区。",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n我才真正地体会到，“公正”这个词，比人更加羸弱。\",block = true)]",
         "type": "sticker",
-        "text": "\\n我才真正地体会到，“公正”这个词，比人更加羸弱。"
+        "multi": "true,",
+        "text": "\\n我才真正地体会到，“公正”这个词，比人更加羸弱。",
+        "block": true
     },
     {
         "id": "st1",
@@ -216,6 +254,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"污秽的土壤长出了变异的植物，温室中的花草有资格指责它们的扭曲吗？有权力剪去它们的枝蔓吗？\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "污秽的土壤长出了变异的植物，温室中的花草有资格指责它们的扭曲吗？有权力剪去它们的枝蔓吗？",
         "x": "300,y=270,",
         "alignment": "left",
@@ -227,7 +266,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n未曾共享同一种土壤，就无从谈论同一种公正。\",block = true)]",
         "type": "sticker",
-        "text": "\\n未曾共享同一种土壤，就无从谈论同一种公正。"
+        "multi": "true,",
+        "text": "\\n未曾共享同一种土壤，就无从谈论同一种公正。",
+        "block": true
     },
     {
         "id": "st1",
@@ -259,7 +300,8 @@
     {
         "id": 37,
         "raw": "[interlude(channel = 2,clear = true)]",
-        "type": "interlude"
+        "type": "interlude",
+        "channel": "2,clear"
     },
     {
         "id": 38,
@@ -573,6 +615,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"尖叫，哭声，倒在泥地里又重新爬起来的人。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "尖叫，哭声，倒在泥地里又重新爬起来的人。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -584,7 +627,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n火光在他们的背后，烧得透红。\",block = true)]",
         "type": "sticker",
-        "text": "\\n火光在他们的背后，烧得透红。"
+        "multi": "true,",
+        "text": "\\n火光在他们的背后，烧得透红。",
+        "block": true
     },
     {
         "id": "st1",
@@ -816,6 +861,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"无休无止的相互指责。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "无休无止的相互指责。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -827,7 +873,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n永不停息的相互辱骂。\",block = true)]",
         "type": "sticker",
-        "text": "\\n永不停息的相互辱骂。"
+        "multi": "true,",
+        "text": "\\n永不停息的相互辱骂。",
+        "block": true
     },
     {
         "id": "st1",
@@ -1361,6 +1409,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"我已冲向燃烧着的酒厂。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "我已冲向燃烧着的酒厂。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1372,13 +1421,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n在龙门，我曾不止一次走入相似的火场。\",block = true)]",
         "type": "sticker",
-        "text": "\\n在龙门，我曾不止一次走入相似的火场。"
+        "multi": "true,",
+        "text": "\\n在龙门，我曾不止一次走入相似的火场。",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n以近卫局警员的身份，以贫民区住客的身份。\",block = true)]",
         "type": "sticker",
-        "text": "\\n以近卫局警员的身份，以贫民区住客的身份。"
+        "multi": "true,",
+        "text": "\\n以近卫局警员的身份，以贫民区住客的身份。",
+        "block": true
     },
     {
         "id": "st1",
@@ -1491,6 +1544,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"火灾，意味着失去，意味着破灭。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "火灾，意味着失去，意味着破灭。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1502,13 +1556,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n我总能看到在烧焦的残骸前哭泣的人们。\",block = true)]",
         "type": "sticker",
-        "text": "\\n我总能看到在烧焦的残骸前哭泣的人们。"
+        "multi": "true,",
+        "text": "\\n我总能看到在烧焦的残骸前哭泣的人们。",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n有时候是感染者，有时候，只是普通的住户。\",block = true)]",
         "type": "sticker",
-        "text": "\\n有时候是感染者，有时候，只是普通的住户。"
+        "multi": "true,",
+        "text": "\\n有时候是感染者，有时候，只是普通的住户。",
+        "block": true
     },
     {
         "id": "st1",
@@ -1519,6 +1577,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"这时候，就会有流言在围观的人群中蔓延。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "这时候，就会有流言在围观的人群中蔓延。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1530,19 +1589,25 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n烧死了几个感染者，烧死了几个普通人。这是感染者要报复欺辱他的街坊，这是邻居们受不了躲了满楼的病人。\",block = true)]",
         "type": "sticker",
-        "text": "\\n烧死了几个感染者，烧死了几个普通人。这是感染者要报复欺辱他的街坊，这是邻居们受不了躲了满楼的病人。"
+        "multi": "true,",
+        "text": "\\n烧死了几个感染者，烧死了几个普通人。这是感染者要报复欺辱他的街坊，这是邻居们受不了躲了满楼的病人。",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n可是，从没有人问起，为什么，上城区的火灾总是能在第一时间扑灭。\",block = true)]",
         "type": "sticker",
-        "text": "\\n可是，从没有人问起，为什么，上城区的火灾总是能在第一时间扑灭。"
+        "multi": "true,",
+        "text": "\\n可是，从没有人问起，为什么，上城区的火灾总是能在第一时间扑灭。",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n而毁去数栋楼的大火，弄不清楚死了多少人的大火，总是发生在贫民区。\",block = true)]",
         "type": "sticker",
-        "text": "\\n而毁去数栋楼的大火，弄不清楚死了多少人的大火，总是发生在贫民区。"
+        "multi": "true,",
+        "text": "\\n而毁去数栋楼的大火，弄不清楚死了多少人的大火，总是发生在贫民区。",
+        "block": true
     },
     {
         "id": "st1",
@@ -1642,6 +1707,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"我冲进了酒厂的大门，离出口不远的地方，能看到一场猛烈的崩塌。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "我冲进了酒厂的大门，离出口不远的地方，能看到一场猛烈的崩塌。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1653,13 +1719,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n有只伸在金属与瓦砾之外的手。\",block = true)]",
         "type": "sticker",
-        "text": "\\n有只伸在金属与瓦砾之外的手。"
+        "multi": "true,",
+        "text": "\\n有只伸在金属与瓦砾之外的手。",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n握着的，是Guard的录音机。\",block = true)]",
         "type": "sticker",
-        "text": "\\n握着的，是Guard的录音机。"
+        "multi": "true,",
+        "text": "\\n握着的，是Guard的录音机。",
+        "block": true
     },
     {
         "id": "st1",
@@ -1773,6 +1843,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"“或者说......我们所团结的人，我们希望与之并肩披荆斩棘的人——”\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "“或者说......我们所团结的人，我们希望与之并肩披荆斩棘的人——”",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1784,13 +1855,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n“只有感染者吗？”\",block = true)]",
         "type": "sticker",
-        "text": "\\n“只有感染者吗？”"
+        "multi": "true,",
+        "text": "\\n“只有感染者吗？”",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n“只有......他们吗？”\",block = true)]",
         "type": "sticker",
-        "text": "\\n“只有......他们吗？”"
+        "multi": "true,",
+        "text": "\\n“只有......他们吗？”",
+        "block": true
     },
     {
         "id": "st1",
@@ -1801,6 +1876,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"“感染者......总会成为一切跌落的终点......我们因为相同的遭遇而聚在一起。”\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "“感染者......总会成为一切跌落的终点......我们因为相同的遭遇而聚在一起。”",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1812,7 +1888,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n“但，让我们并肩作战的......不只是疾病。”\",block = true)]",
         "type": "sticker",
-        "text": "\\n“但，让我们并肩作战的......不只是疾病。”"
+        "multi": "true,",
+        "text": "\\n“但，让我们并肩作战的......不只是疾病。”",
+        "block": true
     },
     {
         "id": "st1",
@@ -1823,6 +1901,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"“如果我们遇到了一位......贵族，他用手中的权力盘剥他人，我们会怎么看待他？”\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "“如果我们遇到了一位......贵族，他用手中的权力盘剥他人，我们会怎么看待他？”",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1834,7 +1913,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n“如果......他其实是个感染者呢？”\",block = true)]",
         "type": "sticker",
-        "text": "\\n“如果......他其实是个感染者呢？”"
+        "multi": "true,",
+        "text": "\\n“如果......他其实是个感染者呢？”",
+        "block": true
     },
     {
         "id": "st1",
@@ -1845,6 +1926,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"“我们不能仅以感染与否为......唯一的准绳，唯一的口号。”\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "“我们不能仅以感染与否为......唯一的准绳，唯一的口号。”",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1856,25 +1938,33 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n“我们身边的伙伴，必须要有相同的信念......不只是报复那些曾受的欺辱，还有，带给苦我们之苦的人，解放。”\",block = true)]",
         "type": "sticker",
-        "text": "\\n“我们身边的伙伴，必须要有相同的信念......不只是报复那些曾受的欺辱，还有，带给苦我们之苦的人，解放。”"
+        "multi": "true,",
+        "text": "\\n“我们身边的伙伴，必须要有相同的信念......不只是报复那些曾受的欺辱，还有，带给苦我们之苦的人，解放。”",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n“这片大地上的被奴役者不只有我们......我们该与他们站在一起。”\",block = true)]",
         "type": "sticker",
-        "text": "\\n“这片大地上的被奴役者不只有我们......我们该与他们站在一起。”"
+        "multi": "true,",
+        "text": "\\n“这片大地上的被奴役者不只有我们......我们该与他们站在一起。”",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n“我们必须要让他们与我们......站在一起。”\",block = true)]",
         "type": "sticker",
-        "text": "\\n“我们必须要让他们与我们......站在一起。”"
+        "multi": "true,",
+        "text": "\\n“我们必须要让他们与我们......站在一起。”",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n“我们......不能只对抗疾病。”\",block = true)]",
         "type": "sticker",
-        "text": "\\n“我们......不能只对抗疾病。”"
+        "multi": "true,",
+        "text": "\\n“我们......不能只对抗疾病。”",
+        "block": true
     },
     {
         "id": "st1",
@@ -1885,6 +1975,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"“我们该对抗的，究竟是什么？”\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "“我们该对抗的，究竟是什么？”",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1896,13 +1987,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n“我们要建立的......又是什么？”\",block = true)]",
         "type": "sticker",
-        "text": "\\n“我们要建立的......又是什么？”"
+        "multi": "true,",
+        "text": "\\n“我们要建立的......又是什么？”",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n“我——”\",block = true)]",
         "type": "sticker",
-        "text": "\\n“我——”"
+        "multi": "true,",
+        "text": "\\n“我——”",
+        "block": true
     },
     {
         "id": "st1",
@@ -1913,6 +2008,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"*沙沙声*\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "*沙沙声*",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1929,6 +2025,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"“很多年前，刚感染的时候，我很......爱喝酒。那时候，Ace队长警告我，再这么......下去，我早晚死在酒上。”\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "“很多年前，刚感染的时候，我很......爱喝酒。那时候，Ace队长警告我，再这么......下去，我早晚死在酒上。”",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1940,13 +2037,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n“......哈哈。”\",block = true)]",
         "type": "sticker",
-        "text": "\\n“......哈哈。”"
+        "multi": "true,",
+        "text": "\\n“......哈哈。”",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n“这里......确实是个酿酒厂。”\",block = true)]",
         "type": "sticker",
-        "text": "\\n“这里......确实是个酿酒厂。”"
+        "multi": "true,",
+        "text": "\\n“这里......确实是个酿酒厂。”",
+        "block": true
     },
     {
         "id": "st1",
@@ -1957,6 +2058,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"“——”\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "“——”",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2833,6 +2935,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"我看着眼前的花瓣，是那个叫梅斯的人给我的。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "我看着眼前的花瓣，是那个叫梅斯的人给我的。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2844,19 +2947,25 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n这里的整合运动医生为这些草药耗费了一生的时间，听她说，Guard也为了它们而死。\",block = true)]",
         "type": "sticker",
-        "text": "\\n这里的整合运动医生为这些草药耗费了一生的时间，听她说，Guard也为了它们而死。"
+        "multi": "true,",
+        "text": "\\n这里的整合运动医生为这些草药耗费了一生的时间，听她说，Guard也为了它们而死。",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n其中大多数的植物我都认识，在现代的制药企业诞生之前，感染者们就靠咀嚼它们来缓解痛苦。\",block = true)]",
         "type": "sticker",
-        "text": "\\n其中大多数的植物我都认识，在现代的制药企业诞生之前，感染者们就靠咀嚼它们来缓解痛苦。"
+        "multi": "true,",
+        "text": "\\n其中大多数的植物我都认识，在现代的制药企业诞生之前，感染者们就靠咀嚼它们来缓解痛苦。",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n也许，有了这些做参考，我们粗劣的药物，能变得稍微更有效一点点。\",block = true)]",
         "type": "sticker",
-        "text": "\\n也许，有了这些做参考，我们粗劣的药物，能变得稍微更有效一点点。"
+        "multi": "true,",
+        "text": "\\n也许，有了这些做参考，我们粗劣的药物，能变得稍微更有效一点点。",
+        "block": true
     },
     {
         "id": "st1",
@@ -2867,6 +2976,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"我们不能只是在结局，等着那些跌落的人。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "我们不能只是在结局，等着那些跌落的人。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2878,7 +2988,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n我们要做的，也不只是这些。\",block = true)]",
         "type": "sticker",
-        "text": "\\n我们要做的，也不只是这些。"
+        "multi": "true,",
+        "text": "\\n我们要做的，也不只是这些。",
+        "block": true
     },
     {
         "id": "st1",
@@ -3050,6 +3162,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"那场大火烧了一夜。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "那场大火烧了一夜。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -3061,7 +3174,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n我们最终放弃了救出Guard的遗体。\",block = true)]",
         "type": "sticker",
-        "text": "\\n我们最终放弃了救出Guard的遗体。"
+        "multi": "true,",
+        "text": "\\n我们最终放弃了救出Guard的遗体。",
+        "block": true
     },
     {
         "id": "st1",
@@ -3072,6 +3187,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"雷德找了一棵茁壮的树，笔直，漂亮，直指天空。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "雷德找了一棵茁壮的树，笔直，漂亮，直指天空。",
         "x": "300,y=270,",
         "alignment": "left",
@@ -3083,19 +3199,25 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n他挖了个坑，把Guard的那条可爱的毛巾埋了进去。\",block = true)]",
         "type": "sticker",
-        "text": "\\n他挖了个坑，把Guard的那条可爱的毛巾埋了进去。"
+        "multi": "true,",
+        "text": "\\n他挖了个坑，把Guard的那条可爱的毛巾埋了进去。",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n花朵在刚被掘开的土壤周围生长了起来。\",block = true)]",
         "type": "sticker",
-        "text": "\\n花朵在刚被掘开的土壤周围生长了起来。"
+        "multi": "true,",
+        "text": "\\n花朵在刚被掘开的土壤周围生长了起来。",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n那条毛巾上的碎花太粗劣，这样的花圃，才与他更相称。\",block = true)]",
         "type": "sticker",
-        "text": "\\n那条毛巾上的碎花太粗劣，这样的花圃，才与他更相称。"
+        "multi": "true,",
+        "text": "\\n那条毛巾上的碎花太粗劣，这样的花圃，才与他更相称。",
+        "block": true
     },
     {
         "id": "st1",

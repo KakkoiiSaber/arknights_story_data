@@ -566,7 +566,8 @@
         "id": 78,
         "raw": "[bgeffect(name=\"$eb_deathburning\",layer = 1)]",
         "type": "bg_effect",
-        "name": "$eb_deathburning"
+        "name": "$eb_deathburning",
+        "layer": 1
     },
     {
         "id": 79,
@@ -1001,7 +1002,8 @@
         "id": 136,
         "raw": "[bgeffect(name=\"$eb_deathburning\",layer = 1)]",
         "type": "bg_effect",
-        "name": "$eb_deathburning"
+        "name": "$eb_deathburning",
+        "layer": 1
     },
     {
         "id": 137,
@@ -1574,7 +1576,8 @@
         "raw": "[bgeffect(name=\"$eb_purple_fire\",fade = true, fadetime = 2.5,layer=3,x=45,y=30)]",
         "type": "bg_effect",
         "name": "$eb_purple_fire",
-        "layer": "3,x=45,y=30"
+        "fade": "true,",
+        "fadetime": "2.5,layer=3,x=45,y=30"
     },
     {
         "id": 218,
@@ -1845,7 +1848,8 @@
         "raw": "[bgeffect(name=\"$eb_purple_fire\",fade = true, fadetime = 3.5,layer=3,x=45,y=30)]",
         "type": "bg_effect",
         "name": "$eb_purple_fire",
-        "layer": "3,x=45,y=30"
+        "fade": "true,",
+        "fadetime": "3.5,layer=3,x=45,y=30"
     },
     {
         "id": 257,
@@ -1891,14 +1895,17 @@
     {
         "id": 264,
         "raw": "[bgeffect(layer = 3, fadetime = 3)]",
-        "type": "bg_effect"
+        "type": "bg_effect",
+        "layer": "3,",
+        "fadetime": 3
     },
     {
         "id": 265,
         "raw": "[bgeffect(name=\"$eb_yellow_fire\",fade = true, fadetime = 3.5,layer=2,x=25,y=30)]",
         "type": "bg_effect",
         "name": "$eb_yellow_fire",
-        "layer": "2,x=25,y=30"
+        "fade": "true,",
+        "fadetime": "3.5,layer=2,x=25,y=30"
     },
     {
         "id": 266,
@@ -3243,6 +3250,8 @@
         "id": 452,
         "raw": "[backgroundTween(xFrom = 100, xTo = -100, duration=45, block=false)]",
         "type": "background_tween",
+        "xFrom": "100,",
+        "xTo": "-100,",
         "duration": "45,",
         "block": false
     },

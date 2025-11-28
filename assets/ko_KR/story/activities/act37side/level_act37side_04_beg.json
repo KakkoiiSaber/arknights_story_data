@@ -73,10 +73,13 @@
         "type": "dialog_marker"
     },
     {
-        "id": 11,
+        "id": "at1",
         "raw": "[animtext(id = \"at1\", name = \"group_location_stamp\", style=\"avg_both\", pos = \"-400,-200\", block = false)]<p=1>펍 '텐 파인츠'</><p=2>1098년 12월 21일 5:05 P.M.</>",
         "type": "anim_text",
+        "name": "group_location_stamp",
         "style": "avg_both",
+        "pos": "-400,-200",
+        "block": false,
         "content": "<p=1>펍 '텐 파인츠'</><p=2>1098년 12월 21일 5:05 P.M.</>"
     },
     {
@@ -913,6 +916,9 @@
         "id": 131,
         "raw": "[charslot(slot = \"m\", posfrom = \"0,0\", posto = \"0,-200\",afrom=0,ato=1,duration =0,focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "posfrom": "0,0",
+        "posto": "0,-200",
         "afrom": "0,ato=1,duration",
         "focus": "m"
     },
@@ -959,6 +965,9 @@
         "id": 138,
         "raw": "[charslot(slot = \"m\", posfrom = \"0,0\", posto = \"0,-200\",afrom=0,ato=1,duration =0,focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "posfrom": "0,0",
+        "posto": "0,-200",
         "afrom": "0,ato=1,duration",
         "focus": "m"
     },
@@ -1258,6 +1267,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>그날 나는 비나의 뒤에 붙어서 비나가 열어 주는 문으로 들어갔다. 나는 아직 문을 발로 차서 들어가는 습관이 남아 있었기 때문이다.</i>\", x=300,y=240,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>그날 나는 비나의 뒤에 붙어서 비나가 열어 주는 문으로 들어갔다. 나는 아직 문을 발로 차서 들어가는 습관이 남아 있었기 때문이다.</i>",
         "x": "300,y=240,",
         "alignment": "left",
@@ -1269,7 +1279,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>글래스고 패거리가 오슈테리그 구를 어지럽히러 가는 일은 절대 없다. 절대.</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>글래스고 패거리가 오슈테리그 구를 어지럽히러 가는 일은 절대 없다. 절대.</i>"
+        "multi": "true,",
+        "text": "\\n<i>글래스고 패거리가 오슈테리그 구를 어지럽히러 가는 일은 절대 없다. 절대.</i>",
+        "block": true
     },
     {
         "id": "st1",
@@ -1287,6 +1299,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>비나는 이번엔 그저 파라곤 부대 동료와 술을 마시러 왔을 뿐이라고 했다. 하지만 실제로는 생각이 많다는 것을 알고 있었다.</i>\", x=300,y=240,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>비나는 이번엔 그저 파라곤 부대 동료와 술을 마시러 왔을 뿐이라고 했다. 하지만 실제로는 생각이 많다는 것을 알고 있었다.</i>",
         "x": "300,y=240,",
         "alignment": "left",
@@ -1298,13 +1311,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>비나는 공장 몇 개의 폐쇄를 준비하고 있었고, 다음 겨울을 대비해 비축해 둔 정제 오리지늄 분배에 대한 계획도 세웠다.</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>비나는 공장 몇 개의 폐쇄를 준비하고 있었고, 다음 겨울을 대비해 비축해 둔 정제 오리지늄 분배에 대한 계획도 세웠다.</i>"
+        "multi": "true,",
+        "text": "\\n<i>비나는 공장 몇 개의 폐쇄를 준비하고 있었고, 다음 겨울을 대비해 비축해 둔 정제 오리지늄 분배에 대한 계획도 세웠다.</i>",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>하지만 그녀의 비망록 마지막에는 분명 하나의 단어, '파라곤 부대'…… 우리의 옛 친구가 있을 것이다.</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>하지만 그녀의 비망록 마지막에는 분명 하나의 단어, '파라곤 부대'…… 우리의 옛 친구가 있을 것이다.</i>"
+        "multi": "true,",
+        "text": "\\n<i>하지만 그녀의 비망록 마지막에는 분명 하나의 단어, '파라곤 부대'…… 우리의 옛 친구가 있을 것이다.</i>",
+        "block": true
     },
     {
         "id": "st1",
@@ -1576,6 +1593,8 @@
         "r": "0,",
         "g": "0,",
         "b": "0,",
+        "style": "slider",
+        "inverse": "true,",
         "fadetime": "2,",
         "block": true
     },
@@ -1958,6 +1977,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>나는 시어러 소위와 그렇게까지 잘 맞는 건 아니다. 그에 대한 이미지는 비나에게 맞아 비틀거리는 모습에서 오랫동안 멈춰 있었다.</i>\", x=300,y=240,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>나는 시어러 소위와 그렇게까지 잘 맞는 건 아니다. 그에 대한 이미지는 비나에게 맞아 비틀거리는 모습에서 오랫동안 멈춰 있었다.</i>",
         "x": "300,y=240,",
         "alignment": "left",
@@ -1969,13 +1989,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>조금 완고하지만 전체적으로는 냉정하고 믿을 수 있는 군의관.</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>조금 완고하지만 전체적으로는 냉정하고 믿을 수 있는 군의관.</i>"
+        "multi": "true,",
+        "text": "\\n<i>조금 완고하지만 전체적으로는 냉정하고 믿을 수 있는 군의관.</i>",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>외과의인 그의 두 손은 전장의 많은 사람을 죽음의 손아귀에서 다시 데려왔다.</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>외과의인 그의 두 손은 전장의 많은 사람을 죽음의 손아귀에서 다시 데려왔다.</i>"
+        "multi": "true,",
+        "text": "\\n<i>외과의인 그의 두 손은 전장의 많은 사람을 죽음의 손아귀에서 다시 데려왔다.</i>",
+        "block": true
     },
     {
         "id": "st1",
@@ -2074,6 +2098,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>하지만 그가 다친 곳은 절대로 손이 아니다. 나는 확실히 기억한다.</i>\", x=300,y=240,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>하지만 그가 다친 곳은 절대로 손이 아니다. 나는 확실히 기억한다.</i>",
         "x": "300,y=240,",
         "alignment": "left",
@@ -2085,13 +2110,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>그리고 그는 너무나도 반듯하게 앉아 있었기 때문에, 델핀의 지원으로 순조롭게 회복한 줄로만 알았다.</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>그리고 그는 너무나도 반듯하게 앉아 있었기 때문에, 델핀의 지원으로 순조롭게 회복한 줄로만 알았다.</i>"
+        "multi": "true,",
+        "text": "\\n<i>그리고 그는 너무나도 반듯하게 앉아 있었기 때문에, 델핀의 지원으로 순조롭게 회복한 줄로만 알았다.</i>",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>하지만 그의 말대로, 런디니움으로 돌아오기 위해 우리는 분명 격전을 치렀다.</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>하지만 그의 말대로, 런디니움으로 돌아오기 위해 우리는 분명 격전을 치렀다.</i>"
+        "multi": "true,",
+        "text": "\\n<i>하지만 그의 말대로, 런디니움으로 돌아오기 위해 우리는 분명 격전을 치렀다.</i>",
+        "block": true
     },
     {
         "id": "st1",
@@ -2163,10 +2192,13 @@
         "type": "dialog_marker"
     },
     {
-        "id": 304,
+        "id": "at1",
         "raw": "[animtext(id = \"at1\", name = \"group_location_stamp\", style=\"avg_both\", pos = \"-400,-200\", block = false)]<p=1>성벽 아래</><p=2>1098년 9월 25일 3:03 P.M.</>",
         "type": "anim_text",
+        "name": "group_location_stamp",
         "style": "avg_both",
+        "pos": "-400,-200",
+        "block": false,
         "content": "<p=1>성벽 아래</><p=2>1098년 9월 25일 3:03 P.M.</>"
     },
     {
@@ -2915,6 +2947,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>사실 나는 전장에서 일어나는 많은 일을 알지 못하고 있었다. 멈춤과 움직임, 승리와 패배, 모든 것이 너무나도 빠르게 발생한다.</i>\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>사실 나는 전장에서 일어나는 많은 일을 알지 못하고 있었다. 멈춤과 움직임, 승리와 패배, 모든 것이 너무나도 빠르게 발생한다.</i>",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2926,7 +2959,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>연합군이 도시를 포위한 지 열흘 가까이 지난 후, 연합군 진지에서 일찌감치 이탈했던 '가스트렐'호가 돌연 자신의 주둔지를 떠나 연합군 진지 중심에 억지로 정박했다.</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>연합군이 도시를 포위한 지 열흘 가까이 지난 후, 연합군 진지에서 일찌감치 이탈했던 '가스트렐'호가 돌연 자신의 주둔지를 떠나 연합군 진지 중심에 억지로 정박했다.</i>"
+        "multi": "true,",
+        "text": "\\n<i>연합군이 도시를 포위한 지 열흘 가까이 지난 후, 연합군 진지에서 일찌감치 이탈했던 '가스트렐'호가 돌연 자신의 주둔지를 떠나 연합군 진지 중심에 억지로 정박했다.</i>",
+        "block": true
     },
     {
         "id": "st1",
@@ -2937,6 +2972,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>그날, 오랫동안 소식이 없던 노공작의 목소리가 연합군 통신에 다시 울렸다……</i>\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>그날, 오랫동안 소식이 없던 노공작의 목소리가 연합군 통신에 다시 울렸다……</i>",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2948,13 +2984,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>“'가스트렐'호의 의지가 제국의 영광을 되찾을 것이다.”</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>“'가스트렐'호의 의지가 제국의 영광을 되찾을 것이다.”</i>"
+        "multi": "true,",
+        "text": "\\n<i>“'가스트렐'호의 의지가 제국의 영광을 되찾을 것이다.”</i>",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>그리고 포화 소리가 재차 울려 퍼졌다……</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>그리고 포화 소리가 재차 울려 퍼졌다……</i>"
+        "multi": "true,",
+        "text": "\\n<i>그리고 포화 소리가 재차 울려 퍼졌다……</i>",
+        "block": true
     },
     {
         "id": "st1",
@@ -3028,6 +3068,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>우리의 성벽을 향해 망설임 없이 쏜 것이다.</i>\", x=300,y=340,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>우리의 성벽을 향해 망설임 없이 쏜 것이다.</i>",
         "x": "300,y=340,",
         "alignment": "left",
@@ -3141,10 +3182,13 @@
         "type": "dialog_marker"
     },
     {
-        "id": 438,
+        "id": "at1",
         "raw": "[animtext(id = \"at1\", name = \"group_location_stamp\", style=\"avg_both\", pos = \"-400,-200\", block = false)]<p=1>성벽 아래</><p=2>1098년 9월 25일 7:33 A.M.</>",
         "type": "anim_text",
+        "name": "group_location_stamp",
         "style": "avg_both",
+        "pos": "-400,-200",
+        "block": false,
         "content": "<p=1>성벽 아래</><p=2>1098년 9월 25일 7:33 A.M.</>"
     },
     {
@@ -3552,6 +3596,8 @@
         "r": "0,",
         "g": "0,",
         "b": "0,",
+        "style": "slider",
+        "inverse": "true,",
         "fadetime": "1,",
         "block": true
     },
@@ -3631,7 +3677,8 @@
         "id": 506,
         "raw": "[bgeffect(name=\"$eb_eblana_attack\",layer = 1)]",
         "type": "bg_effect",
-        "name": "$eb_eblana_attack"
+        "name": "$eb_eblana_attack",
+        "layer": 1
     },
     {
         "id": 507,
@@ -3712,6 +3759,8 @@
         "r": "0,",
         "g": "0,",
         "b": "0,",
+        "style": "slider",
+        "inverse": "true,",
         "fadetime": "1,",
         "block": true
     },
@@ -3798,7 +3847,8 @@
         "id": 529,
         "raw": "[bgeffect(name=\"$eb_deathburning\",layer = 1)]",
         "type": "bg_effect",
-        "name": "$eb_deathburning"
+        "name": "$eb_deathburning",
+        "layer": 1
     },
     {
         "id": 530,
@@ -3808,6 +3858,8 @@
         "r": "0,",
         "g": "0,",
         "b": "0,",
+        "style": "slider",
+        "inverse": "true,",
         "fadetime": "1,",
         "block": true
     },
@@ -3919,6 +3971,8 @@
         "r": "0,",
         "g": "0,",
         "b": "0,",
+        "style": "slider",
+        "inverse": "true,",
         "fadetime": "1,",
         "block": true
     },

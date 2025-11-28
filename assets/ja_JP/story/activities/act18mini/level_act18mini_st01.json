@@ -1390,12 +1390,16 @@
         "id": 185,
         "raw": "[curtain(direction = 0,fillfrom = 0.01,fillto = 0.15,grad = true,fadetime=0.1)]",
         "type": "curtain",
+        "direction": "0,fillfrom",
+        "fillto": "0.15,grad",
         "fadetime": 0.1
     },
     {
         "id": 186,
         "raw": "[curtain(direction = 4,fillfrom = 0.01,fillto = 0.15,grad = true,fadetime=0.1)]",
         "type": "curtain",
+        "direction": "4,fillfrom",
+        "fillto": "0.15,grad",
         "fadetime": 0.1
     },
     {
@@ -4597,7 +4601,8 @@
         "id": 629,
         "raw": "[bgeffect(name=\"$eb_eblana_attack\",layer = 1)]",
         "type": "bg_effect",
-        "name": "$eb_eblana_attack"
+        "name": "$eb_eblana_attack",
+        "layer": 1
     },
     {
         "id": 630,
@@ -4609,7 +4614,8 @@
         "id": 631,
         "raw": "[bgeffect(name=\"$eb_deathburning\",layer = 2)]",
         "type": "bg_effect",
-        "name": "$eb_deathburning"
+        "name": "$eb_deathburning",
+        "layer": 2
     },
     {
         "id": 632,
@@ -4637,6 +4643,7 @@
         "id": 635,
         "raw": "[charslot(slot = \"l\",afrom=1,ato=0,duration = 0.5,focus=\"l\")]",
         "type": "charslot",
+        "slot": "l",
         "afrom": "1,ato=0,duration",
         "focus": "l"
     },
@@ -4685,6 +4692,7 @@
         "id": 642,
         "raw": "[charslot(slot = \"r\",afrom=1,ato=0,duration = 0.7,focus=\"r\")]",
         "type": "charslot",
+        "slot": "r",
         "afrom": "1,ato=0,duration",
         "focus": "r"
     },
@@ -4763,6 +4771,8 @@
         "r": "0,",
         "g": "0,",
         "b": "0,",
+        "style": "slider",
+        "inverse": "true,",
         "fadetime": "1,",
         "block": true
     },

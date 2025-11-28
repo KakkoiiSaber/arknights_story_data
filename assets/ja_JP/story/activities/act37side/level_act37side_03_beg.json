@@ -88,6 +88,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>アラデルのために独立した章を書こうと決めた時、満足のいく書き出しがずっと思いつかなかった。だって、このとっても馴染み深い名前について、吾輩は何も知らないみたいだと気づいたからだ。</i>\", x=300,y=240,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>アラデルのために独立した章を書こうと決めた時、満足のいく書き出しがずっと思いつかなかった。だって、このとっても馴染み深い名前について、吾輩は何も知らないみたいだと気づいたからだ。</i>",
         "x": "300,y=240,",
         "alignment": "left",
@@ -99,7 +100,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>カンバーランド家の最後の人間。吾輩たちを裏切り、それでいて吾輩たちを救うために自ら犠牲になった人間。そして、自分の作ったクリームシチューが美味しいと自慢するのが好きな人間。</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>カンバーランド家の最後の人間。吾輩たちを裏切り、それでいて吾輩たちを救うために自ら犠牲になった人間。そして、自分の作ったクリームシチューが美味しいと自慢するのが好きな人間。</i>"
+        "multi": "true,",
+        "text": "\\n<i>カンバーランド家の最後の人間。吾輩たちを裏切り、それでいて吾輩たちを救うために自ら犠牲になった人間。そして、自分の作ったクリームシチューが美味しいと自慢するのが好きな人間。</i>",
+        "block": true
     },
     {
         "id": "st1",
@@ -117,6 +120,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>「ミルスカー」……カスターの手下……「高潔不変のカンバーランド」……一体どれが本当の彼女なの？</i>\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>「ミルスカー」……カスターの手下……「高潔不変のカンバーランド」……一体どれが本当の彼女なの？</i>",
         "x": "300,y=270,",
         "alignment": "left",
@@ -245,10 +249,13 @@
         "type": "dialog_marker"
     },
     {
-        "id": 33,
+        "id": "at1",
         "raw": "[animtext(id = \"at1\", name = \"group_location_stamp\", style=\"avg_both\", pos = \"-400,-200\", block = false)]<p=1>ロンディニウム地下トンネル</><p=2>1098年9月28日 p.m. 4:53</>",
         "type": "anim_text",
+        "name": "group_location_stamp",
         "style": "avg_both",
+        "pos": "-400,-200",
+        "block": false,
         "content": "<p=1>ロンディニウム地下トンネル</><p=2>1098年9月28日 p.m. 4:53</>"
     },
     {
@@ -902,6 +909,10 @@
         "id": 126,
         "raw": "[charslot(slot = \"l\", name = \"avg_npc_1342_1#8$1\",posfrom = \"0,0\", posto = \"200,0\",focus=\"all\")]",
         "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_1342_1#8$1.png",
+        "posfrom": "0,0",
+        "posto": "200,0",
         "focus": "all"
     },
     {
@@ -933,6 +944,8 @@
         "id": 131,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1342_1#8$2\",duration=1,focus=\"all\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1342_1#8$2.png",
         "duration": "1,focus=\"all\""
     },
     {
@@ -945,6 +958,8 @@
         "id": 133,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1342_1#8$2\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1342_1#8$2.png",
         "focus": "m"
     },
     {
@@ -1053,6 +1068,8 @@
         "id": 150,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1333_1#4$1\",duration=1)]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1333_1#4$1.png",
         "duration": 1
     },
     {
@@ -1110,6 +1127,8 @@
         "id": 158,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1342_1#6$2\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1342_1#6$2.png",
         "focus": "m"
     },
     {
@@ -1172,6 +1191,7 @@
         "id": 167,
         "raw": "[charslot(slot = \"m\", action=\"jump\", posto=\"-80,0\", afrom=1, ato=0, power=10, times=1, duration=0.3)]",
         "type": "charslot",
+        "slot": "m",
         "action": "jump",
         "posto": "-80,0",
         "afrom": "1,",
@@ -1276,12 +1296,16 @@
         "id": 180,
         "raw": "[curtain(direction = 0,fillfrom = 0.01,fillto = 0.11, fadetime=0.7)]",
         "type": "curtain",
+        "direction": "0,fillfrom",
+        "fillto": "0.11,",
         "fadetime": 0.7
     },
     {
         "id": 181,
         "raw": "[curtain(direction = 4,fillfrom = 0.01,fillto = 0.11, fadetime=0.7)]",
         "type": "curtain",
+        "direction": "4,fillfrom",
+        "fillto": "0.11,",
         "fadetime": 0.7
     },
     {
@@ -1584,6 +1608,8 @@
         "id": 226,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1342_1#4$2\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1342_1#4$2.png",
         "focus": "m"
     },
     {
@@ -1976,10 +2002,13 @@
         "type": "dialog_marker"
     },
     {
-        "id": 279,
+        "id": "at1",
         "raw": "[animtext(id = \"at1\", name = \"group_location_stamp\", style=\"avg_only_medium\", pos = \"-400,-200\", block = false)]<p=2>1098年9月28日 p.m. 5:21</>",
         "type": "anim_text",
+        "name": "group_location_stamp",
         "style": "avg_only_medium",
+        "pos": "-400,-200",
+        "block": false,
         "content": "<p=2>1098年9月28日 p.m. 5:21</>"
     },
     {
@@ -2009,6 +2038,8 @@
         "id": 284,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1342_1#1$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1342_1#1$1.png",
         "focus": "m"
     },
     {
@@ -2037,6 +2068,8 @@
         "id": 288,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1342_1#1$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1342_1#1$1.png",
         "focus": "m"
     },
     {
@@ -2050,6 +2083,8 @@
         "id": 290,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1342_1#10$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1342_1#10$1.png",
         "focus": "m"
     },
     {
@@ -2078,6 +2113,8 @@
         "id": 294,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1342_1#7$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1342_1#7$1.png",
         "focus": "m"
     },
     {
@@ -2091,6 +2128,8 @@
         "id": 296,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1342_1#1$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1342_1#1$1.png",
         "focus": "m"
     },
     {
@@ -2126,6 +2165,8 @@
         "id": 302,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_401_1#10$1\",duration=0.7)]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_401_1#10$1.png",
         "duration": 0.7
     },
     {
@@ -2138,6 +2179,8 @@
         "id": 304,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_401_1#10$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_401_1#10$1.png",
         "focus": "m"
     },
     {
@@ -2151,6 +2194,8 @@
         "id": 306,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1342_1#4$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1342_1#4$1.png",
         "focus": "m"
     },
     {
@@ -2171,6 +2216,8 @@
         "id": 309,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_401_1#1$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_401_1#1$1.png",
         "focus": "m"
     },
     {
@@ -2191,6 +2238,8 @@
         "id": 312,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_401_1#9$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_401_1#9$1.png",
         "focus": "m"
     },
     {
@@ -2211,6 +2260,8 @@
         "id": 315,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1342_1#10$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1342_1#10$1.png",
         "focus": "m"
     },
     {
@@ -2224,6 +2275,8 @@
         "id": 317,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_401_1#9$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_401_1#9$1.png",
         "focus": "m"
     },
     {
@@ -2244,6 +2297,8 @@
         "id": 320,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1342_1#10$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1342_1#10$1.png",
         "focus": "m"
     },
     {
@@ -2257,6 +2312,8 @@
         "id": 322,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_401_1#1$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_401_1#1$1.png",
         "focus": "m"
     },
     {
@@ -2277,6 +2334,8 @@
         "id": 325,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1342_1#10$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1342_1#10$1.png",
         "focus": "m"
     },
     {
@@ -2290,6 +2349,8 @@
         "id": 327,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_401_1#8$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_401_1#8$1.png",
         "focus": "m"
     },
     {
@@ -2334,6 +2395,8 @@
         "id": 334,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1342_1#7$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1342_1#7$1.png",
         "focus": "m"
     },
     {
@@ -2362,6 +2425,8 @@
         "id": 338,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1342_1#1$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1342_1#1$1.png",
         "focus": "m"
     },
     {
@@ -2465,10 +2530,13 @@
         "type": "dialog_marker"
     },
     {
-        "id": 352,
+        "id": "at1",
         "raw": "[animtext(id = \"at1\", name = \"group_location_stamp\", style=\"avg_both\", pos = \"-400,-200\", block = false)]<p=1>ロンディニウム</><p=2>1098年9月28日 p.m. 5:27</>",
         "type": "anim_text",
+        "name": "group_location_stamp",
         "style": "avg_both",
+        "pos": "-400,-200",
+        "block": false,
         "content": "<p=1>ロンディニウム</><p=2>1098年9月28日 p.m. 5:27</>"
     },
     {
@@ -2521,6 +2589,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>吾輩はあの午後を何度も何度も思い出す。</i>\", x=300,y=240,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>吾輩はあの午後を何度も何度も思い出す。</i>",
         "x": "300,y=240,",
         "alignment": "left",
@@ -2532,13 +2601,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>工場、ヴィーナ、蒸気、歓声、ボクシングの試合、雄たけび、ベアードちゃん……</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>工場、ヴィーナ、蒸気、歓声、ボクシングの試合、雄たけび、ベアードちゃん……</i>"
+        "multi": "true,",
+        "text": "\\n<i>工場、ヴィーナ、蒸気、歓声、ボクシングの試合、雄たけび、ベアードちゃん……</i>",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>あらゆる記憶の断片がいつも一斉に湧き出てきてはごちゃまぜになって、あの午後の詳細が完全に思い出せなくなる。</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>あらゆる記憶の断片がいつも一斉に湧き出てきてはごちゃまぜになって、あの午後の詳細が完全に思い出せなくなる。</i>"
+        "multi": "true,",
+        "text": "\\n<i>あらゆる記憶の断片がいつも一斉に湧き出てきてはごちゃまぜになって、あの午後の詳細が完全に思い出せなくなる。</i>",
+        "block": true
     },
     {
         "id": "st1",
@@ -2556,6 +2629,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>ただ唯一忘れられないのは、ヴィーナが「家に着いた」って言ったことだ。</i>\", x=300,y=240,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>ただ唯一忘れられないのは、ヴィーナが「家に着いた」って言ったことだ。</i>",
         "x": "300,y=240,",
         "alignment": "left",
@@ -2567,13 +2641,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>吾輩は泣きたかった。この道は長く遠かった……都市の中から外へ、戦場から故郷へ……</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>吾輩は泣きたかった。この道は長く遠かった……都市の中から外へ、戦場から故郷へ……</i>"
+        "multi": "true,",
+        "text": "\\n<i>吾輩は泣きたかった。この道は長く遠かった……都市の中から外へ、戦場から故郷へ……</i>",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>吾輩たちは家に帰ってきた。だけど吾輩たちをずっと支えてきた人のどれだけを失ってしまったんだろう？</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>吾輩たちは家に帰ってきた。だけど吾輩たちをずっと支えてきた人のどれだけを失ってしまったんだろう？</i>"
+        "multi": "true,",
+        "text": "\\n<i>吾輩たちは家に帰ってきた。だけど吾輩たちをずっと支えてきた人のどれだけを失ってしまったんだろう？</i>",
+        "block": true
     },
     {
         "id": "st1",
@@ -2591,6 +2669,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>アラデル以外の誰が、ひとたび去った後にまた帰ってこられるのだろう？</i>\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>アラデル以外の誰が、ひとたび去った後にまた帰ってこられるのだろう？</i>",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2602,7 +2681,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>……</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>……</i>"
+        "multi": "true,",
+        "text": "\\n<i>……</i>",
+        "block": true
     },
     {
         "id": "st1",
@@ -2613,6 +2694,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>ベアードちゃんに会いたい。</i>\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>ベアードちゃんに会いたい。</i>",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2741,10 +2823,13 @@
         "type": "dialog_marker"
     },
     {
-        "id": 390,
+        "id": "at1",
         "raw": "[animtext(id = \"at1\", name = \"group_location_stamp\", style=\"avg_both\", pos = \"-400,-200\", block = false)]<p=1>模範軍臨時陣地</><p=2>1098年9月30日 a.m. 5:22</>",
         "type": "anim_text",
+        "name": "group_location_stamp",
         "style": "avg_both",
+        "pos": "-400,-200",
+        "block": false,
         "content": "<p=1>模範軍臨時陣地</><p=2>1098年9月30日 a.m. 5:22</>"
     },
     {
@@ -3311,12 +3396,16 @@
     {
         "id": 472,
         "raw": "[charslot(slot = \"l\", name = \"avg_npc_1342_1#1$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_1342_1#1$1.png"
     },
     {
         "id": 473,
         "raw": "[charslot(slot = \"r\", name = \"avg_npc_399_1#1$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_399_1#1$1.png"
     },
     {
         "id": 474,
@@ -3345,6 +3434,8 @@
         "id": 477,
         "raw": "[charslot(slot = \"l\", name = \"avg_npc_1342_1#1$1\",focus=\"l\")]",
         "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_1342_1#1$1.png",
         "focus": "l"
     },
     {
@@ -3373,6 +3464,8 @@
         "id": 481,
         "raw": "[charslot(slot = \"l\", name = \"avg_npc_1342_1#1$1\",focus=\"l\")]",
         "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_1342_1#1$1.png",
         "focus": "l"
     },
     {
@@ -3393,6 +3486,8 @@
         "id": 484,
         "raw": "[charslot(slot = \"l\", name = \"avg_npc_1342_1#8$1\",focus=\"l\")]",
         "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_1342_1#8$1.png",
         "focus": "l"
     },
     {
@@ -3421,6 +3516,8 @@
         "id": 488,
         "raw": "[charslot(slot = \"l\", name = \"avg_npc_1342_1#8$1\",focus=\"l\")]",
         "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_1342_1#8$1.png",
         "focus": "l"
     },
     {
@@ -3449,6 +3546,8 @@
         "id": 492,
         "raw": "[charslot(slot = \"l\", name = \"avg_npc_1342_1#1$1\",focus=\"l\")]",
         "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_1342_1#1$1.png",
         "focus": "l"
     },
     {
@@ -3474,6 +3573,8 @@
         "id": 496,
         "raw": "[charslot(slot = \"l\", name = \"avg_npc_1342_1#1$1\",focus=\"all\")]",
         "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_1342_1#1$1.png",
         "focus": "all"
     },
     {

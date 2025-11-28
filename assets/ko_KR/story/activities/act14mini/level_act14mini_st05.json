@@ -643,25 +643,30 @@
         "id": 91,
         "raw": "[curtain(direction = 2,fillfrom = 0.05,fillto = 0.05,fadetime=0.01)]",
         "type": "curtain",
-        "fadetime": 0.01
+        "direction": "2,fillfrom",
+        "fillto": "0.05,fadetime=0.01"
     },
     {
         "id": 92,
         "raw": "[curtain(direction = 6,fillfrom = 0.05,fillto = 0.05,fadetime=0.01)]",
         "type": "curtain",
-        "fadetime": 0.01
+        "direction": "6,fillfrom",
+        "fillto": "0.05,fadetime=0.01"
     },
     {
         "id": 93,
         "raw": "[curtain(direction = 0,fillfrom = 0.2,fillto = 0.2,fadetime=0.01)]",
         "type": "curtain",
-        "fadetime": 0.01
+        "direction": "0,fillfrom",
+        "fillto": "0.2,fadetime=0.01"
     },
     {
         "id": 94,
         "raw": "[curtain(direction = 4,fillfrom = 0.2,fillto = 0.2,fadetime=0.01, block = true)]",
         "type": "curtain",
-        "fadetime": "0.01,"
+        "direction": "4,fillfrom",
+        "fillto": "0.2,fadetime=0.01,",
+        "block": true
     },
     {
         "id": 95,
@@ -959,6 +964,8 @@
         "type": "charslot",
         "slot": "l",
         "name": "avg_npc_799_1#1$1.png",
+        "posfrom": "-100,0",
+        "posto": "-100,0",
         "duration": 0.7
     },
     {
@@ -967,6 +974,8 @@
         "type": "charslot",
         "slot": "r",
         "name": "avg_npc_797_1#1$1.png",
+        "posfrom": "140,0",
+        "posto": "140,0",
         "duration": 0.7
     },
     {
@@ -1068,6 +1077,8 @@
         "raw": "[charslot(slot=\"m\", posfrom = \"0,0\", posto = \"50,0\",afrom=1,ato=1,duration=0.1)]",
         "type": "charslot",
         "slot": "m",
+        "posfrom": "0,0",
+        "posto": "50,0",
         "afrom": "1,ato=1,duration=0.1"
     },
     {
@@ -1075,12 +1086,15 @@
         "raw": "[charslot(slot=\"r\", posfrom = \"140,0\", posto = \"210,0\",afrom=1,ato=1,duration=0.3,isblock=true)]",
         "type": "charslot",
         "slot": "r",
+        "posfrom": "140,0",
+        "posto": "210,0",
         "afrom": "1,ato=1,duration=0.3,isblock=true"
     },
     {
         "id": 151,
         "raw": "[charslot(slot = \"r\", action=\"shake\",random=true, power=5, times=60,duration=0.3,isblock=true)]",
         "type": "charslot",
+        "slot": "r",
         "action": "shake",
         "random": "true,",
         "power": "5,",
@@ -1906,7 +1920,8 @@
         "raw": "[charslot(slot=\"l\",name=\"avg_npc_799_1#1$1\",focus = \"left,right\")]",
         "type": "charslot",
         "slot": "l",
-        "name": "avg_npc_799_1#1$1.png"
+        "name": "avg_npc_799_1#1$1.png",
+        "focus": "left,right"
     },
     {
         "id": 264,
@@ -7254,7 +7269,7 @@
         "raw": "[Effect(name=\"$e_slash_02_s\",x = -60,y=-100,rox=30,roy=89,roz=150,layer = 1)]",
         "type": "effect",
         "name": "$e_slash_02_s",
-        "y": "-100,rox=30,roy=89,roz=150,layer"
+        "x": "-60,y=-100,rox=30,roy=89,roz=150,layer"
     },
     {
         "id": 981,

@@ -69,13 +69,25 @@
     {
         "id": 10,
         "raw": "[interlude(maskid = \"ui_cutin_mask_vertical\", style = 1, size = \"500, 720\",offset = \"20,0\", channel = 2)]",
-        "type": "interlude"
+        "type": "interlude",
+        "maskid": "ui_cutin_mask_vertical",
+        "style": "1,",
+        "size": "500, 720",
+        "offset": "20,0",
+        "channel": 2
     },
     {
         "id": 11,
         "raw": "[interlude(channel = 2, type = 2, name = \"34_g4_swamp_n\", afrom = 0, ato = 1, aduration = 3, sfrom = \"1.9,1.9\", sto = \"1.9,1.9\", sduration = 0,block=true)]",
-        "type": "interlude",
-        "block": true
+        "type": "2,",
+        "channel": "2,",
+        "name": "34_g4_swamp_n",
+        "afrom": "0,",
+        "ato": "1,",
+        "aduration": "3,",
+        "sfrom": "1.9,1.9",
+        "sto": "1.9,1.9",
+        "sduration": "0,block=true"
     },
     {
         "id": 12,
@@ -86,13 +98,24 @@
     {
         "id": 13,
         "raw": "[interlude(channel = 2, type = 1, slot = \"m\", offset = \"20,50\", name = \"cutin_char_9\",sfrom = \"0.8,0.8\", sto = \"0.8,0.8\", aduration = 2,block=false)]",
-        "type": "interlude",
-        "block": false
+        "type": "1,",
+        "channel": "2,",
+        "slot": "m",
+        "offset": "20,50",
+        "name": "cutin_char_9",
+        "sfrom": "0.8,0.8",
+        "sto": "0.8,0.8",
+        "aduration": "2,block=false"
     },
     {
         "id": 14,
         "raw": "[interlude(channel = 2, type = 1, slot = \"m\", pfrom = \"20,50\", pto = \"60,50\", duration = 40)]",
-        "type": "interlude"
+        "type": "1,",
+        "channel": "2,",
+        "slot": "m",
+        "pfrom": "20,50",
+        "pto": "60,50",
+        "duration": 40
     },
     {
         "id": 15,
@@ -120,6 +143,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"그 척후병의 첫 발견자는 나였다.\", x=300,y=270, alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "그 척후병의 첫 발견자는 나였다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -136,6 +160,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"내가 반대편 광장 옆에 있는 그 고요한 시청 건물을 정찰하려고 했을 때, 그의 시체는 해안의 갈대를 꽉 붙잡은 채 떠다니고 있었다.\", x=300,y=270, alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "내가 반대편 광장 옆에 있는 그 고요한 시청 건물을 정찰하려고 했을 때, 그의 시체는 해안의 갈대를 꽉 붙잡은 채 떠다니고 있었다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -147,13 +172,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n난 그가 마지막 순간까지 삶의 희망을 포기하지 않았다고 생각했다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n난 그가 마지막 순간까지 삶의 희망을 포기하지 않았다고 생각했다."
+        "multi": "true,",
+        "text": "\\n난 그가 마지막 순간까지 삶의 희망을 포기하지 않았다고 생각했다.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n멀지 않은 곳에서 군용 방수백에 들어 있는 노트를 발견했다. 마지막 기록은 그가 출발하기 전에 남긴 것이었다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n멀지 않은 곳에서 군용 방수백에 들어 있는 노트를 발견했다. 마지막 기록은 그가 출발하기 전에 남긴 것이었다."
+        "multi": "true,",
+        "text": "\\n멀지 않은 곳에서 군용 방수백에 들어 있는 노트를 발견했다. 마지막 기록은 그가 출발하기 전에 남긴 것이었다.",
+        "block": true
     },
     {
         "id": "st1",
@@ -164,6 +193,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"“나는 이번 지원 요청 신호 전달 임무에 자원했고, 임무가 끝나면 돌아오지 않을 생각이다.”\", x=300,y=270, alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "“나는 이번 지원 요청 신호 전달 임무에 자원했고, 임무가 끝나면 돌아오지 않을 생각이다.”",
         "x": "300,y=270,",
         "alignment": "left",
@@ -175,7 +205,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n“그 누구도 살아 돌아가지 못할 테니까.” (선으로 지운 자국)\",block = true)]",
         "type": "sticker",
-        "text": "\\n“그 누구도 살아 돌아가지 못할 테니까.” (선으로 지운 자국)"
+        "multi": "true,",
+        "text": "\\n“그 누구도 살아 돌아가지 못할 테니까.” (선으로 지운 자국)",
+        "block": true
     },
     {
         "id": "st1",
@@ -212,7 +244,8 @@
     {
         "id": 31,
         "raw": "[interlude(channel = 2,clear = true)]",
-        "type": "interlude"
+        "type": "interlude",
+        "channel": "2,clear"
     },
     {
         "id": 32,
@@ -301,6 +334,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"나는 그 병사가 필기한 내용이 무척이나 마음에 걸렸다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "나는 그 병사가 필기한 내용이 무척이나 마음에 걸렸다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -312,19 +346,25 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n두 개의 분대, 총 23명.\",block = true)]",
         "type": "sticker",
-        "text": "\\n두 개의 분대, 총 23명."
+        "multi": "true,",
+        "text": "\\n두 개의 분대, 총 23명.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n어둠 속에서 침묵을 지키고 있는 시청 건물을 제외하고, 광장 주변의 모든 것들은 이미 포화로 인해 폐허가 된 상태였다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n어둠 속에서 침묵을 지키고 있는 시청 건물을 제외하고, 광장 주변의 모든 것들은 이미 포화로 인해 폐허가 된 상태였다."
+        "multi": "true,",
+        "text": "\\n어둠 속에서 침묵을 지키고 있는 시청 건물을 제외하고, 광장 주변의 모든 것들은 이미 포화로 인해 폐허가 된 상태였다.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n적어도 그때의 참상은 내게 전장에선 그 누구도 사신의 함정을 벗어날 수 없다는 사실을 일깨워 줬다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n적어도 그때의 참상은 내게 전장에선 그 누구도 사신의 함정을 벗어날 수 없다는 사실을 일깨워 줬다."
+        "multi": "true,",
+        "text": "\\n적어도 그때의 참상은 내게 전장에선 그 누구도 사신의 함정을 벗어날 수 없다는 사실을 일깨워 줬다.",
+        "block": true
     },
     {
         "id": "st1",
@@ -581,6 +621,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"난 비나 씨가 이다음에 하는 말들을 제대로 귀담아 듣지 않았다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "난 비나 씨가 이다음에 하는 말들을 제대로 귀담아 듣지 않았다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -592,13 +633,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n이건 '회색 모자'의 질나쁜 장난 같은 걸까? 아니면…… 전장에서 흔히 일어나는 일인 걸까?\",block = true)]",
         "type": "sticker",
-        "text": "\\n이건 '회색 모자'의 질나쁜 장난 같은 걸까? 아니면…… 전장에서 흔히 일어나는 일인 걸까?"
+        "multi": "true,",
+        "text": "\\n이건 '회색 모자'의 질나쁜 장난 같은 걸까? 아니면…… 전장에서 흔히 일어나는 일인 걸까?",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n구조 신호와 구원 여부, 누군가를 구하기 위해 누군가는 희생해야 하는…… 규칙같은 것들.\",block = true)]",
         "type": "sticker",
-        "text": "\\n구조 신호와 구원 여부, 누군가를 구하기 위해 누군가는 희생해야 하는…… 규칙같은 것들."
+        "multi": "true,",
+        "text": "\\n구조 신호와 구원 여부, 누군가를 구하기 위해 누군가는 희생해야 하는…… 규칙같은 것들.",
+        "block": true
     },
     {
         "id": "st1",
@@ -803,6 +848,7 @@
         "widgetID": "1",
         "name": "avgnew_112_siege_1#1$2",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0.5,",
         "offsetx": "0,",
         "width": "200,",
@@ -879,6 +925,7 @@
         "widgetID": "3",
         "name": "avg_155_tiger_1#10$1",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0.5,",
         "offsetx": "0,",
         "width": "200,",
@@ -916,6 +963,7 @@
         "widgetID": "1",
         "name": "avgnew_112_siege_1#10$2",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0,",
         "offsetx": "0,",
         "width": "200,",
@@ -971,6 +1019,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"창가의 불이 꺼지는 것을 보았다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "창가의 불이 꺼지는 것을 보았다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -982,7 +1031,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n……성공인가?\",block = true)]",
         "type": "sticker",
-        "text": "\\n……성공인가?"
+        "multi": "true,",
+        "text": "\\n……성공인가?",
+        "block": true
     },
     {
         "id": "st1",
@@ -1043,6 +1094,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"잠깐만…… 파울비스트?\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "잠깐만…… 파울비스트?",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1054,7 +1106,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n검은 파울비스트 한 마리가 나루터의 집에서 날아올랐다. 그 파울비스트는 나루터 위를 한 바퀴 돌더니, 살카즈 캠프가 있는 방향으로 날아갔다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n검은 파울비스트 한 마리가 나루터의 집에서 날아올랐다. 그 파울비스트는 나루터 위를 한 바퀴 돌더니, 살카즈 캠프가 있는 방향으로 날아갔다."
+        "multi": "true,",
+        "text": "\\n검은 파울비스트 한 마리가 나루터의 집에서 날아올랐다. 그 파울비스트는 나루터 위를 한 바퀴 돌더니, 살카즈 캠프가 있는 방향으로 날아갔다.",
+        "block": true
     },
     {
         "id": "st1",
@@ -1141,6 +1195,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"그리고 또 다른 민첩한 검은 형체가 집을 발판 삼아 날아오르더니 달빛을 가로질러 파울비스트에게 달려들었다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "그리고 또 다른 민첩한 검은 형체가 집을 발판 삼아 날아오르더니 달빛을 가로질러 파울비스트에게 달려들었다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1183,6 +1238,7 @@
         "widgetID": "4",
         "name": "avg_npc_396_1#9$1",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0.5,",
         "offsetx": "-300,",
         "width": "200,",
@@ -1214,6 +1270,7 @@
         "widgetID": "3",
         "name": "avg_155_tiger_1#2$1",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0.2,",
         "offsetx": "300,",
         "width": "200,",
@@ -1258,6 +1315,7 @@
         "widgetID": "1",
         "name": "avgnew_112_siege_1#1$2",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0,",
         "offsetx": "0,",
         "width": "200,",
@@ -1302,6 +1360,7 @@
         "widgetID": "5",
         "name": "avg_npc_405_1#5$1",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0,",
         "offsetx": "0,",
         "width": "200,",
@@ -1364,6 +1423,7 @@
         "widgetID": "1",
         "name": "avgnew_112_siege_1#2$2",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0,",
         "offsetx": "0,",
         "width": "200,",
@@ -1383,6 +1443,7 @@
         "widgetID": "1",
         "name": "avgnew_112_siege_1#1$2",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0,",
         "offsetx": "0,",
         "width": "200,",
@@ -1420,6 +1481,7 @@
         "widgetID": "5",
         "name": "avg_npc_405_1#5$1",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0,",
         "offsetx": "0,",
         "width": "200,",
@@ -1482,6 +1544,7 @@
         "widgetID": "1",
         "name": "avgnew_112_siege_1#1$2",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0,",
         "offsetx": "0,",
         "width": "200,",
@@ -1502,6 +1565,7 @@
         "widgetID": "1",
         "name": "avgnew_112_siege_1#10$2",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0,",
         "offsetx": "0,",
         "width": "200,",
@@ -1547,6 +1611,7 @@
         "widgetID": "9",
         "name": "avg_npc_054",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0.5,",
         "offsetx": "0,",
         "width": "200,",
@@ -1654,6 +1719,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"신호는 완전한 침묵에 빠졌다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "신호는 완전한 침묵에 빠졌다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1670,6 +1736,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"10분이라는 짧은 시간이 지났음에도, 나는 그녀들에게서 아무런 통신도 받을 수 없었다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "10분이라는 짧은 시간이 지났음에도, 나는 그녀들에게서 아무런 통신도 받을 수 없었다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1681,13 +1748,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n저 건물에는 대체 얼마나 많은 인원이 있는 걸까? 구조 신호를 보낸 부대의 상황은? 비나 씨 일행이 벌써 들킨 건 아닐까?\",block = true)]",
         "type": "sticker",
-        "text": "\\n저 건물에는 대체 얼마나 많은 인원이 있는 걸까? 구조 신호를 보낸 부대의 상황은? 비나 씨 일행이 벌써 들킨 건 아닐까?"
+        "multi": "true,",
+        "text": "\\n저 건물에는 대체 얼마나 많은 인원이 있는 걸까? 구조 신호를 보낸 부대의 상황은? 비나 씨 일행이 벌써 들킨 건 아닐까?",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n나는 알 수 없었다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n나는 알 수 없었다."
+        "multi": "true,",
+        "text": "\\n나는 알 수 없었다.",
+        "block": true
     },
     {
         "id": "st1",
@@ -1698,6 +1769,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"둔치 위에 엎드려 있는 내 심장 소리가 갈수록 무거워졌다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "둔치 위에 엎드려 있는 내 심장 소리가 갈수록 무거워졌다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1709,7 +1781,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n그 심장 소리는 카뮈강에 흘러들어, 흐르는 물 소리와 공명하였다. 점점 더 빠르게, 그리고 점점 더 격렬하게……\",block = true)]",
         "type": "sticker",
-        "text": "\\n그 심장 소리는 카뮈강에 흘러들어, 흐르는 물 소리와 공명하였다. 점점 더 빠르게, 그리고 점점 더 격렬하게……"
+        "multi": "true,",
+        "text": "\\n그 심장 소리는 카뮈강에 흘러들어, 흐르는 물 소리와 공명하였다. 점점 더 빠르게, 그리고 점점 더 격렬하게……",
+        "block": true
     },
     {
         "id": "st1",
@@ -1783,6 +1857,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"결국 들켰나?\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "결국 들켰나?",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1794,7 +1869,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n잠깐, 꼭대기에 누군가 손을 흔들고 있잖아? 저건…… 비나 씨?\",block = true)]",
         "type": "sticker",
-        "text": "\\n잠깐, 꼭대기에 누군가 손을 흔들고 있잖아? 저건…… 비나 씨?"
+        "multi": "true,",
+        "text": "\\n잠깐, 꼭대기에 누군가 손을 흔들고 있잖아? 저건…… 비나 씨?",
+        "block": true
     },
     {
         "id": "st1",
@@ -1894,6 +1971,7 @@
         "widgetID": "1",
         "name": "avgnew_112_siege_1#5$2",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0.2,",
         "offsetx": "-300,",
         "width": "200,",
@@ -1925,6 +2003,7 @@
         "widgetID": "6",
         "name": "avg_npc_229_1#1",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0.5,",
         "offsetx": "300,",
         "width": "200,",
@@ -1951,6 +2030,7 @@
         "widgetID": "1",
         "name": "avgnew_112_siege_1#3$2",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0,",
         "offsetx": "-300,",
         "width": "200,",
@@ -2027,6 +2107,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"'치직…… 치직……'\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "'치직…… 치직……'",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2038,13 +2119,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n채널을 통해 환호성이 들려왔다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n채널을 통해 환호성이 들려왔다."
+        "multi": "true,",
+        "text": "\\n채널을 통해 환호성이 들려왔다.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n그녀들이 해낸 것이다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n그녀들이 해낸 것이다."
+        "multi": "true,",
+        "text": "\\n그녀들이 해낸 것이다.",
+        "block": true
     },
     {
         "id": "st1",
@@ -2074,6 +2159,7 @@
         "widgetID": "6",
         "name": "avg_npc_229_1#6",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0.2,",
         "offsetx": "0,",
         "width": "200,",
@@ -2118,6 +2204,7 @@
         "widgetID": "1",
         "name": "avgnew_112_siege_1#3$2",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0.2,",
         "offsetx": "0,",
         "width": "200,",
@@ -2162,6 +2249,7 @@
         "widgetID": "6",
         "name": "avg_npc_229_1#1",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0.2,",
         "offsetx": "0,",
         "width": "200,",
@@ -2209,6 +2297,7 @@
         "widgetID": "6",
         "name": "avg_npc_229_1#6",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0,",
         "offsetx": "0,",
         "width": "200,",
@@ -2271,6 +2360,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"채널은 쥐 죽은 듯 고요했다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "채널은 쥐 죽은 듯 고요했다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2282,13 +2372,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n그녀의 목소리는 듣기에 꽤나 홀가분한 느낌이었다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n그녀의 목소리는 듣기에 꽤나 홀가분한 느낌이었다."
+        "multi": "true,",
+        "text": "\\n그녀의 목소리는 듣기에 꽤나 홀가분한 느낌이었다.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n투표라니. 전장에서의 투표는 두 가지 선택지밖에 없다. 삶이냐, 죽음이냐.\",block = true)]",
         "type": "sticker",
-        "text": "\\n투표라니. 전장에서의 투표는 두 가지 선택지밖에 없다. 삶이냐, 죽음이냐."
+        "multi": "true,",
+        "text": "\\n투표라니. 전장에서의 투표는 두 가지 선택지밖에 없다. 삶이냐, 죽음이냐.",
+        "block": true
     },
     {
         "id": "st1",
@@ -2299,6 +2393,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"비나 씨는 생각에 잠긴 모양이다. 만약 나라면 어떤 선택을 내렸을까? 만약 어머니였다면?\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "비나 씨는 생각에 잠긴 모양이다. 만약 나라면 어떤 선택을 내렸을까? 만약 어머니였다면?",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2334,6 +2429,7 @@
         "widgetID": "1",
         "name": "avgnew_112_siege_1#1$2",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0.2,",
         "offsetx": "0,",
         "width": "200,",
@@ -2455,6 +2551,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"내가 비나 씨를 지지하는 건 그녀가 왕위 후계자이기 때문이 아니다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "내가 비나 씨를 지지하는 건 그녀가 왕위 후계자이기 때문이 아니다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2466,13 +2563,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n그녀에겐 패배를 모르는 용기가 있다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n그녀에겐 패배를 모르는 용기가 있다."
+        "multi": "true,",
+        "text": "\\n그녀에겐 패배를 모르는 용기가 있다.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n물론 누군가는 이를 무모하다고 할 것이다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n물론 누군가는 이를 무모하다고 할 것이다."
+        "multi": "true,",
+        "text": "\\n물론 누군가는 이를 무모하다고 할 것이다.",
+        "block": true
     },
     {
         "id": "st1",
@@ -2483,6 +2584,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"그럼에도 불구하고 나는 그녀에게 기대를 걸고 있다. 그녀라면 끝까지 해낼 것이라고, 그녀라면 이 지옥에서 빠져나갈 길을 만들어 낼 것이라고.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "그럼에도 불구하고 나는 그녀에게 기대를 걸고 있다. 그녀라면 끝까지 해낼 것이라고, 그녀라면 이 지옥에서 빠져나갈 길을 만들어 낼 것이라고.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2494,7 +2596,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n나 또한…… 그렇게 믿어야 한다. 그래야만 그 지옥에서 벗어날 수 있으니까.\",block = true)]",
         "type": "sticker",
-        "text": "\\n나 또한…… 그렇게 믿어야 한다. 그래야만 그 지옥에서 벗어날 수 있으니까."
+        "multi": "true,",
+        "text": "\\n나 또한…… 그렇게 믿어야 한다. 그래야만 그 지옥에서 벗어날 수 있으니까.",
+        "block": true
     },
     {
         "id": "st1",
@@ -2505,6 +2609,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"난 심지어 그날에 있었던 일조차 떠올릴 수 없었다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "난 심지어 그날에 있었던 일조차 떠올릴 수 없었다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2516,13 +2621,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n델핀…… 델핀, 일단은 눈앞의 일에 집중하자.\",block = true)]",
         "type": "sticker",
-        "text": "\\n델핀…… 델핀, 일단은 눈앞의 일에 집중하자."
+        "multi": "true,",
+        "text": "\\n델핀…… 델핀, 일단은 눈앞의 일에 집중하자.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n경계 임무도 끝났으니 이제 그녀들과 합류해야 해.\",block = true)]",
         "type": "sticker",
-        "text": "\\n경계 임무도 끝났으니 이제 그녀들과 합류해야 해."
+        "multi": "true,",
+        "text": "\\n경계 임무도 끝났으니 이제 그녀들과 합류해야 해.",
+        "block": true
     },
     {
         "id": "st1",
@@ -2670,6 +2779,7 @@
         "widgetID": "1",
         "name": "avg_npc_235",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0.5,",
         "offsetx": "0,",
         "width": "200,",
@@ -3159,6 +3269,7 @@
         "widgetID": "1",
         "name": "avg_155_tiger_1#1$1",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0.5,",
         "offsetx": "0,",
         "width": "200,",
@@ -3196,6 +3307,7 @@
         "widgetID": "2",
         "name": "avg_npc_396_1#9$1",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0.2,",
         "offsetx": "0,",
         "width": "200,",
@@ -3258,6 +3370,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"나는 해머를 쥔 비나 씨의 손이 떨리고 있는 것을 봤다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "나는 해머를 쥔 비나 씨의 손이 떨리고 있는 것을 봤다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -3269,13 +3382,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n흥분일까? 두려움일까? 아니면 둘 다?\",block = true)]",
         "type": "sticker",
-        "text": "\\n흥분일까? 두려움일까? 아니면 둘 다?"
+        "multi": "true,",
+        "text": "\\n흥분일까? 두려움일까? 아니면 둘 다?",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n잘 모르겠다. 내 두 손은 차갑지 그지없다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n잘 모르겠다. 내 두 손은 차갑지 그지없다."
+        "multi": "true,",
+        "text": "\\n잘 모르겠다. 내 두 손은 차갑지 그지없다.",
+        "block": true
     },
     {
         "id": "st1",
@@ -3286,6 +3403,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"일주일.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "일주일.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -3297,13 +3415,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n공작의 부대는 정말로 오는 걸까? 만약 실패한다면 어떻게 되는 걸까? 만약 더 많은 살카즈들이 이곳을 눈치챈다면?\",block = true)]",
         "type": "sticker",
-        "text": "\\n공작의 부대는 정말로 오는 걸까? 만약 실패한다면 어떻게 되는 걸까? 만약 더 많은 살카즈들이 이곳을 눈치챈다면?"
+        "multi": "true,",
+        "text": "\\n공작의 부대는 정말로 오는 걸까? 만약 실패한다면 어떻게 되는 걸까? 만약 더 많은 살카즈들이 이곳을 눈치챈다면?",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n난 다양한 가능성들을 끊임없이 분석했다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n난 다양한 가능성들을 끊임없이 분석했다."
+        "multi": "true,",
+        "text": "\\n난 다양한 가능성들을 끊임없이 분석했다.",
+        "block": true
     },
     {
         "id": "st1",
@@ -3552,6 +3674,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"순찰대가 쓰러지는 그 순간, 살카즈 캠프의 경보가 울리기 시작했다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "순찰대가 쓰러지는 그 순간, 살카즈 캠프의 경보가 울리기 시작했다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -3563,7 +3686,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n내게 생각할 여유 따윈 남지 않았다…… 사수전은 이미 시작되었다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n내게 생각할 여유 따윈 남지 않았다…… 사수전은 이미 시작되었다."
+        "multi": "true,",
+        "text": "\\n내게 생각할 여유 따윈 남지 않았다…… 사수전은 이미 시작되었다.",
+        "block": true
     },
     {
         "id": "st1",
@@ -3912,6 +4037,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"살카즈\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "살카즈",
         "x": "300,y=270,",
         "alignment": "left",
@@ -3923,7 +4049,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n또 다시 내 머리 속에 그날의 일들이 떠오르기 시작했다. 아니, 이건 좋지 않다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n또 다시 내 머리 속에 그날의 일들이 떠오르기 시작했다. 아니, 이건 좋지 않다."
+        "multi": "true,",
+        "text": "\\n또 다시 내 머리 속에 그날의 일들이 떠오르기 시작했다. 아니, 이건 좋지 않다.",
+        "block": true
     },
     {
         "id": "st1",
@@ -3965,6 +4093,7 @@
         "widgetID": "1",
         "name": "avgnew_112_siege_1#10$2",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0.5,",
         "offsetx": "0,",
         "width": "200,",
@@ -4040,6 +4169,7 @@
         "widgetID": "1",
         "name": "avgnew_112_siege_1#10$2",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0.5,",
         "offsetx": "0,",
         "width": "200,",
@@ -4084,6 +4214,7 @@
         "widgetID": "2",
         "name": "avg_npc_405_1#5$1",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0.5,",
         "offsetx": "-300,",
         "width": "200,",
@@ -4115,6 +4246,7 @@
         "widgetID": "3",
         "name": "avg_155_tiger_1#2$1",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0.5,",
         "offsetx": "300,",
         "width": "200,",
@@ -4134,6 +4266,7 @@
         "widgetID": "2",
         "name": "avg_npc_405_1#3$1",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0,",
         "offsetx": "-300,",
         "width": "200,",
@@ -4160,6 +4293,7 @@
         "widgetID": "3",
         "name": "avg_155_tiger_1#1$1",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0,",
         "offsetx": "300,",
         "width": "200,",
@@ -4204,6 +4338,7 @@
         "widgetID": "1",
         "name": "avgnew_112_siege_1#1$2",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0,",
         "offsetx": "0,",
         "width": "200,",
@@ -4279,6 +4414,7 @@
         "widgetID": "2",
         "name": "avg_npc_405_1#6$1",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0,",
         "offsetx": "0,",
         "width": "200,",
@@ -4323,6 +4459,7 @@
         "widgetID": "1",
         "name": "avgnew_112_siege_1#5$2",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0,",
         "offsetx": "0,",
         "width": "200,",
@@ -4374,6 +4511,7 @@
         "widgetID": "7",
         "name": "avg_npc_235",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0.5,",
         "offsetx": "0,",
         "width": "200,",
@@ -4547,6 +4685,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"먼 곳으로부터 길고 날카로운 소리가 들려왔다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "먼 곳으로부터 길고 날카로운 소리가 들려왔다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -4558,7 +4697,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n불안한 기운이 맹렬하게 덮쳐왔다. 악의가 공기 중에 퍼져 나가는 느낌이다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n불안한 기운이 맹렬하게 덮쳐왔다. 악의가 공기 중에 퍼져 나가는 느낌이다."
+        "multi": "true,",
+        "text": "\\n불안한 기운이 맹렬하게 덮쳐왔다. 악의가 공기 중에 퍼져 나가는 느낌이다.",
+        "block": true
     },
     {
         "id": "st1",
@@ -4944,6 +5085,7 @@
         "id": 665,
         "raw": "[charslot(slot = \"l\", action=\"shake\",random=true, power=5, times=60,duration=0.3)]",
         "type": "charslot",
+        "slot": "l",
         "action": "shake",
         "random": "true,",
         "power": "5,",
@@ -5184,6 +5326,7 @@
         "widgetID": "1",
         "name": "avgnew_112_siege_1#1$2",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0.5,",
         "offsetx": "0,",
         "width": "200,",
@@ -5240,6 +5383,7 @@
         "widgetID": "8",
         "name": "avg_npc_229_1#1",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0.5,",
         "offsetx": "0,",
         "width": "200,",
@@ -5284,6 +5428,7 @@
         "widgetID": "2",
         "name": "avg_npc_405_1#11$1",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0.5,",
         "offsetx": "-300,",
         "width": "200,",
@@ -5315,6 +5460,7 @@
         "widgetID": "3",
         "name": "avg_155_tiger_1#7$1",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0.5,",
         "offsetx": "300,",
         "width": "200,",
@@ -5373,6 +5519,7 @@
         "widgetID": "7",
         "name": "avg_npc_235",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0.5,",
         "offsetx": "-300,",
         "width": "200,",
@@ -5392,6 +5539,7 @@
         "widgetID": "1",
         "name": "avgnew_112_siege_1#5$2",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0.2,",
         "offsetx": "300,",
         "width": "200,",
@@ -5418,6 +5566,7 @@
         "widgetID": "1",
         "name": "avgnew_112_siege_1#1$2",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0,",
         "offsetx": "300,",
         "width": "200,",
@@ -5562,6 +5711,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"난 2층으로 향하는 계단 입구에 멍하니 서 있었다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "난 2층으로 향하는 계단 입구에 멍하니 서 있었다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -5578,6 +5728,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"어느 정도 시간이 지나고 나서야, 나는 좌측 외벽이 완전히 무너져버린 건물이 바로 우리가 적어도…… 닷새 넘게 사수했던 그 시청 건물이라는 사실을 깨달았다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "어느 정도 시간이 지나고 나서야, 나는 좌측 외벽이 완전히 무너져버린 건물이 바로 우리가 적어도…… 닷새 넘게 사수했던 그 시청 건물이라는 사실을 깨달았다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -5589,19 +5740,25 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n이제 더 이상 창과 감시용 구멍은 필요하지 않았다. 광장이 참혹한 자신의 모습을 적나라하게 드러내고 있었기 때문이다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n이제 더 이상 창과 감시용 구멍은 필요하지 않았다. 광장이 참혹한 자신의 모습을 적나라하게 드러내고 있었기 때문이다."
+        "multi": "true,",
+        "text": "\\n이제 더 이상 창과 감시용 구멍은 필요하지 않았다. 광장이 참혹한 자신의 모습을 적나라하게 드러내고 있었기 때문이다.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n폐허 속에서 이동식 전쟁 제단의 붉은 결정이 햇빛에 비춰져 괴이한 빛을 내뿜고 있었고, 제단의 금속 뼈대도 그 불길한 빛을 반사하고 있었다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n폐허 속에서 이동식 전쟁 제단의 붉은 결정이 햇빛에 비춰져 괴이한 빛을 내뿜고 있었고, 제단의 금속 뼈대도 그 불길한 빛을 반사하고 있었다."
+        "multi": "true,",
+        "text": "\\n폐허 속에서 이동식 전쟁 제단의 붉은 결정이 햇빛에 비춰져 괴이한 빛을 내뿜고 있었고, 제단의 금속 뼈대도 그 불길한 빛을 반사하고 있었다.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n그것은 마치 제단이 피를 직시하라, 쇠락을 직시하라, 죽음을 직시하라고 속삭이는 것만 같았다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n그것은 마치 제단이 피를 직시하라, 쇠락을 직시하라, 죽음을 직시하라고 속삭이는 것만 같았다."
+        "multi": "true,",
+        "text": "\\n그것은 마치 제단이 피를 직시하라, 쇠락을 직시하라, 죽음을 직시하라고 속삭이는 것만 같았다.",
+        "block": true
     },
     {
         "id": "st1",
@@ -5612,6 +5769,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"이게 바로 어머니가 여태 해왔던 일이었을까……\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "이게 바로 어머니가 여태 해왔던 일이었을까……",
         "x": "300,y=270,",
         "alignment": "left",
@@ -5639,6 +5797,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"……그리고 이것이 지난 며칠 동안 내가 어머니를 떠올린 유일한 순간이었다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "……그리고 이것이 지난 며칠 동안 내가 어머니를 떠올린 유일한 순간이었다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -6119,6 +6278,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"비나 씨의 계획은 복잡하지 않았다. 포격을 기다렸다가 망치로 코어를 부수어 연쇄 폭발을 일으킨다. 그것이 끝이었다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "비나 씨의 계획은 복잡하지 않았다. 포격을 기다렸다가 망치로 코어를 부수어 연쇄 폭발을 일으킨다. 그것이 끝이었다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -6130,7 +6290,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n우리가 기다려야 하는 것은 오직 타이밍뿐이었고, 이제 그 타이밍이 눈앞에 다가오고 있었다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n우리가 기다려야 하는 것은 오직 타이밍뿐이었고, 이제 그 타이밍이 눈앞에 다가오고 있었다."
+        "multi": "true,",
+        "text": "\\n우리가 기다려야 하는 것은 오직 타이밍뿐이었고, 이제 그 타이밍이 눈앞에 다가오고 있었다.",
+        "block": true
     },
     {
         "id": "st1",
@@ -6141,6 +6303,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"적들은 이미 우릴 조준하고 있다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "적들은 이미 우릴 조준하고 있다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -6152,7 +6315,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n심장을 찌르는 악의가 괴로울 정도로 역겨웠었다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n심장을 찌르는 악의가 괴로울 정도로 역겨웠었다."
+        "multi": "true,",
+        "text": "\\n심장을 찌르는 악의가 괴로울 정도로 역겨웠었다.",
+        "block": true
     },
     {
         "id": "st1",
@@ -6235,6 +6400,7 @@
         "widgetID": "1",
         "name": "avgnew_112_siege_1#5$2",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0.5,",
         "offsetx": "300,",
         "width": "200,",
@@ -6266,6 +6432,7 @@
         "widgetID": "7",
         "name": "avg_npc_235",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0.5,",
         "offsetx": "-300,",
         "width": "200,",
@@ -6285,6 +6452,7 @@
         "widgetID": "1",
         "name": "avgnew_112_siege_1#10$2",
         "style": "cutin",
+        "fadestyle": "horiz_expand_center",
         "fadetime": "0,",
         "offsetx": "300,",
         "width": "200,",
@@ -6399,6 +6567,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"붉은 빛.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "붉은 빛.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -6410,7 +6579,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n나는 갑판 위의 그 색깔을 떠올렸다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n나는 갑판 위의 그 색깔을 떠올렸다."
+        "multi": "true,",
+        "text": "\\n나는 갑판 위의 그 색깔을 떠올렸다.",
+        "block": true
     },
     {
         "id": "st1",
@@ -6421,6 +6592,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"제단 속 악마의 눈이 날 바라보고 있다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "제단 속 악마의 눈이 날 바라보고 있다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -6455,7 +6627,8 @@
         "id": 869,
         "raw": "[Effect(name=\"$e_slash_fold\",layer = 1)]",
         "type": "effect",
-        "name": "$e_slash_fold"
+        "name": "$e_slash_fold",
+        "layer": 1
     },
     {
         "id": 870,
@@ -6526,6 +6699,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"은색 빛줄기가 호를 그리며 악마의 눈을 뜨게 만들었다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "은색 빛줄기가 호를 그리며 악마의 눈을 뜨게 만들었다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -6537,13 +6711,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n단검이 살카즈 포격수의 목을 그으며 떨어졌고, 경쾌하게 미저리의 손에 다시 돌아왔다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n단검이 살카즈 포격수의 목을 그으며 떨어졌고, 경쾌하게 미저리의 손에 다시 돌아왔다."
+        "multi": "true,",
+        "text": "\\n단검이 살카즈 포격수의 목을 그으며 떨어졌고, 경쾌하게 미저리의 손에 다시 돌아왔다.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n코어를 향해 있던 적들의 손이 잠시 멈칫했으나, 다시 이내 관성처럼 결사의 결정을 이어나간다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n코어를 향해 있던 적들의 손이 잠시 멈칫했으나, 다시 이내 관성처럼 결사의 결정을 이어나간다."
+        "multi": "true,",
+        "text": "\\n코어를 향해 있던 적들의 손이 잠시 멈칫했으나, 다시 이내 관성처럼 결사의 결정을 이어나간다.",
+        "block": true
     },
     {
         "id": "st1",
@@ -6629,6 +6807,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"하늘에서 떨어진 거대한 망치와 붉은 파문이 가볍게 맞부딪힌다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "하늘에서 떨어진 거대한 망치와 붉은 파문이 가볍게 맞부딪힌다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -6842,6 +7021,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"'펑'.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "'펑'.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -6853,7 +7033,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n비나 씨는 마치 운석처럼 건물 안으로 내동댕이쳐졌다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n비나 씨는 마치 운석처럼 건물 안으로 내동댕이쳐졌다."
+        "multi": "true,",
+        "text": "\\n비나 씨는 마치 운석처럼 건물 안으로 내동댕이쳐졌다.",
+        "block": true
     },
     {
         "id": "st1",
@@ -6993,6 +7175,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"0.5초.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "0.5초.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -7004,7 +7187,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n제단의 가동 속도는 우리의 예상보다 빨랐다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n제단의 가동 속도는 우리의 예상보다 빨랐다."
+        "multi": "true,",
+        "text": "\\n제단의 가동 속도는 우리의 예상보다 빨랐다.",
+        "block": true
     },
     {
         "id": "st1",
@@ -7092,6 +7277,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"거대한 망치가 부서진 벽에 깊게 박혔다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "거대한 망치가 부서진 벽에 깊게 박혔다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -7103,7 +7289,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n나는 먼지 속에서 한 치 앞도 볼 수 없었다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n나는 먼지 속에서 한 치 앞도 볼 수 없었다."
+        "multi": "true,",
+        "text": "\\n나는 먼지 속에서 한 치 앞도 볼 수 없었다.",
+        "block": true
     },
     {
         "id": "st1",
@@ -7161,6 +7349,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"내가 눈 속에 들어간 먼지들을 털어냈을 때, 벽에 박혀 있던 거대 망치는 흔적도 없이 사라져 있었다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "내가 눈 속에 들어간 먼지들을 털어냈을 때, 벽에 박혀 있던 거대 망치는 흔적도 없이 사라져 있었다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -7280,6 +7469,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"그림자 하나가 벽을 타고 빠르게 위를 향해 올라가고 있었다. 손에 들린 망치는 곡괭이의 역할을 했고, 벽에 한 번 꽂힐 때마다 건물 전체가 떨렸다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "그림자 하나가 벽을 타고 빠르게 위를 향해 올라가고 있었다. 손에 들린 망치는 곡괭이의 역할을 했고, 벽에 한 번 꽂힐 때마다 건물 전체가 떨렸다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -7348,6 +7538,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"다그다는 역광 속에서 내밀어진 그 손을 끌어당겼다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "다그다는 역광 속에서 내밀어진 그 손을 끌어당겼다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -7359,7 +7550,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n비나 씨가 힘을 주자 밟고 있던 기와가 깨졌고, 그녀는 다시 하늘을 향해 뛰어올랐다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n비나 씨가 힘을 주자 밟고 있던 기와가 깨졌고, 그녀는 다시 하늘을 향해 뛰어올랐다."
+        "multi": "true,",
+        "text": "\\n비나 씨가 힘을 주자 밟고 있던 기와가 깨졌고, 그녀는 다시 하늘을 향해 뛰어올랐다.",
+        "block": true
     },
     {
         "id": "st1",
@@ -7388,6 +7581,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"붉은색 파문이 몰려왔다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "붉은색 파문이 몰려왔다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -7473,6 +7667,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"나는 폭풍 속에서 고개를 들었다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "나는 폭풍 속에서 고개를 들었다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -7484,7 +7679,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n여명 아래서 그녀의 금빛 머릿결이 불타오르고 있었다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n여명 아래서 그녀의 금빛 머릿결이 불타오르고 있었다."
+        "multi": "true,",
+        "text": "\\n여명 아래서 그녀의 금빛 머릿결이 불타오르고 있었다.",
+        "block": true
     },
     {
         "id": "st1",
@@ -7495,6 +7692,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"높이 들어올린 망치는 지평선을 뛰어넘어, 마치 태양과 한 몸이 된 듯했다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "높이 들어올린 망치는 지평선을 뛰어넘어, 마치 태양과 한 몸이 된 듯했다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -7506,7 +7704,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n파문은 부서졌고, 난폭한 힘이 코어를 향한다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n파문은 부서졌고, 난폭한 힘이 코어를 향한다."
+        "multi": "true,",
+        "text": "\\n파문은 부서졌고, 난폭한 힘이 코어를 향한다.",
+        "block": true
     },
     {
         "id": "st1",
@@ -7718,6 +7918,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"아무것도 들리지 않았다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "아무것도 들리지 않았다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -7729,7 +7930,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n그 눈부신 빛살에 나는 눈조차 제대로 뜰 수 없었다.\",block = true)]",
         "type": "sticker",
-        "text": "\\n그 눈부신 빛살에 나는 눈조차 제대로 뜰 수 없었다."
+        "multi": "true,",
+        "text": "\\n그 눈부신 빛살에 나는 눈조차 제대로 뜰 수 없었다.",
+        "block": true
     },
     {
         "id": "st1",
@@ -7936,6 +8139,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"난 분명 그 척후병의 노트에 이런 문장이 더 추가되었을 거라고 생각했다.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "난 분명 그 척후병의 노트에 이런 문장이 더 추가되었을 거라고 생각했다.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -7964,6 +8168,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"“우리는 살아남았다.”\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "“우리는 살아남았다.”",
         "x": "300,y=270,",
         "alignment": "left",
@@ -7975,37 +8180,49 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n“희생된 7명의 영웅들을 기리며……”\",block = true)]",
         "type": "sticker",
-        "text": "\\n“희생된 7명의 영웅들을 기리며……”"
+        "multi": "true,",
+        "text": "\\n“희생된 7명의 영웅들을 기리며……”",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n“아비게일, 노포트 구역의 평민 출신. 알렉산드라, 체틀리 카운티 평민 출신.”\",block = true)]",
         "type": "sticker",
-        "text": "\\n“아비게일, 노포트 구역의 평민 출신. 알렉산드라, 체틀리 카운티 평민 출신.”"
+        "multi": "true,",
+        "text": "\\n“아비게일, 노포트 구역의 평민 출신. 알렉산드라, 체틀리 카운티 평민 출신.”",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n“헨더슨, 오슈테리그 구 군인 출신. 벤틀리, 린카딘 군인 출신.”\",block = true)]",
         "type": "sticker",
-        "text": "\\n“헨더슨, 오슈테리그 구 군인 출신. 벤틀리, 린카딘 군인 출신.”"
+        "multi": "true,",
+        "text": "\\n“헨더슨, 오슈테리그 구 군인 출신. 벤틀리, 린카딘 군인 출신.”",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n“이름 및 신원 불명.”\",block = true)]",
         "type": "sticker",
-        "text": "\\n“이름 및 신원 불명.”"
+        "multi": "true,",
+        "text": "\\n“이름 및 신원 불명.”",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n“이름 및 신원 불명……”\",block = true)]",
         "type": "sticker",
-        "text": "\\n“이름 및 신원 불명……”"
+        "multi": "true,",
+        "text": "\\n“이름 및 신원 불명……”",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n“이름 및 (나머지 글씨는 일그러져 알아볼 수 없다)”\",block = true)]",
         "type": "sticker",
-        "text": "\\n“이름 및 (나머지 글씨는 일그러져 알아볼 수 없다)”"
+        "multi": "true,",
+        "text": "\\n“이름 및 (나머지 글씨는 일그러져 알아볼 수 없다)”",
+        "block": true
     },
     {
         "id": "st1",

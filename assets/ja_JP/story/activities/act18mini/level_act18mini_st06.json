@@ -67,10 +67,13 @@
         "time": 1
     },
     {
-        "id": 10,
+        "id": "at1",
         "raw": "[animtext(id = \"at1\", name = \"group_location_stamp\", style=\"avg_both\", pos = \"-400,-200\", block = false)]<p=1>「ライフボーン」</><p=2>1098年10月、サルカズ大規模撤退作戦</>",
         "type": "anim_text",
+        "name": "group_location_stamp",
         "style": "avg_both",
+        "pos": "-400,-200",
+        "block": false,
         "content": "<p=1>「ライフボーン」</><p=2>1098年10月、サルカズ大規模撤退作戦</>"
     },
     {
@@ -4098,14 +4101,26 @@
         "id": 563,
         "raw": "[interlude(maskid = \"group_interclude_vertical_common\" ,size = \"290,760\", style=0 ,switch = true, offset = \"0,0\", channel = 3,tsfrom = \"0,1\", tsto=\"1,1\",tsduration = 0.5)]",
         "type": "interlude",
+        "maskid": "group_interclude_vertical_common",
+        "size": "290,760",
         "style": 0,
-        "tsto": "1,1"
+        "switch": "true,",
+        "offset": "0,0",
+        "channel": "3,tsfrom",
+        "tsto": "1,1",
+        "tsduration": 0.5
     },
     {
         "id": 564,
         "raw": "[interlude(channel = 3, type = 3, slot = \"m\", switch = false, pfrom = \"0,0\", pto=\"0,0\", name = \"avg_1035_wisdel_1#9$1\", duration = 1)]",
-        "type": "interlude",
-        "pto": "0,0"
+        "type": "3,",
+        "channel": "3,",
+        "slot": "m",
+        "switch": "false,",
+        "pfrom": "0,0",
+        "pto": "0,0",
+        "name": "avg_1035_wisdel_1#9$1",
+        "duration": 1
     },
     {
         "id": 565,
@@ -4116,12 +4131,16 @@
     {
         "id": 566,
         "raw": "[charslot(slot = \"m\", focus = \"m\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "focus": "m"
     },
     {
         "id": 567,
         "raw": "[interlude(channel = 3, switch = true)]",
-        "type": "interlude"
+        "type": "interlude",
+        "channel": "3,",
+        "switch": true
     },
     {
         "id": 568,
@@ -4158,7 +4177,9 @@
     {
         "id": 573,
         "raw": "[interlude(channel = 3, switch = false)]",
-        "type": "interlude"
+        "type": "interlude",
+        "channel": "3,",
+        "switch": false
     },
     {
         "id": 574,
@@ -4233,7 +4254,9 @@
     {
         "id": 582,
         "raw": "[interlude(channel = 3, switch = true)]",
-        "type": "interlude"
+        "type": "interlude",
+        "channel": "3,",
+        "switch": true
     },
     {
         "id": 583,
@@ -4258,7 +4281,10 @@
         "id": 586,
         "raw": "[interlude(channel = 3, clear = true,tsfrom=\"1,1\", tsto =\"0,1\",tsduration = 0.5)]",
         "type": "interlude",
-        "tsfrom": "1,1"
+        "channel": "3,",
+        "clear": "true,tsfrom=\"1,1\",",
+        "tsto": "0,1",
+        "tsduration": 0.5
     },
     {
         "id": 587,
@@ -4269,7 +4295,9 @@
     {
         "id": 588,
         "raw": "[interlude(channel = 3, clear = true)]",
-        "type": "interlude"
+        "type": "interlude",
+        "channel": "3,",
+        "clear": true
     },
     {
         "id": 589,

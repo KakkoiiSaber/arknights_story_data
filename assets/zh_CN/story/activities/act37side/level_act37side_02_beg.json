@@ -64,12 +64,16 @@
         "id": 8,
         "raw": "[curtain(direction = 0,fillfrom = 0.01,fillto = 0.15,grad = true,fadetime=0.1)]",
         "type": "curtain",
+        "direction": "0,fillfrom",
+        "fillto": "0.15,grad",
         "fadetime": 0.1
     },
     {
         "id": 9,
         "raw": "[curtain(direction = 4,fillfrom = 0.01,fillto = 0.15,grad = true,fadetime=0.1)]",
         "type": "curtain",
+        "direction": "4,fillfrom",
+        "fillto": "0.15,grad",
         "fadetime": 0.1
     },
     {
@@ -117,6 +121,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"愿广阔的大地保佑吾王♪\", x=300,y=200, alignment=\"center\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "愿广阔的大地保佑吾王♪",
         "x": "300,y=200,",
         "alignment": "center",
@@ -128,25 +133,33 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n\\n保佑他的人民和他的福祉♪\",block = true)]",
         "type": "sticker",
-        "text": "\\n\\n保佑他的人民和他的福祉♪"
+        "multi": "true,",
+        "text": "\\n\\n保佑他的人民和他的福祉♪",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n\\n赐予我们无限的恩典♪\",block = true)]",
         "type": "sticker",
-        "text": "\\n\\n赐予我们无限的恩典♪"
+        "multi": "true,",
+        "text": "\\n\\n赐予我们无限的恩典♪",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n\\n让我们欢乐地歌唱♪\",block = true)]",
         "type": "sticker",
-        "text": "\\n\\n让我们欢乐地歌唱♪"
+        "multi": "true,",
+        "text": "\\n\\n让我们欢乐地歌唱♪",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n\\n维多利亚，我的故乡！♪\",block = true)]",
         "type": "sticker",
-        "text": "\\n\\n维多利亚，我的故乡！♪"
+        "multi": "true,",
+        "text": "\\n\\n维多利亚，我的故乡！♪",
+        "block": true
     },
     {
         "id": "st1",
@@ -207,10 +220,13 @@
         "type": "dialog_marker"
     },
     {
-        "id": 29,
+        "id": "at1",
         "raw": "[animtext(id = \"at1\", name = \"group_location_stamp\", style=\"avg_both\", pos = \"-400,-200\", block = false)]<p=1>圣王会西部大堂王座厅</><p=2>1098年10月8日 9:45 P.M.</>",
         "type": "anim_text",
+        "name": "group_location_stamp",
         "style": "avg_both",
+        "pos": "-400,-200",
+        "block": false,
         "content": "<p=1>圣王会西部大堂王座厅</><p=2>1098年10月8日 9:45 P.M.</>"
     },
     {
@@ -875,6 +891,8 @@
         "id": 123,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_656_1#1$1\", duration=2)]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_656_1#1$1.png",
         "duration": 2
     },
     {
@@ -967,6 +985,8 @@
         "id": 138,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_656_1#1$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_656_1#1$1.png",
         "focus": "m"
     },
     {
@@ -1087,6 +1107,8 @@
         "id": 153,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_656_1#1$1\",focus=\"n\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_656_1#1$1.png",
         "focus": "n"
     },
     {
@@ -1111,6 +1133,8 @@
         "id": 157,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_656_1#1$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_656_1#1$1.png",
         "focus": "m"
     },
     {
@@ -1225,6 +1249,8 @@
         "id": 171,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_656_1#1$1\",focus=\"n\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_656_1#1$1.png",
         "focus": "n"
     },
     {
@@ -1249,6 +1275,8 @@
         "id": 175,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_656_1#1$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_656_1#1$1.png",
         "focus": "m"
     },
     {
@@ -1433,6 +1461,8 @@
         "id": 198,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_656_1#5$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_656_1#5$1.png",
         "focus": "m"
     },
     {
@@ -1522,6 +1552,8 @@
         "id": 209,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_656_1#5$1\",focus=\"n\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_656_1#5$1.png",
         "focus": "n"
     },
     {
@@ -1546,6 +1578,8 @@
         "id": 213,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_656_1#5$1\",focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_656_1#5$1.png",
         "focus": "m"
     },
     {
@@ -1716,10 +1750,13 @@
         "type": "dialog_marker"
     },
     {
-        "id": 235,
+        "id": "at1",
         "raw": "[animtext(id = \"at1\", name = \"group_location_stamp\", style=\"avg_both\", pos = \"-400,-200\", block = false)]<p=1>议长办公室</><p=2>1098年12月10日 7:32 P.M.</>",
         "type": "anim_text",
+        "name": "group_location_stamp",
         "style": "avg_both",
+        "pos": "-400,-200",
+        "block": false,
         "content": "<p=1>议长办公室</><p=2>1098年12月10日 7:32 P.M.</>"
     },
     {
@@ -2637,6 +2674,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>“典范军”</i>\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>“典范军”</i>",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2648,13 +2686,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>“我们创造奇迹。”</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>“我们创造奇迹。”</i>"
+        "multi": "true,",
+        "text": "\\n<i>“我们创造奇迹。”</i>",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>可奇迹落幕之后呢？典范军又该何去何从？</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>可奇迹落幕之后呢？典范军又该何去何从？</i>"
+        "multi": "true,",
+        "text": "\\n<i>可奇迹落幕之后呢？典范军又该何去何从？</i>",
+        "block": true
     },
     {
         "id": "st1",
@@ -2672,6 +2714,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>号角说过，上一支典范军的奇迹留在了高卢，留在了军校的教科书里。那我们呢？在真正回到伦蒂尼姆之前，没人需要考虑这个问题。</i>\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>号角说过，上一支典范军的奇迹留在了高卢，留在了军校的教科书里。那我们呢？在真正回到伦蒂尼姆之前，没人需要考虑这个问题。</i>",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2683,13 +2726,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>全城广播宣布维多利亚人重新接管了自己的城市那一刻，我队伍里年纪最小的那个孩子问我：</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>全城广播宣布维多利亚人重新接管了自己的城市那一刻，我队伍里年纪最小的那个孩子问我：</i>"
+        "multi": "true,",
+        "text": "\\n<i>全城广播宣布维多利亚人重新接管了自己的城市那一刻，我队伍里年纪最小的那个孩子问我：</i>",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>“接下来，我们要去哪？”</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>“接下来，我们要去哪？”</i>"
+        "multi": "true,",
+        "text": "\\n<i>“接下来，我们要去哪？”</i>",
+        "block": true
     },
     {
         "id": "st1",
@@ -2707,6 +2754,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>我兴奋地说，回家，我会回“揍歪下巴”拳馆，和汉娜、维娜、达格达一起。你也可以回家呀！</i>\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>我兴奋地说，回家，我会回“揍歪下巴”拳馆，和汉娜、维娜、达格达一起。你也可以回家呀！</i>",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2718,13 +2766,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>可那个孩子告诉我......</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>可那个孩子告诉我......</i>"
+        "multi": "true,",
+        "text": "\\n<i>可那个孩子告诉我......</i>",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>“我没有家了，我只有你们。”</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>“我没有家了，我只有你们。”</i>"
+        "multi": "true,",
+        "text": "\\n<i>“我没有家了，我只有你们。”</i>",
+        "block": true
     },
     {
         "id": "st1",
@@ -3478,6 +3530,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>那位曾经和我们一起冲锋突入城内的士兵就站在夕阳里，接受着我们的“审问”。</i>\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>那位曾经和我们一起冲锋突入城内的士兵就站在夕阳里，接受着我们的“审问”。</i>",
         "x": "300,y=270,",
         "alignment": "left",
@@ -3489,13 +3542,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>我们所有人都清楚，维娜可以影响议会......只要她想。</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>我们所有人都清楚，维娜可以影响议会......只要她想。</i>"
+        "multi": "true,",
+        "text": "\\n<i>我们所有人都清楚，维娜可以影响议会......只要她想。</i>",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>也是从那天起，我突然真正意识到，维娜早已经不再只属于格拉斯哥帮。</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>也是从那天起，我突然真正意识到，维娜早已经不再只属于格拉斯哥帮。</i>"
+        "multi": "true,",
+        "text": "\\n<i>也是从那天起，我突然真正意识到，维娜早已经不再只属于格拉斯哥帮。</i>",
+        "block": true
     },
     {
         "id": "st1",
@@ -3569,6 +3626,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>我的维娜或许在那个下午已经告别了我们。</i>\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>我的维娜或许在那个下午已经告别了我们。</i>",
         "x": "300,y=270,",
         "alignment": "left",
@@ -3580,13 +3638,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>彼时，全城工厂同时启动，齐声轰鸣，升腾而起的蒸汽冲上天幕。</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>彼时，全城工厂同时启动，齐声轰鸣，升腾而起的蒸汽冲上天幕。</i>"
+        "multi": "true,",
+        "text": "\\n<i>彼时，全城工厂同时启动，齐声轰鸣，升腾而起的蒸汽冲上天幕。</i>",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>我看到了她金色的头发在气浪中飞舞，挡住了她眼中稍纵即逝的泪光。她笑着回头和我们说——</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>我看到了她金色的头发在气浪中飞舞，挡住了她眼中稍纵即逝的泪光。她笑着回头和我们说——</i>"
+        "multi": "true,",
+        "text": "\\n<i>我看到了她金色的头发在气浪中飞舞，挡住了她眼中稍纵即逝的泪光。她笑着回头和我们说——</i>",
+        "block": true
     },
     {
         "id": "st1",
@@ -3641,6 +3703,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>我们到家了，可并不是一切都按照我们预想的那样发展。</i>\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>我们到家了，可并不是一切都按照我们预想的那样发展。</i>",
         "x": "300,y=270,",
         "alignment": "left",
@@ -3652,13 +3715,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>我很怕，回归即是告别——</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>我很怕，回归即是告别——</i>"
+        "multi": "true,",
+        "text": "\\n<i>我很怕，回归即是告别——</i>",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>我很怕......我们会失去维娜。</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>我很怕......我们会失去维娜。</i>"
+        "multi": "true,",
+        "text": "\\n<i>我很怕......我们会失去维娜。</i>",
+        "block": true
     },
     {
         "id": "st1",
@@ -3840,10 +3907,13 @@
         "type": "dialog_marker"
     },
     {
-        "id": 526,
+        "id": "at1",
         "raw": "[animtext(id = \"at1\", name = \"group_location_stamp\", style=\"avg_both\", pos = \"-400,-200\", block = false)]<p=1>伦蒂尼姆</><p=2>1098年9月28日 5:27 P.M.</>",
         "type": "anim_text",
+        "name": "group_location_stamp",
         "style": "avg_both",
+        "pos": "-400,-200",
+        "block": false,
         "content": "<p=1>伦蒂尼姆</><p=2>1098年9月28日 5:27 P.M.</>"
     },
     {
@@ -4682,6 +4752,8 @@
         "id": 642,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1342_1#1$1\", bstart=0.2,bend=0.7,duration=1)]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1342_1#1$1.png",
         "bstart": "0.2,bend=0.7,duration=1"
     },
     {
@@ -4694,6 +4766,8 @@
         "id": 644,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1342_1#1$1\",bstart=0.2,bend=0.7,focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1342_1#1$1.png",
         "bstart": "0.2,bend=0.7,focus=\"m\""
     },
     {
@@ -4753,6 +4827,8 @@
         "id": 653,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1342_1#1$1\",bstart=0.2,bend=0.7,focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1342_1#1$1.png",
         "bstart": "0.2,bend=0.7,focus=\"m\""
     },
     {
@@ -4860,10 +4936,13 @@
         "type": "dialog_marker"
     },
     {
-        "id": 668,
+        "id": "at1",
         "raw": "[animtext(id = \"at1\", name = \"group_location_stamp\", style=\"avg_both\", pos = \"-400,-200\", block = false)]<p=1>议长办公室</><p=2>1098年12月10日 9:28 P.M.</>",
         "type": "anim_text",
+        "name": "group_location_stamp",
         "style": "avg_both",
+        "pos": "-400,-200",
+        "block": false,
         "content": "<p=1>议长办公室</><p=2>1098年12月10日 9:28 P.M.</>"
     },
     {

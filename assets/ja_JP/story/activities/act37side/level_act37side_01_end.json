@@ -81,10 +81,13 @@
         "type": "dialog_marker"
     },
     {
-        "id": 12,
+        "id": "at1",
         "raw": "[animtext(id = \"at1\", name = \"group_location_stamp\", style=\"avg_both\", pos = \"-400,-200\", block = false)]<p=1>聖王会西部大広間</><p=2>1098年10月8日 p.m. 7:28</>",
         "type": "anim_text",
+        "name": "group_location_stamp",
         "style": "avg_both",
+        "pos": "-400,-200",
+        "block": false,
         "content": "<p=1>聖王会西部大広間</><p=2>1098年10月8日 p.m. 7:28</>"
     },
     {
@@ -358,13 +361,17 @@
         "id": 53,
         "raw": "[curtain(direction = 0,fillfrom = 0.01,fillto = 0.11,grad = true, fadetime=1.5)]",
         "type": "curtain",
+        "direction": "0,fillfrom",
+        "fillto": "0.11,grad",
         "fadetime": 1.5
     },
     {
         "id": 54,
         "raw": "[curtain(direction = 4,fillfrom = 0.01,fillto = 0.11, grad = true,fadetime=1.5)]",
         "type": "curtain",
-        "fadetime": 1.5
+        "direction": "4,fillfrom",
+        "fillto": "0.11,",
+        "grad": "true,fadetime=1.5"
     },
     {
         "id": 55,
@@ -1389,6 +1396,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>ヴィーナは、一貫して秘密会議のことを記録する必要があるという主張を曲げなかった――</i>\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>ヴィーナは、一貫して秘密会議のことを記録する必要があるという主張を曲げなかった――</i>",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1400,7 +1408,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>ロンディニウムの未来を決定する会議なのだから、ロンディニウムの市民にはその内容を知る権利があると。</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>ロンディニウムの未来を決定する会議なのだから、ロンディニウムの市民にはその内容を知る権利があると。</i>"
+        "multi": "true,",
+        "text": "\\n<i>ロンディニウムの未来を決定する会議なのだから、ロンディニウムの市民にはその内容を知る権利があると。</i>",
+        "block": true
     },
     {
         "id": "st1",
@@ -1411,6 +1421,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>吾輩は物陰に立って、彼らの言葉を一言一句客観的に記録しようとした。だけどヴィーナが腰から剣を抜き、悠然と語るバカどもに切っ先を向けた時……</i>\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>吾輩は物陰に立って、彼らの言葉を一言一句客観的に記録しようとした。だけどヴィーナが腰から剣を抜き、悠然と語るバカどもに切っ先を向けた時……</i>",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1422,7 +1433,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>全員容赦なく斬り捨ててほしいと心から思った。少なくともそうすれば、その後起こることは何もかも変わっていたと思う。</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>全員容赦なく斬り捨ててほしいと心から思った。少なくともそうすれば、その後起こることは何もかも変わっていたと思う。</i>"
+        "multi": "true,",
+        "text": "\\n<i>全員容赦なく斬り捨ててほしいと心から思った。少なくともそうすれば、その後起こることは何もかも変わっていたと思う。</i>",
+        "block": true
     },
     {
         "id": "st1",
@@ -2878,10 +2891,13 @@
         "type": "dialog_marker"
     },
     {
-        "id": 414,
+        "id": "at1",
         "raw": "[animtext(id = \"at1\", name = \"group_location_stamp\", style=\"avg_both\", pos = \"-400,-200\", block = false)]<p=1>シネセルド大広間議会ホール</><p=2>1098年12月8日 p.m. 5:01</>",
         "type": "anim_text",
+        "name": "group_location_stamp",
         "style": "avg_both",
+        "pos": "-400,-200",
+        "block": false,
         "content": "<p=1>シネセルド大広間議会ホール</><p=2>1098年12月8日 p.m. 5:01</>"
     },
     {
@@ -3170,7 +3186,11 @@
     {
         "id": 455,
         "raw": "[charslot(slot = \"m\", posfrom = \"0,0\", posto = \"-60,0\",duration = 0.5)]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "posfrom": "0,0",
+        "posto": "-60,0",
+        "duration": 0.5
     },
     {
         "id": 456,
@@ -3523,10 +3543,13 @@
         "type": "dialog_marker"
     },
     {
-        "id": 504,
+        "id": "at1",
         "raw": "[animtext(id = \"at1\", name = \"group_location_stamp\", style=\"avg_both\", pos = \"-400,-200\", block = false)]<p=1>「ミルスカー」の隠れ家</><p=2>1098年12月8日 p.m. 6:05</>",
         "type": "anim_text",
+        "name": "group_location_stamp",
         "style": "avg_both",
+        "pos": "-400,-200",
+        "block": false,
         "content": "<p=1>「ミルスカー」の隠れ家</><p=2>1098年12月8日 p.m. 6:05</>"
     },
     {
@@ -3702,6 +3725,7 @@
         "id": 530,
         "raw": "[charslot(slot = \"r\", action=\"shake\",random=true, power=5, times=40,duration=0.3)]",
         "type": "charslot",
+        "slot": "r",
         "action": "shake",
         "random": "true,",
         "power": "5,",

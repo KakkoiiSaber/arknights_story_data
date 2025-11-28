@@ -82,10 +82,13 @@
         "type": "dialog_marker"
     },
     {
-        "id": 12,
+        "id": "at1",
         "raw": "[animtext(id = \"at1\", name = \"group_location_stamp\", style=\"avg_both\", pos = \"-400,-200\", block = false)]<p=1>Londinium, Abandoned Factory</><p=2>December 8th, 1098, 4:43 P.M.</>",
         "type": "anim_text",
+        "name": "group_location_stamp",
         "style": "avg_both",
+        "pos": "-400,-200",
+        "block": false,
         "content": "<p=1>Londinium, Abandoned Factory</><p=2>December 8th, 1098, 4:43 P.M.</>"
     },
     {
@@ -179,12 +182,16 @@
         "id": 26,
         "raw": "[charslot(slot = \"l\", name = \"avg_npc_399_1#1$1\", duration=0.5)]",
         "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_399_1#1$1.png",
         "duration": 0.5
     },
     {
         "id": 27,
         "raw": "[charslot(slot = \"r\", name = \"avg_npc_399_1#1$1\", duration=0.5)]",
         "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_399_1#1$1.png",
         "duration": 0.5
     },
     {
@@ -729,6 +736,7 @@
         "id": 106,
         "raw": "[charslot(slot = \"m\", action=\"shake\",random=true, power=5, times=20,duration=0.3)]",
         "type": "charslot",
+        "slot": "m",
         "action": "shake",
         "random": "true,",
         "power": "5,",
@@ -1779,6 +1787,7 @@
         "id": 255,
         "raw": "[charslot(slot = \"l\", name=\"avg_npc_1342_1#1$1\",posfrom=\"50,0\",posto=\"0,0\",duration=2)]",
         "type": "charslot",
+        "slot": "l",
         "name": "avg_npc_1342_1#1$1.png",
         "posfrom": "50,0",
         "posto": "0,0",
@@ -1805,6 +1814,7 @@
         "id": 259,
         "raw": "[charslot(slot = \"r\", name=\"avg_npc_397_1#1$1\",posfrom=\"-50,-5\",posto=\"0,-5\",duration=2)]",
         "type": "charslot",
+        "slot": "r",
         "name": "avg_npc_397_1#1$1.png",
         "posfrom": "-50,-5",
         "posto": "0,-5",
@@ -1997,6 +2007,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>The Sineselde, once a royal estate often rented by nobles as a banquet hall. It wasn't until everyone was dealing with the headache of where to house Parliament that Vina realized there weren't many choices left for the Londiniers.</i>\", x=300,y=240,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>The Sineselde, once a royal estate often rented by nobles as a banquet hall. It wasn't until everyone was dealing with the headache of where to house Parliament that Vina realized there weren't many choices left for the Londiniers.</i>",
         "x": "300,y=240,",
         "alignment": "left",
@@ -2008,7 +2019,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>The chaos of war had destroyed far too much of this city.</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>The chaos of war had destroyed far too much of this city.</i>"
+        "multi": "true,",
+        "text": "\\n<i>The chaos of war had destroyed far too much of this city.</i>",
+        "block": true
     },
     {
         "id": "st1",
@@ -2019,6 +2032,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>I've seen this room many times before on posters and in movies. I used to be astonished by how massive it was, big enough for every gang boss to bring all their boys and girls in to sit down and have a chat about their turfs.</i>\", x=300,y=240,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>I've seen this room many times before on posters and in movies. I used to be astonished by how massive it was, big enough for every gang boss to bring all their boys and girls in to sit down and have a chat about their turfs.</i>",
         "x": "300,y=240,",
         "alignment": "left",
@@ -2030,13 +2044,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>But now, it disappoints me. It's filled to the gills, all cramped and suffocating.</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>But now, it disappoints me. It's filled to the gills, all cramped and suffocating.</i>"
+        "multi": "true,",
+        "text": "\\n<i>But now, it disappoints me. It's filled to the gills, all cramped and suffocating.</i>",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>Though Vina's never admitted it, I know her and I are of like mind—</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>Though Vina's never admitted it, I know her and I are of like mind—</i>"
+        "multi": "true,",
+        "text": "\\n<i>Though Vina's never admitted it, I know her and I are of like mind—</i>",
+        "block": true
     },
     {
         "id": "st1",
@@ -2567,6 +2585,7 @@
         "id": 365,
         "raw": "[charslot(slot = \"m\", action=\"shake\",random=true, power=5, times=30,duration=0.7)]",
         "type": "charslot",
+        "slot": "m",
         "action": "shake",
         "random": "true,",
         "power": "5,",
@@ -3305,6 +3324,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>To be honest, I've never really thought about that question.</i>\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>To be honest, I've never really thought about that question.</i>",
         "x": "300,y=270,",
         "alignment": "left",
@@ -3316,13 +3336,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>The Sarkaz who called himself Longshot never yelled or shouted, but the rowdy, chattering chamber went dead quiet as he spoke.</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>The Sarkaz who called himself Longshot never yelled or shouted, but the rowdy, chattering chamber went dead quiet as he spoke.</i>"
+        "multi": "true,",
+        "text": "\\n<i>The Sarkaz who called himself Longshot never yelled or shouted, but the rowdy, chattering chamber went dead quiet as he spoke.</i>",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>I looked at the people all around me, paying special attention to the nobles' expressions.</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>I looked at the people all around me, paying special attention to the nobles' expressions.</i>"
+        "multi": "true,",
+        "text": "\\n<i>I looked at the people all around me, paying special attention to the nobles' expressions.</i>",
+        "block": true
     },
     {
         "id": "st1",
@@ -3340,6 +3364,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>Those who had long made up their minds on the issue didn't feel like speaking up. As for those who hadn't, the more nervous of them had their eyes darting about, waiting for someone else to speak up first.</i>\", x=300,y=240,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>Those who had long made up their minds on the issue didn't feel like speaking up. As for those who hadn't, the more nervous of them had their eyes darting about, waiting for someone else to speak up first.</i>",
         "x": "300,y=240,",
         "alignment": "left",
@@ -3351,13 +3376,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>But me? I was part of the third kind of people. I didn't have to make up my mind, because Vina'd do it for me.</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>But me? I was part of the third kind of people. I didn't have to make up my mind, because Vina'd do it for me.</i>"
+        "multi": "true,",
+        "text": "\\n<i>But me? I was part of the third kind of people. I didn't have to make up my mind, because Vina'd do it for me.</i>",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>So that day, all I had to do was wait for her answer.</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>So that day, all I had to do was wait for her answer.</i>"
+        "multi": "true,",
+        "text": "\\n<i>So that day, all I had to do was wait for her answer.</i>",
+        "block": true
     },
     {
         "id": "st1",
@@ -3375,6 +3404,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>Just like the time I was up on the city walls, watching the Sarkaz troops leave the city, waiting for her to give me an answer.</i>\", x=300,y=310,  alignment=\"left\", size=24, delay=0.04, width=710,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>Just like the time I was up on the city walls, watching the Sarkaz troops leave the city, waiting for her to give me an answer.</i>",
         "x": "300,y=310,",
         "alignment": "left",
@@ -3524,6 +3554,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>I don't think I'm ever going to forget that sight, so long as I live.</i>\", x=300,y=240,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>I don't think I'm ever going to forget that sight, so long as I live.</i>",
         "x": "300,y=240,",
         "alignment": "left",
@@ -3535,7 +3566,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>Back then, I also had a question for Vina: Why're we allowing those Sarkaz who killed Baird to leave with so much pomp and circumstance?</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>Back then, I also had a question for Vina: Why're we allowing those Sarkaz who killed Baird to leave with so much pomp and circumstance?</i>"
+        "multi": "true,",
+        "text": "\\n<i>Back then, I also had a question for Vina: Why're we allowing those Sarkaz who killed Baird to leave with so much pomp and circumstance?</i>",
+        "block": true
     },
     {
         "id": "st1",
@@ -3608,6 +3641,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>She never said anything that day.</i>\", x=300,y=240,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>She never said anything that day.</i>",
         "x": "300,y=240,",
         "alignment": "left",
@@ -3643,10 +3677,13 @@
         "type": "dialog_marker"
     },
     {
-        "id": 509,
+        "id": "at1",
         "raw": "[animtext(id = \"at1\", name = \"group_location_stamp\", style=\"avg_both\", pos = \"-400,-200\", block = false)]<p=1>Atop Londinium's Walls</><p=2>October 8th, 1098, 8:48 P.M.</>",
         "type": "anim_text",
+        "name": "group_location_stamp",
         "style": "avg_both",
+        "pos": "-400,-200",
+        "block": false,
         "content": "<p=1>Atop Londinium's Walls</><p=2>October 8th, 1098, 8:48 P.M.</>"
     },
     {

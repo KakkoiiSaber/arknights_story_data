@@ -63,12 +63,25 @@
     {
         "id": 9,
         "raw": "[interlude(maskid = \"ui_cutin_mask_vertical\", style = 1, size = \"450, 720\",offset = \"-100,0\", channel = 2)]",
-        "type": "interlude"
+        "type": "interlude",
+        "maskid": "ui_cutin_mask_vertical",
+        "style": "1,",
+        "size": "450, 720",
+        "offset": "-100,0",
+        "channel": 2
     },
     {
         "id": 10,
         "raw": "[interlude(channel = 2, type = 2, name = \"bg_ltroom\", afrom = 0, ato = 1, aduration = 3, sfrom = \"1.3,1.3\", sto = \"1.3,1.3\", sduration = 0)]",
-        "type": "interlude"
+        "type": "2,",
+        "channel": "2,",
+        "name": "bg_ltroom",
+        "afrom": "0,",
+        "ato": "1,",
+        "aduration": "3,",
+        "sfrom": "1.3,1.3",
+        "sto": "1.3,1.3",
+        "sduration": 0
     },
     {
         "id": 11,
@@ -79,13 +92,24 @@
     {
         "id": 12,
         "raw": "[interlude(channel = 2, type = 1, slot = \"m\", offset = \"-100,-20\", name = \"cutin_char_16\",sfrom = \"0.9,0.9\", sto = \"0.9,0.9\",  aduration = 2,block=false)]",
-        "type": "interlude",
-        "block": false
+        "type": "1,",
+        "channel": "2,",
+        "slot": "m",
+        "offset": "-100,-20",
+        "name": "cutin_char_16",
+        "sfrom": "0.9,0.9",
+        "sto": "0.9,0.9",
+        "aduration": "2,block=false"
     },
     {
         "id": 13,
         "raw": "[interlude(channel = 2, type = 1, slot = \"m\", pfrom = \"-100,-20\", pto = \"-140,-20\", duration = 40)]",
-        "type": "interlude"
+        "type": "1,",
+        "channel": "2,",
+        "slot": "m",
+        "pfrom": "-100,-20",
+        "pto": "-140,-20",
+        "duration": 40
     },
     {
         "id": 14,
@@ -108,6 +132,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"In my wardrobe, I have a drawer specifically for collecting medals.\", x=300,y=270, alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "In my wardrobe, I have a drawer specifically for collecting medals.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -124,6 +149,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"The medal I received upon graduating from Cyr Military College, the fifteen-year service medal from the Defense Forces, the Londinium Freedom Medal awarded to me by City Hall four years ago, after quelling the chaos in the city.\", x=300,y=270, alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "The medal I received upon graduating from Cyr Military College, the fifteen-year service medal from the Defense Forces, the Londinium Freedom Medal awarded to me by City Hall four years ago, after quelling the chaos in the city.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -140,6 +166,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"Deeper in the drawer are the remnants of a previous order, passed down through my family. The emblem of the Vieux Vanguard, a piece of brick from Lingones, and a golden cup awarded by His Majesty Corsica I.\",x=300,y=270, alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "Deeper in the drawer are the remnants of a previous order, passed down through my family. The emblem of the Vieux Vanguard, a piece of brick from Lingones, and a golden cup awarded by His Majesty Corsica I.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -151,7 +178,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nThe cup is now split into two pieces, and the etchings on top are unclear. However, I remember the layout of each pattern, and the expressions on each relief figure.\",block = true)]",
         "type": "sticker",
-        "text": "\\nThe cup is now split into two pieces, and the etchings on top are unclear. However, I remember the layout of each pattern, and the expressions on each relief figure."
+        "multi": "true,",
+        "text": "\\nThe cup is now split into two pieces, and the etchings on top are unclear. However, I remember the layout of each pattern, and the expressions on each relief figure.",
+        "block": true
     },
     {
         "id": "st1",
@@ -162,6 +191,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"This is all that my parents, my uncles, and aunts, all that they hoped for: the glory of Gaul, a glory that cannot be denied, and would never fade.\", x=300,y=270, alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "This is all that my parents, my uncles, and aunts, all that they hoped for: the glory of Gaul, a glory that cannot be denied, and would never fade.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -195,6 +225,7 @@
         "id": 27,
         "raw": "[interlude(channel = 2,clear = true,duration=2)]",
         "type": "interlude",
+        "channel": "2,clear",
         "duration": 2
     },
     {
@@ -483,6 +514,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"The anger in his eyes deflates before it can reach a peak.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "The anger in his eyes deflates before it can reach a peak.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -494,19 +526,25 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nA coward, I evaluated him as much in the past. He may have had some courage in battle, but ultimately, he is a coward.\",block = true)]",
         "type": "sticker",
-        "text": "\\nA coward, I evaluated him as much in the past. He may have had some courage in battle, but ultimately, he is a coward."
+        "multi": "true,",
+        "text": "\\nA coward, I evaluated him as much in the past. He may have had some courage in battle, but ultimately, he is a coward.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nHe survives here with me in ignominy. He can't be compared to those warriors who resist the Sarkaz.\",block = true)]",
         "type": "sticker",
-        "text": "\\nHe survives here with me in ignominy. He can't be compared to those warriors who resist the Sarkaz."
+        "multi": "true,",
+        "text": "\\nHe survives here with me in ignominy. He can't be compared to those warriors who resist the Sarkaz.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nHe could never compare.\",block = true)]",
         "type": "sticker",
-        "text": "\\nHe could never compare."
+        "multi": "true,",
+        "text": "\\nHe could never compare.",
+        "block": true
     },
     {
         "id": "st1",
@@ -517,6 +555,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"......\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "......",
         "x": "300,y=270,",
         "alignment": "left",
@@ -528,7 +567,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nCould I?\",block = true)]",
         "type": "sticker",
-        "text": "\\nCould I?"
+        "multi": "true,",
+        "text": "\\nCould I?",
+        "block": true
     },
     {
         "id": "st1",
@@ -539,6 +580,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"Hah.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "Hah.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -550,13 +592,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nI... don't care.\",block = true)]",
         "type": "sticker",
-        "text": "\\nI... don't care."
+        "multi": "true,",
+        "text": "\\nI... don't care.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nIt's been a long time since I cared.\",block = true)]",
         "type": "sticker",
-        "text": "\\nIt's been a long time since I cared."
+        "multi": "true,",
+        "text": "\\nIt's been a long time since I cared.",
+        "block": true
     },
     {
         "id": "st1",
@@ -692,6 +738,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"......\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "......",
         "x": "300,y=270,",
         "alignment": "left",
@@ -703,13 +750,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nCheering Victorians...\",block = true)]",
         "type": "sticker",
-        "text": "\\nCheering Victorians..."
+        "multi": "true,",
+        "text": "\\nCheering Victorians...",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nThe first thing that comes to my mind is, surprisingly, that Victoria will win.\",block = true)]",
         "type": "sticker",
-        "text": "\\nThe first thing that comes to my mind is, surprisingly, that Victoria will win."
+        "multi": "true,",
+        "text": "\\nThe first thing that comes to my mind is, surprisingly, that Victoria will win.",
+        "block": true
     },
     {
         "id": "st1",
@@ -720,6 +771,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"No, it's probably just a force of habit. Naturally, I hope that Theresis will win. That's the prerequisite to him restoring Gaul.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "No, it's probably just a force of habit. Naturally, I hope that Theresis will win. That's the prerequisite to him restoring Gaul.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -731,19 +783,25 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nAll my sacrifices, all my betrayals, all my unforgivable sins were enacted in the service of Gaul.\",block = true)]",
         "type": "sticker",
-        "text": "\\nAll my sacrifices, all my betrayals, all my unforgivable sins were enacted in the service of Gaul."
+        "multi": "true,",
+        "text": "\\nAll my sacrifices, all my betrayals, all my unforgivable sins were enacted in the service of Gaul.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nYes, of course, I serve... Gaul.\",block = true)]",
         "type": "sticker",
-        "text": "\\nYes, of course, I serve... Gaul."
+        "multi": "true,",
+        "text": "\\nYes, of course, I serve... Gaul.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nI hope.\",block = true)]",
         "type": "sticker",
-        "text": "\\nI hope."
+        "multi": "true,",
+        "text": "\\nI hope.",
+        "block": true
     },
     {
         "id": "st1",
@@ -876,6 +934,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"Groups of people are led out by the Sarkaz forces, heading for the city walls in the distance.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "Groups of people are led out by the Sarkaz forces, heading for the city walls in the distance.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -887,13 +946,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nThe Sarkaz intend to fortify Londinium, and I'm afraid the final battle lies right before us.\",block = true)]",
         "type": "sticker",
-        "text": "\\nThe Sarkaz intend to fortify Londinium, and I'm afraid the final battle lies right before us."
+        "multi": "true,",
+        "text": "\\nThe Sarkaz intend to fortify Londinium, and I'm afraid the final battle lies right before us.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nDo they plan to defend the Victorian capital? Perhaps.\",block = true)]",
         "type": "sticker",
-        "text": "\\nDo they plan to defend the Victorian capital? Perhaps."
+        "multi": "true,",
+        "text": "\\nDo they plan to defend the Victorian capital? Perhaps.",
+        "block": true
     },
     {
         "id": "st1",
@@ -904,6 +967,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"Some of the men cast resentful glances at me. I know them. We once... shared a toast.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "Some of the men cast resentful glances at me. I know them. We once... shared a toast.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -915,13 +979,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nNo one stops me. The Sarkaz don't care where I'm going.\",block = true)]",
         "type": "sticker",
-        "text": "\\nNo one stops me. The Sarkaz don't care where I'm going."
+        "multi": "true,",
+        "text": "\\nNo one stops me. The Sarkaz don't care where I'm going.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nEven if you open the door for a caged fowlbeast, where can it fly?\",block = true)]",
         "type": "sticker",
-        "text": "\\nEven if you open the door for a caged fowlbeast, where can it fly?"
+        "multi": "true,",
+        "text": "\\nEven if you open the door for a caged fowlbeast, where can it fly?",
+        "block": true
     },
     {
         "id": "st1",
@@ -1061,6 +1129,8 @@
         "id": 145,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_401_1#1$1\",bstart=0.2,bend=0.7,focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_401_1#1$1.png",
         "bstart": "0.2,bend=0.7,focus=\"m\""
     },
     {
@@ -1084,12 +1154,18 @@
         "id": 148,
         "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#1$1\",posfrom = \"0,0\", posto = \"200,0\",focus=\"n\")]",
         "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_401_1#1$1.png",
+        "posfrom": "0,0",
+        "posto": "200,0",
         "focus": "n"
     },
     {
         "id": 149,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_401_1#1$1\",bstart=0,bend=0,duration=2,focus=\"m\")]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_401_1#1$1.png",
         "bstart": "0,bend=0,duration=2,focus=\"m\""
     },
     {
@@ -1133,6 +1209,8 @@
         "id": 156,
         "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#1$1\",focus=\"r\")]",
         "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_401_1#1$1.png",
         "focus": "r"
     },
     {
@@ -1176,6 +1254,8 @@
         "id": 162,
         "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#1$1\",focus=\"l\")]",
         "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_401_1#1$1.png",
         "focus": "l"
     },
     {
@@ -1240,6 +1320,8 @@
         "id": 171,
         "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#9$1\",focus=\"l\")]",
         "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_401_1#9$1.png",
         "focus": "l"
     },
     {
@@ -1275,6 +1357,8 @@
         "id": 176,
         "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#1$1\",focus=\"l\")]",
         "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_401_1#1$1.png",
         "focus": "l"
     },
     {
@@ -1324,6 +1408,8 @@
         "id": 183,
         "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#6$1\",focus=\"l\")]",
         "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_401_1#6$1.png",
         "focus": "l"
     },
     {
@@ -1387,6 +1473,8 @@
         "id": 192,
         "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#6$1\",focus=\"l\")]",
         "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_401_1#6$1.png",
         "focus": "l"
     },
     {
@@ -1400,6 +1488,8 @@
         "id": 194,
         "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#8$1\",focus=\"l\")]",
         "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_401_1#8$1.png",
         "focus": "l"
     },
     {
@@ -1428,6 +1518,8 @@
         "id": 198,
         "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#9$1\",focus=\"l\")]",
         "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_401_1#9$1.png",
         "focus": "l"
     },
     {
@@ -1463,6 +1555,8 @@
         "id": 203,
         "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#9$1\",focus=\"l\")]",
         "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_401_1#9$1.png",
         "focus": "l"
     },
     {
@@ -1483,6 +1577,8 @@
         "id": 206,
         "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#6$1\",focus=\"l\")]",
         "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_401_1#6$1.png",
         "focus": "l"
     },
     {
@@ -1525,6 +1621,8 @@
         "id": 212,
         "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#6$1\",focus=\"l\")]",
         "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_401_1#6$1.png",
         "focus": "l"
     },
     {
@@ -1559,6 +1657,8 @@
         "id": 217,
         "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#1$1\",focus=\"l\")]",
         "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_401_1#1$1.png",
         "focus": "l"
     },
     {
@@ -1616,6 +1716,8 @@
         "id": 225,
         "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#1$1\",focus=\"l\")]",
         "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_401_1#1$1.png",
         "focus": "l"
     },
     {
@@ -1702,6 +1804,8 @@
         "id": 237,
         "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#1$1\",focus=\"l\")]",
         "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_401_1#1$1.png",
         "focus": "l"
     },
     {
@@ -1751,6 +1855,8 @@
         "id": 244,
         "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#5$1\",focus=\"l\")]",
         "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_401_1#5$1.png",
         "focus": "l"
     },
     {
@@ -1794,6 +1900,8 @@
         "id": 250,
         "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#7$1\",focus=\"l\")]",
         "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_401_1#7$1.png",
         "focus": "l"
     },
     {
@@ -1822,6 +1930,8 @@
         "id": 254,
         "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#6$1\",focus=\"l\")]",
         "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_401_1#6$1.png",
         "focus": "l"
     },
     {
@@ -1842,6 +1952,8 @@
         "id": 257,
         "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#3$1\",focus=\"l\")]",
         "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_401_1#3$1.png",
         "focus": "l"
     },
     {
@@ -1962,6 +2074,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"Ces Lingones baignent nos yeux de larmes♪\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "Ces Lingones baignent nos yeux de larmes♪",
         "x": "300,y=270,",
         "alignment": "left",
@@ -1973,25 +2086,33 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nLe champ de bataille est chargé d'amertume et de peine♪\",block = true)]",
         "type": "sticker",
-        "text": "\\nLe champ de bataille est chargé d'amertume et de peine♪"
+        "multi": "true,",
+        "text": "\\nLe champ de bataille est chargé d'amertume et de peine♪",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nMais ce jour viendra, c'est certain♪\",block = true)]",
         "type": "sticker",
-        "text": "\\nMais ce jour viendra, c'est certain♪"
+        "multi": "true,",
+        "text": "\\nMais ce jour viendra, c'est certain♪",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nPour juger à mort les agresseurs♪\",block = true)]",
         "type": "sticker",
-        "text": "\\nPour juger à mort les agresseurs♪"
+        "multi": "true,",
+        "text": "\\nPour juger à mort les agresseurs♪",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nPour juger à mort les agresseurs♪\",block = true)]",
         "type": "sticker",
-        "text": "\\nPour juger à mort les agresseurs♪"
+        "multi": "true,",
+        "text": "\\nPour juger à mort les agresseurs♪",
+        "block": true
     },
     {
         "id": "st1",
@@ -2125,6 +2246,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"A 'Vieux Vanguard' living in the city.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "A 'Vieux Vanguard' living in the city.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2136,7 +2258,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nWhy is he the first thing to come to my mind in this moment?\",block = true)]",
         "type": "sticker",
-        "text": "\\nWhy is he the first thing to come to my mind in this moment?"
+        "multi": "true,",
+        "text": "\\nWhy is he the first thing to come to my mind in this moment?",
+        "block": true
     },
     {
         "id": "st1",
@@ -2205,6 +2329,8 @@
         "type": "charslot",
         "slot": "r",
         "name": "avg_npc_081.png",
+        "posfrom": "-60,0",
+        "posto": "-60,0",
         "bstart": "0.2,bend=0.7,afrom=0,ato=0,duration=0,focus=\"m\""
     },
     {
@@ -2316,6 +2442,8 @@
         "raw": "[charslot(slot=\"r\", posfrom = \"-60,0\", posto = \"60,0\",afrom=1,ato=1,duration=0.5,focus=\"m\")]",
         "type": "charslot",
         "slot": "r",
+        "posfrom": "-60,0",
+        "posto": "60,0",
         "afrom": "1,ato=1,duration=0.5,focus=\"m\""
     },
     {
@@ -2335,6 +2463,8 @@
         "id": 324,
         "raw": "[charslot(slot = \"r\", name = \"avg_npc_081\",bstart=0.2,bend=0.7,focus=\"m\")]",
         "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_081.png",
         "bstart": "0.2,bend=0.7,focus=\"m\""
     },
     {
@@ -2358,12 +2488,18 @@
         "id": 327,
         "raw": "[charslot(slot = \"l\", name = \"avg_npc_081\",posfrom = \"0,0\", posto = \"460,0\",focus=\"n\")]",
         "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_081.png",
+        "posfrom": "0,0",
+        "posto": "460,0",
         "focus": "n"
     },
     {
         "id": 328,
         "raw": "[charslot(slot = \"r\", name = \"avg_npc_081\",bstart=0,bend=0,duration=1,focus=\"r\")]",
         "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_081.png",
         "bstart": "0,bend=0,duration=1,focus=\"r\""
     },
     {
@@ -2418,6 +2554,8 @@
         "raw": "[charslot(slot=\"m\", posfrom = \"0,0\", posto = \"-200,0\",afrom=1,ato=1,duration=1.5)]",
         "type": "charslot",
         "slot": "m",
+        "posfrom": "0,0",
+        "posto": "-200,0",
         "afrom": "1,ato=1,duration=1.5"
     },
     {
@@ -2594,6 +2732,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"He's nearly ninety years old. He's been not-entirely-there for quite some time, forgetting nearly everything.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "He's nearly ninety years old. He's been not-entirely-there for quite some time, forgetting nearly everything.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2605,25 +2744,33 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nFor decades, his mind has remained in the golden age when the Gaulishmen joined Corsica I's march into Leithanien.\",block = true)]",
         "type": "sticker",
-        "text": "\\nFor decades, his mind has remained in the golden age when the Gaulishmen joined Corsica I's march into Leithanien."
+        "multi": "true,",
+        "text": "\\nFor decades, his mind has remained in the golden age when the Gaulishmen joined Corsica I's march into Leithanien.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nThe nurses always said he had only a year to live, but he's still here.\",block = true)]",
         "type": "sticker",
-        "text": "\\nThe nurses always said he had only a year to live, but he's still here."
+        "multi": "true,",
+        "text": "\\nThe nurses always said he had only a year to live, but he's still here.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nHe's lived to see Gaul become history.\",block = true)]",
         "type": "sticker",
-        "text": "\\nHe's lived to see Gaul become history."
+        "multi": "true,",
+        "text": "\\nHe's lived to see Gaul become history.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nHe's lived to Londinium teetering on the edge of her grave.\",block = true)]",
         "type": "sticker",
-        "text": "\\nHe's lived to Londinium teetering on the edge of her grave."
+        "multi": "true,",
+        "text": "\\nHe's lived to Londinium teetering on the edge of her grave.",
+        "block": true
     },
     {
         "id": "st1",
@@ -2634,6 +2781,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"......\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "......",
         "x": "300,y=270,",
         "alignment": "left",
@@ -2645,13 +2793,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nBefore I left the Defense Forces, I issued one last order, to guarantee the safety of this sanatorium.\",block = true)]",
         "type": "sticker",
-        "text": "\\nBefore I left the Defense Forces, I issued one last order, to guarantee the safety of this sanatorium."
+        "multi": "true,",
+        "text": "\\nBefore I left the Defense Forces, I issued one last order, to guarantee the safety of this sanatorium.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nThis is the only thing I did for myself in my entire long service to the Forces.\",block = true)]",
         "type": "sticker",
-        "text": "\\nThis is the only thing I did for myself in my entire long service to the Forces."
+        "multi": "true,",
+        "text": "\\nThis is the only thing I did for myself in my entire long service to the Forces.",
+        "block": true
     },
     {
         "id": "st1",
@@ -3046,6 +3198,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"......\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "......",
         "x": "300,y=270,",
         "alignment": "left",
@@ -3057,7 +3210,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n......\",block = true)]",
         "type": "sticker",
-        "text": "\\n......"
+        "multi": "true,",
+        "text": "\\n......",
+        "block": true
     },
     {
         "id": "st1",
@@ -3068,6 +3223,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"He'd fallen asleep minutes ago.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "He'd fallen asleep minutes ago.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -3079,7 +3235,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nRight then.\",block = true)]",
         "type": "sticker",
-        "text": "\\nRight then."
+        "multi": "true,",
+        "text": "\\nRight then.",
+        "block": true
     },
     {
         "id": "st1",
@@ -3157,6 +3315,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"I draw my saber. A sword that once belonged to a Gaulishman.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "I draw my saber. A sword that once belonged to a Gaulishman.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -3168,19 +3327,25 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nI think... it might be better to let him remain in that dream before the Sarkaz force their way in.\",block = true)]",
         "type": "sticker",
-        "text": "\\nI think... it might be better to let him remain in that dream before the Sarkaz force their way in."
+        "multi": "true,",
+        "text": "\\nI think... it might be better to let him remain in that dream before the Sarkaz force their way in.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nAt least it'll be a splendid dream.\",block = true)]",
         "type": "sticker",
-        "text": "\\nAt least it'll be a splendid dream."
+        "multi": "true,",
+        "text": "\\nAt least it'll be a splendid dream.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nBut me... despicable man that I am, dare not reach out to pollute—\",block = true)]",
         "type": "sticker",
-        "text": "\\nBut me... despicable man that I am, dare not reach out to pollute—"
+        "multi": "true,",
+        "text": "\\nBut me... despicable man that I am, dare not reach out to pollute—",
+        "block": true
     },
     {
         "id": "st1",
@@ -3316,6 +3481,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"......\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "......",
         "x": "300,y=270,",
         "alignment": "left",
@@ -3327,7 +3493,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nThe blood of the aged Youth Vanguard splatters my hands.\",block = true)]",
         "type": "sticker",
-        "text": "\\nThe blood of the aged Youth Vanguard splatters my hands."
+        "multi": "true,",
+        "text": "\\nThe blood of the aged Youth Vanguard splatters my hands.",
+        "block": true
     },
     {
         "id": "st1",
@@ -3452,6 +3620,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"The Prince of Blood himself, the Sanguinarch of Vampires, looks silently at the extravagant decor of the Victorian palace.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "The Prince of Blood himself, the Sanguinarch of Vampires, looks silently at the extravagant decor of the Victorian palace.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -3463,7 +3632,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nThe expression on his face could be described as... serene.\",block = true)]",
         "type": "sticker",
-        "text": "\\nThe expression on his face could be described as... serene."
+        "multi": "true,",
+        "text": "\\nThe expression on his face could be described as... serene.",
+        "block": true
     },
     {
         "id": "st1",
@@ -3685,6 +3856,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"A city annihilated, as one breathes a sigh.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "A city annihilated, as one breathes a sigh.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -3833,6 +4005,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"I bow deeply, but I feel his gaze lingering on me.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "I bow deeply, but I feel his gaze lingering on me.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -3957,6 +4130,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"My very blood grips my heart.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "My very blood grips my heart.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -4089,6 +4263,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"The Gaulishman's sword... I do my best to reach it.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "The Gaulishman's sword... I do my best to reach it.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -4100,7 +4275,9 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nThe despicable man's sword.\",block = true)]",
         "type": "sticker",
-        "text": "\\nThe despicable man's sword."
+        "multi": "true,",
+        "text": "\\nThe despicable man's sword.",
+        "block": true
     },
     {
         "id": "st1",
@@ -4300,6 +4477,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"The blade cuts across my throat, cold, chilling.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "The blade cuts across my throat, cold, chilling.",
         "x": "300,y=270,",
         "alignment": "left",
@@ -4311,19 +4489,25 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nI see my filthy blood gushing from my neck.\",block = true)]",
         "type": "sticker",
-        "text": "\\nI see my filthy blood gushing from my neck."
+        "multi": "true,",
+        "text": "\\nI see my filthy blood gushing from my neck.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nThe crimson liquid stains his clothes and splashes his face.\",block = true)]",
         "type": "sticker",
-        "text": "\\nThe crimson liquid stains his clothes and splashes his face."
+        "multi": "true,",
+        "text": "\\nThe crimson liquid stains his clothes and splashes his face.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nHah.\",block = true)]",
         "type": "sticker",
-        "text": "\\nHah."
+        "multi": "true,",
+        "text": "\\nHah.",
+        "block": true
     },
     {
         "id": "st1",

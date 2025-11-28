@@ -66,6 +66,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"'Life'. A concept so vague, yet so fascinating.\", x=250,y=250, alignment=\"center\", duration=1, size=24, delay=0.04, width=800)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "'Life'. A concept so vague, yet so fascinating.",
         "x": "250,y=250,",
         "alignment": "center",
@@ -78,19 +79,24 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n\\nWe've gotten used to treating any individual that thinks like us as life, for no other reason than the fact that they're like us.\", block = true)]",
         "type": "sticker",
-        "text": "\\n\\nWe've gotten used to treating any individual that thinks like us as life, for no other reason than the fact that they're like us."
+        "multi": "true,",
+        "text": "\\n\\nWe've gotten used to treating any individual that thinks like us as life, for no other reason than the fact that they're like us.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n\\nFor no other reason than that we all fight death to the bitter end for our own survival.\", block = true)]",
         "type": "sticker",
-        "text": "\\n\\nFor no other reason than that we all fight death to the bitter end for our own survival."
+        "multi": "true,",
+        "text": "\\n\\nFor no other reason than that we all fight death to the bitter end for our own survival.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", duration=1, block = false)]",
         "type": "sticker",
-        "duration": "1,"
+        "duration": "1,",
+        "block": false
     },
     {
         "id": 13,
@@ -102,6 +108,7 @@
         "id": "st2",
         "raw": "[Sticker(id=\"st2\", multi = true, text=\"But this is hubris, {@nickname}.\", x=250,y=350, alignment=\"center\", duration=1, size=24, delay=0.04, width=800)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "But this is hubris, {@nickname}.",
         "x": "250,y=350,",
         "alignment": "center",
@@ -114,7 +121,8 @@
         "id": "st2",
         "raw": "[Sticker(id=\"st2\", duration=2, block = false)]",
         "type": "sticker",
-        "duration": "2,"
+        "duration": "2,",
+        "block": false
     },
     {
         "id": 16,
@@ -152,7 +160,10 @@
     {
         "id": 20,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1727_1#1$1\", duration = 1.5)]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1727_1#1$1.png",
+        "duration": 1.5
     },
     {
         "id": 21,
@@ -249,6 +260,8 @@
         "id": 32,
         "raw": "[charslot(slot = \"r\", name = \"avg_npc_167\", posfrom=\"200,0\", posto=\"0,0\", duration=1, isblock=true)]",
         "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_167.png",
         "posfrom": "200,0",
         "posto": "0,0",
         "duration": "1,",
@@ -283,19 +296,33 @@
         "id": 37,
         "raw": "[charslot(slot = \"r\", focus=\"n\")]",
         "type": "charslot",
+        "slot": "r",
         "focus": "n"
     },
     {
         "id": 38,
         "raw": "[interlude(maskid = \"group_interclude_vertical_common\" ,size = \"290,760\",tsfrom=\"0,1\", tsto =\"1,1\",tsduration = 0.5, switch = true, style = 0,offset = \"-250,0\", channel = 3)]",
         "type": "interlude",
-        "tsfrom": "0,1"
+        "maskid": "group_interclude_vertical_common",
+        "size": "290,760",
+        "tsfrom": "0,1",
+        "tsto": "1,1",
+        "tsduration": "0.5,",
+        "switch": "true,",
+        "style": "0,offset",
+        "channel": 3
     },
     {
         "id": 39,
         "raw": "[interlude(channel = 3, switch = true, type = 3, slot = \"m\", pfrom = \"-250,0\", pto=\"-250,0\", name = \"avg_npc_1723_1#1$1\", duration = 0)]",
-        "type": "interlude",
-        "pto": "-250,0"
+        "type": "3,",
+        "channel": "3,",
+        "switch": "true,",
+        "slot": "m",
+        "pfrom": "-250,0",
+        "pto": "-250,0",
+        "name": "avg_npc_1723_1#1$1",
+        "duration": 0
     },
     {
         "id": 40,
@@ -313,12 +340,15 @@
     {
         "id": 42,
         "raw": "[interlude(channel = 3, switch = false)]",
-        "type": "interlude"
+        "type": "interlude",
+        "channel": "3,",
+        "switch": false
     },
     {
         "id": 43,
         "raw": "[charslot(slot = \"r\", focus=\"r\")]",
         "type": "charslot",
+        "slot": "r",
         "focus": "r"
     },
     {
@@ -331,7 +361,9 @@
     {
         "id": 45,
         "raw": "[interlude(channel = 3, clear = true)]",
-        "type": "interlude"
+        "type": "interlude",
+        "channel": "3,",
+        "clear": true
     },
     {
         "id": 46,
@@ -479,23 +511,40 @@
         "id": 63,
         "raw": "[interlude(maskid = \"group_interclude_vertical_common\" ,size = \"290,760\",tsfrom=\"0,1\", tsto =\"1,1\", tsduration = 0, switch = true, style = 0,offset = \"-250,0\", channel = 3)]",
         "type": "interlude",
-        "tsfrom": "0,1"
+        "maskid": "group_interclude_vertical_common",
+        "size": "290,760",
+        "tsfrom": "0,1",
+        "tsto": "1,1",
+        "tsduration": "0,",
+        "switch": "true,",
+        "style": "0,offset",
+        "channel": 3
     },
     {
         "id": 64,
         "raw": "[interlude(channel = 3, switch = true, type = 3, slot = \"m\", pfrom = \"-250,0\", pto=\"-250,0\", name = \"avg_npc_1723_1#1$1\", duration = 0)]",
-        "type": "interlude",
-        "pto": "-250,0"
+        "type": "3,",
+        "channel": "3,",
+        "switch": "true,",
+        "slot": "m",
+        "pfrom": "-250,0",
+        "pto": "-250,0",
+        "name": "avg_npc_1723_1#1$1",
+        "duration": 0
     },
     {
         "id": 65,
         "raw": "[interlude(channel = 3, switch = false)]",
-        "type": "interlude"
+        "type": "interlude",
+        "channel": "3,",
+        "switch": false
     },
     {
         "id": 66,
         "raw": "[charslot(slot = \"r\", name = \"avg_npc_167\", focus=\"r\")]",
         "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_167.png",
         "focus": "r"
     },
     {
@@ -516,13 +565,20 @@
         "id": 69,
         "raw": "[charslot(slot = \"r\", focus=\"n\")]",
         "type": "charslot",
+        "slot": "r",
         "focus": "n"
     },
     {
         "id": 70,
         "raw": "[interlude(channel = 3, switch = true, type = 3, slot = \"m\", pfrom = \"-250,0\", pto=\"-250,0\", name = \"avg_npc_1723_1#9$1\", duration = 0)]",
-        "type": "interlude",
-        "pto": "-250,0"
+        "type": "3,",
+        "channel": "3,",
+        "switch": "true,",
+        "slot": "m",
+        "pfrom": "-250,0",
+        "pto": "-250,0",
+        "name": "avg_npc_1723_1#9$1",
+        "duration": 0
     },
     {
         "id": 71,
@@ -541,12 +597,16 @@
     {
         "id": 73,
         "raw": "[interlude(channel = 3, switch = false)]",
-        "type": "interlude"
+        "type": "interlude",
+        "channel": "3,",
+        "switch": false
     },
     {
         "id": 74,
         "raw": "[charslot(slot = \"r\", name = \"avg_npc_167\", focus=\"r\")]",
         "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_167.png",
         "focus": "r"
     },
     {
@@ -572,7 +632,11 @@
         "id": 78,
         "raw": "[interlude(channel = 3, clear = true, tsfrom=\"1,1\", tsto =\"0,1\", tsduration = 0.5)]",
         "type": "interlude",
-        "tsfrom": "1,1"
+        "channel": "3,",
+        "clear": "true,",
+        "tsfrom": "1,1",
+        "tsto": "0,1",
+        "tsduration": 0.5
     },
     {
         "id": 79,
@@ -591,6 +655,7 @@
         "id": 81,
         "raw": "[charslot(slot = \"r\", posfrom=\"0,0\", posto=\"80,15\", afrom=1, ato=0, duration=0.2, isblock=true)]",
         "type": "charslot",
+        "slot": "r",
         "posfrom": "0,0",
         "posto": "80,15",
         "afrom": "1,",
@@ -661,6 +726,8 @@
         "id": 90,
         "raw": "[charslot(slot = \"m\", name = \"avg_4133_logos_1#1$1\", duration=1, isblock=true)]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_4133_logos_1#1$1.png",
         "duration": "1,",
         "isblock": true
     },
@@ -688,6 +755,7 @@
         "id": 94,
         "raw": "[charslot(slot = \"m\", focus=\"n\")]",
         "type": "charslot",
+        "slot": "m",
         "focus": "n"
     },
     {
@@ -700,7 +768,9 @@
     {
         "id": 96,
         "raw": "[charslot(slot = \"m\", name = \"avg_4133_logos_1#3$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4133_logos_1#3$1.png"
     },
     {
         "id": 97,
@@ -745,6 +815,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"We praise the courage of struggle and celebrate the virtue of defiance.\", x=250,y=300, alignment=\"center\", duration=1, size=24, delay=0.04, width=800)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "We praise the courage of struggle and celebrate the virtue of defiance.",
         "x": "250,y=300,",
         "alignment": "center",
@@ -757,13 +828,16 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n\\nAnd so the lives that follow the same way of thinking join the procession of slim hope.\", block = true)]",
         "type": "sticker",
-        "text": "\\n\\nAnd so the lives that follow the same way of thinking join the procession of slim hope."
+        "multi": "true,",
+        "text": "\\n\\nAnd so the lives that follow the same way of thinking join the procession of slim hope.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", duration=0.5, block = false)]",
         "type": "sticker",
-        "duration": "0.5,"
+        "duration": "0.5,",
+        "block": false
     },
     {
         "id": 105,
@@ -775,6 +849,7 @@
         "id": "st2",
         "raw": "[Sticker(id=\"st2\", multi = true, text=\"Before a true god, however...\", x=250,y=250, alignment=\"center\", duration=1, size=24, delay=0.04, width=800)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "Before a true god, however...",
         "x": "250,y=250,",
         "alignment": "center",
@@ -787,19 +862,24 @@
         "id": "st2",
         "raw": "[Sticker(id=\"st2\", multi = true, text=\"\\n\\nOur struggle must seem utterly insignificant to It.\", block = true)]",
         "type": "sticker",
-        "text": "\\n\\nOur struggle must seem utterly insignificant to It."
+        "multi": "true,",
+        "text": "\\n\\nOur struggle must seem utterly insignificant to It.",
+        "block": true
     },
     {
         "id": "st2",
         "raw": "[Sticker(id=\"st2\", multi = true, text=\"\\n\\nPerhaps It never even took notice.\", block = true)]",
         "type": "sticker",
-        "text": "\\n\\nPerhaps It never even took notice."
+        "multi": "true,",
+        "text": "\\n\\nPerhaps It never even took notice.",
+        "block": true
     },
     {
         "id": "st2",
         "raw": "[Sticker(id=\"st2\", duration=0.5, block = false)]",
         "type": "sticker",
-        "duration": "0.5,"
+        "duration": "0.5,",
+        "block": false
     },
     {
         "id": 110,
@@ -889,7 +969,8 @@
         "id": 118,
         "raw": "[Effect(name=\"$e_sandfall_01\",layer = 1)]",
         "type": "effect",
-        "name": "$e_sandfall_01"
+        "name": "$e_sandfall_01",
+        "layer": 1
     },
     {
         "id": 119,
@@ -1011,13 +1092,26 @@
         "id": 135,
         "raw": "[interlude(maskid = \"group_interclude_vertical_common\" ,size = \"290,760\",tsfrom=\"0,1\", tsto =\"1,1\",tsduration = 0.5, switch = true, style = 0,offset = \"0,0\", channel = 3)]",
         "type": "interlude",
-        "tsfrom": "0,1"
+        "maskid": "group_interclude_vertical_common",
+        "size": "290,760",
+        "tsfrom": "0,1",
+        "tsto": "1,1",
+        "tsduration": "0.5,",
+        "switch": "true,",
+        "style": "0,offset",
+        "channel": 3
     },
     {
         "id": 136,
         "raw": "[interlude(channel = 3, switch = true, type = 3, slot = \"m\", pfrom = \"0,0\", pto=\"0,0\", name = \"avg_npc_1723_1#1$1\", duration = 0)]",
-        "type": "interlude",
-        "pto": "0,0"
+        "type": "3,",
+        "channel": "3,",
+        "switch": "true,",
+        "slot": "m",
+        "pfrom": "0,0",
+        "pto": "0,0",
+        "name": "avg_npc_1723_1#1$1",
+        "duration": 0
     },
     {
         "id": 137,
@@ -1049,7 +1143,9 @@
     {
         "id": 141,
         "raw": "[interlude(channel = 3, clear = true)]",
-        "type": "interlude"
+        "type": "interlude",
+        "channel": "3,",
+        "clear": true
     },
     {
         "id": 142,
@@ -1110,6 +1206,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"You don't agree with me, do you, {@nickname}?\", x=250,y=250, alignment=\"center\", duration=1, size=24, delay=0.04, width=800)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "You don't agree with me, do you, {@nickname}?",
         "x": "250,y=250,",
         "alignment": "center",
@@ -1122,19 +1219,24 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n\\nThere is no certainty that this is the key to the truth. But, after ascertaining that the foreseen despair will destroy all that we worked for—\", block = true)]",
         "type": "sticker",
-        "text": "\\n\\nThere is no certainty that this is the key to the truth. But, after ascertaining that the foreseen despair will destroy all that we worked for—"
+        "multi": "true,",
+        "text": "\\n\\nThere is no certainty that this is the key to the truth. But, after ascertaining that the foreseen despair will destroy all that we worked for—",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n\\nWe must grasp what hope we can reach in our hands.\", block = true)]",
         "type": "sticker",
-        "text": "\\n\\nWe must grasp what hope we can reach in our hands."
+        "multi": "true,",
+        "text": "\\n\\nWe must grasp what hope we can reach in our hands.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", duration=0.5, block = false)]",
         "type": "sticker",
-        "duration": "0.5,"
+        "duration": "0.5,",
+        "block": false
     },
     {
         "id": 153,
@@ -1146,6 +1248,7 @@
         "id": "st2",
         "raw": "[Sticker(id=\"st2\", multi = true, text=\"I have poured too much love into the miracle of life, that I see ever more clearly the weakness and flaws that we cannot cast aside.\", x=250,y=300, alignment=\"center\", duration=1, size=24, delay=0.04, width=800)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "I have poured too much love into the miracle of life, that I see ever more clearly the weakness and flaws that we cannot cast aside.",
         "x": "250,y=300,",
         "alignment": "center",
@@ -1158,13 +1261,16 @@
         "id": "st2",
         "raw": "[Sticker(id=\"st2\", multi = true, text=\"\\n\\nHow do I trust everyone whom I love? How do I trust... you?\", block = true)]",
         "type": "sticker",
-        "text": "\\n\\nHow do I trust everyone whom I love? How do I trust... you?"
+        "multi": "true,",
+        "text": "\\n\\nHow do I trust everyone whom I love? How do I trust... you?",
+        "block": true
     },
     {
         "id": "st2",
         "raw": "[Sticker(id=\"st2\", duration=0.5, block = false)]",
         "type": "sticker",
-        "duration": "0.5,"
+        "duration": "0.5,",
+        "block": false
     },
     {
         "id": 157,
@@ -1238,13 +1344,26 @@
         "id": 166,
         "raw": "[interlude(maskid = \"group_interclude_vertical_common\" ,size = \"290,760\",tsfrom=\"0,1\", tsto =\"1,1\",tsduration = 0.5, switch = true, style = 0,offset = \"0,0\", channel = 3)]",
         "type": "interlude",
-        "tsfrom": "0,1"
+        "maskid": "group_interclude_vertical_common",
+        "size": "290,760",
+        "tsfrom": "0,1",
+        "tsto": "1,1",
+        "tsduration": "0.5,",
+        "switch": "true,",
+        "style": "0,offset",
+        "channel": 3
     },
     {
         "id": 167,
         "raw": "[interlude(channel = 3, switch = true, type = 3, slot = \"m\", pfrom = \"0,0\", pto=\"0,0\", name = \"avg_npc_1723_1#6$1\", duration = 0)]",
-        "type": "interlude",
-        "pto": "0,0"
+        "type": "3,",
+        "channel": "3,",
+        "switch": "true,",
+        "slot": "m",
+        "pfrom": "0,0",
+        "pto": "0,0",
+        "name": "avg_npc_1723_1#6$1",
+        "duration": 0
     },
     {
         "id": 168,
@@ -1276,8 +1395,14 @@
     {
         "id": 172,
         "raw": "[interlude(channel = 3, switch = true, type = 3, slot = \"m\", pfrom = \"0,0\", pto=\"0,0\", name = \"avg_npc_1723_1#7$1\", duration = 0)]",
-        "type": "interlude",
-        "pto": "0,0"
+        "type": "3,",
+        "channel": "3,",
+        "switch": "true,",
+        "slot": "m",
+        "pfrom": "0,0",
+        "pto": "0,0",
+        "name": "avg_npc_1723_1#7$1",
+        "duration": 0
     },
     {
         "id": 173,
@@ -1289,7 +1414,9 @@
     {
         "id": 174,
         "raw": "[interlude(channel = 3, clear = true)]",
-        "type": "interlude"
+        "type": "interlude",
+        "channel": "3,",
+        "clear": true
     },
     {
         "id": 175,
@@ -1372,7 +1499,13 @@
         "id": 185,
         "raw": "[Effect(name=\"$e_bladeline_01_small\", x = 0, y = -26, rox = 0, roy = 0, roz = -58, layer = 1)]",
         "type": "effect",
-        "name": "$e_bladeline_01_small"
+        "name": "$e_bladeline_01_small",
+        "x": "0,",
+        "y": "-26,",
+        "rox": "0,",
+        "roy": "0,",
+        "roz": "-58,",
+        "layer": 1
     },
     {
         "id": 186,
@@ -1550,6 +1683,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"I cannot accurately predict when we will meet again—\", x=250,y=250, alignment=\"center\", duration=1, size=24, delay=0.04, width=800)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "I cannot accurately predict when we will meet again—",
         "x": "250,y=250,",
         "alignment": "center",
@@ -1562,25 +1696,32 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n\\nBut I am certain that when that time comes, we will have lost all that we have now.\", block = true)]",
         "type": "sticker",
-        "text": "\\n\\nBut I am certain that when that time comes, we will have lost all that we have now."
+        "multi": "true,",
+        "text": "\\n\\nBut I am certain that when that time comes, we will have lost all that we have now.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n\\nNo life can defy death forever, and those who have passed do not meet again at the end of time.\", block = true)]",
         "type": "sticker",
-        "text": "\\n\\nNo life can defy death forever, and those who have passed do not meet again at the end of time."
+        "multi": "true,",
+        "text": "\\n\\nNo life can defy death forever, and those who have passed do not meet again at the end of time.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n\\nBut I hope that I will see you again there... {@nickname}.\", block = true)]",
         "type": "sticker",
-        "text": "\\n\\nBut I hope that I will see you again there... {@nickname}."
+        "multi": "true,",
+        "text": "\\n\\nBut I hope that I will see you again there... {@nickname}.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", duration=2, block = false)]",
         "type": "sticker",
-        "duration": "2,"
+        "duration": "2,",
+        "block": false
     },
     {
         "id": 214,
@@ -1617,12 +1758,16 @@
     {
         "id": 218,
         "raw": "[charslot(slot = \"r\", name = \"avg_npc_1727_1#1$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_1727_1#1$1.png"
     },
     {
         "id": 219,
         "raw": "[charslot(slot = \"l\", name = \"avg_npc_1728_1#1$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_1728_1#1$1.png"
     },
     {
         "id": 220,
@@ -1756,6 +1901,8 @@
         "id": 235,
         "raw": "[charslot(slot = \"m\", name = \"npc_10002\", duration=0.5, isblock=true)]",
         "type": "charslot",
+        "slot": "m",
+        "name": "npc_10002.png",
         "duration": "0.5,",
         "isblock": true
     },
@@ -1956,6 +2103,8 @@
         "id": 261,
         "raw": "[charslot(slot = \"m\", name = \"avg_017_huang_1#1$2\", duration=1)]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_017_huang_1#1$2.png",
         "duration": 1
     },
     {
@@ -2050,7 +2199,9 @@
     {
         "id": 276,
         "raw": "[charslot(slot = \"m\", name = \"npc_10002\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "npc_10002.png"
     },
     {
         "id": 277,
@@ -2085,7 +2236,9 @@
     {
         "id": 282,
         "raw": "[charslot(slot = \"m\", name = \"avg_4132_ascln_1#1$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4132_ascln_1#1$1.png"
     },
     {
         "id": 283,
@@ -2097,7 +2250,9 @@
     {
         "id": 284,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_235\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_235.png"
     },
     {
         "id": 285,
@@ -2109,7 +2264,9 @@
     {
         "id": 286,
         "raw": "[charslot(slot = \"m\", name = \"avg_4133_logos_1#1$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4133_logos_1#1$1.png"
     },
     {
         "id": 287,
@@ -2121,7 +2278,9 @@
     {
         "id": 288,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_521_1#1$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_521_1#1$1.png"
     },
     {
         "id": 289,
@@ -2164,13 +2323,26 @@
         "id": 295,
         "raw": "[interlude(maskid = \"group_interclude_vertical_common\" ,size = \"290,760\",tsfrom=\"0,1\", tsto =\"1,1\",tsduration = 0.5, switch = true, style = 0,offset = \"0,0\", channel = 3)]",
         "type": "interlude",
-        "tsfrom": "0,1"
+        "maskid": "group_interclude_vertical_common",
+        "size": "290,760",
+        "tsfrom": "0,1",
+        "tsto": "1,1",
+        "tsduration": "0.5,",
+        "switch": "true,",
+        "style": "0,offset",
+        "channel": 3
     },
     {
         "id": 296,
         "raw": "[interlude(channel = 3, switch = true, type = 3, slot = \"m\", pfrom = \"0,0\", pto=\"0,0\", name = \"avg_npc_1723_1#6$1\", duration = 0)]",
-        "type": "interlude",
-        "pto": "0,0"
+        "type": "3,",
+        "channel": "3,",
+        "switch": "true,",
+        "slot": "m",
+        "pfrom": "0,0",
+        "pto": "0,0",
+        "name": "avg_npc_1723_1#6$1",
+        "duration": 0
     },
     {
         "id": 297,
@@ -2195,12 +2367,16 @@
     {
         "id": 300,
         "raw": "[interlude(channel = 3, clear = true)]",
-        "type": "interlude"
+        "type": "interlude",
+        "channel": "3,",
+        "clear": true
     },
     {
         "id": 301,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_249_1$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_249_1$1.png"
     },
     {
         "id": 302,
@@ -2219,7 +2395,9 @@
     {
         "id": 304,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1730_1#7$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1730_1#7$1.png"
     },
     {
         "id": 305,
@@ -2238,7 +2416,9 @@
     {
         "id": 307,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1310_1#1$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1310_1#1$1.png"
     },
     {
         "id": 308,
@@ -2369,7 +2549,9 @@
     {
         "id": 328,
         "raw": "[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#10$3\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_1037_amiya3_1#10$3.png"
     },
     {
         "id": 329,
@@ -2482,6 +2664,8 @@
         "id": 346,
         "raw": "[charslot(slot = \"m\", name = \"avg_003_kalts_1#4$1\", duration=1.5, isblock=true)]",
         "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#4$1.png",
         "duration": "1.5,",
         "isblock": true
     },
@@ -2501,7 +2685,9 @@
     {
         "id": 349,
         "raw": "[charslot(slot = \"m\", name = \"avg_003_kalts_1#1$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#1$1.png"
     },
     {
         "id": 350,
@@ -2540,7 +2726,9 @@
     {
         "id": 355,
         "raw": "[charslot(slot = \"m\", name = \"avg_003_kalts_1#11$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#11$1.png"
     },
     {
         "id": 356,
@@ -2570,7 +2758,9 @@
     {
         "id": 360,
         "raw": "[charslot(slot = \"m\", name = \"avg_003_kalts_1#5$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#5$1.png"
     },
     {
         "id": 361,
@@ -2596,7 +2786,9 @@
     {
         "id": 364,
         "raw": "[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#1$3\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_1037_amiya3_1#1$3.png"
     },
     {
         "id": 365,
@@ -2608,7 +2800,9 @@
     {
         "id": 366,
         "raw": "[charslot(slot = \"m\", name = \"avg_003_kalts_1#1$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#1$1.png"
     },
     {
         "id": 367,
@@ -2697,7 +2891,9 @@
     {
         "id": 381,
         "raw": "[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#8$3\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_1037_amiya3_1#8$3.png"
     },
     {
         "id": 382,
@@ -2732,7 +2928,9 @@
     {
         "id": 387,
         "raw": "[charslot(slot = \"m\", name = \"avg_003_kalts_1#2$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#2$1.png"
     },
     {
         "id": 388,
@@ -2744,7 +2942,9 @@
     {
         "id": 389,
         "raw": "[charslot(slot = \"m\", name = \"avg_003_kalts_1#5$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#5$1.png"
     },
     {
         "id": 390,
@@ -2847,7 +3047,9 @@
     {
         "id": 403,
         "raw": "[charslot(slot = \"m\", name = \"avg_npc_1723_1#6$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1723_1#6$1.png"
     },
     {
         "id": 404,
@@ -2923,12 +3125,14 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"Warning: Anomalous power fluctuations detected.\", x=180,y=170, alignment=\"left\", size=24, delay=0.04, width=800, block = false)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "Warning: Anomalous power fluctuations detected.",
         "x": "180,y=170,",
         "alignment": "left",
         "size": "24,",
         "delay": "0.04,",
-        "width": "800,"
+        "width": "800,",
+        "block": false
     },
     {
         "id": 413,
@@ -2940,12 +3144,14 @@
         "id": "st2",
         "raw": "[Sticker(id=\"st2\", multi = true, text=\"Warning: Insufficient backup power.\", x=180,y=240, alignment=\"left\", size=24, delay=0.04, width=800, block = false)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "Warning: Insufficient backup power.",
         "x": "180,y=240,",
         "alignment": "left",
         "size": "24,",
         "delay": "0.04,",
-        "width": "800,"
+        "width": "800,",
+        "block": false
     },
     {
         "id": 415,
@@ -2957,12 +3163,14 @@
         "id": "st3",
         "raw": "[Sticker(id=\"st3\", multi = true, text=\"Warning: Insufficient engine power. Engines shutting down.\", x=180,y=310, alignment=\"left\", size=24, delay=0.04, width=800, block = false)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "Warning: Insufficient engine power. Engines shutting down.",
         "x": "180,y=310,",
         "alignment": "left",
         "size": "24,",
         "delay": "0.04,",
-        "width": "800,"
+        "width": "800,",
+        "block": false
     },
     {
         "id": 417,
@@ -2974,12 +3182,14 @@
         "id": "st4",
         "raw": "[Sticker(id=\"st4\", multi = true, text=\"Warning: Mobility layer is offline.\", x=180,y=380, alignment=\"left\", size=24, delay=0.04, width=800, block = false)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "Warning: Mobility layer is offline.",
         "x": "180,y=380,",
         "alignment": "left",
         "size": "24,",
         "delay": "0.04,",
-        "width": "800,"
+        "width": "800,",
+        "block": false
     },
     {
         "id": 419,
@@ -2991,12 +3201,14 @@
         "id": "st5",
         "raw": "[Sticker(id=\"st5\", multi = true, text=\"Warning: Top deck is offline.\", x=180,y=450, alignment=\"left\", size=24, delay=0.04, width=800, block = false)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "Warning: Top deck is offline.",
         "x": "180,y=450,",
         "alignment": "left",
         "size": "24,",
         "delay": "0.04,",
-        "width": "800,"
+        "width": "800,",
+        "block": false
     },
     {
         "id": 421,
@@ -3008,12 +3220,14 @@
         "id": "st6",
         "raw": "[Sticker(id=\"st6\", multi = true, text=\"Warning: Communications are offline.\", x=180,y=520, alignment=\"left\", size=24, delay=0.04, width=800, block = false)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "Warning: Communications are offline.",
         "x": "180,y=520,",
         "alignment": "left",
         "size": "24,",
         "delay": "0.04,",
-        "width": "800,"
+        "width": "800,",
+        "block": false
     },
     {
         "id": 423,
@@ -3025,12 +3239,14 @@
         "id": "st7",
         "raw": "[Sticker(id=\"st7\", multi = true, text=\"Warning: Irreparable core component damage.\", x=180,y=590, alignment=\"left\", size=24, delay=0.04, width=800, block = false)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "Warning: Irreparable core component damage.",
         "x": "180,y=590,",
         "alignment": "left",
         "size": "24,",
         "delay": "0.04,",
-        "width": "800,"
+        "width": "800,",
+        "block": false
     },
     {
         "id": 425,
@@ -3049,43 +3265,50 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", duration=0.5, block = false)]",
         "type": "sticker",
-        "duration": "0.5,"
+        "duration": "0.5,",
+        "block": false
     },
     {
         "id": "st2",
         "raw": "[Sticker(id=\"st2\", duration=0.5, block = false)]",
         "type": "sticker",
-        "duration": "0.5,"
+        "duration": "0.5,",
+        "block": false
     },
     {
         "id": "st3",
         "raw": "[Sticker(id=\"st3\", duration=0.5, block = false)]",
         "type": "sticker",
-        "duration": "0.5,"
+        "duration": "0.5,",
+        "block": false
     },
     {
         "id": "st4",
         "raw": "[Sticker(id=\"st4\", duration=0.5, block = false)]",
         "type": "sticker",
-        "duration": "0.5,"
+        "duration": "0.5,",
+        "block": false
     },
     {
         "id": "st5",
         "raw": "[Sticker(id=\"st5\", duration=0.5, block = false)]",
         "type": "sticker",
-        "duration": "0.5,"
+        "duration": "0.5,",
+        "block": false
     },
     {
         "id": "st6",
         "raw": "[Sticker(id=\"st6\", duration=0.5, block = false)]",
         "type": "sticker",
-        "duration": "0.5,"
+        "duration": "0.5,",
+        "block": false
     },
     {
         "id": "st7",
         "raw": "[Sticker(id=\"st7\", duration=0.5, block = false)]",
         "type": "sticker",
-        "duration": "0.5,"
+        "duration": "0.5,",
+        "block": false
     },
     {
         "id": 434,
@@ -3102,18 +3325,21 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"Sorry, C—Closure—\", x=180,y=170, alignment=\"left\", size=24, delay=0.04, width=800, block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "Sorry, C—Closure—",
         "x": "180,y=170,",
         "alignment": "left",
         "size": "24,",
         "delay": "0.04,",
-        "width": "800,"
+        "width": "800,",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", duration=3, block = false)]",
         "type": "sticker",
-        "duration": "3,"
+        "duration": "3,",
+        "block": false
     },
     {
         "id": 437,
@@ -3205,7 +3431,9 @@
     {
         "id": 449,
         "raw": "[charslot(slot = \"m\", name = \"avg_003_kalts_1#5$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#5$1.png"
     },
     {
         "id": 450,
@@ -3252,7 +3480,9 @@
     {
         "id": 456,
         "raw": "[charslot(slot = \"m\", name = \"avg_003_kalts_1#5$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#5$1.png"
     },
     {
         "id": 457,
@@ -3278,7 +3508,9 @@
     {
         "id": 460,
         "raw": "[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#1$3\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_1037_amiya3_1#1$3.png"
     },
     {
         "id": 461,
@@ -3313,7 +3545,9 @@
     {
         "id": 466,
         "raw": "[charslot(slot = \"m\", name = \"avg_003_kalts_1#1$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#1$1.png"
     },
     {
         "id": 467,
@@ -3332,7 +3566,9 @@
     {
         "id": 469,
         "raw": "[charslot(slot = \"m\", name = \"avg_003_kalts_1#2$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#2$1.png"
     },
     {
         "id": 470,
@@ -3344,7 +3580,9 @@
     {
         "id": 471,
         "raw": "[charslot(slot = \"m\", name = \"avg_003_kalts_1#1$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#1$1.png"
     },
     {
         "id": 472,
@@ -3601,7 +3839,9 @@
     {
         "id": 511,
         "raw": "[charslot(slot = \"m\", name = \"avg_003_kalts_1#1$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#1$1.png"
     },
     {
         "id": 512,
@@ -3641,7 +3881,9 @@
     {
         "id": 517,
         "raw": "[charslot(slot = \"m\", name = \"avg_003_kalts_1#2$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#2$1.png"
     },
     {
         "id": 518,
@@ -3653,7 +3895,9 @@
     {
         "id": 519,
         "raw": "[charslot(slot = \"m\", name = \"avg_003_kalts_1#1$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#1$1.png"
     },
     {
         "id": 520,
@@ -3671,7 +3915,9 @@
     {
         "id": 522,
         "raw": "[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#1$3\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_1037_amiya3_1#1$3.png"
     },
     {
         "id": 523,
@@ -3706,7 +3952,9 @@
     {
         "id": 528,
         "raw": "[charslot(slot = \"m\", name = \"avg_003_kalts_1#1$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#1$1.png"
     },
     {
         "id": 529,
@@ -3732,7 +3980,9 @@
     {
         "id": 532,
         "raw": "[charslot(slot = \"m\", name = \"avg_003_kalts_1#2$1\")]",
-        "type": "charslot"
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#2$1.png"
     },
     {
         "id": 533,
@@ -4330,12 +4580,16 @@
         "id": 611,
         "raw": "[curtain(direction = 0,fillfrom = 0.01,fillto = 0.33, fadetime=6)]",
         "type": "curtain",
+        "direction": "0,fillfrom",
+        "fillto": "0.33,",
         "fadetime": 6
     },
     {
         "id": 612,
         "raw": "[curtain(direction = 4,fillfrom = 0.01,fillto = 0.33, fadetime=6)]",
         "type": "curtain",
+        "direction": "4,fillfrom",
+        "fillto": "0.33,",
         "fadetime": 6
     },
     {
@@ -4358,10 +4612,12 @@
         "id": 615,
         "raw": "[largebgtween(duration = 4, xScaleFrom=0.36, xScaleTo=0.34, yScaleFrom=0.36, yScaleTo=0.34, block = false)]",
         "type": "large_bg_tween",
+        "duration": "4,",
         "xScaleFrom": "0.36,",
         "xScaleTo": "0.34,",
         "yScaleFrom": "0.36,",
-        "yScaleTo": "0.34,"
+        "yScaleTo": "0.34,",
+        "block": false
     },
     {
         "id": 616,
@@ -4400,6 +4656,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"...Dr.{@nickname}...\", x=250,y=300, alignment=\"center\", duration=1, size=24, delay=0.04, width=800)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "...Dr.{@nickname}...",
         "x": "250,y=300,",
         "alignment": "center",
@@ -4412,13 +4669,16 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n\\n...I never thought I would be the one who didn't want to let go.\", block = true)]",
         "type": "sticker",
-        "text": "\\n\\n...I never thought I would be the one who didn't want to let go."
+        "multi": "true,",
+        "text": "\\n\\n...I never thought I would be the one who didn't want to let go.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", duration=0.5, block = false)]",
         "type": "sticker",
-        "duration": "0.5,"
+        "duration": "0.5,",
+        "block": false
     },
     {
         "id": 623,
@@ -4435,6 +4695,7 @@
         "id": "st2",
         "raw": "[Sticker(id=\"st2\", multi = true, text=\"<color=#888888>Kal'tsit</color>\", hidelog=true, x=400, y=158, alignment=\"right\", duration=0.01, size=28, delay=0, width=200, block = false)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<color=#888888>Kal'tsit</color>",
         "hidelog": "true,",
         "x": "400,",
@@ -4443,12 +4704,14 @@
         "duration": "0.01,",
         "size": "28,",
         "delay": "0,",
-        "width": "200,"
+        "width": "200,",
+        "block": false
     },
     {
         "id": "st3",
         "raw": "[Sticker(id=\"st3\", multi = true, text=\"Protect the Doctor, Amiya.\", x=660, y=160, alignment=\"left\", size=24, delay=0.04, width=350)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "Protect the Doctor, Amiya.",
         "x": "660,",
         "y": "160,",
@@ -4473,6 +4736,7 @@
         "id": "st4",
         "raw": "[Sticker(id=\"st4\", multi = true, text=\"<color=#888888>Amiya</color>\", hidelog=true, x=400, y=520, alignment=\"right\", duration=0.01, size=28, delay=0, width=200, block = false)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<color=#888888>Amiya</color>",
         "hidelog": "true,",
         "x": "400,",
@@ -4481,12 +4745,14 @@
         "duration": "0.01,",
         "size": "28,",
         "delay": "0,",
-        "width": "200,"
+        "width": "200,",
+        "block": false
     },
     {
         "id": "st5",
         "raw": "[Sticker(id=\"st5\", multi = true, text=\"Mhm.\", x=660, y=522, alignment=\"left\", size=24, delay=0.04, width=200)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "Mhm.",
         "x": "660,",
         "y": "522,",
@@ -4560,12 +4826,14 @@
         "duration": "0.01,",
         "size": "28,",
         "delay": "0,",
-        "width": "750,"
+        "width": "750,",
+        "block": false
     },
     {
         "id": "st3",
         "raw": "[Sticker(id=\"st3\", multi = true, text=\"Electromagnetic communications established.\", x=900, y=160, alignment=\"center\", size=24, delay=0.04, width=300)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "Electromagnetic communications established.",
         "x": "900,",
         "y": "160,",
@@ -4601,6 +4869,7 @@
         "id": "st4",
         "raw": "[Sticker(id=\"st4\", multi = true, text=\"<color=#888888>Mantra</color>\", hidelog=true, x=470, y=520, alignment=\"center\", duration=0.01, size=28, delay=0, width=750, block = false)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<color=#888888>Mantra</color>",
         "hidelog": "true,",
         "x": "470,",
@@ -4609,12 +4878,14 @@
         "duration": "0.01,",
         "size": "28,",
         "delay": "0,",
-        "width": "750,"
+        "width": "750,",
+        "block": false
     },
     {
         "id": "st5",
         "raw": "[Sticker(id=\"st5\", multi = true, text=\"If you need any help, just give a thought. We're here.\", x=930, y=522, alignment=\"center\", size=24, delay=0.04, width=300)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "If you need any help, just give a thought. We're here.",
         "x": "930,",
         "y": "522,",
@@ -4639,6 +4910,7 @@
         "id": "st6",
         "raw": "[Sticker(id=\"st6\", multi = true, text=\"<color=#888888>Stormeye</color>\", hidelog=true, x=70, y=158, alignment=\"left\", duration=0.01, size=28, delay=0, width=750, block = false)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<color=#888888>Stormeye</color>",
         "hidelog": "true,",
         "x": "70,",
@@ -4647,12 +4919,14 @@
         "duration": "0.01,",
         "size": "28,",
         "delay": "0,",
-        "width": "750,"
+        "width": "750,",
+        "block": false
     },
     {
         "id": "st7",
         "raw": "[Sticker(id=\"st7\", multi = true, text=\"How about you cover my flank, Sharp?\", x=240, y=160, alignment=\"left\", size=24, delay=0.04, width=750)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "How about you cover my flank, Sharp?",
         "x": "240,",
         "y": "160,",
@@ -4677,6 +4951,7 @@
         "id": "st8",
         "raw": "[Sticker(id=\"st8\", multi = true, text=\"<color=#888888>Sharp</color>\", hidelog=true, x=70, y=520, alignment=\"left\", duration=0.01, size=28, delay=0, width=750, block = false)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<color=#888888>Sharp</color>",
         "hidelog": "true,",
         "x": "70,",
@@ -4685,12 +4960,14 @@
         "duration": "0.01,",
         "size": "28,",
         "delay": "0,",
-        "width": "750,"
+        "width": "750,",
+        "block": false
     },
     {
         "id": "st9",
         "raw": "[Sticker(id=\"st9\", multi = true, text=\"Then make sure you hold your bow tight.\", x=200, y=525, alignment=\"left\", size=24, delay=0.04, width=750)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "Then make sure you hold your bow tight.",
         "x": "200,",
         "y": "525,",
@@ -4744,6 +5021,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"I am sure that the connection between us will transcend even time and space, Dr. {@nickname}.\", x=250,y=300, alignment=\"center\", duration=1, size=24, delay=0.04, width=800)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "I am sure that the connection between us will transcend even time and space, Dr. {@nickname}.",
         "x": "250,y=300,",
         "alignment": "center",
@@ -4756,19 +5034,24 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n\\nI am sure we will meet again. At the far end of our civilization, once adorned by darkness and the brilliance of the stars up above, we will meet once again.\", block = true)]",
         "type": "sticker",
-        "text": "\\n\\nI am sure we will meet again. At the far end of our civilization, once adorned by darkness and the brilliance of the stars up above, we will meet once again."
+        "multi": "true,",
+        "text": "\\n\\nI am sure we will meet again. At the far end of our civilization, once adorned by darkness and the brilliance of the stars up above, we will meet once again.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n\\nI will wait for that day.\", block = true)]",
         "type": "sticker",
-        "text": "\\n\\nI will wait for that day."
+        "multi": "true,",
+        "text": "\\n\\nI will wait for that day.",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", duration=0.5, block = false)]",
         "type": "sticker",
-        "duration": "0.5,"
+        "duration": "0.5,",
+        "block": false
     },
     {
         "id": 663,
@@ -4785,6 +5068,7 @@
         "id": "st6",
         "raw": "[Sticker(id=\"st6\", multi = true, text=\"<color=#888888>Blaze</color>\", hidelog=true, x=300, y=158, alignment=\"right\", duration=0.01, size=28, delay=0, width=200, block = false)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<color=#888888>Blaze</color>",
         "hidelog": "true,",
         "x": "300,",
@@ -4793,12 +5077,14 @@
         "duration": "0.01,",
         "size": "28,",
         "delay": "0,",
-        "width": "200,"
+        "width": "200,",
+        "block": false
     },
     {
         "id": "st7",
         "raw": "[Sticker(id=\"st7\", multi = true, text=\"Give a holler if you need help, kitten!\", x=550, y=160, alignment=\"left\", size=24, delay=0.04, width=300)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "Give a holler if you need help, kitten!",
         "x": "550,",
         "y": "160,",
@@ -4823,6 +5109,7 @@
         "id": "st4",
         "raw": "[Sticker(id=\"st4\", multi = true, text=\"<color=#888888>Rosmontis</color>\", hidelog=true, x=550, y=520, alignment=\"right\", duration=0.01, size=28, delay=0, width=250, block = false)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<color=#888888>Rosmontis</color>",
         "hidelog": "true,",
         "x": "550,",
@@ -4831,12 +5118,14 @@
         "duration": "0.01,",
         "size": "28,",
         "delay": "0,",
-        "width": "250,"
+        "width": "250,",
+        "block": false
     },
     {
         "id": "st5",
         "raw": "[Sticker(id=\"st5\", multi = true, text=\"Heh.\", x=850, y=522, alignment=\"left\", size=24, delay=0.04, width=200)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "Heh.",
         "x": "850,",
         "y": "522,",
@@ -4861,6 +5150,7 @@
         "id": "st6",
         "raw": "[Sticker(id=\"st6\", multi = true, text=\"<color=#888888>Pith</color>\", hidelog=true, x=170, y=158, alignment=\"center\", duration=0.01, size=28, delay=0, width=750, block = false)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<color=#888888>Pith</color>",
         "hidelog": "true,",
         "x": "170,",
@@ -4869,12 +5159,14 @@
         "duration": "0.01,",
         "size": "28,",
         "delay": "0,",
-        "width": "750,"
+        "width": "750,",
+        "block": false
     },
     {
         "id": "st7",
         "raw": "[Sticker(id=\"st7\", multi = true, text=\"Our Arts are being suppressed by the environment, but the Originium Arc seems to work.\", x=640, y=160, alignment=\"center\", size=24, delay=0.04, width=550)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "Our Arts are being suppressed by the environment, but the Originium Arc seems to work.",
         "x": "640,",
         "y": "160,",
@@ -4899,6 +5191,7 @@
         "id": "st8",
         "raw": "[Sticker(id=\"st8\", multi = true, text=\"<color=#888888>Touch</color>\", hidelog=true, x=70, y=520, alignment=\"center\", duration=0.01, size=28, delay=0, width=750, block = false)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<color=#888888>Touch</color>",
         "hidelog": "true,",
         "x": "70,",
@@ -4907,12 +5200,14 @@
         "duration": "0.01,",
         "size": "28,",
         "delay": "0,",
-        "width": "750,"
+        "width": "750,",
+        "block": false
     },
     {
         "id": "st9",
         "raw": "[Sticker(id=\"st9\", multi = true, text=\"Strike with boldness.\", x=530, y=522, alignment=\"center\", size=24, delay=0.04, width=350)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "Strike with boldness.",
         "x": "530,",
         "y": "522,",
@@ -4937,6 +5232,7 @@
         "id": "st6",
         "raw": "[Sticker(id=\"st6\", multi = true, text=\"<color=#888888>Misery</color>\", hidelog=true, x=0, y=158, alignment=\"center\", duration=0.01, size=28, delay=0, width=750, block = false)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<color=#888888>Misery</color>",
         "hidelog": "true,",
         "x": "0,",
@@ -4945,12 +5241,14 @@
         "duration": "0.01,",
         "size": "28,",
         "delay": "0,",
-        "width": "750,"
+        "width": "750,",
+        "block": false
     },
     {
         "id": "st7",
         "raw": "[Sticker(id=\"st7\", multi = true, text=\"I can go in first to check things out—\", x=450, y=160, alignment=\"center\", size=24, delay=0.04, width=350)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "I can go in first to check things out—",
         "x": "450,",
         "y": "160,",
@@ -5001,6 +5299,7 @@
         "id": "st2",
         "raw": "[Sticker(id=\"st2\", multi = true, text=\"<color=#888888>Kal'tsit</color>\", hidelog=true, x=400, y=158, alignment=\"right\", duration=0.01, size=28, delay=0, width=200, block = false)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<color=#888888>Kal'tsit</color>",
         "hidelog": "true,",
         "x": "400,",
@@ -5009,12 +5308,14 @@
         "duration": "0.01,",
         "size": "28,",
         "delay": "0,",
-        "width": "200,"
+        "width": "200,",
+        "block": false
     },
     {
         "id": "st3",
         "raw": "[Sticker(id=\"st3\", multi = true, text=\"But that makes me even more worried.\", x=660, y=160, alignment=\"left\", size=24, delay=0.04, width=350)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "But that makes me even more worried.",
         "x": "660,",
         "y": "160,",
@@ -5052,6 +5353,7 @@
         "id": "st4",
         "raw": "[Sticker(id=\"st4\", multi = true, text=\"<color=#888888>Amiya</color>\", hidelog=true, x=400, y=520, alignment=\"right\", duration=0.01, size=28, delay=0, width=200, block = false)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<color=#888888>Amiya</color>",
         "hidelog": "true,",
         "x": "400,",
@@ -5060,12 +5362,14 @@
         "duration": "0.01,",
         "size": "28,",
         "delay": "0,",
-        "width": "200,"
+        "width": "200,",
+        "block": false
     },
     {
         "id": "st5",
         "raw": "[Sticker(id=\"st5\", multi = true, text=\"I'll go with you.\", x=660, y=522, alignment=\"left\", size=24, delay=0.04, width=200)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "I'll go with you.",
         "x": "660,",
         "y": "522,",
@@ -5097,6 +5401,7 @@
         "id": "st6",
         "raw": "[Sticker(id=\"st6\", multi = true, text=\"<color=#888888>Mon3tr</color>\", hidelog=true, x=170, y=158, alignment=\"center\", duration=0.01, size=28, delay=0, width=750, block = false)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<color=#888888>Mon3tr</color>",
         "hidelog": "true,",
         "x": "170,",
@@ -5105,12 +5410,14 @@
         "duration": "0.01,",
         "size": "28,",
         "delay": "0,",
-        "width": "750,"
+        "width": "750,",
+        "block": false
     },
     {
         "id": "st7",
         "raw": "[Sticker(id=\"st7\", multi = true, text=\"(Firm growl)\", x=630, y=160, alignment=\"center\", size=24, delay=0.04, width=200)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "(Firm growl)",
         "x": "630,",
         "y": "160,",
@@ -5135,6 +5442,7 @@
         "id": "st2",
         "raw": "[Sticker(id=\"st2\", multi = true, text=\"<color=#888888>Kal'tsit</color>\", hidelog=true, x=400, y=158, alignment=\"right\", duration=0.01, size=28, delay=0, width=200, block = false)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<color=#888888>Kal'tsit</color>",
         "hidelog": "true,",
         "x": "400,",
@@ -5143,12 +5451,14 @@
         "duration": "0.01,",
         "size": "28,",
         "delay": "0,",
-        "width": "200,"
+        "width": "200,",
+        "block": false
     },
     {
         "id": "st3",
         "raw": "[Sticker(id=\"st3\", multi = true, text=\"Get ready, folks. The fate of Rhodes Island is in our hands.\", x=660, y=160, alignment=\"left\", size=24, delay=0.04, width=350)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "Get ready, folks. The fate of Rhodes Island is in our hands.",
         "x": "660,",
         "y": "160,",
@@ -5213,6 +5523,9 @@
         "id": 713,
         "raw": "[curtain(direction = 0, fillfrom = 0.33, fillto = 0.33, a=0, fadetime=2)]",
         "type": "curtain",
+        "direction": "0,",
+        "fillfrom": "0.33,",
+        "fillto": "0.33,",
         "a": "0,",
         "fadetime": 2
     },
@@ -5220,6 +5533,8 @@
         "id": 714,
         "raw": "[curtain(direction = 4,fillfrom = 0.33, fillto = 0.33, a=0, fadetime=2)]",
         "type": "curtain",
+        "direction": "4,fillfrom",
+        "fillto": "0.33,",
         "a": "0,",
         "fadetime": 2
     },
@@ -5265,6 +5580,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<color=#000000>I will wait until that day comes. I promise you I will. Wait for me.</color>\", x=250,y=300, alignment=\"center\", duration=1, size=24, delay=0.04, width=800)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<color=#000000>I will wait until that day comes. I promise you I will. Wait for me.</color>",
         "x": "250,y=300,",
         "alignment": "center",
@@ -5277,13 +5593,16 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<color=#000000>\\n\\nYou must wait for me too.</color>\", block = true)]",
         "type": "sticker",
-        "text": "<color=#000000>\\n\\nYou must wait for me too.</color>"
+        "multi": "true,",
+        "text": "<color=#000000>\\n\\nYou must wait for me too.</color>",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", duration=2, block = false)]",
         "type": "sticker",
-        "duration": "2,"
+        "duration": "2,",
+        "block": false
     },
     {
         "id": 723,

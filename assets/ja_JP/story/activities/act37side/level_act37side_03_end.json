@@ -90,10 +90,13 @@
         "type": "dialog_marker"
     },
     {
-        "id": 13,
+        "id": "at1",
         "raw": "[animtext(id = \"at1\", name = \"group_location_stamp\", style=\"avg_both\", pos = \"-400,-200\", block = false)]<p=1>シネセルド大広間議会ホール</><p=2>1098年12月15日 p.m. 4:02</>",
         "type": "anim_text",
+        "name": "group_location_stamp",
         "style": "avg_both",
+        "pos": "-400,-200",
+        "block": false,
         "content": "<p=1>シネセルド大広間議会ホール</><p=2>1098年12月15日 p.m. 4:02</>"
     },
     {
@@ -904,10 +907,13 @@
         "type": "dialog_marker"
     },
     {
-        "id": 125,
+        "id": "at1",
         "raw": "[animtext(id = \"at1\", name = \"group_location_stamp\", style=\"avg_both\", pos = \"-400,-200\", block = false)]<p=1>「ミルスカー」の隠れ家</><p=2>1098年12月15日 p.m. 5:17</>",
         "type": "anim_text",
+        "name": "group_location_stamp",
         "style": "avg_both",
+        "pos": "-400,-200",
+        "block": false,
         "content": "<p=1>「ミルスカー」の隠れ家</><p=2>1098年12月15日 p.m. 5:17</>"
     },
     {
@@ -1216,10 +1222,13 @@
         "type": "dialog_marker"
     },
     {
-        "id": 169,
+        "id": "at1",
         "raw": "[animtext(id = \"at1\", name = \"group_location_stamp\", style=\"avg_both\", pos = \"-400,-200\", block = false)]<p=1>シネセルド大広間議会ホール</><p=2>1098年12月15日 p.m. 5:58</>",
         "type": "anim_text",
+        "name": "group_location_stamp",
         "style": "avg_both",
+        "pos": "-400,-200",
+        "block": false,
         "content": "<p=1>シネセルド大広間議会ホール</><p=2>1098年12月15日 p.m. 5:58</>"
     },
     {
@@ -2170,6 +2179,7 @@
         "id": 303,
         "raw": "[charslot(slot = \"m\", action=\"shake\",random=true, power=5, times=60,duration=0.3)]",
         "type": "charslot",
+        "slot": "m",
         "action": "shake",
         "random": "true,",
         "power": "5,",
@@ -2439,10 +2449,13 @@
         "type": "dialog_marker"
     },
     {
-        "id": 343,
+        "id": "at1",
         "raw": "[animtext(id = \"at1\", name = \"group_location_stamp\", style=\"avg_both\", pos = \"-400,-200\", block = false)]<p=1>ロンディニウムキャヴェンディッシュストリート</><p=2>1098年12月15日 p.m. 9:58</>",
         "type": "anim_text",
+        "name": "group_location_stamp",
         "style": "avg_both",
+        "pos": "-400,-200",
+        "block": false,
         "content": "<p=1>ロンディニウムキャヴェンディッシュストリート</><p=2>1098年12月15日 p.m. 9:58</>"
     },
     {
@@ -3002,6 +3015,7 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"<i>聖王会西部大広間エリアにいるナハツェーラーの陣地に対して攻撃を仕掛ける前、みんなの士気はこれ以上ないほどに高まっていた。けど都市内部の人にとっては、そうじゃなかった。</i>\", x=300,y=240,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>聖王会西部大広間エリアにいるナハツェーラーの陣地に対して攻撃を仕掛ける前、みんなの士気はこれ以上ないほどに高まっていた。けど都市内部の人にとっては、そうじゃなかった。</i>",
         "x": "300,y=240,",
         "alignment": "left",
@@ -3013,13 +3027,17 @@
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>長いことサルカズたちの統治下で暮らして、自分たちが反抗できることを忘れかけてたんだ。戦う力が残ってる人へ吾輩たちに加入するようダグザちゃんと説得しても効果が今ひとつだった……</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>長いことサルカズたちの統治下で暮らして、自分たちが反抗できることを忘れかけてたんだ。戦う力が残ってる人へ吾輩たちに加入するようダグザちゃんと説得しても効果が今ひとつだった……</i>"
+        "multi": "true,",
+        "text": "\\n<i>長いことサルカズたちの統治下で暮らして、自分たちが反抗できることを忘れかけてたんだ。戦う力が残ってる人へ吾輩たちに加入するようダグザちゃんと説得しても効果が今ひとつだった……</i>",
+        "block": true
     },
     {
         "id": "st1",
         "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n<i>ヴィーナが現れてようやく、その状況が好転した。</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>ヴィーナが現れてようやく、その状況が好転した。</i>"
+        "multi": "true,",
+        "text": "\\n<i>ヴィーナが現れてようやく、その状況が好転した。</i>",
+        "block": true
     },
     {
         "id": "st1",
@@ -3037,6 +3055,7 @@
         "id": "st2",
         "raw": "[Sticker(id=\"st2\", multi = true, text=\"<i>けど彼女は吾輩が今までに想像もしたことのなかった服……王室の服を着ていた。誰に渡されたのか彼女は言わなかったけど、吾輩たちにはみんな心当たりがあった――</i>\", x=300,y=240,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>けど彼女は吾輩が今までに想像もしたことのなかった服……王室の服を着ていた。誰に渡されたのか彼女は言わなかったけど、吾輩たちにはみんな心当たりがあった――</i>",
         "x": "300,y=240,",
         "alignment": "left",
@@ -3048,7 +3067,9 @@
         "id": "st2",
         "raw": "[Sticker(id=\"st2\", multi = true, text=\"\\n<i>アラデルだ。</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>アラデルだ。</i>"
+        "multi": "true,",
+        "text": "\\n<i>アラデルだ。</i>",
+        "block": true
     },
     {
         "id": "st2",
@@ -3066,6 +3087,7 @@
         "id": "st3",
         "raw": "[Sticker(id=\"st3\", multi = true, text=\"<i>驚いて、吾輩はダグザちゃんを見た。彼女は明らかに震えを抑えていた。</i>\", x=300,y=240,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>驚いて、吾輩はダグザちゃんを見た。彼女は明らかに震えを抑えていた。</i>",
         "x": "300,y=240,",
         "alignment": "left",
@@ -3077,13 +3099,17 @@
         "id": "st3",
         "raw": "[Sticker(id=\"st3\", multi = true, text=\"\\n<i>人々が熱狂した様子で通りを行き交って、ますます多くの人が押し寄せてきて、吾輩たちに加わった。</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>人々が熱狂した様子で通りを行き交って、ますます多くの人が押し寄せてきて、吾輩たちに加わった。</i>"
+        "multi": "true,",
+        "text": "\\n<i>人々が熱狂した様子で通りを行き交って、ますます多くの人が押し寄せてきて、吾輩たちに加わった。</i>",
+        "block": true
     },
     {
         "id": "st3",
         "raw": "[Sticker(id=\"st3\", multi = true, text=\"\\n<i>ヴィーナはみんなに囲まれ吾輩からどんどん遠くなっていった。</i>\",block = true)]",
         "type": "sticker",
-        "text": "\\n<i>ヴィーナはみんなに囲まれ吾輩からどんどん遠くなっていった。</i>"
+        "multi": "true,",
+        "text": "\\n<i>ヴィーナはみんなに囲まれ吾輩からどんどん遠くなっていった。</i>",
+        "block": true
     },
     {
         "id": "st3",
@@ -3101,6 +3127,7 @@
         "id": "st4",
         "raw": "[Sticker(id=\"st4\", multi = true, text=\"<i>「アレクサンドリナ殿下が帰ってきた。彼女が民を率いてサルカズを駆逐し、故郷を取り返してくれる！」</i>\", x=300,y=340,  alignment=\"center\", size=28, delay=0.04, width=700,block = true)]",
         "type": "sticker",
+        "multi": "true,",
         "text": "<i>「アレクサンドリナ殿下が帰ってきた。彼女が民を率いてサルカズを駆逐し、故郷を取り返してくれる！」</i>",
         "x": "300,y=340,",
         "alignment": "center",
@@ -3153,10 +3180,13 @@
         "type": "dialog_marker"
     },
     {
-        "id": 446,
+        "id": "at1",
         "raw": "[animtext(id = \"at1\", name = \"group_location_stamp\", style=\"avg_both\", pos = \"-400,-200\", block = false)]<p=1>ロンディニウムキャヴェンディッシュストリート</><p=2>1098年9月30日 p.m. 9:22</>",
         "type": "anim_text",
+        "name": "group_location_stamp",
         "style": "avg_both",
+        "pos": "-400,-200",
+        "block": false,
         "content": "<p=1>ロンディニウムキャヴェンディッシュストリート</><p=2>1098年9月30日 p.m. 9:22</>"
     },
     {
