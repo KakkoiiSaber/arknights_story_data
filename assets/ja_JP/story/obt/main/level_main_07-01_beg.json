@@ -1,0 +1,1246 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")] ",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK"
+    },
+    {
+        "id": 2,
+        "raw": "[stopmusic]",
+        "type": "stop_music"
+    },
+    {
+        "id": 3,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 4,
+        "raw": "[playMusic(intro=\"$dignified_intro\", key=\"$dignified_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act9d0d0/m_avg_dignified_intro.mp3",
+        "key": "sound_beta_2/music/act9d0d0/m_avg_dignified_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 5,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 6,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 7,
+        "raw": "[Background(image=\"bg_corridor\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_corridor.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 8,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 9,
+        "raw": "6:30 p.m.",
+        "type": "narration",
+        "content": "6:30 p.m."
+    },
+    {
+        "id": 10,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 11,
+        "raw": "[PlaySound(key=\"$dooropenquite\", volume=0.6)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_dooropenquite.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 12,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 13,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3"
+    },
+    {
+        "id": 14,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 15,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 16,
+        "raw": "[name=\"PRTS\"]  識別コード00000-00002、接続権限レベル-8。",
+        "type": "dialog",
+        "speaker": "PRTS",
+        "content": "識別コード00000-00002、接続権限レベル-8。"
+    },
+    {
+        "id": 17,
+        "raw": "[name=\"PRTS\"]  Dr.{@nickname}、ロドス総合感染生物処理室へようこそ。生体データに基づき、あなたの指示についての予測が行われました。",
+        "type": "dialog",
+        "speaker": "PRTS",
+        "content": "Dr.{@nickname}、ロドス総合感染生物処理室へようこそ。生体データに基づき、あなたの指示についての予測が行われました。"
+    },
+    {
+        "id": 18,
+        "raw": "[name=\"PRTS\"]  また、あなたが不愉快な心情にあることが検出されております。",
+        "type": "dialog",
+        "speaker": "PRTS",
+        "content": "また、あなたが不愉快な心情にあることが検出されております。"
+    },
+    {
+        "id": 19,
+        "raw": "[Decision(options=\"黙れ。;……;愉快な心情とはどんなものか教えてくれ。\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "黙れ。;……;愉快な心情とはどんなものか教えてくれ。",
+        "values": "1;2;3"
+    },
+    {
+        "id": 20,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 21,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 22,
+        "raw": "[name=\"PRTS\"]  Dr.{@nickname}より、一定の攻撃性が検知されました。",
+        "type": "dialog",
+        "speaker": "PRTS",
+        "content": "Dr.{@nickname}より、一定の攻撃性が検知されました。"
+    },
+    {
+        "id": 23,
+        "raw": "[name=\"PRTS\"]  ご安心ください。セキュリティシステムによる拘束通電処置は実行されません。また、システムの計測結果について過剰に心配する必要もありません。",
+        "type": "dialog",
+        "speaker": "PRTS",
+        "content": "ご安心ください。セキュリティシステムによる拘束通電処置は実行されません。また、システムの計測結果について過剰に心配する必要もありません。"
+    },
+    {
+        "id": 24,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 25,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 26,
+        "raw": "[name=\"PRTS\"]  Dr.{@nickname}は沈黙を選択したと判断します。",
+        "type": "dialog",
+        "speaker": "PRTS",
+        "content": "Dr.{@nickname}は沈黙を選択したと判断します。"
+    },
+    {
+        "id": 27,
+        "raw": "[name=\"PRTS\"]  無言による抗議行為、あるいはコミュニケーション拒否、いずれも一種のAPD、回避性パーソナリティ障害と思われます。",
+        "type": "dialog",
+        "speaker": "PRTS",
+        "content": "無言による抗議行為、あるいはコミュニケーション拒否、いずれも一種のAPD、回避性パーソナリティ障害と思われます。"
+    },
+    {
+        "id": 28,
+        "raw": "[name=\"PRTS\"]  ですが、どのような方にもシステムは平等に対応しますので、どうぞご自由に行動してください。",
+        "type": "dialog",
+        "speaker": "PRTS",
+        "content": "ですが、どのような方にもシステムは平等に対応しますので、どうぞご自由に行動してください。"
+    },
+    {
+        "id": 29,
+        "raw": "[Predicate(references=\"3\")]",
+        "type": "predicate",
+        "references": "3"
+    },
+    {
+        "id": 30,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 31,
+        "raw": "[name=\"PRTS\"]  愉快、不愉快とは主観的判断です。",
+        "type": "dialog",
+        "speaker": "PRTS",
+        "content": "愉快、不愉快とは主観的判断です。"
+    },
+    {
+        "id": 32,
+        "raw": "[name=\"PRTS\"]  ですが、本システムには記録されているほぼ全ての精神活動状態、及び各種の分泌ホルモン数値をベースとした、統計による判断基準が集約されています。",
+        "type": "dialog",
+        "speaker": "PRTS",
+        "content": "ですが、本システムには記録されているほぼ全ての精神活動状態、及び各種の分泌ホルモン数値をベースとした、統計による判断基準が集約されています。"
+    },
+    {
+        "id": 33,
+        "raw": "[name=\"PRTS\"]  よって、本システムによる主観的判断を比喩する表現については、限りなく客観的事実に近いものと見なして問題ありません。",
+        "type": "dialog",
+        "speaker": "PRTS",
+        "content": "よって、本システムによる主観的判断を比喩する表現については、限りなく客観的事実に近いものと見なして問題ありません。"
+    },
+    {
+        "id": 34,
+        "raw": "[name=\"PRTS\"]  本システムは、Dr.{@nickname}がどのような行動を選択しても、高レベルのシミュレーションとそれに基づく対処が可能です。",
+        "type": "dialog",
+        "speaker": "PRTS",
+        "content": "本システムは、Dr.{@nickname}がどのような行動を選択しても、高レベルのシミュレーションとそれに基づく対処が可能です。"
+    },
+    {
+        "id": 35,
+        "raw": "[name=\"PRTS\"]  ですから、自由に行動していただいて構いません。",
+        "type": "dialog",
+        "speaker": "PRTS",
+        "content": "ですから、自由に行動していただいて構いません。"
+    },
+    {
+        "id": 36,
+        "raw": "[name=\"PRTS\"]  PRTSは、非殺傷性の対象無力化システムを完備しています。",
+        "type": "dialog",
+        "speaker": "PRTS",
+        "content": "PRTSは、非殺傷性の対象無力化システムを完備しています。"
+    },
+    {
+        "id": 37,
+        "raw": "[name=\"PRTS\"]  過激な行動と判断された場合、システムが速やかにあなたを気絶させ3.55時間後に覚醒させます。その結果あなたの行動が通常の水準に戻ることが保証されます。",
+        "type": "dialog",
+        "speaker": "PRTS",
+        "content": "過激な行動と判断された場合、システムが速やかにあなたを気絶させ3.55時間後に覚醒させます。その結果あなたの行動が通常の水準に戻ることが保証されます。"
+    },
+    {
+        "id": 38,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 39,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 40,
+        "raw": "[name=\"PRTS\"]  Welcome home, Doctor.",
+        "type": "dialog",
+        "speaker": "PRTS",
+        "content": "Welcome home, Doctor."
+    },
+    {
+        "id": 41,
+        "raw": "[Decision(options=\"……ここは本当に帰るべき家なのか？\", values=\"1\")]",
+        "type": "decision",
+        "options": "……ここは本当に帰るべき家なのか？",
+        "values": "1"
+    },
+    {
+        "id": 42,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 43,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 44,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3"
+    },
+    {
+        "id": 45,
+        "raw": "[Character(name=\"avg_npc_042\",fadetime=1,block=true)]",
+        "type": "character",
+        "name": "avg_npc_042",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 46,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 47,
+        "raw": "[name=\"？？？\"]  あなたが、Dr.{@nickname}？",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "あなたが、Dr.{@nickname}？"
+    },
+    {
+        "id": 48,
+        "raw": "[Decision(options=\"え？;……？;そうだけど？\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "え？;……？;そうだけど？",
+        "values": "1;2;3"
+    },
+    {
+        "id": 49,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 50,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 51,
+        "raw": "[name=\"？？？\"]  ……あなたで間違いなさそう。",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "……あなたで間違いなさそう。"
+    },
+    {
+        "id": 52,
+        "raw": "[name=\"？？？\"]  感じる……ちょっと変わってるけど。",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "感じる……ちょっと変わってるけど。"
+    },
+    {
+        "id": 53,
+        "raw": "[name=\"？？？\"]  それと……あなたの抱えてる人、その服は……",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "それと……あなたの抱えてる人、その服は……"
+    },
+    {
+        "id": 54,
+        "raw": "[name=\"？？？\"]  その人が誰なのか、聞いてもいい？",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "その人が誰なのか、聞いてもいい？"
+    },
+    {
+        "id": 55,
+        "raw": "[Decision(options=\"一人の……戦士だ。;一人の……同胞だ。;一人の……友人だ。\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "一人の……戦士だ。;一人の……同胞だ。;一人の……友人だ。",
+        "values": "1;2;3"
+    },
+    {
+        "id": 56,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 57,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 58,
+        "raw": "[name=\"？？？\"]  戦士？",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "戦士？"
+    },
+    {
+        "id": 59,
+        "raw": "[name=\"？？？\"]  でも、彼女はあなたの身体に傷を残した……敵なの？",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "でも、彼女はあなたの身体に傷を残した……敵なの？"
+    },
+    {
+        "id": 60,
+        "raw": "[name=\"？？？\"]  いや、違う……これは致命傷じゃないし、そもそも傷のつき方に殺意が感じられない……",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "いや、違う……これは致命傷じゃないし、そもそも傷のつき方に殺意が感じられない……"
+    },
+    {
+        "id": 61,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 62,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 63,
+        "raw": "[name=\"？？？\"]  その人も感染者……？",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "その人も感染者……？"
+    },
+    {
+        "id": 64,
+        "raw": "[name=\"？？？\"]  そんな単純な意味じゃ……ないよね。",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "そんな単純な意味じゃ……ないよね。"
+    },
+    {
+        "id": 65,
+        "raw": "[name=\"？？？\"]  Dr.{@nickname}、何か大切なものを喪ったみたいな顔をしてる。",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "Dr.{@nickname}、何か大切なものを喪ったみたいな顔をしてる。"
+    },
+    {
+        "id": 66,
+        "raw": "[Predicate(references=\"3\")]",
+        "type": "predicate",
+        "references": "3"
+    },
+    {
+        "id": 67,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 68,
+        "raw": "[name=\"？？？\"]  その人はあなたの友達？",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "その人はあなたの友達？"
+    },
+    {
+        "id": 69,
+        "raw": "[name=\"？？？\"]  でも、友達にしては……あなたとの繋がりが、すごく薄いよ？",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "でも、友達にしては……あなたとの繋がりが、すごく薄いよ？"
+    },
+    {
+        "id": 70,
+        "raw": "[name=\"？？？\"]  なんだか……なんだかすぐにでも消えてしまいそう。",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "なんだか……なんだかすぐにでも消えてしまいそう。"
+    },
+    {
+        "id": 71,
+        "raw": "[Decision(options=\"君には何が……見えてるんだ？\", values=\"1\")]",
+        "type": "decision",
+        "options": "君には何が……見えてるんだ？",
+        "values": "1"
+    },
+    {
+        "id": 72,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 73,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 74,
+        "raw": "[name=\"？？？\"]  人と人の交流の跡。それが、匂いとか、温度とか、イメージとして感じるの。",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "人と人の交流の跡。それが、匂いとか、温度とか、イメージとして感じるの。"
+    },
+    {
+        "id": 75,
+        "raw": "[name=\"？？？\"]  よくわからないけど、彼女は……",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "よくわからないけど、彼女は……"
+    },
+    {
+        "id": 76,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 77,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 78,
+        "raw": "少女が、フロストノヴァの身体に触れようと手を伸ばす。",
+        "type": "narration",
+        "content": "少女が、フロストノヴァの身体に触れようと手を伸ばす。"
+    },
+    {
+        "id": 79,
+        "raw": "[Decision(options=\"（黙って見る）;（止める）\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "（黙って見る）;（止める）",
+        "values": "1;2"
+    },
+    {
+        "id": 80,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 81,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 82,
+        "raw": "[name=\"？？？\"]  えっと……",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "えっと……"
+    },
+    {
+        "id": 83,
+        "raw": "[name=\"？？？\"]  うーん……",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "うーん……"
+    },
+    {
+        "id": 84,
+        "raw": "[name=\"？？？\"]  あなたはそうして欲しくないんだよね？",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "あなたはそうして欲しくないんだよね？"
+    },
+    {
+        "id": 85,
+        "raw": "[name=\"？？？\"]  いや、違うよ。私は部外者。彼女とは何の繋がりもないの。",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "いや、違うよ。私は部外者。彼女とは何の繋がりもないの。"
+    },
+    {
+        "id": 86,
+        "raw": "[name=\"？？？\"]  これは私がするべきことじゃない。そういうことでしょ？",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "これは私がするべきことじゃない。そういうことでしょ？"
+    },
+    {
+        "id": 87,
+        "raw": "[name=\"？？？\"]  ……わかった。ごめんなさい。",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "……わかった。ごめんなさい。"
+    },
+    {
+        "id": 88,
+        "raw": "[Decision(options=\"君もアーミヤのように他人の心が読めるの？;……;君の反応にはついていけないよ。\", values=\"4;5;6\")]",
+        "type": "decision",
+        "options": "君もアーミヤのように他人の心が読めるの？;……;君の反応にはついていけないよ。",
+        "values": "4;5;6"
+    },
+    {
+        "id": 89,
+        "raw": "[Predicate(references=\"4\")]",
+        "type": "predicate",
+        "references": "4"
+    },
+    {
+        "id": 90,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 91,
+        "raw": "[name=\"？？？\"]  違う、私にはできない……",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "違う、私にはできない……"
+    },
+    {
+        "id": 92,
+        "raw": "[name=\"？？？\"]  アーミヤは特別だよ。あのアーツは知ってる……大変だと思うよ。",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "アーミヤは特別だよ。あのアーツは知ってる……大変だと思うよ。"
+    },
+    {
+        "id": 93,
+        "raw": "[Predicate(references=\"5\")]",
+        "type": "predicate",
+        "references": "5"
+    },
+    {
+        "id": 94,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 95,
+        "raw": "[name=\"？？？\"]  たぶん……私は彼女に触れてはいけないの。感じ取ることさえも。",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "たぶん……私は彼女に触れてはいけないの。感じ取ることさえも。"
+    },
+    {
+        "id": 96,
+        "raw": "[name=\"？？？\"]  彼女と、この大地の繋がりは、私とは縁がないから。",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "彼女と、この大地の繋がりは、私とは縁がないから。"
+    },
+    {
+        "id": 97,
+        "raw": "[name=\"？？？\"]  そんな彼女に触れる資格は、私にはないから……",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "そんな彼女に触れる資格は、私にはないから……"
+    },
+    {
+        "id": 98,
+        "raw": "[Predicate(references=\"6\")]",
+        "type": "predicate",
+        "references": "6"
+    },
+    {
+        "id": 99,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 100,
+        "raw": "[name=\"？？？\"]  他のみんなも、そう言うよ。",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "他のみんなも、そう言うよ。"
+    },
+    {
+        "id": 101,
+        "raw": "[name=\"？？？\"]  ロドスのみんなも、それぞれ個性的だけど……私は特別に変なのかもしれないって思う。",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "ロドスのみんなも、それぞれ個性的だけど……私は特別に変なのかもしれないって思う。"
+    },
+    {
+        "id": 102,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 103,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 104,
+        "raw": "[name=\"？？？\"]  あっ……",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "あっ……"
+    },
+    {
+        "id": 105,
+        "raw": "[name=\"？？？\"]  ご、ごめんなさい……",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "ご、ごめんなさい……"
+    },
+    {
+        "id": 106,
+        "raw": "[name=\"？？？\"]  私……",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "私……"
+    },
+    {
+        "id": 107,
+        "raw": "[Decision(options=\"ごめん。;……;すまない、お嬢さん。\", values=\"7;8;9\")]",
+        "type": "decision",
+        "options": "ごめん。;……;すまない、お嬢さん。",
+        "values": "7;8;9"
+    },
+    {
+        "id": 108,
+        "raw": "[Predicate(references=\"7\")]",
+        "type": "predicate",
+        "references": "7"
+    },
+    {
+        "id": 109,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 110,
+        "raw": "[name=\"？？？\"]  ううん、大丈夫だよ。慣れっこだから。",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "ううん、大丈夫だよ。慣れっこだから。"
+    },
+    {
+        "id": 111,
+        "raw": "[Predicate(references=\"8\")]",
+        "type": "predicate",
+        "references": "8"
+    },
+    {
+        "id": 112,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 113,
+        "raw": "[name=\"？？？\"]  お、怒らないで……",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "お、怒らないで……"
+    },
+    {
+        "id": 114,
+        "raw": "[name=\"？？？\"]  あなたが黙ったままだと、私……どうしたらいいかわからない。",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "あなたが黙ったままだと、私……どうしたらいいかわからない。"
+    },
+    {
+        "id": 115,
+        "raw": "[Predicate(references=\"9\")]",
+        "type": "predicate",
+        "references": "9"
+    },
+    {
+        "id": 116,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 117,
+        "raw": "[name=\"？？？\"]  大丈夫だよ。",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "大丈夫だよ。"
+    },
+    {
+        "id": 118,
+        "raw": "[name=\"？？？\"]  怖がられるよりも、普通に話してくれる方が嬉しいの……だから、大丈夫。",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "怖がられるよりも、普通に話してくれる方が嬉しいの……だから、大丈夫。"
+    },
+    {
+        "id": 119,
+        "raw": "[Predicate(references=\"4;5;6;7;8;9\")]",
+        "type": "predicate",
+        "references": "4;5;6;7;8;9"
+    },
+    {
+        "id": 120,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 121,
+        "raw": "[name=\"？？？\"]  この機械を……使いたいんだよね？",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "この機械を……使いたいんだよね？"
+    },
+    {
+        "id": 122,
+        "raw": "[Decision(options=\"ここが本当に感染者の還る場所なのであれば。\",values=\"1\")]",
+        "type": "decision",
+        "options": "ここが本当に感染者の還る場所なのであれば。",
+        "values": "1"
+    },
+    {
+        "id": 123,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 124,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 125,
+        "raw": "[name=\"？？？\"]  ……わかった。",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "……わかった。"
+    },
+    {
+        "id": 126,
+        "raw": "[name=\"？？？\"]  手伝ってあげるね。記録を見せて。",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "手伝ってあげるね。記録を見せて。"
+    },
+    {
+        "id": 127,
+        "raw": "[name=\"？？？\"]  うん、大丈夫そう。このポッドは掃除してある。彼女をこのデッキに乗せて。ゆっくり、うんいいよ。",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "うん、大丈夫そう。このポッドは掃除してある。彼女をこのデッキに乗せて。ゆっくり、うんいいよ。"
+    },
+    {
+        "id": 128,
+        "raw": "[name=\"？？？\"]  そしたら自動でデッキがポッドの中に入るから、それで……ドアが閉まったら、このボタンを押して終わりだよ。",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "そしたら自動でデッキがポッドの中に入るから、それで……ドアが閉まったら、このボタンを押して終わりだよ。"
+    },
+    {
+        "id": 129,
+        "raw": "[Decision(options=\"詳しいね。\",values=\"1\")]",
+        "type": "decision",
+        "options": "詳しいね。",
+        "values": "1"
+    },
+    {
+        "id": 130,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 131,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 132,
+        "raw": "[name=\"？？？\"]  うん、何度もやったから。",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "うん、何度もやったから。"
+    },
+    {
+        "id": 133,
+        "raw": "[Decision(options=\"……どうして？\",values=\"1\")]",
+        "type": "decision",
+        "options": "……どうして？",
+        "values": "1"
+    },
+    {
+        "id": 134,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 135,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 136,
+        "raw": "[name=\"？？？\"]  ロドスの感染者たちは、最後はみんなここに来るんだよ。",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "ロドスの感染者たちは、最後はみんなここに来るんだよ。"
+    },
+    {
+        "id": 137,
+        "raw": "[name=\"？？？\"]  私の知ってる人や感じたことのある人、あと同じチームのメンバーなんかは、みんな私が送り出すの。",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "私の知ってる人や感じたことのある人、あと同じチームのメンバーなんかは、みんな私が送り出すの。"
+    },
+    {
+        "id": 138,
+        "raw": "[name=\"？？？\"]  説明書は難しいから、簡単な操作方法を全部自分の端末に書いてあるの。それを読み返せば、たぶん身体が覚えてて、すぐに慣れてくるんだ。操作にも、送り出す感覚にも……",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "説明書は難しいから、簡単な操作方法を全部自分の端末に書いてあるの。それを読み返せば、たぶん身体が覚えてて、すぐに慣れてくるんだ。操作にも、送り出す感覚にも……"
+    },
+    {
+        "id": 139,
+        "raw": "[Decision(options=\"送り出す感覚って？\", values=\"1\")]",
+        "type": "decision",
+        "options": "送り出す感覚って？",
+        "values": "1"
+    },
+    {
+        "id": 140,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 141,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 142,
+        "raw": "[name=\"？？？\"]  えっと……たぶん鎖みたいなものかな。",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "えっと……たぶん鎖みたいなものかな。"
+    },
+    {
+        "id": 143,
+        "raw": "[Decision(options=\"鎖……？\", values=\"1\")]",
+        "type": "decision",
+        "options": "鎖……？",
+        "values": "1"
+    },
+    {
+        "id": 144,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 145,
+        "raw": "[name=\"？？？\"]  二人の間を繋いだ糸、と言ってもいいけど。",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "二人の間を繋いだ糸、と言ってもいいけど。"
+    },
+    {
+        "id": 146,
+        "raw": "[name=\"？？？\"]  自分と繋がってる人を送り出すのは、その人と結びついた糸を解くことになるの。糸の片方は自分に繋がったままで、その向こうに誰もいなくなったとしても、糸が落ちて消えることはない。",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "自分と繋がってる人を送り出すのは、その人と結びついた糸を解くことになるの。糸の片方は自分に繋がったままで、その向こうに誰もいなくなったとしても、糸が落ちて消えることはない。"
+    },
+    {
+        "id": 147,
+        "raw": "[name=\"？？？\"]  でもそれは、身体から何かが消えたような感覚なんだ。そこにまだ何かが残ってるかどうかは判らないけど、かつてその人が存在してたこと、もう戻ってこないことはなんとなく解る……そんな感覚。",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "でもそれは、身体から何かが消えたような感覚なんだ。そこにまだ何かが残ってるかどうかは判らないけど、かつてその人が存在してたこと、もう戻ってこないことはなんとなく解る……そんな感覚。"
+    },
+    {
+        "id": 148,
+        "raw": "[Decision(options=\"そんな感覚に……どうして慣れようとするんだ？\", values=\"1\")]",
+        "type": "decision",
+        "options": "そんな感覚に……どうして慣れようとするんだ？",
+        "values": "1"
+    },
+    {
+        "id": 149,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 150,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 151,
+        "raw": "[name=\"？？？\"]  だって慣れていれば、突然失う痛みにも耐えられるでしょ？",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "だって慣れていれば、突然失う痛みにも耐えられるでしょ？"
+    },
+    {
+        "id": 152,
+        "raw": "[Decision(options=\"……君は一体？\", values=\"1\")]",
+        "type": "decision",
+        "options": "……君は一体？",
+        "values": "1"
+    },
+    {
+        "id": 153,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 154,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 155,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 156,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 157,
+        "raw": "[name=\"PRTS\"]  お取り込み中、失礼します。",
+        "type": "dialog",
+        "speaker": "PRTS",
+        "content": "お取り込み中、失礼します。"
+    },
+    {
+        "id": 158,
+        "raw": "[name=\"PRTS\"]  ロドス総合感染生物処理室に滞在中のエリートオペレーター、Rosmontis様、現在使用中の識別コードは15分後に無効となります。",
+        "type": "dialog",
+        "speaker": "PRTS",
+        "content": "ロドス総合感染生物処理室に滞在中のエリートオペレーター、Rosmontis様、現在使用中の識別コードは15分後に無効となります。"
+    },
+    {
+        "id": 159,
+        "raw": "[name=\"PRTS\"]  ただ今よりリモートアップデートを行いますので、そのまま現在地にて15秒ほどお待ちください。",
+        "type": "dialog",
+        "speaker": "PRTS",
+        "content": "ただ今よりリモートアップデートを行いますので、そのまま現在地にて15秒ほどお待ちください。"
+    },
+    {
+        "id": 160,
+        "raw": "[name=\"PRTS\"]  また、接舷エリアにて小規模な戦闘が発生しております。当施設の被害を最小限に抑えるため、識別コードのアップデート完了後は、可及的速やかに支援に直行されることをおすすめします。",
+        "type": "dialog",
+        "speaker": "PRTS",
+        "content": "また、接舷エリアにて小規模な戦闘が発生しております。当施設の被害を最小限に抑えるため、識別コードのアップデート完了後は、可及的速やかに支援に直行されることをおすすめします。"
+    },
+    {
+        "id": 161,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 162,
+        "raw": "[name=\"Rosmontis\"]  あっ、うんわかった。すぐ行くね。",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "あっ、うんわかった。すぐ行くね。"
+    },
+    {
+        "id": 163,
+        "raw": "[name=\"Rosmontis\"]  待って、今の処理データを端末に書き込んでから……",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "待って、今の処理データを端末に書き込んでから……"
+    },
+    {
+        "id": 164,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 165,
+        "raw": "[name=\"PRTS\"]  6度目の提言をいたします。本システムに権限を開放していただければ、すぐに端末へ情報をお送り——",
+        "type": "dialog",
+        "speaker": "PRTS",
+        "content": "6度目の提言をいたします。本システムに権限を開放していただければ、すぐに端末へ情報をお送り——"
+    },
+    {
+        "id": 166,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 167,
+        "raw": "[name=\"Rosmontis\"]  ダメ。",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "ダメ。"
+    },
+    {
+        "id": 168,
+        "raw": "[name=\"Rosmontis\"]  これは私が……私が自分で書き込まなきゃいけないの。",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "これは私が……私が自分で書き込まなきゃいけないの。"
+    },
+    {
+        "id": 169,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 170,
+        "raw": "[name=\"PRTS\"]  承知しました。どうぞ。",
+        "type": "dialog",
+        "speaker": "PRTS",
+        "content": "承知しました。どうぞ。"
+    },
+    {
+        "id": 171,
+        "raw": "[Decision(options=\"エリートオペレーターって……？\", values=\"1\")]",
+        "type": "decision",
+        "options": "エリートオペレーターって……？",
+        "values": "1"
+    },
+    {
+        "id": 172,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 173,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 174,
+        "raw": "[name=\"Rosmontis\"]  え？　私のことだよ。",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "え？　私のことだよ。"
+    },
+    {
+        "id": 175,
+        "raw": "[Decision(options=\"えっと……君をなんて呼べばいいかな？\", values=\"1\")]",
+        "type": "decision",
+        "options": "えっと……君をなんて呼べばいいかな？",
+        "values": "1"
+    },
+    {
+        "id": 176,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 177,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 178,
+        "raw": "[name=\"Rosmontis\"]  ロスモンティス、でいいよ。",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "ロスモンティス、でいいよ。"
+    },
+    {
+        "id": 179,
+        "raw": "[name=\"ロスモンティス\"]  あ、そうだ……その人、名前は？",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "あ、そうだ……その人、名前は？"
+    },
+    {
+        "id": 180,
+        "raw": "[name=\"ロスモンティス\"]  せめて……せめて何て呼ばれてたのか知りたいの。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "せめて……せめて何て呼ばれてたのか知りたいの。"
+    },
+    {
+        "id": 181,
+        "raw": "[Decision(options=\"フロストノヴァ。\", values=\"1\")]",
+        "type": "decision",
+        "options": "フロストノヴァ。",
+        "values": "1"
+    },
+    {
+        "id": 182,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 183,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 184,
+        "raw": "[name=\"ロスモンティス\"]  フロストノヴァ……",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "フロストノヴァ……"
+    },
+    {
+        "id": 185,
+        "raw": "[name=\"ロスモンティス\"]  綺麗な名前。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "綺麗な名前。"
+    },
+    {
+        "id": 186,
+        "raw": "[name=\"ロスモンティス\"]  はじめまして、フロストノヴァ。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "はじめまして、フロストノヴァ。"
+    },
+    {
+        "id": 187,
+        "raw": "[name=\"ロスモンティス\"]  ……さようなら。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "……さようなら。"
+    },
+    {
+        "id": 188,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 189,
+        "raw": "[Blocker(fadetime=3,block=true)]",
+        "type": "blocker",
+        "fadetime": "3,block=true"
+    },
+    {
+        "id": 190,
+        "raw": "[Image]",
+        "type": "image"
+    }
+]

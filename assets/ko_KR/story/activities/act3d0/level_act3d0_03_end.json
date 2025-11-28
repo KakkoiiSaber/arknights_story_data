@@ -1,0 +1,466 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")] 第五关（后）",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK",
+        "content": "第五关（后）"
+    },
+    {
+        "id": 2,
+        "raw": "[largebg(imagegroup=\"bg_beach_1/bg_beach_2\", solidwidth=\"920/920\", solidheight=720,x=-180,fadetime=1)]",
+        "type": "large_bg",
+        "imagegroup": "bg_beach_1/bg_beach_2",
+        "solidwidth": "920/920",
+        "solidheight": "720,x=-180,fadetime=1"
+    },
+    {
+        "id": 3,
+        "raw": "[PlayMusic(intro=\"$farce_intro\", key=\"$farce_loop\", volume=0.8, crossfade=1.5)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/a001/m_dia_farce_intro.mp3",
+        "key": "sound_beta_2/music/a001/m_dia_farce_loop.mp3",
+        "volume": "0.8,",
+        "crossfade": 1.5
+    },
+    {
+        "id": 4,
+        "raw": "[playsound(key=\"$beach\",volume=0.8, channel=\"B\", loop=true)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_amb_beach.mp3",
+        "volume": "0.8,",
+        "channel": "B",
+        "loop": true
+    },
+    {
+        "id": 5,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 6,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 7,
+        "raw": "[name=\"경호원A\"]   으아아아! 뜨거워!",
+        "type": "dialog",
+        "speaker": "경호원A",
+        "content": "으아아아! 뜨거워!"
+    },
+    {
+        "id": 8,
+        "raw": "[name=\"경호원B\"]   악! 내 머리카락이!",
+        "type": "dialog",
+        "speaker": "경호원B",
+        "content": "악! 내 머리카락이!"
+    },
+    {
+        "id": 9,
+        "raw": "[name=\"경호원A\"]   쳇, 철수, 철수다!",
+        "type": "dialog",
+        "speaker": "경호원A",
+        "content": "쳇, 철수, 철수다!"
+    },
+    {
+        "id": 10,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 11,
+        "raw": "[PlaySound(key=\"$d_gen_soldiersrun\",volume=0.5)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_soldiersrun.mp3",
+        "volume": 0.5
+    },
+    {
+        "id": 12,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=0.8, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "0.8,",
+        "block": true
+    },
+    {
+        "id": 13,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 14,
+        "raw": "[Blocker(a=0, fadetime=0.8, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "fadetime": "0.8,",
+        "block": true
+    },
+    {
+        "id": 15,
+        "raw": "[Character(name=\"char_134_ifrit_summer_1\")]",
+        "type": "character",
+        "name": "char_134_ifrit_summer_1"
+    },
+    {
+        "id": 16,
+        "raw": "[name=\"이프리트\"]   하하하, 역시 싸움은 재밌다니까, 그치 박사!",
+        "type": "dialog",
+        "speaker": "이프리트",
+        "content": "하하하, 역시 싸움은 재밌다니까, 그치 박사!"
+    },
+    {
+        "id": 17,
+        "raw": "[name=\"이프리트\"]   아, 맞다. 박사, 이번엔 널 구하려고 한 거고, 네 말대로 심하게 하지도 않았으니까! 사일런스한테 말하기 없기다!",
+        "type": "dialog",
+        "speaker": "이프리트",
+        "content": "아, 맞다. 박사, 이번엔 널 구하려고 한 거고, 네 말대로 심하게 하지도 않았으니까! 사일런스한테 말하기 없기다!"
+    },
+    {
+        "id": 18,
+        "raw": "[name=\"이프리트\"]   사일런스한테 걸리면, 분명 내 숙제가 또 산더미처럼 늘어날 거야!",
+        "type": "dialog",
+        "speaker": "이프리트",
+        "content": "사일런스한테 걸리면, 분명 내 숙제가 또 산더미처럼 늘어날 거야!"
+    },
+    {
+        "id": 19,
+        "raw": "[Decision(options=\"그래.;숙제는 내 알 바 아니지.\",values=\"1;2\")]",
+        "type": "decision",
+        "options": "그래.;숙제는 내 알 바 아니지.",
+        "values": "1;2"
+    },
+    {
+        "id": 20,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 21,
+        "raw": "[name=\"이프리트\"]   헤헤, 역시 박사는 사람이 좋다니까!",
+        "type": "dialog",
+        "speaker": "이프리트",
+        "content": "헤헤, 역시 박사는 사람이 좋다니까!"
+    },
+    {
+        "id": 22,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 23,
+        "raw": "[name=\"이프리트\"]   흥! 그럼 이제 안 도와줄 거야!",
+        "type": "dialog",
+        "speaker": "이프리트",
+        "content": "흥! 그럼 이제 안 도와줄 거야!"
+    },
+    {
+        "id": 24,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 25,
+        "raw": "[Character(name=\"char_134_ifrit_summer_1\",name2=\"char_348_ceylon_4#8\",focus=2)]",
+        "type": "character",
+        "name": "char_134_ifrit_summer_1",
+        "name2": "char_348_ceylon_4#8",
+        "focus": 2
+    },
+    {
+        "id": 26,
+        "raw": "[name=\"실론\"]   오리지늄을 동력으로 쓰는 화염방사기…… 게다가 이렇게나 출력이 강하다니, 대단한 캐스터네요.",
+        "type": "dialog",
+        "speaker": "실론",
+        "content": "오리지늄을 동력으로 쓰는 화염방사기…… 게다가 이렇게나 출력이 강하다니, 대단한 캐스터네요."
+    },
+    {
+        "id": 27,
+        "raw": "[Character(name=\"char_134_ifrit_summer_1\",name2=\"char_348_ceylon_4#8\",focus=1)]",
+        "type": "character",
+        "name": "char_134_ifrit_summer_1",
+        "name2": "char_348_ceylon_4#8",
+        "focus": 1
+    },
+    {
+        "id": 28,
+        "raw": "[name=\"이프리트\"]   아가씨가 보는 눈이 좀 있나 보네, 내가 좀 굉장하거든!",
+        "type": "dialog",
+        "speaker": "이프리트",
+        "content": "아가씨가 보는 눈이 좀 있나 보네, 내가 좀 굉장하거든!"
+    },
+    {
+        "id": 29,
+        "raw": "[Character(name=\"char_134_ifrit_summer_1\",name2=\"char_348_ceylon_4#2\",focus=2)]",
+        "type": "character",
+        "name": "char_134_ifrit_summer_1",
+        "name2": "char_348_ceylon_4#2",
+        "focus": 2
+    },
+    {
+        "id": 30,
+        "raw": "[name=\"실론\"]   전 실론이라고 합니다.",
+        "type": "dialog",
+        "speaker": "실론",
+        "content": "전 실론이라고 합니다."
+    },
+    {
+        "id": 31,
+        "raw": "[name=\"실론\"]   저희를 구해주셔서 감사합니다.",
+        "type": "dialog",
+        "speaker": "실론",
+        "content": "저희를 구해주셔서 감사합니다."
+    },
+    {
+        "id": 32,
+        "raw": "[Character(name=\"char_134_ifrit_summer_1\",name2=\"char_348_ceylon_4#2\",focus=1)]",
+        "type": "character",
+        "name": "char_134_ifrit_summer_1",
+        "name2": "char_348_ceylon_4#2",
+        "focus": 1
+    },
+    {
+        "id": 33,
+        "raw": "[name=\"이프리트\"]   어, 어…… 괜찮아. 이, 이런 건 당연히 해 줘야지……",
+        "type": "dialog",
+        "speaker": "이프리트",
+        "content": "어, 어…… 괜찮아. 이, 이런 건 당연히 해 줘야지……"
+    },
+    {
+        "id": 34,
+        "raw": "[name=\"이프리트\"]   어이, 박사. 이 아가씨 너무 예의 바른데… 이, 이럴 땐 어떻게 해야 해?",
+        "type": "dialog",
+        "speaker": "이프리트",
+        "content": "어이, 박사. 이 아가씨 너무 예의 바른데… 이, 이럴 땐 어떻게 해야 해?"
+    },
+    {
+        "id": 35,
+        "raw": "[Decision(options=\"너도 미소 지어주면 돼.;너도 배꼽인사 해주면 돼.;춤을 춰 줘.\",values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "너도 미소 지어주면 돼.;너도 배꼽인사 해주면 돼.;춤을 춰 줘.",
+        "values": "1;2;3"
+    },
+    {
+        "id": 36,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 37,
+        "raw": "[Character(name=\"char_134_ifrit_summer_1\")]",
+        "type": "character",
+        "name": "char_134_ifrit_summer_1"
+    },
+    {
+        "id": 38,
+        "raw": "[name=\"이프리트\"]   그렇구나… 알았어. 해볼게…",
+        "type": "dialog",
+        "speaker": "이프리트",
+        "content": "그렇구나… 알았어. 해볼게…"
+    },
+    {
+        "id": 39,
+        "raw": "[name=\"이프리트\"]   아…… 내 정신 좀 봐! 고기 굽던 중이었는데! 그만 가 봐야겠어!",
+        "type": "dialog",
+        "speaker": "이프리트",
+        "content": "아…… 내 정신 좀 봐! 고기 굽던 중이었는데! 그만 가 봐야겠어!"
+    },
+    {
+        "id": 40,
+        "raw": "[name=\"이프리트\"]   박사, 실론, 바비큐 먹고 싶으면 나한테 얘기해!",
+        "type": "dialog",
+        "speaker": "이프리트",
+        "content": "박사, 실론, 바비큐 먹고 싶으면 나한테 얘기해!"
+    },
+    {
+        "id": 41,
+        "raw": "[playsound(key=\"$runsand\", volume=0.7)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_runsand.mp3",
+        "volume": 0.7
+    },
+    {
+        "id": 42,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 43,
+        "raw": "[Character(fadetime=1,block=true)]",
+        "type": "character",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 44,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 45,
+        "raw": "[Decision(options=\"바로 도망칠 줄이야.\",values=\"1\")]",
+        "type": "decision",
+        "options": "바로 도망칠 줄이야.",
+        "values": "1"
+    },
+    {
+        "id": 46,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 47,
+        "raw": "[Character(name=\"char_348_ceylon_4#2\")]",
+        "type": "character",
+        "name": "char_348_ceylon_4#2"
+    },
+    {
+        "id": 48,
+        "raw": "[name=\"실론\"]   박사, 저희도 어서 돌아가죠.",
+        "type": "dialog",
+        "speaker": "실론",
+        "content": "박사, 저희도 어서 돌아가죠."
+    },
+    {
+        "id": 49,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 50,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 51,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 52,
+        "raw": "[Background(image=\"bg_hotel\")]",
+        "type": "background",
+        "image": "bg_hotel.png"
+    },
+    {
+        "id": 53,
+        "raw": "[stopmusic(fadetime=1)]",
+        "type": "stop_music",
+        "fadetime": 1
+    },
+    {
+        "id": 54,
+        "raw": "[Blocker(a=0, fadetime=2, block=false)]",
+        "type": "blocker",
+        "a": "0,",
+        "fadetime": "2,",
+        "block": false
+    },
+    {
+        "id": 55,
+        "raw": "[Character(name=\"char_188_helage_1\")]",
+        "type": "character",
+        "name": "char_188_helage_1"
+    },
+    {
+        "id": 56,
+        "raw": "[name=\"???\"]   박사, 그리고 아가씨까지, 다들 무사했군그래.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "박사, 그리고 아가씨까지, 다들 무사했군그래."
+    },
+    {
+        "id": 57,
+        "raw": "[Character(name=\"char_188_helage_1\",name2=\"char_348_ceylon_4#5\",focus=2)]",
+        "type": "character",
+        "name": "char_188_helage_1",
+        "name2": "char_348_ceylon_4#5",
+        "focus": 2
+    },
+    {
+        "id": 58,
+        "raw": "[name=\"실론\"]   도와주셔서 감사해요. 혹시 성함이……",
+        "type": "dialog",
+        "speaker": "실론",
+        "content": "도와주셔서 감사해요. 혹시 성함이……"
+    },
+    {
+        "id": 59,
+        "raw": "[Character(name=\"char_188_helage_1\",name2=\"char_348_ceylon_4#5\",focus=1)]",
+        "type": "character",
+        "name": "char_188_helage_1",
+        "name2": "char_348_ceylon_4#5",
+        "focus": 1
+    },
+    {
+        "id": 60,
+        "raw": "[name=\"헬라그\"]   헬라그라고 부르게.",
+        "type": "dialog",
+        "speaker": "헬라그",
+        "content": "헬라그라고 부르게."
+    },
+    {
+        "id": 61,
+        "raw": "[name=\"헬라그\"]   박사처럼 로도스 아일랜드에서 왔지.",
+        "type": "dialog",
+        "speaker": "헬라그",
+        "content": "박사처럼 로도스 아일랜드에서 왔지."
+    },
+    {
+        "id": 62,
+        "raw": "[Character(name=\"char_188_helage_1\")]",
+        "type": "character",
+        "name": "char_188_helage_1"
+    },
+    {
+        "id": 63,
+        "raw": "[name=\"헬라그\"]   박사, 지금 시간 괜찮나? 따로 자네에게 알려줄 게 있네.",
+        "type": "dialog",
+        "speaker": "헬라그",
+        "content": "박사, 지금 시간 괜찮나? 따로 자네에게 알려줄 게 있네."
+    },
+    {
+        "id": 64,
+        "raw": "[stopsound(channel=\"B\", fadetime=1)]",
+        "type": "stop_sound",
+        "channel": "B",
+        "fadetime": 1
+    },
+    {
+        "id": 65,
+        "raw": "[Delay(time=0.6)]",
+        "type": "delay",
+        "time": 0.6
+    },
+    {
+        "id": 66,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 67,
+        "raw": "[Blocker(block=true)]",
+        "type": "blocker",
+        "block": true
+    },
+    {
+        "id": 68,
+        "raw": "[Image]",
+        "type": "image"
+    }
+]

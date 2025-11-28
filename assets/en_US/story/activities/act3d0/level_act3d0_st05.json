@@ -1,0 +1,1490 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")] 第三关（前）",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK",
+        "content": "第三关（前）"
+    },
+    {
+        "id": 2,
+        "raw": "[PlayMusic(intro=\"$m_dia_street_intro\", key=\"$m_dia_street_loop\", volume=0.8, crossfade=1.5)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta3_181101/m_dia_street_intro.mp3",
+        "key": "sound_beta_2/music/beta3_181101/m_dia_street_loop.mp3",
+        "volume": "0.8,",
+        "crossfade": 1.5
+    },
+    {
+        "id": 3,
+        "raw": "[largebg(imagegroup=\"bg_beach_1/bg_beach_2\", solidwidth=\"920/920\", solidheight=720,x=-720)]",
+        "type": "large_bg",
+        "imagegroup": "bg_beach_1/bg_beach_2",
+        "solidwidth": "920/920",
+        "solidheight": "720,x=-720"
+    },
+    {
+        "id": 4,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 5,
+        "raw": "[playsound(key=\"$beach\", volume=0.7, channel=\"B\",loop=true)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_amb_beach.mp3",
+        "volume": "0.7,",
+        "channel": "B",
+        "loop": true
+    },
+    {
+        "id": 6,
+        "raw": "[Character(name=\"char_002_amiya_summer_2#1\",fadetime=1,block=true)]",
+        "type": "character",
+        "name": "char_002_amiya_summer_2#1",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 7,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 8,
+        "raw": "[name=\"Amiya\"]   Doctor, I have to blame you for what happened this time.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Doctor, I have to blame you for what happened this time."
+    },
+    {
+        "id": 9,
+        "raw": "[name=\"Amiya\"]   Everyone has been injured to some degree. As the leader, you're responsible for that!",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Everyone has been injured to some degree. As the leader, you're responsible for that!"
+    },
+    {
+        "id": 10,
+        "raw": "[name=\"Amiya\"]   Gummy has already finished treating them, but it's going to sting if they get in the water.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Gummy has already finished treating them, but it's going to sting if they get in the water."
+    },
+    {
+        "id": 11,
+        "raw": "[name=\"Amiya\"]   Jeez, you need to show some more reservation when leading your teams.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Jeez, you need to show some more reservation when leading your teams."
+    },
+    {
+        "id": 12,
+        "raw": "[Decision(options=\"Sorry...;That swimsuit looks good on you, Amiya.\",values=\"1;2\")]",
+        "type": "decision",
+        "options": "Sorry...;That swimsuit looks good on you, Amiya.",
+        "values": "1;2"
+    },
+    {
+        "id": 13,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 14,
+        "raw": "[Character(name=\"char_002_amiya_summer_2#1\")]",
+        "type": "character",
+        "name": "char_002_amiya_summer_2#1"
+    },
+    {
+        "id": 15,
+        "raw": "[name=\"Amiya\"]   Um, it's not like I'm trying to trample on your good will...",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Um, it's not like I'm trying to trample on your good will..."
+    },
+    {
+        "id": 16,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 17,
+        "raw": "[Character(name=\"char_002_amiya_summer_2#2\")]",
+        "type": "character",
+        "name": "char_002_amiya_summer_2#2"
+    },
+    {
+        "id": 18,
+        "raw": "[name=\"Amiya\"]   Is, is that so? Miss Savage picked it out for me... I was so worried that you wouldn't like it--",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Is, is that so? Miss Savage picked it out for me... I was so worried that you wouldn't like it--"
+    },
+    {
+        "id": 19,
+        "raw": "[Character(name=\"char_002_amiya_summer_2#1\")]",
+        "type": "character",
+        "name": "char_002_amiya_summer_2#1"
+    },
+    {
+        "id": 20,
+        "raw": "[name=\"Amiya\"]   W-wait! Don't you try to play that trick on me, Dr. {@nickname}!",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "W-wait! Don't you try to play that trick on me, Dr. {@nickname}!"
+    },
+    {
+        "id": 21,
+        "raw": "[Decision(options=\"We did go a bit overboard this time...\",values=\"1\")]",
+        "type": "decision",
+        "options": "We did go a bit overboard this time...",
+        "values": "1"
+    },
+    {
+        "id": 22,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 23,
+        "raw": "[Character(name=\"char_002_amiya_summer_2#1\")]",
+        "type": "character",
+        "name": "char_002_amiya_summer_2#1"
+    },
+    {
+        "id": 24,
+        "raw": "[name=\"Amiya\"]   Good grief... And I have a word for Mister Hellagur as well!",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Good grief... And I have a word for Mister Hellagur as well!"
+    },
+    {
+        "id": 25,
+        "raw": "[name=\"Amiya\"]   I explicitly told him to keep an eye on you, so why did he turn a blind eye...",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "I explicitly told him to keep an eye on you, so why did he turn a blind eye..."
+    },
+    {
+        "id": 26,
+        "raw": "[name=\"Amiya\"]   Until a contract is signed, Rhodes Island is not allowed to intervene in the internal affairs of an independent city-state.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Until a contract is signed, Rhodes Island is not allowed to intervene in the internal affairs of an independent city-state."
+    },
+    {
+        "id": 27,
+        "raw": "[name=\"Amiya\"]   If we get caught up in legal repercussions, Rhodes Island will be in a very tight spot.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "If we get caught up in legal repercussions, Rhodes Island will be in a very tight spot."
+    },
+    {
+        "id": 28,
+        "raw": "[Decision(options=\"Actually, I already...\",values=\"1\")]",
+        "type": "decision",
+        "options": "Actually, I already...",
+        "values": "1"
+    },
+    {
+        "id": 29,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 30,
+        "raw": "[Character(name=\"char_002_amiya_summer_2#1\")]",
+        "type": "character",
+        "name": "char_002_amiya_summer_2#1"
+    },
+    {
+        "id": 31,
+        "raw": "[name=\"Amiya\"]   Yes, I know.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Yes, I know."
+    },
+    {
+        "id": 32,
+        "raw": "[name=\"Amiya\"]   Doctor, you really did something very dangerous.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Doctor, you really did something very dangerous."
+    },
+    {
+        "id": 33,
+        "raw": "[Character(name=\"char_002_amiya_summer_2#2\")]",
+        "type": "character",
+        "name": "char_002_amiya_summer_2#2"
+    },
+    {
+        "id": 34,
+        "raw": "[name=\"Amiya\"]   ...Why were you fighting with crazed fans anyway! If you're an adult, you should act like one.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "...Why were you fighting with crazed fans anyway! If you're an adult, you should act like one."
+    },
+    {
+        "id": 35,
+        "raw": "[name=\"Amiya\"]   No matter how much you like a band, you need to be nice to the other audience members, and you certainly can't pick fights with them!",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "No matter how much you like a band, you need to be nice to the other audience members, and you certainly can't pick fights with them!"
+    },
+    {
+        "id": 36,
+        "raw": "[Decision(options=\"...? But we were...\",values=\"1\")]",
+        "type": "decision",
+        "options": "...? But we were...",
+        "values": "1"
+    },
+    {
+        "id": 37,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 38,
+        "raw": "[Character(name=\"char_002_amiya_summer_2#2\")]",
+        "type": "character",
+        "name": "char_002_amiya_summer_2#2"
+    },
+    {
+        "id": 39,
+        "raw": "[name=\"Amiya\"]  (Shush!)",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "(Shush!)"
+    },
+    {
+        "id": 40,
+        "raw": "[name=\"Amiya\"]  No more questions! That wraps up this incident! Okay!",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "No more questions! That wraps up this incident! Okay!"
+    },
+    {
+        "id": 41,
+        "raw": "[name=\"Amiya\"]  Be more careful next time, okay?",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Be more careful next time, okay?"
+    },
+    {
+        "id": 42,
+        "raw": "[Decision(options=\"I know.\",values=\"1\")]",
+        "type": "decision",
+        "options": "I know.",
+        "values": "1"
+    },
+    {
+        "id": 43,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 44,
+        "raw": "[Character(name=\"char_002_amiya_summer_2#2\")]",
+        "type": "character",
+        "name": "char_002_amiya_summer_2#2"
+    },
+    {
+        "id": 45,
+        "raw": "[name=\"Amiya\"]  All right!",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "All right!"
+    },
+    {
+        "id": 46,
+        "raw": "[name=\"Amiya\"]  Doctor, come with me. I found lots of beautiful seashells on the other side of this reef. Beaches are absolutely fascinating!",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Doctor, come with me. I found lots of beautiful seashells on the other side of this reef. Beaches are absolutely fascinating!"
+    },
+    {
+        "id": 47,
+        "raw": "[name=\"Amiya\"]  The water isn't cold... Hmm...",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "The water isn't cold... Hmm..."
+    },
+    {
+        "id": 48,
+        "raw": "[Decision(options=\"(Follow Amiya);(Splash Amiya with water);(Take Amiya's hand)\",values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "(Follow Amiya);(Splash Amiya with water);(Take Amiya's hand)",
+        "values": "1;2;3"
+    },
+    {
+        "id": 49,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 50,
+        "raw": "[name=\"Amiya\"]  Come, Doctor, it's over here!",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Come, Doctor, it's over here!"
+    },
+    {
+        "id": 51,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 52,
+        "raw": "[name=\"Amiya\"]  Eek! Doctor! Please don't do that!",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Eek! Doctor! Please don't do that!"
+    },
+    {
+        "id": 53,
+        "raw": "[name=\"Amiya\"]  Darn it! Take this! Ahaha...",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Darn it! Take this! Ahaha..."
+    },
+    {
+        "id": 54,
+        "raw": "[Predicate(references=\"3\")]",
+        "type": "predicate",
+        "references": "3"
+    },
+    {
+        "id": 55,
+        "raw": "[name=\"Amiya\"]  Ehehe...",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Ehehe..."
+    },
+    {
+        "id": 56,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 57,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 58,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 59,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 60,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 61,
+        "raw": "[Blocker(a=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 62,
+        "raw": "[Character(name=\"avg_npc_024\")]",
+        "type": "character",
+        "name": "avg_npc_024"
+    },
+    {
+        "id": 63,
+        "raw": "[name=\"Herman\"]   Dr. {@nickname}, nice to see you.",
+        "type": "dialog",
+        "speaker": "Herman",
+        "content": "Dr. {@nickname}, nice to see you."
+    },
+    {
+        "id": 64,
+        "raw": "[name=\"Herman\"]   Ceylon told me many things about Rhodes Island, so I've been very keen on speaking with you.",
+        "type": "dialog",
+        "speaker": "Herman",
+        "content": "Ceylon told me many things about Rhodes Island, so I've been very keen on speaking with you."
+    },
+    {
+        "id": 65,
+        "raw": "[name=\"Herman\"]   How about taking a walk with me?",
+        "type": "dialog",
+        "speaker": "Herman",
+        "content": "How about taking a walk with me?"
+    },
+    {
+        "id": 66,
+        "raw": "[Decision(options=\"...That's fine.\",values=\"1\")]",
+        "type": "decision",
+        "options": "...That's fine.",
+        "values": "1"
+    },
+    {
+        "id": 67,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 68,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 69,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 70,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 71,
+        "raw": "[largebg(imagegroup=\"bg_beach_1/bg_beach_2\", solidwidth=\"920/920\", solidheight=720,x=-180)]",
+        "type": "large_bg",
+        "imagegroup": "bg_beach_1/bg_beach_2",
+        "solidwidth": "920/920",
+        "solidheight": "720,x=-180"
+    },
+    {
+        "id": 72,
+        "raw": "[Blocker(a=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 73,
+        "raw": "[Character(name=\"avg_npc_024\")]",
+        "type": "character",
+        "name": "avg_npc_024"
+    },
+    {
+        "id": 74,
+        "raw": "[name=\"Herman\"]   Thank you, Doctor of Rhodes Island.",
+        "type": "dialog",
+        "speaker": "Herman",
+        "content": "Thank you, Doctor of Rhodes Island."
+    },
+    {
+        "id": 75,
+        "raw": "[name=\"Herman\"]   Had you not helped my daughter, her recklessness would have ended dismally.",
+        "type": "dialog",
+        "speaker": "Herman",
+        "content": "Had you not helped my daughter, her recklessness would have ended dismally."
+    },
+    {
+        "id": 76,
+        "raw": "[Decision(options=\"That wasn't recklessness.;I actually didn't do very much.;The one you should be thanking is Ceylon.\",values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "That wasn't recklessness.;I actually didn't do very much.;The one you should be thanking is Ceylon.",
+        "values": "1;2;3"
+    },
+    {
+        "id": 77,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 78,
+        "raw": "[name=\"Herman\"]   I trained Cronin myself. His instincts may be base, but he's also very capable. That's why I turned a blind eye on him all these years.",
+        "type": "dialog",
+        "speaker": "Herman",
+        "content": "I trained Cronin myself. His instincts may be base, but he's also very capable. That's why I turned a blind eye on him all these years."
+    },
+    {
+        "id": 79,
+        "raw": "[name=\"Herman\"]   However, as of the last few years, he's gone down a dangerous road, and I can no longer trust him.",
+        "type": "dialog",
+        "speaker": "Herman",
+        "content": "However, as of the last few years, he's gone down a dangerous road, and I can no longer trust him."
+    },
+    {
+        "id": 80,
+        "raw": "[name=\"Herman\"]   This time, I left Schwarz here on purpose just to see if he's still trustworthy.",
+        "type": "dialog",
+        "speaker": "Herman",
+        "content": "This time, I left Schwarz here on purpose just to see if he's still trustworthy."
+    },
+    {
+        "id": 81,
+        "raw": "[name=\"Herman\"]   The results were disappointing.",
+        "type": "dialog",
+        "speaker": "Herman",
+        "content": "The results were disappointing."
+    },
+    {
+        "id": 82,
+        "raw": "[Decision(options=\"Why are you telling me all this?\",values=\"1\")]",
+        "type": "decision",
+        "options": "Why are you telling me all this?",
+        "values": "1"
+    },
+    {
+        "id": 83,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 84,
+        "raw": "[name=\"Herman\"]   ...I enjoy walking along this part of the beach.",
+        "type": "dialog",
+        "speaker": "Herman",
+        "content": "...I enjoy walking along this part of the beach."
+    },
+    {
+        "id": 85,
+        "raw": "[name=\"Herman\"]   That's because my wife, Barbara, sleeps deep beneath these waves.",
+        "type": "dialog",
+        "speaker": "Herman",
+        "content": "That's because my wife, Barbara, sleeps deep beneath these waves."
+    },
+    {
+        "id": 86,
+        "raw": "[name=\"Herman\"]   I still remember that day; the weather was a bit warm, and the sunset was splendid. She turned to me here and said, 'If only we could stay here forever.'",
+        "type": "dialog",
+        "speaker": "Herman",
+        "content": "I still remember that day; the weather was a bit warm, and the sunset was splendid. She turned to me here and said, 'If only we could stay here forever.'"
+    },
+    {
+        "id": 87,
+        "raw": "[name=\"Herman\"]   In the blink of an eye, I was left behind.",
+        "type": "dialog",
+        "speaker": "Herman",
+        "content": "In the blink of an eye, I was left behind."
+    },
+    {
+        "id": 88,
+        "raw": "[name=\"Herman\"]   Doctor, turn around and take a look.",
+        "type": "dialog",
+        "speaker": "Herman",
+        "content": "Doctor, turn around and take a look."
+    },
+    {
+        "id": 89,
+        "raw": "[name=\"Herman\"]   Do you understand now? This city is a paradise I built for her.",
+        "type": "dialog",
+        "speaker": "Herman",
+        "content": "Do you understand now? This city is a paradise I built for her."
+    },
+    {
+        "id": 90,
+        "raw": "[name=\"Herman\"]   As for why I'm telling you this...",
+        "type": "dialog",
+        "speaker": "Herman",
+        "content": "As for why I'm telling you this..."
+    },
+    {
+        "id": 91,
+        "raw": "[name=\"Herman\"]   Because I can tell that you and I are the same type of person.",
+        "type": "dialog",
+        "speaker": "Herman",
+        "content": "Because I can tell that you and I are the same type of person."
+    },
+    {
+        "id": 92,
+        "raw": "[name=\"Herman\"]   In this world, not everything can be resolved with good. Sometimes, we must get our hands dirty.",
+        "type": "dialog",
+        "speaker": "Herman",
+        "content": "In this world, not everything can be resolved with good. Sometimes, we must get our hands dirty."
+    },
+    {
+        "id": 93,
+        "raw": "[Decision(options=\"I agree.;I disagree.;Who knows...\",values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "I agree.;I disagree.;Who knows...",
+        "values": "1;2;3"
+    },
+    {
+        "id": 94,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 95,
+        "raw": "[name=\"Herman\"]   For me, good and bad lost their meaning a long time ago. The only things that matter to me are results, and this city.",
+        "type": "dialog",
+        "speaker": "Herman",
+        "content": "For me, good and bad lost their meaning a long time ago. The only things that matter to me are results, and this city."
+    },
+    {
+        "id": 96,
+        "raw": "[Decision(options=\"Why not tell Ceylon?\",values=\"1\")]",
+        "type": "decision",
+        "options": "Why not tell Ceylon?",
+        "values": "1"
+    },
+    {
+        "id": 97,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 98,
+        "raw": "[name=\"Herman\"]   I'm not looking for understanding, Doctor.",
+        "type": "dialog",
+        "speaker": "Herman",
+        "content": "I'm not looking for understanding, Doctor."
+    },
+    {
+        "id": 99,
+        "raw": "[name=\"Herman\"]   If I needed my daughter's understanding, we would not have become like we are now.",
+        "type": "dialog",
+        "speaker": "Herman",
+        "content": "If I needed my daughter's understanding, we would not have become like we are now."
+    },
+    {
+        "id": 100,
+        "raw": "[name=\"Herman\"]   Besides, do you think she'd really understand if I told her?",
+        "type": "dialog",
+        "speaker": "Herman",
+        "content": "Besides, do you think she'd really understand if I told her?"
+    },
+    {
+        "id": 101,
+        "raw": "[name=\"Herman\"]   No. She still needs a long time to understand that the world isn't as black and white as she thinks.",
+        "type": "dialog",
+        "speaker": "Herman",
+        "content": "No. She still needs a long time to understand that the world isn't as black and white as she thinks."
+    },
+    {
+        "id": 102,
+        "raw": "[name=\"Herman\"]   Schwarz hopes that she will never understand, but I... Unfortunately, I lost the ability to make that choice.",
+        "type": "dialog",
+        "speaker": "Herman",
+        "content": "Schwarz hopes that she will never understand, but I... Unfortunately, I lost the ability to make that choice."
+    },
+    {
+        "id": 103,
+        "raw": "[name=\"Herman\"]   Doctor, Ceylon would like to join you, so I asked Schwarz to accompany her. I'm fine with it.",
+        "type": "dialog",
+        "speaker": "Herman",
+        "content": "Doctor, Ceylon would like to join you, so I asked Schwarz to accompany her. I'm fine with it."
+    },
+    {
+        "id": 104,
+        "raw": "[name=\"Herman\"]   After all, this Siesta is no longer her paradise.",
+        "type": "dialog",
+        "speaker": "Herman",
+        "content": "After all, this Siesta is no longer her paradise."
+    },
+    {
+        "id": 105,
+        "raw": "[name=\"Herman\"]   I've seen the new geological report. Sooner or later, Siesta will be consumed by the magma.",
+        "type": "dialog",
+        "speaker": "Herman",
+        "content": "I've seen the new geological report. Sooner or later, Siesta will be consumed by the magma."
+    },
+    {
+        "id": 106,
+        "raw": "[name=\"Herman\"]   We've managed to postpone that day's coming. I am grateful for the effort that you've all put forth today.",
+        "type": "dialog",
+        "speaker": "Herman",
+        "content": "We've managed to postpone that day's coming. I am grateful for the effort that you've all put forth today."
+    },
+    {
+        "id": 107,
+        "raw": "[name=\"Herman\"]   Over the years, I've been looking for a solution to this matter. I have found it, but the price is almost as great.",
+        "type": "dialog",
+        "speaker": "Herman",
+        "content": "Over the years, I've been looking for a solution to this matter. I have found it, but the price is almost as great."
+    },
+    {
+        "id": 108,
+        "raw": "[name=\"Herman\"]   The new development zone I've been working on will become a brand new nomadic city. By the looks of things, it will become the next Siesta.",
+        "type": "dialog",
+        "speaker": "Herman",
+        "content": "The new development zone I've been working on will become a brand new nomadic city. By the looks of things, it will become the next Siesta."
+    },
+    {
+        "id": 109,
+        "raw": "[name=\"Herman\"]   I'm deeply attached to this place, but that doesn't mean that I can ignore the volcano that slumbers fitfully beside me.",
+        "type": "dialog",
+        "speaker": "Herman",
+        "content": "I'm deeply attached to this place, but that doesn't mean that I can ignore the volcano that slumbers fitfully beside me."
+    },
+    {
+        "id": 110,
+        "raw": "[name=\"Herman\"]   After the end of this Obsidian Festival, we will begin moving into the new nomadic city. As for Siesta, we will let her rest until the magma reclaims her.",
+        "type": "dialog",
+        "speaker": "Herman",
+        "content": "After the end of this Obsidian Festival, we will begin moving into the new nomadic city. As for Siesta, we will let her rest until the magma reclaims her."
+    },
+    {
+        "id": 111,
+        "raw": "[Decision(options=\"The Obsidian Festival...\",values=\"1\")]",
+        "type": "decision",
+        "options": "The Obsidian Festival...",
+        "values": "1"
+    },
+    {
+        "id": 112,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 113,
+        "raw": "[name=\"Herman\"]   I heard that this ocean is bounded by land. Some have told me that this isn't a real ocean. It may be wide, but it's not boundless.",
+        "type": "dialog",
+        "speaker": "Herman",
+        "content": "I heard that this ocean is bounded by land. Some have told me that this isn't a real ocean. It may be wide, but it's not boundless."
+    },
+    {
+        "id": 114,
+        "raw": "[name=\"Herman\"]   In that case, we will continue to follow the coast. Perhaps one day, we will finally return to our starting point, the real starting point.",
+        "type": "dialog",
+        "speaker": "Herman",
+        "content": "In that case, we will continue to follow the coast. Perhaps one day, we will finally return to our starting point, the real starting point."
+    },
+    {
+        "id": 115,
+        "raw": "[name=\"Herman\"]   However, by that time, this beautiful beach, the great Obsidian Festival, and this coastal city with its volcanic smell...",
+        "type": "dialog",
+        "speaker": "Herman",
+        "content": "However, by that time, this beautiful beach, the great Obsidian Festival, and this coastal city with its volcanic smell..."
+    },
+    {
+        "id": 116,
+        "raw": "[name=\"Herman\"]   The Siesta that holds the memory of countless people, will be gone forever.",
+        "type": "dialog",
+        "speaker": "Herman",
+        "content": "The Siesta that holds the memory of countless people, will be gone forever."
+    },
+    {
+        "id": 117,
+        "raw": "[name=\"Herman\"]   Perhaps one day, you'll be able to tell her what I've told you here today.",
+        "type": "dialog",
+        "speaker": "Herman",
+        "content": "Perhaps one day, you'll be able to tell her what I've told you here today."
+    },
+    {
+        "id": 118,
+        "raw": "[name=\"Herman\"]   Perhaps that day will never come.",
+        "type": "dialog",
+        "speaker": "Herman",
+        "content": "Perhaps that day will never come."
+    },
+    {
+        "id": 119,
+        "raw": "[name=\"Herman\"]   And one day, should she perhaps need my help, you can come find me.",
+        "type": "dialog",
+        "speaker": "Herman",
+        "content": "And one day, should she perhaps need my help, you can come find me."
+    },
+    {
+        "id": 120,
+        "raw": "[name=\"Herman\"]   No matter where Siesta is or what it looks like, this city will forever support her.",
+        "type": "dialog",
+        "speaker": "Herman",
+        "content": "No matter where Siesta is or what it looks like, this city will forever support her."
+    },
+    {
+        "id": 121,
+        "raw": "[name=\"Herman\"]   Or rather, I should say... As long as Siestans exist, Siesta also exists. Within the hearts of young people like her are where Siesta really is.",
+        "type": "dialog",
+        "speaker": "Herman",
+        "content": "Or rather, I should say... As long as Siestans exist, Siesta also exists. Within the hearts of young people like her are where Siesta really is."
+    },
+    {
+        "id": 122,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 123,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 124,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 125,
+        "raw": "[Blocker(a=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 126,
+        "raw": "[Character(name=\"avg_npc_024\")]",
+        "type": "character",
+        "name": "avg_npc_024"
+    },
+    {
+        "id": 127,
+        "raw": "[name=\"Herman\"]   Now, seize the day, and enjoy the Obsidian Festival.",
+        "type": "dialog",
+        "speaker": "Herman",
+        "content": "Now, seize the day, and enjoy the Obsidian Festival."
+    },
+    {
+        "id": 128,
+        "raw": "[name=\"Herman\"]   At least until we find another suitable location, we'll have to suspend our collaboration with Siren Records. I have a lot of things to discuss with them.",
+        "type": "dialog",
+        "speaker": "Herman",
+        "content": "At least until we find another suitable location, we'll have to suspend our collaboration with Siren Records. I have a lot of things to discuss with them."
+    },
+    {
+        "id": 129,
+        "raw": "[name=\"Herman\"]   Schwarz seems to have something to tell you. She's over there.",
+        "type": "dialog",
+        "speaker": "Herman",
+        "content": "Schwarz seems to have something to tell you. She's over there."
+    },
+    {
+        "id": 130,
+        "raw": "[name=\"Herman\"]   If I keep talking for much longer, she won't have anything to say. You should hear it from her.",
+        "type": "dialog",
+        "speaker": "Herman",
+        "content": "If I keep talking for much longer, she won't have anything to say. You should hear it from her."
+    },
+    {
+        "id": 131,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 132,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 133,
+        "raw": "[Character(name=\"char_340_shwaz_2#3\",fadetime=1,block=true)]",
+        "type": "character",
+        "name": "char_340_shwaz_2#3",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 134,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3"
+    },
+    {
+        "id": 135,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 136,
+        "raw": "[name=\"Schwarz\"]   ...Sir.",
+        "type": "dialog",
+        "speaker": "Schwarz",
+        "content": "...Sir."
+    },
+    {
+        "id": 137,
+        "raw": "[Character(name=\"avg_npc_024\")]",
+        "type": "character",
+        "name": "avg_npc_024"
+    },
+    {
+        "id": 138,
+        "raw": "[name=\"Herman\"]   Don't mind me. This is between you youngsters.",
+        "type": "dialog",
+        "speaker": "Herman",
+        "content": "Don't mind me. This is between you youngsters."
+    },
+    {
+        "id": 139,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 140,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 141,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 142,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 143,
+        "raw": "[Blocker(a=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 144,
+        "raw": "[Character(name=\"char_340_shwaz_2#1\")]",
+        "type": "character",
+        "name": "char_340_shwaz_2#1"
+    },
+    {
+        "id": 145,
+        "raw": "[name=\"Schwarz\"]   Hello.",
+        "type": "dialog",
+        "speaker": "Schwarz",
+        "content": "Hello."
+    },
+    {
+        "id": 146,
+        "raw": "[Decision(options=\"What are you after?;Hello, stranger?;Can I buy you a drink?\",values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "What are you after?;Hello, stranger?;Can I buy you a drink?",
+        "values": "1;2;3"
+    },
+    {
+        "id": 147,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 148,
+        "raw": "[name=\"Schwarz\"]   Don't worry, I'm not your enemy anymore.",
+        "type": "dialog",
+        "speaker": "Schwarz",
+        "content": "Don't worry, I'm not your enemy anymore."
+    },
+    {
+        "id": 149,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 150,
+        "raw": "[Character(name=\"char_340_shwaz_2#1\")]",
+        "type": "character",
+        "name": "char_340_shwaz_2#1"
+    },
+    {
+        "id": 151,
+        "raw": "[name=\"Schwarz\"]   Oh, hello to you too, stranger.",
+        "type": "dialog",
+        "speaker": "Schwarz",
+        "content": "Oh, hello to you too, stranger."
+    },
+    {
+        "id": 152,
+        "raw": "[Predicate(references=\"3\")]",
+        "type": "predicate",
+        "references": "3"
+    },
+    {
+        "id": 153,
+        "raw": "[name=\"Schwarz\"]   I'll pass for now.",
+        "type": "dialog",
+        "speaker": "Schwarz",
+        "content": "I'll pass for now."
+    },
+    {
+        "id": 154,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 155,
+        "raw": "[name=\"Schwarz\"]   Actually, I wasn't really going to say anything special.",
+        "type": "dialog",
+        "speaker": "Schwarz",
+        "content": "Actually, I wasn't really going to say anything special."
+    },
+    {
+        "id": 156,
+        "raw": "[name=\"Schwarz\"]   At first, I was going to give you a good beating. Miss Ceylon never have been subjected to such danger.",
+        "type": "dialog",
+        "speaker": "Schwarz",
+        "content": "At first, I was going to give you a good beating. Miss Ceylon never have been subjected to such danger."
+    },
+    {
+        "id": 157,
+        "raw": "[name=\"Schwarz\"]   But, I have to thank you as well. Without your help, we might never have been able to clear up our misunderstanding.",
+        "type": "dialog",
+        "speaker": "Schwarz",
+        "content": "But, I have to thank you as well. Without your help, we might never have been able to clear up our misunderstanding."
+    },
+    {
+        "id": 158,
+        "raw": "[name=\"Schwarz\"]   Truthfully, I did not want her getting involved with these things, but perhaps you were right. She has her own ideas, and her own responsibilities.",
+        "type": "dialog",
+        "speaker": "Schwarz",
+        "content": "Truthfully, I did not want her getting involved with these things, but perhaps you were right. She has her own ideas, and her own responsibilities."
+    },
+    {
+        "id": 159,
+        "raw": "[Decision(options=\"You should let her make her own decisions.;Time doesn't flow backwards. This is who she is now.;That's a pity, isn't it?\",values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "You should let her make her own decisions.;Time doesn't flow backwards. This is who she is now.;That's a pity, isn't it?",
+        "values": "1;2;3"
+    },
+    {
+        "id": 160,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 161,
+        "raw": "[name=\"Schwarz\"]   ...Thank you. Were it not for you, everything I loved would have been destroyed by the volcano.",
+        "type": "dialog",
+        "speaker": "Schwarz",
+        "content": "...Thank you. Were it not for you, everything I loved would have been destroyed by the volcano."
+    },
+    {
+        "id": 162,
+        "raw": "[name=\"Schwarz\"]   I am in your debt.",
+        "type": "dialog",
+        "speaker": "Schwarz",
+        "content": "I am in your debt."
+    },
+    {
+        "id": 163,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 164,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 165,
+        "raw": "[Character(name=\"char_348_ceylon_4#6\")]",
+        "type": "character",
+        "name": "char_348_ceylon_4#6"
+    },
+    {
+        "id": 166,
+        "raw": "[name=\"Ceylon\"]   Doctor!",
+        "type": "dialog",
+        "speaker": "Ceylon",
+        "content": "Doctor!"
+    },
+    {
+        "id": 167,
+        "raw": "[Character(name=\"char_348_ceylon_4#8\")]",
+        "type": "character",
+        "name": "char_348_ceylon_4#8"
+    },
+    {
+        "id": 168,
+        "raw": "[name=\"Ceylon\"]   Hey, Schwarz, what are you doing here?",
+        "type": "dialog",
+        "speaker": "Ceylon",
+        "content": "Hey, Schwarz, what are you doing here?"
+    },
+    {
+        "id": 169,
+        "raw": "[Character(name=\"char_348_ceylon_4#8\",name2=\"char_340_shwaz_2#1\",focus=2)]",
+        "type": "character",
+        "name": "char_348_ceylon_4#8",
+        "name2": "char_340_shwaz_2#1",
+        "focus": 2
+    },
+    {
+        "id": 170,
+        "raw": "[name=\"Schwarz\"]   ...Milady?",
+        "type": "dialog",
+        "speaker": "Schwarz",
+        "content": "...Milady?"
+    },
+    {
+        "id": 171,
+        "raw": "[Character(name=\"char_348_ceylon_4#6\",name2=\"char_340_shwaz_2#1\",focus=1)]",
+        "type": "character",
+        "name": "char_348_ceylon_4#6",
+        "name2": "char_340_shwaz_2#1",
+        "focus": 1
+    },
+    {
+        "id": 172,
+        "raw": "[name=\"Ceylon\"]   Perfect timing. I have something important to announce!",
+        "type": "dialog",
+        "speaker": "Ceylon",
+        "content": "Perfect timing. I have something important to announce!"
+    },
+    {
+        "id": 173,
+        "raw": "[name=\"Ceylon\"]   I am going to submit my resume to Rhodes Island.",
+        "type": "dialog",
+        "speaker": "Ceylon",
+        "content": "I am going to submit my resume to Rhodes Island."
+    },
+    {
+        "id": 174,
+        "raw": "[Decision(options=\"?!\",values=\"1\")]",
+        "type": "decision",
+        "options": "?!",
+        "values": "1"
+    },
+    {
+        "id": 175,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 176,
+        "raw": "[Character(name=\"char_348_ceylon_4#6\")]",
+        "type": "character",
+        "name": "char_348_ceylon_4#6"
+    },
+    {
+        "id": 177,
+        "raw": "[name=\"Ceylon\"]   As I said, I'm interested in joining your company.",
+        "type": "dialog",
+        "speaker": "Ceylon",
+        "content": "As I said, I'm interested in joining your company."
+    },
+    {
+        "id": 178,
+        "raw": "[Decision(options=\"It's not easy to get in.\",values=\"1\")]",
+        "type": "decision",
+        "options": "It's not easy to get in.",
+        "values": "1"
+    },
+    {
+        "id": 179,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 180,
+        "raw": "[Character(name=\"char_348_ceylon_4#4\")]",
+        "type": "character",
+        "name": "char_348_ceylon_4#4"
+    },
+    {
+        "id": 181,
+        "raw": "[name=\"Ceylon\"]   Heheh~ I already asked Miss Eyjafjalla and Miss Skyfire about it. They said I have their recommendations.",
+        "type": "dialog",
+        "speaker": "Ceylon",
+        "content": "Heheh~ I already asked Miss Eyjafjalla and Miss Skyfire about it. They said I have their recommendations."
+    },
+    {
+        "id": 182,
+        "raw": "[name=\"Ceylon\"]   After seeing your abilities throughout this whole situation, I've come to this decision after careful deliberation.",
+        "type": "dialog",
+        "speaker": "Ceylon",
+        "content": "After seeing your abilities throughout this whole situation, I've come to this decision after careful deliberation."
+    },
+    {
+        "id": 183,
+        "raw": "[Character(name=\"char_348_ceylon_4#4\",name2=\"char_340_shwaz_2#1\",focus=2)]",
+        "type": "character",
+        "name": "char_348_ceylon_4#4",
+        "name2": "char_340_shwaz_2#1",
+        "focus": 2
+    },
+    {
+        "id": 184,
+        "raw": "[name=\"Schwarz\"]   But Rhodes Island is not a simple drug company...",
+        "type": "dialog",
+        "speaker": "Schwarz",
+        "content": "But Rhodes Island is not a simple drug company..."
+    },
+    {
+        "id": 185,
+        "raw": "[Character(name=\"char_348_ceylon_4#6\",name2=\"char_340_shwaz_2#1\",focus=1)]",
+        "type": "character",
+        "name": "char_348_ceylon_4#6",
+        "name2": "char_340_shwaz_2#1",
+        "focus": 1
+    },
+    {
+        "id": 186,
+        "raw": "[name=\"Ceylon\"]   That's why I want you to come with me.",
+        "type": "dialog",
+        "speaker": "Ceylon",
+        "content": "That's why I want you to come with me."
+    },
+    {
+        "id": 187,
+        "raw": "[name=\"Ceylon\"]   By the way, my father already approved of it.",
+        "type": "dialog",
+        "speaker": "Ceylon",
+        "content": "By the way, my father already approved of it."
+    },
+    {
+        "id": 188,
+        "raw": "[Character(name=\"char_348_ceylon_4#6\",name2=\"char_340_shwaz_2#5\",focus=2)]",
+        "type": "character",
+        "name": "char_348_ceylon_4#6",
+        "name2": "char_340_shwaz_2#5",
+        "focus": 2
+    },
+    {
+        "id": 189,
+        "raw": "[name=\"Schwarz\"]   ...I know. If that is what you desire, milady.",
+        "type": "dialog",
+        "speaker": "Schwarz",
+        "content": "...I know. If that is what you desire, milady."
+    },
+    {
+        "id": 190,
+        "raw": "[Character(name=\"char_348_ceylon_4#6\")]",
+        "type": "character",
+        "name": "char_348_ceylon_4#6"
+    },
+    {
+        "id": 191,
+        "raw": "[name=\"Ceylon\"]   So, Doctor, we're going to be colleagues from now on!",
+        "type": "dialog",
+        "speaker": "Ceylon",
+        "content": "So, Doctor, we're going to be colleagues from now on!"
+    },
+    {
+        "id": 192,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 193,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 194,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 195,
+        "raw": "[stopsound(channel=\"B\", fadetime=1)]",
+        "type": "stop_sound",
+        "channel": "B",
+        "fadetime": 1
+    },
+    {
+        "id": 196,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 197,
+        "raw": "[largebg]",
+        "type": "large_bg"
+    },
+    {
+        "id": 198,
+        "raw": "[Background(image=\"bg_bridge\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_bridge.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 199,
+        "raw": "[Blocker(a=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 200,
+        "raw": "[name=\"Ceylon\"]   Come on, Doctor! The experiment is about to start!",
+        "type": "dialog",
+        "speaker": "Ceylon",
+        "content": "Come on, Doctor! The experiment is about to start!"
+    },
+    {
+        "id": 201,
+        "raw": "[name=\"Ceylon\"]   Ah fine, forget it. Schwarz, go drag Doctor over here!",
+        "type": "dialog",
+        "speaker": "Ceylon",
+        "content": "Ah fine, forget it. Schwarz, go drag Doctor over here!"
+    },
+    {
+        "id": 202,
+        "raw": "[name=\"Schwarz\"]   ...Your voice is loud enough to crack the ceiling, milady. I'm sure the Doctor has heard it.",
+        "type": "dialog",
+        "speaker": "Schwarz",
+        "content": "...Your voice is loud enough to crack the ceiling, milady. I'm sure the Doctor has heard it."
+    },
+    {
+        "id": 203,
+        "raw": "[name=\"Schwarz\"]   ...Doctor, I don't know what you're waiting for, but in times like these, Miss Ceylon won't care what we're thinking.",
+        "type": "dialog",
+        "speaker": "Schwarz",
+        "content": "...Doctor, I don't know what you're waiting for, but in times like these, Miss Ceylon won't care what we're thinking."
+    },
+    {
+        "id": 204,
+        "raw": "[name=\"Schwarz\"]   It would behoove you to walk over there yourself. It'd be a bit unsightly if you really wanted me to carry you over.",
+        "type": "dialog",
+        "speaker": "Schwarz",
+        "content": "It would behoove you to walk over there yourself. It'd be a bit unsightly if you really wanted me to carry you over."
+    },
+    {
+        "id": 205,
+        "raw": "[Decision(options=\"Come and get me!;...;Don't worry. I'll keep an eye on her.\",values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "Come and get me!;...;Don't worry. I'll keep an eye on her.",
+        "values": "1;2;3"
+    },
+    {
+        "id": 206,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 207,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 208,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 209,
+        "raw": "[Background]",
+        "type": "background"
+    },
+    {
+        "id": 210,
+        "raw": "[Character(fadetime=0)]",
+        "type": "character",
+        "fadetime": 0
+    },
+    {
+        "id": 211,
+        "raw": "[Image(image=\"ac3_kv\",x=0, y=0, xScale=1, yScale=1, fadetime=0, screenadapt=\"coverall\")]",
+        "type": "image",
+        "image": "ac3_kv.png",
+        "x": "0,",
+        "y": "0,",
+        "xScale": "1,",
+        "yScale": "1,",
+        "fadetime": "0,",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 212,
+        "raw": "[Blocker(a=0, fadetime=3, block=false)]",
+        "type": "blocker",
+        "a": "0,",
+        "fadetime": "3,",
+        "block": false
+    },
+    {
+        "id": 213,
+        "raw": "[name=\"Schwarz\"]   Very well.",
+        "type": "dialog",
+        "speaker": "Schwarz",
+        "content": "Very well."
+    },
+    {
+        "id": 214,
+        "raw": "[name=\"Schwarz\"]   Please wait a moment, milady. We'll be there shortly.",
+        "type": "dialog",
+        "speaker": "Schwarz",
+        "content": "Please wait a moment, milady. We'll be there shortly."
+    },
+    {
+        "id": 215,
+        "raw": "[name=\"Schwarz\"]   Let's go, Doctor.",
+        "type": "dialog",
+        "speaker": "Schwarz",
+        "content": "Let's go, Doctor."
+    },
+    {
+        "id": 216,
+        "raw": "[Image(fadetime=2)]",
+        "type": "image",
+        "fadetime": 2
+    },
+    {
+        "id": 217,
+        "raw": "[Delay(time=0.6)]",
+        "type": "delay",
+        "time": 0.6
+    },
+    {
+        "id": 218,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 219,
+        "raw": "[Blocker(block=true)]",
+        "type": "blocker",
+        "block": true
+    },
+    {
+        "id": 220,
+        "raw": "[Image]",
+        "type": "image"
+    }
+]

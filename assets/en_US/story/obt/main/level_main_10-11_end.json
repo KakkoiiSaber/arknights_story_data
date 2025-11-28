@@ -1,0 +1,4783 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")]",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK"
+    },
+    {
+        "id": 2,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 3,
+        "raw": "[stopmusic]",
+        "type": "stop_music"
+    },
+    {
+        "id": 4,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 5,
+        "raw": "[Background(image=\"27_g10_lightinduarea_street_n\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "27_g10_lightinduarea_street_n.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 6,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 7,
+        "raw": "[playMusic(intro=\"$nervous_intro\", key=\"$nervous_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act9d0d0/m_avg_nervous_intro.mp3",
+        "key": "sound_beta_2/music/act9d0d0/m_avg_nervous_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 8,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 9,
+        "raw": "[character(name=\"avg_npc_394_1#2$1\",fadetime=1.5)]",
+        "type": "character",
+        "name": "avg_npc_394_1#2$1",
+        "fadetime": 1.5
+    },
+    {
+        "id": 10,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 11,
+        "raw": "[name=\"Amiya\"]It's so strange, Doctor. We definitely shook off the Sarkaz warriors from before...",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "It's so strange, Doctor. We definitely shook off the Sarkaz warriors from before..."
+    },
+    {
+        "id": 12,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 13,
+        "raw": "[character(name=\"avg_npc_394_1#2$1\", focus=-1)]",
+        "type": "character",
+        "name": "avg_npc_394_1#2$1",
+        "focus": -1
+    },
+    {
+        "id": 14,
+        "raw": "[Decision(options=\"But they're still coming without end.;It's like they know our position.\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "But they're still coming without end.;It's like they know our position.",
+        "values": "1;2"
+    },
+    {
+        "id": 15,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 16,
+        "raw": "[character(name=\"avg_npc_394_1#5$1\")]",
+        "type": "character",
+        "name": "avg_npc_394_1#5$1"
+    },
+    {
+        "id": 17,
+        "raw": "[name=\"Amiya\"]Closure, are our communications being traced?",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Closure, are our communications being traced?"
+    },
+    {
+        "id": 18,
+        "raw": "[character(name=\"avg_npc_411_1#5$1\")]",
+        "type": "character",
+        "name": "avg_npc_411_1#5$1"
+    },
+    {
+        "id": 19,
+        "raw": "[name=\"Closure\"]Not a chance, Amiya, I guarantee it! I set up triple-layer encryption on our transmitters! If they had the tech for that, then Theresis would've breached the landship a hundred times over by now!",
+        "type": "dialog",
+        "speaker": "Closure",
+        "content": "Not a chance, Amiya, I guarantee it! I set up triple-layer encryption on our transmitters! If they had the tech for that, then Theresis would've breached the landship a hundred times over by now!"
+    },
+    {
+        "id": 20,
+        "raw": "[character(name=\"avg_npc_394_1#2$1\")]",
+        "type": "character",
+        "name": "avg_npc_394_1#2$1"
+    },
+    {
+        "id": 21,
+        "raw": "[name=\"Amiya\"]...Doctor, I believe Closure.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "...Doctor, I believe Closure."
+    },
+    {
+        "id": 22,
+        "raw": "[name=\"Amiya\"]They must be using some other method then.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "They must be using some other method then."
+    },
+    {
+        "id": 23,
+        "raw": "[character(name=\"avg_npc_402_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_402_1#1$1"
+    },
+    {
+        "id": 24,
+        "raw": "[name=\"Feist\"]Miss Amiya, we're a stone's throw from the rendezvous point!",
+        "type": "dialog",
+        "speaker": "Feist",
+        "content": "Miss Amiya, we're a stone's throw from the rendezvous point!"
+    },
+    {
+        "id": 25,
+        "raw": "[name=\"Feist\"]As long as we link up with Team 6, we can get in contact with the subterranean support unit. Once we're underground, the Sarkaz pursuing us will be out of luck.",
+        "type": "dialog",
+        "speaker": "Feist",
+        "content": "As long as we link up with Team 6, we can get in contact with the subterranean support unit. Once we're underground, the Sarkaz pursuing us will be out of luck."
+    },
+    {
+        "id": 26,
+        "raw": "[character(name=\"avg_npc_407_1#2$1\")]",
+        "type": "character",
+        "name": "avg_npc_407_1#2$1"
+    },
+    {
+        "id": 27,
+        "raw": "[name=\"Siege\"]No, don't go that way.",
+        "type": "dialog",
+        "speaker": "Siege",
+        "content": "No, don't go that way."
+    },
+    {
+        "id": 28,
+        "raw": "[character(name=\"avg_npc_402_1#11$1\")]",
+        "type": "character",
+        "name": "avg_npc_402_1#11$1"
+    },
+    {
+        "id": 29,
+        "raw": "[name=\"Feist\"]Huh? Why... wait, what? Miss Siege, what are you doing here?",
+        "type": "dialog",
+        "speaker": "Feist",
+        "content": "Huh? Why... wait, what? Miss Siege, what are you doing here?"
+    },
+    {
+        "id": 30,
+        "raw": "[name=\"Feist\"]Weren't you under...",
+        "type": "dialog",
+        "speaker": "Feist",
+        "content": "Weren't you under..."
+    },
+    {
+        "id": 31,
+        "raw": "[character(name=\"avg_npc_407_1#2$1\")]",
+        "type": "character",
+        "name": "avg_npc_407_1#2$1"
+    },
+    {
+        "id": 32,
+        "raw": "[name=\"Siege\"]......",
+        "type": "dialog",
+        "speaker": "Siege",
+        "content": "......"
+    },
+    {
+        "id": 33,
+        "raw": "[name=\"Siege\"]Team 6 is...",
+        "type": "dialog",
+        "speaker": "Siege",
+        "content": "Team 6 is..."
+    },
+    {
+        "id": 34,
+        "raw": "[character(name=\"avg_npc_402_1#2$1\")]",
+        "type": "character",
+        "name": "avg_npc_402_1#2$1"
+    },
+    {
+        "id": 35,
+        "raw": "[name=\"Feist\"]Team 6 is what? Why do you look so... erk, Miss Indra, have you seen all that blood on your hands?!",
+        "type": "dialog",
+        "speaker": "Feist",
+        "content": "Team 6 is what? Why do you look so... erk, Miss Indra, have you seen all that blood on your hands?!"
+    },
+    {
+        "id": 36,
+        "raw": "[character(name=\"avg_155_tiger_1#2$1\")]",
+        "type": "character",
+        "name": "avg_155_tiger_1#2$1"
+    },
+    {
+        "id": 37,
+        "raw": "[name=\"Indra\"]Your soldiers, they... all gave their lives.",
+        "type": "dialog",
+        "speaker": "Indra",
+        "content": "Your soldiers, they... all gave their lives."
+    },
+    {
+        "id": 38,
+        "raw": "[character(name=\"avg_npc_402_1#2$1\")]",
+        "type": "character",
+        "name": "avg_npc_402_1#2$1"
+    },
+    {
+        "id": 39,
+        "raw": "[name=\"Feist\"]Th-That can't be right! Team 6 is still ahead of us, how could they have run into the Sarkaz?",
+        "type": "dialog",
+        "speaker": "Feist",
+        "content": "Th-That can't be right! Team 6 is still ahead of us, how could they have run into the Sarkaz?"
+    },
+    {
+        "id": 40,
+        "raw": "[character(name=\"avg_npc_407_1#6$1\")]",
+        "type": "character",
+        "name": "avg_npc_407_1#6$1"
+    },
+    {
+        "id": 41,
+        "raw": "[name=\"Siege\"]We don't have time to analyze how.",
+        "type": "dialog",
+        "speaker": "Siege",
+        "content": "We don't have time to analyze how."
+    },
+    {
+        "id": 42,
+        "raw": "[name=\"Siege\"]Doctor, it wasn't the Sarkaz force pursuing us that killed Team 6's soldiers.",
+        "type": "dialog",
+        "speaker": "Siege",
+        "content": "Doctor, it wasn't the Sarkaz force pursuing us that killed Team 6's soldiers."
+    },
+    {
+        "id": 43,
+        "raw": "[character(name=\"avg_npc_394_1#5$1\")]",
+        "type": "character",
+        "name": "avg_npc_394_1#5$1"
+    },
+    {
+        "id": 44,
+        "raw": "[name=\"Amiya\"]You mean...",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "You mean..."
+    },
+    {
+        "id": 45,
+        "raw": "[character(name=\"avg_155_tiger_1#2$1\", name2=\"avg_npc_407_1#1$1\", focus=2)]",
+        "type": "character",
+        "name": "avg_155_tiger_1#2$1",
+        "name2": "avg_npc_407_1#1$1",
+        "focus": 2
+    },
+    {
+        "id": 46,
+        "raw": "[name=\"Siege\"]The enemy they faced had terrifying Originium Arts... It was more of a massacre than a battle. Hardly any of them had even drawn their weapons.",
+        "type": "dialog",
+        "speaker": "Siege",
+        "content": "The enemy they faced had terrifying Originium Arts... It was more of a massacre than a battle. Hardly any of them had even drawn their weapons."
+    },
+    {
+        "id": 47,
+        "raw": "[character(name=\"avg_155_tiger_1#5$1\", name2=\"avg_npc_407_1#1$1\", focus=1)]",
+        "type": "character",
+        "name": "avg_155_tiger_1#5$1",
+        "name2": "avg_npc_407_1#1$1",
+        "focus": 1
+    },
+    {
+        "id": 48,
+        "raw": "[name=\"Indra\"]You sure it was Originium Arts?",
+        "type": "dialog",
+        "speaker": "Indra",
+        "content": "You sure it was Originium Arts?"
+    },
+    {
+        "id": 49,
+        "raw": "[name=\"Indra\"]I don't believe that!",
+        "type": "dialog",
+        "speaker": "Indra",
+        "content": "I don't believe that!"
+    },
+    {
+        "id": 50,
+        "raw": "[name=\"Indra\"]I saw this red bug thing tear the soldiers' chests apart. Vina, you saw it too! That was a genuine monster!",
+        "type": "dialog",
+        "speaker": "Indra",
+        "content": "I saw this red bug thing tear the soldiers' chests apart. Vina, you saw it too! That was a genuine monster!"
+    },
+    {
+        "id": 51,
+        "raw": "[character(name=\"avg_155_tiger_1#5$1\", name2=\"avg_npc_407_1#9$1\", focus=2)]",
+        "type": "character",
+        "name": "avg_155_tiger_1#5$1",
+        "name2": "avg_npc_407_1#9$1",
+        "focus": 2
+    },
+    {
+        "id": 52,
+        "raw": "[name=\"Siege\"]......",
+        "type": "dialog",
+        "speaker": "Siege",
+        "content": "......"
+    },
+    {
+        "id": 53,
+        "raw": "[character(name=\"avg_npc_394_1#7$1\")]",
+        "type": "character",
+        "name": "avg_npc_394_1#7$1"
+    },
+    {
+        "id": 54,
+        "raw": "[name=\"Amiya\"]...So the perpetrator is no ordinary Sarkaz.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "...So the perpetrator is no ordinary Sarkaz."
+    },
+    {
+        "id": 55,
+        "raw": "[name=\"Amiya\"]We have to change course. Mr. Feist, are there any other routes we can take?",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "We have to change course. Mr. Feist, are there any other routes we can take?"
+    },
+    {
+        "id": 56,
+        "raw": "[character(name=\"avg_npc_402_1#5$1\")]",
+        "type": "character",
+        "name": "avg_npc_402_1#5$1"
+    },
+    {
+        "id": 57,
+        "raw": "[name=\"Feist\"]Yes. But we don't have any support waiting on it. If we run into Sarkaz forces...",
+        "type": "dialog",
+        "speaker": "Feist",
+        "content": "Yes. But we don't have any support waiting on it. If we run into Sarkaz forces..."
+    },
+    {
+        "id": 58,
+        "raw": "[character(name=\"avg_npc_407_1#9$1\")]",
+        "type": "character",
+        "name": "avg_npc_407_1#9$1"
+    },
+    {
+        "id": 59,
+        "raw": "[name=\"Siege\"]We'll be in for another hard fight.",
+        "type": "dialog",
+        "speaker": "Siege",
+        "content": "We'll be in for another hard fight."
+    },
+    {
+        "id": 60,
+        "raw": "[stopmusic(fadetime=1)]",
+        "type": "stop_music",
+        "fadetime": 1
+    },
+    {
+        "id": 61,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 62,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 63,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 64,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 65,
+        "raw": "[Background(image=\"27_g8_jail\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "27_g8_jail.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 66,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 67,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 68,
+        "raw": "[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "ystrength": "40,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 69,
+        "raw": "[PlaySound(key=\"$d_gen_explo_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_explo_n.mp3"
+    },
+    {
+        "id": 70,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 71,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.05,",
+        "block": true
+    },
+    {
+        "id": 72,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0.05, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.05,",
+        "block": true
+    },
+    {
+        "id": 73,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.05,",
+        "block": true
+    },
+    {
+        "id": 74,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 75,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 76,
+        "raw": "[delay(time=2.5)]",
+        "type": "delay",
+        "time": 2.5
+    },
+    {
+        "id": 77,
+        "raw": "[character(name=\"avg_4039_horn_1#8$1\",fadetime=1.5)]",
+        "type": "character",
+        "name": "avg_4039_horn_1#8$1",
+        "fadetime": 1.5
+    },
+    {
+        "id": 78,
+        "raw": "[PlayMusic(intro=\"$exciting_intro\", key=\"$exciting_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act9d0d0/m_avg_exciting02_intro.mp3",
+        "key": "sound_beta_2/music/act9d0d0/m_avg_exciting02_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 79,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 80,
+        "raw": "[name=\"Horn\"]Find cover!",
+        "type": "dialog",
+        "speaker": "Horn",
+        "content": "Find cover!"
+    },
+    {
+        "id": 81,
+        "raw": "[character(name=\"avg_npc_413_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_413_1#1$1"
+    },
+    {
+        "id": 82,
+        "raw": "[name=\"Robben\"]Horn, what the hell is this?!",
+        "type": "dialog",
+        "speaker": "Robben",
+        "content": "Horn, what the hell is this?!"
+    },
+    {
+        "id": 83,
+        "raw": "[name=\"Robben\"]What did that Sarkaz throw at us, a bomb? None of us even saw it—",
+        "type": "dialog",
+        "speaker": "Robben",
+        "content": "What did that Sarkaz throw at us, a bomb? None of us even saw it—"
+    },
+    {
+        "id": 84,
+        "raw": "[character(name=\"avg_4039_horn_1#8$1\")]",
+        "type": "character",
+        "name": "avg_4039_horn_1#8$1"
+    },
+    {
+        "id": 85,
+        "raw": "[name=\"Horn\"]...Originium Arts.",
+        "type": "dialog",
+        "speaker": "Horn",
+        "content": "...Originium Arts."
+    },
+    {
+        "id": 86,
+        "raw": "[name=\"Horn\"]Eyes up!",
+        "type": "dialog",
+        "speaker": "Horn",
+        "content": "Eyes up!"
+    },
+    {
+        "id": 87,
+        "raw": "[character(name=\"avg_npc_413_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_413_1#1$1"
+    },
+    {
+        "id": 88,
+        "raw": "[name=\"Robben\"]I... I just saw something red flash by in midair!",
+        "type": "dialog",
+        "speaker": "Robben",
+        "content": "I... I just saw something red flash by in midair!"
+    },
+    {
+        "id": 89,
+        "raw": "[character(name=\"avg_4039_horn_1#8$1\")]",
+        "type": "character",
+        "name": "avg_4039_horn_1#8$1"
+    },
+    {
+        "id": 90,
+        "raw": "[name=\"Horn\"]Retreat!",
+        "type": "dialog",
+        "speaker": "Horn",
+        "content": "Retreat!"
+    },
+    {
+        "id": 91,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 92,
+        "raw": "[CameraShake(duration=1, xstrength=50, ystrength=50, vibrato=60, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "xstrength": "50,",
+        "ystrength": "50,",
+        "vibrato": "60,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 93,
+        "raw": "[PlaySound(key=\"$p_atk_lasergun_n\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/player/p_atk/p_atk_lasergun_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 94,
+        "raw": "[PlaySound(key=\"$b_char_rockexplo\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/battle/b_char/b_char_rockexplo.mp3",
+        "volume": 1
+    },
+    {
+        "id": 95,
+        "raw": "[PlaySound(key=\"$d_avg_rockfall\", volume=0.6)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_rockfall.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 96,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 97,
+        "raw": "[character(name=\"avg_npc_413_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_413_1#1$1"
+    },
+    {
+        "id": 98,
+        "raw": "[name=\"Robben\"]It's like a thunderbolt or something! That's Originium Arts?!",
+        "type": "dialog",
+        "speaker": "Robben",
+        "content": "It's like a thunderbolt or something! That's Originium Arts?!"
+    },
+    {
+        "id": 99,
+        "raw": "[name=\"Robben\"]These... abominable devils!",
+        "type": "dialog",
+        "speaker": "Robben",
+        "content": "These... abominable devils!"
+    },
+    {
+        "id": 100,
+        "raw": "[character(name=\"avg_npc_404_1#2$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#2$1"
+    },
+    {
+        "id": 101,
+        "raw": "[name=\"Manfred\"]Still won't come out?",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "Still won't come out?"
+    },
+    {
+        "id": 102,
+        "raw": "[name=\"Manfred\"]Your war, your battle, your fight, it can't be this game of runabout you're playing, can it White Wolf?",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "Your war, your battle, your fight, it can't be this game of runabout you're playing, can it White Wolf?"
+    },
+    {
+        "id": 103,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 104,
+        "raw": "[PlaySound(key=\"$e_atk_circleatk_h\", volume=0.6)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_atk/e_atk_circleatk_h.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 105,
+        "raw": "[Blocker(a=0.7, r=0.95, g=0.2, b=0.2, fadetime=0.1, block=true)]",
+        "type": "blocker",
+        "a": "0.7,",
+        "r": "0.95,",
+        "g": "0.2,",
+        "b": "0.2,",
+        "fadetime": "0.1,",
+        "block": true
+    },
+    {
+        "id": 106,
+        "raw": "[PlaySound(key=\"$e_atk_circleatk_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_atk/e_atk_circleatk_n.mp3"
+    },
+    {
+        "id": 107,
+        "raw": "[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0.95,",
+        "g": "0.95,",
+        "b": "0.95,",
+        "fadetime": "0.25,",
+        "block": true
+    },
+    {
+        "id": 108,
+        "raw": "[CameraShake(duration=0.4, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=true)]",
+        "type": "camera_shake",
+        "duration": "0.4,",
+        "xstrength": "20,",
+        "ystrength": "20,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": true
+    },
+    {
+        "id": 109,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 110,
+        "raw": "[character(name=\"avg_npc_413_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_413_1#1$1"
+    },
+    {
+        "id": 111,
+        "raw": "[name=\"Robben\"]Five aerial blood streaks at once?",
+        "type": "dialog",
+        "speaker": "Robben",
+        "content": "Five aerial blood streaks at once?"
+    },
+    {
+        "id": 112,
+        "raw": "[name=\"Robben\"]Horn, we have no chance of—",
+        "type": "dialog",
+        "speaker": "Robben",
+        "content": "Horn, we have no chance of—"
+    },
+    {
+        "id": 113,
+        "raw": "[character(name=\"avg_4039_horn_1#2$1\")]",
+        "type": "character",
+        "name": "avg_4039_horn_1#2$1"
+    },
+    {
+        "id": 114,
+        "raw": "[name=\"Horn\"]No.",
+        "type": "dialog",
+        "speaker": "Horn",
+        "content": "No."
+    },
+    {
+        "id": 115,
+        "raw": "[name=\"Horn\"]No matter how strong the Arts... he's only one person.",
+        "type": "dialog",
+        "speaker": "Horn",
+        "content": "No matter how strong the Arts... he's only one person."
+    },
+    {
+        "id": 116,
+        "raw": "[name=\"Horn\"]What did Victoria do in the past, to prevail over the Sarkaz again and again?",
+        "type": "dialog",
+        "speaker": "Horn",
+        "content": "What did Victoria do in the past, to prevail over the Sarkaz again and again?"
+    },
+    {
+        "id": 117,
+        "raw": "[character(name=\"avg_npc_413_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_413_1#1$1"
+    },
+    {
+        "id": 118,
+        "raw": "[name=\"Robben\"]You mean...",
+        "type": "dialog",
+        "speaker": "Robben",
+        "content": "You mean..."
+    },
+    {
+        "id": 119,
+        "raw": "[character(name=\"avg_4039_horn_1#7$1\")]",
+        "type": "character",
+        "name": "avg_4039_horn_1#7$1"
+    },
+    {
+        "id": 120,
+        "raw": "[name=\"Horn\"]How many bolts do we have left?",
+        "type": "dialog",
+        "speaker": "Horn",
+        "content": "How many bolts do we have left?"
+    },
+    {
+        "id": 121,
+        "raw": "[name=\"Horn\"]Cover me.",
+        "type": "dialog",
+        "speaker": "Horn",
+        "content": "Cover me."
+    },
+    {
+        "id": 122,
+        "raw": "[character(name=\"avg_npc_413_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_413_1#1$1"
+    },
+    {
+        "id": 123,
+        "raw": "[name=\"Robben\"]Yes, sir!",
+        "type": "dialog",
+        "speaker": "Robben",
+        "content": "Yes, sir!"
+    },
+    {
+        "id": 124,
+        "raw": "[character(name=\"avg_npc_404_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#1$1"
+    },
+    {
+        "id": 125,
+        "raw": "[name=\"Manfred\"]A pitiful act of defiance—",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "A pitiful act of defiance—"
+    },
+    {
+        "id": 126,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 127,
+        "raw": "[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]",
+        "type": "blocker",
+        "a": "0.7,",
+        "r": "0.95,",
+        "g": "0.95,",
+        "b": "0.95,",
+        "fadetime": "0.02,",
+        "block": true
+    },
+    {
+        "id": 128,
+        "raw": "[PlaySound(key=\"$d_sp_ballista\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_sp_ballista.mp3"
+    },
+    {
+        "id": 129,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.25, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.25,",
+        "block": true
+    },
+    {
+        "id": 130,
+        "raw": "[CameraShake(duration=0.4, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=true)]",
+        "type": "camera_shake",
+        "duration": "0.4,",
+        "xstrength": "20,",
+        "ystrength": "20,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": true
+    },
+    {
+        "id": 131,
+        "raw": "[delay(time=1)] ",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 132,
+        "raw": "[character]",
+        "type": "character"
+    },
+    {
+        "id": 133,
+        "raw": "[character(name=\"avg_4039_horn_1#7$1\",fadetime=0.5)]",
+        "type": "character",
+        "name": "avg_4039_horn_1#7$1",
+        "fadetime": 0.5
+    },
+    {
+        "id": 134,
+        "raw": "[characteraction(name=\"middle\", type=\"move\", xpos=-100, fadetime=0.5, block=true)]",
+        "type": "move",
+        "name": "middle",
+        "xpos": "-100,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 135,
+        "raw": "[name=\"Horn\"]Now... is our chance.",
+        "type": "dialog",
+        "speaker": "Horn",
+        "content": "Now... is our chance."
+    },
+    {
+        "id": 136,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 137,
+        "raw": "[PlaySound(key=\"$rungeneral\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_rungeneral.mp3",
+        "volume": 1
+    },
+    {
+        "id": 138,
+        "raw": "[characteraction(name=\"middle\", type=\"move\", xpos=-200, fadetime=0.5, block=true)]",
+        "type": "move",
+        "name": "middle",
+        "xpos": "-200,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 139,
+        "raw": "[character(fadetime=0.5)]",
+        "type": "character",
+        "fadetime": 0.5
+    },
+    {
+        "id": 140,
+        "raw": "[delay(time=2)] ",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 141,
+        "raw": "[character(name=\"avg_npc_404_1#9$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#9$1"
+    },
+    {
+        "id": 142,
+        "raw": "[name=\"Manfred\"]Counting on an Arts bombardment to make your escape?",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "Counting on an Arts bombardment to make your escape?"
+    },
+    {
+        "id": 143,
+        "raw": "[name=\"Manfred\"]I'll give you a rude awakening.",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "I'll give you a rude awakening."
+    },
+    {
+        "id": 144,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 145,
+        "raw": "[PlaySound(key=\"$d_sp_ballista\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_sp_ballista.mp3",
+        "volume": 1
+    },
+    {
+        "id": 146,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 147,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 148,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=0.1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.1,",
+        "block": true
+    },
+    {
+        "id": 149,
+        "raw": "[CameraShake(duration=2, xstrength=50, ystrength=50, vibrato=60, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "2,",
+        "xstrength": "50,",
+        "ystrength": "50,",
+        "vibrato": "60,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 150,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0.1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.1,",
+        "block": true
+    },
+    {
+        "id": 151,
+        "raw": "[PlaySound(key=\"$d_gen_explo_n\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_explo_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 152,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=0.1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.1,",
+        "block": true
+    },
+    {
+        "id": 153,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0.1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.1,",
+        "block": true
+    },
+    {
+        "id": 154,
+        "raw": "[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 155,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 156,
+        "raw": "[name=\"Manfred\"]—!",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "—!"
+    },
+    {
+        "id": 157,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 158,
+        "raw": "[character]",
+        "type": "character"
+    },
+    {
+        "id": 159,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 160,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 161,
+        "raw": "[Character(name=\"char_empty\", name2=\"avg_npc_404_1#9$1\",focus=-1)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "avg_npc_404_1#9$1",
+        "focus": -1
+    },
+    {
+        "id": 162,
+        "raw": "[PlaySound(key=\"$rungeneral\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_rungeneral.mp3",
+        "volume": 1
+    },
+    {
+        "id": 163,
+        "raw": "[characteraction(name=\"left\", type=\"move\", xpos=-200, fadetime=0.3, block=true)]",
+        "type": "move",
+        "name": "left",
+        "xpos": "-200,",
+        "fadetime": "0.3,",
+        "block": true
+    },
+    {
+        "id": 164,
+        "raw": "[delay(time=0.51)]",
+        "type": "delay",
+        "time": 0.51
+    },
+    {
+        "id": 165,
+        "raw": "[characteraction(name=\"left\", type=\"move\", xpos=200, fadetime=1, block=false)]",
+        "type": "move",
+        "name": "left",
+        "xpos": "200,",
+        "fadetime": "1,",
+        "block": false
+    },
+    {
+        "id": 166,
+        "raw": "[Character(name=\"avg_4039_horn_1#7$1\", name2=\"avg_npc_404_1#9$1\",fadetime=0.7,focus=1)]",
+        "type": "character",
+        "name": "avg_4039_horn_1#7$1",
+        "name2": "avg_npc_404_1#9$1",
+        "fadetime": "0.7,focus=1"
+    },
+    {
+        "id": 167,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 168,
+        "raw": "[name=\"Horn\"]What I said still stands. So long as my soldiers remain here, I will not flee.",
+        "type": "dialog",
+        "speaker": "Horn",
+        "content": "What I said still stands. So long as my soldiers remain here, I will not flee."
+    },
+    {
+        "id": 169,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 170,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 171,
+        "raw": "[characteraction(name=\"left\", type=\"jump\", xpos=200, power=0, times=1, fadetime=0.2, block=true)]",
+        "type": "jump",
+        "name": "left",
+        "xpos": "200,",
+        "power": "0,",
+        "times": "1,",
+        "fadetime": "0.2,",
+        "block": true
+    },
+    {
+        "id": 172,
+        "raw": "[characteraction(name=\"right\", type=\"move\", xpos=80,ypos=0,power=60,times=1, fadetime=0.2,block=true)]",
+        "type": "move",
+        "name": "right",
+        "xpos": "80,ypos=0,power=60,times=1,",
+        "fadetime": "0.2,block=true"
+    },
+    {
+        "id": 173,
+        "raw": "[CameraShake(duration=0.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 174,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 175,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.05,",
+        "block": true
+    },
+    {
+        "id": 176,
+        "raw": "[PlaySound(key=\"$e_skill_skulsrsword\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_skill/e_skill_skulsrsword.mp3",
+        "volume": 1
+    },
+    {
+        "id": 177,
+        "raw": "[PlaySound(key=\"$swordtsing2\", volume=0.9)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_swordtsing2.mp3",
+        "volume": 0.9
+    },
+    {
+        "id": 178,
+        "raw": "[CameraShake(duration=-1, xstrength=10, ystrength=10, vibrato=30, randomness=90, fadeout=false, block=false)]",
+        "type": "camera_shake",
+        "duration": "-1,",
+        "xstrength": "10,",
+        "ystrength": "10,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "false,",
+        "block": false
+    },
+    {
+        "id": 179,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.05, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.05,",
+        "block": true
+    },
+    {
+        "id": 180,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 181,
+        "raw": "[Character(name=\"avg_4039_horn_1#7$1\", name2=\"avg_npc_404_1#9$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_4039_horn_1#7$1",
+        "name2": "avg_npc_404_1#9$1",
+        "focus": 2
+    },
+    {
+        "id": 182,
+        "raw": "[name=\"Manfred\"]Not bad after all, White Wolf. I see you have the bravado to reverse course and charge me.",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "Not bad after all, White Wolf. I see you have the bravado to reverse course and charge me."
+    },
+    {
+        "id": 183,
+        "raw": "[name=\"Manfred\"]Such a shame then...",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "Such a shame then..."
+    },
+    {
+        "id": 184,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 185,
+        "raw": "[PlaySound(key=\"$e_skill_skulsrsword\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_skill/e_skill_skulsrsword.mp3",
+        "volume": 1
+    },
+    {
+        "id": 186,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 187,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=false)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.05,",
+        "block": false
+    },
+    {
+        "id": 188,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0.05, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.05,",
+        "block": true
+    },
+    {
+        "id": 189,
+        "raw": "[characteraction(name=\"right\", type=\"jump\", xpos=-80, power=0, times=1, fadetime=0.2, block=true)]",
+        "type": "jump",
+        "name": "right",
+        "xpos": "-80,",
+        "power": "0,",
+        "times": "1,",
+        "fadetime": "0.2,",
+        "block": true
+    },
+    {
+        "id": 190,
+        "raw": "[characteraction(name=\"left\", type=\"move\", xpos=-300, power=0, times=1, fadetime=0.2, block=true)]",
+        "type": "move",
+        "name": "left",
+        "xpos": "-300,",
+        "power": "0,",
+        "times": "1,",
+        "fadetime": "0.2,",
+        "block": true
+    },
+    {
+        "id": 191,
+        "raw": "[CameraShake(duration=2, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "2,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 192,
+        "raw": "[playsound(key=\"$d_avg_doorbreak\",volume=0.6)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_doorbreak.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 193,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 194,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 195,
+        "raw": "[PlaySound(key=\"$d_avg_runstop\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_runstop.mp3",
+        "volume": 1
+    },
+    {
+        "id": 196,
+        "raw": "[character(name=\"avg_4039_horn_1#9$1\")]",
+        "type": "character",
+        "name": "avg_4039_horn_1#9$1"
+    },
+    {
+        "id": 197,
+        "raw": "[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "15,",
+        "ystrength": "15,",
+        "vibrato": "20,",
+        "randomness": "70,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 198,
+        "raw": "[playsound(key=\"$d_avg_tinnitus\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_tinnitus.mp3",
+        "volume": 1
+    },
+    {
+        "id": 199,
+        "raw": "[name=\"Horn\"]––Rrgh!",
+        "type": "dialog",
+        "speaker": "Horn",
+        "content": "––Rrgh!"
+    },
+    {
+        "id": 200,
+        "raw": "[character(name=\"avg_npc_404_1#2$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#2$1"
+    },
+    {
+        "id": 201,
+        "raw": "[name=\"Manfred\"]Whoever told you that a Sarkaz depends solely on Arts in a fight?",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "Whoever told you that a Sarkaz depends solely on Arts in a fight?"
+    },
+    {
+        "id": 202,
+        "raw": "[name=\"Manfred\"]Even wielding no more than a sword—I can still defeat every last one of you.",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "Even wielding no more than a sword—I can still defeat every last one of you."
+    },
+    {
+        "id": 203,
+        "raw": "[character(name=\"avg_4039_horn_1#7$1\")]",
+        "type": "character",
+        "name": "avg_4039_horn_1#7$1"
+    },
+    {
+        "id": 204,
+        "raw": "[name=\"Horn\"]Beating me... may not be so difficult...",
+        "type": "dialog",
+        "speaker": "Horn",
+        "content": "Beating me... may not be so difficult..."
+    },
+    {
+        "id": 205,
+        "raw": "[name=\"Horn\"]But making me fall will... not be so easy.",
+        "type": "dialog",
+        "speaker": "Horn",
+        "content": "But making me fall will... not be so easy."
+    },
+    {
+        "id": 206,
+        "raw": "[character(name=\"avg_npc_404_1#2$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#2$1"
+    },
+    {
+        "id": 207,
+        "raw": "[name=\"Manfred\"]How very brave of you.",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "How very brave of you."
+    },
+    {
+        "id": 208,
+        "raw": "[name=\"Manfred\"]It's thanks to that valor of yours that I can end this battle that much quicker—",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "It's thanks to that valor of yours that I can end this battle that much quicker—"
+    },
+    {
+        "id": 209,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 210,
+        "raw": "[character(name=\"avg_4039_horn_1#8$1\")]",
+        "type": "character",
+        "name": "avg_4039_horn_1#8$1"
+    },
+    {
+        "id": 211,
+        "raw": "[Blocker(a=0, r=255,g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,g=255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 212,
+        "raw": "[Blocker(a=1, r=255,g=255, b=255, fadetime=0.03, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,g=255,",
+        "b": "255,",
+        "fadetime": "0.03,",
+        "block": true
+    },
+    {
+        "id": 213,
+        "raw": "[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "40,",
+        "ystrength": "40,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 214,
+        "raw": "[character]",
+        "type": "character"
+    },
+    {
+        "id": 215,
+        "raw": "[PlaySound(key=\"$e_skill_skulsrsword\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_skill/e_skill_skulsrsword.mp3",
+        "volume": 1
+    },
+    {
+        "id": 216,
+        "raw": "[Blocker(a=0, r=255,g=255, b=255, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,g=255,",
+        "b": "255,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 217,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 218,
+        "raw": "[PlaySound(key=\"$e_atk_magic_n\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_atk/e_atk_magic_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 219,
+        "raw": "[delay(time=0.51)]",
+        "type": "delay",
+        "time": 0.51
+    },
+    {
+        "id": 220,
+        "raw": "The instant he thrusts his sword out, the soldier before Manfred abruptly vanishes.",
+        "type": "narration",
+        "content": "The instant he thrusts his sword out, the soldier before Manfred abruptly vanishes."
+    },
+    {
+        "id": 221,
+        "raw": "She seems to practically dissolve and melt through the wall behind her, leaving not even a ripple.",
+        "type": "narration",
+        "content": "She seems to practically dissolve and melt through the wall behind her, leaving not even a ripple."
+    },
+    {
+        "id": 222,
+        "raw": "[character(name=\"avg_npc_404_1#6$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#6$1"
+    },
+    {
+        "id": 223,
+        "raw": "[name=\"Manfred\"]These Arts are unfamiliar...",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "These Arts are unfamiliar..."
+    },
+    {
+        "id": 224,
+        "raw": "[MusicVolume(volume=0, fadetime=1)]",
+        "type": "music_volume",
+        "volume": "0,",
+        "fadetime": 1
+    },
+    {
+        "id": 225,
+        "raw": "[character(name=\"avg_npc_404_1#8$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#8$1"
+    },
+    {
+        "id": 226,
+        "raw": "[name=\"Manfred\"]Vigilance!",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "Vigilance!"
+    },
+    {
+        "id": 227,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 228,
+        "raw": "[characteraction(name=\"middle\", type=\"move\", xpos=-100, ypos=0,fadetime=0.05, isblock=true)]",
+        "type": "move",
+        "name": "middle",
+        "xpos": "-100,",
+        "ypos": "0,fadetime=0.05,",
+        "isblock": true
+    },
+    {
+        "id": 229,
+        "raw": "[Blocker(a=0, r=255,g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,g=255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 230,
+        "raw": "[Blocker(a=1, r=255,g=255, b=255, fadetime=0.03, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,g=255,",
+        "b": "255,",
+        "fadetime": "0.03,",
+        "block": true
+    },
+    {
+        "id": 231,
+        "raw": "[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "40,",
+        "ystrength": "40,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 232,
+        "raw": "[PlaySound(key=\"$e_atk_bldkgtpol_n\", volume=0.3)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_atk/e_atk_bldkgtpol_n.mp3",
+        "volume": 0.3
+    },
+    {
+        "id": 233,
+        "raw": "[PlaySound(key=\"$d_avg_bldwhoosh\", channel=\"swd\",delay=0.1,volume=2)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_bldwhoosh.mp3",
+        "channel": "swd",
+        "delay": "0.1,volume=2"
+    },
+    {
+        "id": 234,
+        "raw": "[Blocker(a=0, r=255,g=255, b=255, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,g=255,",
+        "b": "255,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 235,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 236,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 237,
+        "raw": "[delay(time=0.51)]",
+        "type": "delay",
+        "time": 0.51
+    },
+    {
+        "id": 238,
+        "raw": "[name=\"Manfred\"]...A dagger from thin air?",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "...A dagger from thin air?"
+    },
+    {
+        "id": 239,
+        "raw": "[name=\"Manfred\"]No, not from thin air...",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "No, not from thin air..."
+    },
+    {
+        "id": 240,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 241,
+        "raw": "[characteraction(name=\"middle\", type=\"move\", xpos=200, ypos=0,fadetime=0.05, isblock=true)]",
+        "type": "move",
+        "name": "middle",
+        "xpos": "200,",
+        "ypos": "0,fadetime=0.05,",
+        "isblock": true
+    },
+    {
+        "id": 242,
+        "raw": "[Blocker(a=0, r=255,g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,g=255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 243,
+        "raw": "[Blocker(a=1, r=255,g=255, b=255, fadetime=0.03, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,g=255,",
+        "b": "255,",
+        "fadetime": "0.03,",
+        "block": true
+    },
+    {
+        "id": 244,
+        "raw": "[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "40,",
+        "ystrength": "40,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 245,
+        "raw": "[PlaySound(key=\"$d_avg_bldwhoosh\", volume=2)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_bldwhoosh.mp3",
+        "volume": 2
+    },
+    {
+        "id": 246,
+        "raw": "[PlaySound(key=\"$p_imp_whip_h\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/player/p_imp/p_imp_whip_h.mp3",
+        "volume": 1
+    },
+    {
+        "id": 247,
+        "raw": "[Blocker(a=0, r=255,g=255, b=255, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,g=255,",
+        "b": "255,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 248,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 249,
+        "raw": "[characteraction(name=\"middle\", type=\"move\", xpos=-100, ypos=0,fadetime=0.1, isblock=true)]",
+        "type": "move",
+        "name": "middle",
+        "xpos": "-100,",
+        "ypos": "0,fadetime=0.1,",
+        "isblock": true
+    },
+    {
+        "id": 250,
+        "raw": "[MusicVolume(volume=0.4, fadetime=1)]",
+        "type": "music_volume",
+        "volume": "0.4,",
+        "fadetime": 1
+    },
+    {
+        "id": 251,
+        "raw": "[character(name=\"avg_npc_404_1#8$1\",focus=-1)]",
+        "type": "character",
+        "name": "avg_npc_404_1#8$1",
+        "focus": -1
+    },
+    {
+        "id": 252,
+        "raw": "[name=\"???\"]You react very fast.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "You react very fast."
+    },
+    {
+        "id": 253,
+        "raw": "[character(name=\"avg_npc_404_1#2$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#2$1"
+    },
+    {
+        "id": 254,
+        "raw": "[name=\"Manfred\"]I'm afraid I'd have one more hole in my chest otherwise.",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "I'm afraid I'd have one more hole in my chest otherwise."
+    },
+    {
+        "id": 255,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 256,
+        "raw": "[PlaySound(key=\"$e_atk_circleatk_h\", volume=0.6)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_atk/e_atk_circleatk_h.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 257,
+        "raw": "[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.1, block=true)]",
+        "type": "blocker",
+        "a": "0.7,",
+        "r": "0.95,",
+        "g": "0.95,",
+        "b": "0.95,",
+        "fadetime": "0.1,",
+        "block": true
+    },
+    {
+        "id": 258,
+        "raw": "[PlaySound(key=\"$e_atk_circleatk_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_atk/e_atk_circleatk_n.mp3"
+    },
+    {
+        "id": 259,
+        "raw": "[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0.95,",
+        "g": "0.95,",
+        "b": "0.95,",
+        "fadetime": "0.25,",
+        "block": true
+    },
+    {
+        "id": 260,
+        "raw": "[CameraShake(duration=0.4, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=true)]",
+        "type": "camera_shake",
+        "duration": "0.4,",
+        "xstrength": "20,",
+        "ystrength": "20,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": true
+    },
+    {
+        "id": 261,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 262,
+        "raw": "[character(name=\"avg_npc_419_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_419_1#1$1"
+    },
+    {
+        "id": 263,
+        "raw": "[name=\"Sarkaz Warrior\"]Target found! Take aim!",
+        "type": "dialog",
+        "speaker": "Sarkaz Warrior",
+        "content": "Target found! Take aim!"
+    },
+    {
+        "id": 264,
+        "raw": "[name=\"Sarkaz Warrior\"]What the hell? They vanished again?",
+        "type": "dialog",
+        "speaker": "Sarkaz Warrior",
+        "content": "What the hell? They vanished again?"
+    },
+    {
+        "id": 265,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 266,
+        "raw": "[Blocker(a=0, r=255,g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,g=255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 267,
+        "raw": "[Blocker(a=1, r=255,g=255, b=255, fadetime=0.03, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,g=255,",
+        "b": "255,",
+        "fadetime": "0.03,",
+        "block": true
+    },
+    {
+        "id": 268,
+        "raw": "[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "40,",
+        "ystrength": "40,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 269,
+        "raw": "[PlaySound(key=\"$p_imp_whip_h\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/player/p_imp/p_imp_whip_h.mp3",
+        "volume": 1
+    },
+    {
+        "id": 270,
+        "raw": "[PlaySound(key=\"$p_imp_sword_n\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/player/p_imp/p_imp_sword_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 271,
+        "raw": "[Blocker(a=0, r=255,g=255, b=255, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,g=255,",
+        "b": "255,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 272,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 273,
+        "raw": "[delay(time=1)] ",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 274,
+        "raw": "[Character(name=\"avg_npc_419_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_419_1#1$1"
+    },
+    {
+        "id": 275,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 276,
+        "raw": "[PlaySound(key=\"$bodyfalldown2\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_bodyfalldown2.mp3",
+        "volume": 1
+    },
+    {
+        "id": 277,
+        "raw": "[characteraction(name=\"middle\", type=\"move\", ypos=-300, fadetime=2,block=true)]",
+        "type": "move",
+        "name": "middle",
+        "ypos": "-300,",
+        "fadetime": "2,block=true"
+    },
+    {
+        "id": 278,
+        "raw": "[character(fadetime=0.5)]",
+        "type": "character",
+        "fadetime": 0.5
+    },
+    {
+        "id": 279,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 280,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 281,
+        "raw": "[character]",
+        "type": "character"
+    },
+    {
+        "id": 282,
+        "raw": "[character(name=\"avg_npc_419_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_419_1#1$1"
+    },
+    {
+        "id": 283,
+        "raw": "[name=\"Sarkaz Warrior\"]Th-They're too fast! I can't land a shot!",
+        "type": "dialog",
+        "speaker": "Sarkaz Warrior",
+        "content": "Th-They're too fast! I can't land a shot!"
+    },
+    {
+        "id": 284,
+        "raw": "[name=\"Sarkaz Warrior\"]Shields up, up! Quick! Shit, are they able to blink?",
+        "type": "dialog",
+        "speaker": "Sarkaz Warrior",
+        "content": "Shields up, up! Quick! Shit, are they able to blink?"
+    },
+    {
+        "id": 285,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 286,
+        "raw": "[Blocker(a=0, r=255,g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,g=255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 287,
+        "raw": "[Blocker(a=1, r=255,g=255, b=255, fadetime=0.03, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,g=255,",
+        "b": "255,",
+        "fadetime": "0.03,",
+        "block": true
+    },
+    {
+        "id": 288,
+        "raw": "[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "40,",
+        "ystrength": "40,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 289,
+        "raw": "[PlaySound(key=\"$p_imp_whip_h\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/player/p_imp/p_imp_whip_h.mp3",
+        "volume": 1
+    },
+    {
+        "id": 290,
+        "raw": "[PlaySound(key=\"$p_imp_sword_n\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/player/p_imp/p_imp_sword_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 291,
+        "raw": "[Blocker(a=0, r=255,g=255, b=255, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,g=255,",
+        "b": "255,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 292,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 293,
+        "raw": "[delay(time=1)] ",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 294,
+        "raw": "[Character(name=\"avg_npc_419_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_419_1#1$1"
+    },
+    {
+        "id": 295,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 296,
+        "raw": "[PlaySound(key=\"$bodyfalldown2\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_bodyfalldown2.mp3",
+        "volume": 1
+    },
+    {
+        "id": 297,
+        "raw": "[characteraction(name=\"middle\", type=\"move\", ypos=-300, fadetime=2,block=true)]",
+        "type": "move",
+        "name": "middle",
+        "ypos": "-300,",
+        "fadetime": "2,block=true"
+    },
+    {
+        "id": 298,
+        "raw": "[character(fadetime=0.5)]",
+        "type": "character",
+        "fadetime": 0.5
+    },
+    {
+        "id": 299,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 300,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 301,
+        "raw": "[character]",
+        "type": "character"
+    },
+    {
+        "id": 302,
+        "raw": "[character(name=\"avg_npc_404_1#8$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#8$1"
+    },
+    {
+        "id": 303,
+        "raw": "[name=\"Manfred\"]Blink? No such Arts could be cast without leaving even a trace!",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "Blink? No such Arts could be cast without leaving even a trace!"
+    },
+    {
+        "id": 304,
+        "raw": "[name=\"Manfred\"]Or is this... a diversion?",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "Or is this... a diversion?"
+    },
+    {
+        "id": 305,
+        "raw": "[character(name=\"avg_npc_404_1#9$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#9$1"
+    },
+    {
+        "id": 306,
+        "raw": "[name=\"Manfred\"]Don't let them fool you! All men, cast precision aside! Attack at once!",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "Don't let them fool you! All men, cast precision aside! Attack at once!"
+    },
+    {
+        "id": 307,
+        "raw": "[name=\"Manfred\"]So long as the enemy is still in front of us, they have no escape!",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "So long as the enemy is still in front of us, they have no escape!"
+    },
+    {
+        "id": 308,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 309,
+        "raw": "[PlaySound(key=\"$e_atk_circleatk_h\", volume=0.6)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_atk/e_atk_circleatk_h.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 310,
+        "raw": "[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.1, block=true)]",
+        "type": "blocker",
+        "a": "0.7,",
+        "r": "0.95,",
+        "g": "0.95,",
+        "b": "0.95,",
+        "fadetime": "0.1,",
+        "block": true
+    },
+    {
+        "id": 311,
+        "raw": "[PlaySound(key=\"$e_atk_circleatk_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_atk/e_atk_circleatk_n.mp3"
+    },
+    {
+        "id": 312,
+        "raw": "[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0.95,",
+        "g": "0.95,",
+        "b": "0.95,",
+        "fadetime": "0.25,",
+        "block": true
+    },
+    {
+        "id": 313,
+        "raw": "[CameraShake(duration=0.4, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=true)]",
+        "type": "camera_shake",
+        "duration": "0.4,",
+        "xstrength": "20,",
+        "ystrength": "20,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": true
+    },
+    {
+        "id": 314,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 315,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 316,
+        "raw": "[name=\"Manfred\"]Have we... hit them?",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "Have we... hit them?"
+    },
+    {
+        "id": 317,
+        "raw": "[character(name=\"avg_npc_419_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_419_1#1$1"
+    },
+    {
+        "id": 318,
+        "raw": "[name=\"Sarkaz Warrior\"]General, there's no body.",
+        "type": "dialog",
+        "speaker": "Sarkaz Warrior",
+        "content": "General, there's no body."
+    },
+    {
+        "id": 319,
+        "raw": "[name=\"Sarkaz Warrior\"]But the ground is shot to hell... Where can they still be hiding?",
+        "type": "dialog",
+        "speaker": "Sarkaz Warrior",
+        "content": "But the ground is shot to hell... Where can they still be hiding?"
+    },
+    {
+        "id": 320,
+        "raw": "[character(name=\"avg_npc_404_1#2$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#2$1"
+    },
+    {
+        "id": 321,
+        "raw": "[name=\"Manfred\"]......",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "......"
+    },
+    {
+        "id": 322,
+        "raw": "[character(name=\"avg_npc_419_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_419_1#1$1"
+    },
+    {
+        "id": 323,
+        "raw": "[name=\"Sarkaz Warrior\"]General, behind you!",
+        "type": "dialog",
+        "speaker": "Sarkaz Warrior",
+        "content": "General, behind you!"
+    },
+    {
+        "id": 324,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 325,
+        "raw": "[character(name=\"avg_npc_404_1#2$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#2$1"
+    },
+    {
+        "id": 326,
+        "raw": "[Blocker(a=0, r=255,g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,g=255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 327,
+        "raw": "[Blocker(a=1, r=255,g=255, b=255, fadetime=0.03, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,g=255,",
+        "b": "255,",
+        "fadetime": "0.03,",
+        "block": true
+    },
+    {
+        "id": 328,
+        "raw": "[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "40,",
+        "ystrength": "40,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 329,
+        "raw": "[PlaySound(key=\"$e_skill_skulsrsword\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_skill/e_skill_skulsrsword.mp3",
+        "volume": 1
+    },
+    {
+        "id": 330,
+        "raw": "[Blocker(a=0, r=255,g=255, b=255, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,g=255,",
+        "b": "255,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 331,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 332,
+        "raw": "[name=\"Manfred\"]Show yourself, and your life is mine!",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "Show yourself, and your life is mine!"
+    },
+    {
+        "id": 333,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 334,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 335,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 336,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 337,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 338,
+        "raw": "[character]",
+        "type": "character"
+    },
+    {
+        "id": 339,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 340,
+        "raw": "[Background(image=\"bg_black\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_black.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 341,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 342,
+        "raw": "[character(name=\"avg_npc_235\",blackstart=0.2, blackend=0.7, fadetime=1.5)]",
+        "type": "character",
+        "name": "avg_npc_235",
+        "blackstart": "0.2,",
+        "blackend": "0.7,",
+        "fadetime": 1.5
+    },
+    {
+        "id": 343,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 344,
+        "raw": "[name=\"???\"]Really?",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "Really?"
+    },
+    {
+        "id": 345,
+        "raw": "[Background(image=\"27_g8_jail\",screenadapt=\"coverall\",fadetime=1)]",
+        "type": "background",
+        "image": "27_g8_jail.png",
+        "screenadapt": "coverall",
+        "fadetime": 1
+    },
+    {
+        "id": 346,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 347,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 348,
+        "raw": "[PlayMusic(intro=\"$tense_intro\", key=\"$tense_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act15d0d0/m_avg_tense_intro.mp3",
+        "key": "sound_beta_2/music/act15d0d0/m_avg_tense_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 349,
+        "raw": "[name=\"???\"]Manfred, you put it very well, but unfortunately... you were only half right.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "Manfred, you put it very well, but unfortunately... you were only half right."
+    },
+    {
+        "id": 350,
+        "raw": "[character(name=\"avg_npc_404_1#8$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#8$1"
+    },
+    {
+        "id": 351,
+        "raw": "[name=\"Manfred\"]Half?",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "Half?"
+    },
+    {
+        "id": 352,
+        "raw": "[character(name=\"avg_npc_235\",blackstart=0.2,blackend=0.7)]",
+        "type": "character",
+        "name": "avg_npc_235",
+        "blackstart": "0.2,blackend=0.7"
+    },
+    {
+        "id": 353,
+        "raw": "[name=\"???\"]Sarkaz do not depend solely on Arts to fight—",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "Sarkaz do not depend solely on Arts to fight—"
+    },
+    {
+        "id": 354,
+        "raw": "[name=\"???\"]—but in no world do Sarkaz wield swords alone.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "—but in no world do Sarkaz wield swords alone."
+    },
+    {
+        "id": 355,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 356,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 357,
+        "raw": "[PlaySound(key=\"$e_atk_magic_m\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_atk/e_atk_magic_m.mp3",
+        "volume": 1
+    },
+    {
+        "id": 358,
+        "raw": "[Image(image=\"27_i21\",screenadapt=\"coverall\",xScaleFrom=1.1, yScaleFrom=1.1,  fadetime=3)]",
+        "type": "image",
+        "image": "27_i21.png",
+        "screenadapt": "coverall",
+        "xScaleFrom": "1.1,",
+        "yScaleFrom": "1.1,",
+        "fadetime": 3
+    },
+    {
+        "id": 359,
+        "raw": "[Background]",
+        "type": "background"
+    },
+    {
+        "id": 360,
+        "raw": "[CameraShake(duration=-1, xstrength=5, ystrength=5, vibrato=90, randomness=90, fadeout=false, block=false)]",
+        "type": "camera_shake",
+        "duration": "-1,",
+        "xstrength": "5,",
+        "ystrength": "5,",
+        "vibrato": "90,",
+        "randomness": "90,",
+        "fadeout": "false,",
+        "block": false
+    },
+    {
+        "id": 361,
+        "raw": "[ImageTween(xScaleFrom=1.1, yScaleFrom=1.1, xScaleTo=1, yScaleTo=1, duration=5, ease=\"OutBack\", fadetime=2, block=false)]",
+        "type": "image_tween",
+        "xScaleFrom": "1.1,",
+        "yScaleFrom": "1.1,",
+        "xScaleTo": "1,",
+        "yScaleTo": "1,",
+        "duration": "5,",
+        "ease": "OutBack",
+        "fadetime": "2,",
+        "block": false
+    },
+    {
+        "id": 362,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 363,
+        "raw": "[PlaySound(key=\"$e_atk_magic_n\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_atk/e_atk_magic_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 364,
+        "raw": "[name=\"Sarkaz Warrior\"]Aarrghh!",
+        "type": "dialog",
+        "speaker": "Sarkaz Warrior",
+        "content": "Aarrghh!"
+    },
+    {
+        "id": 365,
+        "raw": "[name=\"Sarkaz Warrior\"]The ground shouldn't be this soft—this place is going to swallow us! I-I'm losing my grip on my blade!",
+        "type": "dialog",
+        "speaker": "Sarkaz Warrior",
+        "content": "The ground shouldn't be this soft—this place is going to swallow us! I-I'm losing my grip on my blade!"
+    },
+    {
+        "id": 366,
+        "raw": "[name=\"Sarkaz Warrior\"]General, you're sinking too?!",
+        "type": "dialog",
+        "speaker": "Sarkaz Warrior",
+        "content": "General, you're sinking too?!"
+    },
+    {
+        "id": 367,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 368,
+        "raw": "[character]",
+        "type": "character"
+    },
+    {
+        "id": 369,
+        "raw": "[PlaySound(key=\"$e_atk_magic_m\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_atk/e_atk_magic_m.mp3",
+        "volume": 1
+    },
+    {
+        "id": 370,
+        "raw": "[Image(fadetime=2)]",
+        "type": "image",
+        "fadetime": 2
+    },
+    {
+        "id": 371,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 372,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 373,
+        "raw": "[Background(image=\"27_g8_jail\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "27_g8_jail.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 374,
+        "raw": "[character(name=\"avg_npc_404_1#2$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#2$1"
+    },
+    {
+        "id": 375,
+        "raw": "[name=\"Manfred\"]...Nobody move, and nobody panic.",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "...Nobody move, and nobody panic."
+    },
+    {
+        "id": 376,
+        "raw": "[name=\"Manfred\"]The dagger is his staff. These are Arts, and nothing more than Arts.",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "The dagger is his staff. These are Arts, and nothing more than Arts."
+    },
+    {
+        "id": 377,
+        "raw": "[character(name=\"avg_npc_235\",blackstart=0.2,blackend=0.7)]",
+        "type": "character",
+        "name": "avg_npc_235",
+        "blackstart": "0.2,blackend=0.7"
+    },
+    {
+        "id": 378,
+        "raw": "[name=\"???\"]You're very calm-headed. Good... you've saved your men's lives.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "You're very calm-headed. Good... you've saved your men's lives."
+    },
+    {
+        "id": 379,
+        "raw": "[name=\"???\"]However...",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "However..."
+    },
+    {
+        "id": 380,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 381,
+        "raw": "[character(name=\"avg_npc_404_1#2$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#2$1"
+    },
+    {
+        "id": 382,
+        "raw": "[Blocker(a=0, r=255,g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,g=255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 383,
+        "raw": "[Blocker(a=1, r=255,g=255, b=255, fadetime=0.03, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,g=255,",
+        "b": "255,",
+        "fadetime": "0.03,",
+        "block": true
+    },
+    {
+        "id": 384,
+        "raw": "[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "40,",
+        "ystrength": "40,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 385,
+        "raw": "[PlaySound(key=\"$e_atk_bldkgtpol_n\", volume=0.3)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_atk/e_atk_bldkgtpol_n.mp3",
+        "volume": 0.3
+    },
+    {
+        "id": 386,
+        "raw": "[PlaySound(key=\"$p_imp_sword_n\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/player/p_imp/p_imp_sword_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 387,
+        "raw": "[Blocker(a=0, r=255,g=255, b=255, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,g=255,",
+        "b": "255,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 388,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 389,
+        "raw": "[CameraShake(duration=-1, xstrength=5, ystrength=5, vibrato=90, randomness=90, fadeout=false, block=false)]",
+        "type": "camera_shake",
+        "duration": "-1,",
+        "xstrength": "5,",
+        "ystrength": "5,",
+        "vibrato": "90,",
+        "randomness": "90,",
+        "fadeout": "false,",
+        "block": false
+    },
+    {
+        "id": 390,
+        "raw": "[delay(time=0.51)]",
+        "type": "delay",
+        "time": 0.51
+    },
+    {
+        "id": 391,
+        "raw": "[name=\"Manfred\"]Rgh!",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "Rgh!"
+    },
+    {
+        "id": 392,
+        "raw": "[name=\"Manfred\"]The ground's... nearing my stomach...",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "The ground's... nearing my stomach..."
+    },
+    {
+        "id": 393,
+        "raw": "[name=\"Manfred\"]My sword...",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "My sword..."
+    },
+    {
+        "id": 394,
+        "raw": "[character(name=\"avg_npc_235\",blackstart=0.2,blackend=0.7)]",
+        "type": "character",
+        "name": "avg_npc_235",
+        "blackstart": "0.2,blackend=0.7"
+    },
+    {
+        "id": 395,
+        "raw": "[name=\"???\"]With your swordsmanship, blocking my attacks would be a simple task.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "With your swordsmanship, blocking my attacks would be a simple task."
+    },
+    {
+        "id": 396,
+        "raw": "[name=\"???\"]But the more you struggle, the quicker the ground swallows you.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "But the more you struggle, the quicker the ground swallows you."
+    },
+    {
+        "id": 397,
+        "raw": "[name=\"???\"]Is this how you want to go... this self-destruction?",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "Is this how you want to go... this self-destruction?"
+    },
+    {
+        "id": 398,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 399,
+        "raw": "[character(name=\"avg_npc_404_1#2$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#2$1"
+    },
+    {
+        "id": 400,
+        "raw": "[name=\"Manfred\"]Urgh... *cough* *cough*...",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "Urgh... *cough* *cough*..."
+    },
+    {
+        "id": 401,
+        "raw": "[character(name=\"avg_npc_419_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_419_1#1$1"
+    },
+    {
+        "id": 402,
+        "raw": "[name=\"Sarkaz Warrior\"]General—",
+        "type": "dialog",
+        "speaker": "Sarkaz Warrior",
+        "content": "General—"
+    },
+    {
+        "id": 403,
+        "raw": "[character(name=\"avg_npc_404_1#9$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#9$1"
+    },
+    {
+        "id": 404,
+        "raw": "[name=\"Manfred\"]No one come near!",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "No one come near!"
+    },
+    {
+        "id": 405,
+        "raw": "[character(name=\"avg_npc_235\",blackstart=0.2,blackend=0.7)]",
+        "type": "character",
+        "name": "avg_npc_235",
+        "blackstart": "0.2,blackend=0.7"
+    },
+    {
+        "id": 406,
+        "raw": "[name=\"???\"]Or, you could cease all movements, same as your men.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "Or, you could cease all movements, same as your men."
+    },
+    {
+        "id": 407,
+        "raw": "[character(name=\"avg_npc_404_1#9$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#9$1"
+    },
+    {
+        "id": 408,
+        "raw": "[name=\"Manfred\"]You want me to wait as you run my heart through?",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "You want me to wait as you run my heart through?"
+    },
+    {
+        "id": 409,
+        "raw": "[character(name=\"avg_npc_235\",blackstart=0.2,blackend=0.7)]",
+        "type": "character",
+        "name": "avg_npc_235",
+        "blackstart": "0.2,blackend=0.7"
+    },
+    {
+        "id": 410,
+        "raw": "[name=\"???\"]It'd be tough, killing you.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "It'd be tough, killing you."
+    },
+    {
+        "id": 411,
+        "raw": "[character(name=\"avg_npc_404_1#4$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#4$1"
+    },
+    {
+        "id": 412,
+        "raw": "[name=\"Manfred\"]*cough* *cough*... *pant*...",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "*cough* *cough*... *pant*..."
+    },
+    {
+        "id": 413,
+        "raw": "[name=\"Manfred\"]I see now. You're not actually here to take my life.",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "I see now. You're not actually here to take my life."
+    },
+    {
+        "id": 414,
+        "raw": "[name=\"Manfred\"]I never imagined that outside of Ascalon, Rhodes Island would have yet another apex Sarkaz assassin.",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "I never imagined that outside of Ascalon, Rhodes Island would have yet another apex Sarkaz assassin."
+    },
+    {
+        "id": 415,
+        "raw": "[character(name=\"avg_npc_235\",blackstart=0.2,blackend=0.7)]",
+        "type": "character",
+        "name": "avg_npc_235",
+        "blackstart": "0.2,blackend=0.7"
+    },
+    {
+        "id": 416,
+        "raw": "[name=\"???\"]I'm no assassin.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "I'm no assassin."
+    },
+    {
+        "id": 417,
+        "raw": "[name=\"???\"]Unless it's called for, I have zero desire to harm any Sarkaz at all.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "Unless it's called for, I have zero desire to harm any Sarkaz at all."
+    },
+    {
+        "id": 418,
+        "raw": "[character(name=\"avg_npc_404_1#2$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#2$1"
+    },
+    {
+        "id": 419,
+        "raw": "[name=\"Manfred\"]But here you are, abetting our enemies!",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "But here you are, abetting our enemies!"
+    },
+    {
+        "id": 420,
+        "raw": "[character(name=\"avg_npc_235\", blackstart=0.2, blackend=0.7)]",
+        "type": "character",
+        "name": "avg_npc_235",
+        "blackstart": "0.2,",
+        "blackend": 0.7
+    },
+    {
+        "id": 421,
+        "raw": "[name=\"???\"]Are these Victorians... your enemies?",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "Are these Victorians... your enemies?"
+    },
+    {
+        "id": 422,
+        "raw": "[name=\"???\"]What I see is a group of bruised, weary warriors, on the soil of their own home, struggling painfully just to live.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "What I see is a group of bruised, weary warriors, on the soil of their own home, struggling painfully just to live."
+    },
+    {
+        "id": 423,
+        "raw": "[name=\"???\"]You and Theresis, on the other hand, are turning the Sarkaz into the enemy of all.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "You and Theresis, on the other hand, are turning the Sarkaz into the enemy of all."
+    },
+    {
+        "id": 424,
+        "raw": "[character(name=\"avg_npc_404_1#2$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#2$1"
+    },
+    {
+        "id": 425,
+        "raw": "[name=\"Manfred\"]I had entertained having a talk with your people, if I had the chance.",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "I had entertained having a talk with your people, if I had the chance."
+    },
+    {
+        "id": 426,
+        "raw": "[name=\"Manfred\"]It's a sorry thing, that we should first meet on the battlefield—",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "It's a sorry thing, that we should first meet on the battlefield—"
+    },
+    {
+        "id": 427,
+        "raw": "[name=\"Manfred\"]—Rhodes Island Elite Operator.",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "—Rhodes Island Elite Operator."
+    },
+    {
+        "id": 428,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 429,
+        "raw": "[PlaySound(key=\"$e_atk_circleatk_h\", volume=0.6)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_atk/e_atk_circleatk_h.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 430,
+        "raw": "[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.1, block=true)]",
+        "type": "blocker",
+        "a": "0.7,",
+        "r": "0.95,",
+        "g": "0.95,",
+        "b": "0.95,",
+        "fadetime": "0.1,",
+        "block": true
+    },
+    {
+        "id": 431,
+        "raw": "[PlaySound(key=\"$e_atk_circleatk_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_atk/e_atk_circleatk_n.mp3"
+    },
+    {
+        "id": 432,
+        "raw": "[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0.95,",
+        "g": "0.95,",
+        "b": "0.95,",
+        "fadetime": "0.25,",
+        "block": true
+    },
+    {
+        "id": 433,
+        "raw": "[CameraShake(duration=0.4, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=true)]",
+        "type": "camera_shake",
+        "duration": "0.4,",
+        "xstrength": "20,",
+        "ystrength": "20,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": true
+    },
+    {
+        "id": 434,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 435,
+        "raw": "[name=\"Manfred\"]......",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "......"
+    },
+    {
+        "id": 436,
+        "raw": "[character(name=\"avg_npc_419_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_419_1#1$1"
+    },
+    {
+        "id": 437,
+        "raw": "[name=\"Sarkaz Warrior\"]He's gone again? Ngh—the ground's back to normal!",
+        "type": "dialog",
+        "speaker": "Sarkaz Warrior",
+        "content": "He's gone again? Ngh—the ground's back to normal!"
+    },
+    {
+        "id": 438,
+        "raw": "[character(name=\"avg_npc_404_1#9$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#9$1"
+    },
+    {
+        "id": 439,
+        "raw": "[name=\"Manfred\"]A hair's breadth.",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "A hair's breadth."
+    },
+    {
+        "id": 440,
+        "raw": "[name=\"Manfred\"]I was on the cusp of capturing him. His Arts are all too exceptional... He can induce hallucinations without influencing our nervous systems.",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "I was on the cusp of capturing him. His Arts are all too exceptional... He can induce hallucinations without influencing our nervous systems."
+    },
+    {
+        "id": 441,
+        "raw": "[name=\"Manfred\"]There are marks of energy transformation on the ground. Could it be...?",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "There are marks of energy transformation on the ground. Could it be...?"
+    },
+    {
+        "id": 442,
+        "raw": "[character(name=\"avg_npc_419_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_419_1#1$1"
+    },
+    {
+        "id": 443,
+        "raw": "[name=\"Sarkaz Warrior\"]General, they're all gone! Those Victoria soldiers, I mean—",
+        "type": "dialog",
+        "speaker": "Sarkaz Warrior",
+        "content": "General, they're all gone! Those Victoria soldiers, I mean—"
+    },
+    {
+        "id": 444,
+        "raw": "[character(name=\"avg_npc_404_1#2$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#2$1"
+    },
+    {
+        "id": 445,
+        "raw": "[name=\"Manfred\"]Keh... He would visit me and stall for time, just to extricate those half-dead soldiers one by one?",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "Keh... He would visit me and stall for time, just to extricate those half-dead soldiers one by one?"
+    },
+    {
+        "id": 446,
+        "raw": "[character(name=\"avg_npc_419_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_419_1#1$1"
+    },
+    {
+        "id": 447,
+        "raw": "[name=\"Sarkaz Warrior\"]Are... Are we pursuing them, then?",
+        "type": "dialog",
+        "speaker": "Sarkaz Warrior",
+        "content": "Are... Are we pursuing them, then?"
+    },
+    {
+        "id": 448,
+        "raw": "[character(name=\"avg_npc_404_1#2$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#2$1"
+    },
+    {
+        "id": 449,
+        "raw": "[name=\"Manfred\"]Do you think we can?",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "Do you think we can?"
+    },
+    {
+        "id": 450,
+        "raw": "[name=\"Manfred\"]I may have called it a hair's breadth, but against a Caster of that level, a hair's breadth is tantamount to guaranteed failure.",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "I may have called it a hair's breadth, but against a Caster of that level, a hair's breadth is tantamount to guaranteed failure."
+    },
+    {
+        "id": 451,
+        "raw": "[character(name=\"avg_npc_419_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_419_1#1$1"
+    },
+    {
+        "id": 452,
+        "raw": "[name=\"Sarkaz Warrior\"]Dammit! We were set to clean out all the rebel forces by today! Now a mercenary's gone traitor AND some mystery Caster's held us back!",
+        "type": "dialog",
+        "speaker": "Sarkaz Warrior",
+        "content": "Dammit! We were set to clean out all the rebel forces by today! Now a mercenary's gone traitor AND some mystery Caster's held us back!"
+    },
+    {
+        "id": 453,
+        "raw": "[character(name=\"avg_npc_404_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#1$1"
+    },
+    {
+        "id": 454,
+        "raw": "[name=\"Manfred\"]It's Rhodes Island... This is all because of Rhodes Island.",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "It's Rhodes Island... This is all because of Rhodes Island."
+    },
+    {
+        "id": 455,
+        "raw": "[name=\"Manfred\"]We missed our chance to round them up in their entirety, but their losses can't be light, can they?",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "We missed our chance to round them up in their entirety, but their losses can't be light, can they?"
+    },
+    {
+        "id": 456,
+        "raw": "[name=\"Manfred\"]They had their chance to hide in the dark, but now they've been driven front and center. For them, revealing their forces is already a colossal tactical defeat.",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "They had their chance to hide in the dark, but now they've been driven front and center. For them, revealing their forces is already a colossal tactical defeat."
+    },
+    {
+        "id": 457,
+        "raw": "[name=\"Manfred\"]An assassin, an expert spacial illusionist Caster, and the as-yet unseen Banshee... How many cards does Rhodes Island still have up their sleeve?",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "An assassin, an expert spacial illusionist Caster, and the as-yet unseen Banshee... How many cards does Rhodes Island still have up their sleeve?"
+    },
+    {
+        "id": 458,
+        "raw": "[character(name=\"avg_npc_419_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_419_1#1$1"
+    },
+    {
+        "id": 459,
+        "raw": "[name=\"Sarkaz Warrior\"]General, what are your plans?",
+        "type": "dialog",
+        "speaker": "Sarkaz Warrior",
+        "content": "General, what are your plans?"
+    },
+    {
+        "id": 460,
+        "raw": "[character(name=\"avg_npc_404_1#3$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#3$1"
+    },
+    {
+        "id": 461,
+        "raw": "[name=\"Manfred\"]...Let us go. Before we deal with Rhodes Island, we first need to put the discontented clown in its place.",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "...Let us go. Before we deal with Rhodes Island, we first need to put the discontented clown in its place."
+    },
+    {
+        "id": 462,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 463,
+        "raw": "[playsound(key=\"$d_gen_walk_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3"
+    },
+    {
+        "id": 464,
+        "raw": "[character(fadetime=1.5)]",
+        "type": "character",
+        "fadetime": 1.5
+    },
+    {
+        "id": 465,
+        "raw": "[delay(time=2)] ",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 466,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 467,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 468,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1.5, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1.5,",
+        "block": true
+    },
+    {
+        "id": 469,
+        "raw": "[Background(image=\"27_g10_lightinduarea_street_n\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "27_g10_lightinduarea_street_n.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 470,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1.5,",
+        "block": true
+    },
+    {
+        "id": 471,
+        "raw": "[PlaySound(key=\"$rungeneral\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_rungeneral.mp3",
+        "volume": 1
+    },
+    {
+        "id": 472,
+        "raw": "[character(name=\"avg_npc_235\", name2=\"avg_4039_horn_1#1$1\", fadetime=1.5)]",
+        "type": "character",
+        "name": "avg_npc_235",
+        "name2": "avg_4039_horn_1#1$1",
+        "fadetime": 1.5
+    },
+    {
+        "id": 473,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 474,
+        "raw": "[character(name=\"avg_npc_235\", name2=\"avg_4039_horn_1#1$1\", focus=1)]",
+        "type": "character",
+        "name": "avg_npc_235",
+        "name2": "avg_4039_horn_1#1$1",
+        "focus": 1
+    },
+    {
+        "id": 475,
+        "raw": "[name=\"???\"]This should be far enough for now.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "This should be far enough for now."
+    },
+    {
+        "id": 476,
+        "raw": "[character(name=\"avg_npc_235\", name2=\"avg_4039_horn_1#4$1\", focus=2)]",
+        "type": "character",
+        "name": "avg_npc_235",
+        "name2": "avg_4039_horn_1#4$1",
+        "focus": 2
+    },
+    {
+        "id": 477,
+        "raw": "[name=\"Horn\"]...Is this outside of the factory district?",
+        "type": "dialog",
+        "speaker": "Horn",
+        "content": "...Is this outside of the factory district?"
+    },
+    {
+        "id": 478,
+        "raw": "[name=\"Horn\"]You... cut open space with your dagger?",
+        "type": "dialog",
+        "speaker": "Horn",
+        "content": "You... cut open space with your dagger?"
+    },
+    {
+        "id": 479,
+        "raw": "[character(name=\"avg_npc_235\", name2=\"avg_4039_horn_1#4$1\", focus=1)]",
+        "type": "character",
+        "name": "avg_npc_235",
+        "name2": "avg_4039_horn_1#4$1",
+        "focus": 1
+    },
+    {
+        "id": 480,
+        "raw": "[name=\"???\"]Don't always trust your senses. Tricking your eyes is much easier than influencing space.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "Don't always trust your senses. Tricking your eyes is much easier than influencing space."
+    },
+    {
+        "id": 481,
+        "raw": "[character(name=\"avg_npc_235\", name2=\"avg_4039_horn_1#5$1\", focus=2)]",
+        "type": "character",
+        "name": "avg_npc_235",
+        "name2": "avg_4039_horn_1#5$1",
+        "focus": 2
+    },
+    {
+        "id": 482,
+        "raw": "[name=\"Horn\"]You've...",
+        "type": "dialog",
+        "speaker": "Horn",
+        "content": "You've..."
+    },
+    {
+        "id": 483,
+        "raw": "[name=\"Horn\"]You've rescued me, and not just once. My eyes might not show me the truest answers, but my senses never lie.",
+        "type": "dialog",
+        "speaker": "Horn",
+        "content": "You've rescued me, and not just once. My eyes might not show me the truest answers, but my senses never lie."
+    },
+    {
+        "id": 484,
+        "raw": "[name=\"Horn\"]Just who are you?",
+        "type": "dialog",
+        "speaker": "Horn",
+        "content": "Just who are you?"
+    },
+    {
+        "id": 485,
+        "raw": "[character(name=\"avg_npc_235\", name2=\"avg_4039_horn_1#5$1\", focus=1)]",
+        "type": "character",
+        "name": "avg_npc_235",
+        "name2": "avg_4039_horn_1#5$1",
+        "focus": 1
+    },
+    {
+        "id": 486,
+        "raw": "[name=\"???\"]Misery. I'm Misery of Rhodes Island.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "Misery. I'm Misery of Rhodes Island."
+    },
+    {
+        "id": 487,
+        "raw": "[character(name=\"avg_npc_235\", name2=\"avg_4039_horn_1#5$1\", focus=2)]",
+        "type": "character",
+        "name": "avg_npc_235",
+        "name2": "avg_4039_horn_1#5$1",
+        "focus": 2
+    },
+    {
+        "id": 488,
+        "raw": "[name=\"Horn\"]Rhodes Island?",
+        "type": "dialog",
+        "speaker": "Horn",
+        "content": "Rhodes Island?"
+    },
+    {
+        "id": 489,
+        "raw": "[name=\"Horn\"]I'm sorry...",
+        "type": "dialog",
+        "speaker": "Horn",
+        "content": "I'm sorry..."
+    },
+    {
+        "id": 490,
+        "raw": "[character(name=\"avg_npc_235\", name2=\"avg_4039_horn_1#5$1\", focus=1)]",
+        "type": "character",
+        "name": "avg_npc_235",
+        "name2": "avg_4039_horn_1#5$1",
+        "focus": 1
+    },
+    {
+        "id": 491,
+        "raw": "[name=\"Misery\"]You'll get a chance to hear a full explanation from Bagpipe in due time.",
+        "type": "dialog",
+        "speaker": "Misery",
+        "content": "You'll get a chance to hear a full explanation from Bagpipe in due time."
+    },
+    {
+        "id": 492,
+        "raw": "[character(name=\"avg_npc_235\", name2=\"avg_4039_horn_1#4$1\", focus=2)]",
+        "type": "character",
+        "name": "avg_npc_235",
+        "name2": "avg_4039_horn_1#4$1",
+        "focus": 2
+    },
+    {
+        "id": 493,
+        "raw": "[name=\"Horn\"]Bagpipe?",
+        "type": "dialog",
+        "speaker": "Horn",
+        "content": "Bagpipe?"
+    },
+    {
+        "id": 494,
+        "raw": "[character(name=\"avg_npc_235\", name2=\"avg_4039_horn_1#4$1\", focus=1)]",
+        "type": "character",
+        "name": "avg_npc_235",
+        "name2": "avg_4039_horn_1#4$1",
+        "focus": 1
+    },
+    {
+        "id": 495,
+        "raw": "[name=\"Misery\"]She's a coworker at this point.",
+        "type": "dialog",
+        "speaker": "Misery",
+        "content": "She's a coworker at this point."
+    },
+    {
+        "id": 496,
+        "raw": "[name=\"Misery\"]Not to mention... the last friend my best friend ever made.",
+        "type": "dialog",
+        "speaker": "Misery",
+        "content": "Not to mention... the last friend my best friend ever made."
+    },
+    {
+        "id": 497,
+        "raw": "[character(name=\"avg_npc_235\", name2=\"avg_4039_horn_1#6$1\", focus=2)]",
+        "type": "character",
+        "name": "avg_npc_235",
+        "name2": "avg_4039_horn_1#6$1",
+        "focus": 2
+    },
+    {
+        "id": 498,
+        "raw": "[name=\"Horn\"]Sounds like I've been quite a bit out of the loop.",
+        "type": "dialog",
+        "speaker": "Horn",
+        "content": "Sounds like I've been quite a bit out of the loop."
+    },
+    {
+        "id": 499,
+        "raw": "[name=\"Horn\"]But before I lose myself to the joy that Bagpipe made it out, allow me to once again thank you and Rhodes Island.",
+        "type": "dialog",
+        "speaker": "Horn",
+        "content": "But before I lose myself to the joy that Bagpipe made it out, allow me to once again thank you and Rhodes Island."
+    },
+    {
+        "id": 500,
+        "raw": "[character(name=\"avg_npc_235\", name2=\"avg_4039_horn_1#6$1\", focus=1)]",
+        "type": "character",
+        "name": "avg_npc_235",
+        "name2": "avg_4039_horn_1#6$1",
+        "focus": 1
+    },
+    {
+        "id": 501,
+        "raw": "[name=\"Misery\"]Let's get out of here first. Chances are we'll be meeting again soon enough.",
+        "type": "dialog",
+        "speaker": "Misery",
+        "content": "Let's get out of here first. Chances are we'll be meeting again soon enough."
+    },
+    {
+        "id": 502,
+        "raw": "[name=\"Misery\"]Manfred's almost worked out the truth of my Originium Arts. He could be coming after us any moment now.",
+        "type": "dialog",
+        "speaker": "Misery",
+        "content": "Manfred's almost worked out the truth of my Originium Arts. He could be coming after us any moment now."
+    },
+    {
+        "id": 503,
+        "raw": "[character(name=\"avg_npc_235\", name2=\"avg_4039_horn_1#2$1\", focus=2)]",
+        "type": "character",
+        "name": "avg_npc_235",
+        "name2": "avg_4039_horn_1#2$1",
+        "focus": 2
+    },
+    {
+        "id": 504,
+        "raw": "[name=\"Horn\"]...No. I imagine he'll be busy with something else right now.",
+        "type": "dialog",
+        "speaker": "Horn",
+        "content": "...No. I imagine he'll be busy with something else right now."
+    },
+    {
+        "id": 505,
+        "raw": "[character(name=\"avg_npc_235\", name2=\"avg_4039_horn_1#2$1\", focus=1)]",
+        "type": "character",
+        "name": "avg_npc_235",
+        "name2": "avg_4039_horn_1#2$1",
+        "focus": 1
+    },
+    {
+        "id": 506,
+        "raw": "[name=\"Misery\"]You mean Dublinn.",
+        "type": "dialog",
+        "speaker": "Misery",
+        "content": "You mean Dublinn."
+    },
+    {
+        "id": 507,
+        "raw": "[name=\"Misery\"]County Hillock's Mandragora... There's no way she's leaving this factory now.",
+        "type": "dialog",
+        "speaker": "Misery",
+        "content": "County Hillock's Mandragora... There's no way she's leaving this factory now."
+    },
+    {
+        "id": 508,
+        "raw": "[character(name=\"avg_npc_235\", name2=\"avg_4039_horn_1#5$1\", focus=2)]",
+        "type": "character",
+        "name": "avg_npc_235",
+        "name2": "avg_4039_horn_1#5$1",
+        "focus": 2
+    },
+    {
+        "id": 509,
+        "raw": "[name=\"Horn\"]......",
+        "type": "dialog",
+        "speaker": "Horn",
+        "content": "......"
+    },
+    {
+        "id": 510,
+        "raw": "[character(name=\"avg_npc_235\", name2=\"avg_4039_horn_1#5$1\", focus=1)]",
+        "type": "character",
+        "name": "avg_npc_235",
+        "name2": "avg_4039_horn_1#5$1",
+        "focus": 1
+    },
+    {
+        "id": 511,
+        "raw": "[name=\"Misery\"]Are you giving yourself grief for not being able to personally avenge your comrades?",
+        "type": "dialog",
+        "speaker": "Misery",
+        "content": "Are you giving yourself grief for not being able to personally avenge your comrades?"
+    },
+    {
+        "id": 512,
+        "raw": "[character(name=\"avg_npc_235\", name2=\"avg_4039_horn_1#2$1\", focus=2)]",
+        "type": "character",
+        "name": "avg_npc_235",
+        "name2": "avg_4039_horn_1#2$1",
+        "focus": 2
+    },
+    {
+        "id": 513,
+        "raw": "[name=\"Horn\"]I... I'm just lamenting.",
+        "type": "dialog",
+        "speaker": "Horn",
+        "content": "I... I'm just lamenting."
+    },
+    {
+        "id": 514,
+        "raw": "[name=\"Horn\"]Myself for standing here, regretting that I missed the opportunity to kill her...",
+        "type": "dialog",
+        "speaker": "Horn",
+        "content": "Myself for standing here, regretting that I missed the opportunity to kill her..."
+    },
+    {
+        "id": 515,
+        "raw": "[name=\"Horn\"]Or her, for being long since beyond saving.",
+        "type": "dialog",
+        "speaker": "Horn",
+        "content": "Or her, for being long since beyond saving."
+    },
+    {
+        "id": 516,
+        "raw": "[stopmusic(fadetime=1)]",
+        "type": "stop_music",
+        "fadetime": 1
+    },
+    {
+        "id": 517,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 518,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 519,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1.5, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1.5,",
+        "block": true
+    },
+    {
+        "id": 520,
+        "raw": "[Background(image=\"27_g8_jail\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "27_g8_jail.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 521,
+        "raw": "[character(name=\"avg_npc_233_1#5\")]",
+        "type": "character",
+        "name": "avg_npc_233_1#5"
+    },
+    {
+        "id": 522,
+        "raw": "[PlayMusic(intro=\"$suspenseful_intro\", key=\"$suspenseful_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act15d0d0/m_avg_suspenseful_intro.mp3",
+        "key": "sound_beta_2/music/act15d0d0/m_avg_suspenseful_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 523,
+        "raw": "[delay(time=1)] ",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 524,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 525,
+        "raw": "[name=\"Mandragora\"]That's odd. This is what you agreed with them, right? Why aren't they here to back us up?",
+        "type": "dialog",
+        "speaker": "Mandragora",
+        "content": "That's odd. This is what you agreed with them, right? Why aren't they here to back us up?"
+    },
+    {
+        "id": 526,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 527,
+        "raw": "[character(name=\"avg_npc_244\")]",
+        "type": "character",
+        "name": "avg_npc_244"
+    },
+    {
+        "id": 528,
+        "raw": "[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]",
+        "type": "blocker",
+        "a": "0.7,",
+        "r": "0.95,",
+        "g": "0.95,",
+        "b": "0.95,",
+        "fadetime": "0.02,",
+        "block": true
+    },
+    {
+        "id": 529,
+        "raw": "[PlaySound(key=\"$d_avg_arrow\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_arrow.mp3"
+    },
+    {
+        "id": 530,
+        "raw": "[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0.95,",
+        "g": "0.95,",
+        "b": "0.95,",
+        "fadetime": "0.25,",
+        "block": true
+    },
+    {
+        "id": 531,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 532,
+        "raw": "[CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=true)]",
+        "type": "camera_shake",
+        "duration": "0.6,",
+        "xstrength": "5,",
+        "ystrength": "8,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "block": true
+    },
+    {
+        "id": 533,
+        "raw": "[name=\"Dublinn Soldier\"]I—argh!",
+        "type": "dialog",
+        "speaker": "Dublinn Soldier",
+        "content": "I—argh!"
+    },
+    {
+        "id": 534,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 535,
+        "raw": "[playsound(key=\"$bodyfalldown2\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_bodyfalldown2.mp3"
+    },
+    {
+        "id": 536,
+        "raw": "[character(fadetime=1.5)]",
+        "type": "character",
+        "fadetime": 1.5
+    },
+    {
+        "id": 537,
+        "raw": "[delay(time=2)] ",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 538,
+        "raw": "[character(name=\"avg_npc_233_1#7\")]",
+        "type": "character",
+        "name": "avg_npc_233_1#7"
+    },
+    {
+        "id": 539,
+        "raw": "[name=\"Mandragora\"]What the hell is it—?",
+        "type": "dialog",
+        "speaker": "Mandragora",
+        "content": "What the hell is it—?"
+    },
+    {
+        "id": 540,
+        "raw": "[character(name=\"avg_npc_244\")]",
+        "type": "character",
+        "name": "avg_npc_244"
+    },
+    {
+        "id": 541,
+        "raw": "[name=\"Dublinn Soldier\"]Sarkaz! It's Sarkaz! We have to run—",
+        "type": "dialog",
+        "speaker": "Dublinn Soldier",
+        "content": "Sarkaz! It's Sarkaz! We have to run—"
+    },
+    {
+        "id": 542,
+        "raw": "[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]",
+        "type": "blocker",
+        "a": "0.7,",
+        "r": "0.95,",
+        "g": "0.95,",
+        "b": "0.95,",
+        "fadetime": "0.02,",
+        "block": true
+    },
+    {
+        "id": 543,
+        "raw": "[PlaySound(key=\"$d_avg_arrow\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_arrow.mp3"
+    },
+    {
+        "id": 544,
+        "raw": "[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0.95,",
+        "g": "0.95,",
+        "b": "0.95,",
+        "fadetime": "0.25,",
+        "block": true
+    },
+    {
+        "id": 545,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 546,
+        "raw": "[CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=true)]",
+        "type": "camera_shake",
+        "duration": "0.6,",
+        "xstrength": "5,",
+        "ystrength": "8,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "block": true
+    },
+    {
+        "id": 547,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 548,
+        "raw": "[character(fadetime=1.5)]",
+        "type": "character",
+        "fadetime": 1.5
+    },
+    {
+        "id": 549,
+        "raw": "[playsound(key=\"$bodyfalldown2\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_bodyfalldown2.mp3"
+    },
+    {
+        "id": 550,
+        "raw": "[delay(time=2)] ",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 551,
+        "raw": "[character(name=\"avg_npc_233_1#8\")]",
+        "type": "character",
+        "name": "avg_npc_233_1#8"
+    },
+    {
+        "id": 552,
+        "raw": "[name=\"Mandragora\"]...Were we spotted?",
+        "type": "dialog",
+        "speaker": "Mandragora",
+        "content": "...Were we spotted?"
+    },
+    {
+        "id": 553,
+        "raw": "[name=\"Mandragora\"]No. Not like this. 'Spy', we have to go—",
+        "type": "dialog",
+        "speaker": "Mandragora",
+        "content": "No. Not like this. 'Spy', we have to go—"
+    },
+    {
+        "id": 554,
+        "raw": "[name=\"Mandragora\"]Only ten meters to that sliding door there, right? Just ten meters, and we're right out, and...",
+        "type": "dialog",
+        "speaker": "Mandragora",
+        "content": "Only ten meters to that sliding door there, right? Just ten meters, and we're right out, and..."
+    },
+    {
+        "id": 555,
+        "raw": "[character(name=\"avg_npc_421_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_421_1#1$1"
+    },
+    {
+        "id": 556,
+        "raw": "[name=\"Taran Secret Agent\"]A... Alright, let's run...",
+        "type": "dialog",
+        "speaker": "Taran Secret Agent",
+        "content": "A... Alright, let's run..."
+    },
+    {
+        "id": 557,
+        "raw": "[character(name=\"avg_npc_233_1#8\")]",
+        "type": "character",
+        "name": "avg_npc_233_1#8"
+    },
+    {
+        "id": 558,
+        "raw": "[name=\"Mandragora\"]Just like we used to, you pulling me. We only had to run fast enough that those noble kids couldn't catch us...",
+        "type": "dialog",
+        "speaker": "Mandragora",
+        "content": "Just like we used to, you pulling me. We only had to run fast enough that those noble kids couldn't catch us..."
+    },
+    {
+        "id": 559,
+        "raw": "[character(name=\"avg_npc_233_1#9\")]",
+        "type": "character",
+        "name": "avg_npc_233_1#9"
+    },
+    {
+        "id": 560,
+        "raw": "[name=\"Mandragora\"]Grotesques! Get down, block them!",
+        "type": "dialog",
+        "speaker": "Mandragora",
+        "content": "Grotesques! Get down, block them!"
+    },
+    {
+        "id": 561,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 562,
+        "raw": "[playsound(key=\"$p_imp_blunt_h\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/player/p_imp/p_imp_blunt_h.mp3"
+    },
+    {
+        "id": 563,
+        "raw": "[Blocker(a=1, r=0.95, g=0.95, b=0.95, fadetime=0.2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0.95,",
+        "g": "0.95,",
+        "b": "0.95,",
+        "fadetime": "0.2,",
+        "block": true
+    },
+    {
+        "id": 564,
+        "raw": "[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0.95,",
+        "g": "0.95,",
+        "b": "0.95,",
+        "fadetime": "0.25,",
+        "block": true
+    },
+    {
+        "id": 565,
+        "raw": "[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "xstrength": "10,",
+        "ystrength": "12,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": true
+    },
+    {
+        "id": 566,
+        "raw": "[PlaySound(key=\"$d_gen_explo_n\", volume=0.6)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_explo_n.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 567,
+        "raw": "[delay(time=0.51)]",
+        "type": "delay",
+        "time": 0.51
+    },
+    {
+        "id": 568,
+        "raw": "[PlaySound(key=\"$d_avg_rockfall\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_rockfall.mp3",
+        "volume": 1
+    },
+    {
+        "id": 569,
+        "raw": "[CameraShake(duration=1, xstrength=50, ystrength=50, vibrato=60, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "xstrength": "50,",
+        "ystrength": "50,",
+        "vibrato": "60,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 570,
+        "raw": "[name=\"Mandragora\"]Bastards! Can't even rely on you in a time like this?",
+        "type": "dialog",
+        "speaker": "Mandragora",
+        "content": "Bastards! Can't even rely on you in a time like this?"
+    },
+    {
+        "id": 571,
+        "raw": "[character(name=\"avg_npc_421_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_421_1#1$1"
+    },
+    {
+        "id": 572,
+        "raw": "[name=\"Taran Secret Agent\"]Mandragora...",
+        "type": "dialog",
+        "speaker": "Taran Secret Agent",
+        "content": "Mandragora..."
+    },
+    {
+        "id": 573,
+        "raw": "[character(name=\"avg_npc_233_1#8\")]",
+        "type": "character",
+        "name": "avg_npc_233_1#8"
+    },
+    {
+        "id": 574,
+        "raw": "[name=\"Mandragora\"]What? Didn't I tell you to stay quiet for now?",
+        "type": "dialog",
+        "speaker": "Mandragora",
+        "content": "What? Didn't I tell you to stay quiet for now?"
+    },
+    {
+        "id": 575,
+        "raw": "[character(name=\"avg_npc_421_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_421_1#1$1"
+    },
+    {
+        "id": 576,
+        "raw": "[name=\"Taran Secret Agent\"]I can't keep walking. You go.",
+        "type": "dialog",
+        "speaker": "Taran Secret Agent",
+        "content": "I can't keep walking. You go."
+    },
+    {
+        "id": 577,
+        "raw": "[character(name=\"avg_npc_233_1#8\")]",
+        "type": "character",
+        "name": "avg_npc_233_1#8"
+    },
+    {
+        "id": 578,
+        "raw": "[name=\"Mandragora\"]What...? Can't you see? I've been doing all this just to...",
+        "type": "dialog",
+        "speaker": "Mandragora",
+        "content": "What...? Can't you see? I've been doing all this just to..."
+    },
+    {
+        "id": 579,
+        "raw": "[character(name=\"avg_npc_421_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_421_1#1$1"
+    },
+    {
+        "id": 580,
+        "raw": "[name=\"Taran Secret Agent\"]To save me? Or to gain favor with the Leader?",
+        "type": "dialog",
+        "speaker": "Taran Secret Agent",
+        "content": "To save me? Or to gain favor with the Leader?"
+    },
+    {
+        "id": 581,
+        "raw": "[character(name=\"avg_npc_233_1#7\")]",
+        "type": "character",
+        "name": "avg_npc_233_1#7"
+    },
+    {
+        "id": 582,
+        "raw": "[name=\"Mandragora\"]Is there a difference? What are you talking about? We're just five meters away, our people are right outside!",
+        "type": "dialog",
+        "speaker": "Mandragora",
+        "content": "Is there a difference? What are you talking about? We're just five meters away, our people are right outside!"
+    },
+    {
+        "id": 583,
+        "raw": "[PlaySound(key=\"$d_avg_arrow_rain\", volume=0.5)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_arrow_rain.mp3",
+        "volume": 0.5
+    },
+    {
+        "id": 584,
+        "raw": "[character(name=\"avg_npc_421_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_421_1#1$1"
+    },
+    {
+        "id": 585,
+        "raw": "[name=\"Taran Secret Agent\"]They're gone.",
+        "type": "dialog",
+        "speaker": "Taran Secret Agent",
+        "content": "They're gone."
+    },
+    {
+        "id": 586,
+        "raw": "[character(name=\"avg_npc_233_1#4\")]",
+        "type": "character",
+        "name": "avg_npc_233_1#4"
+    },
+    {
+        "id": 587,
+        "raw": "[name=\"Mandragora\"]What?",
+        "type": "dialog",
+        "speaker": "Mandragora",
+        "content": "What?"
+    },
+    {
+        "id": 588,
+        "raw": "[character(name=\"avg_npc_421_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_421_1#1$1"
+    },
+    {
+        "id": 589,
+        "raw": "[name=\"Taran Secret Agent\"]Mandragora... The Leader... she's long since abandoned us...",
+        "type": "dialog",
+        "speaker": "Taran Secret Agent",
+        "content": "Mandragora... The Leader... she's long since abandoned us..."
+    },
+    {
+        "id": 590,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 591,
+        "raw": "[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]",
+        "type": "blocker",
+        "a": "0.7,",
+        "r": "0.95,",
+        "g": "0.95,",
+        "b": "0.95,",
+        "fadetime": "0.02,",
+        "block": true
+    },
+    {
+        "id": 592,
+        "raw": "[PlaySound(key=\"$d_avg_arrow\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_arrow.mp3"
+    },
+    {
+        "id": 593,
+        "raw": "[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0.95,",
+        "g": "0.95,",
+        "b": "0.95,",
+        "fadetime": "0.25,",
+        "block": true
+    },
+    {
+        "id": 594,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 595,
+        "raw": "[CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=true)]",
+        "type": "camera_shake",
+        "duration": "0.6,",
+        "xstrength": "5,",
+        "ystrength": "8,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "block": true
+    },
+    {
+        "id": 596,
+        "raw": "[delay(time=0.51)]",
+        "type": "delay",
+        "time": 0.51
+    },
+    {
+        "id": 597,
+        "raw": "[character(name=\"avg_npc_233_1#8\")]",
+        "type": "character",
+        "name": "avg_npc_233_1#8"
+    },
+    {
+        "id": 598,
+        "raw": "[name=\"Mandragora\"]'Spy'!",
+        "type": "dialog",
+        "speaker": "Mandragora",
+        "content": "'Spy'!"
+    },
+    {
+        "id": 599,
+        "raw": "[name=\"Mandragora\"]Bastard, bastard—stones, go! Skewer them, impale every one of those Sarkaz!",
+        "type": "dialog",
+        "speaker": "Mandragora",
+        "content": "Bastard, bastard—stones, go! Skewer them, impale every one of those Sarkaz!"
+    },
+    {
+        "id": 600,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 601,
+        "raw": "[playsound(key=\"$p_imp_blunt_h\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/player/p_imp/p_imp_blunt_h.mp3"
+    },
+    {
+        "id": 602,
+        "raw": "[Blocker(a=1, r=0.95, g=0.95, b=0.95, fadetime=0.2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0.95,",
+        "g": "0.95,",
+        "b": "0.95,",
+        "fadetime": "0.2,",
+        "block": true
+    },
+    {
+        "id": 603,
+        "raw": "[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0.95,",
+        "g": "0.95,",
+        "b": "0.95,",
+        "fadetime": "0.25,",
+        "block": true
+    },
+    {
+        "id": 604,
+        "raw": "[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "xstrength": "10,",
+        "ystrength": "12,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": true
+    },
+    {
+        "id": 605,
+        "raw": "[name=\"Mandragora\"]You'll be alright, 'Spy', it's just an arrow, we're three meters away, even if I have to carry you—",
+        "type": "dialog",
+        "speaker": "Mandragora",
+        "content": "You'll be alright, 'Spy', it's just an arrow, we're three meters away, even if I have to carry you—"
+    },
+    {
+        "id": 606,
+        "raw": "[character(name=\"avg_npc_421_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_421_1#1$1"
+    },
+    {
+        "id": 607,
+        "raw": "[name=\"Taran Secret Agent\"]...Just go.",
+        "type": "dialog",
+        "speaker": "Taran Secret Agent",
+        "content": "...Just go."
+    },
+    {
+        "id": 608,
+        "raw": "[character(name=\"avg_npc_233_1#5\")]",
+        "type": "character",
+        "name": "avg_npc_233_1#5"
+    },
+    {
+        "id": 609,
+        "raw": "[name=\"Mandragora\"]I...",
+        "type": "dialog",
+        "speaker": "Mandragora",
+        "content": "I..."
+    },
+    {
+        "id": 610,
+        "raw": "[character(name=\"avg_npc_421_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_421_1#1$1"
+    },
+    {
+        "id": 611,
+        "raw": "[name=\"Taran Secret Agent\"]If you can make it out...",
+        "type": "dialog",
+        "speaker": "Taran Secret Agent",
+        "content": "If you can make it out..."
+    },
+    {
+        "id": 612,
+        "raw": "[name=\"Taran Secret Agent\"]Don't... Don't head for the Leader.",
+        "type": "dialog",
+        "speaker": "Taran Secret Agent",
+        "content": "Don't... Don't head for the Leader."
+    },
+    {
+        "id": 613,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 614,
+        "raw": "[playsound(key=\"$bodyfalldown2\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_bodyfalldown2.mp3"
+    },
+    {
+        "id": 615,
+        "raw": "[character(fadetime=1.5)]",
+        "type": "character",
+        "fadetime": 1.5
+    },
+    {
+        "id": 616,
+        "raw": "[delay(time=2)] ",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 617,
+        "raw": "[character(name=\"avg_npc_233_1#5\")]",
+        "type": "character",
+        "name": "avg_npc_233_1#5"
+    },
+    {
+        "id": 618,
+        "raw": "[name=\"Mandragora\"]...Did you just die?",
+        "type": "dialog",
+        "speaker": "Mandragora",
+        "content": "...Did you just die?"
+    },
+    {
+        "id": 619,
+        "raw": "[name=\"Mandragora\"]Who said you could die so easily...? I...",
+        "type": "dialog",
+        "speaker": "Mandragora",
+        "content": "Who said you could die so easily...? I..."
+    },
+    {
+        "id": 620,
+        "raw": "[character(name=\"avg_npc_233_1#7\")]",
+        "type": "character",
+        "name": "avg_npc_233_1#7"
+    },
+    {
+        "id": 621,
+        "raw": "[name=\"Mandragora\"]Cillian, Cillian... you bloody disgrace! I'm not letting you die here, you stand up for me, stand up!",
+        "type": "dialog",
+        "speaker": "Mandragora",
+        "content": "Cillian, Cillian... you bloody disgrace! I'm not letting you die here, you stand up for me, stand up!"
+    },
+    {
+        "id": 622,
+        "raw": "[character(name=\"avg_npc_404_1#4$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#4$1"
+    },
+    {
+        "id": 623,
+        "raw": "[name=\"Manfred\"]No need to work yourself up.",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "No need to work yourself up."
+    },
+    {
+        "id": 624,
+        "raw": "[name=\"Manfred\"]You won't live much longer either, Mandragora. You and your old Taran friend will meet again before you know it.",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "You won't live much longer either, Mandragora. You and your old Taran friend will meet again before you know it."
+    },
+    {
+        "id": 625,
+        "raw": "[character(name=\"avg_npc_233_1#8\")]",
+        "type": "character",
+        "name": "avg_npc_233_1#8"
+    },
+    {
+        "id": 626,
+        "raw": "[name=\"Mandragora\"]......",
+        "type": "dialog",
+        "speaker": "Mandragora",
+        "content": "......"
+    },
+    {
+        "id": 627,
+        "raw": "[character(name=\"avg_npc_233_1#7\")]",
+        "type": "character",
+        "name": "avg_npc_233_1#7"
+    },
+    {
+        "id": 628,
+        "raw": "[name=\"Mandragora\"]Ha... hahahaha!",
+        "type": "dialog",
+        "speaker": "Mandragora",
+        "content": "Ha... hahahaha!"
+    },
+    {
+        "id": 629,
+        "raw": "[name=\"Mandragora\"]Manfred, you cost me another eleven lives.",
+        "type": "dialog",
+        "speaker": "Mandragora",
+        "content": "Manfred, you cost me another eleven lives."
+    },
+    {
+        "id": 630,
+        "raw": "[name=\"Mandragora\"]You don't know the half... you don't know anything of what it took to kill that many Sarkaz.",
+        "type": "dialog",
+        "speaker": "Mandragora",
+        "content": "You don't know the half... you don't know anything of what it took to kill that many Sarkaz."
+    },
+    {
+        "id": 631,
+        "raw": "[character(name=\"avg_npc_404_1#2$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#2$1"
+    },
+    {
+        "id": 632,
+        "raw": "[name=\"Manfred\"]...This is exactly why you must die here.",
+        "type": "dialog",
+        "speaker": "Manfred",
+        "content": "...This is exactly why you must die here."
+    },
+    {
+        "id": 633,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 634,
+        "raw": "[character]",
+        "type": "character"
+    },
+    {
+        "id": 635,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 636,
+        "raw": "[PlaySound(key=\"$d_gen_soldiersrun\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_soldiersrun.mp3",
+        "volume": 1
+    },
+    {
+        "id": 637,
+        "raw": "[Character(name=\"avg_npc_419_1#1$1\",enter=\"left\",name2=\"avg_npc_419_1#1$1\",enter2=\"right\",fadetime=1.5,block=true)]",
+        "type": "character",
+        "name": "avg_npc_419_1#1$1",
+        "enter": "left",
+        "name2": "avg_npc_419_1#1$1",
+        "enter2": "right",
+        "fadetime": "1.5,block=true"
+    },
+    {
+        "id": 638,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 639,
+        "raw": "[character(name=\"avg_npc_233_1#8\")]",
+        "type": "character",
+        "name": "avg_npc_233_1#8"
+    },
+    {
+        "id": 640,
+        "raw": "[name=\"Mandragora\"]Perfect... drop yourselves right in my lap.",
+        "type": "dialog",
+        "speaker": "Mandragora",
+        "content": "Perfect... drop yourselves right in my lap."
+    },
+    {
+        "id": 641,
+        "raw": "[name=\"Mandragora\"]I'll crush every one of you into paste, no prisoners.",
+        "type": "dialog",
+        "speaker": "Mandragora",
+        "content": "I'll crush every one of you into paste, no prisoners."
+    },
+    {
+        "id": 642,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 643,
+        "raw": "[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 644,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 645,
+        "raw": "[stopmusic(fadetime=1)]",
+        "type": "stop_music",
+        "fadetime": 1
+    },
+    {
+        "id": 646,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 647,
+        "raw": "[Image]",
+        "type": "image"
+    }
+]

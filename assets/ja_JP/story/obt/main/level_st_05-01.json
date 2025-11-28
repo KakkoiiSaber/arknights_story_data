@@ -1,0 +1,1670 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")] 第六关（后）",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK",
+        "content": "第六关（后）"
+    },
+    {
+        "id": 2,
+        "raw": "[Background(image=\"bg_rooftop\", width=1, height=1,screenadapt=\"coverall\",  fadetime=1)]",
+        "type": "background",
+        "image": "bg_rooftop.png",
+        "width": "1,",
+        "height": "1,screenadapt=\"coverall\",",
+        "fadetime": 1
+    },
+    {
+        "id": 3,
+        "raw": "[PlayMusic(intro=\"$darkness02_intro\", key=\"$darkness02_loop\", volume=0.6, crossfade=3, delay=0.5)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta1_180603/m_dia_darkness02_intro.mp3",
+        "key": "sound_beta_2/music/beta1_180603/m_dia_darkness02_loop.mp3",
+        "volume": "0.6,",
+        "crossfade": "3,",
+        "delay": 0.5
+    },
+    {
+        "id": 4,
+        "raw": "[name=\"\"]   a.m.　04：45　天気/晴天",
+        "type": "narration",
+        "content": "a.m.　04：45　天気/晴天"
+    },
+    {
+        "id": 5,
+        "raw": "[name=\"\"]   龍門アップタウン、近衛局ビル展望デッキ跡",
+        "type": "narration",
+        "content": "龍門アップタウン、近衛局ビル展望デッキ跡"
+    },
+    {
+        "id": 6,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 7,
+        "raw": "[playsound(key=\"$d_gen_transmissionget\", volume=0.4)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_transmissionget.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 8,
+        "raw": "[CharacterCutin(widgetID=\"1\", name=\"char_2005_weiyw_1\", style=\"cutin\", fadestyle= \"horiz_expand_center\", fadetime=0.5, offsetx=-300, width=200, block=true)]",
+        "type": "character_cutin",
+        "widgetID": "1",
+        "name": "char_2005_weiyw_1",
+        "style": "cutin",
+        "fadetime": "0.5,",
+        "offsetx": "-300,",
+        "width": "200,",
+        "block": true
+    },
+    {
+        "id": 9,
+        "raw": "[name=\"ウェイ\"]  チェン君、アーミヤ君にこの声は聞こえているかな？",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "チェン君、アーミヤ君にこの声は聞こえているかな？"
+    },
+    {
+        "id": 10,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_002_amiya_1#1\",focus=2)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_002_amiya_1#1",
+        "focus": 2
+    },
+    {
+        "id": 11,
+        "raw": "[name=\"アーミヤ\"]  はい。ウェイさん。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "はい。ウェイさん。"
+    },
+    {
+        "id": 12,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_002_amiya_1#1\",focus=1)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_002_amiya_1#1",
+        "focus": 1
+    },
+    {
+        "id": 13,
+        "raw": "[name=\"ウェイ\"]  そうか、では改めて。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "そうか、では改めて。"
+    },
+    {
+        "id": 14,
+        "raw": "[name=\"ウェイ\"]  すまなかった、アーミヤ君――いや、ロドスのリーダーよ。私は近衛局をある程度動かすことはできるが、さらに多くのプレイヤーをゲームに参加させるという冒険はできないのだ。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "すまなかった、アーミヤ君――いや、ロドスのリーダーよ。私は近衛局をある程度動かすことはできるが、さらに多くのプレイヤーをゲームに参加させるという冒険はできないのだ。"
+    },
+    {
+        "id": 15,
+        "raw": "[Decision(options=\"さらに多くのプレイヤーとは？;……どういう意味だ？;この混沌とした状況をどう説明する？\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "さらに多くのプレイヤーとは？;……どういう意味だ？;この混沌とした状況をどう説明する？",
+        "values": "1;2;3"
+    },
+    {
+        "id": 16,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 17,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_002_amiya_1#1\",focus=1)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_002_amiya_1#1",
+        "focus": 1
+    },
+    {
+        "id": 18,
+        "raw": "[name=\"ウェイ\"]  Dr.{@nickname}——",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "Dr.{@nickname}——"
+    },
+    {
+        "id": 19,
+        "raw": "[name=\"ウェイ\"]  複雑に張り巡らされた網が、この世界の全てを覆っている。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "複雑に張り巡らされた網が、この世界の全てを覆っている。"
+    },
+    {
+        "id": 20,
+        "raw": "[name=\"ウェイ\"]  どの都市も、この世界との関わりを断つことも、陰謀の中で一人突出することもできない。いくつもの巨大な事象から板挟みになっているこの場所、龍門であればなおさらだ。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "どの都市も、この世界との関わりを断つことも、陰謀の中で一人突出することもできない。いくつもの巨大な事象から板挟みになっているこの場所、龍門であればなおさらだ。"
+    },
+    {
+        "id": 21,
+        "raw": "[name=\"ウェイ\"]  君がどれだけ気づいているかは分からんが、少なくとも私はそれらの問題と向き合う必要がある。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "君がどれだけ気づいているかは分からんが、少なくとも私はそれらの問題と向き合う必要がある。"
+    },
+    {
+        "id": 22,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_002_amiya_1#7\",focus=2)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_002_amiya_1#7",
+        "focus": 2
+    },
+    {
+        "id": 23,
+        "raw": "[name=\"アーミヤ\"]  もしウェイさんが作戦をスムーズに進行したかったのなら、私たちに必要な情報を提供するべきだったのではないでしょうか。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "もしウェイさんが作戦をスムーズに進行したかったのなら、私たちに必要な情報を提供するべきだったのではないでしょうか。"
+    },
+    {
+        "id": 24,
+        "raw": "[name=\"アーミヤ\"]  少なくとも、必要な情報は全て。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "少なくとも、必要な情報は全て。"
+    },
+    {
+        "id": 25,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_002_amiya_1#7\",focus=1)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_002_amiya_1#7",
+        "focus": 1
+    },
+    {
+        "id": 26,
+        "raw": "[name=\"ウェイ\"]  改めて謝罪しよう、アーミヤ君。私の立場では、全ての情報を開示することが難しいのだ。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "改めて謝罪しよう、アーミヤ君。私の立場では、全ての情報を開示することが難しいのだ。"
+    },
+    {
+        "id": 27,
+        "raw": "[name=\"ウェイ\"]  君が私の立場でも、必ず同じ選択をするだろう。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "君が私の立場でも、必ず同じ選択をするだろう。"
+    },
+    {
+        "id": 28,
+        "raw": "[name=\"ウェイ\"]  チェルノボーグ廃都市での作戦は、円満とは言えないまでも、君たちも相応の戦果を得られたのではないか？",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "チェルノボーグ廃都市での作戦は、円満とは言えないまでも、君たちも相応の戦果を得られたのではないか？"
+    },
+    {
+        "id": 29,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_017_homura_3#1\",focus=2)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_017_homura_3#1",
+        "focus": 2
+    },
+    {
+        "id": 30,
+        "raw": "[name=\"ブレイズ\"]  私たちを利用してレユニオンの注意を惹いただけでしょ。",
+        "type": "dialog",
+        "speaker": "ブレイズ",
+        "content": "私たちを利用してレユニオンの注意を惹いただけでしょ。"
+    },
+    {
+        "id": 31,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_017_homura_3#1\",focus=1)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_017_homura_3#1",
+        "focus": 1
+    },
+    {
+        "id": 32,
+        "raw": "[name=\"ウェイ\"]  違うな。近衛局も君たちと共にあったはずだ。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "違うな。近衛局も君たちと共にあったはずだ。"
+    },
+    {
+        "id": 33,
+        "raw": "[Decision(options=\"そう見せかけて我々全員を囮として使ったな。\", values=\"1\")]",
+        "type": "decision",
+        "options": "そう見せかけて我々全員を囮として使ったな。",
+        "values": "1"
+    },
+    {
+        "id": 34,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 35,
+        "raw": "[name=\"ウェイ\"]  ほう？",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "ほう？"
+    },
+    {
+        "id": 36,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 37,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0.6, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.6,",
+        "block": true
+    },
+    {
+        "id": 38,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 39,
+        "raw": "[CharacterCutin(widgetID=\"1\",block=true)]",
+        "type": "character_cutin",
+        "widgetID": "1",
+        "block": true
+    },
+    {
+        "id": 40,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 41,
+        "raw": "[Background]",
+        "type": "background"
+    },
+    {
+        "id": 42,
+        "raw": "[Blocker(a=0, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 43,
+        "raw": "[name=\"ケルシー\"]  全ては奴の思惑通りだ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "全ては奴の思惑通りだ。"
+    },
+    {
+        "id": 44,
+        "raw": "[name=\"ケルシー\"]  時間が経てば経つほどレユニオンは龍門に深く根を張る。それを阻止し、まとめて始末するために奴は決断を迫られているはずだ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "時間が経てば経つほどレユニオンは龍門に深く根を張る。それを阻止し、まとめて始末するために奴は決断を迫られているはずだ。"
+    },
+    {
+        "id": 45,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 46,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0.6, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.6,",
+        "block": true
+    },
+    {
+        "id": 47,
+        "raw": "[Background(image=\"bg_rooftop\", width=1, height=1,screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_rooftop.png",
+        "width": "1,",
+        "height": "1,screenadapt=\"coverall\""
+    },
+    {
+        "id": 48,
+        "raw": "[Blocker(a=0, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 49,
+        "raw": "[Decision(options=\"最も重要な時に、レユニオンが最も浮足立つタイミングで。\", values=\"1\")]",
+        "type": "decision",
+        "options": "最も重要な時に、レユニオンが最も浮足立つタイミングで。",
+        "values": "1"
+    },
+    {
+        "id": 50,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 51,
+        "raw": "[Decision(options=\"ロドスに彼らの注意を引かせる。\", values=\"1\")]",
+        "type": "decision",
+        "options": "ロドスに彼らの注意を引かせる。",
+        "values": "1"
+    },
+    {
+        "id": 52,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 53,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 54,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0.6, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.6,",
+        "block": true
+    },
+    {
+        "id": 55,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 56,
+        "raw": "[Background]",
+        "type": "background"
+    },
+    {
+        "id": 57,
+        "raw": "[Blocker(a=0, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 58,
+        "raw": "[name=\"ケルシー\"]  ついでに近衛局が外で孤立した戦いを強いられていると錯覚させる――",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "ついでに近衛局が外で孤立した戦いを強いられていると錯覚させる――"
+    },
+    {
+        "id": 59,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 60,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0.6, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.6,",
+        "block": true
+    },
+    {
+        "id": 61,
+        "raw": "[Background(image=\"bg_rooftop\", width=1, height=1,screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_rooftop.png",
+        "width": "1,",
+        "height": "1,screenadapt=\"coverall\""
+    },
+    {
+        "id": 62,
+        "raw": "[Blocker(a=0, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 63,
+        "raw": "[Decision(options=\"――奴らのリーダーに龍門内部は手薄だと錯覚させたんだ。\", values=\"1\")]",
+        "type": "decision",
+        "options": "――奴らのリーダーに龍門内部は手薄だと錯覚させたんだ。",
+        "values": "1"
+    },
+    {
+        "id": 64,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 65,
+        "raw": "[CharacterCutin(widgetID=\"1\", name=\"char_2005_weiyw_1\", style=\"cutin\", fadestyle= \"horiz_expand_center\", fadetime=0.5, offsetx=-300, width=200, block=true)]",
+        "type": "character_cutin",
+        "widgetID": "1",
+        "name": "char_2005_weiyw_1",
+        "style": "cutin",
+        "fadetime": "0.5,",
+        "offsetx": "-300,",
+        "width": "200,",
+        "block": true
+    },
+    {
+        "id": 66,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_017_homura_3#1\",focus=2)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_017_homura_3#1",
+        "focus": 2
+    },
+    {
+        "id": 67,
+        "raw": "[name=\"ブレイズ\"]  なるほどね。さすがDr.{@nickname}！　ウェイさん、だから私たちにできるだけ多くのレユニオンの気を引かせておく必要があったってわけね。",
+        "type": "dialog",
+        "speaker": "ブレイズ",
+        "content": "なるほどね。さすがDr.{@nickname}！　ウェイさん、だから私たちにできるだけ多くのレユニオンの気を引かせておく必要があったってわけね。"
+    },
+    {
+        "id": 68,
+        "raw": "[name=\"ブレイズ\"]  龍門に潜伏して機会をうかがっていたレユニオンたちは、龍門が手薄になってチャンスだと勘違いして一斉に動き出した。",
+        "type": "dialog",
+        "speaker": "ブレイズ",
+        "content": "龍門に潜伏して機会をうかがっていたレユニオンたちは、龍門が手薄になってチャンスだと勘違いして一斉に動き出した。"
+    },
+    {
+        "id": 69,
+        "raw": "[name=\"ブレイズ\"]  そのレユニオンどもがアジトから這い出てくるのを待ってそれらを叩く……って龍門はどこからこれだけの兵力を準備したのかは知らないけど。",
+        "type": "dialog",
+        "speaker": "ブレイズ",
+        "content": "そのレユニオンどもがアジトから這い出てくるのを待ってそれらを叩く……って龍門はどこからこれだけの兵力を準備したのかは知らないけど。"
+    },
+    {
+        "id": 70,
+        "raw": "[name=\"ブレイズ\"]  あなたたち龍門は、チェルノボーグの事件が起きたあの日から、既にもう準備を始めてたってところなんじゃない？",
+        "type": "dialog",
+        "speaker": "ブレイズ",
+        "content": "あなたたち龍門は、チェルノボーグの事件が起きたあの日から、既にもう準備を始めてたってところなんじゃない？"
+    },
+    {
+        "id": 71,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_017_homura_3#1\",focus=1)]  ",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_017_homura_3#1",
+        "focus": 1
+    },
+    {
+        "id": 72,
+        "raw": "[name=\"ウェイ\"]  あの廃都市に行ってもらうことで、龍門内部に潜伏していたレユニオンの大兵力から君らを遠ざけて安全を確保しつつ、君たちにその力を発揮する価値のある晴れ舞台に立ってもらったのだ。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "あの廃都市に行ってもらうことで、龍門内部に潜伏していたレユニオンの大兵力から君らを遠ざけて安全を確保しつつ、君たちにその力を発揮する価値のある晴れ舞台に立ってもらったのだ。"
+    },
+    {
+        "id": 73,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_017_homura_3#1\",focus=2)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_017_homura_3#1",
+        "focus": 2
+    },
+    {
+        "id": 74,
+        "raw": "[name=\"ブレイズ\"]  アーミヤちゃんを廃都市に放ったらかして、あんなに多くの敵に袋叩きにされたのが、その安全な晴れ舞台だったって言うつもり？",
+        "type": "dialog",
+        "speaker": "ブレイズ",
+        "content": "アーミヤちゃんを廃都市に放ったらかして、あんなに多くの敵に袋叩きにされたのが、その安全な晴れ舞台だったって言うつもり？"
+    },
+    {
+        "id": 75,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_017_homura_3#1\",focus=1)]  ",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_017_homura_3#1",
+        "focus": 1
+    },
+    {
+        "id": 76,
+        "raw": "[name=\"ウェイ\"]  局地的な状況に目を向けても意味はない。私はただロドスに我々が立ち向かわねばならぬ厳しい境遇を理解して欲しいと言っている。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "局地的な状況に目を向けても意味はない。私はただロドスに我々が立ち向かわねばならぬ厳しい境遇を理解して欲しいと言っている。"
+    },
+    {
+        "id": 77,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_002_amiya_1#1\",focus=2)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_002_amiya_1#1",
+        "focus": 2
+    },
+    {
+        "id": 78,
+        "raw": "[name=\"アーミヤ\"]  ブレイズさん、Dr.{@nickname}、やめましょう。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "ブレイズさん、Dr.{@nickname}、やめましょう。"
+    },
+    {
+        "id": 79,
+        "raw": "[name=\"アーミヤ\"]  スワイヤーさんも私たちと一緒にレユニオンを迎撃してくださいました。龍門は私たちを見放していません。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "スワイヤーさんも私たちと一緒にレユニオンを迎撃してくださいました。龍門は私たちを見放していません。"
+    },
+    {
+        "id": 80,
+        "raw": "[name=\"アーミヤ\"]  （今の私たちにはウェイさんを言い負かせるだけの材料がありませんから。）",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "（今の私たちにはウェイさんを言い負かせるだけの材料がありませんから。）"
+    },
+    {
+        "id": 81,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_017_homura_3#1\",focus=2)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_017_homura_3#1",
+        "focus": 2
+    },
+    {
+        "id": 82,
+        "raw": "[name=\"ブレイズ\"]  フンッ。",
+        "type": "dialog",
+        "speaker": "ブレイズ",
+        "content": "フンッ。"
+    },
+    {
+        "id": 83,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_002_amiya_1#1\",focus=1)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_002_amiya_1#1",
+        "focus": 1
+    },
+    {
+        "id": 84,
+        "raw": "[name=\"ウェイ\"]  我々の協定は依然として有効だ。事実こうしてお互いに満足できる結果に到達している。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "我々の協定は依然として有効だ。事実こうしてお互いに満足できる結果に到達している。"
+    },
+    {
+        "id": 85,
+        "raw": "[name=\"ウェイ\"]  その過程でどのようなことがあろうともな。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "その過程でどのようなことがあろうともな。"
+    },
+    {
+        "id": 86,
+        "raw": "[name=\"ウェイ\"]  ロドスのDr.{@nickname}、前回顔を合わせた時も、同様の意向を伝えたはずだ。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "ロドスのDr.{@nickname}、前回顔を合わせた時も、同様の意向を伝えたはずだ。"
+    },
+    {
+        "id": 87,
+        "raw": "[name=\"ウェイ\"]  君の選択肢はさほど多くない。目の前の敵を倒していくという選択が最も賢明かと思うが。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "君の選択肢はさほど多くない。目の前の敵を倒していくという選択が最も賢明かと思うが。"
+    },
+    {
+        "id": 88,
+        "raw": "[Decision(options=\"あなたとあなたのその言葉は信用できない。;……。;騙されたと感じている人間が笑顔でいられると思うか？\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "あなたとあなたのその言葉は信用できない。;……。;騙されたと感じている人間が笑顔でいられると思うか？",
+        "values": "1;2;3"
+    },
+    {
+        "id": 89,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 90,
+        "raw": "[name=\"ウェイ\"]  もちろんそれもいいだろう。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "もちろんそれもいいだろう。"
+    },
+    {
+        "id": 91,
+        "raw": "[name=\"ウェイ\"]  お互いに警戒態勢を保つ。敵の前では気を抜けないからな。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "お互いに警戒態勢を保つ。敵の前では気を抜けないからな。"
+    },
+    {
+        "id": 92,
+        "raw": "[name=\"ウェイ\"]  その警戒心があれば、つまらない罠にかかることもないだろう。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "その警戒心があれば、つまらない罠にかかることもないだろう。"
+    },
+    {
+        "id": 93,
+        "raw": "[name=\"ウェイ\"]  だが一つだけ言っておく、Dr.{@nickname}――",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "だが一つだけ言っておく、Dr.{@nickname}――"
+    },
+    {
+        "id": 94,
+        "raw": "[name=\"ウェイ\"]  ――我々はまだ友人ではないかもしれんが、少なくとも敵同士でもない。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "――我々はまだ友人ではないかもしれんが、少なくとも敵同士でもない。"
+    },
+    {
+        "id": 95,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 96,
+        "raw": "[name=\"ウェイ\"]  なるほど。無言を貫くか。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "なるほど。無言を貫くか。"
+    },
+    {
+        "id": 97,
+        "raw": "[name=\"ウェイ\"]  優秀な判断だ、欠点を覆い隠し、優位性を確保する。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "優秀な判断だ、欠点を覆い隠し、優位性を確保する。"
+    },
+    {
+        "id": 98,
+        "raw": "[name=\"ウェイ\"]  ロドスは強力なパートナーだ。今回の事件を通してそれは認めざるを得ない。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "ロドスは強力なパートナーだ。今回の事件を通してそれは認めざるを得ない。"
+    },
+    {
+        "id": 99,
+        "raw": "[name=\"ウェイ\"]  我々とロドスのパートナーシップは、非合法の感染者組織と地方自治体という枠を越えたものになるだろう。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "我々とロドスのパートナーシップは、非合法の感染者組織と地方自治体という枠を越えたものになるだろう。"
+    },
+    {
+        "id": 100,
+        "raw": "[Predicate(references=\"3\")]",
+        "type": "predicate",
+        "references": "3"
+    },
+    {
+        "id": 101,
+        "raw": "[name=\"ウェイ\"]  私は故意に誰かを愚弄することはない。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "私は故意に誰かを愚弄することはない。"
+    },
+    {
+        "id": 102,
+        "raw": "[name=\"ウェイ\"]  いや、客観的に結果だけを見れば、今回の事件でレユニオンを愚弄したことにはなるか。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "いや、客観的に結果だけを見れば、今回の事件でレユニオンを愚弄したことにはなるか。"
+    },
+    {
+        "id": 103,
+        "raw": "[name=\"ウェイ\"]  しかし全ては証明できないことだ。レユニオンも既に我々の首に手をかけている可能性だってある。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "しかし全ては証明できないことだ。レユニオンも既に我々の首に手をかけている可能性だってある。"
+    },
+    {
+        "id": 104,
+        "raw": "[name=\"ウェイ\"]  いずれにしろ、敵の手が我々の首に伸びるより先に、奴らを殲滅しなければならない。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "いずれにしろ、敵の手が我々の首に伸びるより先に、奴らを殲滅しなければならない。"
+    },
+    {
+        "id": 105,
+        "raw": "[name=\"ウェイ\"]  つまり……今やるべきことは分かるな？",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "つまり……今やるべきことは分かるな？"
+    },
+    {
+        "id": 106,
+        "raw": "[Predicate]",
+        "type": "predicate"
+    },
+    {
+        "id": 107,
+        "raw": "[name=\"ウェイ\"]  今一度言おう、アーミヤ君、Dr.{@nickname}、君たちと龍門の協定は未だに健在だ。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "今一度言おう、アーミヤ君、Dr.{@nickname}、君たちと龍門の協定は未だに健在だ。"
+    },
+    {
+        "id": 108,
+        "raw": "[name=\"ウェイ\"]  今回の事件で反撃の狼煙が上がった。奴らに龍門の偉大さと知略、そして団結力を見せつけてやろう。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "今回の事件で反撃の狼煙が上がった。奴らに龍門の偉大さと知略、そして団結力を見せつけてやろう。"
+    },
+    {
+        "id": 109,
+        "raw": "[name=\"ウェイ\"]  そして願わくば、ロドスにはこれからもプロフェッショナルとしての判断と、勇猛果敢な行動をお願いしたい。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "そして願わくば、ロドスにはこれからもプロフェッショナルとしての判断と、勇猛果敢な行動をお願いしたい。"
+    },
+    {
+        "id": 110,
+        "raw": "[name=\"ウェイ\"]  15分後、チェンが引き続き君たちと作戦に当たる。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "15分後、チェンが引き続き君たちと作戦に当たる。"
+    },
+    {
+        "id": 111,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_002_amiya_1#7\",focus=2)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_002_amiya_1#7",
+        "focus": 2
+    },
+    {
+        "id": 112,
+        "raw": "[name=\"アーミヤ\"]  ウェイさん、ご自身がいま仰ったことは忘れないでくださいね。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "ウェイさん、ご自身がいま仰ったことは忘れないでくださいね。"
+    },
+    {
+        "id": 113,
+        "raw": "[name=\"アーミヤ\"]  あなたの言葉、ロドスは胸に刻みましたから。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "あなたの言葉、ロドスは胸に刻みましたから。"
+    },
+    {
+        "id": 114,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_002_amiya_1#7\",focus=1)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_002_amiya_1#7",
+        "focus": 1
+    },
+    {
+        "id": 115,
+        "raw": "[name=\"ウェイ\"]  もちろんだ。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "もちろんだ。"
+    },
+    {
+        "id": 116,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 117,
+        "raw": "[playsound(key=\"$d_gen_transmissionget\", volume=0.4)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_transmissionget.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 118,
+        "raw": "[CharacterCutin(widgetID=\"1\",fadetime=0.5,block=true)]",
+        "type": "character_cutin",
+        "widgetID": "1",
+        "fadetime": "0.5,block=true"
+    },
+    {
+        "id": 119,
+        "raw": "[Character(name=\"char_002_amiya_1#1\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#1"
+    },
+    {
+        "id": 120,
+        "raw": "[name=\"アーミヤ\"]  ブレイズさん、Dr.{@nickname}、行きましょう。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "ブレイズさん、Dr.{@nickname}、行きましょう。"
+    },
+    {
+        "id": 121,
+        "raw": "[name=\"アーミヤ\"]  あ、そういえばチェンさん、ホシグマさんはどうされたんですか？先程から姿が見えませんが……何かあったんですか？",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "あ、そういえばチェンさん、ホシグマさんはどうされたんですか？先程から姿が見えませんが……何かあったんですか？"
+    },
+    {
+        "id": 122,
+        "raw": "[Character(name=\"char_002_amiya_1#1\",name2=\"char_010_chen_1#1\",focus=2)]",
+        "type": "character",
+        "name": "char_002_amiya_1#1",
+        "name2": "char_010_chen_1#1",
+        "focus": 2
+    },
+    {
+        "id": 123,
+        "raw": "[name=\"チェン\"]  少し怪我をしてな、だが特に大きな問題はない。",
+        "type": "dialog",
+        "speaker": "チェン",
+        "content": "少し怪我をしてな、だが特に大きな問題はない。"
+    },
+    {
+        "id": 124,
+        "raw": "[Character(name=\"char_002_amiya_1#2\",name2=\"char_010_chen_1#1\",focus=1)]",
+        "type": "character",
+        "name": "char_002_amiya_1#2",
+        "name2": "char_010_chen_1#1",
+        "focus": 1
+    },
+    {
+        "id": 125,
+        "raw": "[name=\"アーミヤ\"]  そうなんですね……わかりました。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "そうなんですね……わかりました。"
+    },
+    {
+        "id": 126,
+        "raw": "[name=\"アーミヤ\"]  チェンさん、ロドスの医療チームにチェンさんの怪我も見せてください、応急処置くらいなら出来ますから。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "チェンさん、ロドスの医療チームにチェンさんの怪我も見せてください、応急処置くらいなら出来ますから。"
+    },
+    {
+        "id": 127,
+        "raw": "[Character(name=\"char_002_amiya_1#2\",name2=\"char_010_chen_1#1\",focus=2)]",
+        "type": "character",
+        "name": "char_002_amiya_1#2",
+        "name2": "char_010_chen_1#1",
+        "focus": 2
+    },
+    {
+        "id": 128,
+        "raw": "[name=\"チェン\"]  いや、いい。",
+        "type": "dialog",
+        "speaker": "チェン",
+        "content": "いや、いい。"
+    },
+    {
+        "id": 129,
+        "raw": "[Character(name=\"char_002_amiya_1#2\",name2=\"char_010_chen_1#1\",focus=1)]",
+        "type": "character",
+        "name": "char_002_amiya_1#2",
+        "name2": "char_010_chen_1#1",
+        "focus": 1
+    },
+    {
+        "id": 130,
+        "raw": "[name=\"アーミヤ\"]  遠慮なさらなくても、プライバシーはきちんと守りますから。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "遠慮なさらなくても、プライバシーはきちんと守りますから。"
+    },
+    {
+        "id": 131,
+        "raw": "[Character(name=\"char_002_amiya_1#1\",name2=\"char_010_chen_1#1\",focus=2)]",
+        "type": "character",
+        "name": "char_002_amiya_1#1",
+        "name2": "char_010_chen_1#1",
+        "focus": 2
+    },
+    {
+        "id": 132,
+        "raw": "[name=\"チェン\"]  いや、この程度の怪我、処置は自分で簡単に済ませられる。",
+        "type": "dialog",
+        "speaker": "チェン",
+        "content": "いや、この程度の怪我、処置は自分で簡単に済ませられる。"
+    },
+    {
+        "id": 133,
+        "raw": "[Character(name=\"char_002_amiya_1#1\",name2=\"char_010_chen_1#1\",focus=1)]",
+        "type": "character",
+        "name": "char_002_amiya_1#1",
+        "name2": "char_010_chen_1#1",
+        "focus": 1
+    },
+    {
+        "id": 134,
+        "raw": "[name=\"アーミヤ\"]  はい……そこまで仰るなら無理にとは言いません。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "はい……そこまで仰るなら無理にとは言いません。"
+    },
+    {
+        "id": 135,
+        "raw": "[name=\"アーミヤ\"]  では、チェンさん、また後ほど。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "では、チェンさん、また後ほど。"
+    },
+    {
+        "id": 136,
+        "raw": "[Character(name=\"char_010_chen_1#1\")]",
+        "type": "character",
+        "name": "char_010_chen_1#1"
+    },
+    {
+        "id": 137,
+        "raw": "[name=\"チェン\"]  ……。",
+        "type": "dialog",
+        "speaker": "チェン",
+        "content": "……。"
+    },
+    {
+        "id": 138,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 139,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 140,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 141,
+        "raw": "[Background(image=\"bg_lungmen_o\", width=1, height=1, screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_lungmen_o.png",
+        "width": "1,",
+        "height": "1,",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 142,
+        "raw": "[Blocker(a=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 143,
+        "raw": "[name=\"\"]   a.m.　04：45　天気/晴天",
+        "type": "narration",
+        "content": "a.m.　04：45　天気/晴天"
+    },
+    {
+        "id": 144,
+        "raw": "[name=\"\"]   龍門アップタウン、行政長官執務室",
+        "type": "narration",
+        "content": "龍門アップタウン、行政長官執務室"
+    },
+    {
+        "id": 145,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 146,
+        "raw": "[playsound(key=\"$d_gen_transmissionget\", volume=0.4)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_transmissionget.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 147,
+        "raw": "[CharacterCutin(widgetID=\"1\", name=\"char_308_swire_1#5\", style=\"cutin\", fadestyle= \"horiz_expand_center\", fadetime=0.5, offsetx=-300, width=200, block=true)]",
+        "type": "character_cutin",
+        "widgetID": "1",
+        "name": "char_308_swire_1#5",
+        "style": "cutin",
+        "fadetime": "0.5,",
+        "offsetx": "-300,",
+        "width": "200,",
+        "block": true
+    },
+    {
+        "id": 148,
+        "raw": "[name=\"スワイヤー\"]  ウェイ長官、そちらは順調ですか？",
+        "type": "dialog",
+        "speaker": "スワイヤー",
+        "content": "ウェイ長官、そちらは順調ですか？"
+    },
+    {
+        "id": 149,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_2005_weiyw_1\",focus=2)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_2005_weiyw_1",
+        "focus": 2
+    },
+    {
+        "id": 150,
+        "raw": "[name=\"ウェイ\"]  もちろん、そうでなければ君たちとこうして話している時間もないだろうな。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "もちろん、そうでなければ君たちとこうして話している時間もないだろうな。"
+    },
+    {
+        "id": 151,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_2005_weiyw_1\",focus=1)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_2005_weiyw_1",
+        "focus": 1
+    },
+    {
+        "id": 152,
+        "raw": "[name=\"スワイヤー\"]  彼らは作戦行動を一時的に休止することに同意を？",
+        "type": "dialog",
+        "speaker": "スワイヤー",
+        "content": "彼らは作戦行動を一時的に休止することに同意を？"
+    },
+    {
+        "id": 153,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_2005_weiyw_1\",focus=2)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_2005_weiyw_1",
+        "focus": 2
+    },
+    {
+        "id": 154,
+        "raw": "[name=\"ウェイ\"]  ああ、だが時間には限りがある。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "ああ、だが時間には限りがある。"
+    },
+    {
+        "id": 155,
+        "raw": "[name=\"ウェイ\"]  今日と明日の二日後、レユニオンがまだ龍門で悪事を働いているようなら、どの様な結果が待っているか分かるな。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "今日と明日の二日後、レユニオンがまだ龍門で悪事を働いているようなら、どの様な結果が待っているか分かるな。"
+    },
+    {
+        "id": 156,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_2005_weiyw_1\",focus=1)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_2005_weiyw_1",
+        "focus": 1
+    },
+    {
+        "id": 157,
+        "raw": "[name=\"スワイヤー\"]  二日だけなんて！？　短すぎます、私は――",
+        "type": "dialog",
+        "speaker": "スワイヤー",
+        "content": "二日だけなんて！？　短すぎます、私は――"
+    },
+    {
+        "id": 158,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_2005_weiyw_1\",focus=2)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_2005_weiyw_1",
+        "focus": 2
+    },
+    {
+        "id": 159,
+        "raw": "[name=\"ウェイ\"]  日の出二回分だ、これはすでに最大限の時間を確保したと言っていいだろう。さらに、君たちに与えられる時間は一日しかない。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "日の出二回分だ、これはすでに最大限の時間を確保したと言っていいだろう。さらに、君たちに与えられる時間は一日しかない。"
+    },
+    {
+        "id": 160,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_2005_weiyw_1\",focus=1)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_2005_weiyw_1",
+        "focus": 1
+    },
+    {
+        "id": 161,
+        "raw": "[name=\"スワイヤー\"]  一日！？",
+        "type": "dialog",
+        "speaker": "スワイヤー",
+        "content": "一日！？"
+    },
+    {
+        "id": 162,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_2005_weiyw_1\",focus=2)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_2005_weiyw_1",
+        "focus": 2
+    },
+    {
+        "id": 163,
+        "raw": "[name=\"ウェイ\"]  君たちには一日以内に全てを片付けてもらいたい。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "君たちには一日以内に全てを片付けてもらいたい。"
+    },
+    {
+        "id": 164,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_2005_weiyw_1\",focus=1)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_2005_weiyw_1",
+        "focus": 1
+    },
+    {
+        "id": 165,
+        "raw": "[name=\"スワイヤー\"]  ウェイ長官、もし彼らの協力があれば、数時間でレユニオンを全て駆逐し、こちらの損失を最大限に減らせるのではありませんか？",
+        "type": "dialog",
+        "speaker": "スワイヤー",
+        "content": "ウェイ長官、もし彼らの協力があれば、数時間でレユニオンを全て駆逐し、こちらの損失を最大限に減らせるのではありませんか？"
+    },
+    {
+        "id": 166,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_2005_weiyw_1\",focus=2)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_2005_weiyw_1",
+        "focus": 2
+    },
+    {
+        "id": 167,
+        "raw": "[name=\"ウェイ\"]  確かに実利に沿った提案ではあるが、近衛局という組織としてはそれに乗ることはできん。龍門自身の問題は、当然だが我々自身で徹底的にかたをつける必要がある。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "確かに実利に沿った提案ではあるが、近衛局という組織としてはそれに乗ることはできん。龍門自身の問題は、当然だが我々自身で徹底的にかたをつける必要がある。"
+    },
+    {
+        "id": 168,
+        "raw": "[name=\"ウェイ\"]  そしてそれこそが、我々が彼らに見せるべき本来の姿勢でもある。…では各位、始めてくれ。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "そしてそれこそが、我々が彼らに見せるべき本来の姿勢でもある。…では各位、始めてくれ。"
+    },
+    {
+        "id": 169,
+        "raw": "[name=\"ウェイ\"]  チェン君、レユニオンに龍門流の“おもてなし”というものを教えてやろうではないか。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "チェン君、レユニオンに龍門流の“おもてなし”というものを教えてやろうではないか。"
+    },
+    {
+        "id": 170,
+        "raw": "[playsound(key=\"$d_gen_transmissionget\", volume=0.4)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_transmissionget.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 171,
+        "raw": "[CharacterCutin(widgetID=\"1\", name=\"char_010_chen_1#1\", style=\"cutin\", fadestyle= \"horiz_expand_center\", fadetime=0.5, offsetx=-300, width=200, block=true)]",
+        "type": "character_cutin",
+        "widgetID": "1",
+        "name": "char_010_chen_1#1",
+        "style": "cutin",
+        "fadetime": "0.5,",
+        "offsetx": "-300,",
+        "width": "200,",
+        "block": true
+    },
+    {
+        "id": 172,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_2005_weiyw_1\",focus=1)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_2005_weiyw_1",
+        "focus": 1
+    },
+    {
+        "id": 173,
+        "raw": "[name=\"チェン\"]  了解しました。",
+        "type": "dialog",
+        "speaker": "チェン",
+        "content": "了解しました。"
+    },
+    {
+        "id": 174,
+        "raw": "[name=\"チェン\"]  ウェイ長官、一つだけ質問があります。今すぐでなくても構いませんが、長官のお考えをお聞かせいただければと思います。",
+        "type": "dialog",
+        "speaker": "チェン",
+        "content": "ウェイ長官、一つだけ質問があります。今すぐでなくても構いませんが、長官のお考えをお聞かせいただければと思います。"
+    },
+    {
+        "id": 175,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_2005_weiyw_1\",focus=2)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_2005_weiyw_1",
+        "focus": 2
+    },
+    {
+        "id": 176,
+        "raw": "[name=\"ウェイ\"]  言ってみなさい。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "言ってみなさい。"
+    },
+    {
+        "id": 177,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_2005_weiyw_1\",focus=1)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_2005_weiyw_1",
+        "focus": 1
+    },
+    {
+        "id": 178,
+        "raw": "[name=\"チェン\"]  今回のレユニオンの行動ですが、明らかに総攻撃を仕掛けてきている様子でした。しかしどうして彼らのリーダーであるタルラは姿を見せなかったのでしょうか？",
+        "type": "dialog",
+        "speaker": "チェン",
+        "content": "今回のレユニオンの行動ですが、明らかに総攻撃を仕掛けてきている様子でした。しかしどうして彼らのリーダーであるタルラは姿を見せなかったのでしょうか？"
+    },
+    {
+        "id": 179,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 180,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 181,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 182,
+        "raw": "[CharacterCutin(widgetID=\"1\",fadetime=0.5,block=true)]",
+        "type": "character_cutin",
+        "widgetID": "1",
+        "fadetime": "0.5,block=true"
+    },
+    {
+        "id": 183,
+        "raw": "[Blocker(a=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 184,
+        "raw": "[Character(name=\"char_2005_weiyw_1\",fadetime=1,block=true)]",
+        "type": "character",
+        "name": "char_2005_weiyw_1",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 185,
+        "raw": "[name=\"ウェイ\"]  ふむ……。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "ふむ……。"
+    },
+    {
+        "id": 186,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3"
+    },
+    {
+        "id": 187,
+        "raw": "[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=1)]",
+        "type": "character",
+        "name": "char_2006_weiywfmzuki_1",
+        "name2": "char_2005_weiyw_1",
+        "focus": 1
+    },
+    {
+        "id": 188,
+        "raw": "[name=\"フミヅキ\"]  うまく進んでいるのではないですか？　そんな苦い顔をしてどうされたの？",
+        "type": "dialog",
+        "speaker": "フミヅキ",
+        "content": "うまく進んでいるのではないですか？　そんな苦い顔をしてどうされたの？"
+    },
+    {
+        "id": 189,
+        "raw": "[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=2)]",
+        "type": "character",
+        "name": "char_2006_weiywfmzuki_1",
+        "name2": "char_2005_weiyw_1",
+        "focus": 2
+    },
+    {
+        "id": 190,
+        "raw": "[name=\"ウェイ\"]  ウルサス側からの返事は？",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "ウルサス側からの返事は？"
+    },
+    {
+        "id": 191,
+        "raw": "[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=1)]",
+        "type": "character",
+        "name": "char_2006_weiywfmzuki_1",
+        "name2": "char_2005_weiyw_1",
+        "focus": 1
+    },
+    {
+        "id": 192,
+        "raw": "[name=\"フミヅキ\"]  まだ何も。",
+        "type": "dialog",
+        "speaker": "フミヅキ",
+        "content": "まだ何も。"
+    },
+    {
+        "id": 193,
+        "raw": "[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=2)]",
+        "type": "character",
+        "name": "char_2006_weiywfmzuki_1",
+        "name2": "char_2005_weiyw_1",
+        "focus": 2
+    },
+    {
+        "id": 194,
+        "raw": "[name=\"ウェイ\"]  やはりヴィッテ議長には連絡がとれないか？",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "やはりヴィッテ議長には連絡がとれないか？"
+    },
+    {
+        "id": 195,
+        "raw": "[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=1)]",
+        "type": "character",
+        "name": "char_2006_weiywfmzuki_1",
+        "name2": "char_2005_weiyw_1",
+        "focus": 1
+    },
+    {
+        "id": 196,
+        "raw": "[name=\"フミヅキ\"]  残念ながら、トランスポーターも会えていないそうです。",
+        "type": "dialog",
+        "speaker": "フミヅキ",
+        "content": "残念ながら、トランスポーターも会えていないそうです。"
+    },
+    {
+        "id": 197,
+        "raw": "[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=2)]",
+        "type": "character",
+        "name": "char_2006_weiywfmzuki_1",
+        "name2": "char_2005_weiyw_1",
+        "focus": 2
+    },
+    {
+        "id": 198,
+        "raw": "[name=\"ウェイ\"]  疑念の雲がウルサス全体を覆ってしまったか……。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "疑念の雲がウルサス全体を覆ってしまったか……。"
+    },
+    {
+        "id": 199,
+        "raw": "[name=\"ウェイ\"]  フミヅキ、私は思うんだ。これらは全て始まりでしかないと。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "フミヅキ、私は思うんだ。これらは全て始まりでしかないと。"
+    },
+    {
+        "id": 200,
+        "raw": "[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=1)]",
+        "type": "character",
+        "name": "char_2006_weiywfmzuki_1",
+        "name2": "char_2005_weiyw_1",
+        "focus": 1
+    },
+    {
+        "id": 201,
+        "raw": "[name=\"フミヅキ\"]  前に同じことを言って、もう何年にもなりますよ。",
+        "type": "dialog",
+        "speaker": "フミヅキ",
+        "content": "前に同じことを言って、もう何年にもなりますよ。"
+    },
+    {
+        "id": 202,
+        "raw": "[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=2)]",
+        "type": "character",
+        "name": "char_2006_weiywfmzuki_1",
+        "name2": "char_2005_weiyw_1",
+        "focus": 2
+    },
+    {
+        "id": 203,
+        "raw": "[name=\"ウェイ\"]  それはいつのことだったか？　どうしてそんなことを言ったのか、もう忘れてしまったよ。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "それはいつのことだったか？　どうしてそんなことを言ったのか、もう忘れてしまったよ。"
+    },
+    {
+        "id": 204,
+        "raw": "[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=1)]",
+        "type": "character",
+        "name": "char_2006_weiywfmzuki_1",
+        "name2": "char_2005_weiyw_1",
+        "focus": 1
+    },
+    {
+        "id": 205,
+        "raw": "[name=\"フミヅキ\"]  あれは私たちが出会ったばかりの頃ですよ。私たちの思い出まで忘れてしまったのかしら。",
+        "type": "dialog",
+        "speaker": "フミヅキ",
+        "content": "あれは私たちが出会ったばかりの頃ですよ。私たちの思い出まで忘れてしまったのかしら。"
+    },
+    {
+        "id": 206,
+        "raw": "[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=2)]",
+        "type": "character",
+        "name": "char_2006_weiywfmzuki_1",
+        "name2": "char_2005_weiyw_1",
+        "focus": 2
+    },
+    {
+        "id": 207,
+        "raw": "[name=\"ウェイ\"]  いや、そんなことはない。君との素敵な思い出以外なんぞ、忘れたところでどうということはないからな。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "いや、そんなことはない。君との素敵な思い出以外なんぞ、忘れたところでどうということはないからな。"
+    },
+    {
+        "id": 208,
+        "raw": "[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=1)]",
+        "type": "character",
+        "name": "char_2006_weiywfmzuki_1",
+        "name2": "char_2005_weiyw_1",
+        "focus": 1
+    },
+    {
+        "id": 209,
+        "raw": "[name=\"フミヅキ\"]  口がお上手だこと。でも知ってますよ、どのみちあなたが忘れられるはずがありませんもの。",
+        "type": "dialog",
+        "speaker": "フミヅキ",
+        "content": "口がお上手だこと。でも知ってますよ、どのみちあなたが忘れられるはずがありませんもの。"
+    },
+    {
+        "id": 210,
+        "raw": "[name=\"フミヅキ\"]  こうも仰ってましたよね。もし二十年前に我々が敗北していたら、この都市には全く別の名前が付けられ、ウルサスの征服史の一部になっていたと。",
+        "type": "dialog",
+        "speaker": "フミヅキ",
+        "content": "こうも仰ってましたよね。もし二十年前に我々が敗北していたら、この都市には全く別の名前が付けられ、ウルサスの征服史の一部になっていたと。"
+    },
+    {
+        "id": 211,
+        "raw": "[name=\"フミヅキ\"]  そして、もし我々が敗北していたら、あなたの位置に座っているのは彼だった。",
+        "type": "dialog",
+        "speaker": "フミヅキ",
+        "content": "そして、もし我々が敗北していたら、あなたの位置に座っているのは彼だった。"
+    },
+    {
+        "id": 212,
+        "raw": "[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=2)]",
+        "type": "character",
+        "name": "char_2006_weiywfmzuki_1",
+        "name2": "char_2005_weiyw_1",
+        "focus": 2
+    },
+    {
+        "id": 213,
+        "raw": "[name=\"ウェイ\"]  ……",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "……"
+    },
+    {
+        "id": 214,
+        "raw": "[name=\"ウェイ\"]  コシチェイ公爵。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "コシチェイ公爵。"
+    },
+    {
+        "id": 215,
+        "raw": "[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=1)]",
+        "type": "character",
+        "name": "char_2006_weiywfmzuki_1",
+        "name2": "char_2005_weiyw_1",
+        "focus": 1
+    },
+    {
+        "id": 216,
+        "raw": "[name=\"フミヅキ\"]  可哀想なタルちゃん、あの子に彼の姿が重なりますか？",
+        "type": "dialog",
+        "speaker": "フミヅキ",
+        "content": "可哀想なタルちゃん、あの子に彼の姿が重なりますか？"
+    },
+    {
+        "id": 217,
+        "raw": "[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=2)]",
+        "type": "character",
+        "name": "char_2006_weiywfmzuki_1",
+        "name2": "char_2005_weiyw_1",
+        "focus": 2
+    },
+    {
+        "id": 218,
+        "raw": "[name=\"ウェイ\"]  だがもう死んだ。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "だがもう死んだ。"
+    },
+    {
+        "id": 219,
+        "raw": "[name=\"ウェイ\"]  タルラに殺されてな。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "タルラに殺されてな。"
+    },
+    {
+        "id": 220,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 221,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 222,
+        "raw": "[Background]",
+        "type": "background"
+    },
+    {
+        "id": 223,
+        "raw": "[Character(fadetime=0)]",
+        "type": "character",
+        "fadetime": 0
+    },
+    {
+        "id": 224,
+        "raw": "[Image(image=\"avg_ep05\",x=0, y=0, xScale=1, yScale=1, fadetime=0, screenadapt=\"coverall\")]",
+        "type": "image",
+        "image": "avg_ep05.png",
+        "x": "0,",
+        "y": "0,",
+        "xScale": "1,",
+        "yScale": "1,",
+        "fadetime": "0,",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 225,
+        "raw": "[Blocker(a=0, fadetime=3, block=false)]",
+        "type": "blocker",
+        "a": "0,",
+        "fadetime": "3,",
+        "block": false
+    },
+    {
+        "id": 226,
+        "raw": "[delay(time=5)]",
+        "type": "delay",
+        "time": 5
+    },
+    {
+        "id": 227,
+        "raw": "[Image(fadetime=2)]",
+        "type": "image",
+        "fadetime": 2
+    },
+    {
+        "id": 228,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 229,
+        "raw": "[Blocker(fadetime=2,block=true)]",
+        "type": "blocker",
+        "fadetime": "2,block=true"
+    },
+    {
+        "id": 230,
+        "raw": "[Image]",
+        "type": "image"
+    }
+]

@@ -1,0 +1,1670 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")] 第六关（后）",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK",
+        "content": "第六关（后）"
+    },
+    {
+        "id": 2,
+        "raw": "[Background(image=\"bg_rooftop\", width=1, height=1,screenadapt=\"coverall\",  fadetime=1)]",
+        "type": "background",
+        "image": "bg_rooftop.png",
+        "width": "1,",
+        "height": "1,screenadapt=\"coverall\",",
+        "fadetime": 1
+    },
+    {
+        "id": 3,
+        "raw": "[PlayMusic(intro=\"$darkness02_intro\", key=\"$darkness02_loop\", volume=0.6, crossfade=3, delay=0.5)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta1_180603/m_dia_darkness02_intro.mp3",
+        "key": "sound_beta_2/music/beta1_180603/m_dia_darkness02_loop.mp3",
+        "volume": "0.6,",
+        "crossfade": "3,",
+        "delay": 0.5
+    },
+    {
+        "id": 4,
+        "raw": "[name=\"\"]   04:45 A.M.  天气/晴",
+        "type": "narration",
+        "content": "04:45 A.M.  天气/晴"
+    },
+    {
+        "id": 5,
+        "raw": "[name=\"\"]   龙门上城区，近卫局大楼天台废墟",
+        "type": "narration",
+        "content": "龙门上城区，近卫局大楼天台废墟"
+    },
+    {
+        "id": 6,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 7,
+        "raw": "[playsound(key=\"$d_gen_transmissionget\", volume=0.4)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_transmissionget.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 8,
+        "raw": "[CharacterCutin(widgetID=\"1\", name=\"char_2005_weiyw_1\", style=\"cutin\", fadestyle= \"horiz_expand_center\", fadetime=0.5, offsetx=-300, width=200, block=true)]",
+        "type": "character_cutin",
+        "widgetID": "1",
+        "name": "char_2005_weiyw_1",
+        "style": "cutin",
+        "fadetime": "0.5,",
+        "offsetx": "-300,",
+        "width": "200,",
+        "block": true
+    },
+    {
+        "id": 9,
+        "raw": "[name=\"魏彦吾\"]  陈警官，你身边的那位阿米娅小姐，能听到我的声音吗？",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "陈警官，你身边的那位阿米娅小姐，能听到我的声音吗？"
+    },
+    {
+        "id": 10,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_002_amiya_1#1\",focus=2)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_002_amiya_1#1",
+        "focus": 2
+    },
+    {
+        "id": 11,
+        "raw": "[name=\"阿米娅\"]  可以，魏长官。",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "可以，魏长官。"
+    },
+    {
+        "id": 12,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_002_amiya_1#1\",focus=1)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_002_amiya_1#1",
+        "focus": 1
+    },
+    {
+        "id": 13,
+        "raw": "[name=\"魏彦吾\"]  那就好。",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "那就好。"
+    },
+    {
+        "id": 14,
+        "raw": "[name=\"魏彦吾\"]  抱歉，罗德岛的领袖。我可以冒险让近卫局深入腹地，却不能冒险让更多的玩家参与进游戏。",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "抱歉，罗德岛的领袖。我可以冒险让近卫局深入腹地，却不能冒险让更多的玩家参与进游戏。"
+    },
+    {
+        "id": 15,
+        "raw": "[Decision(options=\"更多的玩家是指？;......什么意思？;场面已经够混乱了。\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "更多的玩家是指？;......什么意思？;场面已经够混乱了。",
+        "values": "1;2;3"
+    },
+    {
+        "id": 16,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 17,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_002_amiya_1#1\",focus=1)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_002_amiya_1#1",
+        "focus": 1
+    },
+    {
+        "id": 18,
+        "raw": "[name=\"魏彦吾\"]  Dr.{@nickname}——",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "Dr.{@nickname}——"
+    },
+    {
+        "id": 19,
+        "raw": "[name=\"魏彦吾\"]  有一张错综复杂的无形巨网，覆盖了整片大地。",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "有一张错综复杂的无形巨网，覆盖了整片大地。"
+    },
+    {
+        "id": 20,
+        "raw": "[name=\"魏彦吾\"]  没有任何一个城邦能和这片大地脱开干系、在阴谋诡局中独善其身，何况是夹在数个庞然巨物之间的这里。",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "没有任何一个城邦能和这片大地脱开干系、在阴谋诡局中独善其身，何况是夹在数个庞然巨物之间的这里。"
+    },
+    {
+        "id": 21,
+        "raw": "[name=\"魏彦吾\"]  你也许意识到了，也许没有。但至少，我是必须要考虑这些问题的那个人。",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "你也许意识到了，也许没有。但至少，我是必须要考虑这些问题的那个人。"
+    },
+    {
+        "id": 22,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_002_amiya_1#7\",focus=2)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_002_amiya_1#7",
+        "focus": 2
+    },
+    {
+        "id": 23,
+        "raw": "[name=\"阿米娅\"]  如果魏长官想要任务更顺利地执行，本就应该和我们分享信息。",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "如果魏长官想要任务更顺利地执行，本就应该和我们分享信息。"
+    },
+    {
+        "id": 24,
+        "raw": "[name=\"阿米娅\"]  至少必要的那些，我该知道。",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "至少必要的那些，我该知道。"
+    },
+    {
+        "id": 25,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_002_amiya_1#7\",focus=1)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_002_amiya_1#7",
+        "focus": 1
+    },
+    {
+        "id": 26,
+        "raw": "[name=\"魏彦吾\"]  再次向你道歉，阿米娅小姐。我的位置迫使我不能把情报全盘披露。",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "再次向你道歉，阿米娅小姐。我的位置迫使我不能把情报全盘披露。"
+    },
+    {
+        "id": 27,
+        "raw": "[name=\"魏彦吾\"]  如果你处在我的位置上，你也会做出相同的选择。",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "如果你处在我的位置上，你也会做出相同的选择。"
+    },
+    {
+        "id": 28,
+        "raw": "[name=\"魏彦吾\"]  切城废城的行动不甚圆满，但至少你们取得了相应的战果。",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "切城废城的行动不甚圆满，但至少你们取得了相应的战果。"
+    },
+    {
+        "id": 29,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_017_homura_3#1\",focus=2)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_017_homura_3#1",
+        "focus": 2
+    },
+    {
+        "id": 30,
+        "raw": "[name=\"煌\"]  你让我们吸引整合运动的注意力。",
+        "type": "dialog",
+        "speaker": "煌",
+        "content": "你让我们吸引整合运动的注意力。"
+    },
+    {
+        "id": 31,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_017_homura_3#1\",focus=1)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_017_homura_3#1",
+        "focus": 1
+    },
+    {
+        "id": 32,
+        "raw": "[name=\"魏彦吾\"]  错了，龙门近卫局本也与你们一起。",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "错了，龙门近卫局本也与你们一起。"
+    },
+    {
+        "id": 33,
+        "raw": "[Decision(options=\"你利用我们所有人做诱饵。\", values=\"1\")]",
+        "type": "decision",
+        "options": "你利用我们所有人做诱饵。",
+        "values": "1"
+    },
+    {
+        "id": 34,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 35,
+        "raw": "[name=\"魏彦吾\"]  哦？",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "哦？"
+    },
+    {
+        "id": 36,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 37,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0.6, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.6,",
+        "block": true
+    },
+    {
+        "id": 38,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 39,
+        "raw": "[CharacterCutin(widgetID=\"1\",block=true)]",
+        "type": "character_cutin",
+        "widgetID": "1",
+        "block": true
+    },
+    {
+        "id": 40,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 41,
+        "raw": "[Background]",
+        "type": "background"
+    },
+    {
+        "id": 42,
+        "raw": "[Blocker(a=0, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 43,
+        "raw": "[name=\"凯尔希\"]  这一切他早就勾画好了。",
+        "type": "dialog",
+        "speaker": "凯尔希",
+        "content": "这一切他早就勾画好了。"
+    },
+    {
+        "id": 44,
+        "raw": "[name=\"凯尔希\"]  时间越长，渗透越深，他要当机立断。",
+        "type": "dialog",
+        "speaker": "凯尔希",
+        "content": "时间越长，渗透越深，他要当机立断。"
+    },
+    {
+        "id": 45,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 46,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0.6, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.6,",
+        "block": true
+    },
+    {
+        "id": 47,
+        "raw": "[Background(image=\"bg_rooftop\", width=1, height=1,screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_rooftop.png",
+        "width": "1,",
+        "height": "1,screenadapt=\"coverall\""
+    },
+    {
+        "id": 48,
+        "raw": "[Blocker(a=0, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 49,
+        "raw": "[Decision(options=\"在最关键的时刻、在整合运动最躁动的时刻\", values=\"1\")]",
+        "type": "decision",
+        "options": "在最关键的时刻、在整合运动最躁动的时刻",
+        "values": "1"
+    },
+    {
+        "id": 50,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 51,
+        "raw": "[Decision(options=\"让罗德岛去吸引他们。\", values=\"1\")]",
+        "type": "decision",
+        "options": "让罗德岛去吸引他们。",
+        "values": "1"
+    },
+    {
+        "id": 52,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 53,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 54,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0.6, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.6,",
+        "block": true
+    },
+    {
+        "id": 55,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 56,
+        "raw": "[Background]",
+        "type": "background"
+    },
+    {
+        "id": 57,
+        "raw": "[Blocker(a=0, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 58,
+        "raw": "[name=\"凯尔希\"]  顺便让整合运动觉得近卫局孤身在外——",
+        "type": "dialog",
+        "speaker": "凯尔希",
+        "content": "顺便让整合运动觉得近卫局孤身在外——"
+    },
+    {
+        "id": 59,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 60,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0.6, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.6,",
+        "block": true
+    },
+    {
+        "id": 61,
+        "raw": "[Background(image=\"bg_rooftop\", width=1, height=1,screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_rooftop.png",
+        "width": "1,",
+        "height": "1,screenadapt=\"coverall\""
+    },
+    {
+        "id": 62,
+        "raw": "[Blocker(a=0, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 63,
+        "raw": "[Decision(options=\"——让他们的领袖觉得龙门内部空虚。\", values=\"1\")]",
+        "type": "decision",
+        "options": "——让他们的领袖觉得龙门内部空虚。",
+        "values": "1"
+    },
+    {
+        "id": 64,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 65,
+        "raw": "[CharacterCutin(widgetID=\"1\", name=\"char_2005_weiyw_1\", style=\"cutin\", fadestyle= \"horiz_expand_center\", fadetime=0.5, offsetx=-300, width=200, block=true)]",
+        "type": "character_cutin",
+        "widgetID": "1",
+        "name": "char_2005_weiyw_1",
+        "style": "cutin",
+        "fadetime": "0.5,",
+        "offsetx": "-300,",
+        "width": "200,",
+        "block": true
+    },
+    {
+        "id": 66,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_017_homura_3#1\",focus=2)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_017_homura_3#1",
+        "focus": 2
+    },
+    {
+        "id": 67,
+        "raw": "[name=\"煌\"]  哈，说得好，Dr.{@nickname}！长官，你当然需要我们拖住整合运动，越多越好，对吗？",
+        "type": "dialog",
+        "speaker": "煌",
+        "content": "哈，说得好，Dr.{@nickname}！长官，你当然需要我们拖住整合运动，越多越好，对吗？"
+    },
+    {
+        "id": 68,
+        "raw": "[name=\"煌\"]  看到龙门是这种情况，潜伏的整合运动肯定觉得自己有机会。",
+        "type": "dialog",
+        "speaker": "煌",
+        "content": "看到龙门是这种情况，潜伏的整合运动肯定觉得自己有机会。"
+    },
+    {
+        "id": 69,
+        "raw": "[name=\"煌\"]  从藏身处倾巢而出的整合运动，等着他们的，啧啧，竟然是龙门不知道从哪里搬出来的精兵良将。",
+        "type": "dialog",
+        "speaker": "煌",
+        "content": "从藏身处倾巢而出的整合运动，等着他们的，啧啧，竟然是龙门不知道从哪里搬出来的精兵良将。"
+    },
+    {
+        "id": 70,
+        "raw": "[name=\"煌\"]  你们龙门是从什么时候开始隐藏实力的？是不是切尔诺伯格事件发生的那一天，你就在准备这些了？",
+        "type": "dialog",
+        "speaker": "煌",
+        "content": "你们龙门是从什么时候开始隐藏实力的？是不是切尔诺伯格事件发生的那一天，你就在准备这些了？"
+    },
+    {
+        "id": 71,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_017_homura_3#1\",focus=1)]  ",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_017_homura_3#1",
+        "focus": 1
+    },
+    {
+        "id": 72,
+        "raw": "[name=\"魏彦吾\"]  龙门保证了你们的安全，也促使你们回到了你们足以发挥价值的位置。",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "龙门保证了你们的安全，也促使你们回到了你们足以发挥价值的位置。"
+    },
+    {
+        "id": 73,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_017_homura_3#1\",focus=2)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_017_homura_3#1",
+        "focus": 2
+    },
+    {
+        "id": 74,
+        "raw": "[name=\"煌\"]  你把阿米娅丢在废城，让整合运动那么多人围攻我们罗德岛，也是你讲的这个什么位置？",
+        "type": "dialog",
+        "speaker": "煌",
+        "content": "你把阿米娅丢在废城，让整合运动那么多人围攻我们罗德岛，也是你讲的这个什么位置？"
+    },
+    {
+        "id": 75,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_017_homura_3#1\",focus=1)]  ",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_017_homura_3#1",
+        "focus": 1
+    },
+    {
+        "id": 76,
+        "raw": "[name=\"魏彦吾\"]  我只是希望罗德岛能理解我们必须共同面对的艰难处境。",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "我只是希望罗德岛能理解我们必须共同面对的艰难处境。"
+    },
+    {
+        "id": 77,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_002_amiya_1#1\",focus=2)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_002_amiya_1#1",
+        "focus": 2
+    },
+    {
+        "id": 78,
+        "raw": "[name=\"阿米娅\"]  煌小姐，Dr.{@nickname},不必了。",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "煌小姐，Dr.{@nickname},不必了。"
+    },
+    {
+        "id": 79,
+        "raw": "[name=\"阿米娅\"]  诗怀雅小姐和我们一起击退了整合运动的追兵，龙门没有放弃我们。",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "诗怀雅小姐和我们一起击退了整合运动的追兵，龙门没有放弃我们。"
+    },
+    {
+        "id": 80,
+        "raw": "[name=\"阿米娅\"]  （我们没有证据。）",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "（我们没有证据。）"
+    },
+    {
+        "id": 81,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_017_homura_3#1\",focus=2)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_017_homura_3#1",
+        "focus": 2
+    },
+    {
+        "id": 82,
+        "raw": "[name=\"煌\"]  嘁。",
+        "type": "dialog",
+        "speaker": "煌",
+        "content": "嘁。"
+    },
+    {
+        "id": 83,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_002_amiya_1#1\",focus=1)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_002_amiya_1#1",
+        "focus": 1
+    },
+    {
+        "id": 84,
+        "raw": "[name=\"魏彦吾\"]  我们的合约依旧有效。无论中途发生了什么，只有结果才能让我满意。",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "我们的合约依旧有效。无论中途发生了什么，只有结果才能让我满意。"
+    },
+    {
+        "id": 85,
+        "raw": "[name=\"魏彦吾\"]  无论中途发生了什么。",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "无论中途发生了什么。"
+    },
+    {
+        "id": 86,
+        "raw": "[name=\"魏彦吾\"]  罗德岛的Dr.{@nickname}，上次我们见面时，我用同样的方式表达过同样的意思。",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "罗德岛的Dr.{@nickname}，上次我们见面时，我用同样的方式表达过同样的意思。"
+    },
+    {
+        "id": 87,
+        "raw": "[name=\"魏彦吾\"]  你的选择不多。但至少你可以选择消灭敌人的方式。",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "你的选择不多。但至少你可以选择消灭敌人的方式。"
+    },
+    {
+        "id": 88,
+        "raw": "[Decision(options=\"我不信你和你的鬼话。;......;没有人会在被愚弄了之后依然笑脸迎人的。\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "我不信你和你的鬼话。;......;没有人会在被愚弄了之后依然笑脸迎人的。",
+        "values": "1;2;3"
+    },
+    {
+        "id": 89,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 90,
+        "raw": "[name=\"魏彦吾\"]  那当然好。",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "那当然好。"
+    },
+    {
+        "id": 91,
+        "raw": "[name=\"魏彦吾\"]  我们都该保持警醒，大敌当前时不该有人松懈。",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "我们都该保持警醒，大敌当前时不该有人松懈。"
+    },
+    {
+        "id": 92,
+        "raw": "[name=\"魏彦吾\"]  你的戒备心能促使你规避陷阱。",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "你的戒备心能促使你规避陷阱。"
+    },
+    {
+        "id": 93,
+        "raw": "[name=\"魏彦吾\"]  听我一言，Dr.{@nickname}——",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "听我一言，Dr.{@nickname}——"
+    },
+    {
+        "id": 94,
+        "raw": "[name=\"魏彦吾\"]  ——我们虽然还不是朋友，却至少还不是敌人。",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "——我们虽然还不是朋友，却至少还不是敌人。"
+    },
+    {
+        "id": 95,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 96,
+        "raw": "[name=\"魏彦吾\"]  沉默以对吗。",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "沉默以对吗。"
+    },
+    {
+        "id": 97,
+        "raw": "[name=\"魏彦吾\"]  优秀的判断。你在掩藏你的缺点，也在发挥你的优势。",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "优秀的判断。你在掩藏你的缺点，也在发挥你的优势。"
+    },
+    {
+        "id": 98,
+        "raw": "[name=\"魏彦吾\"]  罗德岛是强大的合作伙伴，我在这次事件中已经认可了这一点。",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "罗德岛是强大的合作伙伴，我在这次事件中已经认可了这一点。"
+    },
+    {
+        "id": 99,
+        "raw": "[name=\"魏彦吾\"]  前提是，我们确实还是伙伴关系，而不是非法感染者与地方当局。",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "前提是，我们确实还是伙伴关系，而不是非法感染者与地方当局。"
+    },
+    {
+        "id": 100,
+        "raw": "[Predicate(references=\"3\")]",
+        "type": "predicate",
+        "references": "3"
+    },
+    {
+        "id": 101,
+        "raw": "[name=\"魏彦吾\"]  我无意愚弄任何人。",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "我无意愚弄任何人。"
+    },
+    {
+        "id": 102,
+        "raw": "[name=\"魏彦吾\"]  啊，客观结果上，我可能确实愚弄了整合运动。",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "啊，客观结果上，我可能确实愚弄了整合运动。"
+    },
+    {
+        "id": 103,
+        "raw": "[name=\"魏彦吾\"]  但这一切都是无法被证明的。整合运动可能同样也握住了我们的把柄。",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "但这一切都是无法被证明的。整合运动可能同样也握住了我们的把柄。"
+    },
+    {
+        "id": 104,
+        "raw": "[name=\"魏彦吾\"]  我们只能在他们有足够能力认清我们的策略之前，掐灭他们。",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "我们只能在他们有足够能力认清我们的策略之前，掐灭他们。"
+    },
+    {
+        "id": 105,
+        "raw": "[name=\"魏彦吾\"]  这个目标是否能让你找到一点动力？",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "这个目标是否能让你找到一点动力？"
+    },
+    {
+        "id": 106,
+        "raw": "[Predicate]",
+        "type": "predicate"
+    },
+    {
+        "id": 107,
+        "raw": "[name=\"魏彦吾\"]  阿米娅小姐，{@nickname}博士，你们和龙门之间的合作并未结束。",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "阿米娅小姐，{@nickname}博士，你们和龙门之间的合作并未结束。"
+    },
+    {
+        "id": 108,
+        "raw": "[name=\"魏彦吾\"]  反攻的号角已经吹响，整合运动将见识龙门的广大、善谋与团结。",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "反攻的号角已经吹响，整合运动将见识龙门的广大、善谋与团结。"
+    },
+    {
+        "id": 109,
+        "raw": "[name=\"魏彦吾\"]  如果可能的话，我也想看到罗德岛的专业、果敢与勇猛。",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "如果可能的话，我也想看到罗德岛的专业、果敢与勇猛。"
+    },
+    {
+        "id": 110,
+        "raw": "[name=\"魏彦吾\"]  一刻钟之后，陈警官会继续协同你们作战。",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "一刻钟之后，陈警官会继续协同你们作战。"
+    },
+    {
+        "id": 111,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_002_amiya_1#7\",focus=2)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_002_amiya_1#7",
+        "focus": 2
+    },
+    {
+        "id": 112,
+        "raw": "[name=\"阿米娅\"]  魏先生，不要忘记自己说过的话。",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "魏先生，不要忘记自己说过的话。"
+    },
+    {
+        "id": 113,
+        "raw": "[name=\"阿米娅\"]  罗德岛不会忘记。",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "罗德岛不会忘记。"
+    },
+    {
+        "id": 114,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_002_amiya_1#7\",focus=1)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_002_amiya_1#7",
+        "focus": 1
+    },
+    {
+        "id": 115,
+        "raw": "[name=\"魏彦吾\"]  自然。",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "自然。"
+    },
+    {
+        "id": 116,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 117,
+        "raw": "[playsound(key=\"$d_gen_transmissionget\", volume=0.4)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_transmissionget.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 118,
+        "raw": "[CharacterCutin(widgetID=\"1\",fadetime=0.5,block=true)]",
+        "type": "character_cutin",
+        "widgetID": "1",
+        "fadetime": "0.5,block=true"
+    },
+    {
+        "id": 119,
+        "raw": "[Character(name=\"char_002_amiya_1#1\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#1"
+    },
+    {
+        "id": 120,
+        "raw": "[name=\"阿米娅\"]  煌，Dr.{@nickname}，我们走。",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "煌，Dr.{@nickname}，我们走。"
+    },
+    {
+        "id": 121,
+        "raw": "[name=\"阿米娅\"]  啊，对了陈长官，星熊警官呢？我为什么没在这看见她，她......没事吧？",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "啊，对了陈长官，星熊警官呢？我为什么没在这看见她，她......没事吧？"
+    },
+    {
+        "id": 122,
+        "raw": "[Character(name=\"char_002_amiya_1#1\",name2=\"char_010_chen_1#1\",focus=2)]",
+        "type": "character",
+        "name": "char_002_amiya_1#1",
+        "name2": "char_010_chen_1#1",
+        "focus": 2
+    },
+    {
+        "id": 123,
+        "raw": "[name=\"陈\"]  星熊她受了点伤，但没什么大碍。",
+        "type": "dialog",
+        "speaker": "陈",
+        "content": "星熊她受了点伤，但没什么大碍。"
+    },
+    {
+        "id": 124,
+        "raw": "[Character(name=\"char_002_amiya_1#2\",name2=\"char_010_chen_1#1\",focus=1)]",
+        "type": "character",
+        "name": "char_002_amiya_1#2",
+        "name2": "char_010_chen_1#1",
+        "focus": 1
+    },
+    {
+        "id": 125,
+        "raw": "[name=\"阿米娅\"]  这样啊......我知道了。",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "这样啊......我知道了。"
+    },
+    {
+        "id": 126,
+        "raw": "[name=\"阿米娅\"]  陈长官，罗德岛也可以帮你检查一下伤势，做一些应急处理。",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "陈长官，罗德岛也可以帮你检查一下伤势，做一些应急处理。"
+    },
+    {
+        "id": 127,
+        "raw": "[Character(name=\"char_002_amiya_1#2\",name2=\"char_010_chen_1#1\",focus=2)]",
+        "type": "character",
+        "name": "char_002_amiya_1#2",
+        "name2": "char_010_chen_1#1",
+        "focus": 2
+    },
+    {
+        "id": 128,
+        "raw": "[name=\"陈\"]  不用了。",
+        "type": "dialog",
+        "speaker": "陈",
+        "content": "不用了。"
+    },
+    {
+        "id": 129,
+        "raw": "[Character(name=\"char_002_amiya_1#2\",name2=\"char_010_chen_1#1\",focus=1)]",
+        "type": "character",
+        "name": "char_002_amiya_1#2",
+        "name2": "char_010_chen_1#1",
+        "focus": 1
+    },
+    {
+        "id": 130,
+        "raw": "[name=\"阿米娅\"]  不用有什么顾忌，罗德岛的医疗检查是全程保密的。",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "不用有什么顾忌，罗德岛的医疗检查是全程保密的。"
+    },
+    {
+        "id": 131,
+        "raw": "[Character(name=\"char_002_amiya_1#1\",name2=\"char_010_chen_1#1\",focus=2)]",
+        "type": "character",
+        "name": "char_002_amiya_1#1",
+        "name2": "char_010_chen_1#1",
+        "focus": 2
+    },
+    {
+        "id": 132,
+        "raw": "[name=\"陈\"]  我简单处理一下就行。",
+        "type": "dialog",
+        "speaker": "陈",
+        "content": "我简单处理一下就行。"
+    },
+    {
+        "id": 133,
+        "raw": "[Character(name=\"char_002_amiya_1#1\",name2=\"char_010_chen_1#1\",focus=1)]",
+        "type": "character",
+        "name": "char_002_amiya_1#1",
+        "name2": "char_010_chen_1#1",
+        "focus": 1
+    },
+    {
+        "id": 134,
+        "raw": "[name=\"阿米娅\"]  嗯......我就不勉强陈长官了，如果你这么坚持的话。",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "嗯......我就不勉强陈长官了，如果你这么坚持的话。"
+    },
+    {
+        "id": 135,
+        "raw": "[name=\"阿米娅\"]  那，陈长官，一会儿见。",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "那，陈长官，一会儿见。"
+    },
+    {
+        "id": 136,
+        "raw": "[Character(name=\"char_010_chen_1#1\")]",
+        "type": "character",
+        "name": "char_010_chen_1#1"
+    },
+    {
+        "id": 137,
+        "raw": "[name=\"陈\"]  ......",
+        "type": "dialog",
+        "speaker": "陈",
+        "content": "......"
+    },
+    {
+        "id": 138,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 139,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 140,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 141,
+        "raw": "[Background(image=\"bg_lungmen_o\", width=1, height=1, screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_lungmen_o.png",
+        "width": "1,",
+        "height": "1,",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 142,
+        "raw": "[Blocker(a=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 143,
+        "raw": "[name=\"\"]   05:00 A.M.   天气/晴",
+        "type": "narration",
+        "content": "05:00 A.M.   天气/晴"
+    },
+    {
+        "id": 144,
+        "raw": "[name=\"\"]   龙门上城区，行政长官办事处",
+        "type": "narration",
+        "content": "龙门上城区，行政长官办事处"
+    },
+    {
+        "id": 145,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 146,
+        "raw": "[playsound(key=\"$d_gen_transmissionget\", volume=0.4)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_transmissionget.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 147,
+        "raw": "[CharacterCutin(widgetID=\"1\", name=\"char_308_swire_1#5\", style=\"cutin\", fadestyle= \"horiz_expand_center\", fadetime=0.5, offsetx=-300, width=200, block=true)]",
+        "type": "character_cutin",
+        "widgetID": "1",
+        "name": "char_308_swire_1#5",
+        "style": "cutin",
+        "fadetime": "0.5,",
+        "offsetx": "-300,",
+        "width": "200,",
+        "block": true
+    },
+    {
+        "id": 148,
+        "raw": "[name=\"诗怀雅\"]  魏大人，你那里还顺利吗？",
+        "type": "dialog",
+        "speaker": "诗怀雅",
+        "content": "魏大人，你那里还顺利吗？"
+    },
+    {
+        "id": 149,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_2005_weiyw_1\",focus=2)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_2005_weiyw_1",
+        "focus": 2
+    },
+    {
+        "id": 150,
+        "raw": "[name=\"魏彦吾\"]  自然，否则我也没机会和各位在这里闲谈。",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "自然，否则我也没机会和各位在这里闲谈。"
+    },
+    {
+        "id": 151,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_2005_weiyw_1\",focus=1)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_2005_weiyw_1",
+        "focus": 1
+    },
+    {
+        "id": 152,
+        "raw": "[name=\"诗怀雅\"]  他们答应会暂缓行动的步调？",
+        "type": "dialog",
+        "speaker": "诗怀雅",
+        "content": "他们答应会暂缓行动的步调？"
+    },
+    {
+        "id": 153,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_2005_weiyw_1\",focus=2)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_2005_weiyw_1",
+        "focus": 2
+    },
+    {
+        "id": 154,
+        "raw": "[name=\"魏彦吾\"]  当然，但有时限。",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "当然，但有时限。"
+    },
+    {
+        "id": 155,
+        "raw": "[name=\"魏彦吾\"]  今天，明天。两天之后，如果整合运动还在龙门肆虐，你们知道会是什么后果。",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "今天，明天。两天之后，如果整合运动还在龙门肆虐，你们知道会是什么后果。"
+    },
+    {
+        "id": 156,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_2005_weiyw_1\",focus=1)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_2005_weiyw_1",
+        "focus": 1
+    },
+    {
+        "id": 157,
+        "raw": "[name=\"诗怀雅\"]  只有两天时间？！太短了，我不可能——",
+        "type": "dialog",
+        "speaker": "诗怀雅",
+        "content": "只有两天时间？！太短了，我不可能——"
+    },
+    {
+        "id": 158,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_2005_weiyw_1\",focus=2)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_2005_weiyw_1",
+        "focus": 2
+    },
+    {
+        "id": 159,
+        "raw": "[name=\"魏彦吾\"]  两次晨昏交替，已经算是宽限了。相较之下，我给各位的时间只有一天。",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "两次晨昏交替，已经算是宽限了。相较之下，我给各位的时间只有一天。"
+    },
+    {
+        "id": 160,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_2005_weiyw_1\",focus=1)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_2005_weiyw_1",
+        "focus": 1
+    },
+    {
+        "id": 161,
+        "raw": "[name=\"诗怀雅\"]  一天？",
+        "type": "dialog",
+        "speaker": "诗怀雅",
+        "content": "一天？"
+    },
+    {
+        "id": 162,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_2005_weiyw_1\",focus=2)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_2005_weiyw_1",
+        "focus": 2
+    },
+    {
+        "id": 163,
+        "raw": "[name=\"魏彦吾\"]  我要各位在一天之内解决所有事情。",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "我要各位在一天之内解决所有事情。"
+    },
+    {
+        "id": 164,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_2005_weiyw_1\",focus=1)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_2005_weiyw_1",
+        "focus": 1
+    },
+    {
+        "id": 165,
+        "raw": "[name=\"诗怀雅\"]  魏大人，如果有他们的帮助，我们不是可以在几小时里解决掉整合运动，彻底地减少损失吗？",
+        "type": "dialog",
+        "speaker": "诗怀雅",
+        "content": "魏大人，如果有他们的帮助，我们不是可以在几小时里解决掉整合运动，彻底地减少损失吗？"
+    },
+    {
+        "id": 166,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_2005_weiyw_1\",focus=2)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_2005_weiyw_1",
+        "focus": 2
+    },
+    {
+        "id": 167,
+        "raw": "[name=\"魏彦吾\"]  那并不重要。龙门的问题，龙门自己理应能一劳永逸地解决，这才是我们的首要宗旨。",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "那并不重要。龙门的问题，龙门自己理应能一劳永逸地解决，这才是我们的首要宗旨。"
+    },
+    {
+        "id": 168,
+        "raw": "[name=\"魏彦吾\"]  这是我们应该让他们看见的。所以，各位，开始吧。",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "这是我们应该让他们看见的。所以，各位，开始吧。"
+    },
+    {
+        "id": 169,
+        "raw": "[name=\"魏彦吾\"]  去吧，陈警官，该让整合运动厘清龙门的待客之道了。",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "去吧，陈警官，该让整合运动厘清龙门的待客之道了。"
+    },
+    {
+        "id": 170,
+        "raw": "[playsound(key=\"$d_gen_transmissionget\", volume=0.4)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_transmissionget.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 171,
+        "raw": "[CharacterCutin(widgetID=\"1\", name=\"char_010_chen_1#1\", style=\"cutin\", fadestyle= \"horiz_expand_center\", fadetime=0.5, offsetx=-300, width=200, block=true)]",
+        "type": "character_cutin",
+        "widgetID": "1",
+        "name": "char_010_chen_1#1",
+        "style": "cutin",
+        "fadetime": "0.5,",
+        "offsetx": "-300,",
+        "width": "200,",
+        "block": true
+    },
+    {
+        "id": 172,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_2005_weiyw_1\",focus=1)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_2005_weiyw_1",
+        "focus": 1
+    },
+    {
+        "id": 173,
+        "raw": "[name=\"陈\"]  明白。",
+        "type": "dialog",
+        "speaker": "陈",
+        "content": "明白。"
+    },
+    {
+        "id": 174,
+        "raw": "[name=\"陈\"]  魏长官，我有一个问题。即使你现在无法给出回答，我也希望事情过去之后，你能给我一个合理的猜想。",
+        "type": "dialog",
+        "speaker": "陈",
+        "content": "魏长官，我有一个问题。即使你现在无法给出回答，我也希望事情过去之后，你能给我一个合理的猜想。"
+    },
+    {
+        "id": 175,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_2005_weiyw_1\",focus=2)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_2005_weiyw_1",
+        "focus": 2
+    },
+    {
+        "id": 176,
+        "raw": "[name=\"魏彦吾\"]  你可以问。",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "你可以问。"
+    },
+    {
+        "id": 177,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_2005_weiyw_1\",focus=1)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_2005_weiyw_1",
+        "focus": 1
+    },
+    {
+        "id": 178,
+        "raw": "[name=\"陈\"]  这明明是整合运动的总攻，那为什么它们的领袖塔露拉没有出现在龙门？",
+        "type": "dialog",
+        "speaker": "陈",
+        "content": "这明明是整合运动的总攻，那为什么它们的领袖塔露拉没有出现在龙门？"
+    },
+    {
+        "id": 179,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 180,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 181,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 182,
+        "raw": "[CharacterCutin(widgetID=\"1\",fadetime=0.5,block=true)]",
+        "type": "character_cutin",
+        "widgetID": "1",
+        "fadetime": "0.5,block=true"
+    },
+    {
+        "id": 183,
+        "raw": "[Blocker(a=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 184,
+        "raw": "[Character(name=\"char_2005_weiyw_1\",fadetime=1,block=true)]",
+        "type": "character",
+        "name": "char_2005_weiyw_1",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 185,
+        "raw": "[name=\"魏彦吾\"]  嗯......",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "嗯......"
+    },
+    {
+        "id": 186,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3"
+    },
+    {
+        "id": 187,
+        "raw": "[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=1)]",
+        "type": "character",
+        "name": "char_2006_weiywfmzuki_1",
+        "name2": "char_2005_weiyw_1",
+        "focus": 1
+    },
+    {
+        "id": 188,
+        "raw": "[name=\"文月\"]  事情不是进行得很顺利吗，你怎么在这愁眉苦脸的？",
+        "type": "dialog",
+        "speaker": "文月",
+        "content": "事情不是进行得很顺利吗，你怎么在这愁眉苦脸的？"
+    },
+    {
+        "id": 189,
+        "raw": "[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=2)]",
+        "type": "character",
+        "name": "char_2006_weiywfmzuki_1",
+        "name2": "char_2005_weiyw_1",
+        "focus": 2
+    },
+    {
+        "id": 190,
+        "raw": "[name=\"魏彦吾\"]  乌萨斯方面还是没有任何回应？",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "乌萨斯方面还是没有任何回应？"
+    },
+    {
+        "id": 191,
+        "raw": "[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=1)]",
+        "type": "character",
+        "name": "char_2006_weiywfmzuki_1",
+        "name2": "char_2005_weiyw_1",
+        "focus": 1
+    },
+    {
+        "id": 192,
+        "raw": "[name=\"文月\"]  依然没有。",
+        "type": "dialog",
+        "speaker": "文月",
+        "content": "依然没有。"
+    },
+    {
+        "id": 193,
+        "raw": "[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=2)]",
+        "type": "character",
+        "name": "char_2006_weiywfmzuki_1",
+        "name2": "char_2005_weiyw_1",
+        "focus": 2
+    },
+    {
+        "id": 194,
+        "raw": "[name=\"魏彦吾\"]  还是联系不上维特议长？",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "还是联系不上维特议长？"
+    },
+    {
+        "id": 195,
+        "raw": "[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=1)]",
+        "type": "character",
+        "name": "char_2006_weiywfmzuki_1",
+        "name2": "char_2005_weiyw_1",
+        "focus": 1
+    },
+    {
+        "id": 196,
+        "raw": "[name=\"文月\"]  很遗憾，信使至今都没能和他会面。",
+        "type": "dialog",
+        "speaker": "文月",
+        "content": "很遗憾，信使至今都没能和他会面。"
+    },
+    {
+        "id": 197,
+        "raw": "[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=2)]",
+        "type": "character",
+        "name": "char_2006_weiywfmzuki_1",
+        "name2": "char_2005_weiyw_1",
+        "focus": 2
+    },
+    {
+        "id": 198,
+        "raw": "[name=\"魏彦吾\"]  看来整个乌萨斯帝国，也笼罩在一片疑云之中啊。",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "看来整个乌萨斯帝国，也笼罩在一片疑云之中啊。"
+    },
+    {
+        "id": 199,
+        "raw": "[name=\"魏彦吾\"]  文月，我有种感觉。这一切可能只是个开始。",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "文月，我有种感觉。这一切可能只是个开始。"
+    },
+    {
+        "id": 200,
+        "raw": "[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=1)]",
+        "type": "character",
+        "name": "char_2006_weiywfmzuki_1",
+        "name2": "char_2005_weiyw_1",
+        "focus": 1
+    },
+    {
+        "id": 201,
+        "raw": "[name=\"文月\"]  上次你这么说，已经是很多年前了。",
+        "type": "dialog",
+        "speaker": "文月",
+        "content": "上次你这么说，已经是很多年前了。"
+    },
+    {
+        "id": 202,
+        "raw": "[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=2)]",
+        "type": "character",
+        "name": "char_2006_weiywfmzuki_1",
+        "name2": "char_2005_weiyw_1",
+        "focus": 2
+    },
+    {
+        "id": 203,
+        "raw": "[name=\"魏彦吾\"]  那是什么时候？我已经完全忘记了自己这么说的理由。",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "那是什么时候？我已经完全忘记了自己这么说的理由。"
+    },
+    {
+        "id": 204,
+        "raw": "[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=1)]",
+        "type": "character",
+        "name": "char_2006_weiywfmzuki_1",
+        "name2": "char_2005_weiyw_1",
+        "focus": 1
+    },
+    {
+        "id": 205,
+        "raw": "[name=\"文月\"]  那时我们可是刚见面没多久。难道你是想说，你已经把我们间的过往都忘了？",
+        "type": "dialog",
+        "speaker": "文月",
+        "content": "那时我们可是刚见面没多久。难道你是想说，你已经把我们间的过往都忘了？"
+    },
+    {
+        "id": 206,
+        "raw": "[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=2)]",
+        "type": "character",
+        "name": "char_2006_weiywfmzuki_1",
+        "name2": "char_2005_weiyw_1",
+        "focus": 2
+    },
+    {
+        "id": 207,
+        "raw": "[name=\"魏彦吾\"]  不，不会。我怎么敢。只是除了和你相遇以外的事情，我都记不太清了而已。",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "不，不会。我怎么敢。只是除了和你相遇以外的事情，我都记不太清了而已。"
+    },
+    {
+        "id": 208,
+        "raw": "[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=1)]",
+        "type": "character",
+        "name": "char_2006_weiywfmzuki_1",
+        "name2": "char_2005_weiyw_1",
+        "focus": 1
+    },
+    {
+        "id": 209,
+        "raw": "[name=\"文月\"]  瞧你这副伶牙俐齿。很可惜，这事你是忘不了的。",
+        "type": "dialog",
+        "speaker": "文月",
+        "content": "瞧你这副伶牙俐齿。很可惜，这事你是忘不了的。"
+    },
+    {
+        "id": 210,
+        "raw": "[name=\"文月\"]  毕竟你亲口对我说过，如果二十年前我们输了，这座城市会改名换姓，成为乌萨斯征服史的另一条脚注。",
+        "type": "dialog",
+        "speaker": "文月",
+        "content": "毕竟你亲口对我说过，如果二十年前我们输了，这座城市会改名换姓，成为乌萨斯征服史的另一条脚注。"
+    },
+    {
+        "id": 211,
+        "raw": "[name=\"文月\"]  如果我们输了，坐在你现在的位置的不会是你，而是他。",
+        "type": "dialog",
+        "speaker": "文月",
+        "content": "如果我们输了，坐在你现在的位置的不会是你，而是他。"
+    },
+    {
+        "id": 212,
+        "raw": "[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=2)]",
+        "type": "character",
+        "name": "char_2006_weiywfmzuki_1",
+        "name2": "char_2005_weiyw_1",
+        "focus": 2
+    },
+    {
+        "id": 213,
+        "raw": "[name=\"魏彦吾\"]  ......",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "......"
+    },
+    {
+        "id": 214,
+        "raw": "[name=\"魏彦吾\"]  科西切公爵。",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "科西切公爵。"
+    },
+    {
+        "id": 215,
+        "raw": "[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=1)]",
+        "type": "character",
+        "name": "char_2006_weiywfmzuki_1",
+        "name2": "char_2005_weiyw_1",
+        "focus": 1
+    },
+    {
+        "id": 216,
+        "raw": "[name=\"文月\"]  哎，可怜的小塔，你能说小塔身上没有他的影子吗？",
+        "type": "dialog",
+        "speaker": "文月",
+        "content": "哎，可怜的小塔，你能说小塔身上没有他的影子吗？"
+    },
+    {
+        "id": 217,
+        "raw": "[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=2)]",
+        "type": "character",
+        "name": "char_2006_weiywfmzuki_1",
+        "name2": "char_2005_weiyw_1",
+        "focus": 2
+    },
+    {
+        "id": 218,
+        "raw": "[name=\"魏彦吾\"]  但他已经死了。",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "但他已经死了。"
+    },
+    {
+        "id": 219,
+        "raw": "[name=\"魏彦吾\"]  被塔露拉亲手所杀。",
+        "type": "dialog",
+        "speaker": "魏彦吾",
+        "content": "被塔露拉亲手所杀。"
+    },
+    {
+        "id": 220,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 221,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 222,
+        "raw": "[Background]",
+        "type": "background"
+    },
+    {
+        "id": 223,
+        "raw": "[Character(fadetime=0)]",
+        "type": "character",
+        "fadetime": 0
+    },
+    {
+        "id": 224,
+        "raw": "[Image(image=\"avg_ep05\",x=0, y=0, xScale=1, yScale=1, fadetime=0, screenadapt=\"coverall\")]",
+        "type": "image",
+        "image": "avg_ep05.png",
+        "x": "0,",
+        "y": "0,",
+        "xScale": "1,",
+        "yScale": "1,",
+        "fadetime": "0,",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 225,
+        "raw": "[Blocker(a=0, fadetime=3, block=false)]",
+        "type": "blocker",
+        "a": "0,",
+        "fadetime": "3,",
+        "block": false
+    },
+    {
+        "id": 226,
+        "raw": "[delay(time=5)]",
+        "type": "delay",
+        "time": 5
+    },
+    {
+        "id": 227,
+        "raw": "[Image(fadetime=2)]",
+        "type": "image",
+        "fadetime": 2
+    },
+    {
+        "id": 228,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 229,
+        "raw": "[Blocker(fadetime=2,block=true)]",
+        "type": "blocker",
+        "fadetime": "2,block=true"
+    },
+    {
+        "id": 230,
+        "raw": "[Image]",
+        "type": "image"
+    }
+]

@@ -1,0 +1,2974 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")] ",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK"
+    },
+    {
+        "id": 2,
+        "raw": "[stopmusic]",
+        "type": "stop_music"
+    },
+    {
+        "id": 3,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 4,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 5,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 6,
+        "raw": "[Background(image=\"bg_desert_1\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_desert_1.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 7,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 8,
+        "raw": "[playMusic(intro=\"$farce_intro\", key=\"$farce_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/a001/m_dia_farce_intro.mp3",
+        "key": "sound_beta_2/music/a001/m_dia_farce_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 9,
+        "raw": "[CameraShake(duration=1, xstrength=0, ystrength=8, vibrato=30, randomness=30, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "xstrength": "0,",
+        "ystrength": "8,",
+        "vibrato": "30,",
+        "randomness": "30,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 10,
+        "raw": "[playsound(key=\"$drift\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_drift.mp3",
+        "volume": 1
+    },
+    {
+        "id": 11,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 12,
+        "raw": "[Character(name=\"npc_2002_Dan_rock\",fadetime=2,block=true)]",
+        "type": "character",
+        "name": "npc_2002_Dan_rock",
+        "fadetime": "2,block=true"
+    },
+    {
+        "id": 13,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 14,
+        "raw": "[name=\"Dan\"]  烈日、荒野、黄砂、熱風！　よっしゃー！　新曲が心の底から湧き上がってくるぜー！",
+        "type": "dialog",
+        "speaker": "Dan",
+        "content": "烈日、荒野、黄砂、熱風！　よっしゃー！　新曲が心の底から湧き上がってくるぜー！"
+    },
+    {
+        "id": 15,
+        "raw": "[Character(name=\"npc_2003_Frost_rock\")]",
+        "type": "character",
+        "name": "npc_2003_Frost_rock"
+    },
+    {
+        "id": 16,
+        "raw": "[name=\"Frost\"]  （solo）",
+        "type": "dialog",
+        "speaker": "Frost",
+        "content": "（solo）"
+    },
+    {
+        "id": 17,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\")]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock"
+    },
+    {
+        "id": 18,
+        "raw": "[name=\"Aya\"]  二人ともうるさいよ。",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "二人ともうるさいよ。"
+    },
+    {
+        "id": 19,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\")]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock"
+    },
+    {
+        "id": 20,
+        "raw": "[name=\"Alty\"]  そうよ。せっかくこんな広くて誰もいない場所なのよ。追われる心配もないんだし、少しは静かに休んだらどう？",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "そうよ。せっかくこんな広くて誰もいない場所なのよ。追われる心配もないんだし、少しは静かに休んだらどう？"
+    },
+    {
+        "id": 21,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\",name2=\"npc_2001_Aya_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock",
+        "name2": "npc_2001_Aya_rock",
+        "focus": 2
+    },
+    {
+        "id": 22,
+        "raw": "[name=\"Aya\"]  でもAlty、ここでも海の匂いがするよ。本当に安全なの？",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "でもAlty、ここでも海の匂いがするよ。本当に安全なの？"
+    },
+    {
+        "id": 23,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\",name2=\"npc_2001_Aya_rock\",focus=1)]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock",
+        "name2": "npc_2001_Aya_rock",
+        "focus": 1
+    },
+    {
+        "id": 24,
+        "raw": "[name=\"Alty\"]  Ayaは相変わらず夢がないわね。",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "Ayaは相変わらず夢がないわね。"
+    },
+    {
+        "id": 25,
+        "raw": "[name=\"Alty\"]  この大地に安全な場所なんてないわ。でも私たちだって、たまにはリラックスしなきゃ。そうでしょ？",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "この大地に安全な場所なんてないわ。でも私たちだって、たまにはリラックスしなきゃ。そうでしょ？"
+    },
+    {
+        "id": 26,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\",name2=\"npc_2001_Aya_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock",
+        "name2": "npc_2001_Aya_rock",
+        "focus": 2
+    },
+    {
+        "id": 27,
+        "raw": "[name=\"Aya\"]  そうかもしれないけどさ。",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "そうかもしれないけどさ。"
+    },
+    {
+        "id": 28,
+        "raw": "[name=\"Aya\"]  それで、次はどうやって道を拓くの？　手ぶらで帰るわけにもいかないでしょ。",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "それで、次はどうやって道を拓くの？　手ぶらで帰るわけにもいかないでしょ。"
+    },
+    {
+        "id": 29,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\",name2=\"npc_2001_Aya_rock\",focus=1)]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock",
+        "name2": "npc_2001_Aya_rock",
+        "focus": 1
+    },
+    {
+        "id": 30,
+        "raw": "[name=\"Alty\"]  今回は、あの医者が答えをくれたわ。",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "今回は、あの医者が答えをくれたわ。"
+    },
+    {
+        "id": 31,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 32,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 33,
+        "raw": "Altyは手に握った「鍵」を見やった。",
+        "type": "narration",
+        "content": "Altyは手に握った「鍵」を見やった。"
+    },
+    {
+        "id": 34,
+        "raw": "[Character(name=\"npc_2002_Dan_rock\")]",
+        "type": "character",
+        "name": "npc_2002_Dan_rock"
+    },
+    {
+        "id": 35,
+        "raw": "[name=\"Dan\"]  おいおいマジか？　そりゃどー見ても普通の代物には見えねーんだけど、ホントに貰ったのか？　何かと交換したのか？",
+        "type": "dialog",
+        "speaker": "Dan",
+        "content": "おいおいマジか？　そりゃどー見ても普通の代物には見えねーんだけど、ホントに貰ったのか？　何かと交換したのか？"
+    },
+    {
+        "id": 36,
+        "raw": "[Character(name=\"npc_2002_Dan_rock\",name2=\"npc_2004_Alty_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2002_Dan_rock",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 2
+    },
+    {
+        "id": 37,
+        "raw": "[name=\"Alty\"]  ええ、知識とね。",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "ええ、知識とね。"
+    },
+    {
+        "id": 38,
+        "raw": "[Character(name=\"npc_2002_Dan_rock\",name2=\"npc_2004_Alty_rock\",focus=1)]",
+        "type": "character",
+        "name": "npc_2002_Dan_rock",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 1
+    },
+    {
+        "id": 39,
+        "raw": "[name=\"Dan\"]  知識とそいつで、釣り合いが取れんの？",
+        "type": "dialog",
+        "speaker": "Dan",
+        "content": "知識とそいつで、釣り合いが取れんの？"
+    },
+    {
+        "id": 40,
+        "raw": "[Character(name=\"npc_2002_Dan_rock\",name2=\"npc_2004_Alty_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2002_Dan_rock",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 2
+    },
+    {
+        "id": 41,
+        "raw": "[name=\"Alty\"]  さあね。でもあの医者はまるで、私たちにその知識を駆使するよう促してるみたいだったわ。",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "さあね。でもあの医者はまるで、私たちにその知識を駆使するよう促してるみたいだったわ。"
+    },
+    {
+        "id": 42,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\")]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock"
+    },
+    {
+        "id": 43,
+        "raw": "[name=\"Aya\"]  知識って、あの人が知らないこと？",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "知識って、あの人が知らないこと？"
+    },
+    {
+        "id": 44,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\")]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock"
+    },
+    {
+        "id": 45,
+        "raw": "[name=\"Alty\"]  いいえ、私たちが知ってることなら、恐らく彼女も……",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "いいえ、私たちが知ってることなら、恐らく彼女も……"
+    },
+    {
+        "id": 46,
+        "raw": "[name=\"Alty\"]  ……そうね。よくよく考えてみれば、今回の取引で彼女は、好奇心を利用することで私たちを動かしたのかもしれない。",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "……そうね。よくよく考えてみれば、今回の取引で彼女は、好奇心を利用することで私たちを動かしたのかもしれない。"
+    },
+    {
+        "id": 47,
+        "raw": "[Character(name=\"npc_2002_Dan_rock\")]",
+        "type": "character",
+        "name": "npc_2002_Dan_rock"
+    },
+    {
+        "id": 48,
+        "raw": "[name=\"Dan\"]  つまり、アイツは実質何も差し出してねーってこと？",
+        "type": "dialog",
+        "speaker": "Dan",
+        "content": "つまり、アイツは実質何も差し出してねーってこと？"
+    },
+    {
+        "id": 49,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\")]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock"
+    },
+    {
+        "id": 50,
+        "raw": "[name=\"Aya\"]  うん……",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "うん……"
+    },
+    {
+        "id": 51,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\")]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock"
+    },
+    {
+        "id": 52,
+        "raw": "[name=\"Alty\"]  そうなるわね……",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "そうなるわね……"
+    },
+    {
+        "id": 53,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\",name2=\"npc_2001_Aya_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock",
+        "name2": "npc_2001_Aya_rock",
+        "focus": 2
+    },
+    {
+        "id": 54,
+        "raw": "[name=\"Aya\"]  騙されたね。",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "騙されたね。"
+    },
+    {
+        "id": 55,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\",name2=\"npc_2001_Aya_rock\",focus=1)]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock",
+        "name2": "npc_2001_Aya_rock",
+        "focus": 1
+    },
+    {
+        "id": 56,
+        "raw": "[name=\"Alty\"]  いいえ、誘導されたと言ったほうが正しいわ。",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "いいえ、誘導されたと言ったほうが正しいわ。"
+    },
+    {
+        "id": 57,
+        "raw": "[Character(name=\"npc_2002_Dan_rock\")]",
+        "type": "character",
+        "name": "npc_2002_Dan_rock"
+    },
+    {
+        "id": 58,
+        "raw": "[name=\"Dan\"]  操られたってことじゃねーの？",
+        "type": "dialog",
+        "speaker": "Dan",
+        "content": "操られたってことじゃねーの？"
+    },
+    {
+        "id": 59,
+        "raw": "[Character(name=\"npc_2003_Frost_rock\")]",
+        "type": "character",
+        "name": "npc_2003_Frost_rock"
+    },
+    {
+        "id": 60,
+        "raw": "[name=\"Frost\"]  導かれた。",
+        "type": "dialog",
+        "speaker": "Frost",
+        "content": "導かれた。"
+    },
+    {
+        "id": 61,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\",name2=\"npc_2001_Aya_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock",
+        "name2": "npc_2001_Aya_rock",
+        "focus": 2
+    },
+    {
+        "id": 62,
+        "raw": "[name=\"Aya\"]  あの医者って、そんなに重要な人なの？",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "あの医者って、そんなに重要な人なの？"
+    },
+    {
+        "id": 63,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\",name2=\"npc_2001_Aya_rock\",focus=1)]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock",
+        "name2": "npc_2001_Aya_rock",
+        "focus": 1
+    },
+    {
+        "id": 64,
+        "raw": "[name=\"Alty\"]  いいえ。あの医者が伝えたかったのはまさにそれだと思うわ。彼女の言動は重要じゃないということをね。",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "いいえ。あの医者が伝えたかったのはまさにそれだと思うわ。彼女の言動は重要じゃないということをね。"
+    },
+    {
+        "id": 65,
+        "raw": "[name=\"Alty\"]  そう、重要なのは、私たちがどう考えて、どう動くか……",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "そう、重要なのは、私たちがどう考えて、どう動くか……"
+    },
+    {
+        "id": 66,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\",name2=\"npc_2001_Aya_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock",
+        "name2": "npc_2001_Aya_rock",
+        "focus": 2
+    },
+    {
+        "id": 67,
+        "raw": "[name=\"Aya\"]  じゃあ鍵はどうするの？　放っておく？　それともやっぱり行く？",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "じゃあ鍵はどうするの？　放っておく？　それともやっぱり行く？"
+    },
+    {
+        "id": 68,
+        "raw": "[Character(name=\"npc_2002_Dan_rock\",name2=\"npc_2004_Alty_rock\",focus=1)]",
+        "type": "character",
+        "name": "npc_2002_Dan_rock",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 1
+    },
+    {
+        "id": 69,
+        "raw": "[name=\"Dan\"]  めんどくせーよ。行かなきゃダメか？",
+        "type": "dialog",
+        "speaker": "Dan",
+        "content": "めんどくせーよ。行かなきゃダメか？"
+    },
+    {
+        "id": 70,
+        "raw": "[Character(name=\"npc_2002_Dan_rock\",name2=\"npc_2004_Alty_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2002_Dan_rock",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 2
+    },
+    {
+        "id": 71,
+        "raw": "[name=\"Alty\"]  これって音楽と同じだと思うわ……私たちは、他人を無理やり変えてしまうほどの力を持つべきじゃないの。ただ自分たちの歌を歌うだけでいい。",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "これって音楽と同じだと思うわ……私たちは、他人を無理やり変えてしまうほどの力を持つべきじゃないの。ただ自分たちの歌を歌うだけでいい。"
+    },
+    {
+        "id": 72,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\",name2=\"npc_2001_Aya_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock",
+        "name2": "npc_2001_Aya_rock",
+        "focus": 2
+    },
+    {
+        "id": 73,
+        "raw": "[name=\"Aya\"]  みんなに歌を聴かせて、それがいい歌なら――",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "みんなに歌を聴かせて、それがいい歌なら――"
+    },
+    {
+        "id": 74,
+        "raw": "[Character(name=\"npc_2002_Dan_rock\")]",
+        "type": "character",
+        "name": "npc_2002_Dan_rock"
+    },
+    {
+        "id": 75,
+        "raw": "[name=\"Dan\"]  人々も歌ってくれるってやつか。",
+        "type": "dialog",
+        "speaker": "Dan",
+        "content": "人々も歌ってくれるってやつか。"
+    },
+    {
+        "id": 76,
+        "raw": "[Character(name=\"npc_2003_Frost_rock\")]",
+        "type": "character",
+        "name": "npc_2003_Frost_rock"
+    },
+    {
+        "id": 77,
+        "raw": "[name=\"Frost\"]  （solo）",
+        "type": "dialog",
+        "speaker": "Frost",
+        "content": "（solo）"
+    },
+    {
+        "id": 78,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\")]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock"
+    },
+    {
+        "id": 79,
+        "raw": "[name=\"Alty\"]  はぁ。じゃあさらなる知識とこの鍵を、準備が整った人に渡してあげましょ。",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "はぁ。じゃあさらなる知識とこの鍵を、準備が整った人に渡してあげましょ。"
+    },
+    {
+        "id": 80,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\",name2=\"npc_2001_Aya_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock",
+        "name2": "npc_2001_Aya_rock",
+        "focus": 2
+    },
+    {
+        "id": 81,
+        "raw": "[name=\"Aya\"]  それって誰になるの？",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "それって誰になるの？"
+    },
+    {
+        "id": 82,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\",name2=\"npc_2001_Aya_rock\",focus=1)]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock",
+        "name2": "npc_2001_Aya_rock",
+        "focus": 1
+    },
+    {
+        "id": 83,
+        "raw": "[name=\"Alty\"]  わからないわ。",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "わからないわ。"
+    },
+    {
+        "id": 84,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\",name2=\"npc_2001_Aya_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock",
+        "name2": "npc_2001_Aya_rock",
+        "focus": 2
+    },
+    {
+        "id": 85,
+        "raw": "[name=\"Aya\"]  まだ生まれてきてないのかもね。",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "まだ生まれてきてないのかもね。"
+    },
+    {
+        "id": 86,
+        "raw": "[Character(name=\"npc_2002_Dan_rock\")]",
+        "type": "character",
+        "name": "npc_2002_Dan_rock"
+    },
+    {
+        "id": 87,
+        "raw": "[name=\"Dan\"]  そりゃーいいな！　まだ生まれてないでくれよー！",
+        "type": "dialog",
+        "speaker": "Dan",
+        "content": "そりゃーいいな！　まだ生まれてないでくれよー！"
+    },
+    {
+        "id": 88,
+        "raw": "[Character(name=\"npc_2002_Dan_rock\",name2=\"npc_2004_Alty_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2002_Dan_rock",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 2
+    },
+    {
+        "id": 89,
+        "raw": "[name=\"Alty\"]  そんなこと期待しないで、Dan。私たちはね……あら？",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "そんなこと期待しないで、Dan。私たちはね……あら？"
+    },
+    {
+        "id": 90,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\",name2=\"npc_2001_Aya_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock",
+        "name2": "npc_2001_Aya_rock",
+        "focus": 2
+    },
+    {
+        "id": 91,
+        "raw": "[name=\"Aya\"]  どうしたの、Alty。",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "どうしたの、Alty。"
+    },
+    {
+        "id": 92,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\",name2=\"npc_2001_Aya_rock\",focus=1)]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock",
+        "name2": "npc_2001_Aya_rock",
+        "focus": 1
+    },
+    {
+        "id": 93,
+        "raw": "[name=\"Alty\"]  車のエネルギーが切れたわ。",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "車のエネルギーが切れたわ。"
+    },
+    {
+        "id": 94,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\",name2=\"npc_2001_Aya_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock",
+        "name2": "npc_2001_Aya_rock",
+        "focus": 2
+    },
+    {
+        "id": 95,
+        "raw": "[name=\"Aya\"]  ちゃんと準備してなかったの？",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "ちゃんと準備してなかったの？"
+    },
+    {
+        "id": 96,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\",name2=\"npc_2001_Aya_rock\",focus=1)]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock",
+        "name2": "npc_2001_Aya_rock",
+        "focus": 1
+    },
+    {
+        "id": 97,
+        "raw": "[name=\"Alty\"]  してたわよ。だけど寄り道しちゃったでしょ。",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "してたわよ。だけど寄り道しちゃったでしょ。"
+    },
+    {
+        "id": 98,
+        "raw": "[name=\"Alty\"]  それに正直に言うと、こういう公道も標識もない荒野をずっと運転してると、簡単に方向感覚がなくなっちゃうのよね。",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "それに正直に言うと、こういう公道も標識もない荒野をずっと運転してると、簡単に方向感覚がなくなっちゃうのよね。"
+    },
+    {
+        "id": 99,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\",name2=\"npc_2001_Aya_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock",
+        "name2": "npc_2001_Aya_rock",
+        "focus": 2
+    },
+    {
+        "id": 100,
+        "raw": "[name=\"Aya\"]  それって私たち、迷子になっちゃったってこと？",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "それって私たち、迷子になっちゃったってこと？"
+    },
+    {
+        "id": 101,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\",name2=\"npc_2001_Aya_rock\",focus=1)]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock",
+        "name2": "npc_2001_Aya_rock",
+        "focus": 1
+    },
+    {
+        "id": 102,
+        "raw": "[name=\"Alty\"]  そうは言いきれないわ。おおよその方向は合ってるだろうし、新たな道を切り拓いていると言うべきね。",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "そうは言いきれないわ。おおよその方向は合ってるだろうし、新たな道を切り拓いていると言うべきね。"
+    },
+    {
+        "id": 103,
+        "raw": "[Character(name=\"npc_2003_Frost_rock\")]",
+        "type": "character",
+        "name": "npc_2003_Frost_rock"
+    },
+    {
+        "id": 104,
+        "raw": "[name=\"Frost\"]  迷子。",
+        "type": "dialog",
+        "speaker": "Frost",
+        "content": "迷子。"
+    },
+    {
+        "id": 105,
+        "raw": "[Character(name=\"npc_2002_Dan_rock\")]",
+        "type": "character",
+        "name": "npc_2002_Dan_rock"
+    },
+    {
+        "id": 106,
+        "raw": "[name=\"Dan\"]  迷子！　いいネタになるねぇ！",
+        "type": "dialog",
+        "speaker": "Dan",
+        "content": "迷子！　いいネタになるねぇ！"
+    },
+    {
+        "id": 107,
+        "raw": "[Character(name=\"npc_2002_Dan_rock\",name2=\"npc_2001_Aya_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2002_Dan_rock",
+        "name2": "npc_2001_Aya_rock",
+        "focus": 2
+    },
+    {
+        "id": 108,
+        "raw": "[name=\"Aya\"]  あーあ。Danのポジティブさは時々本気で見習いたくなるよ。それで、これからどうするの？",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "あーあ。Danのポジティブさは時々本気で見習いたくなるよ。それで、これからどうするの？"
+    },
+    {
+        "id": 109,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\",name2=\"npc_2004_Alty_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 2
+    },
+    {
+        "id": 110,
+        "raw": "[name=\"Alty\"]  向こうにジャングルがあるみたいだから、行ってみましょう。",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "向こうにジャングルがあるみたいだから、行ってみましょう。"
+    },
+    {
+        "id": 111,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\",name2=\"npc_2004_Alty_rock\",focus=1)]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 1
+    },
+    {
+        "id": 112,
+        "raw": "[name=\"Aya\"]  それはいいんだけど、誰が車を推すの？",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "それはいいんだけど、誰が車を推すの？"
+    },
+    {
+        "id": 113,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\")]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock"
+    },
+    {
+        "id": 114,
+        "raw": "[name=\"Alty\"]  順番に推すのもいいかもしれないわね。",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "順番に推すのもいいかもしれないわね。"
+    },
+    {
+        "id": 115,
+        "raw": "[stopmusic(fadetime=3)]",
+        "type": "stop_music",
+        "fadetime": 3
+    },
+    {
+        "id": 116,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 117,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 118,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 119,
+        "raw": "[Background(image=\"bg_jungleentrance\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_jungleentrance.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 120,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 121,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 122,
+        "raw": "[playMusic(intro=\"$path_intro\", key=\"$path_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/a001/m_dia_path_intro.mp3",
+        "key": "sound_beta_2/music/a001/m_dia_path_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 123,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\")]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock"
+    },
+    {
+        "id": 124,
+        "raw": "[name=\"Aya\"]  Alty。",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "Alty。"
+    },
+    {
+        "id": 125,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\",name2=\"npc_2004_Alty_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 2
+    },
+    {
+        "id": 126,
+        "raw": "[name=\"Alty\"]  なにかしら。",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "なにかしら。"
+    },
+    {
+        "id": 127,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\",name2=\"npc_2004_Alty_rock\",focus=1)]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 1
+    },
+    {
+        "id": 128,
+        "raw": "[name=\"Aya\"]  周りに人がたくさん集まってきてるよ。",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "周りに人がたくさん集まってきてるよ。"
+    },
+    {
+        "id": 129,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\",name2=\"npc_2004_Alty_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 2
+    },
+    {
+        "id": 130,
+        "raw": "[name=\"Alty\"]  そうね。",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "そうね。"
+    },
+    {
+        "id": 131,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 132,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 133,
+        "raw": "[Character(name=\"avg_npc_073\", name2=\"avg_npc_070\",fadetime=1,block=true)]",
+        "type": "character",
+        "name": "avg_npc_073",
+        "name2": "avg_npc_070",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 134,
+        "raw": "[delay(time=3)]",
+        "type": "delay",
+        "time": 3
+    },
+    {
+        "id": 135,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 136,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 137,
+        "raw": "[Character(name=\"avg_npc_071\", name2=\"avg_npc_072\",fadetime=1,block=true)]",
+        "type": "character",
+        "name": "avg_npc_071",
+        "name2": "avg_npc_072",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 138,
+        "raw": "[delay(time=3)]",
+        "type": "delay",
+        "time": 3
+    },
+    {
+        "id": 139,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\",name2=\"npc_2004_Alty_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 2
+    },
+    {
+        "id": 140,
+        "raw": "[name=\"Alty\"]  でも、何言ってるかわからないわ。",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "でも、何言ってるかわからないわ。"
+    },
+    {
+        "id": 141,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\",name2=\"npc_2004_Alty_rock\",focus=1)]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 1
+    },
+    {
+        "id": 142,
+        "raw": "[name=\"Aya\"]  だからって、ついてくるのをこのまま放っとくの？",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "だからって、ついてくるのをこのまま放っとくの？"
+    },
+    {
+        "id": 143,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\",name2=\"npc_2004_Alty_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 2
+    },
+    {
+        "id": 144,
+        "raw": "[name=\"Alty\"]  何かアイデアでもあるの？",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "何かアイデアでもあるの？"
+    },
+    {
+        "id": 145,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\",name2=\"npc_2004_Alty_rock\",focus=1)]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 1
+    },
+    {
+        "id": 146,
+        "raw": "[name=\"Aya\"]  全部やっつけちゃったら？",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "全部やっつけちゃったら？"
+    },
+    {
+        "id": 147,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\",name2=\"npc_2004_Alty_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 2
+    },
+    {
+        "id": 148,
+        "raw": "[name=\"Alty\"]  あなたがFrostとDanを説得できるならね。",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "あなたがFrostとDanを説得できるならね。"
+    },
+    {
+        "id": 149,
+        "raw": "[Character(name=\"npc_2003_Frost_rock\")]",
+        "type": "character",
+        "name": "npc_2003_Frost_rock"
+    },
+    {
+        "id": 150,
+        "raw": "[name=\"Frost\"]  （弾き歌い）",
+        "type": "dialog",
+        "speaker": "Frost",
+        "content": "（弾き歌い）"
+    },
+    {
+        "id": 151,
+        "raw": "[Character(name=\"avg_npc_071\", name2=\"avg_npc_072\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_071",
+        "name2": "avg_npc_072",
+        "focus": 1
+    },
+    {
+        "id": 152,
+        "raw": "[name=\"アダクリス人A\"]  &*……%￥……&（なんだこの音！　すげえいい響きだな！？）",
+        "type": "dialog",
+        "speaker": "アダクリス人A",
+        "content": "&*……%￥……&（なんだこの音！　すげえいい響きだな！？）"
+    },
+    {
+        "id": 153,
+        "raw": "[Character(name=\"avg_npc_071\", name2=\"avg_npc_072\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_071",
+        "name2": "avg_npc_072",
+        "focus": 2
+    },
+    {
+        "id": 154,
+        "raw": "[name=\"アダクリス人B\"]  &%……%（こんなすごい音、聞いたことない……）",
+        "type": "dialog",
+        "speaker": "アダクリス人B",
+        "content": "&%……%（こんなすごい音、聞いたことない……）"
+    },
+    {
+        "id": 155,
+        "raw": "[Character(name=\"npc_2002_Dan_rock\")]",
+        "type": "character",
+        "name": "npc_2002_Dan_rock"
+    },
+    {
+        "id": 156,
+        "raw": "[name=\"Dan\"]  よう！　みんな！",
+        "type": "dialog",
+        "speaker": "Dan",
+        "content": "よう！　みんな！"
+    },
+    {
+        "id": 157,
+        "raw": "[name=\"Dan\"]  何喋ってるかアタシにも教えてくれねー？",
+        "type": "dialog",
+        "speaker": "Dan",
+        "content": "何喋ってるかアタシにも教えてくれねー？"
+    },
+    {
+        "id": 158,
+        "raw": "[name=\"Dan\"]  あっ、教えてくれても聞き取れねーか。",
+        "type": "dialog",
+        "speaker": "Dan",
+        "content": "あっ、教えてくれても聞き取れねーか。"
+    },
+    {
+        "id": 159,
+        "raw": "[Character(name=\"avg_npc_073\", name2=\"avg_npc_070\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_073",
+        "name2": "avg_npc_070",
+        "focus": 1
+    },
+    {
+        "id": 160,
+        "raw": "[name=\"アダクリス人C\"]  ……%&￥（この人たち、どこから来たの！？）",
+        "type": "dialog",
+        "speaker": "アダクリス人C",
+        "content": "……%&￥（この人たち、どこから来たの！？）"
+    },
+    {
+        "id": 161,
+        "raw": "[Character(name=\"avg_npc_073\", name2=\"avg_npc_070\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_073",
+        "name2": "avg_npc_070",
+        "focus": 2
+    },
+    {
+        "id": 162,
+        "raw": "[name=\"アダクリス人D\"]  ￥……&#（こいつ、すげぇ変な恰好してんなぁ！）",
+        "type": "dialog",
+        "speaker": "アダクリス人D",
+        "content": "￥……&#（こいつ、すげぇ変な恰好してんなぁ！）"
+    },
+    {
+        "id": 163,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\",name2=\"npc_2004_Alty_rock\",focus=1)]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 1
+    },
+    {
+        "id": 164,
+        "raw": "[name=\"Aya\"]  ま、いっか。少なくともここは、無人地帯じゃないみたいだね。",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "ま、いっか。少なくともここは、無人地帯じゃないみたいだね。"
+    },
+    {
+        "id": 165,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\",name2=\"npc_2004_Alty_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 2
+    },
+    {
+        "id": 166,
+        "raw": "[name=\"Alty\"]  どこか補給できる場所があればいいんだけど。",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "どこか補給できる場所があればいいんだけど。"
+    },
+    {
+        "id": 167,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\",name2=\"npc_2004_Alty_rock\",focus=1)]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 1
+    },
+    {
+        "id": 168,
+        "raw": "[name=\"Aya\"]  Alty、そんな夢みたいなこと言わないで。",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "Alty、そんな夢みたいなこと言わないで。"
+    },
+    {
+        "id": 169,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 170,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 171,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3"
+    },
+    {
+        "id": 172,
+        "raw": "[Character(name=\"char_416_zumama_1\",fadetime=1,block=true)]",
+        "type": "character",
+        "name": "char_416_zumama_1",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 173,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 174,
+        "raw": "[name=\"ユーネクテス\"]  お前たち、異郷人か？",
+        "type": "dialog",
+        "speaker": "ユーネクテス",
+        "content": "お前たち、異郷人か？"
+    },
+    {
+        "id": 175,
+        "raw": "[Character(name=\"char_416_zumama_1\",name2=\"npc_2004_Alty_rock\",focus=2)]",
+        "type": "character",
+        "name": "char_416_zumama_1",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 2
+    },
+    {
+        "id": 176,
+        "raw": "[name=\"Alty\"]  あら？　あなたが話してるのってサルゴン語？",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "あら？　あなたが話してるのってサルゴン語？"
+    },
+    {
+        "id": 177,
+        "raw": "[Character(name=\"char_416_zumama_1\",name2=\"npc_2004_Alty_rock\",focus=1)]",
+        "type": "character",
+        "name": "char_416_zumama_1",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 1
+    },
+    {
+        "id": 178,
+        "raw": "[name=\"ユーネクテス\"]  ふむ、確かに異郷人のようだな。",
+        "type": "dialog",
+        "speaker": "ユーネクテス",
+        "content": "ふむ、確かに異郷人のようだな。"
+    },
+    {
+        "id": 179,
+        "raw": "[name=\"ユーネクテス\"]  ここに何の用だ？",
+        "type": "dialog",
+        "speaker": "ユーネクテス",
+        "content": "ここに何の用だ？"
+    },
+    {
+        "id": 180,
+        "raw": "[Character(name=\"char_416_zumama_1\",name2=\"npc_2004_Alty_rock\",focus=2)]",
+        "type": "character",
+        "name": "char_416_zumama_1",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 2
+    },
+    {
+        "id": 181,
+        "raw": "[name=\"Alty\"]  私たちの車、エネルギー切れしちゃったの。だから補給させてほしいと思ってね。アーツがわかる人はいるかしら？",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "私たちの車、エネルギー切れしちゃったの。だから補給させてほしいと思ってね。アーツがわかる人はいるかしら？"
+    },
+    {
+        "id": 182,
+        "raw": "[Character(name=\"char_416_zumama_1\",name2=\"npc_2004_Alty_rock\",focus=1)]",
+        "type": "character",
+        "name": "char_416_zumama_1",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 1
+    },
+    {
+        "id": 183,
+        "raw": "[name=\"ユーネクテス\"]  ……ついてこい。",
+        "type": "dialog",
+        "speaker": "ユーネクテス",
+        "content": "……ついてこい。"
+    },
+    {
+        "id": 184,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\",name2=\"npc_2004_Alty_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 2
+    },
+    {
+        "id": 185,
+        "raw": "[name=\"Alty\"]  ほらね、Aya。希望が見えたわ。",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "ほらね、Aya。希望が見えたわ。"
+    },
+    {
+        "id": 186,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\",name2=\"npc_2004_Alty_rock\",focus=1)]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 1
+    },
+    {
+        "id": 187,
+        "raw": "[name=\"Aya\"]  へぇ、ホントこの大地って不思議がいっぱい。",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "へぇ、ホントこの大地って不思議がいっぱい。"
+    },
+    {
+        "id": 188,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 189,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 190,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 191,
+        "raw": "[Background(image=\"bg_village_2\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_village_2.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 192,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 193,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 194,
+        "raw": "[Character(name=\"npc_2002_Dan_rock\")]",
+        "type": "character",
+        "name": "npc_2002_Dan_rock"
+    },
+    {
+        "id": 195,
+        "raw": "[name=\"Dan\"]  おいおいおい、おいおいおいおいおい、なんだよこれ、いったいどういうことなんだ！",
+        "type": "dialog",
+        "speaker": "Dan",
+        "content": "おいおいおい、おいおいおいおいおい、なんだよこれ、いったいどういうことなんだ！"
+    },
+    {
+        "id": 196,
+        "raw": "[name=\"Dan\"]  どっからどー見ても原始的なジャングルに、こんな村があんのか！",
+        "type": "dialog",
+        "speaker": "Dan",
+        "content": "どっからどー見ても原始的なジャングルに、こんな村があんのか！"
+    },
+    {
+        "id": 197,
+        "raw": "[Character(name=\"npc_2003_Frost_rock\")]",
+        "type": "character",
+        "name": "npc_2003_Frost_rock"
+    },
+    {
+        "id": 198,
+        "raw": "[name=\"Frost\"]  （鼻歌）～♪",
+        "type": "dialog",
+        "speaker": "Frost",
+        "content": "（鼻歌）～♪"
+    },
+    {
+        "id": 199,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\")]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock"
+    },
+    {
+        "id": 200,
+        "raw": "[name=\"Aya\"]  確かにびっくりだね。どの建物も現代建築の面影がありながら、原始的な美しさを残してる。",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "確かにびっくりだね。どの建物も現代建築の面影がありながら、原始的な美しさを残してる。"
+    },
+    {
+        "id": 201,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\")]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock"
+    },
+    {
+        "id": 202,
+        "raw": "[name=\"Alty\"]  変だけど、ユニークね。",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "変だけど、ユニークね。"
+    },
+    {
+        "id": 203,
+        "raw": "[Character(name=\"char_416_zumama_1\")]",
+        "type": "character",
+        "name": "char_416_zumama_1"
+    },
+    {
+        "id": 204,
+        "raw": "[name=\"ユーネクテス\"]  私はこの部族の族長、ズゥママだ。この部族では大半の者が、お前たちの言葉を理解できる。",
+        "type": "dialog",
+        "speaker": "ユーネクテス",
+        "content": "私はこの部族の族長、ズゥママだ。この部族では大半の者が、お前たちの言葉を理解できる。"
+    },
+    {
+        "id": 205,
+        "raw": "[name=\"ユーネクテス\"]  部族の祭司たちに車のエネルギーを補給させてやってもいいが、一つ条件がある。",
+        "type": "dialog",
+        "speaker": "ユーネクテス",
+        "content": "部族の祭司たちに車のエネルギーを補給させてやってもいいが、一つ条件がある。"
+    },
+    {
+        "id": 206,
+        "raw": "[Character(name=\"char_416_zumama_1\",name2=\"npc_2004_Alty_rock\",focus=2)]",
+        "type": "character",
+        "name": "char_416_zumama_1",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 2
+    },
+    {
+        "id": 207,
+        "raw": "[name=\"Alty\"]  なに？",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "なに？"
+    },
+    {
+        "id": 208,
+        "raw": "[Character(name=\"char_416_zumama_1\",name2=\"npc_2004_Alty_rock\",focus=1)]",
+        "type": "character",
+        "name": "char_416_zumama_1",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 1
+    },
+    {
+        "id": 209,
+        "raw": "[name=\"ユーネクテス\"]  車の内部構造が見たい。",
+        "type": "dialog",
+        "speaker": "ユーネクテス",
+        "content": "車の内部構造が見たい。"
+    },
+    {
+        "id": 210,
+        "raw": "[Character(name=\"char_416_zumama_1\",name2=\"npc_2004_Alty_rock\",focus=2)]",
+        "type": "character",
+        "name": "char_416_zumama_1",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 2
+    },
+    {
+        "id": 211,
+        "raw": "[name=\"Alty\"]  ……それだけでいいの？",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "……それだけでいいの？"
+    },
+    {
+        "id": 212,
+        "raw": "[Character(name=\"char_416_zumama_1\",name2=\"npc_2004_Alty_rock\",focus=1)]",
+        "type": "character",
+        "name": "char_416_zumama_1",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 1
+    },
+    {
+        "id": 213,
+        "raw": "[name=\"ユーネクテス\"]  ああ。",
+        "type": "dialog",
+        "speaker": "ユーネクテス",
+        "content": "ああ。"
+    },
+    {
+        "id": 214,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\")]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock"
+    },
+    {
+        "id": 215,
+        "raw": "[name=\"Aya\"]  車を壊さないって保証はあるの？",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "車を壊さないって保証はあるの？"
+    },
+    {
+        "id": 216,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\",name2=\"char_416_zumama_1\",focus=2)]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock",
+        "name2": "char_416_zumama_1",
+        "focus": 2
+    },
+    {
+        "id": 217,
+        "raw": "[name=\"ユーネクテス\"]  壊さない。たぶん。",
+        "type": "dialog",
+        "speaker": "ユーネクテス",
+        "content": "壊さない。たぶん。"
+    },
+    {
+        "id": 218,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\")]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock"
+    },
+    {
+        "id": 219,
+        "raw": "[name=\"Aya\"]  Alty?",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "Alty?"
+    },
+    {
+        "id": 220,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\")]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock"
+    },
+    {
+        "id": 221,
+        "raw": "[name=\"Alty\"]  背に腹は代えられないわ。",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "背に腹は代えられないわ。"
+    },
+    {
+        "id": 222,
+        "raw": "[Character(name=\"char_416_zumama_1\")]",
+        "type": "character",
+        "name": "char_416_zumama_1"
+    },
+    {
+        "id": 223,
+        "raw": "[name=\"ユーネクテス\"]  それでどうなんだ？",
+        "type": "dialog",
+        "speaker": "ユーネクテス",
+        "content": "それでどうなんだ？"
+    },
+    {
+        "id": 224,
+        "raw": "[Character(name=\"char_416_zumama_1\",name2=\"npc_2004_Alty_rock\",focus=2)]",
+        "type": "character",
+        "name": "char_416_zumama_1",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 2
+    },
+    {
+        "id": 225,
+        "raw": "[name=\"Alty\"]  取引成立よ。",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "取引成立よ。"
+    },
+    {
+        "id": 226,
+        "raw": "[Character(name=\"char_416_zumama_1\")]",
+        "type": "character",
+        "name": "char_416_zumama_1"
+    },
+    {
+        "id": 227,
+        "raw": "[name=\"ユーネクテス\"]  わかった。じいや。",
+        "type": "dialog",
+        "speaker": "ユーネクテス",
+        "content": "わかった。じいや。"
+    },
+    {
+        "id": 228,
+        "raw": "[Character(name=\"avg_npc_074\")]",
+        "type": "character",
+        "name": "avg_npc_074"
+    },
+    {
+        "id": 229,
+        "raw": "[name=\"大祭司\"]  なんじゃ！　……ん？",
+        "type": "dialog",
+        "speaker": "大祭司",
+        "content": "なんじゃ！　……ん？"
+    },
+    {
+        "id": 230,
+        "raw": "[name=\"大祭司\"]  むむむ？",
+        "type": "dialog",
+        "speaker": "大祭司",
+        "content": "むむむ？"
+    },
+    {
+        "id": 231,
+        "raw": "[name=\"大祭司\"]  お前さんたちは……",
+        "type": "dialog",
+        "speaker": "大祭司",
+        "content": "お前さんたちは……"
+    },
+    {
+        "id": 232,
+        "raw": "[Character(name=\"avg_npc_074\",name2=\"npc_2004_Alty_rock\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_074",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 2
+    },
+    {
+        "id": 233,
+        "raw": "[name=\"Alty\"]  あなたは……",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "あなたは……"
+    },
+    {
+        "id": 234,
+        "raw": "[name=\"Alty\"]  まさかこんなところで、あなたみたいな存在と出会えるなんてね。",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "まさかこんなところで、あなたみたいな存在と出会えるなんてね。"
+    },
+    {
+        "id": 235,
+        "raw": "[Character(name=\"avg_npc_074\",name2=\"npc_2004_Alty_rock\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_074",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 1
+    },
+    {
+        "id": 236,
+        "raw": "[name=\"大祭司\"]  ふむ、正直に言うと、わしも同じことを思ったぞ。",
+        "type": "dialog",
+        "speaker": "大祭司",
+        "content": "ふむ、正直に言うと、わしも同じことを思ったぞ。"
+    },
+    {
+        "id": 237,
+        "raw": "[name=\"大祭司\"]  じゃがわしは、お前さんたちより、お前さんたちの車のほうに興味があるぞい！",
+        "type": "dialog",
+        "speaker": "大祭司",
+        "content": "じゃがわしは、お前さんたちより、お前さんたちの車のほうに興味があるぞい！"
+    },
+    {
+        "id": 238,
+        "raw": "[Character(name=\"avg_npc_074\",name2=\"npc_2004_Alty_rock\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_074",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 2
+    },
+    {
+        "id": 239,
+        "raw": "[name=\"Alty\"]  それじゃ、お好きにどうぞ。",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "それじゃ、お好きにどうぞ。"
+    },
+    {
+        "id": 240,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\",name2=\"npc_2004_Alty_rock\",focus=1)]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 1
+    },
+    {
+        "id": 241,
+        "raw": "[name=\"Aya\"]  さっきも言ったけど、ホントこの大地って不思議がいっぱいだね。",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "さっきも言ったけど、ホントこの大地って不思議がいっぱいだね。"
+    },
+    {
+        "id": 242,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\",name2=\"npc_2004_Alty_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 2
+    },
+    {
+        "id": 243,
+        "raw": "[name=\"Alty\"]  珍しく同意見よ。",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "珍しく同意見よ。"
+    },
+    {
+        "id": 244,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 245,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 246,
+        "raw": "[stopmusic(fadetime=1)]",
+        "type": "stop_music",
+        "fadetime": 1
+    },
+    {
+        "id": 247,
+        "raw": "一方、Frostはギターを祭祀用のスピーカーに繋ぎ、即興のソロを演奏し始めた。",
+        "type": "narration",
+        "content": "一方、Frostはギターを祭祀用のスピーカーに繋ぎ、即興のソロを演奏し始めた。"
+    },
+    {
+        "id": 248,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\")]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock"
+    },
+    {
+        "id": 249,
+        "raw": "[name=\"Alty\"]  いい曲ね、Frost。",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "いい曲ね、Frost。"
+    },
+    {
+        "id": 250,
+        "raw": "[Character(name=\"npc_2003_Frost_rock\")]",
+        "type": "character",
+        "name": "npc_2003_Frost_rock"
+    },
+    {
+        "id": 251,
+        "raw": "[name=\"Frost\"]  この不思議な村から、インスピレーションを貰った。",
+        "type": "dialog",
+        "speaker": "Frost",
+        "content": "この不思議な村から、インスピレーションを貰った。"
+    },
+    {
+        "id": 252,
+        "raw": "[Character(name=\"npc_2002_Dan_rock\")]",
+        "type": "character",
+        "name": "npc_2002_Dan_rock"
+    },
+    {
+        "id": 253,
+        "raw": "[name=\"Dan\"]  イケてんねー、Frost。メロディーに変化を取り入れてみたんだな。",
+        "type": "dialog",
+        "speaker": "Dan",
+        "content": "イケてんねー、Frost。メロディーに変化を取り入れてみたんだな。"
+    },
+    {
+        "id": 254,
+        "raw": "[Character(name=\"npc_2003_Frost_rock\")]",
+        "type": "character",
+        "name": "npc_2003_Frost_rock"
+    },
+    {
+        "id": 255,
+        "raw": "[playMusic(intro=\"$bat_Imfxingback_intro\", key=\"$bat_Imfxingback_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act12d0d0/m_bat_imfxingback_intro.mp3",
+        "key": "sound_beta_2/music/act12d0d0/m_bat_imfxingback_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 256,
+        "raw": "[name=\"Frost\"]  灼熱、抑圧……",
+        "type": "dialog",
+        "speaker": "Frost",
+        "content": "灼熱、抑圧……"
+    },
+    {
+        "id": 257,
+        "raw": "[name=\"Frost\"]  この曲の名前は……『D』！",
+        "type": "dialog",
+        "speaker": "Frost",
+        "content": "この曲の名前は……『D』！"
+    },
+    {
+        "id": 258,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 259,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 260,
+        "raw": "[name=\"アダクリス人A\"]  なんだこの音？",
+        "type": "dialog",
+        "speaker": "アダクリス人A",
+        "content": "なんだこの音？"
+    },
+    {
+        "id": 261,
+        "raw": "[name=\"アダクリス人B\"]  一体なんの音なんだ？　全身から力が湧いてくるぜ！",
+        "type": "dialog",
+        "speaker": "アダクリス人B",
+        "content": "一体なんの音なんだ？　全身から力が湧いてくるぜ！"
+    },
+    {
+        "id": 262,
+        "raw": "[name=\"アダクリス人C\"]  さっき来た異郷人たちがやってるみたいだ！　見に行こうぜ！",
+        "type": "dialog",
+        "speaker": "アダクリス人C",
+        "content": "さっき来た異郷人たちがやってるみたいだ！　見に行こうぜ！"
+    },
+    {
+        "id": 263,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\",name2=\"npc_2004_Alty_rock\",focus=1)]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 1
+    },
+    {
+        "id": 264,
+        "raw": "[name=\"Aya\"]  人がどんどん集まって来たよ、Alty……",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "人がどんどん集まって来たよ、Alty……"
+    },
+    {
+        "id": 265,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\",name2=\"npc_2004_Alty_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 2
+    },
+    {
+        "id": 266,
+        "raw": "[name=\"Alty\"]  まずいわね。",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "まずいわね。"
+    },
+    {
+        "id": 267,
+        "raw": "[Character(name=\"npc_2003_Frost_rock\")]",
+        "type": "character",
+        "name": "npc_2003_Frost_rock"
+    },
+    {
+        "id": 268,
+        "raw": "[name=\"Frost\"]  生命たちが渇望してる！　音楽を！　力を！　そして……",
+        "type": "dialog",
+        "speaker": "Frost",
+        "content": "生命たちが渇望してる！　音楽を！　力を！　そして……"
+    },
+    {
+        "id": 269,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 270,
+        "raw": "[name=\"アダクリス人B\"]  この音は！",
+        "type": "dialog",
+        "speaker": "アダクリス人B",
+        "content": "この音は！"
+    },
+    {
+        "id": 271,
+        "raw": "[name=\"アダクリス人C\"]  なぁ異郷人、もっと音を残していってくれ！",
+        "type": "dialog",
+        "speaker": "アダクリス人C",
+        "content": "なぁ異郷人、もっと音を残していってくれ！"
+    },
+    {
+        "id": 272,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\",name2=\"npc_2004_Alty_rock\",focus=1)]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 1
+    },
+    {
+        "id": 273,
+        "raw": "[name=\"Aya\"]  Alty……この雰囲気良くない？",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "Alty……この雰囲気良くない？"
+    },
+    {
+        "id": 274,
+        "raw": "[name=\"Aya\"]  いっそのこと、私たちのスピーカーも運び出してさ、一曲演奏してあげようよ。",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "いっそのこと、私たちのスピーカーも運び出してさ、一曲演奏してあげようよ。"
+    },
+    {
+        "id": 275,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\",name2=\"npc_2004_Alty_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 2
+    },
+    {
+        "id": 276,
+        "raw": "[name=\"Alty\"]  反対はしないわ。",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "反対はしないわ。"
+    },
+    {
+        "id": 277,
+        "raw": "[Character(name=\"npc_2002_Dan_rock\")]",
+        "type": "character",
+        "name": "npc_2002_Dan_rock"
+    },
+    {
+        "id": 278,
+        "raw": "[name=\"Dan\"]  いいじゃんいいじゃん！　こんなサイッコーのアレンジを聞かされたら、アタシだって我慢できねぇーよ！",
+        "type": "dialog",
+        "speaker": "Dan",
+        "content": "いいじゃんいいじゃん！　こんなサイッコーのアレンジを聞かされたら、アタシだって我慢できねぇーよ！"
+    },
+    {
+        "id": 279,
+        "raw": "[name=\"Dan\"]  Frostだけにいい恰好はさせねーぞ！",
+        "type": "dialog",
+        "speaker": "Dan",
+        "content": "Frostだけにいい恰好はさせねーぞ！"
+    },
+    {
+        "id": 280,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\")]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock"
+    },
+    {
+        "id": 281,
+        "raw": "[name=\"Alty\"]  そうね。ここの人たちに、AUSの音楽を感じてもらいましょう！",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "そうね。ここの人たちに、AUSの音楽を感じてもらいましょう！"
+    },
+    {
+        "id": 282,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 283,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 284,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 285,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 286,
+        "raw": "[PlaySound(key=\"$livecrowd\", volume=0.2, loop=false, channel=\"people\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_livecrowd.mp3",
+        "volume": "0.2,",
+        "loop": "false,",
+        "channel": "people"
+    },
+    {
+        "id": 287,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 288,
+        "raw": "[name=\"アダクリス人A\"]  ただ変な音が並んでるだけなのに、興奮が止まんねぇ！",
+        "type": "dialog",
+        "speaker": "アダクリス人A",
+        "content": "ただ変な音が並んでるだけなのに、興奮が止まんねぇ！"
+    },
+    {
+        "id": 289,
+        "raw": "[name=\"アダクリス人B\"]  まさかこれも祭司たちが使ってる祭楽と同じ、「楽曲」ってやつなのか？",
+        "type": "dialog",
+        "speaker": "アダクリス人B",
+        "content": "まさかこれも祭司たちが使ってる祭楽と同じ、「楽曲」ってやつなのか？"
+    },
+    {
+        "id": 290,
+        "raw": "[name=\"アダクリス人C\"]  こんな楽曲、今まで聞いたことねぇ！　あいつらは一体何モンだ！",
+        "type": "dialog",
+        "speaker": "アダクリス人C",
+        "content": "こんな楽曲、今まで聞いたことねぇ！　あいつらは一体何モンだ！"
+    },
+    {
+        "id": 291,
+        "raw": "[name=\"アダクリス人D\"]  わかった、きっとあいつらは「クイカヨーティ」なんだ！",
+        "type": "dialog",
+        "speaker": "アダクリス人D",
+        "content": "わかった、きっとあいつらは「クイカヨーティ」なんだ！"
+    },
+    {
+        "id": 292,
+        "raw": "[Character(name=\"npc_2002_Dan_rock\")]",
+        "type": "character",
+        "name": "npc_2002_Dan_rock"
+    },
+    {
+        "id": 293,
+        "raw": "[name=\"Dan\"]  「クイカヨーティ」？　なんだそれー？",
+        "type": "dialog",
+        "speaker": "Dan",
+        "content": "「クイカヨーティ」？　なんだそれー？"
+    },
+    {
+        "id": 294,
+        "raw": "[Character(name=\"avg_npc_074\")]",
+        "type": "character",
+        "name": "avg_npc_074"
+    },
+    {
+        "id": 295,
+        "raw": "[name=\"大祭司\"]  ふむ、彼らの言語で「歌う人」という意味じゃ。",
+        "type": "dialog",
+        "speaker": "大祭司",
+        "content": "ふむ、彼らの言語で「歌う人」という意味じゃ。"
+    },
+    {
+        "id": 296,
+        "raw": "[name=\"大祭司\"]  ここは長きに渡って「クイカヨーティ」が不在じゃったからのう。お前さんたちの音楽が、皆の心を完全に虜にしてしまったんじゃ。",
+        "type": "dialog",
+        "speaker": "大祭司",
+        "content": "ここは長きに渡って「クイカヨーティ」が不在じゃったからのう。お前さんたちの音楽が、皆の心を完全に虜にしてしまったんじゃ。"
+    },
+    {
+        "id": 297,
+        "raw": "[name=\"大祭司\"]  まあ正直に言ってしまうと、お前さんたちの音楽は、わしが昔に聞いた「クイカヨーティ」とはまったく違うがの！",
+        "type": "dialog",
+        "speaker": "大祭司",
+        "content": "まあ正直に言ってしまうと、お前さんたちの音楽は、わしが昔に聞いた「クイカヨーティ」とはまったく違うがの！"
+    },
+    {
+        "id": 298,
+        "raw": "[name=\"大祭司\"]  じゃが大丈夫じゃ、お前さんたちの音楽の方が面白い！",
+        "type": "dialog",
+        "speaker": "大祭司",
+        "content": "じゃが大丈夫じゃ、お前さんたちの音楽の方が面白い！"
+    },
+    {
+        "id": 299,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 300,
+        "raw": "[name=\"アダクリス人E\"]  「クイカヨーティ」、もう一曲聞かせてくれ！",
+        "type": "dialog",
+        "speaker": "アダクリス人E",
+        "content": "「クイカヨーティ」、もう一曲聞かせてくれ！"
+    },
+    {
+        "id": 301,
+        "raw": "[name=\"アダクリス人F\"]  欲しいものは全部やるから、どうかもう一曲！",
+        "type": "dialog",
+        "speaker": "アダクリス人F",
+        "content": "欲しいものは全部やるから、どうかもう一曲！"
+    },
+    {
+        "id": 302,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\")]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock"
+    },
+    {
+        "id": 303,
+        "raw": "[name=\"Aya\"]  Alty、どうするの？",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "Alty、どうするの？"
+    },
+    {
+        "id": 304,
+        "raw": "[Character(name=\"npc_2002_Dan_rock\")]",
+        "type": "character",
+        "name": "npc_2002_Dan_rock"
+    },
+    {
+        "id": 305,
+        "raw": "[name=\"Dan\"]  しばらく残ろうぜー、Alty！",
+        "type": "dialog",
+        "speaker": "Dan",
+        "content": "しばらく残ろうぜー、Alty！"
+    },
+    {
+        "id": 306,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\")]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock"
+    },
+    {
+        "id": 307,
+        "raw": "[name=\"Alty\"]  私たちの目的を忘れないでって言いたいけれど……",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "私たちの目的を忘れないでって言いたいけれど……"
+    },
+    {
+        "id": 308,
+        "raw": "[name=\"Alty\"]  まあいいわ、時間はたっぷりあるし。",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "まあいいわ、時間はたっぷりあるし。"
+    },
+    {
+        "id": 309,
+        "raw": "[stopmusic(fadetime=3)]",
+        "type": "stop_music",
+        "fadetime": 3
+    },
+    {
+        "id": 310,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 311,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 312,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 313,
+        "raw": "[Background(image=\"bg_jungle_1\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_jungle_1.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 314,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 315,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 316,
+        "raw": "[playMusic(intro=\"$path_intro\", key=\"$path_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/a001/m_dia_path_intro.mp3",
+        "key": "sound_beta_2/music/a001/m_dia_path_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 317,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\")]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock"
+    },
+    {
+        "id": 318,
+        "raw": "[name=\"Aya\"]  こんなところにもトランスポーターがいるんだね。",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "こんなところにもトランスポーターがいるんだね。"
+    },
+    {
+        "id": 319,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\", name2=\"avg_npc_075\", focus=2)]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock",
+        "name2": "avg_npc_075",
+        "focus": 2
+    },
+    {
+        "id": 320,
+        "raw": "[name=\"イナム\"]  そっちこそ……雑誌でしか見たことないAUSがここに来るとは思わなかったわ。",
+        "type": "dialog",
+        "speaker": "イナム",
+        "content": "そっちこそ……雑誌でしか見たことないAUSがここに来るとは思わなかったわ。"
+    },
+    {
+        "id": 321,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\", name2=\"avg_npc_075\", focus=1)]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock",
+        "name2": "avg_npc_075",
+        "focus": 1
+    },
+    {
+        "id": 322,
+        "raw": "[name=\"Alty\"]  ズゥママは？",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "ズゥママは？"
+    },
+    {
+        "id": 323,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\", name2=\"avg_npc_075\", focus=2)]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock",
+        "name2": "avg_npc_075",
+        "focus": 2
+    },
+    {
+        "id": 324,
+        "raw": "[name=\"イナム\"]  あんたたちが使いたいって言ってたスピーカーを作ってる。代わりに私が道案内をしてあげるわ。",
+        "type": "dialog",
+        "speaker": "イナム",
+        "content": "あんたたちが使いたいって言ってたスピーカーを作ってる。代わりに私が道案内をしてあげるわ。"
+    },
+    {
+        "id": 325,
+        "raw": "[name=\"イナム\"]  ここにはどのくらい滞在するつもり？",
+        "type": "dialog",
+        "speaker": "イナム",
+        "content": "ここにはどのくらい滞在するつもり？"
+    },
+    {
+        "id": 326,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\", name2=\"avg_npc_075\", focus=1)]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock",
+        "name2": "avg_npc_075",
+        "focus": 1
+    },
+    {
+        "id": 327,
+        "raw": "[name=\"Alty\"]  一週間、ううん、一か月。いや、もしかしたら一年になるかもしれないわ。",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "一週間、ううん、一か月。いや、もしかしたら一年になるかもしれないわ。"
+    },
+    {
+        "id": 328,
+        "raw": "[name=\"Alty\"]  すっかりこの場所に焚き付けられちゃったの。だから、最後まで楽しまないとね。",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "すっかりこの場所に焚き付けられちゃったの。だから、最後まで楽しまないとね。"
+    },
+    {
+        "id": 329,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\", name2=\"avg_npc_075\", focus=2)]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock",
+        "name2": "avg_npc_075",
+        "focus": 2
+    },
+    {
+        "id": 330,
+        "raw": "[name=\"イナム\"]  だったら、ライブをするのに最適な場所があるわ。",
+        "type": "dialog",
+        "speaker": "イナム",
+        "content": "だったら、ライブをするのに最適な場所があるわ。"
+    },
+    {
+        "id": 331,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 332,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 333,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 334,
+        "raw": "[Background(image=\"bg_temple_1\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_temple_1.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 335,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 336,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 337,
+        "raw": "[Character(name=\"npc_2002_Dan_rock\")]",
+        "type": "character",
+        "name": "npc_2002_Dan_rock"
+    },
+    {
+        "id": 338,
+        "raw": "[name=\"Dan\"]  イカした場所じゃねーか！",
+        "type": "dialog",
+        "speaker": "Dan",
+        "content": "イカした場所じゃねーか！"
+    },
+    {
+        "id": 339,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\")]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock"
+    },
+    {
+        "id": 340,
+        "raw": "[name=\"Alty\"]  ここは……霊殿かしら？",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "ここは……霊殿かしら？"
+    },
+    {
+        "id": 341,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\", name2=\"avg_npc_075\", focus=2)]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock",
+        "name2": "avg_npc_075",
+        "focus": 2
+    },
+    {
+        "id": 342,
+        "raw": "[name=\"イナム\"]  そうよ。昔は全部族がここに集まって「マヒゾッティア」を開いていたの。だけど、ガヴィルが出て行ってから、もう長い間使われていないわ。",
+        "type": "dialog",
+        "speaker": "イナム",
+        "content": "そうよ。昔は全部族がここに集まって「マヒゾッティア」を開いていたの。だけど、ガヴィルが出て行ってから、もう長い間使われていないわ。"
+    },
+    {
+        "id": 343,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\")]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock"
+    },
+    {
+        "id": 344,
+        "raw": "[name=\"Aya\"]  「マヒゾッティア」？",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "「マヒゾッティア」？"
+    },
+    {
+        "id": 345,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\")]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock"
+    },
+    {
+        "id": 346,
+        "raw": "[name=\"Alty\"]  それに、ガヴィルですって？　ロドスでも同じ名前を見たような気がするけど……まあきっと、同じ名前の別人でしょう。",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "それに、ガヴィルですって？　ロドスでも同じ名前を見たような気がするけど……まあきっと、同じ名前の別人でしょう。"
+    },
+    {
+        "id": 347,
+        "raw": "[Character(name=\"avg_npc_075\")]",
+        "type": "character",
+        "name": "avg_npc_075"
+    },
+    {
+        "id": 348,
+        "raw": "[name=\"イナム\"]  ここで演奏すればいいわ。",
+        "type": "dialog",
+        "speaker": "イナム",
+        "content": "ここで演奏すればいいわ。"
+    },
+    {
+        "id": 349,
+        "raw": "[Character(name=\"npc_2003_Frost_rock\")]",
+        "type": "character",
+        "name": "npc_2003_Frost_rock"
+    },
+    {
+        "id": 350,
+        "raw": "[name=\"Frost\"]  最高の音楽を、ここの人たちに楽しんでもらおう。",
+        "type": "dialog",
+        "speaker": "Frost",
+        "content": "最高の音楽を、ここの人たちに楽しんでもらおう。"
+    },
+    {
+        "id": 351,
+        "raw": "[Character(name=\"npc_2002_Dan_rock\")]",
+        "type": "character",
+        "name": "npc_2002_Dan_rock"
+    },
+    {
+        "id": 352,
+        "raw": "[name=\"Dan\"]  ハハ、そうだな。ここにAUSの痕跡を残してくっきゃねーな！",
+        "type": "dialog",
+        "speaker": "Dan",
+        "content": "ハハ、そうだな。ここにAUSの痕跡を残してくっきゃねーな！"
+    },
+    {
+        "id": 353,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 354,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 355,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 356,
+        "raw": "[Background(image=\"bg_village_2\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_village_2.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 357,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 358,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 359,
+        "raw": "二か月後",
+        "type": "narration",
+        "content": "二か月後"
+    },
+    {
+        "id": 360,
+        "raw": "[Character(name=\"avg_npc_075\")]",
+        "type": "character",
+        "name": "avg_npc_075"
+    },
+    {
+        "id": 361,
+        "raw": "[name=\"イナム\"]  AUSって本当に不思議な人たちね……",
+        "type": "dialog",
+        "speaker": "イナム",
+        "content": "AUSって本当に不思議な人たちね……"
+    },
+    {
+        "id": 362,
+        "raw": "[name=\"イナム\"]  まさか二か月もここに滞在するなんて。",
+        "type": "dialog",
+        "speaker": "イナム",
+        "content": "まさか二か月もここに滞在するなんて。"
+    },
+    {
+        "id": 363,
+        "raw": "[name=\"イナム\"]  いつかガヴィルが帰ってきたら、驚くでしょうね。こんな辺鄙な場所に、音楽の概念が生まれたことに。",
+        "type": "dialog",
+        "speaker": "イナム",
+        "content": "いつかガヴィルが帰ってきたら、驚くでしょうね。こんな辺鄙な場所に、音楽の概念が生まれたことに。"
+    },
+    {
+        "id": 364,
+        "raw": "[name=\"イナム\"]  そしてここの人たちが、ロックに心酔してしまったことに。",
+        "type": "dialog",
+        "speaker": "イナム",
+        "content": "そしてここの人たちが、ロックに心酔してしまったことに。"
+    },
+    {
+        "id": 365,
+        "raw": "[name=\"イナム\"]  さてさて、今日はどんな演奏をしてくれるのかしら？",
+        "type": "dialog",
+        "speaker": "イナム",
+        "content": "さてさて、今日はどんな演奏をしてくれるのかしら？"
+    },
+    {
+        "id": 366,
+        "raw": "[name=\"イナム\"]  ……一番夢中になってるのは、私自身なのかもね。",
+        "type": "dialog",
+        "speaker": "イナム",
+        "content": "……一番夢中になってるのは、私自身なのかもね。"
+    },
+    {
+        "id": 367,
+        "raw": "[name=\"イナム\"]  AUSのみんな、今日は……",
+        "type": "dialog",
+        "speaker": "イナム",
+        "content": "AUSのみんな、今日は……"
+    },
+    {
+        "id": 368,
+        "raw": "[name=\"イナム\"]  あれ？",
+        "type": "dialog",
+        "speaker": "イナム",
+        "content": "あれ？"
+    },
+    {
+        "id": 369,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 370,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 371,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 372,
+        "raw": "部屋には誰もいなかった。生活用品や寝具はきれいに片づけられ、部屋のテーブルの上には、一枚の紙が置かれている。",
+        "type": "narration",
+        "content": "部屋には誰もいなかった。生活用品や寝具はきれいに片づけられ、部屋のテーブルの上には、一枚の紙が置かれている。"
+    },
+    {
+        "id": 373,
+        "raw": "[Character(name=\"avg_npc_075\")]",
+        "type": "character",
+        "name": "avg_npc_075"
+    },
+    {
+        "id": 374,
+        "raw": "[name=\"イナム\"]  まさか、出て行っちゃったの？",
+        "type": "dialog",
+        "speaker": "イナム",
+        "content": "まさか、出て行っちゃったの？"
+    },
+    {
+        "id": 375,
+        "raw": "[name=\"イナム\"]  これは手紙かしら、ええっと……",
+        "type": "dialog",
+        "speaker": "イナム",
+        "content": "これは手紙かしら、ええっと……"
+    },
+    {
+        "id": 376,
+        "raw": "[name=\"イナム\"]  「もう行くわ、さようなら。どうかお構いなく。音楽があなたたちに喜びをもたらしてくれますように。私たちのアルバムは全部ここに残していくから、心ゆくまで楽しんで。――AUS」",
+        "type": "dialog",
+        "speaker": "イナム",
+        "content": "「もう行くわ、さようなら。どうかお構いなく。音楽があなたたちに喜びをもたらしてくれますように。私たちのアルバムは全部ここに残していくから、心ゆくまで楽しんで。――AUS」"
+    },
+    {
+        "id": 377,
+        "raw": "[name=\"イナム\"]  ……ふふ、本当に不思議な人たちね。",
+        "type": "dialog",
+        "speaker": "イナム",
+        "content": "……ふふ、本当に不思議な人たちね。"
+    },
+    {
+        "id": 378,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 379,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 380,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 381,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 382,
+        "raw": "[Background(image=\"bg_desert_1\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_desert_1.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 383,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 384,
+        "raw": "[playMusic(intro=\"$farce_intro\", key=\"$farce_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/a001/m_dia_farce_intro.mp3",
+        "key": "sound_beta_2/music/a001/m_dia_farce_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 385,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\")]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock"
+    },
+    {
+        "id": 386,
+        "raw": "[name=\"Alty\"]  私はあのアカフラって場所をきっと忘れないわ。",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "私はあのアカフラって場所をきっと忘れないわ。"
+    },
+    {
+        "id": 387,
+        "raw": "[Character(name=\"npc_2003_Frost_rock\")]",
+        "type": "character",
+        "name": "npc_2003_Frost_rock"
+    },
+    {
+        "id": 388,
+        "raw": "[name=\"Frost\"]  （鼻歌）～♪　忘れられない経験。",
+        "type": "dialog",
+        "speaker": "Frost",
+        "content": "（鼻歌）～♪　忘れられない経験。"
+    },
+    {
+        "id": 389,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\")]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock"
+    },
+    {
+        "id": 390,
+        "raw": "[name=\"Aya\"]  でもあの人たち、うるさくて乱暴だったじゃない。",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "でもあの人たち、うるさくて乱暴だったじゃない。"
+    },
+    {
+        "id": 391,
+        "raw": "[Character(name=\"npc_2002_Dan_rock\")]",
+        "type": "character",
+        "name": "npc_2002_Dan_rock"
+    },
+    {
+        "id": 392,
+        "raw": "[name=\"Dan\"]  そうか？　アタシゃー気に入ったぜ！",
+        "type": "dialog",
+        "speaker": "Dan",
+        "content": "そうか？　アタシゃー気に入ったぜ！"
+    },
+    {
+        "id": 393,
+        "raw": "[Character(name=\"npc_2002_Dan_rock\",name2=\"npc_2001_Aya_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2002_Dan_rock",
+        "name2": "npc_2001_Aya_rock",
+        "focus": 2
+    },
+    {
+        "id": 394,
+        "raw": "[name=\"Aya\"]  あんた、あそこに残っても上手くやっていけそうだったもんね。",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "あんた、あそこに残っても上手くやっていけそうだったもんね。"
+    },
+    {
+        "id": 395,
+        "raw": "[Character(name=\"npc_2002_Dan_rock\",name2=\"npc_2001_Aya_rock\",focus=1)]",
+        "type": "character",
+        "name": "npc_2002_Dan_rock",
+        "name2": "npc_2001_Aya_rock",
+        "focus": 1
+    },
+    {
+        "id": 396,
+        "raw": "[name=\"Dan\"]  まーな。出てくるのだってすげー迷ったし。",
+        "type": "dialog",
+        "speaker": "Dan",
+        "content": "まーな。出てくるのだってすげー迷ったし。"
+    },
+    {
+        "id": 397,
+        "raw": "[name=\"Dan\"]  あそこのヤツらってさー、天然っていうか、原始的な活力に満ちてる感じがしねー？",
+        "type": "dialog",
+        "speaker": "Dan",
+        "content": "あそこのヤツらってさー、天然っていうか、原始的な活力に満ちてる感じがしねー？"
+    },
+    {
+        "id": 398,
+        "raw": "[name=\"Dan\"]  今までいろんな国や都市を回ってきたけど、こんなヤツらに会ったのは初めてだろ？",
+        "type": "dialog",
+        "speaker": "Dan",
+        "content": "今までいろんな国や都市を回ってきたけど、こんなヤツらに会ったのは初めてだろ？"
+    },
+    {
+        "id": 399,
+        "raw": "[name=\"Dan\"]  だからアタシも気に入ったんだ！",
+        "type": "dialog",
+        "speaker": "Dan",
+        "content": "だからアタシも気に入ったんだ！"
+    },
+    {
+        "id": 400,
+        "raw": "[Character(name=\"npc_2002_Dan_rock\",name2=\"npc_2001_Aya_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2002_Dan_rock",
+        "name2": "npc_2001_Aya_rock",
+        "focus": 2
+    },
+    {
+        "id": 401,
+        "raw": "[name=\"Aya\"]  そうね、それは否定できないわ。",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "そうね、それは否定できないわ。"
+    },
+    {
+        "id": 402,
+        "raw": "[Character(name=\"npc_2003_Frost_rock\")]",
+        "type": "character",
+        "name": "npc_2003_Frost_rock"
+    },
+    {
+        "id": 403,
+        "raw": "[name=\"Frost\"]  みんな私たちの音楽を理解してくれた。みんな最高の観客。",
+        "type": "dialog",
+        "speaker": "Frost",
+        "content": "みんな私たちの音楽を理解してくれた。みんな最高の観客。"
+    },
+    {
+        "id": 404,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\")]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock"
+    },
+    {
+        "id": 405,
+        "raw": "[name=\"Alty\"]  Frostも気に入ってるみたいね。",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "Frostも気に入ってるみたいね。"
+    },
+    {
+        "id": 406,
+        "raw": "[name=\"Alty\"]  だけど、やっぱり他人の生活をめちゃくちゃにするのは良くないことよ。私たちはただ歌を歌うだけでいいわ。",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "だけど、やっぱり他人の生活をめちゃくちゃにするのは良くないことよ。私たちはただ歌を歌うだけでいいわ。"
+    },
+    {
+        "id": 407,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\")]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock"
+    },
+    {
+        "id": 408,
+        "raw": "[name=\"Aya\"]  みんなに歌を聴かせて、それがいい歌なら――",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "みんなに歌を聴かせて、それがいい歌なら――"
+    },
+    {
+        "id": 409,
+        "raw": "[Character(name=\"npc_2002_Dan_rock\")]",
+        "type": "character",
+        "name": "npc_2002_Dan_rock"
+    },
+    {
+        "id": 410,
+        "raw": "[name=\"Dan\"]  人々も歌ってくれるってやつか。",
+        "type": "dialog",
+        "speaker": "Dan",
+        "content": "人々も歌ってくれるってやつか。"
+    },
+    {
+        "id": 411,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\")]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock"
+    },
+    {
+        "id": 412,
+        "raw": "[name=\"Aya\"]  あれ、前にも同じことを言わなかったっけ？",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "あれ、前にも同じことを言わなかったっけ？"
+    },
+    {
+        "id": 413,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\")]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock"
+    },
+    {
+        "id": 414,
+        "raw": "[name=\"Alty\"]  さあね。もしかしたら何度も言っているのかもしれないわ。",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "さあね。もしかしたら何度も言っているのかもしれないわ。"
+    },
+    {
+        "id": 415,
+        "raw": "[name=\"Alty\"]  さあ、私たちの旅を続けましょう。",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "さあ、私たちの旅を続けましょう。"
+    },
+    {
+        "id": 416,
+        "raw": "[name=\"Alty\"]  私たちの歌に、大地は耳を傾けてくれるかしら？",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "私たちの歌に、大地は耳を傾けてくれるかしら？"
+    },
+    {
+        "id": 417,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 418,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 419,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 420,
+        "raw": "車に揺られながら、彼女たちは冗談で話題を締めくくった。",
+        "type": "narration",
+        "content": "車に揺られながら、彼女たちは冗談で話題を締めくくった。"
+    },
+    {
+        "id": 421,
+        "raw": "手に握った鍵を見て、Altyは思う。ねえケルシー先生、あなたたちロドスは、この大地が求める答えを出せるのかしら？",
+        "type": "narration",
+        "content": "手に握った鍵を見て、Altyは思う。ねえケルシー先生、あなたたちロドスは、この大地が求める答えを出せるのかしら？"
+    },
+    {
+        "id": 422,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 423,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 424,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 425,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 426,
+        "raw": "[Image]",
+        "type": "image"
+    }
+]

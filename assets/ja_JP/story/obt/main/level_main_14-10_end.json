@@ -1,0 +1,3208 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")]",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK"
+    },
+    {
+        "id": 2,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 3,
+        "raw": "[stopmusic]",
+        "type": "stop_music"
+    },
+    {
+        "id": 4,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 5,
+        "raw": "[Background(image=\"50_g18_originiumcave\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "50_g18_originiumcave.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 6,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 7,
+        "raw": "[PlayMusic(intro=\"$darkness01_intro\", key=\"$darkness01_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta1_180603/m_dia_darkness01_intro.mp3",
+        "key": "sound_beta_2/music/beta1_180603/m_dia_darkness01_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 8,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 9,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 10,
+        "raw": "[playsound(key=\"$d_avg_boneflute_low\",volume=0.5)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_boneflute_low.mp3",
+        "volume": 0.5
+    },
+    {
+        "id": 11,
+        "raw": "[Delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 12,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#2$1\",duration=1.5)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#2$1.png",
+        "duration": 1.5
+    },
+    {
+        "id": 13,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 14,
+        "raw": "[name=\"アーミヤ\"]……弔鐘。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "……弔鐘。"
+    },
+    {
+        "id": 15,
+        "raw": "[name=\"アーミヤ\"]これは……Logosさんの吹く、骨笛の音です。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "これは……Logosさんの吹く、骨笛の音です。"
+    },
+    {
+        "id": 16,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 17,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#2$1\",focus=\"none\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#2$1.png",
+        "focus": "none"
+    },
+    {
+        "id": 18,
+        "raw": "[Decision(options=\"骨笛……;……誰のための音だろう？\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "骨笛……;……誰のための音だろう？",
+        "values": "1;2"
+    },
+    {
+        "id": 19,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 20,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#11$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#11$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 21,
+        "raw": "[name=\"アーミヤ\"]……",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "……"
+    },
+    {
+        "id": 22,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 23,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#11$1\",focus=\"none\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#11$1.png",
+        "focus": "none"
+    },
+    {
+        "id": 24,
+        "raw": "[Decision(options=\"アーミヤ……\", values=\"1\")]",
+        "type": "decision",
+        "options": "アーミヤ……",
+        "values": "1"
+    },
+    {
+        "id": 25,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 26,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#17$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#17$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 27,
+        "raw": "[name=\"アーミヤ\"]大丈夫です、ドクター。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "大丈夫です、ドクター。"
+    },
+    {
+        "id": 28,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#11$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#11$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 29,
+        "raw": "[name=\"アーミヤ\"]ただ、少し……色々と思い出してしまって。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "ただ、少し……色々と思い出してしまって。"
+    },
+    {
+        "id": 30,
+        "raw": "[name=\"アーミヤ\"]ロドスにいる時、Logosさんが自分のことをバンシーの主と名乗ることは滅多にありませんでした。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "ロドスにいる時、Logosさんが自分のことをバンシーの主と名乗ることは滅多にありませんでした。"
+    },
+    {
+        "id": 31,
+        "raw": "[name=\"アーミヤ\"]ScoutさんやMiseryさんと同じように、自分はただロドスの理想を信じるサルカズのオペレーターに過ぎないと、いつもそう言っていました。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "ScoutさんやMiseryさんと同じように、自分はただロドスの理想を信じるサルカズのオペレーターに過ぎないと、いつもそう言っていました。"
+    },
+    {
+        "id": 32,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#2$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#2$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 33,
+        "raw": "[name=\"アーミヤ\"]ですから……出発の日に王庭の服装に着替えたLogosさんを見た時……",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "ですから……出発の日に王庭の服装に着替えたLogosさんを見た時……"
+    },
+    {
+        "id": 34,
+        "raw": "[name=\"アーミヤ\"]彼の眼差しから、とても大きな決心を感じ取ったんです……",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "彼の眼差しから、とても大きな決心を感じ取ったんです……"
+    },
+    {
+        "id": 35,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#11$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#11$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 36,
+        "raw": "[name=\"アーミヤ\"]それに……悲しみも。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "それに……悲しみも。"
+    },
+    {
+        "id": 37,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 38,
+        "raw": "[stopmusic(fadetime=1.5)]",
+        "type": "stop_music",
+        "fadetime": 1.5
+    },
+    {
+        "id": 39,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 40,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 41,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 42,
+        "raw": "[Background(image=\"50_g1_originiumcanyon\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "50_g1_originiumcanyon.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 43,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 44,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 45,
+        "raw": "[Delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 46,
+        "raw": "[PlaySound(key=\"$fireburst\", volume=0.6)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_fireburst.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 47,
+        "raw": "[PlaySound(key=\"$d_gen_thunders_amb\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_thunders_amb.mp3",
+        "volume": 1
+    },
+    {
+        "id": 48,
+        "raw": "[CameraShake(duration=2, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "2,",
+        "xstrength": "20,",
+        "ystrength": "20,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 49,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 50,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.03,",
+        "block": true
+    },
+    {
+        "id": 51,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 52,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 53,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.03,",
+        "block": true
+    },
+    {
+        "id": 54,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 55,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 56,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.03,",
+        "block": true
+    },
+    {
+        "id": 57,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 58,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1.5,",
+        "block": true
+    },
+    {
+        "id": 59,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4133_logos_1#10$1\",duration=1.5)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4133_logos_1#10$1.png",
+        "duration": 1.5
+    },
+    {
+        "id": 60,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 61,
+        "raw": "[name=\"Logos\"]……",
+        "type": "dialog",
+        "speaker": "Logos",
+        "content": "……"
+    },
+    {
+        "id": 62,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 63,
+        "raw": "[PlaySound(key=\"$bodyfalldown1\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_bodyfalldown1.mp3",
+        "volume": 1
+    },
+    {
+        "id": 64,
+        "raw": "[charslot(duration=1.5)]",
+        "type": "charslot",
+        "duration": 1.5
+    },
+    {
+        "id": 65,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 66,
+        "raw": "骨笛は砕け、骨筆は折れていた。唇の端からは血の筋が伝い落ちている。",
+        "type": "narration",
+        "content": "骨笛は砕け、骨筆は折れていた。唇の端からは血の筋が伝い落ちている。"
+    },
+    {
+        "id": 67,
+        "raw": "[PlayMusic(intro=\"$dignified_intro\", key=\"$dignified_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act9d0d0/m_avg_dignified_intro.mp3",
+        "key": "sound_beta_2/music/act9d0d0/m_avg_dignified_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 68,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1339_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1339_1#1$1.png"
+    },
+    {
+        "id": 69,
+        "raw": "[name=\"ネツァレム\"]もはや、その方はいかなる呪術を放つことも叶わぬ。",
+        "type": "dialog",
+        "speaker": "ネツァレム",
+        "content": "もはや、その方はいかなる呪術を放つことも叶わぬ。"
+    },
+    {
+        "id": 70,
+        "raw": "[name=\"ネツァレム\"]自らを極限まで追い詰め、全身の血を燃やし、その骨笛を奏でたのだ……我輩をわずかばかりの間止めるためだけに。",
+        "type": "dialog",
+        "speaker": "ネツァレム",
+        "content": "自らを極限まで追い詰め、全身の血を燃やし、その骨笛を奏でたのだ……我輩をわずかばかりの間止めるためだけに。"
+    },
+    {
+        "id": 71,
+        "raw": "[name=\"ネツァレム\"]アエファニル……",
+        "type": "dialog",
+        "speaker": "ネツァレム",
+        "content": "アエファニル……"
+    },
+    {
+        "id": 72,
+        "raw": "[name=\"ネツァレム\"]その方は、戦士と呼ぶに相応しき男よ。",
+        "type": "dialog",
+        "speaker": "ネツァレム",
+        "content": "その方は、戦士と呼ぶに相応しき男よ。"
+    },
+    {
+        "id": 73,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 74,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 75,
+        "raw": "ナハツェーラーの王は両腕を広げた。",
+        "type": "narration",
+        "content": "ナハツェーラーの王は両腕を広げた。"
+    },
+    {
+        "id": 76,
+        "raw": "その身にまとうボロボロの旗が、まるでサルカズが経験してきた数多の戦争を再現するかの如くはためいている。",
+        "type": "narration",
+        "content": "その身にまとうボロボロの旗が、まるでサルカズが経験してきた数多の戦争を再現するかの如くはためいている。"
+    },
+    {
+        "id": 77,
+        "raw": "古傷から真新しい傷まで、そこから落ちる彼の血と腐肉が、この戦場を育んでいる。新たな枝が土から突き出ると、呪文によって重傷を負った戦士たちの肉体を補った。",
+        "type": "narration",
+        "content": "古傷から真新しい傷まで、そこから落ちる彼の血と腐肉が、この戦場を育んでいる。新たな枝が土から突き出ると、呪文によって重傷を負った戦士たちの肉体を補った。"
+    },
+    {
+        "id": 78,
+        "raw": "倒れた全ての「霊骸布」が、再び起き上がってくる。",
+        "type": "narration",
+        "content": "倒れた全ての「霊骸布」が、再び起き上がってくる。"
+    },
+    {
+        "id": 79,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 80,
+        "raw": "[playsound(key=\"$a_bat_buildingshaking_1\",volume=1,channel=\"2\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/ambience/a_bat/a_bat_buildingshaking_1.mp3",
+        "volume": "1,channel=\"2\""
+    },
+    {
+        "id": 81,
+        "raw": "[playsound(key=\"$d_avg_darkwhisper\",volume=1,channel=\"1\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_darkwhisper.mp3",
+        "volume": "1,channel=\"1\""
+    },
+    {
+        "id": 82,
+        "raw": "[charslot(slot=\"l\",name=\"avg_npc_1331_1#1$1\",duration=1.5)]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_1331_1#1$1.png",
+        "duration": 1.5
+    },
+    {
+        "id": 83,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_1331_1#1$1\",duration=1.5)]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_1331_1#1$1.png",
+        "duration": 1.5
+    },
+    {
+        "id": 84,
+        "raw": "[CameraShake(duration=3, xstrength=10, ystrength=10, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "3,",
+        "xstrength": "10,",
+        "ystrength": "10,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 85,
+        "raw": "[Delay(time=3.5)]",
+        "type": "delay",
+        "time": 3.5
+    },
+    {
+        "id": 86,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 87,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1339_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1339_1#1$1.png"
+    },
+    {
+        "id": 88,
+        "raw": "[name=\"ネツァレム\"]だがその方が立ち向かおうとしているのは、一人、あるいは数人の特定の人物ではない。",
+        "type": "dialog",
+        "speaker": "ネツァレム",
+        "content": "だがその方が立ち向かおうとしているのは、一人、あるいは数人の特定の人物ではない。"
+    },
+    {
+        "id": 89,
+        "raw": "[name=\"ネツァレム\"]サルカズの中にも、果ては王庭の中にさえも、変革者はいつの日も存在するものだ。そして皆が、失敗してきた。あの時のテレジアのようにな。",
+        "type": "dialog",
+        "speaker": "ネツァレム",
+        "content": "サルカズの中にも、果ては王庭の中にさえも、変革者はいつの日も存在するものだ。そして皆が、失敗してきた。あの時のテレジアのようにな。"
+    },
+    {
+        "id": 90,
+        "raw": "[name=\"ネツァレム\"]戦争とはさながら巨岩であり、サルカズは奈落の底に佇む定めにある。その頭上から、岩は永久に降り注ぎ続けるのだ。",
+        "type": "dialog",
+        "speaker": "ネツァレム",
+        "content": "戦争とはさながら巨岩であり、サルカズは奈落の底に佇む定めにある。その頭上から、岩は永久に降り注ぎ続けるのだ。"
+    },
+    {
+        "id": 91,
+        "raw": "[name=\"ネツァレム\"]その方は……",
+        "type": "dialog",
+        "speaker": "ネツァレム",
+        "content": "その方は……"
+    },
+    {
+        "id": 92,
+        "raw": "[name=\"ネツァレム\"]ナハツェーラーの敬意を得た。次は、我輩がその方に死を贈ろう。",
+        "type": "dialog",
+        "speaker": "ネツァレム",
+        "content": "ナハツェーラーの敬意を得た。次は、我輩がその方に死を贈ろう。"
+    },
+    {
+        "id": 93,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 94,
+        "raw": "[charslot(duration=1.5)]",
+        "type": "charslot",
+        "duration": 1.5
+    },
+    {
+        "id": 95,
+        "raw": "[Delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 96,
+        "raw": "ナハツェーラーは腐敗の霧を踏みながら、若きバンシーにゆっくりと歩み寄る。",
+        "type": "narration",
+        "content": "ナハツェーラーは腐敗の霧を踏みながら、若きバンシーにゆっくりと歩み寄る。"
+    },
+    {
+        "id": 97,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 98,
+        "raw": "[bgeffect(name=\"$eb_dim_closeeye\",layer=1)]",
+        "type": "bg_effect",
+        "name": "$eb_dim_closeeye",
+        "layer": 1
+    },
+    {
+        "id": 99,
+        "raw": "[Delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 100,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 101,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 102,
+        "raw": "[PlaySound(key=\"$d_avg_cnstrctnck\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_cnstrctnck.mp3",
+        "volume": 1
+    },
+    {
+        "id": 103,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1339_1#1$1\",posfrom=\"0,-120\",posto=\"0,-120\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1339_1#1$1.png",
+        "posfrom": "0,-120",
+        "posto": "0,-120"
+    },
+    {
+        "id": 104,
+        "raw": "[charslot(slot=\"m\",action=\"zoom\",poszoom=\"0.5,0.65\",scale=2,focus=\"all\")]",
+        "type": "charslot",
+        "slot": "m",
+        "action": "zoom",
+        "poszoom": "0.5,0.65",
+        "scale": "2,focus=\"all\""
+    },
+    {
+        "id": 105,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 106,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 107,
+        "raw": "[CameraShake(duration=2.5,xstrength=10, ystrength=10, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "2.5,xstrength=10,",
+        "ystrength": "10,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 108,
+        "raw": "[PlaySound(key=\"$d_avg_magicscreen\", volume=1,channel=\"1\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_magicscreen.mp3",
+        "volume": "1,channel=\"1\""
+    },
+    {
+        "id": 109,
+        "raw": "[Blocker(a=0.5, r=0, g=0, b=0, fadetime=2.5, block=true)]",
+        "type": "blocker",
+        "a": "0.5,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2.5,",
+        "block": true
+    },
+    {
+        "id": 110,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 111,
+        "raw": "[bgeffect]",
+        "type": "bg_effect"
+    },
+    {
+        "id": 112,
+        "raw": "[name=\"Logos\"]「断ち切れ」。",
+        "type": "dialog",
+        "speaker": "Logos",
+        "content": "「断ち切れ」。"
+    },
+    {
+        "id": 113,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 114,
+        "raw": "[Blocker(a=0.5, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0.5,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 115,
+        "raw": "[PlaySound(key=\"$d_avg_magic_5\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_magic_5.mp3",
+        "volume": 1
+    },
+    {
+        "id": 116,
+        "raw": "[Blocker(a=1, r=1, g=1, b=1, fadetime=0.03, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "1,",
+        "g": "1,",
+        "b": "1,",
+        "fadetime": "0.03,",
+        "block": true
+    },
+    {
+        "id": 117,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1.5,",
+        "block": true
+    },
+    {
+        "id": 118,
+        "raw": "バンシーは、ほとんど聞き取れない声で最後の呪文を唱えた。鋭い言の葉は形ある刃と化し、彼の手に握られ――",
+        "type": "narration",
+        "content": "バンシーは、ほとんど聞き取れない声で最後の呪文を唱えた。鋭い言の葉は形ある刃と化し、彼の手に握られ――"
+    },
+    {
+        "id": 119,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 120,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 121,
+        "raw": "[Effect(name=\"$e_bladeline_01_large\",x =-162.12, y =42.4,rox =8.6, roy =-47, roz =29.2, layer = 1)]",
+        "type": "effect",
+        "name": "$e_bladeline_01_large"
+    },
+    {
+        "id": 122,
+        "raw": "[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "ystrength": "40,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 123,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.03,",
+        "block": true
+    },
+    {
+        "id": 124,
+        "raw": "[PlaySound(key=\"$e_skill_skulsrsword\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_skill/e_skill_skulsrsword.mp3",
+        "volume": 1
+    },
+    {
+        "id": 125,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=1.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "1.5,",
+        "block": true
+    },
+    {
+        "id": 126,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 127,
+        "raw": "ナハツェーラーの王の右腕を斬り落とした。",
+        "type": "narration",
+        "content": "ナハツェーラーの王の右腕を斬り落とした。"
+    },
+    {
+        "id": 128,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 129,
+        "raw": "[PlaySound(key=\"$d_avg_darkwhisper\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_darkwhisper.mp3",
+        "volume": 1
+    },
+    {
+        "id": 130,
+        "raw": "[charslot(slot=\"m\",posfrom=\"0,-120\",posto=\"0,0\",duration=0.5)]",
+        "type": "charslot",
+        "slot": "m",
+        "posfrom": "0,-120",
+        "posto": "0,0",
+        "duration": 0.5
+    },
+    {
+        "id": 131,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 132,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 133,
+        "raw": "[PlaySound(key=\"$bodyfalldown1\", volume=1,channel=\"1\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_bodyfalldown1.mp3",
+        "volume": "1,channel=\"1\""
+    },
+    {
+        "id": 134,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 135,
+        "raw": "[name=\"ネツァレム\"]なんと……それは、テレシスの剣技か――",
+        "type": "dialog",
+        "speaker": "ネツァレム",
+        "content": "なんと……それは、テレシスの剣技か――"
+    },
+    {
+        "id": 136,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 137,
+        "raw": "[Delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 138,
+        "raw": "[PlaySound(key=\"$d_avg_explosion_stone\", volume=1,channel=\"1\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_explosion_stone.mp3",
+        "volume": "1,channel=\"1\""
+    },
+    {
+        "id": 139,
+        "raw": "[PlaySound(key=\"$d_avg_punch\", volume=1,channel=\"2\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_punch.mp3",
+        "volume": "1,channel=\"2\""
+    },
+    {
+        "id": 140,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 141,
+        "raw": "全力で放たれたナハツェーラーの王のアーツが、Logosの胸に命中する。",
+        "type": "narration",
+        "content": "全力で放たれたナハツェーラーの王のアーツが、Logosの胸に命中する。"
+    },
+    {
+        "id": 142,
+        "raw": "彼の身体が、崖下へと落下していった。",
+        "type": "narration",
+        "content": "彼の身体が、崖下へと落下していった。"
+    },
+    {
+        "id": 143,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 144,
+        "raw": "[Delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 145,
+        "raw": "[stopmusic(fadetime=1.5)]",
+        "type": "stop_music",
+        "fadetime": 1.5
+    },
+    {
+        "id": 146,
+        "raw": "[PlaySound(key=\"$d_avg_jump_water\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_jump_water.mp3",
+        "volume": 1
+    },
+    {
+        "id": 147,
+        "raw": "[Background(image=\"49_g12_diving\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "49_g12_diving.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 148,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 149,
+        "raw": "[PlaySound(key=\"$d_avg_underwateramb\", volume=1,loop=true,channel=\"1\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_underwateramb.mp3",
+        "volume": "1,loop=true,channel=\"1\""
+    },
+    {
+        "id": 150,
+        "raw": "[BackgroundTween(xScaleFrom=1.3, yScaleFrom=1.3, xScaleTo=1, yScaleTo=1,duration=50, block=false,screenadapt=\"coverall\")]",
+        "type": "background_tween",
+        "xScaleFrom": "1.3,",
+        "yScaleFrom": "1.3,",
+        "xScaleTo": "1,",
+        "yScaleTo": "1,duration=50,",
+        "block": "false,screenadapt=\"coverall\""
+    },
+    {
+        "id": 151,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 152,
+        "raw": "[Delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 153,
+        "raw": "源石の地面が轟音と共に崩壊していく。",
+        "type": "narration",
+        "content": "源石の地面が轟音と共に崩壊していく。"
+    },
+    {
+        "id": 154,
+        "raw": "Logosの脳裏に、見慣れた船が山々と川辺を踏み進んでいく光景が浮かんだ。あの船が進む時にも、これと似た轟音を発していたからだ。",
+        "type": "narration",
+        "content": "Logosの脳裏に、見慣れた船が山々と川辺を踏み進んでいく光景が浮かんだ。あの船が進む時にも、これと似た轟音を発していたからだ。"
+    },
+    {
+        "id": 155,
+        "raw": "彼は初めてロドスに乗船し、テレジアと二人肩を並べて甲板に立った日のことを思い出した。カズデルを見つめるテレジアの傍らで、風に乗って聞こえてくる叫び声に耳を澄ましていた時のことを。",
+        "type": "narration",
+        "content": "彼は初めてロドスに乗船し、テレジアと二人肩を並べて甲板に立った日のことを思い出した。カズデルを見つめるテレジアの傍らで、風に乗って聞こえてくる叫び声に耳を澄ましていた時のことを。"
+    },
+    {
+        "id": 156,
+        "raw": "部品を弄りながら、クロージャに材料の無駄遣いはやめろと諭すMechanistを思い出した。説教がいつまで続くかブレイズと賭け始めたOutcastの帽子をロボットアームが取った。",
+        "type": "narration",
+        "content": "部品を弄りながら、クロージャに材料の無駄遣いはやめろと諭すMechanistを思い出した。説教がいつまで続くかブレイズと賭け始めたOutcastの帽子をロボットアームが取った。"
+    },
+    {
+        "id": 157,
+        "raw": "血にまみれたAceの手を思い出した。盾を支え、グラスの横に置かれていた。Scoutは彼の持つクロスボウと同じくらい冷たい手をしていて、握手やハイタッチの時は見なくとも誰か分かった。",
+        "type": "narration",
+        "content": "血にまみれたAceの手を思い出した。盾を支え、グラスの横に置かれていた。Scoutは彼の持つクロスボウと同じくらい冷たい手をしていて、握手やハイタッチの時は見なくとも誰か分かった。"
+    },
+    {
+        "id": 158,
+        "raw": "廊下で互いにおやすみなさいと声を掛け合う、ドクターとアーミヤを思い出した。アーミヤが突然呼び止め、ロンディニウムへ向かう心の準備はできているかと問いた時のことを。",
+        "type": "narration",
+        "content": "廊下で互いにおやすみなさいと声を掛け合う、ドクターとアーミヤを思い出した。アーミヤが突然呼び止め、ロンディニウムへ向かう心の準備はできているかと問いた時のことを。"
+    },
+    {
+        "id": 159,
+        "raw": "ケルシー医師はアーミヤの手を引きながら、彼らの間にやってきてこう言った――",
+        "type": "narration",
+        "content": "ケルシー医師はアーミヤの手を引きながら、彼らの間にやってきてこう言った――"
+    },
+    {
+        "id": 160,
+        "raw": "「テレジアが亡くなった。これからはアーミヤがロドスのリーダーだ。」",
+        "type": "narration",
+        "content": "「テレジアが亡くなった。これからはアーミヤがロドスのリーダーだ。」"
+    },
+    {
+        "id": 161,
+        "raw": "Logosはひたすら落ち続け――",
+        "type": "narration",
+        "content": "Logosはひたすら落ち続け――"
+    },
+    {
+        "id": 162,
+        "raw": "氷のように冷たい水に、頭まで沈み込んだ。",
+        "type": "narration",
+        "content": "氷のように冷たい水に、頭まで沈み込んだ。"
+    },
+    {
+        "id": 163,
+        "raw": "そうして彼は、何年も前の自分を思い出した。",
+        "type": "narration",
+        "content": "そうして彼は、何年も前の自分を思い出した。"
+    },
+    {
+        "id": 164,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 165,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 166,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 167,
+        "raw": "[stopsound(channel=\"1\",fadetime=1.5)]",
+        "type": "stop_sound",
+        "channel": "1",
+        "fadetime": 1.5
+    },
+    {
+        "id": 168,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 169,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 170,
+        "raw": "[bgEffect(name=\"$eb_sunlight_01\", layer = 1)]",
+        "type": "bg_effect",
+        "name": "$eb_sunlight_01"
+    },
+    {
+        "id": 171,
+        "raw": "[image(image=\"50_i07\",screenadapt=\"coverall\",xScale=1.1, yScale=1.1,y=30)]",
+        "type": "image",
+        "image": "50_i07.png",
+        "screenadapt": "coverall",
+        "xScale": "1.1,",
+        "yScale": "1.1,y=30"
+    },
+    {
+        "id": 172,
+        "raw": "[ImageTween(xScaleFrom=1.1, yScaleFrom=1.1, xScaleTo=1, yScaleTo=1, duration=30,yTo=0)]",
+        "type": "image_tween",
+        "xScaleFrom": "1.1,",
+        "yScaleFrom": "1.1,",
+        "xScaleTo": "1,",
+        "yScaleTo": "1,",
+        "duration": "30,yTo=0"
+    },
+    {
+        "id": 173,
+        "raw": "[PlayMusic(key=\"$calm_loop\", volume=0.6)]",
+        "type": "play_music",
+        "key": "sound_beta_2/music/avg/m_avg_calm_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 174,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 175,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 176,
+        "raw": "[name=\"ラケラマリン\"]腹を決めたのだな。",
+        "type": "dialog",
+        "speaker": "ラケラマリン",
+        "content": "腹を決めたのだな。"
+    },
+    {
+        "id": 177,
+        "raw": "[name=\"アエファニル\"]うむ。",
+        "type": "dialog",
+        "speaker": "アエファニル",
+        "content": "うむ。"
+    },
+    {
+        "id": 178,
+        "raw": "[name=\"アエファニル\"]我はロドスに留まり、あの船と共に大地を巡ることに決めた。",
+        "type": "dialog",
+        "speaker": "アエファニル",
+        "content": "我はロドスに留まり、あの船と共に大地を巡ることに決めた。"
+    },
+    {
+        "id": 179,
+        "raw": "[name=\"ラケラマリン\"]テレジアが……逝ってしもうたのだぞ。",
+        "type": "dialog",
+        "speaker": "ラケラマリン",
+        "content": "テレジアが……逝ってしもうたのだぞ。"
+    },
+    {
+        "id": 180,
+        "raw": "[name=\"ラケラマリン\"]バベルの理想は……",
+        "type": "dialog",
+        "speaker": "ラケラマリン",
+        "content": "バベルの理想は……"
+    },
+    {
+        "id": 181,
+        "raw": "[name=\"アエファニル\"]……なおもあの船にある。",
+        "type": "dialog",
+        "speaker": "アエファニル",
+        "content": "……なおもあの船にある。"
+    },
+    {
+        "id": 182,
+        "raw": "[name=\"アエファニル\"]殿下は後継者を遺していった。いまだ幼い身なれど、その目には我らもよく知る理想を抱く者の炎を宿しておる。",
+        "type": "dialog",
+        "speaker": "アエファニル",
+        "content": "殿下は後継者を遺していった。いまだ幼い身なれど、その目には我らもよく知る理想を抱く者の炎を宿しておる。"
+    },
+    {
+        "id": 183,
+        "raw": "[name=\"アエファニル\"]然して、我がロドスに留まるのは、彼女一人のためだけではない。",
+        "type": "dialog",
+        "speaker": "アエファニル",
+        "content": "然して、我がロドスに留まるのは、彼女一人のためだけではない。"
+    },
+    {
+        "id": 184,
+        "raw": "[name=\"アエファニル\"]殿下の探求の道は、かように潰えてはおらず、また潰えるべきでもない。サルカズの未来にまつわる答えがいまだどこかにあるのならば、我はそれを求むる旅を続けよう。",
+        "type": "dialog",
+        "speaker": "アエファニル",
+        "content": "殿下の探求の道は、かように潰えてはおらず、また潰えるべきでもない。サルカズの未来にまつわる答えがいまだどこかにあるのならば、我はそれを求むる旅を続けよう。"
+    },
+    {
+        "id": 185,
+        "raw": "[name=\"アエファニル\"]されば、我は河谷を長らく留守にするやもしれぬ。",
+        "type": "dialog",
+        "speaker": "アエファニル",
+        "content": "されば、我は河谷を長らく留守にするやもしれぬ。"
+    },
+    {
+        "id": 186,
+        "raw": "[name=\"ラケラマリン\"]そなたが抱く後ろめたさは、妾たちの傍におれぬことに因るのか？",
+        "type": "dialog",
+        "speaker": "ラケラマリン",
+        "content": "そなたが抱く後ろめたさは、妾たちの傍におれぬことに因るのか？"
+    },
+    {
+        "id": 187,
+        "raw": "[name=\"アエファニル\"]河谷の外にて、我は王庭の主としては振舞わぬ。",
+        "type": "dialog",
+        "speaker": "アエファニル",
+        "content": "河谷の外にて、我は王庭の主としては振舞わぬ。"
+    },
+    {
+        "id": 188,
+        "raw": "[name=\"アエファニル\"]されど我の意志を即ち王庭の意志と見なす者は甚だ多い。ゆえに、そやつらはバンシーに敵意を抱く恐れがあるが……我は母上らを河谷の外より吹き付ける風雨から守れぬやもしれぬのだ。",
+        "type": "dialog",
+        "speaker": "アエファニル",
+        "content": "されど我の意志を即ち王庭の意志と見なす者は甚だ多い。ゆえに、そやつらはバンシーに敵意を抱く恐れがあるが……我は母上らを河谷の外より吹き付ける風雨から守れぬやもしれぬのだ。"
+    },
+    {
+        "id": 189,
+        "raw": "[name=\"ラケラマリン\"]古馴染みが訪ね来るのならば、妾自らがしかともてなす。",
+        "type": "dialog",
+        "speaker": "ラケラマリン",
+        "content": "古馴染みが訪ね来るのならば、妾自らがしかともてなす。"
+    },
+    {
+        "id": 190,
+        "raw": "[name=\"アエファニル\"]無論。我とて、かつてバンシーの河谷を統べた主を疑ってなどはおらぬが……",
+        "type": "dialog",
+        "speaker": "アエファニル",
+        "content": "無論。我とて、かつてバンシーの河谷を統べた主を疑ってなどはおらぬが……"
+    },
+    {
+        "id": 191,
+        "raw": "[name=\"ラケラマリン\"]妾と姉妹らもまた、そなたの身を案じておるのだぞ。",
+        "type": "dialog",
+        "speaker": "ラケラマリン",
+        "content": "妾と姉妹らもまた、そなたの身を案じておるのだぞ。"
+    },
+    {
+        "id": 192,
+        "raw": "[name=\"アエファニル\"]……",
+        "type": "dialog",
+        "speaker": "アエファニル",
+        "content": "……"
+    },
+    {
+        "id": 193,
+        "raw": "[name=\"ラケラマリン\"]されば、妾たちの思いを連れてゆくがよい。",
+        "type": "dialog",
+        "speaker": "ラケラマリン",
+        "content": "されば、妾たちの思いを連れてゆくがよい。"
+    },
+    {
+        "id": 194,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 195,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 196,
+        "raw": "[Blocker(a=1, r=1, g=1, b=1, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "1,",
+        "g": "1,",
+        "b": "1,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 197,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 198,
+        "raw": "[bgEffect]",
+        "type": "bg_effect"
+    },
+    {
+        "id": 199,
+        "raw": "[Background(image=\"49_g12_diving\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "49_g12_diving.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 200,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 201,
+        "raw": "[image]",
+        "type": "image"
+    },
+    {
+        "id": 202,
+        "raw": "[PlaySound(key=\"$d_avg_underwateramb\", volume=1,loop=true,channel=\"1\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_underwateramb.mp3",
+        "volume": "1,loop=true,channel=\"1\""
+    },
+    {
+        "id": 203,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 204,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 205,
+        "raw": "バンシーの歌声が、若きバンシーの主の周囲を巡る。",
+        "type": "narration",
+        "content": "バンシーの歌声が、若きバンシーの主の周囲を巡る。"
+    },
+    {
+        "id": 206,
+        "raw": "水が段々と温かみを増していき、まるで無数の両腕のように、落ちていく彼をそっと抱き寄せた。",
+        "type": "narration",
+        "content": "水が段々と温かみを増していき、まるで無数の両腕のように、落ちていく彼をそっと抱き寄せた。"
+    },
+    {
+        "id": 207,
+        "raw": "Logosは目を開いた。",
+        "type": "narration",
+        "content": "Logosは目を開いた。"
+    },
+    {
+        "id": 208,
+        "raw": "母と、それから多くの姉妹の姿が目の前に見えるような気がした。",
+        "type": "narration",
+        "content": "母と、それから多くの姉妹の姿が目の前に見えるような気がした。"
+    },
+    {
+        "id": 209,
+        "raw": "「アエファニル。河谷の最も美しき波の光、心揺さぶる歌声よ。妾たちはただここで、そなたの旅立ちを見送ることしかできぬ……」",
+        "type": "narration",
+        "content": "「アエファニル。河谷の最も美しき波の光、心揺さぶる歌声よ。妾たちはただここで、そなたの旅立ちを見送ることしかできぬ……」"
+    },
+    {
+        "id": 210,
+        "raw": "「なれど、その身が何処にあろうと、妾たちの祝福はそなたと共に在る。」",
+        "type": "narration",
+        "content": "「なれど、その身が何処にあろうと、妾たちの祝福はそなたと共に在る。」"
+    },
+    {
+        "id": 211,
+        "raw": "[name=\"Logos\"]……",
+        "type": "dialog",
+        "speaker": "Logos",
+        "content": "……"
+    },
+    {
+        "id": 212,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 213,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1334_1#1$1\",bstart=0.3,bend=0.8,duration=1.5)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1334_1#1$1.png",
+        "bstart": "0.3,bend=0.8,duration=1.5"
+    },
+    {
+        "id": 214,
+        "raw": "[Delay(time=2.5)]",
+        "type": "delay",
+        "time": 2.5
+    },
+    {
+        "id": 215,
+        "raw": "[name=\"？？？\"]もっと気張らぬか、アエファニル。",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "もっと気張らぬか、アエファニル。"
+    },
+    {
+        "id": 216,
+        "raw": "[name=\"？？？\"]そなたには妾たちがついておるぞ……いつ何時であろうともな。",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "そなたには妾たちがついておるぞ……いつ何時であろうともな。"
+    },
+    {
+        "id": 217,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 218,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 219,
+        "raw": "[PlaySound(key=\"$d_avg_magic_2\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_magic_2.mp3"
+    },
+    {
+        "id": 220,
+        "raw": "[Blocker(a=0.4, r=1, g=1, b=0, fadetime=0.05, block=true)]",
+        "type": "blocker",
+        "a": "0.4,",
+        "r": "1,",
+        "g": "1,",
+        "b": "0,",
+        "fadetime": "0.05,",
+        "block": true
+    },
+    {
+        "id": 221,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1.5,",
+        "block": true
+    },
+    {
+        "id": 222,
+        "raw": "[Delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 223,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 224,
+        "raw": "[PlaySound(key=\"$d_avg_magic_2\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_magic_2.mp3"
+    },
+    {
+        "id": 225,
+        "raw": "[Blocker(a=0.4, r=1, g=1, b=0, fadetime=0.05, block=true)]",
+        "type": "blocker",
+        "a": "0.4,",
+        "r": "1,",
+        "g": "1,",
+        "b": "0,",
+        "fadetime": "0.05,",
+        "block": true
+    },
+    {
+        "id": 226,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1.5,",
+        "block": true
+    },
+    {
+        "id": 227,
+        "raw": "[Delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 228,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 229,
+        "raw": "呪文の力がLogosの全身にゆっくりと注がれる。",
+        "type": "narration",
+        "content": "呪文の力がLogosの全身にゆっくりと注がれる。"
+    },
+    {
+        "id": 230,
+        "raw": "彼は再び口を開いた。",
+        "type": "narration",
+        "content": "彼は再び口を開いた。"
+    },
+    {
+        "id": 231,
+        "raw": "力強い歌声が川面に揺蕩い、眩くも美しい波の光の波を映し出す。",
+        "type": "narration",
+        "content": "力強い歌声が川面に揺蕩い、眩くも美しい波の光の波を映し出す。"
+    },
+    {
+        "id": 232,
+        "raw": "あらゆる追っ手はみな、その場に立ち尽くしていた。",
+        "type": "narration",
+        "content": "あらゆる追っ手はみな、その場に立ち尽くしていた。"
+    },
+    {
+        "id": 233,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 234,
+        "raw": "[stopsound(channel=\"1\",fadetime=1.5)]",
+        "type": "stop_sound",
+        "channel": "1",
+        "fadetime": 1.5
+    },
+    {
+        "id": 235,
+        "raw": "[stopmusic(fadetime=1.5)]",
+        "type": "stop_music",
+        "fadetime": 1.5
+    },
+    {
+        "id": 236,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 237,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 238,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 239,
+        "raw": "[Background(image=\"50_g1_originiumcanyon\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "50_g1_originiumcanyon.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 240,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 241,
+        "raw": "[PlayMusic(intro=\"$mist_intro\", key=\"$mist_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta1_180603/m_dia_mist_intro.mp3",
+        "key": "sound_beta_2/music/beta1_180603/m_dia_mist_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 242,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 243,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 244,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1339_1#1$1\",bstart=0.3,bend=0.5)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1339_1#1$1.png",
+        "bstart": "0.3,bend=0.5"
+    },
+    {
+        "id": 245,
+        "raw": "[name=\"ネツァレム\"]……",
+        "type": "dialog",
+        "speaker": "ネツァレム",
+        "content": "……"
+    },
+    {
+        "id": 246,
+        "raw": "[name=\"ネツァレム\"]よもやこの異国の谷で、バンシーの斉唱を聞くことがあろうとは。",
+        "type": "dialog",
+        "speaker": "ネツァレム",
+        "content": "よもやこの異国の谷で、バンシーの斉唱を聞くことがあろうとは。"
+    },
+    {
+        "id": 247,
+        "raw": "[name=\"ネツァレム\"]新生は死を相伴う……",
+        "type": "dialog",
+        "speaker": "ネツァレム",
+        "content": "新生は死を相伴う……"
+    },
+    {
+        "id": 248,
+        "raw": "[name=\"ネツァレム\"]若人よ。事ここに至ってもなお、その方は……歌声で我輩に忠告をしようというのか？",
+        "type": "dialog",
+        "speaker": "ネツァレム",
+        "content": "若人よ。事ここに至ってもなお、その方は……歌声で我輩に忠告をしようというのか？"
+    },
+    {
+        "id": 249,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1331_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1331_1#1$1.png"
+    },
+    {
+        "id": 250,
+        "raw": "[name=\"「霊骸布」\"]宗主、単なるバンシーの呪文に過ぎません。",
+        "type": "dialog",
+        "speaker": "「霊骸布」",
+        "content": "宗主、単なるバンシーの呪文に過ぎません。"
+    },
+    {
+        "id": 251,
+        "raw": "[name=\"「霊骸布」\"]奴らが戦いに参加したわけではないのです。我らの敵があの若きバンシー一人である事実は変わりません。",
+        "type": "dialog",
+        "speaker": "「霊骸布」",
+        "content": "奴らが戦いに参加したわけではないのです。我らの敵があの若きバンシー一人である事実は変わりません。"
+    },
+    {
+        "id": 252,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1339_1#1$1\",bstart=0.3,bend=0.5)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1339_1#1$1.png",
+        "bstart": "0.3,bend=0.5"
+    },
+    {
+        "id": 253,
+        "raw": "[name=\"ネツァレム\"]……",
+        "type": "dialog",
+        "speaker": "ネツァレム",
+        "content": "……"
+    },
+    {
+        "id": 254,
+        "raw": "[name=\"ネツァレム\"]うむ……",
+        "type": "dialog",
+        "speaker": "ネツァレム",
+        "content": "うむ……"
+    },
+    {
+        "id": 255,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1331_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1331_1#1$1.png"
+    },
+    {
+        "id": 256,
+        "raw": "[name=\"「霊骸布」\"]その傷……まさかそれほどの深手を負われるとは。",
+        "type": "dialog",
+        "speaker": "「霊骸布」",
+        "content": "その傷……まさかそれほどの深手を負われるとは。"
+    },
+    {
+        "id": 257,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1339_1#1$1\",bstart=0.3,bend=0.5)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1339_1#1$1.png",
+        "bstart": "0.3,bend=0.5"
+    },
+    {
+        "id": 258,
+        "raw": "[name=\"ネツァレム\"]アエファニルの呪いは、朽ち果てしものを腐朽に帰す。我輩はしばしの間、傷を治すことができない。だがこの身体でも……戦争に打ち勝つには十分だ。",
+        "type": "dialog",
+        "speaker": "ネツァレム",
+        "content": "アエファニルの呪いは、朽ち果てしものを腐朽に帰す。我輩はしばしの間、傷を治すことができない。だがこの身体でも……戦争に打ち勝つには十分だ。"
+    },
+    {
+        "id": 259,
+        "raw": "[name=\"ネツァレム\"]だが今は……彼とバンシーたちの歌声に、ただ耳を傾けさせてはくれぬか。",
+        "type": "dialog",
+        "speaker": "ネツァレム",
+        "content": "だが今は……彼とバンシーたちの歌声に、ただ耳を傾けさせてはくれぬか。"
+    },
+    {
+        "id": 260,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 261,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 262,
+        "raw": "[playsound(key=\"$d_gen_walk_n\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 263,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 264,
+        "raw": "いかなる浮遊のアーツにも頼ることなく、ネツァレムは崖際まで歩み寄った。",
+        "type": "narration",
+        "content": "いかなる浮遊のアーツにも頼ることなく、ネツァレムは崖際まで歩み寄った。"
+    },
+    {
+        "id": 265,
+        "raw": "この瞬間の彼は殊の外に、何の変哲もない老人のように見えた。",
+        "type": "narration",
+        "content": "この瞬間の彼は殊の外に、何の変哲もない老人のように見えた。"
+    },
+    {
+        "id": 266,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1339_1#1$1\",bstart=0.3,bend=0.5)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1339_1#1$1.png",
+        "bstart": "0.3,bend=0.5"
+    },
+    {
+        "id": 267,
+        "raw": "[name=\"ネツァレム\"]ボジョカスティを……覚えているか？",
+        "type": "dialog",
+        "speaker": "ネツァレム",
+        "content": "ボジョカスティを……覚えているか？"
+    },
+    {
+        "id": 268,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1331_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1331_1#1$1.png"
+    },
+    {
+        "id": 269,
+        "raw": "[name=\"「霊骸布」\"]ええ、もちろんです。",
+        "type": "dialog",
+        "speaker": "「霊骸布」",
+        "content": "ええ、もちろんです。"
+    },
+    {
+        "id": 270,
+        "raw": "[name=\"「霊骸布」\"]宗主は彼を我が子同然に扱っておりました。",
+        "type": "dialog",
+        "speaker": "「霊骸布」",
+        "content": "宗主は彼を我が子同然に扱っておりました。"
+    },
+    {
+        "id": 271,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1339_1#1$1\",bstart=0.3,bend=0.5)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1339_1#1$1.png",
+        "bstart": "0.3,bend=0.5"
+    },
+    {
+        "id": 272,
+        "raw": "[name=\"ネツァレム\"]あの類まれな才を持つ男は、疑いなくカズデルの英雄となれるはずであった。",
+        "type": "dialog",
+        "speaker": "ネツァレム",
+        "content": "あの類まれな才を持つ男は、疑いなくカズデルの英雄となれるはずであった。"
+    },
+    {
+        "id": 273,
+        "raw": "[name=\"ネツァレム\"]我輩が最も贔屓にしていた愛弟子だったのだ。",
+        "type": "dialog",
+        "speaker": "ネツァレム",
+        "content": "我輩が最も贔屓にしていた愛弟子だったのだ。"
+    },
+    {
+        "id": 274,
+        "raw": "[name=\"ネツァレム\"]だが惜しくも彼はカズデルを離れて、異国の地での陰謀に倒れてしまった。",
+        "type": "dialog",
+        "speaker": "ネツァレム",
+        "content": "だが惜しくも彼はカズデルを離れて、異国の地での陰謀に倒れてしまった。"
+    },
+    {
+        "id": 275,
+        "raw": "[name=\"ネツァレム\"]彼が戦士の姿のまま逝けたことは幸いであった。戦いを通じて生きることの意義を成し、死してサルカズの魂へと還っていったのだから。",
+        "type": "dialog",
+        "speaker": "ネツァレム",
+        "content": "彼が戦士の姿のまま逝けたことは幸いであった。戦いを通じて生きることの意義を成し、死してサルカズの魂へと還っていったのだから。"
+    },
+    {
+        "id": 276,
+        "raw": "[name=\"ネツァレム\"]だが……それから……",
+        "type": "dialog",
+        "speaker": "ネツァレム",
+        "content": "だが……それから……"
+    },
+    {
+        "id": 277,
+        "raw": "[name=\"ネツァレム\"]カズデルの次なる英雄は……一体何処に？",
+        "type": "dialog",
+        "speaker": "ネツァレム",
+        "content": "カズデルの次なる英雄は……一体何処に？"
+    },
+    {
+        "id": 278,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 279,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 280,
+        "raw": "ネツァレムは崖下に目を向けた。",
+        "type": "narration",
+        "content": "ネツァレムは崖下に目を向けた。"
+    },
+    {
+        "id": 281,
+        "raw": "彼の肉体に空いた、いまだ塞がらぬ穴の中を風が吹き抜けていく。辺りには、ただ無意味な音だけが鳴り響いた。",
+        "type": "narration",
+        "content": "彼の肉体に空いた、いまだ塞がらぬ穴の中を風が吹き抜けていく。辺りには、ただ無意味な音だけが鳴り響いた。"
+    },
+    {
+        "id": 282,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 283,
+        "raw": "[stopmusic(fadetime=1.5)]",
+        "type": "stop_music",
+        "fadetime": 1.5
+    },
+    {
+        "id": 284,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 285,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 286,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 287,
+        "raw": "[Background(image=\"50_g18_originiumcave\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "50_g18_originiumcave.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 288,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 289,
+        "raw": "[PlayMusic(intro=\"$darkness01_intro\", key=\"$darkness01_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta1_180603/m_dia_darkness01_intro.mp3",
+        "key": "sound_beta_2/music/beta1_180603/m_dia_darkness01_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 290,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 291,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 292,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#2$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#2$1.png"
+    },
+    {
+        "id": 293,
+        "raw": "[name=\"アーミヤ\"]サルカズの魂の哀歌が収まりました。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "サルカズの魂の哀歌が収まりました。"
+    },
+    {
+        "id": 294,
+        "raw": "[name=\"アーミヤ\"]「ティカズの血」と源石の繋がりが……Logosさんの骨笛で、しばらくの間押さえつけられているんです。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "「ティカズの血」と源石の繋がりが……Logosさんの骨笛で、しばらくの間押さえつけられているんです。"
+    },
+    {
+        "id": 295,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#7$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#7$1.png"
+    },
+    {
+        "id": 296,
+        "raw": "[name=\"アーミヤ\"]これは私たちにとって絶好のチャンスになります。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "これは私たちにとって絶好のチャンスになります。"
+    },
+    {
+        "id": 297,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#7$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#7$1.png"
+    },
+    {
+        "id": 298,
+        "raw": "[name=\"アーミヤ\"]ドクター、ケルシー先生……今回は、決して逃したりしません。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "ドクター、ケルシー先生……今回は、決して逃したりしません。"
+    },
+    {
+        "id": 299,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 300,
+        "raw": "[stopmusic(fadetime=1.5)]",
+        "type": "stop_music",
+        "fadetime": 1.5
+    },
+    {
+        "id": 301,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 302,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 303,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 304,
+        "raw": "[Background(image=\"50_g8_altarcoreandblood\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "50_g8_altarcoreandblood.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 305,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 306,
+        "raw": "[PlayMusic(intro=\"$nervous_intro\", key=\"$nervous_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act9d0d0/m_avg_nervous_intro.mp3",
+        "key": "sound_beta_2/music/act9d0d0/m_avg_nervous_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 307,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 308,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 309,
+        "raw": "[playsound(key=\"$d_gen_walk_n\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 310,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_653_1#1$1\",duration=1.5)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_653_1#1$1.png",
+        "duration": 1.5
+    },
+    {
+        "id": 311,
+        "raw": "[Delay(time=2.5)]",
+        "type": "delay",
+        "time": 2.5
+    },
+    {
+        "id": 312,
+        "raw": "[name=\"サルース\"]……追いついてきたわね。",
+        "type": "dialog",
+        "speaker": "サルース",
+        "content": "……追いついてきたわね。"
+    },
+    {
+        "id": 313,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_653_1#5$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_653_1#5$1.png"
+    },
+    {
+        "id": 314,
+        "raw": "[name=\"サルース\"]愛しのクイサルシンナ、あなたもじきにここへ来るんでしょう？",
+        "type": "dialog",
+        "speaker": "サルース",
+        "content": "愛しのクイサルシンナ、あなたもじきにここへ来るんでしょう？"
+    },
+    {
+        "id": 315,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_653_1#9$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_653_1#9$1.png"
+    },
+    {
+        "id": 316,
+        "raw": "[name=\"サルース\"]あなたと、リーダー……我らが敬愛する父上の内、一体どちらが……王座まで辿り着くのかしらね？",
+        "type": "dialog",
+        "speaker": "サルース",
+        "content": "あなたと、リーダー……我らが敬愛する父上の内、一体どちらが……王座まで辿り着くのかしらね？"
+    },
+    {
+        "id": 317,
+        "raw": "[Delay]",
+        "type": "delay"
+    },
+    {
+        "id": 318,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 319,
+        "raw": "サルースは祭壇の上の血に手を伸ばした。",
+        "type": "narration",
+        "content": "サルースは祭壇の上の血に手を伸ばした。"
+    },
+    {
+        "id": 320,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 321,
+        "raw": "[PlaySound(key=\"$fireburst\", volume=0.6)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_fireburst.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 322,
+        "raw": "[CameraShake(duration=0.5, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "20,",
+        "ystrength": "20,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 323,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 324,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.03,",
+        "block": true
+    },
+    {
+        "id": 325,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 326,
+        "raw": "[Delay(time=3.5)]",
+        "type": "delay",
+        "time": 3.5
+    },
+    {
+        "id": 327,
+        "raw": "源石が燃え盛り、サルカズの魂が咆哮を上げている。",
+        "type": "narration",
+        "content": "源石が燃え盛り、サルカズの魂が咆哮を上げている。"
+    },
+    {
+        "id": 328,
+        "raw": "強力な巫術によって、彼女の指先はたちまち黒く焦げた結晶と化した。",
+        "type": "narration",
+        "content": "強力な巫術によって、彼女の指先はたちまち黒く焦げた結晶と化した。"
+    },
+    {
+        "id": 329,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_653_1#10$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_653_1#10$1.png"
+    },
+    {
+        "id": 330,
+        "raw": "[name=\"サルース\"]ああ、待ちきれないわ……",
+        "type": "dialog",
+        "speaker": "サルース",
+        "content": "ああ、待ちきれないわ……"
+    },
+    {
+        "id": 331,
+        "raw": "[name=\"サルース\"]原点が、すぐそこにまで迫っているのね。",
+        "type": "dialog",
+        "speaker": "サルース",
+        "content": "原点が、すぐそこにまで迫っているのね。"
+    },
+    {
+        "id": 332,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 333,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 334,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 335,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 336,
+        "raw": "[Background(image=\"50_g7_confessariusaltar_on\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "50_g7_confessariusaltar_on.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 337,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 338,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 339,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 340,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_425_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_425_1#1$1.png"
+    },
+    {
+        "id": 341,
+        "raw": "[name=\"聴罪師直属衛兵\"]この――",
+        "type": "dialog",
+        "speaker": "聴罪師直属衛兵",
+        "content": "この――"
+    },
+    {
+        "id": 342,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 343,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 344,
+        "raw": "[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "ystrength": "40,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 345,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.03,",
+        "block": true
+    },
+    {
+        "id": 346,
+        "raw": "[PlaySound(key=\"$swordtsing4\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_swordtsing4.mp3",
+        "volume": 1
+    },
+    {
+        "id": 347,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 348,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 349,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 350,
+        "raw": "[playsound(key=\"$d_gen_walk_n\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 351,
+        "raw": "[charslot(slot=\"m\",name=\"avgnew_147_shining_1#5$1\",duration=1.5)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avgnew_147_shining_1#5$1.png",
+        "duration": 1.5
+    },
+    {
+        "id": 352,
+        "raw": "[Delay(time=2.5)]",
+        "type": "delay",
+        "time": 2.5
+    },
+    {
+        "id": 353,
+        "raw": "[charslot(slot=\"m\",name=\"avgnew_147_shining_1#5$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avgnew_147_shining_1#5$1.png"
+    },
+    {
+        "id": 354,
+        "raw": "[name=\"シャイニング\"]うまく隠れたものですね。",
+        "type": "dialog",
+        "speaker": "シャイニング",
+        "content": "うまく隠れたものですね。"
+    },
+    {
+        "id": 355,
+        "raw": "[name=\"シャイニング\"]あなたたちを見つけるのに……ずいぶんと時間を費やしてしまいました。",
+        "type": "dialog",
+        "speaker": "シャイニング",
+        "content": "あなたたちを見つけるのに……ずいぶんと時間を費やしてしまいました。"
+    },
+    {
+        "id": 356,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_425_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_425_1#1$1.png"
+    },
+    {
+        "id": 357,
+        "raw": "[name=\"聴罪師直属衛兵\"]裏切者め！",
+        "type": "dialog",
+        "speaker": "聴罪師直属衛兵",
+        "content": "裏切者め！"
+    },
+    {
+        "id": 358,
+        "raw": "[name=\"聴罪師直属衛兵\"]クソッ、貴様はここに来るまで、一体何人殺してきた？",
+        "type": "dialog",
+        "speaker": "聴罪師直属衛兵",
+        "content": "クソッ、貴様はここに来るまで、一体何人殺してきた？"
+    },
+    {
+        "id": 359,
+        "raw": "[charslot(slot=\"m\",name=\"avgnew_147_shining_1#5$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avgnew_147_shining_1#5$1.png"
+    },
+    {
+        "id": 360,
+        "raw": "[name=\"シャイニング\"]……当時逃げ出した時に殺した数には及びません。",
+        "type": "dialog",
+        "speaker": "シャイニング",
+        "content": "……当時逃げ出した時に殺した数には及びません。"
+    },
+    {
+        "id": 361,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_425_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_425_1#1$1.png"
+    },
+    {
+        "id": 362,
+        "raw": "[name=\"聴罪師直属衛兵\"]あの時……地下実験エリアは仲間たちの死体で溢れ返っていた。",
+        "type": "dialog",
+        "speaker": "聴罪師直属衛兵",
+        "content": "あの時……地下実験エリアは仲間たちの死体で溢れ返っていた。"
+    },
+    {
+        "id": 363,
+        "raw": "[name=\"聴罪師直属衛兵\"]貴様のせいで、王立科学アカデミーでのリーダーの計画はほとんどが白紙へと帰した。危うくヴィクトリア人に悟られるかもしれないほどの大騒ぎだったんだぞ！",
+        "type": "dialog",
+        "speaker": "聴罪師直属衛兵",
+        "content": "貴様のせいで、王立科学アカデミーでのリーダーの計画はほとんどが白紙へと帰した。危うくヴィクトリア人に悟られるかもしれないほどの大騒ぎだったんだぞ！"
+    },
+    {
+        "id": 364,
+        "raw": "[charslot(slot=\"m\",name=\"avgnew_147_shining_1#2$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avgnew_147_shining_1#2$1.png"
+    },
+    {
+        "id": 365,
+        "raw": "[name=\"シャイニング\"]私はむしろ、全てが失敗に終わればよかったのにと思っています。",
+        "type": "dialog",
+        "speaker": "シャイニング",
+        "content": "私はむしろ、全てが失敗に終わればよかったのにと思っています。"
+    },
+    {
+        "id": 366,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_425_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_425_1#1$1.png"
+    },
+    {
+        "id": 367,
+        "raw": "[name=\"聴罪師直属衛兵\"]ハッ……以前とは違うことを言うようになったな！",
+        "type": "dialog",
+        "speaker": "聴罪師直属衛兵",
+        "content": "ハッ……以前とは違うことを言うようになったな！"
+    },
+    {
+        "id": 368,
+        "raw": "[name=\"聴罪師直属衛兵\"]よくもまあ、そのように正義の味方を装えるものだ。我らは貴様の指示で大忙しだったというのに！",
+        "type": "dialog",
+        "speaker": "聴罪師直属衛兵",
+        "content": "よくもまあ、そのように正義の味方を装えるものだ。我らは貴様の指示で大忙しだったというのに！"
+    },
+    {
+        "id": 369,
+        "raw": "[name=\"聴罪師直属衛兵\"]ロンディニウムの外にある、あれだけ大きな地下洞窟や、あれほど多くの実験基地は……全て貴様の管轄下ではなかったのか？",
+        "type": "dialog",
+        "speaker": "聴罪師直属衛兵",
+        "content": "ロンディニウムの外にある、あれだけ大きな地下洞窟や、あれほど多くの実験基地は……全て貴様の管轄下ではなかったのか？"
+    },
+    {
+        "id": 370,
+        "raw": "[name=\"聴罪師直属衛兵\"]当時のリーダーは、ほとんどの時間をカズデルで過ごしていた。マスクを着けてリーダーと瓜二つの姿で研究を主導していたのは、貴様の方ではないか――",
+        "type": "dialog",
+        "speaker": "聴罪師直属衛兵",
+        "content": "当時のリーダーは、ほとんどの時間をカズデルで過ごしていた。マスクを着けてリーダーと瓜二つの姿で研究を主導していたのは、貴様の方ではないか――"
+    },
+    {
+        "id": 371,
+        "raw": "[charslot(slot=\"m\",name=\"avgnew_147_shining_1#4$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avgnew_147_shining_1#4$1.png"
+    },
+    {
+        "id": 372,
+        "raw": "[name=\"シャイニング\"]あの時の私に、選択肢はありませんでした。",
+        "type": "dialog",
+        "speaker": "シャイニング",
+        "content": "あの時の私に、選択肢はありませんでした。"
+    },
+    {
+        "id": 373,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_425_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_425_1#1$1.png"
+    },
+    {
+        "id": 374,
+        "raw": "[name=\"聴罪師直属衛兵\"]選択肢がなかったか。ならば我らをロンディニウムに連れてきて、マスクを着けさせた時に言っていた、あの言葉はどうなった？",
+        "type": "dialog",
+        "speaker": "聴罪師直属衛兵",
+        "content": "選択肢がなかったか。ならば我らをロンディニウムに連れてきて、マスクを着けさせた時に言っていた、あの言葉はどうなった？"
+    },
+    {
+        "id": 375,
+        "raw": "[name=\"聴罪師直属衛兵\"]当初の我らはしがない傭兵に過ぎなかった。だがそれでも、聴罪師の信仰を、貴様とリーダーの言っていた「サルカズの最初で最後の道」を、信じていたんだ！",
+        "type": "dialog",
+        "speaker": "聴罪師直属衛兵",
+        "content": "当初の我らはしがない傭兵に過ぎなかった。だがそれでも、聴罪師の信仰を、貴様とリーダーの言っていた「サルカズの最初で最後の道」を、信じていたんだ！"
+    },
+    {
+        "id": 376,
+        "raw": "[name=\"聴罪師直属衛兵\"]我らの生来の罪業は――異種族によって背負わされし罪は、いつの日かきっと、全て洗い流されるであろうと。",
+        "type": "dialog",
+        "speaker": "聴罪師直属衛兵",
+        "content": "我らの生来の罪業は――異種族によって背負わされし罪は、いつの日かきっと、全て洗い流されるであろうと。"
+    },
+    {
+        "id": 377,
+        "raw": "[name=\"聴罪師直属衛兵\"]あれは嘘だったのか？",
+        "type": "dialog",
+        "speaker": "聴罪師直属衛兵",
+        "content": "あれは嘘だったのか？"
+    },
+    {
+        "id": 378,
+        "raw": "[charslot(slot=\"m\",name=\"avgnew_147_shining_1#2$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avgnew_147_shining_1#2$1.png"
+    },
+    {
+        "id": 379,
+        "raw": "[name=\"シャイニング\"]……",
+        "type": "dialog",
+        "speaker": "シャイニング",
+        "content": "……"
+    },
+    {
+        "id": 380,
+        "raw": "[name=\"シャイニング\"]確かに私は嘘であればと、そう願っています。",
+        "type": "dialog",
+        "speaker": "シャイニング",
+        "content": "確かに私は嘘であればと、そう願っています。"
+    },
+    {
+        "id": 381,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_425_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_425_1#1$1.png"
+    },
+    {
+        "id": 382,
+        "raw": "[name=\"聴罪師直属衛兵\"]違う……あれは嘘なんかじゃない。リーダーが我らにしてくださった約束は、全て本当だ。貴様もそうだろう、クイサルシンナ。貴様はそれから道を踏み外したが……",
+        "type": "dialog",
+        "speaker": "聴罪師直属衛兵",
+        "content": "違う……あれは嘘なんかじゃない。リーダーが我らにしてくださった約束は、全て本当だ。貴様もそうだろう、クイサルシンナ。貴様はそれから道を踏み外したが……"
+    },
+    {
+        "id": 383,
+        "raw": "[name=\"聴罪師直属衛兵\"]リーダーと摂政王は、間もなく成功を手にするのだ。",
+        "type": "dialog",
+        "speaker": "聴罪師直属衛兵",
+        "content": "リーダーと摂政王は、間もなく成功を手にするのだ。"
+    },
+    {
+        "id": 384,
+        "raw": "[name=\"聴罪師直属衛兵\"]長きにわたり失われてきた自由と権力が、じきにあらゆるサルカズの手に戻ってくる。",
+        "type": "dialog",
+        "speaker": "聴罪師直属衛兵",
+        "content": "長きにわたり失われてきた自由と権力が、じきにあらゆるサルカズの手に戻ってくる。"
+    },
+    {
+        "id": 385,
+        "raw": "[charslot(slot=\"m\",name=\"avgnew_147_shining_1#2$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avgnew_147_shining_1#2$1.png"
+    },
+    {
+        "id": 386,
+        "raw": "[name=\"シャイニング\"]……",
+        "type": "dialog",
+        "speaker": "シャイニング",
+        "content": "……"
+    },
+    {
+        "id": 387,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_425_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_425_1#1$1.png"
+    },
+    {
+        "id": 388,
+        "raw": "[name=\"聴罪師直属衛兵\"]殺したいなら、好きにしろ。",
+        "type": "dialog",
+        "speaker": "聴罪師直属衛兵",
+        "content": "殺したいなら、好きにしろ。"
+    },
+    {
+        "id": 389,
+        "raw": "[name=\"聴罪師直属衛兵\"]リーダーに会いに行くといい。貴様の父親にな。",
+        "type": "dialog",
+        "speaker": "聴罪師直属衛兵",
+        "content": "リーダーに会いに行くといい。貴様の父親にな。"
+    },
+    {
+        "id": 390,
+        "raw": "[name=\"聴罪師直属衛兵\"]あの道の果てで彼は待っている。彼らは皆、貴様を待っているぞ。",
+        "type": "dialog",
+        "speaker": "聴罪師直属衛兵",
+        "content": "あの道の果てで彼は待っている。彼らは皆、貴様を待っているぞ。"
+    },
+    {
+        "id": 391,
+        "raw": "[name=\"聴罪師直属衛兵\"]貴様は私に代わって……その剣に倒れた、我ら一人一人に代わって……見届けることだろう。",
+        "type": "dialog",
+        "speaker": "聴罪師直属衛兵",
+        "content": "貴様は私に代わって……その剣に倒れた、我ら一人一人に代わって……見届けることだろう。"
+    },
+    {
+        "id": 392,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 393,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 394,
+        "raw": "[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "ystrength": "40,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 395,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.03,",
+        "block": true
+    },
+    {
+        "id": 396,
+        "raw": "[PlaySound(key=\"$e_skill_skulsrsword\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_skill/e_skill_skulsrsword.mp3",
+        "volume": 1
+    },
+    {
+        "id": 397,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 398,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 399,
+        "raw": "[PlaySound(key=\"$bodyfalldown1\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_bodyfalldown1.mp3",
+        "volume": 1
+    },
+    {
+        "id": 400,
+        "raw": "[charslot(duration=1.5)]",
+        "type": "charslot",
+        "duration": 1.5
+    },
+    {
+        "id": 401,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 402,
+        "raw": "[charslot(slot=\"m\",name=\"avgnew_147_shining_1#2$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avgnew_147_shining_1#2$1.png"
+    },
+    {
+        "id": 403,
+        "raw": "[name=\"シャイニング\"]……",
+        "type": "dialog",
+        "speaker": "シャイニング",
+        "content": "……"
+    },
+    {
+        "id": 404,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 405,
+        "raw": "[charslot(slot=\"m\",posfrom=\"0,0\",posto=\"0,-50\",duration=1)]",
+        "type": "charslot",
+        "slot": "m",
+        "posfrom": "0,0",
+        "posto": "0,-50",
+        "duration": 1
+    },
+    {
+        "id": 406,
+        "raw": "[playsound(key=\"$d_avg_clothmovement\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_clothmovement.mp3",
+        "volume": 1
+    },
+    {
+        "id": 407,
+        "raw": "[Delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 408,
+        "raw": "[charslot(slot=\"m\",posfrom=\"0,-50\",posto=\"0,0\",duration=1)]",
+        "type": "charslot",
+        "slot": "m",
+        "posfrom": "0,-50",
+        "posto": "0,0",
+        "duration": 1
+    },
+    {
+        "id": 409,
+        "raw": "[Delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 410,
+        "raw": "シャイニングは衛兵のマスクを外した。",
+        "type": "narration",
+        "content": "シャイニングは衛兵のマスクを外した。"
+    },
+    {
+        "id": 411,
+        "raw": "露わになった顔を、彼女は覚えている。彼は最初に聴罪師の手でロンディニウムへ連れてこられた傭兵の一人だった。",
+        "type": "narration",
+        "content": "露わになった顔を、彼女は覚えている。彼は最初に聴罪師の手でロンディニウムへ連れてこられた傭兵の一人だった。"
+    },
+    {
+        "id": 412,
+        "raw": "彼らは当初何も知らされないまま、ただ都市外の遺跡発掘に従事するだけの人々だった。",
+        "type": "narration",
+        "content": "彼らは当初何も知らされないまま、ただ都市外の遺跡発掘に従事するだけの人々だった。"
+    },
+    {
+        "id": 413,
+        "raw": "[charslot(slot=\"m\",name=\"avgnew_147_shining_1#3$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avgnew_147_shining_1#3$1.png"
+    },
+    {
+        "id": 414,
+        "raw": "この若者は、彼女に直接お礼の言葉すら告げてきた。手厚い報酬と安全な仕事をもたらしてくれた聴罪師に対し、彼は感謝していたのだ。",
+        "type": "narration",
+        "content": "この若者は、彼女に直接お礼の言葉すら告げてきた。手厚い報酬と安全な仕事をもたらしてくれた聴罪師に対し、彼は感謝していたのだ。"
+    },
+    {
+        "id": 415,
+        "raw": "しかしほどなくして彼らの口からそんな言葉は聞こえなくなった。",
+        "type": "narration",
+        "content": "しかしほどなくして彼らの口からそんな言葉は聞こえなくなった。"
+    },
+    {
+        "id": 416,
+        "raw": "聴罪師のリーダーが、ロンディニウムへとやってきたからだ。",
+        "type": "narration",
+        "content": "聴罪師のリーダーが、ロンディニウムへとやってきたからだ。"
+    },
+    {
+        "id": 417,
+        "raw": "[charslot(slot=\"m\",name=\"avgnew_147_shining_1#2$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avgnew_147_shining_1#2$1.png"
+    },
+    {
+        "id": 418,
+        "raw": "あちこちで雑談を交わし合い、酒を飲みながらゲームに興じる傭兵たちはいなくなった。周りの人々は、皆一様に同じマスクを身に着け、必要な時を除き二度と口を開かなくなった。",
+        "type": "narration",
+        "content": "あちこちで雑談を交わし合い、酒を飲みながらゲームに興じる傭兵たちはいなくなった。周りの人々は、皆一様に同じマスクを身に着け、必要な時を除き二度と口を開かなくなった。"
+    },
+    {
+        "id": 419,
+        "raw": "彼らに特別な血脈は何もない。クイサルトゥシュタとて、そうたやすくは彼らの意志を操れなかったはずだ。",
+        "type": "narration",
+        "content": "彼らに特別な血脈は何もない。クイサルトゥシュタとて、そうたやすくは彼らの意志を操れなかったはずだ。"
+    },
+    {
+        "id": 420,
+        "raw": "しかし彼ら自身を形作る一部は、聴罪師の壮大な理想の前に死んでいった。",
+        "type": "narration",
+        "content": "しかし彼ら自身を形作る一部は、聴罪師の壮大な理想の前に死んでいった。"
+    },
+    {
+        "id": 421,
+        "raw": "そして最初に彼らを殺したのは、他ならぬ彼女自身である。",
+        "type": "narration",
+        "content": "そして最初に彼らを殺したのは、他ならぬ彼女自身である。"
+    },
+    {
+        "id": 422,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 423,
+        "raw": "[charslot(slot=\"m\",name=\"avgnew_147_shining_1#2$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avgnew_147_shining_1#2$1.png"
+    },
+    {
+        "id": 424,
+        "raw": "[Delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 425,
+        "raw": "[charslot(slot=\"m\",name=\"avgnew_147_shining_1#3$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avgnew_147_shining_1#3$1.png"
+    },
+    {
+        "id": 426,
+        "raw": "[Delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 427,
+        "raw": "[charslot(slot=\"m\",name=\"avgnew_147_shining_1#5$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avgnew_147_shining_1#5$1.png"
+    },
+    {
+        "id": 428,
+        "raw": "[name=\"シャイニング\"]この罪業を……",
+        "type": "dialog",
+        "speaker": "シャイニング",
+        "content": "この罪業を……"
+    },
+    {
+        "id": 429,
+        "raw": "[name=\"シャイニング\"]……これ以上、続けるわけにはいきません。",
+        "type": "dialog",
+        "speaker": "シャイニング",
+        "content": "……これ以上、続けるわけにはいきません。"
+    },
+    {
+        "id": 430,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 431,
+        "raw": "[playsound(key=\"$d_gen_walk_n\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 432,
+        "raw": "[charslot(duration=1.5)]",
+        "type": "charslot",
+        "duration": 1.5
+    },
+    {
+        "id": 433,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 434,
+        "raw": "[playsound(key=\"$d_avg_glassbroken\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_glassbroken.mp3",
+        "volume": 1
+    },
+    {
+        "id": 435,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 436,
+        "raw": "砕けたマスクの破片が、シャイニングの手のひらを突き刺す。",
+        "type": "narration",
+        "content": "砕けたマスクの破片が、シャイニングの手のひらを突き刺す。"
+    },
+    {
+        "id": 437,
+        "raw": "彼女はそのまま、山頂を目指して歩み始めた。",
+        "type": "narration",
+        "content": "彼女はそのまま、山頂を目指して歩み始めた。"
+    },
+    {
+        "id": 438,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 439,
+        "raw": "[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 440,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 441,
+        "raw": "[stopmusic(fadetime=1)]",
+        "type": "stop_music",
+        "fadetime": 1
+    },
+    {
+        "id": 442,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 443,
+        "raw": "[Image]",
+        "type": "image"
+    }
+]

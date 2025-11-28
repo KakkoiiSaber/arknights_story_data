@@ -1,0 +1,1918 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")] ",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK"
+    },
+    {
+        "id": 2,
+        "raw": "[stopmusic]",
+        "type": "stop_music"
+    },
+    {
+        "id": 3,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 4,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 5,
+        "raw": "[playMusic(intro=\"$mist_intro\", key=\"$mist_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta1_180603/m_dia_mist_intro.mp3",
+        "key": "sound_beta_2/music/beta1_180603/m_dia_mist_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 6,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 7,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 8,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 9,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 10,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 11,
+        "raw": "[Background(image=\"bg_cherunder_2\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_cherunder_2.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 12,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 13,
+        "raw": "Central District",
+        "type": "narration",
+        "content": "Central District"
+    },
+    {
+        "id": 14,
+        "raw": "A short while before",
+        "type": "narration",
+        "content": "A short while before"
+    },
+    {
+        "id": 15,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 16,
+        "raw": "[Decision(options=\"How are you certain Amiya's group will reach the command tower...\", values=\"1\")]",
+        "type": "decision",
+        "options": "How are you certain Amiya's group will reach the command tower...",
+        "values": "1"
+    },
+    {
+        "id": 17,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 18,
+        "raw": "[Decision(options=\"...without crossing one of Talulah's elite squads?\", values=\"1\")]",
+        "type": "decision",
+        "options": "...without crossing one of Talulah's elite squads?",
+        "values": "1"
+    },
+    {
+        "id": 19,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 20,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 21,
+        "raw": "[name=\"Kal'tsit\"] This is the problem with conspirators.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "This is the problem with conspirators."
+    },
+    {
+        "id": 22,
+        "raw": "[name=\"Kal'tsit\"] Take a warlord, or a tyrant of a devious king. Their strongholds are always easy to defend, hard to attack.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Take a warlord, or a tyrant of a devious king. Their strongholds are always easy to defend, hard to attack."
+    },
+    {
+        "id": 23,
+        "raw": "[name=\"Kal'tsit\"] They know their own deeds will invite furious retribution without fail. They'll use superior strength and advanced armaments to deploy unyielding defense.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "They know their own deeds will invite furious retribution without fail. They'll use superior strength and advanced armaments to deploy unyielding defense."
+    },
+    {
+        "id": 24,
+        "raw": "[name=\"Kal'tsit\"] Yet, seeing as Talulah's despotic behavior is confirmed to be some kind of act, she would not do things this way.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Yet, seeing as Talulah's despotic behavior is confirmed to be some kind of act, she would not do things this way."
+    },
+    {
+        "id": 25,
+        "raw": "[Decision(options=\"What makes you so confident?;......;I wanna hear your reasoning.\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "What makes you so confident?;......;I wanna hear your reasoning.",
+        "values": "1;2;3"
+    },
+    {
+        "id": 26,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 27,
+        "raw": "[name=\"Kal'tsit\"] Experience, theory, phenomena.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Experience, theory, phenomena."
+    },
+    {
+        "id": 28,
+        "raw": "[name=\"Kal'tsit\"] I have no confidence. I can only derive the facts.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "I have no confidence. I can only derive the facts."
+    },
+    {
+        "id": 29,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 30,
+        "raw": "[name=\"Kal'tsit\"] ...Truthfully, I'm hoping to see you ever offer your own opinion.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "...Truthfully, I'm hoping to see you ever offer your own opinion."
+    },
+    {
+        "id": 31,
+        "raw": "[name=\"Kal'tsit\"] Or maybe you're already content with silence as a brand of opinion?",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Or maybe you're already content with silence as a brand of opinion?"
+    },
+    {
+        "id": 32,
+        "raw": "[name=\"Kal'tsit\"] Then I thank you for your understanding.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Then I thank you for your understanding."
+    },
+    {
+        "id": 33,
+        "raw": "[Predicate(references=\"3\")]",
+        "type": "predicate",
+        "references": "3"
+    },
+    {
+        "id": 34,
+        "raw": "[name=\"Kal'tsit\"] If my thought process was one that won your approval...",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "If my thought process was one that won your approval..."
+    },
+    {
+        "id": 35,
+        "raw": "[name=\"Kal'tsit\"] Did you think that I would thus feel some kind of happy?",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Did you think that I would thus feel some kind of happy?"
+    },
+    {
+        "id": 36,
+        "raw": "[name=\"Kal'tsit\"] Respect is a two-way street. If you value my point of view, and arrive at any useful conclusions, then I in turn will give your point of view serious consideration.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Respect is a two-way street. If you value my point of view, and arrive at any useful conclusions, then I in turn will give your point of view serious consideration."
+    },
+    {
+        "id": 37,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 38,
+        "raw": "[name=\"Kal'tsit\"] Talulah is maintaining her own image. She needs to have the normal Infected respect her, have the Sarkaz mercenaries obey her, have the guerrillas trust her, have the zealots worship her...",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Talulah is maintaining her own image. She needs to have the normal Infected respect her, have the Sarkaz mercenaries obey her, have the guerrillas trust her, have the zealots worship her..."
+    },
+    {
+        "id": 39,
+        "raw": "[name=\"Kal'tsit\"] She needs to have the distance between her and them clearly visible, and have these people able to examine each other.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "She needs to have the distance between her and them clearly visible, and have these people able to examine each other."
+    },
+    {
+        "id": 40,
+        "raw": "[name=\"Kal'tsit\"] According to a series of behavior exhibited by Reunion so far, we can very clearly realize that Reunion's other leaders do not particularly recognize Talulah's conduct at all.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "According to a series of behavior exhibited by Reunion so far, we can very clearly realize that Reunion's other leaders do not particularly recognize Talulah's conduct at all."
+    },
+    {
+        "id": 41,
+        "raw": "[name=\"Kal'tsit\"] Even Patriot, seeing through to her scheme, had no power to reverse the tide in the middle of its change. If he could have killed Talulah, all the same, he still would have been unable to alter Reunion tending towards collapse.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Even Patriot, seeing through to her scheme, had no power to reverse the tide in the middle of its change. If he could have killed Talulah, all the same, he still would have been unable to alter Reunion tending towards collapse."
+    },
+    {
+        "id": 42,
+        "raw": "[name=\"Kal'tsit\"] To say nothing of the plot to exploit the Infected that Talulah has drawn up inside her own head... The time she would need likely far exceed the time Reunion has existed so far.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "To say nothing of the plot to exploit the Infected that Talulah has drawn up inside her own head... The time she would need likely far exceed the time Reunion has existed so far."
+    },
+    {
+        "id": 43,
+        "raw": "[name=\"Kal'tsit\"] I conjecture that all of Reunion's actions up to now have been premised on a plan. Namely...",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "I conjecture that all of Reunion's actions up to now have been premised on a plan. Namely..."
+    },
+    {
+        "id": 44,
+        "raw": "[name=\"Kal'tsit\"] 'Reunion will perish after all this is over.'",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "'Reunion will perish after all this is over.'"
+    },
+    {
+        "id": 45,
+        "raw": "[name=\"Kal'tsit\"] Talulah will scatter keen, hidden forces across every part of her territory. When she needs them, she'll assemble them, and have them make their appearance at the right moment.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Talulah will scatter keen, hidden forces across every part of her territory. When she needs them, she'll assemble them, and have them make their appearance at the right moment."
+    },
+    {
+        "id": 46,
+        "raw": "[name=\"Kal'tsit\"] Doctor, I believe the Empire of Ursus's Third Army would not permit any Infected to act freely whatsoever.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Doctor, I believe the Empire of Ursus's Third Army would not permit any Infected to act freely whatsoever."
+    },
+    {
+        "id": 47,
+        "raw": "[name=\"Kal'tsit\"] However, Reunion's current conduct is all within the bounds of their tolerance. Superficial violence, lacking discipline and organization. The Third Army must be happy to see it.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "However, Reunion's current conduct is all within the bounds of their tolerance. Superficial violence, lacking discipline and organization. The Third Army must be happy to see it."
+    },
+    {
+        "id": 48,
+        "raw": "[name=\"Kal'tsit\"] Think about it carefully. Would they limit themselves to being onlookers? Thus, would they risk truly, willingly letting Talulah control a whole city—even a whole country's state of affairs?",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Think about it carefully. Would they limit themselves to being onlookers? Thus, would they risk truly, willingly letting Talulah control a whole city—even a whole country's state of affairs?"
+    },
+    {
+        "id": 49,
+        "raw": "[name=\"Kal'tsit\"] Or perhaps, even this is one of the weights on Talulah's scales, used to swindle the Ursus military out of their power... having them hibernate somewhere, waiting until the situation is just about to move on from her control.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Or perhaps, even this is one of the weights on Talulah's scales, used to swindle the Ursus military out of their power... having them hibernate somewhere, waiting until the situation is just about to move on from her control."
+    },
+    {
+        "id": 50,
+        "raw": "[name=\"Kal'tsit\"] And then, in the truest sense, she'll be able to use... the power she could never even touch. Just as she wishes.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "And then, in the truest sense, she'll be able to use... the power she could never even touch. Just as she wishes."
+    },
+    {
+        "id": 51,
+        "raw": "[name=\"Kal'tsit\"] But that needs time.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "But that needs time."
+    },
+    {
+        "id": 52,
+        "raw": "[Decision(options=\"Now that you say all that, how is she not a tyrant?\", values=\"1\")]",
+        "type": "decision",
+        "options": "Now that you say all that, how is she not a tyrant?",
+        "values": "1"
+    },
+    {
+        "id": 53,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 54,
+        "raw": "[name=\"Kal'tsit\"] Because while current Reunion wants that in a leader, it doesn't truly need that in a leader.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Because while current Reunion wants that in a leader, it doesn't truly need that in a leader."
+    },
+    {
+        "id": 55,
+        "raw": "[name=\"Kal'tsit\"] A tyrant treasures one's own enablers, even if a tyrant more often than not recklessly destroys them for lack of foresight or composure, and weeps truest, deepest tears for it.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "A tyrant treasures one's own enablers, even if a tyrant more often than not recklessly destroys them for lack of foresight or composure, and weeps truest, deepest tears for it."
+    },
+    {
+        "id": 56,
+        "raw": "[name=\"Kal'tsit\"] A conspirator does not. The tyrant has chess pieces, and the conspirator does too; but the tyrant is with them on the chessboard, while the conspirator sits outside of it.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "A conspirator does not. The tyrant has chess pieces, and the conspirator does too; but the tyrant is with them on the chessboard, while the conspirator sits outside of it."
+    },
+    {
+        "id": 57,
+        "raw": "[name=\"Kal'tsit\"] We can suppose she has humanity, and thus might make mistakes. But if we're talking about a qualified conspirator with a scheme on the tracks, then even if she herself died, her scheme would continue as a matter of course.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "We can suppose she has humanity, and thus might make mistakes. But if we're talking about a qualified conspirator with a scheme on the tracks, then even if she herself died, her scheme would continue as a matter of course."
+    },
+    {
+        "id": 58,
+        "raw": "[Decision(options=\"Is our operation useless, then?\", values=\"1\")]",
+        "type": "decision",
+        "options": "Is our operation useless, then?",
+        "values": "1"
+    },
+    {
+        "id": 59,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 60,
+        "raw": "[name=\"Kal'tsit\"] If they were, we'd hardly be taking Rhodes Island's operators to hell and back.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "If they were, we'd hardly be taking Rhodes Island's operators to hell and back."
+    },
+    {
+        "id": 61,
+        "raw": "[name=\"Kal'tsit\"] The only thing naturally useless is killing her. So, in every part and every place, we must break down her plot, antagonize her instructions, and lead her scheme to failure.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "The only thing naturally useless is killing her. So, in every part and every place, we must break down her plot, antagonize her instructions, and lead her scheme to failure."
+    },
+    {
+        "id": 62,
+        "raw": "[name=\"Kal'tsit\"] If we cannot halt a landship's forward march, then we will tear it to pieces, and make it arrive at its destination no more than an empty carapace.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "If we cannot halt a landship's forward march, then we will tear it to pieces, and make it arrive at its destination no more than an empty carapace."
+    },
+    {
+        "id": 63,
+        "raw": "[name=\"Kal'tsit\"] ...Ah, maybe I shouldn't have put it to you like that. Don't get me wrong, we still need to stop this Chernobog core city.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "...Ah, maybe I shouldn't have put it to you like that. Don't get me wrong, we still need to stop this Chernobog core city."
+    },
+    {
+        "id": 64,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 65,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 66,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 67,
+        "raw": "[Background(image=\"bg_cherunder_2\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_cherunder_2.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 68,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 69,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 70,
+        "raw": "[name=\"Kal'tsit\"] Doctor, you've worried about whether or not Amiya's group will run into any incidents...",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Doctor, you've worried about whether or not Amiya's group will run into any incidents..."
+    },
+    {
+        "id": 71,
+        "raw": "[name=\"Kal'tsit\"] I think what's on show before us is the real incident, here.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "I think what's on show before us is the real incident, here."
+    },
+    {
+        "id": 72,
+        "raw": "[Character(name=\"avg_npc_091\")]",
+        "type": "character",
+        "name": "avg_npc_091"
+    },
+    {
+        "id": 73,
+        "raw": "[name=\"Herdified Sarkaz Warrior\"] W, W. Where W? W stronger.",
+        "type": "dialog",
+        "speaker": "Herdified Sarkaz Warrior",
+        "content": "W, W. Where W? W stronger."
+    },
+    {
+        "id": 74,
+        "raw": "[name=\"Herdified Sarkaz Warrior\"] Don't, don't enter...",
+        "type": "dialog",
+        "speaker": "Herdified Sarkaz Warrior",
+        "content": "Don't, don't enter..."
+    },
+    {
+        "id": 75,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 76,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 77,
+        "raw": "[Decision(options=\"Can you communicate with them?\", values=\"1\")]",
+        "type": "decision",
+        "options": "Can you communicate with them?",
+        "values": "1"
+    },
+    {
+        "id": 78,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 79,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 80,
+        "raw": "[name=\"Kal'tsit\"] (A certain Sarkaz tribe's language)",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "(A certain Sarkaz tribe's language)"
+    },
+    {
+        "id": 81,
+        "raw": "[Character(name=\"avg_npc_091\")]",
+        "type": "character",
+        "name": "avg_npc_091"
+    },
+    {
+        "id": 82,
+        "raw": "[name=\"Herdified Sarkaz Warrior\"] Underground full of darkness. Darkness create evil. Evil bring pain.",
+        "type": "dialog",
+        "speaker": "Herdified Sarkaz Warrior",
+        "content": "Underground full of darkness. Darkness create evil. Evil bring pain."
+    },
+    {
+        "id": 83,
+        "raw": "[name=\"Herdified Sarkaz Warrior\"] Too much, pain.",
+        "type": "dialog",
+        "speaker": "Herdified Sarkaz Warrior",
+        "content": "Too much, pain."
+    },
+    {
+        "id": 84,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 85,
+        "raw": "[name=\"Kal'tsit\"] (A certain Sarkaz tribe's language)",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "(A certain Sarkaz tribe's language)"
+    },
+    {
+        "id": 86,
+        "raw": "[Character(name=\"avg_npc_091\")]",
+        "type": "character",
+        "name": "avg_npc_091"
+    },
+    {
+        "id": 87,
+        "raw": "[name=\"Herdified Sarkaz Warrior\"] Will you, share our pain?",
+        "type": "dialog",
+        "speaker": "Herdified Sarkaz Warrior",
+        "content": "Will you, share our pain?"
+    },
+    {
+        "id": 88,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 89,
+        "raw": "[name=\"Kal'tsit\"] No luck. Even if they weren't born in Kazdel, they should still have some kind of reaction to a hint of their native language. Their ability to actively think has been damaged.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "No luck. Even if they weren't born in Kazdel, they should still have some kind of reaction to a hint of their native language. Their ability to actively think has been damaged."
+    },
+    {
+        "id": 90,
+        "raw": "[Decision(options=\"Could those words you were saying have any effect on them?\", values=\"1\")]",
+        "type": "decision",
+        "options": "Could those words you were saying have any effect on them?",
+        "values": "1"
+    },
+    {
+        "id": 91,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 92,
+        "raw": "[name=\"Kal'tsit\"] They were meant to in the first place.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "They were meant to in the first place."
+    },
+    {
+        "id": 93,
+        "raw": "[name=\"Kal'tsit\"] No, wait... this wasn't a common-sense idea. Don't get excited.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "No, wait... this wasn't a common-sense idea. Don't get excited."
+    },
+    {
+        "id": 94,
+        "raw": "[name=\"Kal'tsit\"] But if not even this lets me rouse their conscious, then they've already lost all capacity for thought, beyond simply their ability to express.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "But if not even this lets me rouse their conscious, then they've already lost all capacity for thought, beyond simply their ability to express."
+    },
+    {
+        "id": 95,
+        "raw": "[name=\"Kal'tsit\"] It means their brain's activity has been sealed off, or that their nervous system has been perturbed by the infected organs... either way, we don't have enough time left to ascertain the true answer.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "It means their brain's activity has been sealed off, or that their nervous system has been perturbed by the infected organs... either way, we don't have enough time left to ascertain the true answer."
+    },
+    {
+        "id": 96,
+        "raw": "[name=\"Kal'tsit\"] Just based on what facts we have, it's not looking good.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Just based on what facts we have, it's not looking good."
+    },
+    {
+        "id": 97,
+        "raw": "[Decision(options=\"They don't seem like they'll attack us.\", values=\"1\")]",
+        "type": "decision",
+        "options": "They don't seem like they'll attack us.",
+        "values": "1"
+    },
+    {
+        "id": 98,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 99,
+        "raw": "[name=\"Kal'tsit\"] They're preventing us from entering. Deeply infected Sarkaz mercenaries in this area number around six, and seem to spend most of their time set to an unconscious roam.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "They're preventing us from entering. Deeply infected Sarkaz mercenaries in this area number around six, and seem to spend most of their time set to an unconscious roam."
+    },
+    {
+        "id": 100,
+        "raw": "[name=\"Kal'tsit\"] Their range of movement doesn't extend outside this passage. These severely Infected collected here only after they picked up on our activity.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Their range of movement doesn't extend outside this passage. These severely Infected collected here only after they picked up on our activity."
+    },
+    {
+        "id": 101,
+        "raw": "[name=\"Kal'tsit\"] Moreover, as long as we don't cross some boundary, they don't do anything further.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Moreover, as long as we don't cross some boundary, they don't do anything further."
+    },
+    {
+        "id": 102,
+        "raw": "[name=\"Kal'tsit\"] Reconnaissance operator. Can you detect our straight-line distance to the Sarcophagus? Determine position via the waveform I provided.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Reconnaissance operator. Can you detect our straight-line distance to the Sarcophagus? Determine position via the waveform I provided."
+    },
+    {
+        "id": 103,
+        "raw": "[name=\"Kal'tsit\"] ...1.4km. Precise figure?",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "...1.4km. Precise figure?"
+    },
+    {
+        "id": 104,
+        "raw": "[name=\"Kal'tsit\"] 1453m.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "1453m."
+    },
+    {
+        "id": 105,
+        "raw": "[name=\"Kal'tsit\"] ...If my calculations aren't wrong, then the breakout of conflict between Reunion and Sarkaz special Infected happened to be roughly at distance 1.4km from the City Hall too.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "...If my calculations aren't wrong, then the breakout of conflict between Reunion and Sarkaz special Infected happened to be roughly at distance 1.4km from the City Hall too."
+    },
+    {
+        "id": 106,
+        "raw": "[name=\"Kal'tsit\"] We initially planned to enter the Sarcophagus holding from the City Hall basement shelter passage, but as things are, that exit's likely been occupied by Sarkaz special Infected of the same kind.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "We initially planned to enter the Sarcophagus holding from the City Hall basement shelter passage, but as things are, that exit's likely been occupied by Sarkaz special Infected of the same kind."
+    },
+    {
+        "id": 107,
+        "raw": "[name=\"Kal'tsit\"] I have an unconfirmed conjecture, Doctor...",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "I have an unconfirmed conjecture, Doctor..."
+    },
+    {
+        "id": 108,
+        "raw": "[Decision(options=\"What kind of conjecture?\", values=\"1\")]",
+        "type": "decision",
+        "options": "What kind of conjecture?",
+        "values": "1"
+    },
+    {
+        "id": 109,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 110,
+        "raw": "[name=\"Kal'tsit\"] We don't know what their goal is, but these Sarkaz special Infected are likely preventing anyone else from entering the sarcophagus holding, and by happy coincidence, this district they've controlled measures 1.4km out.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "We don't know what their goal is, but these Sarkaz special Infected are likely preventing anyone else from entering the sarcophagus holding, and by happy coincidence, this district they've controlled measures 1.4km out."
+    },
+    {
+        "id": 111,
+        "raw": "[Decision(options=\"You might be right, but what about their goal, then?\", values=\"1\")]",
+        "type": "decision",
+        "options": "You might be right, but what about their goal, then?",
+        "values": "1"
+    },
+    {
+        "id": 112,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 113,
+        "raw": "[name=\"Kal'tsit\"] (Shakes her head)",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "(Shakes her head)"
+    },
+    {
+        "id": 114,
+        "raw": "[name=\"Kal'tsit\"] At the very least, it's not the same goal these Sarkaz originally had.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "At the very least, it's not the same goal these Sarkaz originally had."
+    },
+    {
+        "id": 115,
+        "raw": "[name=\"Kal'tsit\"] ......",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "......"
+    },
+    {
+        "id": 116,
+        "raw": "[name=\"Kal'tsit\"] Poor Sarkaz, hailing from Kazdel. No matter where, they still become tools.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Poor Sarkaz, hailing from Kazdel. No matter where, they still become tools."
+    },
+    {
+        "id": 117,
+        "raw": "[name=\"Kal'tsit\"] I believe there are similarities between the Infected and the Sarkaz's current situations. These Sarkaz here with us could only choose to well with hate, or to lose it all.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "I believe there are similarities between the Infected and the Sarkaz's current situations. These Sarkaz here with us could only choose to well with hate, or to lose it all."
+    },
+    {
+        "id": 118,
+        "raw": "[name=\"Kal'tsit\"] ...Things were meant to have changed. We have that power.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "...Things were meant to have changed. We have that power."
+    },
+    {
+        "id": 119,
+        "raw": "[name=\"Kal'tsit\"] Those Teekaz who lost their homeland—have become Sarkaz, rootless as people.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Those Teekaz who lost their homeland—have become Sarkaz, rootless as people."
+    },
+    {
+        "id": 120,
+        "raw": "[name=\"Kal'tsit\"] And now, the Sarkaz before us can barely even be called people.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "And now, the Sarkaz before us can barely even be called people."
+    },
+    {
+        "id": 121,
+        "raw": "[Decision(options=\"How do you want to do things?\", values=\"1\")]",
+        "type": "decision",
+        "options": "How do you want to do things?",
+        "values": "1"
+    },
+    {
+        "id": 122,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 123,
+        "raw": "[name=\"Kal'tsit\"] All operators, inspect your hazmat equipment.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "All operators, inspect your hazmat equipment."
+    },
+    {
+        "id": 124,
+        "raw": "[name=\"Kal'tsit\"] What we're facing may be a Class II Emergency Infective situation.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "What we're facing may be a Class II Emergency Infective situation."
+    },
+    {
+        "id": 125,
+        "raw": "[name=\"Kal'tsit\"] Doctor, in minimizing wear and tear to the utmost, we must halt the special Infected's activity to the utmost.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Doctor, in minimizing wear and tear to the utmost, we must halt the special Infected's activity to the utmost."
+    },
+    {
+        "id": 126,
+        "raw": "[name=\"Kal'tsit\"] ...We haven't stepped in to resolve an Emergency Infective state for a while. This outfit looks entirely like Ursus's Infected Patrol Unit.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "...We haven't stepped in to resolve an Emergency Infective state for a while. This outfit looks entirely like Ursus's Infected Patrol Unit."
+    },
+    {
+        "id": 127,
+        "raw": "[Decision(options=\"Infected Patrol Unit?\", values=\"1\")]",
+        "type": "decision",
+        "options": "Infected Patrol Unit?",
+        "values": "1"
+    },
+    {
+        "id": 128,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 129,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 130,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 131,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 132,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 133,
+        "raw": "[Image(image=\"avg_8_26\",x=0, y=0, xScale=1, yScale=1, fadetime=0)]",
+        "type": "image",
+        "image": "avg_8_26.png",
+        "x": "0,",
+        "y": "0,",
+        "xScale": "1,",
+        "yScale": "1,",
+        "fadetime": 0
+    },
+    {
+        "id": 134,
+        "raw": "[Blocker(a=0, fadetime=1.5, block=false)]",
+        "type": "blocker",
+        "a": "0,",
+        "fadetime": "1.5,",
+        "block": false
+    },
+    {
+        "id": 135,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 136,
+        "raw": "[ImageTween(xScaleFrom=1, yScaleFrom=1, xScaleTo=1, yScaleTo=1, duration=15, block=false)]",
+        "type": "image_tween",
+        "xScaleFrom": "1,",
+        "yScaleFrom": "1,",
+        "xScaleTo": "1,",
+        "yScaleTo": "1,",
+        "duration": "15,",
+        "block": false
+    },
+    {
+        "id": 137,
+        "raw": "[name=\"Kal'tsit\"] There's something I can't deny—the hazmat equipment we've been provided with is emblematic of Ursus's cruel rule over the Infected... it shares the same prototypical design.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "There's something I can't deny—the hazmat equipment we've been provided with is emblematic of Ursus's cruel rule over the Infected... it shares the same prototypical design."
+    },
+    {
+        "id": 138,
+        "raw": "[name=\"Kal'tsit\"] Though our approach is intrinsically distinct from the Infected Patrol Unit, I can only hope we're able to continue preserving that intrinsic difference—that outside forces don't force us to change beyond recognition.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Though our approach is intrinsically distinct from the Infected Patrol Unit, I can only hope we're able to continue preserving that intrinsic difference—that outside forces don't force us to change beyond recognition."
+    },
+    {
+        "id": 139,
+        "raw": "[name=\"Kal'tsit\"] The same hope we hold for so many things. Just like I told you about some time before. I hope you'll hope so too.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "The same hope we hold for so many things. Just like I told you about some time before. I hope you'll hope so too."
+    },
+    {
+        "id": 140,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 141,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 142,
+        "raw": "[Image(fadetime=0)]",
+        "type": "image",
+        "fadetime": 0
+    },
+    {
+        "id": 143,
+        "raw": "[Background(image=\"bg_chercen_2\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_chercen_2.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 144,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 145,
+        "raw": "[Character(name=\"char_002_amiya_1#7\",fadetime=1,block=true)]",
+        "type": "character",
+        "name": "char_002_amiya_1#7",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 146,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 147,
+        "raw": "[stopmusic(fadetime=1)]",
+        "type": "stop_music",
+        "fadetime": 1
+    },
+    {
+        "id": 148,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 149,
+        "raw": "[Character(name=\"char_002_amiya_1#7\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#7"
+    },
+    {
+        "id": 150,
+        "raw": "[PlaySound(key=\"$flashback\", volume=0.2, Delay=0.7)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/general/g_ui/g_ui_stagepush.mp3",
+        "volume": "0.2,",
+        "Delay": 0.7
+    },
+    {
+        "id": 151,
+        "raw": "[CameraShake(duration=0.5, xstrength=2, ystrength=3, vibrato=30, randomness=30, fadeout=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "2,",
+        "ystrength": "3,",
+        "vibrato": "30,",
+        "randomness": "30,",
+        "fadeout": false
+    },
+    {
+        "id": 152,
+        "raw": "[cameraEffect(effect=\"Grayscale\", keep=true, amount=1, fadetime=0.2)]",
+        "type": "camera_effect",
+        "effect": "Grayscale",
+        "keep": "true,",
+        "amount": "1,",
+        "fadetime": 0.2
+    },
+    {
+        "id": 153,
+        "raw": "[cameraEffect(effect=\"Grayscale\", keep=true, amount=0, fadetime=0.5)]",
+        "type": "camera_effect",
+        "effect": "Grayscale",
+        "keep": "true,",
+        "amount": "0,",
+        "fadetime": 0.5
+    },
+    {
+        "id": 154,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 155,
+        "raw": "[PlaySound(key=\"$flashback\", volume=0.2, Delay=0.7)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/general/g_ui/g_ui_stagepush.mp3",
+        "volume": "0.2,",
+        "Delay": 0.7
+    },
+    {
+        "id": 156,
+        "raw": "[CameraShake(duration=0.5, xstrength=2, ystrength=3, vibrato=30, randomness=30, fadeout=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "2,",
+        "ystrength": "3,",
+        "vibrato": "30,",
+        "randomness": "30,",
+        "fadeout": false
+    },
+    {
+        "id": 157,
+        "raw": "[cameraEffect(effect=\"Grayscale\", keep=true, amount=1, fadetime=0.2)]",
+        "type": "camera_effect",
+        "effect": "Grayscale",
+        "keep": "true,",
+        "amount": "1,",
+        "fadetime": 0.2
+    },
+    {
+        "id": 158,
+        "raw": "[cameraEffect(effect=\"Grayscale\", keep=true, amount=0, fadetime=0.5,block=false)]",
+        "type": "camera_effect",
+        "effect": "Grayscale",
+        "keep": "true,",
+        "amount": "0,",
+        "fadetime": "0.5,block=false"
+    },
+    {
+        "id": 159,
+        "raw": "[PlaySound(key=\"$flashback\", volume=0.2, Delay=0.7)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/general/g_ui/g_ui_stagepush.mp3",
+        "volume": "0.2,",
+        "Delay": 0.7
+    },
+    {
+        "id": 160,
+        "raw": "[CameraShake(duration=0.5, xstrength=2, ystrength=3, vibrato=30, randomness=30, fadeout=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "2,",
+        "ystrength": "3,",
+        "vibrato": "30,",
+        "randomness": "30,",
+        "fadeout": false
+    },
+    {
+        "id": 161,
+        "raw": "[cameraEffect(effect=\"Grayscale\", keep=true, amount=1, fadetime=0.2)]",
+        "type": "camera_effect",
+        "effect": "Grayscale",
+        "keep": "true,",
+        "amount": "1,",
+        "fadetime": 0.2
+    },
+    {
+        "id": 162,
+        "raw": "[cameraEffect(effect=\"Grayscale\", keep=true, amount=0, fadetime=0.5)]",
+        "type": "camera_effect",
+        "effect": "Grayscale",
+        "keep": "true,",
+        "amount": "0,",
+        "fadetime": 0.5
+    },
+    {
+        "id": 163,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 164,
+        "raw": "[name=\"Amiya\"]   ——————————!",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "——————————!"
+    },
+    {
+        "id": 165,
+        "raw": "[name=\"Amiya\"]   ————Was—Madame Ch'en here?",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "————Was—Madame Ch'en here?"
+    },
+    {
+        "id": 166,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 167,
+        "raw": "[Blocker(a=1, initr=2, r=0, g=0, b=0, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "initr": "2,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 168,
+        "raw": "[Character(fadetime=0)]",
+        "type": "character",
+        "fadetime": 0
+    },
+    {
+        "id": 169,
+        "raw": "[cameraEffect(effect=\"Grayscale\", keep=true, amount=1, fadetime=0)]",
+        "type": "camera_effect",
+        "effect": "Grayscale",
+        "keep": "true,",
+        "amount": "1,",
+        "fadetime": 0
+    },
+    {
+        "id": 170,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 171,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 172,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 173,
+        "raw": "[Background(image=\"bg_uptown_2\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_uptown_2.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 174,
+        "raw": "[cameraEffect(effect=\"Grayscale\", keep=true, amount=1, fadetime=0)]",
+        "type": "camera_effect",
+        "effect": "Grayscale",
+        "keep": "true,",
+        "amount": "1,",
+        "fadetime": 0
+    },
+    {
+        "id": 175,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 176,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 177,
+        "raw": "[playMusic(intro=\"$loneliness_intro\", key=\"$loneliness_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/static/m_avg/m_avg_loneliness_intro.mp3",
+        "key": "sound_beta_2/music/static/m_avg/m_avg_loneliness_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 178,
+        "raw": "[Character(name=\"char_2005_weiyw_1#5\")]",
+        "type": "character",
+        "name": "char_2005_weiyw_1#5"
+    },
+    {
+        "id": 179,
+        "raw": "[name=\"Wei Yenwu\"]  Which way was he headed?",
+        "type": "dialog",
+        "speaker": "Wei Yenwu",
+        "content": "Which way was he headed?"
+    },
+    {
+        "id": 180,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 181,
+        "raw": "[name=\"Shadow Guard\"]  West. Stone's throw from the exclusion zone of Glowing Hoof.",
+        "type": "dialog",
+        "speaker": "Shadow Guard",
+        "content": "West. Stone's throw from the exclusion zone of Glowing Hoof."
+    },
+    {
+        "id": 182,
+        "raw": "[Character(name=\"char_2005_weiyw_1#5\")]",
+        "type": "character",
+        "name": "char_2005_weiyw_1#5"
+    },
+    {
+        "id": 183,
+        "raw": "[name=\"Wei Yenwu\"]  ...He plotted all of this. It was to ensure the area where we signed the pact was secure. Leithanien expanded their contended exclusion zone, overlapping our own.",
+        "type": "dialog",
+        "speaker": "Wei Yenwu",
+        "content": "...He plotted all of this. It was to ensure the area where we signed the pact was secure. Leithanien expanded their contended exclusion zone, overlapping our own."
+    },
+    {
+        "id": 184,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 185,
+        "raw": "[name=\"Shadow Guard\"]  We can infiltrate, kill Kashchey and bring back the Miss.",
+        "type": "dialog",
+        "speaker": "Shadow Guard",
+        "content": "We can infiltrate, kill Kashchey and bring back the Miss."
+    },
+    {
+        "id": 186,
+        "raw": "[Character(name=\"char_2005_weiyw_1#5\")]",
+        "type": "character",
+        "name": "char_2005_weiyw_1#5"
+    },
+    {
+        "id": 187,
+        "raw": "[name=\"Wei Yenwu\"]  No. He's already prepared.",
+        "type": "dialog",
+        "speaker": "Wei Yenwu",
+        "content": "No. He's already prepared."
+    },
+    {
+        "id": 188,
+        "raw": "[name=\"Wei Yenwu\"]  ...In this meeting, the Twin Empresses directly dispatched the Empresses' Voice, and they weren't short of armed forces.",
+        "type": "dialog",
+        "speaker": "Wei Yenwu",
+        "content": "...In this meeting, the Twin Empresses directly dispatched the Empresses' Voice, and they weren't short of armed forces."
+    },
+    {
+        "id": 189,
+        "raw": "[name=\"Wei Yenwu\"]  The Empresses are fresh upon the throne. If Kashchey intends to blow our diplomacy apart, all our transgressive conduct may very well be the Empresses' excuse to flaunt their power.",
+        "type": "dialog",
+        "speaker": "Wei Yenwu",
+        "content": "The Empresses are fresh upon the throne. If Kashchey intends to blow our diplomacy apart, all our transgressive conduct may very well be the Empresses' excuse to flaunt their power."
+    },
+    {
+        "id": 190,
+        "raw": "[name=\"Wei Yenwu\"]  We can't give Kashchey more opportunities to harm Lungmen, or even Yan.",
+        "type": "dialog",
+        "speaker": "Wei Yenwu",
+        "content": "We can't give Kashchey more opportunities to harm Lungmen, or even Yan."
+    },
+    {
+        "id": 191,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 192,
+        "raw": "[name=\"Ch'en Hui-chieh\"]  Uncle!",
+        "type": "dialog",
+        "speaker": "Ch'en Hui-chieh",
+        "content": "Uncle!"
+    },
+    {
+        "id": 193,
+        "raw": "[Character(name=\"char_2005_weiyw_1#5\")]",
+        "type": "character",
+        "name": "char_2005_weiyw_1#5"
+    },
+    {
+        "id": 194,
+        "raw": "[name=\"Wei Yenwu\"]  ......",
+        "type": "dialog",
+        "speaker": "Wei Yenwu",
+        "content": "......"
+    },
+    {
+        "id": 195,
+        "raw": "[name=\"Wei Yenwu\"]  Hui-chieh...",
+        "type": "dialog",
+        "speaker": "Wei Yenwu",
+        "content": "Hui-chieh..."
+    },
+    {
+        "id": 196,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 197,
+        "raw": "[name=\"Ch'en Hui-chieh\"]  Uncle... it's not Tal's fault!",
+        "type": "dialog",
+        "speaker": "Ch'en Hui-chieh",
+        "content": "Uncle... it's not Tal's fault!"
+    },
+    {
+        "id": 198,
+        "raw": "[Character(name=\"char_2005_weiyw_1#5\")]",
+        "type": "character",
+        "name": "char_2005_weiyw_1#5"
+    },
+    {
+        "id": 199,
+        "raw": "[name=\"Wei Yenwu\"]  I'm not blaming her.",
+        "type": "dialog",
+        "speaker": "Wei Yenwu",
+        "content": "I'm not blaming her."
+    },
+    {
+        "id": 200,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 201,
+        "raw": "[name=\"Ch'en Hui-chieh\"]  ...Then you should get mad at me.",
+        "type": "dialog",
+        "speaker": "Ch'en Hui-chieh",
+        "content": "...Then you should get mad at me."
+    },
+    {
+        "id": 202,
+        "raw": "[Character(name=\"char_2005_weiyw_1#5\")]",
+        "type": "character",
+        "name": "char_2005_weiyw_1#5"
+    },
+    {
+        "id": 203,
+        "raw": "[name=\"Wei Yenwu\"]  You haven't done anything wrong.",
+        "type": "dialog",
+        "speaker": "Wei Yenwu",
+        "content": "You haven't done anything wrong."
+    },
+    {
+        "id": 204,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 205,
+        "raw": "[name=\"Ch'en Hui-chieh\"]  I told her I was gonna go with her. But then I got scared... I... let go of her hand. I didn't go with her...",
+        "type": "dialog",
+        "speaker": "Ch'en Hui-chieh",
+        "content": "I told her I was gonna go with her. But then I got scared... I... let go of her hand. I didn't go with her..."
+    },
+    {
+        "id": 206,
+        "raw": "[name=\"Ch'en Hui-chieh\"]  She looked... really scared. I was really scared, and she was too. I... I did something wrong.",
+        "type": "dialog",
+        "speaker": "Ch'en Hui-chieh",
+        "content": "She looked... really scared. I was really scared, and she was too. I... I did something wrong."
+    },
+    {
+        "id": 207,
+        "raw": "[Character(name=\"char_2005_weiyw_1#5\")]",
+        "type": "character",
+        "name": "char_2005_weiyw_1#5"
+    },
+    {
+        "id": 208,
+        "raw": "[name=\"Wei Yenwu\"]  ...Hui-chieh, she made the mistake, not you.",
+        "type": "dialog",
+        "speaker": "Wei Yenwu",
+        "content": "...Hui-chieh, she made the mistake, not you."
+    },
+    {
+        "id": 209,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 210,
+        "raw": "[name=\"Ch'en Hui-chieh\"]  Huh? B-but you said you wouldn't blame her, Uncle!",
+        "type": "dialog",
+        "speaker": "Ch'en Hui-chieh",
+        "content": "Huh? B-but you said you wouldn't blame her, Uncle!"
+    },
+    {
+        "id": 211,
+        "raw": "[Character(name=\"char_2005_weiyw_1#5\")]",
+        "type": "character",
+        "name": "char_2005_weiyw_1#5"
+    },
+    {
+        "id": 212,
+        "raw": "[name=\"Wei Yenwu\"]  No, I won't.",
+        "type": "dialog",
+        "speaker": "Wei Yenwu",
+        "content": "No, I won't."
+    },
+    {
+        "id": 213,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 214,
+        "raw": "[name=\"Ch'en Hui-chieh\"]  But didn't... didn't she do something wrong? If she does something wrong, you're... not gonna get mad at her?",
+        "type": "dialog",
+        "speaker": "Ch'en Hui-chieh",
+        "content": "But didn't... didn't she do something wrong? If she does something wrong, you're... not gonna get mad at her?"
+    },
+    {
+        "id": 215,
+        "raw": "[Character(name=\"char_2005_weiyw_1#5\")]",
+        "type": "character",
+        "name": "char_2005_weiyw_1#5"
+    },
+    {
+        "id": 216,
+        "raw": "[name=\"Wei Yenwu\"]  ——",
+        "type": "dialog",
+        "speaker": "Wei Yenwu",
+        "content": "——"
+    },
+    {
+        "id": 217,
+        "raw": "[name=\"Wei Yenwu\"]  She doesn't know the truth. It's not a truth anyone should be privy to, so of course she'd make a mistake. If not now, she would in the future.",
+        "type": "dialog",
+        "speaker": "Wei Yenwu",
+        "content": "She doesn't know the truth. It's not a truth anyone should be privy to, so of course she'd make a mistake. If not now, she would in the future."
+    },
+    {
+        "id": 218,
+        "raw": "[name=\"Wei Yenwu\"]  ...In so many cases, the wrong thing shouldn't be punished. Not only do we make mistakes, we'll make so many of them. If there's some mistake, we will make it. We can't dodge that, nor escape it.",
+        "type": "dialog",
+        "speaker": "Wei Yenwu",
+        "content": "...In so many cases, the wrong thing shouldn't be punished. Not only do we make mistakes, we'll make so many of them. If there's some mistake, we will make it. We can't dodge that, nor escape it."
+    },
+    {
+        "id": 219,
+        "raw": "[name=\"Wei Yenwu\"]  Talulah simply made the mistake she was bound to.",
+        "type": "dialog",
+        "speaker": "Wei Yenwu",
+        "content": "Talulah simply made the mistake she was bound to."
+    },
+    {
+        "id": 220,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 221,
+        "raw": "[name=\"Ch'en Hui-chieh\"]  Is that still doing something wrong, then?",
+        "type": "dialog",
+        "speaker": "Ch'en Hui-chieh",
+        "content": "Is that still doing something wrong, then?"
+    },
+    {
+        "id": 222,
+        "raw": "[Character(name=\"char_2005_weiyw_1#5\")]",
+        "type": "character",
+        "name": "char_2005_weiyw_1#5"
+    },
+    {
+        "id": 223,
+        "raw": "[name=\"Wei Yenwu\"]  Yes, of course it is. This world of ours wouldn't forgive something just because it was bound to happen.",
+        "type": "dialog",
+        "speaker": "Wei Yenwu",
+        "content": "Yes, of course it is. This world of ours wouldn't forgive something just because it was bound to happen."
+    },
+    {
+        "id": 224,
+        "raw": "[name=\"Wei Yenwu\"]  The world is harsh, the people are harsh, the regimes are harsh. Apart from right and wrong, they don't care a damn. As if it's right and wrong keeping them alive, and not what they breathe and swallow...!",
+        "type": "dialog",
+        "speaker": "Wei Yenwu",
+        "content": "The world is harsh, the people are harsh, the regimes are harsh. Apart from right and wrong, they don't care a damn. As if it's right and wrong keeping them alive, and not what they breathe and swallow...!"
+    },
+    {
+        "id": 225,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 226,
+        "raw": "[name=\"Ch'en Hui-chieh\"] ......",
+        "type": "dialog",
+        "speaker": "Ch'en Hui-chieh",
+        "content": "......"
+    },
+    {
+        "id": 227,
+        "raw": "[name=\"Ch'en Hui-chieh\"]  I don't get what you're saying, Uncle.",
+        "type": "dialog",
+        "speaker": "Ch'en Hui-chieh",
+        "content": "I don't get what you're saying, Uncle."
+    },
+    {
+        "id": 228,
+        "raw": "[name=\"Ch'en Hui-chieh\"]  Does... does it mean Tal can still come back?",
+        "type": "dialog",
+        "speaker": "Ch'en Hui-chieh",
+        "content": "Does... does it mean Tal can still come back?"
+    },
+    {
+        "id": 229,
+        "raw": "[Character(name=\"char_2005_weiyw_1#5\")]",
+        "type": "character",
+        "name": "char_2005_weiyw_1#5"
+    },
+    {
+        "id": 230,
+        "raw": "[name=\"Wei Yenwu\"]  —I don't know, Hui-chieh. I don't know.",
+        "type": "dialog",
+        "speaker": "Wei Yenwu",
+        "content": "—I don't know, Hui-chieh. I don't know."
+    },
+    {
+        "id": 231,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 232,
+        "raw": "[name=\"Ch'en Hui-chieh\"]  ...*sob*... Is it because of me... Tal won't come back? It's my fault... it's my fault... Tal...",
+        "type": "dialog",
+        "speaker": "Ch'en Hui-chieh",
+        "content": "...*sob*... Is it because of me... Tal won't come back? It's my fault... it's my fault... Tal..."
+    },
+    {
+        "id": 233,
+        "raw": "[Character(name=\"char_2005_weiyw_1#5\")]",
+        "type": "character",
+        "name": "char_2005_weiyw_1#5"
+    },
+    {
+        "id": 234,
+        "raw": "[name=\"Wei Yenwu\"]  Hui-chieh!",
+        "type": "dialog",
+        "speaker": "Wei Yenwu",
+        "content": "Hui-chieh!"
+    },
+    {
+        "id": 235,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 236,
+        "raw": "[name=\"Ch'en Hui-chieh\"]  *whimper*...!",
+        "type": "dialog",
+        "speaker": "Ch'en Hui-chieh",
+        "content": "*whimper*...!"
+    },
+    {
+        "id": 237,
+        "raw": "[Character(name=\"char_2005_weiyw_1#5\")]",
+        "type": "character",
+        "name": "char_2005_weiyw_1#5"
+    },
+    {
+        "id": 238,
+        "raw": "[name=\"Wei Yenwu\"]  Wipe your tears away.",
+        "type": "dialog",
+        "speaker": "Wei Yenwu",
+        "content": "Wipe your tears away."
+    },
+    {
+        "id": 239,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 240,
+        "raw": "[name=\"Ch'en Hui-chieh\"]  *sob*... I...",
+        "type": "dialog",
+        "speaker": "Ch'en Hui-chieh",
+        "content": "*sob*... I..."
+    },
+    {
+        "id": 241,
+        "raw": "[Character(name=\"char_2005_weiyw_1#5\")]",
+        "type": "character",
+        "name": "char_2005_weiyw_1#5"
+    },
+    {
+        "id": 242,
+        "raw": "[name=\"Wei Yenwu\"]  Or cry, then. I'll give you five minutes. After you're done crying, if there's not still tears in your eyes, I'll tell you what you should do.",
+        "type": "dialog",
+        "speaker": "Wei Yenwu",
+        "content": "Or cry, then. I'll give you five minutes. After you're done crying, if there's not still tears in your eyes, I'll tell you what you should do."
+    },
+    {
+        "id": 243,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 244,
+        "raw": "[name=\"Ch'en Hui-chieh\"]  Mm...!",
+        "type": "dialog",
+        "speaker": "Ch'en Hui-chieh",
+        "content": "Mm...!"
+    },
+    {
+        "id": 245,
+        "raw": "[name=\"Ch'en Hui-chieh\"] ...Waaah...! Tal...!",
+        "type": "dialog",
+        "speaker": "Ch'en Hui-chieh",
+        "content": "...Waaah...! Tal...!"
+    },
+    {
+        "id": 246,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 247,
+        "raw": "Wei Yenwu gazes towards the sky. He considers bending down to comfort the tiny girl, but after hesitating, feels as if he isn't suited to the task.",
+        "type": "narration",
+        "content": "Wei Yenwu gazes towards the sky. He considers bending down to comfort the tiny girl, but after hesitating, feels as if he isn't suited to the task."
+    },
+    {
+        "id": 248,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 249,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 250,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 251,
+        "raw": "[Image(image=\"avg_8_38\",x=0, y=0, xScale=1, yScale=1, fadetime=0)]",
+        "type": "image",
+        "image": "avg_8_38.png",
+        "x": "0,",
+        "y": "0,",
+        "xScale": "1,",
+        "yScale": "1,",
+        "fadetime": 0
+    },
+    {
+        "id": 252,
+        "raw": "[Blocker(a=0, fadetime=1.5, block=false)]",
+        "type": "blocker",
+        "a": "0,",
+        "fadetime": "1.5,",
+        "block": false
+    },
+    {
+        "id": 253,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 254,
+        "raw": "[ImageTween(xScaleFrom=1, yScaleFrom=1, xScaleTo=1, yScaleTo=1, duration=15, block=false)]",
+        "type": "image_tween",
+        "xScaleFrom": "1,",
+        "yScaleFrom": "1,",
+        "xScaleTo": "1,",
+        "yScaleTo": "1,",
+        "duration": "15,",
+        "block": false
+    },
+    {
+        "id": 255,
+        "raw": "[name=\"Wei Yenwu\"]  You're done crying, then.",
+        "type": "dialog",
+        "speaker": "Wei Yenwu",
+        "content": "You're done crying, then."
+    },
+    {
+        "id": 256,
+        "raw": "[name=\"Ch'en Hui-chieh\"] ...Mm-hm. I want Tal back. What should I do?",
+        "type": "dialog",
+        "speaker": "Ch'en Hui-chieh",
+        "content": "...Mm-hm. I want Tal back. What should I do?"
+    },
+    {
+        "id": 257,
+        "raw": "[name=\"Wei Yenwu\"]  I'll teach you a world of things. I'll teach you how to supervise a city, how to fend off villains, how to treat your friends.",
+        "type": "dialog",
+        "speaker": "Wei Yenwu",
+        "content": "I'll teach you a world of things. I'll teach you how to supervise a city, how to fend off villains, how to treat your friends."
+    },
+    {
+        "id": 258,
+        "raw": "[name=\"Wei Yenwu\"]  Do as I say, and Talulah will have a chance of coming back.",
+        "type": "dialog",
+        "speaker": "Wei Yenwu",
+        "content": "Do as I say, and Talulah will have a chance of coming back."
+    },
+    {
+        "id": 259,
+        "raw": "[name=\"Ch'en Hui-chieh\"] Wh-what do I do? Will Tal be able to come back, really? Are you tricking me, Uncle?",
+        "type": "dialog",
+        "speaker": "Ch'en Hui-chieh",
+        "content": "Wh-what do I do? Will Tal be able to come back, really? Are you tricking me, Uncle?"
+    },
+    {
+        "id": 260,
+        "raw": "[name=\"Ch'en Hui-chieh\"] ...Mama... Mama said, you only know howta trick people. Can... can I really believe you?",
+        "type": "dialog",
+        "speaker": "Ch'en Hui-chieh",
+        "content": "...Mama... Mama said, you only know howta trick people. Can... can I really believe you?"
+    },
+    {
+        "id": 261,
+        "raw": "[name=\"Wei Yenwu\"]  Perhaps.",
+        "type": "dialog",
+        "speaker": "Wei Yenwu",
+        "content": "Perhaps."
+    },
+    {
+        "id": 262,
+        "raw": "[name=\"Wei Yenwu\"]  I've made a massive mistake of my own, and it led to your mother despising me for her whole life. Even on her deathbed, she couldn't have let go. What she told you is understandable.",
+        "type": "dialog",
+        "speaker": "Wei Yenwu",
+        "content": "I've made a massive mistake of my own, and it led to your mother despising me for her whole life. Even on her deathbed, she couldn't have let go. What she told you is understandable."
+    },
+    {
+        "id": 263,
+        "raw": "[name=\"Wei Yenwu\"]  But mistakes can be made right.",
+        "type": "dialog",
+        "speaker": "Wei Yenwu",
+        "content": "But mistakes can be made right."
+    },
+    {
+        "id": 264,
+        "raw": "[name=\"Wei Yenwu\"]  Hui-chieh, listen carefully. Proper conduct is worth striving your whole life for. Correcting a mistake is worth putting life itself at stake for.",
+        "type": "dialog",
+        "speaker": "Wei Yenwu",
+        "content": "Hui-chieh, listen carefully. Proper conduct is worth striving your whole life for. Correcting a mistake is worth putting life itself at stake for."
+    },
+    {
+        "id": 265,
+        "raw": "[name=\"Wei Yenwu\"]  Talulah's departure was a mistake. Every consequence it brings, I will bear.",
+        "type": "dialog",
+        "speaker": "Wei Yenwu",
+        "content": "Talulah's departure was a mistake. Every consequence it brings, I will bear."
+    },
+    {
+        "id": 266,
+        "raw": "[name=\"Wei Yenwu\"]  And you, Hui-chieh. You'd better grow up fast.",
+        "type": "dialog",
+        "speaker": "Wei Yenwu",
+        "content": "And you, Hui-chieh. You'd better grow up fast."
+    },
+    {
+        "id": 267,
+        "raw": "[name=\"Ch'en Hui-chieh\"] What'll it be like when I grow up?",
+        "type": "dialog",
+        "speaker": "Ch'en Hui-chieh",
+        "content": "What'll it be like when I grow up?"
+    },
+    {
+        "id": 268,
+        "raw": "[name=\"Wei Yenwu\"]  Hmm. When you grow up... you'll be able to change everything.",
+        "type": "dialog",
+        "speaker": "Wei Yenwu",
+        "content": "Hmm. When you grow up... you'll be able to change everything."
+    },
+    {
+        "id": 269,
+        "raw": "[name=\"Ch'en Hui-chieh\"] Really?!",
+        "type": "dialog",
+        "speaker": "Ch'en Hui-chieh",
+        "content": "Really?!"
+    },
+    {
+        "id": 270,
+        "raw": "[name=\"Wei Yenwu\"]  Perhaps. Or let's put it this way: so long as you believe, it will be real.",
+        "type": "dialog",
+        "speaker": "Wei Yenwu",
+        "content": "Perhaps. Or let's put it this way: so long as you believe, it will be real."
+    },
+    {
+        "id": 271,
+        "raw": "[name=\"Wei Yenwu\"]  I'll teach you to wield a sword, Hui-chieh.",
+        "type": "dialog",
+        "speaker": "Wei Yenwu",
+        "content": "I'll teach you to wield a sword, Hui-chieh."
+    },
+    {
+        "id": 272,
+        "raw": "[name=\"Wei Yenwu\"]  To wield Chi Xiao.",
+        "type": "dialog",
+        "speaker": "Wei Yenwu",
+        "content": "To wield Chi Xiao."
+    },
+    {
+        "id": 273,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 274,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 275,
+        "raw": "[Image(fadetime=0)]",
+        "type": "image",
+        "fadetime": 0
+    },
+    {
+        "id": 276,
+        "raw": "'Unsheathing strike, eradicate without delay.'",
+        "type": "narration",
+        "content": "'Unsheathing strike, eradicate without delay.'"
+    },
+    {
+        "id": 277,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 278,
+        "raw": "[Blocker(fadetime=3,block=true)]",
+        "type": "blocker",
+        "fadetime": "3,block=true"
+    },
+    {
+        "id": 279,
+        "raw": "[Image]",
+        "type": "image"
+    }
+]

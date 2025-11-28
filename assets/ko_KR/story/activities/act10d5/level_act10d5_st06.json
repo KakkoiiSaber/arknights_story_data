@@ -1,0 +1,3509 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")] 总集篇 太阳照常升起",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK",
+        "content": "总集篇 太阳照常升起"
+    },
+    {
+        "id": 2,
+        "raw": "[stopmusic]",
+        "type": "stop_music"
+    },
+    {
+        "id": 3,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 4,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 5,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 6,
+        "raw": "[Background(image=\"bg_corridor\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_corridor.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 7,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 8,
+        "raw": "[playMusic(intro=\"$path_intro\", key=\"$path_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/a001/m_dia_path_intro.mp3",
+        "key": "sound_beta_2/music/a001/m_dia_path_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 9,
+        "raw": "[Decision(options=\"……미야……\", values=\"1\")]",
+        "type": "decision",
+        "options": "……미야……",
+        "values": "1"
+    },
+    {
+        "id": 10,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 11,
+        "raw": "[Decision(options=\"아미야.\", values=\"1\")]",
+        "type": "decision",
+        "options": "아미야.",
+        "values": "1"
+    },
+    {
+        "id": 12,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 13,
+        "raw": "[Character(name=\"char_002_amiya_1#6\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#6"
+    },
+    {
+        "id": 14,
+        "raw": "[name=\"아미야\"]  네? 아, 죄송해요 박사님. 잠깐 멍하니 있었네요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "네? 아, 죄송해요 박사님. 잠깐 멍하니 있었네요."
+    },
+    {
+        "id": 15,
+        "raw": "[Decision(options=\"안색이 안 좋아 보이는데.\", values=\"1\")]",
+        "type": "decision",
+        "options": "안색이 안 좋아 보이는데.",
+        "values": "1"
+    },
+    {
+        "id": 16,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 17,
+        "raw": "[Character(name=\"char_002_amiya_1\")]",
+        "type": "character",
+        "name": "char_002_amiya_1"
+    },
+    {
+        "id": 18,
+        "raw": "[name=\"아미야\"]  아, 네. 신경 쓰이는 일이 있어서요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "아, 네. 신경 쓰이는 일이 있어서요."
+    },
+    {
+        "id": 19,
+        "raw": "[name=\"아미야\"]  박사님, 부서 변경 신청서 좀 봐주세요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "박사님, 부서 변경 신청서 좀 봐주세요."
+    },
+    {
+        "id": 20,
+        "raw": "[name=\"아미야\"]  신청인은 나탈리야 로스토바예요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "신청인은 나탈리야 로스토바예요."
+    },
+    {
+        "id": 21,
+        "raw": "[name=\"아미야\"]  후방 지원부에서 전투원 쪽으로 옮기고 싶다네요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "후방 지원부에서 전투원 쪽으로 옮기고 싶다네요."
+    },
+    {
+        "id": 22,
+        "raw": "[Decision(options=\"우르수스 자치단의……;……;어? 누구라고?\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "우르수스 자치단의……;……;어? 누구라고?",
+        "values": "1;2;3"
+    },
+    {
+        "id": 23,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 24,
+        "raw": "[Character(name=\"char_002_amiya_1\")]",
+        "type": "character",
+        "name": "char_002_amiya_1"
+    },
+    {
+        "id": 25,
+        "raw": "[name=\"아미야\"]  네. 후방 지원부에서 일하고 있는 유일한 자치단 멤버죠.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "네. 후방 지원부에서 일하고 있는 유일한 자치단 멤버죠."
+    },
+    {
+        "id": 26,
+        "raw": "[name=\"아미야\"]  업무 능력이 매우 뛰어나서 후방 지원부에서도 칭찬이 자자해요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "업무 능력이 매우 뛰어나서 후방 지원부에서도 칭찬이 자자해요."
+    },
+    {
+        "id": 27,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 28,
+        "raw": "[Character(name=\"char_002_amiya_1\")]",
+        "type": "character",
+        "name": "char_002_amiya_1"
+    },
+    {
+        "id": 29,
+        "raw": "[name=\"아미야\"]  역시 박사님도 신경이 쓰이시는 모양이네요. 솔직히 말하면, 저도 이 신청을 받아들이고 싶진 않아요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "역시 박사님도 신경이 쓰이시는 모양이네요. 솔직히 말하면, 저도 이 신청을 받아들이고 싶진 않아요."
+    },
+    {
+        "id": 30,
+        "raw": "[Predicate(references=\"3\")]",
+        "type": "predicate",
+        "references": "3"
+    },
+    {
+        "id": 31,
+        "raw": "[Character(name=\"char_002_amiya_1\")]",
+        "type": "character",
+        "name": "char_002_amiya_1"
+    },
+    {
+        "id": 32,
+        "raw": "[name=\"아미야\"]  우르수스인의 이름은 조금 기억하기 힘드니까, 기억하지 못하시는 것도 당연해요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "우르수스인의 이름은 조금 기억하기 힘드니까, 기억하지 못하시는 것도 당연해요."
+    },
+    {
+        "id": 33,
+        "raw": "[name=\"아미야\"]  나탈리야 씨는 저희가 체르노보그에서 구해낸 난민 중 하나에요. 지마 씨의 우르수스 학생자치단 멤버이기도 하죠.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "나탈리야 씨는 저희가 체르노보그에서 구해낸 난민 중 하나에요. 지마 씨의 우르수스 학생자치단 멤버이기도 하죠."
+    },
+    {
+        "id": 34,
+        "raw": "[name=\"아미야\"]  그리고 우리가 구해낸 난민 중, 유일한 귀족이기도 하고요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "그리고 우리가 구해낸 난민 중, 유일한 귀족이기도 하고요."
+    },
+    {
+        "id": 35,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 36,
+        "raw": "[Character(name=\"char_002_amiya_1\")]",
+        "type": "character",
+        "name": "char_002_amiya_1"
+    },
+    {
+        "id": 37,
+        "raw": "[name=\"아미야\"]  기억하시죠? 지마 일행이 오퍼레이터가 될 수 있었던 것은, 본인들이 원해서였어요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "기억하시죠? 지마 일행이 오퍼레이터가 될 수 있었던 것은, 본인들이 원해서였어요."
+    },
+    {
+        "id": 38,
+        "raw": "[name=\"아미야\"]  저는 처음부터 반대했고요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "저는 처음부터 반대했고요."
+    },
+    {
+        "id": 39,
+        "raw": "[Decision(options=\"구출된 지 얼마 지나지 않았으니까……;……;네 판단을 믿어.\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "구출된 지 얼마 지나지 않았으니까……;……;네 판단을 믿어.",
+        "values": "1;2;3"
+    },
+    {
+        "id": 40,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 41,
+        "raw": "[Character(name=\"char_002_amiya_1\")]",
+        "type": "character",
+        "name": "char_002_amiya_1"
+    },
+    {
+        "id": 42,
+        "raw": "[name=\"아미야\"]  네. 본인들이 원했기 때문에, 저도 켈시 선생님의 반대를 무릅쓸 수 있었어요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "네. 본인들이 원했기 때문에, 저도 켈시 선생님의 반대를 무릅쓸 수 있었어요."
+    },
+    {
+        "id": 43,
+        "raw": "[Character(name=\"char_002_amiya_1#4\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#4"
+    },
+    {
+        "id": 44,
+        "raw": "[name=\"아미야\"]  다만……",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "다만……"
+    },
+    {
+        "id": 45,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 46,
+        "raw": "[Character(name=\"char_002_amiya_1\")]",
+        "type": "character",
+        "name": "char_002_amiya_1"
+    },
+    {
+        "id": 47,
+        "raw": "[name=\"아미야\"]  자치단 멤버들은 정기적으로 심리 치료를 받고 있어요. 보고서엔 아직 트라우마가 남기는 했지만, 전체적으로 건강하다고 하다고 적혀있지만요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "자치단 멤버들은 정기적으로 심리 치료를 받고 있어요. 보고서엔 아직 트라우마가 남기는 했지만, 전체적으로 건강하다고 하다고 적혀있지만요."
+    },
+    {
+        "id": 48,
+        "raw": "[Character(name=\"char_002_amiya_1#4\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#4"
+    },
+    {
+        "id": 49,
+        "raw": "[name=\"아미야\"]  다만……",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "다만……"
+    },
+    {
+        "id": 50,
+        "raw": "[Predicate(references=\"3\")]",
+        "type": "predicate",
+        "references": "3"
+    },
+    {
+        "id": 51,
+        "raw": "[Character(name=\"char_002_amiya_1\")]",
+        "type": "character",
+        "name": "char_002_amiya_1"
+    },
+    {
+        "id": 52,
+        "raw": "[name=\"아미야\"]  고맙습니다, 박사님.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "고맙습니다, 박사님."
+    },
+    {
+        "id": 53,
+        "raw": "[Character(name=\"char_002_amiya_1#4\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#4"
+    },
+    {
+        "id": 54,
+        "raw": "[name=\"아미야\"]  하지만……",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "하지만……"
+    },
+    {
+        "id": 55,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 56,
+        "raw": "[Character(name=\"char_002_amiya_1#4\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#4"
+    },
+    {
+        "id": 57,
+        "raw": "[name=\"아미야\"]  어떻게 이야기해야 할지 모르겠어요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "어떻게 이야기해야 할지 모르겠어요."
+    },
+    {
+        "id": 58,
+        "raw": "[name=\"아미야\"]  ……박사님, 나탈리야 씨를 만나봐 주실 수 있을까요?",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "……박사님, 나탈리야 씨를 만나봐 주실 수 있을까요?"
+    },
+    {
+        "id": 59,
+        "raw": "[Decision(options=\"알겠어.;……;귀찮은데.\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "알겠어.;……;귀찮은데.",
+        "values": "1;2;3"
+    },
+    {
+        "id": 60,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 61,
+        "raw": "[Character(name=\"char_002_amiya_1\")]",
+        "type": "character",
+        "name": "char_002_amiya_1"
+    },
+    {
+        "id": 62,
+        "raw": "[name=\"아미야\"]  그럼 부탁드릴게요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "그럼 부탁드릴게요."
+    },
+    {
+        "id": 63,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 64,
+        "raw": "[Character(name=\"char_002_amiya_1\")]",
+        "type": "character",
+        "name": "char_002_amiya_1"
+    },
+    {
+        "id": 65,
+        "raw": "[name=\"아미야\"]  박사님. 귀찮은 일이긴 하지만, 부탁드릴 사람이 박사님밖에 없어요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "박사님. 귀찮은 일이긴 하지만, 부탁드릴 사람이 박사님밖에 없어요."
+    },
+    {
+        "id": 66,
+        "raw": "[Predicate(references=\"3\")]",
+        "type": "predicate",
+        "references": "3"
+    },
+    {
+        "id": 67,
+        "raw": "[Character(name=\"char_002_amiya_1\")]",
+        "type": "character",
+        "name": "char_002_amiya_1"
+    },
+    {
+        "id": 68,
+        "raw": "[name=\"아미야\"]  박사님. 굉장히 중요한 일이니까, 게으름 부리시면 안 돼요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "박사님. 굉장히 중요한 일이니까, 게으름 부리시면 안 돼요."
+    },
+    {
+        "id": 69,
+        "raw": "[name=\"아미야\"]  그리고 너무 자세히 관찰하실 필요는 없어요. 그냥 업무 중에 기분 전환을 하러 간다고 생각해주셔요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "그리고 너무 자세히 관찰하실 필요는 없어요. 그냥 업무 중에 기분 전환을 하러 간다고 생각해주셔요."
+    },
+    {
+        "id": 70,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 71,
+        "raw": "[Character(name=\"char_002_amiya_1#3\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#3"
+    },
+    {
+        "id": 72,
+        "raw": "[name=\"아미야\"]  아, 점심시간이네요. 그럼… 서두르지 마시고, 식사 후에 찾아가 주세요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "아, 점심시간이네요. 그럼… 서두르지 마시고, 식사 후에 찾아가 주세요."
+    },
+    {
+        "id": 73,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 74,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 75,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 76,
+        "raw": "[Background(image=\"bg_bridge\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_bridge.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 77,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 78,
+        "raw": "[Character(name=\"char_115_headbr_9\",fadetime=1,block=true)]",
+        "type": "character",
+        "name": "char_115_headbr_9",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 79,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 80,
+        "raw": "[name=\"지마\"]  어이, 박사.",
+        "type": "dialog",
+        "speaker": "지마",
+        "content": "어이, 박사."
+    },
+    {
+        "id": 81,
+        "raw": "[Decision(options=\"무슨 일이야?;……;여어, 지마.\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "무슨 일이야?;……;여어, 지마.",
+        "values": "1;2;3"
+    },
+    {
+        "id": 82,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 83,
+        "raw": "[Character(name=\"char_115_headbr_9\")]",
+        "type": "character",
+        "name": "char_115_headbr_9"
+    },
+    {
+        "id": 84,
+        "raw": "[name=\"지마\"]  아무것도 아니야. 그냥 불러보고 싶었어.",
+        "type": "dialog",
+        "speaker": "지마",
+        "content": "아무것도 아니야. 그냥 불러보고 싶었어."
+    },
+    {
+        "id": 85,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 86,
+        "raw": "[Character(name=\"char_115_headbr_9\")]",
+        "type": "character",
+        "name": "char_115_headbr_9"
+    },
+    {
+        "id": 87,
+        "raw": "[name=\"지마\"]  어이, 못 들은 척하지 마. 내 목소리 듣고 멈춘 거 다 봤어.",
+        "type": "dialog",
+        "speaker": "지마",
+        "content": "어이, 못 들은 척하지 마. 내 목소리 듣고 멈춘 거 다 봤어."
+    },
+    {
+        "id": 88,
+        "raw": "[name=\"지마\"]  할 일도 많은 것 같던데, 이렇게 돌아다녀도 돼?",
+        "type": "dialog",
+        "speaker": "지마",
+        "content": "할 일도 많은 것 같던데, 이렇게 돌아다녀도 돼?"
+    },
+    {
+        "id": 89,
+        "raw": "[Predicate(references=\"3\")]",
+        "type": "predicate",
+        "references": "3"
+    },
+    {
+        "id": 90,
+        "raw": "[Character(name=\"char_115_headbr_9\")]",
+        "type": "character",
+        "name": "char_115_headbr_9"
+    },
+    {
+        "id": 91,
+        "raw": "[name=\"지마\"]  꽤 한가한 모양이네.",
+        "type": "dialog",
+        "speaker": "지마",
+        "content": "꽤 한가한 모양이네."
+    },
+    {
+        "id": 92,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 93,
+        "raw": "[Character(name=\"char_115_headbr_9\")]",
+        "type": "character",
+        "name": "char_115_headbr_9"
+    },
+    {
+        "id": 94,
+        "raw": "[name=\"지마\"]  난 곧 임무 나가야 해서 너처럼 한가롭게 돌아다닐 시간도 없는데 말이야.",
+        "type": "dialog",
+        "speaker": "지마",
+        "content": "난 곧 임무 나가야 해서 너처럼 한가롭게 돌아다닐 시간도 없는데 말이야."
+    },
+    {
+        "id": 95,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 96,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 97,
+        "raw": "[Character(name=\"char_148_nearl_1\",fadetime=1,block=true)]",
+        "type": "character",
+        "name": "char_148_nearl_1",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 98,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 99,
+        "raw": "[name=\"니어\"]  지마, 출발 전에 마음대로 돌아다니지 말라고 했을 텐데.",
+        "type": "dialog",
+        "speaker": "니어",
+        "content": "지마, 출발 전에 마음대로 돌아다니지 말라고 했을 텐데."
+    },
+    {
+        "id": 100,
+        "raw": "[Character(name=\"char_115_headbr_9\", name2=\"char_148_nearl_1\",focus=1)]",
+        "type": "character",
+        "name": "char_115_headbr_9",
+        "name2": "char_148_nearl_1",
+        "focus": 1
+    },
+    {
+        "id": 101,
+        "raw": "[name=\"지마\"]  ……",
+        "type": "dialog",
+        "speaker": "지마",
+        "content": "……"
+    },
+    {
+        "id": 102,
+        "raw": "[Character(name=\"char_148_nearl_1\")]",
+        "type": "character",
+        "name": "char_148_nearl_1"
+    },
+    {
+        "id": 103,
+        "raw": "[name=\"니어\"]  안녕, 박사.",
+        "type": "dialog",
+        "speaker": "니어",
+        "content": "안녕, 박사."
+    },
+    {
+        "id": 104,
+        "raw": "[name=\"니어\"]  지마. 곧 출발할 거니까, 얼른 휴식실로 돌아가.",
+        "type": "dialog",
+        "speaker": "니어",
+        "content": "지마. 곧 출발할 거니까, 얼른 휴식실로 돌아가."
+    },
+    {
+        "id": 105,
+        "raw": "[Character(name=\"char_115_headbr_9\", name2=\"char_148_nearl_1\",focus=1)]",
+        "type": "character",
+        "name": "char_115_headbr_9",
+        "name2": "char_148_nearl_1",
+        "focus": 1
+    },
+    {
+        "id": 106,
+        "raw": "[name=\"지마\"]  흥, 언젠간 내가 팀장이 되어서 네게 명령을 내려주마.",
+        "type": "dialog",
+        "speaker": "지마",
+        "content": "흥, 언젠간 내가 팀장이 되어서 네게 명령을 내려주마."
+    },
+    {
+        "id": 107,
+        "raw": "[name=\"지마\"]  그리고 박사, 언젠간 너를 뛰어넘고 말 거야.",
+        "type": "dialog",
+        "speaker": "지마",
+        "content": "그리고 박사, 언젠간 너를 뛰어넘고 말 거야."
+    },
+    {
+        "id": 108,
+        "raw": "[Character(name=\"char_115_headbr_9\", name2=\"char_148_nearl_1\",focus=2)]",
+        "type": "character",
+        "name": "char_115_headbr_9",
+        "name2": "char_148_nearl_1",
+        "focus": 2
+    },
+    {
+        "id": 109,
+        "raw": "[name=\"니어\"]  기세는 좋군. 하지만 그런 말은 내 한 손이라도 꺾고 나서 하는 편이 좋을 텐데.",
+        "type": "dialog",
+        "speaker": "니어",
+        "content": "기세는 좋군. 하지만 그런 말은 내 한 손이라도 꺾고 나서 하는 편이 좋을 텐데."
+    },
+    {
+        "id": 110,
+        "raw": "[name=\"니어\"]  그리고 박사는… 음… 일단은 전력을 다한 나를 꺾고 난 다음에 이야기하도록.",
+        "type": "dialog",
+        "speaker": "니어",
+        "content": "그리고 박사는… 음… 일단은 전력을 다한 나를 꺾고 난 다음에 이야기하도록."
+    },
+    {
+        "id": 111,
+        "raw": "[Character(name=\"char_115_headbr_9\", name2=\"char_148_nearl_1\",focus=1)]",
+        "type": "character",
+        "name": "char_115_headbr_9",
+        "name2": "char_148_nearl_1",
+        "focus": 1
+    },
+    {
+        "id": 112,
+        "raw": "[name=\"지마\"]  쳇.",
+        "type": "dialog",
+        "speaker": "지마",
+        "content": "쳇."
+    },
+    {
+        "id": 113,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 114,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 115,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3"
+    },
+    {
+        "id": 116,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 117,
+        "raw": "[Character(name=\"char_148_nearl_1\")]",
+        "type": "character",
+        "name": "char_148_nearl_1"
+    },
+    {
+        "id": 118,
+        "raw": "[name=\"니어\"]  아, 박사. 알고 있겠지만, 이번에는 내가 신입팀을 이끌 차례라서.",
+        "type": "dialog",
+        "speaker": "니어",
+        "content": "아, 박사. 알고 있겠지만, 이번에는 내가 신입팀을 이끌 차례라서."
+    },
+    {
+        "id": 119,
+        "raw": "[name=\"니어\"]  별다른 용건이 없으면, 먼저 실례하도록 하지.",
+        "type": "dialog",
+        "speaker": "니어",
+        "content": "별다른 용건이 없으면, 먼저 실례하도록 하지."
+    },
+    {
+        "id": 120,
+        "raw": "[Decision(options=\"지마는 어떤 것 같아?\", values=\"1\")]",
+        "type": "decision",
+        "options": "지마는 어떤 것 같아?",
+        "values": "1"
+    },
+    {
+        "id": 121,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 122,
+        "raw": "[Character(name=\"char_148_nearl_1\")]",
+        "type": "character",
+        "name": "char_148_nearl_1"
+    },
+    {
+        "id": 123,
+        "raw": "[name=\"니어\"]  응?",
+        "type": "dialog",
+        "speaker": "니어",
+        "content": "응?"
+    },
+    {
+        "id": 124,
+        "raw": "[name=\"니어\"]  음…… 방금 본 것대로다. 제멋대로에, 윗사람도 몰라보지.",
+        "type": "dialog",
+        "speaker": "니어",
+        "content": "음…… 방금 본 것대로다. 제멋대로에, 윗사람도 몰라보지."
+    },
+    {
+        "id": 125,
+        "raw": "[name=\"니어\"]  그리고 자신이 무엇과 싸우는지, 또 왜 싸우는지도 잘 모르지만, 저 나이에 저런 건 평범한 거야.",
+        "type": "dialog",
+        "speaker": "니어",
+        "content": "그리고 자신이 무엇과 싸우는지, 또 왜 싸우는지도 잘 모르지만, 저 나이에 저런 건 평범한 거야."
+    },
+    {
+        "id": 126,
+        "raw": "[name=\"니어\"]  그래도 하나는 확실해.",
+        "type": "dialog",
+        "speaker": "니어",
+        "content": "그래도 하나는 확실해."
+    },
+    {
+        "id": 127,
+        "raw": "[name=\"니어\"]  무언가 때문에 굉장히 헤매고 있어. 이유는 모르겠지만 썩 좋은 일은 아니지. 그 점을 중점적으로 고쳐볼 생각이다.",
+        "type": "dialog",
+        "speaker": "니어",
+        "content": "무언가 때문에 굉장히 헤매고 있어. 이유는 모르겠지만 썩 좋은 일은 아니지. 그 점을 중점적으로 고쳐볼 생각이다."
+    },
+    {
+        "id": 128,
+        "raw": "[Decision(options=\"그러니까, 겉보기에만 거칠다는 얘기야?;……;음… 지마랑은 잘 지내보고 싶은데 말이지.\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "그러니까, 겉보기에만 거칠다는 얘기야?;……;음… 지마랑은 잘 지내보고 싶은데 말이지.",
+        "values": "1;2;3"
+    },
+    {
+        "id": 129,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 130,
+        "raw": "[Character(name=\"char_148_nearl_1\")]",
+        "type": "character",
+        "name": "char_148_nearl_1"
+    },
+    {
+        "id": 131,
+        "raw": "[name=\"니어\"]  그래. 겉으로 보이는 폭력적인 성향은 그저 껍데기일 뿐이지.",
+        "type": "dialog",
+        "speaker": "니어",
+        "content": "그래. 겉으로 보이는 폭력적인 성향은 그저 껍데기일 뿐이지."
+    },
+    {
+        "id": 132,
+        "raw": "[name=\"니어\"]  그 껍데기 안의 내면이 약하다고 말할 생각은 없지만, 적어도 그 거친 태도가 나에게는 통하지 않는다고 말하고 싶군.",
+        "type": "dialog",
+        "speaker": "니어",
+        "content": "그 껍데기 안의 내면이 약하다고 말할 생각은 없지만, 적어도 그 거친 태도가 나에게는 통하지 않는다고 말하고 싶군."
+    },
+    {
+        "id": 133,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 134,
+        "raw": "[Character(name=\"char_148_nearl_1\")]",
+        "type": "character",
+        "name": "char_148_nearl_1"
+    },
+    {
+        "id": 135,
+        "raw": "[name=\"니어\"]  걱정 마라, 박사. 아직 어린 애니까.",
+        "type": "dialog",
+        "speaker": "니어",
+        "content": "걱정 마라, 박사. 아직 어린 애니까."
+    },
+    {
+        "id": 136,
+        "raw": "[name=\"니어\"]  체르노보그에서 왔다고 들었는데, 아마 그때의 안 좋은 기억이 남아있는 거겠지…… 그래도 그 애에게는 아직 미래가 있으니.",
+        "type": "dialog",
+        "speaker": "니어",
+        "content": "체르노보그에서 왔다고 들었는데, 아마 그때의 안 좋은 기억이 남아있는 거겠지…… 그래도 그 애에게는 아직 미래가 있으니."
+    },
+    {
+        "id": 137,
+        "raw": "[Predicate(references=\"3\")]",
+        "type": "predicate",
+        "references": "3"
+    },
+    {
+        "id": 138,
+        "raw": "[Character(name=\"char_148_nearl_1\")]",
+        "type": "character",
+        "name": "char_148_nearl_1"
+    },
+    {
+        "id": 139,
+        "raw": "[name=\"니어\"]  하하, 그러니까 급하게 생각하지 마라. 박사.",
+        "type": "dialog",
+        "speaker": "니어",
+        "content": "하하, 그러니까 급하게 생각하지 마라. 박사."
+    },
+    {
+        "id": 140,
+        "raw": "[name=\"니어\"]  알다시피, 저 애가 널 싫어하는 건 아니니까.",
+        "type": "dialog",
+        "speaker": "니어",
+        "content": "알다시피, 저 애가 널 싫어하는 건 아니니까."
+    },
+    {
+        "id": 141,
+        "raw": "[name=\"니어\"]  오히려, 자신과 가까운 사람을 무의식적으로 공격하고 있다고 하는 편이 맞을 거야.",
+        "type": "dialog",
+        "speaker": "니어",
+        "content": "오히려, 자신과 가까운 사람을 무의식적으로 공격하고 있다고 하는 편이 맞을 거야."
+    },
+    {
+        "id": 142,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 143,
+        "raw": "[Character(name=\"char_148_nearl_1\")]",
+        "type": "character",
+        "name": "char_148_nearl_1"
+    },
+    {
+        "id": 144,
+        "raw": "[name=\"니어\"]  게다가, 나도 이 아이가 싫지는 않아.",
+        "type": "dialog",
+        "speaker": "니어",
+        "content": "게다가, 나도 이 아이가 싫지는 않아."
+    },
+    {
+        "id": 145,
+        "raw": "[name=\"니어\"]  사실, 순수하고 정직해서 썩 마음에 들어. 지금은 좀 헤매고 있지만, 분명 그 정직함이 그 애를 올바른 길로 이끌어줄 거다.",
+        "type": "dialog",
+        "speaker": "니어",
+        "content": "사실, 순수하고 정직해서 썩 마음에 들어. 지금은 좀 헤매고 있지만, 분명 그 정직함이 그 애를 올바른 길로 이끌어줄 거다."
+    },
+    {
+        "id": 146,
+        "raw": "[name=\"니어\"]  꽤 드문 일이지.",
+        "type": "dialog",
+        "speaker": "니어",
+        "content": "꽤 드문 일이지."
+    },
+    {
+        "id": 147,
+        "raw": "[name=\"니어\"]  이런, 벌써 출발 시간이… 그럼 먼저 실례하지.",
+        "type": "dialog",
+        "speaker": "니어",
+        "content": "이런, 벌써 출발 시간이… 그럼 먼저 실례하지."
+    },
+    {
+        "id": 148,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 149,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 150,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 151,
+        "raw": "[Background(image=\"bg_canteen\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_canteen.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 152,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 153,
+        "raw": "[Character(name=\"char_196_sunbr_1#2\",fadetime=1,block=true)]",
+        "type": "character",
+        "name": "char_196_sunbr_1#2",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 154,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 155,
+        "raw": "[name=\"굼\"]  어라? 박사다!",
+        "type": "dialog",
+        "speaker": "굼",
+        "content": "어라? 박사다!"
+    },
+    {
+        "id": 156,
+        "raw": "[Decision(options=\"안녕, 굼.;……;어라? 굼이다!\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "안녕, 굼.;……;어라? 굼이다!",
+        "values": "1;2;3"
+    },
+    {
+        "id": 157,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 158,
+        "raw": "[Character(name=\"char_196_sunbr_1#2\")]",
+        "type": "character",
+        "name": "char_196_sunbr_1#2"
+    },
+    {
+        "id": 159,
+        "raw": "[name=\"굼\"]  안녕, 박사!",
+        "type": "dialog",
+        "speaker": "굼",
+        "content": "안녕, 박사!"
+    },
+    {
+        "id": 160,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 161,
+        "raw": "[Character(name=\"char_196_sunbr_1#3\")]",
+        "type": "character",
+        "name": "char_196_sunbr_1#3"
+    },
+    {
+        "id": 162,
+        "raw": "[name=\"굼\"]  설마 굼이 너무 작아서 안 보인 거야?!",
+        "type": "dialog",
+        "speaker": "굼",
+        "content": "설마 굼이 너무 작아서 안 보인 거야?!"
+    },
+    {
+        "id": 163,
+        "raw": "[name=\"굼\"]  박사. 어~이~ 굼이 잘 보이는 거 맞지?",
+        "type": "dialog",
+        "speaker": "굼",
+        "content": "박사. 어~이~ 굼이 잘 보이는 거 맞지?"
+    },
+    {
+        "id": 164,
+        "raw": "[Predicate(references=\"3\")]",
+        "type": "predicate",
+        "references": "3"
+    },
+    {
+        "id": 165,
+        "raw": "[Character(name=\"char_196_sunbr_1#5\")]",
+        "type": "character",
+        "name": "char_196_sunbr_1#5"
+    },
+    {
+        "id": 166,
+        "raw": "[name=\"굼\"]  박사, 오늘 기분 좋아 보이네!",
+        "type": "dialog",
+        "speaker": "굼",
+        "content": "박사, 오늘 기분 좋아 보이네!"
+    },
+    {
+        "id": 167,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 168,
+        "raw": "[Character(name=\"char_196_sunbr_1#2\")]",
+        "type": "character",
+        "name": "char_196_sunbr_1#2"
+    },
+    {
+        "id": 169,
+        "raw": "[name=\"굼\"]  박사도 식당에 밥 먹으러 온 거야?",
+        "type": "dialog",
+        "speaker": "굼",
+        "content": "박사도 식당에 밥 먹으러 온 거야?"
+    },
+    {
+        "id": 170,
+        "raw": "[name=\"굼\"]  굼은 요 며칠 임무가 없어서 주방 일을 도와주고 있어.",
+        "type": "dialog",
+        "speaker": "굼",
+        "content": "굼은 요 며칠 임무가 없어서 주방 일을 도와주고 있어."
+    },
+    {
+        "id": 171,
+        "raw": "[Character(name=\"char_181_flower_1\")]",
+        "type": "character",
+        "name": "char_181_flower_1"
+    },
+    {
+        "id": 172,
+        "raw": "[name=\"퍼퓨머\"]  굼, 향료 가져왔어.",
+        "type": "dialog",
+        "speaker": "퍼퓨머",
+        "content": "굼, 향료 가져왔어."
+    },
+    {
+        "id": 173,
+        "raw": "[Character(name=\"char_196_sunbr_1#2\", name2=\"char_181_flower_1\",focus=1)]",
+        "type": "character",
+        "name": "char_196_sunbr_1#2",
+        "name2": "char_181_flower_1",
+        "focus": 1
+    },
+    {
+        "id": 174,
+        "raw": "[name=\"굼\"]  고마워, 퍼퓨머 언니! 저쪽에 놔줘!",
+        "type": "dialog",
+        "speaker": "굼",
+        "content": "고마워, 퍼퓨머 언니! 저쪽에 놔줘!"
+    },
+    {
+        "id": 175,
+        "raw": "[name=\"굼\"]  퍼퓨머 언니도 식당에서 밥 먹고 갈래?",
+        "type": "dialog",
+        "speaker": "굼",
+        "content": "퍼퓨머 언니도 식당에서 밥 먹고 갈래?"
+    },
+    {
+        "id": 176,
+        "raw": "[Character(name=\"char_196_sunbr_1#2\", name2=\"char_181_flower_1\",focus=2)]",
+        "type": "character",
+        "name": "char_196_sunbr_1#2",
+        "name2": "char_181_flower_1",
+        "focus": 2
+    },
+    {
+        "id": 177,
+        "raw": "[name=\"퍼퓨머\"]  괜찮아. 그리고 나는 작업실에서 먹는 게 익숙해서.",
+        "type": "dialog",
+        "speaker": "퍼퓨머",
+        "content": "괜찮아. 그리고 나는 작업실에서 먹는 게 익숙해서."
+    },
+    {
+        "id": 178,
+        "raw": "[Character(name=\"char_196_sunbr_1#2\", name2=\"char_181_flower_1\",focus=1)]",
+        "type": "character",
+        "name": "char_196_sunbr_1#2",
+        "name2": "char_181_flower_1",
+        "focus": 1
+    },
+    {
+        "id": 179,
+        "raw": "[name=\"굼\"]  그래~? 그럼 나도 가서 먹어도 돼? 퍼퓨머 언니한테 향료 쓰는 법 배우고 싶어!",
+        "type": "dialog",
+        "speaker": "굼",
+        "content": "그래~? 그럼 나도 가서 먹어도 돼? 퍼퓨머 언니한테 향료 쓰는 법 배우고 싶어!"
+    },
+    {
+        "id": 180,
+        "raw": "[Character(name=\"char_196_sunbr_1#2\", name2=\"char_181_flower_1\",focus=2)]",
+        "type": "character",
+        "name": "char_196_sunbr_1#2",
+        "name2": "char_181_flower_1",
+        "focus": 2
+    },
+    {
+        "id": 181,
+        "raw": "[name=\"퍼퓨머\"]  후후, 물론이지.",
+        "type": "dialog",
+        "speaker": "퍼퓨머",
+        "content": "후후, 물론이지."
+    },
+    {
+        "id": 182,
+        "raw": "[Character(name=\"char_199_yak_1\")]",
+        "type": "character",
+        "name": "char_199_yak_1"
+    },
+    {
+        "id": 183,
+        "raw": "[name=\"마터호른\"]  굼 씨, 괜찮다면 좀 도와주십시오.",
+        "type": "dialog",
+        "speaker": "마터호른",
+        "content": "굼 씨, 괜찮다면 좀 도와주십시오."
+    },
+    {
+        "id": 184,
+        "raw": "[Character(name=\"char_196_sunbr_1#5\")]",
+        "type": "character",
+        "name": "char_196_sunbr_1#5"
+    },
+    {
+        "id": 185,
+        "raw": "[name=\"굼\"]  알았어!",
+        "type": "dialog",
+        "speaker": "굼",
+        "content": "알았어!"
+    },
+    {
+        "id": 186,
+        "raw": "[Character(name=\"char_199_yak_1\")]",
+        "type": "character",
+        "name": "char_199_yak_1"
+    },
+    {
+        "id": 187,
+        "raw": "[name=\"마터호른\"]  훔이 임무를 나가서 일손이 부족합니다. 이 냄비를 부탁해도 되겠습니까? 제가 신경을 쓸 수가 없어서.",
+        "type": "dialog",
+        "speaker": "마터호른",
+        "content": "훔이 임무를 나가서 일손이 부족합니다. 이 냄비를 부탁해도 되겠습니까? 제가 신경을 쓸 수가 없어서."
+    },
+    {
+        "id": 188,
+        "raw": "[Character(name=\"char_196_sunbr_1#2\")]",
+        "type": "character",
+        "name": "char_196_sunbr_1#2"
+    },
+    {
+        "id": 189,
+        "raw": "[name=\"굼\"]  맡겨 줘, 마터호른 아저씨! 아, 퍼퓨머 언니, 작업실은 다음번에 갈게. 박사도 맛있게 먹어!",
+        "type": "dialog",
+        "speaker": "굼",
+        "content": "맡겨 줘, 마터호른 아저씨! 아, 퍼퓨머 언니, 작업실은 다음번에 갈게. 박사도 맛있게 먹어!"
+    },
+    {
+        "id": 190,
+        "raw": "[Character(name=\"char_181_flower_1\")]",
+        "type": "character",
+        "name": "char_181_flower_1"
+    },
+    {
+        "id": 191,
+        "raw": "[name=\"퍼퓨머\"]  그럼. 언제든 환영이야.",
+        "type": "dialog",
+        "speaker": "퍼퓨머",
+        "content": "그럼. 언제든 환영이야."
+    },
+    {
+        "id": 192,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 193,
+        "raw": "[name=\"가드 오퍼레이터\"]  오늘 드디어 굼이 한 밥을 먹을 수 있는 건가?!",
+        "type": "dialog",
+        "speaker": "가드 오퍼레이터",
+        "content": "오늘 드디어 굼이 한 밥을 먹을 수 있는 건가?!"
+    },
+    {
+        "id": 194,
+        "raw": "[name=\"지원 오퍼레이터\"]  하하, 오늘은 운이 좋네!",
+        "type": "dialog",
+        "speaker": "지원 오퍼레이터",
+        "content": "하하, 오늘은 운이 좋네!"
+    },
+    {
+        "id": 195,
+        "raw": "[name=\"지원 오퍼레이터\"]  젠장, 방금 다 먹었는데!",
+        "type": "dialog",
+        "speaker": "지원 오퍼레이터",
+        "content": "젠장, 방금 다 먹었는데!"
+    },
+    {
+        "id": 196,
+        "raw": "[name=\"가드 오퍼레이터\"]  하하, 그럼 한 그릇 더!",
+        "type": "dialog",
+        "speaker": "가드 오퍼레이터",
+        "content": "하하, 그럼 한 그릇 더!"
+    },
+    {
+        "id": 197,
+        "raw": "[Character(name=\"char_196_sunbr_1#5\")]",
+        "type": "character",
+        "name": "char_196_sunbr_1#5"
+    },
+    {
+        "id": 198,
+        "raw": "[name=\"굼\"]  호들갑 떨지 말라구! 다들 충분히 먹을 수 있으니까!",
+        "type": "dialog",
+        "speaker": "굼",
+        "content": "호들갑 떨지 말라구! 다들 충분히 먹을 수 있으니까!"
+    },
+    {
+        "id": 199,
+        "raw": "[Character(name=\"char_181_flower_1\")]",
+        "type": "character",
+        "name": "char_181_flower_1"
+    },
+    {
+        "id": 200,
+        "raw": "[name=\"퍼퓨머\"]  굼은 정말 활기찬 아이네. 그렇지?",
+        "type": "dialog",
+        "speaker": "퍼퓨머",
+        "content": "굼은 정말 활기찬 아이네. 그렇지?"
+    },
+    {
+        "id": 201,
+        "raw": "[Decision(options=\"그러게.;……;딱 봐도 그래 보여!\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "그러게.;……;딱 봐도 그래 보여!",
+        "values": "1;2;3"
+    },
+    {
+        "id": 202,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 203,
+        "raw": "[Character(name=\"char_181_flower_1\")]",
+        "type": "character",
+        "name": "char_181_flower_1"
+    },
+    {
+        "id": 204,
+        "raw": "[name=\"퍼퓨머\"]  전에 한번 내 작업실에서 잠꼬대할 땐 조금 걱정했었는데……",
+        "type": "dialog",
+        "speaker": "퍼퓨머",
+        "content": "전에 한번 내 작업실에서 잠꼬대할 땐 조금 걱정했었는데……"
+    },
+    {
+        "id": 205,
+        "raw": "[name=\"퍼퓨머\"]  뭐 그래도 지금은 로도스 아일랜드에 녹아들기 시작한 것 같아 안심이야.",
+        "type": "dialog",
+        "speaker": "퍼퓨머",
+        "content": "뭐 그래도 지금은 로도스 아일랜드에 녹아들기 시작한 것 같아 안심이야."
+    },
+    {
+        "id": 206,
+        "raw": "[name=\"퍼퓨머\"]  지금 당장 좋아지지는 않더라도 천천히, 분명 좋아질 테니까.",
+        "type": "dialog",
+        "speaker": "퍼퓨머",
+        "content": "지금 당장 좋아지지는 않더라도 천천히, 분명 좋아질 테니까."
+    },
+    {
+        "id": 207,
+        "raw": "[Decision(options=\"무슨 잠꼬대를 했는데?;……;그러면 좋겠는데.\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "무슨 잠꼬대를 했는데?;……;그러면 좋겠는데.",
+        "values": "1;2;3"
+    },
+    {
+        "id": 208,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 209,
+        "raw": "[Character(name=\"char_181_flower_1\")]",
+        "type": "character",
+        "name": "char_181_flower_1"
+    },
+    {
+        "id": 210,
+        "raw": "[name=\"퍼퓨머\"]  어머, 직설적인 게 항상 좋은 것만은 아니야.",
+        "type": "dialog",
+        "speaker": "퍼퓨머",
+        "content": "어머, 직설적인 게 항상 좋은 것만은 아니야."
+    },
+    {
+        "id": 211,
+        "raw": "[name=\"퍼퓨머\"]  개인 프라이버시는 지켜줘야지. 하지만 걱정 마. 굼에게 필요한 건 위로가 아니라 시간이니까.",
+        "type": "dialog",
+        "speaker": "퍼퓨머",
+        "content": "개인 프라이버시는 지켜줘야지. 하지만 걱정 마. 굼에게 필요한 건 위로가 아니라 시간이니까."
+    },
+    {
+        "id": 212,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 213,
+        "raw": "[Character(name=\"char_181_flower_1\")]",
+        "type": "character",
+        "name": "char_181_flower_1"
+    },
+    {
+        "id": 214,
+        "raw": "[name=\"퍼퓨머\"]  신경 쓰여? 하하, 박사 군도 오퍼레이터들을 걱정하고 있구나.",
+        "type": "dialog",
+        "speaker": "퍼퓨머",
+        "content": "신경 쓰여? 하하, 박사 군도 오퍼레이터들을 걱정하고 있구나."
+    },
+    {
+        "id": 215,
+        "raw": "[name=\"퍼퓨머\"]  하지만 걱정 마. 정말 중요한 일이었다면, 진작에 알려줬을 테니까.",
+        "type": "dialog",
+        "speaker": "퍼퓨머",
+        "content": "하지만 걱정 마. 정말 중요한 일이었다면, 진작에 알려줬을 테니까."
+    },
+    {
+        "id": 216,
+        "raw": "[name=\"퍼퓨머\"]  모두 자기만의 비밀이 있는 법이잖아, 안 그래?",
+        "type": "dialog",
+        "speaker": "퍼퓨머",
+        "content": "모두 자기만의 비밀이 있는 법이잖아, 안 그래?"
+    },
+    {
+        "id": 217,
+        "raw": "[Predicate(references=\"3\")]",
+        "type": "predicate",
+        "references": "3"
+    },
+    {
+        "id": 218,
+        "raw": "[Character(name=\"char_181_flower_1\")]",
+        "type": "character",
+        "name": "char_181_flower_1"
+    },
+    {
+        "id": 219,
+        "raw": "[name=\"퍼퓨머\"]  너무 잘난 척하는 거 아니야? 자기가 모두를 돌봐야 한다는 건 나쁜 생각이라고.",
+        "type": "dialog",
+        "speaker": "퍼퓨머",
+        "content": "너무 잘난 척하는 거 아니야? 자기가 모두를 돌봐야 한다는 건 나쁜 생각이라고."
+    },
+    {
+        "id": 220,
+        "raw": "[name=\"퍼퓨머\"]  오퍼레이터들도 서로를 보살펴줄 수 있으니까.",
+        "type": "dialog",
+        "speaker": "퍼퓨머",
+        "content": "오퍼레이터들도 서로를 보살펴줄 수 있으니까."
+    },
+    {
+        "id": 221,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 222,
+        "raw": "[Character(name=\"char_181_flower_1\")]",
+        "type": "character",
+        "name": "char_181_flower_1"
+    },
+    {
+        "id": 223,
+        "raw": "[name=\"퍼퓨머\"]  그러면, 먼저 사무실로 돌아가 볼게.",
+        "type": "dialog",
+        "speaker": "퍼퓨머",
+        "content": "그러면, 먼저 사무실로 돌아가 볼게."
+    },
+    {
+        "id": 224,
+        "raw": "[name=\"퍼퓨머\"]  피곤하면 언제든지 찾아오라고.",
+        "type": "dialog",
+        "speaker": "퍼퓨머",
+        "content": "피곤하면 언제든지 찾아오라고."
+    },
+    {
+        "id": 225,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 226,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 227,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3"
+    },
+    {
+        "id": 228,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 229,
+        "raw": "[Character(name=\"char_195_glassb_2\",fadetime=1,block=true)]",
+        "type": "character",
+        "name": "char_195_glassb_2",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 230,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 231,
+        "raw": "[name=\"이스티나\"]  박사님, 안녕하세요.",
+        "type": "dialog",
+        "speaker": "이스티나",
+        "content": "박사님, 안녕하세요."
+    },
+    {
+        "id": 232,
+        "raw": "[Decision(options=\"안녕, 이스티나.;……;이스티나, 오늘 식사는 어때?\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "안녕, 이스티나.;……;이스티나, 오늘 식사는 어때?",
+        "values": "1;2;3"
+    },
+    {
+        "id": 233,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 234,
+        "raw": "[Character(name=\"char_195_glassb_2\")]",
+        "type": "character",
+        "name": "char_195_glassb_2"
+    },
+    {
+        "id": 235,
+        "raw": "[name=\"이스티나\"]  식당에서 박사님을 만나는 건 처음이네요.",
+        "type": "dialog",
+        "speaker": "이스티나",
+        "content": "식당에서 박사님을 만나는 건 처음이네요."
+    },
+    {
+        "id": 236,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 237,
+        "raw": "[Character(name=\"char_195_glassb_2\")]",
+        "type": "character",
+        "name": "char_195_glassb_2"
+    },
+    {
+        "id": 238,
+        "raw": "[name=\"이스티나\"]  박사님. 뭔가 고민이 있다면, 식당 문 앞에서 생각하는 건 참아 달라 말씀드리고 싶어요.",
+        "type": "dialog",
+        "speaker": "이스티나",
+        "content": "박사님. 뭔가 고민이 있다면, 식당 문 앞에서 생각하는 건 참아 달라 말씀드리고 싶어요."
+    },
+    {
+        "id": 239,
+        "raw": "[Predicate(references=\"3\")]",
+        "type": "predicate",
+        "references": "3"
+    },
+    {
+        "id": 240,
+        "raw": "[Character(name=\"char_195_glassb_2#2\")]",
+        "type": "character",
+        "name": "char_195_glassb_2#2"
+    },
+    {
+        "id": 241,
+        "raw": "[name=\"이스티나\"]  음…… 밥은 좀 딱딱하고, 수프는 달았지만 나머지는 괜찮았습니다.",
+        "type": "dialog",
+        "speaker": "이스티나",
+        "content": "음…… 밥은 좀 딱딱하고, 수프는 달았지만 나머지는 괜찮았습니다."
+    },
+    {
+        "id": 242,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 243,
+        "raw": "[Character(name=\"char_195_glassb_2\")]",
+        "type": "character",
+        "name": "char_195_glassb_2"
+    },
+    {
+        "id": 244,
+        "raw": "[name=\"이스티나\"]  그러면 박사님, 용건이 없으시다면 먼저 가볼게요.",
+        "type": "dialog",
+        "speaker": "이스티나",
+        "content": "그러면 박사님, 용건이 없으시다면 먼저 가볼게요."
+    },
+    {
+        "id": 245,
+        "raw": "[name=\"이스티나\"]  오후에 또 수업이 있어서요.",
+        "type": "dialog",
+        "speaker": "이스티나",
+        "content": "오후에 또 수업이 있어서요."
+    },
+    {
+        "id": 246,
+        "raw": "[Decision(options=\"수업?\", values=\"1\")]",
+        "type": "decision",
+        "options": "수업?",
+        "values": "1"
+    },
+    {
+        "id": 247,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 248,
+        "raw": "[Character(name=\"char_195_glassb_2\")]",
+        "type": "character",
+        "name": "char_195_glassb_2"
+    },
+    {
+        "id": 249,
+        "raw": "[name=\"이스티나\"]  네. 하이파티아 선생님의 역사 수업이요.",
+        "type": "dialog",
+        "speaker": "이스티나",
+        "content": "네. 하이파티아 선생님의 역사 수업이요."
+    },
+    {
+        "id": 250,
+        "raw": "[name=\"이스티나\"]  수업을 들어보니까, 하이파티아 선생님의 역사 수업이 많은 도움이 되어서요.",
+        "type": "dialog",
+        "speaker": "이스티나",
+        "content": "수업을 들어보니까, 하이파티아 선생님의 역사 수업이 많은 도움이 되어서요."
+    },
+    {
+        "id": 251,
+        "raw": "[Decision(options=\"나도 좀 도와줄까?;……;역사라면 나도 잘 알아!\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "나도 좀 도와줄까?;……;역사라면 나도 잘 알아!",
+        "values": "1;2;3"
+    },
+    {
+        "id": 252,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 253,
+        "raw": "[Character(name=\"char_195_glassb_2\")]",
+        "type": "character",
+        "name": "char_195_glassb_2"
+    },
+    {
+        "id": 254,
+        "raw": "[name=\"이스티나\"]  음, 아니요.",
+        "type": "dialog",
+        "speaker": "이스티나",
+        "content": "음, 아니요."
+    },
+    {
+        "id": 255,
+        "raw": "[name=\"이스티나\"]  아, 거절하는 것은 아닙니다만, 설명하기가 어렵네요. 저도 확실한 게 아니라서……",
+        "type": "dialog",
+        "speaker": "이스티나",
+        "content": "아, 거절하는 것은 아닙니다만, 설명하기가 어렵네요. 저도 확실한 게 아니라서……"
+    },
+    {
+        "id": 256,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 257,
+        "raw": "[Character(name=\"char_195_glassb_2\")]",
+        "type": "character",
+        "name": "char_195_glassb_2"
+    },
+    {
+        "id": 258,
+        "raw": "[name=\"이스티나\"]  아무튼, 선생님의 수업은 재미있으니 박사님도 시간이 된다면 꼭 한번 들어보세요.",
+        "type": "dialog",
+        "speaker": "이스티나",
+        "content": "아무튼, 선생님의 수업은 재미있으니 박사님도 시간이 된다면 꼭 한번 들어보세요."
+    },
+    {
+        "id": 259,
+        "raw": "[Predicate(references=\"3\")]",
+        "type": "predicate",
+        "references": "3"
+    },
+    {
+        "id": 260,
+        "raw": "[Character(name=\"char_195_glassb_2\")]",
+        "type": "character",
+        "name": "char_195_glassb_2"
+    },
+    {
+        "id": 261,
+        "raw": "[name=\"이스티나\"]  음… 제가 제대로 기억하고 있다면, 박사님께선 기억을 잃었다고 하지 않았나요?",
+        "type": "dialog",
+        "speaker": "이스티나",
+        "content": "음… 제가 제대로 기억하고 있다면, 박사님께선 기억을 잃었다고 하지 않았나요?"
+    },
+    {
+        "id": 262,
+        "raw": "[name=\"이스티나\"]  그래도, 신경 써주셔서 감사합니다.",
+        "type": "dialog",
+        "speaker": "이스티나",
+        "content": "그래도, 신경 써주셔서 감사합니다."
+    },
+    {
+        "id": 263,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 264,
+        "raw": "[Character(name=\"char_195_glassb_2\")]",
+        "type": "character",
+        "name": "char_195_glassb_2"
+    },
+    {
+        "id": 265,
+        "raw": "[name=\"이스티나\"]  저에게는 인도자가 필요하다고 할 수밖에 없군요.",
+        "type": "dialog",
+        "speaker": "이스티나",
+        "content": "저에게는 인도자가 필요하다고 할 수밖에 없군요."
+    },
+    {
+        "id": 266,
+        "raw": "[name=\"이스티나\"]  사실 저도 역사 수업이 정말로 저에게 도움이 되는지는 모르겠어요.",
+        "type": "dialog",
+        "speaker": "이스티나",
+        "content": "사실 저도 역사 수업이 정말로 저에게 도움이 되는지는 모르겠어요."
+    },
+    {
+        "id": 267,
+        "raw": "[name=\"이스티나\"]  하지만, 선조들의 경험과 생각이 어쩌면 저에게 영감을 줄 수도 있겠죠.",
+        "type": "dialog",
+        "speaker": "이스티나",
+        "content": "하지만, 선조들의 경험과 생각이 어쩌면 저에게 영감을 줄 수도 있겠죠."
+    },
+    {
+        "id": 268,
+        "raw": "[name=\"이스티나\"]  그럼, 저는 수업을 들어야 하니 이만.",
+        "type": "dialog",
+        "speaker": "이스티나",
+        "content": "그럼, 저는 수업을 들어야 하니 이만."
+    },
+    {
+        "id": 269,
+        "raw": "[Decision(options=\"나탈리야가 어디 있는지 알아?\", values=\"1\")]",
+        "type": "decision",
+        "options": "나탈리야가 어디 있는지 알아?",
+        "values": "1"
+    },
+    {
+        "id": 270,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 271,
+        "raw": "[Character(name=\"char_195_glassb_2\")]",
+        "type": "character",
+        "name": "char_195_glassb_2"
+    },
+    {
+        "id": 272,
+        "raw": "[name=\"이스티나\"]  나탈리야를…… 찾고 계신가요?",
+        "type": "dialog",
+        "speaker": "이스티나",
+        "content": "나탈리야를…… 찾고 계신가요?"
+    },
+    {
+        "id": 273,
+        "raw": "[name=\"이스티나\"]  나탈리야도 전선에 나가고 싶어 한다고 굼이 그러더군요. 신청이 통과되었는지는 모르겠지만, 아마 준비를 하고 있을 것 같습니다만.",
+        "type": "dialog",
+        "speaker": "이스티나",
+        "content": "나탈리야도 전선에 나가고 싶어 한다고 굼이 그러더군요. 신청이 통과되었는지는 모르겠지만, 아마 준비를 하고 있을 것 같습니다만."
+    },
+    {
+        "id": 274,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 275,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 276,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 277,
+        "raw": "[Background(image=\"bg_trainingcom\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_trainingcom.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 278,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 279,
+        "raw": "[Character(name=\"char_194_rosali_1\",name2=\"char_197_poca_1\",focus=1)]",
+        "type": "character",
+        "name": "char_194_rosali_1",
+        "name2": "char_197_poca_1",
+        "focus": 1
+    },
+    {
+        "id": 280,
+        "raw": "[name=\"레토\"]  나탈리야, 진짜 못 맞춘다.",
+        "type": "dialog",
+        "speaker": "레토",
+        "content": "나탈리야, 진짜 못 맞춘다."
+    },
+    {
+        "id": 281,
+        "raw": "[Character(name=\"char_194_rosali_1\",name2=\"char_197_poca_1\",focus=2)]",
+        "type": "character",
+        "name": "char_194_rosali_1",
+        "name2": "char_197_poca_1",
+        "focus": 2
+    },
+    {
+        "id": 282,
+        "raw": "[name=\"나탈리야\"]  로잘린드, 잘난 척하지 마. 꼭 맞추고 말 거니까.",
+        "type": "dialog",
+        "speaker": "나탈리야",
+        "content": "로잘린드, 잘난 척하지 마. 꼭 맞추고 말 거니까."
+    },
+    {
+        "id": 283,
+        "raw": "[Character(name=\"char_194_rosali_1\",name2=\"char_197_poca_1\",focus=1)]",
+        "type": "character",
+        "name": "char_194_rosali_1",
+        "name2": "char_197_poca_1",
+        "focus": 1
+    },
+    {
+        "id": 284,
+        "raw": "[name=\"레토\"]  \"꼭 맞추고 말 거니까\"~ 못 맞출걸? 헤헹~",
+        "type": "dialog",
+        "speaker": "레토",
+        "content": "\"꼭 맞추고 말 거니까\"~ 못 맞출걸? 헤헹~"
+    },
+    {
+        "id": 285,
+        "raw": "[name=\"레토\"]  그리고, 이젠 레토라고 불러야지! 오퍼레이터 로사~",
+        "type": "dialog",
+        "speaker": "레토",
+        "content": "그리고, 이젠 레토라고 불러야지! 오퍼레이터 로사~"
+    },
+    {
+        "id": 286,
+        "raw": "[Character(name=\"char_194_rosali_1\",name2=\"char_197_poca_1\",focus=2)]",
+        "type": "character",
+        "name": "char_194_rosali_1",
+        "name2": "char_197_poca_1",
+        "focus": 2
+    },
+    {
+        "id": 287,
+        "raw": "[name=\"나탈리야\"]  좋아, 오퍼레이터 레토. 두고 봐.",
+        "type": "dialog",
+        "speaker": "나탈리야",
+        "content": "좋아, 오퍼레이터 레토. 두고 봐."
+    },
+    {
+        "id": 288,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 289,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 290,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 291,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 292,
+        "raw": "[Character(name=\"char_194_rosali_1\",name2=\"char_197_poca_1\",focus=1)]",
+        "type": "character",
+        "name": "char_194_rosali_1",
+        "name2": "char_197_poca_1",
+        "focus": 1
+    },
+    {
+        "id": 293,
+        "raw": "[name=\"레토\"]  그러게 누가 그렇게 큰 걸 고르랬냐고.",
+        "type": "dialog",
+        "speaker": "레토",
+        "content": "그러게 누가 그렇게 큰 걸 고르랬냐고."
+    },
+    {
+        "id": 294,
+        "raw": "[name=\"레토\"]  체르노보그에서 네가 찾았던 무기지? 그거 버리고 그냥 다른 걸 쓰라니까?",
+        "type": "dialog",
+        "speaker": "레토",
+        "content": "체르노보그에서 네가 찾았던 무기지? 그거 버리고 그냥 다른 걸 쓰라니까?"
+    },
+    {
+        "id": 295,
+        "raw": "[Character(name=\"char_194_rosali_1\",name2=\"char_197_poca_1\",focus=2)]",
+        "type": "character",
+        "name": "char_194_rosali_1",
+        "name2": "char_197_poca_1",
+        "focus": 2
+    },
+    {
+        "id": 296,
+        "raw": "[name=\"나탈리야\"]  흠, 후…… 나름 의미가 있는 무기라서.",
+        "type": "dialog",
+        "speaker": "나탈리야",
+        "content": "흠, 후…… 나름 의미가 있는 무기라서."
+    },
+    {
+        "id": 297,
+        "raw": "[Character(name=\"char_194_rosali_1\",name2=\"char_197_poca_1\",focus=1)]",
+        "type": "character",
+        "name": "char_194_rosali_1",
+        "name2": "char_197_poca_1",
+        "focus": 1
+    },
+    {
+        "id": 298,
+        "raw": "[name=\"레토\"]  그래? 그럼 열심히 노력해야겠네.",
+        "type": "dialog",
+        "speaker": "레토",
+        "content": "그래? 그럼 열심히 노력해야겠네."
+    },
+    {
+        "id": 299,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 300,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 301,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 302,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 303,
+        "raw": "[Character(name=\"char_194_rosali_1\",name2=\"char_197_poca_1\",focus=1)]",
+        "type": "character",
+        "name": "char_194_rosali_1",
+        "name2": "char_197_poca_1",
+        "focus": 1
+    },
+    {
+        "id": 304,
+        "raw": "[name=\"레토\"]  나탈리야, 이제 좀 쉬는 게 어때? 더는 움직이지도 못할 것 같은데.",
+        "type": "dialog",
+        "speaker": "레토",
+        "content": "나탈리야, 이제 좀 쉬는 게 어때? 더는 움직이지도 못할 것 같은데."
+    },
+    {
+        "id": 305,
+        "raw": "[Character(name=\"char_194_rosali_1\",name2=\"char_197_poca_1#2\",focus=2)]",
+        "type": "character",
+        "name": "char_194_rosali_1",
+        "name2": "char_197_poca_1#2",
+        "focus": 2
+    },
+    {
+        "id": 306,
+        "raw": "[name=\"나탈리야\"]  아직 할 수 있어……",
+        "type": "dialog",
+        "speaker": "나탈리야",
+        "content": "아직 할 수 있어……"
+    },
+    {
+        "id": 307,
+        "raw": "[Character(name=\"char_197_poca_1#2\")]",
+        "type": "character",
+        "name": "char_197_poca_1#2"
+    },
+    {
+        "id": 308,
+        "raw": "[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "xstrength": "10,",
+        "ystrength": "12,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 309,
+        "raw": "[name=\"나탈리야\"]  아얏!",
+        "type": "dialog",
+        "speaker": "나탈리야",
+        "content": "아얏!"
+    },
+    {
+        "id": 310,
+        "raw": "[Character(name=\"char_130_doberm_ex\")]",
+        "type": "character",
+        "name": "char_130_doberm_ex"
+    },
+    {
+        "id": 311,
+        "raw": "[name=\"도베르만\"]  지구력이 부족하군, 나탈리야.",
+        "type": "dialog",
+        "speaker": "도베르만",
+        "content": "지구력이 부족하군, 나탈리야."
+    },
+    {
+        "id": 312,
+        "raw": "[name=\"도베르만\"]  우르수스인치고 기본기는 있지만, 전투에 나가려면 아직 멀었다.",
+        "type": "dialog",
+        "speaker": "도베르만",
+        "content": "우르수스인치고 기본기는 있지만, 전투에 나가려면 아직 멀었다."
+    },
+    {
+        "id": 313,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 314,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 315,
+        "raw": "[Character(name=\"char_197_poca_1#2\",fadetime=1,block=true)]",
+        "type": "character",
+        "name": "char_197_poca_1#2",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 316,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 317,
+        "raw": "[name=\"나탈리야\"]  큭…… 후우…… 죄송합니다. 열심히 할게요.",
+        "type": "dialog",
+        "speaker": "나탈리야",
+        "content": "큭…… 후우…… 죄송합니다. 열심히 할게요."
+    },
+    {
+        "id": 318,
+        "raw": "[Character(name=\"char_130_doberm_ex\",name2=\"char_197_poca_1#2\",focus=1)]",
+        "type": "character",
+        "name": "char_130_doberm_ex",
+        "name2": "char_197_poca_1#2",
+        "focus": 1
+    },
+    {
+        "id": 319,
+        "raw": "[name=\"도베르만\"]  하지만 생각보다 의지력은 강하군. 좋다.",
+        "type": "dialog",
+        "speaker": "도베르만",
+        "content": "하지만 생각보다 의지력은 강하군. 좋다."
+    },
+    {
+        "id": 320,
+        "raw": "[name=\"도베르만\"]  이 훈련을 버틸 수 있다면, 오퍼레이터는 못되더라도 분명 도움이 될 거다.",
+        "type": "dialog",
+        "speaker": "도베르만",
+        "content": "이 훈련을 버틸 수 있다면, 오퍼레이터는 못되더라도 분명 도움이 될 거다."
+    },
+    {
+        "id": 321,
+        "raw": "[Character(name=\"char_130_doberm_ex\",name2=\"char_197_poca_1\",focus=2)]",
+        "type": "character",
+        "name": "char_130_doberm_ex",
+        "name2": "char_197_poca_1",
+        "focus": 2
+    },
+    {
+        "id": 322,
+        "raw": "[name=\"나탈리야\"]  칭찬 감사합니다.",
+        "type": "dialog",
+        "speaker": "나탈리야",
+        "content": "칭찬 감사합니다."
+    },
+    {
+        "id": 323,
+        "raw": "[Character(name=\"char_130_doberm_ex\",name2=\"char_197_poca_1\",focus=1)]",
+        "type": "character",
+        "name": "char_130_doberm_ex",
+        "name2": "char_197_poca_1",
+        "focus": 1
+    },
+    {
+        "id": 324,
+        "raw": "[name=\"도베르만\"]  음…… 응?",
+        "type": "dialog",
+        "speaker": "도베르만",
+        "content": "음…… 응?"
+    },
+    {
+        "id": 325,
+        "raw": "[name=\"도베르만\"]  일단 좀 쉬도록 해.",
+        "type": "dialog",
+        "speaker": "도베르만",
+        "content": "일단 좀 쉬도록 해."
+    },
+    {
+        "id": 326,
+        "raw": "[Character(name=\"char_130_doberm_ex\",name2=\"char_197_poca_1\",focus=2)]",
+        "type": "character",
+        "name": "char_130_doberm_ex",
+        "name2": "char_197_poca_1",
+        "focus": 2
+    },
+    {
+        "id": 327,
+        "raw": "[name=\"나탈리야\"]  네!",
+        "type": "dialog",
+        "speaker": "나탈리야",
+        "content": "네!"
+    },
+    {
+        "id": 328,
+        "raw": "[Character(name=\"char_130_doberm_ex\")]",
+        "type": "character",
+        "name": "char_130_doberm_ex"
+    },
+    {
+        "id": 329,
+        "raw": "[name=\"도베르만\"]  레토, 너도 네 훈련 하러 가봐라.",
+        "type": "dialog",
+        "speaker": "도베르만",
+        "content": "레토, 너도 네 훈련 하러 가봐라."
+    },
+    {
+        "id": 330,
+        "raw": "[Character(name=\"char_130_doberm_ex\",name2=\"char_194_rosali_1\",focus=2)]",
+        "type": "character",
+        "name": "char_130_doberm_ex",
+        "name2": "char_194_rosali_1",
+        "focus": 2
+    },
+    {
+        "id": 331,
+        "raw": "[name=\"레토\"]  네~",
+        "type": "dialog",
+        "speaker": "레토",
+        "content": "네~"
+    },
+    {
+        "id": 332,
+        "raw": "[Character(name=\"char_130_doberm_ex\")]",
+        "type": "character",
+        "name": "char_130_doberm_ex"
+    },
+    {
+        "id": 333,
+        "raw": "[name=\"도베르만\"]  그레이스, 여기 잠깐 보고 있어줘.",
+        "type": "dialog",
+        "speaker": "도베르만",
+        "content": "그레이스, 여기 잠깐 보고 있어줘."
+    },
+    {
+        "id": 334,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 335,
+        "raw": "[name=\"그레이스 교관\"]  예썰!",
+        "type": "dialog",
+        "speaker": "그레이스 교관",
+        "content": "예썰!"
+    },
+    {
+        "id": 336,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 337,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 338,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 339,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 340,
+        "raw": "[Character(name=\"char_130_doberm_ex\")]",
+        "type": "character",
+        "name": "char_130_doberm_ex"
+    },
+    {
+        "id": 341,
+        "raw": "[name=\"도베르만\"]  박사, 점심시간에는 푹 쉬어야지. 여기는 네가 올 만한 곳이 아닌데.",
+        "type": "dialog",
+        "speaker": "도베르만",
+        "content": "박사, 점심시간에는 푹 쉬어야지. 여기는 네가 올 만한 곳이 아닌데."
+    },
+    {
+        "id": 342,
+        "raw": "[Decision(options=\"안녕, 도베르만 교관.;……;오면 안 되는 곳인가?\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "안녕, 도베르만 교관.;……;오면 안 되는 곳인가?",
+        "values": "1;2;3"
+    },
+    {
+        "id": 343,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 344,
+        "raw": "[Character(name=\"char_130_doberm_ex\")]",
+        "type": "character",
+        "name": "char_130_doberm_ex"
+    },
+    {
+        "id": 345,
+        "raw": "[name=\"도베르만\"]  그래, 박사.",
+        "type": "dialog",
+        "speaker": "도베르만",
+        "content": "그래, 박사."
+    },
+    {
+        "id": 346,
+        "raw": "[name=\"도베르만\"]  단지 나한테 인사를 하려고 온 거라면, 돌아가도록 해라.",
+        "type": "dialog",
+        "speaker": "도베르만",
+        "content": "단지 나한테 인사를 하려고 온 거라면, 돌아가도록 해라."
+    },
+    {
+        "id": 347,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 348,
+        "raw": "[Character(name=\"char_130_doberm_ex\")]",
+        "type": "character",
+        "name": "char_130_doberm_ex"
+    },
+    {
+        "id": 349,
+        "raw": "[name=\"도베르만\"]  조금은 리더다운 기개가 느껴지는군, 나쁜 일이라고 할 순 없겠지만……",
+        "type": "dialog",
+        "speaker": "도베르만",
+        "content": "조금은 리더다운 기개가 느껴지는군, 나쁜 일이라고 할 순 없겠지만……"
+    },
+    {
+        "id": 350,
+        "raw": "[Predicate(references=\"3\")]",
+        "type": "predicate",
+        "references": "3"
+    },
+    {
+        "id": 351,
+        "raw": "[Character(name=\"char_130_doberm_ex\")]",
+        "type": "character",
+        "name": "char_130_doberm_ex"
+    },
+    {
+        "id": 352,
+        "raw": "[name=\"도베르만\"]  와도 상관은 딱히 없다만, 박사가 여기 오면 내가 시간을 내서 상대해야 하니, 앞으로 이런 일이 자주 있지는 않았으면 좋겠군.",
+        "type": "dialog",
+        "speaker": "도베르만",
+        "content": "와도 상관은 딱히 없다만, 박사가 여기 오면 내가 시간을 내서 상대해야 하니, 앞으로 이런 일이 자주 있지는 않았으면 좋겠군."
+    },
+    {
+        "id": 353,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 354,
+        "raw": "[Character(name=\"char_130_doberm_ex\")]",
+        "type": "character",
+        "name": "char_130_doberm_ex"
+    },
+    {
+        "id": 355,
+        "raw": "[name=\"도베르만\"]  그래도 이번에 온 건, 아미야에게서 지마의 동료 중 하나가 전투원이 되고 싶어 한다는 이야기를 들어서겠지?",
+        "type": "dialog",
+        "speaker": "도베르만",
+        "content": "그래도 이번에 온 건, 아미야에게서 지마의 동료 중 하나가 전투원이 되고 싶어 한다는 이야기를 들어서겠지?"
+    },
+    {
+        "id": 356,
+        "raw": "[name=\"도베르만\"]  그렇게 놀랐다는 표정은 짓지 말아 주겠나?",
+        "type": "dialog",
+        "speaker": "도베르만",
+        "content": "그렇게 놀랐다는 표정은 짓지 말아 주겠나?"
+    },
+    {
+        "id": 357,
+        "raw": "[name=\"도베르만\"]  아미야가 우르수스에서 구한 난민들을 신경 쓰고 있다는 건, 딱히 비밀도 아니니까.",
+        "type": "dialog",
+        "speaker": "도베르만",
+        "content": "아미야가 우르수스에서 구한 난민들을 신경 쓰고 있다는 건, 딱히 비밀도 아니니까."
+    },
+    {
+        "id": 358,
+        "raw": "[name=\"도베르만\"]  기억하고 있겠지? 지마, 굼, 이스티나, 레토……",
+        "type": "dialog",
+        "speaker": "도베르만",
+        "content": "기억하고 있겠지? 지마, 굼, 이스티나, 레토……"
+    },
+    {
+        "id": 359,
+        "raw": "[name=\"도베르만\"]  그래. 레토는 예외로 두지. 전투 쪽으론 별로 걱정할 필요가 없으니.",
+        "type": "dialog",
+        "speaker": "도베르만",
+        "content": "그래. 레토는 예외로 두지. 전투 쪽으론 별로 걱정할 필요가 없으니."
+    },
+    {
+        "id": 360,
+        "raw": "[name=\"도베르만\"]  여하튼, 이 네 사람이 신청했을 때도 아미야는 굉장히 반대했었어. 대체 왜 중간에 생각을 바꾼 건지는 잘 모르겠지만.",
+        "type": "dialog",
+        "speaker": "도베르만",
+        "content": "여하튼, 이 네 사람이 신청했을 때도 아미야는 굉장히 반대했었어. 대체 왜 중간에 생각을 바꾼 건지는 잘 모르겠지만."
+    },
+    {
+        "id": 361,
+        "raw": "[name=\"도베르만\"]  그런데 하나가 더 나타났으니, 신경을 쓰는 것도 이상하지 않지……",
+        "type": "dialog",
+        "speaker": "도베르만",
+        "content": "그런데 하나가 더 나타났으니, 신경을 쓰는 것도 이상하지 않지……"
+    },
+    {
+        "id": 362,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 363,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 364,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 365,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 366,
+        "raw": "[Character(name=\"char_194_rosali_1\",name2=\"char_197_poca_1\",focus=2)]",
+        "type": "character",
+        "name": "char_194_rosali_1",
+        "name2": "char_197_poca_1",
+        "focus": 2
+    },
+    {
+        "id": 367,
+        "raw": "[name=\"나탈리야\"]  후우…… 충분히 쉰 것 같네. 조금만 더 도와줘, 로잘린드.",
+        "type": "dialog",
+        "speaker": "나탈리야",
+        "content": "후우…… 충분히 쉰 것 같네. 조금만 더 도와줘, 로잘린드."
+    },
+    {
+        "id": 368,
+        "raw": "[Character(name=\"char_194_rosali_1\",name2=\"char_197_poca_1\",focus=1)]",
+        "type": "character",
+        "name": "char_194_rosali_1",
+        "name2": "char_197_poca_1",
+        "focus": 1
+    },
+    {
+        "id": 369,
+        "raw": "[name=\"레토\"]  어휴, 너도 참 대단하다.",
+        "type": "dialog",
+        "speaker": "레토",
+        "content": "어휴, 너도 참 대단하다."
+    },
+    {
+        "id": 370,
+        "raw": "[Character(name=\"char_194_rosali_1\",name2=\"char_197_poca_1\",focus=2)]",
+        "type": "character",
+        "name": "char_194_rosali_1",
+        "name2": "char_197_poca_1",
+        "focus": 2
+    },
+    {
+        "id": 371,
+        "raw": "[name=\"나탈리야\"]  어머, 오퍼레이터가 되겠다는 내 결심을 얕보지 말아 줄래?",
+        "type": "dialog",
+        "speaker": "나탈리야",
+        "content": "어머, 오퍼레이터가 되겠다는 내 결심을 얕보지 말아 줄래?"
+    },
+    {
+        "id": 372,
+        "raw": "[Character(name=\"char_194_rosali_1\",name2=\"char_197_poca_1\",focus=1)]",
+        "type": "character",
+        "name": "char_194_rosali_1",
+        "name2": "char_197_poca_1",
+        "focus": 1
+    },
+    {
+        "id": 373,
+        "raw": "[name=\"레토\"]  그래, 그래.",
+        "type": "dialog",
+        "speaker": "레토",
+        "content": "그래, 그래."
+    },
+    {
+        "id": 374,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 375,
+        "raw": "[name=\"그레이스 교관\"]  나탈리야, 좀 쉬어라. 단련에서 가장 중요한 건 회복이야. 그렇게 무식하게 혹사하다간 몸이 견디지 못할 거다.",
+        "type": "dialog",
+        "speaker": "그레이스 교관",
+        "content": "나탈리야, 좀 쉬어라. 단련에서 가장 중요한 건 회복이야. 그렇게 무식하게 혹사하다간 몸이 견디지 못할 거다."
+    },
+    {
+        "id": 376,
+        "raw": "[Character(name=\"char_197_poca_1\")]",
+        "type": "character",
+        "name": "char_197_poca_1"
+    },
+    {
+        "id": 377,
+        "raw": "[name=\"나탈리야\"]  감사합니다, 그레이스 교관님. 하지만 아직 더 할 수 있는데요……",
+        "type": "dialog",
+        "speaker": "나탈리야",
+        "content": "감사합니다, 그레이스 교관님. 하지만 아직 더 할 수 있는데요……"
+    },
+    {
+        "id": 378,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 379,
+        "raw": "[name=\"그레이스 교관\"]  아, 도베르만 교관님을 무서워할 필요는 없어. 저렇게 무서워 보여도 실은……",
+        "type": "dialog",
+        "speaker": "그레이스 교관",
+        "content": "아, 도베르만 교관님을 무서워할 필요는 없어. 저렇게 무서워 보여도 실은……"
+    },
+    {
+        "id": 380,
+        "raw": "[Character(name=\"char_130_doberm_ex\")]",
+        "type": "character",
+        "name": "char_130_doberm_ex"
+    },
+    {
+        "id": 381,
+        "raw": "[name=\"도베르만\"]  그레이스, 다 들린다.",
+        "type": "dialog",
+        "speaker": "도베르만",
+        "content": "그레이스, 다 들린다."
+    },
+    {
+        "id": 382,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 383,
+        "raw": "[name=\"그레이스 교관\"]  윽…… 아, 아무튼 알아들었지?",
+        "type": "dialog",
+        "speaker": "그레이스 교관",
+        "content": "윽…… 아, 아무튼 알아들었지?"
+    },
+    {
+        "id": 384,
+        "raw": "[Character(name=\"char_197_poca_1\")]",
+        "type": "character",
+        "name": "char_197_poca_1"
+    },
+    {
+        "id": 385,
+        "raw": "[name=\"나탈리야\"]  네, 걱정 마세요. 정 안되면 쉬러 갈게요.",
+        "type": "dialog",
+        "speaker": "나탈리야",
+        "content": "네, 걱정 마세요. 정 안되면 쉬러 갈게요."
+    },
+    {
+        "id": 386,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 387,
+        "raw": "[name=\"그레이스 교관\"]  그래……",
+        "type": "dialog",
+        "speaker": "그레이스 교관",
+        "content": "그래……"
+    },
+    {
+        "id": 388,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 389,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 390,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 391,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 392,
+        "raw": "[Character(name=\"char_130_doberm_ex\")]",
+        "type": "character",
+        "name": "char_130_doberm_ex"
+    },
+    {
+        "id": 393,
+        "raw": "[name=\"도베르만\"]  어떤 것 같나?",
+        "type": "dialog",
+        "speaker": "도베르만",
+        "content": "어떤 것 같나?"
+    },
+    {
+        "id": 394,
+        "raw": "[Decision(options=\"확고해 보이네.;……;필사적이네.\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "확고해 보이네.;……;필사적이네.",
+        "values": "1;2;3"
+    },
+    {
+        "id": 395,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 396,
+        "raw": "[Character(name=\"char_130_doberm_ex\")]",
+        "type": "character",
+        "name": "char_130_doberm_ex"
+    },
+    {
+        "id": 397,
+        "raw": "[name=\"도베르만\"]  확고해 보인다고? 난 그렇게 생각 안 하는데.",
+        "type": "dialog",
+        "speaker": "도베르만",
+        "content": "확고해 보인다고? 난 그렇게 생각 안 하는데."
+    },
+    {
+        "id": 398,
+        "raw": "[name=\"도베르만\"]  저런 사람들은 이 악물고 포기하면 안 된다 생각하지 않는 것뿐이거든.",
+        "type": "dialog",
+        "speaker": "도베르만",
+        "content": "저런 사람들은 이 악물고 포기하면 안 된다 생각하지 않는 것뿐이거든."
+    },
+    {
+        "id": 399,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 400,
+        "raw": "[Character(name=\"char_130_doberm_ex\")]",
+        "type": "character",
+        "name": "char_130_doberm_ex"
+    },
+    {
+        "id": 401,
+        "raw": "[name=\"도베르만\"]  어떤 세 녀석이 생각나지 않아?",
+        "type": "dialog",
+        "speaker": "도베르만",
+        "content": "어떤 세 녀석이 생각나지 않아?"
+    },
+    {
+        "id": 402,
+        "raw": "[name=\"도베르만\"]  어디서 난 용기인지는 모르겠지만, 저 나이대 애들은 원래 이 악물고 어른들의 사회에 도전하려 드는 법이니까.",
+        "type": "dialog",
+        "speaker": "도베르만",
+        "content": "어디서 난 용기인지는 모르겠지만, 저 나이대 애들은 원래 이 악물고 어른들의 사회에 도전하려 드는 법이니까."
+    },
+    {
+        "id": 403,
+        "raw": "[name=\"도베르만\"]  그런데 이렇게 보니까, 아무래도 정말로 각오한 모양이군.",
+        "type": "dialog",
+        "speaker": "도베르만",
+        "content": "그런데 이렇게 보니까, 아무래도 정말로 각오한 모양이군."
+    },
+    {
+        "id": 404,
+        "raw": "[Predicate(references=\"3\")]",
+        "type": "predicate",
+        "references": "3"
+    },
+    {
+        "id": 405,
+        "raw": "[Character(name=\"char_130_doberm_ex\")]",
+        "type": "character",
+        "name": "char_130_doberm_ex"
+    },
+    {
+        "id": 406,
+        "raw": "[name=\"도베르만\"]  확실히 필사적이야. 솔직히 말하면, 내 예상 밖이다.",
+        "type": "dialog",
+        "speaker": "도베르만",
+        "content": "확실히 필사적이야. 솔직히 말하면, 내 예상 밖이다."
+    },
+    {
+        "id": 407,
+        "raw": "[name=\"도베르만\"]  필사적으로 자신을 단련하는 귀족 아가씨라…… 훗.",
+        "type": "dialog",
+        "speaker": "도베르만",
+        "content": "필사적으로 자신을 단련하는 귀족 아가씨라…… 훗."
+    },
+    {
+        "id": 408,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 409,
+        "raw": "[Character(name=\"char_130_doberm_ex\")]",
+        "type": "character",
+        "name": "char_130_doberm_ex"
+    },
+    {
+        "id": 410,
+        "raw": "[name=\"도베르만\"]  아미야가 이들을 전쟁터에 내보내고 싶지 않아 하는 심정은 이해한다만,",
+        "type": "dialog",
+        "speaker": "도베르만",
+        "content": "아미야가 이들을 전쟁터에 내보내고 싶지 않아 하는 심정은 이해한다만,"
+    },
+    {
+        "id": 411,
+        "raw": "[name=\"도베르만\"]  박사… 저런 젊은이들을 전쟁터로 내보내고 싶어 하는 사람은 아무도 없어. 나 같은 군인이 존재하는 건, 바로 저런 아이들의 삶을 지키기 위해서라고.",
+        "type": "dialog",
+        "speaker": "도베르만",
+        "content": "박사… 저런 젊은이들을 전쟁터로 내보내고 싶어 하는 사람은 아무도 없어. 나 같은 군인이 존재하는 건, 바로 저런 아이들의 삶을 지키기 위해서라고."
+    },
+    {
+        "id": 412,
+        "raw": "[name=\"도베르만\"]  그런데 그런 내가… 저 아이들을 전쟁터로 내보내는 건, 내 직무유기라고 생각한다.",
+        "type": "dialog",
+        "speaker": "도베르만",
+        "content": "그런데 그런 내가… 저 아이들을 전쟁터로 내보내는 건, 내 직무유기라고 생각한다."
+    },
+    {
+        "id": 413,
+        "raw": "[name=\"도베르만\"]  하지만 난 일찌감치 받아들였지. 현실적으로 내가 모두를 도울 순 없다는 게 사실을 말이다.",
+        "type": "dialog",
+        "speaker": "도베르만",
+        "content": "하지만 난 일찌감치 받아들였지. 현실적으로 내가 모두를 도울 순 없다는 게 사실을 말이다."
+    },
+    {
+        "id": 414,
+        "raw": "[name=\"도베르만\"]  내가 할 수 있는 건, 저들에게 싸우는 법과 자신을 보호하는 법을 가르쳐주고, 최대한 덜 다치게 하는 것뿐이야.",
+        "type": "dialog",
+        "speaker": "도베르만",
+        "content": "내가 할 수 있는 건, 저들에게 싸우는 법과 자신을 보호하는 법을 가르쳐주고, 최대한 덜 다치게 하는 것뿐이야."
+    },
+    {
+        "id": 415,
+        "raw": "[name=\"도베르만\"]  잘 생각해봐, 박사. 너는 저들을 위해 뭘 할 수 있지?",
+        "type": "dialog",
+        "speaker": "도베르만",
+        "content": "잘 생각해봐, 박사. 너는 저들을 위해 뭘 할 수 있지?"
+    },
+    {
+        "id": 416,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 417,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 418,
+        "raw": "[stopmusic(fadetime=3)]",
+        "type": "stop_music",
+        "fadetime": 3
+    },
+    {
+        "id": 419,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 420,
+        "raw": "[Background(image=\"bg_corridor\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_corridor.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 421,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 422,
+        "raw": "[Character(name=\"char_002_amiya_1\",fadetime=1,block=true)]",
+        "type": "character",
+        "name": "char_002_amiya_1",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 423,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 424,
+        "raw": "[name=\"아미야\"]  박사님, 다녀오셨어요?",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "박사님, 다녀오셨어요?"
+    },
+    {
+        "id": 425,
+        "raw": "[name=\"아미야\"]  그럼, 박사님은 어떻게 생각하세요?",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "그럼, 박사님은 어떻게 생각하세요?"
+    },
+    {
+        "id": 426,
+        "raw": "[playMusic(intro=\"$warm_intro\", key=\"$warm_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act9d0d0/m_avg_warm_intro.mp3",
+        "key": "sound_beta_2/music/act9d0d0/m_avg_warm_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 427,
+        "raw": "[Decision(options=\"아미야는 지마 일행에게서 무언가를 보았던 거지?\", values=\"1\")]",
+        "type": "decision",
+        "options": "아미야는 지마 일행에게서 무언가를 보았던 거지?",
+        "values": "1"
+    },
+    {
+        "id": 428,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 429,
+        "raw": "[Character(name=\"char_002_amiya_1\")]",
+        "type": "character",
+        "name": "char_002_amiya_1"
+    },
+    {
+        "id": 430,
+        "raw": "[name=\"아미야\"]  ……네. 그것도 제가 그녀들을 관심 있게 지켜본 이유예요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "……네. 그것도 제가 그녀들을 관심 있게 지켜본 이유예요."
+    },
+    {
+        "id": 431,
+        "raw": "[Character(name=\"char_002_amiya_1#4\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#4"
+    },
+    {
+        "id": 432,
+        "raw": "[name=\"아미야\"]  죄송해요, 박사님. 저는…… 솔직히 이걸 다른 사람들에게 알려야 할지 잘 모르겠어요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "죄송해요, 박사님. 저는…… 솔직히 이걸 다른 사람들에게 알려야 할지 잘 모르겠어요."
+    },
+    {
+        "id": 433,
+        "raw": "[Character(name=\"char_002_amiya_1\")]",
+        "type": "character",
+        "name": "char_002_amiya_1"
+    },
+    {
+        "id": 434,
+        "raw": "[name=\"아미야\"]  박사님은 제 능력을 잘 아시죠. 누군가가 품은 강렬한 감정이 저를 향하면, 저는 그 사람의 감정을 알 수 있어요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "박사님은 제 능력을 잘 아시죠. 누군가가 품은 강렬한 감정이 저를 향하면, 저는 그 사람의 감정을 알 수 있어요."
+    },
+    {
+        "id": 435,
+        "raw": "[name=\"아미야\"]  감정이 저를 향하지 않아도 충분히 강렬해지면, 뚜렷하지는 않지만 어느 정도 느낄 수 있죠.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "감정이 저를 향하지 않아도 충분히 강렬해지면, 뚜렷하지는 않지만 어느 정도 느낄 수 있죠."
+    },
+    {
+        "id": 436,
+        "raw": "[name=\"아미야\"]  하지만 지마 일행은…… 말하기가 어려워요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "하지만 지마 일행은…… 말하기가 어려워요."
+    },
+    {
+        "id": 437,
+        "raw": "[name=\"아미야\"]  그녀들의 상황은 같지 않거든요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "그녀들의 상황은 같지 않거든요."
+    },
+    {
+        "id": 438,
+        "raw": "[name=\"아미야\"]  어느 순간, 그러니까 우리에게는 매우 평범한 순간에도, 그녀들에게선 거대한 감정이 느껴져요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "어느 순간, 그러니까 우리에게는 매우 평범한 순간에도, 그녀들에게선 거대한 감정이 느껴져요."
+    },
+    {
+        "id": 439,
+        "raw": "[name=\"아미야\"]  물론, 그녀들 사이의 감정도 사뭇 다르지만, 그래도 분명히 같은 부분이 있죠.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "물론, 그녀들 사이의 감정도 사뭇 다르지만, 그래도 분명히 같은 부분이 있죠."
+    },
+    {
+        "id": 440,
+        "raw": "[name=\"아미야\"]  제가 느낀 그 감정을 굳이 말로 표현하자면… 아마도 무력감이라 할 수 있을 거예요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "제가 느낀 그 감정을 굳이 말로 표현하자면… 아마도 무력감이라 할 수 있을 거예요."
+    },
+    {
+        "id": 441,
+        "raw": "[name=\"아미야\"]  그녀들은 슬퍼하지도, 고통스러워하지도, 화를 내지도, 절망하지도 않아요……",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "그녀들은 슬퍼하지도, 고통스러워하지도, 화를 내지도, 절망하지도 않아요……"
+    },
+    {
+        "id": 442,
+        "raw": "[name=\"아미야\"]  이렇게 표현하는 게 맞는지 모르겠어요. 마치, 형체가 없는 벽에 가로막힌 것 같아요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "이렇게 표현하는 게 맞는지 모르겠어요. 마치, 형체가 없는 벽에 가로막힌 것 같아요."
+    },
+    {
+        "id": 443,
+        "raw": "[name=\"아미야\"]  이 벽은 평소에 볼 수도 만질 수도 없지만, 앞으로 나아가려고 할 땐 그녀들을 가로막고, 다시 제자리로 돌아가게 만들죠.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "이 벽은 평소에 볼 수도 만질 수도 없지만, 앞으로 나아가려고 할 땐 그녀들을 가로막고, 다시 제자리로 돌아가게 만들죠."
+    },
+    {
+        "id": 444,
+        "raw": "[Decision(options=\"우리가 그녀들을 위해 뭘 할 수 있지?\", values=\"1\")]",
+        "type": "decision",
+        "options": "우리가 그녀들을 위해 뭘 할 수 있지?",
+        "values": "1"
+    },
+    {
+        "id": 445,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 446,
+        "raw": "[Character(name=\"char_002_amiya_1#6\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#6"
+    },
+    {
+        "id": 447,
+        "raw": "[name=\"아미야\"]  박사님, 안 돼요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "박사님, 안 돼요."
+    },
+    {
+        "id": 448,
+        "raw": "[Character(name=\"char_002_amiya_1\")]",
+        "type": "character",
+        "name": "char_002_amiya_1"
+    },
+    {
+        "id": 449,
+        "raw": "[name=\"아미야\"]  지금 우리는 그녀들을 도울 입장이 아니에요, 박사님.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "지금 우리는 그녀들을 도울 입장이 아니에요, 박사님."
+    },
+    {
+        "id": 450,
+        "raw": "[name=\"아미야\"]  등록된 오퍼레이터의 프로필이 우리에게 알려주는 건, 전부 우리가 이해할 수 있는 것들밖에 없죠.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "등록된 오퍼레이터의 프로필이 우리에게 알려주는 건, 전부 우리가 이해할 수 있는 것들밖에 없죠."
+    },
+    {
+        "id": 451,
+        "raw": "[name=\"아미야\"]  그녀들은 어쩌면 우리에게 뭔가를 숨기고 있을 수도 있겠지만, 우리가 그걸 파고들 명분은 없어요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "그녀들은 어쩌면 우리에게 뭔가를 숨기고 있을 수도 있겠지만, 우리가 그걸 파고들 명분은 없어요."
+    },
+    {
+        "id": 452,
+        "raw": "[name=\"아미야\"]  물론 로도스 아일랜드에 불리한 일이라면 얘기가 다르겠지만요. 하지만 적어도 지마 일행은 이런 일과는 관련이 없을 거라고 생각해요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "물론 로도스 아일랜드에 불리한 일이라면 얘기가 다르겠지만요. 하지만 적어도 지마 일행은 이런 일과는 관련이 없을 거라고 생각해요."
+    },
+    {
+        "id": 453,
+        "raw": "[name=\"아미야\"]  게다가……",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "게다가……"
+    },
+    {
+        "id": 454,
+        "raw": "[name=\"아미야\"]  저희가 지금 당장 그녀들을 도와준다고 해도, 정말로 도움이 될 것 같진 않거든요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "저희가 지금 당장 그녀들을 도와준다고 해도, 정말로 도움이 될 것 같진 않거든요."
+    },
+    {
+        "id": 455,
+        "raw": "[Decision(options=\"도움을 청하지도 않았는데 도와주는 건 그냥 자기만족일 뿐이야.;……;직접 물어보는 건 어때.\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "도움을 청하지도 않았는데 도와주는 건 그냥 자기만족일 뿐이야.;……;직접 물어보는 건 어때.",
+        "values": "1;2;3"
+    },
+    {
+        "id": 456,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 457,
+        "raw": "[Character(name=\"char_002_amiya_1#3\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#3"
+    },
+    {
+        "id": 458,
+        "raw": "[name=\"아미야\"]  네, 저도 그렇게 생각해요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "네, 저도 그렇게 생각해요."
+    },
+    {
+        "id": 459,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 460,
+        "raw": "[Character(name=\"char_002_amiya_1\")]",
+        "type": "character",
+        "name": "char_002_amiya_1"
+    },
+    {
+        "id": 461,
+        "raw": "[name=\"아미야\"]  어쩌면 단순히 무서워서 그러는 걸 수도 있겠네요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "어쩌면 단순히 무서워서 그러는 걸 수도 있겠네요."
+    },
+    {
+        "id": 462,
+        "raw": "[Predicate(references=\"3\")]",
+        "type": "predicate",
+        "references": "3"
+    },
+    {
+        "id": 463,
+        "raw": "[Character(name=\"char_002_amiya_1#2\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#2"
+    },
+    {
+        "id": 464,
+        "raw": "[name=\"아미야\"]  풉, 박사님. 또 농담하시는 거죠?",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "풉, 박사님. 또 농담하시는 거죠?"
+    },
+    {
+        "id": 465,
+        "raw": "[name=\"아미야\"]  정말 그렇게 쉬운 일이라면 좋겠네요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "정말 그렇게 쉬운 일이라면 좋겠네요."
+    },
+    {
+        "id": 466,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 467,
+        "raw": "[Character(name=\"char_002_amiya_1\")]",
+        "type": "character",
+        "name": "char_002_amiya_1"
+    },
+    {
+        "id": 468,
+        "raw": "[name=\"아미야\"]  이제 생각해보니, \"널 이해해\"라는 말은 좋은 말이 아닌 것 같더라고요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "이제 생각해보니, \"널 이해해\"라는 말은 좋은 말이 아닌 것 같더라고요."
+    },
+    {
+        "id": 469,
+        "raw": "[name=\"아미야\"]  많은 사람들이 그런 말을 하고 있긴 하지만… 그런 말을 하는 사람은 단지 그렇게 말한 것만으로 자신이 위로의 의무를 다했다고 생각하거나, 무의식적으로 상대가 마음을 열어주길 기대할지도 몰라요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "많은 사람들이 그런 말을 하고 있긴 하지만… 그런 말을 하는 사람은 단지 그렇게 말한 것만으로 자신이 위로의 의무를 다했다고 생각하거나, 무의식적으로 상대가 마음을 열어주길 기대할지도 몰라요."
+    },
+    {
+        "id": 470,
+        "raw": "[name=\"아미야\"]  다른 사람의 감정을 이해하는 건 정말 어려운 일이죠. 그러니 실제로 도움을 주는 건 말할 것도 없고요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "다른 사람의 감정을 이해하는 건 정말 어려운 일이죠. 그러니 실제로 도움을 주는 건 말할 것도 없고요."
+    },
+    {
+        "id": 471,
+        "raw": "[name=\"아미야\"]  이곳의 다른 오퍼레이터들도 마찬가지예요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "이곳의 다른 오퍼레이터들도 마찬가지예요."
+    },
+    {
+        "id": 472,
+        "raw": "[name=\"아미야\"]  저희가 다른 사람들과 경험을 공유하지 않으면, 우리의 말은 상대방에게 전달되지 않을 거예요. 우리가 하는 일이 아무리 올바르다 하더라도, 상대방 쪽에서 원하지 않겠죠.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "저희가 다른 사람들과 경험을 공유하지 않으면, 우리의 말은 상대방에게 전달되지 않을 거예요. 우리가 하는 일이 아무리 올바르다 하더라도, 상대방 쪽에서 원하지 않겠죠."
+    },
+    {
+        "id": 473,
+        "raw": "[Decision(options=\"네가 지마 일행이 오퍼레이터가 되는 것을 막지 못한 건, 바로 그런 이유 때문이구나.\", values=\"1\")]",
+        "type": "decision",
+        "options": "네가 지마 일행이 오퍼레이터가 되는 것을 막지 못한 건, 바로 그런 이유 때문이구나.",
+        "values": "1"
+    },
+    {
+        "id": 474,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 475,
+        "raw": "[Character(name=\"char_002_amiya_1\")]",
+        "type": "character",
+        "name": "char_002_amiya_1"
+    },
+    {
+        "id": 476,
+        "raw": "[name=\"아미야\"]  네.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "네."
+    },
+    {
+        "id": 477,
+        "raw": "[name=\"아미야\"]  그녀들의 감정을 느끼고 난 이후로 생각을 바꿨어요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "그녀들의 감정을 느끼고 난 이후로 생각을 바꿨어요."
+    },
+    {
+        "id": 478,
+        "raw": "[name=\"아미야\"]  강제로 보호하는 건 어쩌면 좋은 방법일지도 몰라요. 확실히 보호가 되긴 하겠죠.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "강제로 보호하는 건 어쩌면 좋은 방법일지도 몰라요. 확실히 보호가 되긴 하겠죠."
+    },
+    {
+        "id": 479,
+        "raw": "[name=\"아미야\"]  하지만 그런 방법으로는 그녀들을 치료할 수 없어요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "하지만 그런 방법으로는 그녀들을 치료할 수 없어요."
+    },
+    {
+        "id": 480,
+        "raw": "[name=\"아미야\"]  박사님, 저는 시간이 모든 것을 치료한다고는 생각하지 않아요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "박사님, 저는 시간이 모든 것을 치료한다고는 생각하지 않아요."
+    },
+    {
+        "id": 481,
+        "raw": "[name=\"아미야\"]  하지만 그것 말고, 다른 방법은 모르겠어요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "하지만 그것 말고, 다른 방법은 모르겠어요."
+    },
+    {
+        "id": 482,
+        "raw": "[name=\"아미야\"]  제가 할 수 있는 건, 그저 그녀들의 선택을 존중하고, 로도스 아일랜드 만의 방법으로 그녀들을 보호하는 것뿐이에요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "제가 할 수 있는 건, 그저 그녀들의 선택을 존중하고, 로도스 아일랜드 만의 방법으로 그녀들을 보호하는 것뿐이에요."
+    },
+    {
+        "id": 483,
+        "raw": "[Character(name=\"char_002_amiya_1#4\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#4"
+    },
+    {
+        "id": 484,
+        "raw": "[name=\"아미야\"]  사실 이렇게 생각하는 것도 제 오만인 것 같긴 하지만……",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "사실 이렇게 생각하는 것도 제 오만인 것 같긴 하지만……"
+    },
+    {
+        "id": 485,
+        "raw": "[Decision(options=\"로도스 아일랜드는 화초들을 키우는 온실이 아니야. 그렇게 생각하는 것만으로도 이미 충분해.;……;그럼, 모두와 친구가 되면 되겠네.\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "로도스 아일랜드는 화초들을 키우는 온실이 아니야. 그렇게 생각하는 것만으로도 이미 충분해.;……;그럼, 모두와 친구가 되면 되겠네.",
+        "values": "1;2;3"
+    },
+    {
+        "id": 486,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 487,
+        "raw": "[Character(name=\"char_002_amiya_1\")]",
+        "type": "character",
+        "name": "char_002_amiya_1"
+    },
+    {
+        "id": 488,
+        "raw": "[name=\"아미야\"]  네. 하지만 저는 뭔가를 더 해주고 싶어요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "네. 하지만 저는 뭔가를 더 해주고 싶어요."
+    },
+    {
+        "id": 489,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 490,
+        "raw": "[Character(name=\"char_002_amiya_1\")]",
+        "type": "character",
+        "name": "char_002_amiya_1"
+    },
+    {
+        "id": 491,
+        "raw": "[name=\"아미야\"]  물리적인 치료가 필요할 때…… 그 사람을 어떻게 치료해야 할지, 아니면 치료를 해야 할지 말아야 할지는 판단하기가 매우 쉽죠.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "물리적인 치료가 필요할 때…… 그 사람을 어떻게 치료해야 할지, 아니면 치료를 해야 할지 말아야 할지는 판단하기가 매우 쉽죠."
+    },
+    {
+        "id": 492,
+        "raw": "[name=\"아미야\"]  하지만 정신적인 치료는…… 판단하기가 정말 어려워요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "하지만 정신적인 치료는…… 판단하기가 정말 어려워요."
+    },
+    {
+        "id": 493,
+        "raw": "[name=\"아미야\"]  지금의 저는, 이렇게 애매한 답밖에 할 수 없네요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "지금의 저는, 이렇게 애매한 답밖에 할 수 없네요."
+    },
+    {
+        "id": 494,
+        "raw": "[Predicate(references=\"3\")]",
+        "type": "predicate",
+        "references": "3"
+    },
+    {
+        "id": 495,
+        "raw": "[Character(name=\"char_002_amiya_1#3\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#3"
+    },
+    {
+        "id": 496,
+        "raw": "[name=\"아미야\"]  네, 박사님 말이 맞아요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "네, 박사님 말이 맞아요."
+    },
+    {
+        "id": 497,
+        "raw": "[name=\"아미야\"]  누군가를 도울 명분이 없다면, 그 명분을 만들면 되는 거니까요. 이것도 저의 개인적인 생각이긴 하지만……",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "누군가를 도울 명분이 없다면, 그 명분을 만들면 되는 거니까요. 이것도 저의 개인적인 생각이긴 하지만……"
+    },
+    {
+        "id": 498,
+        "raw": "[name=\"아미야\"]  ……조금 기운이 없었을 뿐이에요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "……조금 기운이 없었을 뿐이에요."
+    },
+    {
+        "id": 499,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 500,
+        "raw": "[Character(name=\"char_002_amiya_1\")]",
+        "type": "character",
+        "name": "char_002_amiya_1"
+    },
+    {
+        "id": 501,
+        "raw": "[name=\"아미야\"]  약은 고통을 멎게 하고 상처를 치료하죠. 사람은 약으로 치료할 수 있지만, 그전에 받았던 고통과 시련은 사라지게 할 수 없어요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "약은 고통을 멎게 하고 상처를 치료하죠. 사람은 약으로 치료할 수 있지만, 그전에 받았던 고통과 시련은 사라지게 할 수 없어요."
+    },
+    {
+        "id": 502,
+        "raw": "[name=\"아미야\"]  저는 로도스 아일랜드가 어떤 사람들에게는, 설령 그게 아주 적은 수의 사람이라 할지라도, 과거에 받았던 상처를 잊을 수 있는 곳이 되었으면 좋겠다고 항상 생각했어요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "저는 로도스 아일랜드가 어떤 사람들에게는, 설령 그게 아주 적은 수의 사람이라 할지라도, 과거에 받았던 상처를 잊을 수 있는 곳이 되었으면 좋겠다고 항상 생각했어요."
+    },
+    {
+        "id": 503,
+        "raw": "[name=\"아미야\"]  그리고 이 길을 걸으면서, 그게 굉장히 어려운 일이라는 것도 알게 되었죠.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "그리고 이 길을 걸으면서, 그게 굉장히 어려운 일이라는 것도 알게 되었죠."
+    },
+    {
+        "id": 504,
+        "raw": "[name=\"아미야\"]  정말로 과거의 상처를 잊게 해주기 위해선, 가장 기본적인 약품 연구부터 시작해서 아직도 해야 할 일이 산더미다 보니……",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "정말로 과거의 상처를 잊게 해주기 위해선, 가장 기본적인 약품 연구부터 시작해서 아직도 해야 할 일이 산더미다 보니……"
+    },
+    {
+        "id": 505,
+        "raw": "[Decision(options=\"적어도 우리는 이미 시작했잖아.\", values=\"1\")]",
+        "type": "decision",
+        "options": "적어도 우리는 이미 시작했잖아.",
+        "values": "1"
+    },
+    {
+        "id": 506,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 507,
+        "raw": "[Character(name=\"char_002_amiya_1#3\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#3"
+    },
+    {
+        "id": 508,
+        "raw": "[name=\"아미야\"]  네. 적어도, 이미 시작하긴 했죠.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "네. 적어도, 이미 시작하긴 했죠."
+    },
+    {
+        "id": 509,
+        "raw": "[Character(name=\"char_002_amiya_1#2\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#2"
+    },
+    {
+        "id": 510,
+        "raw": "[name=\"아미야\"]  고맙습니다, 박사님.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "고맙습니다, 박사님."
+    },
+    {
+        "id": 511,
+        "raw": "[name=\"아미야\"]  다른 사람의 일인데도 박사님이 위로와 격려를 해주시다니, 조금 민망하네요……",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "다른 사람의 일인데도 박사님이 위로와 격려를 해주시다니, 조금 민망하네요……"
+    },
+    {
+        "id": 512,
+        "raw": "[name=\"아미야\"]  그렇다면, 이번에도 나탈리야 씨의 신청을 받아들여야겠어요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "그렇다면, 이번에도 나탈리야 씨의 신청을 받아들여야겠어요."
+    },
+    {
+        "id": 513,
+        "raw": "[Character(name=\"char_002_amiya_1#3\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#3"
+    },
+    {
+        "id": 514,
+        "raw": "[name=\"아미야\"]  언젠가는 그녀들이 우리에게 마음의 문을 열어주었으면 좋겠네요. 그리고 또 언젠가는, 우리가 그녀들을 도울 수 있으면 좋겠어요……",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "언젠가는 그녀들이 우리에게 마음의 문을 열어주었으면 좋겠네요. 그리고 또 언젠가는, 우리가 그녀들을 도울 수 있으면 좋겠어요……"
+    },
+    {
+        "id": 515,
+        "raw": "[name=\"아미야\"]  ……그리고, 로도스 아일랜드가 그녀들의 새로운 집이 되었으면 좋겠네요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "……그리고, 로도스 아일랜드가 그녀들의 새로운 집이 되었으면 좋겠네요."
+    },
+    {
+        "id": 516,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 517,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 518,
+        "raw": "[Image]",
+        "type": "image"
+    }
+]

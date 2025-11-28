@@ -1,0 +1,4440 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")]",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK"
+    },
+    {
+        "id": 2,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 3,
+        "raw": "[Background(image=\"bg_black\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_black.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 4,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 5,
+        "raw": "[stopmusic]",
+        "type": "stop_music"
+    },
+    {
+        "id": 6,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 7,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 8,
+        "raw": "[PlayMusic(intro=\"$loneliness_intro\", key=\"$loneliness_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/static/m_avg/m_avg_loneliness_intro.mp3",
+        "key": "sound_beta_2/music/static/m_avg/m_avg_loneliness_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 9,
+        "raw": "[interlude(maskid = \"ui_cutin_mask_vertical\", style = 1, size = \"450, 720\",offset = \"-100,0\", channel = 2)]",
+        "type": "interlude"
+    },
+    {
+        "id": 10,
+        "raw": "[interlude(channel = 2, type = 2, name = \"bg_ltroom\", afrom = 0, ato = 1, aduration = 3, sfrom = \"1.3,1.3\", sto = \"1.3,1.3\", sduration = 0)]",
+        "type": "interlude"
+    },
+    {
+        "id": 11,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 12,
+        "raw": "[interlude(channel = 2, type = 1, slot = \"m\", offset = \"-100,-20\", name = \"cutin_char_16\",sfrom = \"0.9,0.9\", sto = \"0.9,0.9\",  aduration = 2,block=false)]",
+        "type": "interlude",
+        "block": false
+    },
+    {
+        "id": 13,
+        "raw": "[interlude(channel = 2, type = 1, slot = \"m\", pfrom = \"-100,-20\", pto = \"-140,-20\", duration = 40)]",
+        "type": "interlude"
+    },
+    {
+        "id": 14,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 15,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"我的衣柜中，专门有一个抽屉用来收藏勋章。\", x=300,y=270, alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "我的衣柜中，专门有一个抽屉用来收藏勋章。",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"我在西尔军事学院毕业时拿到的纪念章，城防军的服役十五年奖章，还有四年前城内的混乱平息后，市议会为我颁发的伦蒂尼姆自由奖章。\", x=300,y=270, alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "我在西尔军事学院毕业时拿到的纪念章，城防军的服役十五年奖章，还有四年前城内的混乱平息后，市议会为我颁发的伦蒂尼姆自由奖章。",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"抽屉的更深处，是家族中传下来的那些属于旧时代的遗存。老近卫军的帽徽，林贡斯的一片残砖，科西嘉一世陛下亲令赏赐的金杯。\",x=300,y=270, alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "抽屉的更深处，是家族中传下来的那些属于旧时代的遗存。老近卫军的帽徽，林贡斯的一片残砖，科西嘉一世陛下亲令赏赐的金杯。",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n那只金杯如今已经断成两截，上边的雕花也都模糊不清了，不过，我仍记得每道花纹的走向，每个浮雕人物的表情。\",block = true)]",
+        "type": "sticker",
+        "text": "\\n那只金杯如今已经断成两截，上边的雕花也都模糊不清了，不过，我仍记得每道花纹的走向，每个浮雕人物的表情。"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"那是我的父亲母亲、我的叔叔婶婶们，他们心心念念的，高卢的辉煌，不可被剥夺，也永不会暗淡的辉煌。\", x=300,y=270, alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "那是我的父亲母亲、我的叔叔婶婶们，他们心心念念的，高卢的辉煌，不可被剥夺，也永不会暗淡的辉煌。",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": 25,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 26,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 27,
+        "raw": "[interlude(channel = 2,clear = true,duration=2)]",
+        "type": "interlude",
+        "duration": 2
+    },
+    {
+        "id": 28,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 29,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 30,
+        "raw": "[Background(image=\"bg_offce\", screenadapt=\"coverall\", block=true)]",
+        "type": "background",
+        "image": "bg_offce.png",
+        "screenadapt": "coverall",
+        "block": true
+    },
+    {
+        "id": 31,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#8$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#8$1.png"
+    },
+    {
+        "id": 32,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 33,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 34,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 35,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#8$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#8$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 36,
+        "raw": "[name=\"莱托中校\"]......那只金杯相当有分量，你应该能拿那东西卖个好价钱，高卢艺术品的行情一直不错。",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "......那只金杯相当有分量，你应该能拿那东西卖个好价钱，高卢艺术品的行情一直不错。"
+    },
+    {
+        "id": 37,
+        "raw": "[name=\"莱托中校\"]哪怕只是把那东西熔了，当金子卖，也够你随便挑个城市，在最好的地段买上间公寓了。",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "哪怕只是把那东西熔了，当金子卖，也够你随便挑个城市，在最好的地段买上间公寓了。"
+    },
+    {
+        "id": 38,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 39,
+        "raw": "[playsound(key=\"$d_avg_key\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_key.mp3"
+    },
+    {
+        "id": 40,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 41,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#6$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#6$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 42,
+        "raw": "[name=\"莱托中校\"]这是我住处的钥匙，收好了，东西就在衣柜里。",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "这是我住处的钥匙，收好了，东西就在衣柜里。"
+    },
+    {
+        "id": 43,
+        "raw": "[name=\"莱托中校\"]另去选个地方，重新开始生活吧。你可以把今年的这些事，仅仅当作偶然之间做的一场噩梦。",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "另去选个地方，重新开始生活吧。你可以把今年的这些事，仅仅当作偶然之间做的一场噩梦。"
+    },
+    {
+        "id": 44,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_399_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_399_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 45,
+        "raw": "[name=\"前城防军成员\"]长官，是您在那帮萨卡兹追我的时候帮了我一把，是您把我藏在城防军的办公室里。",
+        "type": "dialog",
+        "speaker": "前城防军成员",
+        "content": "长官，是您在那帮萨卡兹追我的时候帮了我一把，是您把我藏在城防军的办公室里。"
+    },
+    {
+        "id": 46,
+        "raw": "[name=\"前城防军成员\"]是我该感谢您，我早就不是城防军的成员了，也不是您的高卢同胞......",
+        "type": "dialog",
+        "speaker": "前城防军成员",
+        "content": "是我该感谢您，我早就不是城防军的成员了，也不是您的高卢同胞......"
+    },
+    {
+        "id": 47,
+        "raw": "[name=\"前城防军成员\"]您没必要——",
+        "type": "dialog",
+        "speaker": "前城防军成员",
+        "content": "您没必要——"
+    },
+    {
+        "id": 48,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 49,
+        "raw": "[name=\"莱托中校\"]拿去吧。",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "拿去吧。"
+    },
+    {
+        "id": 50,
+        "raw": "[name=\"莱托中校\"]你要是在屋子里还看上了其他什么东西，也通通可以拿走。那些纪念品对于我已经没什么意义了。",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "你要是在屋子里还看上了其他什么东西，也通通可以拿走。那些纪念品对于我已经没什么意义了。"
+    },
+    {
+        "id": 51,
+        "raw": "[name=\"莱托中校\"]在局势重新安稳下来之前，你最好继续躲在这里。",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "在局势重新安稳下来之前，你最好继续躲在这里。"
+    },
+    {
+        "id": 52,
+        "raw": "[name=\"莱托中校\"]军事委员会已经解除了城防军的武装，你现在在那些萨卡兹的眼里，和维多利亚的平民没什么区别。",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "军事委员会已经解除了城防军的武装，你现在在那些萨卡兹的眼里，和维多利亚的平民没什么区别。"
+    },
+    {
+        "id": 53,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_399_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_399_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 54,
+        "raw": "[name=\"前城防军成员\"]可我们的战友们还在外面，他们有些，呃，不安分，我想把大家都救回来......",
+        "type": "dialog",
+        "speaker": "前城防军成员",
+        "content": "可我们的战友们还在外面，他们有些，呃，不安分，我想把大家都救回来......"
+    },
+    {
+        "id": 55,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#8$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#8$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 56,
+        "raw": "[name=\"莱托中校\"]他们都被捕了。",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "他们都被捕了。"
+    },
+    {
+        "id": 57,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_399_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_399_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 58,
+        "raw": "[name=\"前城防军成员\"]......",
+        "type": "dialog",
+        "speaker": "前城防军成员",
+        "content": "......"
+    },
+    {
+        "id": 59,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#8$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#8$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 60,
+        "raw": "[name=\"莱托中校\"]我亲手把他们抓起来交给了军事委员会。",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "我亲手把他们抓起来交给了军事委员会。"
+    },
+    {
+        "id": 61,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_399_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_399_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 62,
+        "raw": "[name=\"前城防军成员\"]你......",
+        "type": "dialog",
+        "speaker": "前城防军成员",
+        "content": "你......"
+    },
+    {
+        "id": 63,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 64,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 65,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 66,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"他眼中的愤怒还未达到顶点便早早地泄了气。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "他眼中的愤怒还未达到顶点便早早地泄了气。",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n一如我过去对他的评价，一个懦夫，也许他作战时有那么一点胆量，但终究还是个懦夫。\",block = true)]",
+        "type": "sticker",
+        "text": "\\n一如我过去对他的评价，一个懦夫，也许他作战时有那么一点胆量，但终究还是个懦夫。"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n他在这里与我苟且偷生，他永远比不上那些反抗萨卡兹的战士们。\",block = true)]",
+        "type": "sticker",
+        "text": "\\n他在这里与我苟且偷生，他永远比不上那些反抗萨卡兹的战士们。"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n永远也比不上。\",block = true)]",
+        "type": "sticker",
+        "text": "\\n永远也比不上。"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"......\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "......",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n我比得上吗？\",block = true)]",
+        "type": "sticker",
+        "text": "\\n我比得上吗？"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"哈哈。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "哈哈。",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n我......不在乎。\",block = true)]",
+        "type": "sticker",
+        "text": "\\n我......不在乎。"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n我早就不在乎了。\",block = true)]",
+        "type": "sticker",
+        "text": "\\n我早就不在乎了。"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": 79,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 80,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_399_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_399_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 81,
+        "raw": "[name=\"前城防军成员\"]长官，您接下来......要去哪？",
+        "type": "dialog",
+        "speaker": "前城防军成员",
+        "content": "长官，您接下来......要去哪？"
+    },
+    {
+        "id": 82,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 83,
+        "raw": "[name=\"莱托中校\"]我？",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "我？"
+    },
+    {
+        "id": 84,
+        "raw": "[name=\"莱托中校\"]血魔大君已经等了我很久了。",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "血魔大君已经等了我很久了。"
+    },
+    {
+        "id": 85,
+        "raw": "[name=\"莱托中校\"]待在这，等一切结束之后再离开。",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "待在这，等一切结束之后再离开。"
+    },
+    {
+        "id": 86,
+        "raw": "[name=\"莱托中校\"]你想活下去，就最好祈祷到时候推开门，外面欢呼的人是维多利亚人而不是魔族佬。",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "你想活下去，就最好祈祷到时候推开门，外面欢呼的人是维多利亚人而不是魔族佬。"
+    },
+    {
+        "id": 87,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 88,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 89,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 90,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 91,
+        "raw": "[Background(image=\"bg_black\", screenadapt=\"coverall\", block=true)]",
+        "type": "background",
+        "image": "bg_black.png",
+        "screenadapt": "coverall",
+        "block": true
+    },
+    {
+        "id": 92,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 93,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 94,
+        "raw": "[Delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"......\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "......",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n欢呼的维多利亚人......\",block = true)]",
+        "type": "sticker",
+        "text": "\\n欢呼的维多利亚人......"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n我第一时间想到的竟然还是维多利亚会胜利。\",block = true)]",
+        "type": "sticker",
+        "text": "\\n我第一时间想到的竟然还是维多利亚会胜利。"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"不，也许只是惯性使然。我当然希望特雷西斯会赢，这才是他承诺重建高卢的前提。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "不，也许只是惯性使然。我当然希望特雷西斯会赢，这才是他承诺重建高卢的前提。",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n我一切的牺牲，我一切的背叛，我一切再也无法被饶恕的罪孽，都是为了高卢。\",block = true)]",
+        "type": "sticker",
+        "text": "\\n我一切的牺牲，我一切的背叛，我一切再也无法被饶恕的罪孽，都是为了高卢。"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n是啊，我是为了......高卢。\",block = true)]",
+        "type": "sticker",
+        "text": "\\n是啊，我是为了......高卢。"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n但愿如此。\",block = true)]",
+        "type": "sticker",
+        "text": "\\n但愿如此。"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": 104,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 105,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 106,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 107,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 108,
+        "raw": "[Background(image=\"32_g1_lentiavenue\", screenadapt=\"coverall\", block=true)]",
+        "type": "background",
+        "image": "32_g1_lentiavenue.png",
+        "screenadapt": "coverall",
+        "block": true
+    },
+    {
+        "id": 109,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 110,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 111,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 112,
+        "raw": "[PlaySound(key=\"$d_avg_soldiersstep\",volume=0.5)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_soldiersstep.mp3",
+        "volume": 0.5
+    },
+    {
+        "id": 113,
+        "raw": "[PlaySound(key=\"$d_avg_autocannon\", volume=0.9)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_autocannon.mp3",
+        "volume": 0.9
+    },
+    {
+        "id": 114,
+        "raw": "[PlaySound(key=\"$d_avg_wellwheel\",volume=0.4)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_wellwheel.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 115,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 116,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 117,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 118,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 119,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"成群的人被萨卡兹的军队押送着，走向远处的城墙。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "成群的人被萨卡兹的军队押送着，走向远处的城墙。",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n萨卡兹想把伦蒂尼姆加固成他们的堡垒，恐怕最终的决战就在眼前。\",block = true)]",
+        "type": "sticker",
+        "text": "\\n萨卡兹想把伦蒂尼姆加固成他们的堡垒，恐怕最终的决战就在眼前。"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n他们打算固守这座维多利亚的首都？也许吧。\",block = true)]",
+        "type": "sticker",
+        "text": "\\n他们打算固守这座维多利亚的首都？也许吧。"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"队伍里有些人对我投来愤恨的目光，我认识他们，我们曾经......把酒言欢。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "队伍里有些人对我投来愤恨的目光，我认识他们，我们曾经......把酒言欢。",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n没有人阻拦我，萨卡兹并不在乎我去往何处。\",block = true)]",
+        "type": "sticker",
+        "text": "\\n没有人阻拦我，萨卡兹并不在乎我去往何处。"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n被豢养的羽兽，就算打开笼门，它又能飞去哪儿？\",block = true)]",
+        "type": "sticker",
+        "text": "\\n被豢养的羽兽，就算打开笼门，它又能飞去哪儿？"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": 128,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 129,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 130,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 131,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 132,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 133,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 134,
+        "raw": "[Background(image=\"25_mini02_victoria_street_n\", screenadapt=\"coverall\", block=true)]",
+        "type": "background",
+        "image": "25_mini02_victoria_street_n.png",
+        "screenadapt": "coverall",
+        "block": true
+    },
+    {
+        "id": 135,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 136,
+        "raw": "[playMusic(intro=\"$darkness02_intro\", key=\"$darkness02_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta1_180603/m_dia_darkness02_intro.mp3",
+        "key": "sound_beta_2/music/beta1_180603/m_dia_darkness02_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 137,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 138,
+        "raw": "[Delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 139,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_401_1#1$1\",bstart=0.2,bend=0.7,duration=0.7)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_401_1#1$1.png",
+        "bstart": "0.2,bend=0.7,duration=0.7"
+    },
+    {
+        "id": 140,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 141,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_401_1#1$1\",bstart=0.2,bend=0.7,focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_401_1#1$1.png",
+        "bstart": "0.2,bend=0.7,focus=\"m\""
+    },
+    {
+        "id": 142,
+        "raw": "[name=\"？？？\"]勒内·莱托？",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "勒内·莱托？"
+    },
+    {
+        "id": 143,
+        "raw": "[name=\"？？？\"]我没想到能这样和你接触。",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "我没想到能这样和你接触。"
+    },
+    {
+        "id": 144,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 145,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_401_1#1$1\",bstart=0.2,bend=0.7,focus=\"m\")]",
+        "type": "charslot",
+        "bstart": "0.2,bend=0.7,focus=\"m\""
+    },
+    {
+        "id": 146,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": false
+    },
+    {
+        "id": 147,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 148,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#1$1\",posfrom = \"0,0\", posto = \"200,0\",focus=\"n\")]",
+        "type": "charslot",
+        "focus": "n"
+    },
+    {
+        "id": 149,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_401_1#1$1\",bstart=0,bend=0,duration=2,focus=\"m\")]",
+        "type": "charslot",
+        "bstart": "0,bend=0,duration=2,focus=\"m\""
+    },
+    {
+        "id": 150,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 151,
+        "raw": "[name=\"克洛维希娅\"]也许这是个好的讯号，至少你还没被萨卡兹处死。",
+        "type": "dialog",
+        "speaker": "克洛维希娅",
+        "content": "也许这是个好的讯号，至少你还没被萨卡兹处死。"
+    },
+    {
+        "id": 152,
+        "raw": "[name=\"克洛维希娅\"]有时间聊聊吗？",
+        "type": "dialog",
+        "speaker": "克洛维希娅",
+        "content": "有时间聊聊吗？"
+    },
+    {
+        "id": 153,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 154,
+        "raw": "[charslot(duration=0.2)]",
+        "type": "charslot",
+        "duration": 0.2
+    },
+    {
+        "id": 155,
+        "raw": "[delay(time=0.3)]",
+        "type": "delay",
+        "time": 0.3
+    },
+    {
+        "id": 156,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#1$1\",focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 157,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_649_1#1$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_649_1#1$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 158,
+        "raw": "[name=\"莱托中校\"]......",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "......"
+    },
+    {
+        "id": 159,
+        "raw": "[name=\"莱托中校\"]嗯，我认出你了......你是，自救军的那个小领袖克洛维希娅？",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "嗯，我认出你了......你是，自救军的那个小领袖克洛维希娅？"
+    },
+    {
+        "id": 160,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_649_1#5$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_649_1#5$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 161,
+        "raw": "[name=\"莱托中校\"]自救军的据点都已经被我们清剿干净，剩下的人也应该全部撤出了伦蒂尼姆，你为什么还在这里？",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "自救军的据点都已经被我们清剿干净，剩下的人也应该全部撤出了伦蒂尼姆，你为什么还在这里？"
+    },
+    {
+        "id": 162,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#1$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 163,
+        "raw": "[name=\"克洛维希娅\"]多亏了城防军的手下留情，也多亏了开斯特的信守承诺。",
+        "type": "dialog",
+        "speaker": "克洛维希娅",
+        "content": "多亏了城防军的手下留情，也多亏了开斯特的信守承诺。"
+    },
+    {
+        "id": 164,
+        "raw": "[name=\"克洛维希娅\"]她的“灰礼帽”们确实保证了自救军顺利撤出这座将死的城市。",
+        "type": "dialog",
+        "speaker": "克洛维希娅",
+        "content": "她的“灰礼帽”们确实保证了自救军顺利撤出这座将死的城市。"
+    },
+    {
+        "id": 165,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_649_1#8$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_649_1#8$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 166,
+        "raw": "[name=\"莱托中校\"]开斯特公爵......",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "开斯特公爵......"
+    },
+    {
+        "id": 167,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_649_1#1$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_649_1#1$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 168,
+        "raw": "[name=\"莱托中校\"]......我早就对你的身份有所猜测，不过现在，不论你是哪位阁下的附庸或傀儡，我都不关心了。",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "......我早就对你的身份有所猜测，不过现在，不论你是哪位阁下的附庸或傀儡，我都不关心了。"
+    },
+    {
+        "id": 169,
+        "raw": "[name=\"莱托中校\"]我不知道你的本事到底有多大，但现在的伦蒂尼姆不适合一个造反的孩子到处游荡。",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "我不知道你的本事到底有多大，但现在的伦蒂尼姆不适合一个造反的孩子到处游荡。"
+    },
+    {
+        "id": 170,
+        "raw": "[name=\"莱托中校\"]回你之前躲着的地方吧，趁还没被萨卡兹们逮到，我可以当作没看见你。",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "回你之前躲着的地方吧，趁还没被萨卡兹们逮到，我可以当作没看见你。"
+    },
+    {
+        "id": 171,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#9$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 172,
+        "raw": "[name=\"克洛维希娅\"]......莱托。",
+        "type": "dialog",
+        "speaker": "克洛维希娅",
+        "content": "......莱托。"
+    },
+    {
+        "id": 173,
+        "raw": "[name=\"克洛维希娅\"]你躲在伦蒂尼姆已经够久了。",
+        "type": "dialog",
+        "speaker": "克洛维希娅",
+        "content": "你躲在伦蒂尼姆已经够久了。"
+    },
+    {
+        "id": 174,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_649_1#8$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_649_1#8$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 175,
+        "raw": "[name=\"莱托中校\"]......",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "......"
+    },
+    {
+        "id": 176,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#1$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 177,
+        "raw": "[name=\"克洛维希娅\"]我和自救军失散以后，尽可能快地在伦蒂尼姆内重新找到了行动的目标。",
+        "type": "dialog",
+        "speaker": "克洛维希娅",
+        "content": "我和自救军失散以后，尽可能快地在伦蒂尼姆内重新找到了行动的目标。"
+    },
+    {
+        "id": 178,
+        "raw": "[name=\"克洛维希娅\"]我们也......遭到了背叛。我甚至还不清楚叛徒具体有哪些人。",
+        "type": "dialog",
+        "speaker": "克洛维希娅",
+        "content": "我们也......遭到了背叛。我甚至还不清楚叛徒具体有哪些人。"
+    },
+    {
+        "id": 179,
+        "raw": "[name=\"克洛维希娅\"]但是我没有时间想这些，城内的情况远远超过了我们对“占领移动城市”的理解。",
+        "type": "dialog",
+        "speaker": "克洛维希娅",
+        "content": "但是我没有时间想这些，城内的情况远远超过了我们对“占领移动城市”的理解。"
+    },
+    {
+        "id": 180,
+        "raw": "[name=\"克洛维希娅\"]现在发生的事，你在历史书上，找不到。",
+        "type": "dialog",
+        "speaker": "克洛维希娅",
+        "content": "现在发生的事，你在历史书上，找不到。"
+    },
+    {
+        "id": 181,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_649_1#1$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_649_1#1$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 182,
+        "raw": "[name=\"莱托中校\"]我比谁都清楚。",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "我比谁都清楚。"
+    },
+    {
+        "id": 183,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#6$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 184,
+        "raw": "[name=\"克洛维希娅\"]可你看过城外的情况吗？",
+        "type": "dialog",
+        "speaker": "克洛维希娅",
+        "content": "可你看过城外的情况吗？"
+    },
+    {
+        "id": 185,
+        "raw": "[name=\"克洛维希娅\"]我看到萨卡兹的法阵，红光冲天而起，我看到形态各异的战争装置，绝非寻常国家的制式装备可比。",
+        "type": "dialog",
+        "speaker": "克洛维希娅",
+        "content": "我看到萨卡兹的法阵，红光冲天而起，我看到形态各异的战争装置，绝非寻常国家的制式装备可比。"
+    },
+    {
+        "id": 186,
+        "raw": "[name=\"克洛维希娅\"]我看到巫师悬浮于半空，主宰领空，使得所有形式的无人机与源石技艺统统失效。",
+        "type": "dialog",
+        "speaker": "克洛维希娅",
+        "content": "我看到巫师悬浮于半空，主宰领空，使得所有形式的无人机与源石技艺统统失效。"
+    },
+    {
+        "id": 187,
+        "raw": "[name=\"克洛维希娅\"]我本以为那些描述萨卡兹军队和那个所谓的“食腐者”的传说，多少都是些添油加醋来徒增恐怖色彩的文学手段。",
+        "type": "dialog",
+        "speaker": "克洛维希娅",
+        "content": "我本以为那些描述萨卡兹军队和那个所谓的“食腐者”的传说，多少都是些添油加醋来徒增恐怖色彩的文学手段。"
+    },
+    {
+        "id": 188,
+        "raw": "[name=\"克洛维希娅\"]我不再这么想了。",
+        "type": "dialog",
+        "speaker": "克洛维希娅",
+        "content": "我不再这么想了。"
+    },
+    {
+        "id": 189,
+        "raw": "[name=\"克洛维希娅\"]当死亡本身敞开大门，我们要面临什么样的人间地狱？",
+        "type": "dialog",
+        "speaker": "克洛维希娅",
+        "content": "当死亡本身敞开大门，我们要面临什么样的人间地狱？"
+    },
+    {
+        "id": 190,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_649_1#1$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_649_1#1$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 191,
+        "raw": "[name=\"莱托中校\"]公爵们呢？",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "公爵们呢？"
+    },
+    {
+        "id": 192,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#6$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 193,
+        "raw": "[name=\"克洛维希娅\"]......公爵的军队。坚硬，宏伟，但是......",
+        "type": "dialog",
+        "speaker": "克洛维希娅",
+        "content": "......公爵的军队。坚硬，宏伟，但是......"
+    },
+    {
+        "id": 194,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#8$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 195,
+        "raw": "[name=\"克洛维希娅\"]他们在地平线的那头。他们遥不可及。",
+        "type": "dialog",
+        "speaker": "克洛维希娅",
+        "content": "他们在地平线的那头。他们遥不可及。"
+    },
+    {
+        "id": 196,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_649_1#8$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_649_1#8$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 197,
+        "raw": "[name=\"莱托中校\"]......",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "......"
+    },
+    {
+        "id": 198,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#9$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 199,
+        "raw": "[name=\"克洛维希娅\"]我猜测，你此时此刻，是不是心中怀着歉疚与悲哀，但又夹杂着一点点自豪？",
+        "type": "dialog",
+        "speaker": "克洛维希娅",
+        "content": "我猜测，你此时此刻，是不是心中怀着歉疚与悲哀，但又夹杂着一点点自豪？"
+    },
+    {
+        "id": 200,
+        "raw": "[name=\"克洛维希娅\"]你觉得，你做了许多残忍的选择，但是现在，你的使命完成了。",
+        "type": "dialog",
+        "speaker": "克洛维希娅",
+        "content": "你觉得，你做了许多残忍的选择，但是现在，你的使命完成了。"
+    },
+    {
+        "id": 201,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_649_1#8$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_649_1#8$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 202,
+        "raw": "[name=\"莱托中校\"]......",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "......"
+    },
+    {
+        "id": 203,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#9$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 204,
+        "raw": "[name=\"克洛维希娅\"]我猜测，你向特雷西斯提出了一个交易，而特雷西斯答应了，有关那些曾经属于高卢的移动城市。",
+        "type": "dialog",
+        "speaker": "克洛维希娅",
+        "content": "我猜测，你向特雷西斯提出了一个交易，而特雷西斯答应了，有关那些曾经属于高卢的移动城市。"
+    },
+    {
+        "id": 205,
+        "raw": "[name=\"克洛维希娅\"]伦蒂尼姆太小，装不下萨卡兹的野心，他不过借着这里撩拨泰拉诸国蠢蠢欲动的心。",
+        "type": "dialog",
+        "speaker": "克洛维希娅",
+        "content": "伦蒂尼姆太小，装不下萨卡兹的野心，他不过借着这里撩拨泰拉诸国蠢蠢欲动的心。"
+    },
+    {
+        "id": 206,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#6$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 207,
+        "raw": "[name=\"克洛维希娅\"]你真的觉得他在乎你和你的高卢吗？",
+        "type": "dialog",
+        "speaker": "克洛维希娅",
+        "content": "你真的觉得他在乎你和你的高卢吗？"
+    },
+    {
+        "id": 208,
+        "raw": "[name=\"克洛维希娅\"]如今的伦蒂尼姆已经彻底沦陷，但你不是蠢货，你看得出来。",
+        "type": "dialog",
+        "speaker": "克洛维希娅",
+        "content": "如今的伦蒂尼姆已经彻底沦陷，但你不是蠢货，你看得出来。"
+    },
+    {
+        "id": 209,
+        "raw": "[name=\"克洛维希娅\"]卡兹戴尔军事委员会根本没有占领维多利亚的计划。",
+        "type": "dialog",
+        "speaker": "克洛维希娅",
+        "content": "卡兹戴尔军事委员会根本没有占领维多利亚的计划。"
+    },
+    {
+        "id": 210,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_649_1#8$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_649_1#8$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 211,
+        "raw": "[name=\"莱托中校\"]我不傻。我从一开始，就没有把希望寄托在特雷西斯的允诺上。",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "我不傻。我从一开始，就没有把希望寄托在特雷西斯的允诺上。"
+    },
+    {
+        "id": 212,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#6$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 213,
+        "raw": "[name=\"克洛维希娅\"]但你还是参与了那么多手足相残的悲剧。",
+        "type": "dialog",
+        "speaker": "克洛维希娅",
+        "content": "但你还是参与了那么多手足相残的悲剧。"
+    },
+    {
+        "id": 214,
+        "raw": "[name=\"克洛维希娅\"]你是想创造机会？就像萨卡兹们正在为卡兹戴尔做的事情一样。",
+        "type": "dialog",
+        "speaker": "克洛维希娅",
+        "content": "你是想创造机会？就像萨卡兹们正在为卡兹戴尔做的事情一样。"
+    },
+    {
+        "id": 215,
+        "raw": "[name=\"克洛维希娅\"]也许，这场将所有公爵的精力耗干的战争，将成为高卢的幽灵再度返回人间的契机。",
+        "type": "dialog",
+        "speaker": "克洛维希娅",
+        "content": "也许，这场将所有公爵的精力耗干的战争，将成为高卢的幽灵再度返回人间的契机。"
+    },
+    {
+        "id": 216,
+        "raw": "[name=\"克洛维希娅\"]但问题在于——",
+        "type": "dialog",
+        "speaker": "克洛维希娅",
+        "content": "但问题在于——"
+    },
+    {
+        "id": 217,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#1$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 218,
+        "raw": "[name=\"克洛维希娅\"]——你真的相信吗，勒内·莱托？",
+        "type": "dialog",
+        "speaker": "克洛维希娅",
+        "content": "——你真的相信吗，勒内·莱托？"
+    },
+    {
+        "id": 219,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_649_1#8$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_649_1#8$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 220,
+        "raw": "[name=\"莱托中校\"]......",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "......"
+    },
+    {
+        "id": 221,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_649_1#5$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_649_1#5$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 222,
+        "raw": "[name=\"莱托中校\"]我还能相信什么呢？",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "我还能相信什么呢？"
+    },
+    {
+        "id": 223,
+        "raw": "[name=\"莱托中校\"]我已经承认我的懦弱了，你还需要我承认我的愚蠢，我的绝望，我的毫无意义？",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "我已经承认我的懦弱了，你还需要我承认我的愚蠢，我的绝望，我的毫无意义？"
+    },
+    {
+        "id": 224,
+        "raw": "[name=\"莱托中校\"]你想找我干嘛？",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "你想找我干嘛？"
+    },
+    {
+        "id": 225,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#1$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 226,
+        "raw": "[name=\"克洛维希娅\"]合作。",
+        "type": "dialog",
+        "speaker": "克洛维希娅",
+        "content": "合作。"
+    },
+    {
+        "id": 227,
+        "raw": "[name=\"克洛维希娅\"]自救军，那些反抗萨卡兹，在维多利亚可笑的贵族之间挣扎求生的人，都还有一线生机。",
+        "type": "dialog",
+        "speaker": "克洛维希娅",
+        "content": "自救军，那些反抗萨卡兹，在维多利亚可笑的贵族之间挣扎求生的人，都还有一线生机。"
+    },
+    {
+        "id": 228,
+        "raw": "[name=\"克洛维希娅\"]而你所奢求的所谓的“高卢”，可能也存在于那一线生机之中。",
+        "type": "dialog",
+        "speaker": "克洛维希娅",
+        "content": "而你所奢求的所谓的“高卢”，可能也存在于那一线生机之中。"
+    },
+    {
+        "id": 229,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_649_1#6$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_649_1#6$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 230,
+        "raw": "[name=\"莱托中校\"]......高卢啊，高卢。",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "......高卢啊，高卢。"
+    },
+    {
+        "id": 231,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_649_1#1$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_649_1#1$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 232,
+        "raw": "[name=\"莱托中校\"]看来，你是一位仍旧愿意抗争的人。",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "看来，你是一位仍旧愿意抗争的人。"
+    },
+    {
+        "id": 233,
+        "raw": "[name=\"莱托中校\"]对你们这样的人而言，就算是尘埃里的废墟，也能成为下一座壁垒的基石。",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "对你们这样的人而言，就算是尘埃里的废墟，也能成为下一座壁垒的基石。"
+    },
+    {
+        "id": 234,
+        "raw": "[name=\"莱托中校\"]你们都是这样的人，你，军事委员会......",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "你们都是这样的人，你，军事委员会......"
+    },
+    {
+        "id": 235,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_649_1#6$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_649_1#6$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 236,
+        "raw": "[name=\"莱托中校\"]你们如此强大，强大到能颠覆国家，操弄历史，更遑论......一两个我这样的人的命运。",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "你们如此强大，强大到能颠覆国家，操弄历史，更遑论......一两个我这样的人的命运。"
+    },
+    {
+        "id": 237,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#1$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 238,
+        "raw": "[name=\"克洛维希娅\"]停下你的自怨自艾吧，在地狱降临之前，我们还有很多可以做的事情。",
+        "type": "dialog",
+        "speaker": "克洛维希娅",
+        "content": "停下你的自怨自艾吧，在地狱降临之前，我们还有很多可以做的事情。"
+    },
+    {
+        "id": 239,
+        "raw": "[name=\"克洛维希娅\"]无论你当作赎罪还是当作另一次抗争的开始，我都无所谓。",
+        "type": "dialog",
+        "speaker": "克洛维希娅",
+        "content": "无论你当作赎罪还是当作另一次抗争的开始，我都无所谓。"
+    },
+    {
+        "id": 240,
+        "raw": "[name=\"克洛维希娅\"]莱托，我希望我们能——",
+        "type": "dialog",
+        "speaker": "克洛维希娅",
+        "content": "莱托，我希望我们能——"
+    },
+    {
+        "id": 241,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_649_1#9$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_649_1#9$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 242,
+        "raw": "[name=\"莱托中校\"]那么，了不起的人啊，你能告诉我——",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "那么，了不起的人啊，你能告诉我——"
+    },
+    {
+        "id": 243,
+        "raw": "[name=\"莱托中校\"]我该如何拯救自己吗？",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "我该如何拯救自己吗？"
+    },
+    {
+        "id": 244,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#5$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 245,
+        "raw": "[name=\"克洛维希娅\"]......",
+        "type": "dialog",
+        "speaker": "克洛维希娅",
+        "content": "......"
+    },
+    {
+        "id": 246,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_649_1#9$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_649_1#9$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 247,
+        "raw": "[name=\"莱托中校\"]看吧，你也没有主意。",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "看吧，你也没有主意。"
+    },
+    {
+        "id": 248,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_649_1#1$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_649_1#1$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 249,
+        "raw": "[name=\"莱托中校\"]让开吧。",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "让开吧。"
+    },
+    {
+        "id": 250,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#7$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 251,
+        "raw": "[name=\"克洛维希娅\"]你真的不打算回头？",
+        "type": "dialog",
+        "speaker": "克洛维希娅",
+        "content": "你真的不打算回头？"
+    },
+    {
+        "id": 252,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_649_1#1$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_649_1#1$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 253,
+        "raw": "[name=\"莱托中校\"]是的。",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "是的。"
+    },
+    {
+        "id": 254,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#6$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 255,
+        "raw": "[name=\"克洛维希娅\"]......那么我也不会祝福你。",
+        "type": "dialog",
+        "speaker": "克洛维希娅",
+        "content": "......那么我也不会祝福你。"
+    },
+    {
+        "id": 256,
+        "raw": "[name=\"克洛维希娅\"]你背负着那么多人的死，我的同僚们的死，你却做出了令人不齿的决定。",
+        "type": "dialog",
+        "speaker": "克洛维希娅",
+        "content": "你背负着那么多人的死，我的同僚们的死，你却做出了令人不齿的决定。"
+    },
+    {
+        "id": 257,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#3$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 258,
+        "raw": "[name=\"克洛维希娅\"]勒内·莱托！",
+        "type": "dialog",
+        "speaker": "克洛维希娅",
+        "content": "勒内·莱托！"
+    },
+    {
+        "id": 259,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_649_1#5$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_649_1#5$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 260,
+        "raw": "[name=\"莱托中校\"]够了。快逃吧，萨卡兹就要来了。",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "够了。快逃吧，萨卡兹就要来了。"
+    },
+    {
+        "id": 261,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_649_1#8$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_649_1#8$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 262,
+        "raw": "[name=\"莱托中校\"]我还得......去告别呢。",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "我还得......去告别呢。"
+    },
+    {
+        "id": 263,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 264,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 265,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 266,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 267,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 268,
+        "raw": "[Background(image=\"32_g11_victoriaroom_n\", screenadapt=\"coverall\", block=true)]",
+        "type": "background",
+        "image": "32_g11_victoriaroom_n.png",
+        "screenadapt": "coverall",
+        "block": true
+    },
+    {
+        "id": 269,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 270,
+        "raw": "[PlayMusic(intro=\"$loneliness_intro\", key=\"$loneliness_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/static/m_avg/m_avg_loneliness_intro.mp3",
+        "key": "sound_beta_2/music/static/m_avg/m_avg_loneliness_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 271,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 272,
+        "raw": "[Delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"这林贡斯浸透我们的眼泪♪\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "这林贡斯浸透我们的眼泪♪",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n战场充满了苦与累♪\",block = true)]",
+        "type": "sticker",
+        "text": "\\n战场充满了苦与累♪"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n但那一天总会来到♪\",block = true)]",
+        "type": "sticker",
+        "text": "\\n但那一天总会来到♪"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n要判处侵略者死罪♪\",block = true)]",
+        "type": "sticker",
+        "text": "\\n要判处侵略者死罪♪"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n要判处侵略者死罪♪\",block = true)]",
+        "type": "sticker",
+        "text": "\\n要判处侵略者死罪♪"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": 279,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 280,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 281,
+        "raw": "[PlaySound(key=\"$doorknockquite\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_doorknockquite.mp3",
+        "volume": 1
+    },
+    {
+        "id": 282,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 283,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 284,
+        "raw": "[PlaySound(key=\"$dooropenquite\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_dooropenquite.mp3"
+    },
+    {
+        "id": 285,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 286,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#1$1\",duration=0.7)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#1$1.png",
+        "duration": 0.7
+    },
+    {
+        "id": 287,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 288,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 289,
+        "raw": "[name=\"莱托中校\"]......",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "......"
+    },
+    {
+        "id": 290,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 291,
+        "raw": "[Charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 292,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 293,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 294,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 295,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"一个住在城里的“老近卫军”。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "一个住在城里的“老近卫军”。",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n我怎么在这个时刻最先想起他呢？\",block = true)]",
+        "type": "sticker",
+        "text": "\\n我怎么在这个时刻最先想起他呢？"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": 299,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 300,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 301,
+        "raw": "[musicvolume(volume=0, fadetime=1)]",
+        "type": "music_volume",
+        "volume": "0,",
+        "fadetime": 1
+    },
+    {
+        "id": 302,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#5$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#5$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 303,
+        "raw": "[delay(time=0.3)]",
+        "type": "delay",
+        "time": 0.3
+    },
+    {
+        "id": 304,
+        "raw": "[PlaySound(key=\"$d_avg_punchsp1\",volume=0.8)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_punchsp1.mp3",
+        "volume": 0.8
+    },
+    {
+        "id": 305,
+        "raw": "[CameraShake(duration=0.7, xstrength=15, ystrength=15, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.7,",
+        "xstrength": "15,",
+        "ystrength": "15,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 306,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_081\", posfrom = \"-60,0\", posto = \"-60,0\",bstart=0.2,bend=0.7,afrom=0,ato=0,duration=0,focus=\"m\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_081.png",
+        "bstart": "0.2,bend=0.7,afrom=0,ato=0,duration=0,focus=\"m\""
+    },
+    {
+        "id": 307,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_081\",action=\"zoom\",poszoom=\"0.5,0.5\",scale=0.95,duration=0,focus=\"m\",bstart=0.2,bend=0.7,isblock=true)]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_081.png",
+        "action": "zoom",
+        "poszoom": "0.5,0.5",
+        "scale": "0.95,duration=0,focus=\"m\",bstart=0.2,bend=0.7,isblock=true"
+    },
+    {
+        "id": 308,
+        "raw": "[charslot(slot=\"r\",afrom=0,ato=1,duration=1,focus=\"m\",bstart=0.2,bend=0.7,isblock=true)]",
+        "type": "charslot",
+        "slot": "r",
+        "afrom": "0,ato=1,duration=1,focus=\"m\",bstart=0.2,bend=0.7,isblock=true"
+    },
+    {
+        "id": 309,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#5$1\",focus=\"n\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#5$1.png",
+        "focus": "n"
+    },
+    {
+        "id": 310,
+        "raw": "[name=\"？？？\"]......你，的番，号！",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "......你，的番，号！"
+    },
+    {
+        "id": 311,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#5$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#5$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 312,
+        "raw": "[name=\"莱托中校\"]您顶在我腰间的木棍依然如此有力，长官。",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "您顶在我腰间的木棍依然如此有力，长官。"
+    },
+    {
+        "id": 313,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#5$1\",focus=\"n\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#5$1.png",
+        "focus": "n"
+    },
+    {
+        "id": 314,
+        "raw": "[name=\"？？？\"]闭，嘴！报......出你的番号！士兵！",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "闭，嘴！报......出你的番号！士兵！"
+    },
+    {
+        "id": 315,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#2$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#2$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 316,
+        "raw": "[name=\"莱托中校\"]......",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "......"
+    },
+    {
+        "id": 317,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 318,
+        "raw": "[name=\"莱托中校\"]林贡斯青年近卫军第二近卫腾跃兵团，莱托下士！",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "林贡斯青年近卫军第二近卫腾跃兵团，莱托下士！"
+    },
+    {
+        "id": 319,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 320,
+        "raw": "[PlaySound(key=\"$d_avg_runstop\", volume=0.4)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_runstop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 321,
+        "raw": "[charslot(slot=\"r\", posfrom = \"-60,0\", posto = \"60,0\",afrom=1,ato=1,duration=0.5,focus=\"m\")]",
+        "type": "charslot",
+        "slot": "r",
+        "afrom": "1,ato=1,duration=0.5,focus=\"m\""
+    },
+    {
+        "id": 322,
+        "raw": "[charslot(slot=\"r\",afrom=1,ato=1,action=\"zoom\",poszoom=\"0.5,0.5\",scale=1,focus=\"m\",duration=0.5)]",
+        "type": "charslot",
+        "slot": "r",
+        "afrom": "1,ato=1,action=\"zoom\",poszoom=\"0.5,0.5\",scale=1,focus=\"m\",duration=0.5"
+    },
+    {
+        "id": 323,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 324,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_081\",bstart=0.2,bend=0.7,focus=\"m\")]",
+        "type": "charslot",
+        "bstart": "0.2,bend=0.7,focus=\"m\""
+    },
+    {
+        "id": 325,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=false)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": false
+    },
+    {
+        "id": 326,
+        "raw": "[delay(time=0.2)]",
+        "type": "delay",
+        "time": 0.2
+    },
+    {
+        "id": 327,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_081\",posfrom = \"0,0\", posto = \"460,0\",focus=\"n\")]",
+        "type": "charslot",
+        "focus": "n"
+    },
+    {
+        "id": 328,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_081\",bstart=0,bend=0,duration=1,focus=\"r\")]",
+        "type": "charslot",
+        "bstart": "0,bend=0,duration=1,focus=\"r\""
+    },
+    {
+        "id": 329,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 330,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_081\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_081.png",
+        "focus": "r"
+    },
+    {
+        "id": 331,
+        "raw": "[name=\"昏聩的老人\"]我的，部队？",
+        "type": "dialog",
+        "speaker": "昏聩的老人",
+        "content": "我的，部队？"
+    },
+    {
+        "id": 332,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 333,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_081\",focus=\"all\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_081.png",
+        "focus": "all"
+    },
+    {
+        "id": 334,
+        "raw": "[delay(time=0.2)]",
+        "type": "delay",
+        "time": 0.2
+    },
+    {
+        "id": 335,
+        "raw": "[PlaySound(key=\"$d_avg_cloakmovement\", volume=0.7)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_cloakmovement.mp3",
+        "volume": 0.7
+    },
+    {
+        "id": 336,
+        "raw": "[charslot(slot=\"m\", posfrom = \"0,0\", posto = \"-200,0\",afrom=1,ato=1,duration=1.5)]",
+        "type": "charslot",
+        "slot": "m",
+        "afrom": "1,ato=1,duration=1.5"
+    },
+    {
+        "id": 337,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 338,
+        "raw": "[musicvolume(volume=0.6, fadetime=2)]",
+        "type": "music_volume",
+        "volume": "0.6,",
+        "fadetime": 2
+    },
+    {
+        "id": 339,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#9$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#9$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 340,
+        "raw": "[name=\"莱托中校\"]是的，您的部队。",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "是的，您的部队。"
+    },
+    {
+        "id": 341,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_081\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_081.png",
+        "focus": "r"
+    },
+    {
+        "id": 342,
+        "raw": "[name=\"昏聩的老人\"]我没，见过你。",
+        "type": "dialog",
+        "speaker": "昏聩的老人",
+        "content": "我没，见过你。"
+    },
+    {
+        "id": 343,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#9$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#9$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 344,
+        "raw": "[name=\"莱托中校\"]您见过，您只是忘了，长官。",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "您见过，您只是忘了，长官。"
+    },
+    {
+        "id": 345,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_081\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_081.png",
+        "focus": "r"
+    },
+    {
+        "id": 346,
+        "raw": "[name=\"昏聩的老人\"]是吗......",
+        "type": "dialog",
+        "speaker": "昏聩的老人",
+        "content": "是吗......"
+    },
+    {
+        "id": 347,
+        "raw": "[name=\"昏聩的老人\"]皇帝陛下，命，令我在这里养伤，但我，还是想知道，前线，的，战况。",
+        "type": "dialog",
+        "speaker": "昏聩的老人",
+        "content": "皇帝陛下，命，令我在这里养伤，但我，还是想知道，前线，的，战况。"
+    },
+    {
+        "id": 348,
+        "raw": "[name=\"昏聩的老人\"]邪恶，的巫王被我们的舰队，摧毁了吗？",
+        "type": "dialog",
+        "speaker": "昏聩的老人",
+        "content": "邪恶，的巫王被我们的舰队，摧毁了吗？"
+    },
+    {
+        "id": 349,
+        "raw": "[name=\"昏聩的老人\"]我在电视里，看，到了维多利亚的大，大，大胡子公爵的军队！",
+        "type": "dialog",
+        "speaker": "昏聩的老人",
+        "content": "我在电视里，看，到了维多利亚的大，大，大胡子公爵的军队！"
+    },
+    {
+        "id": 350,
+        "raw": "[name=\"昏聩的老人\"]他，们也想趁机忤逆，皇帝陛下吗！",
+        "type": "dialog",
+        "speaker": "昏聩的老人",
+        "content": "他，们也想趁机忤逆，皇帝陛下吗！"
+    },
+    {
+        "id": 351,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#8$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#8$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 352,
+        "raw": "[name=\"莱托中校\"]长官，伦蒂尼姆已经陷落了。",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "长官，伦蒂尼姆已经陷落了。"
+    },
+    {
+        "id": 353,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_081\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_081.png",
+        "focus": "r"
+    },
+    {
+        "id": 354,
+        "raw": "[name=\"昏聩的老人\"]好！",
+        "type": "dialog",
+        "speaker": "昏聩的老人",
+        "content": "好！"
+    },
+    {
+        "id": 355,
+        "raw": "[name=\"昏聩的老人\"]我会被擢为......老，近卫军！你，还不到，时候！你，还需证明，自己！",
+        "type": "dialog",
+        "speaker": "昏聩的老人",
+        "content": "我会被擢为......老，近卫军！你，还不到，时候！你，还需证明，自己！"
+    },
+    {
+        "id": 356,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 357,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 358,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 359,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"他已经快九十岁了。他早就已经糊涂到几乎忘记了一切。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "他已经快九十岁了。他早就已经糊涂到几乎忘记了一切。",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n几十年来，他的记忆依旧停留在高卢人追随科西嘉一世出征莱塔尼亚的黄金盛世。\",block = true)]",
+        "type": "sticker",
+        "text": "\\n几十年来，他的记忆依旧停留在高卢人追随科西嘉一世出征莱塔尼亚的黄金盛世。"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n护士总是说他会在明年去世，但他还是挺到了如今。\",block = true)]",
+        "type": "sticker",
+        "text": "\\n护士总是说他会在明年去世，但他还是挺到了如今。"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n挺到了高卢都已成了历史。\",block = true)]",
+        "type": "sticker",
+        "text": "\\n挺到了高卢都已成了历史。"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n挺到了伦蒂尼姆都已经将要走进坟墓。\",block = true)]",
+        "type": "sticker",
+        "text": "\\n挺到了伦蒂尼姆都已经将要走进坟墓。"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"......\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "......",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n我在离开城防军的岗位前，下达的最后一项命令，是保证这座疗养院的安全。\",block = true)]",
+        "type": "sticker",
+        "text": "\\n我在离开城防军的岗位前，下达的最后一项命令，是保证这座疗养院的安全。"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n这是我在漫长的城防军服役期间，为我自己做的唯一一件事。\",block = true)]",
+        "type": "sticker",
+        "text": "\\n这是我在漫长的城防军服役期间，为我自己做的唯一一件事。"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": 370,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 371,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 372,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#9$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#9$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 373,
+        "raw": "[name=\"莱托中校\"]我给您带了林贡斯产的兰斯香槟，您的最爱。请坐下吧。",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "我给您带了林贡斯产的兰斯香槟，您的最爱。请坐下吧。"
+    },
+    {
+        "id": 374,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 375,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_081\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_081.png",
+        "focus": "m"
+    },
+    {
+        "id": 376,
+        "raw": "[delay(time=0.2)]",
+        "type": "delay",
+        "time": 0.2
+    },
+    {
+        "id": 377,
+        "raw": "[PlaySound(key=\"$d_avg_chairrub\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_chairrub.mp3"
+    },
+    {
+        "id": 378,
+        "raw": "[charslot(duration=1)]",
+        "type": "charslot",
+        "duration": 1
+    },
+    {
+        "id": 379,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 380,
+        "raw": "[name=\"昏聩的老人\"]唔......",
+        "type": "dialog",
+        "speaker": "昏聩的老人",
+        "content": "唔......"
+    },
+    {
+        "id": 381,
+        "raw": "[name=\"昏聩的老人\"]酒很好，下士，唔......",
+        "type": "dialog",
+        "speaker": "昏聩的老人",
+        "content": "酒很好，下士，唔......"
+    },
+    {
+        "id": 382,
+        "raw": "[name=\"昏聩的老人\"]这林贡斯浸透我们的眼泪♪",
+        "type": "dialog",
+        "speaker": "昏聩的老人",
+        "content": "这林贡斯浸透我们的眼泪♪"
+    },
+    {
+        "id": 383,
+        "raw": "[name=\"昏聩的老人\"]战场充满了苦与累♪",
+        "type": "dialog",
+        "speaker": "昏聩的老人",
+        "content": "战场充满了苦与累♪"
+    },
+    {
+        "id": 384,
+        "raw": "[name=\"昏聩的老人\"]......要判处侵略者死罪......♪",
+        "type": "dialog",
+        "speaker": "昏聩的老人",
+        "content": "......要判处侵略者死罪......♪"
+    },
+    {
+        "id": 385,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#9$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#9$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 386,
+        "raw": "[name=\"莱托中校\"]您在唱这首歌的时候，就好像所有的病痛和衰老都不曾存在一般。",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "您在唱这首歌的时候，就好像所有的病痛和衰老都不曾存在一般。"
+    },
+    {
+        "id": 387,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 388,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 389,
+        "raw": "[name=\"昏聩的老人\"]......我们的旗帜永远辉煌♪",
+        "type": "dialog",
+        "speaker": "昏聩的老人",
+        "content": "......我们的旗帜永远辉煌♪"
+    },
+    {
+        "id": 390,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 391,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 392,
+        "raw": "[name=\"莱托中校\"]我从未见过林贡斯。",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "我从未见过林贡斯。"
+    },
+    {
+        "id": 393,
+        "raw": "[name=\"莱托中校\"]您曾和我无数次说起那些华伟的殿堂，那些发达的路网......",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "您曾和我无数次说起那些华伟的殿堂，那些发达的路网......"
+    },
+    {
+        "id": 394,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#8$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#8$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 395,
+        "raw": "[name=\"莱托中校\"]......您还记得戈尔丁吗，那个很多年前，曾经和我一起来拜访您的女孩。",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "......您还记得戈尔丁吗，那个很多年前，曾经和我一起来拜访您的女孩。"
+    },
+    {
+        "id": 396,
+        "raw": "[name=\"莱托中校\"]她死了。",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "她死了。"
+    },
+    {
+        "id": 397,
+        "raw": "[name=\"莱托中校\"]她为这个残酷的，无法撼动的，沾满了鲜血的时代而死。",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "她为这个残酷的，无法撼动的，沾满了鲜血的时代而死。"
+    },
+    {
+        "id": 398,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#6$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#6$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 399,
+        "raw": "[name=\"莱托中校\"]而我，是造就这一切的凶手之一。",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "而我，是造就这一切的凶手之一。"
+    },
+    {
+        "id": 400,
+        "raw": "[name=\"莱托中校\"]我对她......我不知道。",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "我对她......我不知道。"
+    },
+    {
+        "id": 401,
+        "raw": "[name=\"莱托中校\"]但她已经离去了。她不在我的视野里，她不再看向我。",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "但她已经离去了。她不在我的视野里，她不再看向我。"
+    },
+    {
+        "id": 402,
+        "raw": "[name=\"莱托中校\"]我......很害怕，先生。",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "我......很害怕，先生。"
+    },
+    {
+        "id": 403,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 404,
+        "raw": "[name=\"莱托中校\"]有个叫阿米娅的孩子告诉我，我的所作所为都是因为懦弱。",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "有个叫阿米娅的孩子告诉我，我的所作所为都是因为懦弱。"
+    },
+    {
+        "id": 405,
+        "raw": "[name=\"莱托中校\"]我曾向戈尔丁自白，我只是想在接踵而至的毁灭中活下来。",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "我曾向戈尔丁自白，我只是想在接踵而至的毁灭中活下来。"
+    },
+    {
+        "id": 406,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#8$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#8$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 407,
+        "raw": "[name=\"莱托中校\"]但我仍然希望......",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "但我仍然希望......"
+    },
+    {
+        "id": 408,
+        "raw": "[name=\"莱托中校\"]哪怕只是借口，我也仍然希望——",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "哪怕只是借口，我也仍然希望——"
+    },
+    {
+        "id": 409,
+        "raw": "[name=\"莱托中校\"]那片废墟中会有新的高卢人站起来......",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "那片废墟中会有新的高卢人站起来......"
+    },
+    {
+        "id": 410,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#6$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#6$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 411,
+        "raw": "[name=\"莱托中校\"]不，不对。",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "不，不对。"
+    },
+    {
+        "id": 412,
+        "raw": "[name=\"莱托中校\"]我希望戈尔丁能继续教那些孩子，在阳光，和花香里。",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "我希望戈尔丁能继续教那些孩子，在阳光，和花香里。"
+    },
+    {
+        "id": 413,
+        "raw": "[name=\"莱托中校\"]她的坚持真的很美。",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "她的坚持真的很美。"
+    },
+    {
+        "id": 414,
+        "raw": "[name=\"莱托中校\"]可我，可我却是那个......我......",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "可我，可我却是那个......我......"
+    },
+    {
+        "id": 415,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 416,
+        "raw": "[name=\"莱托中校\"]我已经做了我能做的一切。这很累，先生。",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "我已经做了我能做的一切。这很累，先生。"
+    },
+    {
+        "id": 417,
+        "raw": "[name=\"莱托中校\"]您觉得我们还有未来吗？",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "您觉得我们还有未来吗？"
+    },
+    {
+        "id": 418,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 419,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 420,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 421,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 422,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 423,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 424,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"......\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "......",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n......\",block = true)]",
+        "type": "sticker",
+        "text": "\\n......"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"原来他早就睡着了。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "原来他早就睡着了。",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n也好。\",block = true)]",
+        "type": "sticker",
+        "text": "\\n也好。"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": 431,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 432,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 433,
+        "raw": "[PlaySound(key=\"$d_avg_drawsword\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_drawsword.mp3"
+    },
+    {
+        "id": 434,
+        "raw": "[PlaySound(key=\"$d_avg_exsheath\",delay=0.3)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_exsheath.mp3",
+        "delay": 0.3
+    },
+    {
+        "id": 435,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 436,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 437,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 438,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 439,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"我抽出我的佩剑。曾属于高卢人的剑。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "我抽出我的佩剑。曾属于高卢人的剑。",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n我想......也许让他在萨卡兹闯入这里以前，停留在梦里会更好。\",block = true)]",
+        "type": "sticker",
+        "text": "\\n我想......也许让他在萨卡兹闯入这里以前，停留在梦里会更好。"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n那起码会是一个灿烂的梦。\",block = true)]",
+        "type": "sticker",
+        "text": "\\n那起码会是一个灿烂的梦。"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n......可我这样卑劣的人，岂敢伸手玷污——\",block = true)]",
+        "type": "sticker",
+        "text": "\\n......可我这样卑劣的人，岂敢伸手玷污——"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": 445,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 446,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 447,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 448,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 449,
+        "raw": "[stopmusic(fadetime=1.5)]",
+        "type": "stop_music",
+        "fadetime": 1.5
+    },
+    {
+        "id": 450,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 451,
+        "raw": "[Background(image=\"bg_black\", screenadapt=\"coverall\", block=true)]",
+        "type": "background",
+        "image": "bg_black.png",
+        "screenadapt": "coverall",
+        "block": true
+    },
+    {
+        "id": 452,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 453,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 454,
+        "raw": "[Delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 455,
+        "raw": "[playsound(key=\"$d_avg_broadswordblood\",volume=0.7)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_broadswordblood.mp3",
+        "volume": 0.7
+    },
+    {
+        "id": 456,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 457,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 458,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 459,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 460,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"......\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "......",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n已经老去的青年近卫军的血，溅满了我的双手。\",block = true)]",
+        "type": "sticker",
+        "text": "\\n已经老去的青年近卫军的血，溅满了我的双手。"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": 464,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 465,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 466,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 467,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 468,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 469,
+        "raw": "[Background(image=\"bg_victoria\", screenadapt=\"coverall\", block=true)]",
+        "type": "background",
+        "image": "bg_victoria.png",
+        "screenadapt": "coverall",
+        "block": true
+    },
+    {
+        "id": 470,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 471,
+        "raw": "[playMusic(intro=\"$plot_intro\", key=\"$plot_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act9d0d0/m_avg_plot_intro.mp3",
+        "key": "sound_beta_2/music/act9d0d0/m_avg_plot_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 472,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 473,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 474,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 475,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 476,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 477,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"统御鲜血的君主，血魔大君，他正静静望着维多利亚宫廷中华贵的装饰。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "统御鲜血的君主，血魔大君，他正静静望着维多利亚宫廷中华贵的装饰。",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n他脸上的表情，甚至称得上......恬静。\",block = true)]",
+        "type": "sticker",
+        "text": "\\n他脸上的表情，甚至称得上......恬静。"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": 481,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 482,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 483,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_410_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_410_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 484,
+        "raw": "[name=\"血魔大君\"]你来了，莱托。",
+        "type": "dialog",
+        "speaker": "血魔大君",
+        "content": "你来了，莱托。"
+    },
+    {
+        "id": 485,
+        "raw": "[name=\"血魔大君\"]我还以为你会找个地方躲起来呢。",
+        "type": "dialog",
+        "speaker": "血魔大君",
+        "content": "我还以为你会找个地方躲起来呢。"
+    },
+    {
+        "id": 486,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 487,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 488,
+        "raw": "[Delay(time=0.2)]",
+        "type": "delay",
+        "time": 0.2
+    },
+    {
+        "id": 489,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\",volume=0.6)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 490,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#1$1\",duration=1)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#1$1.png",
+        "duration": 1
+    },
+    {
+        "id": 491,
+        "raw": "[Delay(time=2.5)]",
+        "type": "delay",
+        "time": 2.5
+    },
+    {
+        "id": 492,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 493,
+        "raw": "[name=\"莱托中校\"]不，当然不。",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "不，当然不。"
+    },
+    {
+        "id": 494,
+        "raw": "[name=\"莱托中校\"]我会来找您的，大君。",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "我会来找您的，大君。"
+    },
+    {
+        "id": 495,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_410_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_410_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 496,
+        "raw": "[name=\"血魔大君\"]你今天打扮得很精神，很好。自从你认识的那个高卢老师死后，你一直都是副垂头丧气的样子。",
+        "type": "dialog",
+        "speaker": "血魔大君",
+        "content": "你今天打扮得很精神，很好。自从你认识的那个高卢老师死后，你一直都是副垂头丧气的样子。"
+    },
+    {
+        "id": 497,
+        "raw": "[name=\"血魔大君\"]我和我的孩子们打过赌，他们猜你就快死了。",
+        "type": "dialog",
+        "speaker": "血魔大君",
+        "content": "我和我的孩子们打过赌，他们猜你就快死了。"
+    },
+    {
+        "id": 498,
+        "raw": "[name=\"血魔大君\"]但我是相信你的，莱托。",
+        "type": "dialog",
+        "speaker": "血魔大君",
+        "content": "但我是相信你的，莱托。"
+    },
+    {
+        "id": 499,
+        "raw": "[name=\"血魔大君\"]陪我喝一杯吧，庆祝你的仇敌，这个叫维多利亚的国家的死亡。",
+        "type": "dialog",
+        "speaker": "血魔大君",
+        "content": "陪我喝一杯吧，庆祝你的仇敌，这个叫维多利亚的国家的死亡。"
+    },
+    {
+        "id": 500,
+        "raw": "[name=\"血魔大君\"]我会亲手开启仪式，赠予它最古老的诅咒，最悲哀的终局。",
+        "type": "dialog",
+        "speaker": "血魔大君",
+        "content": "我会亲手开启仪式，赠予它最古老的诅咒，最悲哀的终局。"
+    },
+    {
+        "id": 501,
+        "raw": "[name=\"血魔大君\"]我很快就要出发了。连我的族裔们都无此殊荣，你真该庆幸。",
+        "type": "dialog",
+        "speaker": "血魔大君",
+        "content": "我很快就要出发了。连我的族裔们都无此殊荣，你真该庆幸。"
+    },
+    {
+        "id": 502,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#8$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#8$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 503,
+        "raw": "[name=\"莱托中校\"]......",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "......"
+    },
+    {
+        "id": 504,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 505,
+        "raw": "[name=\"莱托中校\"]大君，您知道。",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "大君，您知道。"
+    },
+    {
+        "id": 506,
+        "raw": "[name=\"莱托中校\"]在我出生的时候，高卢的首都就已经被威灵顿公爵和他卑劣的同谋彻底毁灭了。",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "在我出生的时候，高卢的首都就已经被威灵顿公爵和他卑劣的同谋彻底毁灭了。"
+    },
+    {
+        "id": 507,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 508,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 509,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"一座城市毁灭了，如同一声叹息。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "一座城市毁灭了，如同一声叹息。",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": 512,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 513,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 514,
+        "raw": "[name=\"莱托中校\"]如今，您似乎要对伦蒂尼姆，做同样的事情。",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "如今，您似乎要对伦蒂尼姆，做同样的事情。"
+    },
+    {
+        "id": 515,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_410_1#7$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_410_1#7$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 516,
+        "raw": "[name=\"血魔大君\"]这令你唏嘘？",
+        "type": "dialog",
+        "speaker": "血魔大君",
+        "content": "这令你唏嘘？"
+    },
+    {
+        "id": 517,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#8$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#8$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 518,
+        "raw": "[name=\"莱托中校\"]我只是......没有想到。",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "我只是......没有想到。"
+    },
+    {
+        "id": 519,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_410_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_410_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 520,
+        "raw": "[name=\"血魔大君\"]威灵顿公爵拆毁了林贡斯，瓜分了那些移动地块。呵，可笑又无趣的维多利亚人。",
+        "type": "dialog",
+        "speaker": "血魔大君",
+        "content": "威灵顿公爵拆毁了林贡斯，瓜分了那些移动地块。呵，可笑又无趣的维多利亚人。"
+    },
+    {
+        "id": 521,
+        "raw": "[name=\"血魔大君\"]你想亲手了结你的血仇吗？我赞许你的执着。",
+        "type": "dialog",
+        "speaker": "血魔大君",
+        "content": "你想亲手了结你的血仇吗？我赞许你的执着。"
+    },
+    {
+        "id": 522,
+        "raw": "[name=\"血魔大君\"]我确实可以赐你这样的机会。",
+        "type": "dialog",
+        "speaker": "血魔大君",
+        "content": "我确实可以赐你这样的机会。"
+    },
+    {
+        "id": 523,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 524,
+        "raw": "[name=\"莱托中校\"]向您致谢，大君。",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "向您致谢，大君。"
+    },
+    {
+        "id": 525,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 526,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 527,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 528,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"我深深地低下头颅。但我能感觉到他的视线停留在我的身上。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "我深深地低下头颅。但我能感觉到他的视线停留在我的身上。",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": 531,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 532,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_410_1#5$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_410_1#5$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 533,
+        "raw": "[name=\"血魔大君\"]啊......多可悲。",
+        "type": "dialog",
+        "speaker": "血魔大君",
+        "content": "啊......多可悲。"
+    },
+    {
+        "id": 534,
+        "raw": "[name=\"血魔大君\"]卑鄙，善变，懦弱，自以为是。",
+        "type": "dialog",
+        "speaker": "血魔大君",
+        "content": "卑鄙，善变，懦弱，自以为是。"
+    },
+    {
+        "id": 535,
+        "raw": "[name=\"血魔大君\"]会因为恐惧祈求怜悯，又因为绝望而自取灭亡。",
+        "type": "dialog",
+        "speaker": "血魔大君",
+        "content": "会因为恐惧祈求怜悯，又因为绝望而自取灭亡。"
+    },
+    {
+        "id": 536,
+        "raw": "[name=\"血魔大君\"]可我还是很好奇，你啊，你啊。",
+        "type": "dialog",
+        "speaker": "血魔大君",
+        "content": "可我还是很好奇，你啊，你啊。"
+    },
+    {
+        "id": 537,
+        "raw": "[name=\"血魔大君\"]在你渺小的生命中，我们相处的时间已经不短了。",
+        "type": "dialog",
+        "speaker": "血魔大君",
+        "content": "在你渺小的生命中，我们相处的时间已经不短了。"
+    },
+    {
+        "id": 538,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_410_1#9$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_410_1#9$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 539,
+        "raw": "[name=\"血魔大君\"]——你真的以为你能杀我，莱托？",
+        "type": "dialog",
+        "speaker": "血魔大君",
+        "content": "——你真的以为你能杀我，莱托？"
+    },
+    {
+        "id": 540,
+        "raw": "[name=\"血魔大君\"]不，不会的。",
+        "type": "dialog",
+        "speaker": "血魔大君",
+        "content": "不，不会的。"
+    },
+    {
+        "id": 541,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 542,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 543,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 544,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"我自己的血，攥住了我自己的心脏。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "我自己的血，攥住了我自己的心脏。",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": 547,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 548,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#7$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#7$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 549,
+        "raw": "[name=\"莱托中校\"]——",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "——"
+    },
+    {
+        "id": 550,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_410_1#7$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_410_1#7$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 551,
+        "raw": "[name=\"血魔大君\"]你也许会想，这个萨卡兹是何等傲慢，对自己何等蔑视。",
+        "type": "dialog",
+        "speaker": "血魔大君",
+        "content": "你也许会想，这个萨卡兹是何等傲慢，对自己何等蔑视。"
+    },
+    {
+        "id": 552,
+        "raw": "[name=\"血魔大君\"]恰恰相反......莱托。",
+        "type": "dialog",
+        "speaker": "血魔大君",
+        "content": "恰恰相反......莱托。"
+    },
+    {
+        "id": 553,
+        "raw": "[name=\"血魔大君\"]因为我即将看见的事物，我对你，充满，怜爱。",
+        "type": "dialog",
+        "speaker": "血魔大君",
+        "content": "因为我即将看见的事物，我对你，充满，怜爱。"
+    },
+    {
+        "id": 554,
+        "raw": "[name=\"血魔大君\"]你的确愚蠢，卑劣，你该珍惜你的血。",
+        "type": "dialog",
+        "speaker": "血魔大君",
+        "content": "你的确愚蠢，卑劣，你该珍惜你的血。"
+    },
+    {
+        "id": 555,
+        "raw": "[name=\"血魔大君\"]我本以为，它们能有些更有趣的用场。",
+        "type": "dialog",
+        "speaker": "血魔大君",
+        "content": "我本以为，它们能有些更有趣的用场。"
+    },
+    {
+        "id": 556,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_410_1#5$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_410_1#5$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 557,
+        "raw": "[name=\"血魔大君\"]唉，我们之间，仓皇的告别。",
+        "type": "dialog",
+        "speaker": "血魔大君",
+        "content": "唉，我们之间，仓皇的告别。"
+    },
+    {
+        "id": 558,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 559,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 560,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 561,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"高卢人的剑......我竭尽全力摸索着。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "高卢人的剑......我竭尽全力摸索着。",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n卑劣者的剑。\",block = true)]",
+        "type": "sticker",
+        "text": "\\n卑劣者的剑。"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": 565,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 566,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_410_1#5$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_410_1#5$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 567,
+        "raw": "[name=\"血魔大君\"]可怜的人。再努力些，再挣扎些，你就快碰到剑柄了。",
+        "type": "dialog",
+        "speaker": "血魔大君",
+        "content": "可怜的人。再努力些，再挣扎些，你就快碰到剑柄了。"
+    },
+    {
+        "id": 568,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#7$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#7$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 569,
+        "raw": "[name=\"莱托中校\"]......我......",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "......我......"
+    },
+    {
+        "id": 570,
+        "raw": "[name=\"莱托中校\"]我......赐予......",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "我......赐予......"
+    },
+    {
+        "id": 571,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_410_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_410_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 572,
+        "raw": "[name=\"血魔大君\"]你想说什么？",
+        "type": "dialog",
+        "speaker": "血魔大君",
+        "content": "你想说什么？"
+    },
+    {
+        "id": 573,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#7$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#7$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 574,
+        "raw": "[name=\"莱托中校\"]我说——",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "我说——"
+    },
+    {
+        "id": 575,
+        "raw": "[stopmusic(fadetime=1)]",
+        "type": "stop_music",
+        "fadetime": 1
+    },
+    {
+        "id": 576,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 577,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 578,
+        "raw": "[CameraShake(duration=1, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 579,
+        "raw": "[Blocker(a=0, r=1,g=0.2, b=0.2, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "1,g=0.2,",
+        "b": "0.2,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 580,
+        "raw": "[Blocker(a=0.3, r=1,g=0.2, b=0.2, fadetime=0.03, block=true)]",
+        "type": "blocker",
+        "a": "0.3,",
+        "r": "1,g=0.2,",
+        "b": "0.2,",
+        "fadetime": "0.03,",
+        "block": true
+    },
+    {
+        "id": 581,
+        "raw": "[PlaySound(key=\"$d_avg_bldwhoosh\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_bldwhoosh.mp3",
+        "volume": 1
+    },
+    {
+        "id": 582,
+        "raw": "[PlaySound(key=\"$d_avg_tear\", volume=1,delay=0.2)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_tear.mp3",
+        "volume": "1,delay=0.2"
+    },
+    {
+        "id": 583,
+        "raw": "[Blocker(a=0, r=1,g=0.2, b=0.2, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "1,g=0.2,",
+        "b": "0.2,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 584,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 585,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 586,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 587,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 588,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"剑刃划过我的脖子，冰凉，冷冽。\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "剑刃划过我的脖子，冰凉，冷冽。",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n我看见我肮脏的血从颈间喷涌而出。\",block = true)]",
+        "type": "sticker",
+        "text": "\\n我看见我肮脏的血从颈间喷涌而出。"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n这些猩红的液体沾湿了他的衣裳，溅上了他的脸。\",block = true)]",
+        "type": "sticker",
+        "text": "\\n这些猩红的液体沾湿了他的衣裳，溅上了他的脸。"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n哈。\",block = true)]",
+        "type": "sticker",
+        "text": "\\n哈。"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": 594,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 595,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 596,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#3$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#3$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 597,
+        "raw": "[CameraShake(duration=0.5, xstrength=12, ystrength=15, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "12,",
+        "ystrength": "15,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 598,
+        "raw": "[name=\"莱托中校\"]我说，我“赐予”你我的血，臭蛭虫！",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "我说，我“赐予”你我的血，臭蛭虫！"
+    },
+    {
+        "id": 599,
+        "raw": "[name=\"莱托中校\"]你再也没法夸耀你纯净的血液了！",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "你再也没法夸耀你纯净的血液了！"
+    },
+    {
+        "id": 600,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#3$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#3$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 601,
+        "raw": "[name=\"莱托中校\"]因为卑鄙的勒内·莱托污染了它！",
+        "type": "dialog",
+        "speaker": "莱托中校",
+        "content": "因为卑鄙的勒内·莱托污染了它！"
+    },
+    {
+        "id": 602,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 603,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 604,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 605,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 606,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 607,
+        "raw": "[Image]",
+        "type": "image"
+    }
+]

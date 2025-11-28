@@ -1,0 +1,504 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")] 第八关（前）",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK",
+        "content": "第八关（前）"
+    },
+    {
+        "id": 2,
+        "raw": "[name=\"\"]   Time - Unknown \\ Weather - Unknown \\ Visibility - Poor",
+        "type": "narration",
+        "content": "Time - Unknown \\ Weather - Unknown \\ Visibility - Poor"
+    },
+    {
+        "id": 3,
+        "raw": "[name=\"\"]   Chernobog - Operation Squad E0's Location",
+        "type": "narration",
+        "content": "Chernobog - Operation Squad E0's Location"
+    },
+    {
+        "id": 4,
+        "raw": "[name=\"\"]   Dr. {@nickname} Rescue Operation, Phase 3",
+        "type": "narration",
+        "content": "Dr. {@nickname} Rescue Operation, Phase 3"
+    },
+    {
+        "id": 5,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 6,
+        "raw": "[Background(image=\"bg_cher_1\", width=1, height=1, fadetime=1)]",
+        "type": "background",
+        "image": "bg_cher_1.png",
+        "width": "1,",
+        "height": "1,",
+        "fadetime": 1
+    },
+    {
+        "id": 7,
+        "raw": "[PlayMusic(intro=\"$chernormal_intro\", key=\"$chernormal_loop\", volume=0.8, crossfade=1, delay=0.5)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta2_180603/m_bat_qiecheng_intro.mp3",
+        "key": "sound_beta_2/music/beta2_180603/m_bat_qiecheng_loop.mp3",
+        "volume": "0.8,",
+        "crossfade": "1,",
+        "delay": 0.5
+    },
+    {
+        "id": 8,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 9,
+        "raw": "[Character(name=\"char_130_doberm_ex\")]",
+        "type": "character",
+        "name": "char_130_doberm_ex"
+    },
+    {
+        "id": 10,
+        "raw": "[name=\"Dobermann\"]  We have less than an hour left. We can't afford to make a detour...",
+        "type": "dialog",
+        "speaker": "Dobermann",
+        "content": "We have less than an hour left. We can't afford to make a detour..."
+    },
+    {
+        "id": 11,
+        "raw": "[name=\"Dobermann\"]  The more time we waste, the more like we are to get caught in the Catastrophe.",
+        "type": "dialog",
+        "speaker": "Dobermann",
+        "content": "The more time we waste, the more like we are to get caught in the Catastrophe."
+    },
+    {
+        "id": 12,
+        "raw": "[name=\"Dobermann\"]  We must directly cut across this area.",
+        "type": "dialog",
+        "speaker": "Dobermann",
+        "content": "We must directly cut across this area."
+    },
+    {
+        "id": 13,
+        "raw": "[name=\"Dobermann\"]  However, we won't be able to conceal our movements anymore given the size of our forces.",
+        "type": "dialog",
+        "speaker": "Dobermann",
+        "content": "However, we won't be able to conceal our movements anymore given the size of our forces."
+    },
+    {
+        "id": 14,
+        "raw": "[name=\"Dobermann\"]  The possibility of getting ambushed when we're navigating through narrow streets is very high...",
+        "type": "dialog",
+        "speaker": "Dobermann",
+        "content": "The possibility of getting ambushed when we're navigating through narrow streets is very high..."
+    },
+    {
+        "id": 15,
+        "raw": "[Character(name=\"char_148_nearl_1\", name2=\"char_130_doberm_ex\", focus=1)]",
+        "type": "character",
+        "name": "char_148_nearl_1",
+        "name2": "char_130_doberm_ex",
+        "focus": 1
+    },
+    {
+        "id": 16,
+        "raw": "[name=\"Nearl\"]   What's the plan?",
+        "type": "dialog",
+        "speaker": "Nearl",
+        "content": "What's the plan?"
+    },
+    {
+        "id": 17,
+        "raw": "[Character(name=\"char_148_nearl_1\", name2=\"char_130_doberm_ex\", focus=2)]",
+        "type": "character",
+        "name": "char_148_nearl_1",
+        "name2": "char_130_doberm_ex",
+        "focus": 2
+    },
+    {
+        "id": 18,
+        "raw": "[name=\"Dobermann\"]   We don't have many options...",
+        "type": "dialog",
+        "speaker": "Dobermann",
+        "content": "We don't have many options..."
+    },
+    {
+        "id": 19,
+        "raw": "[name=\"Dobermann\"]  Dr. {@nickname}, what's your assessment?",
+        "type": "dialog",
+        "speaker": "Dobermann",
+        "content": "Dr. {@nickname}, what's your assessment?"
+    },
+    {
+        "id": 20,
+        "raw": "[Decision(options=\"All we have to do is destroy them in a head-on attack!;...They can't stop us, probably...;It takes time for the enemy to regroup.\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "All we have to do is destroy them in a head-on attack!;...They can't stop us, probably...;It takes time for the enemy to regroup.",
+        "values": "1;2;3"
+    },
+    {
+        "id": 21,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 22,
+        "raw": "[Character(name=\"char_130_doberm_ex\")]",
+        "type": "character",
+        "name": "char_130_doberm_ex"
+    },
+    {
+        "id": 23,
+        "raw": "[name=\"Dobermann\"]  Reunion's forces are no match for us individually.",
+        "type": "dialog",
+        "speaker": "Dobermann",
+        "content": "Reunion's forces are no match for us individually."
+    },
+    {
+        "id": 24,
+        "raw": "[name=\"Dobermann\"]  But most of the time, they try to overwhelm us with sheer numbers.",
+        "type": "dialog",
+        "speaker": "Dobermann",
+        "content": "But most of the time, they try to overwhelm us with sheer numbers."
+    },
+    {
+        "id": 25,
+        "raw": "[Character(name=\"char_148_nearl_1\")]",
+        "type": "character",
+        "name": "char_148_nearl_1"
+    },
+    {
+        "id": 26,
+        "raw": "[name=\"Nearl\"]   If we can utilize our speed to constantly press forward while avoiding large-scale fights...",
+        "type": "dialog",
+        "speaker": "Nearl",
+        "content": "If we can utilize our speed to constantly press forward while avoiding large-scale fights..."
+    },
+    {
+        "id": 27,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 28,
+        "raw": "[Character(name=\"char_130_doberm_ex\")]",
+        "type": "character",
+        "name": "char_130_doberm_ex"
+    },
+    {
+        "id": 29,
+        "raw": "[name=\"Dobermann\"]   They don't seem to have built any fortifications.",
+        "type": "dialog",
+        "speaker": "Dobermann",
+        "content": "They don't seem to have built any fortifications."
+    },
+    {
+        "id": 30,
+        "raw": "[Character(name=\"char_148_nearl_1\")]",
+        "type": "character",
+        "name": "char_148_nearl_1"
+    },
+    {
+        "id": 31,
+        "raw": "[name=\"Nearl\"]   If we're able to charge through their blockade...",
+        "type": "dialog",
+        "speaker": "Nearl",
+        "content": "If we're able to charge through their blockade..."
+    },
+    {
+        "id": 32,
+        "raw": "[Character(name=\"char_130_doberm_ex\")]",
+        "type": "character",
+        "name": "char_130_doberm_ex"
+    },
+    {
+        "id": 33,
+        "raw": "[name=\"Dobermann\"]   Even though it looks like they have a numbers advantage, their loose formation won't be able to stop our advance.",
+        "type": "dialog",
+        "speaker": "Dobermann",
+        "content": "Even though it looks like they have a numbers advantage, their loose formation won't be able to stop our advance."
+    },
+    {
+        "id": 34,
+        "raw": "[Predicate(references=\"3\")]",
+        "type": "predicate",
+        "references": "3"
+    },
+    {
+        "id": 35,
+        "raw": "[Character(name=\"char_130_doberm_ex\")]",
+        "type": "character",
+        "name": "char_130_doberm_ex"
+    },
+    {
+        "id": 36,
+        "raw": "[name=\"Dobermann\"]   From what I've observed through our past battles, Reunion's communication methods are absolutely primitive.",
+        "type": "dialog",
+        "speaker": "Dobermann",
+        "content": "From what I've observed through our past battles, Reunion's communication methods are absolutely primitive."
+    },
+    {
+        "id": 37,
+        "raw": "[Character(name=\"char_148_nearl_1\")]",
+        "type": "character",
+        "name": "char_148_nearl_1"
+    },
+    {
+        "id": 38,
+        "raw": "[name=\"Nearl\"]   If we do this quickly, by the time they're able to regroup and mount an effort to stop us...",
+        "type": "dialog",
+        "speaker": "Nearl",
+        "content": "If we do this quickly, by the time they're able to regroup and mount an effort to stop us..."
+    },
+    {
+        "id": 39,
+        "raw": "[Character(name=\"char_130_doberm_ex\")]",
+        "type": "character",
+        "name": "char_130_doberm_ex"
+    },
+    {
+        "id": 40,
+        "raw": "[name=\"Dobermann\"]   We'll already be long gone by the time they get into formation.",
+        "type": "dialog",
+        "speaker": "Dobermann",
+        "content": "We'll already be long gone by the time they get into formation."
+    },
+    {
+        "id": 41,
+        "raw": "[Predicate]",
+        "type": "predicate"
+    },
+    {
+        "id": 42,
+        "raw": "[Character(name=\"char_148_nearl_1\")]",
+        "type": "character",
+        "name": "char_148_nearl_1"
+    },
+    {
+        "id": 43,
+        "raw": "[name=\"Nearl\"]   Sounds good.",
+        "type": "dialog",
+        "speaker": "Nearl",
+        "content": "Sounds good."
+    },
+    {
+        "id": 44,
+        "raw": "[name=\"Nearl\"]   We'll storm them, disrupt their formation, destroy their firebase, and then fall back quickly.",
+        "type": "dialog",
+        "speaker": "Nearl",
+        "content": "We'll storm them, disrupt their formation, destroy their firebase, and then fall back quickly."
+    },
+    {
+        "id": 45,
+        "raw": "[name=\"Nearl\"]   Dobermann, are you testing me, or...",
+        "type": "dialog",
+        "speaker": "Nearl",
+        "content": "Dobermann, are you testing me, or..."
+    },
+    {
+        "id": 46,
+        "raw": "[Character(name=\"char_002_amiya_1#1\", name2=\"char_130_doberm_ex\", focus=2)]",
+        "type": "character",
+        "name": "char_002_amiya_1#1",
+        "name2": "char_130_doberm_ex",
+        "focus": 2
+    },
+    {
+        "id": 47,
+        "raw": "[name=\"Dobermann\"]  It's far easier to deal with threats we can see than to be stuck between a rock and a hard place.",
+        "type": "dialog",
+        "speaker": "Dobermann",
+        "content": "It's far easier to deal with threats we can see than to be stuck between a rock and a hard place."
+    },
+    {
+        "id": 48,
+        "raw": "[name=\"Dobermann\"]  I take it that these are Dr. {@nickname}'s orders, Amiya?",
+        "type": "dialog",
+        "speaker": "Dobermann",
+        "content": "I take it that these are Dr. {@nickname}'s orders, Amiya?"
+    },
+    {
+        "id": 49,
+        "raw": "[Character(name=\"char_002_amiya_1#1\", name2=\"char_130_doberm_ex\", focus=1)]",
+        "type": "character",
+        "name": "char_002_amiya_1#1",
+        "name2": "char_130_doberm_ex",
+        "focus": 1
+    },
+    {
+        "id": 50,
+        "raw": "[name=\"Amiya\"]  The situation is clear. I trust Doctor's decisions...",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "The situation is clear. I trust Doctor's decisions..."
+    },
+    {
+        "id": 51,
+        "raw": "[Character(name=\"char_002_amiya_1#1\", name2=\"char_130_doberm_ex\", focus=2)]",
+        "type": "character",
+        "name": "char_002_amiya_1#1",
+        "name2": "char_130_doberm_ex",
+        "focus": 2
+    },
+    {
+        "id": 52,
+        "raw": "[name=\"Dobermann\"]   ...Trust isn't built so easily from just a single battle.",
+        "type": "dialog",
+        "speaker": "Dobermann",
+        "content": "...Trust isn't built so easily from just a single battle."
+    },
+    {
+        "id": 53,
+        "raw": "[name=\"Dobermann\"]   I do think highly of Dr. {@nickname}, Amiya...",
+        "type": "dialog",
+        "speaker": "Dobermann",
+        "content": "I do think highly of Dr. {@nickname}, Amiya..."
+    },
+    {
+        "id": 54,
+        "raw": "[name=\"Dobermann\"]   But don't let your guard down. Of course, there is nothing wrong with learning from the Doctor's wisdom, but remember, you can't fully rely on anyone else in this world.",
+        "type": "dialog",
+        "speaker": "Dobermann",
+        "content": "But don't let your guard down. Of course, there is nothing wrong with learning from the Doctor's wisdom, but remember, you can't fully rely on anyone else in this world."
+    },
+    {
+        "id": 55,
+        "raw": "[Character(name=\"char_002_amiya_1#7\", name2=\"char_130_doberm_ex\", focus=1)]",
+        "type": "character",
+        "name": "char_002_amiya_1#7",
+        "name2": "char_130_doberm_ex",
+        "focus": 1
+    },
+    {
+        "id": 56,
+        "raw": "[name=\"Amiya\"]  ...I know.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "...I know."
+    },
+    {
+        "id": 57,
+        "raw": "[Character(name=\"char_130_doberm_ex\")]",
+        "type": "character",
+        "name": "char_130_doberm_ex"
+    },
+    {
+        "id": 58,
+        "raw": "[name=\"Dobermann\"]  Don't get me wrong, Doctor, I'm not trying to make things difficult for you.",
+        "type": "dialog",
+        "speaker": "Dobermann",
+        "content": "Don't get me wrong, Doctor, I'm not trying to make things difficult for you."
+    },
+    {
+        "id": 59,
+        "raw": "[name=\"Dobermann\"]   But I hope you understand... Amiya still needs to learn and grow.",
+        "type": "dialog",
+        "speaker": "Dobermann",
+        "content": "But I hope you understand... Amiya still needs to learn and grow."
+    },
+    {
+        "id": 60,
+        "raw": "[name=\"Dobermann\"]   If you were in my position, you also wouldn't allow her to rely on someone else.",
+        "type": "dialog",
+        "speaker": "Dobermann",
+        "content": "If you were in my position, you also wouldn't allow her to rely on someone else."
+    },
+    {
+        "id": 61,
+        "raw": "[name=\"Dobermann\"]   However, know that I've already acknowledged your abilities as a commander.",
+        "type": "dialog",
+        "speaker": "Dobermann",
+        "content": "However, know that I've already acknowledged your abilities as a commander."
+    },
+    {
+        "id": 62,
+        "raw": "[Decision(options=\"Thank you...\", values=\"1\")]",
+        "type": "decision",
+        "options": "Thank you...",
+        "values": "1"
+    },
+    {
+        "id": 63,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 64,
+        "raw": "[Character(name=\"char_130_doberm_ex\")]",
+        "type": "character",
+        "name": "char_130_doberm_ex"
+    },
+    {
+        "id": 65,
+        "raw": "[name=\"Dobermann\"]   Also, there's no reason to be so formal. We're comrades-in-arms now.",
+        "type": "dialog",
+        "speaker": "Dobermann",
+        "content": "Also, there's no reason to be so formal. We're comrades-in-arms now."
+    },
+    {
+        "id": 66,
+        "raw": "[name=\"Dobermann\"]   At least on the battlefield, I've already entrusted my life to you.",
+        "type": "dialog",
+        "speaker": "Dobermann",
+        "content": "At least on the battlefield, I've already entrusted my life to you."
+    },
+    {
+        "id": 67,
+        "raw": "[name=\"Dobermann\"]   Enough with the chit-chatting though, let's hurry it up.",
+        "type": "dialog",
+        "speaker": "Dobermann",
+        "content": "Enough with the chit-chatting though, let's hurry it up."
+    },
+    {
+        "id": 68,
+        "raw": "[Character(name=\"char_148_nearl_1#1\", name2=\"char_130_doberm_ex\", focus=1)]",
+        "type": "character",
+        "name": "char_148_nearl_1#1",
+        "name2": "char_130_doberm_ex",
+        "focus": 1
+    },
+    {
+        "id": 69,
+        "raw": "[name=\"Nearl\"]   That's right.",
+        "type": "dialog",
+        "speaker": "Nearl",
+        "content": "That's right."
+    },
+    {
+        "id": 70,
+        "raw": "[name=\"Nearl\"]   There's an old saying in Kazimierz: 'Death catches up to you when you stop to take a break.'",
+        "type": "dialog",
+        "speaker": "Nearl",
+        "content": "There's an old saying in Kazimierz: 'Death catches up to you when you stop to take a break.'"
+    },
+    {
+        "id": 71,
+        "raw": "[Delay(time=0.6)]",
+        "type": "delay",
+        "time": 0.6
+    },
+    {
+        "id": 72,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 73,
+        "raw": "[Blocker(block=true)]",
+        "type": "blocker",
+        "block": true
+    },
+    {
+        "id": 74,
+        "raw": "[Image]",
+        "type": "image"
+    }
+]

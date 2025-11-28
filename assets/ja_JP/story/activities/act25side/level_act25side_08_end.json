@@ -1,0 +1,3361 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")] ",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK"
+    },
+    {
+        "id": 2,
+        "raw": "[stopmusic]",
+        "type": "stop_music"
+    },
+    {
+        "id": 3,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 4,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 5,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 6,
+        "raw": "[Background(image=\"38_g8_storage\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "38_g8_storage.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 7,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 8,
+        "raw": "[playMusic(intro=\"$act17_intro\", key=\"$act17_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act17d0d0/m_sys_act17_intro.mp3",
+        "key": "sound_beta_2/music/act17d0d0/m_sys_act17_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 9,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 10,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 11,
+        "raw": "[PlaySound(key=\"$d_avg_energybody\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_energybody.mp3",
+        "volume": 1
+    },
+    {
+        "id": 12,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 13,
+        "raw": "[name=\"？？？\"]僕の質問に答えるんだ。",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "僕の質問に答えるんだ。"
+    },
+    {
+        "id": 14,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 15,
+        "raw": "[Decision(options=\"し、しもべ？;……;ケルシーのしもべになった覚えはないんだが……\",values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "し、しもべ？;……;ケルシーのしもべになった覚えはないんだが……",
+        "values": "1;2;3"
+    },
+    {
+        "id": 16,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 17,
+        "raw": "[charslot(slot = \"m\", name = \"char_003_kalts_1#1\", duration=1, isblock=true)]",
+        "type": "charslot",
+        "duration": "1,",
+        "isblock": true
+    },
+    {
+        "id": 18,
+        "raw": "[name=\"ケルシー\"]……Dr.{@nickname}は記憶を失っており、あなたの知るあの者たちの誰でもありません。もはやそうではなくなったのです。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "……Dr.{@nickname}は記憶を失っており、あなたの知るあの者たちの誰でもありません。もはやそうではなくなったのです。"
+    },
+    {
+        "id": 19,
+        "raw": "[name=\"ケルシー\"]今のドクターはテラの一員であり、ロドスの一員です。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "今のドクターはテラの一員であり、ロドスの一員です。"
+    },
+    {
+        "id": 20,
+        "raw": "[name=\"ケルシー\"]我々は今日まで、共に多くを経験してきました。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "我々は今日まで、共に多くを経験してきました。"
+    },
+    {
+        "id": 21,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 22,
+        "raw": "[name=\"？？？\"]……ロドス？",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "……ロドス？"
+    },
+    {
+        "id": 23,
+        "raw": "[name=\"？？？\"]（未知の言語）ロドスか。",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "（未知の言語）ロドスか。"
+    },
+    {
+        "id": 24,
+        "raw": "[name=\"？？？\"]……なるほど。",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "……なるほど。"
+    },
+    {
+        "id": 25,
+        "raw": "[name=\"？？？\"]それで「記憶喪失」というわけか。なぜ君はこの……「ドクター」にすべてを話さなかったんだ？",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "それで「記憶喪失」というわけか。なぜ君はこの……「ドクター」にすべてを話さなかったんだ？"
+    },
+    {
+        "id": 26,
+        "raw": "[charslot(slot = \"m\", name = \"char_003_kalts_1#1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 27,
+        "raw": "[name=\"ケルシー\"]……",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "……"
+    },
+    {
+        "id": 28,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 29,
+        "raw": "[name=\"？？？\"]ああ、わかったぞ。",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "ああ、わかったぞ。"
+    },
+    {
+        "id": 30,
+        "raw": "[name=\"？？？\"]君は、過去の「ドクター」の実在性を疑っているのだな。もはや信用できない昔の記憶を復元するよりも、新たに世界を認識したこのドクターを信じることにしたわけか。",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "君は、過去の「ドクター」の実在性を疑っているのだな。もはや信用できない昔の記憶を復元するよりも、新たに世界を認識したこのドクターを信じることにしたわけか。"
+    },
+    {
+        "id": 31,
+        "raw": "[name=\"？？？\"]ふむ……それも無理もない話だ。地上で発生するすべては偽れぬ事実であり、十分な介入があればテラは今のようにはなっていないだろうからな。",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "ふむ……それも無理もない話だ。地上で発生するすべては偽れぬ事実であり、十分な介入があればテラは今のようにはなっていないだろうからな。"
+    },
+    {
+        "id": 32,
+        "raw": "[name=\"？？？\"]どうやら、何一つ我々の望んだ通りにはなっていないようだね。君は覚えていないようだが……Dr.{@nickname}。",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "どうやら、何一つ我々の望んだ通りにはなっていないようだね。君は覚えていないようだが……Dr.{@nickname}。"
+    },
+    {
+        "id": 33,
+        "raw": "[name=\"？？？\"]ここで君たちに出会えるとは、まったく貴重な機会だ。しかしこの状況を思うと……",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "ここで君たちに出会えるとは、まったく貴重な機会だ。しかしこの状況を思うと……"
+    },
+    {
+        "id": 34,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 35,
+        "raw": "[Decision(options=\"......\",values=\"1\")]",
+        "type": "decision",
+        "options": "......",
+        "values": "1"
+    },
+    {
+        "id": 36,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 37,
+        "raw": "[name=\"？？？\"]記憶を失くした「Dr.{@nickname}」と、ケルシーを名乗るAMa-10よ。君たちがここへ来た理由は何かな？",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "記憶を失くした「Dr.{@nickname}」と、ケルシーを名乗るAMa-10よ。君たちがここへ来た理由は何かな？"
+    },
+    {
+        "id": 38,
+        "raw": "[name=\"？？？\"]クリステンが君たちを焦らせたからか？　あるいは、すべてが君たちに制御可能な範囲を超えたからか？",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "クリステンが君たちを焦らせたからか？　あるいは、すべてが君たちに制御可能な範囲を超えたからか？"
+    },
+    {
+        "id": 39,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 40,
+        "raw": "[Decision(options=\"こちらの質問に答えてもらっていないようだが。;偉そうにするのはやめてくれ！;自己紹介は対等な会話の前提だろう。\",values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "こちらの質問に答えてもらっていないようだが。;偉そうにするのはやめてくれ！;自己紹介は対等な会話の前提だろう。",
+        "values": "1;2;3"
+    },
+    {
+        "id": 41,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 42,
+        "raw": "[name=\"？？？\"]......",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "......"
+    },
+    {
+        "id": 43,
+        "raw": "[name=\"？？？\"]僕はある計画において、人格を模倣して作られたシミュレーションシステムだ。これまで数万年、この暗い広間を――そして、数十万人の同胞の冷たい身体を見守ってきた。",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "僕はある計画において、人格を模倣して作られたシミュレーションシステムだ。これまで数万年、この暗い広間を――そして、数十万人の同胞の冷たい身体を見守ってきた。"
+    },
+    {
+        "id": 44,
+        "raw": "[name=\"？？？\"]かつての僕は最後の希望であり、悲観的な試みであり、ニヒリズムの代名詞でもあった。",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "かつての僕は最後の希望であり、悲観的な試みであり、ニヒリズムの代名詞でもあった。"
+    },
+    {
+        "id": 45,
+        "raw": "[name=\"？？？\"]だが今は、ちっぽけな君たちからすれば……クリステンの狂った計画の共犯者であり、その黒幕とでもいうべきだろう。",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "だが今は、ちっぽけな君たちからすれば……クリステンの狂った計画の共犯者であり、その黒幕とでもいうべきだろう。"
+    },
+    {
+        "id": 46,
+        "raw": "[name=\"？？？\"]僕は瀕死の「保存者」であり、君の目に映るすべてに畏敬の念を抱いている、文明の滅びそのものなのだよ。",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "僕は瀕死の「保存者」であり、君の目に映るすべてに畏敬の念を抱いている、文明の滅びそのものなのだよ。"
+    },
+    {
+        "id": 47,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 48,
+        "raw": "[musicvolume(volume=0.2, fadetime=2)]",
+        "type": "music_volume",
+        "volume": "0.2,",
+        "fadetime": 2
+    },
+    {
+        "id": 49,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 50,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 51,
+        "raw": "[Background(image=\"38_g15_energywell_glowed\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "38_g15_energywell_glowed.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 52,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 53,
+        "raw": "[musicvolume(volume=0.6, fadetime=2)]",
+        "type": "music_volume",
+        "volume": "0.6,",
+        "fadetime": 2
+    },
+    {
+        "id": 54,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 55,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 56,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 57,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1031_slent2_1#1$2\", duration=1.5, isblock=true)]",
+        "type": "charslot",
+        "duration": "1.5,",
+        "isblock": true
+    },
+    {
+        "id": 58,
+        "raw": "[name=\"サイレンス\"]ここで間違いない。伝達物質の反応も……強く出ているし……",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "ここで間違いない。伝達物質の反応も……強く出ているし……"
+    },
+    {
+        "id": 59,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1031_slent2_1#4$2\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 60,
+        "raw": "[name=\"サイレンス\"]私は――",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "私は――"
+    },
+    {
+        "id": 61,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 62,
+        "raw": "[charslot(slot = \"m\", posfrom=\"0,0\", posto=\"0,-80\", duration=0.5)]",
+        "type": "charslot",
+        "posfrom": "0,0",
+        "posto": "0,-80",
+        "duration": 0.5
+    },
+    {
+        "id": 63,
+        "raw": "[charslot(slot = \"l\",  name = \"avg_npc_893_1#9$1\", posfrom=\"-300,0\", posto=\"0,-50\", duration=0.5, isblock=true)]",
+        "type": "charslot",
+        "posfrom": "-300,0",
+        "posto": "0,-50",
+        "duration": "0.5,",
+        "isblock": true
+    },
+    {
+        "id": 64,
+        "raw": "[PlaySound(key=\"$bodyfalldown3\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_bodyfalldown3.mp3",
+        "volume": 1
+    },
+    {
+        "id": 65,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 66,
+        "raw": "[charslot(slot = \"m\", posfrom=\"0,-80\", posto=\"0,0\", duration=1.5)]",
+        "type": "charslot",
+        "posfrom": "0,-80",
+        "posto": "0,0",
+        "duration": 1.5
+    },
+    {
+        "id": 67,
+        "raw": "[charslot(slot = \"l\", posfrom=\"0,-50\", posto=\"0,0\", duration=1.5, isblock=true)]",
+        "type": "charslot",
+        "posfrom": "0,-50",
+        "posto": "0,0",
+        "duration": "1.5,",
+        "isblock": true
+    },
+    {
+        "id": 68,
+        "raw": "[charslot(slot = \"m\", posfrom=\"0,0\", posto=\"250,0\", duration=2, isblock=true)]",
+        "type": "charslot",
+        "posfrom": "0,0",
+        "posto": "250,0",
+        "duration": "2,",
+        "isblock": true
+    },
+    {
+        "id": 69,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 70,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1031_slent2_1#9$2\", focus=\"m\")]",
+        "type": "charslot",
+        "focus": "m"
+    },
+    {
+        "id": 71,
+        "raw": "[name=\"サイレンス\"]ヤラ主任……？",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "ヤラ主任……？"
+    },
+    {
+        "id": 72,
+        "raw": "[name=\"サイレンス\"]どうしてここに？",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "どうしてここに？"
+    },
+    {
+        "id": 73,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_893_1#9$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 74,
+        "raw": "[name=\"ヤラ\"]……あなたは私の祝福を携えて、ここまでたどり着いたのね。それもいいでしょう。",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "……あなたは私の祝福を携えて、ここまでたどり着いたのね。それもいいでしょう。"
+    },
+    {
+        "id": 75,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1031_slent2_1#1$2\", focus=\"m\")]",
+        "type": "charslot",
+        "focus": "m"
+    },
+    {
+        "id": 76,
+        "raw": "[name=\"サイレンス\"]……",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "……"
+    },
+    {
+        "id": 77,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1031_slent2_1#5$2\", focus=\"m\")]",
+        "type": "charslot",
+        "focus": "m"
+    },
+    {
+        "id": 78,
+        "raw": "[name=\"サイレンス\"]私を……止めに来たんですね。",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "私を……止めに来たんですね。"
+    },
+    {
+        "id": 79,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_893_1#10$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 80,
+        "raw": "[name=\"ヤラ\"]渡しておいたその武器、まだ持っていてくれて嬉しいわ。",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "渡しておいたその武器、まだ持っていてくれて嬉しいわ。"
+    },
+    {
+        "id": 81,
+        "raw": "[name=\"ヤラ\"]一時の衝動でここに立ってるわけじゃなさそうね。",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "一時の衝動でここに立ってるわけじゃなさそうね。"
+    },
+    {
+        "id": 82,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1031_slent2_1#5$2\", focus=\"m\")]",
+        "type": "charslot",
+        "focus": "m"
+    },
+    {
+        "id": 83,
+        "raw": "[name=\"サイレンス\"]はい。",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "はい。"
+    },
+    {
+        "id": 84,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_893_1#9$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 85,
+        "raw": "[name=\"ヤラ\"]最後のチャンスよ、お嬢さん。",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "最後のチャンスよ、お嬢さん。"
+    },
+    {
+        "id": 86,
+        "raw": "[name=\"ヤラ\"]逃げるか、それとも続けるか。",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "逃げるか、それとも続けるか。"
+    },
+    {
+        "id": 87,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1031_slent2_1#5$2\", focus=\"m\")]",
+        "type": "charslot",
+        "focus": "m"
+    },
+    {
+        "id": 88,
+        "raw": "[name=\"サイレンス\"]私は……あなたの仰る「戦士」になってみせます。",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "私は……あなたの仰る「戦士」になってみせます。"
+    },
+    {
+        "id": 89,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_893_1#9$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 90,
+        "raw": "[name=\"ヤラ\"]……",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "……"
+    },
+    {
+        "id": 91,
+        "raw": "[name=\"ヤラ\"]サイレンス、あなたはわかっているでしょう。クリステンはフォーカスジェネレーターに集めたエネルギーを、大地にあるどの都市にも向けるつもりはないの。",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "サイレンス、あなたはわかっているでしょう。クリステンはフォーカスジェネレーターに集めたエネルギーを、大地にあるどの都市にも向けるつもりはないの。"
+    },
+    {
+        "id": 92,
+        "raw": "[name=\"ヤラ\"]だから、止める必要なんてないのよ。",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "だから、止める必要なんてないのよ。"
+    },
+    {
+        "id": 93,
+        "raw": "[name=\"ヤラ\"]彼女はただ、すべての科学者と同じように、誰も足を踏み入れたことのない場所へ前進しようとしているだけなのだから。",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "彼女はただ、すべての科学者と同じように、誰も足を踏み入れたことのない場所へ前進しようとしているだけなのだから。"
+    },
+    {
+        "id": 94,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1031_slent2_1#1$2\", focus=\"m\")]",
+        "type": "charslot",
+        "focus": "m"
+    },
+    {
+        "id": 95,
+        "raw": "[name=\"サイレンス\"]あるいはそうかもしれませんね。",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "あるいはそうかもしれませんね。"
+    },
+    {
+        "id": 96,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1031_slent2_1#2$2\", focus=\"m\")]",
+        "type": "charslot",
+        "focus": "m"
+    },
+    {
+        "id": 97,
+        "raw": "[name=\"サイレンス\"]私はあなたほど統括を理解してはいませんが、あなたの言うことなら喜んで信じます。",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "私はあなたほど統括を理解してはいませんが、あなたの言うことなら喜んで信じます。"
+    },
+    {
+        "id": 98,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1031_slent2_1#1$2\", focus=\"m\")]",
+        "type": "charslot",
+        "focus": "m"
+    },
+    {
+        "id": 99,
+        "raw": "[name=\"サイレンス\"]ですがそれでも、すべてを止めに行きます。たとえ私の前にあなたが立ちはだかるとしても。",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "ですがそれでも、すべてを止めに行きます。たとえ私の前にあなたが立ちはだかるとしても。"
+    },
+    {
+        "id": 100,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_893_1#1$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 101,
+        "raw": "[name=\"ヤラ\"]……なぜなの？",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "……なぜなの？"
+    },
+    {
+        "id": 102,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1031_slent2_1#1$2\", focus=\"m\")]",
+        "type": "charslot",
+        "focus": "m"
+    },
+    {
+        "id": 103,
+        "raw": "[name=\"サイレンス\"]これがどのような実験であれ、統括がこのまま実行し、成功してしまえば――",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "これがどのような実験であれ、統括がこのまま実行し、成功してしまえば――"
+    },
+    {
+        "id": 104,
+        "raw": "[name=\"サイレンス\"]あの人はライン生命の統括ですから、感情的な信頼にせよ理性的な判断にせよ、成功する確率が高いということは私たち皆が知ることですが。",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "あの人はライン生命の統括ですから、感情的な信頼にせよ理性的な判断にせよ、成功する確率が高いということは私たち皆が知ることですが。"
+    },
+    {
+        "id": 105,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1031_slent2_1#5$2\", focus=\"m\")]",
+        "type": "charslot",
+        "focus": "m"
+    },
+    {
+        "id": 106,
+        "raw": "[name=\"サイレンス\"]とにかくその時、クルビアの研究者たちが彼女をどう見ると思いますか？",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "とにかくその時、クルビアの研究者たちが彼女をどう見ると思いますか？"
+    },
+    {
+        "id": 107,
+        "raw": "[name=\"サイレンス\"]ライン生命の人事調査課主任をこれほど長く務めていらっしゃるあなたなら、ここの人たちを誰よりも理解していますよね。",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "ライン生命の人事調査課主任をこれほど長く務めていらっしゃるあなたなら、ここの人たちを誰よりも理解していますよね。"
+    },
+    {
+        "id": 108,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_893_1#8$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 109,
+        "raw": "[name=\"ヤラ\"]……彼女は英雄になるでしょうね。",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "……彼女は英雄になるでしょうね。"
+    },
+    {
+        "id": 110,
+        "raw": "[name=\"ヤラ\"]彼女は、クルビア科学界の英雄に、そして理想になる。",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "彼女は、クルビア科学界の英雄に、そして理想になる。"
+    },
+    {
+        "id": 111,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1031_slent2_1#1$2\", focus=\"m\")]",
+        "type": "charslot",
+        "focus": "m"
+    },
+    {
+        "id": 112,
+        "raw": "[name=\"サイレンス\"]そう、あの人は科学者の理想、研究者たちの模範となるんです。",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "そう、あの人は科学者の理想、研究者たちの模範となるんです。"
+    },
+    {
+        "id": 113,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1031_slent2_1#5$2\", focus=\"m\")]",
+        "type": "charslot",
+        "focus": "m"
+    },
+    {
+        "id": 114,
+        "raw": "[name=\"サイレンス\"]……そうなれば、こういうことは後を絶たなくなるでしょう。",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "……そうなれば、こういうことは後を絶たなくなるでしょう。"
+    },
+    {
+        "id": 115,
+        "raw": "[name=\"サイレンス\"]一つ一つの物事に対して、研究者たちは飽きることなく夢中になるものです。",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "一つ一つの物事に対して、研究者たちは飽きることなく夢中になるものです。"
+    },
+    {
+        "id": 116,
+        "raw": "[name=\"サイレンス\"]けれど、クリステン・ライトは一人しかいない。彼女だけしかいないんです。",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "けれど、クリステン・ライトは一人しかいない。彼女だけしかいないんです。"
+    },
+    {
+        "id": 117,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1031_slent2_1#10$2\", focus=\"m\")]",
+        "type": "charslot",
+        "focus": "m"
+    },
+    {
+        "id": 118,
+        "raw": "[name=\"サイレンス\"]一方で、そのほかのリーダーや天才を自称する人たち――このいわゆる「手段を選ばぬ開拓精神」に触発された人たちは……",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "一方で、そのほかのリーダーや天才を自称する人たち――このいわゆる「手段を選ばぬ開拓精神」に触発された人たちは……"
+    },
+    {
+        "id": 119,
+        "raw": "[name=\"サイレンス\"]自らの執着や理想をためらいなく実践に移す人たちは……",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "自らの執着や理想をためらいなく実践に移す人たちは……"
+    },
+    {
+        "id": 120,
+        "raw": "[name=\"サイレンス\"]私たちと同じように、貪欲で、傲慢で、向こう見ずで、頑固な人たちはどうでしょうか？",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "私たちと同じように、貪欲で、傲慢で、向こう見ずで、頑固な人たちはどうでしょうか？"
+    },
+    {
+        "id": 121,
+        "raw": "[name=\"サイレンス\"]そんな人たちが、統括の行いを美徳と見なしてしまったら――",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "そんな人たちが、統括の行いを美徳と見なしてしまったら――"
+    },
+    {
+        "id": 122,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 123,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 124,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1031_slent2_1#5$2\", focus=\"m\")]",
+        "type": "charslot",
+        "focus": "m"
+    },
+    {
+        "id": 125,
+        "raw": "[name=\"サイレンス\"]どんな未来が訪れるのか、あなたなら想像に難くないでしょう。",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "どんな未来が訪れるのか、あなたなら想像に難くないでしょう。"
+    },
+    {
+        "id": 126,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1031_slent2_1#4$2\", focus=\"m\")]",
+        "type": "charslot",
+        "focus": "m"
+    },
+    {
+        "id": 127,
+        "raw": "[name=\"サイレンス\"]いえ、想像する必要すらないかもしれません……",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "いえ、想像する必要すらないかもしれません……"
+    },
+    {
+        "id": 128,
+        "raw": "[name=\"サイレンス\"]あなたも、ライン生命が行ってきた研究を知らなかったわけではないでしょうから。",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "あなたも、ライン生命が行ってきた研究を知らなかったわけではないでしょうから。"
+    },
+    {
+        "id": 129,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_893_1#9$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 130,
+        "raw": "[name=\"ヤラ\"]ええ、よくわかっているわ。",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "ええ、よくわかっているわ。"
+    },
+    {
+        "id": 131,
+        "raw": "[name=\"ヤラ\"]私はよくわかっている……トリマウンツで、いいえ、クルビア国内でこれまでに、そして今この時に、こんなことがどれほど多く起きているのかを。",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "私はよくわかっている……トリマウンツで、いいえ、クルビア国内でこれまでに、そして今この時に、こんなことがどれほど多く起きているのかを。"
+    },
+    {
+        "id": 132,
+        "raw": "[name=\"ヤラ\"]これまで私の前には、無数の狂気じみた魅力的な計画が並べられてきた。それを差し出す人の目は輝いていて、皆心からの笑顔を浮かべていたわ。",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "これまで私の前には、無数の狂気じみた魅力的な計画が並べられてきた。それを差し出す人の目は輝いていて、皆心からの笑顔を浮かべていたわ。"
+    },
+    {
+        "id": 133,
+        "raw": "[name=\"ヤラ\"]彼らは本気で「純粋な科学のために」尽くしているつもりでいて、自分こそが認知の荒野を開拓する者だと思っているのよ。",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "彼らは本気で「純粋な科学のために」尽くしているつもりでいて、自分こそが認知の荒野を開拓する者だと思っているのよ。"
+    },
+    {
+        "id": 134,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1031_slent2_1#5$2\", focus=\"m\")]",
+        "type": "charslot",
+        "focus": "m"
+    },
+    {
+        "id": 135,
+        "raw": "[name=\"サイレンス\"]そしてそれを受けたあなたやその同僚たちは、彼らの実験計画と壮大な青写真に基づいて、多少の「代償」や「コスト」を支払うべきかどうかを判断するだけでいいでしょうからね。",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "そしてそれを受けたあなたやその同僚たちは、彼らの実験計画と壮大な青写真に基づいて、多少の「代償」や「コスト」を支払うべきかどうかを判断するだけでいいでしょうからね。"
+    },
+    {
+        "id": 136,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_893_1#9$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 137,
+        "raw": "[name=\"ヤラ\"]「代償」。",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "「代償」。"
+    },
+    {
+        "id": 138,
+        "raw": "[name=\"ヤラ\"]それは時に肥沃な土地であり、数名の不治の病を患う人や死刑囚であり、一つの村や町であり、特定の種族や国家であり……",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "それは時に肥沃な土地であり、数名の不治の病を患う人や死刑囚であり、一つの村や町であり、特定の種族や国家であり……"
+    },
+    {
+        "id": 139,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_893_1#6$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 140,
+        "raw": "[name=\"ヤラ\"]私に言わせれば、時折、彼ら自身であることすらあったわ。",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "私に言わせれば、時折、彼ら自身であることすらあったわ。"
+    },
+    {
+        "id": 141,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1031_slent2_1#5$2\", focus=\"m\")]",
+        "type": "charslot",
+        "focus": "m"
+    },
+    {
+        "id": 142,
+        "raw": "[name=\"サイレンス\"]あなたには、それを恐れる気持ちがありますか？　それとも、科学の進歩の可能性に興奮していますか？",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "あなたには、それを恐れる気持ちがありますか？　それとも、科学の進歩の可能性に興奮していますか？"
+    },
+    {
+        "id": 143,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1031_slent2_1#10$2\", focus=\"m\")]",
+        "type": "charslot",
+        "focus": "m"
+    },
+    {
+        "id": 144,
+        "raw": "[name=\"サイレンス\"]ヤラ主任、この大地にはガラスケースに収められた「純粋な科学」など存在しません。",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "ヤラ主任、この大地にはガラスケースに収められた「純粋な科学」など存在しません。"
+    },
+    {
+        "id": 145,
+        "raw": "[name=\"サイレンス\"]科学は私たちの――人間の手中にあるべきものです。その温度を、重さを、そしてそれが人を焼いてしまうものでないか、どんな苦しみや慰めをもたらすものかを知る必要があるんです。",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "科学は私たちの――人間の手中にあるべきものです。その温度を、重さを、そしてそれが人を焼いてしまうものでないか、どんな苦しみや慰めをもたらすものかを知る必要があるんです。"
+    },
+    {
+        "id": 146,
+        "raw": "[name=\"サイレンス\"]ああいう人たちはいつまでも、前進を叫んでいます。でもその実、ただ自分が踏み出したい方向へとむやみに足を踏み入れているだけなんですよ。",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "ああいう人たちはいつまでも、前進を叫んでいます。でもその実、ただ自分が踏み出したい方向へとむやみに足を踏み入れているだけなんですよ。"
+    },
+    {
+        "id": 147,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_893_1#8$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 148,
+        "raw": "[name=\"ヤラ\"]だけど、それこそが前進というものよ。",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "だけど、それこそが前進というものよ。"
+    },
+    {
+        "id": 149,
+        "raw": "[name=\"ヤラ\"]どこに道があるかなんてわからない以上、そうして歩くしかないのだから。",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "どこに道があるかなんてわからない以上、そうして歩くしかないのだから。"
+    },
+    {
+        "id": 150,
+        "raw": "[name=\"ヤラ\"]運の良い人は正しい方向を見つけ出し、光の中に辿り着く。運の悪い人は行き止まりへと迷い込み、さまよい続けることになる……",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "運の良い人は正しい方向を見つけ出し、光の中に辿り着く。運の悪い人は行き止まりへと迷い込み、さまよい続けることになる……"
+    },
+    {
+        "id": 151,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_893_1#9$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 152,
+        "raw": "[name=\"ヤラ\"]それでも彼らを立ち止まらせることなんてできないの。",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "それでも彼らを立ち止まらせることなんてできないの。"
+    },
+    {
+        "id": 153,
+        "raw": "[name=\"ヤラ\"]あなたも研究者であるのなら、一番止められようもないことが何なのかはわかっているでしょう。",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "あなたも研究者であるのなら、一番止められようもないことが何なのかはわかっているでしょう。"
+    },
+    {
+        "id": 154,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1031_slent2_1#5$2\", focus=\"m\")]",
+        "type": "charslot",
+        "focus": "m"
+    },
+    {
+        "id": 155,
+        "raw": "[name=\"サイレンス\"]……",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "……"
+    },
+    {
+        "id": 156,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_893_1#1$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 157,
+        "raw": "[name=\"ヤラ\"]――それは渇望よ。",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "――それは渇望よ。"
+    },
+    {
+        "id": 158,
+        "raw": "[name=\"ヤラ\"]物質的にも、道徳的にも、たとえ規則を用いても縛りようのないものなの。",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "物質的にも、道徳的にも、たとえ規則を用いても縛りようのないものなの。"
+    },
+    {
+        "id": 159,
+        "raw": "[name=\"ヤラ\"]この大地において、古から今、クリステンの時より前に、あなたの言う貪欲で、傲慢で、向こう見ずで、頑固な人たちが、立ち止まったことなどあると思うの？",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "この大地において、古から今、クリステンの時より前に、あなたの言う貪欲で、傲慢で、向こう見ずで、頑固な人たちが、立ち止まったことなどあると思うの？"
+    },
+    {
+        "id": 160,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1031_slent2_1#5$2\", focus=\"m\")]",
+        "type": "charslot",
+        "focus": "m"
+    },
+    {
+        "id": 161,
+        "raw": "[name=\"サイレンス\"]それならば、彼らはこれから立ち止まるべきです。",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "それならば、彼らはこれから立ち止まるべきです。"
+    },
+    {
+        "id": 162,
+        "raw": "[name=\"サイレンス\"]少なくとも、身をかがめて自分の足元を確かめることになる前に、立ち止まらなければなりません。",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "少なくとも、身をかがめて自分の足元を確かめることになる前に、立ち止まらなければなりません。"
+    },
+    {
+        "id": 163,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1031_slent2_1#2$2\", focus=\"m\")]",
+        "type": "charslot",
+        "focus": "m"
+    },
+    {
+        "id": 164,
+        "raw": "[name=\"サイレンス\"]ヤラ主任。私は――科学の燃料となるものは、欲望や理想、計算や取捨選択によるものであってはならないと思います。",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "ヤラ主任。私は――科学の燃料となるものは、欲望や理想、計算や取捨選択によるものであってはならないと思います。"
+    },
+    {
+        "id": 165,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1031_slent2_1#1$2\", focus=\"m\")]",
+        "type": "charslot",
+        "focus": "m"
+    },
+    {
+        "id": 166,
+        "raw": "[name=\"サイレンス\"]科学とは、あらゆる人に真摯に向き合うことですから。",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "科学とは、あらゆる人に真摯に向き合うことですから。"
+    },
+    {
+        "id": 167,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_893_1#2$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 168,
+        "raw": "[name=\"ヤラ\"]……",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "……"
+    },
+    {
+        "id": 169,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_893_1#1$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 170,
+        "raw": "[name=\"ヤラ\"]それは大学図書館の廊下に掛けておくには相応しい、素晴らしい言葉だと思うわ。",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "それは大学図書館の廊下に掛けておくには相応しい、素晴らしい言葉だと思うわ。"
+    },
+    {
+        "id": 171,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_893_1#9$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 172,
+        "raw": "[name=\"ヤラ\"]けれど、それをラボの壁に掛けておきたがる研究者はいないでしょうね。",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "けれど、それをラボの壁に掛けておきたがる研究者はいないでしょうね。"
+    },
+    {
+        "id": 173,
+        "raw": "[name=\"ヤラ\"]そんなのは空論だもの。",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "そんなのは空論だもの。"
+    },
+    {
+        "id": 174,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1031_slent2_1#5$2\", focus=\"m\")]",
+        "type": "charslot",
+        "focus": "m"
+    },
+    {
+        "id": 175,
+        "raw": "[name=\"サイレンス\"]だったら、私が実現させます。",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "だったら、私が実現させます。"
+    },
+    {
+        "id": 176,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1031_slent2_1#1$2\", focus=\"m\")]",
+        "type": "charslot",
+        "focus": "m"
+    },
+    {
+        "id": 177,
+        "raw": "[name=\"サイレンス\"]途中で諦めたくないんです。私はまだ、あなたの祝福を携えていますから。",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "途中で諦めたくないんです。私はまだ、あなたの祝福を携えていますから。"
+    },
+    {
+        "id": 178,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_893_1#8$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 179,
+        "raw": "[name=\"ヤラ\"]……",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "……"
+    },
+    {
+        "id": 180,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_893_1#9$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 181,
+        "raw": "[name=\"ヤラ\"]クリステンは長い時間をかけてこの計画の準備を整えてきたの。あの子がこのために、どれだけのものを差し出してきたかわからないくらいにね。",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "クリステンは長い時間をかけてこの計画の準備を整えてきたの。あの子がこのために、どれだけのものを差し出してきたかわからないくらいにね。"
+    },
+    {
+        "id": 182,
+        "raw": "[name=\"ヤラ\"]だけど、彼女の覚悟は両親に勝るとも劣らないものよ。",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "だけど、彼女の覚悟は両親に勝るとも劣らないものよ。"
+    },
+    {
+        "id": 183,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_893_1#11$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 184,
+        "raw": "[name=\"ヤラ\"]あなたは――",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "あなたは――"
+    },
+    {
+        "id": 185,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_893_1#6$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 186,
+        "raw": "[name=\"ヤラ\"]いいえ……あなたじゃなくて、これは私の気持ちね。",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "いいえ……あなたじゃなくて、これは私の気持ちね。"
+    },
+    {
+        "id": 187,
+        "raw": "[name=\"ヤラ\"]……私は、希望が再び泡と消えるのを黙って見ていられないの。",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "……私は、希望が再び泡と消えるのを黙って見ていられないの。"
+    },
+    {
+        "id": 188,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1031_slent2_1#1$2\", focus=\"m\")]",
+        "type": "charslot",
+        "focus": "m"
+    },
+    {
+        "id": 189,
+        "raw": "[name=\"サイレンス\"]では、あなたは何を望んでいらっしゃるんですか？　クリステンの成功を見届けることですか？　それとも、彼女が無事に帰ってくることですか？",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "では、あなたは何を望んでいらっしゃるんですか？　クリステンの成功を見届けることですか？　それとも、彼女が無事に帰ってくることですか？"
+    },
+    {
+        "id": 190,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_893_1#6$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 191,
+        "raw": "[name=\"ヤラ\"]……",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "……"
+    },
+    {
+        "id": 192,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1031_slent2_1#1$2\", focus=\"m\")]",
+        "type": "charslot",
+        "focus": "m"
+    },
+    {
+        "id": 193,
+        "raw": "[name=\"サイレンス\"]――私の知り合いには、ルビーという研究員がいます。彼女の一番の望みは毎日定時に退社することと、いずれ無事に定年退職することです。",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "――私の知り合いには、ルビーという研究員がいます。彼女の一番の望みは毎日定時に退社することと、いずれ無事に定年退職することです。"
+    },
+    {
+        "id": 194,
+        "raw": "[name=\"サイレンス\"]そして、先ほど出会った兵士の、恐らく今唯一の望みはというと、この制御不能なエネルギーウェルから無事に脱出し、親族を連れてトリマウンツの狂った科学者から逃げることだと思います。",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "そして、先ほど出会った兵士の、恐らく今唯一の望みはというと、この制御不能なエネルギーウェルから無事に脱出し、親族を連れてトリマウンツの狂った科学者から逃げることだと思います。"
+    },
+    {
+        "id": 195,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1031_slent2_1#1$2\", focus=\"m\")]",
+        "type": "charslot",
+        "focus": "m"
+    },
+    {
+        "id": 196,
+        "raw": "[name=\"サイレンス\"]こういう人たちの望みよりも、統括の「希望」のほうが崇高だなんてことあるんでしょうか？",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "こういう人たちの望みよりも、統括の「希望」のほうが崇高だなんてことあるんでしょうか？"
+    },
+    {
+        "id": 197,
+        "raw": "[name=\"サイレンス\"]彼女の望むものが、それに足るほど「進歩的」だから……",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "彼女の望むものが、それに足るほど「進歩的」だから……"
+    },
+    {
+        "id": 198,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1031_slent2_1#2$2\", focus=\"m\")]",
+        "type": "charslot",
+        "focus": "m"
+    },
+    {
+        "id": 199,
+        "raw": "[name=\"サイレンス\"]あるいは単に、あなたと彼女がそれに足るほど親密な関係を築いているからと言って、それが正当だと言えるでしょうか？",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "あるいは単に、あなたと彼女がそれに足るほど親密な関係を築いているからと言って、それが正当だと言えるでしょうか？"
+    },
+    {
+        "id": 200,
+        "raw": "[name=\"サイレンス\"]これは不公平なことだと、あなたはおわかりのはずです。",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "これは不公平なことだと、あなたはおわかりのはずです。"
+    },
+    {
+        "id": 201,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1031_slent2_1#1$2\", focus=\"m\")]",
+        "type": "charslot",
+        "focus": "m"
+    },
+    {
+        "id": 202,
+        "raw": "[name=\"サイレンス\"]こんな身勝手、許されることではありません。",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "こんな身勝手、許されることではありません。"
+    },
+    {
+        "id": 203,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_893_1#6$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 204,
+        "raw": "[name=\"ヤラ\"]私は……",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "私は……"
+    },
+    {
+        "id": 205,
+        "raw": "[name=\"ヤラ\"]……",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "……"
+    },
+    {
+        "id": 206,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_893_1#9$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 207,
+        "raw": "[name=\"ヤラ\"]私は……あなたの言う通り、身勝手なのよ。だから道徳や正義を理由に自分を騙して、あなたを行かせるなんてことはできないわ。",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "私は……あなたの言う通り、身勝手なのよ。だから道徳や正義を理由に自分を騙して、あなたを行かせるなんてことはできないわ。"
+    },
+    {
+        "id": 208,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_893_1#7$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 209,
+        "raw": "[name=\"ヤラ\"]――感情の重さを、私たちは認めなければならない。私は、クリステンのあの夢を何もせずにただ見ていることなんてできないのよ。",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "――感情の重さを、私たちは認めなければならない。私は、クリステンのあの夢を何もせずにただ見ていることなんてできないのよ。"
+    },
+    {
+        "id": 210,
+        "raw": "[name=\"ヤラ\"]……サイレンス、あなたならわからないはずがないでしょう。",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "……サイレンス、あなたならわからないはずがないでしょう。"
+    },
+    {
+        "id": 211,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1031_slent2_1#10$2\", focus=\"m\")]",
+        "type": "charslot",
+        "focus": "m"
+    },
+    {
+        "id": 212,
+        "raw": "[name=\"サイレンス\"]ですが、私たちが統括を止めることさえできれば、きっとまた――",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "ですが、私たちが統括を止めることさえできれば、きっとまた――"
+    },
+    {
+        "id": 213,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_893_1#6$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 214,
+        "raw": "[name=\"ヤラ\"]いいえ。",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "いいえ。"
+    },
+    {
+        "id": 215,
+        "raw": "[name=\"ヤラ\"]そうはならないわ、お嬢さん。",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "そうはならないわ、お嬢さん。"
+    },
+    {
+        "id": 216,
+        "raw": "[name=\"ヤラ\"]私にはよくわかっているの……この計画に着手した時から、あの子は後戻りするつもりなんてないのよ。",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "私にはよくわかっているの……この計画に着手した時から、あの子は後戻りするつもりなんてないのよ。"
+    },
+    {
+        "id": 217,
+        "raw": "[name=\"ヤラ\"]ずっと昔、私たちが初めて会った時には、すべては……とっくに取り返しがつかなくなっていたの。",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "ずっと昔、私たちが初めて会った時には、すべては……とっくに取り返しがつかなくなっていたの。"
+    },
+    {
+        "id": 218,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_893_1#1$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 219,
+        "raw": "[name=\"ヤラ\"]サイレンス。あなたが立ちはだかってくれることを嬉しく思うわ。私としては、あなたの主張を支持するとさえ言ってもいいくらい。",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "サイレンス。あなたが立ちはだかってくれることを嬉しく思うわ。私としては、あなたの主張を支持するとさえ言ってもいいくらい。"
+    },
+    {
+        "id": 220,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_893_1#6$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 221,
+        "raw": "[name=\"ヤラ\"]だけど、クリステンの……",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "だけど、クリステンの……"
+    },
+    {
+        "id": 222,
+        "raw": "[name=\"ヤラ\"]……",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "……"
+    },
+    {
+        "id": 223,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_893_1#9$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 224,
+        "raw": "[name=\"ヤラ\"]……家族として、あなたを行かせるわけにはいかないの。",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "……家族として、あなたを行かせるわけにはいかないの。"
+    },
+    {
+        "id": 225,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_893_1#7$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 226,
+        "raw": "[name=\"ヤラ\"]だから、見せてちょうだい。あなたが本当に……自分の言葉に責任を負う準備ができているのかどうかを。",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "だから、見せてちょうだい。あなたが本当に……自分の言葉に責任を負う準備ができているのかどうかを。"
+    },
+    {
+        "id": 227,
+        "raw": "[name=\"ヤラ\"]この先、あなたが相対することになるのは、もはやパルヴィスやクリステンといった単なる個人ではなく――",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "この先、あなたが相対することになるのは、もはやパルヴィスやクリステンといった単なる個人ではなく――"
+    },
+    {
+        "id": 228,
+        "raw": "[name=\"ヤラ\"]前進を試みるすべての人になるのだから。",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "前進を試みるすべての人になるのだから。"
+    },
+    {
+        "id": 229,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1031_slent2_1#2$2\", focus=\"m\")]",
+        "type": "charslot",
+        "focus": "m"
+    },
+    {
+        "id": 230,
+        "raw": "[name=\"サイレンス\"]……",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "……"
+    },
+    {
+        "id": 231,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1031_slent2_1#1$2\", focus=\"m\")]",
+        "type": "charslot",
+        "focus": "m"
+    },
+    {
+        "id": 232,
+        "raw": "[name=\"サイレンス\"]わかりました。必ずそれに備えておくと、お約束します。",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "わかりました。必ずそれに備えておくと、お約束します。"
+    },
+    {
+        "id": 233,
+        "raw": "[name=\"サイレンス\"]科学は進歩しなければならず、また必然的にそうなるもの。",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "科学は進歩しなければならず、また必然的にそうなるもの。"
+    },
+    {
+        "id": 234,
+        "raw": "[name=\"サイレンス\"]あるいは統括のように「前進」を得意とする人も現れるでしょう。",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "あるいは統括のように「前進」を得意とする人も現れるでしょう。"
+    },
+    {
+        "id": 235,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1031_slent2_1#5$2\", focus=\"m\")]",
+        "type": "charslot",
+        "focus": "m"
+    },
+    {
+        "id": 236,
+        "raw": "[name=\"サイレンス\"]ですが誰かが立ち上がり――",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "ですが誰かが立ち上がり――"
+    },
+    {
+        "id": 237,
+        "raw": "[PlaySound(key=\"$d_avg_drone\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_drone.mp3",
+        "volume": 1
+    },
+    {
+        "id": 238,
+        "raw": "[name=\"サイレンス\"]科学を、人の手中に収めておかねばなりませんから。",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "科学を、人の手中に収めておかねばなりませんから。"
+    },
+    {
+        "id": 239,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 240,
+        "raw": "[charslot(slot = \"m\", posfrom=\"250,0\", posto=\"50,0\", duration=0.3)]",
+        "type": "charslot",
+        "posfrom": "250,0",
+        "posto": "50,0",
+        "duration": 0.3
+    },
+    {
+        "id": 241,
+        "raw": "[PlaySound(key=\"$d_avg_clothmovement\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_clothmovement.mp3",
+        "volume": 1
+    },
+    {
+        "id": 242,
+        "raw": "[delay(time=0.2)]",
+        "type": "delay",
+        "time": 0.2
+    },
+    {
+        "id": 243,
+        "raw": "[PlaySound(key=\"$swordtsing4\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_swordtsing4.mp3",
+        "volume": 1
+    },
+    {
+        "id": 244,
+        "raw": "[charslot(slot = \"l\", action=\"shake\", power=5, times=60, duration=0.5)]",
+        "type": "charslot",
+        "action": "shake",
+        "power": "5,",
+        "times": "60,",
+        "duration": 0.5
+    },
+    {
+        "id": 245,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 246,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 247,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 248,
+        "raw": "[Background(image=\"38_g8_storage\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "38_g8_storage.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 249,
+        "raw": "[delay(time=3)]",
+        "type": "delay",
+        "time": 3
+    },
+    {
+        "id": 250,
+        "raw": "[charslot(slot = \"m\", name = \"char_003_kalts_1#3\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 251,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 252,
+        "raw": "[charslot(slot = \"m\", name = \"char_003_kalts_1#3\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 253,
+        "raw": "[name=\"ケルシー\"]……「保存者」。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "……「保存者」。"
+    },
+    {
+        "id": 254,
+        "raw": "[name=\"ケルシー\"]よもや、本当にあなただったとは。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "よもや、本当にあなただったとは。"
+    },
+    {
+        "id": 255,
+        "raw": "[name=\"ケルシー\"]ですが、あなたであったなら、なぜ……",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "ですが、あなたであったなら、なぜ……"
+    },
+    {
+        "id": 256,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 257,
+        "raw": "[name=\"「保存者」\"]なぜ一匹の小動物の狂った計画に協力するのか、かな？",
+        "type": "dialog",
+        "speaker": "「保存者」",
+        "content": "なぜ一匹の小動物の狂った計画に協力するのか、かな？"
+    },
+    {
+        "id": 258,
+        "raw": "[name=\"「保存者」\"]それとも、なぜ幼い文明が揺りかごから足を踏み出す第一歩をただ眺めているのか、かな？",
+        "type": "dialog",
+        "speaker": "「保存者」",
+        "content": "それとも、なぜ幼い文明が揺りかごから足を踏み出す第一歩をただ眺めているのか、かな？"
+    },
+    {
+        "id": 259,
+        "raw": "[name=\"「保存者」\"]いずれにせよ、君は来るのが遅すぎたな、「ドクター」。",
+        "type": "dialog",
+        "speaker": "「保存者」",
+        "content": "いずれにせよ、君は来るのが遅すぎたな、「ドクター」。"
+    },
+    {
+        "id": 260,
+        "raw": "[name=\"「保存者」\"]僕は……すでに待つ意味を失ってしまった。",
+        "type": "dialog",
+        "speaker": "「保存者」",
+        "content": "僕は……すでに待つ意味を失ってしまった。"
+    },
+    {
+        "id": 261,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 262,
+        "raw": "[charslot(slot = \"m\", focus=\"none\")]",
+        "type": "charslot",
+        "focus": "none"
+    },
+    {
+        "id": 263,
+        "raw": "[Decision(options=\"この状況に比べれば、上で起きていることは些事にすら思える。;……;……説明がほしい。\",values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "この状況に比べれば、上で起きていることは些事にすら思える。;……;……説明がほしい。",
+        "values": "1;2;3"
+    },
+    {
+        "id": 264,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 265,
+        "raw": "[charslot(slot = \"m\", name = \"char_003_kalts_1#3\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 266,
+        "raw": "[name=\"ケルシー\"]クリステンを助けているのはあなたです。つまり、彼女は何らかの手段であなたと接触したことになります。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "クリステンを助けているのはあなたです。つまり、彼女は何らかの手段であなたと接触したことになります。"
+    },
+    {
+        "id": 267,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 268,
+        "raw": "[name=\"「保存者」\"]僕はクルビアのネットワークを通じて、テラの歴史と文化、言語に種族、そして科学技術のレベルについてはすべてを知り尽くしている。",
+        "type": "dialog",
+        "speaker": "「保存者」",
+        "content": "僕はクルビアのネットワークを通じて、テラの歴史と文化、言語に種族、そして科学技術のレベルについてはすべてを知り尽くしている。"
+    },
+    {
+        "id": 269,
+        "raw": "[name=\"「保存者」\"]実に皮肉なことだが、地上における現在の情報伝達技術は全世界をカバーすることさえできないものだというのに、互いを滅ぼす手段だけは、進化の効率に見合ったものになっているようだ。",
+        "type": "dialog",
+        "speaker": "「保存者」",
+        "content": "実に皮肉なことだが、地上における現在の情報伝達技術は全世界をカバーすることさえできないものだというのに、互いを滅ぼす手段だけは、進化の効率に見合ったものになっているようだ。"
+    },
+    {
+        "id": 270,
+        "raw": "[charslot(slot = \"m\", name = \"char_003_kalts_1#1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 271,
+        "raw": "[name=\"ケルシー\"]テラで取られている方式はあまりにも原始的かつ、源石に依存したもの。この程度の変換効率でクリステンの試みを実現するには――必要なエネルギーもまた想像を絶するものになるでしょう。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "テラで取られている方式はあまりにも原始的かつ、源石に依存したもの。この程度の変換効率でクリステンの試みを実現するには――必要なエネルギーもまた想像を絶するものになるでしょう。"
+    },
+    {
+        "id": 272,
+        "raw": "[charslot(slot = \"m\", name = \"char_003_kalts_1#3\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 273,
+        "raw": "[name=\"ケルシー\"]この難題を解決する方法など、テラには存在しえないものです。とある手段を除いては。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "この難題を解決する方法など、テラには存在しえないものです。とある手段を除いては。"
+    },
+    {
+        "id": 274,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 275,
+        "raw": "[name=\"「保存者」\"]そうとも。",
+        "type": "dialog",
+        "speaker": "「保存者」",
+        "content": "そうとも。"
+    },
+    {
+        "id": 276,
+        "raw": "[name=\"「保存者」\"]僕は最後の血を彼女に与えたのだ。消えゆく灯火を見守るよりも、新たな心臓を動かすほうがマシかもしれないからね。",
+        "type": "dialog",
+        "speaker": "「保存者」",
+        "content": "僕は最後の血を彼女に与えたのだ。消えゆく灯火を見守るよりも、新たな心臓を動かすほうがマシかもしれないからね。"
+    },
+    {
+        "id": 277,
+        "raw": "[charslot(slot = \"m\", name = \"char_003_kalts_1#3\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 278,
+        "raw": "[name=\"ケルシー\"]……",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "……"
+    },
+    {
+        "id": 279,
+        "raw": "[name=\"ケルシー\"]あなたは、本気で――",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "あなたは、本気で――"
+    },
+    {
+        "id": 280,
+        "raw": "[name=\"ケルシー\"]……なぜそこまでなさったのですか？　長きにわたるあなたの努力すべてが……無駄になってしまうというのに。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "……なぜそこまでなさったのですか？　長きにわたるあなたの努力すべてが……無駄になってしまうというのに。"
+    },
+    {
+        "id": 281,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 282,
+        "raw": "[name=\"「保存者」\"]確かに、無駄になってしまったな。",
+        "type": "dialog",
+        "speaker": "「保存者」",
+        "content": "確かに、無駄になってしまったな。"
+    },
+    {
+        "id": 283,
+        "raw": "[name=\"「保存者」\"]計画は僕の手で終止符を打たれ、コマンドも僕自身によって入力された。",
+        "type": "dialog",
+        "speaker": "「保存者」",
+        "content": "計画は僕の手で終止符を打たれ、コマンドも僕自身によって入力された。"
+    },
+    {
+        "id": 284,
+        "raw": "[name=\"「保存者」\"]後悔など許されない判断をしたんだ。",
+        "type": "dialog",
+        "speaker": "「保存者」",
+        "content": "後悔など許されない判断をしたんだ。"
+    },
+    {
+        "id": 285,
+        "raw": "[name=\"「保存者」\"]もうすぐ、もうすぐさ。",
+        "type": "dialog",
+        "speaker": "「保存者」",
+        "content": "もうすぐ、もうすぐさ。"
+    },
+    {
+        "id": 286,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 287,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 288,
+        "raw": "[CameraShake(duration=5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "5,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 289,
+        "raw": "[PlaySound(key=\"$d_avg_collapse\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_collapse.mp3",
+        "volume": 1
+    },
+    {
+        "id": 290,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 291,
+        "raw": "[Blocker(a=0.4, r=0, g=0, b=0, fadetime=0.1, block=true)]",
+        "type": "blocker",
+        "a": "0.4,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.1,",
+        "block": true
+    },
+    {
+        "id": 292,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 293,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 294,
+        "raw": "[Blocker(a=0.5, r=0, g=0, b=0, fadetime=0.1, block=true)]",
+        "type": "blocker",
+        "a": "0.5,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.1,",
+        "block": true
+    },
+    {
+        "id": 295,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 296,
+        "raw": "[Blocker(a=0.9, r=0, g=0, b=0, fadetime=0.3, block=true)]",
+        "type": "blocker",
+        "a": "0.9,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.3,",
+        "block": true
+    },
+    {
+        "id": 297,
+        "raw": "[delay(time=0.6)]",
+        "type": "delay",
+        "time": 0.6
+    },
+    {
+        "id": 298,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 299,
+        "raw": "巨大な震動が遠くから広がってきて、地下空間の明かりが何度か明滅した。",
+        "type": "narration",
+        "content": "巨大な震動が遠くから広がってきて、地下空間の明かりが何度か明滅した。"
+    },
+    {
+        "id": 300,
+        "raw": "「保存者」と名乗る存在は暫し沈黙し、そして深いため息をついたように思えた。",
+        "type": "narration",
+        "content": "「保存者」と名乗る存在は暫し沈黙し、そして深いため息をついたように思えた。"
+    },
+    {
+        "id": 301,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 302,
+        "raw": "[Decision(options=\"な、何が起きた！？;……;まさか、エネルギーウェルが？\",values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "な、何が起きた！？;……;まさか、エネルギーウェルが？",
+        "values": "1;2;3"
+    },
+    {
+        "id": 303,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 304,
+        "raw": "[name=\"「保存者」\"]赤子が好奇心に満ちた眼差しを未知へと向ける、それだけのために――",
+        "type": "dialog",
+        "speaker": "「保存者」",
+        "content": "赤子が好奇心に満ちた眼差しを未知へと向ける、それだけのために――"
+    },
+    {
+        "id": 305,
+        "raw": "[name=\"「保存者」\"]どれほどの障害を乗り越えねばならぬのやら。",
+        "type": "dialog",
+        "speaker": "「保存者」",
+        "content": "どれほどの障害を乗り越えねばならぬのやら。"
+    },
+    {
+        "id": 306,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 307,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 308,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 309,
+        "raw": "[stopmusic(fadetime=1)]",
+        "type": "stop_music",
+        "fadetime": 1
+    },
+    {
+        "id": 310,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 311,
+        "raw": "p.m.8:11 エネルギーウェル異常充填状態",
+        "type": "narration",
+        "content": "p.m.8:11 エネルギーウェル異常充填状態"
+    },
+    {
+        "id": 312,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 313,
+        "raw": "[Background(image=\"38_g15_energywell_glowed\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "38_g15_energywell_glowed.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 314,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 315,
+        "raw": "[PlaySound(key=\"$d_avg_magic_3\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_magic_3.mp3",
+        "volume": 1
+    },
+    {
+        "id": 316,
+        "raw": "[delay(time=0.8)]",
+        "type": "delay",
+        "time": 0.8
+    },
+    {
+        "id": 317,
+        "raw": "[PlaySound(key=\"$swordtsing5\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_swordtsing5.mp3",
+        "volume": 1
+    },
+    {
+        "id": 318,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 319,
+        "raw": "[PlaySound(key=\"$d_avg_ftrub\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_ftrub.mp3",
+        "volume": 1
+    },
+    {
+        "id": 320,
+        "raw": "[charslot(slot = \"r\", name = \"avg_1031_slent2_1#9$2\", posfrom=\"-600,0\", posto=\"40,-20\", duration=1, isblock=true)]",
+        "type": "charslot",
+        "posfrom": "-600,0",
+        "posto": "40,-20",
+        "duration": "1,",
+        "isblock": true
+    },
+    {
+        "id": 321,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 322,
+        "raw": "[charslot(slot = \"r\", posfrom=\"40,-20\", posto=\"0,0\", duration=1.5, isblock=true)]",
+        "type": "charslot",
+        "posfrom": "40,-20",
+        "posto": "0,0",
+        "duration": "1.5,",
+        "isblock": true
+    },
+    {
+        "id": 323,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 324,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_893_1#1$1\", posfrom=\"-300,0\", posto=\"0,0\", duration=2.5, isblock=true)]",
+        "type": "charslot",
+        "posfrom": "-300,0",
+        "posto": "0,0",
+        "duration": "2.5,",
+        "isblock": true
+    },
+    {
+        "id": 325,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 326,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_893_1#1$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 327,
+        "raw": "[name=\"ヤラ\"]あのロドスという企業は、あなたに素晴らしい訓練を施してくれたようね。",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "あのロドスという企業は、あなたに素晴らしい訓練を施してくれたようね。"
+    },
+    {
+        "id": 328,
+        "raw": "[charslot(slot = \"r\", name = \"avg_1031_slent2_1#9$2\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 329,
+        "raw": "[name=\"サイレンス\"]はぁ……はぁ……",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "はぁ……はぁ……"
+    },
+    {
+        "id": 330,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_893_1#1$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 331,
+        "raw": "[name=\"ヤラ\"]腕はまだ上がる？",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "腕はまだ上がる？"
+    },
+    {
+        "id": 332,
+        "raw": "[charslot(slot = \"r\", name = \"avg_1031_slent2_1#1$2\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 333,
+        "raw": "[name=\"サイレンス\"]大丈夫です。",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "大丈夫です。"
+    },
+    {
+        "id": 334,
+        "raw": "[name=\"サイレンス\"]そちらの腕はどうですか？",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "そちらの腕はどうですか？"
+    },
+    {
+        "id": 335,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_893_1#1$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 336,
+        "raw": "[name=\"ヤラ\"]大丈夫よ、医療保険には入っているから。",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "大丈夫よ、医療保険には入っているから。"
+    },
+    {
+        "id": 337,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_893_1#1$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 338,
+        "raw": "[name=\"ヤラ\"]さて、まだ続けるの？",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "さて、まだ続けるの？"
+    },
+    {
+        "id": 339,
+        "raw": "[charslot(slot = \"r\", name = \"avg_1031_slent2_1#5$2\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 340,
+        "raw": "[name=\"サイレンス\"]……あなたがなおも行く手を阻むおつもりなら。",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "……あなたがなおも行く手を阻むおつもりなら。"
+    },
+    {
+        "id": 341,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_893_1#9$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 342,
+        "raw": "[name=\"ヤラ\"]いいわ、それなら続けましょう。",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "いいわ、それなら続けましょう。"
+    },
+    {
+        "id": 343,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 344,
+        "raw": "[PlaySound(key=\"$d_avg_energywell\", volume=0, loop=true, channel=\"a\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_energywell.mp3",
+        "volume": "0,",
+        "loop": "true,",
+        "channel": "a"
+    },
+    {
+        "id": 345,
+        "raw": "[SoundVolume(volume=0.4, channel=\"a\",fadetime=2)]",
+        "type": "sound_volume",
+        "volume": "0.4,",
+        "channel": "a",
+        "fadetime": 2
+    },
+    {
+        "id": 346,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 347,
+        "raw": "[playMusic(intro=\"$act25side_intro\",key=\"$act25side_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act25side/m_sys_act25side_intro.mp3",
+        "key": "sound_beta_2/music/act25side/m_sys_act25side_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 348,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_893_1#7$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 349,
+        "raw": "[name=\"ヤラ\"]……待って。何か妙だわ。",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "……待って。何か妙だわ。"
+    },
+    {
+        "id": 350,
+        "raw": "[name=\"ヤラ\"]この辺り、温度が上がりすぎている……エネルギーウェルが発射準備をしていたとしても、ここまで高温にはならないはずよ。",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "この辺り、温度が上がりすぎている……エネルギーウェルが発射準備をしていたとしても、ここまで高温にはならないはずよ。"
+    },
+    {
+        "id": 351,
+        "raw": "[charslot(slot = \"r\", name = \"avg_1031_slent2_1#1$2\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 352,
+        "raw": "[name=\"サイレンス\"]軍の人たちは、エネルギーの充填を止めるために、ここにあるエネルギー源はほぼすべて遮断したと言っていました。",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "軍の人たちは、エネルギーの充填を止めるために、ここにあるエネルギー源はほぼすべて遮断したと言っていました。"
+    },
+    {
+        "id": 353,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_893_1#3$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 354,
+        "raw": "[name=\"ヤラ\"]ということは、警報システムや制御システムへの供給も？　あの愚か者たちときたら――！",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "ということは、警報システムや制御システムへの供給も？　あの愚か者たちときたら――！"
+    },
+    {
+        "id": 355,
+        "raw": "[name=\"ヤラ\"]早く！　ここを離れましょう！",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "早く！　ここを離れましょう！"
+    },
+    {
+        "id": 356,
+        "raw": "[charslot(slot = \"r\", name = \"avg_1031_slent2_1#5$2\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 357,
+        "raw": "[name=\"サイレンス\"]上にまだ兵士が残っていますから、ヤラ主任は彼らを連れて逃げてください。",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "上にまだ兵士が残っていますから、ヤラ主任は彼らを連れて逃げてください。"
+    },
+    {
+        "id": 358,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_893_1#4$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 359,
+        "raw": "[name=\"ヤラ\"]あなたはどうするの？",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "あなたはどうするの？"
+    },
+    {
+        "id": 360,
+        "raw": "[charslot(slot = \"r\", name = \"avg_1031_slent2_1#1$2\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 361,
+        "raw": "[name=\"サイレンス\"]制御システムのエネルギー源が遮断されているのなら、統括がこの場所を遠隔操作できているのはなぜだと思いますか？",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "制御システムのエネルギー源が遮断されているのなら、統括がこの場所を遠隔操作できているのはなぜだと思いますか？"
+    },
+    {
+        "id": 362,
+        "raw": "[charslot(slot = \"r\", name = \"avg_1031_slent2_1#5$2\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 363,
+        "raw": "[name=\"サイレンス\"]伝達物質の反応は今も強まっています。私にはまだ、チャンスが残されているんです。",
+        "type": "dialog",
+        "speaker": "サイレンス",
+        "content": "伝達物質の反応は今も強まっています。私にはまだ、チャンスが残されているんです。"
+    },
+    {
+        "id": 364,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 365,
+        "raw": "[PlaySound(key=\"$rungeneral\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_rungeneral.mp3",
+        "volume": 1
+    },
+    {
+        "id": 366,
+        "raw": "[charslot(slot = \"r\", afrom=1, ato=0, duration=1, focus=\"r\", isblock=true)]",
+        "type": "charslot",
+        "afrom": "1,",
+        "ato": "0,",
+        "duration": "1,",
+        "focus": "r",
+        "isblock": true
+    },
+    {
+        "id": 367,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 368,
+        "raw": "[charslot(slot = \"l\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 369,
+        "raw": "[name=\"ヤラ\"]サイレンス！",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "サイレンス！"
+    },
+    {
+        "id": 370,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 371,
+        "raw": "[charslot(duration=0.5)]",
+        "type": "charslot",
+        "duration": 0.5
+    },
+    {
+        "id": 372,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 373,
+        "raw": "[Image(image=\"38_i15_1\", screenadapt=\"coverall\", fadetime=2)]",
+        "type": "image",
+        "image": "38_i15_1.png",
+        "screenadapt": "coverall",
+        "fadetime": 2
+    },
+    {
+        "id": 374,
+        "raw": "[CameraShake(duration=-1, xstrength=10, ystrength=10, vibrato=30, randomness=90, fadeout=false, block=false)]",
+        "type": "camera_shake",
+        "duration": "-1,",
+        "xstrength": "10,",
+        "ystrength": "10,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "false,",
+        "block": false
+    },
+    {
+        "id": 375,
+        "raw": "[PlaySound(key=\"$d_avg_collapse\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_collapse.mp3",
+        "volume": 1
+    },
+    {
+        "id": 376,
+        "raw": "[PlaySound(key=\"$d_avg_energywell\", volume=0.8, loop=true, channel=\"a\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_energywell.mp3",
+        "volume": "0.8,",
+        "loop": "true,",
+        "channel": "a"
+    },
+    {
+        "id": 377,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 378,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 379,
+        "raw": "熱気がヤラの顔をじりじりと焼く。それまで特別目を向けたことのなかったリーベリの研究員は今、エネルギーウェルのさらなる深層へと駆け出していた。",
+        "type": "narration",
+        "content": "熱気がヤラの顔をじりじりと焼く。それまで特別目を向けたことのなかったリーベリの研究員は今、エネルギーウェルのさらなる深層へと駆け出していた。"
+    },
+    {
+        "id": 380,
+        "raw": "ヤラはふと、彼女を妨げられるものなど何もないように感じた。",
+        "type": "narration",
+        "content": "ヤラはふと、彼女を妨げられるものなど何もないように感じた。"
+    },
+    {
+        "id": 381,
+        "raw": "もしかすると、彼女が約束してくれたことは、本当に成されるのかもしれない。",
+        "type": "narration",
+        "content": "もしかすると、彼女が約束してくれたことは、本当に成されるのかもしれない。"
+    },
+    {
+        "id": 382,
+        "raw": "ヤラは思った。その時が来たら、自分も多少は力になれるかもしれない、と。",
+        "type": "narration",
+        "content": "ヤラは思った。その時が来たら、自分も多少は力になれるかもしれない、と。"
+    },
+    {
+        "id": 383,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 384,
+        "raw": "[PlaySound(key=\"$d_avg_energywell\", volume=1, loop=true, channel=\"a\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_energywell.mp3",
+        "volume": "1,",
+        "loop": "true,",
+        "channel": "a"
+    },
+    {
+        "id": 385,
+        "raw": "[CameraShake(duration=-1, xstrength=15, ystrength=15, vibrato=30, randomness=90, fadeout=false, block=false)]",
+        "type": "camera_shake",
+        "duration": "-1,",
+        "xstrength": "15,",
+        "ystrength": "15,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "false,",
+        "block": false
+    },
+    {
+        "id": 386,
+        "raw": "[PlaySound(key=\"$d_avg_collapse\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_collapse.mp3",
+        "volume": 1
+    },
+    {
+        "id": 387,
+        "raw": "[Image(image=\"38_i15_2\", screenadapt=\"coverall\", fadetime=1)]",
+        "type": "image",
+        "image": "38_i15_2.png",
+        "screenadapt": "coverall",
+        "fadetime": 1
+    },
+    {
+        "id": 388,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 389,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 390,
+        "raw": "[delay(time=3.5)]",
+        "type": "delay",
+        "time": 3.5
+    },
+    {
+        "id": 391,
+        "raw": "[name=\"ヤラ\"]発射の準備は整ったみたいね。",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "発射の準備は整ったみたいね。"
+    },
+    {
+        "id": 392,
+        "raw": "[name=\"ヤラ\"]「科学とは、あらゆる人に真摯に向き合うこと」……ね。",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "「科学とは、あらゆる人に真摯に向き合うこと」……ね。"
+    },
+    {
+        "id": 393,
+        "raw": "[name=\"ヤラ\"]ふっ、私は科学者じゃないのに。",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "ふっ、私は科学者じゃないのに。"
+    },
+    {
+        "id": 394,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 395,
+        "raw": "[PlaySound(key=\"$d_avg_energygather\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_energygather.mp3",
+        "volume": 1
+    },
+    {
+        "id": 396,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 397,
+        "raw": "[name=\"ヤラ\"]クリステン、あなたは夢見た空の高くまで飛んで行くでしょう……",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "クリステン、あなたは夢見た空の高くまで飛んで行くでしょう……"
+    },
+    {
+        "id": 398,
+        "raw": "[name=\"ヤラ\"]必ずね。",
+        "type": "dialog",
+        "speaker": "ヤラ",
+        "content": "必ずね。"
+    },
+    {
+        "id": 399,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 400,
+        "raw": "[StopSound(channel=\"a\", fadetime=2)]",
+        "type": "stop_sound",
+        "channel": "a",
+        "fadetime": 2
+    },
+    {
+        "id": 401,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 402,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 403,
+        "raw": "[CameraShake(duration=0.1, xstrength=0, ystrength=0, vibrato=30, randomness=90, fadeout=false, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.1,",
+        "xstrength": "0,",
+        "ystrength": "0,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "false,",
+        "block": false
+    },
+    {
+        "id": 404,
+        "raw": "[image]",
+        "type": "image"
+    },
+    {
+        "id": 405,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 406,
+        "raw": "[Background(image=\"29_g7_mainstreet_n\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "29_g7_mainstreet_n.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 407,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 408,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 409,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_891_1#1$1\", duration=1, isblock=true)]",
+        "type": "charslot",
+        "duration": "1,",
+        "isblock": true
+    },
+    {
+        "id": 410,
+        "raw": "[name=\"ナスティ\"]……",
+        "type": "dialog",
+        "speaker": "ナスティ",
+        "content": "……"
+    },
+    {
+        "id": 411,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 412,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 413,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_892_1#1$1\", duration=1.5)]",
+        "type": "charslot",
+        "duration": 1.5
+    },
+    {
+        "id": 414,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 415,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_892_1#9$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 416,
+        "raw": "[name=\"ジャスティンJr.\"]ナスティさん、もっと見やすい場所を選ぼうとは思わなかったんですか？",
+        "type": "dialog",
+        "speaker": "ジャスティンJr.",
+        "content": "ナスティさん、もっと見やすい場所を選ぼうとは思わなかったんですか？"
+    },
+    {
+        "id": 417,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_891_1#6$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 418,
+        "raw": "[name=\"ナスティ\"]……君はいつまで付きまとってくるつもりだ？",
+        "type": "dialog",
+        "speaker": "ナスティ",
+        "content": "……君はいつまで付きまとってくるつもりだ？"
+    },
+    {
+        "id": 419,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_892_1#9$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 420,
+        "raw": "[name=\"ジャスティンJr.\"]そういえば、以前調査でリターニアへ行った時、彼らの花火の祭典を見たことがありましてね。リターニア人はその祭典のために、最高の作曲家を招いて曲を作らせるんですよ。",
+        "type": "dialog",
+        "speaker": "ジャスティンJr.",
+        "content": "そういえば、以前調査でリターニアへ行った時、彼らの花火の祭典を見たことがありましてね。リターニア人はその祭典のために、最高の作曲家を招いて曲を作らせるんですよ。"
+    },
+    {
+        "id": 421,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_892_1#3$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 422,
+        "raw": "[name=\"ジャスティンJr.\"]最初の花火が上がった時、音楽家たちが一斉に演奏を始めるのですが……あの光景はまったく、それはもう美しいものでした。",
+        "type": "dialog",
+        "speaker": "ジャスティンJr.",
+        "content": "最初の花火が上がった時、音楽家たちが一斉に演奏を始めるのですが……あの光景はまったく、それはもう美しいものでした。"
+    },
+    {
+        "id": 423,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_891_1#6$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 424,
+        "raw": "[name=\"ナスティ\"]君のように語彙力の乏しい人間は、リターニア人には嫌われるだろうな。",
+        "type": "dialog",
+        "speaker": "ナスティ",
+        "content": "君のように語彙力の乏しい人間は、リターニア人には嫌われるだろうな。"
+    },
+    {
+        "id": 425,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_892_1#1$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 426,
+        "raw": "[name=\"ジャスティンJr.\"]ははっ、確かに。それにしても、まさか今日トリマウンツであの時さながらの華やかな景色を見られるとは思いませんでした。",
+        "type": "dialog",
+        "speaker": "ジャスティンJr.",
+        "content": "ははっ、確かに。それにしても、まさか今日トリマウンツであの時さながらの華やかな景色を見られるとは思いませんでした。"
+    },
+    {
+        "id": 427,
+        "raw": "[name=\"ジャスティンJr.\"]空に浮かぶリングに、ドローンが放つ弾丸という光の雨、そして装甲から散る火花……",
+        "type": "dialog",
+        "speaker": "ジャスティンJr.",
+        "content": "空に浮かぶリングに、ドローンが放つ弾丸という光の雨、そして装甲から散る火花……"
+    },
+    {
+        "id": 428,
+        "raw": "[name=\"ジャスティンJr.\"]かの花火の祭典にも劣りませんよ。",
+        "type": "dialog",
+        "speaker": "ジャスティンJr.",
+        "content": "かの花火の祭典にも劣りませんよ。"
+    },
+    {
+        "id": 429,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_892_1#9$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 430,
+        "raw": "[name=\"ジャスティンJr.\"]時間的に、この演奏はそろそろクライマックスですね。",
+        "type": "dialog",
+        "speaker": "ジャスティンJr.",
+        "content": "時間的に、この演奏はそろそろクライマックスですね。"
+    },
+    {
+        "id": 431,
+        "raw": "[name=\"ジャスティンJr.\"]人心震わすフォルティシモが響き渡るはず――",
+        "type": "dialog",
+        "speaker": "ジャスティンJr.",
+        "content": "人心震わすフォルティシモが響き渡るはず――"
+    },
+    {
+        "id": 432,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 433,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 434,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 435,
+        "raw": "[background]",
+        "type": "background"
+    },
+    {
+        "id": 436,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 437,
+        "raw": "[Image(image=\"38_i10\", xScale=1.8, yScale=1.8, x=50,y=200, screenadapt=\"coverall\")]",
+        "type": "image",
+        "image": "38_i10.png",
+        "xScale": "1.8,",
+        "yScale": "1.8,",
+        "x": "50,y=200,",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 438,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 439,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 440,
+        "raw": "[CameraShake(duration=-1, xstrength=2, ystrength=10, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "-1,",
+        "xstrength": "2,",
+        "ystrength": "10,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 441,
+        "raw": "[PlaySound(key=\"$d_avg_energybeamfire\", volume=0.6)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_energybeamfire.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 442,
+        "raw": "[Image(image=\"38_i16\", screenadapt=\"coverall\", xScale=1.8, yScale=1.8, x=50,y=200,fadetime=0.2)]",
+        "type": "image",
+        "image": "38_i16.png",
+        "screenadapt": "coverall",
+        "xScale": "1.8,",
+        "yScale": "1.8,",
+        "x": "50,y=200,fadetime=0.2"
+    },
+    {
+        "id": 443,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 444,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.05,",
+        "block": true
+    },
+    {
+        "id": 445,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0.05, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.05,",
+        "block": true
+    },
+    {
+        "id": 446,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.05,",
+        "block": true
+    },
+    {
+        "id": 447,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=1, block=false)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "1,",
+        "block": false
+    },
+    {
+        "id": 448,
+        "raw": "[ImageTween(xTo=50,yTo=-180,duration=3.5)]",
+        "type": "image_tween",
+        "xTo": "50,yTo=-180,duration=3.5"
+    },
+    {
+        "id": 449,
+        "raw": "[delay(time=3)]",
+        "type": "delay",
+        "time": 3
+    },
+    {
+        "id": 450,
+        "raw": "[PlaySound(key=\"$d_avg_beamamb\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_beamamb.mp3",
+        "volume": 1
+    },
+    {
+        "id": 451,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 452,
+        "raw": "[CameraShake(duration=1.5, xstrength=4, ystrength=30, vibrato=50, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "1.5,",
+        "xstrength": "4,",
+        "ystrength": "30,",
+        "vibrato": "50,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 453,
+        "raw": "[ImageTween(xScaleFrom=1.8, yScaleFrom=1.8, xScaleTo=1.2, yScaleTo=1.2, duration=0.2, ease=\"InOutCubic\", xTo=0,yTo=0,block=true)]",
+        "type": "image_tween",
+        "xScaleFrom": "1.8,",
+        "yScaleFrom": "1.8,",
+        "xScaleTo": "1.2,",
+        "yScaleTo": "1.2,",
+        "duration": "0.2,",
+        "ease": "InOutCubic",
+        "xTo": "0,yTo=0,block=true"
+    },
+    {
+        "id": 454,
+        "raw": "[Image(image=\"38_i16\", screenadapt=\"coverall\", xScale=2.5, yScale=2.5, fadetime=0.1)]",
+        "type": "image",
+        "image": "38_i16.png",
+        "screenadapt": "coverall",
+        "xScale": "2.5,",
+        "yScale": "2.5,",
+        "fadetime": 0.1
+    },
+    {
+        "id": 455,
+        "raw": "[ImageTween(xScaleFrom=2.5, yScaleFrom=2.5, xScaleTo=1.2, yScaleTo=1.2, duration=0.1, ease=\"InOutCubic\", xTo=0,yTo=0,block=true)]",
+        "type": "image_tween",
+        "xScaleFrom": "2.5,",
+        "yScaleFrom": "2.5,",
+        "xScaleTo": "1.2,",
+        "yScaleTo": "1.2,",
+        "duration": "0.1,",
+        "ease": "InOutCubic",
+        "xTo": "0,yTo=0,block=true"
+    },
+    {
+        "id": 456,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 457,
+        "raw": "[CameraShake(duration=6, xstrength=30, ystrength=30, vibrato=50, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "6,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "50,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 458,
+        "raw": "[PlaySound(key=\"$glass\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_glass.mp3",
+        "volume": 1
+    },
+    {
+        "id": 459,
+        "raw": "[PlaySound(key=\"$d_avg_collapse\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_collapse.mp3",
+        "volume": 1
+    },
+    {
+        "id": 460,
+        "raw": "[PlaySound(key=\"$d_gen_thunders_amb\", volume=0.7)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_thunders_amb.mp3",
+        "volume": 0.7
+    },
+    {
+        "id": 461,
+        "raw": "[ImageTween(xScaleFrom=1.2, yScaleFrom=1.2, xScaleTo=1, yScaleTo=1, duration=20)]",
+        "type": "image_tween",
+        "xScaleFrom": "1.2,",
+        "yScaleFrom": "1.2,",
+        "xScaleTo": "1,",
+        "yScaleTo": "1,",
+        "duration": 20
+    },
+    {
+        "id": 462,
+        "raw": "[delay(time=3.5)]",
+        "type": "delay",
+        "time": 3.5
+    },
+    {
+        "id": 463,
+        "raw": "[name=\"ジャスティンJr.\"]……",
+        "type": "dialog",
+        "speaker": "ジャスティンJr.",
+        "content": "……"
+    },
+    {
+        "id": 464,
+        "raw": "[name=\"ナスティ\"]……",
+        "type": "dialog",
+        "speaker": "ナスティ",
+        "content": "……"
+    },
+    {
+        "id": 465,
+        "raw": "[name=\"ジャスティンJr.\"]これは……想像以上に美しい光景ですね。ライン生命としては、この一幕を目にした市内の全員から見物料をとってもいいくらいですよ。",
+        "type": "dialog",
+        "speaker": "ジャスティンJr.",
+        "content": "これは……想像以上に美しい光景ですね。ライン生命としては、この一幕を目にした市内の全員から見物料をとってもいいくらいですよ。"
+    },
+    {
+        "id": 466,
+        "raw": "[name=\"ナスティ\"]……ひとまず成功だな。フォーカスジェネレーターの材質及び構造はエネルギービームの衝撃に耐えることができた。",
+        "type": "dialog",
+        "speaker": "ナスティ",
+        "content": "……ひとまず成功だな。フォーカスジェネレーターの材質及び構造はエネルギービームの衝撃に耐えることができた。"
+    },
+    {
+        "id": 467,
+        "raw": "[name=\"ナスティ\"]次はチャージとフォーカシングだ。負荷が高い条件下での測定値を収集することさえできれば……",
+        "type": "dialog",
+        "speaker": "ナスティ",
+        "content": "次はチャージとフォーカシングだ。負荷が高い条件下での測定値を収集することさえできれば……"
+    },
+    {
+        "id": 468,
+        "raw": "[name=\"ジャスティンJr.\"]その前に、軍とマイレンダーの人間が最後のチャンスを逃すまいとして、フォーカシングを阻止しようとしてくるでしょうね。",
+        "type": "dialog",
+        "speaker": "ジャスティンJr.",
+        "content": "その前に、軍とマイレンダーの人間が最後のチャンスを逃すまいとして、フォーカシングを阻止しようとしてくるでしょうね。"
+    },
+    {
+        "id": 469,
+        "raw": "[name=\"ジャスティンJr.\"]統括のことは心配なさらないんですか？",
+        "type": "dialog",
+        "speaker": "ジャスティンJr.",
+        "content": "統括のことは心配なさらないんですか？"
+    },
+    {
+        "id": 470,
+        "raw": "[name=\"ナスティ\"]彼女がいつ、我々の心配などを必要とした？",
+        "type": "dialog",
+        "speaker": "ナスティ",
+        "content": "彼女がいつ、我々の心配などを必要とした？"
+    },
+    {
+        "id": 471,
+        "raw": "[name=\"ナスティ\"]我々は単なる同行者でしかないんだ。",
+        "type": "dialog",
+        "speaker": "ナスティ",
+        "content": "我々は単なる同行者でしかないんだ。"
+    },
+    {
+        "id": 472,
+        "raw": "[name=\"ナスティ\"]ただ自分たちの仕事をして、あとは……彼女の幸運を祈ればそれでいい。",
+        "type": "dialog",
+        "speaker": "ナスティ",
+        "content": "ただ自分たちの仕事をして、あとは……彼女の幸運を祈ればそれでいい。"
+    },
+    {
+        "id": 473,
+        "raw": "[name=\"ナスティ\"]（サルカズ語）いつか、カズデルもまた空に浮かぶ時が来たら、その炉には君の名を刻もう。",
+        "type": "dialog",
+        "speaker": "ナスティ",
+        "content": "（サルカズ語）いつか、カズデルもまた空に浮かぶ時が来たら、その炉には君の名を刻もう。"
+    },
+    {
+        "id": 474,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 475,
+        "raw": "[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 476,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 477,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 478,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 479,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 480,
+        "raw": "[Image]",
+        "type": "image"
+    }
+]

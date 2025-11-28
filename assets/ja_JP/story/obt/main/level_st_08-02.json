@@ -1,0 +1,1918 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")] ",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK"
+    },
+    {
+        "id": 2,
+        "raw": "[stopmusic]",
+        "type": "stop_music"
+    },
+    {
+        "id": 3,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 4,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 5,
+        "raw": "[playMusic(intro=\"$mist_intro\", key=\"$mist_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta1_180603/m_dia_mist_intro.mp3",
+        "key": "sound_beta_2/music/beta1_180603/m_dia_mist_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 6,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 7,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 8,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 9,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 10,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 11,
+        "raw": "[Background(image=\"bg_cherunder_2\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_cherunder_2.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 12,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 13,
+        "raw": "中央エリア",
+        "type": "narration",
+        "content": "中央エリア"
+    },
+    {
+        "id": 14,
+        "raw": "少し前",
+        "type": "narration",
+        "content": "少し前"
+    },
+    {
+        "id": 15,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 16,
+        "raw": "[Decision(options=\"なぜアーミヤたちが司令塔にたどり着く前に――\", values=\"1\")]",
+        "type": "decision",
+        "options": "なぜアーミヤたちが司令塔にたどり着く前に――",
+        "values": "1"
+    },
+    {
+        "id": 17,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 18,
+        "raw": "[Decision(options=\"タルラの精鋭部隊に遭遇しないと言い切れる？\", values=\"1\")]",
+        "type": "decision",
+        "options": "タルラの精鋭部隊に遭遇しないと言い切れる？",
+        "values": "1"
+    },
+    {
+        "id": 19,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 20,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 21,
+        "raw": "[name=\"ケルシー\"] そこがまさに陰謀家の習性が顕れる部分だ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "そこがまさに陰謀家の習性が顕れる部分だ。"
+    },
+    {
+        "id": 22,
+        "raw": "[name=\"ケルシー\"] 軍閥であれ、狡猾な暴君であれ、彼らの居城は決まって難攻不落であるものだ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "軍閥であれ、狡猾な暴君であれ、彼らの居城は決まって難攻不落であるものだ。"
+    },
+    {
+        "id": 23,
+        "raw": "[name=\"ケルシー\"] 彼らは常に、自らの悪行に対する復讐を念頭に置いている。だから自らの居城には、屈強な兵士や最新鋭の兵器を配備し、鉄壁の防衛線を敷く。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "彼らは常に、自らの悪行に対する復讐を念頭に置いている。だから自らの居城には、屈強な兵士や最新鋭の兵器を配備し、鉄壁の防衛線を敷く。"
+    },
+    {
+        "id": 24,
+        "raw": "[name=\"ケルシー\"] だが、タルラの暴君のような振る舞いは、単なる演技にすぎない。だから、彼女はそのようなことはしない。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "だが、タルラの暴君のような振る舞いは、単なる演技にすぎない。だから、彼女はそのようなことはしない。"
+    },
+    {
+        "id": 25,
+        "raw": "[Decision(options=\"その自信はどこから？;……;理由を聞かせてもらおう。\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "その自信はどこから？;……;理由を聞かせてもらおう。",
+        "values": "1;2;3"
+    },
+    {
+        "id": 26,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 27,
+        "raw": "[name=\"ケルシー\"] これは経験、理論、そして現象に基づくものだ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "これは経験、理論、そして現象に基づくものだ。"
+    },
+    {
+        "id": 28,
+        "raw": "[name=\"ケルシー\"] だが、自信があるわけではない。推測により確度の高い結論を導き出しているだけだ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "だが、自信があるわけではない。推測により確度の高い結論を導き出しているだけだ。"
+    },
+    {
+        "id": 29,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 30,
+        "raw": "[name=\"ケルシー\"] ……君自身の意見も聞けると期待していたのだがな。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "……君自身の意見も聞けると期待していたのだがな。"
+    },
+    {
+        "id": 31,
+        "raw": "[name=\"ケルシー\"] それとも、沈黙が君の答えなのかな？",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "それとも、沈黙が君の答えなのかな？"
+    },
+    {
+        "id": 32,
+        "raw": "[name=\"ケルシー\"] それならば、君の理解に感謝する。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "それならば、君の理解に感謝する。"
+    },
+    {
+        "id": 33,
+        "raw": "[Predicate(references=\"3\")]",
+        "type": "predicate",
+        "references": "3"
+    },
+    {
+        "id": 34,
+        "raw": "[name=\"ケルシー\"] もし私の考えが君の賛同を得られたならば……",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "もし私の考えが君の賛同を得られたならば……"
+    },
+    {
+        "id": 35,
+        "raw": "[name=\"ケルシー\"] 私が喜びを感じるとでも思っているのか？",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "私が喜びを感じるとでも思っているのか？"
+    },
+    {
+        "id": 36,
+        "raw": "[name=\"ケルシー\"] 尊重は双方向のものだ。もし君が私の観点を尊重し、それが有益であるという結論を出したのなら、私も君の観点を尊重し考慮する。ただそれだけだ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "尊重は双方向のものだ。もし君が私の観点を尊重し、それが有益であるという結論を出したのなら、私も君の観点を尊重し考慮する。ただそれだけだ。"
+    },
+    {
+        "id": 37,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 38,
+        "raw": "[name=\"ケルシー\"] タルラは自分のイメージを大事にしている。一般の感染者の尊敬、サルカズ傭兵の服従、遊撃隊の信頼、熱狂的な信者からの崇拝……それら全てを一身に集める必要があるからな。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "タルラは自分のイメージを大事にしている。一般の感染者の尊敬、サルカズ傭兵の服従、遊撃隊の信頼、熱狂的な信者からの崇拝……それら全てを一身に集める必要があるからな。"
+    },
+    {
+        "id": 39,
+        "raw": "[name=\"ケルシー\"] 彼女は、自分と彼らとの距離を明確にし、これらの人々を互いに監視させなければならない。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "彼女は、自分と彼らとの距離を明確にし、これらの人々を互いに監視させなければならない。"
+    },
+    {
+        "id": 40,
+        "raw": "[name=\"ケルシー\"] レユニオンの一連の状況から、はっきりと言えることが一つある。それはレユニオンの他のリーダーは、タルラの行動について多くを把握していないということだ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "レユニオンの一連の状況から、はっきりと言えることが一つある。それはレユニオンの他のリーダーは、タルラの行動について多くを把握していないということだ。"
+    },
+    {
+        "id": 41,
+        "raw": "[name=\"ケルシー\"] 彼女の陰謀に気付いたパトリオットでさえも、急激な変化の荒波に抗うすべはなかった。もし彼がタルラを殺せたとしても、滅亡に向かうレユニオンを止めることはできなかっただろう。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "彼女の陰謀に気付いたパトリオットでさえも、急激な変化の荒波に抗うすべはなかった。もし彼がタルラを殺せたとしても、滅亡に向かうレユニオンを止めることはできなかっただろう。"
+    },
+    {
+        "id": 42,
+        "raw": "[name=\"ケルシー\"] タルラが思い描いた感染者を利用するという緻密な陰謀は……現在までのレユニオンの活動期間よりも長い時間をかけて画策されたものなのかもしれない。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "タルラが思い描いた感染者を利用するという緻密な陰謀は……現在までのレユニオンの活動期間よりも長い時間をかけて画策されたものなのかもしれない。"
+    },
+    {
+        "id": 43,
+        "raw": "[name=\"ケルシー\"] そして私は、レユニオンのこれまでの活動は全て、ある条件を前提に計画されたものだと考えている。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "そして私は、レユニオンのこれまでの活動は全て、ある条件を前提に計画されたものだと考えている。"
+    },
+    {
+        "id": 44,
+        "raw": "[name=\"ケルシー\"] 「レユニオンは事態の収拾後に消滅する」という……な。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "「レユニオンは事態の収拾後に消滅する」という……な。"
+    },
+    {
+        "id": 45,
+        "raw": "[name=\"ケルシー\"] タルラは、必要な時に招集可能な精鋭揃いの隠密部隊を各地に配備した上で、絶好のタイミングで出動させるつもりだろう。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "タルラは、必要な時に招集可能な精鋭揃いの隠密部隊を各地に配備した上で、絶好のタイミングで出動させるつもりだろう。"
+    },
+    {
+        "id": 46,
+        "raw": "[name=\"ケルシー\"] ドクター、私が思うに、ウルサス帝国の第三軍は、実は感染者の自由な行動を許してはいない可能性がある。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "ドクター、私が思うに、ウルサス帝国の第三軍は、実は感染者の自由な行動を許してはいない可能性がある。"
+    },
+    {
+        "id": 47,
+        "raw": "[name=\"ケルシー\"] つまり、単に現時点におけるレユニオンのあらゆる活動が、彼らの許容範囲にあるというだけだ。表面上だけの暴動や、風紀・規律の乱れは、第三軍にとってはむしろ好都合なのかもしれない。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "つまり、単に現時点におけるレユニオンのあらゆる活動が、彼らの許容範囲にあるというだけだ。表面上だけの暴動や、風紀・規律の乱れは、第三軍にとってはむしろ好都合なのかもしれない。"
+    },
+    {
+        "id": 48,
+        "raw": "[name=\"ケルシー\"] だが、奴らは最後まで傍観に徹するだろうか？　リスクを承知で、一つの都市、一つの国の情勢をタルラ一人に好きに操らせておくだろうか？",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "だが、奴らは最後まで傍観に徹するだろうか？　リスクを承知で、一つの都市、一つの国の情勢をタルラ一人に好きに操らせておくだろうか？"
+    },
+    {
+        "id": 49,
+        "raw": "[name=\"ケルシー\"] あるいは、これもタルラの計略の内であって、ウルサス軍を騙して利用し、彼女の手に余るような状況に備えて、身を潜めさせているだけなのかもしれない。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "あるいは、これもタルラの計略の内であって、ウルサス軍を騙して利用し、彼女の手に余るような状況に備えて、身を潜めさせているだけなのかもしれない。"
+    },
+    {
+        "id": 50,
+        "raw": "[name=\"ケルシー\"] そして時期が来れば、タルラは大義名分を掲げ……そもそも触れる事すらできなかったはずの力を行使できる。彼女の思い通りにな。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "そして時期が来れば、タルラは大義名分を掲げ……そもそも触れる事すらできなかったはずの力を行使できる。彼女の思い通りにな。"
+    },
+    {
+        "id": 51,
+        "raw": "[name=\"ケルシー\"] ただし、そのためにはやはり時間が必要だ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "ただし、そのためにはやはり時間が必要だ。"
+    },
+    {
+        "id": 52,
+        "raw": "[Decision(options=\"仮にそうだとして、なぜタルラが暴君でないと言える？\", values=\"1\")]",
+        "type": "decision",
+        "options": "仮にそうだとして、なぜタルラが暴君でないと言える？",
+        "values": "1"
+    },
+    {
+        "id": 53,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 54,
+        "raw": "[name=\"ケルシー\"] 現在のレユニオンは一見、暴君のようなリーダーを求めているように見えるが、実際はそうではないからだ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "現在のレユニオンは一見、暴君のようなリーダーを求めているように見えるが、実際はそうではないからだ。"
+    },
+    {
+        "id": 55,
+        "raw": "[name=\"ケルシー\"] 暴君は自分の手となり足となるものを惜しむ。時に判断ミスや一時の感情で配下を容易く処分する一方、命を落とした彼らのために涙を流す……ある意味、彼らに寄り添い、同じ地点に立っている。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "暴君は自分の手となり足となるものを惜しむ。時に判断ミスや一時の感情で配下を容易く処分する一方、命を落とした彼らのために涙を流す……ある意味、彼らに寄り添い、同じ地点に立っている。"
+    },
+    {
+        "id": 56,
+        "raw": "[name=\"ケルシー\"] だが陰謀家は違う。ゲームの駒に喩えるならば、暴君が配下の駒と同様、常に盤上にいるのに対し、陰謀家は基本的に盤の外にいる。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "だが陰謀家は違う。ゲームの駒に喩えるならば、暴君が配下の駒と同様、常に盤上にいるのに対し、陰謀家は基本的に盤の外にいる。"
+    },
+    {
+        "id": 57,
+        "raw": "[name=\"ケルシー\"] タルラも人間である以上、過ちを犯す可能性はある。だが、優れた陰謀家ならば、陰謀がレールを走り出した後は、たとえ自らの死後でもその陰謀が継続するように図るものだ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "タルラも人間である以上、過ちを犯す可能性はある。だが、優れた陰謀家ならば、陰謀がレールを走り出した後は、たとえ自らの死後でもその陰謀が継続するように図るものだ。"
+    },
+    {
+        "id": 58,
+        "raw": "[Decision(options=\"つまり我々の行動には意味がないと？\", values=\"1\")]",
+        "type": "decision",
+        "options": "つまり我々の行動には意味がないと？",
+        "values": "1"
+    },
+    {
+        "id": 59,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 60,
+        "raw": "[name=\"ケルシー\"] いいや。もしそうなら、私もわざわざロドスの仲間と共に、命の危険を冒したりはしない。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "いいや。もしそうなら、私もわざわざロドスの仲間と共に、命の危険を冒したりはしない。"
+    },
+    {
+        "id": 61,
+        "raw": "[name=\"ケルシー\"] 私が言いたいのは、タルラだけを殺したところで意味はないということだ。それなら、要所要所で彼女の計画に対抗措置を取り、その陰謀を失敗に追い込む方が賢明だろう。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "私が言いたいのは、タルラだけを殺したところで意味はないということだ。それなら、要所要所で彼女の計画に対抗措置を取り、その陰謀を失敗に追い込む方が賢明だろう。"
+    },
+    {
+        "id": 62,
+        "raw": "[name=\"ケルシー\"] 前進する戦艦を止められないのならば、構成部品を細かく分解し、目的地に着くまでに無害な抜け殻のみにすればいい。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "前進する戦艦を止められないのならば、構成部品を細かく分解し、目的地に着くまでに無害な抜け殻のみにすればいい。"
+    },
+    {
+        "id": 63,
+        "raw": "[name=\"ケルシー\"] ……ふむ、今のは少し誤解を与える言い方だったかもしれないな。このチェルノボーグを――中枢区画を止めなければならないことに変わりはない。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "……ふむ、今のは少し誤解を与える言い方だったかもしれないな。このチェルノボーグを――中枢区画を止めなければならないことに変わりはない。"
+    },
+    {
+        "id": 64,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 65,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 66,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 67,
+        "raw": "[Background(image=\"bg_cherunder_2\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_cherunder_2.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 68,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 69,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 70,
+        "raw": "[name=\"ケルシー\"] ドクター、君はアーミヤたちが予想外の事態に遭遇する可能性について心配しているようだが――",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "ドクター、君はアーミヤたちが予想外の事態に遭遇する可能性について心配しているようだが――"
+    },
+    {
+        "id": 71,
+        "raw": "[name=\"ケルシー\"] 今、我々の眼前の状況こそが、予想外の事態であると私は思う。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "今、我々の眼前の状況こそが、予想外の事態であると私は思う。"
+    },
+    {
+        "id": 72,
+        "raw": "[Character(name=\"avg_npc_091\")]",
+        "type": "character",
+        "name": "avg_npc_091"
+    },
+    {
+        "id": 73,
+        "raw": "[name=\"家畜化のサルカズ戦士\"] W……W。Wはどこだ？　Wはもっと強い。",
+        "type": "dialog",
+        "speaker": "家畜化のサルカズ戦士",
+        "content": "W……W。Wはどこだ？　Wはもっと強い。"
+    },
+    {
+        "id": 74,
+        "raw": "[name=\"家畜化のサルカズ戦士\"] やめろ、入るな……",
+        "type": "dialog",
+        "speaker": "家畜化のサルカズ戦士",
+        "content": "やめろ、入るな……"
+    },
+    {
+        "id": 75,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 76,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 77,
+        "raw": "[Decision(options=\"彼らと話せそうか？\", values=\"1\")]",
+        "type": "decision",
+        "options": "彼らと話せそうか？",
+        "values": "1"
+    },
+    {
+        "id": 78,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 79,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 80,
+        "raw": "[name=\"ケルシー\"] （サルカズ某部族の言語）",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "（サルカズ某部族の言語）"
+    },
+    {
+        "id": 81,
+        "raw": "[Character(name=\"avg_npc_091\")]",
+        "type": "character",
+        "name": "avg_npc_091"
+    },
+    {
+        "id": 82,
+        "raw": "[name=\"家畜化のサルカズ戦士\"] 地下は闇で溢れている。闇は悪を生み出し、悪は苦痛を与える。",
+        "type": "dialog",
+        "speaker": "家畜化のサルカズ戦士",
+        "content": "地下は闇で溢れている。闇は悪を生み出し、悪は苦痛を与える。"
+    },
+    {
+        "id": 83,
+        "raw": "[name=\"家畜化のサルカズ戦士\"] 多くの、苦痛を。",
+        "type": "dialog",
+        "speaker": "家畜化のサルカズ戦士",
+        "content": "多くの、苦痛を。"
+    },
+    {
+        "id": 84,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 85,
+        "raw": "[name=\"ケルシー\"] （サルカズ某部族の言語）",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "（サルカズ某部族の言語）"
+    },
+    {
+        "id": 86,
+        "raw": "[Character(name=\"avg_npc_091\")]",
+        "type": "character",
+        "name": "avg_npc_091"
+    },
+    {
+        "id": 87,
+        "raw": "[name=\"家畜化のサルカズ戦士\"] お前たちは、我らと苦痛を分かち合えるか？",
+        "type": "dialog",
+        "speaker": "家畜化のサルカズ戦士",
+        "content": "お前たちは、我らと苦痛を分かち合えるか？"
+    },
+    {
+        "id": 88,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 89,
+        "raw": "[name=\"ケルシー\"] ダメだな。カズデル出身でなかったとしても、母語に近い言葉には反応するはずだが……どうやら既に、自発的な思考能力が破壊されているようだ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "ダメだな。カズデル出身でなかったとしても、母語に近い言葉には反応するはずだが……どうやら既に、自発的な思考能力が破壊されているようだ。"
+    },
+    {
+        "id": 90,
+        "raw": "[Decision(options=\"今話した言葉に反応するはずなのか？\", values=\"1\")]",
+        "type": "decision",
+        "options": "今話した言葉に反応するはずなのか？",
+        "values": "1"
+    },
+    {
+        "id": 91,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 92,
+        "raw": "[name=\"ケルシー\"] 本来ならば、な。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "本来ならば、な。"
+    },
+    {
+        "id": 93,
+        "raw": "[name=\"ケルシー\"] いや……そもそもこれは一般的な方法ではないから、君は知らなくていい。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "いや……そもそもこれは一般的な方法ではないから、君は知らなくていい。"
+    },
+    {
+        "id": 94,
+        "raw": "[name=\"ケルシー\"] だがこの方法でも意識を呼び覚ませないとなると、単純な対話能力だけではなく、思考能力そのものが失われているのは確実だろう。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "だがこの方法でも意識を呼び覚ませないとなると、単純な対話能力だけではなく、思考能力そのものが失われているのは確実だろう。"
+    },
+    {
+        "id": 95,
+        "raw": "[name=\"ケルシー\"] 脳の活動が抑制されているか、感覚器官の感染によって、神経系が混乱しているか……いずれにしろ、原因特定には時間が足りない。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "脳の活動が抑制されているか、感覚器官の感染によって、神経系が混乱しているか……いずれにしろ、原因特定には時間が足りない。"
+    },
+    {
+        "id": 96,
+        "raw": "[name=\"ケルシー\"] 表面的事実から判断すると、恐らく状況は芳しくない。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "表面的事実から判断すると、恐らく状況は芳しくない。"
+    },
+    {
+        "id": 97,
+        "raw": "[Decision(options=\"こちらを攻撃する気はないようだが。\", values=\"1\")]",
+        "type": "decision",
+        "options": "こちらを攻撃する気はないようだが。",
+        "values": "1"
+    },
+    {
+        "id": 98,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 99,
+        "raw": "[name=\"ケルシー\"] だが我々の進行を拒んでいる。感染の進んだサルカズ傭兵は、この一帯で六人前後。大半の時間を無意識のまま徘徊しているようだ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "だが我々の進行を拒んでいる。感染の進んだサルカズ傭兵は、この一帯で六人前後。大半の時間を無意識のまま徘徊しているようだ。"
+    },
+    {
+        "id": 100,
+        "raw": "[name=\"ケルシー\"] 行動範囲はこの通路より内側だが、今、目前にいる感染者たちは、私たちの行動に気付いて集まってきた。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "行動範囲はこの通路より内側だが、今、目前にいる感染者たちは、私たちの行動に気付いて集まってきた。"
+    },
+    {
+        "id": 101,
+        "raw": "[name=\"ケルシー\"] そして、私たちが境界線さえ越えなければ、彼らはそれ以上の敵対行動を起こさない。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "そして、私たちが境界線さえ越えなければ、彼らはそれ以上の敵対行動を起こさない。"
+    },
+    {
+        "id": 102,
+        "raw": "[name=\"ケルシー\"] 偵察オペレーター、ここから石棺までの直線距離を計算できるか？　私の送る波形から位置を判定してくれ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "偵察オペレーター、ここから石棺までの直線距離を計算できるか？　私の送る波形から位置を判定してくれ。"
+    },
+    {
+        "id": 103,
+        "raw": "[name=\"ケルシー\"] ……1.4キロメートルか。精確な数値は出せるか？",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "……1.4キロメートルか。精確な数値は出せるか？"
+    },
+    {
+        "id": 104,
+        "raw": "[name=\"ケルシー\"] 1,453メートルだな。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "1,453メートルだな。"
+    },
+    {
+        "id": 105,
+        "raw": "[name=\"ケルシー\"] ……私の計算ミスでなければ、レユニオンの部隊とサルカズの特殊感染者が衝突した位置が、シティホールからちょうど1.4キロ前後の地点だったはずだ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "……私の計算ミスでなければ、レユニオンの部隊とサルカズの特殊感染者が衝突した位置が、シティホールからちょうど1.4キロ前後の地点だったはずだ。"
+    },
+    {
+        "id": 106,
+        "raw": "[name=\"ケルシー\"] 本来なら、シティホール地下の避難通路から石棺エリアに侵入する予定だったが、そこも今ごろは、サルカズの特殊感染者たちに占拠されているだろう。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "本来なら、シティホール地下の避難通路から石棺エリアに侵入する予定だったが、そこも今ごろは、サルカズの特殊感染者たちに占拠されているだろう。"
+    },
+    {
+        "id": 107,
+        "raw": "[name=\"ケルシー\"] あくまで仮説なのだが、ドクター……",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "あくまで仮説なのだが、ドクター……"
+    },
+    {
+        "id": 108,
+        "raw": "[Decision(options=\"どんな仮説だ？\", values=\"1\")]",
+        "type": "decision",
+        "options": "どんな仮説だ？",
+        "values": "1"
+    },
+    {
+        "id": 109,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 110,
+        "raw": "[name=\"ケルシー\"] ここにいるサルカズの特殊感染者は、石棺エリアに入ろうとする者を妨害するよう命令されている。そしてその制御範囲は1.4キロメートルだ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "ここにいるサルカズの特殊感染者は、石棺エリアに入ろうとする者を妨害するよう命令されている。そしてその制御範囲は1.4キロメートルだ。"
+    },
+    {
+        "id": 111,
+        "raw": "[Decision(options=\"だとしたら目的は何だ？\", values=\"1\")]",
+        "type": "decision",
+        "options": "だとしたら目的は何だ？",
+        "values": "1"
+    },
+    {
+        "id": 112,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 113,
+        "raw": "[name=\"ケルシー\"] （首を横に振る）",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "（首を横に振る）"
+    },
+    {
+        "id": 114,
+        "raw": "[name=\"ケルシー\"] 少なくとも、このサルカズ人たちが望んでやるようなことではないのだろう。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "少なくとも、このサルカズ人たちが望んでやるようなことではないのだろう。"
+    },
+    {
+        "id": 115,
+        "raw": "[name=\"ケルシー\"] ……",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "……"
+    },
+    {
+        "id": 116,
+        "raw": "[name=\"ケルシー\"] カズデルに生を受けた、悲劇の種族サルカズ……どこにいても道具として利用される運命なのか。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "カズデルに生を受けた、悲劇の種族サルカズ……どこにいても道具として利用される運命なのか。"
+    },
+    {
+        "id": 117,
+        "raw": "[name=\"ケルシー\"] あらゆる選択肢を奪われ、憎しみに身を委ねるか、あるいは全てを失うかの二者択一を迫られる……そう考えると、感染者の現在の状況もサルカズとよく似ているな。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "あらゆる選択肢を奪われ、憎しみに身を委ねるか、あるいは全てを失うかの二者択一を迫られる……そう考えると、感染者の現在の状況もサルカズとよく似ているな。"
+    },
+    {
+        "id": 118,
+        "raw": "[name=\"ケルシー\"] ……本来なら、事態を変えられるはずだった。私たちには、その力があったはずだ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "……本来なら、事態を変えられるはずだった。私たちには、その力があったはずだ。"
+    },
+    {
+        "id": 119,
+        "raw": "[name=\"ケルシー\"] しかし、故郷を失ったティカズ人は、今では根無し草のサルカズ人となっている。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "しかし、故郷を失ったティカズ人は、今では根無し草のサルカズ人となっている。"
+    },
+    {
+        "id": 120,
+        "raw": "[name=\"ケルシー\"] そして、今目の前にいるサルカズ人たちは、もはや人とすら呼べぬものになってしまったようだ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "そして、今目の前にいるサルカズ人たちは、もはや人とすら呼べぬものになってしまったようだ。"
+    },
+    {
+        "id": 121,
+        "raw": "[Decision(options=\"これからどうするつもりだ？\", values=\"1\")]",
+        "type": "decision",
+        "options": "これからどうするつもりだ？",
+        "values": "1"
+    },
+    {
+        "id": 122,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 123,
+        "raw": "[name=\"ケルシー\"] オペレーター各位、防護装備を確認しろ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "オペレーター各位、防護装備を確認しろ。"
+    },
+    {
+        "id": 124,
+        "raw": "[name=\"ケルシー\"] 第二級の緊急感染事態が発生している可能性がある。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "第二級の緊急感染事態が発生している可能性がある。"
+    },
+    {
+        "id": 125,
+        "raw": "[name=\"ケルシー\"] ドクター、できる限り部隊の損耗を抑えつつ、多くの特殊感染者を行動不能にしたい。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "ドクター、できる限り部隊の損耗を抑えつつ、多くの特殊感染者を行動不能にしたい。"
+    },
+    {
+        "id": 126,
+        "raw": "[name=\"ケルシー\"] ……我々は正体を明かさずに緊急感染事態の対処を行っていた時期もある。この装備はやはり、まるでウルサスの感染者監視隊そのものだな。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "……我々は正体を明かさずに緊急感染事態の対処を行っていた時期もある。この装備はやはり、まるでウルサスの感染者監視隊そのものだな。"
+    },
+    {
+        "id": 127,
+        "raw": "[Decision(options=\"感染者監視隊？\", values=\"1\")]",
+        "type": "decision",
+        "options": "感染者監視隊？",
+        "values": "1"
+    },
+    {
+        "id": 128,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 129,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 130,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 131,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 132,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 133,
+        "raw": "[Image(image=\"avg_8_26\",x=0, y=0, xScale=1, yScale=1, fadetime=0)]",
+        "type": "image",
+        "image": "avg_8_26.png",
+        "x": "0,",
+        "y": "0,",
+        "xScale": "1,",
+        "yScale": "1,",
+        "fadetime": 0
+    },
+    {
+        "id": 134,
+        "raw": "[Blocker(a=0, fadetime=1.5, block=false)]",
+        "type": "blocker",
+        "a": "0,",
+        "fadetime": "1.5,",
+        "block": false
+    },
+    {
+        "id": 135,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 136,
+        "raw": "[ImageTween(xScaleFrom=1, yScaleFrom=1, xScaleTo=1, yScaleTo=1, duration=15, block=false)]",
+        "type": "image_tween",
+        "xScaleFrom": "1,",
+        "yScaleFrom": "1,",
+        "xScaleTo": "1,",
+        "yScaleTo": "1,",
+        "duration": "15,",
+        "block": false
+    },
+    {
+        "id": 137,
+        "raw": "[name=\"ケルシー\"] ウルサスの感染者に対する暴力的な統治の象徴である防護装備……それと私たちの防護装備は、同じデザインを基にしている。これは否定できない事実だ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "ウルサスの感染者に対する暴力的な統治の象徴である防護装備……それと私たちの防護装備は、同じデザインを基にしている。これは否定できない事実だ。"
+    },
+    {
+        "id": 138,
+        "raw": "[name=\"ケルシー\"] もちろん実際の活動内容は、感染者監視隊とは根本的に異なるし、外部の様々な圧力に屈することなく、今後もその違いを明確に維持していくつもりだが。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "もちろん実際の活動内容は、感染者監視隊とは根本的に異なるし、外部の様々な圧力に屈することなく、今後もその違いを明確に維持していくつもりだが。"
+    },
+    {
+        "id": 139,
+        "raw": "[name=\"ケルシー\"] 他の物事に対しても同様だ。以前話したが、君にもそうであってほしい。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "他の物事に対しても同様だ。以前話したが、君にもそうであってほしい。"
+    },
+    {
+        "id": 140,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 141,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 142,
+        "raw": "[Image(fadetime=0)]",
+        "type": "image",
+        "fadetime": 0
+    },
+    {
+        "id": 143,
+        "raw": "[Background(image=\"bg_chercen_2\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_chercen_2.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 144,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 145,
+        "raw": "[Character(name=\"char_002_amiya_1#7\",fadetime=1,block=true)]",
+        "type": "character",
+        "name": "char_002_amiya_1#7",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 146,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 147,
+        "raw": "[stopmusic(fadetime=1)]",
+        "type": "stop_music",
+        "fadetime": 1
+    },
+    {
+        "id": 148,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 149,
+        "raw": "[Character(name=\"char_002_amiya_1#7\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#7"
+    },
+    {
+        "id": 150,
+        "raw": "[PlaySound(key=\"$flashback\", volume=0.2, Delay=0.7)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/general/g_ui/g_ui_stagepush.mp3",
+        "volume": "0.2,",
+        "Delay": 0.7
+    },
+    {
+        "id": 151,
+        "raw": "[CameraShake(duration=0.5, xstrength=2, ystrength=3, vibrato=30, randomness=30, fadeout=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "2,",
+        "ystrength": "3,",
+        "vibrato": "30,",
+        "randomness": "30,",
+        "fadeout": false
+    },
+    {
+        "id": 152,
+        "raw": "[cameraEffect(effect=\"Grayscale\", keep=true, amount=1, fadetime=0.2)]",
+        "type": "camera_effect",
+        "effect": "Grayscale",
+        "keep": "true,",
+        "amount": "1,",
+        "fadetime": 0.2
+    },
+    {
+        "id": 153,
+        "raw": "[cameraEffect(effect=\"Grayscale\", keep=true, amount=0, fadetime=0.5)]",
+        "type": "camera_effect",
+        "effect": "Grayscale",
+        "keep": "true,",
+        "amount": "0,",
+        "fadetime": 0.5
+    },
+    {
+        "id": 154,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 155,
+        "raw": "[PlaySound(key=\"$flashback\", volume=0.2, Delay=0.7)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/general/g_ui/g_ui_stagepush.mp3",
+        "volume": "0.2,",
+        "Delay": 0.7
+    },
+    {
+        "id": 156,
+        "raw": "[CameraShake(duration=0.5, xstrength=2, ystrength=3, vibrato=30, randomness=30, fadeout=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "2,",
+        "ystrength": "3,",
+        "vibrato": "30,",
+        "randomness": "30,",
+        "fadeout": false
+    },
+    {
+        "id": 157,
+        "raw": "[cameraEffect(effect=\"Grayscale\", keep=true, amount=1, fadetime=0.2)]",
+        "type": "camera_effect",
+        "effect": "Grayscale",
+        "keep": "true,",
+        "amount": "1,",
+        "fadetime": 0.2
+    },
+    {
+        "id": 158,
+        "raw": "[cameraEffect(effect=\"Grayscale\", keep=true, amount=0, fadetime=0.5,block=false)]",
+        "type": "camera_effect",
+        "effect": "Grayscale",
+        "keep": "true,",
+        "amount": "0,",
+        "fadetime": "0.5,block=false"
+    },
+    {
+        "id": 159,
+        "raw": "[PlaySound(key=\"$flashback\", volume=0.2, Delay=0.7)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/general/g_ui/g_ui_stagepush.mp3",
+        "volume": "0.2,",
+        "Delay": 0.7
+    },
+    {
+        "id": 160,
+        "raw": "[CameraShake(duration=0.5, xstrength=2, ystrength=3, vibrato=30, randomness=30, fadeout=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "2,",
+        "ystrength": "3,",
+        "vibrato": "30,",
+        "randomness": "30,",
+        "fadeout": false
+    },
+    {
+        "id": 161,
+        "raw": "[cameraEffect(effect=\"Grayscale\", keep=true, amount=1, fadetime=0.2)]",
+        "type": "camera_effect",
+        "effect": "Grayscale",
+        "keep": "true,",
+        "amount": "1,",
+        "fadetime": 0.2
+    },
+    {
+        "id": 162,
+        "raw": "[cameraEffect(effect=\"Grayscale\", keep=true, amount=0, fadetime=0.5)]",
+        "type": "camera_effect",
+        "effect": "Grayscale",
+        "keep": "true,",
+        "amount": "0,",
+        "fadetime": 0.5
+    },
+    {
+        "id": 163,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 164,
+        "raw": "[name=\"アーミヤ\"]   ――――――――――！",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "――――――――――！"
+    },
+    {
+        "id": 165,
+        "raw": "[name=\"アーミヤ\"]   ――――これは、チェンさんの？",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "――――これは、チェンさんの？"
+    },
+    {
+        "id": 166,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 167,
+        "raw": "[Blocker(a=1, initr=2, r=0, g=0, b=0, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "initr": "2,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 168,
+        "raw": "[Character(fadetime=0)]",
+        "type": "character",
+        "fadetime": 0
+    },
+    {
+        "id": 169,
+        "raw": "[cameraEffect(effect=\"Grayscale\", keep=true, amount=1, fadetime=0)]",
+        "type": "camera_effect",
+        "effect": "Grayscale",
+        "keep": "true,",
+        "amount": "1,",
+        "fadetime": 0
+    },
+    {
+        "id": 170,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 171,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 172,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 173,
+        "raw": "[Background(image=\"bg_uptown_2\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_uptown_2.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 174,
+        "raw": "[cameraEffect(effect=\"Grayscale\", keep=true, amount=1, fadetime=0)]",
+        "type": "camera_effect",
+        "effect": "Grayscale",
+        "keep": "true,",
+        "amount": "1,",
+        "fadetime": 0
+    },
+    {
+        "id": 175,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 176,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 177,
+        "raw": "[playMusic(intro=\"$loneliness_intro\", key=\"$loneliness_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/static/m_avg/m_avg_loneliness_intro.mp3",
+        "key": "sound_beta_2/music/static/m_avg/m_avg_loneliness_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 178,
+        "raw": "[Character(name=\"char_2005_weiyw_1#5\")]",
+        "type": "character",
+        "name": "char_2005_weiyw_1#5"
+    },
+    {
+        "id": 179,
+        "raw": "[name=\"ウェイ\"]  どの方角に向かった？",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "どの方角に向かった？"
+    },
+    {
+        "id": 180,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 181,
+        "raw": "[name=\"影衛\"]  西です。間もなく輝蹄の封鎖区域に着くかと。",
+        "type": "dialog",
+        "speaker": "影衛",
+        "content": "西です。間もなく輝蹄の封鎖区域に着くかと。"
+    },
+    {
+        "id": 182,
+        "raw": "[Character(name=\"char_2005_weiyw_1#5\")]",
+        "type": "character",
+        "name": "char_2005_weiyw_1#5"
+    },
+    {
+        "id": 183,
+        "raw": "[name=\"ウェイ\"]  ……全ては奴の策略通りだろう。協定締結エリアの安全を確認するため、リターニアは緩衝地帯を拡大し、こちらの封鎖区域と重なるようにしたのだ。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "……全ては奴の策略通りだろう。協定締結エリアの安全を確認するため、リターニアは緩衝地帯を拡大し、こちらの封鎖区域と重なるようにしたのだ。"
+    },
+    {
+        "id": 184,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 185,
+        "raw": "[name=\"影衛\"]  我々がコシチェイを暗殺し、お嬢様を奪還することも可能かと。",
+        "type": "dialog",
+        "speaker": "影衛",
+        "content": "我々がコシチェイを暗殺し、お嬢様を奪還することも可能かと。"
+    },
+    {
+        "id": 186,
+        "raw": "[Character(name=\"char_2005_weiyw_1#5\")]",
+        "type": "character",
+        "name": "char_2005_weiyw_1#5"
+    },
+    {
+        "id": 187,
+        "raw": "[name=\"ウェイ\"]  いや。相手も既に準備を整えているだろう。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "いや。相手も既に準備を整えているだろう。"
+    },
+    {
+        "id": 188,
+        "raw": "[name=\"ウェイ\"]  今回の会談のために、双子の女帝は「女帝の声」を派遣している。同行する護衛の数も少なくない。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "今回の会談のために、双子の女帝は「女帝の声」を派遣している。同行する護衛の数も少なくない。"
+    },
+    {
+        "id": 189,
+        "raw": "[name=\"ウェイ\"]  彼女たちは女帝に即位してまだ日が浅い……コシチェイが外交問題を起こせば、私たちのこれまでの規律違反行為が、女帝の権威づけに利用される可能性もある。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "彼女たちは女帝に即位してまだ日が浅い……コシチェイが外交問題を起こせば、私たちのこれまでの規律違反行為が、女帝の権威づけに利用される可能性もある。"
+    },
+    {
+        "id": 190,
+        "raw": "[name=\"ウェイ\"]  龍門、ひいては炎国を糾弾するチャンスをコシチェイに与えてはならない。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "龍門、ひいては炎国を糾弾するチャンスをコシチェイに与えてはならない。"
+    },
+    {
+        "id": 191,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 192,
+        "raw": "[name=\"チェン・フェイゼ\"]  伯父さん！",
+        "type": "dialog",
+        "speaker": "チェン・フェイゼ",
+        "content": "伯父さん！"
+    },
+    {
+        "id": 193,
+        "raw": "[Character(name=\"char_2005_weiyw_1#5\")]",
+        "type": "character",
+        "name": "char_2005_weiyw_1#5"
+    },
+    {
+        "id": 194,
+        "raw": "[name=\"ウェイ\"]  ……",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "……"
+    },
+    {
+        "id": 195,
+        "raw": "[name=\"ウェイ\"]  フェイゼ……",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "フェイゼ……"
+    },
+    {
+        "id": 196,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 197,
+        "raw": "[name=\"チェン・フェイゼ\"]  伯父さん……タルちゃんを責めないであげて！",
+        "type": "dialog",
+        "speaker": "チェン・フェイゼ",
+        "content": "伯父さん……タルちゃんを責めないであげて！"
+    },
+    {
+        "id": 198,
+        "raw": "[Character(name=\"char_2005_weiyw_1#5\")]",
+        "type": "character",
+        "name": "char_2005_weiyw_1#5"
+    },
+    {
+        "id": 199,
+        "raw": "[name=\"ウェイ\"]  別に責めてるわけじゃない。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "別に責めてるわけじゃない。"
+    },
+    {
+        "id": 200,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 201,
+        "raw": "[name=\"チェン・フェイゼ\"]  ……なら、わたしを叱って。",
+        "type": "dialog",
+        "speaker": "チェン・フェイゼ",
+        "content": "……なら、わたしを叱って。"
+    },
+    {
+        "id": 202,
+        "raw": "[Character(name=\"char_2005_weiyw_1#5\")]",
+        "type": "character",
+        "name": "char_2005_weiyw_1#5"
+    },
+    {
+        "id": 203,
+        "raw": "[name=\"ウェイ\"]  君を叱る理由などない。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "君を叱る理由などない。"
+    },
+    {
+        "id": 204,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 205,
+        "raw": "[name=\"チェン・フェイゼ\"]  でも一緒に行くって言ったのに……わたし怖くなって……タルちゃんの手を放しちゃった。一緒に行けなかった……",
+        "type": "dialog",
+        "speaker": "チェン・フェイゼ",
+        "content": "でも一緒に行くって言ったのに……わたし怖くなって……タルちゃんの手を放しちゃった。一緒に行けなかった……"
+    },
+    {
+        "id": 206,
+        "raw": "[name=\"チェン・フェイゼ\"]  タルちゃんの目が、すごく怖かったの。タルちゃんもきっと怖かったのに、わたし怖くなって……わたし、叱られて当然だよ。",
+        "type": "dialog",
+        "speaker": "チェン・フェイゼ",
+        "content": "タルちゃんの目が、すごく怖かったの。タルちゃんもきっと怖かったのに、わたし怖くなって……わたし、叱られて当然だよ。"
+    },
+    {
+        "id": 207,
+        "raw": "[Character(name=\"char_2005_weiyw_1#5\")]",
+        "type": "character",
+        "name": "char_2005_weiyw_1#5"
+    },
+    {
+        "id": 208,
+        "raw": "[name=\"ウェイ\"]  ……フェイゼ。これはタルラの過ちだ。君は間違っていない。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "……フェイゼ。これはタルラの過ちだ。君は間違っていない。"
+    },
+    {
+        "id": 209,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 210,
+        "raw": "[name=\"チェン・フェイゼ\"]  え？　でも伯父さん、タルちゃんを責めないって言ったじゃない！",
+        "type": "dialog",
+        "speaker": "チェン・フェイゼ",
+        "content": "え？　でも伯父さん、タルちゃんを責めないって言ったじゃない！"
+    },
+    {
+        "id": 211,
+        "raw": "[Character(name=\"char_2005_weiyw_1#5\")]",
+        "type": "character",
+        "name": "char_2005_weiyw_1#5"
+    },
+    {
+        "id": 212,
+        "raw": "[name=\"ウェイ\"]  あぁ、そうだ。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "あぁ、そうだ。"
+    },
+    {
+        "id": 213,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 214,
+        "raw": "[name=\"チェン・フェイゼ\"]  でも……伯父さんはタルちゃんの過ちって言ったじゃない。それでも叱られなくて済むの？",
+        "type": "dialog",
+        "speaker": "チェン・フェイゼ",
+        "content": "でも……伯父さんはタルちゃんの過ちって言ったじゃない。それでも叱られなくて済むの？"
+    },
+    {
+        "id": 215,
+        "raw": "[Character(name=\"char_2005_weiyw_1#5\")]",
+        "type": "character",
+        "name": "char_2005_weiyw_1#5"
+    },
+    {
+        "id": 216,
+        "raw": "[name=\"ウェイ\"]  ……",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "……"
+    },
+    {
+        "id": 217,
+        "raw": "[name=\"ウェイ\"]  あの子は真相を知らない。それは誰にも知られてはいけないもの。だから仕方なく過ちを犯してしまう。今すぐでなくても、将来的には必ず。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "あの子は真相を知らない。それは誰にも知られてはいけないもの。だから仕方なく過ちを犯してしまう。今すぐでなくても、将来的には必ず。"
+    },
+    {
+        "id": 218,
+        "raw": "[name=\"ウェイ\"]  ……ほとんどの過ちは責められるべきものではない。私たちは一つどころか、多くの過ちを犯す。そして、逃げたり、避けたりすることのできない必然の過ちもある。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "……ほとんどの過ちは責められるべきものではない。私たちは一つどころか、多くの過ちを犯す。そして、逃げたり、避けたりすることのできない必然の過ちもある。"
+    },
+    {
+        "id": 219,
+        "raw": "[name=\"ウェイ\"]  タルラは彼女自身にとって必然的な過ちを犯しただけだ。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "タルラは彼女自身にとって必然的な過ちを犯しただけだ。"
+    },
+    {
+        "id": 220,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 221,
+        "raw": "[name=\"チェン・フェイゼ\"]  それって過ちって言えるの？",
+        "type": "dialog",
+        "speaker": "チェン・フェイゼ",
+        "content": "それって過ちって言えるの？"
+    },
+    {
+        "id": 222,
+        "raw": "[Character(name=\"char_2005_weiyw_1#5\")]",
+        "type": "character",
+        "name": "char_2005_weiyw_1#5"
+    },
+    {
+        "id": 223,
+        "raw": "[name=\"ウェイ\"]  あぁ、もちろん。必然的な出来事だからといって、それを許すような寛容さはこの大地にはない。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "あぁ、もちろん。必然的な出来事だからといって、それを許すような寛容さはこの大地にはない。"
+    },
+    {
+        "id": 224,
+        "raw": "[name=\"ウェイ\"]  過酷な土地、過酷な生活、過酷な統治。それらは正否以外何も気にしない。呼吸や食事ではなく、まるで物事の善し悪しを決めることこそが生きる原動力であるかのようにね……",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "過酷な土地、過酷な生活、過酷な統治。それらは正否以外何も気にしない。呼吸や食事ではなく、まるで物事の善し悪しを決めることこそが生きる原動力であるかのようにね……"
+    },
+    {
+        "id": 225,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 226,
+        "raw": "[name=\"チェン・フェイゼ\"] ……",
+        "type": "dialog",
+        "speaker": "チェン・フェイゼ",
+        "content": "……"
+    },
+    {
+        "id": 227,
+        "raw": "[name=\"チェン・フェイゼ\"]  よくわからないよ、伯父さん。",
+        "type": "dialog",
+        "speaker": "チェン・フェイゼ",
+        "content": "よくわからないよ、伯父さん。"
+    },
+    {
+        "id": 228,
+        "raw": "[name=\"チェン・フェイゼ\"]  つまり……タルちゃんは帰ってくるってこと？",
+        "type": "dialog",
+        "speaker": "チェン・フェイゼ",
+        "content": "つまり……タルちゃんは帰ってくるってこと？"
+    },
+    {
+        "id": 229,
+        "raw": "[Character(name=\"char_2005_weiyw_1#5\")]",
+        "type": "character",
+        "name": "char_2005_weiyw_1#5"
+    },
+    {
+        "id": 230,
+        "raw": "[name=\"ウェイ\"]  ――それはわからない、フェイゼ。私にもわからないんだ。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "――それはわからない、フェイゼ。私にもわからないんだ。"
+    },
+    {
+        "id": 231,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 232,
+        "raw": "[name=\"チェン・フェイゼ\"]  ……そんな……じゃあタルちゃんは、帰ってこないの？　全部……私のせいなんだ……タルちゃん……",
+        "type": "dialog",
+        "speaker": "チェン・フェイゼ",
+        "content": "……そんな……じゃあタルちゃんは、帰ってこないの？　全部……私のせいなんだ……タルちゃん……"
+    },
+    {
+        "id": 233,
+        "raw": "[Character(name=\"char_2005_weiyw_1#5\")]",
+        "type": "character",
+        "name": "char_2005_weiyw_1#5"
+    },
+    {
+        "id": 234,
+        "raw": "[name=\"ウェイ\"]  フェイゼ！",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "フェイゼ！"
+    },
+    {
+        "id": 235,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 236,
+        "raw": "[name=\"チェン・フェイゼ\"]  うぅ……！",
+        "type": "dialog",
+        "speaker": "チェン・フェイゼ",
+        "content": "うぅ……！"
+    },
+    {
+        "id": 237,
+        "raw": "[Character(name=\"char_2005_weiyw_1#5\")]",
+        "type": "character",
+        "name": "char_2005_weiyw_1#5"
+    },
+    {
+        "id": 238,
+        "raw": "[name=\"ウェイ\"]  涙を拭きなさい。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "涙を拭きなさい。"
+    },
+    {
+        "id": 239,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 240,
+        "raw": "[name=\"チェン・フェイゼ\"]  う、うぅ、わたし……",
+        "type": "dialog",
+        "speaker": "チェン・フェイゼ",
+        "content": "う、うぅ、わたし……"
+    },
+    {
+        "id": 241,
+        "raw": "[Character(name=\"char_2005_weiyw_1#5\")]",
+        "type": "character",
+        "name": "char_2005_weiyw_1#5"
+    },
+    {
+        "id": 242,
+        "raw": "[name=\"ウェイ\"]  ならば、泣きなさい。五分だ。涙が涸れるまで泣いたら、どうすればいいか教えてあげよう。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "ならば、泣きなさい。五分だ。涙が涸れるまで泣いたら、どうすればいいか教えてあげよう。"
+    },
+    {
+        "id": 243,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 244,
+        "raw": "[name=\"チェン・フェイゼ\"]  ううっ、ヒック……！",
+        "type": "dialog",
+        "speaker": "チェン・フェイゼ",
+        "content": "ううっ、ヒック……！"
+    },
+    {
+        "id": 245,
+        "raw": "[name=\"チェン・フェイゼ\"] うぅ……うわぁーん……！　タルちゃん……！",
+        "type": "dialog",
+        "speaker": "チェン・フェイゼ",
+        "content": "うぅ……うわぁーん……！　タルちゃん……！"
+    },
+    {
+        "id": 246,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 247,
+        "raw": "ウェイは空を見上げた。今すぐにでもこの少女を抱きしめ、慰めてやりたかった。しかし、しばらく逡巡した後、自分にはその資格はないと思い直した。",
+        "type": "narration",
+        "content": "ウェイは空を見上げた。今すぐにでもこの少女を抱きしめ、慰めてやりたかった。しかし、しばらく逡巡した後、自分にはその資格はないと思い直した。"
+    },
+    {
+        "id": 248,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 249,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 250,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 251,
+        "raw": "[Image(image=\"avg_8_38\",x=0, y=0, xScale=1, yScale=1, fadetime=0)]",
+        "type": "image",
+        "image": "avg_8_38.png",
+        "x": "0,",
+        "y": "0,",
+        "xScale": "1,",
+        "yScale": "1,",
+        "fadetime": 0
+    },
+    {
+        "id": 252,
+        "raw": "[Blocker(a=0, fadetime=1.5, block=false)]",
+        "type": "blocker",
+        "a": "0,",
+        "fadetime": "1.5,",
+        "block": false
+    },
+    {
+        "id": 253,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 254,
+        "raw": "[ImageTween(xScaleFrom=1, yScaleFrom=1, xScaleTo=1, yScaleTo=1, duration=15, block=false)]",
+        "type": "image_tween",
+        "xScaleFrom": "1,",
+        "yScaleFrom": "1,",
+        "xScaleTo": "1,",
+        "yScaleTo": "1,",
+        "duration": "15,",
+        "block": false
+    },
+    {
+        "id": 255,
+        "raw": "[name=\"ウェイ\"]  ――泣きやんだかい？",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "――泣きやんだかい？"
+    },
+    {
+        "id": 256,
+        "raw": "[name=\"チェン・フェイゼ\"] うん……タルちゃんに帰ってきてもらうには、どうしたらいいの？",
+        "type": "dialog",
+        "speaker": "チェン・フェイゼ",
+        "content": "うん……タルちゃんに帰ってきてもらうには、どうしたらいいの？"
+    },
+    {
+        "id": 257,
+        "raw": "[name=\"ウェイ\"]  これから私が色んなことを君に教えてあげよう。都市の管理方法、悪い奴への対処方法、友人との接し方なんかもね。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "これから私が色んなことを君に教えてあげよう。都市の管理方法、悪い奴への対処方法、友人との接し方なんかもね。"
+    },
+    {
+        "id": 258,
+        "raw": "[name=\"ウェイ\"]  私の言う通りにすれば、タルラは帰ってくるかもしれない。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "私の言う通りにすれば、タルラは帰ってくるかもしれない。"
+    },
+    {
+        "id": 259,
+        "raw": "[name=\"チェン・フェイゼ\"] ど……どうすればいいの？　本当にタルちゃんは帰ってくるの？　伯父さん、わたしをダマしてない？",
+        "type": "dialog",
+        "speaker": "チェン・フェイゼ",
+        "content": "ど……どうすればいいの？　本当にタルちゃんは帰ってくるの？　伯父さん、わたしをダマしてない？"
+    },
+    {
+        "id": 260,
+        "raw": "[name=\"チェン・フェイゼ\"] ……ママが……ママがね、伯父さんのこと嘘つきだって言うの……本当に……信じてもいいの？",
+        "type": "dialog",
+        "speaker": "チェン・フェイゼ",
+        "content": "……ママが……ママがね、伯父さんのこと嘘つきだって言うの……本当に……信じてもいいの？"
+    },
+    {
+        "id": 261,
+        "raw": "[name=\"ウェイ\"]  多分ね。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "多分ね。"
+    },
+    {
+        "id": 262,
+        "raw": "[name=\"ウェイ\"]  私も大きな過ちを犯し、君のママから一生消えない恨みを買った。死んでも許してもらえないような恨みをね。だから彼女がそう言うのも無理はない……",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "私も大きな過ちを犯し、君のママから一生消えない恨みを買った。死んでも許してもらえないような恨みをね。だから彼女がそう言うのも無理はない……"
+    },
+    {
+        "id": 263,
+        "raw": "[name=\"ウェイ\"]  だが、過ちは償うことができる。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "だが、過ちは償うことができる。"
+    },
+    {
+        "id": 264,
+        "raw": "[name=\"ウェイ\"]  フェイゼ、よく聞きなさい。正しく生きることには、一生をかけるだけの価値がある。そして、過ちを正すことも命をかけるだけの価値がある。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "フェイゼ、よく聞きなさい。正しく生きることには、一生をかけるだけの価値がある。そして、過ちを正すことも命をかけるだけの価値がある。"
+    },
+    {
+        "id": 265,
+        "raw": "[name=\"ウェイ\"]  タルラが出て行ったことは確かに過ちだ。だがその過ちがもたらす結果は、すべて私が受け止めよう。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "タルラが出て行ったことは確かに過ちだ。だがその過ちがもたらす結果は、すべて私が受け止めよう。"
+    },
+    {
+        "id": 266,
+        "raw": "[name=\"ウェイ\"]  フェイゼ、君は早く大きくなりなさい。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "フェイゼ、君は早く大きくなりなさい。"
+    },
+    {
+        "id": 267,
+        "raw": "[name=\"チェン・フェイゼ\"] 大きくなってどうするの？",
+        "type": "dialog",
+        "speaker": "チェン・フェイゼ",
+        "content": "大きくなってどうするの？"
+    },
+    {
+        "id": 268,
+        "raw": "[name=\"ウェイ\"]  君なら、大きくなった君なら……全てを変えられる。タルラだって連れ戻せる。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "君なら、大きくなった君なら……全てを変えられる。タルラだって連れ戻せる。"
+    },
+    {
+        "id": 269,
+        "raw": "[name=\"チェン・フェイゼ\"] 本当に！？",
+        "type": "dialog",
+        "speaker": "チェン・フェイゼ",
+        "content": "本当に！？"
+    },
+    {
+        "id": 270,
+        "raw": "[name=\"ウェイ\"]  多分ね。いや、君が信じれば、きっとそうなる。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "多分ね。いや、君が信じれば、きっとそうなる。"
+    },
+    {
+        "id": 271,
+        "raw": "[name=\"ウェイ\"]  剣術を教えてあげよう、フェイゼ。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "剣術を教えてあげよう、フェイゼ。"
+    },
+    {
+        "id": 272,
+        "raw": "[name=\"ウェイ\"]  赤霄の剣術を。",
+        "type": "dialog",
+        "speaker": "ウェイ",
+        "content": "赤霄の剣術を。"
+    },
+    {
+        "id": 273,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 274,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 275,
+        "raw": "[Image(fadetime=0)]",
+        "type": "image",
+        "fadetime": 0
+    },
+    {
+        "id": 276,
+        "raw": "「抜刀の技、破るに当たりて即ち破る。」",
+        "type": "narration",
+        "content": "「抜刀の技、破るに当たりて即ち破る。」"
+    },
+    {
+        "id": 277,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 278,
+        "raw": "[Blocker(fadetime=3,block=true)]",
+        "type": "blocker",
+        "fadetime": "3,block=true"
+    },
+    {
+        "id": 279,
+        "raw": "[Image]",
+        "type": "image"
+    }
+]

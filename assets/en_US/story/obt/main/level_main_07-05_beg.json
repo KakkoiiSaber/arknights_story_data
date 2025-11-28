@@ -1,0 +1,1260 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")] ",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK"
+    },
+    {
+        "id": 2,
+        "raw": "[stopmusic]",
+        "type": "stop_music"
+    },
+    {
+        "id": 3,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 4,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 5,
+        "raw": "[Blocker(fadetime=1,block=true)]",
+        "type": "blocker",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 6,
+        "raw": "Chernobog Underground Base",
+        "type": "narration",
+        "content": "Chernobog Underground Base"
+    },
+    {
+        "id": 7,
+        "raw": "10:30 a.m.",
+        "type": "narration",
+        "content": "10:30 a.m."
+    },
+    {
+        "id": 8,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 9,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 10,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 11,
+        "raw": "[Background(image=\"bg_cherunder\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_cherunder.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 12,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 13,
+        "raw": "[playMusic(intro=\"$darkness02_intro\", key=\"$darkness02_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta1_180603/m_dia_darkness02_intro.mp3",
+        "key": "sound_beta_2/music/beta1_180603/m_dia_darkness02_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 14,
+        "raw": "[Character(name=\"char_003_kalts_1\",fadetime=1,block=true)]",
+        "type": "character",
+        "name": "char_003_kalts_1",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 15,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 16,
+        "raw": "[Decision(options=\"Were you waiting for me here?\", values=\"1\")]",
+        "type": "decision",
+        "options": "Were you waiting for me here?",
+        "values": "1"
+    },
+    {
+        "id": 17,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 18,
+        "raw": "[name=\"Kal'tsit\"]  Yes.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Yes."
+    },
+    {
+        "id": 19,
+        "raw": "[Decision(options=\"It took me a long time to find you.\", values=\"1\")]",
+        "type": "decision",
+        "options": "It took me a long time to find you.",
+        "values": "1"
+    },
+    {
+        "id": 20,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 21,
+        "raw": "[name=\"Kal'tsit\"]  We'll begin the operation after we finish collecting all the environmental information. Before that, it'll benefit you to hear exactly what's going on inside Chernobog's core city.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "We'll begin the operation after we finish collecting all the environmental information. Before that, it'll benefit you to hear exactly what's going on inside Chernobog's core city."
+    },
+    {
+        "id": 22,
+        "raw": "[name=\"Kal'tsit\"]  Amiya's a bit tied up on the scene, so she won't be able to join this discussion.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Amiya's a bit tied up on the scene, so she won't be able to join this discussion."
+    },
+    {
+        "id": 23,
+        "raw": "[name=\"Kal'tsit\"]  You've already read the information in the mission briefing, but that kind of information is not good enough for a mind like yours.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "You've already read the information in the mission briefing, but that kind of information is not good enough for a mind like yours."
+    },
+    {
+        "id": 24,
+        "raw": "[Decision(options=\"Did you finally realize that you need me?;......;I'm glad you see me as more than a simple battlefield commander.\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "Did you finally realize that you need me?;......;I'm glad you see me as more than a simple battlefield commander.",
+        "values": "1;2;3"
+    },
+    {
+        "id": 25,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 26,
+        "raw": "[name=\"Kal'tsit\"]  If the worst comes to pass, I don't want you to sacrifice yourself while still not knowing a single thing.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "If the worst comes to pass, I don't want you to sacrifice yourself while still not knowing a single thing."
+    },
+    {
+        "id": 27,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 28,
+        "raw": "[name=\"Kal'tsit\"]  If you've taken interest in some part of me, you can just come out and say it. No need to stare so much.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "If you've taken interest in some part of me, you can just come out and say it. No need to stare so much."
+    },
+    {
+        "id": 29,
+        "raw": "[Predicate(references=\"3\")]",
+        "type": "predicate",
+        "references": "3"
+    },
+    {
+        "id": 30,
+        "raw": "[name=\"Kal'tsit\"]  You might not remember, but I do. I remember you had quite a talent for heating up rations by pouring boiling water directly into your mouth at four in the morning.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "You might not remember, but I do. I remember you had quite a talent for heating up rations by pouring boiling water directly into your mouth at four in the morning."
+    },
+    {
+        "id": 31,
+        "raw": "[name=\"Kal'tsit\"]  If you don't believe me, you can try for yourself.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "If you don't believe me, you can try for yourself."
+    },
+    {
+        "id": 32,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 33,
+        "raw": "[name=\"Kal'tsit\"]  But skip the chatter. We don't have much time.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "But skip the chatter. We don't have much time."
+    },
+    {
+        "id": 34,
+        "raw": "[name=\"Kal'tsit\"]  Rhodes Island and the L.G.D. worked together to take down Reunion, and neutralized the forces controlled by Mephisto and Crownslayer.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Rhodes Island and the L.G.D. worked together to take down Reunion, and neutralized the forces controlled by Mephisto and Crownslayer."
+    },
+    {
+        "id": 35,
+        "raw": "[name=\"Kal'tsit\"]  After that, Reunion's deployments in Lungmen fell apart completely.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "After that, Reunion's deployments in Lungmen fell apart completely."
+    },
+    {
+        "id": 36,
+        "raw": "[name=\"Kal'tsit\"]  Amiya reported to me that you had a difficult fight with a 'FrostNova,' an Infected serving Reunion as leader of a special squad, at the bottom of Lungmen.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Amiya reported to me that you had a difficult fight with a 'FrostNova,' an Infected serving Reunion as leader of a special squad, at the bottom of Lungmen."
+    },
+    {
+        "id": 37,
+        "raw": "[name=\"Kal'tsit\"]  The battle ended in your victory.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "The battle ended in your victory."
+    },
+    {
+        "id": 38,
+        "raw": "[Decision(options=\"There was no victor.;No.;I wouldn't call that a victory.\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "There was no victor.;No.;I wouldn't call that a victory.",
+        "values": "1;2;3"
+    },
+    {
+        "id": 39,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 40,
+        "raw": "[name=\"Kal'tsit\"]  I understand. According to the data from PRTS, you had the cooperation of our operators when you brought the enemy's body back to Rhodes Island for treatment.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "I understand. According to the data from PRTS, you had the cooperation of our operators when you brought the enemy's body back to Rhodes Island for treatment."
+    },
+    {
+        "id": 41,
+        "raw": "[Decision(options=\"I don't consider her an enemy.\", values=\"1\")]",
+        "type": "decision",
+        "options": "I don't consider her an enemy.",
+        "values": "1"
+    },
+    {
+        "id": 42,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 43,
+        "raw": "[name=\"Kal'tsit\"]  Dr. {@nickname}, 'distinguish your friends from your foes.'",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Dr. {@nickname}, 'distinguish your friends from your foes.'"
+    },
+    {
+        "id": 44,
+        "raw": "[name=\"Kal'tsit\"]  ...No. You might get the wrong idea, but you must hear me out.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "...No. You might get the wrong idea, but you must hear me out."
+    },
+    {
+        "id": 45,
+        "raw": "[Decision(options=\"......?\", values=\"1\")]",
+        "type": "decision",
+        "options": "......?",
+        "values": "1"
+    },
+    {
+        "id": 46,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 47,
+        "raw": "[name=\"Kal'tsit\"]  I am not trying to blame you, Dr. {@nickname}.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "I am not trying to blame you, Dr. {@nickname}."
+    },
+    {
+        "id": 48,
+        "raw": "[name=\"Kal'tsit\"]  Amiya told me what happened between you and the enemy commander. Only those who were there at the time had the information to decide what to do.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Amiya told me what happened between you and the enemy commander. Only those who were there at the time had the information to decide what to do."
+    },
+    {
+        "id": 49,
+        "raw": "[name=\"Kal'tsit\"]  I don't have the right to overreach and criticize your judgment.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "I don't have the right to overreach and criticize your judgment."
+    },
+    {
+        "id": 50,
+        "raw": "[name=\"Kal'tsit\"]  You tried to understand the motives of that Infected. You were willing to bear the consequences for the things she, FrostNova, did.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "You tried to understand the motives of that Infected. You were willing to bear the consequences for the things she, FrostNova, did."
+    },
+    {
+        "id": 51,
+        "raw": "[name=\"Kal'tsit\"]  That is what you did.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "That is what you did."
+    },
+    {
+        "id": 52,
+        "raw": "[name=\"Kal'tsit\"]  If you plan to use this method to make sense of the suffering in this world, I have no reason to blame you.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "If you plan to use this method to make sense of the suffering in this world, I have no reason to blame you."
+    },
+    {
+        "id": 53,
+        "raw": "[name=\"Kal'tsit\"]  I am even willing to vouch for you before the operators of Rhodes Island. Dr. {@nickname}, make your own decisions, and I will try not to interfere.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "I am even willing to vouch for you before the operators of Rhodes Island. Dr. {@nickname}, make your own decisions, and I will try not to interfere."
+    },
+    {
+        "id": 54,
+        "raw": "[name=\"Kal'tsit\"]  After that, I will determine the part of the responsibility that belongs to Rhodes Island.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "After that, I will determine the part of the responsibility that belongs to Rhodes Island."
+    },
+    {
+        "id": 55,
+        "raw": "[name=\"Kal'tsit\"]  Your powers and responsibilities compliment one another. 'Distinguish your enemies from your friends.' Those are your words, not mine.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Your powers and responsibilities compliment one another. 'Distinguish your enemies from your friends.' Those are your words, not mine."
+    },
+    {
+        "id": 56,
+        "raw": "[name=\"Kal'tsit\"]  ......",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "......"
+    },
+    {
+        "id": 57,
+        "raw": "[name=\"Kal'tsit\"]  (Whispers) If you really want to breathe as one...",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "(Whispers) If you really want to breathe as one..."
+    },
+    {
+        "id": 58,
+        "raw": "[Decision(options=\"You're actually... siding with me?\", values=\"1\")]",
+        "type": "decision",
+        "options": "You're actually... siding with me?",
+        "values": "1"
+    },
+    {
+        "id": 59,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 60,
+        "raw": "[name=\"Kal'tsit\"]  I never said that.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "I never said that."
+    },
+    {
+        "id": 61,
+        "raw": "[name=\"Kal'tsit\"]  More accurately, FrostNova and her Yeti Squad were a guerilla team of elite Infected.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "More accurately, FrostNova and her Yeti Squad were a guerilla team of elite Infected."
+    },
+    {
+        "id": 62,
+        "raw": "[name=\"Kal'tsit\"]  Right now, there are still two elite forces that Reunion is still able to mobilize. These guerilla warriors are the first.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Right now, there are still two elite forces that Reunion is still able to mobilize. These guerilla warriors are the first."
+    },
+    {
+        "id": 63,
+        "raw": "[name=\"Kal'tsit\"]  The second is the Sarkaz mercenary, W, and her team of sellswords.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "The second is the Sarkaz mercenary, W, and her team of sellswords."
+    },
+    {
+        "id": 64,
+        "raw": "[name=\"Kal'tsit\"]  According to my intel, W used some underhanded tactics to seize leadership of the Sarkaz mercenaries working with Reunion.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "According to my intel, W used some underhanded tactics to seize leadership of the Sarkaz mercenaries working with Reunion."
+    },
+    {
+        "id": 65,
+        "raw": "[name=\"Kal'tsit\"]  We don't have time to go over what should be common historical knowledge, but let me say this frankly — Sarkaz mercenaries are unreliable, a problem W faces just as much as Reunion.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "We don't have time to go over what should be common historical knowledge, but let me say this frankly — Sarkaz mercenaries are unreliable, a problem W faces just as much as Reunion."
+    },
+    {
+        "id": 66,
+        "raw": "[name=\"Kal'tsit\"]  Sarkaz mercenaries are unlike normal agency mercenaries. They are the overflowing military might of Kazdel, spilling out across the land.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Sarkaz mercenaries are unlike normal agency mercenaries. They are the overflowing military might of Kazdel, spilling out across the land."
+    },
+    {
+        "id": 67,
+        "raw": "[name=\"Kal'tsit\"]  Trying to control them is an act of folly. It will only anger the forces backing them.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Trying to control them is an act of folly. It will only anger the forces backing them."
+    },
+    {
+        "id": 68,
+        "raw": "[Decision(options=\"You seem to have a pretty deep understanding of the Sarkaz.\", values=\"1\")]",
+        "type": "decision",
+        "options": "You seem to have a pretty deep understanding of the Sarkaz.",
+        "values": "1"
+    },
+    {
+        "id": 69,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 70,
+        "raw": "[name=\"Kal'tsit\"]  I haven't even gotten to the important part.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "I haven't even gotten to the important part."
+    },
+    {
+        "id": 71,
+        "raw": "[name=\"Kal'tsit\"]  The point is, the Infected guerrillas of Yeti Squad are completely different from the Sarkaz mercenaries.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "The point is, the Infected guerrillas of Yeti Squad are completely different from the Sarkaz mercenaries."
+    },
+    {
+        "id": 72,
+        "raw": "[name=\"Kal'tsit\"]  There are no similarities between them in terms of their form, organization, behavior, or creed.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "There are no similarities between them in terms of their form, organization, behavior, or creed."
+    },
+    {
+        "id": 73,
+        "raw": "[name=\"Kal'tsit\"]  Before joining Reunion's ranks, they were an independent guerrilla force of Infected, and their prestige was even greater among certain groups of Infected than that of Reunion.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Before joining Reunion's ranks, they were an independent guerrilla force of Infected, and their prestige was even greater among certain groups of Infected than that of Reunion."
+    },
+    {
+        "id": 74,
+        "raw": "[name=\"Kal'tsit\"]  ...And before they formed this guerrilla force, they used to be a part of the mighty Ursus military.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "...And before they formed this guerrilla force, they used to be a part of the mighty Ursus military."
+    },
+    {
+        "id": 75,
+        "raw": "[Decision(options=\"The Guerrillas of the Northwestern Tundra?\", values=\"1\")]",
+        "type": "decision",
+        "options": "The Guerrillas of the Northwestern Tundra?",
+        "values": "1"
+    },
+    {
+        "id": 76,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 77,
+        "raw": "[name=\"Kal'tsit\"]  ...",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "..."
+    },
+    {
+        "id": 78,
+        "raw": "[name=\"Kal'tsit\"]  I'm not sure where you learned that piece of information, Doctor, but I color me impressed.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "I'm not sure where you learned that piece of information, Doctor, but I color me impressed."
+    },
+    {
+        "id": 79,
+        "raw": "[name=\"Kal'tsit\"]  Though that piece of information itself is fairly basic, I am relieved that you're able to proactively gather intel on your own.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Though that piece of information itself is fairly basic, I am relieved that you're able to proactively gather intel on your own."
+    },
+    {
+        "id": 80,
+        "raw": "[Decision(options=\"You just had to tack that bit onto the end...;......;Why does it feel like you're poking fun at me?\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "You just had to tack that bit onto the end...;......;Why does it feel like you're poking fun at me?",
+        "values": "1;2;3"
+    },
+    {
+        "id": 81,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 82,
+        "raw": "[name=\"Kal'tsit\"]  I only give what you deserve.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "I only give what you deserve."
+    },
+    {
+        "id": 83,
+        "raw": "[name=\"Kal'tsit\"]  We've arrived at the foundations of the industrial sector at Chernobog's core city.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "We've arrived at the foundations of the industrial sector at Chernobog's core city."
+    },
+    {
+        "id": 84,
+        "raw": "[name=\"Kal'tsit\"]  Next, we'll lead three teams through the complex underground passages, take the sewer pipes into the industrial layer, and come up in the heart of the core city.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Next, we'll lead three teams through the complex underground passages, take the sewer pipes into the industrial layer, and come up in the heart of the core city."
+    },
+    {
+        "id": 85,
+        "raw": "[name=\"Kal'tsit\"]  Be aware that any enemies you see patrolling these areas are not the ordinary Reunion thugs you're used to fighting.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Be aware that any enemies you see patrolling these areas are not the ordinary Reunion thugs you're used to fighting."
+    },
+    {
+        "id": 86,
+        "raw": "[name=\"Kal'tsit\"]  We will meet rigorously trained... 'soldiers.' Reunion's 'soldiers,' trained in the tactics of Ursus's own army by the guerrillas.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "We will meet rigorously trained... 'soldiers.' Reunion's 'soldiers,' trained in the tactics of Ursus's own army by the guerrillas."
+    },
+    {
+        "id": 87,
+        "raw": "[name=\"Kal'tsit\"]  Our recon operators discovered that communication networks have been forcefully cut off within the core city. Rather, it seems that Reunion didn't even try to maintain these channels.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Our recon operators discovered that communication networks have been forcefully cut off within the core city. Rather, it seems that Reunion didn't even try to maintain these channels."
+    },
+    {
+        "id": 88,
+        "raw": "[name=\"Kal'tsit\"]  This is a severe constraint upon modern-day squads who rely on the most common modes of communication.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "This is a severe constraint upon modern-day squads who rely on the most common modes of communication."
+    },
+    {
+        "id": 89,
+        "raw": "[name=\"Kal'tsit\"]  What this means is Reunion either already has some special way of communicating, or they simply aren't prepared to fight.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "What this means is Reunion either already has some special way of communicating, or they simply aren't prepared to fight."
+    },
+    {
+        "id": 90,
+        "raw": "[name=\"Kal'tsit\"]  Based on what we saw in Chernobog a month ago, don't expect that second scenario. However, if communication is cut off, the lower-ranking Reunion members won't receive direct commands.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Based on what we saw in Chernobog a month ago, don't expect that second scenario. However, if communication is cut off, the lower-ranking Reunion members won't receive direct commands."
+    },
+    {
+        "id": 91,
+        "raw": "[name=\"Kal'tsit\"]  Most of the time, expect them to act independently.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Most of the time, expect them to act independently."
+    },
+    {
+        "id": 92,
+        "raw": "[name=\"Kal'tsit\"]  I fear they won't know signals they cannot receive— a signal that only countries and city-states can distinguish. One that marks the territory of Ursus.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "I fear they won't know signals they cannot receive— a signal that only countries and city-states can distinguish. One that marks the territory of Ursus."
+    },
+    {
+        "id": 93,
+        "raw": "[name=\"Kal'tsit\"]  A terrible storm is brewing within this city. Chaos, whether caused accidentally or deliberately, will permeate everywhere like thick smoke.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "A terrible storm is brewing within this city. Chaos, whether caused accidentally or deliberately, will permeate everywhere like thick smoke."
+    },
+    {
+        "id": 94,
+        "raw": "[name=\"Kal'tsit\"]  They're a step ahead of me, and the seeds of ruin have already been sown.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "They're a step ahead of me, and the seeds of ruin have already been sown."
+    },
+    {
+        "id": 95,
+        "raw": "[Decision(options=\"What's your conclusion?\", values=\"1\")]",
+        "type": "decision",
+        "options": "What's your conclusion?",
+        "values": "1"
+    },
+    {
+        "id": 96,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 97,
+        "raw": "[name=\"Kal'tsit\"]  Conflict is brewing within Reunion.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Conflict is brewing within Reunion."
+    },
+    {
+        "id": 98,
+        "raw": "[Decision(options=\"How are you so sure?\", values=\"1\")]",
+        "type": "decision",
+        "options": "How are you so sure?",
+        "values": "1"
+    },
+    {
+        "id": 99,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 100,
+        "raw": "[name=\"Kal'tsit\"]  I've seen the same thing unfold countless of times across this land.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "I've seen the same thing unfold countless of times across this land."
+    },
+    {
+        "id": 101,
+        "raw": "[Decision(options=\"Is there something you're not telling me?\", values=\"1\")]",
+        "type": "decision",
+        "options": "Is there something you're not telling me?",
+        "values": "1"
+    },
+    {
+        "id": 102,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 103,
+        "raw": "[name=\"Kal'tsit\"]  I've said pretty much everything I needed to say. As for the rest, we'll cross those bridges when we get to them.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "I've said pretty much everything I needed to say. As for the rest, we'll cross those bridges when we get to them."
+    },
+    {
+        "id": 104,
+        "raw": "[name=\"Kal'tsit\"]  Even if we're still just preparing for war, efficiency still matters.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Even if we're still just preparing for war, efficiency still matters."
+    },
+    {
+        "id": 105,
+        "raw": "[name=\"Kal'tsit\"]  Please help me notify the members of Team R-4, Doctor. Have them take these devices.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Please help me notify the members of Team R-4, Doctor. Have them take these devices."
+    },
+    {
+        "id": 106,
+        "raw": "[Decision(options=\"Hold on...\", values=\"1\")]",
+        "type": "decision",
+        "options": "Hold on...",
+        "values": "1"
+    },
+    {
+        "id": 107,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 108,
+        "raw": "[name=\"Kal'tsit\"]  Is there a problem?",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Is there a problem?"
+    },
+    {
+        "id": 109,
+        "raw": "[Decision(options=\"Don't these belong to Rosmontis?\", values=\"1\")]",
+        "type": "decision",
+        "options": "Don't these belong to Rosmontis?",
+        "values": "1"
+    },
+    {
+        "id": 110,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 111,
+        "raw": "[name=\"Kal'tsit\"]  Yes.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Yes."
+    },
+    {
+        "id": 112,
+        "raw": "[name=\"Kal'tsit\"]  You seem to know more about Rosmontis than the conversation you had in the bioprocessing unit indicated.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "You seem to know more about Rosmontis than the conversation you had in the bioprocessing unit indicated."
+    },
+    {
+        "id": 113,
+        "raw": "[Decision(options=\"I saw her getting ready to fight.\", values=\"1\")]",
+        "type": "decision",
+        "options": "I saw her getting ready to fight.",
+        "values": "1"
+    },
+    {
+        "id": 114,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 115,
+        "raw": "[Decision(options=\"Never expected she'd have the power to use a device like this.\", values=\"1\")]",
+        "type": "decision",
+        "options": "Never expected she'd have the power to use a device like this.",
+        "values": "1"
+    },
+    {
+        "id": 116,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 117,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 118,
+        "raw": "[name=\"Kal'tsit\"]  Every elite operator has a considerable amount of strength. We expect them to take charge.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Every elite operator has a considerable amount of strength. We expect them to take charge."
+    },
+    {
+        "id": 119,
+        "raw": "[name=\"Kal'tsit\"]  ...So, you haven't had the time to understand how Rosmontis fights.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "...So, you haven't had the time to understand how Rosmontis fights."
+    },
+    {
+        "id": 120,
+        "raw": "[name=\"Kal'tsit\"]  But just to get this out of the way, there are some things they should not be shouldering alone. As a field commander, a necessary part of your job is to help relieve the pressure on these operators.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "But just to get this out of the way, there are some things they should not be shouldering alone. As a field commander, a necessary part of your job is to help relieve the pressure on these operators."
+    },
+    {
+        "id": 121,
+        "raw": "[name=\"Kal'tsit\"]  In this upcoming battle, you may make some shocking discoveries.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "In this upcoming battle, you may make some shocking discoveries."
+    },
+    {
+        "id": 122,
+        "raw": "[Decision(options=\"Huh...?\", values=\"1\")]",
+        "type": "decision",
+        "options": "Huh...?",
+        "values": "1"
+    },
+    {
+        "id": 123,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 124,
+        "raw": "[name=\"Kal'tsit\"]  Very few people aren't shocked after watching Rosmontis fight.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Very few people aren't shocked after watching Rosmontis fight."
+    },
+    {
+        "id": 125,
+        "raw": "[name=\"Kal'tsit\"]  Make sure you're ready for it.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Make sure you're ready for it."
+    },
+    {
+        "id": 126,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 127,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 128,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 129,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 130,
+        "raw": "[Background(image=\"bg_cherunder\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_cherunder.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 131,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 132,
+        "raw": "[playMusic(intro=\"$batmeeting_intro\", key=\"$batmeeting_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act9d0d0/m_avg_batmeeting_intro.mp3",
+        "key": "sound_beta_2/music/act9d0d0/m_avg_batmeeting_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 133,
+        "raw": "[Character(name=\"avg_npc_012\")]",
+        "type": "character",
+        "name": "avg_npc_012"
+    },
+    {
+        "id": 134,
+        "raw": "[name=\"Rhodes Island Operator\"]  Dr. {@nickname}, you're here!",
+        "type": "dialog",
+        "speaker": "Rhodes Island Operator",
+        "content": "Dr. {@nickname}, you're here!"
+    },
+    {
+        "id": 135,
+        "raw": "[name=\"Rhodes Island Operator\"]  We intercepted an enemy patrol squad, steadily handling the situation.",
+        "type": "dialog",
+        "speaker": "Rhodes Island Operator",
+        "content": "We intercepted an enemy patrol squad, steadily handling the situation."
+    },
+    {
+        "id": 136,
+        "raw": "[Decision(options=\"Has the fighting started already?\", values=\"1\")]",
+        "type": "decision",
+        "options": "Has the fighting started already?",
+        "values": "1"
+    },
+    {
+        "id": 137,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 138,
+        "raw": "[name=\"Rhodes Island Operator\"]  Doctor, your position there is kinda risky...",
+        "type": "dialog",
+        "speaker": "Rhodes Island Operator",
+        "content": "Doctor, your position there is kinda risky..."
+    },
+    {
+        "id": 139,
+        "raw": "[name=\"Rhodes Island Operator\"]  I think you'll probably want to move.",
+        "type": "dialog",
+        "speaker": "Rhodes Island Operator",
+        "content": "I think you'll probably want to move."
+    },
+    {
+        "id": 140,
+        "raw": "[Decision(options=\"I just got here.\", values=\"1\")]",
+        "type": "decision",
+        "options": "I just got here.",
+        "values": "1"
+    },
+    {
+        "id": 141,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 142,
+        "raw": "[name=\"Rhodes Island Operator\"]  Right there... Behind you...",
+        "type": "dialog",
+        "speaker": "Rhodes Island Operator",
+        "content": "Right there... Behind you..."
+    },
+    {
+        "id": 143,
+        "raw": "[name=\"Rhodes Island Operator\"]  Doctor, it's really dangerous to stand next to her!",
+        "type": "dialog",
+        "speaker": "Rhodes Island Operator",
+        "content": "Doctor, it's really dangerous to stand next to her!"
+    },
+    {
+        "id": 144,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 145,
+        "raw": "[name=\"???\"]  ...Enemy.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "...Enemy."
+    },
+    {
+        "id": 146,
+        "raw": "[Decision(options=\"What do you mean...\", values=\"1\")]",
+        "type": "decision",
+        "options": "What do you mean...",
+        "values": "1"
+    },
+    {
+        "id": 147,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 148,
+        "raw": "[Decision(options=\"...Rosmontis?\", values=\"1\")]",
+        "type": "decision",
+        "options": "...Rosmontis?",
+        "values": "1"
+    },
+    {
+        "id": 149,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 150,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3"
+    },
+    {
+        "id": 151,
+        "raw": "[Character(name=\"avg_npc_042\",fadetime=1,block=true)]",
+        "type": "character",
+        "name": "avg_npc_042",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 152,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 153,
+        "raw": "[name=\"Rosmontis\"]  Enemy.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "Enemy."
+    },
+    {
+        "id": 154,
+        "raw": "[name=\"Rosmontis\"]  Doctor, those are the ones who killed my family... Enemies!",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "Doctor, those are the ones who killed my family... Enemies!"
+    },
+    {
+        "id": 155,
+        "raw": "[Decision(options=\"Where did this rage come from?;......?;Rosmontis, what happened...\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "Where did this rage come from?;......?;Rosmontis, what happened...",
+        "values": "1;2;3"
+    },
+    {
+        "id": 156,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 157,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 158,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 159,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 160,
+        "raw": "[name=\"Rosmontis\"]  ......",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "......"
+    },
+    {
+        "id": 161,
+        "raw": "[name=\"Rosmontis\"]  Doctor, step aside. Get out of the way.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "Doctor, step aside. Get out of the way."
+    },
+    {
+        "id": 162,
+        "raw": "[name=\"Rosmontis\"]  I'm not like Amiya. Amiya's Arts can go around her friends to strike her enemies...",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "I'm not like Amiya. Amiya's Arts can go around her friends to strike her enemies..."
+    },
+    {
+        "id": 163,
+        "raw": "[name=\"Rosmontis\"]  But not me. I can't.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "But not me. I can't."
+    },
+    {
+        "id": 164,
+        "raw": "[name=\"Rosmontis\"]  So don't stand between me and my fight.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "So don't stand between me and my fight."
+    },
+    {
+        "id": 165,
+        "raw": "[Decision(options=\"......\", values=\"1\")]",
+        "type": "decision",
+        "options": "......",
+        "values": "1"
+    },
+    {
+        "id": 166,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 167,
+        "raw": "[name=\"Reunion Member\"]  Gyaaah!!",
+        "type": "dialog",
+        "speaker": "Reunion Member",
+        "content": "Gyaaah!!"
+    },
+    {
+        "id": 168,
+        "raw": "[CameraShake(duration=0.4, xstrength=0, ystrength=8, vibrato=30, randomness=30, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.4,",
+        "xstrength": "0,",
+        "ystrength": "8,",
+        "vibrato": "30,",
+        "randomness": "30,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 169,
+        "raw": "[name=\"Reunion Member\"]  That girl, the one carrying that box... Wh-what's going on...",
+        "type": "dialog",
+        "speaker": "Reunion Member",
+        "content": "That girl, the one carrying that box... Wh-what's going on..."
+    },
+    {
+        "id": 170,
+        "raw": "[name=\"Reunion Member\"]  What's wrong with my eyes? I can't see anything! My eyes! My face!! It hurts! It hurts!!!",
+        "type": "dialog",
+        "speaker": "Reunion Member",
+        "content": "What's wrong with my eyes? I can't see anything! My eyes! My face!! It hurts! It hurts!!!"
+    },
+    {
+        "id": 171,
+        "raw": "[name=\"Reunion Member\"]  Something's crushing my head!",
+        "type": "dialog",
+        "speaker": "Reunion Member",
+        "content": "Something's crushing my head!"
+    },
+    {
+        "id": 172,
+        "raw": "[name=\"Rosmontis\"]  ......",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "......"
+    },
+    {
+        "id": 173,
+        "raw": "[name=\"Rosmontis\"]  No.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "No."
+    },
+    {
+        "id": 174,
+        "raw": "[name=\"Rosmontis\"]  It's been a long time since I've crushed anyone to death.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "It's been a long time since I've crushed anyone to death."
+    },
+    {
+        "id": 175,
+        "raw": "[name=\"Reunion Member\"]  Those swords... Those swords!",
+        "type": "dialog",
+        "speaker": "Reunion Member",
+        "content": "Those swords... Those swords!"
+    },
+    {
+        "id": 176,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 177,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 178,
+        "raw": "[Decision(options=\"Rosmontis?!\", values=\"1\")]",
+        "type": "decision",
+        "options": "Rosmontis?!",
+        "values": "1"
+    },
+    {
+        "id": 179,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 180,
+        "raw": "[name=\"Rosmontis\"]  ...Reunion.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "...Reunion."
+    },
+    {
+        "id": 181,
+        "raw": "[name=\"Rosmontis\"]  I don't want you in my memories.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "I don't want you in my memories."
+    },
+    {
+        "id": 182,
+        "raw": "[name=\"Rosmontis\"]  Any of you.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "Any of you."
+    },
+    {
+        "id": 183,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 184,
+        "raw": "[Blocker(fadetime=2,block=true)]",
+        "type": "blocker",
+        "fadetime": "2,block=true"
+    },
+    {
+        "id": 185,
+        "raw": "[Image]",
+        "type": "image"
+    }
+]

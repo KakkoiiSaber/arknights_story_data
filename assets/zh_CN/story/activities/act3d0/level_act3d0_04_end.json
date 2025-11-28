@@ -1,0 +1,491 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")] 第六关（后）",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK",
+        "content": "第六关（后）"
+    },
+    {
+        "id": 2,
+        "raw": "[Background(image=\"bg_hotel\", fadetime=1)]",
+        "type": "background",
+        "image": "bg_hotel.png",
+        "fadetime": 1
+    },
+    {
+        "id": 3,
+        "raw": "[PlayMusic(intro=\"$darkness01_intro\", key=\"$darkness01_loop\", volume=0.8, crossfade=1.5)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta1_180603/m_dia_darkness01_intro.mp3",
+        "key": "sound_beta_2/music/beta1_180603/m_dia_darkness01_loop.mp3",
+        "volume": "0.8,",
+        "crossfade": 1.5
+    },
+    {
+        "id": 4,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 5,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 6,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 7,
+        "raw": "[Character(name=\"char_188_helage_1\")]",
+        "type": "character",
+        "name": "char_188_helage_1"
+    },
+    {
+        "id": 8,
+        "raw": "[name=\"赫拉格\"]   这个菲林族女性并非泛泛之辈。",
+        "type": "dialog",
+        "speaker": "赫拉格",
+        "content": "这个菲林族女性并非泛泛之辈。"
+    },
+    {
+        "id": 9,
+        "raw": "[Decision(options=\"这还是难不倒你的。;将军，没受伤吧？\",values=\"1;2\")]",
+        "type": "decision",
+        "options": "这还是难不倒你的。;将军，没受伤吧？",
+        "values": "1;2"
+    },
+    {
+        "id": 10,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 11,
+        "raw": "[name=\"赫拉格\"]   不必担心。她的部下都只是些庸人。你们安全之后，撤退对我来说还算轻松。",
+        "type": "dialog",
+        "speaker": "赫拉格",
+        "content": "不必担心。她的部下都只是些庸人。你们安全之后，撤退对我来说还算轻松。"
+    },
+    {
+        "id": 12,
+        "raw": "[name=\"赫拉格\"]   只不过，关于这个保镖的身份，我有些猜测。",
+        "type": "dialog",
+        "speaker": "赫拉格",
+        "content": "只不过，关于这个保镖的身份，我有些猜测。"
+    },
+    {
+        "id": 13,
+        "raw": "[Decision(options=\"身份;难道说......\",values=\"1;2\")]",
+        "type": "decision",
+        "options": "身份;难道说......",
+        "values": "1;2"
+    },
+    {
+        "id": 14,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 15,
+        "raw": "[name=\"赫拉格\"]   哥伦比亚，菲林族，女性，银发、金瞳、黑弩。是杀手，也是佣兵。",
+        "type": "dialog",
+        "speaker": "赫拉格",
+        "content": "哥伦比亚，菲林族，女性，银发、金瞳、黑弩。是杀手，也是佣兵。"
+    },
+    {
+        "id": 16,
+        "raw": "[name=\"赫拉格\"]   杀手闻名于诸城是件可耻的事，但这些传闻实在是过于有名。",
+        "type": "dialog",
+        "speaker": "赫拉格",
+        "content": "杀手闻名于诸城是件可耻的事，但这些传闻实在是过于有名。"
+    },
+    {
+        "id": 17,
+        "raw": "[name=\"赫拉格\"]   譬如说，毁掉一整个哥伦比亚家族。一个强盛的家族，重要人物在数年内陆续暴毙，逐渐走向衰落，最终彻底被除名。",
+        "type": "dialog",
+        "speaker": "赫拉格",
+        "content": "譬如说，毁掉一整个哥伦比亚家族。一个强盛的家族，重要人物在数年内陆续暴毙，逐渐走向衰落，最终彻底被除名。"
+    },
+    {
+        "id": 18,
+        "raw": "[name=\"赫拉格\"]   再如，猎杀一整支巡逻队。这支巡逻队在哥伦比亚边境烧杀抢掠，自诩野蛮人的征服者，不断地向异族施加暴行和惨剧。",
+        "type": "dialog",
+        "speaker": "赫拉格",
+        "content": "再如，猎杀一整支巡逻队。这支巡逻队在哥伦比亚边境烧杀抢掠，自诩野蛮人的征服者，不断地向异族施加暴行和惨剧。"
+    },
+    {
+        "id": 19,
+        "raw": "[name=\"赫拉格\"]   之后的一个月内，他们在山间逃窜，不断死去，最后只剩下一个残废回到城市胡言乱语。",
+        "type": "dialog",
+        "speaker": "赫拉格",
+        "content": "之后的一个月内，他们在山间逃窜，不断死去，最后只剩下一个残废回到城市胡言乱语。"
+    },
+    {
+        "id": 20,
+        "raw": "[name=\"赫拉格\"]   以及向我叙说故事的人的遭遇。",
+        "type": "dialog",
+        "speaker": "赫拉格",
+        "content": "以及向我叙说故事的人的遭遇。"
+    },
+    {
+        "id": 21,
+        "raw": "[Decision(options=\"又发生了什么？;请说吧，我不害怕。\",values=\"1;2\")]",
+        "type": "decision",
+        "options": "又发生了什么？;请说吧，我不害怕。",
+        "values": "1;2"
+    },
+    {
+        "id": 22,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 23,
+        "raw": "[name=\"赫拉格\"]   不必多说了。他的伤疤从左肩延伸到右脚后跟。",
+        "type": "dialog",
+        "speaker": "赫拉格",
+        "content": "不必多说了。他的伤疤从左肩延伸到右脚后跟。"
+    },
+    {
+        "id": 24,
+        "raw": "[name=\"赫拉格\"]   杀人如麻的家伙比比皆是，我也如此。",
+        "type": "dialog",
+        "speaker": "赫拉格",
+        "content": "杀人如麻的家伙比比皆是，我也如此。"
+    },
+    {
+        "id": 25,
+        "raw": "[name=\"赫拉格\"]   当然，这个杀手失踪已久。",
+        "type": "dialog",
+        "speaker": "赫拉格",
+        "content": "当然，这个杀手失踪已久。"
+    },
+    {
+        "id": 26,
+        "raw": "[name=\"赫拉格\"]   只是，如果她就是那个人，那么摆在我们面前的，自然是腥风血雨。",
+        "type": "dialog",
+        "speaker": "赫拉格",
+        "content": "只是，如果她就是那个人，那么摆在我们面前的，自然是腥风血雨。"
+    },
+    {
+        "id": 27,
+        "raw": "[Decision(options=\"水比想象中的深。;锡兰被蒙在鼓里？\",values=\"1;2\")]",
+        "type": "decision",
+        "options": "水比想象中的深。;锡兰被蒙在鼓里？",
+        "values": "1;2"
+    },
+    {
+        "id": 28,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 29,
+        "raw": "[name=\"赫拉格\"]   也许市长并非不知情。",
+        "type": "dialog",
+        "speaker": "赫拉格",
+        "content": "也许市长并非不知情。"
+    },
+    {
+        "id": 30,
+        "raw": "[name=\"赫拉格\"]   不如说，如果她是市长的杀手，我不会感到奇怪。",
+        "type": "dialog",
+        "speaker": "赫拉格",
+        "content": "不如说，如果她是市长的杀手，我不会感到奇怪。"
+    },
+    {
+        "id": 31,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 32,
+        "raw": "[CameraShake(duration=1, xstrength=5, ystrength=3, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "xstrength": "5,",
+        "ystrength": "3,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 33,
+        "raw": "（玻璃杯粉碎）",
+        "type": "narration",
+        "content": "（玻璃杯粉碎）"
+    },
+    {
+        "id": 34,
+        "raw": "[Decision(options=\"锡兰？！;你从什么时候......\",values=\"1;2\")]",
+        "type": "decision",
+        "options": "锡兰？！;你从什么时候......",
+        "values": "1;2"
+    },
+    {
+        "id": 35,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 36,
+        "raw": "[Character(name=\"char_188_helage_1\")]",
+        "type": "character",
+        "name": "char_188_helage_1"
+    },
+    {
+        "id": 37,
+        "raw": "[name=\"赫拉格\"]   锡兰小姐，你不用躲着偷听。",
+        "type": "dialog",
+        "speaker": "赫拉格",
+        "content": "锡兰小姐，你不用躲着偷听。"
+    },
+    {
+        "id": 38,
+        "raw": "[Character(name=\"char_188_helage_1\",name2=\"char_348_ceylon_4#8\",focus=2)]",
+        "type": "character",
+        "name": "char_188_helage_1",
+        "name2": "char_348_ceylon_4#8",
+        "focus": 2
+    },
+    {
+        "id": 39,
+        "raw": "[name=\"锡兰\"]   我，我想给你们倒杯水......",
+        "type": "dialog",
+        "speaker": "锡兰",
+        "content": "我，我想给你们倒杯水......"
+    },
+    {
+        "id": 40,
+        "raw": "[name=\"锡兰\"]   赫拉格爷爷，那个佣兵，是从什么时候开始活动，又是在什么时候失踪的？",
+        "type": "dialog",
+        "speaker": "锡兰",
+        "content": "赫拉格爷爷，那个佣兵，是从什么时候开始活动，又是在什么时候失踪的？"
+    },
+    {
+        "id": 41,
+        "raw": "[Character(name=\"char_188_helage_1\",name2=\"char_348_ceylon_4#8\",focus=1)]",
+        "type": "character",
+        "name": "char_188_helage_1",
+        "name2": "char_348_ceylon_4#8",
+        "focus": 1
+    },
+    {
+        "id": 42,
+        "raw": "[name=\"赫拉格\"]   她的事迹开始闻名，甚至在我还未退伍之时。",
+        "type": "dialog",
+        "speaker": "赫拉格",
+        "content": "她的事迹开始闻名，甚至在我还未退伍之时。"
+    },
+    {
+        "id": 43,
+        "raw": "[name=\"赫拉格\"]   而她销声匿迹则是一年之前，随着那个家族的覆灭一起。",
+        "type": "dialog",
+        "speaker": "赫拉格",
+        "content": "而她销声匿迹则是一年之前，随着那个家族的覆灭一起。"
+    },
+    {
+        "id": 44,
+        "raw": "[Character(name=\"char_188_helage_1\",name2=\"char_348_ceylon_4#8\",focus=2)]",
+        "type": "character",
+        "name": "char_188_helage_1",
+        "name2": "char_348_ceylon_4#8",
+        "focus": 2
+    },
+    {
+        "id": 45,
+        "raw": "[name=\"锡兰\"]   ......直到六年前，黑都在维多利亚照顾我的生活。",
+        "type": "dialog",
+        "speaker": "锡兰",
+        "content": "......直到六年前，黑都在维多利亚照顾我的生活。"
+    },
+    {
+        "id": 46,
+        "raw": "[name=\"锡兰\"]   但是有一天，她忽然说爸爸需要她回去做事，就走了，只在每年圣诞节的时候来接我回家。",
+        "type": "dialog",
+        "speaker": "锡兰",
+        "content": "但是有一天，她忽然说爸爸需要她回去做事，就走了，只在每年圣诞节的时候来接我回家。"
+    },
+    {
+        "id": 47,
+        "raw": "[Character(name=\"char_188_helage_1\",name2=\"char_348_ceylon_4#3\",focus=2)]",
+        "type": "character",
+        "name": "char_188_helage_1",
+        "name2": "char_348_ceylon_4#3",
+        "focus": 2
+    },
+    {
+        "id": 48,
+        "raw": "[name=\"锡兰\"]   但、但是，她刚才只是态度不好，而且听了别人的命令，黑她怎么可能是那种杀人如麻的杀手！",
+        "type": "dialog",
+        "speaker": "锡兰",
+        "content": "但、但是，她刚才只是态度不好，而且听了别人的命令，黑她怎么可能是那种杀人如麻的杀手！"
+    },
+    {
+        "id": 49,
+        "raw": "[name=\"锡兰\"]   而且，按照你们的说法，你们想说克洛宁的背后是我爸爸在授意吗？！",
+        "type": "dialog",
+        "speaker": "锡兰",
+        "content": "而且，按照你们的说法，你们想说克洛宁的背后是我爸爸在授意吗？！"
+    },
+    {
+        "id": 50,
+        "raw": "[name=\"锡兰\"]   我不信！",
+        "type": "dialog",
+        "speaker": "锡兰",
+        "content": "我不信！"
+    },
+    {
+        "id": 51,
+        "raw": "[Character(name=\"char_188_helage_1\",name2=\"char_348_ceylon_4#3\",focus=1)]",
+        "type": "character",
+        "name": "char_188_helage_1",
+        "name2": "char_348_ceylon_4#3",
+        "focus": 1
+    },
+    {
+        "id": 52,
+        "raw": "[name=\"赫拉格\"]   我不作推测。但我也说过，即使是最信任的人，也未必对你毫无保留。",
+        "type": "dialog",
+        "speaker": "赫拉格",
+        "content": "我不作推测。但我也说过，即使是最信任的人，也未必对你毫无保留。"
+    },
+    {
+        "id": 53,
+        "raw": "[name=\"赫拉格\"]   信与不信，我不关心。只是，她身上的乌萨斯制式武器留下的伤痕，我绝不会看错。这支队伍被埋葬在大雪中。",
+        "type": "dialog",
+        "speaker": "赫拉格",
+        "content": "信与不信，我不关心。只是，她身上的乌萨斯制式武器留下的伤痕，我绝不会看错。这支队伍被埋葬在大雪中。"
+    },
+    {
+        "id": 54,
+        "raw": "[Character(name=\"char_188_helage_1\")]",
+        "type": "character",
+        "name": "char_188_helage_1"
+    },
+    {
+        "id": 55,
+        "raw": "[name=\"赫拉格\"]   现状如你所见，博士。",
+        "type": "dialog",
+        "speaker": "赫拉格",
+        "content": "现状如你所见，博士。"
+    },
+    {
+        "id": 56,
+        "raw": "[name=\"赫拉格\"]   如果火山的情报处理也有市政府参与，那么这件事我们未必应该插手。",
+        "type": "dialog",
+        "speaker": "赫拉格",
+        "content": "如果火山的情报处理也有市政府参与，那么这件事我们未必应该插手。"
+    },
+    {
+        "id": 57,
+        "raw": "[name=\"赫拉格\"]   锡兰小姐，你也应该看清事实。",
+        "type": "dialog",
+        "speaker": "赫拉格",
+        "content": "锡兰小姐，你也应该看清事实。"
+    },
+    {
+        "id": 58,
+        "raw": "[Character(name=\"char_348_ceylon_4#9\")]",
+        "type": "character",
+        "name": "char_348_ceylon_4#9"
+    },
+    {
+        "id": 59,
+        "raw": "[name=\"锡兰\"]   我......我需要冷静一下。",
+        "type": "dialog",
+        "speaker": "锡兰",
+        "content": "我......我需要冷静一下。"
+    },
+    {
+        "id": 60,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 61,
+        "raw": "[Character(fadetime=1,block=true)]",
+        "type": "character",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 62,
+        "raw": "[PlaySound(key=\"$doorclosequite\", volume=0.9)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_doorclosequite.mp3",
+        "volume": 0.9
+    },
+    {
+        "id": 63,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 64,
+        "raw": "[Character(name=\"char_188_helage_1\")]",
+        "type": "character",
+        "name": "char_188_helage_1"
+    },
+    {
+        "id": 65,
+        "raw": "[name=\"赫拉格\"]  博士，请。",
+        "type": "dialog",
+        "speaker": "赫拉格",
+        "content": "博士，请。"
+    },
+    {
+        "id": 66,
+        "raw": "[Decision(options=\"啊？;我是该做些什么吧？\",values=\"1;2\")]",
+        "type": "decision",
+        "options": "啊？;我是该做些什么吧？",
+        "values": "1;2"
+    },
+    {
+        "id": 67,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 68,
+        "raw": "[name=\"赫拉格\"]   自然。现在她需要一个能够理解她的人。",
+        "type": "dialog",
+        "speaker": "赫拉格",
+        "content": "自然。现在她需要一个能够理解她的人。"
+    },
+    {
+        "id": 69,
+        "raw": "[Delay(time=0.6)]",
+        "type": "delay",
+        "time": 0.6
+    },
+    {
+        "id": 70,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 71,
+        "raw": "[Blocker(fadetime=3,block=true)]",
+        "type": "blocker",
+        "fadetime": "3,block=true"
+    },
+    {
+        "id": 72,
+        "raw": "[Image]",
+        "type": "image"
+    }
+]

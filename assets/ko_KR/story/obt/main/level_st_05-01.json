@@ -1,0 +1,1670 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")] 第六关（后）",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK",
+        "content": "第六关（后）"
+    },
+    {
+        "id": 2,
+        "raw": "[Background(image=\"bg_rooftop\", width=1, height=1,screenadapt=\"coverall\",  fadetime=1)]",
+        "type": "background",
+        "image": "bg_rooftop.png",
+        "width": "1,",
+        "height": "1,screenadapt=\"coverall\",",
+        "fadetime": 1
+    },
+    {
+        "id": 3,
+        "raw": "[PlayMusic(intro=\"$darkness02_intro\", key=\"$darkness02_loop\", volume=0.6, crossfade=3, delay=0.5)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta1_180603/m_dia_darkness02_intro.mp3",
+        "key": "sound_beta_2/music/beta1_180603/m_dia_darkness02_loop.mp3",
+        "volume": "0.6,",
+        "crossfade": "3,",
+        "delay": 0.5
+    },
+    {
+        "id": 4,
+        "raw": "[name=\"\"]   04:45 a.m.  날씨/맑음",
+        "type": "narration",
+        "content": "04:45 a.m.  날씨/맑음"
+    },
+    {
+        "id": 5,
+        "raw": "[name=\"\"]   용문 북부, 근위국 건물 옥상 폐허",
+        "type": "narration",
+        "content": "용문 북부, 근위국 건물 옥상 폐허"
+    },
+    {
+        "id": 6,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 7,
+        "raw": "[playsound(key=\"$d_gen_transmissionget\", volume=0.4)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_transmissionget.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 8,
+        "raw": "[CharacterCutin(widgetID=\"1\", name=\"char_2005_weiyw_1\", style=\"cutin\", fadestyle= \"horiz_expand_center\", fadetime=0.5, offsetx=-300, width=200, block=true)]",
+        "type": "character_cutin",
+        "widgetID": "1",
+        "name": "char_2005_weiyw_1",
+        "style": "cutin",
+        "fadetime": "0.5,",
+        "offsetx": "-300,",
+        "width": "200,",
+        "block": true
+    },
+    {
+        "id": 9,
+        "raw": "[name=\"웨이 옌우\"]  첸, 그리고 옆에 아미야, 내 목소리 잘 들리나?",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "첸, 그리고 옆에 아미야, 내 목소리 잘 들리나?"
+    },
+    {
+        "id": 10,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_002_amiya_1#1\",focus=2)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_002_amiya_1#1",
+        "focus": 2
+    },
+    {
+        "id": 11,
+        "raw": "[name=\"아미야\"]  네. 웨이 옌우 씨.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "네. 웨이 옌우 씨."
+    },
+    {
+        "id": 12,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_002_amiya_1#1\",focus=1)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_002_amiya_1#1",
+        "focus": 1
+    },
+    {
+        "id": 13,
+        "raw": "[name=\"웨이 옌우\"]  그럼 됐다.",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "그럼 됐다."
+    },
+    {
+        "id": 14,
+        "raw": "[name=\"웨이 옌우\"]  미안하군. 로도스 아일랜드 리더여. 근위국이 더 깊은 오지에 가도록 위험을 감수할 수는 있지만, 더 많은 플레이어를 게임에 들어오게 하는 위험을 감수할 수는 없네.",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "미안하군. 로도스 아일랜드 리더여. 근위국이 더 깊은 오지에 가도록 위험을 감수할 수는 있지만, 더 많은 플레이어를 게임에 들어오게 하는 위험을 감수할 수는 없네."
+    },
+    {
+        "id": 15,
+        "raw": "[Decision(options=\"더 많은 플레이어라니?;……무슨 뜻이지? ;이 혼란스러운 상황을 어떻게 설명해야 할까…\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "더 많은 플레이어라니?;……무슨 뜻이지? ;이 혼란스러운 상황을 어떻게 설명해야 할까…",
+        "values": "1;2;3"
+    },
+    {
+        "id": 16,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 17,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_002_amiya_1#1\",focus=1)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_002_amiya_1#1",
+        "focus": 1
+    },
+    {
+        "id": 18,
+        "raw": "[name=\"웨이 옌우\"]  {@nickname} 박사……",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "{@nickname} 박사……"
+    },
+    {
+        "id": 19,
+        "raw": "[name=\"웨이 옌우\"]  이 세상은 복잡하게 뒤엉킨 무형의 거대한 그물망으로 뒤덮여있네.",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "이 세상은 복잡하게 뒤엉킨 무형의 거대한 그물망으로 뒤덮여있네."
+    },
+    {
+        "id": 20,
+        "raw": "[name=\"웨이 옌우\"]  어떠한 도시도 이 세계와 관계를 끊을 수 없고, 음모 속에서 자기만 생각할 수도 없지. 여러 개의 거대한 것들 사이에 낀 이곳은 더더욱 그렇고.",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "어떠한 도시도 이 세계와 관계를 끊을 수 없고, 음모 속에서 자기만 생각할 수도 없지. 여러 개의 거대한 것들 사이에 낀 이곳은 더더욱 그렇고."
+    },
+    {
+        "id": 21,
+        "raw": "[name=\"웨이 옌우\"]  아마 알아차렸을 수도, 어쩌면 모를지도 모르지만, 적어도 나는 이런 문제들을 고려해야 해야 하는 사람이네.",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "아마 알아차렸을 수도, 어쩌면 모를지도 모르지만, 적어도 나는 이런 문제들을 고려해야 해야 하는 사람이네."
+    },
+    {
+        "id": 22,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_002_amiya_1#7\",focus=2)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_002_amiya_1#7",
+        "focus": 2
+    },
+    {
+        "id": 23,
+        "raw": "[name=\"아미야\"]  웨이 옌우 씨, 임무를 더 순조롭게 집행하려면 우리와 정보를 공유하셔야 합니다.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "웨이 옌우 씨, 임무를 더 순조롭게 집행하려면 우리와 정보를 공유하셔야 합니다."
+    },
+    {
+        "id": 24,
+        "raw": "[name=\"아미야\"]  적어도 꼭 필요한 정보만이라도요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "적어도 꼭 필요한 정보만이라도요."
+    },
+    {
+        "id": 25,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_002_amiya_1#7\",focus=1)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_002_amiya_1#7",
+        "focus": 1
+    },
+    {
+        "id": 26,
+        "raw": "[name=\"웨이 옌우\"]  다시 한번 사과하지. 아미야, 내 위치에선 모든 정보를 공개할 수는 없네.",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "다시 한번 사과하지. 아미야, 내 위치에선 모든 정보를 공개할 수는 없네."
+    },
+    {
+        "id": 27,
+        "raw": "[name=\"웨이 옌우\"]  만약 자네가 내 입장이었다면, 분명 나와 같은 선택을 했을걸세.",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "만약 자네가 내 입장이었다면, 분명 나와 같은 선택을 했을걸세."
+    },
+    {
+        "id": 28,
+        "raw": "[name=\"웨이 옌우\"]  체르노보그의 버려진 도시에서의 작전은 원만했다고 할 수는 없지만, 적어도 자네들은 그에 상응하는 결과를 얻지 않았나.",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "체르노보그의 버려진 도시에서의 작전은 원만했다고 할 수는 없지만, 적어도 자네들은 그에 상응하는 결과를 얻지 않았나."
+    },
+    {
+        "id": 29,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_017_homura_3#1\",focus=2)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_017_homura_3#1",
+        "focus": 2
+    },
+    {
+        "id": 30,
+        "raw": "[name=\"블레이즈\"]  우리가 리유니온의 주의를 끌게 한 거잖아.",
+        "type": "dialog",
+        "speaker": "블레이즈",
+        "content": "우리가 리유니온의 주의를 끌게 한 거잖아."
+    },
+    {
+        "id": 31,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_017_homura_3#1\",focus=1)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_017_homura_3#1",
+        "focus": 1
+    },
+    {
+        "id": 32,
+        "raw": "[name=\"웨이 옌우\"]  아닐세. 용문근위국도 자네들과 함께 있었네.",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "아닐세. 용문근위국도 자네들과 함께 있었네."
+    },
+    {
+        "id": 33,
+        "raw": "[Decision(options=\"당신은 우리 모두를 미끼로 삼았죠.\", values=\"1\")]",
+        "type": "decision",
+        "options": "당신은 우리 모두를 미끼로 삼았죠.",
+        "values": "1"
+    },
+    {
+        "id": 34,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 35,
+        "raw": "[name=\"웨이 옌우\"]  호오?",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "호오?"
+    },
+    {
+        "id": 36,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 37,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0.6, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.6,",
+        "block": true
+    },
+    {
+        "id": 38,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 39,
+        "raw": "[CharacterCutin(widgetID=\"1\",block=true)]",
+        "type": "character_cutin",
+        "widgetID": "1",
+        "block": true
+    },
+    {
+        "id": 40,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 41,
+        "raw": "[Background]",
+        "type": "background"
+    },
+    {
+        "id": 42,
+        "raw": "[Blocker(a=0, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 43,
+        "raw": "[name=\"켈시\"]  이 모든 것은 저 사람이 처음부터 계획한 거였어.",
+        "type": "dialog",
+        "speaker": "켈시",
+        "content": "이 모든 것은 저 사람이 처음부터 계획한 거였어."
+    },
+    {
+        "id": 44,
+        "raw": "[name=\"켈시\"]  시간이 지날수록 더 깊이 침투하니, 즉시 결단을 내려야 했겠지.",
+        "type": "dialog",
+        "speaker": "켈시",
+        "content": "시간이 지날수록 더 깊이 침투하니, 즉시 결단을 내려야 했겠지."
+    },
+    {
+        "id": 45,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 46,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0.6, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.6,",
+        "block": true
+    },
+    {
+        "id": 47,
+        "raw": "[Background(image=\"bg_rooftop\", width=1, height=1,screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_rooftop.png",
+        "width": "1,",
+        "height": "1,screenadapt=\"coverall\""
+    },
+    {
+        "id": 48,
+        "raw": "[Blocker(a=0, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 49,
+        "raw": "[Decision(options=\"그래서 가장 중요한 순간, 리유니온의 폭동이 가장 고조되던 그때\", values=\"1\")]",
+        "type": "decision",
+        "options": "그래서 가장 중요한 순간, 리유니온의 폭동이 가장 고조되던 그때",
+        "values": "1"
+    },
+    {
+        "id": 50,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 51,
+        "raw": "[Decision(options=\"로도스 아일랜드가 리유니온을 유인하게 만든 거야.\", values=\"1\")]",
+        "type": "decision",
+        "options": "로도스 아일랜드가 리유니온을 유인하게 만든 거야.",
+        "values": "1"
+    },
+    {
+        "id": 52,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 53,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 54,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0.6, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.6,",
+        "block": true
+    },
+    {
+        "id": 55,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 56,
+        "raw": "[Background]",
+        "type": "background"
+    },
+    {
+        "id": 57,
+        "raw": "[Blocker(a=0, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 58,
+        "raw": "[name=\"켈시\"]  그렇게 리유니온이 근위국은 고립되어있다 생각하게 만들고……",
+        "type": "dialog",
+        "speaker": "켈시",
+        "content": "그렇게 리유니온이 근위국은 고립되어있다 생각하게 만들고……"
+    },
+    {
+        "id": 59,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 60,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0.6, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.6,",
+        "block": true
+    },
+    {
+        "id": 61,
+        "raw": "[Background(image=\"bg_rooftop\", width=1, height=1,screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_rooftop.png",
+        "width": "1,",
+        "height": "1,screenadapt=\"coverall\""
+    },
+    {
+        "id": 62,
+        "raw": "[Blocker(a=0, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 63,
+        "raw": "[Decision(options=\"……리유니온의 리더는 용문 내부가 비어있다고 생각하게 만들었지.\", values=\"1\")]",
+        "type": "decision",
+        "options": "……리유니온의 리더는 용문 내부가 비어있다고 생각하게 만들었지.",
+        "values": "1"
+    },
+    {
+        "id": 64,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 65,
+        "raw": "[CharacterCutin(widgetID=\"1\", name=\"char_2005_weiyw_1\", style=\"cutin\", fadestyle= \"horiz_expand_center\", fadetime=0.5, offsetx=-300, width=200, block=true)]",
+        "type": "character_cutin",
+        "widgetID": "1",
+        "name": "char_2005_weiyw_1",
+        "style": "cutin",
+        "fadetime": "0.5,",
+        "offsetx": "-300,",
+        "width": "200,",
+        "block": true
+    },
+    {
+        "id": 66,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_017_homura_3#1\",focus=2)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_017_homura_3#1",
+        "focus": 2
+    },
+    {
+        "id": 67,
+        "raw": "[name=\"블레이즈\"]  그런 거였군. 역시 {@nickname} 박사야! 웨이 씨, 그러니까 당신은 당연히 우리가 리유니온을 잡아두기를 원했겠네. 많을수록 좋고, 그렇지?",
+        "type": "dialog",
+        "speaker": "블레이즈",
+        "content": "그런 거였군. 역시 {@nickname} 박사야! 웨이 씨, 그러니까 당신은 당연히 우리가 리유니온을 잡아두기를 원했겠네. 많을수록 좋고, 그렇지?"
+    },
+    {
+        "id": 68,
+        "raw": "[name=\"블레이즈\"]  용문이 이런 상황이라는 것을 보면, 잠복한 리유니온은 분명 자기들한테 기회가 왔다고 생각했겠지.",
+        "type": "dialog",
+        "speaker": "블레이즈",
+        "content": "용문이 이런 상황이라는 것을 보면, 잠복한 리유니온은 분명 자기들한테 기회가 왔다고 생각했겠지."
+    },
+    {
+        "id": 69,
+        "raw": "[name=\"블레이즈\"]  그렇게 아지트에 숨어있던 병력을 전부 데리고 나온 리유니온을 기다리고 있던 건, 어디서 온 지 모를 용문의 정예 병력이였다... 이거고.",
+        "type": "dialog",
+        "speaker": "블레이즈",
+        "content": "그렇게 아지트에 숨어있던 병력을 전부 데리고 나온 리유니온을 기다리고 있던 건, 어디서 온 지 모를 용문의 정예 병력이였다... 이거고."
+    },
+    {
+        "id": 70,
+        "raw": "[name=\"블레이즈\"]  당신들 용문은 언제부터 실력을 숨기기 시작한 거지? 체르노보그 사건이 발생한 그날부터 계속 준비했던 건가?",
+        "type": "dialog",
+        "speaker": "블레이즈",
+        "content": "당신들 용문은 언제부터 실력을 숨기기 시작한 거지? 체르노보그 사건이 발생한 그날부터 계속 준비했던 건가?"
+    },
+    {
+        "id": 71,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_017_homura_3#1\",focus=1)]  ",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_017_homura_3#1",
+        "focus": 1
+    },
+    {
+        "id": 72,
+        "raw": "[name=\"웨이 옌우\"]  용문은 자네들의 안전을 보장했네. 그리고 자네들이 충분히 가치를 발휘할 수 있는 자리로 돌아갈 수 있게 해줬지.",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "용문은 자네들의 안전을 보장했네. 그리고 자네들이 충분히 가치를 발휘할 수 있는 자리로 돌아갈 수 있게 해줬지."
+    },
+    {
+        "id": 73,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_017_homura_3#1\",focus=2)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_017_homura_3#1",
+        "focus": 2
+    },
+    {
+        "id": 74,
+        "raw": "[name=\"블레이즈\"]  아미야를 그 버려진 도시에 버려두고, 그렇게 많은 리유니온이 우리 로도스 아일랜드를 포위 공격하게 한 것도 당신이 말한 그 자리를 만들기 위해서였다 이거야?",
+        "type": "dialog",
+        "speaker": "블레이즈",
+        "content": "아미야를 그 버려진 도시에 버려두고, 그렇게 많은 리유니온이 우리 로도스 아일랜드를 포위 공격하게 한 것도 당신이 말한 그 자리를 만들기 위해서였다 이거야?"
+    },
+    {
+        "id": 75,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_017_homura_3#1\",focus=1)]  ",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_017_homura_3#1",
+        "focus": 1
+    },
+    {
+        "id": 76,
+        "raw": "[name=\"웨이 옌우\"]  나는 그저 로도스 아일랜드가 우리가 함께 직면해야 할 어려운 상황을 이해해 주길 바랐던 걸세.",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "나는 그저 로도스 아일랜드가 우리가 함께 직면해야 할 어려운 상황을 이해해 주길 바랐던 걸세."
+    },
+    {
+        "id": 77,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_002_amiya_1#1\",focus=2)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_002_amiya_1#1",
+        "focus": 2
+    },
+    {
+        "id": 78,
+        "raw": "[name=\"아미야\"]  블레이즈 씨, {@nickname} 박사님, 그만 하세요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "블레이즈 씨, {@nickname} 박사님, 그만 하세요."
+    },
+    {
+        "id": 79,
+        "raw": "[name=\"아미야\"]  스와이어 씨는 저희와 함께 리유니온의 추격병을 격퇴해주었어요. 용문은 우리들을 버리지 않았습니다.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "스와이어 씨는 저희와 함께 리유니온의 추격병을 격퇴해주었어요. 용문은 우리들을 버리지 않았습니다."
+    },
+    {
+        "id": 80,
+        "raw": "[name=\"아미야\"]  (지금의 우리에겐 아직 증거가 부족하니까요.)",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "(지금의 우리에겐 아직 증거가 부족하니까요.)"
+    },
+    {
+        "id": 81,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_017_homura_3#1\",focus=2)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_017_homura_3#1",
+        "focus": 2
+    },
+    {
+        "id": 82,
+        "raw": "[name=\"블레이즈\"]  흥.",
+        "type": "dialog",
+        "speaker": "블레이즈",
+        "content": "흥."
+    },
+    {
+        "id": 83,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_002_amiya_1#1\",focus=1)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_002_amiya_1#1",
+        "focus": 1
+    },
+    {
+        "id": 84,
+        "raw": "[name=\"웨이 옌우\"]  우리의 계약은 여전히 유효하네. 중간에 무슨 일이 있었든, 난 오직 결과가 만족스러운지만 볼 걸세.",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "우리의 계약은 여전히 유효하네. 중간에 무슨 일이 있었든, 난 오직 결과가 만족스러운지만 볼 걸세."
+    },
+    {
+        "id": 85,
+        "raw": "[name=\"웨이 옌우\"]  중간에 무슨 일이 있었든지, 말이지.",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "중간에 무슨 일이 있었든지, 말이지."
+    },
+    {
+        "id": 86,
+        "raw": "[name=\"웨이 옌우\"]  로도스 아일랜드의 {@nickname} 박사, 지난번 우리가 만났을 때, 나는 같은 방식으로 같은 뜻을 전했었지.",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "로도스 아일랜드의 {@nickname} 박사, 지난번 우리가 만났을 때, 나는 같은 방식으로 같은 뜻을 전했었지."
+    },
+    {
+        "id": 87,
+        "raw": "[name=\"웨이 옌우\"]  당신의 선택지는 많지 않네만, 적어도 적을 제거하는 방법을 선택할 수는 있지 않겠나.",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "당신의 선택지는 많지 않네만, 적어도 적을 제거하는 방법을 선택할 수는 있지 않겠나."
+    },
+    {
+        "id": 88,
+        "raw": "[Decision(options=\"나는 당신도 당신이 하는 헛소리도 믿지 않아.;……;속아 넘어갔는데도 웃으면서 대답하는 사람이 어디 있겠어.\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "나는 당신도 당신이 하는 헛소리도 믿지 않아.;……;속아 넘어갔는데도 웃으면서 대답하는 사람이 어디 있겠어.",
+        "values": "1;2;3"
+    },
+    {
+        "id": 89,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 90,
+        "raw": "[name=\"웨이 옌우\"]  물론 그렇지.",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "물론 그렇지."
+    },
+    {
+        "id": 91,
+        "raw": "[name=\"웨이 옌우\"]  늘 서로 경계해야 하지 않겠나. 큰 적을 앞두고 있을 때는 긴장을 풀면 안 되지.",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "늘 서로 경계해야 하지 않겠나. 큰 적을 앞두고 있을 때는 긴장을 풀면 안 되지."
+    },
+    {
+        "id": 92,
+        "raw": "[name=\"웨이 옌우\"]  당신의 경계심이 함정을 피할 수 있도록 해줄 것이라 믿네.",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "당신의 경계심이 함정을 피할 수 있도록 해줄 것이라 믿네."
+    },
+    {
+        "id": 93,
+        "raw": "[name=\"웨이 옌우\"]  그래도 한 마디 해두자면, {@nickname} 박사……",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "그래도 한 마디 해두자면, {@nickname} 박사……"
+    },
+    {
+        "id": 94,
+        "raw": "[name=\"웨이 옌우\"]  ……우리가 비록 친구는 아니지만, 적어도 아직 적은 아니지 않나.",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "……우리가 비록 친구는 아니지만, 적어도 아직 적은 아니지 않나."
+    },
+    {
+        "id": 95,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 96,
+        "raw": "[name=\"웨이 옌우\"]  침묵은 긍정한단 뜻으로 봐도 되겠지?",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "침묵은 긍정한단 뜻으로 봐도 되겠지?"
+    },
+    {
+        "id": 97,
+        "raw": "[name=\"웨이 옌우\"]  좋은 판단이네. 당신의 약점을 숨기고, 당신의 이점을 활용할 수 있을 테니.",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "좋은 판단이네. 당신의 약점을 숨기고, 당신의 이점을 활용할 수 있을 테니."
+    },
+    {
+        "id": 98,
+        "raw": "[name=\"웨이 옌우\"]  로도스 아일랜드는 강력한 협력 파트너일세. 그 점은 이번 사건을 통해 확실히 알게 됐어.",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "로도스 아일랜드는 강력한 협력 파트너일세. 그 점은 이번 사건을 통해 확실히 알게 됐어."
+    },
+    {
+        "id": 99,
+        "raw": "[name=\"웨이 옌우\"]  물론 불법 감염자와 지방당국의 관계가 아니라 파트너 관계일 때의 얘기지만 말이야.",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "물론 불법 감염자와 지방당국의 관계가 아니라 파트너 관계일 때의 얘기지만 말이야."
+    },
+    {
+        "id": 100,
+        "raw": "[Predicate(references=\"3\")]",
+        "type": "predicate",
+        "references": "3"
+    },
+    {
+        "id": 101,
+        "raw": "[name=\"웨이 옌우\"]  나는 그 누구도 우롱할 의도는 없었네.",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "나는 그 누구도 우롱할 의도는 없었네."
+    },
+    {
+        "id": 102,
+        "raw": "[name=\"웨이 옌우\"]  객관적인 결과를 보면, 리유니온을 우롱했다고는 할 수 있겠군.",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "객관적인 결과를 보면, 리유니온을 우롱했다고는 할 수 있겠군."
+    },
+    {
+        "id": 103,
+        "raw": "[name=\"웨이 옌우\"]  하지만 이 모든 것은 증명될 수 없네. 리유니온도 우리 약점을 파악했을지도 모르는 건 마찬가지 아닌가?",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "하지만 이 모든 것은 증명될 수 없네. 리유니온도 우리 약점을 파악했을지도 모르는 건 마찬가지 아닌가?"
+    },
+    {
+        "id": 104,
+        "raw": "[name=\"웨이 옌우\"]  우리는 그들이 우리의 책략을 확실히 알아낼 능력을 손에 넣기 전에 먼저 그들을 섬멸해야 하네.",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "우리는 그들이 우리의 책략을 확실히 알아낼 능력을 손에 넣기 전에 먼저 그들을 섬멸해야 하네."
+    },
+    {
+        "id": 105,
+        "raw": "[name=\"웨이 옌우\"]  이 목표라면, 자네들에게 충분히 동기 부여가 될 수 있겠지?",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "이 목표라면, 자네들에게 충분히 동기 부여가 될 수 있겠지?"
+    },
+    {
+        "id": 106,
+        "raw": "[Predicate]",
+        "type": "predicate"
+    },
+    {
+        "id": 107,
+        "raw": "[name=\"웨이 옌우\"]  아미야, {@nickname} 박사, 당신들과 용문 사이의 협력은 아직 끝나지 않았네.",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "아미야, {@nickname} 박사, 당신들과 용문 사이의 협력은 아직 끝나지 않았네."
+    },
+    {
+        "id": 108,
+        "raw": "[name=\"웨이 옌우\"]  반격은 시작됐어. 리유니온은 곧 용문의 방대함, 훌륭한 계책, 그리고 단결력을 뼈저리게 느끼게 될 것이야.",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "반격은 시작됐어. 리유니온은 곧 용문의 방대함, 훌륭한 계책, 그리고 단결력을 뼈저리게 느끼게 될 것이야."
+    },
+    {
+        "id": 109,
+        "raw": "[name=\"웨이 옌우\"]  그러니 가능하다면, 나는 그때 로도스 아일랜드의 전문성, 과감함, 그리고 용맹함도 함께 보고 싶군.",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "그러니 가능하다면, 나는 그때 로도스 아일랜드의 전문성, 과감함, 그리고 용맹함도 함께 보고 싶군."
+    },
+    {
+        "id": 110,
+        "raw": "[name=\"웨이 옌우\"]  15분 후, 첸 팀장이 당신들과 협력해 작전에 임할 걸세.",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "15분 후, 첸 팀장이 당신들과 협력해 작전에 임할 걸세."
+    },
+    {
+        "id": 111,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_002_amiya_1#7\",focus=2)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_002_amiya_1#7",
+        "focus": 2
+    },
+    {
+        "id": 112,
+        "raw": "[name=\"아미야\"]  웨이 옌우 씨, 자신이 한 말을 잊지 마세요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "웨이 옌우 씨, 자신이 한 말을 잊지 마세요."
+    },
+    {
+        "id": 113,
+        "raw": "[name=\"아미야\"]  로도스 아일랜드는 잊지 않을 겁니다.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "로도스 아일랜드는 잊지 않을 겁니다."
+    },
+    {
+        "id": 114,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_002_amiya_1#7\",focus=1)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_002_amiya_1#7",
+        "focus": 1
+    },
+    {
+        "id": 115,
+        "raw": "[name=\"웨이 옌우\"]  물론이다.",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "물론이다."
+    },
+    {
+        "id": 116,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 117,
+        "raw": "[playsound(key=\"$d_gen_transmissionget\", volume=0.4)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_transmissionget.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 118,
+        "raw": "[CharacterCutin(widgetID=\"1\",fadetime=0.5,block=true)]",
+        "type": "character_cutin",
+        "widgetID": "1",
+        "fadetime": "0.5,block=true"
+    },
+    {
+        "id": 119,
+        "raw": "[Character(name=\"char_002_amiya_1#1\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#1"
+    },
+    {
+        "id": 120,
+        "raw": "[name=\"아미야\"]  블레이즈 씨, 박사님, 가죠.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "블레이즈 씨, 박사님, 가죠."
+    },
+    {
+        "id": 121,
+        "raw": "[name=\"아미야\"]  아 참, 첸 팀장님, 호시구마 씨는요? 그러고 보니 모습이 보이지 않아서…… 별일 없는 거죠?",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "아 참, 첸 팀장님, 호시구마 씨는요? 그러고 보니 모습이 보이지 않아서…… 별일 없는 거죠?"
+    },
+    {
+        "id": 122,
+        "raw": "[Character(name=\"char_002_amiya_1#1\",name2=\"char_010_chen_1#1\",focus=2)]",
+        "type": "character",
+        "name": "char_002_amiya_1#1",
+        "name2": "char_010_chen_1#1",
+        "focus": 2
+    },
+    {
+        "id": 123,
+        "raw": "[name=\"첸\"]  호시구마는 조금 다쳤지만, 큰 문제는 없다.",
+        "type": "dialog",
+        "speaker": "첸",
+        "content": "호시구마는 조금 다쳤지만, 큰 문제는 없다."
+    },
+    {
+        "id": 124,
+        "raw": "[Character(name=\"char_002_amiya_1#2\",name2=\"char_010_chen_1#1\",focus=1)]",
+        "type": "character",
+        "name": "char_002_amiya_1#2",
+        "name2": "char_010_chen_1#1",
+        "focus": 1
+    },
+    {
+        "id": 125,
+        "raw": "[name=\"아미야\"]  그렇군요…… 알겠습니다.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "그렇군요…… 알겠습니다."
+    },
+    {
+        "id": 126,
+        "raw": "[name=\"아미야\"]  첸 팀장님, 로도스 아일랜드에서 검사 한번 받고 가시는 게 어떨까요, 응급처치 정도라면 바로 가능하니까요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "첸 팀장님, 로도스 아일랜드에서 검사 한번 받고 가시는 게 어떨까요, 응급처치 정도라면 바로 가능하니까요."
+    },
+    {
+        "id": 127,
+        "raw": "[Character(name=\"char_002_amiya_1#2\",name2=\"char_010_chen_1#1\",focus=2)]",
+        "type": "character",
+        "name": "char_002_amiya_1#2",
+        "name2": "char_010_chen_1#1",
+        "focus": 2
+    },
+    {
+        "id": 128,
+        "raw": "[name=\"첸\"]  아냐, 됐어.",
+        "type": "dialog",
+        "speaker": "첸",
+        "content": "아냐, 됐어."
+    },
+    {
+        "id": 129,
+        "raw": "[Character(name=\"char_002_amiya_1#2\",name2=\"char_010_chen_1#1\",focus=1)]",
+        "type": "character",
+        "name": "char_002_amiya_1#2",
+        "name2": "char_010_chen_1#1",
+        "focus": 1
+    },
+    {
+        "id": 130,
+        "raw": "[name=\"아미야\"]  사양하지 않으셔도 돼요. 로도스 아일랜드의 의료 검사는 모든 과정을 기밀 처리하고 있으니까요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "사양하지 않으셔도 돼요. 로도스 아일랜드의 의료 검사는 모든 과정을 기밀 처리하고 있으니까요."
+    },
+    {
+        "id": 131,
+        "raw": "[Character(name=\"char_002_amiya_1#1\",name2=\"char_010_chen_1#1\",focus=2)]",
+        "type": "character",
+        "name": "char_002_amiya_1#1",
+        "name2": "char_010_chen_1#1",
+        "focus": 2
+    },
+    {
+        "id": 132,
+        "raw": "[name=\"첸\"]  이 정도는 내가 직접 처리하면 돼.",
+        "type": "dialog",
+        "speaker": "첸",
+        "content": "이 정도는 내가 직접 처리하면 돼."
+    },
+    {
+        "id": 133,
+        "raw": "[Character(name=\"char_002_amiya_1#1\",name2=\"char_010_chen_1#1\",focus=1)]",
+        "type": "character",
+        "name": "char_002_amiya_1#1",
+        "name2": "char_010_chen_1#1",
+        "focus": 1
+    },
+    {
+        "id": 134,
+        "raw": "[name=\"아미야\"]  으으…… 정 그러시다면, 무리하게 강요하진 않을게요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "으으…… 정 그러시다면, 무리하게 강요하진 않을게요."
+    },
+    {
+        "id": 135,
+        "raw": "[name=\"아미야\"]  그럼, 좀 있다 뵙겠습니다.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "그럼, 좀 있다 뵙겠습니다."
+    },
+    {
+        "id": 136,
+        "raw": "[Character(name=\"char_010_chen_1#1\")]",
+        "type": "character",
+        "name": "char_010_chen_1#1"
+    },
+    {
+        "id": 137,
+        "raw": "[name=\"첸\"]  ……",
+        "type": "dialog",
+        "speaker": "첸",
+        "content": "……"
+    },
+    {
+        "id": 138,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 139,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 140,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 141,
+        "raw": "[Background(image=\"bg_lungmen_o\", width=1, height=1, screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_lungmen_o.png",
+        "width": "1,",
+        "height": "1,",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 142,
+        "raw": "[Blocker(a=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 143,
+        "raw": "[name=\"\"]   05:00 a.m.   날씨/맑음",
+        "type": "narration",
+        "content": "05:00 a.m.   날씨/맑음"
+    },
+    {
+        "id": 144,
+        "raw": "[name=\"\"]   용문 북부, 행정 장관 사무소",
+        "type": "narration",
+        "content": "용문 북부, 행정 장관 사무소"
+    },
+    {
+        "id": 145,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 146,
+        "raw": "[playsound(key=\"$d_gen_transmissionget\", volume=0.4)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_transmissionget.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 147,
+        "raw": "[CharacterCutin(widgetID=\"1\", name=\"char_308_swire_1#5\", style=\"cutin\", fadestyle= \"horiz_expand_center\", fadetime=0.5, offsetx=-300, width=200, block=true)]",
+        "type": "character_cutin",
+        "widgetID": "1",
+        "name": "char_308_swire_1#5",
+        "style": "cutin",
+        "fadetime": "0.5,",
+        "offsetx": "-300,",
+        "width": "200,",
+        "block": true
+    },
+    {
+        "id": 148,
+        "raw": "[name=\"스와이어\"]  웨이 장관님, 그쪽은 별문제 없으시죠?",
+        "type": "dialog",
+        "speaker": "스와이어",
+        "content": "웨이 장관님, 그쪽은 별문제 없으시죠?"
+    },
+    {
+        "id": 149,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_2005_weiyw_1\",focus=2)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_2005_weiyw_1",
+        "focus": 2
+    },
+    {
+        "id": 150,
+        "raw": "[name=\"웨이 옌우\"]  당연하지. 아니면 자네들과 이곳에서 잡담할 기회도 없었지 않겠나.",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "당연하지. 아니면 자네들과 이곳에서 잡담할 기회도 없었지 않겠나."
+    },
+    {
+        "id": 151,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_2005_weiyw_1\",focus=1)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_2005_weiyw_1",
+        "focus": 1
+    },
+    {
+        "id": 152,
+        "raw": "[name=\"스와이어\"]  그 사람들은 작전 진행을 잠시 늦추는 것에 동의하던가요?",
+        "type": "dialog",
+        "speaker": "스와이어",
+        "content": "그 사람들은 작전 진행을 잠시 늦추는 것에 동의하던가요?"
+    },
+    {
+        "id": 153,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_2005_weiyw_1\",focus=2)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_2005_weiyw_1",
+        "focus": 2
+    },
+    {
+        "id": 154,
+        "raw": "[name=\"웨이 옌우\"]  그래. 하지만 시간 제한이 있다.",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "그래. 하지만 시간 제한이 있다."
+    },
+    {
+        "id": 155,
+        "raw": "[name=\"웨이 옌우\"]  오늘, 내일. 이틀 후에도 만약 리유니온이 여전히 용문에서 행패를 부린다면, 자네들도 어떻게 될진 알고 있겠지.",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "오늘, 내일. 이틀 후에도 만약 리유니온이 여전히 용문에서 행패를 부린다면, 자네들도 어떻게 될진 알고 있겠지."
+    },
+    {
+        "id": 156,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_2005_weiyw_1\",focus=1)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_2005_weiyw_1",
+        "focus": 1
+    },
+    {
+        "id": 157,
+        "raw": "[name=\"스와이어\"]  겨우 이틀이라뇨?! 너무 짧습니다. 그건 불가능……",
+        "type": "dialog",
+        "speaker": "스와이어",
+        "content": "겨우 이틀이라뇨?! 너무 짧습니다. 그건 불가능……"
+    },
+    {
+        "id": 158,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_2005_weiyw_1\",focus=2)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_2005_weiyw_1",
+        "focus": 2
+    },
+    {
+        "id": 159,
+        "raw": "[name=\"웨이 옌우\"]  두 번의 아침과 저녁이 교차하는 시간이라면 이미 충분한 기한을 준 것이라 생각하네만. 그에 비해 내가 모두에게 주는 시간은 단 하루밖에 안 되네.",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "두 번의 아침과 저녁이 교차하는 시간이라면 이미 충분한 기한을 준 것이라 생각하네만. 그에 비해 내가 모두에게 주는 시간은 단 하루밖에 안 되네."
+    },
+    {
+        "id": 160,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_2005_weiyw_1\",focus=1)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_2005_weiyw_1",
+        "focus": 1
+    },
+    {
+        "id": 161,
+        "raw": "[name=\"스와이어\"]  하루요?!",
+        "type": "dialog",
+        "speaker": "스와이어",
+        "content": "하루요?!"
+    },
+    {
+        "id": 162,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_2005_weiyw_1\",focus=2)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_2005_weiyw_1",
+        "focus": 2
+    },
+    {
+        "id": 163,
+        "raw": "[name=\"웨이 옌우\"]  하루 안에 모든 일을 해결해줘야겠어.",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "하루 안에 모든 일을 해결해줘야겠어."
+    },
+    {
+        "id": 164,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_2005_weiyw_1\",focus=1)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_2005_weiyw_1",
+        "focus": 1
+    },
+    {
+        "id": 165,
+        "raw": "[name=\"스와이어\"]  장관님, 그들의 도움을 받는다면, 우리는 몇 시간 내로 리유니온을 처리해, 손실을 철저히 줄일 수 있지 않습니까?",
+        "type": "dialog",
+        "speaker": "스와이어",
+        "content": "장관님, 그들의 도움을 받는다면, 우리는 몇 시간 내로 리유니온을 처리해, 손실을 철저히 줄일 수 있지 않습니까?"
+    },
+    {
+        "id": 166,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_2005_weiyw_1\",focus=2)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_2005_weiyw_1",
+        "focus": 2
+    },
+    {
+        "id": 167,
+        "raw": "[name=\"웨이 옌우\"]  그건 중요하지 않네. 용문의 문제는 용문 스스로가 모든 것을 해결할 수 있어야지. 그게 바로 가장 중요한 걸세.",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "그건 중요하지 않네. 용문의 문제는 용문 스스로가 모든 것을 해결할 수 있어야지. 그게 바로 가장 중요한 걸세."
+    },
+    {
+        "id": 168,
+        "raw": "[name=\"웨이 옌우\"]  이건 우리가 그들에게 마땅히 보여줘야 하는 것이네. 그러니… 다들 바로 시작해주게.",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "이건 우리가 그들에게 마땅히 보여줘야 하는 것이네. 그러니… 다들 바로 시작해주게."
+    },
+    {
+        "id": 169,
+        "raw": "[name=\"웨이 옌우\"]  첸 팀장, 리유니온에게 용문의 손님 대접이 어떤 것인지 똑똑히 알려주도록.",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "첸 팀장, 리유니온에게 용문의 손님 대접이 어떤 것인지 똑똑히 알려주도록."
+    },
+    {
+        "id": 170,
+        "raw": "[playsound(key=\"$d_gen_transmissionget\", volume=0.4)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_transmissionget.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 171,
+        "raw": "[CharacterCutin(widgetID=\"1\", name=\"char_010_chen_1#1\", style=\"cutin\", fadestyle= \"horiz_expand_center\", fadetime=0.5, offsetx=-300, width=200, block=true)]",
+        "type": "character_cutin",
+        "widgetID": "1",
+        "name": "char_010_chen_1#1",
+        "style": "cutin",
+        "fadetime": "0.5,",
+        "offsetx": "-300,",
+        "width": "200,",
+        "block": true
+    },
+    {
+        "id": 172,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_2005_weiyw_1\",focus=1)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_2005_weiyw_1",
+        "focus": 1
+    },
+    {
+        "id": 173,
+        "raw": "[name=\"첸\"]  알겠습니다.",
+        "type": "dialog",
+        "speaker": "첸",
+        "content": "알겠습니다."
+    },
+    {
+        "id": 174,
+        "raw": "[name=\"첸\"]  장관님, 한 가지 질문이 있습니다. 지금 당장 답해주시지 않아도 좋으니, 일이 끝난 후에라도 제게 의견을 주셨으면 합니다.",
+        "type": "dialog",
+        "speaker": "첸",
+        "content": "장관님, 한 가지 질문이 있습니다. 지금 당장 답해주시지 않아도 좋으니, 일이 끝난 후에라도 제게 의견을 주셨으면 합니다."
+    },
+    {
+        "id": 175,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_2005_weiyw_1\",focus=2)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_2005_weiyw_1",
+        "focus": 2
+    },
+    {
+        "id": 176,
+        "raw": "[name=\"웨이 옌우\"]  물어보도록.",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "물어보도록."
+    },
+    {
+        "id": 177,
+        "raw": "[Character(name=\"char_empty\",name2=\"char_2005_weiyw_1\",focus=1)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "char_2005_weiyw_1",
+        "focus": 1
+    },
+    {
+        "id": 178,
+        "raw": "[name=\"첸\"]  이건 리유니온 총공격이 분명한데, 왜 그들의 지도자인 탈룰라는 용문에 나타나지 않았던 걸까요?",
+        "type": "dialog",
+        "speaker": "첸",
+        "content": "이건 리유니온 총공격이 분명한데, 왜 그들의 지도자인 탈룰라는 용문에 나타나지 않았던 걸까요?"
+    },
+    {
+        "id": 179,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 180,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 181,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 182,
+        "raw": "[CharacterCutin(widgetID=\"1\",fadetime=0.5,block=true)]",
+        "type": "character_cutin",
+        "widgetID": "1",
+        "fadetime": "0.5,block=true"
+    },
+    {
+        "id": 183,
+        "raw": "[Blocker(a=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 184,
+        "raw": "[Character(name=\"char_2005_weiyw_1\",fadetime=1,block=true)]",
+        "type": "character",
+        "name": "char_2005_weiyw_1",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 185,
+        "raw": "[name=\"웨이 옌우\"]  음…",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "음…"
+    },
+    {
+        "id": 186,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3"
+    },
+    {
+        "id": 187,
+        "raw": "[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=1)]",
+        "type": "character",
+        "name": "char_2006_weiywfmzuki_1",
+        "name2": "char_2005_weiyw_1",
+        "focus": 1
+    },
+    {
+        "id": 188,
+        "raw": "[name=\"후미즈키\"]  일은 순조롭게 진행되고 있던 것 아니었나요? 왜 그렇게 심각한 표정을 하고 계신 건지?",
+        "type": "dialog",
+        "speaker": "후미즈키",
+        "content": "일은 순조롭게 진행되고 있던 것 아니었나요? 왜 그렇게 심각한 표정을 하고 계신 건지?"
+    },
+    {
+        "id": 189,
+        "raw": "[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=2)]",
+        "type": "character",
+        "name": "char_2006_weiywfmzuki_1",
+        "name2": "char_2005_weiyw_1",
+        "focus": 2
+    },
+    {
+        "id": 190,
+        "raw": "[name=\"웨이 옌우\"]  우르수스 쪽은 여전히 아무런 답이 없나?",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "우르수스 쪽은 여전히 아무런 답이 없나?"
+    },
+    {
+        "id": 191,
+        "raw": "[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=1)]",
+        "type": "character",
+        "name": "char_2006_weiywfmzuki_1",
+        "name2": "char_2005_weiyw_1",
+        "focus": 1
+    },
+    {
+        "id": 192,
+        "raw": "[name=\"후미즈키\"]  아직 없었답니다.",
+        "type": "dialog",
+        "speaker": "후미즈키",
+        "content": "아직 없었답니다."
+    },
+    {
+        "id": 193,
+        "raw": "[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=2)]",
+        "type": "character",
+        "name": "char_2006_weiywfmzuki_1",
+        "name2": "char_2005_weiyw_1",
+        "focus": 2
+    },
+    {
+        "id": 194,
+        "raw": "[name=\"웨이 옌우\"]  여전히 위트 의장과는 연락이 안 되고?",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "여전히 위트 의장과는 연락이 안 되고?"
+    },
+    {
+        "id": 195,
+        "raw": "[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=1)]",
+        "type": "character",
+        "name": "char_2006_weiywfmzuki_1",
+        "name2": "char_2005_weiyw_1",
+        "focus": 1
+    },
+    {
+        "id": 196,
+        "raw": "[name=\"후미즈키\"]  아쉽게도, 전달자도 아직 만나지도 못했다고 하더군요.",
+        "type": "dialog",
+        "speaker": "후미즈키",
+        "content": "아쉽게도, 전달자도 아직 만나지도 못했다고 하더군요."
+    },
+    {
+        "id": 197,
+        "raw": "[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=2)]",
+        "type": "character",
+        "name": "char_2006_weiywfmzuki_1",
+        "name2": "char_2005_weiyw_1",
+        "focus": 2
+    },
+    {
+        "id": 198,
+        "raw": "[name=\"웨이 옌우\"]  아무래도 우르수스 제국 전체에 뭔가 수상한 기운이 감도는 것 같아……",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "아무래도 우르수스 제국 전체에 뭔가 수상한 기운이 감도는 것 같아……"
+    },
+    {
+        "id": 199,
+        "raw": "[name=\"웨이 옌우\"]  후미즈키, 어쩌면 이 모든 건, 그저 하나의 시작일 뿐이라는 느낌이 든다.",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "후미즈키, 어쩌면 이 모든 건, 그저 하나의 시작일 뿐이라는 느낌이 든다."
+    },
+    {
+        "id": 200,
+        "raw": "[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=1)]",
+        "type": "character",
+        "name": "char_2006_weiywfmzuki_1",
+        "name2": "char_2005_weiyw_1",
+        "focus": 1
+    },
+    {
+        "id": 201,
+        "raw": "[name=\"후미즈키\"]  지난번에도 그러시더니. 몇 년 전에도 그런 얘길 하셨지요.",
+        "type": "dialog",
+        "speaker": "후미즈키",
+        "content": "지난번에도 그러시더니. 몇 년 전에도 그런 얘길 하셨지요."
+    },
+    {
+        "id": 202,
+        "raw": "[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=2)]",
+        "type": "character",
+        "name": "char_2006_weiywfmzuki_1",
+        "name2": "char_2005_weiyw_1",
+        "focus": 2
+    },
+    {
+        "id": 203,
+        "raw": "[name=\"웨이 옌우\"]  그게 언제였지? 내가 왜 그런 얘길 했는지 까먹었어.",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "그게 언제였지? 내가 왜 그런 얘길 했는지 까먹었어."
+    },
+    {
+        "id": 204,
+        "raw": "[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=1)]",
+        "type": "character",
+        "name": "char_2006_weiywfmzuki_1",
+        "name2": "char_2005_weiyw_1",
+        "focus": 1
+    },
+    {
+        "id": 205,
+        "raw": "[name=\"후미즈키\"]  우리가 만난지 얼마 되지 않았을 때였죠. 설마 우리 사이의 과거도 전부 잊은 건 아니겠죠?",
+        "type": "dialog",
+        "speaker": "후미즈키",
+        "content": "우리가 만난지 얼마 되지 않았을 때였죠. 설마 우리 사이의 과거도 전부 잊은 건 아니겠죠?"
+    },
+    {
+        "id": 206,
+        "raw": "[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=2)]",
+        "type": "character",
+        "name": "char_2006_weiywfmzuki_1",
+        "name2": "char_2005_weiyw_1",
+        "focus": 2
+    },
+    {
+        "id": 207,
+        "raw": "[name=\"웨이 옌우\"]  무, 물론 아니지. 내가 감히 그럴 리가 있나. 다만 당신과 만난 것 외에는 잘 기억이 안 나서 그래.",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "무, 물론 아니지. 내가 감히 그럴 리가 있나. 다만 당신과 만난 것 외에는 잘 기억이 안 나서 그래."
+    },
+    {
+        "id": 208,
+        "raw": "[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=1)]",
+        "type": "character",
+        "name": "char_2006_weiywfmzuki_1",
+        "name2": "char_2005_weiyw_1",
+        "focus": 1
+    },
+    {
+        "id": 209,
+        "raw": "[name=\"후미즈키\"]  하여튼 말솜씨 하나만큼은 여전하시다니까. 아쉽지만 이 일은 당신이 잊을 리 없을 거예요.",
+        "type": "dialog",
+        "speaker": "후미즈키",
+        "content": "하여튼 말솜씨 하나만큼은 여전하시다니까. 아쉽지만 이 일은 당신이 잊을 리 없을 거예요."
+    },
+    {
+        "id": 210,
+        "raw": "[name=\"후미즈키\"]  당신이 저한테 그랬었죠. 만약 20년 전에 우리가 졌다면, 이 도시는 이름을 바꾸고 우르수스 정복사의 또 다른 한 줄로 기록되었을 거라고.",
+        "type": "dialog",
+        "speaker": "후미즈키",
+        "content": "당신이 저한테 그랬었죠. 만약 20년 전에 우리가 졌다면, 이 도시는 이름을 바꾸고 우르수스 정복사의 또 다른 한 줄로 기록되었을 거라고."
+    },
+    {
+        "id": 211,
+        "raw": "[name=\"후미즈키\"]  만약 우리가 졌다면, 지금 그 자리에 앉은 건 당신이 아니라 그 사람이었겠죠.",
+        "type": "dialog",
+        "speaker": "후미즈키",
+        "content": "만약 우리가 졌다면, 지금 그 자리에 앉은 건 당신이 아니라 그 사람이었겠죠."
+    },
+    {
+        "id": 212,
+        "raw": "[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=2)]",
+        "type": "character",
+        "name": "char_2006_weiywfmzuki_1",
+        "name2": "char_2005_weiyw_1",
+        "focus": 2
+    },
+    {
+        "id": 213,
+        "raw": "[name=\"웨이 옌우\"]  ……",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "……"
+    },
+    {
+        "id": 214,
+        "raw": "[name=\"웨이 옌우\"]  카셰이 공작.",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "카셰이 공작."
+    },
+    {
+        "id": 215,
+        "raw": "[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=1)]",
+        "type": "character",
+        "name": "char_2006_weiywfmzuki_1",
+        "name2": "char_2005_weiyw_1",
+        "focus": 1
+    },
+    {
+        "id": 216,
+        "raw": "[name=\"후미즈키\"]  탈루 그 아이도 참 불쌍한 것 같아요… 그 아이에게선 왠지 그 사람의 모습이 느껴지지 않나요?",
+        "type": "dialog",
+        "speaker": "후미즈키",
+        "content": "탈루 그 아이도 참 불쌍한 것 같아요… 그 아이에게선 왠지 그 사람의 모습이 느껴지지 않나요?"
+    },
+    {
+        "id": 217,
+        "raw": "[Character(name=\"char_2006_weiywfmzuki_1\",name2=\"char_2005_weiyw_1\",focus=2)]",
+        "type": "character",
+        "name": "char_2006_weiywfmzuki_1",
+        "name2": "char_2005_weiyw_1",
+        "focus": 2
+    },
+    {
+        "id": 218,
+        "raw": "[name=\"웨이 옌우\"]  하지만 그는 이미 죽었다.",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "하지만 그는 이미 죽었다."
+    },
+    {
+        "id": 219,
+        "raw": "[name=\"웨이 옌우\"]  탈룰라의 손에 살해당했지.",
+        "type": "dialog",
+        "speaker": "웨이 옌우",
+        "content": "탈룰라의 손에 살해당했지."
+    },
+    {
+        "id": 220,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 221,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 222,
+        "raw": "[Background]",
+        "type": "background"
+    },
+    {
+        "id": 223,
+        "raw": "[Character(fadetime=0)]",
+        "type": "character",
+        "fadetime": 0
+    },
+    {
+        "id": 224,
+        "raw": "[Image(image=\"avg_ep05\",x=0, y=0, xScale=1, yScale=1, fadetime=0, screenadapt=\"coverall\")]",
+        "type": "image",
+        "image": "avg_ep05.png",
+        "x": "0,",
+        "y": "0,",
+        "xScale": "1,",
+        "yScale": "1,",
+        "fadetime": "0,",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 225,
+        "raw": "[Blocker(a=0, fadetime=3, block=false)]",
+        "type": "blocker",
+        "a": "0,",
+        "fadetime": "3,",
+        "block": false
+    },
+    {
+        "id": 226,
+        "raw": "[delay(time=5)]",
+        "type": "delay",
+        "time": 5
+    },
+    {
+        "id": 227,
+        "raw": "[Image(fadetime=2)]",
+        "type": "image",
+        "fadetime": 2
+    },
+    {
+        "id": 228,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 229,
+        "raw": "[Blocker(fadetime=2,block=true)]",
+        "type": "blocker",
+        "fadetime": "2,block=true"
+    },
+    {
+        "id": 230,
+        "raw": "[Image]",
+        "type": "image"
+    }
+]

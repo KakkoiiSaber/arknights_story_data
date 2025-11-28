@@ -1,0 +1,4783 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")]",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK"
+    },
+    {
+        "id": 2,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 3,
+        "raw": "[stopmusic]",
+        "type": "stop_music"
+    },
+    {
+        "id": 4,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 5,
+        "raw": "[Background(image=\"27_g10_lightinduarea_street_n\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "27_g10_lightinduarea_street_n.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 6,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 7,
+        "raw": "[playMusic(intro=\"$nervous_intro\", key=\"$nervous_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act9d0d0/m_avg_nervous_intro.mp3",
+        "key": "sound_beta_2/music/act9d0d0/m_avg_nervous_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 8,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 9,
+        "raw": "[character(name=\"avg_npc_394_1#2$1\",fadetime=1.5)]",
+        "type": "character",
+        "name": "avg_npc_394_1#2$1",
+        "fadetime": 1.5
+    },
+    {
+        "id": 10,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 11,
+        "raw": "[name=\"아미야\"]이상하네요, 박사님. 분명 살카즈 병사들을 따돌렸는데……",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "이상하네요, 박사님. 분명 살카즈 병사들을 따돌렸는데……"
+    },
+    {
+        "id": 12,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 13,
+        "raw": "[character(name=\"avg_npc_394_1#2$1\", focus=-1)]",
+        "type": "character",
+        "name": "avg_npc_394_1#2$1",
+        "focus": -1
+    },
+    {
+        "id": 14,
+        "raw": "[Decision(options=\"하지만 계속해서 쫓아오고 있지.;마치 우리 위치를 알고 있는 것처럼.\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "하지만 계속해서 쫓아오고 있지.;마치 우리 위치를 알고 있는 것처럼.",
+        "values": "1;2"
+    },
+    {
+        "id": 15,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 16,
+        "raw": "[character(name=\"avg_npc_394_1#5$1\")]",
+        "type": "character",
+        "name": "avg_npc_394_1#5$1"
+    },
+    {
+        "id": 17,
+        "raw": "[name=\"아미야\"]클로저 씨, 혹시 우리의 통신 신호가 추적당하고 있나요?",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "클로저 씨, 혹시 우리의 통신 신호가 추적당하고 있나요?"
+    },
+    {
+        "id": 18,
+        "raw": "[character(name=\"avg_npc_411_1#5$1\")]",
+        "type": "character",
+        "name": "avg_npc_411_1#5$1"
+    },
+    {
+        "id": 19,
+        "raw": "[name=\"클로저\"]말도 안 돼, 아미야! 내가 특별히 삼중 암호화 처리를 했는데. 만약 살카즈에게 정말 그런 기술이 있다면, 로도스 아일랜드는 테레시스에게 백 번 공격당하고도 남았을 거야!",
+        "type": "dialog",
+        "speaker": "클로저",
+        "content": "말도 안 돼, 아미야! 내가 특별히 삼중 암호화 처리를 했는데. 만약 살카즈에게 정말 그런 기술이 있다면, 로도스 아일랜드는 테레시스에게 백 번 공격당하고도 남았을 거야!"
+    },
+    {
+        "id": 20,
+        "raw": "[character(name=\"avg_npc_394_1#2$1\")]",
+        "type": "character",
+        "name": "avg_npc_394_1#2$1"
+    },
+    {
+        "id": 21,
+        "raw": "[name=\"아미야\"]……박사님, 전 클로저 씨를 믿어요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "……박사님, 전 클로저 씨를 믿어요."
+    },
+    {
+        "id": 22,
+        "raw": "[name=\"아미야\"]분명 무슨 수법을 쓴 게 틀림없어요……",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "분명 무슨 수법을 쓴 게 틀림없어요……"
+    },
+    {
+        "id": 23,
+        "raw": "[character(name=\"avg_npc_402_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_402_1#1$1"
+    },
+    {
+        "id": 24,
+        "raw": "[name=\"피스트\"]아미야 씨, 이제 곧 도착한다!",
+        "type": "dialog",
+        "speaker": "피스트",
+        "content": "아미야 씨, 이제 곧 도착한다!"
+    },
+    {
+        "id": 25,
+        "raw": "[name=\"피스트\"]6팀과 합류하면 바로 지하에서 대기 중인 부대와 연락을 취할 수 있어. 지하에 들어가면 살카즈가 더 이상 따라올 수 없을 거야……",
+        "type": "dialog",
+        "speaker": "피스트",
+        "content": "6팀과 합류하면 바로 지하에서 대기 중인 부대와 연락을 취할 수 있어. 지하에 들어가면 살카즈가 더 이상 따라올 수 없을 거야……"
+    },
+    {
+        "id": 26,
+        "raw": "[character(name=\"avg_npc_407_1#2$1\")]",
+        "type": "character",
+        "name": "avg_npc_407_1#2$1"
+    },
+    {
+        "id": 27,
+        "raw": "[name=\"시즈\"]……아니, 그 길을 가지 마.",
+        "type": "dialog",
+        "speaker": "시즈",
+        "content": "……아니, 그 길을 가지 마."
+    },
+    {
+        "id": 28,
+        "raw": "[character(name=\"avg_npc_402_1#11$1\")]",
+        "type": "character",
+        "name": "avg_npc_402_1#11$1"
+    },
+    {
+        "id": 29,
+        "raw": "[name=\"피스트\"]어? 어째서…… 잠깐, 시즈 씨? 너희들이 왜 여기에?",
+        "type": "dialog",
+        "speaker": "피스트",
+        "content": "어? 어째서…… 잠깐, 시즈 씨? 너희들이 왜 여기에?"
+    },
+    {
+        "id": 30,
+        "raw": "[name=\"피스트\"]지하에 있어야 하는 게 아닌가……",
+        "type": "dialog",
+        "speaker": "피스트",
+        "content": "지하에 있어야 하는 게 아닌가……"
+    },
+    {
+        "id": 31,
+        "raw": "[character(name=\"avg_npc_407_1#2$1\")]",
+        "type": "character",
+        "name": "avg_npc_407_1#2$1"
+    },
+    {
+        "id": 32,
+        "raw": "[name=\"시즈\"]……",
+        "type": "dialog",
+        "speaker": "시즈",
+        "content": "……"
+    },
+    {
+        "id": 33,
+        "raw": "[name=\"시즈\"]6팀은……",
+        "type": "dialog",
+        "speaker": "시즈",
+        "content": "6팀은……"
+    },
+    {
+        "id": 34,
+        "raw": "[character(name=\"avg_npc_402_1#2$1\")]",
+        "type": "character",
+        "name": "avg_npc_402_1#2$1"
+    },
+    {
+        "id": 35,
+        "raw": "[name=\"피스트\"]6팀이 왜? 표정이 왜 그래…… 앗, 인드라 씨, 손에서 피가?!",
+        "type": "dialog",
+        "speaker": "피스트",
+        "content": "6팀이 왜? 표정이 왜 그래…… 앗, 인드라 씨, 손에서 피가?!"
+    },
+    {
+        "id": 36,
+        "raw": "[character(name=\"avg_155_tiger_1#2$1\")]",
+        "type": "character",
+        "name": "avg_155_tiger_1#2$1"
+    },
+    {
+        "id": 37,
+        "raw": "[name=\"인드라\"]너희 전사들은…… 모두 희생했어.",
+        "type": "dialog",
+        "speaker": "인드라",
+        "content": "너희 전사들은…… 모두 희생했어."
+    },
+    {
+        "id": 38,
+        "raw": "[character(name=\"avg_npc_402_1#2$1\")]",
+        "type": "character",
+        "name": "avg_npc_402_1#2$1"
+    },
+    {
+        "id": 39,
+        "raw": "[name=\"피스트\"]마…… 말도 안 돼! 6팀이 바로 우리 앞에 있는데, 그들이 살카즈를 부딪칠 리가 없잖아?",
+        "type": "dialog",
+        "speaker": "피스트",
+        "content": "마…… 말도 안 돼! 6팀이 바로 우리 앞에 있는데, 그들이 살카즈를 부딪칠 리가 없잖아?"
+    },
+    {
+        "id": 40,
+        "raw": "[character(name=\"avg_npc_407_1#6$1\")]",
+        "type": "character",
+        "name": "avg_npc_407_1#6$1"
+    },
+    {
+        "id": 41,
+        "raw": "[name=\"시즈\"]지금 원인 분석할 시간이 없어.",
+        "type": "dialog",
+        "speaker": "시즈",
+        "content": "지금 원인 분석할 시간이 없어."
+    },
+    {
+        "id": 42,
+        "raw": "[name=\"시즈\"]박사, 6팀 전사들이…… 우리가 봤던 살카즈 추격병에게 죽은 것 같지는 않아.",
+        "type": "dialog",
+        "speaker": "시즈",
+        "content": "박사, 6팀 전사들이…… 우리가 봤던 살카즈 추격병에게 죽은 것 같지는 않아."
+    },
+    {
+        "id": 43,
+        "raw": "[character(name=\"avg_npc_394_1#5$1\")]",
+        "type": "character",
+        "name": "avg_npc_394_1#5$1"
+    },
+    {
+        "id": 44,
+        "raw": "[name=\"아미야\"]그게 무슨……",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "그게 무슨……"
+    },
+    {
+        "id": 45,
+        "raw": "[character(name=\"avg_155_tiger_1#2$1\", name2=\"avg_npc_407_1#1$1\", focus=2)]",
+        "type": "character",
+        "name": "avg_155_tiger_1#2$1",
+        "name2": "avg_npc_407_1#1$1",
+        "focus": 2
+    },
+    {
+        "id": 46,
+        "raw": "[name=\"시즈\"]6팀이 마주친 건 아마 무시무시한 오리지늄 아츠일 거야. 그 현장은 마치…… 도살장 같았어. 대부분 전사들은 무기조차 뽑지 못했고.",
+        "type": "dialog",
+        "speaker": "시즈",
+        "content": "6팀이 마주친 건 아마 무시무시한 오리지늄 아츠일 거야. 그 현장은 마치…… 도살장 같았어. 대부분 전사들은 무기조차 뽑지 못했고."
+    },
+    {
+        "id": 47,
+        "raw": "[character(name=\"avg_155_tiger_1#5$1\", name2=\"avg_npc_407_1#1$1\", focus=1)]",
+        "type": "character",
+        "name": "avg_155_tiger_1#5$1",
+        "name2": "avg_npc_407_1#1$1",
+        "focus": 1
+    },
+    {
+        "id": 48,
+        "raw": "[name=\"인드라\"]그게 정말 오리지늄 아츠 맞아?",
+        "type": "dialog",
+        "speaker": "인드라",
+        "content": "그게 정말 오리지늄 아츠 맞아?"
+    },
+    {
+        "id": 49,
+        "raw": "[name=\"인드라\"]믿을 수가 없어!",
+        "type": "dialog",
+        "speaker": "인드라",
+        "content": "믿을 수가 없어!"
+    },
+    {
+        "id": 50,
+        "raw": "[name=\"인드라\"]새빨간 벌레 같은 게 전사들의 가슴을 찢어발겼어. 비나, 너도 봤잖아. 그건 괴물 그 자체였다고!",
+        "type": "dialog",
+        "speaker": "인드라",
+        "content": "새빨간 벌레 같은 게 전사들의 가슴을 찢어발겼어. 비나, 너도 봤잖아. 그건 괴물 그 자체였다고!"
+    },
+    {
+        "id": 51,
+        "raw": "[character(name=\"avg_155_tiger_1#5$1\", name2=\"avg_npc_407_1#9$1\", focus=2)]",
+        "type": "character",
+        "name": "avg_155_tiger_1#5$1",
+        "name2": "avg_npc_407_1#9$1",
+        "focus": 2
+    },
+    {
+        "id": 52,
+        "raw": "[name=\"시즈\"]……",
+        "type": "dialog",
+        "speaker": "시즈",
+        "content": "……"
+    },
+    {
+        "id": 53,
+        "raw": "[character(name=\"avg_npc_394_1#7$1\")]",
+        "type": "character",
+        "name": "avg_npc_394_1#7$1"
+    },
+    {
+        "id": 54,
+        "raw": "[name=\"아미야\"]……평범한 살카즈가 아니었군요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "……평범한 살카즈가 아니었군요."
+    },
+    {
+        "id": 55,
+        "raw": "[name=\"아미야\"]다른 루트를 찾아봐야겠네요. 피스트 씨, 다른 루트가 있나요?",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "다른 루트를 찾아봐야겠네요. 피스트 씨, 다른 루트가 있나요?"
+    },
+    {
+        "id": 56,
+        "raw": "[character(name=\"avg_npc_402_1#5$1\")]",
+        "type": "character",
+        "name": "avg_npc_402_1#5$1"
+    },
+    {
+        "id": 57,
+        "raw": "[name=\"피스트\"]있기는 하지만, 그쪽엔 우리 사람이 없어. 만약 살카즈를 마주친다면……",
+        "type": "dialog",
+        "speaker": "피스트",
+        "content": "있기는 하지만, 그쪽엔 우리 사람이 없어. 만약 살카즈를 마주친다면……"
+    },
+    {
+        "id": 58,
+        "raw": "[character(name=\"avg_npc_407_1#9$1\")]",
+        "type": "character",
+        "name": "avg_npc_407_1#9$1"
+    },
+    {
+        "id": 59,
+        "raw": "[name=\"시즈\"]또 고전을 면치 못하겠지.",
+        "type": "dialog",
+        "speaker": "시즈",
+        "content": "또 고전을 면치 못하겠지."
+    },
+    {
+        "id": 60,
+        "raw": "[stopmusic(fadetime=1)]",
+        "type": "stop_music",
+        "fadetime": 1
+    },
+    {
+        "id": 61,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 62,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 63,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 64,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 65,
+        "raw": "[Background(image=\"27_g8_jail\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "27_g8_jail.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 66,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 67,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 68,
+        "raw": "[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "ystrength": "40,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 69,
+        "raw": "[PlaySound(key=\"$d_gen_explo_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_explo_n.mp3"
+    },
+    {
+        "id": 70,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 71,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.05,",
+        "block": true
+    },
+    {
+        "id": 72,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0.05, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.05,",
+        "block": true
+    },
+    {
+        "id": 73,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.05,",
+        "block": true
+    },
+    {
+        "id": 74,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 75,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 76,
+        "raw": "[delay(time=2.5)]",
+        "type": "delay",
+        "time": 2.5
+    },
+    {
+        "id": 77,
+        "raw": "[character(name=\"avg_4039_horn_1#8$1\",fadetime=1.5)]",
+        "type": "character",
+        "name": "avg_4039_horn_1#8$1",
+        "fadetime": 1.5
+    },
+    {
+        "id": 78,
+        "raw": "[PlayMusic(intro=\"$exciting_intro\", key=\"$exciting_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act9d0d0/m_avg_exciting02_intro.mp3",
+        "key": "sound_beta_2/music/act9d0d0/m_avg_exciting02_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 79,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 80,
+        "raw": "[name=\"혼\"]엄폐해!",
+        "type": "dialog",
+        "speaker": "혼",
+        "content": "엄폐해!"
+    },
+    {
+        "id": 81,
+        "raw": "[character(name=\"avg_npc_413_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_413_1#1$1"
+    },
+    {
+        "id": 82,
+        "raw": "[name=\"로벤\"]혼 중위님, 대체 이게 뭡니까?!",
+        "type": "dialog",
+        "speaker": "로벤",
+        "content": "혼 중위님, 대체 이게 뭡니까?!"
+    },
+    {
+        "id": 83,
+        "raw": "[name=\"로벤\"]이 살카즈가 폭탄이라도 던졌습니까? 분명 아무것도 보이지 않았는데……",
+        "type": "dialog",
+        "speaker": "로벤",
+        "content": "이 살카즈가 폭탄이라도 던졌습니까? 분명 아무것도 보이지 않았는데……"
+    },
+    {
+        "id": 84,
+        "raw": "[character(name=\"avg_4039_horn_1#8$1\")]",
+        "type": "character",
+        "name": "avg_4039_horn_1#8$1"
+    },
+    {
+        "id": 85,
+        "raw": "[name=\"혼\"]……오리지늄 아츠다.",
+        "type": "dialog",
+        "speaker": "혼",
+        "content": "……오리지늄 아츠다."
+    },
+    {
+        "id": 86,
+        "raw": "[name=\"혼\"]위를 조심해!",
+        "type": "dialog",
+        "speaker": "혼",
+        "content": "위를 조심해!"
+    },
+    {
+        "id": 87,
+        "raw": "[character(name=\"avg_npc_413_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_413_1#1$1"
+    },
+    {
+        "id": 88,
+        "raw": "[name=\"로벤\"]봐, 봤어요…… 핏빛의 무언가가 갑자기 허공을 가로질렀어요!",
+        "type": "dialog",
+        "speaker": "로벤",
+        "content": "봐, 봤어요…… 핏빛의 무언가가 갑자기 허공을 가로질렀어요!"
+    },
+    {
+        "id": 89,
+        "raw": "[character(name=\"avg_4039_horn_1#8$1\")]",
+        "type": "character",
+        "name": "avg_4039_horn_1#8$1"
+    },
+    {
+        "id": 90,
+        "raw": "[name=\"혼\"]후퇴해!",
+        "type": "dialog",
+        "speaker": "혼",
+        "content": "후퇴해!"
+    },
+    {
+        "id": 91,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 92,
+        "raw": "[CameraShake(duration=1, xstrength=50, ystrength=50, vibrato=60, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "xstrength": "50,",
+        "ystrength": "50,",
+        "vibrato": "60,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 93,
+        "raw": "[PlaySound(key=\"$p_atk_lasergun_n\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/player/p_atk/p_atk_lasergun_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 94,
+        "raw": "[PlaySound(key=\"$b_char_rockexplo\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/battle/b_char/b_char_rockexplo.mp3",
+        "volume": 1
+    },
+    {
+        "id": 95,
+        "raw": "[PlaySound(key=\"$d_avg_rockfall\", volume=0.6)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_rockfall.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 96,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 97,
+        "raw": "[character(name=\"avg_npc_413_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_413_1#1$1"
+    },
+    {
+        "id": 98,
+        "raw": "[name=\"로벤\"]이 천둥 같은 게, 설마 오리지늄 아츠란 말입니까?!",
+        "type": "dialog",
+        "speaker": "로벤",
+        "content": "이 천둥 같은 게, 설마 오리지늄 아츠란 말입니까?!"
+    },
+    {
+        "id": 99,
+        "raw": "[name=\"로벤\"]무서운 마족 놈들……!",
+        "type": "dialog",
+        "speaker": "로벤",
+        "content": "무서운 마족 놈들……!"
+    },
+    {
+        "id": 100,
+        "raw": "[character(name=\"avg_npc_404_1#2$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#2$1"
+    },
+    {
+        "id": 101,
+        "raw": "[name=\"맨프레드\"]안 나오는가?",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "안 나오는가?"
+    },
+    {
+        "id": 102,
+        "raw": "[name=\"맨프레드\"]땅에서 굴러다니는 게 설마 네가 말하는 전투는 아니겠지, 화이트 울프?",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "땅에서 굴러다니는 게 설마 네가 말하는 전투는 아니겠지, 화이트 울프?"
+    },
+    {
+        "id": 103,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 104,
+        "raw": "[PlaySound(key=\"$e_atk_circleatk_h\", volume=0.6)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_atk/e_atk_circleatk_h.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 105,
+        "raw": "[Blocker(a=0.7, r=0.95, g=0.2, b=0.2, fadetime=0.1, block=true)]",
+        "type": "blocker",
+        "a": "0.7,",
+        "r": "0.95,",
+        "g": "0.2,",
+        "b": "0.2,",
+        "fadetime": "0.1,",
+        "block": true
+    },
+    {
+        "id": 106,
+        "raw": "[PlaySound(key=\"$e_atk_circleatk_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_atk/e_atk_circleatk_n.mp3"
+    },
+    {
+        "id": 107,
+        "raw": "[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0.95,",
+        "g": "0.95,",
+        "b": "0.95,",
+        "fadetime": "0.25,",
+        "block": true
+    },
+    {
+        "id": 108,
+        "raw": "[CameraShake(duration=0.4, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=true)]",
+        "type": "camera_shake",
+        "duration": "0.4,",
+        "xstrength": "20,",
+        "ystrength": "20,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": true
+    },
+    {
+        "id": 109,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 110,
+        "raw": "[character(name=\"avg_npc_413_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_413_1#1$1"
+    },
+    {
+        "id": 111,
+        "raw": "[name=\"로벤\"]한 번에 핏빛 줄기가 다섯 갈래나?",
+        "type": "dialog",
+        "speaker": "로벤",
+        "content": "한 번에 핏빛 줄기가 다섯 갈래나?"
+    },
+    {
+        "id": 112,
+        "raw": "[name=\"로벤\"]혼 중위님, 전혀 기회가……",
+        "type": "dialog",
+        "speaker": "로벤",
+        "content": "혼 중위님, 전혀 기회가……"
+    },
+    {
+        "id": 113,
+        "raw": "[character(name=\"avg_4039_horn_1#2$1\")]",
+        "type": "character",
+        "name": "avg_4039_horn_1#2$1"
+    },
+    {
+        "id": 114,
+        "raw": "[name=\"혼\"]아니.",
+        "type": "dialog",
+        "speaker": "혼",
+        "content": "아니."
+    },
+    {
+        "id": 115,
+        "raw": "[name=\"혼\"]오리지늄 아츠가 아무리 강해봤자…… 상대는 한 명뿐이야.",
+        "type": "dialog",
+        "speaker": "혼",
+        "content": "오리지늄 아츠가 아무리 강해봤자…… 상대는 한 명뿐이야."
+    },
+    {
+        "id": 116,
+        "raw": "[name=\"혼\"]과거의 빅토리아인들은 어떻게 번번이 살카즈와의 싸움을 이겨냈다고 생각해?",
+        "type": "dialog",
+        "speaker": "혼",
+        "content": "과거의 빅토리아인들은 어떻게 번번이 살카즈와의 싸움을 이겨냈다고 생각해?"
+    },
+    {
+        "id": 117,
+        "raw": "[character(name=\"avg_npc_413_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_413_1#1$1"
+    },
+    {
+        "id": 118,
+        "raw": "[name=\"로벤\"]혼 중위님……",
+        "type": "dialog",
+        "speaker": "로벤",
+        "content": "혼 중위님……"
+    },
+    {
+        "id": 119,
+        "raw": "[character(name=\"avg_4039_horn_1#7$1\")]",
+        "type": "character",
+        "name": "avg_4039_horn_1#7$1"
+    },
+    {
+        "id": 120,
+        "raw": "[name=\"혼\"]석궁 화살이 얼마나 남았어?",
+        "type": "dialog",
+        "speaker": "혼",
+        "content": "석궁 화살이 얼마나 남았어?"
+    },
+    {
+        "id": 121,
+        "raw": "[name=\"혼\"]날 엄호해.",
+        "type": "dialog",
+        "speaker": "혼",
+        "content": "날 엄호해."
+    },
+    {
+        "id": 122,
+        "raw": "[character(name=\"avg_npc_413_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_413_1#1$1"
+    },
+    {
+        "id": 123,
+        "raw": "[name=\"로벤\"]알겠습니다!",
+        "type": "dialog",
+        "speaker": "로벤",
+        "content": "알겠습니다!"
+    },
+    {
+        "id": 124,
+        "raw": "[character(name=\"avg_npc_404_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#1$1"
+    },
+    {
+        "id": 125,
+        "raw": "[name=\"맨프레드\"]하찮은 저항이다……",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "하찮은 저항이다……"
+    },
+    {
+        "id": 126,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 127,
+        "raw": "[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]",
+        "type": "blocker",
+        "a": "0.7,",
+        "r": "0.95,",
+        "g": "0.95,",
+        "b": "0.95,",
+        "fadetime": "0.02,",
+        "block": true
+    },
+    {
+        "id": 128,
+        "raw": "[PlaySound(key=\"$d_sp_ballista\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_sp_ballista.mp3"
+    },
+    {
+        "id": 129,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.25, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.25,",
+        "block": true
+    },
+    {
+        "id": 130,
+        "raw": "[CameraShake(duration=0.4, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=true)]",
+        "type": "camera_shake",
+        "duration": "0.4,",
+        "xstrength": "20,",
+        "ystrength": "20,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": true
+    },
+    {
+        "id": 131,
+        "raw": "[delay(time=1)] ",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 132,
+        "raw": "[character]",
+        "type": "character"
+    },
+    {
+        "id": 133,
+        "raw": "[character(name=\"avg_4039_horn_1#7$1\",fadetime=0.5)]",
+        "type": "character",
+        "name": "avg_4039_horn_1#7$1",
+        "fadetime": 0.5
+    },
+    {
+        "id": 134,
+        "raw": "[characteraction(name=\"middle\", type=\"move\", xpos=-100, fadetime=0.5, block=true)]",
+        "type": "move",
+        "name": "middle",
+        "xpos": "-100,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 135,
+        "raw": "[name=\"혼\"]……지금이다!",
+        "type": "dialog",
+        "speaker": "혼",
+        "content": "……지금이다!"
+    },
+    {
+        "id": 136,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 137,
+        "raw": "[PlaySound(key=\"$rungeneral\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_rungeneral.mp3",
+        "volume": 1
+    },
+    {
+        "id": 138,
+        "raw": "[characteraction(name=\"middle\", type=\"move\", xpos=-200, fadetime=0.5, block=true)]",
+        "type": "move",
+        "name": "middle",
+        "xpos": "-200,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 139,
+        "raw": "[character(fadetime=0.5)]",
+        "type": "character",
+        "fadetime": 0.5
+    },
+    {
+        "id": 140,
+        "raw": "[delay(time=2)] ",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 141,
+        "raw": "[character(name=\"avg_npc_404_1#9$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#9$1"
+    },
+    {
+        "id": 142,
+        "raw": "[name=\"맨프레드\"]아츠 폭발의 여파를 이용해 도망칠 생각인가?",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "아츠 폭발의 여파를 이용해 도망칠 생각인가?"
+    },
+    {
+        "id": 143,
+        "raw": "[name=\"맨프레드\"]뜻대로 되지는 않을 거다.",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "뜻대로 되지는 않을 거다."
+    },
+    {
+        "id": 144,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 145,
+        "raw": "[PlaySound(key=\"$d_sp_ballista\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_sp_ballista.mp3",
+        "volume": 1
+    },
+    {
+        "id": 146,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 147,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 148,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=0.1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.1,",
+        "block": true
+    },
+    {
+        "id": 149,
+        "raw": "[CameraShake(duration=2, xstrength=50, ystrength=50, vibrato=60, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "2,",
+        "xstrength": "50,",
+        "ystrength": "50,",
+        "vibrato": "60,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 150,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0.1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.1,",
+        "block": true
+    },
+    {
+        "id": 151,
+        "raw": "[PlaySound(key=\"$d_gen_explo_n\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_explo_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 152,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=0.1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.1,",
+        "block": true
+    },
+    {
+        "id": 153,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0.1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.1,",
+        "block": true
+    },
+    {
+        "id": 154,
+        "raw": "[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 155,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 156,
+        "raw": "[name=\"맨프레드\"]……!",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "……!"
+    },
+    {
+        "id": 157,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 158,
+        "raw": "[character]",
+        "type": "character"
+    },
+    {
+        "id": 159,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 160,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 161,
+        "raw": "[Character(name=\"char_empty\", name2=\"avg_npc_404_1#9$1\",focus=-1)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "avg_npc_404_1#9$1",
+        "focus": -1
+    },
+    {
+        "id": 162,
+        "raw": "[PlaySound(key=\"$rungeneral\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_rungeneral.mp3",
+        "volume": 1
+    },
+    {
+        "id": 163,
+        "raw": "[characteraction(name=\"left\", type=\"move\", xpos=-200, fadetime=0.3, block=true)]",
+        "type": "move",
+        "name": "left",
+        "xpos": "-200,",
+        "fadetime": "0.3,",
+        "block": true
+    },
+    {
+        "id": 164,
+        "raw": "[delay(time=0.51)]",
+        "type": "delay",
+        "time": 0.51
+    },
+    {
+        "id": 165,
+        "raw": "[characteraction(name=\"left\", type=\"move\", xpos=200, fadetime=1, block=false)]",
+        "type": "move",
+        "name": "left",
+        "xpos": "200,",
+        "fadetime": "1,",
+        "block": false
+    },
+    {
+        "id": 166,
+        "raw": "[Character(name=\"avg_4039_horn_1#7$1\", name2=\"avg_npc_404_1#9$1\",fadetime=0.7,focus=1)]",
+        "type": "character",
+        "name": "avg_4039_horn_1#7$1",
+        "name2": "avg_npc_404_1#9$1",
+        "fadetime": "0.7,focus=1"
+    },
+    {
+        "id": 167,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 168,
+        "raw": "[name=\"혼\"]……내가 말했지. 내 병사들이 있는 한, 난 절대 도망치지 않을 거라고.",
+        "type": "dialog",
+        "speaker": "혼",
+        "content": "……내가 말했지. 내 병사들이 있는 한, 난 절대 도망치지 않을 거라고."
+    },
+    {
+        "id": 169,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 170,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 171,
+        "raw": "[characteraction(name=\"left\", type=\"jump\", xpos=200, power=0, times=1, fadetime=0.2, block=true)]",
+        "type": "jump",
+        "name": "left",
+        "xpos": "200,",
+        "power": "0,",
+        "times": "1,",
+        "fadetime": "0.2,",
+        "block": true
+    },
+    {
+        "id": 172,
+        "raw": "[characteraction(name=\"right\", type=\"move\", xpos=80,ypos=0,power=60,times=1, fadetime=0.2,block=true)]",
+        "type": "move",
+        "name": "right",
+        "xpos": "80,ypos=0,power=60,times=1,",
+        "fadetime": "0.2,block=true"
+    },
+    {
+        "id": 173,
+        "raw": "[CameraShake(duration=0.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 174,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 175,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.05,",
+        "block": true
+    },
+    {
+        "id": 176,
+        "raw": "[PlaySound(key=\"$e_skill_skulsrsword\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_skill/e_skill_skulsrsword.mp3",
+        "volume": 1
+    },
+    {
+        "id": 177,
+        "raw": "[PlaySound(key=\"$swordtsing2\", volume=0.9)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_swordtsing2.mp3",
+        "volume": 0.9
+    },
+    {
+        "id": 178,
+        "raw": "[CameraShake(duration=-1, xstrength=10, ystrength=10, vibrato=30, randomness=90, fadeout=false, block=false)]",
+        "type": "camera_shake",
+        "duration": "-1,",
+        "xstrength": "10,",
+        "ystrength": "10,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "false,",
+        "block": false
+    },
+    {
+        "id": 179,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.05, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.05,",
+        "block": true
+    },
+    {
+        "id": 180,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 181,
+        "raw": "[Character(name=\"avg_4039_horn_1#7$1\", name2=\"avg_npc_404_1#9$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_4039_horn_1#7$1",
+        "name2": "avg_npc_404_1#9$1",
+        "focus": 2
+    },
+    {
+        "id": 182,
+        "raw": "[name=\"맨프레드\"]역시 멋지군, 화이트 울프. 반대로 나에게 돌진하다니.",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "역시 멋지군, 화이트 울프. 반대로 나에게 돌진하다니."
+    },
+    {
+        "id": 183,
+        "raw": "[name=\"맨프레드\"]하지만, 유감이다……",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "하지만, 유감이다……"
+    },
+    {
+        "id": 184,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 185,
+        "raw": "[PlaySound(key=\"$e_skill_skulsrsword\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_skill/e_skill_skulsrsword.mp3",
+        "volume": 1
+    },
+    {
+        "id": 186,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 187,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=false)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.05,",
+        "block": false
+    },
+    {
+        "id": 188,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0.05, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.05,",
+        "block": true
+    },
+    {
+        "id": 189,
+        "raw": "[characteraction(name=\"right\", type=\"jump\", xpos=-80, power=0, times=1, fadetime=0.2, block=true)]",
+        "type": "jump",
+        "name": "right",
+        "xpos": "-80,",
+        "power": "0,",
+        "times": "1,",
+        "fadetime": "0.2,",
+        "block": true
+    },
+    {
+        "id": 190,
+        "raw": "[characteraction(name=\"left\", type=\"move\", xpos=-300, power=0, times=1, fadetime=0.2, block=true)]",
+        "type": "move",
+        "name": "left",
+        "xpos": "-300,",
+        "power": "0,",
+        "times": "1,",
+        "fadetime": "0.2,",
+        "block": true
+    },
+    {
+        "id": 191,
+        "raw": "[CameraShake(duration=2, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "2,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 192,
+        "raw": "[playsound(key=\"$d_avg_doorbreak\",volume=0.6)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_doorbreak.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 193,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 194,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 195,
+        "raw": "[PlaySound(key=\"$d_avg_runstop\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_runstop.mp3",
+        "volume": 1
+    },
+    {
+        "id": 196,
+        "raw": "[character(name=\"avg_4039_horn_1#9$1\")]",
+        "type": "character",
+        "name": "avg_4039_horn_1#9$1"
+    },
+    {
+        "id": 197,
+        "raw": "[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "15,",
+        "ystrength": "15,",
+        "vibrato": "20,",
+        "randomness": "70,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 198,
+        "raw": "[playsound(key=\"$d_avg_tinnitus\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_tinnitus.mp3",
+        "volume": 1
+    },
+    {
+        "id": 199,
+        "raw": "[name=\"혼\"]……으윽!",
+        "type": "dialog",
+        "speaker": "혼",
+        "content": "……으윽!"
+    },
+    {
+        "id": 200,
+        "raw": "[character(name=\"avg_npc_404_1#2$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#2$1"
+    },
+    {
+        "id": 201,
+        "raw": "[name=\"맨프레드\"]살카즈는 오리지늄 아츠만 사용하는 줄 알았나?",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "살카즈는 오리지늄 아츠만 사용하는 줄 알았나?"
+    },
+    {
+        "id": 202,
+        "raw": "[name=\"맨프레드\"]검만 있어도…… 너희 모두를 쓰러뜨릴 수 있다.",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "검만 있어도…… 너희 모두를 쓰러뜨릴 수 있다."
+    },
+    {
+        "id": 203,
+        "raw": "[character(name=\"avg_4039_horn_1#7$1\")]",
+        "type": "character",
+        "name": "avg_4039_horn_1#7$1"
+    },
+    {
+        "id": 204,
+        "raw": "[name=\"혼\"]날 이기는 게…… 쉬운 일일지는 몰라도……",
+        "type": "dialog",
+        "speaker": "혼",
+        "content": "날 이기는 게…… 쉬운 일일지는 몰라도……"
+    },
+    {
+        "id": 205,
+        "raw": "[name=\"혼\"]날 쓰러뜨리는 건…… 그렇게 쉽지 않을 거다.",
+        "type": "dialog",
+        "speaker": "혼",
+        "content": "날 쓰러뜨리는 건…… 그렇게 쉽지 않을 거다."
+    },
+    {
+        "id": 206,
+        "raw": "[character(name=\"avg_npc_404_1#2$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#2$1"
+    },
+    {
+        "id": 207,
+        "raw": "[name=\"맨프레드\"]가공할 용기군.",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "가공할 용기군."
+    },
+    {
+        "id": 208,
+        "raw": "[name=\"맨프레드\"]그 용기를 높게 사서라도, 이 싸움을 최대한 빨리 끝내도록 하지……",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "그 용기를 높게 사서라도, 이 싸움을 최대한 빨리 끝내도록 하지……"
+    },
+    {
+        "id": 209,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 210,
+        "raw": "[character(name=\"avg_4039_horn_1#8$1\")]",
+        "type": "character",
+        "name": "avg_4039_horn_1#8$1"
+    },
+    {
+        "id": 211,
+        "raw": "[Blocker(a=0, r=255,g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,g=255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 212,
+        "raw": "[Blocker(a=1, r=255,g=255, b=255, fadetime=0.03, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,g=255,",
+        "b": "255,",
+        "fadetime": "0.03,",
+        "block": true
+    },
+    {
+        "id": 213,
+        "raw": "[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "40,",
+        "ystrength": "40,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 214,
+        "raw": "[character]",
+        "type": "character"
+    },
+    {
+        "id": 215,
+        "raw": "[PlaySound(key=\"$e_skill_skulsrsword\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_skill/e_skill_skulsrsword.mp3",
+        "volume": 1
+    },
+    {
+        "id": 216,
+        "raw": "[Blocker(a=0, r=255,g=255, b=255, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,g=255,",
+        "b": "255,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 217,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 218,
+        "raw": "[PlaySound(key=\"$e_atk_magic_n\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_atk/e_atk_magic_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 219,
+        "raw": "[delay(time=0.51)]",
+        "type": "delay",
+        "time": 0.51
+    },
+    {
+        "id": 220,
+        "raw": "검을 찌르는 순간, 맨프레드의 눈앞에 있던 병사는 갑자기 사라져 버렸다.",
+        "type": "narration",
+        "content": "검을 찌르는 순간, 맨프레드의 눈앞에 있던 병사는 갑자기 사라져 버렸다."
+    },
+    {
+        "id": 221,
+        "raw": "마치 용해되어 등 뒤에 있던 벽에 스며 들어간 듯, 잔물결조차 남기지 않고 사라졌다.",
+        "type": "narration",
+        "content": "마치 용해되어 등 뒤에 있던 벽에 스며 들어간 듯, 잔물결조차 남기지 않고 사라졌다."
+    },
+    {
+        "id": 222,
+        "raw": "[character(name=\"avg_npc_404_1#6$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#6$1"
+    },
+    {
+        "id": 223,
+        "raw": "[name=\"맨프레드\"]처음 보는 오리지늄 아츠군……",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "처음 보는 오리지늄 아츠군……"
+    },
+    {
+        "id": 224,
+        "raw": "[MusicVolume(volume=0, fadetime=1)]",
+        "type": "music_volume",
+        "volume": "0,",
+        "fadetime": 1
+    },
+    {
+        "id": 225,
+        "raw": "[character(name=\"avg_npc_404_1#8$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#8$1"
+    },
+    {
+        "id": 226,
+        "raw": "[name=\"맨프레드\"]경계하라!",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "경계하라!"
+    },
+    {
+        "id": 227,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 228,
+        "raw": "[characteraction(name=\"middle\", type=\"move\", xpos=-100, ypos=0,fadetime=0.05, isblock=true)]",
+        "type": "move",
+        "name": "middle",
+        "xpos": "-100,",
+        "ypos": "0,fadetime=0.05,",
+        "isblock": true
+    },
+    {
+        "id": 229,
+        "raw": "[Blocker(a=0, r=255,g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,g=255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 230,
+        "raw": "[Blocker(a=1, r=255,g=255, b=255, fadetime=0.03, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,g=255,",
+        "b": "255,",
+        "fadetime": "0.03,",
+        "block": true
+    },
+    {
+        "id": 231,
+        "raw": "[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "40,",
+        "ystrength": "40,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 232,
+        "raw": "[PlaySound(key=\"$e_atk_bldkgtpol_n\", volume=0.3)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_atk/e_atk_bldkgtpol_n.mp3",
+        "volume": 0.3
+    },
+    {
+        "id": 233,
+        "raw": "[PlaySound(key=\"$d_avg_bldwhoosh\", channel=\"swd\",delay=0.1,volume=2)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_bldwhoosh.mp3",
+        "channel": "swd",
+        "delay": "0.1,volume=2"
+    },
+    {
+        "id": 234,
+        "raw": "[Blocker(a=0, r=255,g=255, b=255, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,g=255,",
+        "b": "255,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 235,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 236,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 237,
+        "raw": "[delay(time=0.51)]",
+        "type": "delay",
+        "time": 0.51
+    },
+    {
+        "id": 238,
+        "raw": "[name=\"맨프레드\"]……허공에서 단검이?",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "……허공에서 단검이?"
+    },
+    {
+        "id": 239,
+        "raw": "[name=\"맨프레드\"]아니지, 허공이 아니군……",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "아니지, 허공이 아니군……"
+    },
+    {
+        "id": 240,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 241,
+        "raw": "[characteraction(name=\"middle\", type=\"move\", xpos=200, ypos=0,fadetime=0.05, isblock=true)]",
+        "type": "move",
+        "name": "middle",
+        "xpos": "200,",
+        "ypos": "0,fadetime=0.05,",
+        "isblock": true
+    },
+    {
+        "id": 242,
+        "raw": "[Blocker(a=0, r=255,g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,g=255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 243,
+        "raw": "[Blocker(a=1, r=255,g=255, b=255, fadetime=0.03, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,g=255,",
+        "b": "255,",
+        "fadetime": "0.03,",
+        "block": true
+    },
+    {
+        "id": 244,
+        "raw": "[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "40,",
+        "ystrength": "40,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 245,
+        "raw": "[PlaySound(key=\"$d_avg_bldwhoosh\", volume=2)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_bldwhoosh.mp3",
+        "volume": 2
+    },
+    {
+        "id": 246,
+        "raw": "[PlaySound(key=\"$p_imp_whip_h\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/player/p_imp/p_imp_whip_h.mp3",
+        "volume": 1
+    },
+    {
+        "id": 247,
+        "raw": "[Blocker(a=0, r=255,g=255, b=255, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,g=255,",
+        "b": "255,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 248,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 249,
+        "raw": "[characteraction(name=\"middle\", type=\"move\", xpos=-100, ypos=0,fadetime=0.1, isblock=true)]",
+        "type": "move",
+        "name": "middle",
+        "xpos": "-100,",
+        "ypos": "0,fadetime=0.1,",
+        "isblock": true
+    },
+    {
+        "id": 250,
+        "raw": "[MusicVolume(volume=0.4, fadetime=1)]",
+        "type": "music_volume",
+        "volume": "0.4,",
+        "fadetime": 1
+    },
+    {
+        "id": 251,
+        "raw": "[character(name=\"avg_npc_404_1#8$1\",focus=-1)]",
+        "type": "character",
+        "name": "avg_npc_404_1#8$1",
+        "focus": -1
+    },
+    {
+        "id": 252,
+        "raw": "[name=\"???\"]반응이 빠르네.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "반응이 빠르네."
+    },
+    {
+        "id": 253,
+        "raw": "[character(name=\"avg_npc_404_1#2$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#2$1"
+    },
+    {
+        "id": 254,
+        "raw": "[name=\"맨프레드\"]빠르지 않았다면 내 가슴에 구멍이 뚫렸을 것이다.",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "빠르지 않았다면 내 가슴에 구멍이 뚫렸을 것이다."
+    },
+    {
+        "id": 255,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 256,
+        "raw": "[PlaySound(key=\"$e_atk_circleatk_h\", volume=0.6)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_atk/e_atk_circleatk_h.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 257,
+        "raw": "[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.1, block=true)]",
+        "type": "blocker",
+        "a": "0.7,",
+        "r": "0.95,",
+        "g": "0.95,",
+        "b": "0.95,",
+        "fadetime": "0.1,",
+        "block": true
+    },
+    {
+        "id": 258,
+        "raw": "[PlaySound(key=\"$e_atk_circleatk_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_atk/e_atk_circleatk_n.mp3"
+    },
+    {
+        "id": 259,
+        "raw": "[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0.95,",
+        "g": "0.95,",
+        "b": "0.95,",
+        "fadetime": "0.25,",
+        "block": true
+    },
+    {
+        "id": 260,
+        "raw": "[CameraShake(duration=0.4, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=true)]",
+        "type": "camera_shake",
+        "duration": "0.4,",
+        "xstrength": "20,",
+        "ystrength": "20,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": true
+    },
+    {
+        "id": 261,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 262,
+        "raw": "[character(name=\"avg_npc_419_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_419_1#1$1"
+    },
+    {
+        "id": 263,
+        "raw": "[name=\"살카즈 전사\"]목표를 찾았다! 조준해!",
+        "type": "dialog",
+        "speaker": "살카즈 전사",
+        "content": "목표를 찾았다! 조준해!"
+    },
+    {
+        "id": 264,
+        "raw": "[name=\"살카즈 전사\"]뭐, 뭐야? 또 사라졌어?",
+        "type": "dialog",
+        "speaker": "살카즈 전사",
+        "content": "뭐, 뭐야? 또 사라졌어?"
+    },
+    {
+        "id": 265,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 266,
+        "raw": "[Blocker(a=0, r=255,g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,g=255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 267,
+        "raw": "[Blocker(a=1, r=255,g=255, b=255, fadetime=0.03, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,g=255,",
+        "b": "255,",
+        "fadetime": "0.03,",
+        "block": true
+    },
+    {
+        "id": 268,
+        "raw": "[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "40,",
+        "ystrength": "40,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 269,
+        "raw": "[PlaySound(key=\"$p_imp_whip_h\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/player/p_imp/p_imp_whip_h.mp3",
+        "volume": 1
+    },
+    {
+        "id": 270,
+        "raw": "[PlaySound(key=\"$p_imp_sword_n\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/player/p_imp/p_imp_sword_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 271,
+        "raw": "[Blocker(a=0, r=255,g=255, b=255, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,g=255,",
+        "b": "255,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 272,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 273,
+        "raw": "[delay(time=1)] ",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 274,
+        "raw": "[Character(name=\"avg_npc_419_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_419_1#1$1"
+    },
+    {
+        "id": 275,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 276,
+        "raw": "[PlaySound(key=\"$bodyfalldown2\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_bodyfalldown2.mp3",
+        "volume": 1
+    },
+    {
+        "id": 277,
+        "raw": "[characteraction(name=\"middle\", type=\"move\", ypos=-300, fadetime=2,block=true)]",
+        "type": "move",
+        "name": "middle",
+        "ypos": "-300,",
+        "fadetime": "2,block=true"
+    },
+    {
+        "id": 278,
+        "raw": "[character(fadetime=0.5)]",
+        "type": "character",
+        "fadetime": 0.5
+    },
+    {
+        "id": 279,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 280,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 281,
+        "raw": "[character]",
+        "type": "character"
+    },
+    {
+        "id": 282,
+        "raw": "[character(name=\"avg_npc_419_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_419_1#1$1"
+    },
+    {
+        "id": 283,
+        "raw": "[name=\"살카즈 전사\"]너, 너무 빨라! 맞출 수가 없어!",
+        "type": "dialog",
+        "speaker": "살카즈 전사",
+        "content": "너, 너무 빨라! 맞출 수가 없어!"
+    },
+    {
+        "id": 284,
+        "raw": "[name=\"살카즈 전사\"]방패, 빨리 방패 들어. 저 *욕설*가, 설마 순간이동은 아니겠지?",
+        "type": "dialog",
+        "speaker": "살카즈 전사",
+        "content": "방패, 빨리 방패 들어. 저 *욕설*가, 설마 순간이동은 아니겠지?"
+    },
+    {
+        "id": 285,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 286,
+        "raw": "[Blocker(a=0, r=255,g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,g=255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 287,
+        "raw": "[Blocker(a=1, r=255,g=255, b=255, fadetime=0.03, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,g=255,",
+        "b": "255,",
+        "fadetime": "0.03,",
+        "block": true
+    },
+    {
+        "id": 288,
+        "raw": "[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "40,",
+        "ystrength": "40,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 289,
+        "raw": "[PlaySound(key=\"$p_imp_whip_h\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/player/p_imp/p_imp_whip_h.mp3",
+        "volume": 1
+    },
+    {
+        "id": 290,
+        "raw": "[PlaySound(key=\"$p_imp_sword_n\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/player/p_imp/p_imp_sword_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 291,
+        "raw": "[Blocker(a=0, r=255,g=255, b=255, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,g=255,",
+        "b": "255,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 292,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 293,
+        "raw": "[delay(time=1)] ",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 294,
+        "raw": "[Character(name=\"avg_npc_419_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_419_1#1$1"
+    },
+    {
+        "id": 295,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 296,
+        "raw": "[PlaySound(key=\"$bodyfalldown2\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_bodyfalldown2.mp3",
+        "volume": 1
+    },
+    {
+        "id": 297,
+        "raw": "[characteraction(name=\"middle\", type=\"move\", ypos=-300, fadetime=2,block=true)]",
+        "type": "move",
+        "name": "middle",
+        "ypos": "-300,",
+        "fadetime": "2,block=true"
+    },
+    {
+        "id": 298,
+        "raw": "[character(fadetime=0.5)]",
+        "type": "character",
+        "fadetime": 0.5
+    },
+    {
+        "id": 299,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 300,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 301,
+        "raw": "[character]",
+        "type": "character"
+    },
+    {
+        "id": 302,
+        "raw": "[character(name=\"avg_npc_404_1#8$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#8$1"
+    },
+    {
+        "id": 303,
+        "raw": "[name=\"맨프레드\"]순간이동? 그런 오리지늄 아츠가 존재할 리가…… 흔적조차 보이지 않는 게 말이 되나!",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "순간이동? 그런 오리지늄 아츠가 존재할 리가…… 흔적조차 보이지 않는 게 말이 되나!"
+    },
+    {
+        "id": 304,
+        "raw": "[name=\"맨프레드\"]아니면…… 그저 눈속임인가?",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "아니면…… 그저 눈속임인가?"
+    },
+    {
+        "id": 305,
+        "raw": "[character(name=\"avg_npc_404_1#9$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#9$1"
+    },
+    {
+        "id": 306,
+        "raw": "[name=\"맨프레드\"]현혹당하지 말거라! 맞든 안 맞든, 일제히 공격한다!",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "현혹당하지 말거라! 맞든 안 맞든, 일제히 공격한다!"
+    },
+    {
+        "id": 307,
+        "raw": "[name=\"맨프레드\"]우리 앞에 있는 한, 적은 도망치지 못한다!",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "우리 앞에 있는 한, 적은 도망치지 못한다!"
+    },
+    {
+        "id": 308,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 309,
+        "raw": "[PlaySound(key=\"$e_atk_circleatk_h\", volume=0.6)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_atk/e_atk_circleatk_h.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 310,
+        "raw": "[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.1, block=true)]",
+        "type": "blocker",
+        "a": "0.7,",
+        "r": "0.95,",
+        "g": "0.95,",
+        "b": "0.95,",
+        "fadetime": "0.1,",
+        "block": true
+    },
+    {
+        "id": 311,
+        "raw": "[PlaySound(key=\"$e_atk_circleatk_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_atk/e_atk_circleatk_n.mp3"
+    },
+    {
+        "id": 312,
+        "raw": "[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0.95,",
+        "g": "0.95,",
+        "b": "0.95,",
+        "fadetime": "0.25,",
+        "block": true
+    },
+    {
+        "id": 313,
+        "raw": "[CameraShake(duration=0.4, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=true)]",
+        "type": "camera_shake",
+        "duration": "0.4,",
+        "xstrength": "20,",
+        "ystrength": "20,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": true
+    },
+    {
+        "id": 314,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 315,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 316,
+        "raw": "[name=\"맨프레드\"]맞힌…… 건가?",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "맞힌…… 건가?"
+    },
+    {
+        "id": 317,
+        "raw": "[character(name=\"avg_npc_419_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_419_1#1$1"
+    },
+    {
+        "id": 318,
+        "raw": "[name=\"살카즈 전사\"]장군님, 시체가 보이지 않습니다.",
+        "type": "dialog",
+        "speaker": "살카즈 전사",
+        "content": "장군님, 시체가 보이지 않습니다."
+    },
+    {
+        "id": 319,
+        "raw": "[name=\"살카즈 전사\"]하지만, 지면이 전부 파괴되었는데…… 놈들이 숨을 곳이 없지 않겠습니까?",
+        "type": "dialog",
+        "speaker": "살카즈 전사",
+        "content": "하지만, 지면이 전부 파괴되었는데…… 놈들이 숨을 곳이 없지 않겠습니까?"
+    },
+    {
+        "id": 320,
+        "raw": "[character(name=\"avg_npc_404_1#2$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#2$1"
+    },
+    {
+        "id": 321,
+        "raw": "[name=\"맨프레드\"]……",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "……"
+    },
+    {
+        "id": 322,
+        "raw": "[character(name=\"avg_npc_419_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_419_1#1$1"
+    },
+    {
+        "id": 323,
+        "raw": "[name=\"살카즈 전사\"]장군님, 뒤쪽입니다!",
+        "type": "dialog",
+        "speaker": "살카즈 전사",
+        "content": "장군님, 뒤쪽입니다!"
+    },
+    {
+        "id": 324,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 325,
+        "raw": "[character(name=\"avg_npc_404_1#2$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#2$1"
+    },
+    {
+        "id": 326,
+        "raw": "[Blocker(a=0, r=255,g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,g=255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 327,
+        "raw": "[Blocker(a=1, r=255,g=255, b=255, fadetime=0.03, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,g=255,",
+        "b": "255,",
+        "fadetime": "0.03,",
+        "block": true
+    },
+    {
+        "id": 328,
+        "raw": "[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "40,",
+        "ystrength": "40,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 329,
+        "raw": "[PlaySound(key=\"$e_skill_skulsrsword\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_skill/e_skill_skulsrsword.mp3",
+        "volume": 1
+    },
+    {
+        "id": 330,
+        "raw": "[Blocker(a=0, r=255,g=255, b=255, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,g=255,",
+        "b": "255,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 331,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 332,
+        "raw": "[name=\"맨프레드\"]모습을 보이기만 한다면, 바로 죽일 수 있다!",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "모습을 보이기만 한다면, 바로 죽일 수 있다!"
+    },
+    {
+        "id": 333,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 334,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 335,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 336,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 337,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 338,
+        "raw": "[character]",
+        "type": "character"
+    },
+    {
+        "id": 339,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 340,
+        "raw": "[Background(image=\"bg_black\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_black.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 341,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 342,
+        "raw": "[character(name=\"avg_npc_235\",blackstart=0.2, blackend=0.7, fadetime=1.5)]",
+        "type": "character",
+        "name": "avg_npc_235",
+        "blackstart": "0.2,",
+        "blackend": "0.7,",
+        "fadetime": 1.5
+    },
+    {
+        "id": 343,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 344,
+        "raw": "[name=\"???\"]확실해?",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "확실해?"
+    },
+    {
+        "id": 345,
+        "raw": "[Background(image=\"27_g8_jail\",screenadapt=\"coverall\",fadetime=1)]",
+        "type": "background",
+        "image": "27_g8_jail.png",
+        "screenadapt": "coverall",
+        "fadetime": 1
+    },
+    {
+        "id": 346,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 347,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 348,
+        "raw": "[PlayMusic(intro=\"$tense_intro\", key=\"$tense_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act15d0d0/m_avg_tense_intro.mp3",
+        "key": "sound_beta_2/music/act15d0d0/m_avg_tense_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 349,
+        "raw": "[name=\"???\"]맨프레드, 네 말이 맞아. 하지만, 유감스럽게도…… 반만 맞아.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "맨프레드, 네 말이 맞아. 하지만, 유감스럽게도…… 반만 맞아."
+    },
+    {
+        "id": 350,
+        "raw": "[character(name=\"avg_npc_404_1#8$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#8$1"
+    },
+    {
+        "id": 351,
+        "raw": "[name=\"맨프레드\"]반이라고?",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "반이라고?"
+    },
+    {
+        "id": 352,
+        "raw": "[character(name=\"avg_npc_235\",blackstart=0.2,blackend=0.7)]",
+        "type": "character",
+        "name": "avg_npc_235",
+        "blackstart": "0.2,blackend=0.7"
+    },
+    {
+        "id": 353,
+        "raw": "[name=\"???\"]살카즈는 오리지늄 아츠에만 의존하지 않는다……",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "살카즈는 오리지늄 아츠에만 의존하지 않는다……"
+    },
+    {
+        "id": 354,
+        "raw": "[name=\"???\"]……그렇다고 검으로만 싸우는 살카즈도 존재하지 않지.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "……그렇다고 검으로만 싸우는 살카즈도 존재하지 않지."
+    },
+    {
+        "id": 355,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 356,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 357,
+        "raw": "[PlaySound(key=\"$e_atk_magic_m\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_atk/e_atk_magic_m.mp3",
+        "volume": 1
+    },
+    {
+        "id": 358,
+        "raw": "[Image(image=\"27_i21\",screenadapt=\"coverall\",xScaleFrom=1.1, yScaleFrom=1.1,  fadetime=3)]",
+        "type": "image",
+        "image": "27_i21.png",
+        "screenadapt": "coverall",
+        "xScaleFrom": "1.1,",
+        "yScaleFrom": "1.1,",
+        "fadetime": 3
+    },
+    {
+        "id": 359,
+        "raw": "[Background]",
+        "type": "background"
+    },
+    {
+        "id": 360,
+        "raw": "[CameraShake(duration=-1, xstrength=5, ystrength=5, vibrato=90, randomness=90, fadeout=false, block=false)]",
+        "type": "camera_shake",
+        "duration": "-1,",
+        "xstrength": "5,",
+        "ystrength": "5,",
+        "vibrato": "90,",
+        "randomness": "90,",
+        "fadeout": "false,",
+        "block": false
+    },
+    {
+        "id": 361,
+        "raw": "[ImageTween(xScaleFrom=1.1, yScaleFrom=1.1, xScaleTo=1, yScaleTo=1, duration=5, ease=\"OutBack\", fadetime=2, block=false)]",
+        "type": "image_tween",
+        "xScaleFrom": "1.1,",
+        "yScaleFrom": "1.1,",
+        "xScaleTo": "1,",
+        "yScaleTo": "1,",
+        "duration": "5,",
+        "ease": "OutBack",
+        "fadetime": "2,",
+        "block": false
+    },
+    {
+        "id": 362,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 363,
+        "raw": "[PlaySound(key=\"$e_atk_magic_n\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_atk/e_atk_magic_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 364,
+        "raw": "[name=\"살카즈 전사\"]으아아아!",
+        "type": "dialog",
+        "speaker": "살카즈 전사",
+        "content": "으아아아!"
+    },
+    {
+        "id": 365,
+        "raw": "[name=\"살카즈 전사\"]뭐야, 갑자기 땅속으로 빨려 들어간다…… 공기가 사람을 삼키고 있어! 칼, 갑자기 칼을 잡을 수 없어!",
+        "type": "dialog",
+        "speaker": "살카즈 전사",
+        "content": "뭐야, 갑자기 땅속으로 빨려 들어간다…… 공기가 사람을 삼키고 있어! 칼, 갑자기 칼을 잡을 수 없어!"
+    },
+    {
+        "id": 366,
+        "raw": "[name=\"살카즈 전사\"]장군님도 점점 가라앉고 있습니다!?",
+        "type": "dialog",
+        "speaker": "살카즈 전사",
+        "content": "장군님도 점점 가라앉고 있습니다!?"
+    },
+    {
+        "id": 367,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 368,
+        "raw": "[character]",
+        "type": "character"
+    },
+    {
+        "id": 369,
+        "raw": "[PlaySound(key=\"$e_atk_magic_m\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_atk/e_atk_magic_m.mp3",
+        "volume": 1
+    },
+    {
+        "id": 370,
+        "raw": "[Image(fadetime=2)]",
+        "type": "image",
+        "fadetime": 2
+    },
+    {
+        "id": 371,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 372,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 373,
+        "raw": "[Background(image=\"27_g8_jail\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "27_g8_jail.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 374,
+        "raw": "[character(name=\"avg_npc_404_1#2$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#2$1"
+    },
+    {
+        "id": 375,
+        "raw": "[name=\"맨프레드\"]……다들 움직이지 마, 당황할 필요 없다.",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "……다들 움직이지 마, 당황할 필요 없다."
+    },
+    {
+        "id": 376,
+        "raw": "[name=\"맨프레드\"]단검은 아츠 유닛이고, 이건 오리지늄 아츠다. 그냥 오리지늄 아츠일 뿐이다.",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "단검은 아츠 유닛이고, 이건 오리지늄 아츠다. 그냥 오리지늄 아츠일 뿐이다."
+    },
+    {
+        "id": 377,
+        "raw": "[character(name=\"avg_npc_235\",blackstart=0.2,blackend=0.7)]",
+        "type": "character",
+        "name": "avg_npc_235",
+        "blackstart": "0.2,blackend=0.7"
+    },
+    {
+        "id": 378,
+        "raw": "[name=\"???\"]냉정하군. 아주 좋아…… 덕분에 부하의 목숨을 구한 거야.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "냉정하군. 아주 좋아…… 덕분에 부하의 목숨을 구한 거야."
+    },
+    {
+        "id": 379,
+        "raw": "[name=\"???\"]하지만……",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "하지만……"
+    },
+    {
+        "id": 380,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 381,
+        "raw": "[character(name=\"avg_npc_404_1#2$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#2$1"
+    },
+    {
+        "id": 382,
+        "raw": "[Blocker(a=0, r=255,g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,g=255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 383,
+        "raw": "[Blocker(a=1, r=255,g=255, b=255, fadetime=0.03, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,g=255,",
+        "b": "255,",
+        "fadetime": "0.03,",
+        "block": true
+    },
+    {
+        "id": 384,
+        "raw": "[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "40,",
+        "ystrength": "40,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 385,
+        "raw": "[PlaySound(key=\"$e_atk_bldkgtpol_n\", volume=0.3)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_atk/e_atk_bldkgtpol_n.mp3",
+        "volume": 0.3
+    },
+    {
+        "id": 386,
+        "raw": "[PlaySound(key=\"$p_imp_sword_n\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/player/p_imp/p_imp_sword_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 387,
+        "raw": "[Blocker(a=0, r=255,g=255, b=255, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,g=255,",
+        "b": "255,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 388,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 389,
+        "raw": "[CameraShake(duration=-1, xstrength=5, ystrength=5, vibrato=90, randomness=90, fadeout=false, block=false)]",
+        "type": "camera_shake",
+        "duration": "-1,",
+        "xstrength": "5,",
+        "ystrength": "5,",
+        "vibrato": "90,",
+        "randomness": "90,",
+        "fadeout": "false,",
+        "block": false
+    },
+    {
+        "id": 390,
+        "raw": "[delay(time=0.51)]",
+        "type": "delay",
+        "time": 0.51
+    },
+    {
+        "id": 391,
+        "raw": "[name=\"맨프레드\"]……윽!",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "……윽!"
+    },
+    {
+        "id": 392,
+        "raw": "[name=\"맨프레드\"]땅이…… 가슴까지……",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "땅이…… 가슴까지……"
+    },
+    {
+        "id": 393,
+        "raw": "[name=\"맨프레드\"]검이……",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "검이……"
+    },
+    {
+        "id": 394,
+        "raw": "[character(name=\"avg_npc_235\",blackstart=0.2,blackend=0.7)]",
+        "type": "character",
+        "name": "avg_npc_235",
+        "blackstart": "0.2,blackend=0.7"
+    },
+    {
+        "id": 395,
+        "raw": "[name=\"???\"]네 검술이라면 내 공격 따위는 가볍게 막아낼 수는 있겠지.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "네 검술이라면 내 공격 따위는 가볍게 막아낼 수는 있겠지."
+    },
+    {
+        "id": 396,
+        "raw": "[name=\"???\"]하지만, 네가 힘을 줄수록 더 빠르게 삼켜질 거다.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "하지만, 네가 힘을 줄수록 더 빠르게 삼켜질 거다."
+    },
+    {
+        "id": 397,
+        "raw": "[name=\"???\"]이런 결말을 원하는가…… 이런 자멸을?",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "이런 결말을 원하는가…… 이런 자멸을?"
+    },
+    {
+        "id": 398,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 399,
+        "raw": "[character(name=\"avg_npc_404_1#2$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#2$1"
+    },
+    {
+        "id": 400,
+        "raw": "[name=\"맨프레드\"]으윽…… 쿨럭……",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "으윽…… 쿨럭……"
+    },
+    {
+        "id": 401,
+        "raw": "[character(name=\"avg_npc_419_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_419_1#1$1"
+    },
+    {
+        "id": 402,
+        "raw": "[name=\"살카즈 전사\"]장군님……",
+        "type": "dialog",
+        "speaker": "살카즈 전사",
+        "content": "장군님……"
+    },
+    {
+        "id": 403,
+        "raw": "[character(name=\"avg_npc_404_1#9$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#9$1"
+    },
+    {
+        "id": 404,
+        "raw": "[name=\"맨프레드\"]오지 마!",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "오지 마!"
+    },
+    {
+        "id": 405,
+        "raw": "[character(name=\"avg_npc_235\",blackstart=0.2,blackend=0.7)]",
+        "type": "character",
+        "name": "avg_npc_235",
+        "blackstart": "0.2,blackend=0.7"
+    },
+    {
+        "id": 406,
+        "raw": "[name=\"???\"]아니면, 네 부하들처럼 가만히 있는 것도 나쁘지 않지.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "아니면, 네 부하들처럼 가만히 있는 것도 나쁘지 않지."
+    },
+    {
+        "id": 407,
+        "raw": "[character(name=\"avg_npc_404_1#9$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#9$1"
+    },
+    {
+        "id": 408,
+        "raw": "[name=\"맨프레드\"]……네가 내 심장을 꿰뚫는 걸 보고만 있으라는 건가?",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "……네가 내 심장을 꿰뚫는 걸 보고만 있으라는 건가?"
+    },
+    {
+        "id": 409,
+        "raw": "[character(name=\"avg_npc_235\",blackstart=0.2,blackend=0.7)]",
+        "type": "character",
+        "name": "avg_npc_235",
+        "blackstart": "0.2,blackend=0.7"
+    },
+    {
+        "id": 410,
+        "raw": "[name=\"???\"]널 죽이는 건 물론 쉽지 않겠지.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "널 죽이는 건 물론 쉽지 않겠지."
+    },
+    {
+        "id": 411,
+        "raw": "[character(name=\"avg_npc_404_1#4$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#4$1"
+    },
+    {
+        "id": 412,
+        "raw": "[name=\"맨프레드\"]쿨럭…… 하아……",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "쿨럭…… 하아……"
+    },
+    {
+        "id": 413,
+        "raw": "[name=\"맨프레드\"]알았다. 너는 진심으로 나를 죽일 생각이 없군.",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "알았다. 너는 진심으로 나를 죽일 생각이 없군."
+    },
+    {
+        "id": 414,
+        "raw": "[name=\"맨프레드\"]설마 로도스 아일랜드에 아스카론 말고도 뛰어난 살카즈 자객이 있었다니.",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "설마 로도스 아일랜드에 아스카론 말고도 뛰어난 살카즈 자객이 있었다니."
+    },
+    {
+        "id": 415,
+        "raw": "[character(name=\"avg_npc_235\",blackstart=0.2,blackend=0.7)]",
+        "type": "character",
+        "name": "avg_npc_235",
+        "blackstart": "0.2,blackend=0.7"
+    },
+    {
+        "id": 416,
+        "raw": "[name=\"???\"]나는 자객이 아니야.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "나는 자객이 아니야."
+    },
+    {
+        "id": 417,
+        "raw": "[name=\"???\"]꼭 필요한 게 아니라면, 나는 그 어떤 살카즈도 죽이고 싶지 않아.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "꼭 필요한 게 아니라면, 나는 그 어떤 살카즈도 죽이고 싶지 않아."
+    },
+    {
+        "id": 418,
+        "raw": "[character(name=\"avg_npc_404_1#2$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#2$1"
+    },
+    {
+        "id": 419,
+        "raw": "[name=\"맨프레드\"]하지만 지금, 너는 우리의 적을 돕고 있다!",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "하지만 지금, 너는 우리의 적을 돕고 있다!"
+    },
+    {
+        "id": 420,
+        "raw": "[character(name=\"avg_npc_235\", blackstart=0.2, blackend=0.7)]",
+        "type": "character",
+        "name": "avg_npc_235",
+        "blackstart": "0.2,",
+        "blackend": 0.7
+    },
+    {
+        "id": 421,
+        "raw": "[name=\"???\"]빅토리아인이…… 살카즈의 적인가?",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "빅토리아인이…… 살카즈의 적인가?"
+    },
+    {
+        "id": 422,
+        "raw": "[name=\"???\"]내가 본 건, 상처투성이인 병사들이 자기 땅에서 살기 위해 몸부림치는 모습뿐이었다.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "내가 본 건, 상처투성이인 병사들이 자기 땅에서 살기 위해 몸부림치는 모습뿐이었다."
+    },
+    {
+        "id": 423,
+        "raw": "[name=\"???\"]게다가 너와 테레시스, 너희들은 지금 살카즈를 공공의 적으로 만들고 있어.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "게다가 너와 테레시스, 너희들은 지금 살카즈를 공공의 적으로 만들고 있어."
+    },
+    {
+        "id": 424,
+        "raw": "[character(name=\"avg_npc_404_1#2$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#2$1"
+    },
+    {
+        "id": 425,
+        "raw": "[name=\"맨프레드\"]예전부터 생각했지만, 기회가 된다면 너희들과 얘기를 나눠 보고 싶었다.",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "예전부터 생각했지만, 기회가 된다면 너희들과 얘기를 나눠 보고 싶었다."
+    },
+    {
+        "id": 426,
+        "raw": "[name=\"맨프레드\"]하지만, 아쉽게도 첫 만남이 바로 전장이었다니……",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "하지만, 아쉽게도 첫 만남이 바로 전장이었다니……"
+    },
+    {
+        "id": 427,
+        "raw": "[name=\"맨프레드\"]……로도스 아일랜드의 정예 오퍼레이터.",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "……로도스 아일랜드의 정예 오퍼레이터."
+    },
+    {
+        "id": 428,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 429,
+        "raw": "[PlaySound(key=\"$e_atk_circleatk_h\", volume=0.6)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_atk/e_atk_circleatk_h.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 430,
+        "raw": "[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.1, block=true)]",
+        "type": "blocker",
+        "a": "0.7,",
+        "r": "0.95,",
+        "g": "0.95,",
+        "b": "0.95,",
+        "fadetime": "0.1,",
+        "block": true
+    },
+    {
+        "id": 431,
+        "raw": "[PlaySound(key=\"$e_atk_circleatk_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_atk/e_atk_circleatk_n.mp3"
+    },
+    {
+        "id": 432,
+        "raw": "[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0.95,",
+        "g": "0.95,",
+        "b": "0.95,",
+        "fadetime": "0.25,",
+        "block": true
+    },
+    {
+        "id": 433,
+        "raw": "[CameraShake(duration=0.4, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=true)]",
+        "type": "camera_shake",
+        "duration": "0.4,",
+        "xstrength": "20,",
+        "ystrength": "20,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": true
+    },
+    {
+        "id": 434,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 435,
+        "raw": "[name=\"맨프레드\"]……",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "……"
+    },
+    {
+        "id": 436,
+        "raw": "[character(name=\"avg_npc_419_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_419_1#1$1"
+    },
+    {
+        "id": 437,
+        "raw": "[name=\"살카즈 전사\"]또 사라졌어? 엇, 땅이 원래대로 돌아갔네!",
+        "type": "dialog",
+        "speaker": "살카즈 전사",
+        "content": "또 사라졌어? 엇, 땅이 원래대로 돌아갔네!"
+    },
+    {
+        "id": 438,
+        "raw": "[character(name=\"avg_npc_404_1#9$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#9$1"
+    },
+    {
+        "id": 439,
+        "raw": "[name=\"맨프레드\"]간발의 차이었다.",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "간발의 차이었다."
+    },
+    {
+        "id": 440,
+        "raw": "[name=\"맨프레드\"]간발의 차이로 놓쳤다. 녀석은 아주 특별한 오리지늄 아츠를 지니고 있어…… 우리의 신경계를 건드려 환각을 보여 주는 수준이 아니다.",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "간발의 차이로 놓쳤다. 녀석은 아주 특별한 오리지늄 아츠를 지니고 있어…… 우리의 신경계를 건드려 환각을 보여 주는 수준이 아니다."
+    },
+    {
+        "id": 441,
+        "raw": "[name=\"맨프레드\"]지면에 에너지가 변환된 흔적이 남아 있군. 설마……",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "지면에 에너지가 변환된 흔적이 남아 있군. 설마……"
+    },
+    {
+        "id": 442,
+        "raw": "[character(name=\"avg_npc_419_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_419_1#1$1"
+    },
+    {
+        "id": 443,
+        "raw": "[name=\"살카즈 전사\"]장군님, 적들이 전부 사라졌습니다! 그러니까, 빅토리아 병사들도……",
+        "type": "dialog",
+        "speaker": "살카즈 전사",
+        "content": "장군님, 적들이 전부 사라졌습니다! 그러니까, 빅토리아 병사들도……"
+    },
+    {
+        "id": 444,
+        "raw": "[character(name=\"avg_npc_404_1#2$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#2$1"
+    },
+    {
+        "id": 445,
+        "raw": "[name=\"맨프레드\"]훗…… 내게 말을 걸며 시간을 끌었던 건, 상처 입은 병사들을 전부 구출하기 위해서였나?",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "훗…… 내게 말을 걸며 시간을 끌었던 건, 상처 입은 병사들을 전부 구출하기 위해서였나?"
+    },
+    {
+        "id": 446,
+        "raw": "[character(name=\"avg_npc_419_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_419_1#1$1"
+    },
+    {
+        "id": 447,
+        "raw": "[name=\"살카즈 전사\"]그…… 그럼 쫓아갈까요?",
+        "type": "dialog",
+        "speaker": "살카즈 전사",
+        "content": "그…… 그럼 쫓아갈까요?"
+    },
+    {
+        "id": 448,
+        "raw": "[character(name=\"avg_npc_404_1#2$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#2$1"
+    },
+    {
+        "id": 449,
+        "raw": "[name=\"맨프레드\"]쫓을 수 있다고 생각하나?",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "쫓을 수 있다고 생각하나?"
+    },
+    {
+        "id": 450,
+        "raw": "[name=\"맨프레드\"]간발의 차이라고 했지만…… 그 정도 수준의 캐스터라면, 간발의 차이가 곧 절대적인 실패란 말이지.",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "간발의 차이라고 했지만…… 그 정도 수준의 캐스터라면, 간발의 차이가 곧 절대적인 실패란 말이지."
+    },
+    {
+        "id": 451,
+        "raw": "[character(name=\"avg_npc_419_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_419_1#1$1"
+    },
+    {
+        "id": 452,
+        "raw": "[name=\"살카즈 전사\"]제길! 오늘 여기서 반항 세력들의 뿌리를 뽑을 수 있었는데. 용병의 반란에다가, 이상한 캐스터의 방해 때문에 전부 수포로 돌아갔네!",
+        "type": "dialog",
+        "speaker": "살카즈 전사",
+        "content": "제길! 오늘 여기서 반항 세력들의 뿌리를 뽑을 수 있었는데. 용병의 반란에다가, 이상한 캐스터의 방해 때문에 전부 수포로 돌아갔네!"
+    },
+    {
+        "id": 453,
+        "raw": "[character(name=\"avg_npc_404_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#1$1"
+    },
+    {
+        "id": 454,
+        "raw": "[name=\"맨프레드\"]로도스 아일랜드 때문에…… 이게 로도스 아일랜드인가.",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "로도스 아일랜드 때문에…… 이게 로도스 아일랜드인가."
+    },
+    {
+        "id": 455,
+        "raw": "[name=\"맨프레드\"]적을 일망타진할 기회를 놓쳤지만, 그들이라고 손실이 적을 것 같아?",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "적을 일망타진할 기회를 놓쳤지만, 그들이라고 손실이 적을 것 같아?"
+    },
+    {
+        "id": 456,
+        "raw": "[name=\"맨프레드\"]놈들은 원래 어둠 속에 몸을 숨길 기회가 있었지만, 이제는 한 사람씩 밖으로 나올 수밖에 없었다. 오히려 전력이 노출되는 건 놈들에게 전술상 크나큰 실책이지.",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "놈들은 원래 어둠 속에 몸을 숨길 기회가 있었지만, 이제는 한 사람씩 밖으로 나올 수밖에 없었다. 오히려 전력이 노출되는 건 놈들에게 전술상 크나큰 실책이지."
+    },
+    {
+        "id": 457,
+        "raw": "[name=\"맨프레드\"]자객이라. 공간 환술에 능한 캐스터, 그리고 아직 모습을 드러내지 않은 밴시까지…… 로도스 아일랜드에게 남은 패는 과연 얼마나 더 있을까?",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "자객이라. 공간 환술에 능한 캐스터, 그리고 아직 모습을 드러내지 않은 밴시까지…… 로도스 아일랜드에게 남은 패는 과연 얼마나 더 있을까?"
+    },
+    {
+        "id": 458,
+        "raw": "[character(name=\"avg_npc_419_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_419_1#1$1"
+    },
+    {
+        "id": 459,
+        "raw": "[name=\"살카즈 전사\"]장군님, 계획이 있으십니까?",
+        "type": "dialog",
+        "speaker": "살카즈 전사",
+        "content": "장군님, 계획이 있으십니까?"
+    },
+    {
+        "id": 460,
+        "raw": "[character(name=\"avg_npc_404_1#3$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#3$1"
+    },
+    {
+        "id": 461,
+        "raw": "[name=\"맨프레드\"]……가자. 로도스 아일랜드를 상대하기 전에, 그 주제넘게 날뛰는 광대부터 처리한다.",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "……가자. 로도스 아일랜드를 상대하기 전에, 그 주제넘게 날뛰는 광대부터 처리한다."
+    },
+    {
+        "id": 462,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 463,
+        "raw": "[playsound(key=\"$d_gen_walk_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3"
+    },
+    {
+        "id": 464,
+        "raw": "[character(fadetime=1.5)]",
+        "type": "character",
+        "fadetime": 1.5
+    },
+    {
+        "id": 465,
+        "raw": "[delay(time=2)] ",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 466,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 467,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 468,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1.5, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1.5,",
+        "block": true
+    },
+    {
+        "id": 469,
+        "raw": "[Background(image=\"27_g10_lightinduarea_street_n\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "27_g10_lightinduarea_street_n.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 470,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1.5,",
+        "block": true
+    },
+    {
+        "id": 471,
+        "raw": "[PlaySound(key=\"$rungeneral\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_rungeneral.mp3",
+        "volume": 1
+    },
+    {
+        "id": 472,
+        "raw": "[character(name=\"avg_npc_235\", name2=\"avg_4039_horn_1#1$1\", fadetime=1.5)]",
+        "type": "character",
+        "name": "avg_npc_235",
+        "name2": "avg_4039_horn_1#1$1",
+        "fadetime": 1.5
+    },
+    {
+        "id": 473,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 474,
+        "raw": "[character(name=\"avg_npc_235\", name2=\"avg_4039_horn_1#1$1\", focus=1)]",
+        "type": "character",
+        "name": "avg_npc_235",
+        "name2": "avg_4039_horn_1#1$1",
+        "focus": 1
+    },
+    {
+        "id": 475,
+        "raw": "[name=\"???\"]일단은 여기까지.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "일단은 여기까지."
+    },
+    {
+        "id": 476,
+        "raw": "[character(name=\"avg_npc_235\", name2=\"avg_4039_horn_1#4$1\", focus=2)]",
+        "type": "character",
+        "name": "avg_npc_235",
+        "name2": "avg_4039_horn_1#4$1",
+        "focus": 2
+    },
+    {
+        "id": 477,
+        "raw": "[name=\"혼\"]여기는…… 공장 밖 거리?",
+        "type": "dialog",
+        "speaker": "혼",
+        "content": "여기는…… 공장 밖 거리?"
+    },
+    {
+        "id": 478,
+        "raw": "[name=\"혼\"]당신…… 당신은 단검으로 공간을 가른 건가요?",
+        "type": "dialog",
+        "speaker": "혼",
+        "content": "당신…… 당신은 단검으로 공간을 가른 건가요?"
+    },
+    {
+        "id": 479,
+        "raw": "[character(name=\"avg_npc_235\", name2=\"avg_4039_horn_1#4$1\", focus=1)]",
+        "type": "character",
+        "name": "avg_npc_235",
+        "name2": "avg_4039_horn_1#4$1",
+        "focus": 1
+    },
+    {
+        "id": 480,
+        "raw": "[name=\"???\"]자기 감각에 너무 의존하지 않는 게 좋아. 상대의 눈을 속이는 게 공간을 가르는 것보다 훨씬 더 쉬우니까.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "자기 감각에 너무 의존하지 않는 게 좋아. 상대의 눈을 속이는 게 공간을 가르는 것보다 훨씬 더 쉬우니까."
+    },
+    {
+        "id": 481,
+        "raw": "[character(name=\"avg_npc_235\", name2=\"avg_4039_horn_1#5$1\", focus=2)]",
+        "type": "character",
+        "name": "avg_npc_235",
+        "name2": "avg_4039_horn_1#5$1",
+        "focus": 2
+    },
+    {
+        "id": 482,
+        "raw": "[name=\"혼\"]당신……",
+        "type": "dialog",
+        "speaker": "혼",
+        "content": "당신……"
+    },
+    {
+        "id": 483,
+        "raw": "[name=\"혼\"]당신이 절 구해 준 건, 이번이 처음이 아니군요. 제 눈이 확실한 답을 알려 주지는 못하겠지만, 제 감각은 절대로 틀리지 않습니다.",
+        "type": "dialog",
+        "speaker": "혼",
+        "content": "당신이 절 구해 준 건, 이번이 처음이 아니군요. 제 눈이 확실한 답을 알려 주지는 못하겠지만, 제 감각은 절대로 틀리지 않습니다."
+    },
+    {
+        "id": 484,
+        "raw": "[name=\"혼\"]당신은 대체 누구입니까?",
+        "type": "dialog",
+        "speaker": "혼",
+        "content": "당신은 대체 누구입니까?"
+    },
+    {
+        "id": 485,
+        "raw": "[character(name=\"avg_npc_235\", name2=\"avg_4039_horn_1#5$1\", focus=1)]",
+        "type": "character",
+        "name": "avg_npc_235",
+        "name2": "avg_4039_horn_1#5$1",
+        "focus": 1
+    },
+    {
+        "id": 486,
+        "raw": "[name=\"???\"]미저리. 로도스 아일랜드의 미저리야.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "미저리. 로도스 아일랜드의 미저리야."
+    },
+    {
+        "id": 487,
+        "raw": "[character(name=\"avg_npc_235\", name2=\"avg_4039_horn_1#5$1\", focus=2)]",
+        "type": "character",
+        "name": "avg_npc_235",
+        "name2": "avg_4039_horn_1#5$1",
+        "focus": 2
+    },
+    {
+        "id": 488,
+        "raw": "[name=\"혼\"]로도스 아일랜드?",
+        "type": "dialog",
+        "speaker": "혼",
+        "content": "로도스 아일랜드?"
+    },
+    {
+        "id": 489,
+        "raw": "[name=\"혼\"]죄송합니다만……",
+        "type": "dialog",
+        "speaker": "혼",
+        "content": "죄송합니다만……"
+    },
+    {
+        "id": 490,
+        "raw": "[character(name=\"avg_npc_235\", name2=\"avg_4039_horn_1#5$1\", focus=1)]",
+        "type": "character",
+        "name": "avg_npc_235",
+        "name2": "avg_4039_horn_1#5$1",
+        "focus": 1
+    },
+    {
+        "id": 491,
+        "raw": "[name=\"미저리\"]나중에 백파이프를 통해 제대로 된 설명을 들을 수 있을 거야.",
+        "type": "dialog",
+        "speaker": "미저리",
+        "content": "나중에 백파이프를 통해 제대로 된 설명을 들을 수 있을 거야."
+    },
+    {
+        "id": 492,
+        "raw": "[character(name=\"avg_npc_235\", name2=\"avg_4039_horn_1#4$1\", focus=2)]",
+        "type": "character",
+        "name": "avg_npc_235",
+        "name2": "avg_4039_horn_1#4$1",
+        "focus": 2
+    },
+    {
+        "id": 493,
+        "raw": "[name=\"혼\"]백파이프요?",
+        "type": "dialog",
+        "speaker": "혼",
+        "content": "백파이프요?"
+    },
+    {
+        "id": 494,
+        "raw": "[character(name=\"avg_npc_235\", name2=\"avg_4039_horn_1#4$1\", focus=1)]",
+        "type": "character",
+        "name": "avg_npc_235",
+        "name2": "avg_4039_horn_1#4$1",
+        "focus": 1
+    },
+    {
+        "id": 495,
+        "raw": "[name=\"미저리\"]지금은 동료나 마찬가지니까.",
+        "type": "dialog",
+        "speaker": "미저리",
+        "content": "지금은 동료나 마찬가지니까."
+    },
+    {
+        "id": 496,
+        "raw": "[name=\"미저리\"]그리고…… 내 가장 친한 친구가 마지막으로 사귀었던 친구야.",
+        "type": "dialog",
+        "speaker": "미저리",
+        "content": "그리고…… 내 가장 친한 친구가 마지막으로 사귀었던 친구야."
+    },
+    {
+        "id": 497,
+        "raw": "[character(name=\"avg_npc_235\", name2=\"avg_4039_horn_1#6$1\", focus=2)]",
+        "type": "character",
+        "name": "avg_npc_235",
+        "name2": "avg_4039_horn_1#6$1",
+        "focus": 2
+    },
+    {
+        "id": 498,
+        "raw": "[name=\"혼\"]제가 많은 정보를 놓치고 있는 것 같군요.",
+        "type": "dialog",
+        "speaker": "혼",
+        "content": "제가 많은 정보를 놓치고 있는 것 같군요."
+    },
+    {
+        "id": 499,
+        "raw": "[name=\"혼\"]백파이프 얘기에 기뻐하기 전에, 당신과 로도스 아일랜드에 다시 한번 감사를 드리겠습니다.",
+        "type": "dialog",
+        "speaker": "혼",
+        "content": "백파이프 얘기에 기뻐하기 전에, 당신과 로도스 아일랜드에 다시 한번 감사를 드리겠습니다."
+    },
+    {
+        "id": 500,
+        "raw": "[character(name=\"avg_npc_235\", name2=\"avg_4039_horn_1#6$1\", focus=1)]",
+        "type": "character",
+        "name": "avg_npc_235",
+        "name2": "avg_4039_horn_1#6$1",
+        "focus": 1
+    },
+    {
+        "id": 501,
+        "raw": "[name=\"미저리\"]일단 여기를 떠나. 나중에 다시 만날 수 있을 거야.",
+        "type": "dialog",
+        "speaker": "미저리",
+        "content": "일단 여기를 떠나. 나중에 다시 만날 수 있을 거야."
+    },
+    {
+        "id": 502,
+        "raw": "[name=\"미저리\"]맨프레드가 내 오리지늄 아츠의 정체를 거의 알아차릴 뻔했다. 언제든지 쫓아올 수도 있어.",
+        "type": "dialog",
+        "speaker": "미저리",
+        "content": "맨프레드가 내 오리지늄 아츠의 정체를 거의 알아차릴 뻔했다. 언제든지 쫓아올 수도 있어."
+    },
+    {
+        "id": 503,
+        "raw": "[character(name=\"avg_npc_235\", name2=\"avg_4039_horn_1#2$1\", focus=2)]",
+        "type": "character",
+        "name": "avg_npc_235",
+        "name2": "avg_4039_horn_1#2$1",
+        "focus": 2
+    },
+    {
+        "id": 504,
+        "raw": "[name=\"혼\"]……아니요. 맨프레드는 지금 다른 일을 처리하러 갔을 겁니다.",
+        "type": "dialog",
+        "speaker": "혼",
+        "content": "……아니요. 맨프레드는 지금 다른 일을 처리하러 갔을 겁니다."
+    },
+    {
+        "id": 505,
+        "raw": "[character(name=\"avg_npc_235\", name2=\"avg_4039_horn_1#2$1\", focus=1)]",
+        "type": "character",
+        "name": "avg_npc_235",
+        "name2": "avg_4039_horn_1#2$1",
+        "focus": 1
+    },
+    {
+        "id": 506,
+        "raw": "[name=\"미저리\"]더블린 말인가.",
+        "type": "dialog",
+        "speaker": "미저리",
+        "content": "더블린 말인가."
+    },
+    {
+        "id": 507,
+        "raw": "[name=\"미저리\"]힐록 카운티의 만드라고라…… 이 공장을 빠져나갈 수 없을 거다.",
+        "type": "dialog",
+        "speaker": "미저리",
+        "content": "힐록 카운티의 만드라고라…… 이 공장을 빠져나갈 수 없을 거다."
+    },
+    {
+        "id": 508,
+        "raw": "[character(name=\"avg_npc_235\", name2=\"avg_4039_horn_1#5$1\", focus=2)]",
+        "type": "character",
+        "name": "avg_npc_235",
+        "name2": "avg_4039_horn_1#5$1",
+        "focus": 2
+    },
+    {
+        "id": 509,
+        "raw": "[name=\"혼\"]……",
+        "type": "dialog",
+        "speaker": "혼",
+        "content": "……"
+    },
+    {
+        "id": 510,
+        "raw": "[character(name=\"avg_npc_235\", name2=\"avg_4039_horn_1#5$1\", focus=1)]",
+        "type": "character",
+        "name": "avg_npc_235",
+        "name2": "avg_4039_horn_1#5$1",
+        "focus": 1
+    },
+    {
+        "id": 511,
+        "raw": "[name=\"미저리\"]전우들을 위해 직접 복수할 수 없어서 아쉬운가?",
+        "type": "dialog",
+        "speaker": "미저리",
+        "content": "전우들을 위해 직접 복수할 수 없어서 아쉬운가?"
+    },
+    {
+        "id": 512,
+        "raw": "[character(name=\"avg_npc_235\", name2=\"avg_4039_horn_1#2$1\", focus=2)]",
+        "type": "character",
+        "name": "avg_npc_235",
+        "name2": "avg_4039_horn_1#2$1",
+        "focus": 2
+    },
+    {
+        "id": 513,
+        "raw": "[name=\"혼\"]저…… 저는 그저 슬플 뿐입니다.",
+        "type": "dialog",
+        "speaker": "혼",
+        "content": "저…… 저는 그저 슬플 뿐입니다."
+    },
+    {
+        "id": 514,
+        "raw": "[name=\"혼\"]여기서 마주쳤음에도, 그녀를 죽일 기회를 놓친 걸 후회하는 자신이 슬프고……",
+        "type": "dialog",
+        "speaker": "혼",
+        "content": "여기서 마주쳤음에도, 그녀를 죽일 기회를 놓친 걸 후회하는 자신이 슬프고……"
+    },
+    {
+        "id": 515,
+        "raw": "[name=\"혼\"]이미 구제 불능이 된 그녀가 슬프기도 하고요.",
+        "type": "dialog",
+        "speaker": "혼",
+        "content": "이미 구제 불능이 된 그녀가 슬프기도 하고요."
+    },
+    {
+        "id": 516,
+        "raw": "[stopmusic(fadetime=1)]",
+        "type": "stop_music",
+        "fadetime": 1
+    },
+    {
+        "id": 517,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 518,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 519,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1.5, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1.5,",
+        "block": true
+    },
+    {
+        "id": 520,
+        "raw": "[Background(image=\"27_g8_jail\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "27_g8_jail.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 521,
+        "raw": "[character(name=\"avg_npc_233_1#5\")]",
+        "type": "character",
+        "name": "avg_npc_233_1#5"
+    },
+    {
+        "id": 522,
+        "raw": "[PlayMusic(intro=\"$suspenseful_intro\", key=\"$suspenseful_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act15d0d0/m_avg_suspenseful_intro.mp3",
+        "key": "sound_beta_2/music/act15d0d0/m_avg_suspenseful_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 523,
+        "raw": "[delay(time=1)] ",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 524,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 525,
+        "raw": "[name=\"만드라고라\"]이상하네. 분명 말했다고 하지 않았나? 왜 데리러 오지 않는 거지?",
+        "type": "dialog",
+        "speaker": "만드라고라",
+        "content": "이상하네. 분명 말했다고 하지 않았나? 왜 데리러 오지 않는 거지?"
+    },
+    {
+        "id": 526,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 527,
+        "raw": "[character(name=\"avg_npc_244\")]",
+        "type": "character",
+        "name": "avg_npc_244"
+    },
+    {
+        "id": 528,
+        "raw": "[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]",
+        "type": "blocker",
+        "a": "0.7,",
+        "r": "0.95,",
+        "g": "0.95,",
+        "b": "0.95,",
+        "fadetime": "0.02,",
+        "block": true
+    },
+    {
+        "id": 529,
+        "raw": "[PlaySound(key=\"$d_avg_arrow\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_arrow.mp3"
+    },
+    {
+        "id": 530,
+        "raw": "[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0.95,",
+        "g": "0.95,",
+        "b": "0.95,",
+        "fadetime": "0.25,",
+        "block": true
+    },
+    {
+        "id": 531,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 532,
+        "raw": "[CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=true)]",
+        "type": "camera_shake",
+        "duration": "0.6,",
+        "xstrength": "5,",
+        "ystrength": "8,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "block": true
+    },
+    {
+        "id": 533,
+        "raw": "[name=\"더블린 병사\"]제가…… 크헉!",
+        "type": "dialog",
+        "speaker": "더블린 병사",
+        "content": "제가…… 크헉!"
+    },
+    {
+        "id": 534,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 535,
+        "raw": "[playsound(key=\"$bodyfalldown2\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_bodyfalldown2.mp3"
+    },
+    {
+        "id": 536,
+        "raw": "[character(fadetime=1.5)]",
+        "type": "character",
+        "fadetime": 1.5
+    },
+    {
+        "id": 537,
+        "raw": "[delay(time=2)] ",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 538,
+        "raw": "[character(name=\"avg_npc_233_1#7\")]",
+        "type": "character",
+        "name": "avg_npc_233_1#7"
+    },
+    {
+        "id": 539,
+        "raw": "[name=\"만드라고라\"]무슨……",
+        "type": "dialog",
+        "speaker": "만드라고라",
+        "content": "무슨……"
+    },
+    {
+        "id": 540,
+        "raw": "[character(name=\"avg_npc_244\")]",
+        "type": "character",
+        "name": "avg_npc_244"
+    },
+    {
+        "id": 541,
+        "raw": "[name=\"더블린 병사\"]살카즈! 살카즈다! 얼른 도망쳐……",
+        "type": "dialog",
+        "speaker": "더블린 병사",
+        "content": "살카즈! 살카즈다! 얼른 도망쳐……"
+    },
+    {
+        "id": 542,
+        "raw": "[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]",
+        "type": "blocker",
+        "a": "0.7,",
+        "r": "0.95,",
+        "g": "0.95,",
+        "b": "0.95,",
+        "fadetime": "0.02,",
+        "block": true
+    },
+    {
+        "id": 543,
+        "raw": "[PlaySound(key=\"$d_avg_arrow\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_arrow.mp3"
+    },
+    {
+        "id": 544,
+        "raw": "[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0.95,",
+        "g": "0.95,",
+        "b": "0.95,",
+        "fadetime": "0.25,",
+        "block": true
+    },
+    {
+        "id": 545,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 546,
+        "raw": "[CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=true)]",
+        "type": "camera_shake",
+        "duration": "0.6,",
+        "xstrength": "5,",
+        "ystrength": "8,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "block": true
+    },
+    {
+        "id": 547,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 548,
+        "raw": "[character(fadetime=1.5)]",
+        "type": "character",
+        "fadetime": 1.5
+    },
+    {
+        "id": 549,
+        "raw": "[playsound(key=\"$bodyfalldown2\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_bodyfalldown2.mp3"
+    },
+    {
+        "id": 550,
+        "raw": "[delay(time=2)] ",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 551,
+        "raw": "[character(name=\"avg_npc_233_1#8\")]",
+        "type": "character",
+        "name": "avg_npc_233_1#8"
+    },
+    {
+        "id": 552,
+        "raw": "[name=\"만드라고라\"]……들킨 건가?",
+        "type": "dialog",
+        "speaker": "만드라고라",
+        "content": "……들킨 건가?"
+    },
+    {
+        "id": 553,
+        "raw": "[name=\"만드라고라\"]안돼, 안돼. '스파이', 얼른 가자……",
+        "type": "dialog",
+        "speaker": "만드라고라",
+        "content": "안돼, 안돼. '스파이', 얼른 가자……"
+    },
+    {
+        "id": 554,
+        "raw": "[name=\"만드라고라\"]저 문만 나가면 돼. 문까지 10m도 안 되잖아? 겨우 10m니까 금방 갈 수 있을 거야……",
+        "type": "dialog",
+        "speaker": "만드라고라",
+        "content": "저 문만 나가면 돼. 문까지 10m도 안 되잖아? 겨우 10m니까 금방 갈 수 있을 거야……"
+    },
+    {
+        "id": 555,
+        "raw": "[character(name=\"avg_npc_421_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_421_1#1$1"
+    },
+    {
+        "id": 556,
+        "raw": "[name=\"타라 밀정\"]아…… 알았어. 가자……",
+        "type": "dialog",
+        "speaker": "타라 밀정",
+        "content": "아…… 알았어. 가자……"
+    },
+    {
+        "id": 557,
+        "raw": "[character(name=\"avg_npc_233_1#8\")]",
+        "type": "character",
+        "name": "avg_npc_233_1#8"
+    },
+    {
+        "id": 558,
+        "raw": "[name=\"만드라고라\"]옛날처럼 내 손을 잡고 뛰어. 빠르게만 달리면 귀족 꼬맹이들도 우리를 쫓아올 수 없었지……",
+        "type": "dialog",
+        "speaker": "만드라고라",
+        "content": "옛날처럼 내 손을 잡고 뛰어. 빠르게만 달리면 귀족 꼬맹이들도 우리를 쫓아올 수 없었지……"
+    },
+    {
+        "id": 559,
+        "raw": "[character(name=\"avg_npc_233_1#9\")]",
+        "type": "character",
+        "name": "avg_npc_233_1#9"
+    },
+    {
+        "id": 560,
+        "raw": "[name=\"만드라고라\"]석상! 막아, 저들을 막아!",
+        "type": "dialog",
+        "speaker": "만드라고라",
+        "content": "석상! 막아, 저들을 막아!"
+    },
+    {
+        "id": 561,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 562,
+        "raw": "[playsound(key=\"$p_imp_blunt_h\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/player/p_imp/p_imp_blunt_h.mp3"
+    },
+    {
+        "id": 563,
+        "raw": "[Blocker(a=1, r=0.95, g=0.95, b=0.95, fadetime=0.2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0.95,",
+        "g": "0.95,",
+        "b": "0.95,",
+        "fadetime": "0.2,",
+        "block": true
+    },
+    {
+        "id": 564,
+        "raw": "[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0.95,",
+        "g": "0.95,",
+        "b": "0.95,",
+        "fadetime": "0.25,",
+        "block": true
+    },
+    {
+        "id": 565,
+        "raw": "[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "xstrength": "10,",
+        "ystrength": "12,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": true
+    },
+    {
+        "id": 566,
+        "raw": "[PlaySound(key=\"$d_gen_explo_n\", volume=0.6)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_explo_n.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 567,
+        "raw": "[delay(time=0.51)]",
+        "type": "delay",
+        "time": 0.51
+    },
+    {
+        "id": 568,
+        "raw": "[PlaySound(key=\"$d_avg_rockfall\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_rockfall.mp3",
+        "volume": 1
+    },
+    {
+        "id": 569,
+        "raw": "[CameraShake(duration=1, xstrength=50, ystrength=50, vibrato=60, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "xstrength": "50,",
+        "ystrength": "50,",
+        "vibrato": "60,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 570,
+        "raw": "[name=\"만드라고라\"]빌어먹을! 이럴 때 너희들조차 상대가 안 되나?",
+        "type": "dialog",
+        "speaker": "만드라고라",
+        "content": "빌어먹을! 이럴 때 너희들조차 상대가 안 되나?"
+    },
+    {
+        "id": 571,
+        "raw": "[character(name=\"avg_npc_421_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_421_1#1$1"
+    },
+    {
+        "id": 572,
+        "raw": "[name=\"타라 밀정\"]만드라고라……",
+        "type": "dialog",
+        "speaker": "타라 밀정",
+        "content": "만드라고라……"
+    },
+    {
+        "id": 573,
+        "raw": "[character(name=\"avg_npc_233_1#8\")]",
+        "type": "character",
+        "name": "avg_npc_233_1#8"
+    },
+    {
+        "id": 574,
+        "raw": "[name=\"만드라고라\"]왜? 내가 당분간 말하지 말라고 했잖아?",
+        "type": "dialog",
+        "speaker": "만드라고라",
+        "content": "왜? 내가 당분간 말하지 말라고 했잖아?"
+    },
+    {
+        "id": 575,
+        "raw": "[character(name=\"avg_npc_421_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_421_1#1$1"
+    },
+    {
+        "id": 576,
+        "raw": "[name=\"타라 밀정\"]난 글렀어. 너 혼자 가.",
+        "type": "dialog",
+        "speaker": "타라 밀정",
+        "content": "난 글렀어. 너 혼자 가."
+    },
+    {
+        "id": 577,
+        "raw": "[character(name=\"avg_npc_233_1#8\")]",
+        "type": "character",
+        "name": "avg_npc_233_1#8"
+    },
+    {
+        "id": 578,
+        "raw": "[name=\"만드라고라\"]무슨 소리야……? 내가 지금까지 해 온 일이 전부……",
+        "type": "dialog",
+        "speaker": "만드라고라",
+        "content": "무슨 소리야……? 내가 지금까지 해 온 일이 전부……"
+    },
+    {
+        "id": 579,
+        "raw": "[character(name=\"avg_npc_421_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_421_1#1$1"
+    },
+    {
+        "id": 580,
+        "raw": "[name=\"타라 밀정\"]……날 구하기 위해서? 아니면 리더에게 인정받기 위해서?",
+        "type": "dialog",
+        "speaker": "타라 밀정",
+        "content": "……날 구하기 위해서? 아니면 리더에게 인정받기 위해서?"
+    },
+    {
+        "id": 581,
+        "raw": "[character(name=\"avg_npc_233_1#7\")]",
+        "type": "character",
+        "name": "avg_npc_233_1#7"
+    },
+    {
+        "id": 582,
+        "raw": "[name=\"만드라고라\"]어느 쪽이든 뭐가 달라? '스파이', 헛소리 하지 마! 앞으로 5m만 남았어. 우리 사람들이 밖에서 기다린다고!",
+        "type": "dialog",
+        "speaker": "만드라고라",
+        "content": "어느 쪽이든 뭐가 달라? '스파이', 헛소리 하지 마! 앞으로 5m만 남았어. 우리 사람들이 밖에서 기다린다고!"
+    },
+    {
+        "id": 583,
+        "raw": "[PlaySound(key=\"$d_avg_arrow_rain\", volume=0.5)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_arrow_rain.mp3",
+        "volume": 0.5
+    },
+    {
+        "id": 584,
+        "raw": "[character(name=\"avg_npc_421_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_421_1#1$1"
+    },
+    {
+        "id": 585,
+        "raw": "[name=\"타라 밀정\"]그들은, 없어.",
+        "type": "dialog",
+        "speaker": "타라 밀정",
+        "content": "그들은, 없어."
+    },
+    {
+        "id": 586,
+        "raw": "[character(name=\"avg_npc_233_1#4\")]",
+        "type": "character",
+        "name": "avg_npc_233_1#4"
+    },
+    {
+        "id": 587,
+        "raw": "[name=\"만드라고라\"]뭐?",
+        "type": "dialog",
+        "speaker": "만드라고라",
+        "content": "뭐?"
+    },
+    {
+        "id": 588,
+        "raw": "[character(name=\"avg_npc_421_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_421_1#1$1"
+    },
+    {
+        "id": 589,
+        "raw": "[name=\"타라 밀정\"]만드라고라…… 리더는…… 진작에 우리를 버렸어……",
+        "type": "dialog",
+        "speaker": "타라 밀정",
+        "content": "만드라고라…… 리더는…… 진작에 우리를 버렸어……"
+    },
+    {
+        "id": 590,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 591,
+        "raw": "[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]",
+        "type": "blocker",
+        "a": "0.7,",
+        "r": "0.95,",
+        "g": "0.95,",
+        "b": "0.95,",
+        "fadetime": "0.02,",
+        "block": true
+    },
+    {
+        "id": 592,
+        "raw": "[PlaySound(key=\"$d_avg_arrow\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_arrow.mp3"
+    },
+    {
+        "id": 593,
+        "raw": "[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0.95,",
+        "g": "0.95,",
+        "b": "0.95,",
+        "fadetime": "0.25,",
+        "block": true
+    },
+    {
+        "id": 594,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 595,
+        "raw": "[CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=true)]",
+        "type": "camera_shake",
+        "duration": "0.6,",
+        "xstrength": "5,",
+        "ystrength": "8,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "block": true
+    },
+    {
+        "id": 596,
+        "raw": "[delay(time=0.51)]",
+        "type": "delay",
+        "time": 0.51
+    },
+    {
+        "id": 597,
+        "raw": "[character(name=\"avg_npc_233_1#8\")]",
+        "type": "character",
+        "name": "avg_npc_233_1#8"
+    },
+    {
+        "id": 598,
+        "raw": "[name=\"만드라고라\"]'스파이'!!!",
+        "type": "dialog",
+        "speaker": "만드라고라",
+        "content": "'스파이'!!!"
+    },
+    {
+        "id": 599,
+        "raw": "[name=\"만드라고라\"]빌어먹을, 빌어먹을…… 돌기둥, 빨리, 저들을 뚫어버려! 저 살카즈들을!",
+        "type": "dialog",
+        "speaker": "만드라고라",
+        "content": "빌어먹을, 빌어먹을…… 돌기둥, 빨리, 저들을 뚫어버려! 저 살카즈들을!"
+    },
+    {
+        "id": 600,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 601,
+        "raw": "[playsound(key=\"$p_imp_blunt_h\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/player/p_imp/p_imp_blunt_h.mp3"
+    },
+    {
+        "id": 602,
+        "raw": "[Blocker(a=1, r=0.95, g=0.95, b=0.95, fadetime=0.2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0.95,",
+        "g": "0.95,",
+        "b": "0.95,",
+        "fadetime": "0.2,",
+        "block": true
+    },
+    {
+        "id": 603,
+        "raw": "[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0.95,",
+        "g": "0.95,",
+        "b": "0.95,",
+        "fadetime": "0.25,",
+        "block": true
+    },
+    {
+        "id": 604,
+        "raw": "[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "xstrength": "10,",
+        "ystrength": "12,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": true
+    },
+    {
+        "id": 605,
+        "raw": "[name=\"만드라고라\"]괜찮아, '스파이'. 넌 무사할 거야. 화살에 맞은 것뿐이야. 이제 3m만 남았어. 내가 널 업고서라도……",
+        "type": "dialog",
+        "speaker": "만드라고라",
+        "content": "괜찮아, '스파이'. 넌 무사할 거야. 화살에 맞은 것뿐이야. 이제 3m만 남았어. 내가 널 업고서라도……"
+    },
+    {
+        "id": 606,
+        "raw": "[character(name=\"avg_npc_421_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_421_1#1$1"
+    },
+    {
+        "id": 607,
+        "raw": "[name=\"타라 밀정\"]……빨리 가.",
+        "type": "dialog",
+        "speaker": "타라 밀정",
+        "content": "……빨리 가."
+    },
+    {
+        "id": 608,
+        "raw": "[character(name=\"avg_npc_233_1#5\")]",
+        "type": "character",
+        "name": "avg_npc_233_1#5"
+    },
+    {
+        "id": 609,
+        "raw": "[name=\"만드라고라\"]나는……",
+        "type": "dialog",
+        "speaker": "만드라고라",
+        "content": "나는……"
+    },
+    {
+        "id": 610,
+        "raw": "[character(name=\"avg_npc_421_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_421_1#1$1"
+    },
+    {
+        "id": 611,
+        "raw": "[name=\"타라 밀정\"]네가 살아남을 수 있다면……",
+        "type": "dialog",
+        "speaker": "타라 밀정",
+        "content": "네가 살아남을 수 있다면……"
+    },
+    {
+        "id": 612,
+        "raw": "[name=\"타라 밀정\"]리더…… 리더한테 가지 마.",
+        "type": "dialog",
+        "speaker": "타라 밀정",
+        "content": "리더…… 리더한테 가지 마."
+    },
+    {
+        "id": 613,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 614,
+        "raw": "[playsound(key=\"$bodyfalldown2\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_bodyfalldown2.mp3"
+    },
+    {
+        "id": 615,
+        "raw": "[character(fadetime=1.5)]",
+        "type": "character",
+        "fadetime": 1.5
+    },
+    {
+        "id": 616,
+        "raw": "[delay(time=2)] ",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 617,
+        "raw": "[character(name=\"avg_npc_233_1#5\")]",
+        "type": "character",
+        "name": "avg_npc_233_1#5"
+    },
+    {
+        "id": 618,
+        "raw": "[name=\"만드라고라\"]죽었…… 어?",
+        "type": "dialog",
+        "speaker": "만드라고라",
+        "content": "죽었…… 어?"
+    },
+    {
+        "id": 619,
+        "raw": "[name=\"만드라고라\"]이렇게 쉽게 죽으면 안 되는 거잖아…… 난……",
+        "type": "dialog",
+        "speaker": "만드라고라",
+        "content": "이렇게 쉽게 죽으면 안 되는 거잖아…… 난……"
+    },
+    {
+        "id": 620,
+        "raw": "[character(name=\"avg_npc_233_1#7\")]",
+        "type": "character",
+        "name": "avg_npc_233_1#7"
+    },
+    {
+        "id": 621,
+        "raw": "[name=\"만드라고라\"]킬리언, 킬리언…… 이 멍청한 자식아! 누가 맘대로 여기서 죽으라고 했어! 일어나, 당장 일어나란 말이야!",
+        "type": "dialog",
+        "speaker": "만드라고라",
+        "content": "킬리언, 킬리언…… 이 멍청한 자식아! 누가 맘대로 여기서 죽으라고 했어! 일어나, 당장 일어나란 말이야!"
+    },
+    {
+        "id": 622,
+        "raw": "[character(name=\"avg_npc_404_1#4$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#4$1"
+    },
+    {
+        "id": 623,
+        "raw": "[name=\"맨프레드\"]조급해할 필요는 없다!",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "조급해할 필요는 없다!"
+    },
+    {
+        "id": 624,
+        "raw": "[name=\"맨프레드\"]너도 곧 그 친구를 만날 수 있을 테니, 만드라고라.",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "너도 곧 그 친구를 만날 수 있을 테니, 만드라고라."
+    },
+    {
+        "id": 625,
+        "raw": "[character(name=\"avg_npc_233_1#8\")]",
+        "type": "character",
+        "name": "avg_npc_233_1#8"
+    },
+    {
+        "id": 626,
+        "raw": "[name=\"만드라고라\"]……",
+        "type": "dialog",
+        "speaker": "만드라고라",
+        "content": "……"
+    },
+    {
+        "id": 627,
+        "raw": "[character(name=\"avg_npc_233_1#7\")]",
+        "type": "character",
+        "name": "avg_npc_233_1#7"
+    },
+    {
+        "id": 628,
+        "raw": "[name=\"만드라고라\"]하…… 하하하핫!",
+        "type": "dialog",
+        "speaker": "만드라고라",
+        "content": "하…… 하하하핫!"
+    },
+    {
+        "id": 629,
+        "raw": "[name=\"만드라고라\"]맨프레드, 내게 또 열한 개의 목숨을 빚졌어.",
+        "type": "dialog",
+        "speaker": "만드라고라",
+        "content": "맨프레드, 내게 또 열한 개의 목숨을 빚졌어."
+    },
+    {
+        "id": 630,
+        "raw": "[name=\"만드라고라\"]내가 겨우…… 겨우 그렇게 많은 살카즈를 죽였는데.",
+        "type": "dialog",
+        "speaker": "만드라고라",
+        "content": "내가 겨우…… 겨우 그렇게 많은 살카즈를 죽였는데."
+    },
+    {
+        "id": 631,
+        "raw": "[character(name=\"avg_npc_404_1#2$1\")]",
+        "type": "character",
+        "name": "avg_npc_404_1#2$1"
+    },
+    {
+        "id": 632,
+        "raw": "[name=\"맨프레드\"]……그게 바로 네가 여기서 죽어야 하는 이유다.",
+        "type": "dialog",
+        "speaker": "맨프레드",
+        "content": "……그게 바로 네가 여기서 죽어야 하는 이유다."
+    },
+    {
+        "id": 633,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 634,
+        "raw": "[character]",
+        "type": "character"
+    },
+    {
+        "id": 635,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 636,
+        "raw": "[PlaySound(key=\"$d_gen_soldiersrun\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_soldiersrun.mp3",
+        "volume": 1
+    },
+    {
+        "id": 637,
+        "raw": "[Character(name=\"avg_npc_419_1#1$1\",enter=\"left\",name2=\"avg_npc_419_1#1$1\",enter2=\"right\",fadetime=1.5,block=true)]",
+        "type": "character",
+        "name": "avg_npc_419_1#1$1",
+        "enter": "left",
+        "name2": "avg_npc_419_1#1$1",
+        "enter2": "right",
+        "fadetime": "1.5,block=true"
+    },
+    {
+        "id": 638,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 639,
+        "raw": "[character(name=\"avg_npc_233_1#8\")]",
+        "type": "character",
+        "name": "avg_npc_233_1#8"
+    },
+    {
+        "id": 640,
+        "raw": "[name=\"만드라고라\"]좋아…… 고맙게도 제 발로 와 주었구나.",
+        "type": "dialog",
+        "speaker": "만드라고라",
+        "content": "좋아…… 고맙게도 제 발로 와 주었구나."
+    },
+    {
+        "id": 641,
+        "raw": "[name=\"만드라고라\"]하나도 남김없이 부숴버릴 거야!",
+        "type": "dialog",
+        "speaker": "만드라고라",
+        "content": "하나도 남김없이 부숴버릴 거야!"
+    },
+    {
+        "id": 642,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 643,
+        "raw": "[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 644,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 645,
+        "raw": "[stopmusic(fadetime=1)]",
+        "type": "stop_music",
+        "fadetime": 1
+    },
+    {
+        "id": 646,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 647,
+        "raw": "[Image]",
+        "type": "image"
+    }
+]

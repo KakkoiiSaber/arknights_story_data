@@ -1,0 +1,1246 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")] ",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK"
+    },
+    {
+        "id": 2,
+        "raw": "[stopmusic]",
+        "type": "stop_music"
+    },
+    {
+        "id": 3,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 4,
+        "raw": "[playMusic(intro=\"$dignified_intro\", key=\"$dignified_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act9d0d0/m_avg_dignified_intro.mp3",
+        "key": "sound_beta_2/music/act9d0d0/m_avg_dignified_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 5,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 6,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 7,
+        "raw": "[Background(image=\"bg_corridor\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_corridor.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 8,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 9,
+        "raw": "6:30 p.m.",
+        "type": "narration",
+        "content": "6:30 p.m."
+    },
+    {
+        "id": 10,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 11,
+        "raw": "[PlaySound(key=\"$dooropenquite\", volume=0.6)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_dooropenquite.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 12,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 13,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3"
+    },
+    {
+        "id": 14,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 15,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 16,
+        "raw": "[name=\"PRTS\"]  Number 00000-00002, Clearance Level-8.",
+        "type": "dialog",
+        "speaker": "PRTS",
+        "content": "Number 00000-00002, Clearance Level-8."
+    },
+    {
+        "id": 17,
+        "raw": "[name=\"PRTS\"]  Dr. {@nickname}, thank you for visiting the Rhodes Island Integrated Bioprocessing Unit. Your intentions have been determined through analysis of available biological data.",
+        "type": "dialog",
+        "speaker": "PRTS",
+        "content": "Dr. {@nickname}, thank you for visiting the Rhodes Island Integrated Bioprocessing Unit. Your intentions have been determined through analysis of available biological data."
+    },
+    {
+        "id": 18,
+        "raw": "[name=\"PRTS\"]  In addition, the system detects that you are in a bad mood.",
+        "type": "dialog",
+        "speaker": "PRTS",
+        "content": "In addition, the system detects that you are in a bad mood."
+    },
+    {
+        "id": 19,
+        "raw": "[Decision(options=\"Leave me alone.;......;And what would count for a good mood?\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "Leave me alone.;......;And what would count for a good mood?",
+        "values": "1;2;3"
+    },
+    {
+        "id": 20,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 21,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 22,
+        "raw": "[name=\"PRTS\"]  Dr. {@nickname} is displaying aggression.",
+        "type": "dialog",
+        "speaker": "PRTS",
+        "content": "Dr. {@nickname} is displaying aggression."
+    },
+    {
+        "id": 23,
+        "raw": "[name=\"PRTS\"]  Rest assured the system will not electrocute you. There is no need to fear these tests.",
+        "type": "dialog",
+        "speaker": "PRTS",
+        "content": "Rest assured the system will not electrocute you. There is no need to fear these tests."
+    },
+    {
+        "id": 24,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 25,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 26,
+        "raw": "[name=\"PRTS\"]  Dr. {@nickname} fell silent.",
+        "type": "dialog",
+        "speaker": "PRTS",
+        "content": "Dr. {@nickname} fell silent."
+    },
+    {
+        "id": 27,
+        "raw": "[name=\"PRTS\"]  Whether silent protest or refusal to communicate, I believe it is an expression of an autism spectrum disorder.",
+        "type": "dialog",
+        "speaker": "PRTS",
+        "content": "Whether silent protest or refusal to communicate, I believe it is an expression of an autism spectrum disorder."
+    },
+    {
+        "id": 28,
+        "raw": "[name=\"PRTS\"]  Please, by all means. The system treats all equally.",
+        "type": "dialog",
+        "speaker": "PRTS",
+        "content": "Please, by all means. The system treats all equally."
+    },
+    {
+        "id": 29,
+        "raw": "[Predicate(references=\"3\")]",
+        "type": "predicate",
+        "references": "3"
+    },
+    {
+        "id": 30,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 31,
+        "raw": "[name=\"PRTS\"]  Good and bad are subjective judgments.",
+        "type": "dialog",
+        "speaker": "PRTS",
+        "content": "Good and bad are subjective judgments."
+    },
+    {
+        "id": 32,
+        "raw": "[name=\"PRTS\"]  However, this system has collected nearly all documented states of mental activity, as well as hormonal criteria for various types of neurological excitement.",
+        "type": "dialog",
+        "speaker": "PRTS",
+        "content": "However, this system has collected nearly all documented states of mental activity, as well as hormonal criteria for various types of neurological excitement."
+    },
+    {
+        "id": 33,
+        "raw": "[name=\"PRTS\"]  So you could argue that the system's subjective judgment is substantially closer to objective truth.",
+        "type": "dialog",
+        "speaker": "PRTS",
+        "content": "So you could argue that the system's subjective judgment is substantially closer to objective truth."
+    },
+    {
+        "id": 34,
+        "raw": "[name=\"PRTS\"]  Therefore, no matter what action Dr. {@nickname} may take, the system will be able to process it to some degree.",
+        "type": "dialog",
+        "speaker": "PRTS",
+        "content": "Therefore, no matter what action Dr. {@nickname} may take, the system will be able to process it to some degree."
+    },
+    {
+        "id": 35,
+        "raw": "[name=\"PRTS\"]  Which is to say: you may do as you wish.",
+        "type": "dialog",
+        "speaker": "PRTS",
+        "content": "Which is to say: you may do as you wish."
+    },
+    {
+        "id": 36,
+        "raw": "[name=\"PRTS\"]  PRTS is equipped with a nonlethal pacification function.",
+        "type": "dialog",
+        "speaker": "PRTS",
+        "content": "PRTS is equipped with a nonlethal pacification function."
+    },
+    {
+        "id": 37,
+        "raw": "[name=\"PRTS\"]  Should you take unreasonable action, you will lose consciousness for 3.55 working hours, ensuring you maintain a behavioral standard close to normal.",
+        "type": "dialog",
+        "speaker": "PRTS",
+        "content": "Should you take unreasonable action, you will lose consciousness for 3.55 working hours, ensuring you maintain a behavioral standard close to normal."
+    },
+    {
+        "id": 38,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 39,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 40,
+        "raw": "[name=\"PRTS\"]  Welcome home, Doctor.",
+        "type": "dialog",
+        "speaker": "PRTS",
+        "content": "Welcome home, Doctor."
+    },
+    {
+        "id": 41,
+        "raw": "[Decision(options=\"Can this really be called home?\", values=\"1\")]",
+        "type": "decision",
+        "options": "Can this really be called home?",
+        "values": "1"
+    },
+    {
+        "id": 42,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 43,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 44,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3"
+    },
+    {
+        "id": 45,
+        "raw": "[Character(name=\"avg_npc_042\",fadetime=1,block=true)]",
+        "type": "character",
+        "name": "avg_npc_042",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 46,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 47,
+        "raw": "[name=\"???\"]  Are you Dr. {@nickname}?",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "Are you Dr. {@nickname}?"
+    },
+    {
+        "id": 48,
+        "raw": "[Decision(options=\"Huh?;......?;Hello?\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "Huh?;......?;Hello?",
+        "values": "1;2;3"
+    },
+    {
+        "id": 49,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 50,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 51,
+        "raw": "[name=\"???\"]  It's you. I'm sure of it.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "It's you. I'm sure of it."
+    },
+    {
+        "id": 52,
+        "raw": "[name=\"???\"]  I can feel it... you're a little different.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "I can feel it... you're a little different."
+    },
+    {
+        "id": 53,
+        "raw": "[name=\"???\"]  But... the person you're holding, that uniform...",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "But... the person you're holding, that uniform..."
+    },
+    {
+        "id": 54,
+        "raw": "[name=\"???\"]  Can I ask who's that you're holding?",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "Can I ask who's that you're holding?"
+    },
+    {
+        "id": 55,
+        "raw": "[Decision(options=\"A fighter.;One of my people.;A friend.\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "A fighter.;One of my people.;A friend.",
+        "values": "1;2;3"
+    },
+    {
+        "id": 56,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 57,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 58,
+        "raw": "[name=\"???\"]  Fighter?",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "Fighter?"
+    },
+    {
+        "id": 59,
+        "raw": "[name=\"???\"]  Oh... she wounded you. Were you fighting?",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "Oh... she wounded you. Were you fighting?"
+    },
+    {
+        "id": 60,
+        "raw": "[name=\"???\"]  No, you weren't... This isn't a lethal wound.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "No, you weren't... This isn't a lethal wound."
+    },
+    {
+        "id": 61,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 62,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 63,
+        "raw": "[name=\"???\"]  Is she Infected too...?",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "Is she Infected too...?"
+    },
+    {
+        "id": 64,
+        "raw": "[name=\"???\"]  No, that's not what you meant.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "No, that's not what you meant."
+    },
+    {
+        "id": 65,
+        "raw": "[name=\"???\"]  Dr. {@nickname}, you seem like you lost something.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "Dr. {@nickname}, you seem like you lost something."
+    },
+    {
+        "id": 66,
+        "raw": "[Predicate(references=\"3\")]",
+        "type": "predicate",
+        "references": "3"
+    },
+    {
+        "id": 67,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 68,
+        "raw": "[name=\"???\"]  She's your friend?",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "She's your friend?"
+    },
+    {
+        "id": 69,
+        "raw": "[name=\"???\"]  But... you barely know her at all.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "But... you barely know her at all."
+    },
+    {
+        "id": 70,
+        "raw": "[name=\"???\"]  I don't know... this might disappear soon.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "I don't know... this might disappear soon."
+    },
+    {
+        "id": 71,
+        "raw": "[Decision(options=\"What... do you feel?\", values=\"1\")]",
+        "type": "decision",
+        "options": "What... do you feel?",
+        "values": "1"
+    },
+    {
+        "id": 72,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 73,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 74,
+        "raw": "[name=\"???\"]  Traces of people communicating with each other. Smell, warmth, shape.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "Traces of people communicating with each other. Smell, warmth, shape."
+    },
+    {
+        "id": 75,
+        "raw": "[name=\"???\"]  I'm not sure, but she...",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "I'm not sure, but she..."
+    },
+    {
+        "id": 76,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 77,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 78,
+        "raw": "The girl reaches out to FrostNova.",
+        "type": "narration",
+        "content": "The girl reaches out to FrostNova."
+    },
+    {
+        "id": 79,
+        "raw": "[Decision(options=\"(Let her).;(Stop her).\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "(Let her).;(Stop her).",
+        "values": "1;2"
+    },
+    {
+        "id": 80,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 81,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 82,
+        "raw": "[name=\"???\"]  Hm.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "Hm."
+    },
+    {
+        "id": 83,
+        "raw": "[name=\"???\"]  No.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "No."
+    },
+    {
+        "id": 84,
+        "raw": "[name=\"???\"]  You don't want me to do that?",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "You don't want me to do that?"
+    },
+    {
+        "id": 85,
+        "raw": "[name=\"???\"]  No. I'm an outsider. I don't know her.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "No. I'm an outsider. I don't know her."
+    },
+    {
+        "id": 86,
+        "raw": "[name=\"???\"]  I can't do this, can I?",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "I can't do this, can I?"
+    },
+    {
+        "id": 87,
+        "raw": "[name=\"???\"]  I'm sorry.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "I'm sorry."
+    },
+    {
+        "id": 88,
+        "raw": "[Decision(options=\"Can you read minds, like Amiya?;......;I'm having trouble understanding you.\", values=\"4;5;6\")]",
+        "type": "decision",
+        "options": "Can you read minds, like Amiya?;......;I'm having trouble understanding you.",
+        "values": "4;5;6"
+    },
+    {
+        "id": 89,
+        "raw": "[Predicate(references=\"4\")]",
+        "type": "predicate",
+        "references": "4"
+    },
+    {
+        "id": 90,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 91,
+        "raw": "[name=\"???\"]  No, I can't...",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "No, I can't..."
+    },
+    {
+        "id": 92,
+        "raw": "[name=\"???\"]  Amiya is special. I know Amiya's Arts... and I think she suffers a lot.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "Amiya is special. I know Amiya's Arts... and I think she suffers a lot."
+    },
+    {
+        "id": 93,
+        "raw": "[Predicate(references=\"5\")]",
+        "type": "predicate",
+        "references": "5"
+    },
+    {
+        "id": 94,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 95,
+        "raw": "[name=\"???\"]  I... I can't touch her, and I can't feel her.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "I... I can't touch her, and I can't feel her."
+    },
+    {
+        "id": 96,
+        "raw": "[name=\"???\"]  Her connection to this world has no connection to me.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "Her connection to this world has no connection to me."
+    },
+    {
+        "id": 97,
+        "raw": "[name=\"???\"]  I... I have no right to touch her.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "I... I have no right to touch her."
+    },
+    {
+        "id": 98,
+        "raw": "[Predicate(references=\"6\")]",
+        "type": "predicate",
+        "references": "6"
+    },
+    {
+        "id": 99,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 100,
+        "raw": "[name=\"???\"]  The other operators say that too.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "The other operators say that too."
+    },
+    {
+        "id": 101,
+        "raw": "[name=\"???\"]  There are a lot of big personalities at Rhodes Island... But I might be weird, even for them.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "There are a lot of big personalities at Rhodes Island... But I might be weird, even for them."
+    },
+    {
+        "id": 102,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 103,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 104,
+        "raw": "[name=\"???\"]  Oh...",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "Oh..."
+    },
+    {
+        "id": 105,
+        "raw": "[name=\"???\"]  I'm... I'm sorry...",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "I'm... I'm sorry..."
+    },
+    {
+        "id": 106,
+        "raw": "[name=\"???\"]  I...",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "I..."
+    },
+    {
+        "id": 107,
+        "raw": "[Decision(options=\"Sorry.;......;I'm sorry, little girl.\", values=\"7;8;9\")]",
+        "type": "decision",
+        "options": "Sorry.;......;I'm sorry, little girl.",
+        "values": "7;8;9"
+    },
+    {
+        "id": 108,
+        "raw": "[Predicate(references=\"7\")]",
+        "type": "predicate",
+        "references": "7"
+    },
+    {
+        "id": 109,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 110,
+        "raw": "[name=\"???\"]  No, it's fine. I'm used to it.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "No, it's fine. I'm used to it."
+    },
+    {
+        "id": 111,
+        "raw": "[Predicate(references=\"8\")]",
+        "type": "predicate",
+        "references": "8"
+    },
+    {
+        "id": 112,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 113,
+        "raw": "[name=\"???\"]  P-please don't be mad...",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "P-please don't be mad..."
+    },
+    {
+        "id": 114,
+        "raw": "[name=\"???\"]  When you don't speak, I... I don't know what to say.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "When you don't speak, I... I don't know what to say."
+    },
+    {
+        "id": 115,
+        "raw": "[Predicate(references=\"9\")]",
+        "type": "predicate",
+        "references": "9"
+    },
+    {
+        "id": 116,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 117,
+        "raw": "[name=\"???\"]  I'm fine.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "I'm fine."
+    },
+    {
+        "id": 118,
+        "raw": "[name=\"???\"]  I'd much rather someone be straight with me than be scared of me. So I'm fine.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "I'd much rather someone be straight with me than be scared of me. So I'm fine."
+    },
+    {
+        "id": 119,
+        "raw": "[Predicate(references=\"4;5;6;7;8;9\")]",
+        "type": "predicate",
+        "references": "4;5;6;7;8;9"
+    },
+    {
+        "id": 120,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 121,
+        "raw": "[name=\"???\"]  Did you want... to use this machine?",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "Did you want... to use this machine?"
+    },
+    {
+        "id": 122,
+        "raw": "[Decision(options=\"If this is indeed the final resting place of the Infected.\",values=\"1\")]",
+        "type": "decision",
+        "options": "If this is indeed the final resting place of the Infected.",
+        "values": "1"
+    },
+    {
+        "id": 123,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 124,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 125,
+        "raw": "[name=\"???\"]  ...it is.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "...it is."
+    },
+    {
+        "id": 126,
+        "raw": "[name=\"???\"]  Just a second. Let me check the log.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "Just a second. Let me check the log."
+    },
+    {
+        "id": 127,
+        "raw": "[name=\"???\"]  Yes, they cleaned this cabin already. Put her on this slab. Easy now. There.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "Yes, they cleaned this cabin already. Put her on this slab. Easy now. There."
+    },
+    {
+        "id": 128,
+        "raw": "[name=\"???\"]  Then the slab will slide in there, and... wait for it to close, and finally press this button.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "Then the slab will slide in there, and... wait for it to close, and finally press this button."
+    },
+    {
+        "id": 129,
+        "raw": "[Decision(options=\"You're really familiar with it.\",values=\"1\")]",
+        "type": "decision",
+        "options": "You're really familiar with it.",
+        "values": "1"
+    },
+    {
+        "id": 130,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 131,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 132,
+        "raw": "[name=\"???\"]  Oh, I've had to use it a lot.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "Oh, I've had to use it a lot."
+    },
+    {
+        "id": 133,
+        "raw": "[Decision(options=\"Why...?\",values=\"1\")]",
+        "type": "decision",
+        "options": "Why...?",
+        "values": "1"
+    },
+    {
+        "id": 134,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 135,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 136,
+        "raw": "[name=\"???\"]  This is where all of Rhodes Island's Infected end up.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "This is where all of Rhodes Island's Infected end up."
+    },
+    {
+        "id": 137,
+        "raw": "[name=\"???\"]  And if I knew them, if I felt them, if they were my teammates, I always take care of them myself.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "And if I knew them, if I felt them, if they were my teammates, I always take care of them myself."
+    },
+    {
+        "id": 138,
+        "raw": "[name=\"???\"]  The original manual was really complicated, but I wrote down how to use it in my terminal. Just a quick look and I can feel it.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "The original manual was really complicated, but I wrote down how to use it in my terminal. Just a quick look and I can feel it."
+    },
+    {
+        "id": 139,
+        "raw": "[Decision(options=\"Feel what?\", values=\"1\")]",
+        "type": "decision",
+        "options": "Feel what?",
+        "values": "1"
+    },
+    {
+        "id": 140,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 141,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 142,
+        "raw": "[name=\"???\"]  Hmm... it's like a chain.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "Hmm... it's like a chain."
+    },
+    {
+        "id": 143,
+        "raw": "[Decision(options=\"A chain...?\", values=\"1\")]",
+        "type": "decision",
+        "options": "A chain...?",
+        "values": "1"
+    },
+    {
+        "id": 144,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 145,
+        "raw": "[name=\"???\"]  Or I could say it's like seeing the links between people.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "Or I could say it's like seeing the links between people."
+    },
+    {
+        "id": 146,
+        "raw": "[name=\"???\"]  Sending off the people tied to you means untangling the lines around them. The other ends of the threads are still tied to us, but even when the one side is gone, the threads don't hang down.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "Sending off the people tied to you means untangling the lines around them. The other ends of the threads are still tied to us, but even when the one side is gone, the threads don't hang down."
+    },
+    {
+        "id": 147,
+        "raw": "[name=\"???\"]  It feels like you've lost something inside yourself. Something you didn't know was there, but knowing it won't come back.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "It feels like you've lost something inside yourself. Something you didn't know was there, but knowing it won't come back."
+    },
+    {
+        "id": 148,
+        "raw": "[Decision(options=\"Why would you want to feel that?\", values=\"1\")]",
+        "type": "decision",
+        "options": "Why would you want to feel that?",
+        "values": "1"
+    },
+    {
+        "id": 149,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 150,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 151,
+        "raw": "[name=\"???\"]  Because if you know the feeling, it won't suddenly sting you, right?",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "Because if you know the feeling, it won't suddenly sting you, right?"
+    },
+    {
+        "id": 152,
+        "raw": "[Decision(options=\"So then you...?\", values=\"1\")]",
+        "type": "decision",
+        "options": "So then you...?",
+        "values": "1"
+    },
+    {
+        "id": 153,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 154,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 155,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 156,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 157,
+        "raw": "[name=\"PRTS\"]  Excuse me.",
+        "type": "dialog",
+        "speaker": "PRTS",
+        "content": "Excuse me."
+    },
+    {
+        "id": 158,
+        "raw": "[name=\"PRTS\"]  Identifier for Rosmontis, elite operator present in Rhodes Island Integrated Infected Bioprocessing Unit, will expire in fifteen minutes.",
+        "type": "dialog",
+        "speaker": "PRTS",
+        "content": "Identifier for Rosmontis, elite operator present in Rhodes Island Integrated Infected Bioprocessing Unit, will expire in fifteen minutes."
+    },
+    {
+        "id": 159,
+        "raw": "[name=\"PRTS\"]  I will update you momentarily. Stand in place for about fifteen seconds.",
+        "type": "dialog",
+        "speaker": "PRTS",
+        "content": "I will update you momentarily. Stand in place for about fifteen seconds."
+    },
+    {
+        "id": 160,
+        "raw": "[name=\"PRTS\"]  In addition, there is a skirmish taking place by the starboard hull. If possible, please assist after updating your identification code, in order to reduce resource consumption.",
+        "type": "dialog",
+        "speaker": "PRTS",
+        "content": "In addition, there is a skirmish taking place by the starboard hull. If possible, please assist after updating your identification code, in order to reduce resource consumption."
+    },
+    {
+        "id": 161,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 162,
+        "raw": "[name=\"Rosmontis\"]  Oh, okay. I'll go do that.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "Oh, okay. I'll go do that."
+    },
+    {
+        "id": 163,
+        "raw": "[name=\"Rosmontis\"]  I'm making a note of it in my terminal.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "I'm making a note of it in my terminal."
+    },
+    {
+        "id": 164,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 165,
+        "raw": "[name=\"PRTS\"]  Reminding you for the sixth time, if you would allow access to this system, it could send the information directly to...",
+        "type": "dialog",
+        "speaker": "PRTS",
+        "content": "Reminding you for the sixth time, if you would allow access to this system, it could send the information directly to..."
+    },
+    {
+        "id": 166,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 167,
+        "raw": "[name=\"Rosmontis\"]  No.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "No."
+    },
+    {
+        "id": 168,
+        "raw": "[name=\"Rosmontis\"]  I'm... the only one who can use this.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "I'm... the only one who can use this."
+    },
+    {
+        "id": 169,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 170,
+        "raw": "[name=\"PRTS\"]  Understood.",
+        "type": "dialog",
+        "speaker": "PRTS",
+        "content": "Understood."
+    },
+    {
+        "id": 171,
+        "raw": "[Decision(options=\"Elite operator...?\", values=\"1\")]",
+        "type": "decision",
+        "options": "Elite operator...?",
+        "values": "1"
+    },
+    {
+        "id": 172,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 173,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 174,
+        "raw": "[name=\"Rosmontis\"]  PRTS means me.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "PRTS means me."
+    },
+    {
+        "id": 175,
+        "raw": "[Decision(options=\"Should I call you Rosmontis?\", values=\"1\")]",
+        "type": "decision",
+        "options": "Should I call you Rosmontis?",
+        "values": "1"
+    },
+    {
+        "id": 176,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 177,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 178,
+        "raw": "[name=\"Rosmontis\"]  Yes... Rosmontis.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "Yes... Rosmontis."
+    },
+    {
+        "id": 179,
+        "raw": "[name=\"Rosmontis\"]  What... about her?",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "What... about her?"
+    },
+    {
+        "id": 180,
+        "raw": "[name=\"Rosmontis\"]  I think... I should at least know her name.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "I think... I should at least know her name."
+    },
+    {
+        "id": 181,
+        "raw": "[Decision(options=\"FrostNova.\", values=\"1\")]",
+        "type": "decision",
+        "options": "FrostNova.",
+        "values": "1"
+    },
+    {
+        "id": 182,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 183,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 184,
+        "raw": "[name=\"Rosmontis\"]  FrostNova...",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "FrostNova..."
+    },
+    {
+        "id": 185,
+        "raw": "[name=\"Rosmontis\"]  A good name.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "A good name."
+    },
+    {
+        "id": 186,
+        "raw": "[name=\"Rosmontis\"]  Hello, FrostNova.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "Hello, FrostNova."
+    },
+    {
+        "id": 187,
+        "raw": "[name=\"Rosmontis\"]  ...Bye bye.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "...Bye bye."
+    },
+    {
+        "id": 188,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 189,
+        "raw": "[Blocker(fadetime=3,block=true)]",
+        "type": "blocker",
+        "fadetime": "3,block=true"
+    },
+    {
+        "id": 190,
+        "raw": "[Image]",
+        "type": "image"
+    }
+]

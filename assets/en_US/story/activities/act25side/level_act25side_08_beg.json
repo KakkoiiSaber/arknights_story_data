@@ -1,0 +1,4544 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")] ",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK"
+    },
+    {
+        "id": 2,
+        "raw": "[stopmusic]",
+        "type": "stop_music"
+    },
+    {
+        "id": 3,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 4,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 5,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 6,
+        "raw": "[stopmusic(fadetime=1)]",
+        "type": "stop_music",
+        "fadetime": 1
+    },
+    {
+        "id": 7,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 8,
+        "raw": "[Background(image=\"bg_cave_2\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_cave_2.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 9,
+        "raw": "[charslot(slot = \"m\", name = \"char_003_kalts_1#1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 10,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 11,
+        "raw": "[playMusic(intro=\"$nervous_intro\", key=\"$nervous_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act9d0d0/m_avg_nervous_intro.mp3",
+        "key": "sound_beta_2/music/act9d0d0/m_avg_nervous_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 12,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 13,
+        "raw": "[name=\"Kal'tsit\"]......",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "......"
+    },
+    {
+        "id": 14,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_536_1#3$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 15,
+        "raw": "[name=\"Ho'olheyak\"]Funny face you've got there.",
+        "type": "dialog",
+        "speaker": "Ho'olheyak",
+        "content": "Funny face you've got there."
+    },
+    {
+        "id": 16,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 17,
+        "raw": "[charslot(slot = \"m\", focus=\"none\")]",
+        "type": "charslot",
+        "focus": "none"
+    },
+    {
+        "id": 18,
+        "raw": "[Decision(options=\"(Urngh. Her tail's really coiling up.);......;(I think it's Mon3tr time! <i>Kal'tsit!</i>)\",values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "(Urngh. Her tail's really coiling up.);......;(I think it's Mon3tr time! <i>Kal'tsit!</i>)",
+        "values": "1;2;3"
+    },
+    {
+        "id": 19,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 20,
+        "raw": "[charslot(slot = \"m\", name = \"char_003_kalts_1#1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 21,
+        "raw": "[name=\"Kal'tsit\"]...Let the Doctor go.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "...Let the Doctor go."
+    },
+    {
+        "id": 22,
+        "raw": "[name=\"Kal'tsit\"]You can go seek the thing you want, if that really will resolve your misgivings.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "You can go seek the thing you want, if that really will resolve your misgivings."
+    },
+    {
+        "id": 23,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_536_1#3$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 24,
+        "raw": "[name=\"Ho'olheyak\"]...Mm-hmm...",
+        "type": "dialog",
+        "speaker": "Ho'olheyak",
+        "content": "...Mm-hmm..."
+    },
+    {
+        "id": 25,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_536_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 26,
+        "raw": "[name=\"Ho'olheyak\"]...What? Just like that?",
+        "type": "dialog",
+        "speaker": "Ho'olheyak",
+        "content": "...What? Just like that?"
+    },
+    {
+        "id": 27,
+        "raw": "[charslot(slot = \"m\", name = \"char_003_kalts_1#1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 28,
+        "raw": "[name=\"Kal'tsit\"]We pledge we will not respond in any way to your actions.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "We pledge we will not respond in any way to your actions."
+    },
+    {
+        "id": 29,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_536_1#10$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 30,
+        "raw": "[name=\"Ho'olheyak\"]With the way Saria and the Tin Man act around you, I thought you were going to be the dangerous one. What's wrong?",
+        "type": "dialog",
+        "speaker": "Ho'olheyak",
+        "content": "With the way Saria and the Tin Man act around you, I thought you were going to be the dangerous one. What's wrong?"
+    },
+    {
+        "id": 31,
+        "raw": "[name=\"Ho'olheyak\"]Is that real feebleness? Because you don't carry yourself like someone without the power to resist.",
+        "type": "dialog",
+        "speaker": "Ho'olheyak",
+        "content": "Is that real feebleness? Because you don't carry yourself like someone without the power to resist."
+    },
+    {
+        "id": 32,
+        "raw": "[charslot(slot = \"m\", name = \"char_003_kalts_1#1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 33,
+        "raw": "[name=\"Kal'tsit\"]I leave it to your imagination.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "I leave it to your imagination."
+    },
+    {
+        "id": 34,
+        "raw": "[charslot(slot = \"m\", name = \"char_003_kalts_1#1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 35,
+        "raw": "[name=\"Kal'tsit\"]But you can understand that, for the Doctor's safety, I'm not going to take risks.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "But you can understand that, for the Doctor's safety, I'm not going to take risks."
+    },
+    {
+        "id": 36,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_536_1#11$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 37,
+        "raw": "[name=\"Ho'olheyak\"]So it seems.",
+        "type": "dialog",
+        "speaker": "Ho'olheyak",
+        "content": "So it seems."
+    },
+    {
+        "id": 38,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_536_1#3$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 39,
+        "raw": "[name=\"Ho'olheyak\"]Well, I've burned my bridges with the Maylander Foundation, so the less enemies, the better, really... Kristen's plans are in motion already. I'd say we're short on free time too.",
+        "type": "dialog",
+        "speaker": "Ho'olheyak",
+        "content": "Well, I've burned my bridges with the Maylander Foundation, so the less enemies, the better, really... Kristen's plans are in motion already. I'd say we're short on free time too."
+    },
+    {
+        "id": 40,
+        "raw": "[name=\"Ho'olheyak\"]We'll leave it there, then, before the District starts responding adversely—",
+        "type": "dialog",
+        "speaker": "Ho'olheyak",
+        "content": "We'll leave it there, then, before the District starts responding adversely—"
+    },
+    {
+        "id": 41,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 42,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 43,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_536_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 44,
+        "raw": "[name=\"Ho'olheyak\"]—!",
+        "type": "dialog",
+        "speaker": "Ho'olheyak",
+        "content": "—!"
+    },
+    {
+        "id": 45,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 46,
+        "raw": "[PlaySound(key=\"$d_avg_magic_2\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_magic_2.mp3",
+        "volume": 1
+    },
+    {
+        "id": 47,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 48,
+        "raw": "[Blocker(a=0.5, r=0, g=0, b=0, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0.5,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 49,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 50,
+        "raw": "[charslot(slot = \"m\", action=\"shake\", power=10, times=100, isblock=true, duration=0.5)]",
+        "type": "charslot",
+        "action": "shake",
+        "power": "10,",
+        "times": "100,",
+        "isblock": "true,",
+        "duration": 0.5
+    },
+    {
+        "id": 51,
+        "raw": "[charslot(slot = \"m\", action=\"jump\", posto=\"-200,0\", power=20, times=1, afrom=1, ato=0, duration=0.5)]",
+        "type": "charslot",
+        "action": "jump",
+        "posto": "-200,0",
+        "power": "20,",
+        "times": "1,",
+        "afrom": "1,",
+        "ato": "0,",
+        "duration": 0.5
+    },
+    {
+        "id": 52,
+        "raw": "[PlaySound(key=\"$d_avg_clothmovementsp\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_clothmovementsp.mp3",
+        "volume": 1
+    },
+    {
+        "id": 53,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 54,
+        "raw": "[name=\"Ho'olheyak\"]What?",
+        "type": "dialog",
+        "speaker": "Ho'olheyak",
+        "content": "What?"
+    },
+    {
+        "id": 55,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 56,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 57,
+        "raw": "[PlaySound(key=\"$d_avg_cavewaterdrop\", volume=0.6, loop=true, channel=\"a\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_cavewaterdrop.mp3",
+        "volume": "0.6,",
+        "loop": "true,",
+        "channel": "a"
+    },
+    {
+        "id": 58,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 59,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\", duration=1.5, isblock=true)]",
+        "type": "charslot",
+        "duration": "1.5,",
+        "isblock": true
+    },
+    {
+        "id": 60,
+        "raw": "[name=\"Tin Man\"]...*sigh* Quite right. It won't do for the District to be in true, naked danger. We need to accelerate our gain of the situation.",
+        "type": "dialog",
+        "speaker": "Tin Man",
+        "content": "...*sigh* Quite right. It won't do for the District to be in true, naked danger. We need to accelerate our gain of the situation."
+    },
+    {
+        "id": 61,
+        "raw": "[name=\"Tin Man\"]And given you betrayed the Maylander Foundation, we really shouldn't let an outsider settle this for us. That means you, Dame Kal'tsit.",
+        "type": "dialog",
+        "speaker": "Tin Man",
+        "content": "And given you betrayed the Maylander Foundation, we really shouldn't let an outsider settle this for us. That means you, Dame Kal'tsit."
+    },
+    {
+        "id": 62,
+        "raw": "[charslot(slot = \"m\", name = \"char_003_kalts_1#1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 63,
+        "raw": "[name=\"Kal'tsit\"]You're not that stupid. You indulged Ho'olheyak intentionally, looking to seize your moment to act.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "You're not that stupid. You indulged Ho'olheyak intentionally, looking to seize your moment to act."
+    },
+    {
+        "id": 64,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 65,
+        "raw": "[name=\"Tin Man\"]Oh, so you guessed I'd pursue our traitor? How nostalgic, to be exploited by the Dame once again.",
+        "type": "dialog",
+        "speaker": "Tin Man",
+        "content": "Oh, so you guessed I'd pursue our traitor? How nostalgic, to be exploited by the Dame once again."
+    },
+    {
+        "id": 66,
+        "raw": "[name=\"Tin Man\"]Intentional indulgence is giving us too much credit. The agents we assigned to be by Kristen's side defected one after another. I couldn't help but start doubting myself... and introspection is a thing that takes good time.",
+        "type": "dialog",
+        "speaker": "Tin Man",
+        "content": "Intentional indulgence is giving us too much credit. The agents we assigned to be by Kristen's side defected one after another. I couldn't help but start doubting myself... and introspection is a thing that takes good time."
+    },
+    {
+        "id": 67,
+        "raw": "[name=\"Tin Man\"]As for the lives of the two of you, Madame, haven't you been too careless? If you unleashed your jet-black vassal, surely restraining her wouldn't have been difficult.",
+        "type": "dialog",
+        "speaker": "Tin Man",
+        "content": "As for the lives of the two of you, Madame, haven't you been too careless? If you unleashed your jet-black vassal, surely restraining her wouldn't have been difficult."
+    },
+    {
+        "id": 68,
+        "raw": "[charslot(slot = \"m\", name = \"char_003_kalts_1#1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 69,
+        "raw": "[name=\"Kal'tsit\"]'This' is not a place in which I can use any weapon.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "'This' is not a place in which I can use any weapon."
+    },
+    {
+        "id": 70,
+        "raw": "[name=\"Kal'tsit\"]We are already 'on top of it.'",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "We are already 'on top of it.'"
+    },
+    {
+        "id": 71,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 72,
+        "raw": "[name=\"Tin Man\"]That statement of yours is enough to draw considerable attention from the Maylander Foundation, Dame Kal'tsit. Unless you're mystifying us on purpose.",
+        "type": "dialog",
+        "speaker": "Tin Man",
+        "content": "That statement of yours is enough to draw considerable attention from the Maylander Foundation, Dame Kal'tsit. Unless you're mystifying us on purpose."
+    },
+    {
+        "id": 73,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 74,
+        "raw": "[PlaySound(key=\"$d_avg_windmagic\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_windmagic.mp3",
+        "volume": 1
+    },
+    {
+        "id": 75,
+        "raw": "[bgeffect(name=\"$eb_windburst\",layer=1)]",
+        "type": "bg_effect",
+        "name": "$eb_windburst",
+        "layer": 1
+    },
+    {
+        "id": 76,
+        "raw": "[charslot(slot = \"m\", action=\"shake\", power=8, times=100, duration=0.5, isblock=true)]",
+        "type": "charslot",
+        "action": "shake",
+        "power": "8,",
+        "times": "100,",
+        "duration": "0.5,",
+        "isblock": true
+    },
+    {
+        "id": 77,
+        "raw": "[PlaySound(key=\"$d_avg_clothmovement\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_clothmovement.mp3",
+        "volume": 1
+    },
+    {
+        "id": 78,
+        "raw": "[charslot(slot = \"m\", action=\"jump\", posto=\"200,0\", power=5, times=1, duration=0.5,isblock=true)]",
+        "type": "charslot",
+        "action": "jump",
+        "posto": "200,0",
+        "power": "5,",
+        "times": "1,",
+        "duration": "0.5,isblock=true"
+    },
+    {
+        "id": 79,
+        "raw": "[charslot(slot = \"m\", posfrom=\"200,0\", posto=\"300,0\", afrom=1, ato=0, duration=0.5, isblock=true)]",
+        "type": "charslot",
+        "posfrom": "200,0",
+        "posto": "300,0",
+        "afrom": "1,",
+        "ato": "0,",
+        "duration": "0.5,",
+        "isblock": true
+    },
+    {
+        "id": 80,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 81,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 82,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_536_1#3$1\", posfrom=\"-300,0\", posto=\"200,0\", duration=2, isblock=true)]",
+        "type": "charslot",
+        "posfrom": "-300,0",
+        "posto": "200,0",
+        "duration": "2,",
+        "isblock": true
+    },
+    {
+        "id": 83,
+        "raw": "[name=\"Ho'olheyak\"]Honestly... what a surprise, Tin Man. How many bodies do you have?",
+        "type": "dialog",
+        "speaker": "Ho'olheyak",
+        "content": "Honestly... what a surprise, Tin Man. How many bodies do you have?"
+    },
+    {
+        "id": 84,
+        "raw": "[name=\"Ho'olheyak\"]Didn't I toss your poor metal skull in the trash at Loken's?",
+        "type": "dialog",
+        "speaker": "Ho'olheyak",
+        "content": "Didn't I toss your poor metal skull in the trash at Loken's?"
+    },
+    {
+        "id": 85,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_536_1#10$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 86,
+        "raw": "[name=\"Ho'olheyak\"]Are you letting me go this time? Or is this the deal—I kill you again, and <i>then</i> the Maylander Foundation lets me walk free?",
+        "type": "dialog",
+        "speaker": "Ho'olheyak",
+        "content": "Are you letting me go this time? Or is this the deal—I kill you again, and <i>then</i> the Maylander Foundation lets me walk free?"
+    },
+    {
+        "id": 87,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 88,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 89,
+        "raw": "[name=\"Tin Man\"](Ancient Sarkaz language) We'll talk again in a bit, traitor.",
+        "type": "dialog",
+        "speaker": "Tin Man",
+        "content": "(Ancient Sarkaz language) We'll talk again in a bit, traitor."
+    },
+    {
+        "id": 90,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 91,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_536_1#3$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 92,
+        "raw": "[PlaySound(key=\"$d_avg_magic_2\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_magic_2.mp3",
+        "volume": 1
+    },
+    {
+        "id": 93,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 94,
+        "raw": "[Blocker(a=0.5, r=0, g=0, b=0, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0.5,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 95,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 96,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 97,
+        "raw": "[charslot(slot = \"m\", action=\"shake\", power=8, times=100, isblock=true, duration=0.5)]",
+        "type": "charslot",
+        "action": "shake",
+        "power": "8,",
+        "times": "100,",
+        "isblock": "true,",
+        "duration": 0.5
+    },
+    {
+        "id": 98,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_536_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 99,
+        "raw": "[name=\"Ho'olheyak\"]Gh...!",
+        "type": "dialog",
+        "speaker": "Ho'olheyak",
+        "content": "Gh...!"
+    },
+    {
+        "id": 100,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_536_1#11$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 101,
+        "raw": "[name=\"Ho'olheyak\"](Has my vision gone dark? He did something to my eyes—no, it's something mental—I can't move my limbs—)",
+        "type": "dialog",
+        "speaker": "Ho'olheyak",
+        "content": "(Has my vision gone dark? He did something to my eyes—no, it's something mental—I can't move my limbs—)"
+    },
+    {
+        "id": 102,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 103,
+        "raw": "[charslot(slot = \"m\", action=\"shake\", power=4, times=40, isblock=true, duration=0.5)]",
+        "type": "charslot",
+        "action": "shake",
+        "power": "4,",
+        "times": "40,",
+        "isblock": "true,",
+        "duration": 0.5
+    },
+    {
+        "id": 104,
+        "raw": "[charslot(slot = \"m\", posfrom=\"0,0\", posto=\"0,-50\", duration=0.5)]",
+        "type": "charslot",
+        "posfrom": "0,0",
+        "posto": "0,-50",
+        "duration": 0.5
+    },
+    {
+        "id": 105,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 106,
+        "raw": "[charslot(slot = \"m\", posfrom=\"0,-50\", posto=\"0,-100\", afrom=1, ato=0, duration=0.5)]",
+        "type": "charslot",
+        "posfrom": "0,-50",
+        "posto": "0,-100",
+        "afrom": "1,",
+        "ato": "0,",
+        "duration": 0.5
+    },
+    {
+        "id": 107,
+        "raw": "[playsound(key=\"$bodyfalldown2\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_bodyfalldown2.mp3"
+    },
+    {
+        "id": 108,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 109,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 110,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 111,
+        "raw": "[name=\"Tin Man\"]It seems Arts still work here.",
+        "type": "dialog",
+        "speaker": "Tin Man",
+        "content": "It seems Arts still work here."
+    },
+    {
+        "id": 112,
+        "raw": "[charslot(slot = \"m\", name = \"char_003_kalts_1#1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 113,
+        "raw": "[name=\"Kal'tsit\"]Originium Arts are not within the scope of the 'weaponry' sensors.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Originium Arts are not within the scope of the 'weaponry' sensors."
+    },
+    {
+        "id": 114,
+        "raw": "[name=\"Kal'tsit\"]Furthermore, even the full powers of a revenant would be unable to damage their critical components in the slightest.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Furthermore, even the full powers of a revenant would be unable to damage their critical components in the slightest."
+    },
+    {
+        "id": 115,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 116,
+        "raw": "[name=\"Tin Man\"]Then what about the Originium bomb and Arts Unit in my pockets?",
+        "type": "dialog",
+        "speaker": "Tin Man",
+        "content": "Then what about the Originium bomb and Arts Unit in my pockets?"
+    },
+    {
+        "id": 117,
+        "raw": "[charslot(slot = \"m\", name = \"char_003_kalts_1#1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 118,
+        "raw": "[name=\"Kal'tsit\"]Too primitive.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Too primitive."
+    },
+    {
+        "id": 119,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 120,
+        "raw": "[name=\"Tin Man\"]But these are state-of-the-art Columbian technology. They could get us buried in the deep of this land with ease.",
+        "type": "dialog",
+        "speaker": "Tin Man",
+        "content": "But these are state-of-the-art Columbian technology. They could get us buried in the deep of this land with ease."
+    },
+    {
+        "id": 121,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 122,
+        "raw": "[name=\"Tin Man\"]So, anything else you haven't told the Maylander Foundation?",
+        "type": "dialog",
+        "speaker": "Tin Man",
+        "content": "So, anything else you haven't told the Maylander Foundation?"
+    },
+    {
+        "id": 123,
+        "raw": "[charslot(slot = \"m\", name = \"char_003_kalts_1#1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 124,
+        "raw": "[name=\"Kal'tsit\"]......",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "......"
+    },
+    {
+        "id": 125,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 126,
+        "raw": "[name=\"Tin Man\"]Are we not able to come together on this, not even with my being a Columbian, or a Sarkaz?",
+        "type": "dialog",
+        "speaker": "Tin Man",
+        "content": "Are we not able to come together on this, not even with my being a Columbian, or a Sarkaz?"
+    },
+    {
+        "id": 127,
+        "raw": "[charslot(slot = \"m\", name = \"char_003_kalts_1#1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 128,
+        "raw": "[name=\"Kal'tsit\"]All throughout, I have only wanted the Doctor alone to reach this place.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "All throughout, I have only wanted the Doctor alone to reach this place."
+    },
+    {
+        "id": 129,
+        "raw": "[name=\"Kal'tsit\"]The Control of Rhine Lab was a mishap in that respect.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "The Control of Rhine Lab was a mishap in that respect."
+    },
+    {
+        "id": 130,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 131,
+        "raw": "[charslot(slot = \"m\", focus=\"none\")]",
+        "type": "charslot",
+        "focus": "none"
+    },
+    {
+        "id": 132,
+        "raw": "[Decision(options=\"...Me?\",values=\"1\")]",
+        "type": "decision",
+        "options": "...Me?",
+        "values": "1"
+    },
+    {
+        "id": 133,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 134,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 135,
+        "raw": "[name=\"Tin Man\"]Regretfully, you don't make the rules here. Beyond my duty to the Maylander Foundation, I have a heavy interest in this ancient ancestral home of a land.",
+        "type": "dialog",
+        "speaker": "Tin Man",
+        "content": "Regretfully, you don't make the rules here. Beyond my duty to the Maylander Foundation, I have a heavy interest in this ancient ancestral home of a land."
+    },
+    {
+        "id": 136,
+        "raw": "[name=\"Tin Man\"]There may be leads on Kazdel in there. I'm afraid I won't so easily—",
+        "type": "dialog",
+        "speaker": "Tin Man",
+        "content": "There may be leads on Kazdel in there. I'm afraid I won't so easily—"
+    },
+    {
+        "id": 137,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 138,
+        "raw": "[PlaySound(key=\"$transmission\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_transmission.mp3",
+        "volume": 1
+    },
+    {
+        "id": 139,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 140,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 141,
+        "raw": "[name=\"Tin Man\"]—Speaking. Yes, Ho'olheyak has been apprehended via Arts, she's ready to... what?",
+        "type": "dialog",
+        "speaker": "Tin Man",
+        "content": "—Speaking. Yes, Ho'olheyak has been apprehended via Arts, she's ready to... what?"
+    },
+    {
+        "id": 142,
+        "raw": "[name=\"Tin Man\"]The President himself?",
+        "type": "dialog",
+        "speaker": "Tin Man",
+        "content": "The President himself?"
+    },
+    {
+        "id": 143,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 144,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 145,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_536_1#1$1\", posfrom=\"0,-100\", posto=\"0,-40\", duration=1.5)]",
+        "type": "charslot",
+        "posfrom": "0,-100",
+        "posto": "0,-40",
+        "duration": 1.5
+    },
+    {
+        "id": 146,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 147,
+        "raw": "[charslot(slot = \"m\", action=\"shake\", power=15, times=100,duration=1.5)]",
+        "type": "charslot",
+        "action": "shake",
+        "power": "15,",
+        "times": "100,duration=1.5"
+    },
+    {
+        "id": 148,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 149,
+        "raw": "[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 150,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=0.03, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "0.03,",
+        "block": true
+    },
+    {
+        "id": 151,
+        "raw": "[charslot(slot = \"m\", posfrom=\"0,-40\", posto=\"0,0\", duration=0.5)]",
+        "type": "charslot",
+        "posfrom": "0,-40",
+        "posto": "0,0",
+        "duration": 0.5
+    },
+    {
+        "id": 152,
+        "raw": "[PlaySound(key=\"$e_atk_magic_n\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_atk/e_atk_magic_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 153,
+        "raw": "[Blocker(a=0, r=0,g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 154,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 155,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_536_1#2$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 156,
+        "raw": "[name=\"Ho'olheyak\"]Hah... hah... looks like your Arts aren't all that secure, my dear employer.",
+        "type": "dialog",
+        "speaker": "Ho'olheyak",
+        "content": "Hah... hah... looks like your Arts aren't all that secure, my dear employer."
+    },
+    {
+        "id": 157,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 158,
+        "raw": "[name=\"Tin Man\"]Oh. It seems I've underestimated Ho'olheyak. Roger that, I will of course obey.",
+        "type": "dialog",
+        "speaker": "Tin Man",
+        "content": "Oh. It seems I've underestimated Ho'olheyak. Roger that, I will of course obey."
+    },
+    {
+        "id": 159,
+        "raw": "[name=\"Tin Man\"]See you later.",
+        "type": "dialog",
+        "speaker": "Tin Man",
+        "content": "See you later."
+    },
+    {
+        "id": 160,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 161,
+        "raw": "[PlaySound(key=\"$d_avg_ringoff\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_ringoff.mp3",
+        "volume": 1
+    },
+    {
+        "id": 162,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 163,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 164,
+        "raw": "[name=\"Tin Man\"]Isn't it strange, hm? How you can break free of such witchcraft by brute force? Your average campaign knight a century ago would've been frozen to the spot.",
+        "type": "dialog",
+        "speaker": "Tin Man",
+        "content": "Isn't it strange, hm? How you can break free of such witchcraft by brute force? Your average campaign knight a century ago would've been frozen to the spot."
+    },
+    {
+        "id": 165,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_536_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 166,
+        "raw": "[name=\"Ho'olheyak\"]That voice just now, it was a Sarkaz... Witchcraft? You... what race even are you?",
+        "type": "dialog",
+        "speaker": "Ho'olheyak",
+        "content": "That voice just now, it was a Sarkaz... Witchcraft? You... what race even are you?"
+    },
+    {
+        "id": 167,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_536_1#11$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 168,
+        "raw": "[name=\"Ho'olheyak\"]I <i>ran</i> my checks...",
+        "type": "dialog",
+        "speaker": "Ho'olheyak",
+        "content": "I <i>ran</i> my checks..."
+    },
+    {
+        "id": 169,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 170,
+        "raw": "[name=\"Tin Man\"]Always race on the mind, Ho'olheyak. You really are pitiful.",
+        "type": "dialog",
+        "speaker": "Tin Man",
+        "content": "Always race on the mind, Ho'olheyak. You really are pitiful."
+    },
+    {
+        "id": 171,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_536_1#11$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 172,
+        "raw": "[name=\"Ho'olheyak\"]......",
+        "type": "dialog",
+        "speaker": "Ho'olheyak",
+        "content": "......"
+    },
+    {
+        "id": 173,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 174,
+        "raw": "[name=\"Tin Man\"]What puzzles me more, honestly... I mean, look at me, at the way I am. How could you take me for some ordinary person, killed by tossing his head away?",
+        "type": "dialog",
+        "speaker": "Tin Man",
+        "content": "What puzzles me more, honestly... I mean, look at me, at the way I am. How could you take me for some ordinary person, killed by tossing his head away?"
+    },
+    {
+        "id": 175,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_536_1#10$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 176,
+        "raw": "[name=\"Ho'olheyak\"]Yes, you have a point. So, could you put yourself back together if I crushed you?",
+        "type": "dialog",
+        "speaker": "Ho'olheyak",
+        "content": "Yes, you have a point. So, could you put yourself back together if I crushed you?"
+    },
+    {
+        "id": 177,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 178,
+        "raw": "[name=\"Tin Man\"]I'll deal with Ho'olheyak. You two go on ahead.",
+        "type": "dialog",
+        "speaker": "Tin Man",
+        "content": "I'll deal with Ho'olheyak. You two go on ahead."
+    },
+    {
+        "id": 179,
+        "raw": "[name=\"Tin Man\"]The President has given me personal orders to unconditionally assist this Rhodes Island party to these coordinates. How very strange... I wonder when he got such a clear grasp of things...",
+        "type": "dialog",
+        "speaker": "Tin Man",
+        "content": "The President has given me personal orders to unconditionally assist this Rhodes Island party to these coordinates. How very strange... I wonder when he got such a clear grasp of things..."
+    },
+    {
+        "id": 180,
+        "raw": "[charslot(slot = \"m\", name = \"char_003_kalts_1#1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 181,
+        "raw": "[name=\"Kal'tsit\"]So what of you as a Sarkaz?",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "So what of you as a Sarkaz?"
+    },
+    {
+        "id": 182,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 183,
+        "raw": "[name=\"Tin Man\"]The young Sarkaz detest you, and lovingly respect you too, for a great many reasons. But as I see it, your fight for the Sarkaz will go on longer still.",
+        "type": "dialog",
+        "speaker": "Tin Man",
+        "content": "The young Sarkaz detest you, and lovingly respect you too, for a great many reasons. But as I see it, your fight for the Sarkaz will go on longer still."
+    },
+    {
+        "id": 184,
+        "raw": "[name=\"Tin Man\"]And of course, it will 'merely' be so.",
+        "type": "dialog",
+        "speaker": "Tin Man",
+        "content": "And of course, it will 'merely' be so."
+    },
+    {
+        "id": 185,
+        "raw": "[name=\"Tin Man\"]Now, hurry up. When later comes, I hope you'll tell me everything you're willing to.",
+        "type": "dialog",
+        "speaker": "Tin Man",
+        "content": "Now, hurry up. When later comes, I hope you'll tell me everything you're willing to."
+    },
+    {
+        "id": 186,
+        "raw": "[charslot(slot = \"m\", name = \"char_003_kalts_1#1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 187,
+        "raw": "[name=\"Kal'tsit\"]I promise that to you.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "I promise that to you."
+    },
+    {
+        "id": 188,
+        "raw": "[name=\"Kal'tsit\"]Let's go, Doctor.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Let's go, Doctor."
+    },
+    {
+        "id": 189,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 190,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 191,
+        "raw": "[charslot(duration=1.5, isblock=true)]",
+        "type": "charslot",
+        "duration": "1.5,",
+        "isblock": true
+    },
+    {
+        "id": 192,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_536_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 193,
+        "raw": "[name=\"Ho'olheyak\"]I'm impressed how easily you give up on your greed. Doesn't the truth matter to you?",
+        "type": "dialog",
+        "speaker": "Ho'olheyak",
+        "content": "I'm impressed how easily you give up on your greed. Doesn't the truth matter to you?"
+    },
+    {
+        "id": 194,
+        "raw": "[name=\"Ho'olheyak\"]Don't you want to follow them down there and take in that 'ancient ancestral home' of yours?",
+        "type": "dialog",
+        "speaker": "Ho'olheyak",
+        "content": "Don't you want to follow them down there and take in that 'ancient ancestral home' of yours?"
+    },
+    {
+        "id": 195,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 196,
+        "raw": "[name=\"Tin Man\"]Growing attached to your mission target on a mission, and then betraying your country with intent to misappropriate vital technology, without scruple? Not educating my subordinates properly is my disgrace.",
+        "type": "dialog",
+        "speaker": "Tin Man",
+        "content": "Growing attached to your mission target on a mission, and then betraying your country with intent to misappropriate vital technology, without scruple? Not educating my subordinates properly is my disgrace."
+    },
+    {
+        "id": 197,
+        "raw": "[name=\"Tin Man\"]Your damages to my body cannot rouse anger in me, not in the midst of my excessively long time undisturbed.",
+        "type": "dialog",
+        "speaker": "Tin Man",
+        "content": "Your damages to my body cannot rouse anger in me, not in the midst of my excessively long time undisturbed."
+    },
+    {
+        "id": 198,
+        "raw": "[name=\"Tin Man\"]But as your boss and an authority of the Maylander Foundation, I suggest you hand yourself in, and try to plead a lenient sentence.",
+        "type": "dialog",
+        "speaker": "Tin Man",
+        "content": "But as your boss and an authority of the Maylander Foundation, I suggest you hand yourself in, and try to plead a lenient sentence."
+    },
+    {
+        "id": 199,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_536_1#11$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 200,
+        "raw": "[name=\"Ho'olheyak\"]Grr, you old monster... How much have you lost over the course of your life? Does the idea of duty really still do something for you?",
+        "type": "dialog",
+        "speaker": "Ho'olheyak",
+        "content": "Grr, you old monster... How much have you lost over the course of your life? Does the idea of duty really still do something for you?"
+    },
+    {
+        "id": 201,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 202,
+        "raw": "[name=\"Tin Man\"]I once used quite the amount of Arts as a means to avert the trauma too long a time would inflict on my soul, but it wasn't entirely effective.",
+        "type": "dialog",
+        "speaker": "Tin Man",
+        "content": "I once used quite the amount of Arts as a means to avert the trauma too long a time would inflict on my soul, but it wasn't entirely effective."
+    },
+    {
+        "id": 203,
+        "raw": "[name=\"Tin Man\"]If you look purely at results, I'm a very conscientious one. Death will attest to that in my place.",
+        "type": "dialog",
+        "speaker": "Tin Man",
+        "content": "If you look purely at results, I'm a very conscientious one. Death will attest to that in my place."
+    },
+    {
+        "id": 204,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_536_1#3$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 205,
+        "raw": "[name=\"Ho'olheyak\"]No. I'll defeat you. I'll get everything I want.",
+        "type": "dialog",
+        "speaker": "Ho'olheyak",
+        "content": "No. I'll defeat you. I'll get everything I want."
+    },
+    {
+        "id": 206,
+        "raw": "[name=\"Ho'olheyak\"]I'll prove I'm my own self, and if that means I have to kill you, kill everyone in the Maylander Foundation, and even... be killed <i>by</i> you, then I'll give each and every bit of it my shot.",
+        "type": "dialog",
+        "speaker": "Ho'olheyak",
+        "content": "I'll prove I'm my own self, and if that means I have to kill you, kill everyone in the Maylander Foundation, and even... be killed <i>by</i> you, then I'll give each and every bit of it my shot."
+    },
+    {
+        "id": 207,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_536_1#2$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 208,
+        "raw": "[name=\"Ho'olheyak\"]Heh. So this is how fighting for yourself makes your blood pound... Why did I ever put restoring my old blood first?",
+        "type": "dialog",
+        "speaker": "Ho'olheyak",
+        "content": "Heh. So this is how fighting for yourself makes your blood pound... Why did I ever put restoring my old blood first?"
+    },
+    {
+        "id": 209,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 210,
+        "raw": "[name=\"Tin Man\"]How many generations' worth of memories have you inherited, Ho'olheyak?",
+        "type": "dialog",
+        "speaker": "Tin Man",
+        "content": "How many generations' worth of memories have you inherited, Ho'olheyak?"
+    },
+    {
+        "id": 211,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_536_1#3$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 212,
+        "raw": "[name=\"Ho'olheyak\"]......",
+        "type": "dialog",
+        "speaker": "Ho'olheyak",
+        "content": "......"
+    },
+    {
+        "id": 213,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 214,
+        "raw": "[name=\"Tin Man\"]Three centuries? Or no, maybe five?",
+        "type": "dialog",
+        "speaker": "Tin Man",
+        "content": "Three centuries? Or no, maybe five?"
+    },
+    {
+        "id": 215,
+        "raw": "[name=\"Tin Man\"]It's long enough. Long enough for a city to be rebuilt anew and destroyed again, or for a dynasty to go from rise to decline.",
+        "type": "dialog",
+        "speaker": "Tin Man",
+        "content": "It's long enough. Long enough for a city to be rebuilt anew and destroyed again, or for a dynasty to go from rise to decline."
+    },
+    {
+        "id": 216,
+        "raw": "[name=\"Tin Man\"]But to me... it is no more than the time needed to rouse myself from a nightmare.",
+        "type": "dialog",
+        "speaker": "Tin Man",
+        "content": "But to me... it is no more than the time needed to rouse myself from a nightmare."
+    },
+    {
+        "id": 217,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_536_1#10$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 218,
+        "raw": "[name=\"Ho'olheyak\"]Big words for you...",
+        "type": "dialog",
+        "speaker": "Ho'olheyak",
+        "content": "Big words for you..."
+    },
+    {
+        "id": 219,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 220,
+        "raw": "[name=\"Tin Man\"]No. The reality is—",
+        "type": "dialog",
+        "speaker": "Tin Man",
+        "content": "No. The reality is—"
+    },
+    {
+        "id": 221,
+        "raw": "[name=\"Tin Man\"]Your stretch of distress and your heartrending family history wouldn't stand up to the tale of a single scratch on my alloy fingers, young beast cub.",
+        "type": "dialog",
+        "speaker": "Tin Man",
+        "content": "Your stretch of distress and your heartrending family history wouldn't stand up to the tale of a single scratch on my alloy fingers, young beast cub."
+    },
+    {
+        "id": 222,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 223,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_536_1#10$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 224,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 225,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_536_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 226,
+        "raw": "[PlaySound(key=\"$d_avg_magic_2\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_magic_2.mp3",
+        "volume": 1
+    },
+    {
+        "id": 227,
+        "raw": "[charslot(slot = \"m\", action=\"shake\", power=8, times=100, duration=1, isblock=true)]",
+        "type": "charslot",
+        "action": "shake",
+        "power": "8,",
+        "times": "100,",
+        "duration": "1,",
+        "isblock": true
+    },
+    {
+        "id": 228,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 229,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 230,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 231,
+        "raw": "[Background(image=\"bg_black\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_black.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 232,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 233,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 234,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=0.1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.1,",
+        "block": true
+    },
+    {
+        "id": 235,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=false)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": false
+    },
+    {
+        "id": 236,
+        "raw": "[PlaySound(key=\"$d_gen_heartbeat\", volume=1, loop=true, channel=\"c\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_heartbeat.mp3",
+        "volume": "1,",
+        "loop": "true,",
+        "channel": "c"
+    },
+    {
+        "id": 237,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 238,
+        "raw": "[StopSound(channel=\"c\", fadetime=1)]",
+        "type": "stop_sound",
+        "channel": "c",
+        "fadetime": 1
+    },
+    {
+        "id": 239,
+        "raw": "Ho'olheyak feels her heart stall for an instant.",
+        "type": "narration",
+        "content": "Ho'olheyak feels her heart stall for an instant."
+    },
+    {
+        "id": 240,
+        "raw": "Her sight blacks out again. With experience, she quickly abandons her vision, and attempts to wrap her body in Arts, to extend her limbs' sense of touch.",
+        "type": "narration",
+        "content": "Her sight blacks out again. With experience, she quickly abandons her vision, and attempts to wrap her body in Arts, to extend her limbs' sense of touch."
+    },
+    {
+        "id": 241,
+        "raw": "Even among Maylander's seasoned agents, she was eminently gifted. The K'uk'ulkan's memories are not solely a burden; they make her a natural-born, highly veteran warrior.",
+        "type": "narration",
+        "content": "Even among Maylander's seasoned agents, she was eminently gifted. The K'uk'ulkan's memories are not solely a burden; they make her a natural-born, highly veteran warrior."
+    },
+    {
+        "id": 242,
+        "raw": "Every part of her body is a lethal weapon, the clarity of her mind has no equal, and her Arts would redefine guile itself.",
+        "type": "narration",
+        "content": "Every part of her body is a lethal weapon, the clarity of her mind has no equal, and her Arts would redefine guile itself."
+    },
+    {
+        "id": 243,
+        "raw": "But this time...",
+        "type": "narration",
+        "content": "But this time..."
+    },
+    {
+        "id": 244,
+        "raw": "This time, Ho'olheyak begins to feel a hint of fear creeping up.",
+        "type": "narration",
+        "content": "This time, Ho'olheyak begins to feel a hint of fear creeping up."
+    },
+    {
+        "id": 245,
+        "raw": "A prickling, sinking feeling that starts from her eardrums, and bores into her brain. She covers her ears in pain, despite the pure silence about her.",
+        "type": "narration",
+        "content": "A prickling, sinking feeling that starts from her eardrums, and bores into her brain. She covers her ears in pain, despite the pure silence about her."
+    },
+    {
+        "id": 246,
+        "raw": "The cavern scenery begins to change, a deeper darkness diffusing out from beneath the Tin Man's feet.",
+        "type": "narration",
+        "content": "The cavern scenery begins to change, a deeper darkness diffusing out from beneath the Tin Man's feet."
+    },
+    {
+        "id": 247,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 248,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 249,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\",duration=1.5, isblock=true)]",
+        "type": "charslot",
+        "duration": "1.5,",
+        "isblock": true
+    },
+    {
+        "id": 250,
+        "raw": "[name=\"Tin Man\"](Ancient Sarkaz language) Given you want to delve into history, I'll have to share a little more of it with you.",
+        "type": "dialog",
+        "speaker": "Tin Man",
+        "content": "(Ancient Sarkaz language) Given you want to delve into history, I'll have to share a little more of it with you."
+    },
+    {
+        "id": 251,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 252,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 253,
+        "raw": "[PlaySound(key=\"$d_avg_snowstormflp\", volume=1, loop=true, channel=\"a\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_snowstormflp.mp3",
+        "volume": "1,",
+        "loop": "true,",
+        "channel": "a"
+    },
+    {
+        "id": 254,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 255,
+        "raw": "Ho'olheyak can feel it. Her cheeks, abraded by coarse sandstorms.",
+        "type": "narration",
+        "content": "Ho'olheyak can feel it. Her cheeks, abraded by coarse sandstorms."
+    },
+    {
+        "id": 256,
+        "raw": "Her shoulders give a faint shudder, as if bearing some colossal mass.",
+        "type": "narration",
+        "content": "Her shoulders give a faint shudder, as if bearing some colossal mass."
+    },
+    {
+        "id": 257,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 258,
+        "raw": "[name=\"Tin Man\"](Ancient Sarkaz language) You made too much light of the weight of history, K'uk'ulkan.",
+        "type": "dialog",
+        "speaker": "Tin Man",
+        "content": "(Ancient Sarkaz language) You made too much light of the weight of history, K'uk'ulkan."
+    },
+    {
+        "id": 259,
+        "raw": "[name=\"Tin Man\"](Ancient Sarkaz language) You've yet to understand what it means for a memory to be <i>graven.</i>",
+        "type": "dialog",
+        "speaker": "Tin Man",
+        "content": "(Ancient Sarkaz language) You've yet to understand what it means for a memory to be <i>graven.</i>"
+    },
+    {
+        "id": 260,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 261,
+        "raw": "[StopSound(channel=\"a\", fadetime=1)]",
+        "type": "stop_sound",
+        "channel": "a",
+        "fadetime": 1
+    },
+    {
+        "id": 262,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 263,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 264,
+        "raw": "[stopmusic(fadetime=1)]",
+        "type": "stop_music",
+        "fadetime": 1
+    },
+    {
+        "id": 265,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 266,
+        "raw": "[Background(image=\"bg_aircraft\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_aircraft.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 267,
+        "raw": "[playMusic(intro=\"$act25side_01_intro\", key=\"$act25side_01_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act25side/m_bat_act25side_01_intro.mp3",
+        "key": "sound_beta_2/music/act25side/m_bat_act25side_01_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 268,
+        "raw": "[PlaySound(key=\"$d_avg_airwaramb\", volume=1, loop=true, channel=\"a\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_airwaramb.mp3",
+        "volume": "1,",
+        "loop": "true,",
+        "channel": "a"
+    },
+    {
+        "id": 269,
+        "raw": "7:59 P.M., H.A.M.H.R.R. altitude 5000 meters, ascent interrupted",
+        "type": "narration",
+        "content": "7:59 P.M., H.A.M.H.R.R. altitude 5000 meters, ascent interrupted"
+    },
+    {
+        "id": 270,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 271,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 272,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 273,
+        "raw": "[PlaySound(key=\"$d_avg_planeshake\", volume=0.3)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_planeshake.mp3",
+        "volume": 0.3
+    },
+    {
+        "id": 274,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 275,
+        "raw": "[CameraShake(duration=2.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "2.5,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 276,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 277,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_896_1#10$1\", focus=\"none\")]",
+        "type": "charslot",
+        "focus": "none"
+    },
+    {
+        "id": 278,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_890_1#4$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 279,
+        "raw": "[name=\"Ferdinand\"]You said you knew how to pilot this thing!",
+        "type": "dialog",
+        "speaker": "Ferdinand",
+        "content": "You said you knew how to pilot this thing!"
+    },
+    {
+        "id": 280,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_896_1#10$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 281,
+        "raw": "[name=\"Saria\"]Hold on tight.",
+        "type": "dialog",
+        "speaker": "Saria",
+        "content": "Hold on tight."
+    },
+    {
+        "id": 282,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 283,
+        "raw": "[charslot(slot = \"m\",focus=\"none\")]",
+        "type": "charslot",
+        "focus": "none"
+    },
+    {
+        "id": 284,
+        "raw": "[PlaySound(key=\"$d_avg_planeshake\", volume=0.6)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_planeshake.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 285,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 286,
+        "raw": "[CameraShake(duration=2.5, xstrength=50, ystrength=50, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "2.5,",
+        "xstrength": "50,",
+        "ystrength": "50,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 287,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 288,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_890_1#5$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 289,
+        "raw": "[name=\"Ferdinand\"]I—ungh—!",
+        "type": "dialog",
+        "speaker": "Ferdinand",
+        "content": "I—ungh—!"
+    },
+    {
+        "id": 290,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_896_1#10$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 291,
+        "raw": "[name=\"Saria\"]I'm trying the <i>hardest I can,</i> Ferdinand. If I wasn't, we would be dead.",
+        "type": "dialog",
+        "speaker": "Saria",
+        "content": "I'm trying the <i>hardest I can,</i> Ferdinand. If I wasn't, we would be dead."
+    },
+    {
+        "id": 292,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 293,
+        "raw": "[charslot(slot = \"m\",focus=\"none\")]",
+        "type": "charslot",
+        "focus": "none"
+    },
+    {
+        "id": 294,
+        "raw": "[SoundVolume(volume=0.6, channel=\"a\",fadetime=1)]",
+        "type": "sound_volume",
+        "volume": "0.6,",
+        "channel": "a",
+        "fadetime": 1
+    },
+    {
+        "id": 295,
+        "raw": "[PlaySound(key=\"$d_avg_plane\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_plane.mp3",
+        "volume": 1
+    },
+    {
+        "id": 296,
+        "raw": "[PlaySound(key=\"$d_avg_planeshake\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_planeshake.mp3",
+        "volume": 1
+    },
+    {
+        "id": 297,
+        "raw": "[CameraShake(duration=2.5, xstrength=50, ystrength=50, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "2.5,",
+        "xstrength": "50,",
+        "ystrength": "50,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 298,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 299,
+        "raw": "[CameraShake(duration=3, xstrength=80, ystrength=80, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "3,",
+        "xstrength": "80,",
+        "ystrength": "80,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 300,
+        "raw": "[PlaySound(key=\"$d_sp_ballista\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_sp_ballista.mp3",
+        "volume": 1
+    },
+    {
+        "id": 301,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 302,
+        "raw": "[PlaySound(key=\"$d_avg_aircraftalarm\", volume=0.6, loop=true, channel=\"c\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_aircraftalarm.mp3",
+        "volume": "0.6,",
+        "loop": "true,",
+        "channel": "c"
+    },
+    {
+        "id": 303,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 304,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_890_1#4$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 305,
+        "raw": "[name=\"Ferdinand\"]Saria! Check the window!",
+        "type": "dialog",
+        "speaker": "Ferdinand",
+        "content": "Saria! Check the window!"
+    },
+    {
+        "id": 306,
+        "raw": "[name=\"Ferdinand\"]The engine is on fire!",
+        "type": "dialog",
+        "speaker": "Ferdinand",
+        "content": "The engine is on fire!"
+    },
+    {
+        "id": 307,
+        "raw": "[StopSound(channel=\"c\", fadetime=2)]",
+        "type": "stop_sound",
+        "channel": "c",
+        "fadetime": 2
+    },
+    {
+        "id": 308,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_896_1#1$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 309,
+        "raw": "[name=\"Saria\"]Power loss... no huge concern.",
+        "type": "dialog",
+        "speaker": "Saria",
+        "content": "Power loss... no huge concern."
+    },
+    {
+        "id": 310,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_890_1#4$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 311,
+        "raw": "[name=\"Ferdinand\"]The thing looks ready to explode! What do you mean, <i>no huge concern?!</i>",
+        "type": "dialog",
+        "speaker": "Ferdinand",
+        "content": "The thing looks ready to explode! What do you mean, <i>no huge concern?!</i>"
+    },
+    {
+        "id": 312,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_896_1#10$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 313,
+        "raw": "[name=\"Saria\"]I had no idea you could be so conversational.",
+        "type": "dialog",
+        "speaker": "Saria",
+        "content": "I had no idea you could be so conversational."
+    },
+    {
+        "id": 314,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 315,
+        "raw": "[CameraShake(duration=2.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "2.5,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 316,
+        "raw": "[PlaySound(key=\"$d_avg_funnel\", volume=0.2)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_funnel.mp3",
+        "volume": 0.2
+    },
+    {
+        "id": 317,
+        "raw": "[delay(time=0.6)]",
+        "type": "delay",
+        "time": 0.6
+    },
+    {
+        "id": 318,
+        "raw": "[PlaySound(key=\"$d_avg_funnel\", volume=0.4)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_funnel.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 319,
+        "raw": "[delay(time=0.2)]",
+        "type": "delay",
+        "time": 0.2
+    },
+    {
+        "id": 320,
+        "raw": "[PlaySound(key=\"$d_avg_funnel\", volume=0.8)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_funnel.mp3",
+        "volume": 0.8
+    },
+    {
+        "id": 321,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 322,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_896_1#1$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 323,
+        "raw": "[name=\"Saria\"]Hmph. There's no end to these drones.",
+        "type": "dialog",
+        "speaker": "Saria",
+        "content": "Hmph. There's no end to these drones."
+    },
+    {
+        "id": 324,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_896_1#10$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 325,
+        "raw": "[name=\"Saria\"]Ferdinand, get over here.",
+        "type": "dialog",
+        "speaker": "Saria",
+        "content": "Ferdinand, get over here."
+    },
+    {
+        "id": 326,
+        "raw": "[name=\"Saria\"]Grip onto this bar. No letting it go. Push it up.",
+        "type": "dialog",
+        "speaker": "Saria",
+        "content": "Grip onto this bar. No letting it go. Push it up."
+    },
+    {
+        "id": 327,
+        "raw": "[name=\"Saria\"]See these dials? Wait until they pass <i>this</i> line. Then, call for me.",
+        "type": "dialog",
+        "speaker": "Saria",
+        "content": "See these dials? Wait until they pass <i>this</i> line. Then, call for me."
+    },
+    {
+        "id": 328,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_890_1#5$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 329,
+        "raw": "[name=\"Ferdinand\"]What are you—",
+        "type": "dialog",
+        "speaker": "Ferdinand",
+        "content": "What are you—"
+    },
+    {
+        "id": 330,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_896_1#1$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 331,
+        "raw": "[name=\"Saria\"]Strap in. Don't let your hands leave that thing. I'm opening the hatch and heading out one moment.",
+        "type": "dialog",
+        "speaker": "Saria",
+        "content": "Strap in. Don't let your hands leave that thing. I'm opening the hatch and heading out one moment."
+    },
+    {
+        "id": 332,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_890_1#5$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 333,
+        "raw": "[name=\"Ferdinand\"]Opening the hatch? What do you mean, heading out?",
+        "type": "dialog",
+        "speaker": "Ferdinand",
+        "content": "Opening the hatch? What do you mean, heading out?"
+    },
+    {
+        "id": 334,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_890_1#4$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 335,
+        "raw": "[name=\"Ferdinand\"]In midair?!",
+        "type": "dialog",
+        "speaker": "Ferdinand",
+        "content": "In midair?!"
+    },
+    {
+        "id": 336,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 337,
+        "raw": "[PlaySound(key=\"$d_gen_dooropen\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_dooropen.mp3",
+        "volume": 1
+    },
+    {
+        "id": 338,
+        "raw": "[PlaySound(key=\"$d_avg_snowstormflp\", volume=1, loop=true, channel=\"b\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_snowstormflp.mp3",
+        "volume": "1,",
+        "loop": "true,",
+        "channel": "b"
+    },
+    {
+        "id": 339,
+        "raw": "[SoundVolume(volume=1, channel=\"a\",fadetime=1)]",
+        "type": "sound_volume",
+        "volume": "1,",
+        "channel": "a",
+        "fadetime": 1
+    },
+    {
+        "id": 340,
+        "raw": "[charslot(slot = \"l\", afrom=1, ato=0, duration=1, isblock=true)]",
+        "type": "charslot",
+        "afrom": "1,",
+        "ato": "0,",
+        "duration": "1,",
+        "isblock": true
+    },
+    {
+        "id": 341,
+        "raw": "[charslot(slot = \"r\", posfrom=\"0,0\", posto=\"-350,0\", duration=0.5)]",
+        "type": "charslot",
+        "posfrom": "0,0",
+        "posto": "-350,0",
+        "duration": 0.5
+    },
+    {
+        "id": 342,
+        "raw": "[PlaySound(key=\"$d_avg_planeshake\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_planeshake.mp3",
+        "volume": 1
+    },
+    {
+        "id": 343,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 344,
+        "raw": "[CameraShake(duration=2.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "2.5,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 345,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 346,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_890_1#4$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 347,
+        "raw": "[name=\"Ferdinand\"]Saria, Saria! This whole thing's shaking!",
+        "type": "dialog",
+        "speaker": "Ferdinand",
+        "content": "Saria, Saria! This whole thing's shaking!"
+    },
+    {
+        "id": 348,
+        "raw": "[name=\"Ferdinand\"]Dammit, I knew I should've called my lawyer before I got onboard.",
+        "type": "dialog",
+        "speaker": "Ferdinand",
+        "content": "Dammit, I knew I should've called my lawyer before I got onboard."
+    },
+    {
+        "id": 349,
+        "raw": "[charslot(slot = \"m\", focus=\"none\")]",
+        "type": "charslot",
+        "focus": "none"
+    },
+    {
+        "id": 350,
+        "raw": "[name=\"Saria\"]You think you can afford that lawyer without a job?",
+        "type": "dialog",
+        "speaker": "Saria",
+        "content": "You think you can afford that lawyer without a job?"
+    },
+    {
+        "id": 351,
+        "raw": "[name=\"Saria\"]Stay calm, watch the dials. Period.",
+        "type": "dialog",
+        "speaker": "Saria",
+        "content": "Stay calm, watch the dials. Period."
+    },
+    {
+        "id": 352,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_890_1#5$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 353,
+        "raw": "[name=\"Ferdinand\"]Wh—What the hell are you doing?!",
+        "type": "dialog",
+        "speaker": "Ferdinand",
+        "content": "Wh—What the hell are you doing?!"
+    },
+    {
+        "id": 354,
+        "raw": "[name=\"Ferdinand\"]I think it's—on the verge of haywire! There have been <i>lights flashing!</i>",
+        "type": "dialog",
+        "speaker": "Ferdinand",
+        "content": "I think it's—on the verge of haywire! There have been <i>lights flashing!</i>"
+    },
+    {
+        "id": 355,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_890_1#4$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 356,
+        "raw": "[name=\"Ferdinand\"]SARIA! ARE YOU DONE YET?!",
+        "type": "dialog",
+        "speaker": "Ferdinand",
+        "content": "SARIA! ARE YOU DONE YET?!"
+    },
+    {
+        "id": 357,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 358,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 359,
+        "raw": "[PlaySound(key=\"$d_avg_energycannon\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_energycannon.mp3",
+        "volume": 1
+    },
+    {
+        "id": 360,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 361,
+        "raw": "[Blocker(a=0.5, r=255, g=255, b=255, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0.5,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 362,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 363,
+        "raw": "[StopSound(channel=\"a\", fadetime=2)]",
+        "type": "stop_sound",
+        "channel": "a",
+        "fadetime": 2
+    },
+    {
+        "id": 364,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 365,
+        "raw": "[charslot(slot = \"r\", posfrom=\"0,0\", posto=\"-350,0\", duration=0)]",
+        "type": "charslot",
+        "posfrom": "0,0",
+        "posto": "-350,0",
+        "duration": 0
+    },
+    {
+        "id": 366,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_890_1#1$1\", focus=\"none\")]",
+        "type": "charslot",
+        "focus": "none"
+    },
+    {
+        "id": 367,
+        "raw": "[PlaySound(key=\"$d_gen_doorclose\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_doorclose.mp3",
+        "volume": 1
+    },
+    {
+        "id": 368,
+        "raw": "[StopSound(channel=\"b\", fadetime=1)]",
+        "type": "stop_sound",
+        "channel": "b",
+        "fadetime": 1
+    },
+    {
+        "id": 369,
+        "raw": "[charslot(slot = \"l\", posfrom=\"0,0\", posto=\"400,0\", duration=0)]",
+        "type": "charslot",
+        "posfrom": "0,0",
+        "posto": "400,0",
+        "duration": 0
+    },
+    {
+        "id": 370,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_896_1#9$1\", focus=\"l\", duration=1.5, isblock=true)]",
+        "type": "charslot",
+        "focus": "l",
+        "duration": "1.5,",
+        "isblock": true
+    },
+    {
+        "id": 371,
+        "raw": "[name=\"Saria\"]*huff*.",
+        "type": "dialog",
+        "speaker": "Saria",
+        "content": "*huff*."
+    },
+    {
+        "id": 372,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_896_1#1$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 373,
+        "raw": "[name=\"Saria\"]I'll take the controls. Let go of the bar.",
+        "type": "dialog",
+        "speaker": "Saria",
+        "content": "I'll take the controls. Let go of the bar."
+    },
+    {
+        "id": 374,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_890_1#1$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 375,
+        "raw": "[name=\"Ferdinand\"]......",
+        "type": "dialog",
+        "speaker": "Ferdinand",
+        "content": "......"
+    },
+    {
+        "id": 376,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_896_1#10$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 377,
+        "raw": "[name=\"Saria\"]Let go of the bar, Ferdinand.",
+        "type": "dialog",
+        "speaker": "Saria",
+        "content": "Let go of the bar, Ferdinand."
+    },
+    {
+        "id": 378,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_890_1#5$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 379,
+        "raw": "[name=\"Ferdinand\"]*cough*, *cough* *cough*...",
+        "type": "dialog",
+        "speaker": "Ferdinand",
+        "content": "*cough*, *cough* *cough*..."
+    },
+    {
+        "id": 380,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 381,
+        "raw": "[charslot(slot = \"r\", posfrom=\"-350,0\", posto=\"0,0\", duration=1)]",
+        "type": "charslot",
+        "posfrom": "-350,0",
+        "posto": "0,0",
+        "duration": 1
+    },
+    {
+        "id": 382,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 383,
+        "raw": "[PlaySound(key=\"$d_avg_fastener\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_fastener.mp3",
+        "volume": 1
+    },
+    {
+        "id": 384,
+        "raw": "[charslot(slot = \"l\", posfrom=\"400,0\", posto=\"0,0\", duration=2, isblock=true)]",
+        "type": "charslot",
+        "posfrom": "400,0",
+        "posto": "0,0",
+        "duration": "2,",
+        "isblock": true
+    },
+    {
+        "id": 385,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_890_1#7$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 386,
+        "raw": "[name=\"Ferdinand\"]Did the firefight die down? What did you do?",
+        "type": "dialog",
+        "speaker": "Ferdinand",
+        "content": "Did the firefight die down? What did you do?"
+    },
+    {
+        "id": 387,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_896_1#6$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 388,
+        "raw": "[name=\"Saria\"]I haven't seen you looking like that for years.",
+        "type": "dialog",
+        "speaker": "Saria",
+        "content": "I haven't seen you looking like that for years."
+    },
+    {
+        "id": 389,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_896_1#1$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 390,
+        "raw": "[name=\"Saria\"]The pulse device was reverse-engineered from Raythean Industries tech.",
+        "type": "dialog",
+        "speaker": "Saria",
+        "content": "The pulse device was reverse-engineered from Raythean Industries tech."
+    },
+    {
+        "id": 391,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_896_1#1$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 392,
+        "raw": "[name=\"Saria\"]I was intending for it to hijack transport drones. I didn't expect its time would come now.",
+        "type": "dialog",
+        "speaker": "Saria",
+        "content": "I was intending for it to hijack transport drones. I didn't expect its time would come now."
+    },
+    {
+        "id": 393,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_890_1#1$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 394,
+        "raw": "[name=\"Ferdinand\"]Ha, haha.",
+        "type": "dialog",
+        "speaker": "Ferdinand",
+        "content": "Ha, haha."
+    },
+    {
+        "id": 395,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_896_1#1$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 396,
+        "raw": "[name=\"Saria\"]Status check. Prepare to dock.",
+        "type": "dialog",
+        "speaker": "Saria",
+        "content": "Status check. Prepare to dock."
+    },
+    {
+        "id": 397,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 398,
+        "raw": "[charslot(slot = \"r\", focus=\"none\")]",
+        "type": "charslot",
+        "focus": "none"
+    },
+    {
+        "id": 399,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 400,
+        "raw": "[CameraShake(duration=1, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "xstrength": "20,",
+        "ystrength": "20,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 401,
+        "raw": "[PlaySound(key=\"$d_gen_dooropen\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_dooropen.mp3",
+        "volume": 1
+    },
+    {
+        "id": 402,
+        "raw": "[PlaySound(key=\"$d_avg_snowstormflp\", volume=1, loop=true, channel=\"b\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_snowstormflp.mp3",
+        "volume": "1,",
+        "loop": "true,",
+        "channel": "b"
+    },
+    {
+        "id": 403,
+        "raw": "Under Saria's control, the cabin doors open up, fierce gales of wind and ice-cold air pouring straight into the aircraft.",
+        "type": "narration",
+        "content": "Under Saria's control, the cabin doors open up, fierce gales of wind and ice-cold air pouring straight into the aircraft."
+    },
+    {
+        "id": 404,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 405,
+        "raw": "[PlaySound(key=\"$d_avg_windmagic\", volume=1, loop=true, channel=\"c\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_windmagic.mp3",
+        "volume": "1,",
+        "loop": "true,",
+        "channel": "c"
+    },
+    {
+        "id": 406,
+        "raw": "[StopSound(channel=\"c\", fadetime=1)]",
+        "type": "stop_sound",
+        "channel": "c",
+        "fadetime": 1
+    },
+    {
+        "id": 407,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_890_1#5$1\", posfrom=\"0,0\", posto=\"250,-20\", afrom=1, ato=1, duration=1)]",
+        "type": "charslot",
+        "posfrom": "0,0",
+        "posto": "250,-20",
+        "afrom": "1,",
+        "ato": "1,",
+        "duration": 1
+    },
+    {
+        "id": 408,
+        "raw": "[delay(time=0.3)]",
+        "type": "delay",
+        "time": 0.3
+    },
+    {
+        "id": 409,
+        "raw": "[PlaySound(key=\"$bodyfalldown3\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_bodyfalldown3.mp3",
+        "volume": 1
+    },
+    {
+        "id": 410,
+        "raw": "[charslot(slot = \"l\", posfrom=\"0,0\", posto=\"400,0\", duration=0.5)]",
+        "type": "charslot",
+        "posfrom": "0,0",
+        "posto": "400,0",
+        "duration": 0.5
+    },
+    {
+        "id": 411,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 412,
+        "raw": "[CameraShake(duration=0.5, xstrength=20, ystrength=20, vibrato=20, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "20,",
+        "ystrength": "20,",
+        "vibrato": "20,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 413,
+        "raw": "[charslot(slot = \"l\", posfrom=\"400,0\", posto=\"200,0\", duration=1)]",
+        "type": "charslot",
+        "posfrom": "400,0",
+        "posto": "200,0",
+        "duration": 1
+    },
+    {
+        "id": 414,
+        "raw": "[charslot(slot = \"r\", posfrom=\"250,-20\", posto=\"0,0\", afrom=1, ato=1, duration=1)]",
+        "type": "charslot",
+        "posfrom": "250,-20",
+        "posto": "0,0",
+        "afrom": "1,",
+        "ato": "1,",
+        "duration": 1
+    },
+    {
+        "id": 415,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 416,
+        "raw": "[charslot(slot = \"l\", posfrom=\"200,0\", posto=\"0,0\", duration=1)]",
+        "type": "charslot",
+        "posfrom": "200,0",
+        "posto": "0,0",
+        "duration": 1
+    },
+    {
+        "id": 417,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 418,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_890_1#7$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 419,
+        "raw": "[name=\"Ferdinand\"]Hrrrfff—I should've worn a few more layers.",
+        "type": "dialog",
+        "speaker": "Ferdinand",
+        "content": "Hrrrfff—I should've worn a few more layers."
+    },
+    {
+        "id": 420,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_896_1#1$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 421,
+        "raw": "[name=\"Saria\"]Put on your mask. It'll make that a little bit easier for you.",
+        "type": "dialog",
+        "speaker": "Saria",
+        "content": "Put on your mask. It'll make that a little bit easier for you."
+    },
+    {
+        "id": 422,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 423,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_890_1#7$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 424,
+        "raw": "[PlaySound(key=\"$d_avg_fastener\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_fastener.mp3",
+        "volume": 1
+    },
+    {
+        "id": 425,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_890_1#8$1\", duration=1)]",
+        "type": "charslot",
+        "duration": 1
+    },
+    {
+        "id": 426,
+        "raw": "[StopSound(channel=\"b\", fadetime=1)]",
+        "type": "stop_sound",
+        "channel": "b",
+        "fadetime": 1
+    },
+    {
+        "id": 427,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 428,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_890_1#8$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 429,
+        "raw": "[name=\"Ferdinand\"]If I'm honest, I thought you'd jump straight out like some down-on-her-lucker and leave a fresh hole in the lab ceiling.",
+        "type": "dialog",
+        "speaker": "Ferdinand",
+        "content": "If I'm honest, I thought you'd jump straight out like some down-on-her-lucker and leave a fresh hole in the lab ceiling."
+    },
+    {
+        "id": 430,
+        "raw": "[name=\"Ferdinand\"]But like an academic, you pulsed the drones first to stop them nearing this craft, and then completed a proficient midair docking.",
+        "type": "dialog",
+        "speaker": "Ferdinand",
+        "content": "But like an academic, you pulsed the drones first to stop them nearing this craft, and then completed a proficient midair docking."
+    },
+    {
+        "id": 431,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_896_1#5$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 432,
+        "raw": "[name=\"Saria\"]Nasti was meticulous in building this lab. I don't think she would have zero precautions against me.",
+        "type": "dialog",
+        "speaker": "Saria",
+        "content": "Nasti was meticulous in building this lab. I don't think she would have zero precautions against me."
+    },
+    {
+        "id": 433,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_896_1#1$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 434,
+        "raw": "[name=\"Saria\"]Beside which, I couldn't guarantee you'd withstand atmospheric pressures at this altitude.",
+        "type": "dialog",
+        "speaker": "Saria",
+        "content": "Beside which, I couldn't guarantee you'd withstand atmospheric pressures at this altitude."
+    },
+    {
+        "id": 435,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_890_1#8$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 436,
+        "raw": "[name=\"Ferdinand\"]It looks like you <i>have</i> been busy since you left Defense.",
+        "type": "dialog",
+        "speaker": "Ferdinand",
+        "content": "It looks like you <i>have</i> been busy since you left Defense."
+    },
+    {
+        "id": 437,
+        "raw": "[name=\"Ferdinand\"]What have you been doing all these years?",
+        "type": "dialog",
+        "speaker": "Ferdinand",
+        "content": "What have you been doing all these years?"
+    },
+    {
+        "id": 438,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_896_1#1$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 439,
+        "raw": "[name=\"Saria\"]Work.",
+        "type": "dialog",
+        "speaker": "Saria",
+        "content": "Work."
+    },
+    {
+        "id": 440,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_890_1#8$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 441,
+        "raw": "[name=\"Ferdinand\"]Hmph. Work.",
+        "type": "dialog",
+        "speaker": "Ferdinand",
+        "content": "Hmph. Work."
+    },
+    {
+        "id": 442,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_896_1#1$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 443,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 444,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 445,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_896_1#9$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 446,
+        "raw": "[name=\"Saria\"]Don't undo your seatbelt, Ferdinand.",
+        "type": "dialog",
+        "speaker": "Saria",
+        "content": "Don't undo your seatbelt, Ferdinand."
+    },
+    {
+        "id": 447,
+        "raw": "[name=\"Saria\"]If you want to pull Rhine Lab back from the brink, then show me how you do it.",
+        "type": "dialog",
+        "speaker": "Saria",
+        "content": "If you want to pull Rhine Lab back from the brink, then show me how you do it."
+    },
+    {
+        "id": 448,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_890_1#8$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 449,
+        "raw": "[name=\"Ferdinand\"]......",
+        "type": "dialog",
+        "speaker": "Ferdinand",
+        "content": "......"
+    },
+    {
+        "id": 450,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_890_1#8$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 451,
+        "raw": "[name=\"Ferdinand\"]I'm not your Section underling, Saria, and you're not Defense's Director anymore.",
+        "type": "dialog",
+        "speaker": "Ferdinand",
+        "content": "I'm not your Section underling, Saria, and you're not Defense's Director anymore."
+    },
+    {
+        "id": 452,
+        "raw": "[name=\"Ferdinand\"]Don't talk to me that way.",
+        "type": "dialog",
+        "speaker": "Ferdinand",
+        "content": "Don't talk to me that way."
+    },
+    {
+        "id": 453,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_896_1#1$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 454,
+        "raw": "[name=\"Saria\"]Can you stand?",
+        "type": "dialog",
+        "speaker": "Saria",
+        "content": "Can you stand?"
+    },
+    {
+        "id": 455,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_890_1#8$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 456,
+        "raw": "[name=\"Ferdinand\"]Yes! I'm fine!",
+        "type": "dialog",
+        "speaker": "Ferdinand",
+        "content": "Yes! I'm fine!"
+    },
+    {
+        "id": 457,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_890_1#8$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 458,
+        "raw": "[name=\"Ferdinand\"]...But you'll have to keep me steady!",
+        "type": "dialog",
+        "speaker": "Ferdinand",
+        "content": "...But you'll have to keep me steady!"
+    },
+    {
+        "id": 459,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 460,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 461,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 462,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 463,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 464,
+        "raw": "[Background(image=\"38_g3_rhinelab_corridor\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "38_g3_rhinelab_corridor.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 465,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 466,
+        "raw": "[PlaySound(key=\"$d_avg_energywell\", volume=0.4, loop=true, channel=\"d\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_energywell.mp3",
+        "volume": "0.4,",
+        "loop": "true,",
+        "channel": "d"
+    },
+    {
+        "id": 467,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 468,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 469,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 470,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_890_1#5$1\", duration=1.5, isblock=true)]",
+        "type": "charslot",
+        "duration": "1.5,",
+        "isblock": true
+    },
+    {
+        "id": 471,
+        "raw": "[name=\"Ferdinand\"]This sensation is bizarre... Are we really in midair?",
+        "type": "dialog",
+        "speaker": "Ferdinand",
+        "content": "This sensation is bizarre... Are we really in midair?"
+    },
+    {
+        "id": 472,
+        "raw": "[name=\"Ferdinand\"]The 'starpod' is practically on top of our heads...",
+        "type": "dialog",
+        "speaker": "Ferdinand",
+        "content": "The 'starpod' is practically on top of our heads..."
+    },
+    {
+        "id": 473,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_896_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 474,
+        "raw": "[name=\"Saria\"]We're still far, Ferdinand. The aircraft read 5037 meters on the dial just now. The barrier's still another kilometer from where we are.",
+        "type": "dialog",
+        "speaker": "Saria",
+        "content": "We're still far, Ferdinand. The aircraft read 5037 meters on the dial just now. The barrier's still another kilometer from where we are."
+    },
+    {
+        "id": 475,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_890_1#5$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 476,
+        "raw": "[name=\"Ferdinand\"]You don't seem moved at all.",
+        "type": "dialog",
+        "speaker": "Ferdinand",
+        "content": "You don't seem moved at all."
+    },
+    {
+        "id": 477,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_890_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 478,
+        "raw": "[name=\"Ferdinand\"]Hmph. I suppose so. Learning to pilot in your college days...",
+        "type": "dialog",
+        "speaker": "Ferdinand",
+        "content": "Hmph. I suppose so. Learning to pilot in your college days..."
+    },
+    {
+        "id": 479,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_890_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 480,
+        "raw": "[name=\"Ferdinand\"]The army still thinks this is some kind of superweapon. This equipment, these monitor devices and readouts... Nasti built this to be the best lab in all of Trimounts.",
+        "type": "dialog",
+        "speaker": "Ferdinand",
+        "content": "The army still thinks this is some kind of superweapon. This equipment, these monitor devices and readouts... Nasti built this to be the best lab in all of Trimounts."
+    },
+    {
+        "id": 481,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_890_1#7$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 482,
+        "raw": "[name=\"Ferdinand\"]Or perhaps this was just the first step of some grand experiment?",
+        "type": "dialog",
+        "speaker": "Ferdinand",
+        "content": "Or perhaps this was just the first step of some grand experiment?"
+    },
+    {
+        "id": 483,
+        "raw": "[name=\"Ferdinand\"]That devil... just how much did she hide from me? I never thought her participation went that deep.",
+        "type": "dialog",
+        "speaker": "Ferdinand",
+        "content": "That devil... just how much did she hide from me? I never thought her participation went that deep."
+    },
+    {
+        "id": 484,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_890_1#6$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 485,
+        "raw": "[name=\"Ferdinand\"]Hold on, Saria. I see a military transporter. They got here faster than we anticipated.",
+        "type": "dialog",
+        "speaker": "Ferdinand",
+        "content": "Hold on, Saria. I see a military transporter. They got here faster than we anticipated."
+    },
+    {
+        "id": 486,
+        "raw": "[name=\"Ferdinand\"]They must be nearby. I assume they'll finish boarding before long. We need to hurry before they take over this place fully...",
+        "type": "dialog",
+        "speaker": "Ferdinand",
+        "content": "They must be nearby. I assume they'll finish boarding before long. We need to hurry before they take over this place fully..."
+    },
+    {
+        "id": 487,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 488,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 489,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_890_1#5$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 490,
+        "raw": "[name=\"Ferdinand\"]Saria?",
+        "type": "dialog",
+        "speaker": "Ferdinand",
+        "content": "Saria?"
+    },
+    {
+        "id": 491,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 492,
+        "raw": "The man twists his head around, and finds the ex-Director of the Defense Section has already headed deep down the toroidal corridor.",
+        "type": "narration",
+        "content": "The man twists his head around, and finds the ex-Director of the Defense Section has already headed deep down the toroidal corridor."
+    },
+    {
+        "id": 493,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_890_1#5$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 494,
+        "raw": "[name=\"Ferdinand\"]......",
+        "type": "dialog",
+        "speaker": "Ferdinand",
+        "content": "......"
+    },
+    {
+        "id": 495,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_890_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 496,
+        "raw": "[name=\"Ferdinand\"]Alright, alright.",
+        "type": "dialog",
+        "speaker": "Ferdinand",
+        "content": "Alright, alright."
+    },
+    {
+        "id": 497,
+        "raw": "[name=\"Ferdinand\"]Once I get back, I'm having a nice, long talk with Jara.",
+        "type": "dialog",
+        "speaker": "Ferdinand",
+        "content": "Once I get back, I'm having a nice, long talk with Jara."
+    },
+    {
+        "id": 498,
+        "raw": "[name=\"Ferdinand\"]Preferably to double my stock options.",
+        "type": "dialog",
+        "speaker": "Ferdinand",
+        "content": "Preferably to double my stock options."
+    },
+    {
+        "id": 499,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 500,
+        "raw": "[StopSound(channel=\"d\", fadetime=2)]",
+        "type": "stop_sound",
+        "channel": "d",
+        "fadetime": 2
+    },
+    {
+        "id": 501,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 502,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 503,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 504,
+        "raw": "[Background(image=\"bg_cave_2\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_cave_2.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 505,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 506,
+        "raw": "[PlaySound(key=\"$d_avg_cavewaterdrop\", volume=1, loop=true, channel=\"a\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_cavewaterdrop.mp3",
+        "volume": "1,",
+        "loop": "true,",
+        "channel": "a"
+    },
+    {
+        "id": 507,
+        "raw": "[charslot(slot = \"m\", name = \"char_003_kalts_1#1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 508,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 509,
+        "raw": "[name=\"Kal'tsit\"]......",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "......"
+    },
+    {
+        "id": 510,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 511,
+        "raw": "[charslot(slot = \"m\", focus=\"none\")]",
+        "type": "charslot",
+        "focus": "none"
+    },
+    {
+        "id": 512,
+        "raw": "[Decision(options=\"......\",values=\"1\")]",
+        "type": "decision",
+        "options": "......",
+        "values": "1"
+    },
+    {
+        "id": 513,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 514,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 515,
+        "raw": "[charslot(duration=1.5, isblock=true)]",
+        "type": "charslot",
+        "duration": "1.5,",
+        "isblock": true
+    },
+    {
+        "id": 516,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 517,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 518,
+        "raw": "[BackgroundTween(xScaleFrom=1, yScaleFrom=1, xScaleTo=1.4, yScaleTo=1.4, duration=40)]",
+        "type": "background_tween",
+        "xScaleFrom": "1,",
+        "yScaleFrom": "1,",
+        "xScaleTo": "1.4,",
+        "yScaleTo": "1.4,",
+        "duration": 40
+    },
+    {
+        "id": 519,
+        "raw": "You follow in Kal'tsit's steps. You've rarely seen her this solemn.",
+        "type": "narration",
+        "content": "You follow in Kal'tsit's steps. You've rarely seen her this solemn."
+    },
+    {
+        "id": 520,
+        "raw": "You begin, secretly, to take stock of her as you walk behind her. You realize you've barely ever had the chance to see Kal'tsit in such quiet.",
+        "type": "narration",
+        "content": "You begin, secretly, to take stock of her as you walk behind her. You realize you've barely ever had the chance to see Kal'tsit in such quiet."
+    },
+    {
+        "id": 521,
+        "raw": "Your perturbance begins to turn to tension. To your recollection, Kal'tsit is only unsettled or restless once in two blue moons, and each time the aftermath has needed absolutely no description.",
+        "type": "narration",
+        "content": "Your perturbance begins to turn to tension. To your recollection, Kal'tsit is only unsettled or restless once in two blue moons, and each time the aftermath has needed absolutely no description."
+    },
+    {
+        "id": 522,
+        "raw": "You move to open your mouth, to say something. Just anything.",
+        "type": "narration",
+        "content": "You move to open your mouth, to say something. Just anything."
+    },
+    {
+        "id": 523,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 524,
+        "raw": "[charslot(slot = \"m\", focus=\"none\")]",
+        "type": "charslot",
+        "focus": "none"
+    },
+    {
+        "id": 525,
+        "raw": "[Decision(options=\"What's wrong with Mon3tr?;What's the Tin Man's goal here?;Did Ho'olheyak injure you at all?\",values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "What's wrong with Mon3tr?;What's the Tin Man's goal here?;Did Ho'olheyak injure you at all?",
+        "values": "1;2;3"
+    },
+    {
+        "id": 526,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 527,
+        "raw": "[name=\"Kal'tsit\"]Doctor.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Doctor."
+    },
+    {
+        "id": 528,
+        "raw": "[name=\"Kal'tsit\"]Perhaps I have slightly lost my composure, but it is for other reasons. I can be sure it's not that dangerous ahead of us. You can relax.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Perhaps I have slightly lost my composure, but it is for other reasons. I can be sure it's not that dangerous ahead of us. You can relax."
+    },
+    {
+        "id": 529,
+        "raw": "[name=\"Kal'tsit\"]That said...",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "That said..."
+    },
+    {
+        "id": 530,
+        "raw": "[name=\"Kal'tsit\"]You've asked me a great many questions in the past, which I've never answered for you straight.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "You've asked me a great many questions in the past, which I've never answered for you straight."
+    },
+    {
+        "id": 531,
+        "raw": "[name=\"Kal'tsit\"]Today, you may well finally have your answers.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Today, you may well finally have your answers."
+    },
+    {
+        "id": 532,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 533,
+        "raw": "[StopSound(channel=\"a\", fadetime=1)]",
+        "type": "stop_sound",
+        "channel": "a",
+        "fadetime": 1
+    },
+    {
+        "id": 534,
+        "raw": "[stopmusic(fadetime=1)]",
+        "type": "stop_music",
+        "fadetime": 1
+    },
+    {
+        "id": 535,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 536,
+        "raw": "[BackgroundTween(xScaleTo=1.5, yScaleTo=1.5, duration=3)]",
+        "type": "background_tween",
+        "xScaleTo": "1.5,",
+        "yScaleTo": "1.5,",
+        "duration": 3
+    },
+    {
+        "id": 537,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 538,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 539,
+        "raw": "[Background(image=\"38_g9_storage_activated\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "38_g9_storage_activated.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 540,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 541,
+        "raw": "[playMusic(intro=\"$mist_intro\", key=\"$mist_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta1_180603/m_dia_mist_intro.mp3",
+        "key": "sound_beta_2/music/beta1_180603/m_dia_mist_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 542,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=4, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "4,",
+        "block": true
+    },
+    {
+        "id": 543,
+        "raw": "[charslot(slot = \"m\", focus=\"none\")]",
+        "type": "charslot",
+        "focus": "none"
+    },
+    {
+        "id": 544,
+        "raw": "[Decision(options=\"Are these all—Sarcophagi?!;......!;This many? How...?\",values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "Are these all—Sarcophagi?!;......!;This many? How...?",
+        "values": "1;2;3"
+    },
+    {
+        "id": 545,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 546,
+        "raw": "[charslot(slot = \"m\", name = \"char_003_kalts_1#1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 547,
+        "raw": "[name=\"Kal'tsit\"]It was as early as Saria's first contact with me, on the mention of Kristen, that I'd envisaged her going to any lengths to accomplish this.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "It was as early as Saria's first contact with me, on the mention of Kristen, that I'd envisaged her going to any lengths to accomplish this."
+    },
+    {
+        "id": 548,
+        "raw": "[name=\"Kal'tsit\"]Brashly attempting a space flight carries risk nobody could anticipate, though Saria didn't yet know the full extent.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Brashly attempting a space flight carries risk nobody could anticipate, though Saria didn't yet know the full extent."
+    },
+    {
+        "id": 549,
+        "raw": "[name=\"Kal'tsit\"]Not until the events in Trimounts, until Operators Ptilopsis and Silence were drawn into a seemingly unrelated incident—",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Not until the events in Trimounts, until Operators Ptilopsis and Silence were drawn into a seemingly unrelated incident—"
+    },
+    {
+        "id": 550,
+        "raw": "[name=\"Kal'tsit\"]Yet no matter when, even when I surmised she was trying to re-challenge the skies—I admit, I had no anticipation the situation would be what it is today.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Yet no matter when, even when I surmised she was trying to re-challenge the skies—I admit, I had no anticipation the situation would be what it is today."
+    },
+    {
+        "id": 551,
+        "raw": "[name=\"Kal'tsit\"]With how things have unfolded, with our personally witnessing the S.H.A.F.T.'s scope and scale, H.A.M.H.R.R.'s ascent, and... the research Loken Williams is now attempting.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "With how things have unfolded, with our personally witnessing the S.H.A.F.T.'s scope and scale, H.A.M.H.R.R.'s ascent, and... the research Loken Williams is now attempting."
+    },
+    {
+        "id": 552,
+        "raw": "[name=\"Kal'tsit\"]It was soon after, with hindsight, that I realized what Rhine Lab Control Kristen Wright is attempting is impossible to achieve. Some outside force assisted her, massively influenced her.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "It was soon after, with hindsight, that I realized what Rhine Lab Control Kristen Wright is attempting is impossible to achieve. Some outside force assisted her, massively influenced her."
+    },
+    {
+        "id": 553,
+        "raw": "[name=\"Kal'tsit\"]Borrowing military funds and connections, continuing the research her parents left behind, the young genius has used Rhine Lab as a shell to deceive everyone, and point herself directly at her one greatest, most obstinate hope in life.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Borrowing military funds and connections, continuing the research her parents left behind, the young genius has used Rhine Lab as a shell to deceive everyone, and point herself directly at her one greatest, most obstinate hope in life."
+    },
+    {
+        "id": 554,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 555,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 556,
+        "raw": "[charslot(slot = \"m\", name = \"char_003_kalts_1#3\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 557,
+        "raw": "[name=\"Kal'tsit\"]She plans to shred the sky.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "She plans to shred the sky."
+    },
+    {
+        "id": 558,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 559,
+        "raw": "[charslot(slot = \"m\", focus=\"none\")]",
+        "type": "charslot",
+        "focus": "none"
+    },
+    {
+        "id": 560,
+        "raw": "[Decision(options=\"I guessed as much, but... then what?;I can't swallow it. ALL THAT, just for her fixation.\",values=\"1;2\")]",
+        "type": "decision",
+        "options": "I guessed as much, but... then what?;I can't swallow it. ALL THAT, just for her fixation.",
+        "values": "1;2"
+    },
+    {
+        "id": 561,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 562,
+        "raw": "[charslot(slot = \"m\", name = \"char_003_kalts_1#1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 563,
+        "raw": "[name=\"Kal'tsit\"]She's doing it solely to witness the truth of it, to make all mankind witness the truth of it.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "She's doing it solely to witness the truth of it, to make all mankind witness the truth of it."
+    },
+    {
+        "id": 564,
+        "raw": "[name=\"Kal'tsit\"]And what happens after? A brand new perspective, a flourishing science, the moment when the sky becomes possibility itself, and even the very upheaval of how war is fought.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "And what happens after? A brand new perspective, a flourishing science, the moment when the sky becomes possibility itself, and even the very upheaval of how war is fought."
+    },
+    {
+        "id": 565,
+        "raw": "[name=\"Kal'tsit\"]People could reach other cities in a tenth of the time. Air vehicles, once a valuable rarity, could become typical transport means overnight.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "People could reach other cities in a tenth of the time. Air vehicles, once a valuable rarity, could become typical transport means overnight."
+    },
+    {
+        "id": 566,
+        "raw": "[name=\"Kal'tsit\"]But Kristen has chosen to leave all this to the coming generations.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "But Kristen has chosen to leave all this to the coming generations."
+    },
+    {
+        "id": 567,
+        "raw": "[charslot(slot = \"m\", name = \"char_003_kalts_1#3\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 568,
+        "raw": "[name=\"Kal'tsit\"]She's never considered this from the angle of benefit—be it how she personally stands to gain, or how everyone does. Even the potential crises invited have gone ignored by her.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "She's never considered this from the angle of benefit—be it how she personally stands to gain, or how everyone does. Even the potential crises invited have gone ignored by her."
+    },
+    {
+        "id": 569,
+        "raw": "[name=\"Kal'tsit\"]Is there one more possibility, that Kristen, who lost her parents at a young age and grew up amid skepticism and derision, is out just to prove this one truth to people, and nothing more?",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Is there one more possibility, that Kristen, who lost her parents at a young age and grew up amid skepticism and derision, is out just to prove this one truth to people, and nothing more?"
+    },
+    {
+        "id": 570,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 571,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 572,
+        "raw": "[charslot(slot = \"m\", name = \"char_003_kalts_1#3\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 573,
+        "raw": "[name=\"Kal'tsit\"]This may well be what Saria thinks. As fellow students with Kristen in days past, as the very first supporter of her dreams...",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "This may well be what Saria thinks. As fellow students with Kristen in days past, as the very first supporter of her dreams..."
+    },
+    {
+        "id": 574,
+        "raw": "[name=\"Kal'tsit\"]Regardless of how bleak Kristen Wright's past was, how pure her vision, even how little was of her own personal doing...",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Regardless of how bleak Kristen Wright's past was, how pure her vision, even how little was of her own personal doing..."
+    },
+    {
+        "id": 575,
+        "raw": "[name=\"Kal'tsit\"]She has never had any right to avoid these responsibilities.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "She has never had any right to avoid these responsibilities."
+    },
+    {
+        "id": 576,
+        "raw": "[name=\"Kal'tsit\"]Think of what Operators Ifrit and Silence have been through. Rhine Lab Control is self-centered, of that there is no doubt.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Think of what Operators Ifrit and Silence have been through. Rhine Lab Control is self-centered, of that there is no doubt."
+    },
+    {
+        "id": 577,
+        "raw": "[name=\"Kal'tsit\"]Saria wishes for her to assume these responsibilities. Saria wants to urge her to turn her eyes, fixed towards the sky, down to each and every individual, living, breathing person in Rhine Lab...",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Saria wishes for her to assume these responsibilities. Saria wants to urge her to turn her eyes, fixed towards the sky, down to each and every individual, living, breathing person in Rhine Lab..."
+    },
+    {
+        "id": 578,
+        "raw": "[name=\"Kal'tsit\"]Perhaps Saria was meant to be the first to see Kristen's vision through for her, but then within Rhine Lab, at the crossroads of morality and ethics, everything spiraled out of control.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Perhaps Saria was meant to be the first to see Kristen's vision through for her, but then within Rhine Lab, at the crossroads of morality and ethics, everything spiraled out of control."
+    },
+    {
+        "id": 579,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 580,
+        "raw": "[charslot(slot = \"m\", name = \"char_003_kalts_1#1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 581,
+        "raw": "[name=\"Kal'tsit\"]Regardless of anything, Saria and I have both been a step behind.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Regardless of anything, Saria and I have both been a step behind."
+    },
+    {
+        "id": 582,
+        "raw": "[name=\"Kal'tsit\"]Given Terra's current Originium technology, tearing the sky apart would require the sum electricity of all of Terra over an interminably long period.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Given Terra's current Originium technology, tearing the sky apart would require the sum electricity of all of Terra over an interminably long period."
+    },
+    {
+        "id": 583,
+        "raw": "[name=\"Kal'tsit\"]And this is purely a mathematical comparison. Nobody could ever converge so much energy on one point, let alone have the means to usefully output it towards the sky.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "And this is purely a mathematical comparison. Nobody could ever converge so much energy on one point, let alone have the means to usefully output it towards the sky."
+    },
+    {
+        "id": 584,
+        "raw": "[name=\"Kal'tsit\"]But... in the core city of Chernobog, a great many things have happened, all revolving around a Sarcophagus. Do you still remember?",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "But... in the core city of Chernobog, a great many things have happened, all revolving around a Sarcophagus. Do you still remember?"
+    },
+    {
+        "id": 585,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 586,
+        "raw": "[charslot(slot = \"m\", focus=\"none\")]",
+        "type": "charslot",
+        "focus": "none"
+    },
+    {
+        "id": 587,
+        "raw": "[Decision(options=\"I would never forget.;......;I could never forget.\",values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "I would never forget.;......;I could never forget.",
+        "values": "1;2;3"
+    },
+    {
+        "id": 588,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 589,
+        "raw": "[charslot(slot = \"m\", name = \"char_003_kalts_1#1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 590,
+        "raw": "[name=\"Kal'tsit\"]At that point, Ursus's shallow research was sufficient to draw a relatively impressive amount of energy from the Sarcophagus, and now... the energy is enough to realize Kristen's deranged vision.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "At that point, Ursus's shallow research was sufficient to draw a relatively impressive amount of energy from the Sarcophagus, and now... the energy is enough to realize Kristen's deranged vision."
+    },
+    {
+        "id": 591,
+        "raw": "[name=\"Kal'tsit\"]At least she hasn't chosen to share this information with the military or the Maylander Foundation. Such a material edge would make the state apparatus lose its mind, and certainly suffice to propel it into a rapid new hegemony.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "At least she hasn't chosen to share this information with the military or the Maylander Foundation. Such a material edge would make the state apparatus lose its mind, and certainly suffice to propel it into a rapid new hegemony."
+    },
+    {
+        "id": 592,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 593,
+        "raw": "[charslot(slot = \"m\", focus=\"none\")]",
+        "type": "charslot",
+        "focus": "none"
+    },
+    {
+        "id": 594,
+        "raw": "[Decision(options=\"Just what is this place?;How did Kristen manage to find this?;These Sarcophagi...\",values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "Just what is this place?;How did Kristen manage to find this?;These Sarcophagi...",
+        "values": "1;2;3"
+    },
+    {
+        "id": 595,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 596,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 597,
+        "raw": "[PlaySound(key=\"$d_avg_collapse\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_collapse.mp3",
+        "volume": 1
+    },
+    {
+        "id": 598,
+        "raw": "[CameraShake(duration=-1, xstrength=10, ystrength=25, vibrato=50, randomness=90, fadeout=false, block=false)]",
+        "type": "camera_shake",
+        "duration": "-1,",
+        "xstrength": "10,",
+        "ystrength": "25,",
+        "vibrato": "50,",
+        "randomness": "90,",
+        "fadeout": "false,",
+        "block": false
+    },
+    {
+        "id": 599,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 600,
+        "raw": "[charslot(slot = \"m\", focus=\"none\")]",
+        "type": "charslot",
+        "focus": "none"
+    },
+    {
+        "id": 601,
+        "raw": "[Decision(options=\"What's wrong?;Is something...?\",values=\"1;2\")]",
+        "type": "decision",
+        "options": "What's wrong?;Is something...?",
+        "values": "1;2"
+    },
+    {
+        "id": 602,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 603,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 604,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=4, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "4,",
+        "block": true
+    },
+    {
+        "id": 605,
+        "raw": "[Background(image=\"bg_white\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_white.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 606,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 607,
+        "raw": "[CameraShake(duration=0.01, xstrength=0, ystrength=0, vibrato=0, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.01,",
+        "xstrength": "0,",
+        "ystrength": "0,",
+        "vibrato": "0,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 608,
+        "raw": "[charslot(slot = \"m\", name = \"char_003_kalts_1#1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 609,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 610,
+        "raw": "[name=\"Kal'tsit\"]...Dr. {@nickname}.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "...Dr. {@nickname}."
+    },
+    {
+        "id": 611,
+        "raw": "[name=\"Kal'tsit\"]Remember what I said. If you can, for the next while, call to mind your past with Rhodes Island.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Remember what I said. If you can, for the next while, call to mind your past with Rhodes Island."
+    },
+    {
+        "id": 612,
+        "raw": "[name=\"Kal'tsit\"]Do not be rattled.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Do not be rattled."
+    },
+    {
+        "id": 613,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 614,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 615,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 616,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 617,
+        "raw": "A violent light sweeps over your body. You feel a shred of familiarity impossible to process.",
+        "type": "narration",
+        "content": "A violent light sweeps over your body. You feel a shred of familiarity impossible to process."
+    },
+    {
+        "id": 618,
+        "raw": "With no warning, out of all the things before you right now, you recall that scene. That scene you've never once forgotten, up to this day.",
+        "type": "narration",
+        "content": "With no warning, out of all the things before you right now, you recall that scene. That scene you've never once forgotten, up to this day."
+    },
+    {
+        "id": 619,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 620,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 621,
+        "raw": "[PlayMusic(intro=\"$ekg_loop\", key=\"$ekg_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/dialog/d_avg_ekg_loop.mp3",
+        "key": "sound_beta_2/dialog/d_avg_ekg_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 622,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 623,
+        "raw": "The Sarcophagus. A cold, frigid light.",
+        "type": "narration",
+        "content": "The Sarcophagus. A cold, frigid light."
+    },
+    {
+        "id": 624,
+        "raw": "Amiya grips your hand. You remember nothing. You're drawn into the maelstrom of Chernobog. It is the start of everything.",
+        "type": "narration",
+        "content": "Amiya grips your hand. You remember nothing. You're drawn into the maelstrom of Chernobog. It is the start of everything."
+    },
+    {
+        "id": 625,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 626,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 627,
+        "raw": "So much time has passed... but something, some sentiment even longer-lived than that fills the dense haze of your memories.",
+        "type": "narration",
+        "content": "So much time has passed... but something, some sentiment even longer-lived than that fills the dense haze of your memories."
+    },
+    {
+        "id": 628,
+        "raw": "It stirs in you grief, and reminiscence, and discomfort... it is part of you, yet you reject it with all you can.",
+        "type": "narration",
+        "content": "It stirs in you grief, and reminiscence, and discomfort... it is part of you, yet you reject it with all you can."
+    },
+    {
+        "id": 629,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 630,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 631,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 632,
+        "raw": "You strive to settle down your psyche. Faced with this quiet noise and dazzling darkness, this indescribable yet infinitesimally brief torment, your vision returns.",
+        "type": "narration",
+        "content": "You strive to settle down your psyche. Faced with this quiet noise and dazzling darkness, this indescribable yet infinitesimally brief torment, your vision returns."
+    },
+    {
+        "id": 633,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 634,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 635,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 636,
+        "raw": "[Background(image=\"38_g8_storage\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "38_g8_storage.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 637,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 638,
+        "raw": "[playMusic(intro=\"$act17_intro\", key=\"$act17_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act17d0d0/m_sys_act17_intro.mp3",
+        "key": "sound_beta_2/music/act17d0d0/m_sys_act17_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 639,
+        "raw": "[bgeffect(name=\"$eb_dim_openeye\",layer=1)]",
+        "type": "bg_effect",
+        "name": "$eb_dim_openeye",
+        "layer": 1
+    },
+    {
+        "id": 640,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 641,
+        "raw": "[delay(time=3)]",
+        "type": "delay",
+        "time": 3
+    },
+    {
+        "id": 642,
+        "raw": "You narrowly avoid a gasp of surprise.",
+        "type": "narration",
+        "content": "You narrowly avoid a gasp of surprise."
+    },
+    {
+        "id": 643,
+        "raw": "But this unknown structure has preempted you, and the sounds of resuscitation echo through the vast hall.",
+        "type": "narration",
+        "content": "But this unknown structure has preempted you, and the sounds of resuscitation echo through the vast hall."
+    },
+    {
+        "id": 644,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 645,
+        "raw": "[PlaySound(key=\"$d_avg_energybody\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_energybody.mp3",
+        "volume": 1
+    },
+    {
+        "id": 646,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 647,
+        "raw": "[name=\"???\"](Unknown language) ...Unfathomable.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "(Unknown language) ...Unfathomable."
+    },
+    {
+        "id": 648,
+        "raw": "[name=\"???\"](Unknown language) That after such... such lengths of time, I would lay eyes again... on a colleague... and an attendant.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "(Unknown language) That after such... such lengths of time, I would lay eyes again... on a colleague... and an attendant."
+    },
+    {
+        "id": 649,
+        "raw": "[name=\"???\"](Unknown language) Truly... far too unfathomable...",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "(Unknown language) Truly... far too unfathomable..."
+    },
+    {
+        "id": 650,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 651,
+        "raw": "[Decision(options=\"Why can I understand... your language?\",values=\"1\")]",
+        "type": "decision",
+        "options": "Why can I understand... your language?",
+        "values": "1"
+    },
+    {
+        "id": 652,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 653,
+        "raw": "[Decision(options=\"Who are you?!\",values=\"1\")]",
+        "type": "decision",
+        "options": "Who are you?!",
+        "values": "1"
+    },
+    {
+        "id": 654,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 655,
+        "raw": "[name=\"???\"](Unknown language) Who am I?",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "(Unknown language) Who am I?"
+    },
+    {
+        "id": 656,
+        "raw": "[name=\"???\"](Standard Columbian) Who am I?",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "(Standard Columbian) Who am I?"
+    },
+    {
+        "id": 657,
+        "raw": "[name=\"???\"]Why would you use Terran language...? Are you not aware of my existence?",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "Why would you use Terran language...? Are you not aware of my existence?"
+    },
+    {
+        "id": 658,
+        "raw": "[name=\"???\"]What happened to you? Answer me on that one's behalf, attendant. AMa-10.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "What happened to you? Answer me on that one's behalf, attendant. AMa-10."
+    },
+    {
+        "id": 659,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 660,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 661,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 662,
+        "raw": "[charslot(slot = \"m\", name = \"char_003_kalts_1#1\", duration=2, isblock=true)]",
+        "type": "charslot",
+        "duration": "2,",
+        "isblock": true
+    },
+    {
+        "id": 663,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 664,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 665,
+        "raw": "[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 666,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 667,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 668,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 669,
+        "raw": "[Image]",
+        "type": "image"
+    }
+]

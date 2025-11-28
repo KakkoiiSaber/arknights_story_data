@@ -1,0 +1,5356 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")]",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK"
+    },
+    {
+        "id": 2,
+        "raw": "[stopmusic]",
+        "type": "stop_music"
+    },
+    {
+        "id": 3,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 4,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 5,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 6,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 7,
+        "raw": "[Background(image=\"60_g8_rhodeslowerdeck_origin\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "60_g8_rhodeslowerdeck_origin.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 8,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"「生命」という概念は空疎だけど私たちにとっては致命的な魅力に満ちているわ。\", x=250,y=250, alignment=\"center\", duration=1, size=24, delay=0.04, width=800)]",
+        "type": "sticker",
+        "text": "「生命」という概念は空疎だけど私たちにとっては致命的な魅力に満ちているわ。",
+        "x": "250,y=250,",
+        "alignment": "center",
+        "duration": "1,",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": 800
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n\\n我々はすでに、私たちと似た思考モデルを有する個体を生命と見なすことに慣れている。「彼らがどれほど私たちに似ているか」というだけの理由で……\", block = true)]",
+        "type": "sticker",
+        "text": "\\n\\n我々はすでに、私たちと似た思考モデルを有する個体を生命と見なすことに慣れている。「彼らがどれほど私たちに似ているか」というだけの理由で……"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n\\n私たちは皆、生存のするために、一切の代償をも惜しまず死と戦うというだけの理由でね。\", block = true)]",
+        "type": "sticker",
+        "text": "\\n\\n私たちは皆、生存のするために、一切の代償をも惜しまず死と戦うというだけの理由でね。"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", duration=1, block = false)]",
+        "type": "sticker",
+        "duration": "1,"
+    },
+    {
+        "id": 13,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": "st2",
+        "raw": "[Sticker(id=\"st2\", multi = true, text=\"だけどこれは一種の傲慢よ、{@nickname}。\", x=250,y=350, alignment=\"center\", duration=1, size=24, delay=0.04, width=800)]",
+        "type": "sticker",
+        "text": "だけどこれは一種の傲慢よ、{@nickname}。",
+        "x": "250,y=350,",
+        "alignment": "center",
+        "duration": "1,",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": 800
+    },
+    {
+        "id": "st2",
+        "raw": "[Sticker(id=\"st2\", duration=2, block = false)]",
+        "type": "sticker",
+        "duration": "2,"
+    },
+    {
+        "id": 16,
+        "raw": "[StopSound(channel=\"en\", fadetime=2)]",
+        "type": "stop_sound",
+        "channel": "en",
+        "fadetime": 2
+    },
+    {
+        "id": 17,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 18,
+        "raw": "[PlayMusic(intro=\"$normal02_intro\", key=\"$normal02_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta1_180603/m_bat_normal02_intro.mp3",
+        "key": "sound_beta_2/music/beta1_180603/m_bat_normal02_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 19,
+        "raw": "[PlaySound(key=\"$d_avg_enemyappear_weird\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_enemyappear_weird.mp3",
+        "volume": 1
+    },
+    {
+        "id": 20,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1727_1#1$1\", duration = 1.5)]",
+        "type": "charslot"
+    },
+    {
+        "id": 21,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 22,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 23,
+        "raw": "[CameraShake(duration=1, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "xstrength": "40,",
+        "ystrength": "40,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 24,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.03,",
+        "block": true
+    },
+    {
+        "id": 25,
+        "raw": "[PlaySound(key=\"$d_avg_arrowtarget\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_arrowtarget.mp3",
+        "volume": 1
+    },
+    {
+        "id": 26,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 27,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 28,
+        "raw": "[PlaySound(key=\"$d_avg_shdwblwvr\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_shdwblwvr.mp3",
+        "volume": 1
+    },
+    {
+        "id": 29,
+        "raw": "[charslot(duration=1.5, isblock=true)]",
+        "type": "charslot",
+        "duration": "1.5,",
+        "isblock": true
+    },
+    {
+        "id": 30,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 31,
+        "raw": "[playsound(key=\"$d_gen_walk_n\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 32,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_167\", posfrom=\"200,0\", posto=\"0,0\", duration=1, isblock=true)]",
+        "type": "charslot",
+        "posfrom": "200,0",
+        "posto": "0,0",
+        "duration": "1,",
+        "isblock": true
+    },
+    {
+        "id": 33,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 34,
+        "raw": "[name=\"Stormeye\"]ターゲット排除。",
+        "type": "dialog",
+        "speaker": "Stormeye",
+        "content": "ターゲット排除。"
+    },
+    {
+        "id": 35,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 36,
+        "raw": "[PlaySound(key=\"$d_gen_transmissionget\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_transmissionget.mp3",
+        "volume": 1
+    },
+    {
+        "id": 37,
+        "raw": "[charslot(slot = \"r\", focus=\"n\")]",
+        "type": "charslot",
+        "focus": "n"
+    },
+    {
+        "id": 38,
+        "raw": "[interlude(maskid = \"group_interclude_vertical_common\" ,size = \"290,760\",tsfrom=\"0,1\", tsto =\"1,1\",tsduration = 0.5, switch = true, style = 0,offset = \"-250,0\", channel = 3)]",
+        "type": "interlude",
+        "tsfrom": "0,1"
+    },
+    {
+        "id": 39,
+        "raw": "[interlude(channel = 3, switch = true, type = 3, slot = \"m\", pfrom = \"-250,0\", pto=\"-250,0\", name = \"avg_npc_1723_1#1$1\", duration = 0)]",
+        "type": "interlude",
+        "pto": "-250,0"
+    },
+    {
+        "id": 40,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 41,
+        "raw": "[name=\"クロージャ\"]Stormeyeちゃん、四時の方向へ二連射して。",
+        "type": "dialog",
+        "speaker": "クロージャ",
+        "content": "Stormeyeちゃん、四時の方向へ二連射して。"
+    },
+    {
+        "id": 42,
+        "raw": "[interlude(channel = 3, switch = false)]",
+        "type": "interlude"
+    },
+    {
+        "id": 43,
+        "raw": "[charslot(slot = \"r\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 44,
+        "raw": "[name=\"Stormeye\"]壁の支柱に？",
+        "type": "dialog",
+        "speaker": "Stormeye",
+        "content": "壁の支柱に？"
+    },
+    {
+        "id": 45,
+        "raw": "[interlude(channel = 3, clear = true)]",
+        "type": "interlude"
+    },
+    {
+        "id": 46,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 47,
+        "raw": "Stormeyeは不思議に思ったが、躊躇うことなく矢を二本続けて射った。",
+        "type": "narration",
+        "content": "Stormeyeは不思議に思ったが、躊躇うことなく矢を二本続けて射った。"
+    },
+    {
+        "id": 48,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 49,
+        "raw": "[PlaySound(key=\"$d_avg_spirlstrsndlss\", volume=0.6, loop=true, channel=\"sp\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_spirlstrsndlss.mp3",
+        "volume": "0.6,",
+        "loop": "true,",
+        "channel": "sp"
+    },
+    {
+        "id": 50,
+        "raw": "[StopSound(channel=\"sp\", fadetime=5)]",
+        "type": "stop_sound",
+        "channel": "sp",
+        "fadetime": 5
+    },
+    {
+        "id": 51,
+        "raw": "[Blocker(a=0, r=255,g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,g=255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 52,
+        "raw": "[Blocker(a=1, r=255,g=255, b=255, fadetime=0.03, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,g=255,",
+        "b": "255,",
+        "fadetime": "0.03,",
+        "block": true
+    },
+    {
+        "id": 53,
+        "raw": "[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "40,",
+        "ystrength": "40,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 54,
+        "raw": "[PlaySound(key=\"$d_avg_arrowtarget\", volume=0.5)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_arrowtarget.mp3",
+        "volume": 0.5
+    },
+    {
+        "id": 55,
+        "raw": "[Blocker(a=0, r=255,g=255, b=255, fadetime=0.03, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,g=255,",
+        "b": "255,",
+        "fadetime": "0.03,",
+        "block": true
+    },
+    {
+        "id": 56,
+        "raw": "[delay(time=0.3)]",
+        "type": "delay",
+        "time": 0.3
+    },
+    {
+        "id": 57,
+        "raw": "[Blocker(a=0, r=255,g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,g=255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 58,
+        "raw": "[Blocker(a=1, r=255,g=255, b=255, fadetime=0.03, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,g=255,",
+        "b": "255,",
+        "fadetime": "0.03,",
+        "block": true
+    },
+    {
+        "id": 59,
+        "raw": "[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "40,",
+        "ystrength": "40,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 60,
+        "raw": "[PlaySound(key=\"$d_avg_arrowtarget\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_arrowtarget.mp3",
+        "volume": 1
+    },
+    {
+        "id": 61,
+        "raw": "[Blocker(a=0, r=255,g=255, b=255, fadetime=0.03, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,g=255,",
+        "b": "255,",
+        "fadetime": "0.03,",
+        "block": true
+    },
+    {
+        "id": 62,
+        "raw": "[delay(time=0.3)]",
+        "type": "delay",
+        "time": 0.3
+    },
+    {
+        "id": 63,
+        "raw": "[interlude(maskid = \"group_interclude_vertical_common\" ,size = \"290,760\",tsfrom=\"0,1\", tsto =\"1,1\", tsduration = 0, switch = true, style = 0,offset = \"-250,0\", channel = 3)]",
+        "type": "interlude",
+        "tsfrom": "0,1"
+    },
+    {
+        "id": 64,
+        "raw": "[interlude(channel = 3, switch = true, type = 3, slot = \"m\", pfrom = \"-250,0\", pto=\"-250,0\", name = \"avg_npc_1723_1#1$1\", duration = 0)]",
+        "type": "interlude",
+        "pto": "-250,0"
+    },
+    {
+        "id": 65,
+        "raw": "[interlude(channel = 3, switch = false)]",
+        "type": "interlude"
+    },
+    {
+        "id": 66,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_167\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 67,
+        "raw": "[name=\"Stormeye\"]放った瞬間に地形が変化して障害物がタイミングよく消え、敵に命中した……",
+        "type": "dialog",
+        "speaker": "Stormeye",
+        "content": "放った瞬間に地形が変化して障害物がタイミングよく消え、敵に命中した……"
+    },
+    {
+        "id": 68,
+        "raw": "[name=\"Stormeye\"]クロージャさん、一体どうやったんですか！？",
+        "type": "dialog",
+        "speaker": "Stormeye",
+        "content": "クロージャさん、一体どうやったんですか！？"
+    },
+    {
+        "id": 69,
+        "raw": "[charslot(slot = \"r\", focus=\"n\")]",
+        "type": "charslot",
+        "focus": "n"
+    },
+    {
+        "id": 70,
+        "raw": "[interlude(channel = 3, switch = true, type = 3, slot = \"m\", pfrom = \"-250,0\", pto=\"-250,0\", name = \"avg_npc_1723_1#9$1\", duration = 0)]",
+        "type": "interlude",
+        "pto": "-250,0"
+    },
+    {
+        "id": 71,
+        "raw": "[name=\"クロージャ\"]へへ、あたしじゃなくて、ZOOTが計算したんだよ。",
+        "type": "dialog",
+        "speaker": "クロージャ",
+        "content": "へへ、あたしじゃなくて、ZOOTが計算したんだよ。"
+    },
+    {
+        "id": 72,
+        "raw": "[name=\"クロージャ\"]今度は六時の方向だよ。そのまま飛び込んで。空洞の下の源石クラスターに怖がる必要はないから。",
+        "type": "dialog",
+        "speaker": "クロージャ",
+        "content": "今度は六時の方向だよ。そのまま飛び込んで。空洞の下の源石クラスターに怖がる必要はないから。"
+    },
+    {
+        "id": 73,
+        "raw": "[interlude(channel = 3, switch = false)]",
+        "type": "interlude"
+    },
+    {
+        "id": 74,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_167\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 75,
+        "raw": "[name=\"Stormeye\"]ハッ。",
+        "type": "dialog",
+        "speaker": "Stormeye",
+        "content": "ハッ。"
+    },
+    {
+        "id": 76,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 77,
+        "raw": "[playsound(key=\"$transmission\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_transmission.mp3",
+        "volume": 1
+    },
+    {
+        "id": 78,
+        "raw": "[interlude(channel = 3, clear = true, tsfrom=\"1,1\", tsto =\"0,1\", tsduration = 0.5)]",
+        "type": "interlude",
+        "tsfrom": "1,1"
+    },
+    {
+        "id": 79,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 80,
+        "raw": "[playsound(key=\"$d_avg_clothmovement\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_clothmovement.mp3",
+        "volume": 1
+    },
+    {
+        "id": 81,
+        "raw": "[charslot(slot = \"r\", posfrom=\"0,0\", posto=\"80,15\", afrom=1, ato=0, duration=0.2, isblock=true)]",
+        "type": "charslot",
+        "posfrom": "0,0",
+        "posto": "80,15",
+        "afrom": "1,",
+        "ato": "0,",
+        "duration": "0.2,",
+        "isblock": true
+    },
+    {
+        "id": 82,
+        "raw": "[CameraShake(duration=5, xstrength=5, ystrength=5, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "5,",
+        "xstrength": "5,",
+        "ystrength": "5,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 83,
+        "raw": "[PlaySound(key=\"$d_avg_spirlstrsndlss\", volume=1, loop=true, channel=\"sp\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_spirlstrsndlss.mp3",
+        "volume": "1,",
+        "loop": "true,",
+        "channel": "sp"
+    },
+    {
+        "id": 84,
+        "raw": "[StopSound(channel=\"sp\", fadetime=5)]",
+        "type": "stop_sound",
+        "channel": "sp",
+        "fadetime": 5
+    },
+    {
+        "id": 85,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 86,
+        "raw": "彼が真っ直ぐ飛び込むと、地形が再び変化した。終わりのない落下を始めるも、呪文で編まれたロープが彼を引くのだった。",
+        "type": "narration",
+        "content": "彼が真っ直ぐ飛び込むと、地形が再び変化した。終わりのない落下を始めるも、呪文で編まれたロープが彼を引くのだった。"
+    },
+    {
+        "id": 87,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 88,
+        "raw": "[playsound(key=\"$d_avg_magic_1\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_magic_1.mp3",
+        "volume": 1
+    },
+    {
+        "id": 89,
+        "raw": "[playsound(key=\"$d_avg_strngspllstght\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_strngspllstght.mp3",
+        "volume": 1
+    },
+    {
+        "id": 90,
+        "raw": "[charslot(slot = \"m\", name = \"avg_4133_logos_1#1$1\", duration=1, isblock=true)]",
+        "type": "charslot",
+        "duration": "1,",
+        "isblock": true
+    },
+    {
+        "id": 91,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 92,
+        "raw": "[name=\"Logos\"]クロージャの計算は正確である。",
+        "type": "dialog",
+        "speaker": "Logos",
+        "content": "クロージャの計算は正確である。"
+    },
+    {
+        "id": 93,
+        "raw": "[name=\"Logos\"]ここで長らく待っておったぞ。",
+        "type": "dialog",
+        "speaker": "Logos",
+        "content": "ここで長らく待っておったぞ。"
+    },
+    {
+        "id": 94,
+        "raw": "[charslot(slot = \"m\", focus=\"n\")]",
+        "type": "charslot",
+        "focus": "n"
+    },
+    {
+        "id": 95,
+        "raw": "[name=\"Stormeye\"]ではこれからは？",
+        "type": "dialog",
+        "speaker": "Stormeye",
+        "content": "ではこれからは？"
+    },
+    {
+        "id": 96,
+        "raw": "[charslot(slot = \"m\", name = \"avg_4133_logos_1#3$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 97,
+        "raw": "[name=\"Logos\"]指示に耳を傾け、目を閉じ前進する。",
+        "type": "dialog",
+        "speaker": "Logos",
+        "content": "指示に耳を傾け、目を閉じ前進する。"
+    },
+    {
+        "id": 98,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 99,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 100,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 101,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"私たちは争う勇気を賞賛し、抗う美徳を喧伝する。\", x=250,y=300, alignment=\"center\", duration=1, size=24, delay=0.04, width=800)]",
+        "type": "sticker",
+        "text": "私たちは争う勇気を賞賛し、抗う美徳を喧伝する。",
+        "x": "250,y=300,",
+        "alignment": "center",
+        "duration": "1,",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": 800
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n\\nそうして、同じ思考パターンに従う生命はその希望の見えない隊列に加わる。\", block = true)]",
+        "type": "sticker",
+        "text": "\\n\\nそうして、同じ思考パターンに従う生命はその希望の見えない隊列に加わる。"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", duration=0.5, block = false)]",
+        "type": "sticker",
+        "duration": "0.5,"
+    },
+    {
+        "id": 105,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": "st2",
+        "raw": "[Sticker(id=\"st2\", multi = true, text=\"しかし本当の神の前では、あるいは……\", x=250,y=250, alignment=\"center\", duration=1, size=24, delay=0.04, width=800)]",
+        "type": "sticker",
+        "text": "しかし本当の神の前では、あるいは……",
+        "x": "250,y=250,",
+        "alignment": "center",
+        "duration": "1,",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": 800
+    },
+    {
+        "id": "st2",
+        "raw": "[Sticker(id=\"st2\", multi = true, text=\"\\n\\nあらゆる抵抗は神にしてみれば、自然界で一番取るに足らない変化のようなものなのかもしれない。\", block = true)]",
+        "type": "sticker",
+        "text": "\\n\\nあらゆる抵抗は神にしてみれば、自然界で一番取るに足らない変化のようなものなのかもしれない。"
+    },
+    {
+        "id": "st2",
+        "raw": "[Sticker(id=\"st2\", multi = true, text=\"\\n\\nあるいは、神は我々に気付いてすらいないのかもしれない。\", block = true)]",
+        "type": "sticker",
+        "text": "\\n\\nあるいは、神は我々に気付いてすらいないのかもしれない。"
+    },
+    {
+        "id": "st2",
+        "raw": "[Sticker(id=\"st2\", duration=0.5, block = false)]",
+        "type": "sticker",
+        "duration": "0.5,"
+    },
+    {
+        "id": 110,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 111,
+        "raw": "[CameraShake(duration=1, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "xstrength": "40,",
+        "ystrength": "40,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 112,
+        "raw": "[PlaySound(key=\"$d_gen_explo_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_explo_n.mp3"
+    },
+    {
+        "id": 113,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 114,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.05,",
+        "block": true
+    },
+    {
+        "id": 115,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0.05, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.05,",
+        "block": true
+    },
+    {
+        "id": 116,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.05,",
+        "block": true
+    },
+    {
+        "id": 117,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 118,
+        "raw": "[Effect(name=\"$e_sandfall_01\",layer = 1)]",
+        "type": "effect",
+        "name": "$e_sandfall_01"
+    },
+    {
+        "id": 119,
+        "raw": "[PlaySound(key=\"$d_avg_erthshkng\", volume=1, loop=true, channel=\"e\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_erthshkng.mp3",
+        "volume": "1,",
+        "loop": "true,",
+        "channel": "e"
+    },
+    {
+        "id": 120,
+        "raw": "[CameraShake(duration=3, xstrength=10, ystrength=10, vibrato=90, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "3,",
+        "xstrength": "10,",
+        "ystrength": "10,",
+        "vibrato": "90,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 121,
+        "raw": "[StopSound(channel=\"e\", fadetime=3)]",
+        "type": "stop_sound",
+        "channel": "e",
+        "fadetime": 3
+    },
+    {
+        "id": 122,
+        "raw": "[PlaySound(key=\"$d_avg_rockfall\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_rockfall.mp3",
+        "volume": 1
+    },
+    {
+        "id": 123,
+        "raw": "[delay(time=2.5)]",
+        "type": "delay",
+        "time": 2.5
+    },
+    {
+        "id": 124,
+        "raw": "[charslot(slot=\"m\",name=\"avg_391_rosmon_1#1$2\",duration=1, isblock=true)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_391_rosmon_1#1$2.png",
+        "duration": "1,",
+        "isblock": true
+    },
+    {
+        "id": 125,
+        "raw": "[name=\"ロスモンティス\"]視界範囲内の敵は全部排除したよ。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "視界範囲内の敵は全部排除したよ。"
+    },
+    {
+        "id": 126,
+        "raw": "[name=\"ロスモンティス\"]隔離エリアの防衛線は確立できた。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "隔離エリアの防衛線は確立できた。"
+    },
+    {
+        "id": 127,
+        "raw": "[charslot(slot=\"m\", name=\"avg_017_huang_1#12$2\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_017_huang_1#12$2.png"
+    },
+    {
+        "id": 128,
+        "raw": "[name=\"ブレイズ\"]やるぅ、小猫ちゃん！",
+        "type": "dialog",
+        "speaker": "ブレイズ",
+        "content": "やるぅ、小猫ちゃん！"
+    },
+    {
+        "id": 129,
+        "raw": "[name=\"ブレイズ\"]うーん、でも私にもっと残しておいてくれてもよかったけどね。",
+        "type": "dialog",
+        "speaker": "ブレイズ",
+        "content": "うーん、でも私にもっと残しておいてくれてもよかったけどね。"
+    },
+    {
+        "id": 130,
+        "raw": "[charslot(slot=\"m\", name=\"avg_017_huang_1#1$2\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_017_huang_1#1$2.png"
+    },
+    {
+        "id": 131,
+        "raw": "[name=\"ブレイズ\"]次はどうしたらいい？",
+        "type": "dialog",
+        "speaker": "ブレイズ",
+        "content": "次はどうしたらいい？"
+    },
+    {
+        "id": 132,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 133,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 134,
+        "raw": "[PlaySound(key=\"$d_gen_transmissionget\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_transmissionget.mp3",
+        "volume": 1
+    },
+    {
+        "id": 135,
+        "raw": "[interlude(maskid = \"group_interclude_vertical_common\" ,size = \"290,760\",tsfrom=\"0,1\", tsto =\"1,1\",tsduration = 0.5, switch = true, style = 0,offset = \"0,0\", channel = 3)]",
+        "type": "interlude",
+        "tsfrom": "0,1"
+    },
+    {
+        "id": 136,
+        "raw": "[interlude(channel = 3, switch = true, type = 3, slot = \"m\", pfrom = \"0,0\", pto=\"0,0\", name = \"avg_npc_1723_1#1$1\", duration = 0)]",
+        "type": "interlude",
+        "pto": "0,0"
+    },
+    {
+        "id": 137,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 138,
+        "raw": "[name=\"クロージャ\"]あと三十秒後。",
+        "type": "dialog",
+        "speaker": "クロージャ",
+        "content": "あと三十秒後。"
+    },
+    {
+        "id": 139,
+        "raw": "[name=\"クロージャ\"]敵が正面から現れるから、全力で排除して。",
+        "type": "dialog",
+        "speaker": "クロージャ",
+        "content": "敵が正面から現れるから、全力で排除して。"
+    },
+    {
+        "id": 140,
+        "raw": "[name=\"クロージャ\"]そっちの方向でドクターが通らなきゃいけない道に通じる新しい通路が開くから。",
+        "type": "dialog",
+        "speaker": "クロージャ",
+        "content": "そっちの方向でドクターが通らなきゃいけない道に通じる新しい通路が開くから。"
+    },
+    {
+        "id": 141,
+        "raw": "[interlude(channel = 3, clear = true)]",
+        "type": "interlude"
+    },
+    {
+        "id": 142,
+        "raw": "[charslot(slot=\"m\", name=\"avg_017_huang_1#11$2\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_017_huang_1#11$2.png"
+    },
+    {
+        "id": 143,
+        "raw": "[name=\"ブレイズ\"]オッケー！　これで諸悪の根源にもう一回悔しい思いをさせてやれるね！",
+        "type": "dialog",
+        "speaker": "ブレイズ",
+        "content": "オッケー！　これで諸悪の根源にもう一回悔しい思いをさせてやれるね！"
+    },
+    {
+        "id": 144,
+        "raw": "[name=\"ブレイズ\"]小猫ちゃん、今回は私に先にやらせてよね？",
+        "type": "dialog",
+        "speaker": "ブレイズ",
+        "content": "小猫ちゃん、今回は私に先にやらせてよね？"
+    },
+    {
+        "id": 145,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 146,
+        "raw": "[charslot(duration=0.5, isblock=true)]",
+        "type": "charslot",
+        "duration": "0.5,",
+        "isblock": true
+    },
+    {
+        "id": 147,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 148,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"あなたは私に賛同しないのよね？　{@nickname}。\", x=250,y=250, alignment=\"center\", duration=1, size=24, delay=0.04, width=800)]",
+        "type": "sticker",
+        "text": "あなたは私に賛同しないのよね？　{@nickname}。",
+        "x": "250,y=250,",
+        "alignment": "center",
+        "duration": "1,",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": 800
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n\\nこれが真相を読み解く鍵である確証はない。ただ、その予見可能な絶望が私たちの今までのあらゆる努力を無にすると確定した後――\", block = true)]",
+        "type": "sticker",
+        "text": "\\n\\nこれが真相を読み解く鍵である確証はない。ただ、その予見可能な絶望が私たちの今までのあらゆる努力を無にすると確定した後――"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n\\n手の届く希望をしっかりと自分の手に握り締めるしかないわ。\", block = true)]",
+        "type": "sticker",
+        "text": "\\n\\n手の届く希望をしっかりと自分の手に握り締めるしかないわ。"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", duration=0.5, block = false)]",
+        "type": "sticker",
+        "duration": "0.5,"
+    },
+    {
+        "id": 153,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": "st2",
+        "raw": "[Sticker(id=\"st2\", multi = true, text=\"私は生命の奇跡にあまりに多くの愛を注いだ。そのために、我々には捨てることのできない軟弱さと欠陥が次第にはっきりと見えるようになった。\", x=250,y=300, alignment=\"center\", duration=1, size=24, delay=0.04, width=800)]",
+        "type": "sticker",
+        "text": "私は生命の奇跡にあまりに多くの愛を注いだ。そのために、我々には捨てることのできない軟弱さと欠陥が次第にはっきりと見えるようになった。",
+        "x": "250,y=300,",
+        "alignment": "center",
+        "duration": "1,",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": 800
+    },
+    {
+        "id": "st2",
+        "raw": "[Sticker(id=\"st2\", multi = true, text=\"\\n\\nなら私の愛する人たちをどう信じればいいの？　あなたを……どう信じればいいの？\", block = true)]",
+        "type": "sticker",
+        "text": "\\n\\nなら私の愛する人たちをどう信じればいいの？　あなたを……どう信じればいいの？"
+    },
+    {
+        "id": "st2",
+        "raw": "[Sticker(id=\"st2\", duration=0.5, block = false)]",
+        "type": "sticker",
+        "duration": "0.5,"
+    },
+    {
+        "id": 157,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 158,
+        "raw": "[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.3,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 159,
+        "raw": "[charslot(slot=\"m\", name=\"avg_npc_521_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_521_1#1$1.png"
+    },
+    {
+        "id": 160,
+        "raw": "[name=\"Mechanist\"]だめだ！　クロージャ！",
+        "type": "dialog",
+        "speaker": "Mechanist",
+        "content": "だめだ！　クロージャ！"
+    },
+    {
+        "id": 161,
+        "raw": "[name=\"Mechanist\"]周囲の建築構造が収縮し始めた。押し潰そうとしてきている！",
+        "type": "dialog",
+        "speaker": "Mechanist",
+        "content": "周囲の建築構造が収縮し始めた。押し潰そうとしてきている！"
+    },
+    {
+        "id": 162,
+        "raw": "[name=\"Mechanist\"]放ったドローンも通行可能なルートを発見できず、補強設備も長くは持たない。",
+        "type": "dialog",
+        "speaker": "Mechanist",
+        "content": "放ったドローンも通行可能なルートを発見できず、補強設備も長くは持たない。"
+    },
+    {
+        "id": 163,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 164,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 165,
+        "raw": "[PlaySound(key=\"$d_gen_transmissionget\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_transmissionget.mp3",
+        "volume": 1
+    },
+    {
+        "id": 166,
+        "raw": "[interlude(maskid = \"group_interclude_vertical_common\" ,size = \"290,760\",tsfrom=\"0,1\", tsto =\"1,1\",tsduration = 0.5, switch = true, style = 0,offset = \"0,0\", channel = 3)]",
+        "type": "interlude",
+        "tsfrom": "0,1"
+    },
+    {
+        "id": 167,
+        "raw": "[interlude(channel = 3, switch = true, type = 3, slot = \"m\", pfrom = \"0,0\", pto=\"0,0\", name = \"avg_npc_1723_1#6$1\", duration = 0)]",
+        "type": "interlude",
+        "pto": "0,0"
+    },
+    {
+        "id": 168,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 169,
+        "raw": "[name=\"クロージャ\"]今計算してるとこ！",
+        "type": "dialog",
+        "speaker": "クロージャ",
+        "content": "今計算してるとこ！"
+    },
+    {
+        "id": 170,
+        "raw": "[name=\"クロージャ\"]ZOOTが膨大な情報を同時に処理してるから、もうちょっと待ってあげて！",
+        "type": "dialog",
+        "speaker": "クロージャ",
+        "content": "ZOOTが膨大な情報を同時に処理してるから、もうちょっと待ってあげて！"
+    },
+    {
+        "id": 171,
+        "raw": "[name=\"クロージャ\"]6、5、4、3、2……1！",
+        "type": "dialog",
+        "speaker": "クロージャ",
+        "content": "6、5、4、3、2……1！"
+    },
+    {
+        "id": 172,
+        "raw": "[interlude(channel = 3, switch = true, type = 3, slot = \"m\", pfrom = \"0,0\", pto=\"0,0\", name = \"avg_npc_1723_1#7$1\", duration = 0)]",
+        "type": "interlude",
+        "pto": "0,0"
+    },
+    {
+        "id": 173,
+        "raw": "[name=\"クロージャ\"]Mechanistちゃん、上見て！",
+        "type": "dialog",
+        "speaker": "クロージャ",
+        "content": "Mechanistちゃん、上見て！"
+    },
+    {
+        "id": 174,
+        "raw": "[interlude(channel = 3, clear = true)]",
+        "type": "interlude"
+    },
+    {
+        "id": 175,
+        "raw": "[charslot(slot=\"m\", name=\"avg_npc_521_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_521_1#1$1.png"
+    },
+    {
+        "id": 176,
+        "raw": "[name=\"Mechanist\"]……？",
+        "type": "dialog",
+        "speaker": "Mechanist",
+        "content": "……？"
+    },
+    {
+        "id": 177,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 178,
+        "raw": "[CameraShake(duration=5, xstrength=5, ystrength=5, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "5,",
+        "xstrength": "5,",
+        "ystrength": "5,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 179,
+        "raw": "[PlaySound(key=\"$d_avg_rockfall\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_rockfall.mp3",
+        "volume": 1
+    },
+    {
+        "id": 180,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 181,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 182,
+        "raw": "[background]",
+        "type": "background"
+    },
+    {
+        "id": 183,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.1,",
+        "block": true
+    },
+    {
+        "id": 184,
+        "raw": "[PlaySound(key=\"$d_avg_bldwhoosh\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_bldwhoosh.mp3",
+        "volume": 1
+    },
+    {
+        "id": 185,
+        "raw": "[Effect(name=\"$e_bladeline_01_small\", x = 0, y = -26, rox = 0, roy = 0, roz = -58, layer = 1)]",
+        "type": "effect",
+        "name": "$e_bladeline_01_small"
+    },
+    {
+        "id": 186,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 187,
+        "raw": "影の中の天井が歪み始め、冷たい光を放つ切っ先が、未知に通ずる通路を切り開いた。",
+        "type": "narration",
+        "content": "影の中の天井が歪み始め、冷たい光を放つ切っ先が、未知に通ずる通路を切り開いた。"
+    },
+    {
+        "id": 188,
+        "raw": "するとそこから手が伸びてきた。",
+        "type": "narration",
+        "content": "するとそこから手が伸びてきた。"
+    },
+    {
+        "id": 189,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 190,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0.1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.1,",
+        "block": true
+    },
+    {
+        "id": 191,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 192,
+        "raw": "[Background(image=\"60_g8_rhodeslowerdeck_origin\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "60_g8_rhodeslowerdeck_origin.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 193,
+        "raw": "[delay(time=0.1)]",
+        "type": "delay",
+        "time": 0.1
+    },
+    {
+        "id": 194,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 195,
+        "raw": "[name=\"Miseryの声\"]あんたが助けを求めていると聞いた。",
+        "type": "dialog",
+        "speaker": "Miseryの声",
+        "content": "あんたが助けを求めていると聞いた。"
+    },
+    {
+        "id": 196,
+        "raw": "[name=\"Miseryの声\"]時間がなくて、非常手段を用いるしかなかったんだ。",
+        "type": "dialog",
+        "speaker": "Miseryの声",
+        "content": "時間がなくて、非常手段を用いるしかなかったんだ。"
+    },
+    {
+        "id": 197,
+        "raw": "[name=\"Miseryの声\"]しっかり掴まってくれ、Mechanist！",
+        "type": "dialog",
+        "speaker": "Miseryの声",
+        "content": "しっかり掴まってくれ、Mechanist！"
+    },
+    {
+        "id": 198,
+        "raw": "[name=\"Miseryの声\"]皆があんたを待っているぞ。",
+        "type": "dialog",
+        "speaker": "Miseryの声",
+        "content": "皆があんたを待っているぞ。"
+    },
+    {
+        "id": 199,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 200,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 201,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 202,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 203,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 204,
+        "raw": "[Background(image=\"bg_abyss_1\",screenadapt=\"coverall\", xScale=1.08, yScale=1.08)]",
+        "type": "background",
+        "image": "bg_abyss_1.png",
+        "screenadapt": "coverall",
+        "xScale": "1.08,",
+        "yScale": 1.08
+    },
+    {
+        "id": 205,
+        "raw": "[PlaySound(key=\"$d_avg_energywell\", volume=0, loop=true, channel=\"ene\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_energywell.mp3",
+        "volume": "0,",
+        "loop": "true,",
+        "channel": "ene"
+    },
+    {
+        "id": 206,
+        "raw": "[SoundVolume(volume=0.6, channel=\"ene\", fadetime=2)]",
+        "type": "sound_volume",
+        "volume": "0.6,",
+        "channel": "ene",
+        "fadetime": 2
+    },
+    {
+        "id": 207,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 208,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"私たちの次の再会がいつになるか正確な予測はできなかった――\", x=250,y=250, alignment=\"center\", duration=1, size=24, delay=0.04, width=800)]",
+        "type": "sticker",
+        "text": "私たちの次の再会がいつになるか正確な予測はできなかった――",
+        "x": "250,y=250,",
+        "alignment": "center",
+        "duration": "1,",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": 800
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n\\nだけど、その時私たちはすでに今持っている全てを失っていると断言できるわ。\", block = true)]",
+        "type": "sticker",
+        "text": "\\n\\nだけど、その時私たちはすでに今持っている全てを失っていると断言できるわ。"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n\\n永遠に死を迎えない生命はなく、時間の果てで再会できる死者もいない。\", block = true)]",
+        "type": "sticker",
+        "text": "\\n\\n永遠に死を迎えない生命はなく、時間の果てで再会できる死者もいない。"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n\\nだけどそれでも、その時あなたに会えることを願っているわ……{@nickname}。\", block = true)]",
+        "type": "sticker",
+        "text": "\\n\\nだけどそれでも、その時あなたに会えることを願っているわ……{@nickname}。"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", duration=2, block = false)]",
+        "type": "sticker",
+        "duration": "2,"
+    },
+    {
+        "id": 214,
+        "raw": "[SoundVolume(volume=0.8, channel=\"en\", fadetime=2)]",
+        "type": "sound_volume",
+        "volume": "0.8,",
+        "channel": "en",
+        "fadetime": 2
+    },
+    {
+        "id": 215,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 216,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 217,
+        "raw": "[PlaySound(key=\"$d_avg_enemyappear_weird\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_enemyappear_weird.mp3",
+        "volume": 1
+    },
+    {
+        "id": 218,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_1727_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 219,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_1728_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 220,
+        "raw": "[CameraShake(duration=4, xstrength=5, ystrength=5, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "4,",
+        "xstrength": "5,",
+        "ystrength": "5,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 221,
+        "raw": "[PlaySound(key=\"$firestorm\", volume=1, loop=true, channel=\"fire\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_firestorm.mp3",
+        "volume": "1,",
+        "loop": "true,",
+        "channel": "fire"
+    },
+    {
+        "id": 222,
+        "raw": "[PlaySound(key=\"$d_avg_churchfire\",volume=0, channel=\"f\", loop=true)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_churchfire.mp3",
+        "volume": "0,",
+        "channel": "f",
+        "loop": true
+    },
+    {
+        "id": 223,
+        "raw": "[SoundVolume(volume=0.2, channel=\"f\",fadetime=2)]",
+        "type": "sound_volume",
+        "volume": "0.2,",
+        "channel": "f",
+        "fadetime": 2
+    },
+    {
+        "id": 224,
+        "raw": "[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 225,
+        "raw": "[Blocker(a=0.2, r=0.92, g=0.4, b=0.3, fadetime=2, block=false)]",
+        "type": "blocker",
+        "a": "0.2,",
+        "r": "0.92,",
+        "g": "0.4,",
+        "b": "0.3,",
+        "fadetime": "2,",
+        "block": false
+    },
+    {
+        "id": 226,
+        "raw": "[StopSound(channel=\"fire\", fadetime=6)]",
+        "type": "stop_sound",
+        "channel": "fire",
+        "fadetime": 6
+    },
+    {
+        "id": 227,
+        "raw": "[StopSound(channel=\"f\", fadetime=2)]",
+        "type": "stop_sound",
+        "channel": "f",
+        "fadetime": 2
+    },
+    {
+        "id": 228,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 229,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 230,
+        "raw": "[PlaySound(key=\"$d_avg_shdwblwvr\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_shdwblwvr.mp3",
+        "volume": 1
+    },
+    {
+        "id": 231,
+        "raw": "[charslot(duration=1.5, isblock=true)]",
+        "type": "charslot",
+        "duration": "1.5,",
+        "isblock": true
+    },
+    {
+        "id": 232,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 233,
+        "raw": "[CameraShake(duration=0.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 234,
+        "raw": "[PlaySound(key=\"$char_Mon3tr\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/battle/b_char/b_char_mon3tr.mp3"
+    },
+    {
+        "id": 235,
+        "raw": "[charslot(slot = \"m\", name = \"npc_10002\", duration=0.5, isblock=true)]",
+        "type": "charslot",
+        "duration": "0.5,",
+        "isblock": true
+    },
+    {
+        "id": 236,
+        "raw": "[name=\"Mon3tr\"]（怒ったような雄たけび）",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "（怒ったような雄たけび）"
+    },
+    {
+        "id": 237,
+        "raw": "[name=\"Mon3tr\"]（咆哮）",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "（咆哮）"
+    },
+    {
+        "id": 238,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 239,
+        "raw": "[PlaySound(key=\"$d_avg_energygather\", volume=0.5, loop=true, channel=\"en\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_energygather.mp3",
+        "volume": "0.5,",
+        "loop": "true,",
+        "channel": "en"
+    },
+    {
+        "id": 240,
+        "raw": "[StopSound(channel=\"en\", fadetime=2)]",
+        "type": "stop_sound",
+        "channel": "en",
+        "fadetime": 2
+    },
+    {
+        "id": 241,
+        "raw": "[name=\"Mon3tr\"]（エネルギーを溜める）",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "（エネルギーを溜める）"
+    },
+    {
+        "id": 242,
+        "raw": "[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.3,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 243,
+        "raw": "[PlaySound(key=\"$b_char_fireharm\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/battle/b_char/b_char_fireharm.mp3",
+        "volume": 1
+    },
+    {
+        "id": 244,
+        "raw": "[name=\"Mon3tr\"]（焼けつく光線を放つ）",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "（焼けつく光線を放つ）"
+    },
+    {
+        "id": 245,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 246,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 247,
+        "raw": "[CameraShake(duration=1, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "xstrength": "40,",
+        "ystrength": "40,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 248,
+        "raw": "[PlaySound(key=\"$d_gen_explo_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_explo_n.mp3"
+    },
+    {
+        "id": 249,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 250,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.05,",
+        "block": true
+    },
+    {
+        "id": 251,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0.05, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.05,",
+        "block": true
+    },
+    {
+        "id": 252,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.05,",
+        "block": true
+    },
+    {
+        "id": 253,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 254,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 255,
+        "raw": "激しく放たれた光線は源石結晶体が集まってできた包囲網に巨大な突破口を作ると、そのまま遠くまで伸び……さらに多くの源石結晶体を倒す――",
+        "type": "narration",
+        "content": "激しく放たれた光線は源石結晶体が集まってできた包囲網に巨大な突破口を作ると、そのまま遠くまで伸び……さらに多くの源石結晶体を倒す――"
+    },
+    {
+        "id": 256,
+        "raw": "しかし突然、それは何かの力に遮られた。",
+        "type": "narration",
+        "content": "しかし突然、それは何かの力に遮られた。"
+    },
+    {
+        "id": 257,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 258,
+        "raw": "[PlaySound(key=\"$d_avg_metallicclick\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_metallicclick.mp3",
+        "volume": 1
+    },
+    {
+        "id": 259,
+        "raw": "[name=\"？？？\"]すっごい力だね！",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "すっごい力だね！"
+    },
+    {
+        "id": 260,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 261,
+        "raw": "[charslot(slot = \"m\", name = \"avg_017_huang_1#1$2\", duration=1)]",
+        "type": "charslot",
+        "duration": 1
+    },
+    {
+        "id": 262,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 263,
+        "raw": "[name=\"ブレイズ\"]でもドクターを傷つけないようにね、Mon3tr。",
+        "type": "dialog",
+        "speaker": "ブレイズ",
+        "content": "でもドクターを傷つけないようにね、Mon3tr。"
+    },
+    {
+        "id": 264,
+        "raw": "[charslot(slot=\"m\", name=\"avg_391_rosmon_1#1$2\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_391_rosmon_1#1$2.png"
+    },
+    {
+        "id": 265,
+        "raw": "[name=\"ロスモンティス\"]みんな位置についたよ。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "みんな位置についたよ。"
+    },
+    {
+        "id": 266,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 267,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 268,
+        "raw": "[PlaySound(key=\"$d_avg_footsteps_flock\", volume=1, loop=true, channel=\"f\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_footsteps_flock.mp3",
+        "volume": "1,",
+        "loop": "true,",
+        "channel": "f"
+    },
+    {
+        "id": 269,
+        "raw": "[StopSound(channel=\"f\", fadetime=2)]",
+        "type": "stop_sound",
+        "channel": "f",
+        "fadetime": 2
+    },
+    {
+        "id": 270,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 271,
+        "raw": "あなたが皆を率いて暗闇の中から現れる。",
+        "type": "narration",
+        "content": "あなたが皆を率いて暗闇の中から現れる。"
+    },
+    {
+        "id": 272,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 273,
+        "raw": "[Decision(options=\"ケルシーはここにいる。\", values=\"1\")]",
+        "type": "decision",
+        "options": "ケルシーはここにいる。",
+        "values": "1"
+    },
+    {
+        "id": 274,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 275,
+        "raw": "[PlaySound(key=\"$Mon3tr_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/player/p_atk/p_atk_mon3tr_n.mp3"
+    },
+    {
+        "id": 276,
+        "raw": "[charslot(slot = \"m\", name = \"npc_10002\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 277,
+        "raw": "[name=\"Mon3tr\"]（嬉しそうに体を揺らす）",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "（嬉しそうに体を揺らす）"
+    },
+    {
+        "id": 278,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 279,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 280,
+        "raw": "[Decision(options=\"Mon3trの支援を。;石棺周囲の敵を排除するんだ。\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "Mon3trの支援を。;石棺周囲の敵を排除するんだ。",
+        "values": "1;2"
+    },
+    {
+        "id": 281,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 282,
+        "raw": "[charslot(slot = \"m\", name = \"avg_4132_ascln_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 283,
+        "raw": "[name=\"アスカロン\"]随時私に合わせられるようにしてくれ。",
+        "type": "dialog",
+        "speaker": "アスカロン",
+        "content": "随時私に合わせられるようにしてくれ。"
+    },
+    {
+        "id": 284,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_235\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 285,
+        "raw": "[name=\"Misery\"]安心しろ。",
+        "type": "dialog",
+        "speaker": "Misery",
+        "content": "安心しろ。"
+    },
+    {
+        "id": 286,
+        "raw": "[charslot(slot = \"m\", name = \"avg_4133_logos_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 287,
+        "raw": "[name=\"Logos\"]呪文が随行する。",
+        "type": "dialog",
+        "speaker": "Logos",
+        "content": "呪文が随行する。"
+    },
+    {
+        "id": 288,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_521_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 289,
+        "raw": "[name=\"Mechanist\"]あれが……石棺か？　本艦内にずっと隠されていたのか？",
+        "type": "dialog",
+        "speaker": "Mechanist",
+        "content": "あれが……石棺か？　本艦内にずっと隠されていたのか？"
+    },
+    {
+        "id": 290,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 291,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 292,
+        "raw": "[Decision(options=\"自分が最初に目覚めた場所……\", values=\"1\")]",
+        "type": "decision",
+        "options": "自分が最初に目覚めた場所……",
+        "values": "1"
+    },
+    {
+        "id": 293,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 294,
+        "raw": "[PlaySound(key=\"$d_gen_transmissionget\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_transmissionget.mp3",
+        "volume": 1
+    },
+    {
+        "id": 295,
+        "raw": "[interlude(maskid = \"group_interclude_vertical_common\" ,size = \"290,760\",tsfrom=\"0,1\", tsto =\"1,1\",tsduration = 0.5, switch = true, style = 0,offset = \"0,0\", channel = 3)]",
+        "type": "interlude",
+        "tsfrom": "0,1"
+    },
+    {
+        "id": 296,
+        "raw": "[interlude(channel = 3, switch = true, type = 3, slot = \"m\", pfrom = \"0,0\", pto=\"0,0\", name = \"avg_npc_1723_1#6$1\", duration = 0)]",
+        "type": "interlude",
+        "pto": "0,0"
+    },
+    {
+        "id": 297,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 298,
+        "raw": "[name=\"クロージャ\"]ケルシーの信号が弱まってるのをZOOTが検出したよ！",
+        "type": "dialog",
+        "speaker": "クロージャ",
+        "content": "ケルシーの信号が弱まってるのをZOOTが検出したよ！"
+    },
+    {
+        "id": 299,
+        "raw": "[name=\"クロージャ\"]急いで確認しないと。",
+        "type": "dialog",
+        "speaker": "クロージャ",
+        "content": "急いで確認しないと。"
+    },
+    {
+        "id": 300,
+        "raw": "[interlude(channel = 3, clear = true)]",
+        "type": "interlude"
+    },
+    {
+        "id": 301,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_249_1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 302,
+        "raw": "[name=\"Touch\"]ケルシーさんが中に？",
+        "type": "dialog",
+        "speaker": "Touch",
+        "content": "ケルシーさんが中に？"
+    },
+    {
+        "id": 303,
+        "raw": "[name=\"Touch\"]Raidianさんによれば、彼女の状態はあまり楽観視できないようです。",
+        "type": "dialog",
+        "speaker": "Touch",
+        "content": "Raidianさんによれば、彼女の状態はあまり楽観視できないようです。"
+    },
+    {
+        "id": 304,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1730_1#7$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 305,
+        "raw": "[name=\"Raidian\"]Dr.{@nickname}、できるだけすぐに彼女をそこから出してあげないと。",
+        "type": "dialog",
+        "speaker": "Raidian",
+        "content": "Dr.{@nickname}、できるだけすぐに彼女をそこから出してあげないと。"
+    },
+    {
+        "id": 306,
+        "raw": "[name=\"Raidian\"]このままだと……彼女の身が心配だよ。",
+        "type": "dialog",
+        "speaker": "Raidian",
+        "content": "このままだと……彼女の身が心配だよ。"
+    },
+    {
+        "id": 307,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1310_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 308,
+        "raw": "[name=\"Pith\"]軽率な行動はできない。ケルシーと石棺の状況をしっかり把握できているわけではないんだ。",
+        "type": "dialog",
+        "speaker": "Pith",
+        "content": "軽率な行動はできない。ケルシーと石棺の状況をしっかり把握できているわけではないんだ。"
+    },
+    {
+        "id": 309,
+        "raw": "[name=\"Pith\"]当時の作戦記録によると、チェルノボーグにおいても石棺に接触した者がおり、最終的に我々の想定していなかった異変が起きた。",
+        "type": "dialog",
+        "speaker": "Pith",
+        "content": "当時の作戦記録によると、チェルノボーグにおいても石棺に接触した者がおり、最終的に我々の想定していなかった異変が起きた。"
+    },
+    {
+        "id": 310,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 311,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 312,
+        "raw": "[Decision(options=\"ケルシーは違う。\", values=\"1\")]",
+        "type": "decision",
+        "options": "ケルシーは違う。",
+        "values": "1"
+    },
+    {
+        "id": 313,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 314,
+        "raw": "[Decision(options=\"ここは任せてくれ。;援護してくれ。\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "ここは任せてくれ。;援護してくれ。",
+        "values": "1;2"
+    },
+    {
+        "id": 315,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 316,
+        "raw": "あなたは何一つ躊躇うことなく石棺へと向かう。",
+        "type": "narration",
+        "content": "あなたは何一つ躊躇うことなく石棺へと向かう。"
+    },
+    {
+        "id": 317,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 318,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 319,
+        "raw": "あなたは冷たい石棺に触れた。それは……あなたに応えている。",
+        "type": "narration",
+        "content": "あなたは冷たい石棺に触れた。それは……あなたに応えている。"
+    },
+    {
+        "id": 320,
+        "raw": "いや、ケルシーが応えているのだ。",
+        "type": "narration",
+        "content": "いや、ケルシーが応えているのだ。"
+    },
+    {
+        "id": 321,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 322,
+        "raw": "[Decision(options=\"まだまだ、これからも我々は共に進まねばならない。\", values=\"1\")]",
+        "type": "decision",
+        "options": "まだまだ、これからも我々は共に進まねばならない。",
+        "values": "1"
+    },
+    {
+        "id": 323,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 324,
+        "raw": "[StopSound(channel=\"ene\", fadetime=2)]",
+        "type": "stop_sound",
+        "channel": "ene",
+        "fadetime": 2
+    },
+    {
+        "id": 325,
+        "raw": "[PlaySound(key=\"$d_avg_stonegateopen\", volume=1, loop=true, channel=\"sn\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_stonegateopen.mp3",
+        "volume": "1,",
+        "loop": "true,",
+        "channel": "sn"
+    },
+    {
+        "id": 326,
+        "raw": "[StopSound(channel=\"sn\", fadetime=3)]",
+        "type": "stop_sound",
+        "channel": "sn",
+        "fadetime": 3
+    },
+    {
+        "id": 327,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 328,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#10$3\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 329,
+        "raw": "[name=\"アーミヤ\"]……",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "……"
+    },
+    {
+        "id": 330,
+        "raw": "[name=\"アーミヤ\"]ケルシー先生――",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "ケルシー先生――"
+    },
+    {
+        "id": 331,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 332,
+        "raw": "[PlayMusic(intro=\"$warm_intro\", key=\"$warm_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act9d0d0/m_avg_warm_intro.mp3",
+        "key": "sound_beta_2/music/act9d0d0/m_avg_warm_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 333,
+        "raw": "[name=\"弱々しい声\"]……ちょうどいいタイミングに来たな。",
+        "type": "dialog",
+        "speaker": "弱々しい声",
+        "content": "……ちょうどいいタイミングに来たな。"
+    },
+    {
+        "id": 334,
+        "raw": "[name=\"弱々しい声\"]ロドスは……どうなった……",
+        "type": "dialog",
+        "speaker": "弱々しい声",
+        "content": "ロドスは……どうなった……"
+    },
+    {
+        "id": 335,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 336,
+        "raw": "あなたは石棺の中の人物に手を伸ばした。",
+        "type": "narration",
+        "content": "あなたは石棺の中の人物に手を伸ばした。"
+    },
+    {
+        "id": 337,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 338,
+        "raw": "[Decision(options=\"みんな無事だ。;君の努力のおかげだ。\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "みんな無事だ。;君の努力のおかげだ。",
+        "values": "1;2"
+    },
+    {
+        "id": 339,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 340,
+        "raw": "[Decision(options=\"おかえり、ケルシー。\", values=\"1\")]",
+        "type": "decision",
+        "options": "おかえり、ケルシー。",
+        "values": "1"
+    },
+    {
+        "id": 341,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 342,
+        "raw": "彼女があなたの手を握る。あなたはかつてないほど彼女が弱っているのを感じた。",
+        "type": "narration",
+        "content": "彼女があなたの手を握る。あなたはかつてないほど彼女が弱っているのを感じた。"
+    },
+    {
+        "id": 343,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 344,
+        "raw": "[Decision(options=\"調子が悪そうだ。;何が起きたんだ？\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "調子が悪そうだ。;何が起きたんだ？",
+        "values": "1;2"
+    },
+    {
+        "id": 345,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 346,
+        "raw": "[charslot(slot = \"m\", name = \"avg_003_kalts_1#4$1\", duration=1.5, isblock=true)]",
+        "type": "charslot",
+        "duration": "1.5,",
+        "isblock": true
+    },
+    {
+        "id": 347,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 348,
+        "raw": "[name=\"ケルシー\"]私を気にかける必要はない……",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "私を気にかける必要はない……"
+    },
+    {
+        "id": 349,
+        "raw": "[charslot(slot = \"m\", name = \"avg_003_kalts_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 350,
+        "raw": "[name=\"ケルシー\"]石棺を通じてPRTSに介入することは困難だった。だが思いがけずある贈り物を受け取った。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "石棺を通じてPRTSに介入することは困難だった。だが思いがけずある贈り物を受け取った。"
+    },
+    {
+        "id": 351,
+        "raw": "[name=\"ケルシー\"]PRTSとプリースティスに関するさらなる情報を、すぐに君たちに共有する。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "PRTSとプリースティスに関するさらなる情報を、すぐに君たちに共有する。"
+    },
+    {
+        "id": 352,
+        "raw": "[PlaySound(key=\"$Mon3tr_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/player/p_atk/p_atk_mon3tr_n.mp3"
+    },
+    {
+        "id": 353,
+        "raw": "[charslot(slot=\"m\", name=\"npc_10002\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "npc_10002.png"
+    },
+    {
+        "id": 354,
+        "raw": "[name=\"Mon3tr\"]（緊張した雄たけび）",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "（緊張した雄たけび）"
+    },
+    {
+        "id": 355,
+        "raw": "[charslot(slot = \"m\", name = \"avg_003_kalts_1#11$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 356,
+        "raw": "[name=\"ケルシー\"]恐れることはない、Mon3tr。私はまだ君の前に立っている。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "恐れることはない、Mon3tr。私はまだ君の前に立っている。"
+    },
+    {
+        "id": 357,
+        "raw": "[name=\"ケルシー\"]君を置いていきはしない。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "君を置いていきはしない。"
+    },
+    {
+        "id": 358,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 359,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 360,
+        "raw": "[charslot(slot = \"m\", name = \"avg_003_kalts_1#5$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 361,
+        "raw": "[name=\"ケルシー\"]Dr.{@nickname}、Abyssに通じる道はすでに見つけた。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "Dr.{@nickname}、Abyssに通じる道はすでに見つけた。"
+    },
+    {
+        "id": 362,
+        "raw": "[name=\"ケルシー\"]この混乱を終わりにしよう。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "この混乱を終わりにしよう。"
+    },
+    {
+        "id": 363,
+        "raw": "[name=\"ケルシー\"]ここは干渉が非常に強い。Abyssのかなり近くまで来ている。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "ここは干渉が非常に強い。Abyssのかなり近くまで来ている。"
+    },
+    {
+        "id": 364,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#1$3\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 365,
+        "raw": "[name=\"アーミヤ\"]ですがここには道がありません。Abyssは完全に隠れてしまっています――",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "ですがここには道がありません。Abyssは完全に隠れてしまっています――"
+    },
+    {
+        "id": 366,
+        "raw": "[charslot(slot = \"m\", name = \"avg_003_kalts_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 367,
+        "raw": "[name=\"ケルシー\"]この距離ならば、Abyssの位置ははっきりと推測できる。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "この距離ならば、Abyssの位置ははっきりと推測できる。"
+    },
+    {
+        "id": 368,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 369,
+        "raw": "ケルシーは最も奥深くにある壁の前に立ち、しっかりと息を吸い込んだ。",
+        "type": "narration",
+        "content": "ケルシーは最も奥深くにある壁の前に立ち、しっかりと息を吸い込んだ。"
+    },
+    {
+        "id": 370,
+        "raw": "彼女はここまで奥に来たことはない――",
+        "type": "narration",
+        "content": "彼女はここまで奥に来たことはない――"
+    },
+    {
+        "id": 371,
+        "raw": "[charslot(slot=\"m\", name=\"npc_10002\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "npc_10002.png"
+    },
+    {
+        "id": 372,
+        "raw": "[name=\"Mon3tr\"]（焦ったように低く唸る）",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "（焦ったように低く唸る）"
+    },
+    {
+        "id": 373,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 374,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 375,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3"
+    },
+    {
+        "id": 376,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 377,
+        "raw": "[Decision(options=\"心配いらない、Mon3tr。;自分が彼女のそばにいる。\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "心配いらない、Mon3tr。;自分が彼女のそばにいる。",
+        "values": "1;2"
+    },
+    {
+        "id": 378,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 379,
+        "raw": "あなたはケルシーの傍に歩み寄った。",
+        "type": "narration",
+        "content": "あなたはケルシーの傍に歩み寄った。"
+    },
+    {
+        "id": 380,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 381,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#8$3\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 382,
+        "raw": "[name=\"アーミヤ\"]私もいますよ、ケルシー先生。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "私もいますよ、ケルシー先生。"
+    },
+    {
+        "id": 383,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 384,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 385,
+        "raw": "[Decision(options=\"ロドスは共に脅威に立ち向かう。\", values=\"1\")]",
+        "type": "decision",
+        "options": "ロドスは共に脅威に立ち向かう。",
+        "values": "1"
+    },
+    {
+        "id": 386,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 387,
+        "raw": "[charslot(slot = \"m\", name = \"avg_003_kalts_1#2$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 388,
+        "raw": "[name=\"ケルシー\"]……今回は、本当に違う結末になるかもしれないな。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "……今回は、本当に違う結末になるかもしれないな。"
+    },
+    {
+        "id": 389,
+        "raw": "[charslot(slot = \"m\", name = \"avg_003_kalts_1#5$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 390,
+        "raw": "[name=\"ケルシー\"]石棺を通じて一部の権限を残しておいた。私が道を開こう。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "石棺を通じて一部の権限を残しておいた。私が道を開こう。"
+    },
+    {
+        "id": 391,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 392,
+        "raw": "ケルシーがあなたたちとAbyssとを隔てる壁に触れた。",
+        "type": "narration",
+        "content": "ケルシーがあなたたちとAbyssとを隔てる壁に触れた。"
+    },
+    {
+        "id": 393,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 394,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 395,
+        "raw": "[PlaySound(key=\"$d_avg_erthshkng\", volume=1, loop=true, channel=\"e\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_erthshkng.mp3",
+        "volume": "1,",
+        "loop": "true,",
+        "channel": "e"
+    },
+    {
+        "id": 396,
+        "raw": "[CameraShake(duration=8, xstrength=10, ystrength=10, vibrato=90, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "8,",
+        "xstrength": "10,",
+        "ystrength": "10,",
+        "vibrato": "90,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 397,
+        "raw": "[StopSound(channel=\"e\", fadetime=8)]",
+        "type": "stop_sound",
+        "channel": "e",
+        "fadetime": 8
+    },
+    {
+        "id": 398,
+        "raw": "[PlaySound(key=\"$d_avg_rockfall\", volume=0.3)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_rockfall.mp3",
+        "volume": 0.3
+    },
+    {
+        "id": 399,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 400,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 401,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 402,
+        "raw": "[Background(image=\"bg_rhodesengineeringroom\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_rhodesengineeringroom.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 403,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1723_1#6$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 404,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 405,
+        "raw": "[PlaySound(key=\"$d_avg_erthshkng\", volume=1, loop=true, channel=\"e\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_erthshkng.mp3",
+        "volume": "1,",
+        "loop": "true,",
+        "channel": "e"
+    },
+    {
+        "id": 406,
+        "raw": "[CameraShake(duration=8, xstrength=10, ystrength=10, vibrato=90, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "8,",
+        "xstrength": "10,",
+        "ystrength": "10,",
+        "vibrato": "90,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 407,
+        "raw": "[StopSound(channel=\"e\", fadetime=8)]",
+        "type": "stop_sound",
+        "channel": "e",
+        "fadetime": 8
+    },
+    {
+        "id": 408,
+        "raw": "[PlaySound(key=\"$d_avg_rockfall\", volume=0.3)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_rockfall.mp3",
+        "volume": 0.3
+    },
+    {
+        "id": 409,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 410,
+        "raw": "[PlaySound(key=\"$d_avg_aircraftalarm\", volume=1, loop=true, channel=\"c\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_aircraftalarm.mp3",
+        "volume": "1,",
+        "loop": "true,",
+        "channel": "c"
+    },
+    {
+        "id": 411,
+        "raw": "[Blocker(a=0.3, r=1,g=0.2,b=0.2, fadetime=0.4, block=true)]",
+        "type": "blocker",
+        "a": "0.3,",
+        "r": "1,g=0.2,b=0.2,",
+        "fadetime": "0.4,",
+        "block": true
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"警告：異常なエネルギー源の急変を検知しました。\", x=180,y=170, alignment=\"left\", size=24, delay=0.04, width=800, block = false)]",
+        "type": "sticker",
+        "text": "警告：異常なエネルギー源の急変を検知しました。",
+        "x": "180,y=170,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "800,"
+    },
+    {
+        "id": 413,
+        "raw": "[delay(time=0.6)]",
+        "type": "delay",
+        "time": 0.6
+    },
+    {
+        "id": "st2",
+        "raw": "[Sticker(id=\"st2\", multi = true, text=\"警告：予備エネルギー不足。\", x=180,y=240, alignment=\"left\", size=24, delay=0.04, width=800, block = false)]",
+        "type": "sticker",
+        "text": "警告：予備エネルギー不足。",
+        "x": "180,y=240,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "800,"
+    },
+    {
+        "id": 415,
+        "raw": "[delay(time=0.6)]",
+        "type": "delay",
+        "time": 0.6
+    },
+    {
+        "id": "st3",
+        "raw": "[Sticker(id=\"st3\", multi = true, text=\"警告：エンジン動力エネルギー不足。エンジン停止。\", x=180,y=310, alignment=\"left\", size=24, delay=0.04, width=800, block = false)]",
+        "type": "sticker",
+        "text": "警告：エンジン動力エネルギー不足。エンジン停止。",
+        "x": "180,y=310,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "800,"
+    },
+    {
+        "id": 417,
+        "raw": "[delay(time=0.6)]",
+        "type": "delay",
+        "time": 0.6
+    },
+    {
+        "id": "st4",
+        "raw": "[Sticker(id=\"st4\", multi = true, text=\"警告：エネルギー動力エリアオフライン。\", x=180,y=380, alignment=\"left\", size=24, delay=0.04, width=800, block = false)]",
+        "type": "sticker",
+        "text": "警告：エネルギー動力エリアオフライン。",
+        "x": "180,y=380,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "800,"
+    },
+    {
+        "id": 419,
+        "raw": "[delay(time=0.6)]",
+        "type": "delay",
+        "time": 0.6
+    },
+    {
+        "id": "st5",
+        "raw": "[Sticker(id=\"st5\", multi = true, text=\"警告：最上甲板オフライン。\", x=180,y=450, alignment=\"left\", size=24, delay=0.04, width=800, block = false)]",
+        "type": "sticker",
+        "text": "警告：最上甲板オフライン。",
+        "x": "180,y=450,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "800,"
+    },
+    {
+        "id": 421,
+        "raw": "[delay(time=0.6)]",
+        "type": "delay",
+        "time": 0.6
+    },
+    {
+        "id": "st6",
+        "raw": "[Sticker(id=\"st6\", multi = true, text=\"警告：通信システムオフライン。\", x=180,y=520, alignment=\"left\", size=24, delay=0.04, width=800, block = false)]",
+        "type": "sticker",
+        "text": "警告：通信システムオフライン。",
+        "x": "180,y=520,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "800,"
+    },
+    {
+        "id": 423,
+        "raw": "[delay(time=0.6)]",
+        "type": "delay",
+        "time": 0.6
+    },
+    {
+        "id": "st7",
+        "raw": "[Sticker(id=\"st7\", multi = true, text=\"警告：コアアセンブリに修復不能な損傷を検知しました。\", x=180,y=590, alignment=\"left\", size=24, delay=0.04, width=800, block = false)]",
+        "type": "sticker",
+        "text": "警告：コアアセンブリに修復不能な損傷を検知しました。",
+        "x": "180,y=590,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "800,"
+    },
+    {
+        "id": 425,
+        "raw": "[delay(time=0.6)]",
+        "type": "delay",
+        "time": 0.6
+    },
+    {
+        "id": 426,
+        "raw": "[StopSound(channel=\"c\", fadetime=2)]",
+        "type": "stop_sound",
+        "channel": "c",
+        "fadetime": 2
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", duration=0.5, block = false)]",
+        "type": "sticker",
+        "duration": "0.5,"
+    },
+    {
+        "id": "st2",
+        "raw": "[Sticker(id=\"st2\", duration=0.5, block = false)]",
+        "type": "sticker",
+        "duration": "0.5,"
+    },
+    {
+        "id": "st3",
+        "raw": "[Sticker(id=\"st3\", duration=0.5, block = false)]",
+        "type": "sticker",
+        "duration": "0.5,"
+    },
+    {
+        "id": "st4",
+        "raw": "[Sticker(id=\"st4\", duration=0.5, block = false)]",
+        "type": "sticker",
+        "duration": "0.5,"
+    },
+    {
+        "id": "st5",
+        "raw": "[Sticker(id=\"st5\", duration=0.5, block = false)]",
+        "type": "sticker",
+        "duration": "0.5,"
+    },
+    {
+        "id": "st6",
+        "raw": "[Sticker(id=\"st6\", duration=0.5, block = false)]",
+        "type": "sticker",
+        "duration": "0.5,"
+    },
+    {
+        "id": "st7",
+        "raw": "[Sticker(id=\"st7\", duration=0.5, block = false)]",
+        "type": "sticker",
+        "duration": "0.5,"
+    },
+    {
+        "id": 434,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"申し訳ございません、ク――クロー――\", x=180,y=170, alignment=\"left\", size=24, delay=0.04, width=800, block = true)]",
+        "type": "sticker",
+        "text": "申し訳ございません、ク――クロー――",
+        "x": "180,y=170,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "800,"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", duration=3, block = false)]",
+        "type": "sticker",
+        "duration": "3,"
+    },
+    {
+        "id": 437,
+        "raw": "[PlaySound(key=\"$d_avg_machinedeath\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_machinedeath.mp3",
+        "volume": 1
+    },
+    {
+        "id": 438,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 439,
+        "raw": "[name=\"クロージャ\"]「ゼロスオーダーオイルタンク」……ありがとね。",
+        "type": "dialog",
+        "speaker": "クロージャ",
+        "content": "「ゼロスオーダーオイルタンク」……ありがとね。"
+    },
+    {
+        "id": 440,
+        "raw": "[name=\"クロージャ\"]本艦もついに止まったよ。",
+        "type": "dialog",
+        "speaker": "クロージャ",
+        "content": "本艦もついに止まったよ。"
+    },
+    {
+        "id": 441,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 442,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 443,
+        "raw": "[Background]",
+        "type": "background"
+    },
+    {
+        "id": 444,
+        "raw": "[Background(image=\"bg_abyss_1\",screenadapt=\"coverall\", xScale=1.08, yScale=1.08)]",
+        "type": "background",
+        "image": "bg_abyss_1.png",
+        "screenadapt": "coverall",
+        "xScale": "1.08,",
+        "yScale": 1.08
+    },
+    {
+        "id": 445,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 446,
+        "raw": "[playMusic(intro=\"$kaltsitteam_intro\", key=\"$kaltsitteam_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act9d2d0/m_bat_kaltsitteam_intro.mp3",
+        "key": "sound_beta_2/music/act9d2d0/m_bat_kaltsitteam_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 447,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 448,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 449,
+        "raw": "[charslot(slot = \"m\", name = \"avg_003_kalts_1#5$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 450,
+        "raw": "[name=\"ケルシー\"]Mon3tr、ドクターを守れ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "Mon3tr、ドクターを守れ。"
+    },
+    {
+        "id": 451,
+        "raw": "[name=\"ケルシー\"]今後全ての行動はドクターの状況を鑑みて独自に判断していい。未知の敵の脅威からドクターを守るんだ……",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "今後全ての行動はドクターの状況を鑑みて独自に判断していい。未知の敵の脅威からドクターを守るんだ……"
+    },
+    {
+        "id": 452,
+        "raw": "[name=\"ケルシー\"]またドクター自身に何か異常が起こった場合にも、君はドクターを止める必要がある。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "またドクター自身に何か異常が起こった場合にも、君はドクターを止める必要がある。"
+    },
+    {
+        "id": 453,
+        "raw": "[charslot(slot=\"m\",name=\"npc_10002\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "npc_10002.png"
+    },
+    {
+        "id": 454,
+        "raw": "[playsound(key=\"$char_Mon3tr\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/battle/b_char/b_char_mon3tr.mp3",
+        "volume": 1
+    },
+    {
+        "id": 455,
+        "raw": "[name=\"Mon3tr\"]（信頼するように低く唸る）",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "（信頼するように低く唸る）"
+    },
+    {
+        "id": 456,
+        "raw": "[charslot(slot = \"m\", name = \"avg_003_kalts_1#5$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 457,
+        "raw": "[name=\"ケルシー\"]アーミヤ、Dr.{@nickname}の状態に常に気を払っておいてくれ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "アーミヤ、Dr.{@nickname}の状態に常に気を払っておいてくれ。"
+    },
+    {
+        "id": 458,
+        "raw": "[name=\"ケルシー\"]ひとたびAbyssに入れば、現実に対する我々のあらゆる認識に衝撃が与えられる恐れがある。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "ひとたびAbyssに入れば、現実に対する我々のあらゆる認識に衝撃が与えられる恐れがある。"
+    },
+    {
+        "id": 459,
+        "raw": "[name=\"ケルシー\"]常に危険と隣り合わせであるが、君とドクターの安全が最優先事項だ。最終的な脅威に対応できるのは、君たちだけなのだから。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "常に危険と隣り合わせであるが、君とドクターの安全が最優先事項だ。最終的な脅威に対応できるのは、君たちだけなのだから。"
+    },
+    {
+        "id": 460,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#1$3\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 461,
+        "raw": "[name=\"アーミヤ\"]はい……気をつけます。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "はい……気をつけます。"
+    },
+    {
+        "id": 462,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 463,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 464,
+        "raw": "[Decision(options=\"ほかに注意すべきことはあるか？\", values=\"1\")]",
+        "type": "decision",
+        "options": "ほかに注意すべきことはあるか？",
+        "values": "1"
+    },
+    {
+        "id": 465,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 466,
+        "raw": "[charslot(slot = \"m\", name = \"avg_003_kalts_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 467,
+        "raw": "[name=\"ケルシー\"]君の本心を信じていればいい。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "君の本心を信じていればいい。"
+    },
+    {
+        "id": 468,
+        "raw": "[name=\"ケルシー\"]Dr.{@nickname}、この局面がこんなにも早く訪れるとは思っていなかった。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "Dr.{@nickname}、この局面がこんなにも早く訪れるとは思っていなかった。"
+    },
+    {
+        "id": 469,
+        "raw": "[charslot(slot = \"m\", name = \"avg_003_kalts_1#2$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 470,
+        "raw": "[name=\"ケルシー\"]しかし内なる宇宙とトリマウンツでの経験で、私は多くのことを考え直した。君はすでに別の可能性を見せてくれたからだ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "しかし内なる宇宙とトリマウンツでの経験で、私は多くのことを考え直した。君はすでに別の可能性を見せてくれたからだ。"
+    },
+    {
+        "id": 471,
+        "raw": "[charslot(slot = \"m\", name = \"avg_003_kalts_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 472,
+        "raw": "[name=\"ケルシー\"]これから起こる全てが君にとって、私にとって、またロドスの全員にとって未知数だ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "これから起こる全てが君にとって、私にとって、またロドスの全員にとって未知数だ。"
+    },
+    {
+        "id": 473,
+        "raw": "[name=\"ケルシー\"]だから、Dr.{@nickname}、教えてくれ――",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "だから、Dr.{@nickname}、教えてくれ――"
+    },
+    {
+        "id": 474,
+        "raw": "[name=\"ケルシー\"]直面するであろう危険に対して、君にはまだ躊躇いがあるか？",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "直面するであろう危険に対して、君にはまだ躊躇いがあるか？"
+    },
+    {
+        "id": 475,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 476,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 477,
+        "raw": "[Decision(options=\"ある。;ない。\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "ある。;ない。",
+        "values": "1;2"
+    },
+    {
+        "id": 478,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 479,
+        "raw": "[Decision(options=\"だがこの先の危険を恐れてはいない。\", values=\"1\")]",
+        "type": "decision",
+        "options": "だがこの先の危険を恐れてはいない。",
+        "values": "1"
+    },
+    {
+        "id": 480,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 481,
+        "raw": "[Decision(options=\"君はまだ緊張と躊躇いを隠そうとしている。\", values=\"1\")]",
+        "type": "decision",
+        "options": "君はまだ緊張と躊躇いを隠そうとしている。",
+        "values": "1"
+    },
+    {
+        "id": 482,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 483,
+        "raw": "[Decision(options=\"一人で全ての重荷に耐える必要はない。\", values=\"1\")]",
+        "type": "decision",
+        "options": "一人で全ての重荷に耐える必要はない。",
+        "values": "1"
+    },
+    {
+        "id": 484,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 485,
+        "raw": "[charslot(slot=\"m\",name=\"npc_10002\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "npc_10002.png"
+    },
+    {
+        "id": 486,
+        "raw": "[name=\"Mon3tr\"]（同意してケルシーをつつく）",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "（同意してケルシーをつつく）"
+    },
+    {
+        "id": 487,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 488,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 489,
+        "raw": "[Decision(options=\"今回、自分もロドスも君の傍にいる。\", values=\"1\")]",
+        "type": "decision",
+        "options": "今回、自分もロドスも君の傍にいる。",
+        "values": "1"
+    },
+    {
+        "id": 490,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 491,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 492,
+        "raw": "[Decision(options=\"君たちがいるから、待ち受けるものを恐れてはいない。\", values=\"2\")]",
+        "type": "decision",
+        "options": "君たちがいるから、待ち受けるものを恐れてはいない。",
+        "values": "2"
+    },
+    {
+        "id": 493,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 494,
+        "raw": "[Decision(options=\"むしろ君の方が心配だ。\", values=\"2\")]",
+        "type": "decision",
+        "options": "むしろ君の方が心配だ。",
+        "values": "2"
+    },
+    {
+        "id": 495,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 496,
+        "raw": "[Decision(options=\"このエリアに入ってから君は極度に緊張している。\", values=\"2\")]",
+        "type": "decision",
+        "options": "このエリアに入ってから君は極度に緊張している。",
+        "values": "2"
+    },
+    {
+        "id": 497,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 498,
+        "raw": "[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "15,",
+        "ystrength": "15,",
+        "vibrato": "20,",
+        "randomness": "70,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 499,
+        "raw": "[PlaySound(key=\"$Mon3tr_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/player/p_atk/p_atk_mon3tr_n.mp3"
+    },
+    {
+        "id": 500,
+        "raw": "[charslot(slot=\"m\",name=\"npc_10002\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "npc_10002.png"
+    },
+    {
+        "id": 501,
+        "raw": "[name=\"Mon3tr\"]（不安げに低く唸る）",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "（不安げに低く唸る）"
+    },
+    {
+        "id": 502,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 503,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 504,
+        "raw": "[Decision(options=\"ケルシー……\", values=\"2\")]",
+        "type": "decision",
+        "options": "ケルシー……",
+        "values": "2"
+    },
+    {
+        "id": 505,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 506,
+        "raw": "[Decision(options=\"信じてくれ、自分とロドスが君と共にある。\", values=\"2\")]",
+        "type": "decision",
+        "options": "信じてくれ、自分とロドスが君と共にある。",
+        "values": "2"
+    },
+    {
+        "id": 507,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 508,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 509,
+        "raw": "[Decision(options=\"次に何をすべきか教えてくれ。\", values=\"1\")]",
+        "type": "decision",
+        "options": "次に何をすべきか教えてくれ。",
+        "values": "1"
+    },
+    {
+        "id": 510,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 511,
+        "raw": "[charslot(slot = \"m\", name = \"avg_003_kalts_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 512,
+        "raw": "[name=\"ケルシー\"]Abyssを開くためのプログラムはすでにアクティベートし、船室を起動するために必要なエネルギーも準備は整っている。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "Abyssを開くためのプログラムはすでにアクティベートし、船室を起動するために必要なエネルギーも準備は整っている。"
+    },
+    {
+        "id": 513,
+        "raw": "[name=\"ケルシー\"]しかし私はAbyssに入るための完全な権限を持ち合わせていない。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "しかし私はAbyssに入るための完全な権限を持ち合わせていない。"
+    },
+    {
+        "id": 514,
+        "raw": "[charslot(slot=\"m\", name=\"avg_017_huang_1#7$2\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_017_huang_1#7$2.png"
+    },
+    {
+        "id": 515,
+        "raw": "[name=\"ブレイズ\"]えっ？",
+        "type": "dialog",
+        "speaker": "ブレイズ",
+        "content": "えっ？"
+    },
+    {
+        "id": 516,
+        "raw": "[name=\"ブレイズ\"]じゃあじゃあこじ開けなきゃいけないの？　それならMiseryが何とかできるかも。",
+        "type": "dialog",
+        "speaker": "ブレイズ",
+        "content": "じゃあじゃあこじ開けなきゃいけないの？　それならMiseryが何とかできるかも。"
+    },
+    {
+        "id": 517,
+        "raw": "[charslot(slot = \"m\", name = \"avg_003_kalts_1#2$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 518,
+        "raw": "[name=\"ケルシー\"]（首を横に振る）",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "（首を横に振る）"
+    },
+    {
+        "id": 519,
+        "raw": "[charslot(slot = \"m\", name = \"avg_003_kalts_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 520,
+        "raw": "[name=\"ケルシー\"]Abyssの秘匿性と安全性はテラ全体においても最高レベルだと言える。現状ここを開くことのできる権限を持つのは一人だけだ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "Abyssの秘匿性と安全性はテラ全体においても最高レベルだと言える。現状ここを開くことのできる権限を持つのは一人だけだ。"
+    },
+    {
+        "id": 521,
+        "raw": "ケルシーの視線が自身に向けられているのをあなたは感じた。",
+        "type": "narration",
+        "content": "ケルシーの視線が自身に向けられているのをあなたは感じた。"
+    },
+    {
+        "id": 522,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#1$3\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 523,
+        "raw": "[name=\"アーミヤ\"]……ドクター？",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "……ドクター？"
+    },
+    {
+        "id": 524,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 525,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 526,
+        "raw": "[Decision(options=\"……自分の力が必要であれば。;決して退かない。\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "……自分の力が必要であれば。;決して退かない。",
+        "values": "1;2"
+    },
+    {
+        "id": 527,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 528,
+        "raw": "[charslot(slot = \"m\", name = \"avg_003_kalts_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 529,
+        "raw": "[name=\"ケルシー\"]十七年前、ようやく「ロドス・アイランド」号を見つけた時、そのほとんどの構造が長い歳月の中で侵食により破壊されていた。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "十七年前、ようやく「ロドス・アイランド」号を見つけた時、そのほとんどの構造が長い歳月の中で侵食により破壊されていた。"
+    },
+    {
+        "id": 530,
+        "raw": "[name=\"ケルシー\"]唯一コアに位置するAbyssとその周囲のエリアのみが完璧なまま保たれていた。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "唯一コアに位置するAbyssとその周囲のエリアのみが完璧なまま保たれていた。"
+    },
+    {
+        "id": 531,
+        "raw": "[name=\"ケルシー\"]Abyssの中の未知のエネルギーによって、PRTSは止まることなく稼働し続け、その後我々が頼りとする指揮システムの根底たるフレームワークとなった。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "Abyssの中の未知のエネルギーによって、PRTSは止まることなく稼働し続け、その後我々が頼りとする指揮システムの根底たるフレームワークとなった。"
+    },
+    {
+        "id": 532,
+        "raw": "[charslot(slot = \"m\", name = \"avg_003_kalts_1#2$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 533,
+        "raw": "[name=\"ケルシー\"]しかしAbyssは誰にも開かれたことがなく、今ではもう……万年を超える。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "しかしAbyssは誰にも開かれたことがなく、今ではもう……万年を超える。"
+    },
+    {
+        "id": 534,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 535,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 536,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 537,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 538,
+        "raw": "[Background(image=\"60_i11_1R\", screenadapt=\"coverall\",x=-250)]",
+        "type": "background",
+        "image": "60_i11_1R.png",
+        "screenadapt": "coverall",
+        "x": -250
+    },
+    {
+        "id": 539,
+        "raw": "[BackgroundTween(xScaleFrom=1.1, yScaleFrom=1.1, xScaleTo=1, yScaleTo=1, duration=20, block=false)]",
+        "type": "background_tween",
+        "xScaleFrom": "1.1,",
+        "yScaleFrom": "1.1,",
+        "xScaleTo": "1,",
+        "yScaleTo": "1,",
+        "duration": "20,",
+        "block": false
+    },
+    {
+        "id": 540,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 541,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 542,
+        "raw": "[name=\"ケルシー\"]三年前、「アナンナ」が完全に降臨して以来、危機が訪れる速度はすでに予想を超えていると私は悟った。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "三年前、「アナンナ」が完全に降臨して以来、危機が訪れる速度はすでに予想を超えていると私は悟った。"
+    },
+    {
+        "id": 543,
+        "raw": "[name=\"ケルシー\"]あの混乱は我々の多くが身をもって体験した。あの時に感じた遺憾と悲痛が、あの出来事を今も記憶を新しいものとしている。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "あの混乱は我々の多くが身をもって体験した。あの時に感じた遺憾と悲痛が、あの出来事を今も記憶を新しいものとしている。"
+    },
+    {
+        "id": 544,
+        "raw": "[name=\"アスカロン\"]……",
+        "type": "dialog",
+        "speaker": "アスカロン",
+        "content": "……"
+    },
+    {
+        "id": 545,
+        "raw": "アスカロンが黙したまま仕込み刀を構え、あらゆる突発的な危機に備える。",
+        "type": "narration",
+        "content": "アスカロンが黙したまま仕込み刀を構え、あらゆる突発的な危機に備える。"
+    },
+    {
+        "id": 546,
+        "raw": "Raidianがアスカロンのわずかな異常を察知し、いつものようにアーツでアスカロンを、そしてその場の同僚一人一人をなだめた。",
+        "type": "narration",
+        "content": "Raidianがアスカロンのわずかな異常を察知し、いつものようにアーツでアスカロンを、そしてその場の同僚一人一人をなだめた。"
+    },
+    {
+        "id": 547,
+        "raw": "[name=\"ケルシー\"]ここ三年、我々は本艦の防御を強化し続け、ロドスを内部から瓦解させようとする脅威にいかに対処するかの訓練を行ってきた。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "ここ三年、我々は本艦の防御を強化し続け、ロドスを内部から瓦解させようとする脅威にいかに対処するかの訓練を行ってきた。"
+    },
+    {
+        "id": 548,
+        "raw": "[name=\"ケルシー\"]各オペレーターが一丸となって協力したおかげで、予期せぬ事態が発生した際、危機の根源を迅速に特定できるようになった。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "各オペレーターが一丸となって協力したおかげで、予期せぬ事態が発生した際、危機の根源を迅速に特定できるようになった。"
+    },
+    {
+        "id": 549,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 550,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 551,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 552,
+        "raw": "[Background(image=\"60_i11_1L\", screenadapt=\"coverall\",x=250)]",
+        "type": "background",
+        "image": "60_i11_1L.png",
+        "screenadapt": "coverall",
+        "x": 250
+    },
+    {
+        "id": 553,
+        "raw": "[BackgroundTween(xScaleFrom=1.1, yScaleFrom=1.1, xScaleTo=1, yScaleTo=1, duration=20, block=false)]",
+        "type": "background_tween",
+        "xScaleFrom": "1.1,",
+        "yScaleFrom": "1.1,",
+        "xScaleTo": "1,",
+        "yScaleTo": "1,",
+        "duration": "20,",
+        "block": false
+    },
+    {
+        "id": 554,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 555,
+        "raw": "[name=\"ケルシー\"]しかしながら、我々はすでに濃霧の縁に来ており、この先は完全なる未知だ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "しかしながら、我々はすでに濃霧の縁に来ており、この先は完全なる未知だ。"
+    },
+    {
+        "id": 556,
+        "raw": "[name=\"ケルシー\"]私にも躊躇いはあった。しかしドクターの言う通りだ。これまでそうしてきたように、我々であればこの危機を解決できる。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "私にも躊躇いはあった。しかしドクターの言う通りだ。これまでそうしてきたように、我々であればこの危機を解決できる。"
+    },
+    {
+        "id": 557,
+        "raw": "[name=\"ケルシー\"]なぜならば我々は常に共にあるからだ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "なぜならば我々は常に共にあるからだ。"
+    },
+    {
+        "id": 558,
+        "raw": "Logosは骨筆を軽く振り、言葉が彼の口から出ると、庇護がそれに続いた。",
+        "type": "narration",
+        "content": "Logosは骨筆を軽く振り、言葉が彼の口から出ると、庇護がそれに続いた。"
+    },
+    {
+        "id": 559,
+        "raw": "[name=\"Mechanist\"]ここまで足並み揃えて行動するのは随分と久しぶりだな。どんな気分だ、Logos？",
+        "type": "dialog",
+        "speaker": "Mechanist",
+        "content": "ここまで足並み揃えて行動するのは随分と久しぶりだな。どんな気分だ、Logos？"
+    },
+    {
+        "id": 560,
+        "raw": "[name=\"Logos\"]集中せよ。",
+        "type": "dialog",
+        "speaker": "Logos",
+        "content": "集中せよ。"
+    },
+    {
+        "id": 561,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 562,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 563,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 564,
+        "raw": "[Background]",
+        "type": "background"
+    },
+    {
+        "id": 565,
+        "raw": "[Background(image=\"60_i11_1M\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "60_i11_1M.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 566,
+        "raw": "[BackgroundTween(xScaleFrom=1.2, yScaleFrom=1.2, xScaleTo=1.05, yScaleTo=1.05, duration=20, block=false)]",
+        "type": "background_tween",
+        "xScaleFrom": "1.2,",
+        "yScaleFrom": "1.2,",
+        "xScaleTo": "1.05,",
+        "yScaleTo": "1.05,",
+        "duration": "20,",
+        "block": false
+    },
+    {
+        "id": 567,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 568,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 569,
+        "raw": "[name=\"アーミヤ\"]これまでの情報から判断するに、AbyssにあるのはPRTSのコアアセンブリだけではないはずです。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "これまでの情報から判断するに、AbyssにあるのはPRTSのコアアセンブリだけではないはずです。"
+    },
+    {
+        "id": 570,
+        "raw": "[name=\"アーミヤ\"]その中の石棺にて「プリースティス」という名の個体が休眠している可能性が極めて高いです。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "その中の石棺にて「プリースティス」という名の個体が休眠している可能性が極めて高いです。"
+    },
+    {
+        "id": 571,
+        "raw": "[name=\"ケルシー\"]もしプリースティスが目覚めたなら、彼女を最速で排除することに全力を注いでほしい。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "もしプリースティスが目覚めたなら、彼女を最速で排除することに全力を注いでほしい。"
+    },
+    {
+        "id": 572,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 573,
+        "raw": "[Decision(options=\"……\", values=\"1\")]",
+        "type": "decision",
+        "options": "……",
+        "values": "1"
+    },
+    {
+        "id": 574,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 575,
+        "raw": "[name=\"ケルシー\"]これは想定外の事態を避ける最善の方法だ、Dr.{@nickname}。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "これは想定外の事態を避ける最善の方法だ、Dr.{@nickname}。"
+    },
+    {
+        "id": 576,
+        "raw": "[name=\"ケルシー\"]目覚めた瞬間こそが彼女の最も弱っている時だ……今の環境に適応するにも時間を要するだろう。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "目覚めた瞬間こそが彼女の最も弱っている時だ……今の環境に適応するにも時間を要するだろう。"
+    },
+    {
+        "id": 577,
+        "raw": "[name=\"アーミヤ\"]ドクター……？",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "ドクター……？"
+    },
+    {
+        "id": 578,
+        "raw": "目の前の壁に触れたあなたは、不思議な感触に鼓動が早まる。",
+        "type": "narration",
+        "content": "目の前の壁に触れたあなたは、不思議な感触に鼓動が早まる。"
+    },
+    {
+        "id": 579,
+        "raw": "あなたには直感があった。この場所はあなたを待っている。あるいは……この場所はそもそもあなたのために存在していると言うべきかもしれない。",
+        "type": "narration",
+        "content": "あなたには直感があった。この場所はあなたを待っている。あるいは……この場所はそもそもあなたのために存在していると言うべきかもしれない。"
+    },
+    {
+        "id": 580,
+        "raw": "壁が震えている。警報音が聞こえた気がした。それは鼓膜を突き破ろうとしているかのように思えた。",
+        "type": "narration",
+        "content": "壁が震えている。警報音が聞こえた気がした。それは鼓膜を突き破ろうとしているかのように思えた。"
+    },
+    {
+        "id": 581,
+        "raw": "あなたは一瞬ぼんやりとする。その耳障りの音は現在からやってきているのか、それとも過去からか？",
+        "type": "narration",
+        "content": "あなたは一瞬ぼんやりとする。その耳障りの音は現在からやってきているのか、それとも過去からか？"
+    },
+    {
+        "id": 582,
+        "raw": "[name=\"アーミヤ\"]Abyssが変化しています！",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "Abyssが変化しています！"
+    },
+    {
+        "id": 583,
+        "raw": "壁面が不規則に動き始め、一本の亀裂が生まれた。",
+        "type": "narration",
+        "content": "壁面が不規則に動き始め、一本の亀裂が生まれた。"
+    },
+    {
+        "id": 584,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 585,
+        "raw": "[PlaySound(key=\"$d_avg_spirlstrsndlss\", volume=1, loop=true, channel=\"sp\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_spirlstrsndlss.mp3",
+        "volume": "1,",
+        "loop": "true,",
+        "channel": "sp"
+    },
+    {
+        "id": 586,
+        "raw": "[StopSound(channel=\"sp\", fadetime=4)]",
+        "type": "stop_sound",
+        "channel": "sp",
+        "fadetime": 4
+    },
+    {
+        "id": 587,
+        "raw": "[Background(image=\"60_i11_2M\",screenadapt=\"coverall\", xScale=1.05, yScale=1.05, fadetime=2)]",
+        "type": "background",
+        "image": "60_i11_2M.png",
+        "screenadapt": "coverall",
+        "xScale": "1.05,",
+        "yScale": "1.05,",
+        "fadetime": 2
+    },
+    {
+        "id": 588,
+        "raw": "[CameraShake(duration=4, xstrength=10, ystrength=10, vibrato=90, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "4,",
+        "xstrength": "10,",
+        "ystrength": "10,",
+        "vibrato": "90,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 589,
+        "raw": "[StopSound(channel=\"e\", fadetime=6)]",
+        "type": "stop_sound",
+        "channel": "e",
+        "fadetime": 6
+    },
+    {
+        "id": 590,
+        "raw": "[PlaySound(key=\"$d_avg_wind\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_wind.mp3",
+        "volume": 1
+    },
+    {
+        "id": 591,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 592,
+        "raw": "そこから気流が噴き出した。",
+        "type": "narration",
+        "content": "そこから気流が噴き出した。"
+    },
+    {
+        "id": 593,
+        "raw": "[name=\"Logos\"]「ベール」。",
+        "type": "dialog",
+        "speaker": "Logos",
+        "content": "「ベール」。"
+    },
+    {
+        "id": 594,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 595,
+        "raw": "[PlaySound(key=\"$d_avg_magicwrite\", volume=0.6,loop=true,channel=\"logos\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_magicwrite.mp3",
+        "volume": "0.6,loop=true,channel=\"logos\""
+    },
+    {
+        "id": 596,
+        "raw": "[StopSound(channel=\"logos\", fadetime=6)]",
+        "type": "stop_sound",
+        "channel": "logos",
+        "fadetime": 6
+    },
+    {
+        "id": 597,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 598,
+        "raw": "[Blocker(a=0.4, r=255, g=255, b=255, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0.4,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 599,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 600,
+        "raw": "バンシーの呪文が形なきバリアとなり、荒れ狂う気流を遮った。",
+        "type": "narration",
+        "content": "バンシーの呪文が形なきバリアとなり、荒れ狂う気流を遮った。"
+    },
+    {
+        "id": 601,
+        "raw": "[name=\"アスカロン\"]下がれ、ドクター。",
+        "type": "dialog",
+        "speaker": "アスカロン",
+        "content": "下がれ、ドクター。"
+    },
+    {
+        "id": 602,
+        "raw": "[name=\"アスカロン\"]全員警戒しろ。",
+        "type": "dialog",
+        "speaker": "アスカロン",
+        "content": "全員警戒しろ。"
+    },
+    {
+        "id": 603,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 604,
+        "raw": "[PlaySound(key=\"$d_avg_attack_ready\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_attack_ready.mp3",
+        "volume": 1
+    },
+    {
+        "id": 605,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 606,
+        "raw": "[CameraShake(duration=0.8, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.8,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 607,
+        "raw": "[playsound(key=\"$Mon3tr_n\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/player/p_atk/p_atk_mon3tr_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 608,
+        "raw": "[name=\"Mon3tr\"]（高ぶった雄たけび）",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "（高ぶった雄たけび）"
+    },
+    {
+        "id": 609,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 610,
+        "raw": "[BackgroundTween(xScaleFrom=1.05, yScaleFrom=1.05, xScaleTo=1, yScaleTo=1, duration=6, block=false)]",
+        "type": "background_tween",
+        "xScaleFrom": "1.05,",
+        "yScaleFrom": "1.05,",
+        "xScaleTo": "1,",
+        "yScaleTo": "1,",
+        "duration": "6,",
+        "block": false
+    },
+    {
+        "id": 611,
+        "raw": "[curtain(direction = 0,fillfrom = 0.01,fillto = 0.33, fadetime=6)]",
+        "type": "curtain",
+        "fadetime": 6
+    },
+    {
+        "id": 612,
+        "raw": "[curtain(direction = 4,fillfrom = 0.01,fillto = 0.33, fadetime=6)]",
+        "type": "curtain",
+        "fadetime": 6
+    },
+    {
+        "id": 613,
+        "raw": "[delay(time=4)]",
+        "type": "delay",
+        "time": 4
+    },
+    {
+        "id": 614,
+        "raw": "[largebg(imagegroup=\"60_i11_2L/60_i11_2R\", solidwidth=\"1920/1920\", solidheight=720, x=-950, fadetime=4)]",
+        "type": "large_bg",
+        "imagegroup": "60_i11_2L/60_i11_2R",
+        "solidwidth": "1920/1920",
+        "solidheight": "720,",
+        "x": "-950,",
+        "fadetime": 4
+    },
+    {
+        "id": 615,
+        "raw": "[largebgtween(duration = 4, xScaleFrom=0.36, xScaleTo=0.34, yScaleFrom=0.36, yScaleTo=0.34, block = false)]",
+        "type": "large_bg_tween",
+        "xScaleFrom": "0.36,",
+        "xScaleTo": "0.34,",
+        "yScaleFrom": "0.36,",
+        "yScaleTo": "0.34,"
+    },
+    {
+        "id": 616,
+        "raw": "[delay(time=5)]",
+        "type": "delay",
+        "time": 5
+    },
+    {
+        "id": 617,
+        "raw": "[Background]",
+        "type": "background"
+    },
+    {
+        "id": 618,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 619,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"……Dr.{@nickname}……\", x=250,y=300, alignment=\"center\", duration=1, size=24, delay=0.04, width=800)]",
+        "type": "sticker",
+        "text": "……Dr.{@nickname}……",
+        "x": "250,y=300,",
+        "alignment": "center",
+        "duration": "1,",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": 800
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n\\n……まさか、今度は私が手を放したくないだなんて。\", block = true)]",
+        "type": "sticker",
+        "text": "\\n\\n……まさか、今度は私が手を放したくないだなんて。"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", duration=0.5, block = false)]",
+        "type": "sticker",
+        "duration": "0.5,"
+    },
+    {
+        "id": 623,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": "st2",
+        "raw": "[Sticker(id=\"st2\", multi = true, text=\"<color=#888888>ケルシー</color>\", hidelog=true, x=400, y=158, alignment=\"right\", duration=0.01, size=28, delay=0, width=200, block = false)]",
+        "type": "sticker",
+        "text": "<color=#888888>ケルシー</color>",
+        "hidelog": "true,",
+        "x": "400,",
+        "y": "158,",
+        "alignment": "right",
+        "duration": "0.01,",
+        "size": "28,",
+        "delay": "0,",
+        "width": "200,"
+    },
+    {
+        "id": "st3",
+        "raw": "[Sticker(id=\"st3\", multi = true, text=\"アーミヤ、ドクターを守れ。\", x=660, y=160, alignment=\"left\", size=24, delay=0.04, width=350)]",
+        "type": "sticker",
+        "text": "アーミヤ、ドクターを守れ。",
+        "x": "660,",
+        "y": "160,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": 350
+    },
+    {
+        "id": "st3",
+        "raw": "[Sticker(id=\"st3\", block=false)]",
+        "type": "sticker",
+        "block": false
+    },
+    {
+        "id": "st2",
+        "raw": "[Sticker(id=\"st2\", block=false)]",
+        "type": "sticker",
+        "block": false
+    },
+    {
+        "id": "st4",
+        "raw": "[Sticker(id=\"st4\", multi = true, text=\"<color=#888888>アーミヤ</color>\", hidelog=true, x=400, y=520, alignment=\"right\", duration=0.01, size=28, delay=0, width=200, block = false)]",
+        "type": "sticker",
+        "text": "<color=#888888>アーミヤ</color>",
+        "hidelog": "true,",
+        "x": "400,",
+        "y": "520,",
+        "alignment": "right",
+        "duration": "0.01,",
+        "size": "28,",
+        "delay": "0,",
+        "width": "200,"
+    },
+    {
+        "id": "st5",
+        "raw": "[Sticker(id=\"st5\", multi = true, text=\"はい。\", x=660, y=522, alignment=\"left\", size=24, delay=0.04, width=200)]",
+        "type": "sticker",
+        "text": "はい。",
+        "x": "660,",
+        "y": "522,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": 200
+    },
+    {
+        "id": "st4",
+        "raw": "[Sticker(id=\"st4\", block=false)]",
+        "type": "sticker",
+        "block": false
+    },
+    {
+        "id": "st5",
+        "raw": "[Sticker(id=\"st5\", block=false)]",
+        "type": "sticker",
+        "block": false
+    },
+    {
+        "id": 632,
+        "raw": "[PlaySound(key=\"$d_avg_crystalmagic_loop\", volume=0, loop=true, channel=\"cr\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_crystalmagic_loop.mp3",
+        "volume": "0,",
+        "loop": "true,",
+        "channel": "cr"
+    },
+    {
+        "id": 633,
+        "raw": "[SoundVolume(volume=0.6, channel=\"cr\",fadetime=2)]",
+        "type": "sound_volume",
+        "volume": "0.6,",
+        "channel": "cr",
+        "fadetime": 2
+    },
+    {
+        "id": 634,
+        "raw": "ピンク色の糸がアーツユニットから渦を巻いて昇り、黒い王冠が彼女の頭上に浮かび上がる。",
+        "type": "narration",
+        "content": "ピンク色の糸がアーツユニットから渦を巻いて昇り、黒い王冠が彼女の頭上に浮かび上がる。"
+    },
+    {
+        "id": 635,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 636,
+        "raw": "[PlaySound(key=\"$d_gen_transmissionget\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_transmissionget.mp3",
+        "volume": 1
+    },
+    {
+        "id": 637,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": "st2",
+        "raw": "[Sticker(id=\"st2\", text=\"<color=#888888>Raidian</color>\", hidelog=true, x=470, y=158, alignment=\"center\", duration=0.01, size=28, delay=0, width=750, block = false)]",
+        "type": "sticker",
+        "text": "<color=#888888>Raidian</color>",
+        "hidelog": "true,",
+        "x": "470,",
+        "y": "158,",
+        "alignment": "center",
+        "duration": "0.01,",
+        "size": "28,",
+        "delay": "0,",
+        "width": "750,"
+    },
+    {
+        "id": "st3",
+        "raw": "[Sticker(id=\"st3\", multi = true, text=\"電磁通信場を確立したわ。\", x=900, y=160, alignment=\"center\", size=24, delay=0.04, width=300)]",
+        "type": "sticker",
+        "text": "電磁通信場を確立したわ。",
+        "x": "900,",
+        "y": "160,",
+        "alignment": "center",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": 300
+    },
+    {
+        "id": "st3",
+        "raw": "[Sticker(id=\"st3\", block=false)]",
+        "type": "sticker",
+        "block": false
+    },
+    {
+        "id": "st2",
+        "raw": "[Sticker(id=\"st2\", block=false)]",
+        "type": "sticker",
+        "block": false
+    },
+    {
+        "id": 642,
+        "raw": "Mantraの声もあなたの心の中で響く――",
+        "type": "narration",
+        "content": "Mantraの声もあなたの心の中で響く――"
+    },
+    {
+        "id": 643,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": "st4",
+        "raw": "[Sticker(id=\"st4\", multi = true, text=\"<color=#888888>Mantra</color>\", hidelog=true, x=470, y=520, alignment=\"center\", duration=0.01, size=28, delay=0, width=750, block = false)]",
+        "type": "sticker",
+        "text": "<color=#888888>Mantra</color>",
+        "hidelog": "true,",
+        "x": "470,",
+        "y": "520,",
+        "alignment": "center",
+        "duration": "0.01,",
+        "size": "28,",
+        "delay": "0,",
+        "width": "750,"
+    },
+    {
+        "id": "st5",
+        "raw": "[Sticker(id=\"st5\", multi = true, text=\"助けが必要ならば、心の中で念じろ。我々がついている。\", x=930, y=522, alignment=\"center\", size=24, delay=0.04, width=300)]",
+        "type": "sticker",
+        "text": "助けが必要ならば、心の中で念じろ。我々がついている。",
+        "x": "930,",
+        "y": "522,",
+        "alignment": "center",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": 300
+    },
+    {
+        "id": "st5",
+        "raw": "[Sticker(id=\"st5\", block=false)]",
+        "type": "sticker",
+        "block": false
+    },
+    {
+        "id": "st4",
+        "raw": "[Sticker(id=\"st4\", block=false)]",
+        "type": "sticker",
+        "block": false
+    },
+    {
+        "id": "st6",
+        "raw": "[Sticker(id=\"st6\", multi = true, text=\"<color=#888888>Stormeye</color>\", hidelog=true, x=70, y=158, alignment=\"left\", duration=0.01, size=28, delay=0, width=750, block = false)]",
+        "type": "sticker",
+        "text": "<color=#888888>Stormeye</color>",
+        "hidelog": "true,",
+        "x": "70,",
+        "y": "158,",
+        "alignment": "left",
+        "duration": "0.01,",
+        "size": "28,",
+        "delay": "0,",
+        "width": "750,"
+    },
+    {
+        "id": "st7",
+        "raw": "[Sticker(id=\"st7\", multi = true, text=\"側面の援護を頼めますか、Sharpさん？\", x=240, y=160, alignment=\"left\", size=24, delay=0.04, width=750)]",
+        "type": "sticker",
+        "text": "側面の援護を頼めますか、Sharpさん？",
+        "x": "240,",
+        "y": "160,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": 750
+    },
+    {
+        "id": "st6",
+        "raw": "[Sticker(id=\"st6\", block=false)]",
+        "type": "sticker",
+        "block": false
+    },
+    {
+        "id": "st7",
+        "raw": "[Sticker(id=\"st7\", block=false)]",
+        "type": "sticker",
+        "block": false
+    },
+    {
+        "id": "st8",
+        "raw": "[Sticker(id=\"st8\", multi = true, text=\"<color=#888888>Sharp</color>\", hidelog=true, x=70, y=520, alignment=\"left\", duration=0.01, size=28, delay=0, width=750, block = false)]",
+        "type": "sticker",
+        "text": "<color=#888888>Sharp</color>",
+        "hidelog": "true,",
+        "x": "70,",
+        "y": "520,",
+        "alignment": "left",
+        "duration": "0.01,",
+        "size": "28,",
+        "delay": "0,",
+        "width": "750,"
+    },
+    {
+        "id": "st9",
+        "raw": "[Sticker(id=\"st9\", multi = true, text=\"ならお前の弓をしっかりと握っているんだな。\", x=200, y=525, alignment=\"left\", size=24, delay=0.04, width=750)]",
+        "type": "sticker",
+        "text": "ならお前の弓をしっかりと握っているんだな。",
+        "x": "200,",
+        "y": "525,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": 750
+    },
+    {
+        "id": "st8",
+        "raw": "[Sticker(id=\"st8\", block=false)]",
+        "type": "sticker",
+        "block": false
+    },
+    {
+        "id": "st9",
+        "raw": "[Sticker(id=\"st9\", block=false)]",
+        "type": "sticker",
+        "block": false
+    },
+    {
+        "id": 656,
+        "raw": "[StopSound(channel=\"cr\", fadetime=2)]",
+        "type": "stop_sound",
+        "channel": "cr",
+        "fadetime": 2
+    },
+    {
+        "id": 657,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 658,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"Dr.{@nickname}。私たちの絆は、時空さえ超えられるって信じてる。\", x=250,y=300, alignment=\"center\", duration=1, size=24, delay=0.04, width=800)]",
+        "type": "sticker",
+        "text": "Dr.{@nickname}。私たちの絆は、時空さえ超えられるって信じてる。",
+        "x": "250,y=300,",
+        "alignment": "center",
+        "duration": "1,",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": 800
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n\\n暗闇の中、星の光で彩られた文明の果てで私たちは再会する……きっと。\", block = true)]",
+        "type": "sticker",
+        "text": "\\n\\n暗闇の中、星の光で彩られた文明の果てで私たちは再会する……きっと。"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n\\nその日を待つわ。\", block = true)]",
+        "type": "sticker",
+        "text": "\\n\\nその日を待つわ。"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", duration=0.5, block = false)]",
+        "type": "sticker",
+        "duration": "0.5,"
+    },
+    {
+        "id": 663,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": "st6",
+        "raw": "[Sticker(id=\"st6\", multi = true, text=\"<color=#888888>ブレイズ</color>\", hidelog=true, x=300, y=158, alignment=\"right\", duration=0.01, size=28, delay=0, width=200, block = false)]",
+        "type": "sticker",
+        "text": "<color=#888888>ブレイズ</color>",
+        "hidelog": "true,",
+        "x": "300,",
+        "y": "158,",
+        "alignment": "right",
+        "duration": "0.01,",
+        "size": "28,",
+        "delay": "0,",
+        "width": "200,"
+    },
+    {
+        "id": "st7",
+        "raw": "[Sticker(id=\"st7\", multi = true, text=\"小猫ちゃん、助けが必要になったら呼んでね！\", x=550, y=160, alignment=\"left\", size=24, delay=0.04, width=300)]",
+        "type": "sticker",
+        "text": "小猫ちゃん、助けが必要になったら呼んでね！",
+        "x": "550,",
+        "y": "160,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": 300
+    },
+    {
+        "id": "st6",
+        "raw": "[Sticker(id=\"st6\", block=false)]",
+        "type": "sticker",
+        "block": false
+    },
+    {
+        "id": "st7",
+        "raw": "[Sticker(id=\"st7\", block=false)]",
+        "type": "sticker",
+        "block": false
+    },
+    {
+        "id": "st4",
+        "raw": "[Sticker(id=\"st4\", multi = true, text=\"<color=#888888>ロスモンティス</color>\", hidelog=true, x=550, y=520, alignment=\"right\", duration=0.01, size=28, delay=0, width=250, block = false)]",
+        "type": "sticker",
+        "text": "<color=#888888>ロスモンティス</color>",
+        "hidelog": "true,",
+        "x": "550,",
+        "y": "520,",
+        "alignment": "right",
+        "duration": "0.01,",
+        "size": "28,",
+        "delay": "0,",
+        "width": "250,"
+    },
+    {
+        "id": "st5",
+        "raw": "[Sticker(id=\"st5\", multi = true, text=\"うん。\", x=850, y=522, alignment=\"left\", size=24, delay=0.04, width=200)]",
+        "type": "sticker",
+        "text": "うん。",
+        "x": "850,",
+        "y": "522,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": 200
+    },
+    {
+        "id": "st5",
+        "raw": "[Sticker(id=\"st5\", block=false)]",
+        "type": "sticker",
+        "block": false
+    },
+    {
+        "id": "st4",
+        "raw": "[Sticker(id=\"st4\", block=false)]",
+        "type": "sticker",
+        "block": false
+    },
+    {
+        "id": "st6",
+        "raw": "[Sticker(id=\"st6\", multi = true, text=\"<color=#888888>Pith</color>\", hidelog=true, x=170, y=158, alignment=\"center\", duration=0.01, size=28, delay=0, width=750, block = false)]",
+        "type": "sticker",
+        "text": "<color=#888888>Pith</color>",
+        "hidelog": "true,",
+        "x": "170,",
+        "y": "158,",
+        "alignment": "center",
+        "duration": "0.01,",
+        "size": "28,",
+        "delay": "0,",
+        "width": "750,"
+    },
+    {
+        "id": "st7",
+        "raw": "[Sticker(id=\"st7\", multi = true, text=\"周囲の環境が我々のアーツを制限している。だがオリジニウムアークはまだ効果があるようだ。\", x=640, y=160, alignment=\"center\", size=24, delay=0.04, width=550)]",
+        "type": "sticker",
+        "text": "周囲の環境が我々のアーツを制限している。だがオリジニウムアークはまだ効果があるようだ。",
+        "x": "640,",
+        "y": "160,",
+        "alignment": "center",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": 550
+    },
+    {
+        "id": "st6",
+        "raw": "[Sticker(id=\"st6\", block=false)]",
+        "type": "sticker",
+        "block": false
+    },
+    {
+        "id": "st7",
+        "raw": "[Sticker(id=\"st7\", block=false)]",
+        "type": "sticker",
+        "block": false
+    },
+    {
+        "id": "st8",
+        "raw": "[Sticker(id=\"st8\", multi = true, text=\"<color=#888888>Touch</color>\", hidelog=true, x=70, y=520, alignment=\"center\", duration=0.01, size=28, delay=0, width=750, block = false)]",
+        "type": "sticker",
+        "text": "<color=#888888>Touch</color>",
+        "hidelog": "true,",
+        "x": "70,",
+        "y": "520,",
+        "alignment": "center",
+        "duration": "0.01,",
+        "size": "28,",
+        "delay": "0,",
+        "width": "750,"
+    },
+    {
+        "id": "st9",
+        "raw": "[Sticker(id=\"st9\", multi = true, text=\"心置きなく大胆に行動してください。\", x=530, y=522, alignment=\"center\", size=24, delay=0.04, width=350)]",
+        "type": "sticker",
+        "text": "心置きなく大胆に行動してください。",
+        "x": "530,",
+        "y": "522,",
+        "alignment": "center",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": 350
+    },
+    {
+        "id": "st8",
+        "raw": "[Sticker(id=\"st8\", block=false)]",
+        "type": "sticker",
+        "block": false
+    },
+    {
+        "id": "st9",
+        "raw": "[Sticker(id=\"st9\", block=false)]",
+        "type": "sticker",
+        "block": false
+    },
+    {
+        "id": "st6",
+        "raw": "[Sticker(id=\"st6\", multi = true, text=\"<color=#888888>Misery</color>\", hidelog=true, x=0, y=158, alignment=\"center\", duration=0.01, size=28, delay=0, width=750, block = false)]",
+        "type": "sticker",
+        "text": "<color=#888888>Misery</color>",
+        "hidelog": "true,",
+        "x": "0,",
+        "y": "158,",
+        "alignment": "center",
+        "duration": "0.01,",
+        "size": "28,",
+        "delay": "0,",
+        "width": "750,"
+    },
+    {
+        "id": "st7",
+        "raw": "[Sticker(id=\"st7\", multi = true, text=\"ドクター、俺が先行して状況確認を行おうか――\", x=450, y=160, alignment=\"center\", size=24, delay=0.04, width=350)]",
+        "type": "sticker",
+        "text": "ドクター、俺が先行して状況確認を行おうか――",
+        "x": "450,",
+        "y": "160,",
+        "alignment": "center",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": 350
+    },
+    {
+        "id": "st6",
+        "raw": "[Sticker(id=\"st6\", block=false)]",
+        "type": "sticker",
+        "block": false
+    },
+    {
+        "id": "st7",
+        "raw": "[Sticker(id=\"st7\", block=false)]",
+        "type": "sticker",
+        "block": false
+    },
+    {
+        "id": 684,
+        "raw": "[Decision(options=\"いいや、予感がする……\", values=\"1\")]",
+        "type": "decision",
+        "options": "いいや、予感がする……",
+        "values": "1"
+    },
+    {
+        "id": 685,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 686,
+        "raw": "[Decision(options=\"ここには何も脅威がない。\", values=\"1\")]",
+        "type": "decision",
+        "options": "ここには何も脅威がない。",
+        "values": "1"
+    },
+    {
+        "id": 687,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": "st2",
+        "raw": "[Sticker(id=\"st2\", multi = true, text=\"<color=#888888>ケルシー</color>\", hidelog=true, x=400, y=158, alignment=\"right\", duration=0.01, size=28, delay=0, width=200, block = false)]",
+        "type": "sticker",
+        "text": "<color=#888888>ケルシー</color>",
+        "hidelog": "true,",
+        "x": "400,",
+        "y": "158,",
+        "alignment": "right",
+        "duration": "0.01,",
+        "size": "28,",
+        "delay": "0,",
+        "width": "200,"
+    },
+    {
+        "id": "st3",
+        "raw": "[Sticker(id=\"st3\", multi = true, text=\"だがそれはむしろ空恐ろしくなるな。\", x=660, y=160, alignment=\"left\", size=24, delay=0.04, width=350)]",
+        "type": "sticker",
+        "text": "だがそれはむしろ空恐ろしくなるな。",
+        "x": "660,",
+        "y": "160,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": 350
+    },
+    {
+        "id": "st3",
+        "raw": "[Sticker(id=\"st3\", block=false)]",
+        "type": "sticker",
+        "block": false
+    },
+    {
+        "id": "st2",
+        "raw": "[Sticker(id=\"st2\", block=false)]",
+        "type": "sticker",
+        "block": false
+    },
+    {
+        "id": 692,
+        "raw": "[Decision(options=\"自分が先に入る。ついてきてくれ。\", values=\"1\")]",
+        "type": "decision",
+        "options": "自分が先に入る。ついてきてくれ。",
+        "values": "1"
+    },
+    {
+        "id": 693,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": "st4",
+        "raw": "[Sticker(id=\"st4\", multi = true, text=\"<color=#888888>アーミヤ</color>\", hidelog=true, x=400, y=520, alignment=\"right\", duration=0.01, size=28, delay=0, width=200, block = false)]",
+        "type": "sticker",
+        "text": "<color=#888888>アーミヤ</color>",
+        "hidelog": "true,",
+        "x": "400,",
+        "y": "520,",
+        "alignment": "right",
+        "duration": "0.01,",
+        "size": "28,",
+        "delay": "0,",
+        "width": "200,"
+    },
+    {
+        "id": "st5",
+        "raw": "[Sticker(id=\"st5\", multi = true, text=\"一緒に行きます。\", x=660, y=522, alignment=\"left\", size=24, delay=0.04, width=200)]",
+        "type": "sticker",
+        "text": "一緒に行きます。",
+        "x": "660,",
+        "y": "522,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": 200
+    },
+    {
+        "id": "st4",
+        "raw": "[Sticker(id=\"st4\", block=false)]",
+        "type": "sticker",
+        "block": false
+    },
+    {
+        "id": "st5",
+        "raw": "[Sticker(id=\"st5\", block=false)]",
+        "type": "sticker",
+        "block": false
+    },
+    {
+        "id": 698,
+        "raw": "[playsound(key=\"$char_Mon3tr\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/battle/b_char/b_char_mon3tr.mp3",
+        "volume": 1
+    },
+    {
+        "id": "st6",
+        "raw": "[Sticker(id=\"st6\", multi = true, text=\"<color=#888888>Mon3tr</color>\", hidelog=true, x=170, y=158, alignment=\"center\", duration=0.01, size=28, delay=0, width=750, block = false)]",
+        "type": "sticker",
+        "text": "<color=#888888>Mon3tr</color>",
+        "hidelog": "true,",
+        "x": "170,",
+        "y": "158,",
+        "alignment": "center",
+        "duration": "0.01,",
+        "size": "28,",
+        "delay": "0,",
+        "width": "750,"
+    },
+    {
+        "id": "st7",
+        "raw": "[Sticker(id=\"st7\", multi = true, text=\"（揺るぎのない低い唸り）\", x=630, y=160, alignment=\"center\", size=24, delay=0.04, width=200)]",
+        "type": "sticker",
+        "text": "（揺るぎのない低い唸り）",
+        "x": "630,",
+        "y": "160,",
+        "alignment": "center",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": 200
+    },
+    {
+        "id": "st6",
+        "raw": "[Sticker(id=\"st6\", block=false)]",
+        "type": "sticker",
+        "block": false
+    },
+    {
+        "id": "st7",
+        "raw": "[Sticker(id=\"st7\", block=false)]",
+        "type": "sticker",
+        "block": false
+    },
+    {
+        "id": "st2",
+        "raw": "[Sticker(id=\"st2\", multi = true, text=\"<color=#888888>ケルシー</color>\", hidelog=true, x=400, y=158, alignment=\"right\", duration=0.01, size=28, delay=0, width=200, block = false)]",
+        "type": "sticker",
+        "text": "<color=#888888>ケルシー</color>",
+        "hidelog": "true,",
+        "x": "400,",
+        "y": "158,",
+        "alignment": "right",
+        "duration": "0.01,",
+        "size": "28,",
+        "delay": "0,",
+        "width": "200,"
+    },
+    {
+        "id": "st3",
+        "raw": "[Sticker(id=\"st3\", multi = true, text=\"各位、備えろ。ロドスの存亡は我々の手にかかっている。\", x=660, y=160, alignment=\"left\", size=24, delay=0.04, width=350)]",
+        "type": "sticker",
+        "text": "各位、備えろ。ロドスの存亡は我々の手にかかっている。",
+        "x": "660,",
+        "y": "160,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": 350
+    },
+    {
+        "id": "st3",
+        "raw": "[Sticker(id=\"st3\", block=false)]",
+        "type": "sticker",
+        "block": false
+    },
+    {
+        "id": "st2",
+        "raw": "[Sticker(id=\"st2\", block=false)]",
+        "type": "sticker",
+        "block": false
+    },
+    {
+        "id": 707,
+        "raw": "[Decision(options=\"共に行こう。\", values=\"1\")]",
+        "type": "decision",
+        "options": "共に行こう。",
+        "values": "1"
+    },
+    {
+        "id": 708,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 709,
+        "raw": "あなたたちは亀裂の向こうの空間に踏み込んだ。",
+        "type": "narration",
+        "content": "あなたたちは亀裂の向こうの空間に踏み込んだ。"
+    },
+    {
+        "id": 710,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 711,
+        "raw": "[PlaySound(key=\"$d_avg_footsteps_flock\", volume=1, loop=true, channel=\"f\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_footsteps_flock.mp3",
+        "volume": "1,",
+        "loop": "true,",
+        "channel": "f"
+    },
+    {
+        "id": 712,
+        "raw": "[StopSound(channel=\"f\", fadetime=3)]",
+        "type": "stop_sound",
+        "channel": "f",
+        "fadetime": 3
+    },
+    {
+        "id": 713,
+        "raw": "[curtain(direction = 0, fillfrom = 0.33, fillto = 0.33, a=0, fadetime=2)]",
+        "type": "curtain",
+        "a": "0,",
+        "fadetime": 2
+    },
+    {
+        "id": 714,
+        "raw": "[curtain(direction = 4,fillfrom = 0.33, fillto = 0.33, a=0, fadetime=2)]",
+        "type": "curtain",
+        "a": "0,",
+        "fadetime": 2
+    },
+    {
+        "id": 715,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 716,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 717,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 718,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 719,
+        "raw": "[largebg]",
+        "type": "large_bg"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"<color=#000000>何があってもその日を待ち続ける。だからあなたも待っていて。</color>\", x=250,y=300, alignment=\"center\", duration=1, size=24, delay=0.04, width=800)]",
+        "type": "sticker",
+        "text": "<color=#000000>何があってもその日を待ち続ける。だからあなたも待っていて。</color>",
+        "x": "250,y=300,",
+        "alignment": "center",
+        "duration": "1,",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": 800
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"<color=#000000>\\n\\n私のことも、待っていてね。</color>\", block = true)]",
+        "type": "sticker",
+        "text": "<color=#000000>\\n\\n私のことも、待っていてね。</color>"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", duration=2, block = false)]",
+        "type": "sticker",
+        "duration": "2,"
+    },
+    {
+        "id": 723,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 724,
+        "raw": "[subtitle]",
+        "type": "subtitle"
+    },
+    {
+        "id": 725,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 726,
+        "raw": "[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 727,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 728,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 729,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 730,
+        "raw": "[Background]",
+        "type": "background"
+    },
+    {
+        "id": 731,
+        "raw": "[Image]",
+        "type": "image"
+    }
+]

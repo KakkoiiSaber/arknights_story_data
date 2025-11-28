@@ -1,0 +1,466 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")] 第五关（后）",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK",
+        "content": "第五关（后）"
+    },
+    {
+        "id": 2,
+        "raw": "[largebg(imagegroup=\"bg_beach_1/bg_beach_2\", solidwidth=\"920/920\", solidheight=720,x=-180,fadetime=1)]",
+        "type": "large_bg",
+        "imagegroup": "bg_beach_1/bg_beach_2",
+        "solidwidth": "920/920",
+        "solidheight": "720,x=-180,fadetime=1"
+    },
+    {
+        "id": 3,
+        "raw": "[PlayMusic(intro=\"$farce_intro\", key=\"$farce_loop\", volume=0.8, crossfade=1.5)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/a001/m_dia_farce_intro.mp3",
+        "key": "sound_beta_2/music/a001/m_dia_farce_loop.mp3",
+        "volume": "0.8,",
+        "crossfade": 1.5
+    },
+    {
+        "id": 4,
+        "raw": "[playsound(key=\"$beach\",volume=0.8, channel=\"B\", loop=true)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_amb_beach.mp3",
+        "volume": "0.8,",
+        "channel": "B",
+        "loop": true
+    },
+    {
+        "id": 5,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 6,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 7,
+        "raw": "[name=\"保镖A\"]   烫烫烫！焦了焦了！",
+        "type": "dialog",
+        "speaker": "保镖A",
+        "content": "烫烫烫！焦了焦了！"
+    },
+    {
+        "id": 8,
+        "raw": "[name=\"保镖B\"]   噫！我的头发！",
+        "type": "dialog",
+        "speaker": "保镖B",
+        "content": "噫！我的头发！"
+    },
+    {
+        "id": 9,
+        "raw": "[name=\"保镖A\"]   啧，撤退，撤退！",
+        "type": "dialog",
+        "speaker": "保镖A",
+        "content": "啧，撤退，撤退！"
+    },
+    {
+        "id": 10,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 11,
+        "raw": "[PlaySound(key=\"$d_gen_soldiersrun\",volume=0.5)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_soldiersrun.mp3",
+        "volume": 0.5
+    },
+    {
+        "id": 12,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=0.8, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "0.8,",
+        "block": true
+    },
+    {
+        "id": 13,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 14,
+        "raw": "[Blocker(a=0, fadetime=0.8, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "fadetime": "0.8,",
+        "block": true
+    },
+    {
+        "id": 15,
+        "raw": "[Character(name=\"char_134_ifrit_summer_1\")]",
+        "type": "character",
+        "name": "char_134_ifrit_summer_1"
+    },
+    {
+        "id": 16,
+        "raw": "[name=\"伊芙利特\"]   哈哈哈，果然还是打架有意思啊，博士！",
+        "type": "dialog",
+        "speaker": "伊芙利特",
+        "content": "哈哈哈，果然还是打架有意思啊，博士！"
+    },
+    {
+        "id": 17,
+        "raw": "[name=\"伊芙利特\"]   啊，对了，博士，我这是为了救你，而且也听你的话没有下重手了，你可不许告诉赫默我打架的事！",
+        "type": "dialog",
+        "speaker": "伊芙利特",
+        "content": "啊，对了，博士，我这是为了救你，而且也听你的话没有下重手了，你可不许告诉赫默我打架的事！"
+    },
+    {
+        "id": 18,
+        "raw": "[name=\"伊芙利特\"]   要是被她知道了我的作业肯定又要变多了！",
+        "type": "dialog",
+        "speaker": "伊芙利特",
+        "content": "要是被她知道了我的作业肯定又要变多了！"
+    },
+    {
+        "id": 19,
+        "raw": "[Decision(options=\"没问题。;作业你要自己努力。\",values=\"1;2\")]",
+        "type": "decision",
+        "options": "没问题。;作业你要自己努力。",
+        "values": "1;2"
+    },
+    {
+        "id": 20,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 21,
+        "raw": "[name=\"伊芙利特\"]   嘿嘿，我就知道博士是个好人！",
+        "type": "dialog",
+        "speaker": "伊芙利特",
+        "content": "嘿嘿，我就知道博士是个好人！"
+    },
+    {
+        "id": 22,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 23,
+        "raw": "[name=\"伊芙利特\"]   哼，那我可不管！",
+        "type": "dialog",
+        "speaker": "伊芙利特",
+        "content": "哼，那我可不管！"
+    },
+    {
+        "id": 24,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 25,
+        "raw": "[Character(name=\"char_134_ifrit_summer_1\",name2=\"char_348_ceylon_4#8\",focus=2)]",
+        "type": "character",
+        "name": "char_134_ifrit_summer_1",
+        "name2": "char_348_ceylon_4#8",
+        "focus": 2
+    },
+    {
+        "id": 26,
+        "raw": "[name=\"锡兰\"]   源石驱动的火焰喷射器......而且这个功率，好厉害的术师。",
+        "type": "dialog",
+        "speaker": "锡兰",
+        "content": "源石驱动的火焰喷射器......而且这个功率，好厉害的术师。"
+    },
+    {
+        "id": 27,
+        "raw": "[Character(name=\"char_134_ifrit_summer_1\",name2=\"char_348_ceylon_4#8\",focus=1)]",
+        "type": "character",
+        "name": "char_134_ifrit_summer_1",
+        "name2": "char_348_ceylon_4#8",
+        "focus": 1
+    },
+    {
+        "id": 28,
+        "raw": "[name=\"伊芙利特\"]   大姐，你的眼光不错欸，我超厉害的！",
+        "type": "dialog",
+        "speaker": "伊芙利特",
+        "content": "大姐，你的眼光不错欸，我超厉害的！"
+    },
+    {
+        "id": 29,
+        "raw": "[Character(name=\"char_134_ifrit_summer_1\",name2=\"char_348_ceylon_4#2\",focus=2)]",
+        "type": "character",
+        "name": "char_134_ifrit_summer_1",
+        "name2": "char_348_ceylon_4#2",
+        "focus": 2
+    },
+    {
+        "id": 30,
+        "raw": "[name=\"锡兰\"]   我叫锡兰。",
+        "type": "dialog",
+        "speaker": "锡兰",
+        "content": "我叫锡兰。"
+    },
+    {
+        "id": 31,
+        "raw": "[name=\"锡兰\"]   谢谢你救了我们。",
+        "type": "dialog",
+        "speaker": "锡兰",
+        "content": "谢谢你救了我们。"
+    },
+    {
+        "id": 32,
+        "raw": "[Character(name=\"char_134_ifrit_summer_1\",name2=\"char_348_ceylon_4#2\",focus=1)]",
+        "type": "character",
+        "name": "char_134_ifrit_summer_1",
+        "name2": "char_348_ceylon_4#2",
+        "focus": 1
+    },
+    {
+        "id": 33,
+        "raw": "[name=\"伊芙利特\"]   哦、哦......没关系。这，这是我该做的。",
+        "type": "dialog",
+        "speaker": "伊芙利特",
+        "content": "哦、哦......没关系。这，这是我该做的。"
+    },
+    {
+        "id": 34,
+        "raw": "[name=\"伊芙利特\"]   喂，博士，这个姐姐好懂礼貌啊，这种时候我该怎么做来着？",
+        "type": "dialog",
+        "speaker": "伊芙利特",
+        "content": "喂，博士，这个姐姐好懂礼貌啊，这种时候我该怎么做来着？"
+    },
+    {
+        "id": 35,
+        "raw": "[Decision(options=\"微笑。;鞠躬。;跳舞。\",values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "微笑。;鞠躬。;跳舞。",
+        "values": "1;2;3"
+    },
+    {
+        "id": 36,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 37,
+        "raw": "[Character(name=\"char_134_ifrit_summer_1\")]",
+        "type": "character",
+        "name": "char_134_ifrit_summer_1"
+    },
+    {
+        "id": 38,
+        "raw": "[name=\"伊芙利特\"]   噢，好吧，那我试......",
+        "type": "dialog",
+        "speaker": "伊芙利特",
+        "content": "噢，好吧，那我试......"
+    },
+    {
+        "id": 39,
+        "raw": "[name=\"伊芙利特\"]   啊？我忘记我的烤肉还在架子上了！我不跟你们多说了！",
+        "type": "dialog",
+        "speaker": "伊芙利特",
+        "content": "啊？我忘记我的烤肉还在架子上了！我不跟你们多说了！"
+    },
+    {
+        "id": 40,
+        "raw": "[name=\"伊芙利特\"]   博士，锡兰，你们之后要是想吃烧烤记得来找我啊！",
+        "type": "dialog",
+        "speaker": "伊芙利特",
+        "content": "博士，锡兰，你们之后要是想吃烧烤记得来找我啊！"
+    },
+    {
+        "id": 41,
+        "raw": "[playsound(key=\"$runsand\", volume=0.7)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_runsand.mp3",
+        "volume": 0.7
+    },
+    {
+        "id": 42,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 43,
+        "raw": "[Character(fadetime=1,block=true)]",
+        "type": "character",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 44,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 45,
+        "raw": "[Decision(options=\"竟然直接就跑开了。\",values=\"1\")]",
+        "type": "decision",
+        "options": "竟然直接就跑开了。",
+        "values": "1"
+    },
+    {
+        "id": 46,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 47,
+        "raw": "[Character(name=\"char_348_ceylon_4#2\")]",
+        "type": "character",
+        "name": "char_348_ceylon_4#2"
+    },
+    {
+        "id": 48,
+        "raw": "[name=\"锡兰\"]   博士，我们也赶紧回去吧。",
+        "type": "dialog",
+        "speaker": "锡兰",
+        "content": "博士，我们也赶紧回去吧。"
+    },
+    {
+        "id": 49,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 50,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 51,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 52,
+        "raw": "[Background(image=\"bg_hotel\")]",
+        "type": "background",
+        "image": "bg_hotel.png"
+    },
+    {
+        "id": 53,
+        "raw": "[stopmusic(fadetime=1)]",
+        "type": "stop_music",
+        "fadetime": 1
+    },
+    {
+        "id": 54,
+        "raw": "[Blocker(a=0, fadetime=2, block=false)]",
+        "type": "blocker",
+        "a": "0,",
+        "fadetime": "2,",
+        "block": false
+    },
+    {
+        "id": 55,
+        "raw": "[Character(name=\"char_188_helage_1\")]",
+        "type": "character",
+        "name": "char_188_helage_1"
+    },
+    {
+        "id": 56,
+        "raw": "[name=\"？？？\"]   博士，你们平安无事，很好。",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "博士，你们平安无事，很好。"
+    },
+    {
+        "id": 57,
+        "raw": "[Character(name=\"char_188_helage_1\",name2=\"char_348_ceylon_4#5\",focus=2)]",
+        "type": "character",
+        "name": "char_188_helage_1",
+        "name2": "char_348_ceylon_4#5",
+        "focus": 2
+    },
+    {
+        "id": 58,
+        "raw": "[name=\"锡兰\"]   十分感谢您的相助，请问......",
+        "type": "dialog",
+        "speaker": "锡兰",
+        "content": "十分感谢您的相助，请问......"
+    },
+    {
+        "id": 59,
+        "raw": "[Character(name=\"char_188_helage_1\",name2=\"char_348_ceylon_4#5\",focus=1)]",
+        "type": "character",
+        "name": "char_188_helage_1",
+        "name2": "char_348_ceylon_4#5",
+        "focus": 1
+    },
+    {
+        "id": 60,
+        "raw": "[name=\"赫拉格\"]   你可以叫我赫拉格。",
+        "type": "dialog",
+        "speaker": "赫拉格",
+        "content": "你可以叫我赫拉格。"
+    },
+    {
+        "id": 61,
+        "raw": "[name=\"赫拉格\"]   和博士一样，我也来自罗德岛。",
+        "type": "dialog",
+        "speaker": "赫拉格",
+        "content": "和博士一样，我也来自罗德岛。"
+    },
+    {
+        "id": 62,
+        "raw": "[Character(name=\"char_188_helage_1\")]",
+        "type": "character",
+        "name": "char_188_helage_1"
+    },
+    {
+        "id": 63,
+        "raw": "[name=\"赫拉格\"]   博士，你现在有时间吗，有些话我要单独告诉你。",
+        "type": "dialog",
+        "speaker": "赫拉格",
+        "content": "博士，你现在有时间吗，有些话我要单独告诉你。"
+    },
+    {
+        "id": 64,
+        "raw": "[stopsound(channel=\"B\", fadetime=1)]",
+        "type": "stop_sound",
+        "channel": "B",
+        "fadetime": 1
+    },
+    {
+        "id": 65,
+        "raw": "[Delay(time=0.6)]",
+        "type": "delay",
+        "time": 0.6
+    },
+    {
+        "id": 66,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 67,
+        "raw": "[Blocker(block=true)]",
+        "type": "blocker",
+        "block": true
+    },
+    {
+        "id": 68,
+        "raw": "[Image]",
+        "type": "image"
+    }
+]

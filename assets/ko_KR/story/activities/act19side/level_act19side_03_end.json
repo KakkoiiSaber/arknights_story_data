@@ -1,0 +1,3286 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")]",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK"
+    },
+    {
+        "id": 2,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 3,
+        "raw": "[stopmusic]",
+        "type": "stop_music"
+    },
+    {
+        "id": 4,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 5,
+        "raw": "[Background(image=\"bg_bar_1\",screenadapt=\"showall\")]",
+        "type": "background",
+        "image": "bg_bar_1.png",
+        "screenadapt": "showall"
+    },
+    {
+        "id": 6,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 7,
+        "raw": "[playMusic(intro=\"$bar_intro\", key=\"$bar_loop\", volume=0.7)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act5d0/m_avg_longmenbar_intro.mp3",
+        "key": "sound_beta_2/music/act5d0/m_avg_longmenbar_loop.mp3",
+        "volume": 0.7
+    },
+    {
+        "id": 8,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 9,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 10,
+        "raw": "[Character(name=\"avg_npc_521_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_521_1#1$1"
+    },
+    {
+        "id": 11,
+        "raw": "[name=\"메커니스트\"]이 익숙한 냄새……",
+        "type": "dialog",
+        "speaker": "메커니스트",
+        "content": "이 익숙한 냄새……"
+    },
+    {
+        "id": 12,
+        "raw": "[name=\"메커니스트\"]일이 안 끝난 게 아쉽네. 알코올이 혈관을 타고 흐르는 느낌이 그리운데.",
+        "type": "dialog",
+        "speaker": "메커니스트",
+        "content": "일이 안 끝난 게 아쉽네. 알코올이 혈관을 타고 흐르는 느낌이 그리운데."
+    },
+    {
+        "id": 13,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 14,
+        "raw": "[Character(name=\"avg_npc_521_1#1$1\",focus=-1)]",
+        "type": "character",
+        "name": "avg_npc_521_1#1$1",
+        "focus": -1
+    },
+    {
+        "id": 15,
+        "raw": "[Decision(options=\"네 스페셜 음료는 머신 오일이라던데?;너는 술에 취하면 의자 위에서 시를 읊는다면서?\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "네 스페셜 음료는 머신 오일이라던데?;너는 술에 취하면 의자 위에서 시를 읊는다면서?",
+        "values": "1;2"
+    },
+    {
+        "id": 16,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 17,
+        "raw": "[Character(name=\"avg_npc_521_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_521_1#1$1"
+    },
+    {
+        "id": 18,
+        "raw": "[name=\"메커니스트\"]……블레이즈 그 녀석이 말했지?",
+        "type": "dialog",
+        "speaker": "메커니스트",
+        "content": "……블레이즈 그 녀석이 말했지?"
+    },
+    {
+        "id": 19,
+        "raw": "[name=\"메커니스트\"]신무기 테스트 때 적당히 해 달라는 걸 무시한 보복인가 보네. 걔는 자기에 대한 소문만 잔뜩 있는 걸 마음에 안 들어 했거든.",
+        "type": "dialog",
+        "speaker": "메커니스트",
+        "content": "신무기 테스트 때 적당히 해 달라는 걸 무시한 보복인가 보네. 걔는 자기에 대한 소문만 잔뜩 있는 걸 마음에 안 들어 했거든."
+    },
+    {
+        "id": 20,
+        "raw": "[name=\"메커니스트\"]사실 '머신 오일'은 내가 가장 좋아하는 특제 칵테일 이름이야.",
+        "type": "dialog",
+        "speaker": "메커니스트",
+        "content": "사실 '머신 오일'은 내가 가장 좋아하는 특제 칵테일 이름이야."
+    },
+    {
+        "id": 21,
+        "raw": "[name=\"메커니스트\"]'딱 한 잔만 더' 술집 단골이라면 누구나 알고 있지.",
+        "type": "dialog",
+        "speaker": "메커니스트",
+        "content": "'딱 한 잔만 더' 술집 단골이라면 누구나 알고 있지."
+    },
+    {
+        "id": 22,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 23,
+        "raw": "[Character(name=\"avg_npc_521_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_521_1#1$1"
+    },
+    {
+        "id": 24,
+        "raw": "[name=\"메커니스트\"]박사, 그런 소문에 관심이 있다면 다음에 블레이즈가 술 마시자고 할 때 거절하지 마.",
+        "type": "dialog",
+        "speaker": "메커니스트",
+        "content": "박사, 그런 소문에 관심이 있다면 다음에 블레이즈가 술 마시자고 할 때 거절하지 마."
+    },
+    {
+        "id": 25,
+        "raw": "[name=\"메커니스트\"]로고스도 함께 할 거고……",
+        "type": "dialog",
+        "speaker": "메커니스트",
+        "content": "로고스도 함께 할 거고……"
+    },
+    {
+        "id": 26,
+        "raw": "[name=\"메커니스트\"]그때가 되면 아마 내 소문 같은 건 깨끗이 잊게 될걸.",
+        "type": "dialog",
+        "speaker": "메커니스트",
+        "content": "그때가 되면 아마 내 소문 같은 건 깨끗이 잊게 될걸."
+    },
+    {
+        "id": 27,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 28,
+        "raw": "[Character(name=\"avg_npc_521_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_521_1#1$1"
+    },
+    {
+        "id": 29,
+        "raw": "[name=\"메커니스트\"]사리아, 네가 찾는 사람은 도착했어?",
+        "type": "dialog",
+        "speaker": "메커니스트",
+        "content": "사리아, 네가 찾는 사람은 도착했어?"
+    },
+    {
+        "id": 30,
+        "raw": "[Character(name=\"avg_npc_532_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_532_1#1$1"
+    },
+    {
+        "id": 31,
+        "raw": "[name=\"사리아\"]그 사람은 매일 여기서 20시간씩 죽치고 있지.",
+        "type": "dialog",
+        "speaker": "사리아",
+        "content": "그 사람은 매일 여기서 20시간씩 죽치고 있지."
+    },
+    {
+        "id": 32,
+        "raw": "[name=\"사리아\"]……'트리마운츠 선샤인' 두 잔.",
+        "type": "dialog",
+        "speaker": "사리아",
+        "content": "……'트리마운츠 선샤인' 두 잔."
+    },
+    {
+        "id": 33,
+        "raw": "[Character(name=\"avg_npc_521_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_521_1#1$1"
+    },
+    {
+        "id": 34,
+        "raw": "[name=\"메커니스트\"]업무 시간에 술을 마실 사람 같지는 않은데.",
+        "type": "dialog",
+        "speaker": "메커니스트",
+        "content": "업무 시간에 술을 마실 사람 같지는 않은데."
+    },
+    {
+        "id": 35,
+        "raw": "[Character(name=\"avg_npc_532_1#9$1\")]",
+        "type": "character",
+        "name": "avg_npc_532_1#9$1"
+    },
+    {
+        "id": 36,
+        "raw": "[name=\"사리아\"]물론이다.",
+        "type": "dialog",
+        "speaker": "사리아",
+        "content": "물론이다."
+    },
+    {
+        "id": 37,
+        "raw": "[Character(name=\"avg_npc_532_1#10$1\")]",
+        "type": "character",
+        "name": "avg_npc_532_1#10$1"
+    },
+    {
+        "id": 38,
+        "raw": "[name=\"사리아\"]나는 알코올이 내 뇌를 방해하는 걸 좋아하지 않아.",
+        "type": "dialog",
+        "speaker": "사리아",
+        "content": "나는 알코올이 내 뇌를 방해하는 걸 좋아하지 않아."
+    },
+    {
+        "id": 39,
+        "raw": "[Character(name=\"avg_npc_523_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_523_1#1$1"
+    },
+    {
+        "id": 40,
+        "raw": "[name=\"술 취한 남자\"]여전히 재미없는 놈이구나, 사리아.",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "여전히 재미없는 놈이구나, 사리아."
+    },
+    {
+        "id": 41,
+        "raw": "[Character(name=\"avg_npc_532_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_532_1#1$1"
+    },
+    {
+        "id": 42,
+        "raw": "[name=\"사리아\"]두 잔 다 네 거다.",
+        "type": "dialog",
+        "speaker": "사리아",
+        "content": "두 잔 다 네 거다."
+    },
+    {
+        "id": 43,
+        "raw": "[name=\"사리아\"]똑바로 들고 있어. 세 잔째 사줄 생각은 없으니까.",
+        "type": "dialog",
+        "speaker": "사리아",
+        "content": "똑바로 들고 있어. 세 잔째 사줄 생각은 없으니까."
+    },
+    {
+        "id": 44,
+        "raw": "[Character(name=\"avg_npc_523_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_523_1#1$1"
+    },
+    {
+        "id": 45,
+        "raw": "[name=\"술 취한 남자\"]쳇…… 라인 랩을 떠나고 나서 너도 나처럼 갈 곳 없는 가난뱅이가 된 거냐?",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "쳇…… 라인 랩을 떠나고 나서 너도 나처럼 갈 곳 없는 가난뱅이가 된 거냐?"
+    },
+    {
+        "id": 46,
+        "raw": "[Character(name=\"avg_npc_532_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_532_1#1$1"
+    },
+    {
+        "id": 47,
+        "raw": "[name=\"사리아\"]내가 네 술값을 얼마나 내줄지는 네 정보의 가치에 달렸다.",
+        "type": "dialog",
+        "speaker": "사리아",
+        "content": "내가 네 술값을 얼마나 내줄지는 네 정보의 가치에 달렸다."
+    },
+    {
+        "id": 48,
+        "raw": "[Character(name=\"avg_npc_523_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_523_1#1$1"
+    },
+    {
+        "id": 49,
+        "raw": "[name=\"술 취한 남자\"]그래서, 뭐가 궁금한데?",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "그래서, 뭐가 궁금한데?"
+    },
+    {
+        "id": 50,
+        "raw": "[Character(name=\"avg_npc_532_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_532_1#1$1"
+    },
+    {
+        "id": 51,
+        "raw": "[name=\"사리아\"]……이 시험관에 든 액체 보이나?",
+        "type": "dialog",
+        "speaker": "사리아",
+        "content": "……이 시험관에 든 액체 보이나?"
+    },
+    {
+        "id": 52,
+        "raw": "[Character(name=\"avg_npc_523_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_523_1#1$1"
+    },
+    {
+        "id": 53,
+        "raw": "[name=\"술 취한 남자\"]헤, 이건 무슨 맛일까……",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "헤, 이건 무슨 맛일까……"
+    },
+    {
+        "id": 54,
+        "raw": "[Character(name=\"avg_npc_532_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_532_1#1$1"
+    },
+    {
+        "id": 55,
+        "raw": "[name=\"사리아\"]마시는 거 아니다.",
+        "type": "dialog",
+        "speaker": "사리아",
+        "content": "마시는 거 아니다."
+    },
+    {
+        "id": 56,
+        "raw": "[Character(name=\"avg_npc_523_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_523_1#1$1"
+    },
+    {
+        "id": 57,
+        "raw": "[name=\"술 취한 남자\"]그럼 나한테 왜 묻는 건데.",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "그럼 나한테 왜 묻는 건데."
+    },
+    {
+        "id": 58,
+        "raw": "[Character(name=\"avg_npc_532_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_532_1#1$1"
+    },
+    {
+        "id": 59,
+        "raw": "[name=\"사리아\"]오른손을 보여줘.",
+        "type": "dialog",
+        "speaker": "사리아",
+        "content": "오른손을 보여줘."
+    },
+    {
+        "id": 60,
+        "raw": "[Character(name=\"avg_npc_523_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_523_1#1$1"
+    },
+    {
+        "id": 61,
+        "raw": "[name=\"술 취한 남자\"]뭐 하는 거야?",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "뭐 하는 거야?"
+    },
+    {
+        "id": 62,
+        "raw": "[Character(name=\"avg_npc_532_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_532_1#1$1"
+    },
+    {
+        "id": 63,
+        "raw": "[name=\"사리아\"]넌 오른손잡이인데 왼손으로 술잔을 쥐고 있군.",
+        "type": "dialog",
+        "speaker": "사리아",
+        "content": "넌 오른손잡이인데 왼손으로 술잔을 쥐고 있군."
+    },
+    {
+        "id": 64,
+        "raw": "[name=\"사리아\"]그 말은, 네 오른팔 피부 아래에 소형 아츠 유닛을 이식한 고통이 아직 남아있다는 뜻이겠지?",
+        "type": "dialog",
+        "speaker": "사리아",
+        "content": "그 말은, 네 오른팔 피부 아래에 소형 아츠 유닛을 이식한 고통이 아직 남아있다는 뜻이겠지?"
+    },
+    {
+        "id": 65,
+        "raw": "[Character(name=\"avg_npc_521_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_521_1#1$1"
+    },
+    {
+        "id": 66,
+        "raw": "[name=\"메커니스트\"]피부 아래에 이식한 아츠 유닛?",
+        "type": "dialog",
+        "speaker": "메커니스트",
+        "content": "피부 아래에 이식한 아츠 유닛?"
+    },
+    {
+        "id": 67,
+        "raw": "[Character(name=\"avg_npc_523_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_523_1#1$1"
+    },
+    {
+        "id": 68,
+        "raw": "[name=\"술 취한 남자\"]……사리아.",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "……사리아."
+    },
+    {
+        "id": 69,
+        "raw": "[name=\"술 취한 남자\"]이 남자랑 저기 얼굴 가린 놈은 어디서 온 거야?",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "이 남자랑 저기 얼굴 가린 놈은 어디서 온 거야?"
+    },
+    {
+        "id": 70,
+        "raw": "[name=\"술 취한 남자\"]라인 랩 엔지니어링과? 볼보트 코친스키? 아니면…… 이름을 말할 수 없는 기관의 사람인가?",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "라인 랩 엔지니어링과? 볼보트 코친스키? 아니면…… 이름을 말할 수 없는 기관의 사람인가?"
+    },
+    {
+        "id": 71,
+        "raw": "[name=\"술 취한 남자\"]놈들은 생각을 바꿔서, 내 입을 철저하게 막기로 한 건가?",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "놈들은 생각을 바꿔서, 내 입을 철저하게 막기로 한 건가?"
+    },
+    {
+        "id": 72,
+        "raw": "[Character(name=\"avg_npc_521_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_521_1#1$1"
+    },
+    {
+        "id": 73,
+        "raw": "[name=\"메커니스트\"]약속하지. 난 방금 당신이 말한 기업이나 조직과 영원히 얽힐 일 없어.",
+        "type": "dialog",
+        "speaker": "메커니스트",
+        "content": "약속하지. 난 방금 당신이 말한 기업이나 조직과 영원히 얽힐 일 없어."
+    },
+    {
+        "id": 74,
+        "raw": "[Character(name=\"avg_npc_523_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_523_1#1$1"
+    },
+    {
+        "id": 75,
+        "raw": "[name=\"술 취한 남자\"]약속? 말로만 하는 약속은 내 눈앞에 이 술보다도 가치가 없어.",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "약속? 말로만 하는 약속은 내 눈앞에 이 술보다도 가치가 없어."
+    },
+    {
+        "id": 76,
+        "raw": "[Character(name=\"avg_npc_521_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_521_1#1$1"
+    },
+    {
+        "id": 77,
+        "raw": "[name=\"메커니스트\"]박사, 우리가 있으면 저 남자는 솔직하게 얘기하지 않을 거야.",
+        "type": "dialog",
+        "speaker": "메커니스트",
+        "content": "박사, 우리가 있으면 저 남자는 솔직하게 얘기하지 않을 거야."
+    },
+    {
+        "id": 78,
+        "raw": "[Character(name=\"avg_npc_523_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_523_1#1$1"
+    },
+    {
+        "id": 79,
+        "raw": "[name=\"술 취한 남자\"]……문제는 너야. 난 너를 안 믿어. 특히 그 이상한 옷차림.",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "……문제는 너야. 난 너를 안 믿어. 특히 그 이상한 옷차림."
+    },
+    {
+        "id": 80,
+        "raw": "[name=\"술 취한 남자\"]컬럼비아 과학기술계의 엘리트 냄새가 너무 나, 무슨 말인지 알겠어?",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "컬럼비아 과학기술계의 엘리트 냄새가 너무 나, 무슨 말인지 알겠어?"
+    },
+    {
+        "id": 81,
+        "raw": "[name=\"술 취한 남자\"]저 후드 쓴 놈은 남아도 돼. 너는 안심할 수 있어.",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "저 후드 쓴 놈은 남아도 돼. 너는 안심할 수 있어."
+    },
+    {
+        "id": 82,
+        "raw": "[Character(name=\"avg_npc_521_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_521_1#1$1"
+    },
+    {
+        "id": 83,
+        "raw": "[name=\"메커니스트\"]......",
+        "type": "dialog",
+        "speaker": "메커니스트",
+        "content": "......"
+    },
+    {
+        "id": 84,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 85,
+        "raw": "[Character(name=\"avg_npc_521_1#1$1\",focus=-1)]",
+        "type": "character",
+        "name": "avg_npc_521_1#1$1",
+        "focus": -1
+    },
+    {
+        "id": 86,
+        "raw": "[Decision(options=\"메커니스트, 가서 좀 쉬고 있어.;쉬는 시간이야, 가서 한잔하는 게 어때?\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "메커니스트, 가서 좀 쉬고 있어.;쉬는 시간이야, 가서 한잔하는 게 어때?",
+        "values": "1;2"
+    },
+    {
+        "id": 87,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 88,
+        "raw": "[Character(name=\"avg_npc_521_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_521_1#1$1"
+    },
+    {
+        "id": 89,
+        "raw": "[name=\"메커니스트\"]어쩔 수 없지, 근처에 있을게.",
+        "type": "dialog",
+        "speaker": "메커니스트",
+        "content": "어쩔 수 없지, 근처에 있을게."
+    },
+    {
+        "id": 90,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 91,
+        "raw": "[playsound(key=\"$d_gen_walk_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3"
+    },
+    {
+        "id": 92,
+        "raw": "[character(fadetime=1.5)]",
+        "type": "character",
+        "fadetime": 1.5
+    },
+    {
+        "id": 93,
+        "raw": "[delay(time=2.5)] ",
+        "type": "delay",
+        "time": 2.5
+    },
+    {
+        "id": 94,
+        "raw": "[Character(name=\"avg_npc_523_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_523_1#1$1"
+    },
+    {
+        "id": 95,
+        "raw": "[name=\"술 취한 남자\"]사리아, 지금까지 몇 번이나 술 사준 정을 봐서라도 충고해 주지……",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "사리아, 지금까지 몇 번이나 술 사준 정을 봐서라도 충고해 주지……"
+    },
+    {
+        "id": 96,
+        "raw": "[name=\"술 취한 남자\"]나처럼 되고 싶은 것 아니면, 더 깊이 파고들지 마.",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "나처럼 되고 싶은 것 아니면, 더 깊이 파고들지 마."
+    },
+    {
+        "id": 97,
+        "raw": "[name=\"술 취한 남자\"]이 시험관의 내용물이든, 그 기동 장갑이든…… 그 배후에 있는 인물은 네가 건드릴 수 있는 사람이 아니야.",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "이 시험관의 내용물이든, 그 기동 장갑이든…… 그 배후에 있는 인물은 네가 건드릴 수 있는 사람이 아니야."
+    },
+    {
+        "id": 98,
+        "raw": "[Character(name=\"avg_npc_532_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_532_1#1$1"
+    },
+    {
+        "id": 99,
+        "raw": "[name=\"사리아\"]……",
+        "type": "dialog",
+        "speaker": "사리아",
+        "content": "……"
+    },
+    {
+        "id": 100,
+        "raw": "[Character(name=\"avg_npc_523_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_523_1#1$1"
+    },
+    {
+        "id": 101,
+        "raw": "[name=\"술 취한 남자\"]아무리 너라고 해도.",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "아무리 너라고 해도."
+    },
+    {
+        "id": 102,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 103,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 104,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 105,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 106,
+        "raw": "[stopmusic(fadetime=1)]",
+        "type": "stop_music",
+        "fadetime": 1
+    },
+    {
+        "id": 107,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 108,
+        "raw": "[character(name=\"avg_npc_522_1#6$1\",name2=\"avg_npc_531_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_522_1#6$1",
+        "name2": "avg_npc_531_1#1$1"
+    },
+    {
+        "id": 109,
+        "raw": "[Background(image=\"29_g9_headquarter\",screenadapt=\"showall\")]",
+        "type": "background",
+        "image": "29_g9_headquarter.png",
+        "screenadapt": "showall"
+    },
+    {
+        "id": 110,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 111,
+        "raw": "[playMusic(intro=\"$darkness01_intro\", key=\"$darkness01_loop\", volume=0.7)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta1_180603/m_dia_darkness01_intro.mp3",
+        "key": "sound_beta_2/music/beta1_180603/m_dia_darkness01_loop.mp3",
+        "volume": 0.7
+    },
+    {
+        "id": 112,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 113,
+        "raw": "[Delay(time=2)]\t",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 114,
+        "raw": "[character(name=\"avg_npc_522_1#6$1\",name2=\"avg_npc_531_1#1$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_522_1#6$1",
+        "name2": "avg_npc_531_1#1$1",
+        "focus": 1
+    },
+    {
+        "id": 115,
+        "raw": "[name=\"퍼디낸드\"]방금 당신이 무슨 소리를 한 건지 아나?",
+        "type": "dialog",
+        "speaker": "퍼디낸드",
+        "content": "방금 당신이 무슨 소리를 한 건지 아나?"
+    },
+    {
+        "id": 116,
+        "raw": "[character(name=\"avg_npc_522_1#6$1\",name2=\"avg_npc_531_1#1$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_522_1#6$1",
+        "name2": "avg_npc_531_1#1$1",
+        "focus": 2
+    },
+    {
+        "id": 117,
+        "raw": "[name=\"파르비스\"]당연하지.",
+        "type": "dialog",
+        "speaker": "파르비스",
+        "content": "당연하지."
+    },
+    {
+        "id": 118,
+        "raw": "[name=\"파르비스\"]자네가 그랬잖나. 내가 아직 노망날 정도는 아니라고.",
+        "type": "dialog",
+        "speaker": "파르비스",
+        "content": "자네가 그랬잖나. 내가 아직 노망날 정도는 아니라고."
+    },
+    {
+        "id": 119,
+        "raw": "[character(name=\"avg_npc_522_1#6$1\",name2=\"avg_npc_531_1#1$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_522_1#6$1",
+        "name2": "avg_npc_531_1#1$1",
+        "focus": 1
+    },
+    {
+        "id": 120,
+        "raw": "[name=\"퍼디낸드\"]……트집치고는 너무 심각한데.",
+        "type": "dialog",
+        "speaker": "퍼디낸드",
+        "content": "……트집치고는 너무 심각한데."
+    },
+    {
+        "id": 121,
+        "raw": "[character(name=\"avg_npc_522_1#6$1\",name2=\"avg_npc_531_1#1$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_522_1#6$1",
+        "name2": "avg_npc_531_1#1$1",
+        "focus": 2
+    },
+    {
+        "id": 122,
+        "raw": "[name=\"파르비스\"]트집? 그런가?",
+        "type": "dialog",
+        "speaker": "파르비스",
+        "content": "트집? 그런가?"
+    },
+    {
+        "id": 123,
+        "raw": "[name=\"파르비스\"]흠, 뮤엘시스의 실종이 자네와 관련이 있다고 의심한 걸 말하는 건가? 아니면 자네가 라인 랩의 총괄 자리를 차지하려는 걸 말하는 건가?",
+        "type": "dialog",
+        "speaker": "파르비스",
+        "content": "흠, 뮤엘시스의 실종이 자네와 관련이 있다고 의심한 걸 말하는 건가? 아니면 자네가 라인 랩의 총괄 자리를 차지하려는 걸 말하는 건가?"
+    },
+    {
+        "id": 124,
+        "raw": "[character(name=\"avg_npc_522_1#6$1\",name2=\"avg_npc_531_1#1$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_522_1#6$1",
+        "name2": "avg_npc_531_1#1$1",
+        "focus": 1
+    },
+    {
+        "id": 125,
+        "raw": "[name=\"퍼디낸드\"]……",
+        "type": "dialog",
+        "speaker": "퍼디낸드",
+        "content": "……"
+    },
+    {
+        "id": 126,
+        "raw": "[name=\"퍼디낸드\"]날 위협하려면 더 설득력 있는 증거를 내놔야지.",
+        "type": "dialog",
+        "speaker": "퍼디낸드",
+        "content": "날 위협하려면 더 설득력 있는 증거를 내놔야지."
+    },
+    {
+        "id": 127,
+        "raw": "[character(name=\"avg_npc_522_1#6$1\",name2=\"avg_npc_531_1#1$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_522_1#6$1",
+        "name2": "avg_npc_531_1#1$1",
+        "focus": 2
+    },
+    {
+        "id": 128,
+        "raw": "[name=\"파르비스\"]긴장하지 말게, 오랜 친구여.",
+        "type": "dialog",
+        "speaker": "파르비스",
+        "content": "긴장하지 말게, 오랜 친구여."
+    },
+    {
+        "id": 129,
+        "raw": "[name=\"파르비스\"]우리가 함께 일한 지 얼마나 됐지? 자네는 늦게 합류한 편이지만 그래도 10년은 지났나……",
+        "type": "dialog",
+        "speaker": "파르비스",
+        "content": "우리가 함께 일한 지 얼마나 됐지? 자네는 늦게 합류한 편이지만 그래도 10년은 지났나……"
+    },
+    {
+        "id": 130,
+        "raw": "[name=\"파르비스\"]그런데 아직도 날 모르겠나? 내가 서류 뭉치와 통신 기록 그리고 초고로 작성된 법률 문서를 가지고 친구와 수다나 떨러 올 사람으로 보이나?",
+        "type": "dialog",
+        "speaker": "파르비스",
+        "content": "그런데 아직도 날 모르겠나? 내가 서류 뭉치와 통신 기록 그리고 초고로 작성된 법률 문서를 가지고 친구와 수다나 떨러 올 사람으로 보이나?"
+    },
+    {
+        "id": 131,
+        "raw": "[character(name=\"avg_npc_522_1#5$1\",name2=\"avg_npc_531_1#1$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_522_1#5$1",
+        "name2": "avg_npc_531_1#1$1",
+        "focus": 1
+    },
+    {
+        "id": 132,
+        "raw": "[name=\"퍼디낸드\"]당신……",
+        "type": "dialog",
+        "speaker": "퍼디낸드",
+        "content": "당신……"
+    },
+    {
+        "id": 133,
+        "raw": "[character(name=\"avg_npc_522_1#5$1\",name2=\"avg_npc_531_1#1$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_522_1#5$1",
+        "name2": "avg_npc_531_1#1$1",
+        "focus": 2
+    },
+    {
+        "id": 134,
+        "raw": "[name=\"파르비스\"]자네가 나한테 그랬다고 해서 나도 똑같이 굴지는 않아.",
+        "type": "dialog",
+        "speaker": "파르비스",
+        "content": "자네가 나한테 그랬다고 해서 나도 똑같이 굴지는 않아."
+    },
+    {
+        "id": 135,
+        "raw": "[name=\"파르비스\"]컬럼비아 사람들은 무슨 일이든 협상 테이블로 끌어 올리는 것을 좋아하지. 그런데 잊었나 보네? 자네 말을 빌리자면 난 아무것도 모르는 척하는 능글맞은 라이타니엔의 늙은 염소잖나.",
+        "type": "dialog",
+        "speaker": "파르비스",
+        "content": "컬럼비아 사람들은 무슨 일이든 협상 테이블로 끌어 올리는 것을 좋아하지. 그런데 잊었나 보네? 자네 말을 빌리자면 난 아무것도 모르는 척하는 능글맞은 라이타니엔의 늙은 염소잖나."
+    },
+    {
+        "id": 136,
+        "raw": "[character(name=\"avg_npc_522_1#6$1\",name2=\"avg_npc_531_1#1$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_522_1#6$1",
+        "name2": "avg_npc_531_1#1$1",
+        "focus": 1
+    },
+    {
+        "id": 137,
+        "raw": "[name=\"퍼디낸드\"]대체 목적이 뭐지?",
+        "type": "dialog",
+        "speaker": "퍼디낸드",
+        "content": "대체 목적이 뭐지?"
+    },
+    {
+        "id": 138,
+        "raw": "[character(name=\"avg_npc_522_1#6$1\",name2=\"avg_npc_531_1#1$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_522_1#6$1",
+        "name2": "avg_npc_531_1#1$1",
+        "focus": 2
+    },
+    {
+        "id": 139,
+        "raw": "[name=\"파르비스\"]말했잖나, 지나가는 길이라고. 가는 김에 친구도 격려할 겸.",
+        "type": "dialog",
+        "speaker": "파르비스",
+        "content": "말했잖나, 지나가는 길이라고. 가는 김에 친구도 격려할 겸."
+    },
+    {
+        "id": 140,
+        "raw": "[character(name=\"avg_npc_522_1#5$1\",name2=\"avg_npc_531_1#1$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_522_1#5$1",
+        "name2": "avg_npc_531_1#1$1",
+        "focus": 1
+    },
+    {
+        "id": 141,
+        "raw": "[name=\"퍼디낸드\"]도무지 모르겠군. 당신은…… 총괄의 편에 설 줄 알았는데.",
+        "type": "dialog",
+        "speaker": "퍼디낸드",
+        "content": "도무지 모르겠군. 당신은…… 총괄의 편에 설 줄 알았는데."
+    },
+    {
+        "id": 142,
+        "raw": "[character(name=\"avg_npc_522_1#5$1\",name2=\"avg_npc_531_1#1$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_522_1#5$1",
+        "name2": "avg_npc_531_1#1$1",
+        "focus": 2
+    },
+    {
+        "id": 143,
+        "raw": "[name=\"파르비스\"]자네도 연구하는 사람인데 그 이치를 모르나? 이해할 수 없는 일은 늘 이해할 수 있는 일보다 많지. 이게 바로 연구하는 묘미 중의 하나고.",
+        "type": "dialog",
+        "speaker": "파르비스",
+        "content": "자네도 연구하는 사람인데 그 이치를 모르나? 이해할 수 없는 일은 늘 이해할 수 있는 일보다 많지. 이게 바로 연구하는 묘미 중의 하나고."
+    },
+    {
+        "id": 144,
+        "raw": "[name=\"파르비스\"]사실 자네랑 크리스틴은 아주 비슷해. 둘 다 너무 젊고 너무 똑똑하지.",
+        "type": "dialog",
+        "speaker": "파르비스",
+        "content": "사실 자네랑 크리스틴은 아주 비슷해. 둘 다 너무 젊고 너무 똑똑하지."
+    },
+    {
+        "id": 145,
+        "raw": "[name=\"파르비스\"]출세할 생각만 좇다 보면 결국 뒤따라오는 사람이 지쳐서 나가떨어지게 되는 법이야.",
+        "type": "dialog",
+        "speaker": "파르비스",
+        "content": "출세할 생각만 좇다 보면 결국 뒤따라오는 사람이 지쳐서 나가떨어지게 되는 법이야."
+    },
+    {
+        "id": 146,
+        "raw": "[name=\"파르비스\"]난 단지 조금 더 평온하게 연구하고 싶을 뿐이야…… 같이 바닥으로 곤두박질치고 싶지 않아.",
+        "type": "dialog",
+        "speaker": "파르비스",
+        "content": "난 단지 조금 더 평온하게 연구하고 싶을 뿐이야…… 같이 바닥으로 곤두박질치고 싶지 않아."
+    },
+    {
+        "id": 147,
+        "raw": "[name=\"파르비스\"]자네가 라인 랩을 맡으면 내일 당장 산산이 조각나지는 않겠지만, 2, 3년 뒤에는 군이나 다른 대자본에 의해 갈가리 찢길 수도 있지.",
+        "type": "dialog",
+        "speaker": "파르비스",
+        "content": "자네가 라인 랩을 맡으면 내일 당장 산산이 조각나지는 않겠지만, 2, 3년 뒤에는 군이나 다른 대자본에 의해 갈가리 찢길 수도 있지."
+    },
+    {
+        "id": 148,
+        "raw": "[character(name=\"avg_npc_522_1#6$1\",name2=\"avg_npc_531_1#1$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_522_1#6$1",
+        "name2": "avg_npc_531_1#1$1",
+        "focus": 1
+    },
+    {
+        "id": 149,
+        "raw": "[name=\"퍼디낸드\"]나에 대한 평가가 그렇게 높을 줄은 몰랐는데.",
+        "type": "dialog",
+        "speaker": "퍼디낸드",
+        "content": "나에 대한 평가가 그렇게 높을 줄은 몰랐는데."
+    },
+    {
+        "id": 150,
+        "raw": "[character(name=\"avg_npc_522_1#6$1\",name2=\"avg_npc_531_1#1$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_522_1#6$1",
+        "name2": "avg_npc_531_1#1$1",
+        "focus": 2
+    },
+    {
+        "id": 151,
+        "raw": "[name=\"파르비스\"]하지만 크리스틴을 움직이려면 우리 방위과 주임부터 어떻게든 해결해야겠지.",
+        "type": "dialog",
+        "speaker": "파르비스",
+        "content": "하지만 크리스틴을 움직이려면 우리 방위과 주임부터 어떻게든 해결해야겠지."
+    },
+    {
+        "id": 152,
+        "raw": "[character(name=\"avg_npc_522_1#6$1\",name2=\"avg_npc_531_1#1$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_522_1#6$1",
+        "name2": "avg_npc_531_1#1$1",
+        "focus": 1
+    },
+    {
+        "id": 153,
+        "raw": "[name=\"퍼디낸드\"]라인 랩 방위과에 지금 주임이 없는 걸로 기억하는데.",
+        "type": "dialog",
+        "speaker": "퍼디낸드",
+        "content": "라인 랩 방위과에 지금 주임이 없는 걸로 기억하는데."
+    },
+    {
+        "id": 154,
+        "raw": "[character(name=\"avg_npc_522_1#6$1\",name2=\"avg_npc_531_1#1$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_522_1#6$1",
+        "name2": "avg_npc_531_1#1$1",
+        "focus": 2
+    },
+    {
+        "id": 155,
+        "raw": "[name=\"파르비스\"]젊은 친구가 벌써 기억력이 그렇게 나빠서야 쓰겠나.",
+        "type": "dialog",
+        "speaker": "파르비스",
+        "content": "젊은 친구가 벌써 기억력이 그렇게 나빠서야 쓰겠나."
+    },
+    {
+        "id": 156,
+        "raw": "[name=\"파르비스\"]크리스틴은 아직 사리아의 사표를 수리하지 않았잖나.",
+        "type": "dialog",
+        "speaker": "파르비스",
+        "content": "크리스틴은 아직 사리아의 사표를 수리하지 않았잖나."
+    },
+    {
+        "id": 157,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 158,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 159,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 160,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 161,
+        "raw": "[stopmusic(fadetime=1)]",
+        "type": "stop_music",
+        "fadetime": 1
+    },
+    {
+        "id": 162,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 163,
+        "raw": "[character(name=\"avg_npc_532_1#1$1\",name2=\"avg_npc_523_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_532_1#1$1",
+        "name2": "avg_npc_523_1#1$1"
+    },
+    {
+        "id": 164,
+        "raw": "[Background(image=\"bg_bar_1\",screenadapt=\"showall\")]",
+        "type": "background",
+        "image": "bg_bar_1.png",
+        "screenadapt": "showall"
+    },
+    {
+        "id": 165,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 166,
+        "raw": "[playMusic(intro=\"$bar_intro\", key=\"$bar_loop\", volume=0.7)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act5d0/m_avg_longmenbar_intro.mp3",
+        "key": "sound_beta_2/music/act5d0/m_avg_longmenbar_loop.mp3",
+        "volume": 0.7
+    },
+    {
+        "id": 167,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 168,
+        "raw": "[Delay(time=2)]\t",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 169,
+        "raw": "[character(name=\"avg_npc_532_1#1$1\",name2=\"avg_npc_523_1#1$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_532_1#1$1",
+        "name2": "avg_npc_523_1#1$1",
+        "focus": 2
+    },
+    {
+        "id": 170,
+        "raw": "[name=\"술 취한 남자\"]사리아, 사실 난 네가 대체 뭘 하는지 이해가 가지 않아.",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "사리아, 사실 난 네가 대체 뭘 하는지 이해가 가지 않아."
+    },
+    {
+        "id": 171,
+        "raw": "[name=\"술 취한 남자\"]로켄…… 내 말은 우리 고용주한테 일이 생긴 뒤로, 그 일을 입 밖으로 꺼낸 사람은 아무도 없었어.",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "로켄…… 내 말은 우리 고용주한테 일이 생긴 뒤로, 그 일을 입 밖으로 꺼낸 사람은 아무도 없었어."
+    },
+    {
+        "id": 172,
+        "raw": "[name=\"술 취한 남자\"]실험의 내막을 얼마나 알고 있든 다들 약속이나 한 듯 발뺌했지.",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "실험의 내막을 얼마나 알고 있든 다들 약속이나 한 듯 발뺌했지."
+    },
+    {
+        "id": 173,
+        "raw": "[name=\"술 취한 남자\"]똑똑한 사람은 그렇게 하는 거야.",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "똑똑한 사람은 그렇게 하는 거야."
+    },
+    {
+        "id": 174,
+        "raw": "[character(name=\"avg_npc_532_1#1$1\",name2=\"avg_npc_523_1#1$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_532_1#1$1",
+        "name2": "avg_npc_523_1#1$1",
+        "focus": 1
+    },
+    {
+        "id": 175,
+        "raw": "[name=\"사리아\"]결국 너도 멍청이라는 뜻인가?",
+        "type": "dialog",
+        "speaker": "사리아",
+        "content": "결국 너도 멍청이라는 뜻인가?"
+    },
+    {
+        "id": 176,
+        "raw": "[character(name=\"avg_npc_532_1#1$1\",name2=\"avg_npc_523_1#1$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_532_1#1$1",
+        "name2": "avg_npc_523_1#1$1",
+        "focus": 2
+    },
+    {
+        "id": 177,
+        "raw": "[name=\"술 취한 남자\"]하하…… 좋아, 여전히 말로 사람 속을 긁는 재주가 있어.",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "하하…… 좋아, 여전히 말로 사람 속을 긁는 재주가 있어."
+    },
+    {
+        "id": 178,
+        "raw": "[name=\"술 취한 남자\"]쉽게 내뺄 수 있다면 나도 그러고 싶지. 하지만 그 사람들은 날 놓아주지 않을 거야.",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "쉽게 내뺄 수 있다면 나도 그러고 싶지. 하지만 그 사람들은 날 놓아주지 않을 거야."
+    },
+    {
+        "id": 179,
+        "raw": "[name=\"술 취한 남자\"]넌 맨날 오른손이 아프냐고 묻는데, 어떻게 안 아프겠어? 하지만 내가 오른손을 포기하지 않았다면, 놈들이 날 지금까지 살려뒀을까?",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "넌 맨날 오른손이 아프냐고 묻는데, 어떻게 안 아프겠어? 하지만 내가 오른손을 포기하지 않았다면, 놈들이 날 지금까지 살려뒀을까?"
+    },
+    {
+        "id": 180,
+        "raw": "[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.3,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 181,
+        "raw": "[name=\"술 취한 남자\"]난 빌어먹을 집도의라고! 설령 놈들이 나한테 이식하라고 한 게 뭔지 몰랐어도 말이야!",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "난 빌어먹을 집도의라고! 설령 놈들이 나한테 이식하라고 한 게 뭔지 몰랐어도 말이야!"
+    },
+    {
+        "id": 182,
+        "raw": "[character(name=\"avg_npc_532_1#1$1\",name2=\"avg_npc_523_1#1$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_532_1#1$1",
+        "name2": "avg_npc_523_1#1$1",
+        "focus": 1
+    },
+    {
+        "id": 183,
+        "raw": "[name=\"사리아\"]신기하군, 분노까지 드러내다니. 알코올이 아직 네 신경을 모두 마비시키지 않았나 보군.",
+        "type": "dialog",
+        "speaker": "사리아",
+        "content": "신기하군, 분노까지 드러내다니. 알코올이 아직 네 신경을 모두 마비시키지 않았나 보군."
+    },
+    {
+        "id": 184,
+        "raw": "[character(name=\"avg_npc_532_1#1$1\",name2=\"avg_npc_523_1#1$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_532_1#1$1",
+        "name2": "avg_npc_523_1#1$1",
+        "focus": 2
+    },
+    {
+        "id": 185,
+        "raw": "[name=\"술 취한 남자\"]넌 많이 변했구나, 사리아.",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "넌 많이 변했구나, 사리아."
+    },
+    {
+        "id": 186,
+        "raw": "[name=\"술 취한 남자\"]몇 년 전에 처음으로 날 찾아왔을 때, 네 분노가 눈에 다 드러났었는데.",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "몇 년 전에 처음으로 날 찾아왔을 때, 네 분노가 눈에 다 드러났었는데."
+    },
+    {
+        "id": 187,
+        "raw": "[character(name=\"avg_npc_532_1#1$1\",name2=\"avg_npc_523_1#1$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_532_1#1$1",
+        "name2": "avg_npc_523_1#1$1",
+        "focus": 1
+    },
+    {
+        "id": 188,
+        "raw": "[name=\"사리아\"]그런가?",
+        "type": "dialog",
+        "speaker": "사리아",
+        "content": "그런가?"
+    },
+    {
+        "id": 189,
+        "raw": "[character(name=\"avg_npc_532_1#1$1\",name2=\"avg_npc_523_1#1$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_532_1#1$1",
+        "name2": "avg_npc_523_1#1$1",
+        "focus": 2
+    },
+    {
+        "id": 190,
+        "raw": "[name=\"술 취한 남자\"]……표정에서는 티가 별로 안 났지만.",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "……표정에서는 티가 별로 안 났지만."
+    },
+    {
+        "id": 191,
+        "raw": "[name=\"술 취한 남자\"]하지만 틀림없어, 난 그런 분노를 알아볼 수 있어. 그때 내가 어떤 실험에 참여했는지 알게 된 뒤로 나도 똑같은 기분이 들었으니까.",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "하지만 틀림없어, 난 그런 분노를 알아볼 수 있어. 그때 내가 어떤 실험에 참여했는지 알게 된 뒤로 나도 똑같은 기분이 들었으니까."
+    },
+    {
+        "id": 192,
+        "raw": "[name=\"술 취한 남자\"]라인 랩을 무너뜨리고 싶다면 다른 길은 얼마든지 있어.",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "라인 랩을 무너뜨리고 싶다면 다른 길은 얼마든지 있어."
+    },
+    {
+        "id": 193,
+        "raw": "[name=\"술 취한 남자\"]넌 라인의 창설자 중 한 명이야. 라인 랩을 넘보는 조직이라면 어디든 널 끌어들이려고 혈안이겠지.",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "넌 라인의 창설자 중 한 명이야. 라인 랩을 넘보는 조직이라면 어디든 널 끌어들이려고 혈안이겠지."
+    },
+    {
+        "id": 194,
+        "raw": "[character(name=\"avg_npc_532_1#10$1\",name2=\"avg_npc_523_1#1$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_532_1#10$1",
+        "name2": "avg_npc_523_1#1$1",
+        "focus": 1
+    },
+    {
+        "id": 195,
+        "raw": "[name=\"사리아\"]오로지 라인 랩만 노려서는 문제를 해결할 수 없다.",
+        "type": "dialog",
+        "speaker": "사리아",
+        "content": "오로지 라인 랩만 노려서는 문제를 해결할 수 없다."
+    },
+    {
+        "id": 196,
+        "raw": "[name=\"사리아\"]맹수의 시체는 더 무시무시한 맹수를 키워내지. 로켄 수조의 붕괴가 이 점을 증명하고 있다.",
+        "type": "dialog",
+        "speaker": "사리아",
+        "content": "맹수의 시체는 더 무시무시한 맹수를 키워내지. 로켄 수조의 붕괴가 이 점을 증명하고 있다."
+    },
+    {
+        "id": 197,
+        "raw": "[character(name=\"avg_npc_532_1#10$1\",name2=\"avg_npc_523_1#1$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_532_1#10$1",
+        "name2": "avg_npc_523_1#1$1",
+        "focus": 2
+    },
+    {
+        "id": 198,
+        "raw": "[name=\"술 취한 남자\"]궤변이야.",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "궤변이야."
+    },
+    {
+        "id": 199,
+        "raw": "[name=\"술 취한 남자\"]지금까지 넌 계속 라인 랩을 위해 뛰어다녔잖아. 겉보기엔 라인 랩에 맞서는 것 같지만, 사실은 그들을 위해 사태 수습을 해 주는 거지.",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "지금까지 넌 계속 라인 랩을 위해 뛰어다녔잖아. 겉보기엔 라인 랩에 맞서는 것 같지만, 사실은 그들을 위해 사태 수습을 해 주는 거지."
+    },
+    {
+        "id": 200,
+        "raw": "[name=\"술 취한 남자\"]널 보니까 소문이 거짓이 아니라는 걸 알겠어.",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "널 보니까 소문이 거짓이 아니라는 걸 알겠어."
+    },
+    {
+        "id": 201,
+        "raw": "[name=\"술 취한 남자\"]……심지어 넌 라인 랩을 위해 감옥까지 갔잖아.",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "……심지어 넌 라인 랩을 위해 감옥까지 갔잖아."
+    },
+    {
+        "id": 202,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 203,
+        "raw": "[character(name=\"avg_npc_532_1#10$1\",name2=\"avg_npc_523_1#1$1\",focus=-1)]",
+        "type": "character",
+        "name": "avg_npc_532_1#10$1",
+        "name2": "avg_npc_523_1#1$1",
+        "focus": -1
+    },
+    {
+        "id": 204,
+        "raw": "[Decision(options=\"맨스필드 사건 말이야?;맞는 말이지만, 그 표현은 좀……\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "맨스필드 사건 말이야?;맞는 말이지만, 그 표현은 좀……",
+        "values": "1;2"
+    },
+    {
+        "id": 205,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 206,
+        "raw": "[character(name=\"avg_npc_532_1#1$1\",name2=\"avg_npc_523_1#1$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_532_1#1$1",
+        "name2": "avg_npc_523_1#1$1",
+        "focus": 1
+    },
+    {
+        "id": 207,
+        "raw": "[name=\"사리아\"]……진실은 소문과 다르다.",
+        "type": "dialog",
+        "speaker": "사리아",
+        "content": "……진실은 소문과 다르다."
+    },
+    {
+        "id": 208,
+        "raw": "[character(name=\"avg_npc_532_1#1$1\",name2=\"avg_npc_523_1#1$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_532_1#1$1",
+        "name2": "avg_npc_523_1#1$1",
+        "focus": 2
+    },
+    {
+        "id": 209,
+        "raw": "[name=\"술 취한 남자\"]하이드브로의 도산으로 라인 랩의 에너지과 주임이 아주 골치 아파한다면서?",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "하이드브로의 도산으로 라인 랩의 에너지과 주임이 아주 골치 아파한다면서?"
+    },
+    {
+        "id": 210,
+        "raw": "[name=\"술 취한 남자\"]기초 재료 공급업체가 줄어들면, 새로운 실험 기지의 승인에 계속 제동이 걸리니까. 대형 수주를 몇 개나 놓쳤다던데.",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "기초 재료 공급업체가 줄어들면, 새로운 실험 기지의 승인에 계속 제동이 걸리니까. 대형 수주를 몇 개나 놓쳤다던데."
+    },
+    {
+        "id": 211,
+        "raw": "[name=\"술 취한 남자\"]무슨 실험을 했는지는 모르겠지만, 실험 진도를 늦출 수밖에 없었겠지.",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "무슨 실험을 했는지는 모르겠지만, 실험 진도를 늦출 수밖에 없었겠지."
+    },
+    {
+        "id": 212,
+        "raw": "[character(name=\"avg_npc_532_1#1$1\",name2=\"avg_npc_523_1#1$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_532_1#1$1",
+        "name2": "avg_npc_523_1#1$1",
+        "focus": 1
+    },
+    {
+        "id": 213,
+        "raw": "[name=\"사리아\"]하이드브로를 감옥에 넣은 건 내가 아니다.",
+        "type": "dialog",
+        "speaker": "사리아",
+        "content": "하이드브로를 감옥에 넣은 건 내가 아니다."
+    },
+    {
+        "id": 214,
+        "raw": "[character(name=\"avg_npc_523_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_523_1#1$1"
+    },
+    {
+        "id": 215,
+        "raw": "[MusicVolume(volume=0.2, fadetime=1)]",
+        "type": "music_volume",
+        "volume": "0.2,",
+        "fadetime": 1
+    },
+    {
+        "id": 216,
+        "raw": "[name=\"술 취한 남자\"]하지만 너도 꽤 많은 힘을 보탰잖아.",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "하지만 너도 꽤 많은 힘을 보탰잖아."
+    },
+    {
+        "id": 217,
+        "raw": "[name=\"술 취한 남자\"]이치는 나도 알아. 하이드브로가 감옥에 들어가면 지방 검사들이 그들을 미끼로 더 큰 놈을 잡으려고 하는 거겠지.",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "이치는 나도 알아. 하이드브로가 감옥에 들어가면 지방 검사들이 그들을 미끼로 더 큰 놈을 잡으려고 하는 거겠지."
+    },
+    {
+        "id": 218,
+        "raw": "[name=\"술 취한 남자\"]그런데 뉴스에서는 왜 라인 랩의 그림자조차 찾을 수 없을까? 왜 라인 랩은 언제나 이런 사건에서 발을 뺄 수 있을까?",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "그런데 뉴스에서는 왜 라인 랩의 그림자조차 찾을 수 없을까? 왜 라인 랩은 언제나 이런 사건에서 발을 뺄 수 있을까?"
+    },
+    {
+        "id": 219,
+        "raw": "[name=\"술 취한 남자\"]사실은 라인 랩이 저지른 모든 잘못을 다 네가 뒤처리해주기 때문이잖아.",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "사실은 라인 랩이 저지른 모든 잘못을 다 네가 뒤처리해주기 때문이잖아."
+    },
+    {
+        "id": 220,
+        "raw": "[name=\"술 취한 남자\"]그게 아니라면 날 찾아오지도 않았겠지……",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "그게 아니라면 날 찾아오지도 않았겠지……"
+    },
+    {
+        "id": 221,
+        "raw": "[name=\"술 취한 남자\"]네가 이 시약이 라인 랩과 어떤 연관이 있는지 확인하러 온 걸 보면……",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "네가 이 시약이 라인 랩과 어떤 연관이 있는지 확인하러 온 걸 보면……"
+    },
+    {
+        "id": 222,
+        "raw": "[name=\"술 취한 남자\"]마음속으로 넌 여전히 라인 랩 방위과 주임이야. 너는 아직도 라인 랩의 뒤처리를 해주는 걸 네 임무라고 생각해.",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "마음속으로 넌 여전히 라인 랩 방위과 주임이야. 너는 아직도 라인 랩의 뒤처리를 해주는 걸 네 임무라고 생각해."
+    },
+    {
+        "id": 223,
+        "raw": "[name=\"술 취한 남자\"]라인 랩에는 네가 아직도 버리지 못하는 것이 있어. 그게 사람이든, 아니면 빌어먹을 정이든……",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "라인 랩에는 네가 아직도 버리지 못하는 것이 있어. 그게 사람이든, 아니면 빌어먹을 정이든……"
+    },
+    {
+        "id": 224,
+        "raw": "[name=\"술 취한 남자\"]하하! 사리아, 너도 감정이 먼저 앞서는 때가 있구나!",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "하하! 사리아, 너도 감정이 먼저 앞서는 때가 있구나!"
+    },
+    {
+        "id": 225,
+        "raw": "[name=\"술 취한 남자\"]결국 우리 모두 피가 흐르는 인간이야.",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "결국 우리 모두 피가 흐르는 인간이야."
+    },
+    {
+        "id": 226,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 227,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 228,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 229,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 230,
+        "raw": "[stopmusic(fadetime=1)]",
+        "type": "stop_music",
+        "fadetime": 1
+    },
+    {
+        "id": 231,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 232,
+        "raw": "[CameraEffect(effect=\"Grayscale\", amount=0.8, keep=true)]",
+        "type": "camera_effect",
+        "effect": "Grayscale",
+        "amount": "0.8,",
+        "keep": true
+    },
+    {
+        "id": 233,
+        "raw": "[Background(image=\"29_g4_corridor\",screenadapt=\"showall\")]",
+        "type": "background",
+        "image": "29_g4_corridor.png",
+        "screenadapt": "showall"
+    },
+    {
+        "id": 234,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 235,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 236,
+        "raw": "[Delay(time=2)]\t",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 237,
+        "raw": "[PlaySound(key=\"$firestorm\", volume=1)] ",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_firestorm.mp3",
+        "volume": 1
+    },
+    {
+        "id": 238,
+        "raw": "[CameraShake(duration=5, xstrength=50, ystrength=50, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "5,",
+        "xstrength": "50,",
+        "ystrength": "50,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 239,
+        "raw": "[Delay(time=6.5)]\t",
+        "type": "delay",
+        "time": 6.5
+    },
+    {
+        "id": 240,
+        "raw": "[Character(name=\"avg_npc_530_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_530_1#1$1"
+    },
+    {
+        "id": 241,
+        "raw": "[name=\"라인 랩 연구원\"]통제 불능…… 실험체가 완전히 통제를 벗어났습니다!",
+        "type": "dialog",
+        "speaker": "라인 랩 연구원",
+        "content": "통제 불능…… 실험체가 완전히 통제를 벗어났습니다!"
+    },
+    {
+        "id": 242,
+        "raw": "[name=\"라인 랩 연구원\"]속박 장치가 풀렸습니다!",
+        "type": "dialog",
+        "speaker": "라인 랩 연구원",
+        "content": "속박 장치가 풀렸습니다!"
+    },
+    {
+        "id": 243,
+        "raw": "[name=\"라인 랩 연구원\"]실험체 의식이 감지되지 않습니다…… 진정제 주입 실패!",
+        "type": "dialog",
+        "speaker": "라인 랩 연구원",
+        "content": "실험체 의식이 감지되지 않습니다…… 진정제 주입 실패!"
+    },
+    {
+        "id": 244,
+        "raw": "[Character(name=\"avg_npc_528_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_528_1#1$1"
+    },
+    {
+        "id": 245,
+        "raw": "[name=\"라인 랩 방위과 직원\"]실험체가 대규모로 오리지늄 아츠를 방출하고 있습니다!",
+        "type": "dialog",
+        "speaker": "라인 랩 방위과 직원",
+        "content": "실험체가 대규모로 오리지늄 아츠를 방출하고 있습니다!"
+    },
+    {
+        "id": 246,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 247,
+        "raw": "[Blocker(a=0, r=255, g=0, b=0, fadetime=0.07, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.07,",
+        "block": true
+    },
+    {
+        "id": 248,
+        "raw": "[PlaySound(key=\"$e_atk_aim\", volume=1)] ",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_atk/e_atk_aim.mp3",
+        "volume": 1
+    },
+    {
+        "id": 249,
+        "raw": "[Blocker(a=0.5, r=255, g=0, b=0, fadetime=0.07, block=true)]",
+        "type": "blocker",
+        "a": "0.5,",
+        "r": "255,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.07,",
+        "block": true
+    },
+    {
+        "id": 250,
+        "raw": "[Blocker(a=0, r=255, g=0, b=0, fadetime=0.07, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.07,",
+        "block": true
+    },
+    {
+        "id": 251,
+        "raw": "[CameraShake(duration=0.6, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=true)]",
+        "type": "camera_shake",
+        "duration": "0.6,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": true
+    },
+    {
+        "id": 252,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 253,
+        "raw": "[delay(time=1)] ",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 254,
+        "raw": "[Character(name=\"avg_npc_528_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_528_1#1$1"
+    },
+    {
+        "id": 255,
+        "raw": "[name=\"라인 랩 방위과 직원\"]저건 괴물이야…… 거대한……",
+        "type": "dialog",
+        "speaker": "라인 랩 방위과 직원",
+        "content": "저건 괴물이야…… 거대한……"
+    },
+    {
+        "id": 256,
+        "raw": "[name=\"라인 랩 방위과 직원\"]아니, 불꽃의 구상화인가……",
+        "type": "dialog",
+        "speaker": "라인 랩 방위과 직원",
+        "content": "아니, 불꽃의 구상화인가……"
+    },
+    {
+        "id": 257,
+        "raw": "[name=\"라인 랩 방위과 직원\"]……당장 주임에게 연락해!",
+        "type": "dialog",
+        "speaker": "라인 랩 방위과 직원",
+        "content": "……당장 주임에게 연락해!"
+    },
+    {
+        "id": 258,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 259,
+        "raw": "[playsound(key=\"$rungeneral\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_rungeneral.mp3"
+    },
+    {
+        "id": 260,
+        "raw": "[character(fadetime=1.5)]",
+        "type": "character",
+        "fadetime": 1.5
+    },
+    {
+        "id": 261,
+        "raw": "[delay(time=2.5)] ",
+        "type": "delay",
+        "time": 2.5
+    },
+    {
+        "id": 262,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 263,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 264,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 265,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 266,
+        "raw": "[Blocker(a=0.3, r=0, g=0, b=0, fadetime=1, block=true)]//模拟火焰烟雾",
+        "type": "blocker",
+        "a": "0.3,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true,
+        "content": "//模拟火焰烟雾"
+    },
+    {
+        "id": 267,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 268,
+        "raw": "[playsound(key=\"$d_gen_walk_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3"
+    },
+    {
+        "id": 269,
+        "raw": "[character(name=\"avg_108_silent_1#6$1\",fadetime=1.5)]",
+        "type": "character",
+        "name": "avg_108_silent_1#6$1",
+        "fadetime": 1.5
+    },
+    {
+        "id": 270,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 271,
+        "raw": "[character(name=\"avg_108_silent_1#6$1\")]",
+        "type": "character",
+        "name": "avg_108_silent_1#6$1"
+    },
+    {
+        "id": 272,
+        "raw": "[name=\"사일런스\"]불길이…… 너무 세…… 콜록, 콜록……",
+        "type": "dialog",
+        "speaker": "사일런스",
+        "content": "불길이…… 너무 세…… 콜록, 콜록……"
+    },
+    {
+        "id": 273,
+        "raw": "[name=\"사일런스\"]이프리트는 어디 있지……?",
+        "type": "dialog",
+        "speaker": "사일런스",
+        "content": "이프리트는 어디 있지……?"
+    },
+    {
+        "id": 274,
+        "raw": "[character(name=\"avg_108_silent_1#5$1\")]",
+        "type": "character",
+        "name": "avg_108_silent_1#5$1"
+    },
+    {
+        "id": 275,
+        "raw": "[name=\"사일런스\"]이프리트!",
+        "type": "dialog",
+        "speaker": "사일런스",
+        "content": "이프리트!"
+    },
+    {
+        "id": 276,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 277,
+        "raw": "[character]",
+        "type": "character"
+    },
+    {
+        "id": 278,
+        "raw": "[Delay(time=0.8)]",
+        "type": "delay",
+        "time": 0.8
+    },
+    {
+        "id": 279,
+        "raw": "[playsound(key=\"$d_gen_walk_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3"
+    },
+    {
+        "id": 280,
+        "raw": "[character(name=\"avg_202_demkni_1#1$1\",fadetime=1.5)]",
+        "type": "character",
+        "name": "avg_202_demkni_1#1$1",
+        "fadetime": 1.5
+    },
+    {
+        "id": 281,
+        "raw": "[Delay(time=3)]",
+        "type": "delay",
+        "time": 3
+    },
+    {
+        "id": 282,
+        "raw": "[character(name=\"avg_108_silent_1#5$1\")]",
+        "type": "character",
+        "name": "avg_108_silent_1#5$1"
+    },
+    {
+        "id": 283,
+        "raw": "[name=\"사일런스\"]사리아……?!",
+        "type": "dialog",
+        "speaker": "사일런스",
+        "content": "사리아……?!"
+    },
+    {
+        "id": 284,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 285,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 286,
+        "raw": "[character]",
+        "type": "character"
+    },
+    {
+        "id": 287,
+        "raw": "복도 전체가 불길로 가득 찼지만 그녀는 뜨거움을 느끼지 못했다.",
+        "type": "narration",
+        "content": "복도 전체가 불길로 가득 찼지만 그녀는 뜨거움을 느끼지 못했다."
+    },
+    {
+        "id": 288,
+        "raw": "자신을 바라보는 이 와이번의 눈빛이 방패보다 단단했고 칼날보다 차가웠기 때문이다.",
+        "type": "narration",
+        "content": "자신을 바라보는 이 와이번의 눈빛이 방패보다 단단했고 칼날보다 차가웠기 때문이다."
+    },
+    {
+        "id": 289,
+        "raw": "눈빛에 담긴 감정은 읽을 수가 없었다.",
+        "type": "narration",
+        "content": "눈빛에 담긴 감정은 읽을 수가 없었다."
+    },
+    {
+        "id": 290,
+        "raw": "그때, 와이번의 눈 속에서 자신이 본 것은 무엇이었는지, 그녀는 아직도 확신할 수 없었다.",
+        "type": "narration",
+        "content": "그때, 와이번의 눈 속에서 자신이 본 것은 무엇이었는지, 그녀는 아직도 확신할 수 없었다."
+    },
+    {
+        "id": 291,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 292,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 293,
+        "raw": "[stopmusic(fadetime=1)]",
+        "type": "stop_music",
+        "fadetime": 1
+    },
+    {
+        "id": 294,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 295,
+        "raw": "[CameraEffect(effect=\"Grayscale\", fadetime=0, amount=0, block=true)]",
+        "type": "camera_effect",
+        "effect": "Grayscale",
+        "fadetime": "0,",
+        "amount": "0,",
+        "block": true
+    },
+    {
+        "id": 296,
+        "raw": "[Background(image=\"29_g4_corridor\",screenadapt=\"showall\")]",
+        "type": "background",
+        "image": "29_g4_corridor.png",
+        "screenadapt": "showall"
+    },
+    {
+        "id": 297,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 298,
+        "raw": "[playMusic(intro=\"$drift_intro\", key=\"$drift_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act9d0d0/m_avg_drift_intro.mp3",
+        "key": "sound_beta_2/music/act9d0d0/m_avg_drift_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 299,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 300,
+        "raw": "[Delay(time=2)]\t",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 301,
+        "raw": "[character(name=\"avg_npc_535_1#7$1\")]",
+        "type": "character",
+        "name": "avg_npc_535_1#7$1"
+    },
+    {
+        "id": 302,
+        "raw": "[name=\"사니\"]사일런스 씨, 괜찮나?",
+        "type": "dialog",
+        "speaker": "사니",
+        "content": "사일런스 씨, 괜찮나?"
+    },
+    {
+        "id": 303,
+        "raw": "[character(name=\"avg_108_silent_1#6$1\")]",
+        "type": "character",
+        "name": "avg_108_silent_1#6$1"
+    },
+    {
+        "id": 304,
+        "raw": "[name=\"사일런스\"]나는……",
+        "type": "dialog",
+        "speaker": "사일런스",
+        "content": "나는……"
+    },
+    {
+        "id": 305,
+        "raw": "[character(name=\"avg_npc_535_1#8$1\")]",
+        "type": "character",
+        "name": "avg_npc_535_1#8$1"
+    },
+    {
+        "id": 306,
+        "raw": "[name=\"사니\"]피곤해서 그런 걸 거야.",
+        "type": "dialog",
+        "speaker": "사니",
+        "content": "피곤해서 그런 걸 거야."
+    },
+    {
+        "id": 307,
+        "raw": "[name=\"사니\"]여기까지 오는 동안 무어 씨가 우리를 챙겨줬잖아.",
+        "type": "dialog",
+        "speaker": "사니",
+        "content": "여기까지 오는 동안 무어 씨가 우리를 챙겨줬잖아."
+    },
+    {
+        "id": 308,
+        "raw": "[character(name=\"avg_npc_535_1#4$1\")]",
+        "type": "character",
+        "name": "avg_npc_535_1#4$1"
+    },
+    {
+        "id": 309,
+        "raw": "[name=\"사니\"]미안, 아까는 내가 너무 격하게 반응하는 바람에 하마터면 당신을 다치게 할 뻔했어.",
+        "type": "dialog",
+        "speaker": "사니",
+        "content": "미안, 아까는 내가 너무 격하게 반응하는 바람에 하마터면 당신을 다치게 할 뻔했어."
+    },
+    {
+        "id": 310,
+        "raw": "[character(name=\"avg_npc_535_1#8$1\")]",
+        "type": "character",
+        "name": "avg_npc_535_1#8$1"
+    },
+    {
+        "id": 311,
+        "raw": "[name=\"사니\"]로도스 아일랜드는 확실히 라인 랩과 다르네. 너와 그레이 씨는 대가 없이 우리에게 잘해주고 있어.",
+        "type": "dialog",
+        "speaker": "사니",
+        "content": "로도스 아일랜드는 확실히 라인 랩과 다르네. 너와 그레이 씨는 대가 없이 우리에게 잘해주고 있어."
+    },
+    {
+        "id": 312,
+        "raw": "[character(name=\"avg_108_silent_1#10$1\")]",
+        "type": "character",
+        "name": "avg_108_silent_1#10$1"
+    },
+    {
+        "id": 313,
+        "raw": "[name=\"사일런스\"]대가 없이라니……?",
+        "type": "dialog",
+        "speaker": "사일런스",
+        "content": "대가 없이라니……?"
+    },
+    {
+        "id": 314,
+        "raw": "[name=\"사일런스\"]사니 씨, 나도 잘못한 적이 없는 게 아니야.",
+        "type": "dialog",
+        "speaker": "사일런스",
+        "content": "사니 씨, 나도 잘못한 적이 없는 게 아니야."
+    },
+    {
+        "id": 315,
+        "raw": "[character(name=\"avg_108_silent_1#6$1\")]",
+        "type": "character",
+        "name": "avg_108_silent_1#6$1"
+    },
+    {
+        "id": 316,
+        "raw": "[name=\"사일런스\"]나도 라인 랩의 연구원이었고, 내가 주도한 실험으로 한 구역의 사람이 죽일 뻔한 적도 있어……",
+        "type": "dialog",
+        "speaker": "사일런스",
+        "content": "나도 라인 랩의 연구원이었고, 내가 주도한 실험으로 한 구역의 사람이 죽일 뻔한 적도 있어……"
+    },
+    {
+        "id": 317,
+        "raw": "[character(name=\"avg_npc_535_1#7$1\")]",
+        "type": "character",
+        "name": "avg_npc_535_1#7$1"
+    },
+    {
+        "id": 318,
+        "raw": "[name=\"사니\"]어?",
+        "type": "dialog",
+        "speaker": "사니",
+        "content": "어?"
+    },
+    {
+        "id": 319,
+        "raw": "[character(name=\"avg_108_silent_1#10$1\")]",
+        "type": "character",
+        "name": "avg_108_silent_1#10$1"
+    },
+    {
+        "id": 320,
+        "raw": "[name=\"사일런스\"]그리고 날 아주 많이 따르는, 날 거의 가족처럼 생각하는 아이가 있는데.",
+        "type": "dialog",
+        "speaker": "사일런스",
+        "content": "그리고 날 아주 많이 따르는, 날 거의 가족처럼 생각하는 아이가 있는데."
+    },
+    {
+        "id": 321,
+        "raw": "[name=\"사일런스\"]그 아이가 바로 그 실험의 대상자였어.",
+        "type": "dialog",
+        "speaker": "사일런스",
+        "content": "그 아이가 바로 그 실험의 대상자였어."
+    },
+    {
+        "id": 322,
+        "raw": "[character(name=\"avg_npc_535_1#8$1\")]",
+        "type": "character",
+        "name": "avg_npc_535_1#8$1"
+    },
+    {
+        "id": 323,
+        "raw": "[name=\"사니\"]그럼 그 아이는 지금……",
+        "type": "dialog",
+        "speaker": "사니",
+        "content": "그럼 그 아이는 지금……"
+    },
+    {
+        "id": 324,
+        "raw": "[character(name=\"avg_108_silent_1#10$1\")]",
+        "type": "character",
+        "name": "avg_108_silent_1#10$1"
+    },
+    {
+        "id": 325,
+        "raw": "[name=\"사일런스\"]아직 살아 있어.",
+        "type": "dialog",
+        "speaker": "사일런스",
+        "content": "아직 살아 있어."
+    },
+    {
+        "id": 326,
+        "raw": "[name=\"사일런스\"]그냥 살아만 있지…… 그동안 최선을 다했지만, 정상적인 생활은 되찾아주지 못했어……",
+        "type": "dialog",
+        "speaker": "사일런스",
+        "content": "그냥 살아만 있지…… 그동안 최선을 다했지만, 정상적인 생활은 되찾아주지 못했어……"
+    },
+    {
+        "id": 327,
+        "raw": "[name=\"사일런스\"]심지어 병세가 악화하는 걸 막을 수조차 없어.",
+        "type": "dialog",
+        "speaker": "사일런스",
+        "content": "심지어 병세가 악화하는 걸 막을 수조차 없어."
+    },
+    {
+        "id": 328,
+        "raw": "[character(name=\"avg_npc_535_1#8$1\")]",
+        "type": "character",
+        "name": "avg_npc_535_1#8$1"
+    },
+    {
+        "id": 329,
+        "raw": "[name=\"사니\"]너무 자책하지 마. 일부러 해치려고 한 건 아니잖아.",
+        "type": "dialog",
+        "speaker": "사니",
+        "content": "너무 자책하지 마. 일부러 해치려고 한 건 아니잖아."
+    },
+    {
+        "id": 330,
+        "raw": "[character(name=\"avg_108_silent_1#10$1\")]",
+        "type": "character",
+        "name": "avg_108_silent_1#10$1"
+    },
+    {
+        "id": 331,
+        "raw": "[name=\"사일런스\"]하…… 하하하……",
+        "type": "dialog",
+        "speaker": "사일런스",
+        "content": "하…… 하하하……"
+    },
+    {
+        "id": 332,
+        "raw": "[name=\"사일런스\"]웃긴 건 예전에 나도 스스로를 그렇게 위로한 적이 있어.",
+        "type": "dialog",
+        "speaker": "사일런스",
+        "content": "웃긴 건 예전에 나도 스스로를 그렇게 위로한 적이 있어."
+    },
+    {
+        "id": 333,
+        "raw": "[character(name=\"avg_108_silent_1#6$1\")]",
+        "type": "character",
+        "name": "avg_108_silent_1#6$1"
+    },
+    {
+        "id": 334,
+        "raw": "[name=\"사일런스\"]정말 가증스러운 사람은 따로 있다는 걸…… 몰랐지.",
+        "type": "dialog",
+        "speaker": "사일런스",
+        "content": "정말 가증스러운 사람은 따로 있다는 걸…… 몰랐지."
+    },
+    {
+        "id": 335,
+        "raw": "[name=\"사일런스\"]그런데 그게 정말 다일까?",
+        "type": "dialog",
+        "speaker": "사일런스",
+        "content": "그런데 그게 정말 다일까?"
+    },
+    {
+        "id": 336,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 337,
+        "raw": "실험의 제1책임자로서 내가 이 연구의 잠재된 위험을 처음부터 몰랐을까?",
+        "type": "narration",
+        "content": "실험의 제1책임자로서 내가 이 연구의 잠재된 위험을 처음부터 몰랐을까?"
+    },
+    {
+        "id": 338,
+        "raw": "답은 뻔하다.",
+        "type": "narration",
+        "content": "답은 뻔하다."
+    },
+    {
+        "id": 339,
+        "raw": "[character(name=\"avg_108_silent_1#10$1\")]",
+        "type": "character",
+        "name": "avg_108_silent_1#10$1"
+    },
+    {
+        "id": 340,
+        "raw": "성공을 눈앞에 둔 혁신적인 업적 때문에 눈이 멀었거나……",
+        "type": "narration",
+        "content": "성공을 눈앞에 둔 혁신적인 업적 때문에 눈이 멀었거나……"
+    },
+    {
+        "id": 341,
+        "raw": "연구자로서 내 스스로 생각하는 것보다 훨씬 부족했을 것이다.",
+        "type": "narration",
+        "content": "연구자로서 내 스스로 생각하는 것보다 훨씬 부족했을 것이다."
+    },
+    {
+        "id": 342,
+        "raw": "그걸 인정하는 게 확실히 남을 원망하는 것보다 어렵다.",
+        "type": "narration",
+        "content": "그걸 인정하는 게 확실히 남을 원망하는 것보다 어렵다."
+    },
+    {
+        "id": 343,
+        "raw": "[character(name=\"avg_108_silent_1#10$1\")]",
+        "type": "character",
+        "name": "avg_108_silent_1#10$1"
+    },
+    {
+        "id": 344,
+        "raw": "[name=\"사일런스\"]어쩌면, 내가 정말 용서할 수 없는 것은……",
+        "type": "dialog",
+        "speaker": "사일런스",
+        "content": "어쩌면, 내가 정말 용서할 수 없는 것은……"
+    },
+    {
+        "id": 345,
+        "raw": "[name=\"사일런스\"]……",
+        "type": "dialog",
+        "speaker": "사일런스",
+        "content": "……"
+    },
+    {
+        "id": 346,
+        "raw": "[character(name=\"avg_npc_535_1#7$1\")]",
+        "type": "character",
+        "name": "avg_npc_535_1#7$1"
+    },
+    {
+        "id": 347,
+        "raw": "[name=\"사니\"]네게 그런 과거가 있었다니.",
+        "type": "dialog",
+        "speaker": "사니",
+        "content": "네게 그런 과거가 있었다니."
+    },
+    {
+        "id": 348,
+        "raw": "[character(name=\"avg_108_silent_1#10$1\")]",
+        "type": "character",
+        "name": "avg_108_silent_1#10$1"
+    },
+    {
+        "id": 349,
+        "raw": "[name=\"사일런스\"]이건 단순히 내 과거일 뿐만 아니라, 내가 이 기지에 온 이유이기도 하지.",
+        "type": "dialog",
+        "speaker": "사일런스",
+        "content": "이건 단순히 내 과거일 뿐만 아니라, 내가 이 기지에 온 이유이기도 하지."
+    },
+    {
+        "id": 350,
+        "raw": "[character(name=\"avg_npc_535_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_535_1#1$1"
+    },
+    {
+        "id": 351,
+        "raw": "[name=\"사니\"]친구를 구하기 위해서 온 거 아닌가?",
+        "type": "dialog",
+        "speaker": "사니",
+        "content": "친구를 구하기 위해서 온 거 아닌가?"
+    },
+    {
+        "id": 352,
+        "raw": "[character(name=\"avg_108_silent_1#10$1\")]",
+        "type": "character",
+        "name": "avg_108_silent_1#10$1"
+    },
+    {
+        "id": 353,
+        "raw": "[name=\"사일런스\"]물론, 난 조이스를 구할 거야.",
+        "type": "dialog",
+        "speaker": "사일런스",
+        "content": "물론, 난 조이스를 구할 거야."
+    },
+    {
+        "id": 354,
+        "raw": "[character(name=\"avg_108_silent_1#8$1\")]",
+        "type": "character",
+        "name": "avg_108_silent_1#8$1"
+    },
+    {
+        "id": 355,
+        "raw": "[name=\"사일런스\"]하지만 너희들도, 엘레나도, 그리고 프랭크스 주임도 구해내고 싶어.",
+        "type": "dialog",
+        "speaker": "사일런스",
+        "content": "하지만 너희들도, 엘레나도, 그리고 프랭크스 주임도 구해내고 싶어."
+    },
+    {
+        "id": 356,
+        "raw": "[character(name=\"avg_108_silent_1#7$1\")]",
+        "type": "character",
+        "name": "avg_108_silent_1#7$1"
+    },
+    {
+        "id": 357,
+        "raw": "[name=\"사일런스\"]돌이킬 수 없기 전에 나는 재난이 발생하는 걸 막고 싶어.",
+        "type": "dialog",
+        "speaker": "사일런스",
+        "content": "돌이킬 수 없기 전에 나는 재난이 발생하는 걸 막고 싶어."
+    },
+    {
+        "id": 358,
+        "raw": "[character(name=\"avg_npc_535_1#7$1\")]",
+        "type": "character",
+        "name": "avg_npc_535_1#7$1"
+    },
+    {
+        "id": 359,
+        "raw": "[name=\"사니\"]……내 말을 믿어주는 거야?",
+        "type": "dialog",
+        "speaker": "사니",
+        "content": "……내 말을 믿어주는 거야?"
+    },
+    {
+        "id": 360,
+        "raw": "[character(name=\"avg_108_silent_1#7$1\")]",
+        "type": "character",
+        "name": "avg_108_silent_1#7$1"
+    },
+    {
+        "id": 361,
+        "raw": "[name=\"사일런스\"]말했잖아, 난 진실을 믿어, 내가 직접 본 것만 믿고.",
+        "type": "dialog",
+        "speaker": "사일런스",
+        "content": "말했잖아, 난 진실을 믿어, 내가 직접 본 것만 믿고."
+    },
+    {
+        "id": 362,
+        "raw": "[name=\"사일런스\"]방금 생각났는데 전에도 비슷한 광경을 본 적이 있어.",
+        "type": "dialog",
+        "speaker": "사일런스",
+        "content": "방금 생각났는데 전에도 비슷한 광경을 본 적이 있어."
+    },
+    {
+        "id": 363,
+        "raw": "[name=\"사일런스\"]우리를 쫓아오던 은색 물체는…… 오리지늄 아츠가 통제를 벗어났을 때 생겨나는 것과 아주 비슷해.",
+        "type": "dialog",
+        "speaker": "사일런스",
+        "content": "우리를 쫓아오던 은색 물체는…… 오리지늄 아츠가 통제를 벗어났을 때 생겨나는 것과 아주 비슷해."
+    },
+    {
+        "id": 364,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 365,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 366,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 367,
+        "raw": "[stopmusic(fadetime=1)]",
+        "type": "stop_music",
+        "fadetime": 1
+    },
+    {
+        "id": 368,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 369,
+        "raw": "[character(name=\"avg_npc_522_1#6$1\",name2=\"avg_npc_531_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_522_1#6$1",
+        "name2": "avg_npc_531_1#1$1"
+    },
+    {
+        "id": 370,
+        "raw": "[Background(image=\"29_g9_headquarter\",screenadapt=\"showall\")]",
+        "type": "background",
+        "image": "29_g9_headquarter.png",
+        "screenadapt": "showall"
+    },
+    {
+        "id": 371,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 372,
+        "raw": "[playMusic(intro=\"$darkness01_intro\", key=\"$darkness01_loop\", volume=0.7)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta1_180603/m_dia_darkness01_intro.mp3",
+        "key": "sound_beta_2/music/beta1_180603/m_dia_darkness01_loop.mp3",
+        "volume": 0.7
+    },
+    {
+        "id": 373,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 374,
+        "raw": "[Delay(time=2)]\t",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 375,
+        "raw": "[character(name=\"avg_npc_522_1#6$1\",name2=\"avg_npc_531_1#1$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_522_1#6$1",
+        "name2": "avg_npc_531_1#1$1",
+        "focus": 2
+    },
+    {
+        "id": 376,
+        "raw": "[name=\"파르비스\"]맞다, 자네에게 전달할 물건을 벤에게 부탁했는데. 지금쯤 자네 사무실 책상 위에 있겠군.",
+        "type": "dialog",
+        "speaker": "파르비스",
+        "content": "맞다, 자네에게 전달할 물건을 벤에게 부탁했는데. 지금쯤 자네 사무실 책상 위에 있겠군."
+    },
+    {
+        "id": 377,
+        "raw": "[character(name=\"avg_npc_522_1#7$1\",name2=\"avg_npc_531_1#1$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_522_1#7$1",
+        "name2": "avg_npc_531_1#1$1",
+        "focus": 1
+    },
+    {
+        "id": 378,
+        "raw": "[name=\"퍼디낸드\"]벤?",
+        "type": "dialog",
+        "speaker": "퍼디낸드",
+        "content": "벤?"
+    },
+    {
+        "id": 379,
+        "raw": "[character(name=\"avg_npc_522_1#7$1\",name2=\"avg_npc_531_1#1$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_522_1#7$1",
+        "name2": "avg_npc_531_1#1$1",
+        "focus": 2
+    },
+    {
+        "id": 380,
+        "raw": "[name=\"파르비스\"]또 잊은 겐가? 나랑 차를 마시라고 자네가 보냈지 않나. 그 아이가 더듬거리면서 말을 어찌나 많이 하던지, 하마터면 내 차를 다 마셔버릴 뻔했지.",
+        "type": "dialog",
+        "speaker": "파르비스",
+        "content": "또 잊은 겐가? 나랑 차를 마시라고 자네가 보냈지 않나. 그 아이가 더듬거리면서 말을 어찌나 많이 하던지, 하마터면 내 차를 다 마셔버릴 뻔했지."
+    },
+    {
+        "id": 381,
+        "raw": "[character(name=\"avg_npc_522_1#7$1\",name2=\"avg_npc_531_1#1$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_522_1#7$1",
+        "name2": "avg_npc_531_1#1$1",
+        "focus": 1
+    },
+    {
+        "id": 382,
+        "raw": "[name=\"퍼디낸드\"]내가 자네한테 빚진 물건은 없는 것 같은데.",
+        "type": "dialog",
+        "speaker": "퍼디낸드",
+        "content": "내가 자네한테 빚진 물건은 없는 것 같은데."
+    },
+    {
+        "id": 383,
+        "raw": "[character(name=\"avg_npc_522_1#7$1\",name2=\"avg_npc_531_1#1$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_522_1#7$1",
+        "name2": "avg_npc_531_1#1$1",
+        "focus": 2
+    },
+    {
+        "id": 384,
+        "raw": "[name=\"파르비스\"]허? 내 키메라 생명체 실험이 막 끝났을 때랑은 말이 다르군.",
+        "type": "dialog",
+        "speaker": "파르비스",
+        "content": "허? 내 키메라 생명체 실험이 막 끝났을 때랑은 말이 다르군."
+    },
+    {
+        "id": 385,
+        "raw": "[character(name=\"avg_npc_522_1#6$1\",name2=\"avg_npc_531_1#1$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_522_1#6$1",
+        "name2": "avg_npc_531_1#1$1",
+        "focus": 1
+    },
+    {
+        "id": 386,
+        "raw": "[name=\"퍼디낸드\"]……다이아볼릭 실험.",
+        "type": "dialog",
+        "speaker": "퍼디낸드",
+        "content": "……다이아볼릭 실험."
+    },
+    {
+        "id": 387,
+        "raw": "[character(name=\"avg_npc_522_1#6$1\",name2=\"avg_npc_531_1#1$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_522_1#6$1",
+        "name2": "avg_npc_531_1#1$1",
+        "focus": 2
+    },
+    {
+        "id": 388,
+        "raw": "[name=\"파르비스\"]기억하고 있어서 기쁘군.",
+        "type": "dialog",
+        "speaker": "파르비스",
+        "content": "기억하고 있어서 기쁘군."
+    },
+    {
+        "id": 389,
+        "raw": "[name=\"파르비스\"]그 실험의 마지막 단계에서 내 제자가 직접 만든 신경 마취제를 사용했는데 말이야.",
+        "type": "dialog",
+        "speaker": "파르비스",
+        "content": "그 실험의 마지막 단계에서 내 제자가 직접 만든 신경 마취제를 사용했는데 말이야."
+    },
+    {
+        "id": 390,
+        "raw": "[name=\"파르비스\"]마취제는 놀라운 효과를 일으켰지……",
+        "type": "dialog",
+        "speaker": "파르비스",
+        "content": "마취제는 놀라운 효과를 일으켰지……"
+    },
+    {
+        "id": 391,
+        "raw": "[name=\"파르비스\"]훗, 사일런스는 참 똑똑한 녀석이라니까. 또 보고 싶어지는군.",
+        "type": "dialog",
+        "speaker": "파르비스",
+        "content": "훗, 사일런스는 참 똑똑한 녀석이라니까. 또 보고 싶어지는군."
+    },
+    {
+        "id": 392,
+        "raw": "[name=\"파르비스\"]내 실험이 중단된 뒤로 난 이전에 얻은 데이터 몇 가지를 다시 체크해봤는데, 그 결과가 단순한 우연이 아니라는 걸 발견했네.",
+        "type": "dialog",
+        "speaker": "파르비스",
+        "content": "내 실험이 중단된 뒤로 난 이전에 얻은 데이터 몇 가지를 다시 체크해봤는데, 그 결과가 단순한 우연이 아니라는 걸 발견했네."
+    },
+    {
+        "id": 393,
+        "raw": "[character(name=\"avg_npc_522_1#6$1\",name2=\"avg_npc_531_1#1$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_522_1#6$1",
+        "name2": "avg_npc_531_1#1$1",
+        "focus": 1
+    },
+    {
+        "id": 394,
+        "raw": "[name=\"퍼디낸드\"]무슨 데이터지?",
+        "type": "dialog",
+        "speaker": "퍼디낸드",
+        "content": "무슨 데이터지?"
+    },
+    {
+        "id": 395,
+        "raw": "[character(name=\"avg_npc_522_1#6$1\",name2=\"avg_npc_531_1#1$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_522_1#6$1",
+        "name2": "avg_npc_531_1#1$1",
+        "focus": 2
+    },
+    {
+        "id": 396,
+        "raw": "[name=\"파르비스\"]가끔 폐기품을 뒤지는 사람이 자네만 있는 건 아니야.",
+        "type": "dialog",
+        "speaker": "파르비스",
+        "content": "가끔 폐기품을 뒤지는 사람이 자네만 있는 건 아니야."
+    },
+    {
+        "id": 397,
+        "raw": "[character(name=\"avg_npc_522_1#6$1\",name2=\"avg_npc_531_1#1$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_522_1#6$1",
+        "name2": "avg_npc_531_1#1$1",
+        "focus": 1
+    },
+    {
+        "id": 398,
+        "raw": "[name=\"퍼디낸드\"]로켄 수조를 말하는 건가? 그 자료는 내가 분명히……",
+        "type": "dialog",
+        "speaker": "퍼디낸드",
+        "content": "로켄 수조를 말하는 건가? 그 자료는 내가 분명히……"
+    },
+    {
+        "id": 399,
+        "raw": "[character(name=\"avg_npc_522_1#6$1\",name2=\"avg_npc_531_1#1$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_522_1#6$1",
+        "name2": "avg_npc_531_1#1$1",
+        "focus": 2
+    },
+    {
+        "id": 400,
+        "raw": "[name=\"파르비스\"]절차에 관해서는 자네가 나한테 따질 게 아닐 텐데?",
+        "type": "dialog",
+        "speaker": "파르비스",
+        "content": "절차에 관해서는 자네가 나한테 따질 게 아닐 텐데?"
+    },
+    {
+        "id": 401,
+        "raw": "[name=\"파르비스\"]로켄 윌리엄스는 정말 천재야. 그의 데이터를 보고 나서야 깨달았지. 내가 실험 방향을 조금 잘못 잡았다는 걸 말이야.",
+        "type": "dialog",
+        "speaker": "파르비스",
+        "content": "로켄 윌리엄스는 정말 천재야. 그의 데이터를 보고 나서야 깨달았지. 내가 실험 방향을 조금 잘못 잡았다는 걸 말이야."
+    },
+    {
+        "id": 402,
+        "raw": "[name=\"파르비스\"]그때 난 실험체의 세포 활성을 높이기 위해 온갖 방법을 썼었네. 이식한 조각에 있는 에너지와 더 잘 동조되도록 말이지……",
+        "type": "dialog",
+        "speaker": "파르비스",
+        "content": "그때 난 실험체의 세포 활성을 높이기 위해 온갖 방법을 썼었네. 이식한 조각에 있는 에너지와 더 잘 동조되도록 말이지……"
+    },
+    {
+        "id": 403,
+        "raw": "[name=\"파르비스\"]그런데 실험체의 신경 반응을 억제하는 게 바로 올바른 접근이었다고 누가 알았겠나?",
+        "type": "dialog",
+        "speaker": "파르비스",
+        "content": "그런데 실험체의 신경 반응을 억제하는 게 바로 올바른 접근이었다고 누가 알았겠나?"
+    },
+    {
+        "id": 404,
+        "raw": "[character(name=\"avg_npc_522_1#6$1\",name2=\"avg_npc_531_1#1$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_522_1#6$1",
+        "name2": "avg_npc_531_1#1$1",
+        "focus": 1
+    },
+    {
+        "id": 405,
+        "raw": "[name=\"퍼디낸드\"]억제한다고……?",
+        "type": "dialog",
+        "speaker": "퍼디낸드",
+        "content": "억제한다고……?"
+    },
+    {
+        "id": 406,
+        "raw": "[character(name=\"avg_npc_522_1#6$1\",name2=\"avg_npc_531_1#1$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_522_1#6$1",
+        "name2": "avg_npc_531_1#1$1",
+        "focus": 2
+    },
+    {
+        "id": 407,
+        "raw": "[name=\"파르비스\"]위와 같은 추측을 바탕으로 자네 공식을 살짝 바꿔봤지.",
+        "type": "dialog",
+        "speaker": "파르비스",
+        "content": "위와 같은 추측을 바탕으로 자네 공식을 살짝 바꿔봤지."
+    },
+    {
+        "id": 408,
+        "raw": "[name=\"파르비스\"]내 마음대로 했다고 개의치 않길 바라네.",
+        "type": "dialog",
+        "speaker": "파르비스",
+        "content": "내 마음대로 했다고 개의치 않길 바라네."
+    },
+    {
+        "id": 409,
+        "raw": "[character(name=\"avg_npc_522_1#6$1\",name2=\"avg_npc_531_1#1$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_522_1#6$1",
+        "name2": "avg_npc_531_1#1$1",
+        "focus": 1
+    },
+    {
+        "id": 410,
+        "raw": "[name=\"퍼디낸드\"]……역시 교활한 늙은 염소답군.",
+        "type": "dialog",
+        "speaker": "퍼디낸드",
+        "content": "……역시 교활한 늙은 염소답군."
+    },
+    {
+        "id": 411,
+        "raw": "[character(name=\"avg_npc_522_1#6$1\",name2=\"avg_npc_531_1#1$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_522_1#6$1",
+        "name2": "avg_npc_531_1#1$1",
+        "focus": 2
+    },
+    {
+        "id": 412,
+        "raw": "[name=\"파르비스\"]왜 그렇게 치를 떨고 그러나? 난 자네가 얘기를 꺼내기 전에 먼저 선물을 보냈을 뿐이야.",
+        "type": "dialog",
+        "speaker": "파르비스",
+        "content": "왜 그렇게 치를 떨고 그러나? 난 자네가 얘기를 꺼내기 전에 먼저 선물을 보냈을 뿐이야."
+    },
+    {
+        "id": 413,
+        "raw": "[name=\"파르비스\"]자네가 쥐고 있던 나의 약점이 하나 줄어든 게 그렇게 아쉽나?",
+        "type": "dialog",
+        "speaker": "파르비스",
+        "content": "자네가 쥐고 있던 나의 약점이 하나 줄어든 게 그렇게 아쉽나?"
+    },
+    {
+        "id": 414,
+        "raw": "[character(name=\"avg_npc_522_1#6$1\",name2=\"avg_npc_531_1#1$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_522_1#6$1",
+        "name2": "avg_npc_531_1#1$1",
+        "focus": 1
+    },
+    {
+        "id": 415,
+        "raw": "[name=\"퍼디낸드\"]내 실험에 도움이 되길 바라는 게 좋을 거야.",
+        "type": "dialog",
+        "speaker": "퍼디낸드",
+        "content": "내 실험에 도움이 되길 바라는 게 좋을 거야."
+    },
+    {
+        "id": 416,
+        "raw": "[character(name=\"avg_npc_522_1#6$1\",name2=\"avg_npc_531_1#1$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_522_1#6$1",
+        "name2": "avg_npc_531_1#1$1",
+        "focus": 2
+    },
+    {
+        "id": 417,
+        "raw": "[name=\"파르비스\"]자네가 깜짝 놀랄 거라 장담하지.",
+        "type": "dialog",
+        "speaker": "파르비스",
+        "content": "자네가 깜짝 놀랄 거라 장담하지."
+    },
+    {
+        "id": 418,
+        "raw": "[name=\"파르비스\"]참, 자네가 성공하면 뮤엘시스에게 받기로 한 흑두차 10박스를 대신 줄 수 있겠나?",
+        "type": "dialog",
+        "speaker": "파르비스",
+        "content": "참, 자네가 성공하면 뮤엘시스에게 받기로 한 흑두차 10박스를 대신 줄 수 있겠나?"
+    },
+    {
+        "id": 419,
+        "raw": "[name=\"파르비스\"]내가 공식을 바꾸지 않았으면 그 내기는 원래 내가 이기는 거였거든.",
+        "type": "dialog",
+        "speaker": "파르비스",
+        "content": "내가 공식을 바꾸지 않았으면 그 내기는 원래 내가 이기는 거였거든."
+    },
+    {
+        "id": 420,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 421,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 422,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 423,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 424,
+        "raw": "[character(name=\"avg_npc_532_1#1$1\",name2=\"avg_npc_523_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_532_1#1$1",
+        "name2": "avg_npc_523_1#1$1"
+    },
+    {
+        "id": 425,
+        "raw": "[Background(image=\"bg_bar_1\",screenadapt=\"showall\")]",
+        "type": "background",
+        "image": "bg_bar_1.png",
+        "screenadapt": "showall"
+    },
+    {
+        "id": 426,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 427,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 428,
+        "raw": "[Delay(time=2)]\t",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 429,
+        "raw": "[character(name=\"avg_npc_532_1#1$1\",name2=\"avg_npc_523_1#1$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_532_1#1$1",
+        "name2": "avg_npc_523_1#1$1",
+        "focus": 1
+    },
+    {
+        "id": 430,
+        "raw": "[name=\"사리아\"]본론으로 돌아가지.",
+        "type": "dialog",
+        "speaker": "사리아",
+        "content": "본론으로 돌아가지."
+    },
+    {
+        "id": 431,
+        "raw": "[name=\"사리아\"]……이 시약.",
+        "type": "dialog",
+        "speaker": "사리아",
+        "content": "……이 시약."
+    },
+    {
+        "id": 432,
+        "raw": "[character(name=\"avg_npc_532_1#1$1\",name2=\"avg_npc_523_1#1$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_532_1#1$1",
+        "name2": "avg_npc_523_1#1$1",
+        "focus": 2
+    },
+    {
+        "id": 433,
+        "raw": "[name=\"술 취한 남자\"]네가 꺼냈을 때 이미 냄새를 맡아봤어.",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "네가 꺼냈을 때 이미 냄새를 맡아봤어."
+    },
+    {
+        "id": 434,
+        "raw": "[name=\"술 취한 남자\"]맞아, 똑같은 냄새야.",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "맞아, 똑같은 냄새야."
+    },
+    {
+        "id": 435,
+        "raw": "[name=\"술 취한 남자\"]하하…… 내 수술대에서 죽은 망령들이…… 다시 돌아왔구나.",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "하하…… 내 수술대에서 죽은 망령들이…… 다시 돌아왔구나."
+    },
+    {
+        "id": 436,
+        "raw": "[name=\"술 취한 남자\"]농도도 훨씬 진하고 수도 많아……",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "농도도 훨씬 진하고 수도 많아……"
+    },
+    {
+        "id": 437,
+        "raw": "[character(name=\"avg_npc_532_1#8$1\",name2=\"avg_npc_523_1#1$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_532_1#8$1",
+        "name2": "avg_npc_523_1#1$1",
+        "focus": 1
+    },
+    {
+        "id": 438,
+        "raw": "[name=\"사리아\"]누구지……?",
+        "type": "dialog",
+        "speaker": "사리아",
+        "content": "누구지……?"
+    },
+    {
+        "id": 439,
+        "raw": "[character(name=\"avg_npc_532_1#8$1\",name2=\"avg_npc_523_1#1$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_532_1#8$1",
+        "name2": "avg_npc_523_1#1$1",
+        "focus": 2
+    },
+    {
+        "id": 440,
+        "raw": "[name=\"술 취한 남자\"]누구냐고?",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "누구냐고?"
+    },
+    {
+        "id": 441,
+        "raw": "[name=\"술 취한 남자\"]로켄 수조의 폐허에서 가장 많은 유산을 발굴해 낸 게 누굴까?",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "로켄 수조의 폐허에서 가장 많은 유산을 발굴해 낸 게 누굴까?"
+    },
+    {
+        "id": 442,
+        "raw": "[name=\"술 취한 남자\"]난 이만 돌아가야겠다, 사리아.",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "난 이만 돌아가야겠다, 사리아."
+    },
+    {
+        "id": 443,
+        "raw": "[character(name=\"avg_npc_532_1#8$1\",name2=\"avg_npc_523_1#1$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_532_1#8$1",
+        "name2": "avg_npc_523_1#1$1",
+        "focus": 1
+    },
+    {
+        "id": 444,
+        "raw": "[name=\"사리아\"]……라인 랩.",
+        "type": "dialog",
+        "speaker": "사리아",
+        "content": "……라인 랩."
+    },
+    {
+        "id": 445,
+        "raw": "[character(name=\"avg_npc_532_1#8$1\",name2=\"avg_npc_523_1#1$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_532_1#8$1",
+        "name2": "avg_npc_523_1#1$1",
+        "focus": 2
+    },
+    {
+        "id": 446,
+        "raw": "[name=\"술 취한 남자\"]봐, 너도 답을 알고 있으면서.",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "봐, 너도 답을 알고 있으면서."
+    },
+    {
+        "id": 447,
+        "raw": "[name=\"술 취한 남자\"]넌 이미 '틴맨'을 만났어. 녀석이 날 찾는 걸 도와줬을 테고.",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "넌 이미 '틴맨'을 만났어. 녀석이 날 찾는 걸 도와줬을 테고."
+    },
+    {
+        "id": 448,
+        "raw": "[name=\"술 취한 남자\"]'다이아볼릭' 실험의 최대 스폰서가 누굴까? 로켄 수조의 투자자는 또 누구고?",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "'다이아볼릭' 실험의 최대 스폰서가 누굴까? 로켄 수조의 투자자는 또 누구고?"
+    },
+    {
+        "id": 449,
+        "raw": "[name=\"술 취한 남자\"]최고의 실험실 여러 곳을 거의 동시에 계약해서 이런 연구를 진행할 능력을 갖춘 게 누굴까?",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "최고의 실험실 여러 곳을 거의 동시에 계약해서 이런 연구를 진행할 능력을 갖춘 게 누굴까?"
+    },
+    {
+        "id": 450,
+        "raw": "[name=\"술 취한 남자\"]평소에 보잘것없는 특허 때문에 서로 머리가 터지도록 싸우는 실험실들을, 한데 모아서 연구 자료를 공유하게 하려면 얼마나 거절하기 힘든 조건을 걸어야 했을까?",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "평소에 보잘것없는 특허 때문에 서로 머리가 터지도록 싸우는 실험실들을, 한데 모아서 연구 자료를 공유하게 하려면 얼마나 거절하기 힘든 조건을 걸어야 했을까?"
+    },
+    {
+        "id": 451,
+        "raw": "[name=\"술 취한 남자\"]그리고……",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "그리고……"
+    },
+    {
+        "id": 452,
+        "raw": "[name=\"술 취한 남자\"]살아남은 실험체들이 컬럼비아 밖으로 내보내지기 전에 누구의 손을 거쳤을까?",
+        "type": "dialog",
+        "speaker": "술 취한 남자",
+        "content": "살아남은 실험체들이 컬럼비아 밖으로 내보내지기 전에 누구의 손을 거쳤을까?"
+    },
+    {
+        "id": 453,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 454,
+        "raw": "[character(name=\"avg_npc_532_1#8$1\",name2=\"avg_npc_523_1#1$1\",focus=-1)]",
+        "type": "character",
+        "name": "avg_npc_532_1#8$1",
+        "name2": "avg_npc_523_1#1$1",
+        "focus": -1
+    },
+    {
+        "id": 455,
+        "raw": "[Decision(options=\"그 말은……\", values=\"1\")]",
+        "type": "decision",
+        "options": "그 말은……",
+        "values": "1"
+    },
+    {
+        "id": 456,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 457,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 458,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 459,
+        "raw": "[Delay(time=0.51)]",
+        "type": "delay",
+        "time": 0.51
+    },
+    {
+        "id": 460,
+        "raw": "[stopmusic(fadetime=1)]",
+        "type": "stop_music",
+        "fadetime": 1
+    },
+    {
+        "id": 461,
+        "raw": "[name=\"???\"]어머, 참 즐겁게 대화를 나누고 있네.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "어머, 참 즐겁게 대화를 나누고 있네."
+    },
+    {
+        "id": 462,
+        "raw": "[name=\"???\"]아무래도 내가 좀 늦었나 봐.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "아무래도 내가 좀 늦었나 봐."
+    },
+    {
+        "id": 463,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 464,
+        "raw": "[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 465,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 466,
+        "raw": "[stopmusic(fadetime=1)]",
+        "type": "stop_music",
+        "fadetime": 1
+    },
+    {
+        "id": 467,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 468,
+        "raw": "[Image]",
+        "type": "image"
+    }
+]

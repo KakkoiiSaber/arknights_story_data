@@ -1,0 +1,2243 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")]",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK"
+    },
+    {
+        "id": 2,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 3,
+        "raw": "[stopmusic]",
+        "type": "stop_music"
+    },
+    {
+        "id": 4,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 5,
+        "raw": "[Background(image=\"51_g1_beaconsquare\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "51_g1_beaconsquare.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 6,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 7,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 8,
+        "raw": "[playMusic(intro=\"$warm_intro\",key=\"$warm_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act9d0d0/m_avg_warm_intro.mp3",
+        "key": "sound_beta_2/music/act9d0d0/m_avg_warm_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 9,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 10,
+        "raw": "[charslot(slot=\"m\",name=\"char_263_skadi#5\",duration=1)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "char_263_skadi#5.png",
+        "duration": 1
+    },
+    {
+        "id": 11,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 12,
+        "raw": "[name=\"Skadi\"]Did you think we were touring a museum? You were looking at the instruments like they were exhibits.",
+        "type": "dialog",
+        "speaker": "Skadi",
+        "content": "Did you think we were touring a museum? You were looking at the instruments like they were exhibits."
+    },
+    {
+        "id": 13,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 14,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 15,
+        "raw": "[Decision(options=\"The third place I mistook for a museum, then.\", values=\"1\")]",
+        "type": "decision",
+        "options": "The third place I mistook for a museum, then.",
+        "values": "1"
+    },
+    {
+        "id": 16,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 17,
+        "raw": "[Decision(options=\"Why is gravity reversed in there?;What's with the water flowing around the pillars?;What's that space that warped my fingers?\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "Why is gravity reversed in there?;What's with the water flowing around the pillars?;What's that space that warped my fingers?",
+        "values": "1;2;3"
+    },
+    {
+        "id": 18,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 19,
+        "raw": "[charslot(slot=\"m\",name=\"char_263_skadi#5\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "char_263_skadi#5.png"
+    },
+    {
+        "id": 20,
+        "raw": "[name=\"Skadi\"]There are some things even I can't explain.",
+        "type": "dialog",
+        "speaker": "Skadi",
+        "content": "There are some things even I can't explain."
+    },
+    {
+        "id": 21,
+        "raw": "[name=\"Skadi\"]Technology has advanced a lot in five years.",
+        "type": "dialog",
+        "speaker": "Skadi",
+        "content": "Technology has advanced a lot in five years."
+    },
+    {
+        "id": 22,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 23,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 24,
+        "raw": "[Decision(options=\"Wait, that tower...\", values=\"1\")]",
+        "type": "decision",
+        "options": "Wait, that tower...",
+        "values": "1"
+    },
+    {
+        "id": 25,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 26,
+        "raw": "[Decision(options=\"There's a launchpad at the heart of the city?\", values=\"1\")]",
+        "type": "decision",
+        "options": "There's a launchpad at the heart of the city?",
+        "values": "1"
+    },
+    {
+        "id": 27,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 28,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1023_ghost2_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 29,
+        "raw": "[name=\"Specter\"]Good eye, Doctor, that's a beacon launcher. One with plenty of history.",
+        "type": "dialog",
+        "speaker": "Specter",
+        "content": "Good eye, Doctor, that's a beacon launcher. One with plenty of history."
+    },
+    {
+        "id": 30,
+        "raw": "[charslot(slot=\"m\",name=\"char_263_skadi#5\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "char_263_skadi#5.png"
+    },
+    {
+        "id": 31,
+        "raw": "[name=\"Skadi\"]You know about it, Shark?",
+        "type": "dialog",
+        "speaker": "Skadi",
+        "content": "You know about it, Shark?"
+    },
+    {
+        "id": 32,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1023_ghost2_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 33,
+        "raw": "[name=\"Specter\"]My parents took me around the home territories when I was little. There are similar structures in many cities.",
+        "type": "dialog",
+        "speaker": "Specter",
+        "content": "My parents took me around the home territories when I was little. There are similar structures in many cities."
+    },
+    {
+        "id": 34,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 35,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 36,
+        "raw": "[Decision(options=\"I thought Ægir children were raised collectively.\", values=\"1\")]",
+        "type": "decision",
+        "options": "I thought Ægir children were raised collectively.",
+        "values": "1"
+    },
+    {
+        "id": 37,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 38,
+        "raw": "[charslot(slot=\"m\",name=\"char_263_skadi#3\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "char_263_skadi#3.png"
+    },
+    {
+        "id": 39,
+        "raw": "[name=\"Skadi\"]I was, but Shark has a special relationship with her biological parents.",
+        "type": "dialog",
+        "speaker": "Skadi",
+        "content": "I was, but Shark has a special relationship with her biological parents."
+    },
+    {
+        "id": 40,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1023_ghost2_1#12$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 41,
+        "raw": "[name=\"Specter\"]They're more like friends than parents.",
+        "type": "dialog",
+        "speaker": "Specter",
+        "content": "They're more like friends than parents."
+    },
+    {
+        "id": 42,
+        "raw": "[name=\"Specter\"]They reached a consensus with the Institute of Incubation to bring me along whenever they worked on a new dome project.",
+        "type": "dialog",
+        "speaker": "Specter",
+        "content": "They reached a consensus with the Institute of Incubation to bring me along whenever they worked on a new dome project."
+    },
+    {
+        "id": 43,
+        "raw": "[name=\"Specter\"]I spent most my time in the Institute of Incubation, but I was able to see the cities, learn, and even work alongside them.",
+        "type": "dialog",
+        "speaker": "Specter",
+        "content": "I spent most my time in the Institute of Incubation, but I was able to see the cities, learn, and even work alongside them."
+    },
+    {
+        "id": 44,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 45,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 46,
+        "raw": "[Decision(options=\"So, what's this beacon launcher for?\", values=\"1\")]",
+        "type": "decision",
+        "options": "So, what's this beacon launcher for?",
+        "values": "1"
+    },
+    {
+        "id": 47,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 48,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1023_ghost2_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 49,
+        "raw": "[name=\"Specter\"]Exactly what it sounds like: it launches beacons to mark the Waterway.",
+        "type": "dialog",
+        "speaker": "Specter",
+        "content": "Exactly what it sounds like: it launches beacons to mark the Waterway."
+    },
+    {
+        "id": 50,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 51,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 52,
+        "raw": "[Decision(options=\"Those are some huge beacons.;How big is this Waterway anyway?\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "Those are some huge beacons.;How big is this Waterway anyway?",
+        "values": "1;2"
+    },
+    {
+        "id": 53,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 54,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1023_ghost2_1#10$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 55,
+        "raw": "[name=\"Specter\"]Ægir had almost mastered the oceans around 300 years ago, efficiently using natural energy in its various forms and recording every seafloor trench in our navigational charts.",
+        "type": "dialog",
+        "speaker": "Specter",
+        "content": "Ægir had almost mastered the oceans around 300 years ago, efficiently using natural energy in its various forms and recording every seafloor trench in our navigational charts."
+    },
+    {
+        "id": 56,
+        "raw": "[name=\"Specter\"]Then we cast our sights on another ocean, one brimming with stars.",
+        "type": "dialog",
+        "speaker": "Specter",
+        "content": "Then we cast our sights on another ocean, one brimming with stars."
+    },
+    {
+        "id": 57,
+        "raw": "[name=\"Specter\"]Our fleets and even our cities were meant to cross that boundary that should never have existed, and light the fires of civilization beyond the barrier.",
+        "type": "dialog",
+        "speaker": "Specter",
+        "content": "Our fleets and even our cities were meant to cross that boundary that should never have existed, and light the fires of civilization beyond the barrier."
+    },
+    {
+        "id": 58,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 59,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 60,
+        "raw": "[Decision(options=\"Beyond the barrier...\", values=\"1\")]",
+        "type": "decision",
+        "options": "Beyond the barrier...",
+        "values": "1"
+    },
+    {
+        "id": 61,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 62,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#1$1.png"
+    },
+    {
+        "id": 63,
+        "raw": "[name=\"Kal'tsit\"]The Preserver was right, Doctor. Kristen's achievement is not beyond Ægir's reach.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "The Preserver was right, Doctor. Kristen's achievement is not beyond Ægir's reach."
+    },
+    {
+        "id": 64,
+        "raw": "[name=\"Kal'tsit\"]The sea and the sky are closer than we thought.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "The sea and the sky are closer than we thought."
+    },
+    {
+        "id": 65,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1023_ghost2_1#12$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 66,
+        "raw": "[name=\"Specter\"]People back then tried plenty of things: surveying and deciphering the electron clouds, developing new technologies and materials, exploring forms of life that can adapt to space...",
+        "type": "dialog",
+        "speaker": "Specter",
+        "content": "People back then tried plenty of things: surveying and deciphering the electron clouds, developing new technologies and materials, exploring forms of life that can adapt to space..."
+    },
+    {
+        "id": 67,
+        "raw": "[name=\"Specter\"]This beacon launcher is a product of that era.",
+        "type": "dialog",
+        "speaker": "Specter",
+        "content": "This beacon launcher is a product of that era."
+    },
+    {
+        "id": 68,
+        "raw": "[name=\"Specter\"]It was intended to capture even the faintest signals from the stars, and plant beacons that would never fade from our star charts.",
+        "type": "dialog",
+        "speaker": "Specter",
+        "content": "It was intended to capture even the faintest signals from the stars, and plant beacons that would never fade from our star charts."
+    },
+    {
+        "id": 69,
+        "raw": "[name=\"Specter\"]Nanomachine swarms would form networks between the beacons, allowing us to traverse vast distances in an instant... or so we dreamed.",
+        "type": "dialog",
+        "speaker": "Specter",
+        "content": "Nanomachine swarms would form networks between the beacons, allowing us to traverse vast distances in an instant... or so we dreamed."
+    },
+    {
+        "id": 70,
+        "raw": "[charslot(slot=\"m\",name=\"char_263_skadi#5\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "char_263_skadi#5.png"
+    },
+    {
+        "id": 71,
+        "raw": "[name=\"Skadi\"]You never told me any of this before.",
+        "type": "dialog",
+        "speaker": "Skadi",
+        "content": "You never told me any of this before."
+    },
+    {
+        "id": 72,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1023_ghost2_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 73,
+        "raw": "[name=\"Specter\"]Lucid moments were hard to come by on land.",
+        "type": "dialog",
+        "speaker": "Specter",
+        "content": "Lucid moments were hard to come by on land."
+    },
+    {
+        "id": 74,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1023_ghost2_1#10$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 75,
+        "raw": "[name=\"Specter\"]But yesterday, I dreamt once again of walking from the Sophontheatrum straight into that epoch.",
+        "type": "dialog",
+        "speaker": "Specter",
+        "content": "But yesterday, I dreamt once again of walking from the Sophontheatrum straight into that epoch."
+    },
+    {
+        "id": 76,
+        "raw": "[name=\"Specter\"]Then, I saw Laurentina dance.",
+        "type": "dialog",
+        "speaker": "Specter",
+        "content": "Then, I saw Laurentina dance."
+    },
+    {
+        "id": 77,
+        "raw": "[name=\"Specter\"]She leaped from the waves to the stars, stirring up star dust that trailed the hems of her dress. From afar, the voice of the Master of All Creation answered her in song.",
+        "type": "dialog",
+        "speaker": "Specter",
+        "content": "She leaped from the waves to the stars, stirring up star dust that trailed the hems of her dress. From afar, the voice of the Master of All Creation answered her in song."
+    },
+    {
+        "id": 78,
+        "raw": "[name=\"Specter\"]The universe and imagination know no bounds, and Laurentina's dances will never cease.",
+        "type": "dialog",
+        "speaker": "Specter",
+        "content": "The universe and imagination know no bounds, and Laurentina's dances will never cease."
+    },
+    {
+        "id": 79,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1023_ghost2_1#3$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 80,
+        "raw": "Specter closes her eyes, as though sinking back into the dream.",
+        "type": "narration",
+        "content": "Specter closes her eyes, as though sinking back into the dream."
+    },
+    {
+        "id": 81,
+        "raw": "[charslot(slot=\"m\",name=\"char_263_skadi#4\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "char_263_skadi#4.png"
+    },
+    {
+        "id": 82,
+        "raw": "[name=\"Skadi\"]Mm...",
+        "type": "dialog",
+        "speaker": "Skadi",
+        "content": "Mm..."
+    },
+    {
+        "id": 83,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1023_ghost2_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 84,
+        "raw": "[name=\"Specter\"]What is it?",
+        "type": "dialog",
+        "speaker": "Specter",
+        "content": "What is it?"
+    },
+    {
+        "id": 85,
+        "raw": "[charslot(slot=\"m\",name=\"char_263_skadi#5\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "char_263_skadi#5.png"
+    },
+    {
+        "id": 86,
+        "raw": "[name=\"Skadi\"]Just trying to picture it.",
+        "type": "dialog",
+        "speaker": "Skadi",
+        "content": "Just trying to picture it."
+    },
+    {
+        "id": 87,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 88,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 89,
+        "raw": "[Decision(options=\"It's a beautiful dream, Laurentina.;Perhaps that day will really come, Laurentina.\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "It's a beautiful dream, Laurentina.;Perhaps that day will really come, Laurentina.",
+        "values": "1;2"
+    },
+    {
+        "id": 90,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 91,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1023_ghost2_1#12$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 92,
+        "raw": "[name=\"Specter\"]Before pushing open the door to the stars, they wanted to prepare themselves for any threats beyond the barrier... That is, until the Seaborn appeared and interrupted the dream.",
+        "type": "dialog",
+        "speaker": "Specter",
+        "content": "Before pushing open the door to the stars, they wanted to prepare themselves for any threats beyond the barrier... That is, until the Seaborn appeared and interrupted the dream."
+    },
+    {
+        "id": 93,
+        "raw": "[name=\"Specter\"]We poured all our efforts into studying them, setting aside all else: art, science, and previous visions for the future...",
+        "type": "dialog",
+        "speaker": "Specter",
+        "content": "We poured all our efforts into studying them, setting aside all else: art, science, and previous visions for the future..."
+    },
+    {
+        "id": 94,
+        "raw": "[name=\"Specter\"]The Seaborn fundamentally changed Ægir.",
+        "type": "dialog",
+        "speaker": "Specter",
+        "content": "The Seaborn fundamentally changed Ægir."
+    },
+    {
+        "id": 95,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 96,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 97,
+        "raw": "[Decision(options=\"What did you do before becoming a Hunter, Skadi?;What did you do before becoming a Hunter, Specter?\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "What did you do before becoming a Hunter, Skadi?;What did you do before becoming a Hunter, Specter?",
+        "values": "1;2"
+    },
+    {
+        "id": 98,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 99,
+        "raw": "[charslot(slot=\"m\",name=\"char_263_skadi#5\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "char_263_skadi#5.png"
+    },
+    {
+        "id": 100,
+        "raw": "[name=\"Skadi\"]Me?",
+        "type": "dialog",
+        "speaker": "Skadi",
+        "content": "Me?"
+    },
+    {
+        "id": 101,
+        "raw": "[name=\"Skadi\"]I was the best technician at the Institute of Facility Management. I could keep an entire city's underwater lighting array running on my own.",
+        "type": "dialog",
+        "speaker": "Skadi",
+        "content": "I was the best technician at the Institute of Facility Management. I could keep an entire city's underwater lighting array running on my own."
+    },
+    {
+        "id": 102,
+        "raw": "[name=\"Skadi\"]The Institute of Development Planning's career proposal was pretty much what I was thinking, so I accepted.",
+        "type": "dialog",
+        "speaker": "Skadi",
+        "content": "The Institute of Development Planning's career proposal was pretty much what I was thinking, so I accepted."
+    },
+    {
+        "id": 103,
+        "raw": "[name=\"Skadi\"]Working by yourself can be lonely, but it's not such a bad thing playing with the giant fins in the reefs, or lighting up the ocean while daydreaming.",
+        "type": "dialog",
+        "speaker": "Skadi",
+        "content": "Working by yourself can be lonely, but it's not such a bad thing playing with the giant fins in the reefs, or lighting up the ocean while daydreaming."
+    },
+    {
+        "id": 104,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 105,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1023_ghost2_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 106,
+        "raw": "[name=\"Specter\"]I was just an apprentice sculptor.",
+        "type": "dialog",
+        "speaker": "Specter",
+        "content": "I was just an apprentice sculptor."
+    },
+    {
+        "id": 107,
+        "raw": "[name=\"Specter\"]The Institute of Development Planning provides tailored career proposals for each citizen, which are usually in line with our wishes.",
+        "type": "dialog",
+        "speaker": "Specter",
+        "content": "The Institute of Development Planning provides tailored career proposals for each citizen, which are usually in line with our wishes."
+    },
+    {
+        "id": 108,
+        "raw": "[name=\"Specter\"]I suppose I would have gone into dome design, sculpting, or dance.",
+        "type": "dialog",
+        "speaker": "Specter",
+        "content": "I suppose I would have gone into dome design, sculpting, or dance."
+    },
+    {
+        "id": 109,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 110,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1023_ghost2_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 111,
+        "raw": "[name=\"Specter\"]Say, Kal'tsit and Doctor, we've shared a lot of info during our time together, but we've never talked about our old lives.",
+        "type": "dialog",
+        "speaker": "Specter",
+        "content": "Say, Kal'tsit and Doctor, we've shared a lot of info during our time together, but we've never talked about our old lives."
+    },
+    {
+        "id": 112,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 113,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 114,
+        "raw": "[Decision(options=\"Because they've changed.\", values=\"1\")]",
+        "type": "decision",
+        "options": "Because they've changed.",
+        "values": "1"
+    },
+    {
+        "id": 115,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 116,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1023_ghost2_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 117,
+        "raw": "[name=\"Specter\"]I guess you're right. Sorry for bringing up something so heavy on a tour.",
+        "type": "dialog",
+        "speaker": "Specter",
+        "content": "I guess you're right. Sorry for bringing up something so heavy on a tour."
+    },
+    {
+        "id": 118,
+        "raw": "[name=\"Specter\"]We have all the waves in the world hanging above our heads. Would you care to share a dance before dealing with all this bother, Doctor?",
+        "type": "dialog",
+        "speaker": "Specter",
+        "content": "We have all the waves in the world hanging above our heads. Would you care to share a dance before dealing with all this bother, Doctor?"
+    },
+    {
+        "id": 119,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 120,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 121,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 122,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 123,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 124,
+        "raw": "[Background(image=\"51_g7_consuloffice\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "51_g7_consuloffice.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 125,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 126,
+        "raw": "[playMusic(intro=\"$act18d3d0_intro\",key=\"$act18d3d0_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act18d3d0/m_sys_act18d3d0_intro.mp3",
+        "key": "sound_beta_2/music/act18d3d0/m_sys_act18d3d0_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 127,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 128,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1382_1#1$1\",duration=1.5)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1382_1#1$1.png",
+        "duration": 1.5
+    },
+    {
+        "id": 129,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 130,
+        "raw": "[name=\"Kind Woman\"]Gladiia.",
+        "type": "dialog",
+        "speaker": "Kind Woman",
+        "content": "Gladiia."
+    },
+    {
+        "id": 131,
+        "raw": "[PlaySound(key=\"$d_avg_higheldshosfts\", volume=0.7)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_higheldshosfts.mp3",
+        "volume": 0.7
+    },
+    {
+        "id": 132,
+        "raw": "[charslot(duration=1)]",
+        "type": "charslot",
+        "duration": 1
+    },
+    {
+        "id": 133,
+        "raw": "Gladiia's hand instinctively goes to her weapon as the woman approaches with a ceremonial sword in hand.",
+        "type": "narration",
+        "content": "Gladiia's hand instinctively goes to her weapon as the woman approaches with a ceremonial sword in hand."
+    },
+    {
+        "id": 134,
+        "raw": "[PlaySound(key=\"$d_avg_clothmovement\", volume=0.7)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_clothmovement.mp3",
+        "volume": 0.7
+    },
+    {
+        "id": 135,
+        "raw": "But all she does is put her arms around Gladiia's shoulders. Gladiia smells stimulants in the air.",
+        "type": "narration",
+        "content": "But all she does is put her arms around Gladiia's shoulders. Gladiia smells stimulants in the air."
+    },
+    {
+        "id": 136,
+        "raw": "Ægir do not make a habit of greeting each other with physical contact. She could not remember even her mother ever doing so.",
+        "type": "narration",
+        "content": "Ægir do not make a habit of greeting each other with physical contact. She could not remember even her mother ever doing so."
+    },
+    {
+        "id": 137,
+        "raw": "But this woman's action felt completely natural.",
+        "type": "narration",
+        "content": "But this woman's action felt completely natural."
+    },
+    {
+        "id": 138,
+        "raw": "[charslot(slot=\"m\",name=\"avg_474_gladiia_1#1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_474_gladiia_1#1.png"
+    },
+    {
+        "id": 139,
+        "raw": "[name=\"Gladiia\"]Consul Clementia?",
+        "type": "dialog",
+        "speaker": "Gladiia",
+        "content": "Consul Clementia?"
+    },
+    {
+        "id": 140,
+        "raw": "[name=\"Gladiia\"]I was not aware that this was the standard salute between Chief Designers of Warfare.",
+        "type": "dialog",
+        "speaker": "Gladiia",
+        "content": "I was not aware that this was the standard salute between Chief Designers of Warfare."
+    },
+    {
+        "id": 141,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1382_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1382_1#1$1.png"
+    },
+    {
+        "id": 142,
+        "raw": "[name=\"Clementia\"]Nothing makes me happier than seeing the Hunters return as lucid as ever.",
+        "type": "dialog",
+        "speaker": "Clementia",
+        "content": "Nothing makes me happier than seeing the Hunters return as lucid as ever."
+    },
+    {
+        "id": 143,
+        "raw": "[charslot(slot=\"m\",name=\"avg_474_gladiia_1#1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_474_gladiia_1#1.png"
+    },
+    {
+        "id": 144,
+        "raw": "[name=\"Gladiia\"]Your soldiers' reactions when they first saw me suggested otherwise.",
+        "type": "dialog",
+        "speaker": "Gladiia",
+        "content": "Your soldiers' reactions when they first saw me suggested otherwise."
+    },
+    {
+        "id": 145,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1382_1#9$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1382_1#9$1.png"
+    },
+    {
+        "id": 146,
+        "raw": "[name=\"Clementia\"]The operation to eliminate the Firstborn cost Ægir all of its Abyssal Hunters.",
+        "type": "dialog",
+        "speaker": "Clementia",
+        "content": "The operation to eliminate the Firstborn cost Ægir all of its Abyssal Hunters."
+    },
+    {
+        "id": 147,
+        "raw": "[name=\"Clementia\"]Secunda made many rescue attempts, but was unable to penetrate the rampaging mass of Seaborn that guard the region after the death of the Firstborn.",
+        "type": "dialog",
+        "speaker": "Clementia",
+        "content": "Secunda made many rescue attempts, but was unable to penetrate the rampaging mass of Seaborn that guard the region after the death of the Firstborn."
+    },
+    {
+        "id": 148,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1382_1#6$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1382_1#6$1.png"
+    },
+    {
+        "id": 149,
+        "raw": "[name=\"Clementia\"]Your mother, Horatia, had no choice but to publicly declare you dead.",
+        "type": "dialog",
+        "speaker": "Clementia",
+        "content": "Your mother, Horatia, had no choice but to publicly declare you dead."
+    },
+    {
+        "id": 150,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1382_1#2$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1382_1#2$1.png"
+    },
+    {
+        "id": 151,
+        "raw": "[name=\"Clementia\"]But I know her. She doesn't really believe that.",
+        "type": "dialog",
+        "speaker": "Clementia",
+        "content": "But I know her. She doesn't really believe that."
+    },
+    {
+        "id": 152,
+        "raw": "[charslot(slot=\"m\",name=\"avg_474_gladiia_1#1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_474_gladiia_1#1.png"
+    },
+    {
+        "id": 153,
+        "raw": "[name=\"Gladiia\"]Or perhaps Consul Horatia, foremost of the Institute of Scientific Development Planning, simply could not accept that I had died for nothing.",
+        "type": "dialog",
+        "speaker": "Gladiia",
+        "content": "Or perhaps Consul Horatia, foremost of the Institute of Scientific Development Planning, simply could not accept that I had died for nothing."
+    },
+    {
+        "id": 154,
+        "raw": "[name=\"Gladiia\"]I know her, too.",
+        "type": "dialog",
+        "speaker": "Gladiia",
+        "content": "I know her, too."
+    },
+    {
+        "id": 155,
+        "raw": "[name=\"Gladiia\"]But I don't think it is appropriate for a meeting between two Chief Designers of Warfare to revolve around a complicated mother-daughter relationship.",
+        "type": "dialog",
+        "speaker": "Gladiia",
+        "content": "But I don't think it is appropriate for a meeting between two Chief Designers of Warfare to revolve around a complicated mother-daughter relationship."
+    },
+    {
+        "id": 156,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1382_1#2$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1382_1#2$1.png"
+    },
+    {
+        "id": 157,
+        "raw": "[name=\"Clementia\"]Of course, of course.",
+        "type": "dialog",
+        "speaker": "Clementia",
+        "content": "Of course, of course."
+    },
+    {
+        "id": 158,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 159,
+        "raw": "[PlaySound(key=\"$d_avg_higheldshosfts\", volume=0.7)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_higheldshosfts.mp3",
+        "volume": 0.7
+    },
+    {
+        "id": 160,
+        "raw": "[charslot(duration=1)]",
+        "type": "charslot",
+        "duration": 1
+    },
+    {
+        "id": 161,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 162,
+        "raw": "[name=\"Clementia\"]Look at the city.",
+        "type": "dialog",
+        "speaker": "Clementia",
+        "content": "Look at the city."
+    },
+    {
+        "id": 163,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 164,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 165,
+        "raw": "[image(image=\"51_i02\",screenadapt=\"coverall\", xScale=1.2, yScale=1.2, y=-70)]",
+        "type": "image",
+        "image": "51_i02.png",
+        "screenadapt": "coverall",
+        "xScale": "1.2,",
+        "yScale": "1.2,",
+        "y": -70
+    },
+    {
+        "id": 166,
+        "raw": "[ImageTween(yTo=0, xScaleTo=1, yScaleTo=1, duration=60, block=false)]",
+        "type": "image_tween",
+        "yTo": "0,",
+        "xScaleTo": "1,",
+        "yScaleTo": "1,",
+        "duration": "60,",
+        "block": false
+    },
+    {
+        "id": 167,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": false
+    },
+    {
+        "id": 168,
+        "raw": "[Delay(time=3)]",
+        "type": "delay",
+        "time": 3
+    },
+    {
+        "id": 169,
+        "raw": "The Consul's Pensivarium sits high in the city. The seawater hangs just above their heads.",
+        "type": "narration",
+        "content": "The Consul's Pensivarium sits high in the city. The seawater hangs just above their heads."
+    },
+    {
+        "id": 170,
+        "raw": "The transparent dome serves as a gentle mirror, warding off the deep and foreboding void while granting the Ægir the solace of introspection.",
+        "type": "narration",
+        "content": "The transparent dome serves as a gentle mirror, warding off the deep and foreboding void while granting the Ægir the solace of introspection."
+    },
+    {
+        "id": 171,
+        "raw": "Beneath the dome, the entire city is bathed in a blue hue. The beacon launchpad stands tall at its center, while ships glide in and out of the distant docks like schools of fins.",
+        "type": "narration",
+        "content": "Beneath the dome, the entire city is bathed in a blue hue. The beacon launchpad stands tall at its center, while ships glide in and out of the distant docks like schools of fins."
+    },
+    {
+        "id": 172,
+        "raw": "[name=\"Clementia\"]The sea itself has no color, only darkness. Milliarium stands in its murky depths like the vigilant eye of civilization, solitary and luminous.",
+        "type": "dialog",
+        "speaker": "Clementia",
+        "content": "The sea itself has no color, only darkness. Milliarium stands in its murky depths like the vigilant eye of civilization, solitary and luminous."
+    },
+    {
+        "id": 173,
+        "raw": "[name=\"Clementia\"]We once had many such cities. One by one, the stars in the sea went out, becoming sustenance for the Seaborn.",
+        "type": "dialog",
+        "speaker": "Clementia",
+        "content": "We once had many such cities. One by one, the stars in the sea went out, becoming sustenance for the Seaborn."
+    },
+    {
+        "id": 174,
+        "raw": "[name=\"Clementia\"]All that's left on the seafloor are their colorful, eerie nests.",
+        "type": "dialog",
+        "speaker": "Clementia",
+        "content": "All that's left on the seafloor are their colorful, eerie nests."
+    },
+    {
+        "id": 175,
+        "raw": "[name=\"Gladiia\"]I won't deny that the Abyssal Hunter project was a failed gambit. The death of the Firstborn did not stop their evolution.",
+        "type": "dialog",
+        "speaker": "Gladiia",
+        "content": "I won't deny that the Abyssal Hunter project was a failed gambit. The death of the Firstborn did not stop their evolution."
+    },
+    {
+        "id": 176,
+        "raw": "[name=\"Gladiia\"]So I want to know what solution Ægir has come up with next. What you have come up with.",
+        "type": "dialog",
+        "speaker": "Gladiia",
+        "content": "So I want to know what solution Ægir has come up with next. What you have come up with."
+    },
+    {
+        "id": 177,
+        "raw": "[name=\"Gladiia\"]What is this Waterway Program?",
+        "type": "dialog",
+        "speaker": "Gladiia",
+        "content": "What is this Waterway Program?"
+    },
+    {
+        "id": 178,
+        "raw": "[name=\"Clementia\"]Gladiia, I didn't mean...",
+        "type": "dialog",
+        "speaker": "Clementia",
+        "content": "Gladiia, I didn't mean..."
+    },
+    {
+        "id": 179,
+        "raw": "[name=\"Clementia\"]I'm simply part of an even bigger gambit, one with even higher stakes.",
+        "type": "dialog",
+        "speaker": "Clementia",
+        "content": "I'm simply part of an even bigger gambit, one with even higher stakes."
+    },
+    {
+        "id": 180,
+        "raw": "[name=\"Clementia\"]The weapon classification scheme remains nothing more than a strict control over weapon usage to delay the evolution of the Seaborn.",
+        "type": "dialog",
+        "speaker": "Clementia",
+        "content": "The weapon classification scheme remains nothing more than a strict control over weapon usage to delay the evolution of the Seaborn."
+    },
+    {
+        "id": 181,
+        "raw": "[name=\"Clementia\"]This time, however, we have taken into account every weapon at our disposal or under development.",
+        "type": "dialog",
+        "speaker": "Clementia",
+        "content": "This time, however, we have taken into account every weapon at our disposal or under development."
+    },
+    {
+        "id": 182,
+        "raw": "[name=\"Clementia\"]A mix of conventional ballistics and Class I weapons initially proved highly effective. The Seaborn were unable to comprehend why they were being burned by the seawater around them.",
+        "type": "dialog",
+        "speaker": "Clementia",
+        "content": "A mix of conventional ballistics and Class I weapons initially proved highly effective. The Seaborn were unable to comprehend why they were being burned by the seawater around them."
+    },
+    {
+        "id": 183,
+        "raw": "[name=\"Clementia\"]But it took them only a year to adapt. 11 months in, we accelerated the adoption of Class II weapons, which operated on completely different principles.",
+        "type": "dialog",
+        "speaker": "Clementia",
+        "content": "But it took them only a year to adapt. 11 months in, we accelerated the adoption of Class II weapons, which operated on completely different principles."
+    },
+    {
+        "id": 184,
+        "raw": "[name=\"Clementia\"]Et cetera, et cetera.",
+        "type": "dialog",
+        "speaker": "Clementia",
+        "content": "Et cetera, et cetera."
+    },
+    {
+        "id": 185,
+        "raw": "[name=\"Gladiia\"]Until their evolution outpaced the ability of the Academy of Technology to innovate.",
+        "type": "dialog",
+        "speaker": "Gladiia",
+        "content": "Until their evolution outpaced the ability of the Academy of Technology to innovate."
+    },
+    {
+        "id": 186,
+        "raw": "[name=\"Clementia\"]Yes. At day's end, all we're doing is merely buying time. Ægir has committed vast resources to study the Seaborn. To eradicate them at their origin, we must first comprehend them at their source.",
+        "type": "dialog",
+        "speaker": "Clementia",
+        "content": "Yes. At day's end, all we're doing is merely buying time. Ægir has committed vast resources to study the Seaborn. To eradicate them at their origin, we must first comprehend them at their source."
+    },
+    {
+        "id": 187,
+        "raw": "[name=\"Clementia\"]The information you've brought back is highly valuable, and Breogan's discovery on land corroborates the Academy of Science's research.",
+        "type": "dialog",
+        "speaker": "Clementia",
+        "content": "The information you've brought back is highly valuable, and Breogan's discovery on land corroborates the Academy of Science's research."
+    },
+    {
+        "id": 188,
+        "raw": "[name=\"Gladiia\"]The Seaborn and the Feranmuts share the same genesis.",
+        "type": "dialog",
+        "speaker": "Gladiia",
+        "content": "The Seaborn and the Feranmuts share the same genesis."
+    },
+    {
+        "id": 189,
+        "raw": "[name=\"Gladiia\"]Is Ægir coming ashore to seek memories even more ancient?",
+        "type": "dialog",
+        "speaker": "Gladiia",
+        "content": "Is Ægir coming ashore to seek memories even more ancient?"
+    },
+    {
+        "id": 190,
+        "raw": "[name=\"Clementia\"]Not just that. The Seaborn share a common genesis with the Feranmuts, but much about them is very different. Unnatural, one might say.",
+        "type": "dialog",
+        "speaker": "Clementia",
+        "content": "Not just that. The Seaborn share a common genesis with the Feranmuts, but much about them is very different. Unnatural, one might say."
+    },
+    {
+        "id": 191,
+        "raw": "[name=\"Clementia\"]Their recent activity demonstrates a clear sense of purpose. They have quickly abandoned their reliance on the sea and begun to migrate towards land en masse.",
+        "type": "dialog",
+        "speaker": "Clementia",
+        "content": "Their recent activity demonstrates a clear sense of purpose. They have quickly abandoned their reliance on the sea and begun to migrate towards land en masse."
+    },
+    {
+        "id": 192,
+        "raw": "[name=\"Clementia\"]Left unchecked, it is not out of the question that all of Terra could become infested with Seaborn.",
+        "type": "dialog",
+        "speaker": "Clementia",
+        "content": "Left unchecked, it is not out of the question that all of Terra could become infested with Seaborn."
+    },
+    {
+        "id": 193,
+        "raw": "[name=\"Gladiia\"]We already saw hints of that in Iberia.",
+        "type": "dialog",
+        "speaker": "Gladiia",
+        "content": "We already saw hints of that in Iberia."
+    },
+    {
+        "id": 194,
+        "raw": "[name=\"Clementia\"]Thus, for Ægir, the land is both a source of answers and a solemn responsibility.",
+        "type": "dialog",
+        "speaker": "Clementia",
+        "content": "Thus, for Ægir, the land is both a source of answers and a solemn responsibility."
+    },
+    {
+        "id": 195,
+        "raw": "[name=\"Clementia\"]Horatia has issued new war orders on behalf of the Institute of Development Planning, and Milliarium has come bearing new Class IV weapons from the Academy of Technology.",
+        "type": "dialog",
+        "speaker": "Clementia",
+        "content": "Horatia has issued new war orders on behalf of the Institute of Development Planning, and Milliarium has come bearing new Class IV weapons from the Academy of Technology."
+    },
+    {
+        "id": 196,
+        "raw": "[name=\"Clementia\"]They are a form of biological weapon, very different from all previous ones. Designed to induce death in nearby Seaborn nests and newborns, while driving away adults from the area.",
+        "type": "dialog",
+        "speaker": "Clementia",
+        "content": "They are a form of biological weapon, very different from all previous ones. Designed to induce death in nearby Seaborn nests and newborns, while driving away adults from the area."
+    },
+    {
+        "id": 197,
+        "raw": "[name=\"Clementia\"]We have successfully located most of the nests in the target region. The ones near Iberia are the only ones yet unmarked.",
+        "type": "dialog",
+        "speaker": "Clementia",
+        "content": "We have successfully located most of the nests in the target region. The ones near Iberia are the only ones yet unmarked."
+    },
+    {
+        "id": 198,
+        "raw": "[name=\"Clementia\"]Once the beacons have been placed and the weapons activated, we will finally have cleared an entire region of Seaborn, and established a route back to Ægir's home territories.",
+        "type": "dialog",
+        "speaker": "Clementia",
+        "content": "Once the beacons have been placed and the weapons activated, we will finally have cleared an entire region of Seaborn, and established a route back to Ægir's home territories."
+    },
+    {
+        "id": 199,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 200,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 201,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 202,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 203,
+        "raw": "[Background(image=\"51_g7_consuloffice\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "51_g7_consuloffice.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 204,
+        "raw": "[image]",
+        "type": "image"
+    },
+    {
+        "id": 205,
+        "raw": "[charslot(slot = \"left\", name = \"avg_474_gladiia_1#1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 206,
+        "raw": "[charslot(slot = \"right\", name = \"avg_npc_1382_1#2$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 207,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 208,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 209,
+        "raw": "[charslot(slot = \"left\", name = \"avg_474_gladiia_1#1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 210,
+        "raw": "[name=\"Gladiia\"]Consul Horatia would not have permitted the possibility of failure. Yet all I see is a city under siege, teetering on the brink.",
+        "type": "dialog",
+        "speaker": "Gladiia",
+        "content": "Consul Horatia would not have permitted the possibility of failure. Yet all I see is a city under siege, teetering on the brink."
+    },
+    {
+        "id": 211,
+        "raw": "[charslot(slot = \"right\", name = \"avg_npc_1382_1#2$1\",focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 212,
+        "raw": "[name=\"Clementia\"]Yes, she did tell me herself that 'the Waterway Program will not fail.'",
+        "type": "dialog",
+        "speaker": "Clementia",
+        "content": "Yes, she did tell me herself that 'the Waterway Program will not fail.'"
+    },
+    {
+        "id": 213,
+        "raw": "[name=\"Clementia\"]I do not know how many other possibilities she considered, and I hope I never do. For me, this city has always been the entirety of the Waterway Program.",
+        "type": "dialog",
+        "speaker": "Clementia",
+        "content": "I do not know how many other possibilities she considered, and I hope I never do. For me, this city has always been the entirety of the Waterway Program."
+    },
+    {
+        "id": 214,
+        "raw": "[charslot(slot = \"right\", name = \"avg_npc_1382_1#9$1\",focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 215,
+        "raw": "[name=\"Clementia\"]But that is no longer true. The changes in the past month necessitate a review of our plans.",
+        "type": "dialog",
+        "speaker": "Clementia",
+        "content": "But that is no longer true. The changes in the past month necessitate a review of our plans."
+    },
+    {
+        "id": 216,
+        "raw": "[name=\"Clementia\"]The Seaborn have rapidly adapted to our new weapons, even evolving measures to protect their kindred from Class III.",
+        "type": "dialog",
+        "speaker": "Clementia",
+        "content": "The Seaborn have rapidly adapted to our new weapons, even evolving measures to protect their kindred from Class III."
+    },
+    {
+        "id": 217,
+        "raw": "[name=\"Clementia\"]But a successful extermination operation should have left no opportunity for them to communicate with other individuals. They seem to have obtained their inspiration elsewhere.",
+        "type": "dialog",
+        "speaker": "Clementia",
+        "content": "But a successful extermination operation should have left no opportunity for them to communicate with other individuals. They seem to have obtained their inspiration elsewhere."
+    },
+    {
+        "id": 218,
+        "raw": "[charslot(slot = \"left\", name = \"avg_474_gladiia_1#1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 219,
+        "raw": "[name=\"Gladiia\"]Almost every mutation of the Seaborn against humanity has been abetted by the twisted efforts of corrupted Ægir.",
+        "type": "dialog",
+        "speaker": "Gladiia",
+        "content": "Almost every mutation of the Seaborn against humanity has been abetted by the twisted efforts of corrupted Ægir."
+    },
+    {
+        "id": 220,
+        "raw": "[name=\"Gladiia\"]Yet, the Seaborn lack true intelligence. We could toss all our prototype weapons into their nest, and they wouldn't dismantle or study them.",
+        "type": "dialog",
+        "speaker": "Gladiia",
+        "content": "Yet, the Seaborn lack true intelligence. We could toss all our prototype weapons into their nest, and they wouldn't dismantle or study them."
+    },
+    {
+        "id": 221,
+        "raw": "[name=\"Gladiia\"]The Church of the Deep may be able to train them to attack an army or a city, but bringing about rapid biological changes is another matter entirely.",
+        "type": "dialog",
+        "speaker": "Gladiia",
+        "content": "The Church of the Deep may be able to train them to attack an army or a city, but bringing about rapid biological changes is another matter entirely."
+    },
+    {
+        "id": 222,
+        "raw": "[charslot(slot = \"right\", name = \"avg_npc_1382_1#9$1\",focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 223,
+        "raw": "[name=\"Clementia\"]Unless they're not being influenced by the Church of the Deep, but by another Firstborn.",
+        "type": "dialog",
+        "speaker": "Clementia",
+        "content": "Unless they're not being influenced by the Church of the Deep, but by another Firstborn."
+    },
+    {
+        "id": 224,
+        "raw": "[charslot(slot = \"left\", name = \"avg_474_gladiia_1#1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 225,
+        "raw": "[name=\"Gladiia\"]I see you've read my belated report.",
+        "type": "dialog",
+        "speaker": "Gladiia",
+        "content": "I see you've read my belated report."
+    },
+    {
+        "id": 226,
+        "raw": "[name=\"Gladiia\"]Indeed. Ulpianus claims that the one we eliminated was not the only one.",
+        "type": "dialog",
+        "speaker": "Gladiia",
+        "content": "Indeed. Ulpianus claims that the one we eliminated was not the only one."
+    },
+    {
+        "id": 227,
+        "raw": "[charslot(slot = \"right\", name = \"avg_npc_1382_1#9$1\",focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 228,
+        "raw": "[name=\"Clementia\"]The Abyssal Hunters were the first and last Ægir to enter the Firstborn's lair.",
+        "type": "dialog",
+        "speaker": "Clementia",
+        "content": "The Abyssal Hunters were the first and last Ægir to enter the Firstborn's lair."
+    },
+    {
+        "id": 229,
+        "raw": "[name=\"Clementia\"]Even now, the Seaborn defend the ruins with a frenzied fury. We have not found a way to get through.",
+        "type": "dialog",
+        "speaker": "Clementia",
+        "content": "Even now, the Seaborn defend the ruins with a frenzied fury. We have not found a way to get through."
+    },
+    {
+        "id": 230,
+        "raw": "[name=\"Clementia\"]Amongst the Hunters, Ulpianus spent the longest time there, enough for him to witness the 'truth.'",
+        "type": "dialog",
+        "speaker": "Clementia",
+        "content": "Amongst the Hunters, Ulpianus spent the longest time there, enough for him to witness the 'truth.'"
+    },
+    {
+        "id": 231,
+        "raw": "[charslot(slot = \"left\", name = \"avg_474_gladiia_1#5\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 232,
+        "raw": "[name=\"Gladiia\"]You're still deliberating on whether to believe him.",
+        "type": "dialog",
+        "speaker": "Gladiia",
+        "content": "You're still deliberating on whether to believe him."
+    },
+    {
+        "id": 233,
+        "raw": "[charslot(slot = \"right\", name = \"avg_npc_1382_1#2$1\",focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 234,
+        "raw": "[name=\"Clementia\"]Yes. It could be the key to solving the mystery of the Seaborn. Or the path that leads us to destruction.",
+        "type": "dialog",
+        "speaker": "Clementia",
+        "content": "Yes. It could be the key to solving the mystery of the Seaborn. Or the path that leads us to destruction."
+    },
+    {
+        "id": 235,
+        "raw": "[name=\"Clementia\"]Could a Hunter survive for months on Seaborn remains and remain lucid? Would a lucid hunter willingly stay with them, rather than returning to civilization?",
+        "type": "dialog",
+        "speaker": "Clementia",
+        "content": "Could a Hunter survive for months on Seaborn remains and remain lucid? Would a lucid hunter willingly stay with them, rather than returning to civilization?"
+    },
+    {
+        "id": 236,
+        "raw": "[name=\"Clementia\"]There are too many unanswered questions about Ulpianus and that fateful operation.",
+        "type": "dialog",
+        "speaker": "Clementia",
+        "content": "There are too many unanswered questions about Ulpianus and that fateful operation."
+    },
+    {
+        "id": 237,
+        "raw": "[charslot(slot = \"right\", name = \"avg_npc_1382_1#8$1\",focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 238,
+        "raw": "[name=\"Clementia\"]And so, I regret to inform you that Ægir has no choice but to welcome its Hunters home with a tribunal.",
+        "type": "dialog",
+        "speaker": "Clementia",
+        "content": "And so, I regret to inform you that Ægir has no choice but to welcome its Hunters home with a tribunal."
+    },
+    {
+        "id": 239,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 240,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 241,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 242,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 243,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 244,
+        "raw": "[Background(image=\"51_g4_aegirstreet_1\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "51_g4_aegirstreet_1.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 245,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 246,
+        "raw": "[playMusic(key=\"$formal_loop\", volume=0.6)]",
+        "type": "play_music",
+        "key": "sound_beta_2/music/avg/m_avg_formal_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 247,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 248,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 249,
+        "raw": "[charslot(slot = \"left\", name = \"avg_4137_udflow_1#1$1\",duration = 1)]",
+        "type": "charslot"
+    },
+    {
+        "id": 250,
+        "raw": "[charslot(slot = \"right\", name = \"avg_npc_1391_1#1$1\",duration = 1)]",
+        "type": "charslot"
+    },
+    {
+        "id": 251,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 252,
+        "raw": "[charslot(slot = \"left\", name = \"avg_4137_udflow_1#1$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 253,
+        "raw": "[name=\"Secunda\"]I thought we had designated this area for investigation.",
+        "type": "dialog",
+        "speaker": "Secunda",
+        "content": "I thought we had designated this area for investigation."
+    },
+    {
+        "id": 254,
+        "raw": "[name=\"Secunda\"]Madam Irene? From Iberia?",
+        "type": "dialog",
+        "speaker": "Secunda",
+        "content": "Madam Irene? From Iberia?"
+    },
+    {
+        "id": 255,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 256,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 257,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4009_irene_1#1$1\",duration=1)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4009_irene_1#1$1.png",
+        "duration": 1
+    },
+    {
+        "id": 258,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 259,
+        "raw": "[name=\"Irene\"]May I ask to whom I am speaking?",
+        "type": "dialog",
+        "speaker": "Irene",
+        "content": "May I ask to whom I am speaking?"
+    },
+    {
+        "id": 260,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 261,
+        "raw": "[charslot(slot = \"left\", name = \"avg_4137_udflow_1#1$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 262,
+        "raw": "[charslot(slot = \"right\", name = \"avg_npc_1391_1#1$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 263,
+        "raw": "[name=\"Secunda\"]Secunda, Praefecta of the Sea Patrol. I regret not being able to greet you personally upon your arrival yesterday.",
+        "type": "dialog",
+        "speaker": "Secunda",
+        "content": "Secunda, Praefecta of the Sea Patrol. I regret not being able to greet you personally upon your arrival yesterday."
+    },
+    {
+        "id": 264,
+        "raw": "[name=\"Secunda\"]The Sea Patrol is currently investigating the disappearance of a citizen. We have not requested assistance from Iberia, and respectfully request that you exit this area as soon as possible.",
+        "type": "dialog",
+        "speaker": "Secunda",
+        "content": "The Sea Patrol is currently investigating the disappearance of a citizen. We have not requested assistance from Iberia, and respectfully request that you exit this area as soon as possible."
+    },
+    {
+        "id": 265,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 266,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4009_irene_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4009_irene_1#1$1.png"
+    },
+    {
+        "id": 267,
+        "raw": "[name=\"Irene\"]I would like to assist as myself, not as an envoy.",
+        "type": "dialog",
+        "speaker": "Irene",
+        "content": "I would like to assist as myself, not as an envoy."
+    },
+    {
+        "id": 268,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 269,
+        "raw": "[charslot(slot = \"left\", name = \"avg_4137_udflow_1#1$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 270,
+        "raw": "[charslot(slot = \"right\", name = \"avg_npc_1391_1#1$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 271,
+        "raw": "[name=\"Secunda\"]Your offer is appreciated, but unnecessary.",
+        "type": "dialog",
+        "speaker": "Secunda",
+        "content": "Your offer is appreciated, but unnecessary."
+    },
+    {
+        "id": 272,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 273,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4009_irene_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4009_irene_1#1$1.png"
+    },
+    {
+        "id": 274,
+        "raw": "[name=\"Irene\"]I want to—",
+        "type": "dialog",
+        "speaker": "Irene",
+        "content": "I want to—"
+    },
+    {
+        "id": 275,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 276,
+        "raw": "[charslot(slot = \"left\", name = \"avg_4137_udflow_1#1$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 277,
+        "raw": "[charslot(slot = \"right\", name = \"avg_npc_1391_1#1$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 278,
+        "raw": "[name=\"Secunda\"]Any news from the other teams?",
+        "type": "dialog",
+        "speaker": "Secunda",
+        "content": "Any news from the other teams?"
+    },
+    {
+        "id": 279,
+        "raw": "[charslot(slot = \"right\", name = \"avg_npc_1391_1#1$1\",focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 280,
+        "raw": "[name=\"Sea Patroller\"]One moment, getting the video feed now.",
+        "type": "dialog",
+        "speaker": "Sea Patroller",
+        "content": "One moment, getting the video feed now."
+    },
+    {
+        "id": 281,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 282,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4009_irene_1#2$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4009_irene_1#2$1.png"
+    },
+    {
+        "id": 283,
+        "raw": "[name=\"Irene\"]Ma'am—",
+        "type": "dialog",
+        "speaker": "Irene",
+        "content": "Ma'am—"
+    },
+    {
+        "id": 284,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 285,
+        "raw": "[charslot(slot = \"left\", name = \"avg_4137_udflow_1#1$1\",focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 286,
+        "raw": "[charslot(slot = \"right\", name = \"avg_npc_1391_1#1$1\",focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 287,
+        "raw": "[name=\"Sea Patroller\"]No unusual movements at the port.",
+        "type": "dialog",
+        "speaker": "Sea Patroller",
+        "content": "No unusual movements at the port."
+    },
+    {
+        "id": 288,
+        "raw": "[charslot(slot = \"left\", name = \"avg_4137_udflow_1#5$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 289,
+        "raw": "[name=\"Secunda\"]Tsk.",
+        "type": "dialog",
+        "speaker": "Secunda",
+        "content": "Tsk."
+    },
+    {
+        "id": 290,
+        "raw": "[name=\"Secunda\"]Alert the other teams to monitor the closed civilian gates and keep a close watch on the circulation system around town.",
+        "type": "dialog",
+        "speaker": "Secunda",
+        "content": "Alert the other teams to monitor the closed civilian gates and keep a close watch on the circulation system around town."
+    },
+    {
+        "id": 291,
+        "raw": "[charslot(slot = \"right\", name = \"avg_npc_1391_1#1$1\",focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 292,
+        "raw": "[name=\"Sea Patroller\"]Roger.",
+        "type": "dialog",
+        "speaker": "Sea Patroller",
+        "content": "Roger."
+    },
+    {
+        "id": 293,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 294,
+        "raw": "[PlaySound(key=\"$rungeneral\", volume=0.6)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_rungeneral.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 295,
+        "raw": "[charslot(slot = \"right\",posfrom = \"0,0\", posto = \"200,0\",duration = 1,afrom=1,ato=0)]",
+        "type": "charslot",
+        "afrom": "1,ato=0"
+    },
+    {
+        "id": 296,
+        "raw": "[delay(time=2.5)]",
+        "type": "delay",
+        "time": 2.5
+    },
+    {
+        "id": 297,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 298,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4009_irene_1#2$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4009_irene_1#2$1.png"
+    },
+    {
+        "id": 299,
+        "raw": "[name=\"Irene\"]You're okay with talking about this in front of me?",
+        "type": "dialog",
+        "speaker": "Irene",
+        "content": "You're okay with talking about this in front of me?"
+    },
+    {
+        "id": 300,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4137_udflow_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4137_udflow_1#1$1.png"
+    },
+    {
+        "id": 301,
+        "raw": "[name=\"Secunda\"]This is part of our regular duties. There's no need for confidentiality.",
+        "type": "dialog",
+        "speaker": "Secunda",
+        "content": "This is part of our regular duties. There's no need for confidentiality."
+    },
+    {
+        "id": 302,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4009_irene_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4009_irene_1#1$1.png"
+    },
+    {
+        "id": 303,
+        "raw": "[name=\"Irene\"]But you had your Little Handies clear the place out.",
+        "type": "dialog",
+        "speaker": "Irene",
+        "content": "But you had your Little Handies clear the place out."
+    },
+    {
+        "id": 304,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4137_udflow_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4137_udflow_1#1$1.png"
+    },
+    {
+        "id": 305,
+        "raw": "[name=\"Secunda\"]Only to prevent unnecessary harm to civilians.",
+        "type": "dialog",
+        "speaker": "Secunda",
+        "content": "Only to prevent unnecessary harm to civilians."
+    },
+    {
+        "id": 306,
+        "raw": "[name=\"Secunda\"]If you insist on staying, you'll be responsible for your own safety.",
+        "type": "dialog",
+        "speaker": "Secunda",
+        "content": "If you insist on staying, you'll be responsible for your own safety."
+    },
+    {
+        "id": 307,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4009_irene_1#7$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4009_irene_1#7$1.png"
+    },
+    {
+        "id": 308,
+        "raw": "[name=\"Irene\"]I'll—",
+        "type": "dialog",
+        "speaker": "Irene",
+        "content": "I'll—"
+    },
+    {
+        "id": 309,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4137_udflow_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4137_udflow_1#1$1.png"
+    },
+    {
+        "id": 310,
+        "raw": "[name=\"Secunda\"]The missing civilian is Tullia, a scientist from the Waterway Program, responsible for recording and calibrating data on Seaborn nests.",
+        "type": "dialog",
+        "speaker": "Secunda",
+        "content": "The missing civilian is Tullia, a scientist from the Waterway Program, responsible for recording and calibrating data on Seaborn nests."
+    },
+    {
+        "id": 311,
+        "raw": "[name=\"Secunda\"]She went AWOL 30 hours ago and hasn't been seen since.",
+        "type": "dialog",
+        "speaker": "Secunda",
+        "content": "She went AWOL 30 hours ago and hasn't been seen since."
+    },
+    {
+        "id": 312,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4009_irene_1#7$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4009_irene_1#7$1.png"
+    },
+    {
+        "id": 313,
+        "raw": "[name=\"Irene\"]Could it be... the Church of the Deep?",
+        "type": "dialog",
+        "speaker": "Irene",
+        "content": "Could it be... the Church of the Deep?"
+    },
+    {
+        "id": 314,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4137_udflow_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4137_udflow_1#1$1.png"
+    },
+    {
+        "id": 315,
+        "raw": "[name=\"Secunda\"]That's what we intend to find out.",
+        "type": "dialog",
+        "speaker": "Secunda",
+        "content": "That's what we intend to find out."
+    },
+    {
+        "id": 316,
+        "raw": "[name=\"Secunda\"]Her disappearance has not affected the overall progress of the project. As important as recording and calibrating the nest data is, her role was by no means irreplaceable.",
+        "type": "dialog",
+        "speaker": "Secunda",
+        "content": "Her disappearance has not affected the overall progress of the project. As important as recording and calibrating the nest data is, her role was by no means irreplaceable."
+    },
+    {
+        "id": 317,
+        "raw": "[name=\"Secunda\"]If the Church's goal was to assassinate someone to disrupt our plans, they would not have picked an ordinary data scientist.",
+        "type": "dialog",
+        "speaker": "Secunda",
+        "content": "If the Church's goal was to assassinate someone to disrupt our plans, they would not have picked an ordinary data scientist."
+    },
+    {
+        "id": 318,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4137_udflow_1#3$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4137_udflow_1#3$1.png"
+    },
+    {
+        "id": 319,
+        "raw": "[name=\"Secunda\"]Unless—",
+        "type": "dialog",
+        "speaker": "Secunda",
+        "content": "Unless—"
+    },
+    {
+        "id": 320,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4137_udflow_1#5$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4137_udflow_1#5$1.png"
+    },
+    {
+        "id": 321,
+        "raw": "[name=\"Secunda\"]She learned something she wasn't supposed to.",
+        "type": "dialog",
+        "speaker": "Secunda",
+        "content": "She learned something she wasn't supposed to."
+    },
+    {
+        "id": 322,
+        "raw": "[name=\"Secunda\"]I need to inspect her home.",
+        "type": "dialog",
+        "speaker": "Secunda",
+        "content": "I need to inspect her home."
+    },
+    {
+        "id": 323,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 324,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 325,
+        "raw": "[charslot(slot = \"m\",posfrom = \"0,0\", posto = \"-200,0\",duration = 1.5)]",
+        "type": "charslot"
+    },
+    {
+        "id": 326,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 327,
+        "raw": "[charslot(slot = \"right\", name = \"avg_4009_irene_1#1$1\",posfrom = \"150,0\", posto = \"0,0\",duration = 1)]",
+        "type": "charslot"
+    },
+    {
+        "id": 328,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 329,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4137_udflow_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4137_udflow_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 330,
+        "raw": "[name=\"Secunda\"]You're sharp, Madam Irene, but I would recommend against coming with us.",
+        "type": "dialog",
+        "speaker": "Secunda",
+        "content": "You're sharp, Madam Irene, but I would recommend against coming with us."
+    },
+    {
+        "id": 331,
+        "raw": "[charslot(slot = \"right\", name = \"avg_4009_irene_1#1$1\",focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 332,
+        "raw": "[name=\"Irene\"]I'm simply investigating our common enemy in my own way.",
+        "type": "dialog",
+        "speaker": "Irene",
+        "content": "I'm simply investigating our common enemy in my own way."
+    },
+    {
+        "id": 333,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4137_udflow_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4137_udflow_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 334,
+        "raw": "[name=\"Secunda\"]...Suit yourself.",
+        "type": "dialog",
+        "speaker": "Secunda",
+        "content": "...Suit yourself."
+    },
+    {
+        "id": 335,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 336,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 337,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 338,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 339,
+        "raw": "[Image]",
+        "type": "image"
+    },
+    {
+        "id": 340,
+        "raw": "[charslot]",
+        "type": "charslot"
+    }
+]

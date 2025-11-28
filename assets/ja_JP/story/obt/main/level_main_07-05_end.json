@@ -1,0 +1,2268 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")] ",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK"
+    },
+    {
+        "id": 2,
+        "raw": "[stopmusic]",
+        "type": "stop_music"
+    },
+    {
+        "id": 3,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 4,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 5,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 6,
+        "raw": "[Blocker(fadetime=1,block=true)]",
+        "type": "blocker",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 7,
+        "raw": "[PlaySound(key=\"$e_skill_skulsrsword\", volume=0.9)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_skill/e_skill_skulsrsword.mp3",
+        "volume": 0.9
+    },
+    {
+        "id": 8,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 9,
+        "raw": "貫く。引き裂く。血が流れる……",
+        "type": "narration",
+        "content": "貫く。引き裂く。血が流れる……"
+    },
+    {
+        "id": 10,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 11,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 12,
+        "raw": "[Decision(options=\"——違う。\", values=\"1\")]",
+        "type": "decision",
+        "options": "——違う。",
+        "values": "1"
+    },
+    {
+        "id": 13,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 14,
+        "raw": "[PlaySound(key=\"$e_skill_skulsrsword\", volume=0.9)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_skill/e_skill_skulsrsword.mp3",
+        "volume": 0.9
+    },
+    {
+        "id": 15,
+        "raw": "[delay(time=0.6)]",
+        "type": "delay",
+        "time": 0.6
+    },
+    {
+        "id": 16,
+        "raw": "敵。味方。人間。",
+        "type": "narration",
+        "content": "敵。味方。人間。"
+    },
+    {
+        "id": 17,
+        "raw": "叫び。嘆き。呻き。",
+        "type": "narration",
+        "content": "叫び。嘆き。呻き。"
+    },
+    {
+        "id": 18,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 19,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 20,
+        "raw": "[Background(image=\"bg_cherunder\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_cherunder.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 21,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 22,
+        "raw": "[playMusic(intro=\"$plot_intro\", key=\"$plot_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act9d0d0/m_avg_plot_intro.mp3",
+        "key": "sound_beta_2/music/act9d0d0/m_avg_plot_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 23,
+        "raw": "[Decision(options=\"————ダメだ！;……！;こんなことは許せない。\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "————ダメだ！;……！;こんなことは許せない。",
+        "values": "1;2;3"
+    },
+    {
+        "id": 24,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 25,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 26,
+        "raw": "[name=\"ケルシー\"]  …………",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "…………"
+    },
+    {
+        "id": 27,
+        "raw": "[name=\"ケルシー\"]  質問があるようだな。聞いてやろう。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "質問があるようだな。聞いてやろう。"
+    },
+    {
+        "id": 28,
+        "raw": "[Character(name=\"avg_npc_012\")]",
+        "type": "character",
+        "name": "avg_npc_012"
+    },
+    {
+        "id": 29,
+        "raw": "[name=\"オペレーター\"]  ドクター……もしかして、ロスモンティスの戦闘を見たのは初めてですか？",
+        "type": "dialog",
+        "speaker": "オペレーター",
+        "content": "ドクター……もしかして、ロスモンティスの戦闘を見たのは初めてですか？"
+    },
+    {
+        "id": 30,
+        "raw": "[name=\"オペレーター\"]  見るに耐えないのはわかります……ですが――",
+        "type": "dialog",
+        "speaker": "オペレーター",
+        "content": "見るに耐えないのはわかります……ですが――"
+    },
+    {
+        "id": 31,
+        "raw": "[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_012\",focus=1)]",
+        "type": "character",
+        "name": "char_003_kalts_1",
+        "name2": "avg_npc_012",
+        "focus": 1
+    },
+    {
+        "id": 32,
+        "raw": "[name=\"ケルシー\"]  ここは私に任せておけ。君には戦闘能力を失った敵負傷者の確認を頼む。あの中には伝令兵もいるはずだ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "ここは私に任せておけ。君には戦闘能力を失った敵負傷者の確認を頼む。あの中には伝令兵もいるはずだ。"
+    },
+    {
+        "id": 33,
+        "raw": "[name=\"ケルシー\"]  もし彼らに逃げられたら、我々の作戦に支障が出る。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "もし彼らに逃げられたら、我々の作戦に支障が出る。"
+    },
+    {
+        "id": 34,
+        "raw": "[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_012\",focus=2)]",
+        "type": "character",
+        "name": "char_003_kalts_1",
+        "name2": "avg_npc_012",
+        "focus": 2
+    },
+    {
+        "id": 35,
+        "raw": "[name=\"オペレーター\"]  ……わかりました。",
+        "type": "dialog",
+        "speaker": "オペレーター",
+        "content": "……わかりました。"
+    },
+    {
+        "id": 36,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 37,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 38,
+        "raw": "[Decision(options=\"彼女はいくつなんだ？\", values=\"1\")]",
+        "type": "decision",
+        "options": "彼女はいくつなんだ？",
+        "values": "1"
+    },
+    {
+        "id": 39,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 40,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 41,
+        "raw": "[name=\"ケルシー\"]  14歳だ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "14歳だ。"
+    },
+    {
+        "id": 42,
+        "raw": "[Decision(options=\"そんな幼い子供に——！？\", values=\"1\")]",
+        "type": "decision",
+        "options": "そんな幼い子供に——！？",
+        "values": "1"
+    },
+    {
+        "id": 43,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 44,
+        "raw": "[Character(name=\"char_002_amiya_1\")]",
+        "type": "character",
+        "name": "char_002_amiya_1"
+    },
+    {
+        "id": 45,
+        "raw": "[name=\"アーミヤ\"]  皆さん、通してください！",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "皆さん、通してください！"
+    },
+    {
+        "id": 46,
+        "raw": "[name=\"アーミヤ\"]  今、現場の処理が終わったところです……何かあったんですか？",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "今、現場の処理が終わったところです……何かあったんですか？"
+    },
+    {
+        "id": 47,
+        "raw": "[name=\"アーミヤ\"]  ドクター？",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "ドクター？"
+    },
+    {
+        "id": 48,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 49,
+        "raw": "[name=\"ロスモンティス\"]  ……どうしたの？",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "……どうしたの？"
+    },
+    {
+        "id": 50,
+        "raw": "[name=\"ロスモンティス\"]  ドクター、さっき私を呼んだ？",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "ドクター、さっき私を呼んだ？"
+    },
+    {
+        "id": 51,
+        "raw": "[Decision(options=\"ロスモンティス……君に戦場に出るように言ったのは誰だ？\", values=\"1\")]",
+        "type": "decision",
+        "options": "ロスモンティス……君に戦場に出るように言ったのは誰だ？",
+        "values": "1"
+    },
+    {
+        "id": 52,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 53,
+        "raw": "[Character(name=\"char_002_amiya_1\")]",
+        "type": "character",
+        "name": "char_002_amiya_1"
+    },
+    {
+        "id": 54,
+        "raw": "[name=\"アーミヤ\"]  …………",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "…………"
+    },
+    {
+        "id": 55,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 56,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 57,
+        "raw": "[Decision(options=\"誰なんだ！？\", values=\"1\")]",
+        "type": "decision",
+        "options": "誰なんだ！？",
+        "values": "1"
+    },
+    {
+        "id": 58,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 59,
+        "raw": "[Character(name=\"char_002_amiya_1#4\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#4"
+    },
+    {
+        "id": 60,
+        "raw": "[name=\"アーミヤ\"]  ドクター！",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "ドクター！"
+    },
+    {
+        "id": 61,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 62,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 63,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 64,
+        "raw": "[Decision(options=\"こんな残酷なことを！;恐ろしい……;これは君が背負うべきことじゃない。\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "こんな残酷なことを！;恐ろしい……;これは君が背負うべきことじゃない。",
+        "values": "1;2;3"
+    },
+    {
+        "id": 65,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 66,
+        "raw": "[Decision(options=\"……なぜ君がこんなことを？\", values=\"1\")]",
+        "type": "decision",
+        "options": "……なぜ君がこんなことを？",
+        "values": "1"
+    },
+    {
+        "id": 67,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 68,
+        "raw": "[Decision(options=\"ケルシー！;…………;君がすべきことじゃない。\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "ケルシー！;…………;君がすべきことじゃない。",
+        "values": "1;2;3"
+    },
+    {
+        "id": 69,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 70,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 71,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 72,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 73,
+        "raw": "[name=\"ロスモンティス\"]  私自身。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "私自身。"
+    },
+    {
+        "id": 74,
+        "raw": "[Decision(options=\"何を……言ってる！？;…………;君自身とはどういう意味だ……？\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "何を……言ってる！？;…………;君自身とはどういう意味だ……？",
+        "values": "1;2;3"
+    },
+    {
+        "id": 75,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 76,
+        "raw": "[name=\"ロスモンティス\"]  自分で戦うことを選んだの。戦いたいから。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "自分で戦うことを選んだの。戦いたいから。"
+    },
+    {
+        "id": 77,
+        "raw": "[name=\"ロスモンティス\"]  戦場でしか見つけられない感情がある。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "戦場でしか見つけられない感情がある。"
+    },
+    {
+        "id": 78,
+        "raw": "[name=\"ロスモンティス\"]  友達や家族を守れた時に、満足感が得られるの。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "友達や家族を守れた時に、満足感が得られるの。"
+    },
+    {
+        "id": 79,
+        "raw": "[name=\"ロスモンティス\"]  ……ロドスには私が必要だから。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "……ロドスには私が必要だから。"
+    },
+    {
+        "id": 80,
+        "raw": "[name=\"ロスモンティス\"]  私のような人を増やさないために、この大地が私の名前を呼ぶの。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "私のような人を増やさないために、この大地が私の名前を呼ぶの。"
+    },
+    {
+        "id": 81,
+        "raw": "[Decision(options=\"でも、君は……\", values=\"1\")]",
+        "type": "decision",
+        "options": "でも、君は……",
+        "values": "1"
+    },
+    {
+        "id": 82,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 83,
+        "raw": "[Decision(options=\"君は――\", values=\"1\")]",
+        "type": "decision",
+        "options": "君は――",
+        "values": "1"
+    },
+    {
+        "id": 84,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 85,
+        "raw": "[name=\"ロスモンティス\"]  ……死の前では、子供も大人も同じ。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "……死の前では、子供も大人も同じ。"
+    },
+    {
+        "id": 86,
+        "raw": "[name=\"ロスモンティス\"]  戦争や鉱石病は、相手が子供だからって、見逃してくれるなんてことあるの？",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "戦争や鉱石病は、相手が子供だからって、見逃してくれるなんてことあるの？"
+    },
+    {
+        "id": 87,
+        "raw": "[name=\"ロスモンティス\"]  敵が私とアーミヤの戦いを見たとき、まず最初に「子供」だなんて思う人はいないよね？",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "敵が私とアーミヤの戦いを見たとき、まず最初に「子供」だなんて思う人はいないよね？"
+    },
+    {
+        "id": 88,
+        "raw": "[name=\"ロスモンティス\"]  ドクター、私たちは「怪物」でしょ？",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "ドクター、私たちは「怪物」でしょ？"
+    },
+    {
+        "id": 89,
+        "raw": "[Decision(options=\"違う！！;…………;それは君の勘違いだ。\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "違う！！;…………;それは君の勘違いだ。",
+        "values": "1;2;3"
+    },
+    {
+        "id": 90,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 91,
+        "raw": "[name=\"ロスモンティス\"]  違うの、ドクター。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "違うの、ドクター。"
+    },
+    {
+        "id": 92,
+        "raw": "[name=\"ロスモンティス\"]  Dr.{@nickname}、違うの。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "Dr.{@nickname}、違うの。"
+    },
+    {
+        "id": 93,
+        "raw": "[name=\"ロスモンティス\"]  自分が何者かは、別にどうでもいいの。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "自分が何者かは、別にどうでもいいの。"
+    },
+    {
+        "id": 94,
+        "raw": "[name=\"ロスモンティス\"]  私はただ家族と一緒に、意義のあることをしたいだけ。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "私はただ家族と一緒に、意義のあることをしたいだけ。"
+    },
+    {
+        "id": 95,
+        "raw": "[name=\"ロスモンティス\"]  Scoutを知ってる？",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "Scoutを知ってる？"
+    },
+    {
+        "id": 96,
+        "raw": "[Decision(options=\"Scout……？\", values=\"1\")]",
+        "type": "decision",
+        "options": "Scout……？",
+        "values": "1"
+    },
+    {
+        "id": 97,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 98,
+        "raw": "[name=\"ロスモンティス\"]  ……じゃあ、Aceのことは？",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "……じゃあ、Aceのことは？"
+    },
+    {
+        "id": 99,
+        "raw": "[Decision(options=\"彼のことなら知ってる。\", values=\"1\")]",
+        "type": "decision",
+        "options": "彼のことなら知ってる。",
+        "values": "1"
+    },
+    {
+        "id": 100,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 101,
+        "raw": "[name=\"ロスモンティス\"]  ……彼らのことを何日も見てないの。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "……彼らのことを何日も見てないの。"
+    },
+    {
+        "id": 102,
+        "raw": "[name=\"ロスモンティス\"]  私はたくさんのことを忘れちゃった。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "私はたくさんのことを忘れちゃった。"
+    },
+    {
+        "id": 103,
+        "raw": "[name=\"ロスモンティス\"]  でも、私は忘れただけ。何もかも捨てたドクターとは違うの。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "でも、私は忘れただけ。何もかも捨てたドクターとは違うの。"
+    },
+    {
+        "id": 104,
+        "raw": "[Character(name=\"avg_npc_042\",name2=\"char_002_amiya_1#4\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_042",
+        "name2": "char_002_amiya_1#4",
+        "focus": 2
+    },
+    {
+        "id": 105,
+        "raw": "[name=\"アーミヤ\"]  ロスモンティスさん。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "ロスモンティスさん。"
+    },
+    {
+        "id": 106,
+        "raw": "[Character(name=\"avg_npc_042\",name2=\"char_002_amiya_1#4\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_042",
+        "name2": "char_002_amiya_1#4",
+        "focus": 1
+    },
+    {
+        "id": 107,
+        "raw": "[name=\"ロスモンティス\"]  ……違う、そういう意味じゃないの。わかるよね、アーミヤ。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "……違う、そういう意味じゃないの。わかるよね、アーミヤ。"
+    },
+    {
+        "id": 108,
+        "raw": "[Character(name=\"avg_npc_042\",name2=\"char_002_amiya_1#4\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_042",
+        "name2": "char_002_amiya_1#4",
+        "focus": 2
+    },
+    {
+        "id": 109,
+        "raw": "[name=\"アーミヤ\"]  ……わかってます。でも……そんな言い方はして欲しくないです。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "……わかってます。でも……そんな言い方はして欲しくないです。"
+    },
+    {
+        "id": 110,
+        "raw": "[Character(name=\"avg_npc_042\",name2=\"char_002_amiya_1#4\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_042",
+        "name2": "char_002_amiya_1#4",
+        "focus": 1
+    },
+    {
+        "id": 111,
+        "raw": "[name=\"ロスモンティス\"]  うん……わかった。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "うん……わかった。"
+    },
+    {
+        "id": 112,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 113,
+        "raw": "[name=\"ロスモンティス\"]  私が失くしたのは、バラバラの記憶。どこかで見た光景や、何かに書き記した言葉……それらの抜け殻みたいなぼやけた輪郭は、それが確かに在ったということだけしか教えてはくれない。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "私が失くしたのは、バラバラの記憶。どこかで見た光景や、何かに書き記した言葉……それらの抜け殻みたいなぼやけた輪郭は、それが確かに在ったということだけしか教えてはくれない。"
+    },
+    {
+        "id": 114,
+        "raw": "[name=\"ロスモンティス\"]  でもその時々の感情は……うまく言えないけど、アーミヤ以外の人にはわからない感情が……",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "でもその時々の感情は……うまく言えないけど、アーミヤ以外の人にはわからない感情が……"
+    },
+    {
+        "id": 115,
+        "raw": "[name=\"ロスモンティス\"]  ずっと頭から離れないでいる。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "ずっと頭から離れないでいる。"
+    },
+    {
+        "id": 116,
+        "raw": "[Decision(options=\"......\", values=\"1\")]",
+        "type": "decision",
+        "options": "......",
+        "values": "1"
+    },
+    {
+        "id": 117,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 118,
+        "raw": "[name=\"ロスモンティス\"]  ドクターは……変わった人だと思う。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "ドクターは……変わった人だと思う。"
+    },
+    {
+        "id": 119,
+        "raw": "[name=\"ロスモンティス\"]  みんなが言うよりもずっと……",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "みんなが言うよりもずっと……"
+    },
+    {
+        "id": 120,
+        "raw": "[name=\"ロスモンティス\"]  私も変わった人と言われることがある。私を見て怯える人もいる。そうあるべきじゃないと言ってくる人もいる。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "私も変わった人と言われることがある。私を見て怯える人もいる。そうあるべきじゃないと言ってくる人もいる。"
+    },
+    {
+        "id": 121,
+        "raw": "[name=\"ロスモンティス\"]  でも彼らは、どうして私がこんなふうになったかっていう理由や、私が経験したり感じてきたことを知らない。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "でも彼らは、どうして私がこんなふうになったかっていう理由や、私が経験したり感じてきたことを知らない。"
+    },
+    {
+        "id": 122,
+        "raw": "[name=\"ロスモンティス\"]  どうしてこんな時に胸が痛くなるの？　どうして泣きたくなるの？",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "どうしてこんな時に胸が痛くなるの？　どうして泣きたくなるの？"
+    },
+    {
+        "id": 123,
+        "raw": "[name=\"ロスモンティス\"]  何が起こったのか思い出せないのに……どうして目が痛くて、唇が乾いてしまうの？",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "何が起こったのか思い出せないのに……どうして目が痛くて、唇が乾いてしまうの？"
+    },
+    {
+        "id": 124,
+        "raw": "[name=\"ロスモンティス\"]  廊下のあの汚れは誰が残したの？　どうして拭き取られてないの？　花瓶を割ってしまった時、どうして不安を感じながら、ちょっと嬉しさも感じるの？",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "廊下のあの汚れは誰が残したの？　どうして拭き取られてないの？　花瓶を割ってしまった時、どうして不安を感じながら、ちょっと嬉しさも感じるの？"
+    },
+    {
+        "id": 125,
+        "raw": "[name=\"ロスモンティス\"]  花を見ると嫌な気分になって、虫を見ると興味が湧いてくるのは、どうして？",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "花を見ると嫌な気分になって、虫を見ると興味が湧いてくるのは、どうして？"
+    },
+    {
+        "id": 126,
+        "raw": "[name=\"ロスモンティス\"]  私が失くした記憶の中で、一体何が起きたの？　どうしてこんなにたくさんの感情が湧き上がってくるの？",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "私が失くした記憶の中で、一体何が起きたの？　どうしてこんなにたくさんの感情が湧き上がってくるの？"
+    },
+    {
+        "id": 127,
+        "raw": "[name=\"ロスモンティス\"]  これまで私が「感じ」たオペレーターたちは、みんないろんな特徴を持っていた。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "これまで私が「感じ」たオペレーターたちは、みんないろんな特徴を持っていた。"
+    },
+    {
+        "id": 128,
+        "raw": "[name=\"ロスモンティス\"]  そしてみんなを失った時、その「感じ」も、一緒に消えちゃった。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "そしてみんなを失った時、その「感じ」も、一緒に消えちゃった。"
+    },
+    {
+        "id": 129,
+        "raw": "[name=\"ロスモンティス\"]  でもどうして……どうして感情だけは残っているの？",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "でもどうして……どうして感情だけは残っているの？"
+    },
+    {
+        "id": 130,
+        "raw": "[name=\"ロスモンティス\"]  もう感じられないのに、どうして涙がずっと流れてるの？",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "もう感じられないのに、どうして涙がずっと流れてるの？"
+    },
+    {
+        "id": 131,
+        "raw": "[name=\"ロスモンティス\"]  もう全部、忘れたはずなのに……",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "もう全部、忘れたはずなのに……"
+    },
+    {
+        "id": 132,
+        "raw": "[Character(name=\"char_002_amiya_1#4\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#4"
+    },
+    {
+        "id": 133,
+        "raw": "[name=\"アーミヤ\"]  …………",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "…………"
+    },
+    {
+        "id": 134,
+        "raw": "[name=\"アーミヤ\"]  ロスモンティスさんは、それらの感情を取り除く処置をずっと拒んでいます。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "ロスモンティスさんは、それらの感情を取り除く処置をずっと拒んでいます。"
+    },
+    {
+        "id": 135,
+        "raw": "[name=\"アーミヤ\"]  その湧き上がる感情は、どんな形であれ、ロスモンティスさん自身のものですから。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "その湧き上がる感情は、どんな形であれ、ロスモンティスさん自身のものですから。"
+    },
+    {
+        "id": 136,
+        "raw": "[name=\"アーミヤ\"]  ……ロスモンティスさんだけのものですから。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "……ロスモンティスさんだけのものですから。"
+    },
+    {
+        "id": 137,
+        "raw": "[name=\"アーミヤ\"]  私はそれに干渉しません。ロスモンティスさんの中に、まだ希望がある限り……私はそうしません。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "私はそれに干渉しません。ロスモンティスさんの中に、まだ希望がある限り……私はそうしません。"
+    },
+    {
+        "id": 138,
+        "raw": "[name=\"アーミヤ\"]  どうするかはロスモンティスさん自身が決めることです。忘れるという選択は、彼女自身の意志で為されるべきです。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "どうするかはロスモンティスさん自身が決めることです。忘れるという選択は、彼女自身の意志で為されるべきです。"
+    },
+    {
+        "id": 139,
+        "raw": "[name=\"アーミヤ\"]  本当に忘れられる時が来たら……",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "本当に忘れられる時が来たら……"
+    },
+    {
+        "id": 140,
+        "raw": "[Decision(options=\"彼女の身に何が起きたんだ？;…………;自分はまだ彼女のことをわかっていない。\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "彼女の身に何が起きたんだ？;…………;自分はまだ彼女のことをわかっていない。",
+        "values": "1;2;3"
+    },
+    {
+        "id": 141,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 142,
+        "raw": "[Character(name=\"char_002_amiya_1\")]",
+        "type": "character",
+        "name": "char_002_amiya_1"
+    },
+    {
+        "id": 143,
+        "raw": "[name=\"アーミヤ\"]  Dr.{@nickname}……ロドスのオペレーター選抜は厳しいものです。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "Dr.{@nickname}……ロドスのオペレーター選抜は厳しいものです。"
+    },
+    {
+        "id": 144,
+        "raw": "[name=\"アーミヤ\"]  戦闘への参加を申請してくるオペレーターはたくさんいますが、その多くを私たちは断っています。ロドスは様々な面から、その人の戦闘適性を判断しますので。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "戦闘への参加を申請してくるオペレーターはたくさんいますが、その多くを私たちは断っています。ロドスは様々な面から、その人の戦闘適性を判断しますので。"
+    },
+    {
+        "id": 145,
+        "raw": "[name=\"アーミヤ\"]  作戦遂行能力、戦術立案能力、フィジカルにメンタル、全てが判断材料になります。でもこれは予備段階での選抜条件に過ぎません。難しいのは次の段階の、「自然かつ絶対的な信頼度」です。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "作戦遂行能力、戦術立案能力、フィジカルにメンタル、全てが判断材料になります。でもこれは予備段階での選抜条件に過ぎません。難しいのは次の段階の、「自然かつ絶対的な信頼度」です。"
+    },
+    {
+        "id": 146,
+        "raw": "[name=\"アーミヤ\"]  実際の任務においては、どうやってお互いを信頼すべきかを心得ていない人がたくさんいます。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "実際の任務においては、どうやってお互いを信頼すべきかを心得ていない人がたくさんいます。"
+    },
+    {
+        "id": 147,
+        "raw": "[name=\"アーミヤ\"]  ロスモンティスさんがここにいるのは、私たちの目的と采配を信じているからであり、そして同じように私たちが彼女の能力と判断を信じているからです。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "ロスモンティスさんがここにいるのは、私たちの目的と采配を信じているからであり、そして同じように私たちが彼女の能力と判断を信じているからです。"
+    },
+    {
+        "id": 148,
+        "raw": "[name=\"アーミヤ\"]  だから私を……いえ、私たちを信じてください、ドクター。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "だから私を……いえ、私たちを信じてください、ドクター。"
+    },
+    {
+        "id": 149,
+        "raw": "[name=\"アーミヤ\"]  そうすればきっと彼女の……感情の色が見えてきますから。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "そうすればきっと彼女の……感情の色が見えてきますから。"
+    },
+    {
+        "id": 150,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 151,
+        "raw": "[name=\"ロスモンティス\"]  …………",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "…………"
+    },
+    {
+        "id": 152,
+        "raw": "[name=\"ロスモンティス\"]  ドクター。ブレイズと一緒に戦ってくれてありがとう。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "ドクター。ブレイズと一緒に戦ってくれてありがとう。"
+    },
+    {
+        "id": 153,
+        "raw": "[Decision(options=\"どうして？;…………;感謝されるようなことじゃない。\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "どうして？;…………;感謝されるようなことじゃない。",
+        "values": "1;2;3"
+    },
+    {
+        "id": 154,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 155,
+        "raw": "[name=\"ロスモンティス\"]  ブレイズにはもっと一緒に戦う人が必要なんだよ。あの人の笑った顔を、私は見たいから。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "ブレイズにはもっと一緒に戦う人が必要なんだよ。あの人の笑った顔を、私は見たいから。"
+    },
+    {
+        "id": 156,
+        "raw": "[name=\"ロスモンティス\"]  あなたのことも、見てみたかった。AceとScoutがずっと話してたドクターが、どんな人なのか見てみたかったの。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "あなたのことも、見てみたかった。AceとScoutがずっと話してたドクターが、どんな人なのか見てみたかったの。"
+    },
+    {
+        "id": 157,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 158,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 159,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 160,
+        "raw": "[Background(image=\"bg_cherunder\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_cherunder.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 161,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 162,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 163,
+        "raw": "[name=\"ケルシー\"]  ここにいたのか。ずいぶんと探したぞ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "ここにいたのか。ずいぶんと探したぞ。"
+    },
+    {
+        "id": 164,
+        "raw": "[Decision(options=\"……これでおあいこだ。\", values=\"1\")]",
+        "type": "decision",
+        "options": "……これでおあいこだ。",
+        "values": "1"
+    },
+    {
+        "id": 165,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 166,
+        "raw": "[name=\"ケルシー\"]  ……高火力で迅速かつ効果的に敵を無力化することができ、優れた自制心と臨機応変さを併せ持つ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "……高火力で迅速かつ効果的に敵を無力化することができ、優れた自制心と臨機応変さを併せ持つ。"
+    },
+    {
+        "id": 167,
+        "raw": "[name=\"ケルシー\"]  ロスモンティスは、ロドスで最も優秀な殲滅戦要員の一人だ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "ロスモンティスは、ロドスで最も優秀な殲滅戦要員の一人だ。"
+    },
+    {
+        "id": 168,
+        "raw": "[name=\"ケルシー\"]  対人コミュニケーションにはやや難がある上、戦闘スタイルも外見に反して容赦無く見える。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "対人コミュニケーションにはやや難がある上、戦闘スタイルも外見に反して容赦無く見える。"
+    },
+    {
+        "id": 169,
+        "raw": "[name=\"ケルシー\"]  彼女と比べれば、チェーンソーを振り回すブレイズの方がまだ受け入れやすいかもしれないな。ロスモンティスの戦闘中に飛び散る破片には確かに不安を覚えるが……",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "彼女と比べれば、チェーンソーを振り回すブレイズの方がまだ受け入れやすいかもしれないな。ロスモンティスの戦闘中に飛び散る破片には確かに不安を覚えるが……"
+    },
+    {
+        "id": 170,
+        "raw": "[name=\"ケルシー\"]  私の保証で君の不安が少しでも和らぐのならそうしよう。君に私の言葉が信じられるのであれば、だが。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "私の保証で君の不安が少しでも和らぐのならそうしよう。君に私の言葉が信じられるのであれば、だが。"
+    },
+    {
+        "id": 171,
+        "raw": "[name=\"ケルシー\"]  ――ロスモンティスが敵を殺してしまうことは実は少ない。戦い方は衝撃的に見えるが、彼女の目的は相手の戦闘能力を奪うことだ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "――ロスモンティスが敵を殺してしまうことは実は少ない。戦い方は衝撃的に見えるが、彼女の目的は相手の戦闘能力を奪うことだ。"
+    },
+    {
+        "id": 172,
+        "raw": "[name=\"ケルシー\"]  その証拠に、先ほどの戦闘では、全ての敵の武装が解除されたが、誰一人死んではいない。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "その証拠に、先ほどの戦闘では、全ての敵の武装が解除されたが、誰一人死んではいない。"
+    },
+    {
+        "id": 173,
+        "raw": "[name=\"ケルシー\"]  彼女の武器コントロール精度は、以前よりかなり向上している。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "彼女の武器コントロール精度は、以前よりかなり向上している。"
+    },
+    {
+        "id": 174,
+        "raw": "[name=\"ケルシー\"]  もちろん、敵の重症者が助かるかどうかは、中枢区画を完全制圧するまでの時間にかかっている。その時になって初めて、ここに医療班を送らせることが可能になるからな。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "もちろん、敵の重症者が助かるかどうかは、中枢区画を完全制圧するまでの時間にかかっている。その時になって初めて、ここに医療班を送らせることが可能になるからな。"
+    },
+    {
+        "id": 175,
+        "raw": "[name=\"ケルシー\"]  だが当然、致命的なダメージを与えることが、目的を達成する条件になる時もある。その際に死傷者が出るのは避けられないことだと覚えておいてくれ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "だが当然、致命的なダメージを与えることが、目的を達成する条件になる時もある。その際に死傷者が出るのは避けられないことだと覚えておいてくれ。"
+    },
+    {
+        "id": 176,
+        "raw": "[name=\"ケルシー\"]  ……まだ不満そうだ。目の当たりにした事実に耐えられないのか？",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "……まだ不満そうだ。目の当たりにした事実に耐えられないのか？"
+    },
+    {
+        "id": 177,
+        "raw": "[Decision(options=\"やはり許されることではない。;……;自分には理解できないことだ。\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "やはり許されることではない。;……;自分には理解できないことだ。",
+        "values": "1;2;3"
+    },
+    {
+        "id": 178,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 179,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 180,
+        "raw": "[name=\"ケルシー\"]  現実は君の想像をはるかに超えるものだろう。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "現実は君の想像をはるかに超えるものだろう。"
+    },
+    {
+        "id": 181,
+        "raw": "[name=\"ケルシー\"]  恐ろしいほどのアーツの才能や精神感応能力を持っていたことが、彼女をエリートオペレーターに抜擢した理由ではない。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "恐ろしいほどのアーツの才能や精神感応能力を持っていたことが、彼女をエリートオペレーターに抜擢した理由ではない。"
+    },
+    {
+        "id": 182,
+        "raw": "[name=\"ケルシー\"]  逆に、エリートオペレーターになったからこそ、このような素質を開花させたと言える。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "逆に、エリートオペレーターになったからこそ、このような素質を開花させたと言える。"
+    },
+    {
+        "id": 183,
+        "raw": "[name=\"ケルシー\"]  「実力を鑑みて彼女を戦場に送るべき」という理屈ではなく、「彼女を戦士にしなければ、恐ろしい結果が待っている」と我々は判断したのだ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "「実力を鑑みて彼女を戦場に送るべき」という理屈ではなく、「彼女を戦士にしなければ、恐ろしい結果が待っている」と我々は判断したのだ。"
+    },
+    {
+        "id": 184,
+        "raw": "[Decision(options=\"どんな結果だ？\", values=\"1\")]",
+        "type": "decision",
+        "options": "どんな結果だ？",
+        "values": "1"
+    },
+    {
+        "id": 185,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 186,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 187,
+        "raw": "[name=\"ケルシー\"]  端的に言えば、彼女の身体からにじみ出るアーツは、放っておくと他人の命を奪ってしまう。彼女が望むと望まざるとに拘らず、な。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "端的に言えば、彼女の身体からにじみ出るアーツは、放っておくと他人の命を奪ってしまう。彼女が望むと望まざるとに拘らず、な。"
+    },
+    {
+        "id": 188,
+        "raw": "[name=\"ケルシー\"]  人間同士の殺し合いは普遍であり、この大地では途切れることなく発生しているが、多くの人は自らの意志で武器を振るっているはずだ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "人間同士の殺し合いは普遍であり、この大地では途切れることなく発生しているが、多くの人は自らの意志で武器を振るっているはずだ。"
+    },
+    {
+        "id": 189,
+        "raw": "[name=\"ケルシー\"]  自我を失った人が人と呼べるかという問題について議論するつもりはない。だが我々が向き合わなければならないのは、まさにこの問題の延長だ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "自我を失った人が人と呼べるかという問題について議論するつもりはない。だが我々が向き合わなければならないのは、まさにこの問題の延長だ。"
+    },
+    {
+        "id": 190,
+        "raw": "[name=\"ケルシー\"]  「人間から自我が奪われた後、そこに残った個体をいったいどう定義するのか？」",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "「人間から自我が奪われた後、そこに残った個体をいったいどう定義するのか？」"
+    },
+    {
+        "id": 191,
+        "raw": "[name=\"ケルシー\"]  「その個体が兵器となり、それによって他者の命が奪われた時、咎められるべきは誰なのか？」",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "「その個体が兵器となり、それによって他者の命が奪われた時、咎められるべきは誰なのか？」"
+    },
+    {
+        "id": 192,
+        "raw": "[name=\"ケルシー\"]  その兵器を生み出した者か、その兵器を利用した者か、それとも兵器にされた張本人か？",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "その兵器を生み出した者か、その兵器を利用した者か、それとも兵器にされた張本人か？"
+    },
+    {
+        "id": 193,
+        "raw": "[Decision(options=\"また謎解きか。;…………;自分なりの答えを見つけ出してみせる。\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "また謎解きか。;…………;自分なりの答えを見つけ出してみせる。",
+        "values": "1;2;3"
+    },
+    {
+        "id": 194,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 195,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 196,
+        "raw": "[name=\"ケルシー\"]  そのうち説明してやれる時間があるかもしれないが、今は少し自分の頭で考えてみてくれ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "そのうち説明してやれる時間があるかもしれないが、今は少し自分の頭で考えてみてくれ。"
+    },
+    {
+        "id": 197,
+        "raw": "[name=\"ケルシー\"]  ちなみにもう一つ……年齢のことだ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "ちなみにもう一つ……年齢のことだ。"
+    },
+    {
+        "id": 198,
+        "raw": "[name=\"ケルシー\"]  アーミヤが背伸びをしている姿を見て、君が勘違いをしている……かどうかはわからないが——",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "アーミヤが背伸びをしている姿を見て、君が勘違いをしている……かどうかはわからないが——"
+    },
+    {
+        "id": 199,
+        "raw": "[name=\"ケルシー\"]  戦場で兵器として恐れられる子供は、たとえ外見が幼くても普通の子供として見られることはまずない。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "戦場で兵器として恐れられる子供は、たとえ外見が幼くても普通の子供として見られることはまずない。"
+    },
+    {
+        "id": 200,
+        "raw": "[name=\"ケルシー\"]  ――ましてや、多くのことを経験したあの二人なら尚のこと。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "――ましてや、多くのことを経験したあの二人なら尚のこと。"
+    },
+    {
+        "id": 201,
+        "raw": "[name=\"ケルシー\"]  少しお喋りが過ぎたな……さて、そろそろ地表に向けて出発する頃合だ。もう一度自分の装備をチェックしてくれ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "少しお喋りが過ぎたな……さて、そろそろ地表に向けて出発する頃合だ。もう一度自分の装備をチェックしてくれ。"
+    },
+    {
+        "id": 202,
+        "raw": "[Decision(options=\"待て！　つまりアーミヤは……彼女も兵器だというのか？\", values=\"1\")]",
+        "type": "decision",
+        "options": "待て！　つまりアーミヤは……彼女も兵器だというのか？",
+        "values": "1"
+    },
+    {
+        "id": 203,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 204,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 205,
+        "raw": "[name=\"ケルシー\"]  ……本人に訊けばいい。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "……本人に訊けばいい。"
+    },
+    {
+        "id": 206,
+        "raw": "[name=\"ケルシー\"]  むしろ、それは本人の口から聞くべきことだ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "むしろ、それは本人の口から聞くべきことだ。"
+    },
+    {
+        "id": 207,
+        "raw": "[stopmusic(fadetime=3)]",
+        "type": "stop_music",
+        "fadetime": 3
+    },
+    {
+        "id": 208,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 209,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 210,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 211,
+        "raw": "[cameraEffect(effect=\"Grayscale\", keep=true, amount=1, fadetime=0)]",
+        "type": "camera_effect",
+        "effect": "Grayscale",
+        "keep": "true,",
+        "amount": "1,",
+        "fadetime": 0
+    },
+    {
+        "id": 212,
+        "raw": "[Background(image=\"bg_corridor\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_corridor.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 213,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 214,
+        "raw": "[playMusic(intro=\"$darkness02_intro\", key=\"$darkness02_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta1_180603/m_dia_darkness02_intro.mp3",
+        "key": "sound_beta_2/music/beta1_180603/m_dia_darkness02_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 215,
+        "raw": "[Character(name=\"char_171_bldsk_1\",fadetime=1,block=true)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 216,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 217,
+        "raw": "[name=\"ワルファリン\"]  ケルシー！　待つのだ！",
+        "type": "dialog",
+        "speaker": "ワルファリン",
+        "content": "ケルシー！　待つのだ！"
+    },
+    {
+        "id": 218,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=2)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 2
+    },
+    {
+        "id": 219,
+        "raw": "[name=\"ケルシー\"]  ワルファリンか。もうすぐ出発だ。言いたいことがあれば要点だけにしろ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "ワルファリンか。もうすぐ出発だ。言いたいことがあれば要点だけにしろ。"
+    },
+    {
+        "id": 220,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=1)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 1
+    },
+    {
+        "id": 221,
+        "raw": "[name=\"ワルファリン\"]  あの預言は知っておるな？　いや、そなたが知らぬはずはない。",
+        "type": "dialog",
+        "speaker": "ワルファリン",
+        "content": "あの預言は知っておるな？　いや、そなたが知らぬはずはない。"
+    },
+    {
+        "id": 222,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=2)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 2
+    },
+    {
+        "id": 223,
+        "raw": "[name=\"ケルシー\"]  預言？",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "預言？"
+    },
+    {
+        "id": 224,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=1)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 1
+    },
+    {
+        "id": 225,
+        "raw": "[name=\"ワルファリン\"]  そうだ。あれのためにアーミヤを連れて行こうというのか？",
+        "type": "dialog",
+        "speaker": "ワルファリン",
+        "content": "そうだ。あれのためにアーミヤを連れて行こうというのか？"
+    },
+    {
+        "id": 226,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=2)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 2
+    },
+    {
+        "id": 227,
+        "raw": "[name=\"ケルシー\"]  ……アーミヤこそがこの作戦の発起人であり、総指揮なのだが。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "……アーミヤこそがこの作戦の発起人であり、総指揮なのだが。"
+    },
+    {
+        "id": 228,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=1)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 1
+    },
+    {
+        "id": 229,
+        "raw": "[name=\"ワルファリン\"]  まだ幼子である彼女に総指揮など務まるはずが——",
+        "type": "dialog",
+        "speaker": "ワルファリン",
+        "content": "まだ幼子である彼女に総指揮など務まるはずが——"
+    },
+    {
+        "id": 230,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=2)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 2
+    },
+    {
+        "id": 231,
+        "raw": "[name=\"ケルシー\"]  ワルファリン。私たちがカズデルを離れてから、どれほど経っていると思う？",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "ワルファリン。私たちがカズデルを離れてから、どれほど経っていると思う？"
+    },
+    {
+        "id": 232,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=1)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 1
+    },
+    {
+        "id": 233,
+        "raw": "[name=\"ワルファリン\"]  …………",
+        "type": "dialog",
+        "speaker": "ワルファリン",
+        "content": "…………"
+    },
+    {
+        "id": 234,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=2)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 2
+    },
+    {
+        "id": 235,
+        "raw": "[name=\"ケルシー\"]  話は終わりだな。それでは行くぞ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "話は終わりだな。それでは行くぞ。"
+    },
+    {
+        "id": 236,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=1)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 1
+    },
+    {
+        "id": 237,
+        "raw": "[name=\"ワルファリン\"]  2ヶ月ほどか？",
+        "type": "dialog",
+        "speaker": "ワルファリン",
+        "content": "2ヶ月ほどか？"
+    },
+    {
+        "id": 238,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=2)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 2
+    },
+    {
+        "id": 239,
+        "raw": "[name=\"ケルシー\"]  冗談に付き合ってる暇はない。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "冗談に付き合ってる暇はない。"
+    },
+    {
+        "id": 240,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=1)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 1
+    },
+    {
+        "id": 241,
+        "raw": "[name=\"ワルファリン\"]  わかっておる。あの子はもう成長したと言いたいのであろう。",
+        "type": "dialog",
+        "speaker": "ワルファリン",
+        "content": "わかっておる。あの子はもう成長したと言いたいのであろう。"
+    },
+    {
+        "id": 242,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=2)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 2
+    },
+    {
+        "id": 243,
+        "raw": "[name=\"ケルシー\"]  そうだ、ワルファリン。時が経つのは早い。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "そうだ、ワルファリン。時が経つのは早い。"
+    },
+    {
+        "id": 244,
+        "raw": "[name=\"ケルシー\"]  そもそもコータスとブラッドブルードとでは、成長速度に天地ほどの開きがある……私たちがカズデルを出てから今日までで既に3年が経過している。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "そもそもコータスとブラッドブルードとでは、成長速度に天地ほどの開きがある……私たちがカズデルを出てから今日までで既に3年が経過している。"
+    },
+    {
+        "id": 245,
+        "raw": "[name=\"ケルシー\"]  君にとっては一瞬かもしれないが、アーミヤが成長するには十分な時間だ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "君にとっては一瞬かもしれないが、アーミヤが成長するには十分な時間だ。"
+    },
+    {
+        "id": 246,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=1)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 1
+    },
+    {
+        "id": 247,
+        "raw": "[name=\"ワルファリン\"]  それについてはもういい……まずは妾の質問に答えろ。預言だ。",
+        "type": "dialog",
+        "speaker": "ワルファリン",
+        "content": "それについてはもういい……まずは妾の質問に答えろ。預言だ。"
+    },
+    {
+        "id": 248,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=2)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 2
+    },
+    {
+        "id": 249,
+        "raw": "[name=\"ケルシー\"]  ……「最後のウェンディゴは魔王の手によって死ぬ」？",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "……「最後のウェンディゴは魔王の手によって死ぬ」？"
+    },
+    {
+        "id": 250,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=1)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 1
+    },
+    {
+        "id": 251,
+        "raw": "[name=\"ワルファリン\"]  それだ。妾はあの遊撃隊もそのリーダーのこともよく知っておる。預言が示しておるのは奴のことに違いない。",
+        "type": "dialog",
+        "speaker": "ワルファリン",
+        "content": "それだ。妾はあの遊撃隊もそのリーダーのこともよく知っておる。預言が示しておるのは奴のことに違いない。"
+    },
+    {
+        "id": 252,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=2)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 2
+    },
+    {
+        "id": 253,
+        "raw": "[name=\"ケルシー\"]  預言の原文は「ホルテクツの仔、サルカズに背きし者、及び其の不義の血脈に連なる末裔は、サルカズ君主の手ずから断絶せらる」というものだ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "預言の原文は「ホルテクツの仔、サルカズに背きし者、及び其の不義の血脈に連なる末裔は、サルカズ君主の手ずから断絶せらる」というものだ。"
+    },
+    {
+        "id": 254,
+        "raw": "[name=\"ケルシー\"]  あれは預言とは呼べない。彼らの純粋な——いわゆる「血脈」が生き延びていようがいまいが、今でもウルサスやクルビアには多くのウェンディゴが生存している。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "あれは預言とは呼べない。彼らの純粋な——いわゆる「血脈」が生き延びていようがいまいが、今でもウルサスやクルビアには多くのウェンディゴが生存している。"
+    },
+    {
+        "id": 255,
+        "raw": "[name=\"ケルシー\"]  ……数十人を「多く」と言って差し支えないのであれば、な。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "……数十人を「多く」と言って差し支えないのであれば、な。"
+    },
+    {
+        "id": 256,
+        "raw": "[name=\"ケルシー\"]  それに、当時の状況を考えれば、あれは威嚇や牽制として見るのが妥当だろう。ウェンディゴがカズデルから離れることを望まない者は大勢いた。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "それに、当時の状況を考えれば、あれは威嚇や牽制として見るのが妥当だろう。ウェンディゴがカズデルから離れることを望まない者は大勢いた。"
+    },
+    {
+        "id": 257,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=1)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 1
+    },
+    {
+        "id": 258,
+        "raw": "[name=\"ワルファリン\"]  しかし、最初にこの預言を問題視し始めたのは妾たちではないぞ。そなたもなんだかんだと言いながらもしっかり記憶しておるのは、それが重要だと思ってるゆえではないのか？",
+        "type": "dialog",
+        "speaker": "ワルファリン",
+        "content": "しかし、最初にこの預言を問題視し始めたのは妾たちではないぞ。そなたもなんだかんだと言いながらもしっかり記憶しておるのは、それが重要だと思ってるゆえではないのか？"
+    },
+    {
+        "id": 259,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=2)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 2
+    },
+    {
+        "id": 260,
+        "raw": "[name=\"ケルシー\"]  ……君も歳を取ったな。サルカズ巫術の「預言」などという戯言を信じるとは。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "……君も歳を取ったな。サルカズ巫術の「預言」などという戯言を信じるとは。"
+    },
+    {
+        "id": 261,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=1)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 1
+    },
+    {
+        "id": 262,
+        "raw": "[name=\"ワルファリン\"]  歳？　そ、そなたに言われとうないわ！",
+        "type": "dialog",
+        "speaker": "ワルファリン",
+        "content": "歳？　そ、そなたに言われとうないわ！"
+    },
+    {
+        "id": 263,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=2)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 2
+    },
+    {
+        "id": 264,
+        "raw": "[name=\"ケルシー\"]  私は鉱石病に感染している。その時が来るまでは常に死と隣り合わせだ。ワルファリン、私の命はきっと君の想像よりも短いだろう。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "私は鉱石病に感染している。その時が来るまでは常に死と隣り合わせだ。ワルファリン、私の命はきっと君の想像よりも短いだろう。"
+    },
+    {
+        "id": 265,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=1)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 1
+    },
+    {
+        "id": 266,
+        "raw": "[name=\"ワルファリン\"]  なっ！？",
+        "type": "dialog",
+        "speaker": "ワルファリン",
+        "content": "なっ！？"
+    },
+    {
+        "id": 267,
+        "raw": "[name=\"ワルファリン\"]  狡いぞ！　そのような深刻めいた話にすり替えて誤魔化す気か！？　妾があのクロージャの小娘のように、軽く受け流すことなどできぬと知っておろうが！",
+        "type": "dialog",
+        "speaker": "ワルファリン",
+        "content": "狡いぞ！　そのような深刻めいた話にすり替えて誤魔化す気か！？　妾があのクロージャの小娘のように、軽く受け流すことなどできぬと知っておろうが！"
+    },
+    {
+        "id": 268,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=2)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 2
+    },
+    {
+        "id": 269,
+        "raw": "[name=\"ケルシー\"]  深刻な話を始めたのは君の方だろうに。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "深刻な話を始めたのは君の方だろうに。"
+    },
+    {
+        "id": 270,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=1)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 1
+    },
+    {
+        "id": 271,
+        "raw": "[name=\"ワルファリン\"]  ……まあよい。",
+        "type": "dialog",
+        "speaker": "ワルファリン",
+        "content": "……まあよい。"
+    },
+    {
+        "id": 272,
+        "raw": "[name=\"ワルファリン\"]  ケルシー、よく聞け。他の者はそなたに遠慮して言えぬだろうが、妾は言うてやる。",
+        "type": "dialog",
+        "speaker": "ワルファリン",
+        "content": "ケルシー、よく聞け。他の者はそなたに遠慮して言えぬだろうが、妾は言うてやる。"
+    },
+    {
+        "id": 273,
+        "raw": "[name=\"ワルファリン\"]  あやつは妾たち同様、数少ない生き残りの一人だ。",
+        "type": "dialog",
+        "speaker": "ワルファリン",
+        "content": "あやつは妾たち同様、数少ない生き残りの一人だ。"
+    },
+    {
+        "id": 274,
+        "raw": "[name=\"ワルファリン\"]  妾がブラッドブルードで、あの老いぼれがウェンディゴでも、それは関係ない。",
+        "type": "dialog",
+        "speaker": "ワルファリン",
+        "content": "妾がブラッドブルードで、あの老いぼれがウェンディゴでも、それは関係ない。"
+    },
+    {
+        "id": 275,
+        "raw": "[name=\"ワルファリン\"]  ……この大地で、サルカズは不遇の日々を送っている。妾は慈善家でもお人好しでもないが、可能なら、あやつにはカズデルに戻ってほしいのだ。無論、我々ロドスに来てもよいが。",
+        "type": "dialog",
+        "speaker": "ワルファリン",
+        "content": "……この大地で、サルカズは不遇の日々を送っている。妾は慈善家でもお人好しでもないが、可能なら、あやつにはカズデルに戻ってほしいのだ。無論、我々ロドスに来てもよいが。"
+    },
+    {
+        "id": 276,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=2)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 2
+    },
+    {
+        "id": 277,
+        "raw": "[name=\"ケルシー\"]  …………",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "…………"
+    },
+    {
+        "id": 278,
+        "raw": "[name=\"ケルシー\"]  私は違うのだ、ワルファリン。私はサルカズではない。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "私は違うのだ、ワルファリン。私はサルカズではない。"
+    },
+    {
+        "id": 279,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=1)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 1
+    },
+    {
+        "id": 280,
+        "raw": "[name=\"ワルファリン\"]  ……つまり、妾の頼みは聞けぬということか？",
+        "type": "dialog",
+        "speaker": "ワルファリン",
+        "content": "……つまり、妾の頼みは聞けぬということか？"
+    },
+    {
+        "id": 281,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=2)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 2
+    },
+    {
+        "id": 282,
+        "raw": "[name=\"ケルシー\"]  いや……",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "いや……"
+    },
+    {
+        "id": 283,
+        "raw": "[name=\"ケルシー\"]  わかった、ベストを尽くそう。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "わかった、ベストを尽くそう。"
+    },
+    {
+        "id": 284,
+        "raw": "[name=\"ケルシー\"]  ……ワルファリン、私も彼のことはよく覚えている。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "……ワルファリン、私も彼のことはよく覚えている。"
+    },
+    {
+        "id": 285,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=1)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 1
+    },
+    {
+        "id": 286,
+        "raw": "[name=\"ワルファリン\"]  そなたの約束があれば何よりも心強い。",
+        "type": "dialog",
+        "speaker": "ワルファリン",
+        "content": "そなたの約束があれば何よりも心強い。"
+    },
+    {
+        "id": 287,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=2)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 2
+    },
+    {
+        "id": 288,
+        "raw": "[name=\"ケルシー\"]  そううまく行くとは思わないことだな。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "そううまく行くとは思わないことだな。"
+    },
+    {
+        "id": 289,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=1)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 1
+    },
+    {
+        "id": 290,
+        "raw": "[name=\"ワルファリン\"]  だが今回はそなた自らが出動するのであろう？　それなら、どんな結果でも受け入れよう。",
+        "type": "dialog",
+        "speaker": "ワルファリン",
+        "content": "だが今回はそなた自らが出動するのであろう？　それなら、どんな結果でも受け入れよう。"
+    },
+    {
+        "id": 291,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=2)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 2
+    },
+    {
+        "id": 292,
+        "raw": "[name=\"ケルシー\"]  ……君の忠告は遅過ぎた。君のところにはまだ伝わっていないかもしれないが、不吉なことが既に起きている。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "……君の忠告は遅過ぎた。君のところにはまだ伝わっていないかもしれないが、不吉なことが既に起きている。"
+    },
+    {
+        "id": 293,
+        "raw": "[name=\"ケルシー\"]  先日、チェルノボーグの感染者診療所「アザゼル」より最新の情報が入った。判明したのは彼がレユニオンに協力しているということだけではない。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "先日、チェルノボーグの感染者診療所「アザゼル」より最新の情報が入った。判明したのは彼がレユニオンに協力しているということだけではない。"
+    },
+    {
+        "id": 294,
+        "raw": "[name=\"ケルシー\"]  それから、彼と敵対するなら、ウルサスで最も凶悪な太刀筋を味わうことになると、君も知っているはずだ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "それから、彼と敵対するなら、ウルサスで最も凶悪な太刀筋を味わうことになると、君も知っているはずだ。"
+    },
+    {
+        "id": 295,
+        "raw": "[name=\"ケルシー\"]  ロドスのオペレーターをそんな危険に晒すべきではない。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "ロドスのオペレーターをそんな危険に晒すべきではない。"
+    },
+    {
+        "id": 296,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=1)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 1
+    },
+    {
+        "id": 297,
+        "raw": "[name=\"ワルファリン\"]  患者の治療には限界があるが、その上限値は医者にかかっている。つまり事の成否は人の努力次第だ。",
+        "type": "dialog",
+        "speaker": "ワルファリン",
+        "content": "患者の治療には限界があるが、その上限値は医者にかかっている。つまり事の成否は人の努力次第だ。"
+    },
+    {
+        "id": 298,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 299,
+        "raw": "[name=\"ケルシー\"]  ……努力次第、か。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "……努力次第、か。"
+    },
+    {
+        "id": 300,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 301,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 302,
+        "raw": "[cameraEffect(effect=\"Grayscale\", keep=true, amount=0, fadetime=0)]",
+        "type": "camera_effect",
+        "effect": "Grayscale",
+        "keep": "true,",
+        "amount": "0,",
+        "fadetime": 0
+    },
+    {
+        "id": 303,
+        "raw": "[name=\"ケルシー\"]  もう一つ注意しておこう。前にも言ったことがある……君は忘れたかもしれないが。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "もう一つ注意しておこう。前にも言ったことがある……君は忘れたかもしれないが。"
+    },
+    {
+        "id": 304,
+        "raw": "[name=\"ケルシー\"]  今回、それを理由に君を咎めるようなことはしない。しかし万が一の時には、何か強制的な手段を取る用意はある。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "今回、それを理由に君を咎めるようなことはしない。しかし万が一の時には、何か強制的な手段を取る用意はある。"
+    },
+    {
+        "id": 305,
+        "raw": "[name=\"ケルシー\"]  横暴だとは言わせない、ワルファリン。これは掟だ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "横暴だとは言わせない、ワルファリン。これは掟だ。"
+    },
+    {
+        "id": 306,
+        "raw": "[name=\"ケルシー\"]  「いかなる場合でも――たとえロドスの中にいても――『魔王』という言葉を口にすることは一切禁ずる。」",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "「いかなる場合でも――たとえロドスの中にいても――『魔王』という言葉を口にすることは一切禁ずる。」"
+    },
+    {
+        "id": 307,
+        "raw": "[name=\"ケルシー\"]  絶対にだ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "絶対にだ。"
+    },
+    {
+        "id": 308,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 309,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 310,
+        "raw": "[Background(image=\"bg_cherunder\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_cherunder.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 311,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 312,
+        "raw": "[Character(name=\"char_002_amiya_1#7\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#7"
+    },
+    {
+        "id": 313,
+        "raw": "[name=\"アーミヤ\"]  ……これは。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "……これは。"
+    },
+    {
+        "id": 314,
+        "raw": "[playMusic(intro=\"$plot_intro\", key=\"$plot_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act9d0d0/m_avg_plot_intro.mp3",
+        "key": "sound_beta_2/music/act9d0d0/m_avg_plot_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 315,
+        "raw": "[name=\"アーミヤ\"]  総員、休め！",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "総員、休め！"
+    },
+    {
+        "id": 316,
+        "raw": "[name=\"アーミヤ\"]  ロスモンティスさん……私の気のせいでしょうか？",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "ロスモンティスさん……私の気のせいでしょうか？"
+    },
+    {
+        "id": 317,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 318,
+        "raw": "[name=\"ロスモンティス\"]  ううん。私も感じた。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "ううん。私も感じた。"
+    },
+    {
+        "id": 319,
+        "raw": "[Character(name=\"char_002_amiya_1#7\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#7"
+    },
+    {
+        "id": 320,
+        "raw": "[name=\"アーミヤ\"]  Dr.{@nickname}、想定外の状況が起きたかも知れません。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "Dr.{@nickname}、想定外の状況が起きたかも知れません。"
+    },
+    {
+        "id": 321,
+        "raw": "[Decision(options=\"何があった？\", values=\"1\")]",
+        "type": "decision",
+        "options": "何があった？",
+        "values": "1"
+    },
+    {
+        "id": 322,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 323,
+        "raw": "[Character(name=\"char_002_amiya_1#7\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#7"
+    },
+    {
+        "id": 324,
+        "raw": "[name=\"アーミヤ\"]  まだ確信はできませんが……",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "まだ確信はできませんが……"
+    },
+    {
+        "id": 325,
+        "raw": "[name=\"アーミヤ\"]  この都市の移動速度が……落ちている？",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "この都市の移動速度が……落ちている？"
+    },
+    {
+        "id": 326,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 327,
+        "raw": "[Blocker(fadetime=3,block=true)]",
+        "type": "blocker",
+        "fadetime": "3,block=true"
+    },
+    {
+        "id": 328,
+        "raw": "[Image]",
+        "type": "image"
+    }
+]

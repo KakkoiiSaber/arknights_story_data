@@ -1,0 +1,1260 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")] ",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK"
+    },
+    {
+        "id": 2,
+        "raw": "[stopmusic]",
+        "type": "stop_music"
+    },
+    {
+        "id": 3,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 4,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 5,
+        "raw": "[Blocker(fadetime=1,block=true)]",
+        "type": "blocker",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 6,
+        "raw": "中枢区画地下エリア",
+        "type": "narration",
+        "content": "中枢区画地下エリア"
+    },
+    {
+        "id": 7,
+        "raw": "10:30 a.m.",
+        "type": "narration",
+        "content": "10:30 a.m."
+    },
+    {
+        "id": 8,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 9,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 10,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 11,
+        "raw": "[Background(image=\"bg_cherunder\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_cherunder.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 12,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 13,
+        "raw": "[playMusic(intro=\"$darkness02_intro\", key=\"$darkness02_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta1_180603/m_dia_darkness02_intro.mp3",
+        "key": "sound_beta_2/music/beta1_180603/m_dia_darkness02_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 14,
+        "raw": "[Character(name=\"char_003_kalts_1\",fadetime=1,block=true)]",
+        "type": "character",
+        "name": "char_003_kalts_1",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 15,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 16,
+        "raw": "[Decision(options=\"こんなとこにいたのか？\", values=\"1\")]",
+        "type": "decision",
+        "options": "こんなとこにいたのか？",
+        "values": "1"
+    },
+    {
+        "id": 17,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 18,
+        "raw": "[name=\"ケルシー\"]  そうだ。君を待っていた。遅いぞ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "そうだ。君を待っていた。遅いぞ。"
+    },
+    {
+        "id": 19,
+        "raw": "[Decision(options=\"言っておいて欲しかったな。結構探したんだぞ……\", values=\"1\")]",
+        "type": "decision",
+        "options": "言っておいて欲しかったな。結構探したんだぞ……",
+        "values": "1"
+    },
+    {
+        "id": 20,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 21,
+        "raw": "[name=\"ケルシー\"]  周辺の把握が終わり次第行動を開始する。それまでに、君にここの現状を説明しよう。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "周辺の把握が終わり次第行動を開始する。それまでに、君にここの現状を説明しよう。"
+    },
+    {
+        "id": 22,
+        "raw": "[name=\"ケルシー\"]  アーミヤは現場の処理に向かわせた。このブリーフィングには参加しない。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "アーミヤは現場の処理に向かわせた。このブリーフィングには参加しない。"
+    },
+    {
+        "id": 23,
+        "raw": "[name=\"ケルシー\"]  任務の概要には既に目を通していると思うが、君がここで行動するにあたって、あれだけの資料では足りないだろう。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "任務の概要には既に目を通していると思うが、君がここで行動するにあたって、あれだけの資料では足りないだろう。"
+    },
+    {
+        "id": 24,
+        "raw": "[Decision(options=\"ようやく実力を認めてもらえたようだな。;……;戦地指揮しか能がないと思われてたのかと。\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "ようやく実力を認めてもらえたようだな。;……;戦地指揮しか能がないと思われてたのかと。",
+        "values": "1;2;3"
+    },
+    {
+        "id": 25,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 26,
+        "raw": "[name=\"ケルシー\"]  もし最悪の状況が発生した場合、君が理由も知らないまま命を失うのはさすがに忍びないのでな。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "もし最悪の状況が発生した場合、君が理由も知らないまま命を失うのはさすがに忍びないのでな。"
+    },
+    {
+        "id": 27,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 28,
+        "raw": "[name=\"ケルシー\"]  私の顔に気になる部分があるならはっきり言ってくれて構わない。黙りこくって見つめられてもわからないのでな。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "私の顔に気になる部分があるならはっきり言ってくれて構わない。黙りこくって見つめられてもわからないのでな。"
+    },
+    {
+        "id": 29,
+        "raw": "[Predicate(references=\"3\")]",
+        "type": "predicate",
+        "references": "3"
+    },
+    {
+        "id": 30,
+        "raw": "[name=\"ケルシー\"]  覚えていないかもしれないが、君の特技は確か、インスタント麺を口の中で調理することだったな。乾麺と粉末スープを口に入れて、熱湯を注いで3分。碗もフォークも要らないと豪語していたが……",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "覚えていないかもしれないが、君の特技は確か、インスタント麺を口の中で調理することだったな。乾麺と粉末スープを口に入れて、熱湯を注いで3分。碗もフォークも要らないと豪語していたが……"
+    },
+    {
+        "id": 31,
+        "raw": "[name=\"ケルシー\"]  ここから生還できたら試してみるといい。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "ここから生還できたら試してみるといい。"
+    },
+    {
+        "id": 32,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 33,
+        "raw": "[name=\"ケルシー\"]  無駄話はここまでにしよう。時間がない。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "無駄話はここまでにしよう。時間がない。"
+    },
+    {
+        "id": 34,
+        "raw": "[name=\"ケルシー\"]  先日の龍門における戦闘で、ロドスと近衛局は協力してレユニオンを撃退し、「メフィスト」と「クラウンスレイヤー」が率いる部隊を壊滅させた。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "先日の龍門における戦闘で、ロドスと近衛局は協力してレユニオンを撃退し、「メフィスト」と「クラウンスレイヤー」が率いる部隊を壊滅させた。"
+    },
+    {
+        "id": 35,
+        "raw": "[name=\"ケルシー\"]  これにより、レユニオンは、龍門内の戦力を全て失った。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "これにより、レユニオンは、龍門内の戦力を全て失った。"
+    },
+    {
+        "id": 36,
+        "raw": "[name=\"ケルシー\"]  アーミヤから報告は受けている。君たちはレユニオンの特殊部隊の指揮官――「フロストノヴァ」という名の感染者と、龍門の底部で熾烈な戦いを繰り広げたと。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "アーミヤから報告は受けている。君たちはレユニオンの特殊部隊の指揮官――「フロストノヴァ」という名の感染者と、龍門の底部で熾烈な戦いを繰り広げたと。"
+    },
+    {
+        "id": 37,
+        "raw": "[name=\"ケルシー\"]  最後は君たちが勝利を収めたようだが。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "最後は君たちが勝利を収めたようだが。"
+    },
+    {
+        "id": 38,
+        "raw": "[Decision(options=\"勝者などいない。;違う。;あれは勝利とは呼べない。\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "勝者などいない。;違う。;あれは勝利とは呼べない。",
+        "values": "1;2;3"
+    },
+    {
+        "id": 39,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 40,
+        "raw": "[name=\"ケルシー\"]  そうか……PRTSからの報告によると、君はオペレーターの協力のもと、ロドスで敵感染者の遺体を処理したそうだな。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "そうか……PRTSからの報告によると、君はオペレーターの協力のもと、ロドスで敵感染者の遺体を処理したそうだな。"
+    },
+    {
+        "id": 41,
+        "raw": "[Decision(options=\"彼女は敵ではない。\", values=\"1\")]",
+        "type": "decision",
+        "options": "彼女は敵ではない。",
+        "values": "1"
+    },
+    {
+        "id": 42,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 43,
+        "raw": "[name=\"ケルシー\"]  Dr.{@nickname}、「敵味方の分別をわきまえろ」。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "Dr.{@nickname}、「敵味方の分別をわきまえろ」。"
+    },
+    {
+        "id": 44,
+        "raw": "[name=\"ケルシー\"]  ……いや、この言い方は勘違いを生むかもしれん。ひとまず、最後まで話を聞いてくれ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "……いや、この言い方は勘違いを生むかもしれん。ひとまず、最後まで話を聞いてくれ。"
+    },
+    {
+        "id": 45,
+        "raw": "[Decision(options=\"......?\", values=\"1\")]",
+        "type": "decision",
+        "options": "......?",
+        "values": "1"
+    },
+    {
+        "id": 46,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 47,
+        "raw": "[name=\"ケルシー\"]  君を責めているのではない、Dr.{@nickname}。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "君を責めているのではない、Dr.{@nickname}。"
+    },
+    {
+        "id": 48,
+        "raw": "[name=\"ケルシー\"]  アーミヤから敵指揮官の事情は聞いている。現場を君たちに任せている以上、状況にどう対処するかは、現場にいる君たち次第だ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "アーミヤから敵指揮官の事情は聞いている。現場を君たちに任せている以上、状況にどう対処するかは、現場にいる君たち次第だ。"
+    },
+    {
+        "id": 49,
+        "raw": "[name=\"ケルシー\"]  責任を負わない私には、現場の判断に口出しする資格がない。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "責任を負わない私には、現場の判断に口出しする資格がない。"
+    },
+    {
+        "id": 50,
+        "raw": "[name=\"ケルシー\"]  君は感染者の行動の動機を理解しようとした。フロストノヴァ——彼女の行動がもたらした結果を背負いたいと思った。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "君は感染者の行動の動機を理解しようとした。フロストノヴァ——彼女の行動がもたらした結果を背負いたいと思った。"
+    },
+    {
+        "id": 51,
+        "raw": "[name=\"ケルシー\"]  そしてそれを実行した……と、そういうことだな。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "そしてそれを実行した……と、そういうことだな。"
+    },
+    {
+        "id": 52,
+        "raw": "[name=\"ケルシー\"]  君がこの大地で起こっている出来事を真摯に理解しようとしているなら、私には君を責める理由はない、ドクター。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "君がこの大地で起こっている出来事を真摯に理解しようとしているなら、私には君を責める理由はない、ドクター。"
+    },
+    {
+        "id": 53,
+        "raw": "[name=\"ケルシー\"]  それどころか、オペレーターたちに対し、君の行動を保証することも厭わない。どうかその姿勢を貫いてくれ、Dr.{@nickname}。君の判断には、私もなるべく干渉しないようにする。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "それどころか、オペレーターたちに対し、君の行動を保証することも厭わない。どうかその姿勢を貫いてくれ、Dr.{@nickname}。君の判断には、私もなるべく干渉しないようにする。"
+    },
+    {
+        "id": 54,
+        "raw": "[name=\"ケルシー\"]  それによる結果のうち、ロドスの責任となる部分は私が背負う。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "それによる結果のうち、ロドスの責任となる部分は私が背負う。"
+    },
+    {
+        "id": 55,
+        "raw": "[name=\"ケルシー\"]  君の責任と権限は互いに補完し合う事で成立する。「敵味方の分別をわきまえろ」とは言ったが、それは君自身が判断するのだ。私ではなく、な。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "君の責任と権限は互いに補完し合う事で成立する。「敵味方の分別をわきまえろ」とは言ったが、それは君自身が判断するのだ。私ではなく、な。"
+    },
+    {
+        "id": 56,
+        "raw": "[name=\"ケルシー\"]  …………",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "…………"
+    },
+    {
+        "id": 57,
+        "raw": "[name=\"ケルシー\"]  （もし君が本当に彼らと共に生きようとするならば、な。）",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "（もし君が本当に彼らと共に生きようとするならば、な。）"
+    },
+    {
+        "id": 58,
+        "raw": "[Decision(options=\"つまり自分は認められたということか？\", values=\"1\")]",
+        "type": "decision",
+        "options": "つまり自分は認められたということか？",
+        "values": "1"
+    },
+    {
+        "id": 59,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 60,
+        "raw": "[name=\"ケルシー\"]  そうは言っていないが。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "そうは言っていないが。"
+    },
+    {
+        "id": 61,
+        "raw": "[name=\"ケルシー\"]  話を戻そうか。フロストノヴァが率いた小隊「スノーデビル」は、とある感染者遊撃隊に属している。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "話を戻そうか。フロストノヴァが率いた小隊「スノーデビル」は、とある感染者遊撃隊に属している。"
+    },
+    {
+        "id": 62,
+        "raw": "[name=\"ケルシー\"]  今現在、レユニオンに動かせる精鋭部隊は残り二つのみ。遊撃隊はその一つだ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "今現在、レユニオンに動かせる精鋭部隊は残り二つのみ。遊撃隊はその一つだ。"
+    },
+    {
+        "id": 63,
+        "raw": "[name=\"ケルシー\"]  そしてもう一つの精鋭部隊は、サルカズの傭兵「W」という指揮官が率いるサルカズ傭兵軍だ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "そしてもう一つの精鋭部隊は、サルカズの傭兵「W」という指揮官が率いるサルカズ傭兵軍だ。"
+    },
+    {
+        "id": 64,
+        "raw": "[name=\"ケルシー\"]  情報では、Wは様々な手段を用いて、サルカズ傭兵軍のリーダーの座を手に入れたそうだ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "情報では、Wは様々な手段を用いて、サルカズ傭兵軍のリーダーの座を手に入れたそうだ。"
+    },
+    {
+        "id": 65,
+        "raw": "[name=\"ケルシー\"]  はっきり言おう。このサルカズ傭兵軍という連中は信用ならない。それはWにとっても、レユニオンにとっても、という意味だ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "はっきり言おう。このサルカズ傭兵軍という連中は信用ならない。それはWにとっても、レユニオンにとっても、という意味だ。"
+    },
+    {
+        "id": 66,
+        "raw": "[name=\"ケルシー\"]  彼女らは普通の傭兵組織ではない。カズデルの管理キャパシティを超えた軍事力が、各地に溢れ出た結果の産物だ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "彼女らは普通の傭兵組織ではない。カズデルの管理キャパシティを超えた軍事力が、各地に溢れ出た結果の産物だ。"
+    },
+    {
+        "id": 67,
+        "raw": "[name=\"ケルシー\"]  それを利用しようとすれば、後ろで糸を引いている者を呼び寄せる羽目になるだけだ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "それを利用しようとすれば、後ろで糸を引いている者を呼び寄せる羽目になるだけだ。"
+    },
+    {
+        "id": 68,
+        "raw": "[Decision(options=\"サルカズをよく知っているようだな。\", values=\"1\")]",
+        "type": "decision",
+        "options": "サルカズをよく知っているようだな。",
+        "values": "1"
+    },
+    {
+        "id": 69,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 70,
+        "raw": "[name=\"ケルシー\"]  重要なのはそこではない。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "重要なのはそこではない。"
+    },
+    {
+        "id": 71,
+        "raw": "[name=\"ケルシー\"]  問題は、スノーデビルの所属する遊撃隊は、他の傭兵たちとは全く違うということだ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "問題は、スノーデビルの所属する遊撃隊は、他の傭兵たちとは全く違うということだ。"
+    },
+    {
+        "id": 72,
+        "raw": "[name=\"ケルシー\"]  隊の形式、編制、行動の傾向、そして掲げる理念。遊撃隊と傭兵との間には、共通点は一つもない。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "隊の形式、編制、行動の傾向、そして掲げる理念。遊撃隊と傭兵との間には、共通点は一つもない。"
+    },
+    {
+        "id": 73,
+        "raw": "[name=\"ケルシー\"]  レユニオンの配下になる以前、独立した一個の組織だった彼らは、一部地域の感染者たちの間で、後からのし上がってきたレユニオンよりもその名を轟かせていた。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "レユニオンの配下になる以前、独立した一個の組織だった彼らは、一部地域の感染者たちの間で、後からのし上がってきたレユニオンよりもその名を轟かせていた。"
+    },
+    {
+        "id": 74,
+        "raw": "[name=\"ケルシー\"]  彼らの正体は……元ウルサス軍の一部だ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "彼らの正体は……元ウルサス軍の一部だ。"
+    },
+    {
+        "id": 75,
+        "raw": "[Decision(options=\"それは西北凍原の遊撃隊のことか？\", values=\"1\")]",
+        "type": "decision",
+        "options": "それは西北凍原の遊撃隊のことか？",
+        "values": "1"
+    },
+    {
+        "id": 76,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 77,
+        "raw": "[name=\"ケルシー\"]  …………",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "…………"
+    },
+    {
+        "id": 78,
+        "raw": "[name=\"ケルシー\"]  どこでその情報を手に入れたのかは知らないが、賞賛に値する情報収集能力だ、ドクター。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "どこでその情報を手に入れたのかは知らないが、賞賛に値する情報収集能力だ、ドクター。"
+    },
+    {
+        "id": 79,
+        "raw": "[name=\"ケルシー\"]  入手自体はさほど難しいものではないが、君が自ら情報を得ようとするその姿勢は、喜ばしいことだ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "入手自体はさほど難しいものではないが、君が自ら情報を得ようとするその姿勢は、喜ばしいことだ。"
+    },
+    {
+        "id": 80,
+        "raw": "[Decision(options=\"回りくどい褒め方はやめろ。;……;皮肉に聞こえるんだが？\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "回りくどい褒め方はやめろ。;……;皮肉に聞こえるんだが？",
+        "values": "1;2;3"
+    },
+    {
+        "id": 81,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 82,
+        "raw": "[name=\"ケルシー\"]  ま、これくらいにしておこう。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "ま、これくらいにしておこう。"
+    },
+    {
+        "id": 83,
+        "raw": "[name=\"ケルシー\"]  ここからの行動について伝える。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "ここからの行動について伝える。"
+    },
+    {
+        "id": 84,
+        "raw": "[name=\"ケルシー\"]  私たちが率いる三つの小隊は、地下通路、下水道および工業エリアをくぐり抜け、中央エリアへ向かう。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "私たちが率いる三つの小隊は、地下通路、下水道および工業エリアをくぐり抜け、中央エリアへ向かう。"
+    },
+    {
+        "id": 85,
+        "raw": "[name=\"ケルシー\"]  注意すべきなのは、ここで巡回している敵は、通常のレユニオンの暴徒たちとは違うということだ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "注意すべきなのは、ここで巡回している敵は、通常のレユニオンの暴徒たちとは違うということだ。"
+    },
+    {
+        "id": 86,
+        "raw": "[name=\"ケルシー\"]  厳しく訓練された「兵士」に遭遇することになる。ウルサス軍流のやり方で遊撃隊が鍛え上げた、レユニオンの「兵士」たちだ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "厳しく訓練された「兵士」に遭遇することになる。ウルサス軍流のやり方で遊撃隊が鍛え上げた、レユニオンの「兵士」たちだ。"
+    },
+    {
+        "id": 87,
+        "raw": "[name=\"ケルシー\"]  それに加えて、我々の偵察隊が都市の通信網が人為的に切断されていることを発見した。あるいは、レユニオンは通信を維持する気がないのかもしれない。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "それに加えて、我々の偵察隊が都市の通信網が人為的に切断されていることを発見した。あるいは、レユニオンは通信を維持する気がないのかもしれない。"
+    },
+    {
+        "id": 88,
+        "raw": "[name=\"ケルシー\"]  通常の通信手段を使用する現代の戦術部隊にとっては、かなりの牽制となる。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "通常の通信手段を使用する現代の戦術部隊にとっては、かなりの牽制となる。"
+    },
+    {
+        "id": 89,
+        "raw": "[name=\"ケルシー\"]  つまりは、レユニオンには特殊な通信手段がある、もしくはまだ応戦の準備ができていない、ということを意味するが——",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "つまりは、レユニオンには特殊な通信手段がある、もしくはまだ応戦の準備ができていない、ということを意味するが——"
+    },
+    {
+        "id": 90,
+        "raw": "[name=\"ケルシー\"]  チェルノボーグ事変を鑑みれば、後者である可能性はほぼゼロだ。しかし通信を切断すれば、下層にいるレユニオン兵は一切の指示を受けられなくなる。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "チェルノボーグ事変を鑑みれば、後者である可能性はほぼゼロだ。しかし通信を切断すれば、下層にいるレユニオン兵は一切の指示を受けられなくなる。"
+    },
+    {
+        "id": 91,
+        "raw": "[name=\"ケルシー\"]  つまり、ほとんどの時間、彼らは自由な独立行動をとるはずだ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "つまり、ほとんどの時間、彼らは自由な独立行動をとるはずだ。"
+    },
+    {
+        "id": 92,
+        "raw": "[name=\"ケルシー\"]  おそらく彼らはまだ気づいていないだろう。自分たちのチャンネルが受信できないシグナル――国や都市にしか識別できないあのシグナルが、ウルサスの画策する陰謀を乗せて発信されていることに。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "おそらく彼らはまだ気づいていないだろう。自分たちのチャンネルが受信できないシグナル――国や都市にしか識別できないあのシグナルが、ウルサスの画策する陰謀を乗せて発信されていることに。"
+    },
+    {
+        "id": 93,
+        "raw": "[name=\"ケルシー\"]  この都市は嵐を孕んでいる。意図的であろうとそうでなかろうと、混乱は重い煙のように広がっていくだろう。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "この都市は嵐を孕んでいる。意図的であろうとそうでなかろうと、混乱は重い煙のように広がっていくだろう。"
+    },
+    {
+        "id": 94,
+        "raw": "[name=\"ケルシー\"]  私より先に、誰かによって崩壊の種が既に撒かれていたのだ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "私より先に、誰かによって崩壊の種が既に撒かれていたのだ。"
+    },
+    {
+        "id": 95,
+        "raw": "[Decision(options=\"つまりどういうことだ？\", values=\"1\")]",
+        "type": "decision",
+        "options": "つまりどういうことだ？",
+        "values": "1"
+    },
+    {
+        "id": 96,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 97,
+        "raw": "[name=\"ケルシー\"]  レユニオンの内部に衝突が生まれつつある。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "レユニオンの内部に衝突が生まれつつある。"
+    },
+    {
+        "id": 98,
+        "raw": "[Decision(options=\"確証はあるのか？\", values=\"1\")]",
+        "type": "decision",
+        "options": "確証はあるのか？",
+        "values": "1"
+    },
+    {
+        "id": 99,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 100,
+        "raw": "[name=\"ケルシー\"]  似たようなことは、この大地で何度も繰り返されている。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "似たようなことは、この大地で何度も繰り返されている。"
+    },
+    {
+        "id": 101,
+        "raw": "[Decision(options=\"……まだ何か自分に伝えていないことがあるだろう？\", values=\"1\")]",
+        "type": "decision",
+        "options": "……まだ何か自分に伝えていないことがあるだろう？",
+        "values": "1"
+    },
+    {
+        "id": 102,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 103,
+        "raw": "[name=\"ケルシー\"]  言えることはほぼ伝えた。残りは必要な時に話そう。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "言えることはほぼ伝えた。残りは必要な時に話そう。"
+    },
+    {
+        "id": 104,
+        "raw": "[name=\"ケルシー\"]  戦闘の準備段階とはいえ、効率も考えなければならないのだ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "戦闘の準備段階とはいえ、効率も考えなければならないのだ。"
+    },
+    {
+        "id": 105,
+        "raw": "[name=\"ケルシー\"]  ドクター、R-4小隊に指令を出してくれ。これらの装備を取りに来るようにと。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "ドクター、R-4小隊に指令を出してくれ。これらの装備を取りに来るようにと。"
+    },
+    {
+        "id": 106,
+        "raw": "[Decision(options=\"……待て。\", values=\"1\")]",
+        "type": "decision",
+        "options": "……待て。",
+        "values": "1"
+    },
+    {
+        "id": 107,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 108,
+        "raw": "[name=\"ケルシー\"]  まだ何か？",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "まだ何か？"
+    },
+    {
+        "id": 109,
+        "raw": "[Decision(options=\"この装備はロスモンティスのものか？\", values=\"1\")]",
+        "type": "decision",
+        "options": "この装備はロスモンティスのものか？",
+        "values": "1"
+    },
+    {
+        "id": 110,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 111,
+        "raw": "[name=\"ケルシー\"]  そうだ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "そうだ。"
+    },
+    {
+        "id": 112,
+        "raw": "[name=\"ケルシー\"]  なるほど、君と彼女の交流は生物処理室での会話だけではなかったようだな。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "なるほど、君と彼女の交流は生物処理室での会話だけではなかったようだな。"
+    },
+    {
+        "id": 113,
+        "raw": "[Decision(options=\"彼女が戦闘の準備をしている姿を見た。\", values=\"1\")]",
+        "type": "decision",
+        "options": "彼女が戦闘の準備をしている姿を見た。",
+        "values": "1"
+    },
+    {
+        "id": 114,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 115,
+        "raw": "[Decision(options=\"彼女にこんな装備が使いこなせるとは信じがたいな。\", values=\"1\")]",
+        "type": "decision",
+        "options": "彼女にこんな装備が使いこなせるとは信じがたいな。",
+        "values": "1"
+    },
+    {
+        "id": 116,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 117,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 118,
+        "raw": "[name=\"ケルシー\"]  エリートオペレーターにはそれぞれがかなりの力量を持っている。一人で小隊以上の働きをする必要があるからだ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "エリートオペレーターにはそれぞれがかなりの力量を持っている。一人で小隊以上の働きをする必要があるからだ。"
+    },
+    {
+        "id": 119,
+        "raw": "[name=\"ケルシー\"]  ……ということは、君はまだ彼女の戦い振りを見ていないのだな。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "……ということは、君はまだ彼女の戦い振りを見ていないのだな。"
+    },
+    {
+        "id": 120,
+        "raw": "[name=\"ケルシー\"]  言っておくが、彼らに全てを背負わせるわけにはいかない。ロドスの戦地指揮官には様々な責任があり、オペレーターの負担を軽減するのもその内の一つだ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "言っておくが、彼らに全てを背負わせるわけにはいかない。ロドスの戦地指揮官には様々な責任があり、オペレーターの負担を軽減するのもその内の一つだ。"
+    },
+    {
+        "id": 121,
+        "raw": "[name=\"ケルシー\"]  しかし……この後の戦いで、君は衝撃を受けるかもしれないな。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "しかし……この後の戦いで、君は衝撃を受けるかもしれないな。"
+    },
+    {
+        "id": 122,
+        "raw": "[Decision(options=\"どういうことだ……？\", values=\"1\")]",
+        "type": "decision",
+        "options": "どういうことだ……？",
+        "values": "1"
+    },
+    {
+        "id": 123,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 124,
+        "raw": "[name=\"ケルシー\"]  ロスモンティスの戦いに驚かない者はまずいない。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "ロスモンティスの戦いに驚かない者はまずいない。"
+    },
+    {
+        "id": 125,
+        "raw": "[name=\"ケルシー\"]  覚悟をしておくのだな。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "覚悟をしておくのだな。"
+    },
+    {
+        "id": 126,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 127,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 128,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 129,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 130,
+        "raw": "[Background(image=\"bg_cherunder\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_cherunder.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 131,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 132,
+        "raw": "[playMusic(intro=\"$batmeeting_intro\", key=\"$batmeeting_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act9d0d0/m_avg_batmeeting_intro.mp3",
+        "key": "sound_beta_2/music/act9d0d0/m_avg_batmeeting_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 133,
+        "raw": "[Character(name=\"avg_npc_012\")]",
+        "type": "character",
+        "name": "avg_npc_012"
+    },
+    {
+        "id": 134,
+        "raw": "[name=\"オペレーター\"]  Dr.{@nickname}、よく来てくれました！",
+        "type": "dialog",
+        "speaker": "オペレーター",
+        "content": "Dr.{@nickname}、よく来てくれました！"
+    },
+    {
+        "id": 135,
+        "raw": "[name=\"オペレーター\"]  今、巡回してる敵を順次撃破し、処理を進めています。",
+        "type": "dialog",
+        "speaker": "オペレーター",
+        "content": "今、巡回してる敵を順次撃破し、処理を進めています。"
+    },
+    {
+        "id": 136,
+        "raw": "[Decision(options=\"もう戦闘が始まったのか？\", values=\"1\")]",
+        "type": "decision",
+        "options": "もう戦闘が始まったのか？",
+        "values": "1"
+    },
+    {
+        "id": 137,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 138,
+        "raw": "[name=\"オペレーター\"]  ドクター、その位置は危険です……",
+        "type": "dialog",
+        "speaker": "オペレーター",
+        "content": "ドクター、その位置は危険です……"
+    },
+    {
+        "id": 139,
+        "raw": "[name=\"オペレーター\"]  そこから離れたほうがいいですよ。",
+        "type": "dialog",
+        "speaker": "オペレーター",
+        "content": "そこから離れたほうがいいですよ。"
+    },
+    {
+        "id": 140,
+        "raw": "[Decision(options=\"今ここに着いたばかりなのだが。\", values=\"1\")]",
+        "type": "decision",
+        "options": "今ここに着いたばかりなのだが。",
+        "values": "1"
+    },
+    {
+        "id": 141,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 142,
+        "raw": "[name=\"オペレーター\"]  いえ、そこは……",
+        "type": "dialog",
+        "speaker": "オペレーター",
+        "content": "いえ、そこは……"
+    },
+    {
+        "id": 143,
+        "raw": "[name=\"オペレーター\"]  彼女の傍は危険です、ドクター！",
+        "type": "dialog",
+        "speaker": "オペレーター",
+        "content": "彼女の傍は危険です、ドクター！"
+    },
+    {
+        "id": 144,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 145,
+        "raw": "[name=\"？？？\"]  ……敵。",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "……敵。"
+    },
+    {
+        "id": 146,
+        "raw": "[Decision(options=\"まさか……\", values=\"1\")]",
+        "type": "decision",
+        "options": "まさか……",
+        "values": "1"
+    },
+    {
+        "id": 147,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 148,
+        "raw": "[Decision(options=\"……ロスモンティス？\", values=\"1\")]",
+        "type": "decision",
+        "options": "……ロスモンティス？",
+        "values": "1"
+    },
+    {
+        "id": 149,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 150,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3"
+    },
+    {
+        "id": 151,
+        "raw": "[Character(name=\"avg_npc_042\",fadetime=1,block=true)]",
+        "type": "character",
+        "name": "avg_npc_042",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 152,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 153,
+        "raw": "[name=\"ロスモンティス\"]  敵。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "敵。"
+    },
+    {
+        "id": 154,
+        "raw": "[name=\"ロスモンティス\"]  あれは私の家族を殺した人たち……敵だ！",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "あれは私の家族を殺した人たち……敵だ！"
+    },
+    {
+        "id": 155,
+        "raw": "[Decision(options=\"やけに怖い顔をしてないか？;……？;ロスモンティス……何があった？\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "やけに怖い顔をしてないか？;……？;ロスモンティス……何があった？",
+        "values": "1;2;3"
+    },
+    {
+        "id": 156,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 157,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 158,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 159,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 160,
+        "raw": "[name=\"ロスモンティス\"]  …………",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "…………"
+    },
+    {
+        "id": 161,
+        "raw": "[name=\"ロスモンティス\"]  ドクター、下がって。この通路にいちゃダメ。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "ドクター、下がって。この通路にいちゃダメ。"
+    },
+    {
+        "id": 162,
+        "raw": "[name=\"ロスモンティス\"]  私はアーミヤとは違う。アーミヤのアーツは家族に当たらないようにしながら、正確に相手にダメージを与えられるけど……",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "私はアーミヤとは違う。アーミヤのアーツは家族に当たらないようにしながら、正確に相手にダメージを与えられるけど……"
+    },
+    {
+        "id": 163,
+        "raw": "[name=\"ロスモンティス\"]  私にはそれができない。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "私にはそれができない。"
+    },
+    {
+        "id": 164,
+        "raw": "[name=\"ロスモンティス\"]  だから、私と敵の間に立たないで。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "だから、私と敵の間に立たないで。"
+    },
+    {
+        "id": 165,
+        "raw": "[Decision(options=\"......\", values=\"1\")]",
+        "type": "decision",
+        "options": "......",
+        "values": "1"
+    },
+    {
+        "id": 166,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 167,
+        "raw": "[name=\"レユニオン構成員\"]  ひぃー！！",
+        "type": "dialog",
+        "speaker": "レユニオン構成員",
+        "content": "ひぃー！！"
+    },
+    {
+        "id": 168,
+        "raw": "[CameraShake(duration=0.4, xstrength=0, ystrength=8, vibrato=30, randomness=30, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.4,",
+        "xstrength": "0,",
+        "ystrength": "8,",
+        "vibrato": "30,",
+        "randomness": "30,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 169,
+        "raw": "[name=\"レユニオン構成員\"]  あのデカイ箱を背負ってる子供は、い、いったい、何なんだ……？",
+        "type": "dialog",
+        "speaker": "レユニオン構成員",
+        "content": "あのデカイ箱を背負ってる子供は、い、いったい、何なんだ……？"
+    },
+    {
+        "id": 170,
+        "raw": "[name=\"レユニオン構成員\"]  目が、目が見えない！　いっ……痛い！　頭が割れそうだ！！",
+        "type": "dialog",
+        "speaker": "レユニオン構成員",
+        "content": "目が、目が見えない！　いっ……痛い！　頭が割れそうだ！！"
+    },
+    {
+        "id": 171,
+        "raw": "[name=\"レユニオン構成員\"]  どうなってる！？　何かに潰されそうだ！",
+        "type": "dialog",
+        "speaker": "レユニオン構成員",
+        "content": "どうなってる！？　何かに潰されそうだ！"
+    },
+    {
+        "id": 172,
+        "raw": "[name=\"ロスモンティス\"]  …………",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "…………"
+    },
+    {
+        "id": 173,
+        "raw": "[name=\"ロスモンティス\"]  大丈夫だよ。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "大丈夫だよ。"
+    },
+    {
+        "id": 174,
+        "raw": "[name=\"ロスモンティス\"]  人を握り潰すなんて、もうずいぶんしてないから。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "人を握り潰すなんて、もうずいぶんしてないから。"
+    },
+    {
+        "id": 175,
+        "raw": "[name=\"レユニオン構成員\"]  あの剣、あの剣は――",
+        "type": "dialog",
+        "speaker": "レユニオン構成員",
+        "content": "あの剣、あの剣は――"
+    },
+    {
+        "id": 176,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 177,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 178,
+        "raw": "[Decision(options=\"ロスモンティス！？\", values=\"1\")]",
+        "type": "decision",
+        "options": "ロスモンティス！？",
+        "values": "1"
+    },
+    {
+        "id": 179,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 180,
+        "raw": "[name=\"ロスモンティス\"]  レユニオン……",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "レユニオン……"
+    },
+    {
+        "id": 181,
+        "raw": "[name=\"ロスモンティス\"]  あなたたちを私の記憶に残したくない。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "あなたたちを私の記憶に残したくない。"
+    },
+    {
+        "id": 182,
+        "raw": "[name=\"ロスモンティス\"]  憶えていたくないの。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "憶えていたくないの。"
+    },
+    {
+        "id": 183,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 184,
+        "raw": "[Blocker(fadetime=2,block=true)]",
+        "type": "blocker",
+        "fadetime": "2,block=true"
+    },
+    {
+        "id": 185,
+        "raw": "[Image]",
+        "type": "image"
+    }
+]

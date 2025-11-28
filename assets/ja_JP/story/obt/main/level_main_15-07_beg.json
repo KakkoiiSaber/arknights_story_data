@@ -1,0 +1,2240 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")]",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK"
+    },
+    {
+        "id": 2,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 3,
+        "raw": "[stopmusic]",
+        "type": "stop_music"
+    },
+    {
+        "id": 4,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 5,
+        "raw": "[Image(image=\"avg_ac8mi_Pre\",screenadapt=\"coverall\", fadetime=0)]",
+        "type": "image",
+        "image": "avg_ac8mi_Pre.png",
+        "screenadapt": "coverall",
+        "fadetime": 0
+    },
+    {
+        "id": 6,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 7,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 8,
+        "raw": "[playMusic(intro=\"$loneliness_intro\",key=\"$loneliness_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/static/m_avg/m_avg_loneliness_intro.mp3",
+        "key": "sound_beta_2/music/static/m_avg/m_avg_loneliness_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 9,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 10,
+        "raw": "その光景はあなたたちの目の前にあるにもかかわらず、どうやっても近付くことができない。",
+        "type": "narration",
+        "content": "その光景はあなたたちの目の前にあるにもかかわらず、どうやっても近付くことができない。"
+    },
+    {
+        "id": 11,
+        "raw": "[name=\"アーミヤ\"]ドクター、あの人と話しているのは……ドクターですか？",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "ドクター、あの人と話しているのは……ドクターですか？"
+    },
+    {
+        "id": 12,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 13,
+        "raw": "[Decision(options=\"……;断言はできない。\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "……;断言はできない。",
+        "values": "1;2"
+    },
+    {
+        "id": 14,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 15,
+        "raw": "[name=\"プリースティス\"]（未知の言語）私一人の力で、究極の答えを述べ表すに足る言語を創造できるとは思っていないわ。",
+        "type": "dialog",
+        "speaker": "プリースティス",
+        "content": "（未知の言語）私一人の力で、究極の答えを述べ表すに足る言語を創造できるとは思っていないわ。"
+    },
+    {
+        "id": 16,
+        "raw": "[name=\"プリースティス\"]（未知の言語）少なくとも、同胞たちが共有した各領域における最先端の研究成果は、すでに深く掘り下げていくための基盤を作ってくれた。",
+        "type": "dialog",
+        "speaker": "プリースティス",
+        "content": "（未知の言語）少なくとも、同胞たちが共有した各領域における最先端の研究成果は、すでに深く掘り下げていくための基盤を作ってくれた。"
+    },
+    {
+        "id": 17,
+        "raw": "[name=\"オラクル\"]（未知の言語）たとえ、最終的に得るものは何もなかったとしてもか？",
+        "type": "dialog",
+        "speaker": "オラクル",
+        "content": "（未知の言語）たとえ、最終的に得るものは何もなかったとしてもか？"
+    },
+    {
+        "id": 18,
+        "raw": "[name=\"プリースティス\"]（未知の言語）ええ、どうせこれが初めてではないもの。",
+        "type": "dialog",
+        "speaker": "プリースティス",
+        "content": "（未知の言語）ええ、どうせこれが初めてではないもの。"
+    },
+    {
+        "id": 19,
+        "raw": "[name=\"プリースティス\"]（未知の言語）暗闇に呑み込まれていくのを静かに待つこの日々では、これ以上良い方法はないように思えるわ。違う？",
+        "type": "dialog",
+        "speaker": "プリースティス",
+        "content": "（未知の言語）暗闇に呑み込まれていくのを静かに待つこの日々では、これ以上良い方法はないように思えるわ。違う？"
+    },
+    {
+        "id": 20,
+        "raw": "[name=\"プリースティス\"]（未知の言語）それに、あなたは私を拒絶しないでしょう。{@nickname}。",
+        "type": "dialog",
+        "speaker": "プリースティス",
+        "content": "（未知の言語）それに、あなたは私を拒絶しないでしょう。{@nickname}。"
+    },
+    {
+        "id": 21,
+        "raw": "[name=\"オラクル\"]……",
+        "type": "dialog",
+        "speaker": "オラクル",
+        "content": "……"
+    },
+    {
+        "id": 22,
+        "raw": "[name=\"オラクル\"]（未知の言語）どこから研究を始めるつもりだ？",
+        "type": "dialog",
+        "speaker": "オラクル",
+        "content": "（未知の言語）どこから研究を始めるつもりだ？"
+    },
+    {
+        "id": 23,
+        "raw": "プリースティスは答えず、空の果てを微かに彩る朝焼けをじっと見ている。隣にいるその人物も、彼女の邪魔をしようとはしない。",
+        "type": "narration",
+        "content": "プリースティスは答えず、空の果てを微かに彩る朝焼けをじっと見ている。隣にいるその人物も、彼女の邪魔をしようとはしない。"
+    },
+    {
+        "id": 24,
+        "raw": "二人はただ、そうして甲板に立っている。",
+        "type": "narration",
+        "content": "二人はただ、そうして甲板に立っている。"
+    },
+    {
+        "id": 25,
+        "raw": "あなたは彼女の後ろ姿を見て、無意識に自分にこう言った。「彼女は、また考えている。」――",
+        "type": "narration",
+        "content": "あなたは彼女の後ろ姿を見て、無意識に自分にこう言った。「彼女は、また考えている。」――"
+    },
+    {
+        "id": 26,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 27,
+        "raw": "[Decision(options=\"……\", values=\"1\")]",
+        "type": "decision",
+        "options": "……",
+        "values": "1"
+    },
+    {
+        "id": 28,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 29,
+        "raw": "なぜ唐突にそう思ったのだろうか？",
+        "type": "narration",
+        "content": "なぜ唐突にそう思ったのだろうか？"
+    },
+    {
+        "id": 30,
+        "raw": "[name=\"アーミヤ\"]ドクター、どうしたんですか？",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "ドクター、どうしたんですか？"
+    },
+    {
+        "id": 31,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 32,
+        "raw": "[Decision(options=\"何でもない、ただぼうっとしていただけだ。\", values=\"1\")]",
+        "type": "decision",
+        "options": "何でもない、ただぼうっとしていただけだ。",
+        "values": "1"
+    },
+    {
+        "id": 33,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 34,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 35,
+        "raw": "[Decision(options=\"ここにはもう重要な手がかりはないように思う。\", values=\"1\")]",
+        "type": "decision",
+        "options": "ここにはもう重要な手がかりはないように思う。",
+        "values": "1"
+    },
+    {
+        "id": 36,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 37,
+        "raw": "[name=\"アーミヤ\"]ケルシー先生が気に留めていた情報はここにはないんですか？",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "ケルシー先生が気に留めていた情報はここにはないんですか？"
+    },
+    {
+        "id": 38,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 39,
+        "raw": "[Decision(options=\"これは源石が誕生する前の歴史の破片のはずだ。\", values=\"1\")]",
+        "type": "decision",
+        "options": "これは源石が誕生する前の歴史の破片のはずだ。",
+        "values": "1"
+    },
+    {
+        "id": 40,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 41,
+        "raw": "[name=\"アーミヤ\"]……！？",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "……！？"
+    },
+    {
+        "id": 42,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 43,
+        "raw": "[Decision(options=\"自分の内なる宇宙における経験を踏まえた推測だ。\", values=\"1\")]",
+        "type": "decision",
+        "options": "自分の内なる宇宙における経験を踏まえた推測だ。",
+        "values": "1"
+    },
+    {
+        "id": 44,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 45,
+        "raw": "[name=\"アーミヤ\"]つまり、私たちが今捉えているこの光景はドクターの……",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "つまり、私たちが今捉えているこの光景はドクターの……"
+    },
+    {
+        "id": 46,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 47,
+        "raw": "[Decision(options=\"恐らくそれだけではない。\", values=\"1\")]",
+        "type": "decision",
+        "options": "恐らくそれだけではない。",
+        "values": "1"
+    },
+    {
+        "id": 48,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 49,
+        "raw": "[name=\"アーミヤ\"]――まさか、空に浮かぶあの巨大な船と砕けた壮大な球体も……",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "――まさか、空に浮かぶあの巨大な船と砕けた壮大な球体も……"
+    },
+    {
+        "id": 50,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 51,
+        "raw": "[Decision(options=\"自分とこれらの情報にどう繋がりがあるかわからない。\", values=\"1\")]",
+        "type": "decision",
+        "options": "自分とこれらの情報にどう繋がりがあるかわからない。",
+        "values": "1"
+    },
+    {
+        "id": 52,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 53,
+        "raw": "[name=\"アーミヤ\"]いずれわかる時がきますよ、ドクター。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "いずれわかる時がきますよ、ドクター。"
+    },
+    {
+        "id": 54,
+        "raw": "[name=\"アーミヤ\"]ですが、ここは私たちにとって重要ではないとおっしゃるなら、前へ進みましょう。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "ですが、ここは私たちにとって重要ではないとおっしゃるなら、前へ進みましょう。"
+    },
+    {
+        "id": 55,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 56,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 57,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 58,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 59,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 60,
+        "raw": "[Image(image=\"60_i04\",screenadapt=\"coverall\")]",
+        "type": "image",
+        "image": "60_i04.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 61,
+        "raw": "[ImageTween( xScaleFrom=1, yScaleFrom=1, xScaleTo=1.2, yScaleTo=1.2,duration=100)]",
+        "type": "image_tween",
+        "xScaleFrom": "1,",
+        "yScaleFrom": "1,",
+        "xScaleTo": "1.2,",
+        "yScaleTo": "1.2,duration=100"
+    },
+    {
+        "id": 62,
+        "raw": "[CameraShake(duration=-1, xstrength=3, ystrength=2, vibrato=20, randomness=60, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "-1,",
+        "xstrength": "3,",
+        "ystrength": "2,",
+        "vibrato": "20,",
+        "randomness": "60,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 63,
+        "raw": "[playMusic(intro=\"$shatterpoint_02_intro\",key=\"$shatterpoint_02_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act27d0d0/m_bat_shatterpoint_02_intro.mp3",
+        "key": "sound_beta_2/music/act27d0d0/m_bat_shatterpoint_02_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 64,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 65,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 66,
+        "raw": "[name=\"アーミヤ\"]特異点は目の前ですが、構築した通路にも限界が迫っています。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "特異点は目の前ですが、構築した通路にも限界が迫っています。"
+    },
+    {
+        "id": 67,
+        "raw": "[name=\"アーミヤ\"]情報の密度が非常に高いので、進み続けようとすると深い川に溺れているみたいに感じます。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "情報の密度が非常に高いので、進み続けようとすると深い川に溺れているみたいに感じます。"
+    },
+    {
+        "id": 68,
+        "raw": "[name=\"アーミヤ\"]……これらの無秩序な情報の中からどうやって必要な情報を見分けたらいいんでしょうか。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "……これらの無秩序な情報の中からどうやって必要な情報を見分けたらいいんでしょうか。"
+    },
+    {
+        "id": 69,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 70,
+        "raw": "[Decision(options=\"任せてくれ。\", values=\"1\")]",
+        "type": "decision",
+        "options": "任せてくれ。",
+        "values": "1"
+    },
+    {
+        "id": 71,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 72,
+        "raw": "あなたたちの思考が特異点に限りなく近付いていくのと同時に、実体に近い膨大な情報があなたたちを押し潰そうとしている……",
+        "type": "narration",
+        "content": "あなたたちの思考が特異点に限りなく近付いていくのと同時に、実体に近い膨大な情報があなたたちを押し潰そうとしている……"
+    },
+    {
+        "id": 73,
+        "raw": "あなたはこの圧力に適応できている一方で、アーミヤが苦しげに耐え忍んでいるのを感じる。",
+        "type": "narration",
+        "content": "あなたはこの圧力に適応できている一方で、アーミヤが苦しげに耐え忍んでいるのを感じる。"
+    },
+    {
+        "id": 74,
+        "raw": "あなたたちに残された時間は多くない。",
+        "type": "narration",
+        "content": "あなたたちに残された時間は多くない。"
+    },
+    {
+        "id": 75,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 76,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 77,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 78,
+        "raw": "[CameraShake(duration=0, xstrength=3, ystrength=2, vibrato=20, randomness=60, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0,",
+        "xstrength": "3,",
+        "ystrength": "2,",
+        "vibrato": "20,",
+        "randomness": "60,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 79,
+        "raw": "[Image(image=\"60_i05\",screenadapt=\"coverall\")]",
+        "type": "image",
+        "image": "60_i05.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 80,
+        "raw": "[bgeffect(name=\"$eb_confusion_centra\",layer=1)]",
+        "type": "bg_effect",
+        "name": "$eb_confusion_centra",
+        "layer": 1
+    },
+    {
+        "id": 81,
+        "raw": "[bgeffect(name=\"$eb_confusion_loop\",layer=3)]",
+        "type": "bg_effect",
+        "name": "$eb_confusion_loop",
+        "layer": 3
+    },
+    {
+        "id": 82,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 83,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 84,
+        "raw": "あなたは内なる宇宙で「プリースティス」という人物が述べていたキーワードを全て抽出し、ケルシーが残した手がかりの一つ一つを素早くそれに結びつけた。",
+        "type": "narration",
+        "content": "あなたは内なる宇宙で「プリースティス」という人物が述べていたキーワードを全て抽出し、ケルシーが残した手がかりの一つ一つを素早くそれに結びつけた。"
+    },
+    {
+        "id": 85,
+        "raw": "新たな結果を高速で計算し、新たな条件を入力する……必要な情報だけを分離できるまで、それを絶えず繰り返して進み続ける。",
+        "type": "narration",
+        "content": "新たな結果を高速で計算し、新たな条件を入力する……必要な情報だけを分離できるまで、それを絶えず繰り返して進み続ける。"
+    },
+    {
+        "id": 86,
+        "raw": "あなたの思考は、果てしのない積み木の海に沈み込んでいるようなものであり、あなたがやらねばならないことは最初から複雑ではない。",
+        "type": "narration",
+        "content": "あなたの思考は、果てしのない積み木の海に沈み込んでいるようなものであり、あなたがやらねばならないことは最初から複雑ではない。"
+    },
+    {
+        "id": 87,
+        "raw": "色が異なる異類を見つける。そこにはケルシーがあなたに残した言葉が整然と刻まれていた――",
+        "type": "narration",
+        "content": "色が異なる異類を見つける。そこにはケルシーがあなたに残した言葉が整然と刻まれていた――"
+    },
+    {
+        "id": 88,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 89,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", text=\"「私は忘れたことがない。」\", x=320,y=340, alignment=\"center\", size=24, delay=0.001, width=700,block = true,duration=1)]",
+        "type": "sticker",
+        "text": "「私は忘れたことがない。」",
+        "x": "320,y=340,",
+        "alignment": "center",
+        "size": "24,",
+        "delay": "0.001,",
+        "width": "700,block",
+        "duration": 1
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\",duration=1,block = false)]",
+        "type": "sticker",
+        "duration": "1,block"
+    },
+    {
+        "id": 92,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 93,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 94,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 95,
+        "raw": "[Decision(options=\"アーミヤ、成功したようだ。\", values=\"1\")]",
+        "type": "decision",
+        "options": "アーミヤ、成功したようだ。",
+        "values": "1"
+    },
+    {
+        "id": 96,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 97,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 98,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 99,
+        "raw": "[Blocker(a=1, r=1, g=1, b=1, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "1,",
+        "g": "1,",
+        "b": "1,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 100,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 101,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 102,
+        "raw": "[image]",
+        "type": "image"
+    },
+    {
+        "id": 103,
+        "raw": "[bgeffect]",
+        "type": "bg_effect"
+    },
+    {
+        "id": 104,
+        "raw": "[Background(image=\"60_g1_rhodescorridor_bc\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "60_g1_rhodescorridor_bc.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 105,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 106,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 107,
+        "raw": "[playMusic(key=\"$calm_loop\", volume=0.6)]",
+        "type": "play_music",
+        "key": "sound_beta_2/music/avg/m_avg_calm_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 108,
+        "raw": "[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#5$2\",duration=1)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_1037_amiya3_1#5$2.png",
+        "duration": 1
+    },
+    {
+        "id": 109,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 110,
+        "raw": "[name=\"アーミヤ\"]……ここは、どこですか？",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "……ここは、どこですか？"
+    },
+    {
+        "id": 111,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 112,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 113,
+        "raw": "[Decision(options=\"ロドスだ。;過去のロドスだ。\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "ロドスだ。;過去のロドスだ。",
+        "values": "1;2"
+    },
+    {
+        "id": 114,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 115,
+        "raw": "[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#5$2\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_1037_amiya3_1#5$2.png"
+    },
+    {
+        "id": 116,
+        "raw": "[name=\"アーミヤ\"]――！？",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "――！？"
+    },
+    {
+        "id": 117,
+        "raw": "[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#10$2\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_1037_amiya3_1#10$2.png"
+    },
+    {
+        "id": 118,
+        "raw": "[name=\"アーミヤ\"]でも、ここは私たちのロドスとは――",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "でも、ここは私たちのロドスとは――"
+    },
+    {
+        "id": 119,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 120,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 121,
+        "raw": "[Decision(options=\"まるで異なる。\", values=\"1\")]",
+        "type": "decision",
+        "options": "まるで異なる。",
+        "values": "1"
+    },
+    {
+        "id": 122,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 123,
+        "raw": "[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#7$2\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_1037_amiya3_1#7$2.png"
+    },
+    {
+        "id": 124,
+        "raw": "[name=\"アーミヤ\"]ケルシー先生の話では、この船はもともとレム・ビリトンで発掘されたもので、修繕を経てようやく使えるようになったそうです。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "ケルシー先生の話では、この船はもともとレム・ビリトンで発掘されたもので、修繕を経てようやく使えるようになったそうです。"
+    },
+    {
+        "id": 125,
+        "raw": "[name=\"アーミヤ\"]それならば……ロドスは一体何を経験したんでしょう？",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "それならば……ロドスは一体何を経験したんでしょう？"
+    },
+    {
+        "id": 126,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 127,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 128,
+        "raw": "[Decision(options=\"自分にも全く見当がつかない。\", values=\"1\")]",
+        "type": "decision",
+        "options": "自分にも全く見当がつかない。",
+        "values": "1"
+    },
+    {
+        "id": 129,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 130,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 131,
+        "raw": "[name=\"？？？\"]（未知の言語）今日は元気そうだ。我々の努力は、報われたようだな。",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "（未知の言語）今日は元気そうだ。我々の努力は、報われたようだな。"
+    },
+    {
+        "id": 132,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 133,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1360_1#1$1\",duration=1)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1360_1#1$1.png",
+        "duration": 1
+    },
+    {
+        "id": 134,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 135,
+        "raw": "[name=\"オラクル\"]（未知の言語）実験室に一人でいるのは怖いか？",
+        "type": "dialog",
+        "speaker": "オラクル",
+        "content": "（未知の言語）実験室に一人でいるのは怖いか？"
+    },
+    {
+        "id": 136,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 137,
+        "raw": "[name=\"原始構造体\"]（誇らしげな振動音）",
+        "type": "dialog",
+        "speaker": "原始構造体",
+        "content": "（誇らしげな振動音）"
+    },
+    {
+        "id": 138,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1360_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1360_1#1$1.png"
+    },
+    {
+        "id": 139,
+        "raw": "[name=\"オラクル\"]（未知の言語）ちょうどいい。今特殊媒体におけるメタ情報のロスを減らすためのモデルをシミュレートしていたんだ。演算を手伝ってもらえるか？",
+        "type": "dialog",
+        "speaker": "オラクル",
+        "content": "（未知の言語）ちょうどいい。今特殊媒体におけるメタ情報のロスを減らすためのモデルをシミュレートしていたんだ。演算を手伝ってもらえるか？"
+    },
+    {
+        "id": 140,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 141,
+        "raw": "[name=\"原始構造体\"]（焦りながら震える）",
+        "type": "dialog",
+        "speaker": "原始構造体",
+        "content": "（焦りながら震える）"
+    },
+    {
+        "id": 142,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 143,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 144,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1360_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1360_1#1$1.png"
+    },
+    {
+        "id": 145,
+        "raw": "[name=\"オラクル\"]（未知の言語）十分だ。すでに君のプロセスは、強制的に終了させた。",
+        "type": "dialog",
+        "speaker": "オラクル",
+        "content": "（未知の言語）十分だ。すでに君のプロセスは、強制的に終了させた。"
+    },
+    {
+        "id": 146,
+        "raw": "[name=\"オラクル\"]（未知の言語）いついかなる時であろうと、自身のコアアセンブリを傷つけてはいけない。たとえそれが自分や彼女の命令だったとしても。",
+        "type": "dialog",
+        "speaker": "オラクル",
+        "content": "（未知の言語）いついかなる時であろうと、自身のコアアセンブリを傷つけてはいけない。たとえそれが自分や彼女の命令だったとしても。"
+    },
+    {
+        "id": 147,
+        "raw": "[name=\"オラクル\"]（未知の言語）自身を守るんだ、AMa-10。生存こそ生命が誕生した時から備える本能だ。",
+        "type": "dialog",
+        "speaker": "オラクル",
+        "content": "（未知の言語）自身を守るんだ、AMa-10。生存こそ生命が誕生した時から備える本能だ。"
+    },
+    {
+        "id": 148,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 149,
+        "raw": "[name=\"原始構造体\"]（悔しそうな振動音）",
+        "type": "dialog",
+        "speaker": "原始構造体",
+        "content": "（悔しそうな振動音）"
+    },
+    {
+        "id": 150,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1360_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1360_1#1$1.png"
+    },
+    {
+        "id": 151,
+        "raw": "[name=\"オラクル\"]（未知の言語）はは。少なくとも君が感情モジュールのセルフアップデートをする速度は早いな。",
+        "type": "dialog",
+        "speaker": "オラクル",
+        "content": "（未知の言語）はは。少なくとも君が感情モジュールのセルフアップデートをする速度は早いな。"
+    },
+    {
+        "id": 152,
+        "raw": "[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#7$2\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_1037_amiya3_1#7$2.png"
+    },
+    {
+        "id": 153,
+        "raw": "[name=\"アーミヤ\"]ドクター、この言語を理解できますか？",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "ドクター、この言語を理解できますか？"
+    },
+    {
+        "id": 154,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 155,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 156,
+        "raw": "[Decision(options=\"できない。\", values=\"1\")]",
+        "type": "decision",
+        "options": "できない。",
+        "values": "1"
+    },
+    {
+        "id": 157,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 158,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 159,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 160,
+        "raw": "[Decision(options=\"あの人物と奇妙な造物に気を取られる必要はない。;鍵は別の場所にある。\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "あの人物と奇妙な造物に気を取られる必要はない。;鍵は別の場所にある。",
+        "values": "1;2"
+    },
+    {
+        "id": 161,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 162,
+        "raw": "[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#1$2\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_1037_amiya3_1#1$2.png"
+    },
+    {
+        "id": 163,
+        "raw": "[name=\"アーミヤ\"]そうですね。私たちなら鍵を見つけられるとケルシー先生が信じているからには、言語の壁もきっと彼女の想定の範囲内のはずです。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "そうですね。私たちなら鍵を見つけられるとケルシー先生が信じているからには、言語の壁もきっと彼女の想定の範囲内のはずです。"
+    },
+    {
+        "id": 164,
+        "raw": "[name=\"アーミヤ\"]ドクター、あの人のそばのガラスを見てみてください。たくさんの文字が書かれています。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "ドクター、あの人のそばのガラスを見てみてください。たくさんの文字が書かれています。"
+    },
+    {
+        "id": 165,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 166,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 167,
+        "raw": "[Decision(options=\"あれは、公式か？\", values=\"1\")]",
+        "type": "decision",
+        "options": "あれは、公式か？",
+        "values": "1"
+    },
+    {
+        "id": 168,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 169,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 170,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1360_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1360_1#1$1.png"
+    },
+    {
+        "id": 171,
+        "raw": "[name=\"オラクル\"]（未知の言語）源石についての研究の進捗が芳しくないことが残念だ。",
+        "type": "dialog",
+        "speaker": "オラクル",
+        "content": "（未知の言語）源石についての研究の進捗が芳しくないことが残念だ。"
+    },
+    {
+        "id": 172,
+        "raw": "[name=\"オラクル\"]（未知の言語）我々は今まさに、これまで探知したことのない領域に触れようとしている。他の者がついてくるのは困難だろう。",
+        "type": "dialog",
+        "speaker": "オラクル",
+        "content": "（未知の言語）我々は今まさに、これまで探知したことのない領域に触れようとしている。他の者がついてくるのは困難だろう。"
+    },
+    {
+        "id": 173,
+        "raw": "[name=\"オラクル\"]（未知の言語）彼女との議論の頻度はどんどん高くなっているが、実験の進捗は遅くなっている。",
+        "type": "dialog",
+        "speaker": "オラクル",
+        "content": "（未知の言語）彼女との議論の頻度はどんどん高くなっているが、実験の進捗は遅くなっている。"
+    },
+    {
+        "id": 174,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 175,
+        "raw": "[name=\"原始構造体\"]（熱心に慰める）",
+        "type": "dialog",
+        "speaker": "原始構造体",
+        "content": "（熱心に慰める）"
+    },
+    {
+        "id": 176,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1360_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1360_1#1$1.png"
+    },
+    {
+        "id": 177,
+        "raw": "[name=\"オラクル\"]（未知の言語）我々の心配はいらない。目の前のこのモデルの運用効率が当初の期待に応えるものとなれば、源石開発の進捗は飛躍を迎えるかもしれない。",
+        "type": "dialog",
+        "speaker": "オラクル",
+        "content": "（未知の言語）我々の心配はいらない。目の前のこのモデルの運用効率が当初の期待に応えるものとなれば、源石開発の進捗は飛躍を迎えるかもしれない。"
+    },
+    {
+        "id": 178,
+        "raw": "[name=\"オラクル\"]（未知の言語）そういえば、紺碧の樹も珍しく革新的な進歩があったと、ルゥがメッセージを送ってきた。すぐに彼女がまた会いに来てくれるはずだ。",
+        "type": "dialog",
+        "speaker": "オラクル",
+        "content": "（未知の言語）そういえば、紺碧の樹も珍しく革新的な進歩があったと、ルゥがメッセージを送ってきた。すぐに彼女がまた会いに来てくれるはずだ。"
+    },
+    {
+        "id": 179,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 180,
+        "raw": "[name=\"原始構造体\"]（心から喜ぶ）",
+        "type": "dialog",
+        "speaker": "原始構造体",
+        "content": "（心から喜ぶ）"
+    },
+    {
+        "id": 181,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1360_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1360_1#1$1.png"
+    },
+    {
+        "id": 182,
+        "raw": "[name=\"オラクル\"]（未知の言語）君は彼女をかなり好いているようだな。",
+        "type": "dialog",
+        "speaker": "オラクル",
+        "content": "（未知の言語）君は彼女をかなり好いているようだな。"
+    },
+    {
+        "id": 183,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 184,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 185,
+        "raw": "[Decision(options=\"アーミヤ、あの公式を覚えておく必要がある！\", values=\"1\")]",
+        "type": "decision",
+        "options": "アーミヤ、あの公式を覚えておく必要がある！",
+        "values": "1"
+    },
+    {
+        "id": 186,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 187,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 188,
+        "raw": "[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#6$2\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_1037_amiya3_1#6$2.png"
+    },
+    {
+        "id": 189,
+        "raw": "[name=\"アーミヤ\"]今覚えてい――",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "今覚えてい――"
+    },
+    {
+        "id": 190,
+        "raw": "[stopmusic(fadetime=1)]",
+        "type": "stop_music",
+        "fadetime": 1
+    },
+    {
+        "id": 191,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 192,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 193,
+        "raw": "[bgeffect(name=\"$eb_tvnoise\",layer=1)]",
+        "type": "bg_effect",
+        "name": "$eb_tvnoise",
+        "layer": 1
+    },
+    {
+        "id": 194,
+        "raw": "[CameraEffect(effect=\"Grayscale\", fadetime=2, keep=true, initamount=0, amount=0.4, block=true)]",
+        "type": "camera_effect",
+        "effect": "Grayscale",
+        "fadetime": "2,",
+        "keep": "true,",
+        "initamount": "0,",
+        "amount": "0.4,",
+        "block": true
+    },
+    {
+        "id": 195,
+        "raw": "[bgeffect]",
+        "type": "bg_effect"
+    },
+    {
+        "id": 196,
+        "raw": "[curtain(direction = 2,fillfrom = 0,fillto = 0.15, fadetime=2)]",
+        "type": "curtain",
+        "fadetime": 2
+    },
+    {
+        "id": 197,
+        "raw": "[curtain(direction = 6,fillfrom = 0,fillto = 0.15, fadetime=2)]",
+        "type": "curtain",
+        "fadetime": 2
+    },
+    {
+        "id": 198,
+        "raw": "[CameraShake(duration=2, xstrength=15, ystrength=15, vibrato=50, randomness=90, fadeout=true, block=true)]",
+        "type": "camera_shake",
+        "duration": "2,",
+        "xstrength": "15,",
+        "ystrength": "15,",
+        "vibrato": "50,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": true
+    },
+    {
+        "id": 199,
+        "raw": "[CameraShake(duration=-1, xstrength=2, ystrength=1, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "-1,",
+        "xstrength": "2,",
+        "ystrength": "1,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 200,
+        "raw": "[playMusic(intro=\"$snowmonster_intro\",key=\"$snowmonster_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/static/m_bat/m_bat_snowmonster_intro.mp3",
+        "key": "sound_beta_2/music/static/m_bat/m_bat_snowmonster_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 201,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 202,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 203,
+        "raw": "[Decision(options=\"何が起きた？;通路が脅かされているのか？\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "何が起きた？;通路が脅かされているのか？",
+        "values": "1;2"
+    },
+    {
+        "id": 204,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 205,
+        "raw": "[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#6$2\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_1037_amiya3_1#6$2.png"
+    },
+    {
+        "id": 206,
+        "raw": "[name=\"アーミヤ\"]「文明の存続」の基底ロジックが穴を排除しようとしていると、テレジアさんが警告してくれています！",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "「文明の存続」の基底ロジックが穴を排除しようとしていると、テレジアさんが警告してくれています！"
+    },
+    {
+        "id": 207,
+        "raw": "[name=\"アーミヤ\"]私たちが限界を越えた情報をコピーしているせいです。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "私たちが限界を越えた情報をコピーしているせいです。"
+    },
+    {
+        "id": 208,
+        "raw": "[name=\"アーミヤ\"]ドクター、あの公式に用いられている文字の意味がまだ理解できません――",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "ドクター、あの公式に用いられている文字の意味がまだ理解できません――"
+    },
+    {
+        "id": 209,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 210,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 211,
+        "raw": "[Decision(options=\"理解しようとしなくていい！;記憶しておくだけでいい！;自分もできる限り暗記する！\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "理解しようとしなくていい！;記憶しておくだけでいい！;自分もできる限り暗記する！",
+        "values": "1;2;3"
+    },
+    {
+        "id": 212,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 213,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 214,
+        "raw": "[CameraEffect(effect=\"Grayscale\", fadetime=2, keep=true, initamount=0, amount=0.8)]",
+        "type": "camera_effect",
+        "effect": "Grayscale",
+        "fadetime": "2,",
+        "keep": "true,",
+        "initamount": "0,",
+        "amount": 0.8
+    },
+    {
+        "id": 215,
+        "raw": "[bgeffect(name=\"$eb_tvnoise\",layer=1)]",
+        "type": "bg_effect",
+        "name": "$eb_tvnoise",
+        "layer": 1
+    },
+    {
+        "id": 216,
+        "raw": "[curtain(direction = 2,fillfrom = 0.15,fillto = 0.25, fadetime=2)]",
+        "type": "curtain",
+        "fadetime": 2
+    },
+    {
+        "id": 217,
+        "raw": "[curtain(direction = 6,fillfrom = 0.15,fillto = 0.25, fadetime=2)]",
+        "type": "curtain",
+        "fadetime": 2
+    },
+    {
+        "id": 218,
+        "raw": "[CameraShake(duration=2, xstrength=15, ystrength=15, vibrato=50, randomness=90, fadeout=true, block=true)]",
+        "type": "camera_shake",
+        "duration": "2,",
+        "xstrength": "15,",
+        "ystrength": "15,",
+        "vibrato": "50,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": true
+    },
+    {
+        "id": 219,
+        "raw": "[CameraShake(duration=-1, xstrength=2, ystrength=1, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "-1,",
+        "xstrength": "2,",
+        "ystrength": "1,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 220,
+        "raw": "境界の情報が新たな再構築フェーズに入った。穴は修復され、あなたたちに見えている光景も急速に薄れつつある。",
+        "type": "narration",
+        "content": "境界の情報が新たな再構築フェーズに入った。穴は修復され、あなたたちに見えている光景も急速に薄れつつある。"
+    },
+    {
+        "id": 221,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1360_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1360_1#1$1.png"
+    },
+    {
+        "id": 222,
+        "raw": "[name=\"オラクル\"]（未知の言語）AMa-10、彼女と共に作成したこのモデルは必ず成功する予感がするんだ。",
+        "type": "dialog",
+        "speaker": "オラクル",
+        "content": "（未知の言語）AMa-10、彼女と共に作成したこのモデルは必ず成功する予感がするんだ。"
+    },
+    {
+        "id": 223,
+        "raw": "[name=\"オラクル\"]（未知の言語）件の言語が本当に創り出される日を心待ちにしている――",
+        "type": "dialog",
+        "speaker": "オラクル",
+        "content": "（未知の言語）件の言語が本当に創り出される日を心待ちにしている――"
+    },
+    {
+        "id": 224,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 225,
+        "raw": "[name=\"原始構造体\"]（優しく注意する）",
+        "type": "dialog",
+        "speaker": "原始構造体",
+        "content": "（優しく注意する）"
+    },
+    {
+        "id": 226,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1360_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1360_1#1$1.png"
+    },
+    {
+        "id": 227,
+        "raw": "[name=\"オラクル\"]（未知の言語）DWDB-221Eの同期が終わっていない？　ああ、もちろん認識している。だからこの通り落ち着いているだろう？",
+        "type": "dialog",
+        "speaker": "オラクル",
+        "content": "（未知の言語）DWDB-221Eの同期が終わっていない？　ああ、もちろん認識している。だからこの通り落ち着いているだろう？"
+    },
+    {
+        "id": 228,
+        "raw": "[charslot(slot=\"m\",afrom=1,ato=0.5,duration=1)]",
+        "type": "charslot",
+        "slot": "m",
+        "afrom": "1,ato=0.5,duration=1"
+    },
+    {
+        "id": 229,
+        "raw": "話している人物が薄れゆく。",
+        "type": "narration",
+        "content": "話している人物が薄れゆく。"
+    },
+    {
+        "id": 230,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1360_1#1$1\",afrom=0.5,ato=0.5)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1360_1#1$1.png",
+        "afrom": "0.5,ato=0.5"
+    },
+    {
+        "id": 231,
+        "raw": "[name=\"オラクル\"]（小声の未知の言語）君が宙の果てのどの地域からの来訪者かはわからないが、その時にこの文明が眠りについていたなら、自分の代わりに我々の残したビーコンを見に行ってくれ。",
+        "type": "dialog",
+        "speaker": "オラクル",
+        "content": "（小声の未知の言語）君が宙の果てのどの地域からの来訪者かはわからないが、その時にこの文明が眠りについていたなら、自分の代わりに我々の残したビーコンを見に行ってくれ。"
+    },
+    {
+        "id": 232,
+        "raw": "[name=\"オラクル\"]（小声の未知の言語）それは我々の祝福……そして最後に贈る希望となるかもしれない。",
+        "type": "dialog",
+        "speaker": "オラクル",
+        "content": "（小声の未知の言語）それは我々の祝福……そして最後に贈る希望となるかもしれない。"
+    },
+    {
+        "id": 233,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 234,
+        "raw": "その人物が……あなたを見ている？",
+        "type": "narration",
+        "content": "その人物が……あなたを見ている？"
+    },
+    {
+        "id": 235,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 236,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 237,
+        "raw": "[Decision(options=\"……！？\", values=\"1\")]",
+        "type": "decision",
+        "options": "……！？",
+        "values": "1"
+    },
+    {
+        "id": 238,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 239,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 240,
+        "raw": "[name=\"原始構造体\"]（焦ったように低く唸る）",
+        "type": "dialog",
+        "speaker": "原始構造体",
+        "content": "（焦ったように低く唸る）"
+    },
+    {
+        "id": 241,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1360_1#1$1\",afrom=0.5,ato=0.5)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1360_1#1$1.png",
+        "afrom": "0.5,ato=0.5"
+    },
+    {
+        "id": 242,
+        "raw": "[name=\"オラクル\"]（未知の言語）……我々は目にするはずだ、AMa-10。自分は信じている。",
+        "type": "dialog",
+        "speaker": "オラクル",
+        "content": "（未知の言語）……我々は目にするはずだ、AMa-10。自分は信じている。"
+    },
+    {
+        "id": 243,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 244,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 245,
+        "raw": "[curtain(direction = 2,fillfrom = 0.25,fillto = 0.35, fadetime=2)]",
+        "type": "curtain",
+        "fadetime": 2
+    },
+    {
+        "id": 246,
+        "raw": "[curtain(direction = 6,fillfrom = 0.25,fillto = 0.35, fadetime=2)]",
+        "type": "curtain",
+        "fadetime": 2
+    },
+    {
+        "id": 247,
+        "raw": "[CameraShake(duration=2, xstrength=15, ystrength=15, vibrato=50, randomness=90, fadeout=true, block=true)]",
+        "type": "camera_shake",
+        "duration": "2,",
+        "xstrength": "15,",
+        "ystrength": "15,",
+        "vibrato": "50,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": true
+    },
+    {
+        "id": 248,
+        "raw": "[CameraShake(duration=-1, xstrength=2, ystrength=1, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "-1,",
+        "xstrength": "2,",
+        "ystrength": "1,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 249,
+        "raw": "[name=\"アーミヤ\"]公式の映った景色も消え始めています！",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "公式の映った景色も消え始めています！"
+    },
+    {
+        "id": 250,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 251,
+        "raw": "[Decision(options=\"通路が崩壊しないうちに撤退しよう。\", values=\"1\")]",
+        "type": "decision",
+        "options": "通路が崩壊しないうちに撤退しよう。",
+        "values": "1"
+    },
+    {
+        "id": 252,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 253,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 254,
+        "raw": "[name=\"アーミヤ\"]ですがまだ――",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "ですがまだ――"
+    },
+    {
+        "id": 255,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 256,
+        "raw": "[Decision(options=\"自分がいる！;二人でなら復元できる。\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "自分がいる！;二人でなら復元できる。",
+        "values": "1;2"
+    },
+    {
+        "id": 257,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 258,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 259,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 260,
+        "raw": "[curtain(direction = 2,fillfrom = 0.35,fillto = 1, fadetime=1)]",
+        "type": "curtain",
+        "fadetime": 1
+    },
+    {
+        "id": 261,
+        "raw": "[curtain(direction = 6,fillfrom = 0.35,fillto = 1, fadetime=1)]",
+        "type": "curtain",
+        "fadetime": 1
+    },
+    {
+        "id": 262,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 263,
+        "raw": "[CameraShake(duration=3, xstrength=15, ystrength=15, vibrato=50, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "3,",
+        "xstrength": "15,",
+        "ystrength": "15,",
+        "vibrato": "50,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 264,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 265,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 266,
+        "raw": "[curtain]",
+        "type": "curtain"
+    },
+    {
+        "id": 267,
+        "raw": "[Delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 268,
+        "raw": "[bgeffect]",
+        "type": "bg_effect"
+    },
+    {
+        "id": 269,
+        "raw": "[CameraEffect(effect=\"Grayscale\", fadetime=0, amount=0, block=true)]",
+        "type": "camera_effect",
+        "effect": "Grayscale",
+        "fadetime": "0,",
+        "amount": "0,",
+        "block": true
+    },
+    {
+        "id": 270,
+        "raw": "[Background(image=\"bg_white\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_white.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 271,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 272,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 273,
+        "raw": "次の瞬間、あなたの思考は大きな衝撃を受け、落下する感覚を覚えた。",
+        "type": "narration",
+        "content": "次の瞬間、あなたの思考は大きな衝撃を受け、落下する感覚を覚えた。"
+    },
+    {
+        "id": 274,
+        "raw": "あなたの最後の意識は、アーミヤをできるだけ特異点から遠ざけようとしている自分と、見覚えのある姿を認識したところで止まった――",
+        "type": "narration",
+        "content": "あなたの最後の意識は、アーミヤをできるだけ特異点から遠ざけようとしている自分と、見覚えのある姿を認識したところで止まった――"
+    },
+    {
+        "id": 275,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 276,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4134_cetsyr_1#1$1\",duration=1)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4134_cetsyr_1#1$1.png",
+        "duration": 1
+    },
+    {
+        "id": 277,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 278,
+        "raw": "[name=\"シヴィライト・エテルナ\"]アーミヤがここまで来る手伝いをしてくれてありがとう。あとは……",
+        "type": "dialog",
+        "speaker": "シヴィライト・エテルナ",
+        "content": "アーミヤがここまで来る手伝いをしてくれてありがとう。あとは……"
+    },
+    {
+        "id": 279,
+        "raw": "[name=\"シヴィライト・エテルナ\"]ここを離れて。",
+        "type": "dialog",
+        "speaker": "シヴィライト・エテルナ",
+        "content": "ここを離れて。"
+    },
+    {
+        "id": 280,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 281,
+        "raw": "あなたとアーミヤが共有していた思考の繋がりはこの瞬間に切れ、あなたの思考はその後に起きた出来事など何も覚えていられないほど疲弊していた。",
+        "type": "narration",
+        "content": "あなたとアーミヤが共有していた思考の繋がりはこの瞬間に切れ、あなたの思考はその後に起きた出来事など何も覚えていられないほど疲弊していた。"
+    },
+    {
+        "id": 282,
+        "raw": "あなたたちは「文明の存続」から抜け出した。",
+        "type": "narration",
+        "content": "あなたたちは「文明の存続」から抜け出した。"
+    },
+    {
+        "id": 283,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 284,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 285,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 286,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 287,
+        "raw": "[Background(image=\"60_g1_rhodescorridor_bc\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "60_g1_rhodescorridor_bc.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 288,
+        "raw": "特異点から噴き出す情報は止まらない。その中の最も取るに足らない光景は、記録されて以来一度もアクセスされたことがない――",
+        "type": "narration",
+        "content": "特異点から噴き出す情報は止まらない。その中の最も取るに足らない光景は、記録されて以来一度もアクセスされたことがない――"
+    },
+    {
+        "id": 289,
+        "raw": "静寂な深宇宙の中、一筋の光が一帯の星域を照らすと同時に暗闇をもたらし、また紛れもない絶望をもたらした。",
+        "type": "narration",
+        "content": "静寂な深宇宙の中、一筋の光が一帯の星域を照らすと同時に暗闇をもたらし、また紛れもない絶望をもたらした。"
+    },
+    {
+        "id": 290,
+        "raw": "数千万光年離れた探知機がその星域の遥か遠い過去の映像を受信した時、画面の中で恒星に照らされた星はすでに墓場と廃墟に満ちていた。",
+        "type": "narration",
+        "content": "数千万光年離れた探知機がその星域の遥か遠い過去の映像を受信した時、画面の中で恒星に照らされた星はすでに墓場と廃墟に満ちていた。"
+    },
+    {
+        "id": 291,
+        "raw": "神はすでに訪れた。",
+        "type": "narration",
+        "content": "神はすでに訪れた。"
+    },
+    {
+        "id": 292,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 293,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 294,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 295,
+        "raw": "[playMusic(intro=\"$newhope01_intro\",key=\"$newhope01_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta3_181101/m_dia_newhope01_intro.mp3",
+        "key": "sound_beta_2/music/beta3_181101/m_dia_newhope01_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 296,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 297,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1725_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1725_1#1$1.png"
+    },
+    {
+        "id": 298,
+        "raw": "[name=\"レイディストーター\"]♫~♫~",
+        "type": "dialog",
+        "speaker": "レイディストーター",
+        "content": "♫~♫~"
+    },
+    {
+        "id": 299,
+        "raw": "[name=\"レイディストーター\"]そういう風に弁護するよう幽霊に言われたの？",
+        "type": "dialog",
+        "speaker": "レイディストーター",
+        "content": "そういう風に弁護するよう幽霊に言われたの？"
+    },
+    {
+        "id": 300,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1719_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1719_1#1$1.png"
+    },
+    {
+        "id": 301,
+        "raw": "[name=\"ヒアダ\"]いいえ、レイディストーターさん。幽霊さんに頼まれてやっているわけではありません。",
+        "type": "dialog",
+        "speaker": "ヒアダ",
+        "content": "いいえ、レイディストーターさん。幽霊さんに頼まれてやっているわけではありません。"
+    },
+    {
+        "id": 302,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1725_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1725_1#1$1.png"
+    },
+    {
+        "id": 303,
+        "raw": "[name=\"レイディストーター\"]彼女を警戒するんだ。惑わされてはいけないよ。",
+        "type": "dialog",
+        "speaker": "レイディストーター",
+        "content": "彼女を警戒するんだ。惑わされてはいけないよ。"
+    },
+    {
+        "id": 304,
+        "raw": "[name=\"レイディストーター\"]……彼女の魅力に対して警戒を緩めたら、君は危険な目に遭う可能性がある。魅力は、彼女たちの種族が捕食のために身に着けた天性だ。",
+        "type": "dialog",
+        "speaker": "レイディストーター",
+        "content": "……彼女の魅力に対して警戒を緩めたら、君は危険な目に遭う可能性がある。魅力は、彼女たちの種族が捕食のために身に着けた天性だ。"
+    },
+    {
+        "id": 305,
+        "raw": "[name=\"レイディストーター\"]それと君が探している人、この船の主、プリースティスに関しては……",
+        "type": "dialog",
+        "speaker": "レイディストーター",
+        "content": "それと君が探している人、この船の主、プリースティスに関しては……"
+    },
+    {
+        "id": 306,
+        "raw": "[name=\"レイディストーター\"]現在行われている重要な研究のために、彼女の意識は恐らくこの星域の異なる科学研究地点を行き来しているだろう。",
+        "type": "dialog",
+        "speaker": "レイディストーター",
+        "content": "現在行われている重要な研究のために、彼女の意識は恐らくこの星域の異なる科学研究地点を行き来しているだろう。"
+    },
+    {
+        "id": 307,
+        "raw": "[name=\"レイディストーター\"]本人が望まない限り、彼女に時間を割いてもらうのは難しい。",
+        "type": "dialog",
+        "speaker": "レイディストーター",
+        "content": "本人が望まない限り、彼女に時間を割いてもらうのは難しい。"
+    },
+    {
+        "id": 308,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1719_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1719_1#1$1.png"
+    },
+    {
+        "id": 309,
+        "raw": "[name=\"ヒアダ\"]……",
+        "type": "dialog",
+        "speaker": "ヒアダ",
+        "content": "……"
+    },
+    {
+        "id": 310,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1725_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1725_1#1$1.png"
+    },
+    {
+        "id": 311,
+        "raw": "[name=\"レイディストーター\"]ヒアダ、君がそんなにも彼女に会いたいと思うのは、救けてくれたことへの感謝だけが目的なのか？",
+        "type": "dialog",
+        "speaker": "レイディストーター",
+        "content": "ヒアダ、君がそんなにも彼女に会いたいと思うのは、救けてくれたことへの感謝だけが目的なのか？"
+    },
+    {
+        "id": 312,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1719_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1719_1#1$1.png"
+    },
+    {
+        "id": 313,
+        "raw": "[name=\"ヒアダ\"]今はそれが全てではなくなったんです。",
+        "type": "dialog",
+        "speaker": "ヒアダ",
+        "content": "今はそれが全てではなくなったんです。"
+    },
+    {
+        "id": 314,
+        "raw": "[name=\"ヒアダ\"]私が今いる場所は「宇宙」という名の奇妙な場所であること、そしてここは死後にたどり着く場所ではないことは理解しました……",
+        "type": "dialog",
+        "speaker": "ヒアダ",
+        "content": "私が今いる場所は「宇宙」という名の奇妙な場所であること、そしてここは死後にたどり着く場所ではないことは理解しました……"
+    },
+    {
+        "id": 315,
+        "raw": "[name=\"ヒアダ\"]私の故郷であるテラも、宇宙の中に存在するかもしれないという、少し大胆な予想もしてます。",
+        "type": "dialog",
+        "speaker": "ヒアダ",
+        "content": "私の故郷であるテラも、宇宙の中に存在するかもしれないという、少し大胆な予想もしてます。"
+    },
+    {
+        "id": 316,
+        "raw": "[name=\"ヒアダ\"]でもより多くの知識はより多くの疑問をもたらすだけ。それで彼女に聞きたいんです――",
+        "type": "dialog",
+        "speaker": "ヒアダ",
+        "content": "でもより多くの知識はより多くの疑問をもたらすだけ。それで彼女に聞きたいんです――"
+    },
+    {
+        "id": 317,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1719_1#10$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1719_1#10$1.png"
+    },
+    {
+        "id": 318,
+        "raw": "[name=\"ヒアダ\"]なぜ私は死んでいないのか？",
+        "type": "dialog",
+        "speaker": "ヒアダ",
+        "content": "なぜ私は死んでいないのか？"
+    },
+    {
+        "id": 319,
+        "raw": "[name=\"ヒアダ\"]テラ、私の故郷は、どこにあるのか？",
+        "type": "dialog",
+        "speaker": "ヒアダ",
+        "content": "テラ、私の故郷は、どこにあるのか？"
+    },
+    {
+        "id": 320,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 321,
+        "raw": "コータスは、喪失感に包まれながら船窓から遠くの深宇宙の星々を眺める。",
+        "type": "narration",
+        "content": "コータスは、喪失感に包まれながら船窓から遠くの深宇宙の星々を眺める。"
+    },
+    {
+        "id": 322,
+        "raw": "コータスを未だに気にかけている司教や修道士が、彼女だけの大地で、彼女のためにいまだ祈りを捧げているかもしれない。しかしヒアダはもうそれに応えることはできない。",
+        "type": "narration",
+        "content": "コータスを未だに気にかけている司教や修道士が、彼女だけの大地で、彼女のためにいまだ祈りを捧げているかもしれない。しかしヒアダはもうそれに応えることはできない。"
+    },
+    {
+        "id": 323,
+        "raw": "彼女は廊下の壁際に縮こまり、恒星の光がさっと顔を横切っても気に留めなかった。",
+        "type": "narration",
+        "content": "彼女は廊下の壁際に縮こまり、恒星の光がさっと顔を横切っても気に留めなかった。"
+    },
+    {
+        "id": 324,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1719_1#10$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1719_1#10$1.png"
+    },
+    {
+        "id": 325,
+        "raw": "[name=\"ヒアダ\"]失われていく時間も、肉眼で見えるものなのね。",
+        "type": "dialog",
+        "speaker": "ヒアダ",
+        "content": "失われていく時間も、肉眼で見えるものなのね。"
+    },
+    {
+        "id": 326,
+        "raw": "[charslot(duration=1)]",
+        "type": "charslot",
+        "duration": 1
+    },
+    {
+        "id": 327,
+        "raw": "彼女はこの船でたくさんの人に遭遇した。実験室に籠りきりで皆が畏敬の念を抱くフードの天才、破滅の中から生存し宇宙を旅し続ける探検家……",
+        "type": "narration",
+        "content": "彼女はこの船でたくさんの人に遭遇した。実験室に籠りきりで皆が畏敬の念を抱くフードの天才、破滅の中から生存し宇宙を旅し続ける探検家……"
+    },
+    {
+        "id": 328,
+        "raw": "彼らの前向きさと善意により、ヒアダは最初の恐怖を捨てていた。しかし彼女は、自分は永遠にこの不思議な船に溶け込むことはできないとはっきりとわかっていた。",
+        "type": "narration",
+        "content": "彼らの前向きさと善意により、ヒアダは最初の恐怖を捨てていた。しかし彼女は、自分は永遠にこの不思議な船に溶け込むことはできないとはっきりとわかっていた。"
+    },
+    {
+        "id": 329,
+        "raw": "「テラが恋しい。」",
+        "type": "narration",
+        "content": "「テラが恋しい。」"
+    },
+    {
+        "id": 330,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 331,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 332,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 333,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 334,
+        "raw": "[Image]",
+        "type": "image"
+    },
+    {
+        "id": 335,
+        "raw": "[charslot]",
+        "type": "charslot"
+    }
+]

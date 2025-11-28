@@ -1,0 +1,4833 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")]",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK"
+    },
+    {
+        "id": 2,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 3,
+        "raw": "[stopmusic]",
+        "type": "stop_music"
+    },
+    {
+        "id": 4,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 5,
+        "raw": "[Background(image=\"29_g8_alley_n\",screenadapt=\"showall\")]",
+        "type": "background",
+        "image": "29_g8_alley_n.png",
+        "screenadapt": "showall"
+    },
+    {
+        "id": 6,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 7,
+        "raw": "[PlayMusic(intro=\"$escape_intro\", key=\"$escape_loop\", volume=0.4)]//战斗音乐",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta2_180603/m_dia_escape_intro.mp3",
+        "key": "sound_beta_2/music/beta2_180603/m_dia_escape_loop.mp3",
+        "volume": 0.4,
+        "content": "//战斗音乐"
+    },
+    {
+        "id": 8,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 9,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 10,
+        "raw": "[playsound(key=\"$mapboom\", volume=0.9)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/ambience/a_bat/a_bat_mapboom.mp3",
+        "volume": 0.9
+    },
+    {
+        "id": 11,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 12,
+        "raw": "[Blocker(a=0.5, r=1, g=1, b=1, fadetime=0.02, block=true)]",
+        "type": "blocker",
+        "a": "0.5,",
+        "r": "1,",
+        "g": "1,",
+        "b": "1,",
+        "fadetime": "0.02,",
+        "block": true
+    },
+    {
+        "id": 13,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": false
+    },
+    {
+        "id": 14,
+        "raw": "[PlaySound(key=\"$d_gen_explo_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_explo_n.mp3"
+    },
+    {
+        "id": 15,
+        "raw": "[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "xstrength": "10,",
+        "ystrength": "12,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": true
+    },
+    {
+        "id": 16,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 17,
+        "raw": "[playsound(key=\"$d_avg_mechawalk\")]//预约替换沉重的机器脚步",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_mechawalk.mp3",
+        "content": "//预约替换沉重的机器脚步"
+    },
+    {
+        "id": 18,
+        "raw": "[character(name=\"avg_npc_526_1#1$1\",fadetime=2.5)]",
+        "type": "character",
+        "name": "avg_npc_526_1#1$1",
+        "fadetime": 2.5
+    },
+    {
+        "id": 19,
+        "raw": "[delay(time=3.5)]",
+        "type": "delay",
+        "time": 3.5
+    },
+    {
+        "id": 20,
+        "raw": "[playsound(key=\"$d_avg_overheat\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_overheat.mp3"
+    },
+    {
+        "id": 21,
+        "raw": "[CameraShake(duration=1.5, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]",
+        "type": "camera_shake",
+        "duration": "1.5,",
+        "xstrength": "10,",
+        "ystrength": "12,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": true
+    },
+    {
+        "id": 22,
+        "raw": "[delay(time=3.5)]",
+        "type": "delay",
+        "time": 3.5
+    },
+    {
+        "id": 23,
+        "raw": "[name=\"Strange Power Armor\"]—",
+        "type": "dialog",
+        "speaker": "Strange Power Armor",
+        "content": "—"
+    },
+    {
+        "id": 24,
+        "raw": "[Character(name=\"avg_npc_521_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_521_1#1$1"
+    },
+    {
+        "id": 25,
+        "raw": "[name=\"Mechanist\"]I... can't believe it.",
+        "type": "dialog",
+        "speaker": "Mechanist",
+        "content": "I... can't believe it."
+    },
+    {
+        "id": 26,
+        "raw": "[name=\"Mechanist\"]I had signal interference active and everything. Even Closure's own latest drone gen wouldn't detect our location.",
+        "type": "dialog",
+        "speaker": "Mechanist",
+        "content": "I had signal interference active and everything. Even Closure's own latest drone gen wouldn't detect our location."
+    },
+    {
+        "id": 27,
+        "raw": "[name=\"Mechanist\"]What sensory tech is this power armor using?",
+        "type": "dialog",
+        "speaker": "Mechanist",
+        "content": "What sensory tech is this power armor using?"
+    },
+    {
+        "id": 28,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 29,
+        "raw": "[Character(name=\"avg_npc_521_1#1$1\",focus=-1)]",
+        "type": "character",
+        "name": "avg_npc_521_1#1$1",
+        "focus": -1
+    },
+    {
+        "id": 30,
+        "raw": "[Decision(options=\"Can you paralyze it?\", values=\"1\")]",
+        "type": "decision",
+        "options": "Can you paralyze it?",
+        "values": "1"
+    },
+    {
+        "id": 31,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 32,
+        "raw": "[Character(name=\"avg_npc_521_1#1$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_521_1#1$1",
+        "focus": 1
+    },
+    {
+        "id": 33,
+        "raw": "[name=\"Mechanist\"]I don't want to draw attention...",
+        "type": "dialog",
+        "speaker": "Mechanist",
+        "content": "I don't want to draw attention..."
+    },
+    {
+        "id": 34,
+        "raw": "[name=\"Mechanist\"]Hold on tight, Doctor.",
+        "type": "dialog",
+        "speaker": "Mechanist",
+        "content": "Hold on tight, Doctor."
+    },
+    {
+        "id": 35,
+        "raw": "[name=\"Mechanist\"]10% power, aim—",
+        "type": "dialog",
+        "speaker": "Mechanist",
+        "content": "10% power, aim—"
+    },
+    {
+        "id": 36,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 37,
+        "raw": "[delay(time=0.51)]",
+        "type": "delay",
+        "time": 0.51
+    },
+    {
+        "id": 38,
+        "raw": "[characteraction(name=\"middle\", type=\"move\", xpos=30,fadetime=0.51)]",
+        "type": "move",
+        "name": "middle",
+        "xpos": "30,fadetime=0.51"
+    },
+    {
+        "id": 39,
+        "raw": "[playsound(key=\"$e_atk_faust_h\", volume=0.9)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_atk/e_atk_faust_h.mp3",
+        "volume": 0.9
+    },
+    {
+        "id": 40,
+        "raw": "[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.3,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 41,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 42,
+        "raw": "[character]",
+        "type": "character"
+    },
+    {
+        "id": 43,
+        "raw": "[character(name=\"avg_npc_526_1#1$1\",name2=\"char_empty\")]",
+        "type": "character",
+        "name": "avg_npc_526_1#1$1",
+        "name2": "char_empty"
+    },
+    {
+        "id": 44,
+        "raw": "[characteraction(name=\"lfte\", type=\"move\", xpos=-10,fadetime=0.51)]",
+        "type": "move",
+        "name": "lfte",
+        "xpos": "-10,fadetime=0.51"
+    },
+    {
+        "id": 45,
+        "raw": "[PlaySound(key=\"$d_gen_explo_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_explo_n.mp3"
+    },
+    {
+        "id": 46,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 47,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.05,",
+        "block": true
+    },
+    {
+        "id": 48,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0.05, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.05,",
+        "block": true
+    },
+    {
+        "id": 49,
+        "raw": "[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.3,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 50,
+        "raw": "[delay(time=2.5)]",
+        "type": "delay",
+        "time": 2.5
+    },
+    {
+        "id": 51,
+        "raw": "[character]",
+        "type": "character"
+    },
+    {
+        "id": 52,
+        "raw": "[Character(name=\"avg_npc_521_1#1$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_521_1#1$1",
+        "focus": 1
+    },
+    {
+        "id": 53,
+        "raw": "[name=\"Mechanist\"]Bingo.",
+        "type": "dialog",
+        "speaker": "Mechanist",
+        "content": "Bingo."
+    },
+    {
+        "id": 54,
+        "raw": "[playsound(key=\"$d_avg_mechalock\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_mechalock.mp3"
+    },
+    {
+        "id": 55,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 56,
+        "raw": "[character(name=\"avg_npc_526_1#1$1\",name2=\"char_empty\")]",
+        "type": "character",
+        "name": "avg_npc_526_1#1$1",
+        "name2": "char_empty"
+    },
+    {
+        "id": 57,
+        "raw": "[name=\"Strange Power Armor\"]—",
+        "type": "dialog",
+        "speaker": "Strange Power Armor",
+        "content": "—"
+    },
+    {
+        "id": 58,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 59,
+        "raw": "[delay(time=0.51)]",
+        "type": "delay",
+        "time": 0.51
+    },
+    {
+        "id": 60,
+        "raw": "[characteraction(name=\"lfte\", type=\"move\", xpos=20,fadetime=0.51)]",
+        "type": "move",
+        "name": "lfte",
+        "xpos": "20,fadetime=0.51"
+    },
+    {
+        "id": 61,
+        "raw": "[delay(time=0.51)]",
+        "type": "delay",
+        "time": 0.51
+    },
+    {
+        "id": 62,
+        "raw": "[characteraction(name=\"lfte\", type=\"move\", xpos=20,fadetime=0.51)]",
+        "type": "move",
+        "name": "lfte",
+        "xpos": "20,fadetime=0.51"
+    },
+    {
+        "id": 63,
+        "raw": "[delay(time=0.51)]",
+        "type": "delay",
+        "time": 0.51
+    },
+    {
+        "id": 64,
+        "raw": "[characteraction(name=\"lfte\", type=\"move\", xpos=20,fadetime=0.51)]",
+        "type": "move",
+        "name": "lfte",
+        "xpos": "20,fadetime=0.51"
+    },
+    {
+        "id": 65,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 66,
+        "raw": "[Character(name=\"avg_npc_521_1#1$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_521_1#1$1",
+        "focus": 1
+    },
+    {
+        "id": 67,
+        "raw": "[name=\"Mechanist\"]......",
+        "type": "dialog",
+        "speaker": "Mechanist",
+        "content": "......"
+    },
+    {
+        "id": 68,
+        "raw": "[name=\"Mechanist\"]Clear damage to right arm plating detected.",
+        "type": "dialog",
+        "speaker": "Mechanist",
+        "content": "Clear damage to right arm plating detected."
+    },
+    {
+        "id": 69,
+        "raw": "[name=\"Mechanist\"]No reduction in speed. Showed no signs of slowing when hit, either.",
+        "type": "dialog",
+        "speaker": "Mechanist",
+        "content": "No reduction in speed. Showed no signs of slowing when hit, either."
+    },
+    {
+        "id": 70,
+        "raw": "[name=\"Mechanist\"]Who's in that suit? Do they not feel pain?",
+        "type": "dialog",
+        "speaker": "Mechanist",
+        "content": "Who's in that suit? Do they not feel pain?"
+    },
+    {
+        "id": 71,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 72,
+        "raw": "[Delay(time=0.7)]",
+        "type": "delay",
+        "time": 0.7
+    },
+    {
+        "id": 73,
+        "raw": "[playsound(key=\"$e_atk_faust_h\", volume=0.9)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_atk/e_atk_faust_h.mp3",
+        "volume": 0.9
+    },
+    {
+        "id": 74,
+        "raw": "[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.3,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 75,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 76,
+        "raw": "[playsound(key=\"$e_atk_faust_h\", volume=0.9)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_atk/e_atk_faust_h.mp3",
+        "volume": 0.9
+    },
+    {
+        "id": 77,
+        "raw": "[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.3,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 78,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 79,
+        "raw": "[character(name=\"avg_npc_526_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_526_1#1$1"
+    },
+    {
+        "id": 80,
+        "raw": "[name=\"Strange Power Armor\"]—",
+        "type": "dialog",
+        "speaker": "Strange Power Armor",
+        "content": "—"
+    },
+    {
+        "id": 81,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 82,
+        "raw": "[characteraction(name=\"middle\", type=\"move\", xpos=-10,fadetime=0.51)]",
+        "type": "move",
+        "name": "middle",
+        "xpos": "-10,fadetime=0.51"
+    },
+    {
+        "id": 83,
+        "raw": "[PlaySound(key=\"$d_gen_explo_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_explo_n.mp3"
+    },
+    {
+        "id": 84,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 85,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.05,",
+        "block": true
+    },
+    {
+        "id": 86,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0.05, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.05,",
+        "block": true
+    },
+    {
+        "id": 87,
+        "raw": "[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.3,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 88,
+        "raw": "[delay(time=0.51)]",
+        "type": "delay",
+        "time": 0.51
+    },
+    {
+        "id": 89,
+        "raw": "[Blocker(a=0.5, r=1, g=1, b=1, fadetime=0.02, block=true)]",
+        "type": "blocker",
+        "a": "0.5,",
+        "r": "1,",
+        "g": "1,",
+        "b": "1,",
+        "fadetime": "0.02,",
+        "block": true
+    },
+    {
+        "id": 90,
+        "raw": "[characteraction(name=\"middle\", type=\"move\", xpos=-10,fadetime=0.51)]",
+        "type": "move",
+        "name": "middle",
+        "xpos": "-10,fadetime=0.51"
+    },
+    {
+        "id": 91,
+        "raw": "[PlaySound(key=\"$d_gen_explo_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_explo_n.mp3"
+    },
+    {
+        "id": 92,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 93,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.05,",
+        "block": true
+    },
+    {
+        "id": 94,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0.05, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.05,",
+        "block": true
+    },
+    {
+        "id": 95,
+        "raw": "[Blocker(a=1, r=1, g=1, b=1, fadetime=0.1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "1,",
+        "g": "1,",
+        "b": "1,",
+        "fadetime": "0.1,",
+        "block": true
+    },
+    {
+        "id": 96,
+        "raw": "[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.3,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 97,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 98,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 99,
+        "raw": "[delay(time=2.1)]",
+        "type": "delay",
+        "time": 2.1
+    },
+    {
+        "id": 100,
+        "raw": "[name=\"Strange Power Armor\"]—",
+        "type": "dialog",
+        "speaker": "Strange Power Armor",
+        "content": "—"
+    },
+    {
+        "id": 101,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 102,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 103,
+        "raw": "[character]",
+        "type": "character"
+    },
+    {
+        "id": 104,
+        "raw": "[Character(name=\"avg_npc_521_1#1$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_521_1#1$1",
+        "focus": 1
+    },
+    {
+        "id": 105,
+        "raw": "[name=\"Mechanist\"]Damage to left arm.",
+        "type": "dialog",
+        "speaker": "Mechanist",
+        "content": "Damage to left arm."
+    },
+    {
+        "id": 106,
+        "raw": "[name=\"Mechanist\"]Damage to lower right leg.",
+        "type": "dialog",
+        "speaker": "Mechanist",
+        "content": "Damage to lower right leg."
+    },
+    {
+        "id": 107,
+        "raw": "[name=\"Mechanist\"]Doctor, it's not reacting to the damage at all.",
+        "type": "dialog",
+        "speaker": "Mechanist",
+        "content": "Doctor, it's not reacting to the damage at all."
+    },
+    {
+        "id": 108,
+        "raw": "[name=\"Mechanist\"]If we want to stop it, I'll need to paralyze its power core in one shot—",
+        "type": "dialog",
+        "speaker": "Mechanist",
+        "content": "If we want to stop it, I'll need to paralyze its power core in one shot—"
+    },
+    {
+        "id": 109,
+        "raw": "[name=\"Mechanist\"]Come on, this makes no sense.",
+        "type": "dialog",
+        "speaker": "Mechanist",
+        "content": "Come on, this makes no sense."
+    },
+    {
+        "id": 110,
+        "raw": "[name=\"Mechanist\"]Even the most well-trained soldier wouldn't have this much tolerance.",
+        "type": "dialog",
+        "speaker": "Mechanist",
+        "content": "Even the most well-trained soldier wouldn't have this much tolerance."
+    },
+    {
+        "id": 111,
+        "raw": "[Character(name=\"avg_npc_532_1#9$1\",blackstart=0.4,blackend=0.7)]",
+        "type": "character",
+        "name": "avg_npc_532_1#9$1",
+        "blackstart": "0.4,blackend=0.7"
+    },
+    {
+        "id": 112,
+        "raw": "[name=\"???\"]You're right.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "You're right."
+    },
+    {
+        "id": 113,
+        "raw": "[name=\"???\"]By mere fact of living, no individual can wholly suppress their most basic nervous responses.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "By mere fact of living, no individual can wholly suppress their most basic nervous responses."
+    },
+    {
+        "id": 114,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 115,
+        "raw": "[delay(time=0.7)]",
+        "type": "delay",
+        "time": 0.7
+    },
+    {
+        "id": 116,
+        "raw": "[PlaySound(key=\"$rungeneral\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_rungeneral.mp3",
+        "volume": 1
+    },
+    {
+        "id": 117,
+        "raw": "[characteraction(name=\"middle\", type=\"move\", xpos=-300, fadetime=2,block=false)]",
+        "type": "move",
+        "name": "middle",
+        "xpos": "-300,",
+        "fadetime": "2,block=false"
+    },
+    {
+        "id": 118,
+        "raw": "[Character(fadetime=0.5)]",
+        "type": "character",
+        "fadetime": 0.5
+    },
+    {
+        "id": 119,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 120,
+        "raw": "[Character(name=\"avg_npc_526_1#1$1\", name2=\"char_empty\")]",
+        "type": "character",
+        "name": "avg_npc_526_1#1$1",
+        "name2": "char_empty"
+    },
+    {
+        "id": 121,
+        "raw": "[PlaySound(key=\"$rungeneral\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_rungeneral.mp3",
+        "volume": 1
+    },
+    {
+        "id": 122,
+        "raw": "[characteraction(name=\"right\", type=\"move\", xpos=200, fadetime=0.3, block=true)]",
+        "type": "move",
+        "name": "right",
+        "xpos": "200,",
+        "fadetime": "0.3,",
+        "block": true
+    },
+    {
+        "id": 123,
+        "raw": "[delay(time=0.51)]",
+        "type": "delay",
+        "time": 0.51
+    },
+    {
+        "id": 124,
+        "raw": "[characteraction(name=\"right\", type=\"move\", xpos=-200, fadetime=1, block=false)]",
+        "type": "move",
+        "name": "right",
+        "xpos": "-200,",
+        "fadetime": "1,",
+        "block": false
+    },
+    {
+        "id": 125,
+        "raw": "[character(name=\"avg_npc_526_1#1$1\",name2=\"avg_npc_532_1#9$1\",blackstart2=0.4,blackend2=0.7,fadetime=0.7)]",
+        "type": "character",
+        "name": "avg_npc_526_1#1$1",
+        "name2": "avg_npc_532_1#9$1",
+        "blackstart2": "0.4,blackend2=0.7,fadetime=0.7"
+    },
+    {
+        "id": 126,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 127,
+        "raw": "[characteraction(name=\"right\", type=\"move\", xpos=50,fadetime=0.51)]",
+        "type": "move",
+        "name": "right",
+        "xpos": "50,fadetime=0.51"
+    },
+    {
+        "id": 128,
+        "raw": "[delay(time=0.52)]",
+        "type": "delay",
+        "time": 0.52
+    },
+    {
+        "id": 129,
+        "raw": "[characteraction(name=\"right\", type=\"move\", xpos=-100,fadetime=0.2)]",
+        "type": "move",
+        "name": "right",
+        "xpos": "-100,fadetime=0.2"
+    },
+    {
+        "id": 130,
+        "raw": "[CameraShake(duration=0.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 131,
+        "raw": "[PlaySound(key=\"$fightgeneral\",volume=1)] ",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_fightgeneral.mp3",
+        "volume": 1
+    },
+    {
+        "id": 132,
+        "raw": "[delay(time=0.8)]",
+        "type": "delay",
+        "time": 0.8
+    },
+    {
+        "id": 133,
+        "raw": "[PlaySound(key=\"$d_gen_explo_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_explo_n.mp3"
+    },
+    {
+        "id": 134,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 135,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.05,",
+        "block": true
+    },
+    {
+        "id": 136,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.05, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.05,",
+        "block": true
+    },
+    {
+        "id": 137,
+        "raw": "[delay(time=0.52)]",
+        "type": "delay",
+        "time": 0.52
+    },
+    {
+        "id": 138,
+        "raw": "[characteraction(name=\"right\", type=\"move\", xpos=100,fadetime=0.51)]",
+        "type": "move",
+        "name": "right",
+        "xpos": "100,fadetime=0.51"
+    },
+    {
+        "id": 139,
+        "raw": "[delay(time=0.52)]",
+        "type": "delay",
+        "time": 0.52
+    },
+    {
+        "id": 140,
+        "raw": "[characteraction(name=\"left\", type=\"move\", xpos=-50,fadetime=0.6)]",
+        "type": "move",
+        "name": "left",
+        "xpos": "-50,fadetime=0.6"
+    },
+    {
+        "id": 141,
+        "raw": "[delay(time=0.62)]",
+        "type": "delay",
+        "time": 0.62
+    },
+    {
+        "id": 142,
+        "raw": "[characteraction(name=\"left\", type=\"move\", xpos=-50,fadetime=0.6)]",
+        "type": "move",
+        "name": "left",
+        "xpos": "-50,fadetime=0.6"
+    },
+    {
+        "id": 143,
+        "raw": "[delay(time=0.62)]",
+        "type": "delay",
+        "time": 0.62
+    },
+    {
+        "id": 144,
+        "raw": "[name=\"Strange Power Armor\"]—",
+        "type": "dialog",
+        "speaker": "Strange Power Armor",
+        "content": "—"
+    },
+    {
+        "id": 145,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 146,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 147,
+        "raw": "[characteraction(name=\"left\", type=\"move\", ypos=-200,fadetime=1.5)]",
+        "type": "move",
+        "name": "left",
+        "ypos": "-200,fadetime=1.5"
+    },
+    {
+        "id": 148,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 149,
+        "raw": "[characteraction(name=\"left\", type=\"move\", ypos=-800,fadetime=2.5)]",
+        "type": "move",
+        "name": "left",
+        "ypos": "-800,fadetime=2.5"
+    },
+    {
+        "id": 150,
+        "raw": "[PlaySound(key=\"$d_avg_mechadown\")]//机械倒地的声音",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_mechadown.mp3",
+        "content": "//机械倒地的声音"
+    },
+    {
+        "id": 151,
+        "raw": "[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.3,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 152,
+        "raw": "[delay(time=2.5)]",
+        "type": "delay",
+        "time": 2.5
+    },
+    {
+        "id": 153,
+        "raw": "A hand smashes through the power armor's core. Countless mechanical fragments burst out like fireworks, just as the blood of a fellow lifeform would.",
+        "type": "narration",
+        "content": "A hand smashes through the power armor's core. Countless mechanical fragments burst out like fireworks, just as the blood of a fellow lifeform would."
+    },
+    {
+        "id": 154,
+        "raw": "With no time to waste, that hand pulls out.",
+        "type": "narration",
+        "content": "With no time to waste, that hand pulls out."
+    },
+    {
+        "id": 155,
+        "raw": "The mecha-fragment extracted by her sheer force turns into dust, together with the pure white plating covering her five digits. It all drifts down to the floor, where it forms a paper-thin calcium crystal layer.",
+        "type": "narration",
+        "content": "The mecha-fragment extracted by her sheer force turns into dust, together with the pure white plating covering her five digits. It all drifts down to the floor, where it forms a paper-thin calcium crystal layer."
+    },
+    {
+        "id": 156,
+        "raw": "The power armor lies on the ground, the heat of its energy snuffed, a clean hole left through its torso.",
+        "type": "narration",
+        "content": "The power armor lies on the ground, the heat of its energy snuffed, a clean hole left through its torso."
+    },
+    {
+        "id": 157,
+        "raw": "[Character(name=\"avg_npc_521_1#1$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_521_1#1$1",
+        "focus": 1
+    },
+    {
+        "id": 158,
+        "raw": "[stopmusic]",
+        "type": "stop_music"
+    },
+    {
+        "id": 159,
+        "raw": "[name=\"Mechanist\"]You—pierced that power armor's core barehanded?",
+        "type": "dialog",
+        "speaker": "Mechanist",
+        "content": "You—pierced that power armor's core barehanded?"
+    },
+    {
+        "id": 160,
+        "raw": "[name=\"Mechanist\"]That's a might of mights. And definitely a lot quieter than my defensive cannon.",
+        "type": "dialog",
+        "speaker": "Mechanist",
+        "content": "That's a might of mights. And definitely a lot quieter than my defensive cannon."
+    },
+    {
+        "id": 161,
+        "raw": "[name=\"Mechanist\"]Doctor, looks like the Bureau of, uh... Originium whatever won't be taking us in for attempted bombing today.",
+        "type": "dialog",
+        "speaker": "Mechanist",
+        "content": "Doctor, looks like the Bureau of, uh... Originium whatever won't be taking us in for attempted bombing today."
+    },
+    {
+        "id": 162,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 163,
+        "raw": "[Character(name=\"avg_npc_521_1#1$1\",focus=-1)]",
+        "type": "character",
+        "name": "avg_npc_521_1#1$1",
+        "focus": -1
+    },
+    {
+        "id": 164,
+        "raw": "[Decision(options=\"I do NOT want new criminal records for Rhodes Island.;I do NOT miss Columbian jail even a little bit.\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "I do NOT want new criminal records for Rhodes Island.;I do NOT miss Columbian jail even a little bit.",
+        "values": "1;2"
+    },
+    {
+        "id": 165,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 166,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 167,
+        "raw": "[Decision(options=\"Thanks for that, Saria.\", values=\"1\")]",
+        "type": "decision",
+        "options": "Thanks for that, Saria.",
+        "values": "1"
+    },
+    {
+        "id": 168,
+        "raw": "[playMusic(intro=\"$darkness01_intro\", key=\"$darkness01_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta1_180603/m_dia_darkness01_intro.mp3",
+        "key": "sound_beta_2/music/beta1_180603/m_dia_darkness01_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 169,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 170,
+        "raw": "[Character(name=\"avg_npc_532_1#9$1\",blackstart=0.4,blackend=0.7)]",
+        "type": "character",
+        "name": "avg_npc_532_1#9$1",
+        "blackstart": "0.4,blackend=0.7"
+    },
+    {
+        "id": 171,
+        "raw": "[delay(time=0.71)]",
+        "type": "delay",
+        "time": 0.71
+    },
+    {
+        "id": 172,
+        "raw": "[character(fadetime=0.7)]",
+        "type": "character",
+        "fadetime": 0.7
+    },
+    {
+        "id": 173,
+        "raw": "[delay(time=0.71)]",
+        "type": "delay",
+        "time": 0.71
+    },
+    {
+        "id": 174,
+        "raw": "[Character(name=\"avg_npc_532_1#1$1\",fadetime=0.7)]",
+        "type": "character",
+        "name": "avg_npc_532_1#1$1",
+        "fadetime": 0.7
+    },
+    {
+        "id": 175,
+        "raw": "[delay(time=0.7)]",
+        "type": "delay",
+        "time": 0.7
+    },
+    {
+        "id": 176,
+        "raw": "[name=\"Saria\"]No need, Doctor, Mechanist.",
+        "type": "dialog",
+        "speaker": "Saria",
+        "content": "No need, Doctor, Mechanist."
+    },
+    {
+        "id": 177,
+        "raw": "[Character(name=\"avg_npc_532_1#3$1\")]",
+        "type": "character",
+        "name": "avg_npc_532_1#3$1"
+    },
+    {
+        "id": 178,
+        "raw": "[name=\"Saria\"]I'm the one getting Rhodes Island involved in Rhine's internal affairs—",
+        "type": "dialog",
+        "speaker": "Saria",
+        "content": "I'm the one getting Rhodes Island involved in Rhine's internal affairs—"
+    },
+    {
+        "id": 179,
+        "raw": "[Character(name=\"avg_npc_532_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_532_1#1$1"
+    },
+    {
+        "id": 180,
+        "raw": "[name=\"Saria\"]I have a duty to ensure you don't come to any harm.",
+        "type": "dialog",
+        "speaker": "Saria",
+        "content": "I have a duty to ensure you don't come to any harm."
+    },
+    {
+        "id": 181,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 182,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 183,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 184,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 185,
+        "raw": "[stopmusic(fadetime=1)]",
+        "type": "stop_music",
+        "fadetime": 1
+    },
+    {
+        "id": 186,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 187,
+        "raw": "[Background(image=\"29_g7_mainstreet_n\",screenadapt=\"showall\")]",
+        "type": "background",
+        "image": "29_g7_mainstreet_n.png",
+        "screenadapt": "showall"
+    },
+    {
+        "id": 188,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 189,
+        "raw": "[playMusic(intro=\"$darkness01_intro\", key=\"$darkness01_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta1_180603/m_dia_darkness01_intro.mp3",
+        "key": "sound_beta_2/music/beta1_180603/m_dia_darkness01_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 190,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 191,
+        "raw": "[Delay(time=2)]\t",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 192,
+        "raw": "[Character(name=\"avg_npc_536_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_536_1#1$1"
+    },
+    {
+        "id": 193,
+        "raw": "[name=\"Ho'olheyak\"]Ferdinand was right on the money.",
+        "type": "dialog",
+        "speaker": "Ho'olheyak",
+        "content": "Ferdinand was right on the money."
+    },
+    {
+        "id": 194,
+        "raw": "[name=\"Ho'olheyak\"]Rhodes Island's people have already found Saria.",
+        "type": "dialog",
+        "speaker": "Ho'olheyak",
+        "content": "Rhodes Island's people have already found Saria."
+    },
+    {
+        "id": 195,
+        "raw": "[Character(name=\"avg_npc_399_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_399_1#1$1"
+    },
+    {
+        "id": 196,
+        "raw": "[name=\"Columbian Mercenary\"]Should we maintain pursuit, ma'am?",
+        "type": "dialog",
+        "speaker": "Columbian Mercenary",
+        "content": "Should we maintain pursuit, ma'am?"
+    },
+    {
+        "id": 197,
+        "raw": "[Character(name=\"avg_npc_536_1#6$1\")]",
+        "type": "character",
+        "name": "avg_npc_536_1#6$1"
+    },
+    {
+        "id": 198,
+        "raw": "[name=\"Ho'olheyak\"]If I stuffed you inside that power armor just now, do you think you'd survive?",
+        "type": "dialog",
+        "speaker": "Ho'olheyak",
+        "content": "If I stuffed you inside that power armor just now, do you think you'd survive?"
+    },
+    {
+        "id": 199,
+        "raw": "[Character(name=\"avg_npc_399_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_399_1#1$1"
+    },
+    {
+        "id": 200,
+        "raw": "[name=\"Columbian Mercenary\"]......",
+        "type": "dialog",
+        "speaker": "Columbian Mercenary",
+        "content": "......"
+    },
+    {
+        "id": 201,
+        "raw": "[Character(name=\"avg_npc_536_1#3$1\")]",
+        "type": "character",
+        "name": "avg_npc_536_1#3$1"
+    },
+    {
+        "id": 202,
+        "raw": "[name=\"Ho'olheyak\"]Relax.",
+        "type": "dialog",
+        "speaker": "Ho'olheyak",
+        "content": "Relax."
+    },
+    {
+        "id": 203,
+        "raw": "[name=\"Ho'olheyak\"]Just a hypothetical.",
+        "type": "dialog",
+        "speaker": "Ho'olheyak",
+        "content": "Just a hypothetical."
+    },
+    {
+        "id": 204,
+        "raw": "[Character(name=\"avg_npc_399_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_399_1#1$1"
+    },
+    {
+        "id": 205,
+        "raw": "[name=\"Columbian Mercenary\"]Ma'am, no matter how powerful Saria is, there's only three of them.",
+        "type": "dialog",
+        "speaker": "Columbian Mercenary",
+        "content": "Ma'am, no matter how powerful Saria is, there's only three of them."
+    },
+    {
+        "id": 206,
+        "raw": "[name=\"Columbian Mercenary\"]We've got them way outnumbered, and outgunned with our secret weapon.",
+        "type": "dialog",
+        "speaker": "Columbian Mercenary",
+        "content": "We've got them way outnumbered, and outgunned with our secret weapon."
+    },
+    {
+        "id": 207,
+        "raw": "[Character(name=\"avg_npc_536_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_536_1#1$1"
+    },
+    {
+        "id": 208,
+        "raw": "[name=\"Ho'olheyak\"]Underestimate the enemy at your own peril.",
+        "type": "dialog",
+        "speaker": "Ho'olheyak",
+        "content": "Underestimate the enemy at your own peril."
+    },
+    {
+        "id": 209,
+        "raw": "[name=\"Ho'olheyak\"]Haven't you been around Rhine Lab enough to learn? The punier a scientist looks, the harder she might just pulverize you.",
+        "type": "dialog",
+        "speaker": "Ho'olheyak",
+        "content": "Haven't you been around Rhine Lab enough to learn? The punier a scientist looks, the harder she might just pulverize you."
+    },
+    {
+        "id": 210,
+        "raw": "[Character(name=\"avg_npc_399_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_399_1#1$1"
+    },
+    {
+        "id": 211,
+        "raw": "[name=\"Columbian Mercenary\"]Y-You mean that mechanist, or the professor-looking one with the hidden face? They can't be stronger than Rhine's Defense Director, right?",
+        "type": "dialog",
+        "speaker": "Columbian Mercenary",
+        "content": "Y-You mean that mechanist, or the professor-looking one with the hidden face? They can't be stronger than Rhine's Defense Director, right?"
+    },
+    {
+        "id": 212,
+        "raw": "[Character(name=\"avg_npc_536_1#3$1\")]",
+        "type": "character",
+        "name": "avg_npc_536_1#3$1"
+    },
+    {
+        "id": 213,
+        "raw": "[name=\"Ho'olheyak\"]Rhodes Island... they've got talent for days.",
+        "type": "dialog",
+        "speaker": "Ho'olheyak",
+        "content": "Rhodes Island... they've got talent for days."
+    },
+    {
+        "id": 214,
+        "raw": "[Character(name=\"avg_npc_536_1#2$1\")]",
+        "type": "character",
+        "name": "avg_npc_536_1#2$1"
+    },
+    {
+        "id": 215,
+        "raw": "[name=\"Ho'olheyak\"]Let's go. I'm in love with that hypothetical just now, and I've got a few new ideas I want to try out.",
+        "type": "dialog",
+        "speaker": "Ho'olheyak",
+        "content": "Let's go. I'm in love with that hypothetical just now, and I've got a few new ideas I want to try out."
+    },
+    {
+        "id": 216,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 217,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 218,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 219,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 220,
+        "raw": "[Character(name=\"avg_npc_522_1#6$1\")]",
+        "type": "character",
+        "name": "avg_npc_522_1#6$1"
+    },
+    {
+        "id": 221,
+        "raw": "[Background(image=\"29_g9_headquarter\",screenadapt=\"showall\")]",
+        "type": "background",
+        "image": "29_g9_headquarter.png",
+        "screenadapt": "showall"
+    },
+    {
+        "id": 222,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 223,
+        "raw": "[playMusic(intro=\"$darkness01_intro\", key=\"$darkness01_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta1_180603/m_dia_darkness01_intro.mp3",
+        "key": "sound_beta_2/music/beta1_180603/m_dia_darkness01_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 224,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 225,
+        "raw": "[Delay(time=2)]\t",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 226,
+        "raw": "[PlaySound(key=\"$d_gen_transmissionget\",volume=0.6)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_transmissionget.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 227,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 228,
+        "raw": "[name=\"Ferdinand\"]......",
+        "type": "dialog",
+        "speaker": "Ferdinand",
+        "content": "......"
+    },
+    {
+        "id": 229,
+        "raw": "[name=\"Ferdinand\"]Good evening, Colonel.",
+        "type": "dialog",
+        "speaker": "Ferdinand",
+        "content": "Good evening, Colonel."
+    },
+    {
+        "id": 230,
+        "raw": "[Character(name=\"avg_npc_522_1#6$1\",focus=-1)]",
+        "type": "character",
+        "name": "avg_npc_522_1#6$1",
+        "focus": -1
+    },
+    {
+        "id": 231,
+        "raw": "[name=\"Colonel's Voice\"]Clooney...",
+        "type": "dialog",
+        "speaker": "Colonel's Voice",
+        "content": "Clooney..."
+    },
+    {
+        "id": 232,
+        "raw": "[name=\"Colonel's Voice\"]Give me a rundown of what's going on at the site.",
+        "type": "dialog",
+        "speaker": "Colonel's Voice",
+        "content": "Give me a rundown of what's going on at the site."
+    },
+    {
+        "id": 233,
+        "raw": "[Character(name=\"avg_npc_522_1#6$1\")]",
+        "type": "character",
+        "name": "avg_npc_522_1#6$1"
+    },
+    {
+        "id": 234,
+        "raw": "[name=\"Ferdinand\"]Just minor boat-rocking... You know how hard it is for Pioneers to be satisfied, no matter how generous you get with their terms.",
+        "type": "dialog",
+        "speaker": "Ferdinand",
+        "content": "Just minor boat-rocking... You know how hard it is for Pioneers to be satisfied, no matter how generous you get with their terms."
+    },
+    {
+        "id": 235,
+        "raw": "[name=\"Ferdinand\"]Initiative is their strong point, and it forms the basis of Columbia's endless expansion, but sometimes it carries with it a little... hassle.",
+        "type": "dialog",
+        "speaker": "Ferdinand",
+        "content": "Initiative is their strong point, and it forms the basis of Columbia's endless expansion, but sometimes it carries with it a little... hassle."
+    },
+    {
+        "id": 236,
+        "raw": "[Character(name=\"avg_npc_522_1#6$1\",focus=-1)]",
+        "type": "character",
+        "name": "avg_npc_522_1#6$1",
+        "focus": -1
+    },
+    {
+        "id": 237,
+        "raw": "[name=\"Colonel's Voice\"]So it's hassle. Unhassle it, then.",
+        "type": "dialog",
+        "speaker": "Colonel's Voice",
+        "content": "So it's hassle. Unhassle it, then."
+    },
+    {
+        "id": 238,
+        "raw": "[name=\"Colonel's Voice\"]I want to see the results you promised, not Rhine Lab in the gossip rags.",
+        "type": "dialog",
+        "speaker": "Colonel's Voice",
+        "content": "I want to see the results you promised, not Rhine Lab in the gossip rags."
+    },
+    {
+        "id": 239,
+        "raw": "[name=\"Colonel's Voice\"]Remember, you aren't the only tech company in Columbia.",
+        "type": "dialog",
+        "speaker": "Colonel's Voice",
+        "content": "Remember, you aren't the only tech company in Columbia."
+    },
+    {
+        "id": 240,
+        "raw": "[Character(name=\"avg_npc_522_1#6$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_522_1#6$1",
+        "focus": 1
+    },
+    {
+        "id": 241,
+        "raw": "[name=\"Ferdinand\"]Understood.",
+        "type": "dialog",
+        "speaker": "Ferdinand",
+        "content": "Understood."
+    },
+    {
+        "id": 242,
+        "raw": "[name=\"Ferdinand\"]Rest assured, Colonel.",
+        "type": "dialog",
+        "speaker": "Ferdinand",
+        "content": "Rest assured, Colonel."
+    },
+    {
+        "id": 243,
+        "raw": "[name=\"Ferdinand\"]Rhine Lab's products will not let you down.",
+        "type": "dialog",
+        "speaker": "Ferdinand",
+        "content": "Rhine Lab's products will not let you down."
+    },
+    {
+        "id": 244,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 245,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 246,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 247,
+        "raw": "[stopmusic(fadetime=1)]",
+        "type": "stop_music",
+        "fadetime": 1
+    },
+    {
+        "id": 248,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 249,
+        "raw": "[Character(name=\"avg_npc_535_1#1$1\",name2=\"avg_npc_534_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_535_1#1$1",
+        "name2": "avg_npc_534_1#1$1"
+    },
+    {
+        "id": 250,
+        "raw": "[Background(image=\"29_g3_cottage\",screenadapt=\"showall\")]",
+        "type": "background",
+        "image": "29_g3_cottage.png",
+        "screenadapt": "showall"
+    },
+    {
+        "id": 251,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 252,
+        "raw": "[PlayMusic(intro=\"$mist_intro\", key=\"$mist_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta1_180603/m_dia_mist_intro.mp3",
+        "key": "sound_beta_2/music/beta1_180603/m_dia_mist_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 253,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 254,
+        "raw": "[Delay(time=2)]\t",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 255,
+        "raw": "[Character(name=\"avg_npc_535_1#1$1\",name2=\"avg_npc_534_1#1$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_535_1#1$1",
+        "name2": "avg_npc_534_1#1$1",
+        "focus": 2
+    },
+    {
+        "id": 256,
+        "raw": "[name=\"Frontier Team Member\"]Sir, got a whole crew wanting out of this now.",
+        "type": "dialog",
+        "speaker": "Frontier Team Member",
+        "content": "Sir, got a whole crew wanting out of this now."
+    },
+    {
+        "id": 257,
+        "raw": "[name=\"Frontier Team Member\"]They say your plan's hopeless, that nobody's gonna listen to us. We can try everything we want, we'll never get our voices out.",
+        "type": "dialog",
+        "speaker": "Frontier Team Member",
+        "content": "They say your plan's hopeless, that nobody's gonna listen to us. We can try everything we want, we'll never get our voices out."
+    },
+    {
+        "id": 258,
+        "raw": "[Character(name=\"avg_npc_535_1#11$1\",name2=\"avg_npc_534_1#1$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_535_1#11$1",
+        "name2": "avg_npc_534_1#1$1",
+        "focus": 1
+    },
+    {
+        "id": 259,
+        "raw": "[name=\"Sonny\"]......",
+        "type": "dialog",
+        "speaker": "Sonny",
+        "content": "......"
+    },
+    {
+        "id": 260,
+        "raw": "[Character(name=\"avg_npc_535_1#11$1\",name2=\"avg_npc_534_1#1$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_535_1#11$1",
+        "name2": "avg_npc_534_1#1$1",
+        "focus": 2
+    },
+    {
+        "id": 261,
+        "raw": "[name=\"Frontier Team Member\"]They're also asking who cares what Rhine Lab's up to.",
+        "type": "dialog",
+        "speaker": "Frontier Team Member",
+        "content": "They're also asking who cares what Rhine Lab's up to."
+    },
+    {
+        "id": 262,
+        "raw": "[name=\"Frontier Team Member\"]Like, we just need to get this work done sooner, get our money, move onto the next place and keep going.",
+        "type": "dialog",
+        "speaker": "Frontier Team Member",
+        "content": "Like, we just need to get this work done sooner, get our money, move onto the next place and keep going."
+    },
+    {
+        "id": 263,
+        "raw": "[name=\"Frontier Team Member\"]As for the guys who... went missing, well, their luck just ran out. The Pioneer Teams out in the deep wastes see a lot more dead every year than we do, anyway.",
+        "type": "dialog",
+        "speaker": "Frontier Team Member",
+        "content": "As for the guys who... went missing, well, their luck just ran out. The Pioneer Teams out in the deep wastes see a lot more dead every year than we do, anyway."
+    },
+    {
+        "id": 264,
+        "raw": "[Character(name=\"avg_npc_535_1#5$1\",name2=\"avg_npc_534_1#1$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_535_1#5$1",
+        "name2": "avg_npc_534_1#1$1",
+        "focus": 1
+    },
+    {
+        "id": 265,
+        "raw": "[name=\"Sonny\"]I get it.",
+        "type": "dialog",
+        "speaker": "Sonny",
+        "content": "I get it."
+    },
+    {
+        "id": 266,
+        "raw": "[Character(name=\"avg_npc_535_1#11$1\",name2=\"avg_npc_534_1#1$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_535_1#11$1",
+        "name2": "avg_npc_534_1#1$1",
+        "focus": 1
+    },
+    {
+        "id": 267,
+        "raw": "[name=\"Sonny\"]Tell them to just hold on a little longer. I'll bring our people back.",
+        "type": "dialog",
+        "speaker": "Sonny",
+        "content": "Tell them to just hold on a little longer. I'll bring our people back."
+    },
+    {
+        "id": 268,
+        "raw": "[Character(name=\"avg_npc_535_1#11$1\",name2=\"avg_npc_534_1#1$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_535_1#11$1",
+        "name2": "avg_npc_534_1#1$1",
+        "focus": 2
+    },
+    {
+        "id": 269,
+        "raw": "[name=\"Frontier Team Member\"]So what's your plan?",
+        "type": "dialog",
+        "speaker": "Frontier Team Member",
+        "content": "So what's your plan?"
+    },
+    {
+        "id": 270,
+        "raw": "[Character(name=\"avg_npc_535_1#11$1\",name2=\"avg_npc_534_1#1$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_535_1#11$1",
+        "name2": "avg_npc_534_1#1$1",
+        "focus": 1
+    },
+    {
+        "id": 271,
+        "raw": "[name=\"Sonny\"]I'm gonna head out for a bit.",
+        "type": "dialog",
+        "speaker": "Sonny",
+        "content": "I'm gonna head out for a bit."
+    },
+    {
+        "id": 272,
+        "raw": "[Character(name=\"avg_npc_535_1#11$1\",name2=\"avg_npc_534_1#1$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_535_1#11$1",
+        "name2": "avg_npc_534_1#1$1",
+        "focus": 2
+    },
+    {
+        "id": 273,
+        "raw": "[name=\"Frontier Team Member\"]Out? Isn't... isn't that too dangerous?",
+        "type": "dialog",
+        "speaker": "Frontier Team Member",
+        "content": "Out? Isn't... isn't that too dangerous?"
+    },
+    {
+        "id": 274,
+        "raw": "[name=\"Frontier Team Member\"]If the cops sent sharpshooters, they might just be waiting for you to come out.",
+        "type": "dialog",
+        "speaker": "Frontier Team Member",
+        "content": "If the cops sent sharpshooters, they might just be waiting for you to come out."
+    },
+    {
+        "id": 275,
+        "raw": "[Character(name=\"avg_npc_535_1#11$1\",name2=\"avg_npc_534_1#1$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_535_1#11$1",
+        "name2": "avg_npc_534_1#1$1",
+        "focus": 1
+    },
+    {
+        "id": 276,
+        "raw": "[name=\"Sonny\"]Sounds like a good deal to me.",
+        "type": "dialog",
+        "speaker": "Sonny",
+        "content": "Sounds like a good deal to me."
+    },
+    {
+        "id": 277,
+        "raw": "[Character(name=\"avg_npc_535_1#11$1\",name2=\"avg_npc_534_1#1$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_535_1#11$1",
+        "name2": "avg_npc_534_1#1$1",
+        "focus": 2
+    },
+    {
+        "id": 278,
+        "raw": "[name=\"Frontier Team Member\"]Wh-What? You're keeping your head together, right?",
+        "type": "dialog",
+        "speaker": "Frontier Team Member",
+        "content": "Wh-What? You're keeping your head together, right?"
+    },
+    {
+        "id": 279,
+        "raw": "[Character(name=\"avg_npc_535_1#11$1\",name2=\"avg_npc_534_1#1$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_535_1#11$1",
+        "name2": "avg_npc_534_1#1$1",
+        "focus": 1
+    },
+    {
+        "id": 280,
+        "raw": "[name=\"Sonny\"]A police sharpshooter, right? Might just be an old friend of mine. Crack shot with a crossbow. If this is how it's gotta be, it's not gonna hurt too bad.",
+        "type": "dialog",
+        "speaker": "Sonny",
+        "content": "A police sharpshooter, right? Might just be an old friend of mine. Crack shot with a crossbow. If this is how it's gotta be, it's not gonna hurt too bad."
+    },
+    {
+        "id": 281,
+        "raw": "[Character(name=\"avg_npc_535_1#11$1\",name2=\"avg_npc_534_1#1$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_535_1#11$1",
+        "name2": "avg_npc_534_1#1$1",
+        "focus": 2
+    },
+    {
+        "id": 282,
+        "raw": "[name=\"Frontier Team Member\"]Sonny...",
+        "type": "dialog",
+        "speaker": "Frontier Team Member",
+        "content": "Sonny..."
+    },
+    {
+        "id": 283,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 284,
+        "raw": "[character]",
+        "type": "character"
+    },
+    {
+        "id": 285,
+        "raw": "[Character(name=\"avg_npc_535_1#11$1\")]",
+        "type": "character",
+        "name": "avg_npc_535_1#11$1"
+    },
+    {
+        "id": 286,
+        "raw": "[name=\"Sonny\"]Dr. Urbica, Doc Moore—",
+        "type": "dialog",
+        "speaker": "Sonny",
+        "content": "Dr. Urbica, Doc Moore—"
+    },
+    {
+        "id": 287,
+        "raw": "[name=\"Sonny\"]I need you to come out for a walk.",
+        "type": "dialog",
+        "speaker": "Sonny",
+        "content": "I need you to come out for a walk."
+    },
+    {
+        "id": 288,
+        "raw": "[Character(name=\"avg_128_plosis_1#8$1\",name2=\"avg_135_halo_1#9$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_128_plosis_1#8$1",
+        "name2": "avg_135_halo_1#9$1",
+        "focus": 1
+    },
+    {
+        "id": 289,
+        "raw": "[name=\"Ptilopsis\"]......",
+        "type": "dialog",
+        "speaker": "Ptilopsis",
+        "content": "......"
+    },
+    {
+        "id": 290,
+        "raw": "[Character(name=\"avg_128_plosis_1#8$1\",name2=\"avg_135_halo_1#9$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_128_plosis_1#8$1",
+        "name2": "avg_135_halo_1#9$1",
+        "focus": 2
+    },
+    {
+        "id": 291,
+        "raw": "[name=\"Elena\"]You can drop the pretense. Do we have a choice here?",
+        "type": "dialog",
+        "speaker": "Elena",
+        "content": "You can drop the pretense. Do we have a choice here?"
+    },
+    {
+        "id": 292,
+        "raw": "[Character(name=\"avg_npc_535_1#11$1\")]",
+        "type": "character",
+        "name": "avg_npc_535_1#11$1"
+    },
+    {
+        "id": 293,
+        "raw": "[name=\"Sonny\"]Afraid not. Keep your chin up.",
+        "type": "dialog",
+        "speaker": "Sonny",
+        "content": "Afraid not. Keep your chin up."
+    },
+    {
+        "id": 294,
+        "raw": "[name=\"Sonny\"]Once the folks outside get to see the score, maybe they'll change their minds, open up to taking our demands seriously.",
+        "type": "dialog",
+        "speaker": "Sonny",
+        "content": "Once the folks outside get to see the score, maybe they'll change their minds, open up to taking our demands seriously."
+    },
+    {
+        "id": 295,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 296,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 297,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 298,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 299,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 300,
+        "raw": "[Character(name=\"avg_npc_527_1#1$1\",name2=\"avg_npc_528_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_527_1#1$1",
+        "name2": "avg_npc_528_1#1$1"
+    },
+    {
+        "id": 301,
+        "raw": "[Background(image=\"29_g2_edgeofbase\",screenadapt=\"showall\")]",
+        "type": "background",
+        "image": "29_g2_edgeofbase.png",
+        "screenadapt": "showall"
+    },
+    {
+        "id": 302,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 303,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 304,
+        "raw": "[Delay(time=2)]\t",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 305,
+        "raw": "[Character(name=\"avg_npc_527_1#1$1\",name2=\"avg_npc_528_1#1$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_527_1#1$1",
+        "name2": "avg_npc_528_1#1$1",
+        "focus": 2
+    },
+    {
+        "id": 306,
+        "raw": "[name=\"Rhine Defense Member\"]Officer, we've got movement!",
+        "type": "dialog",
+        "speaker": "Rhine Defense Member",
+        "content": "Officer, we've got movement!"
+    },
+    {
+        "id": 307,
+        "raw": "[name=\"Rhine Defense Member\"]Drones, prepare to fire—",
+        "type": "dialog",
+        "speaker": "Rhine Defense Member",
+        "content": "Drones, prepare to fire—"
+    },
+    {
+        "id": 308,
+        "raw": "[Character(name=\"avg_npc_527_1#1$1\",name2=\"avg_npc_528_1#1$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_527_1#1$1",
+        "name2": "avg_npc_528_1#1$1",
+        "focus": 1
+    },
+    {
+        "id": 309,
+        "raw": "[name=\"Mary\"]No. Hold your fire.",
+        "type": "dialog",
+        "speaker": "Mary",
+        "content": "No. Hold your fire."
+    },
+    {
+        "id": 310,
+        "raw": "[Character(name=\"avg_npc_527_1#1$1\",name2=\"avg_npc_528_1#1$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_527_1#1$1",
+        "name2": "avg_npc_528_1#1$1",
+        "focus": 2
+    },
+    {
+        "id": 311,
+        "raw": "[name=\"Rhine Defense Member\"]Officer...?",
+        "type": "dialog",
+        "speaker": "Rhine Defense Member",
+        "content": "Officer...?"
+    },
+    {
+        "id": 312,
+        "raw": "[Character(name=\"avg_npc_527_1#6$1\",name2=\"avg_npc_528_1#1$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_527_1#6$1",
+        "name2": "avg_npc_528_1#1$1",
+        "focus": 1
+    },
+    {
+        "id": 313,
+        "raw": "[name=\"Mary\"]......",
+        "type": "dialog",
+        "speaker": "Mary",
+        "content": "......"
+    },
+    {
+        "id": 314,
+        "raw": "[Character(name=\"avg_npc_527_1#1$1\",name2=\"avg_npc_528_1#1$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_527_1#1$1",
+        "name2": "avg_npc_528_1#1$1",
+        "focus": 1
+    },
+    {
+        "id": 315,
+        "raw": "[name=\"Mary\"]We can't hurt the hostages.",
+        "type": "dialog",
+        "speaker": "Mary",
+        "content": "We can't hurt the hostages."
+    },
+    {
+        "id": 316,
+        "raw": "[name=\"Mary\"]You, uh... Dr. Silence, over here.",
+        "type": "dialog",
+        "speaker": "Mary",
+        "content": "You, uh... Dr. Silence, over here."
+    },
+    {
+        "id": 317,
+        "raw": "[Character(name=\"avg_npc_527_1#1$1\",name2=\"avg_108_silent_1#1$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_527_1#1$1",
+        "name2": "avg_108_silent_1#1$1",
+        "focus": 2
+    },
+    {
+        "id": 318,
+        "raw": "[name=\"Silence\"]Is there a development, ma'am?",
+        "type": "dialog",
+        "speaker": "Silence",
+        "content": "Is there a development, ma'am?"
+    },
+    {
+        "id": 319,
+        "raw": "[Character(name=\"avg_npc_527_1#1$1\",name2=\"avg_108_silent_1#1$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_527_1#1$1",
+        "name2": "avg_108_silent_1#1$1",
+        "focus": 1
+    },
+    {
+        "id": 320,
+        "raw": "[name=\"Mary\"]Take a look through the binoculars. Are those your two colleagues behind S... the Pioneer?",
+        "type": "dialog",
+        "speaker": "Mary",
+        "content": "Take a look through the binoculars. Are those your two colleagues behind S... the Pioneer?"
+    },
+    {
+        "id": 321,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 322,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 323,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 324,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 325,
+        "raw": "[Character(name=\"avg_npc_535_1#1$1\",name2=\"avg_npc_534_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_535_1#1$1",
+        "name2": "avg_npc_534_1#1$1"
+    },
+    {
+        "id": 326,
+        "raw": "[Background(image=\"29_g1_outdoorbase\",screenadapt=\"showall\")]",
+        "type": "background",
+        "image": "29_g1_outdoorbase.png",
+        "screenadapt": "showall"
+    },
+    {
+        "id": 327,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 328,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 329,
+        "raw": "[Delay(time=2)]\t",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 330,
+        "raw": "[Character(name=\"avg_npc_535_1#1$1\",name2=\"avg_npc_534_1#1$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_535_1#1$1",
+        "name2": "avg_npc_534_1#1$1",
+        "focus": 2
+    },
+    {
+        "id": 331,
+        "raw": "[name=\"Frontier Team Member\"]Sir—th—the comm lit up!",
+        "type": "dialog",
+        "speaker": "Frontier Team Member",
+        "content": "Sir—th—the comm lit up!"
+    },
+    {
+        "id": 332,
+        "raw": "[Character(name=\"avg_npc_535_1#11$1\",name2=\"avg_npc_534_1#1$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_535_1#11$1",
+        "name2": "avg_npc_534_1#1$1",
+        "focus": 1
+    },
+    {
+        "id": 333,
+        "raw": "[name=\"Sonny\"]Give it.",
+        "type": "dialog",
+        "speaker": "Sonny",
+        "content": "Give it."
+    },
+    {
+        "id": 334,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 335,
+        "raw": "[characteraction(name=\"right\", type=\"move\", xpos=-150,fadetime=0.7)]",
+        "type": "move",
+        "name": "right",
+        "xpos": "-150,fadetime=0.7"
+    },
+    {
+        "id": 336,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 337,
+        "raw": "[characteraction(name=\"right\", type=\"move\", xpos=150,fadetime=0.7)]",
+        "type": "move",
+        "name": "right",
+        "xpos": "150,fadetime=0.7"
+    },
+    {
+        "id": 338,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 339,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 340,
+        "raw": "[characteraction(name=\"right\", type=\"move\", xpos=300, fadetime=2,block=false)]",
+        "type": "move",
+        "name": "right",
+        "xpos": "300,",
+        "fadetime": "2,block=false"
+    },
+    {
+        "id": 341,
+        "raw": "[character(name=\"avg_npc_535_1#11$1\",name2=\"char_empty\",fadetime=0.5)]",
+        "type": "character",
+        "name": "avg_npc_535_1#11$1",
+        "name2": "char_empty",
+        "fadetime": 0.5
+    },
+    {
+        "id": 342,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 343,
+        "raw": "[PlaySound(key=\"$d_gen_transmissionget\",volume=0.6)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_transmissionget.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 344,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 345,
+        "raw": "[CharacterCutin(widgetID=\"1\", name=\"avg_npc_527_1#1$1\", style=\"cutin\", fadestyle= \"horiz_expand_center\", fadetime=0.5, offsetx=300, width=200, block=true)]",
+        "type": "character_cutin",
+        "widgetID": "1",
+        "name": "avg_npc_527_1#1$1",
+        "style": "cutin",
+        "fadetime": "0.5,",
+        "offsetx": "300,",
+        "width": "200,",
+        "block": true
+    },
+    {
+        "id": 346,
+        "raw": "[Character(name=\"avg_npc_535_1#11$1\",name2=\"char_empty\",focus=-1)]",
+        "type": "character",
+        "name": "avg_npc_535_1#11$1",
+        "name2": "char_empty",
+        "focus": -1
+    },
+    {
+        "id": 347,
+        "raw": "[name=\"Mary\"]......",
+        "type": "dialog",
+        "speaker": "Mary",
+        "content": "......"
+    },
+    {
+        "id": 348,
+        "raw": "[Character(name=\"avg_npc_535_1#1$1\",name2=\"char_empty\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_535_1#1$1",
+        "name2": "char_empty",
+        "focus": 1
+    },
+    {
+        "id": 349,
+        "raw": "[name=\"Sonny\"]Knew it'd be you.",
+        "type": "dialog",
+        "speaker": "Sonny",
+        "content": "Knew it'd be you."
+    },
+    {
+        "id": 350,
+        "raw": "[Character(name=\"avg_npc_535_1#1$1\",name2=\"char_empty\",focus=-1)]",
+        "type": "character",
+        "name": "avg_npc_535_1#1$1",
+        "name2": "char_empty",
+        "focus": -1
+    },
+    {
+        "id": 351,
+        "raw": "[name=\"Mary\"]I could say the same thing.",
+        "type": "dialog",
+        "speaker": "Mary",
+        "content": "I could say the same thing."
+    },
+    {
+        "id": 352,
+        "raw": "[Character(name=\"avg_npc_535_1#1$1\",name2=\"char_empty\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_535_1#1$1",
+        "name2": "char_empty",
+        "focus": 1
+    },
+    {
+        "id": 353,
+        "raw": "[name=\"Sonny\"]You, uh... you made rank, right? Didn't get the chance to congratulate you.",
+        "type": "dialog",
+        "speaker": "Sonny",
+        "content": "You, uh... you made rank, right? Didn't get the chance to congratulate you."
+    },
+    {
+        "id": 354,
+        "raw": "[Character(name=\"avg_npc_535_1#2$1\",name2=\"char_empty\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_535_1#2$1",
+        "name2": "char_empty",
+        "focus": 1
+    },
+    {
+        "id": 355,
+        "raw": "[name=\"Sonny\"]Who knew you'd stay at that precinct so long... You keep getting all this hassle from the frontier.",
+        "type": "dialog",
+        "speaker": "Sonny",
+        "content": "Who knew you'd stay at that precinct so long... You keep getting all this hassle from the frontier."
+    },
+    {
+        "id": 356,
+        "raw": "[Character(name=\"avg_npc_535_1#2$1\",name2=\"char_empty\",focus=-1)]",
+        "type": "character",
+        "name": "avg_npc_535_1#2$1",
+        "name2": "char_empty",
+        "focus": -1
+    },
+    {
+        "id": 357,
+        "raw": "[name=\"Mary\"]And I never thought you'd end up so... depraved.",
+        "type": "dialog",
+        "speaker": "Mary",
+        "content": "And I never thought you'd end up so... depraved."
+    },
+    {
+        "id": 358,
+        "raw": "[name=\"Mary\"]You still remember any of the classes you took? Your law courses?",
+        "type": "dialog",
+        "speaker": "Mary",
+        "content": "You still remember any of the classes you took? Your law courses?"
+    },
+    {
+        "id": 359,
+        "raw": "[name=\"Mary\"]You still remember... the shit you said to me, the day I joined the force?",
+        "type": "dialog",
+        "speaker": "Mary",
+        "content": "You still remember... the shit you said to me, the day I joined the force?"
+    },
+    {
+        "id": 360,
+        "raw": "[Character(name=\"avg_npc_535_1#8$1\",name2=\"char_empty\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_535_1#8$1",
+        "name2": "char_empty",
+        "focus": 1
+    },
+    {
+        "id": 361,
+        "raw": "[name=\"Sonny\"]......",
+        "type": "dialog",
+        "speaker": "Sonny",
+        "content": "......"
+    },
+    {
+        "id": 362,
+        "raw": "[Character(name=\"avg_npc_535_1#8$1\",name2=\"char_empty\",focus=-1)]",
+        "type": "character",
+        "name": "avg_npc_535_1#8$1",
+        "name2": "char_empty",
+        "focus": -1
+    },
+    {
+        "id": 363,
+        "raw": "[name=\"Mary\"]'That's great! We'll be partners again. It'll be just like all those games we played as kids. We'll protect Columbia's peace, bring the bad guys to justice—'",
+        "type": "dialog",
+        "speaker": "Mary",
+        "content": "'That's great! We'll be partners again. It'll be just like all those games we played as kids. We'll protect Columbia's peace, bring the bad guys to justice—'"
+    },
+    {
+        "id": 364,
+        "raw": "[name=\"Mary\"]Hah... how's that irony? You're bad guy number one right here and now.",
+        "type": "dialog",
+        "speaker": "Mary",
+        "content": "Hah... how's that irony? You're bad guy number one right here and now."
+    },
+    {
+        "id": 365,
+        "raw": "[Character(name=\"avg_npc_535_1#8$1\",name2=\"char_empty\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_535_1#8$1",
+        "name2": "char_empty",
+        "focus": 1
+    },
+    {
+        "id": 366,
+        "raw": "[name=\"Sonny\"]Mary...",
+        "type": "dialog",
+        "speaker": "Sonny",
+        "content": "Mary..."
+    },
+    {
+        "id": 367,
+        "raw": "[Character(name=\"avg_npc_535_1#8$1\",name2=\"char_empty\",focus=-1)]",
+        "type": "character",
+        "name": "avg_npc_535_1#8$1",
+        "name2": "char_empty",
+        "focus": -1
+    },
+    {
+        "id": 368,
+        "raw": "[name=\"Mary\"]What's all that crap your boys are holding? Homemade weapons?",
+        "type": "dialog",
+        "speaker": "Mary",
+        "content": "What's all that crap your boys are holding? Homemade weapons?"
+    },
+    {
+        "id": 369,
+        "raw": "[name=\"Mary\"]Drop those things before you embarrass yourselves any more.",
+        "type": "dialog",
+        "speaker": "Mary",
+        "content": "Drop those things before you embarrass yourselves any more."
+    },
+    {
+        "id": 370,
+        "raw": "[name=\"Mary\"]You degraded yourself this far, but you still have an option. One final option.",
+        "type": "dialog",
+        "speaker": "Mary",
+        "content": "You degraded yourself this far, but you still have an option. One final option."
+    },
+    {
+        "id": 371,
+        "raw": "[name=\"Mary\"]Let those two innocent ladies next to you go.",
+        "type": "dialog",
+        "speaker": "Mary",
+        "content": "Let those two innocent ladies next to you go."
+    },
+    {
+        "id": 372,
+        "raw": "[Character(name=\"avg_npc_535_1#11$1\",name2=\"char_empty\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_535_1#11$1",
+        "name2": "char_empty",
+        "focus": 1
+    },
+    {
+        "id": 373,
+        "raw": "[name=\"Sonny\"]No. That's not in the cards for now.",
+        "type": "dialog",
+        "speaker": "Sonny",
+        "content": "No. That's not in the cards for now."
+    },
+    {
+        "id": 374,
+        "raw": "[Character(name=\"avg_npc_535_1#11$1\",name2=\"char_empty\",focus=-1)]",
+        "type": "character",
+        "name": "avg_npc_535_1#11$1",
+        "name2": "char_empty",
+        "focus": -1
+    },
+    {
+        "id": 375,
+        "raw": "[name=\"Mary\"]Dammit. You're inching over the cliff here.",
+        "type": "dialog",
+        "speaker": "Mary",
+        "content": "Dammit. You're inching over the cliff here."
+    },
+    {
+        "id": 376,
+        "raw": "[name=\"Mary\"]Sure, the government lets a criminal join the Pioneers if he doesn't want to do hard time.",
+        "type": "dialog",
+        "speaker": "Mary",
+        "content": "Sure, the government lets a criminal join the Pioneers if he doesn't want to do hard time."
+    },
+    {
+        "id": 377,
+        "raw": "[name=\"Mary\"]But if... you break the law again out on the frontier? What charges does that buy you?",
+        "type": "dialog",
+        "speaker": "Mary",
+        "content": "But if... you break the law again out on the frontier? What charges does that buy you?"
+    },
+    {
+        "id": 378,
+        "raw": "[Character(name=\"avg_npc_535_1#8$1\",name2=\"char_empty\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_535_1#8$1",
+        "name2": "char_empty",
+        "focus": 1
+    },
+    {
+        "id": 379,
+        "raw": "[name=\"Sonny\"]......",
+        "type": "dialog",
+        "speaker": "Sonny",
+        "content": "......"
+    },
+    {
+        "id": 380,
+        "raw": "[Character(name=\"avg_npc_535_1#8$1\",name2=\"char_empty\",focus=-1)]",
+        "type": "character",
+        "name": "avg_npc_535_1#8$1",
+        "name2": "char_empty",
+        "focus": -1
+    },
+    {
+        "id": 381,
+        "raw": "[name=\"Mary\"]Answer me, counsel!",
+        "type": "dialog",
+        "speaker": "Mary",
+        "content": "Answer me, counsel!"
+    },
+    {
+        "id": 382,
+        "raw": "[Character(name=\"avg_npc_535_1#8$1\",name2=\"char_empty\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_535_1#8$1",
+        "name2": "char_empty",
+        "focus": 1
+    },
+    {
+        "id": 383,
+        "raw": "[name=\"Sonny\"]Don't call me that, Mary, I'm begging you...",
+        "type": "dialog",
+        "speaker": "Sonny",
+        "content": "Don't call me that, Mary, I'm begging you..."
+    },
+    {
+        "id": 384,
+        "raw": "[Character(name=\"avg_npc_535_1#8$1\",name2=\"char_empty\",focus=-1)]",
+        "type": "character",
+        "name": "avg_npc_535_1#8$1",
+        "name2": "char_empty",
+        "focus": -1
+    },
+    {
+        "id": 385,
+        "raw": "[name=\"Mary\"]You're trying to guilt-trip me.",
+        "type": "dialog",
+        "speaker": "Mary",
+        "content": "You're trying to guilt-trip me."
+    },
+    {
+        "id": 386,
+        "raw": "[name=\"Mary\"]Yeah, I feel guilty now... guilty I let you go when you broke into my house. I should've hauled your ass straight to the station.",
+        "type": "dialog",
+        "speaker": "Mary",
+        "content": "Yeah, I feel guilty now... guilty I let you go when you broke into my house. I should've hauled your ass straight to the station."
+    },
+    {
+        "id": 387,
+        "raw": "[Character(name=\"avg_npc_535_1#4$1\",name2=\"char_empty\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_535_1#4$1",
+        "name2": "char_empty",
+        "focus": 1
+    },
+    {
+        "id": 388,
+        "raw": "[name=\"Sonny\"]That was a long time ago. I mean, I'd only just...",
+        "type": "dialog",
+        "speaker": "Sonny",
+        "content": "That was a long time ago. I mean, I'd only just..."
+    },
+    {
+        "id": 389,
+        "raw": "[name=\"Sonny\"]...I'm sorry. I've always been sorry about that.",
+        "type": "dialog",
+        "speaker": "Sonny",
+        "content": "...I'm sorry. I've always been sorry about that."
+    },
+    {
+        "id": 390,
+        "raw": "[Character(name=\"avg_npc_535_1#8$1\",name2=\"char_empty\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_535_1#8$1",
+        "name2": "char_empty",
+        "focus": 1
+    },
+    {
+        "id": 391,
+        "raw": "[name=\"Sonny\"]But this time, I have a reason for doing all this. You have to hear me out, please.",
+        "type": "dialog",
+        "speaker": "Sonny",
+        "content": "But this time, I have a reason for doing all this. You have to hear me out, please."
+    },
+    {
+        "id": 392,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 393,
+        "raw": "[CharacterCutin(widgetID=\"1\",block=true)]",
+        "type": "character_cutin",
+        "widgetID": "1",
+        "block": true
+    },
+    {
+        "id": 394,
+        "raw": "[playsound(key=\"$transmission\", volume=0.4)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_transmission.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 395,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 396,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 397,
+        "raw": "[Character(name=\"avg_npc_535_1#8$1\", name2=\"char_empty\")]",
+        "type": "character",
+        "name": "avg_npc_535_1#8$1",
+        "name2": "char_empty"
+    },
+    {
+        "id": 398,
+        "raw": "[PlaySound(key=\"$rungeneral\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_rungeneral.mp3",
+        "volume": 1
+    },
+    {
+        "id": 399,
+        "raw": "[characteraction(name=\"right\", type=\"move\", xpos=0, fadetime=0.3, block=true)]",
+        "type": "move",
+        "name": "right",
+        "xpos": "0,",
+        "fadetime": "0.3,",
+        "block": true
+    },
+    {
+        "id": 400,
+        "raw": "[delay(time=0.51)]",
+        "type": "delay",
+        "time": 0.51
+    },
+    {
+        "id": 401,
+        "raw": "[characteraction(name=\"right\", type=\"move\", xpos=-200, fadetime=1, block=false)]",
+        "type": "move",
+        "name": "right",
+        "xpos": "-200,",
+        "fadetime": "1,",
+        "block": false
+    },
+    {
+        "id": 402,
+        "raw": "[Character(name=\"avg_npc_535_1#8$1\", name2=\"avg_npc_534_1#1$1\",fadetime=0.7)]",
+        "type": "character",
+        "name": "avg_npc_535_1#8$1",
+        "name2": "avg_npc_534_1#1$1",
+        "fadetime": 0.7
+    },
+    {
+        "id": 403,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 404,
+        "raw": "[Character(name=\"avg_npc_535_1#8$1\",name2=\"avg_npc_534_1#1$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_535_1#8$1",
+        "name2": "avg_npc_534_1#1$1",
+        "focus": 2
+    },
+    {
+        "id": 405,
+        "raw": "[name=\"Frontier Team Member\"]Sir!",
+        "type": "dialog",
+        "speaker": "Frontier Team Member",
+        "content": "Sir!"
+    },
+    {
+        "id": 406,
+        "raw": "[Character(name=\"avg_npc_535_1#7$1\",name2=\"avg_npc_534_1#1$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_535_1#7$1",
+        "name2": "avg_npc_534_1#1$1",
+        "focus": 1
+    },
+    {
+        "id": 407,
+        "raw": "[name=\"Sonny\"]What?",
+        "type": "dialog",
+        "speaker": "Sonny",
+        "content": "What?"
+    },
+    {
+        "id": 408,
+        "raw": "[Character(name=\"avg_npc_535_1#7$1\",name2=\"avg_npc_534_1#1$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_535_1#7$1",
+        "name2": "avg_npc_534_1#1$1",
+        "focus": 2
+    },
+    {
+        "id": 409,
+        "raw": "[name=\"Frontier Team Member\"]The doc, the doc, she...",
+        "type": "dialog",
+        "speaker": "Frontier Team Member",
+        "content": "The doc, the doc, she..."
+    },
+    {
+        "id": 410,
+        "raw": "[Character(name=\"avg_npc_535_1#7$1\",name2=\"avg_npc_534_1#1$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_535_1#7$1",
+        "name2": "avg_npc_534_1#1$1",
+        "focus": 1
+    },
+    {
+        "id": 411,
+        "raw": "[name=\"Sonny\"]Doc Moore?",
+        "type": "dialog",
+        "speaker": "Sonny",
+        "content": "Doc Moore?"
+    },
+    {
+        "id": 412,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 413,
+        "raw": "[Character(name=\"avg_128_plosis_1#2$1\")]",
+        "type": "character",
+        "name": "avg_128_plosis_1#2$1"
+    },
+    {
+        "id": 414,
+        "raw": "[name=\"Ptilopsis\"]......",
+        "type": "dialog",
+        "speaker": "Ptilopsis",
+        "content": "......"
+    },
+    {
+        "id": 415,
+        "raw": "[characteraction(name=\"middle\", type=\"jump\" , power=5, times=2, fadetime=0.51,block=true)]",
+        "type": "jump",
+        "name": "middle",
+        "power": "5,",
+        "times": "2,",
+        "fadetime": "0.51,block=true"
+    },
+    {
+        "id": 416,
+        "raw": "[name=\"Ptilopsis\"]Configuration... error... entering... power save mode...",
+        "type": "dialog",
+        "speaker": "Ptilopsis",
+        "content": "Configuration... error... entering... power save mode..."
+    },
+    {
+        "id": 417,
+        "raw": "[Character(name=\"avg_135_halo_1#3$1\")]",
+        "type": "character",
+        "name": "avg_135_halo_1#3$1"
+    },
+    {
+        "id": 418,
+        "raw": "[name=\"Elena\"]Oh, shoot. Joyce...",
+        "type": "dialog",
+        "speaker": "Elena",
+        "content": "Oh, shoot. Joyce..."
+    },
+    {
+        "id": 419,
+        "raw": "[Character(name=\"avg_npc_535_1#11$1\")]",
+        "type": "character",
+        "name": "avg_npc_535_1#11$1"
+    },
+    {
+        "id": 420,
+        "raw": "[name=\"Sonny\"]What's happening to her, Doctor?",
+        "type": "dialog",
+        "speaker": "Sonny",
+        "content": "What's happening to her, Doctor?"
+    },
+    {
+        "id": 421,
+        "raw": "[Character(name=\"avg_135_halo_1#3$1\")]",
+        "type": "character",
+        "name": "avg_135_halo_1#3$1"
+    },
+    {
+        "id": 422,
+        "raw": "[name=\"Elena\"]You can tell. She's having an attack.",
+        "type": "dialog",
+        "speaker": "Elena",
+        "content": "You can tell. She's having an attack."
+    },
+    {
+        "id": 423,
+        "raw": "[Character(name=\"avg_npc_534_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_534_1#1$1"
+    },
+    {
+        "id": 424,
+        "raw": "[characteraction(name=\"middle\", type=\"jump\" , power=5, times=2, fadetime=0.51,block=true)]",
+        "type": "jump",
+        "name": "middle",
+        "power": "5,",
+        "times": "2,",
+        "fadetime": "0.51,block=true"
+    },
+    {
+        "id": 425,
+        "raw": "[name=\"Frontier Team Member\"]What?! I—Is it Oripathy?",
+        "type": "dialog",
+        "speaker": "Frontier Team Member",
+        "content": "What?! I—Is it Oripathy?"
+    },
+    {
+        "id": 426,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 427,
+        "raw": "[delay(time=0.7)]",
+        "type": "delay",
+        "time": 0.7
+    },
+    {
+        "id": 428,
+        "raw": "[characteraction(name=\"middle\", type=\"move\", xpos=-300, fadetime=2,block=false)]",
+        "type": "move",
+        "name": "middle",
+        "xpos": "-300,",
+        "fadetime": "2,block=false"
+    },
+    {
+        "id": 429,
+        "raw": "[Character(fadetime=0.5)]",
+        "type": "character",
+        "fadetime": 0.5
+    },
+    {
+        "id": 430,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 431,
+        "raw": "[Character(name=\"avg_128_plosis_1#2$1\", name2=\"char_empty\")]",
+        "type": "character",
+        "name": "avg_128_plosis_1#2$1",
+        "name2": "char_empty"
+    },
+    {
+        "id": 432,
+        "raw": "[characteraction(name=\"right\", type=\"move\", xpos=200, fadetime=0.3, block=true)]",
+        "type": "move",
+        "name": "right",
+        "xpos": "200,",
+        "fadetime": "0.3,",
+        "block": true
+    },
+    {
+        "id": 433,
+        "raw": "[delay(time=0.51)]",
+        "type": "delay",
+        "time": 0.51
+    },
+    {
+        "id": 434,
+        "raw": "[characteraction(name=\"right\", type=\"move\", xpos=-200, fadetime=1, block=false)]",
+        "type": "move",
+        "name": "right",
+        "xpos": "-200,",
+        "fadetime": "1,",
+        "block": false
+    },
+    {
+        "id": 435,
+        "raw": "[Character(name=\"avg_128_plosis_1#2$1\", name2=\"avg_npc_534_1#1$1\",fadetime=0.7)]",
+        "type": "character",
+        "name": "avg_128_plosis_1#2$1",
+        "name2": "avg_npc_534_1#1$1",
+        "fadetime": 0.7
+    },
+    {
+        "id": 436,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 437,
+        "raw": "[characteraction(name=\"right\", type=\"move\", xpos=-200)]",
+        "type": "move",
+        "name": "right",
+        "xpos": -200
+    },
+    {
+        "id": 438,
+        "raw": "[Character(name=\"avg_128_plosis_1#2$1\", name2=\"avg_npc_534_1#1$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_128_plosis_1#2$1",
+        "name2": "avg_npc_534_1#1$1",
+        "focus": 2
+    },
+    {
+        "id": 439,
+        "raw": "[name=\"Frontier Team Member\"]C'mon, I got her! There's drugs for her, right? I... I can't do injections...",
+        "type": "dialog",
+        "speaker": "Frontier Team Member",
+        "content": "C'mon, I got her! There's drugs for her, right? I... I can't do injections..."
+    },
+    {
+        "id": 440,
+        "raw": "[Character(name=\"avg_128_plosis_1#2$1\", name2=\"avg_npc_534_1#1$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_128_plosis_1#2$1",
+        "name2": "avg_npc_534_1#1$1",
+        "focus": 1
+    },
+    {
+        "id": 441,
+        "raw": "[name=\"Ptilopsis\"]Ngh...",
+        "type": "dialog",
+        "speaker": "Ptilopsis",
+        "content": "Ngh..."
+    },
+    {
+        "id": 442,
+        "raw": "[Character(name=\"avg_128_plosis_1#2$1\", name2=\"avg_npc_534_1#1$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_128_plosis_1#2$1",
+        "name2": "avg_npc_534_1#1$1",
+        "focus": 2
+    },
+    {
+        "id": 443,
+        "raw": "[name=\"Frontier Team Member\"]C'mon, she looks like hell!",
+        "type": "dialog",
+        "speaker": "Frontier Team Member",
+        "content": "C'mon, she looks like hell!"
+    },
+    {
+        "id": 444,
+        "raw": "[name=\"Frontier Team Member\"]I... I got this first-aid treatment band Rhine gave us. This does something for Oripathy flare-ups, right?",
+        "type": "dialog",
+        "speaker": "Frontier Team Member",
+        "content": "I... I got this first-aid treatment band Rhine gave us. This does something for Oripathy flare-ups, right?"
+    },
+    {
+        "id": 445,
+        "raw": "[name=\"Frontier Team Member\"]I'll put it on her...",
+        "type": "dialog",
+        "speaker": "Frontier Team Member",
+        "content": "I'll put it on her..."
+    },
+    {
+        "id": 446,
+        "raw": "[Character(name=\"avg_135_halo_1#7$1\")]",
+        "type": "character",
+        "name": "avg_135_halo_1#7$1"
+    },
+    {
+        "id": 447,
+        "raw": "[name=\"Elena\"]......",
+        "type": "dialog",
+        "speaker": "Elena",
+        "content": "......"
+    },
+    {
+        "id": 448,
+        "raw": "[Character(name=\"avg_135_halo_1#3$1\")]",
+        "type": "character",
+        "name": "avg_135_halo_1#3$1"
+    },
+    {
+        "id": 449,
+        "raw": "[name=\"Elena\"]You're willing to give your own emergency care device to Joyce?",
+        "type": "dialog",
+        "speaker": "Elena",
+        "content": "You're willing to give your own emergency care device to Joyce?"
+    },
+    {
+        "id": 450,
+        "raw": "[name=\"Elena\"]If you hand her that band, your odds of survival go down significantly on the off-chance you get a sudden attack.",
+        "type": "dialog",
+        "speaker": "Elena",
+        "content": "If you hand her that band, your odds of survival go down significantly on the off-chance you get a sudden attack."
+    },
+    {
+        "id": 451,
+        "raw": "[Character(name=\"avg_npc_534_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_534_1#1$1"
+    },
+    {
+        "id": 452,
+        "raw": "[name=\"Frontier Team Member\"]The doc's been good to us all this time!",
+        "type": "dialog",
+        "speaker": "Frontier Team Member",
+        "content": "The doc's been good to us all this time!"
+    },
+    {
+        "id": 453,
+        "raw": "[name=\"Frontier Team Member\"]I don't want anything to happen to her...",
+        "type": "dialog",
+        "speaker": "Frontier Team Member",
+        "content": "I don't want anything to happen to her..."
+    },
+    {
+        "id": 454,
+        "raw": "[Character(name=\"avg_135_halo_1#3$1\")]",
+        "type": "character",
+        "name": "avg_135_halo_1#3$1"
+    },
+    {
+        "id": 455,
+        "raw": "[name=\"Elena\"]You say as the ones who kidnapped me and Joyce.",
+        "type": "dialog",
+        "speaker": "Elena",
+        "content": "You say as the ones who kidnapped me and Joyce."
+    },
+    {
+        "id": 456,
+        "raw": "[Character(name=\"avg_npc_535_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_535_1#1$1"
+    },
+    {
+        "id": 457,
+        "raw": "[name=\"Sonny\"]We never wanted to do you dirty.",
+        "type": "dialog",
+        "speaker": "Sonny",
+        "content": "We never wanted to do you dirty."
+    },
+    {
+        "id": 458,
+        "raw": "[Character(name=\"avg_npc_535_1#8$1\")]",
+        "type": "character",
+        "name": "avg_npc_535_1#8$1"
+    },
+    {
+        "id": 459,
+        "raw": "[name=\"Sonny\"]I'm sorry... We're just a bunch of selfish nobodies.",
+        "type": "dialog",
+        "speaker": "Sonny",
+        "content": "I'm sorry... We're just a bunch of selfish nobodies."
+    },
+    {
+        "id": 460,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 461,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 462,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 463,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 464,
+        "raw": "[Character(name=\"avg_npc_527_1#6$1\",name2=\"avg_108_silent_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_527_1#6$1",
+        "name2": "avg_108_silent_1#1$1"
+    },
+    {
+        "id": 465,
+        "raw": "[Background(image=\"29_g2_edgeofbase\",screenadapt=\"showall\")]",
+        "type": "background",
+        "image": "29_g2_edgeofbase.png",
+        "screenadapt": "showall"
+    },
+    {
+        "id": 466,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 467,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 468,
+        "raw": "[Delay(time=2)]\t",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 469,
+        "raw": "[Character(name=\"avg_npc_527_1#6$1\",name2=\"avg_108_silent_1#1$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_527_1#6$1",
+        "name2": "avg_108_silent_1#1$1",
+        "focus": 2
+    },
+    {
+        "id": 470,
+        "raw": "[name=\"Silence\"]Are the comms still going?",
+        "type": "dialog",
+        "speaker": "Silence",
+        "content": "Are the comms still going?"
+    },
+    {
+        "id": 471,
+        "raw": "[Character(name=\"avg_npc_527_1#6$1\",name2=\"avg_108_silent_1#4$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_527_1#6$1",
+        "name2": "avg_108_silent_1#4$1",
+        "focus": 2
+    },
+    {
+        "id": 472,
+        "raw": "[name=\"Silence\"]Ma'am, would you mind giving me permission to talk to the Pioneers?",
+        "type": "dialog",
+        "speaker": "Silence",
+        "content": "Ma'am, would you mind giving me permission to talk to the Pioneers?"
+    },
+    {
+        "id": 473,
+        "raw": "[Character(name=\"avg_npc_527_1#6$1\",name2=\"avg_108_silent_1#4$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_527_1#6$1",
+        "name2": "avg_108_silent_1#4$1",
+        "focus": 1
+    },
+    {
+        "id": 474,
+        "raw": "[name=\"Mary\"]......",
+        "type": "dialog",
+        "speaker": "Mary",
+        "content": "......"
+    },
+    {
+        "id": 475,
+        "raw": "[Character(name=\"avg_npc_527_1#6$1\",name2=\"avg_108_silent_1#4$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_527_1#6$1",
+        "name2": "avg_108_silent_1#4$1",
+        "focus": 2
+    },
+    {
+        "id": 476,
+        "raw": "[name=\"Silence\"]The Liberi experiencing an attack is my colleague, and my good friend.",
+        "type": "dialog",
+        "speaker": "Silence",
+        "content": "The Liberi experiencing an attack is my colleague, and my good friend."
+    },
+    {
+        "id": 477,
+        "raw": "[name=\"Silence\"]And more important still, I am her attending physician.",
+        "type": "dialog",
+        "speaker": "Silence",
+        "content": "And more important still, I am her attending physician."
+    },
+    {
+        "id": 478,
+        "raw": "[name=\"Silence\"]I want to gather her situation from the Pioneers. Judging by their reactions, they clearly aren't unconcerned for her.",
+        "type": "dialog",
+        "speaker": "Silence",
+        "content": "I want to gather her situation from the Pioneers. Judging by their reactions, they clearly aren't unconcerned for her."
+    },
+    {
+        "id": 479,
+        "raw": "[Character(name=\"avg_npc_527_1#1$1\",name2=\"avg_108_silent_1#4$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_527_1#1$1",
+        "name2": "avg_108_silent_1#4$1",
+        "focus": 1
+    },
+    {
+        "id": 480,
+        "raw": "[name=\"Mary\"]Go nuts.",
+        "type": "dialog",
+        "speaker": "Mary",
+        "content": "Go nuts."
+    },
+    {
+        "id": 481,
+        "raw": "[name=\"Mary\"]But you don't have much time.",
+        "type": "dialog",
+        "speaker": "Mary",
+        "content": "But you don't have much time."
+    },
+    {
+        "id": 482,
+        "raw": "[name=\"Mary\"]I just got orders from on high. If the Pioneers refuse to cooperate for another ten minutes, we'll cut all comms to the test site... along with all power to their living quarters.",
+        "type": "dialog",
+        "speaker": "Mary",
+        "content": "I just got orders from on high. If the Pioneers refuse to cooperate for another ten minutes, we'll cut all comms to the test site... along with all power to their living quarters."
+    },
+    {
+        "id": 483,
+        "raw": "[Character(name=\"avg_npc_527_1#1$1\",name2=\"avg_1027_greyy2_1#4$2\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_527_1#1$1",
+        "name2": "avg_1027_greyy2_1#4$2",
+        "focus": 2
+    },
+    {
+        "id": 484,
+        "raw": "[name=\"Greyy\"]Y—You'll cut the electricity?",
+        "type": "dialog",
+        "speaker": "Greyy",
+        "content": "Y—You'll cut the electricity?"
+    },
+    {
+        "id": 485,
+        "raw": "[name=\"Greyy\"]Day-night temperature swings are massive in the barrens... They'll be freezing by midnight!",
+        "type": "dialog",
+        "speaker": "Greyy",
+        "content": "Day-night temperature swings are massive in the barrens... They'll be freezing by midnight!"
+    },
+    {
+        "id": 486,
+        "raw": "[Character(name=\"avg_npc_527_1#1$1\",name2=\"avg_1027_greyy2_1#5$2\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_527_1#1$1",
+        "name2": "avg_1027_greyy2_1#5$2",
+        "focus": 2
+    },
+    {
+        "id": 487,
+        "raw": "[name=\"Greyy\"]And there's several late-stage Oripathy patients among the Pioneers...",
+        "type": "dialog",
+        "speaker": "Greyy",
+        "content": "And there's several late-stage Oripathy patients among the Pioneers..."
+    },
+    {
+        "id": 488,
+        "raw": "[Character(name=\"avg_npc_527_1#1$1\",name2=\"avg_1027_greyy2_1#6$2\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_527_1#1$1",
+        "name2": "avg_1027_greyy2_1#6$2",
+        "focus": 2
+    },
+    {
+        "id": 489,
+        "raw": "[name=\"Greyy\"]They need medical facilities to live!",
+        "type": "dialog",
+        "speaker": "Greyy",
+        "content": "They need medical facilities to live!"
+    },
+    {
+        "id": 490,
+        "raw": "[Character(name=\"avg_npc_527_1#1$1\",name2=\"avg_1027_greyy2_1#6$2\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_527_1#1$1",
+        "name2": "avg_1027_greyy2_1#6$2",
+        "focus": 1
+    },
+    {
+        "id": 491,
+        "raw": "[name=\"Mary\"]I know.",
+        "type": "dialog",
+        "speaker": "Mary",
+        "content": "I know."
+    },
+    {
+        "id": 492,
+        "raw": "[Character(name=\"avg_npc_527_1#1$1\",name2=\"avg_1027_greyy2_1#6$2\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_527_1#1$1",
+        "name2": "avg_1027_greyy2_1#6$2",
+        "focus": 1
+    },
+    {
+        "id": 493,
+        "raw": "[name=\"Mary\"]That's what makes this a warning.",
+        "type": "dialog",
+        "speaker": "Mary",
+        "content": "That's what makes this a warning."
+    },
+    {
+        "id": 494,
+        "raw": "[name=\"Mary\"]They need to know how serious Rhine and the police are here.",
+        "type": "dialog",
+        "speaker": "Mary",
+        "content": "They need to know how serious Rhine and the police are here."
+    },
+    {
+        "id": 495,
+        "raw": "[name=\"Mary\"]All their protests and demands have to be founded on a legal basis... Once they take the criminal route, nobody's going to hear them out.",
+        "type": "dialog",
+        "speaker": "Mary",
+        "content": "All their protests and demands have to be founded on a legal basis... Once they take the criminal route, nobody's going to hear them out."
+    },
+    {
+        "id": 496,
+        "raw": "[Character(name=\"avg_npc_527_1#1$1\",name2=\"avg_1027_greyy2_1#6$2\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_527_1#1$1",
+        "name2": "avg_1027_greyy2_1#6$2",
+        "focus": 2
+    },
+    {
+        "id": 497,
+        "raw": "[name=\"Greyy\"]But... aren't you friends with that Pioneer leader?",
+        "type": "dialog",
+        "speaker": "Greyy",
+        "content": "But... aren't you friends with that Pioneer leader?"
+    },
+    {
+        "id": 498,
+        "raw": "[Character(name=\"avg_npc_527_1#1$1\",name2=\"avg_1027_greyy2_1#6$2\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_527_1#1$1",
+        "name2": "avg_1027_greyy2_1#6$2",
+        "focus": 1
+    },
+    {
+        "id": 499,
+        "raw": "[name=\"Mary\"]Friends?",
+        "type": "dialog",
+        "speaker": "Mary",
+        "content": "Friends?"
+    },
+    {
+        "id": 500,
+        "raw": "[name=\"Mary\"]The moment he abandoned himself, there was nothing left to say.",
+        "type": "dialog",
+        "speaker": "Mary",
+        "content": "The moment he abandoned himself, there was nothing left to say."
+    },
+    {
+        "id": 501,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 502,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 503,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 504,
+        "raw": "[stopmusic(fadetime=1)]",
+        "type": "stop_music",
+        "fadetime": 1
+    },
+    {
+        "id": 505,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 506,
+        "raw": "[Character(name=\"avg_128_plosis_1#8$1\")]",
+        "type": "character",
+        "name": "avg_128_plosis_1#8$1"
+    },
+    {
+        "id": 507,
+        "raw": "[Background(image=\"29_g1_outdoorbase\",screenadapt=\"showall\")]",
+        "type": "background",
+        "image": "29_g1_outdoorbase.png",
+        "screenadapt": "showall"
+    },
+    {
+        "id": 508,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 509,
+        "raw": "[PlayMusic(intro=\"$mist_intro\", key=\"$mist_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta1_180603/m_dia_mist_intro.mp3",
+        "key": "sound_beta_2/music/beta1_180603/m_dia_mist_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 510,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 511,
+        "raw": "[Delay(time=2)]\t",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 512,
+        "raw": "[Character(name=\"avg_128_plosis_1#8$1\")]",
+        "type": "character",
+        "name": "avg_128_plosis_1#8$1"
+    },
+    {
+        "id": 513,
+        "raw": "[name=\"Ptilopsis\"]......",
+        "type": "dialog",
+        "speaker": "Ptilopsis",
+        "content": "......"
+    },
+    {
+        "id": 514,
+        "raw": "[Character(name=\"avg_npc_535_1#1$1\", name2=\"avg_135_halo_1#3$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_535_1#1$1",
+        "name2": "avg_135_halo_1#3$1",
+        "focus": 1
+    },
+    {
+        "id": 515,
+        "raw": "[name=\"Sonny\"]How is she?",
+        "type": "dialog",
+        "speaker": "Sonny",
+        "content": "How is she?"
+    },
+    {
+        "id": 516,
+        "raw": "[Character(name=\"avg_npc_535_1#1$1\", name2=\"avg_135_halo_1#3$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_535_1#1$1",
+        "name2": "avg_135_halo_1#3$1",
+        "focus": 2
+    },
+    {
+        "id": 517,
+        "raw": "[name=\"Elena\"]Real-time blood-crystal density's dropping. Eye movement indices are still highly irregular.",
+        "type": "dialog",
+        "speaker": "Elena",
+        "content": "Real-time blood-crystal density's dropping. Eye movement indices are still highly irregular."
+    },
+    {
+        "id": 518,
+        "raw": "[Character(name=\"avg_npc_535_1#7$1\", name2=\"avg_135_halo_1#3$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_535_1#7$1",
+        "name2": "avg_135_halo_1#3$1",
+        "focus": 1
+    },
+    {
+        "id": 519,
+        "raw": "[name=\"Sonny\"]Eye movement indices?",
+        "type": "dialog",
+        "speaker": "Sonny",
+        "content": "Eye movement indices?"
+    },
+    {
+        "id": 520,
+        "raw": "[Character(name=\"avg_npc_535_1#7$1\", name2=\"avg_135_halo_1#3$1\",focus=-1)]",
+        "type": "character",
+        "name": "avg_npc_535_1#7$1",
+        "name2": "avg_135_halo_1#3$1",
+        "focus": -1
+    },
+    {
+        "id": 521,
+        "raw": "[PlaySound(key=\"$d_gen_transmissionget\",volume=0.6)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_transmissionget.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 522,
+        "raw": "[name=\"???\"]Due to her Oripathy's focus lying in the brain.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "Due to her Oripathy's focus lying in the brain."
+    },
+    {
+        "id": 523,
+        "raw": "[name=\"???\"]Any fluctuation in her condition will impact her nervous system, cause her to fall into deep sleep, and go so far as to trigger epileptic attacks.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "Any fluctuation in her condition will impact her nervous system, cause her to fall into deep sleep, and go so far as to trigger epileptic attacks."
+    },
+    {
+        "id": 524,
+        "raw": "[Character(name=\"avg_npc_535_1#1$1\", name2=\"avg_135_halo_1#3$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_535_1#1$1",
+        "name2": "avg_135_halo_1#3$1",
+        "focus": 1
+    },
+    {
+        "id": 525,
+        "raw": "[name=\"Sonny\"]Huh? Who's there?",
+        "type": "dialog",
+        "speaker": "Sonny",
+        "content": "Huh? Who's there?"
+    },
+    {
+        "id": 526,
+        "raw": "[Character(name=\"avg_npc_535_1#1$1\", name2=\"avg_135_halo_1#3$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_535_1#1$1",
+        "name2": "avg_135_halo_1#3$1",
+        "focus": 2
+    },
+    {
+        "id": 527,
+        "raw": "[name=\"Elena\"]The comms are still open.",
+        "type": "dialog",
+        "speaker": "Elena",
+        "content": "The comms are still open."
+    },
+    {
+        "id": 528,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 529,
+        "raw": "[Character(name=\"avg_npc_535_1#1$1\", name2=\"char_empty\",fadetime=0.5)]",
+        "type": "character",
+        "name": "avg_npc_535_1#1$1",
+        "name2": "char_empty",
+        "fadetime": 0.5
+    },
+    {
+        "id": 530,
+        "raw": "[delay(time=0.9)]",
+        "type": "delay",
+        "time": 0.9
+    },
+    {
+        "id": 531,
+        "raw": "[MusicVolume(volume=0.2, fadetime=0.2)]",
+        "type": "music_volume",
+        "volume": "0.2,",
+        "fadetime": 0.2
+    },
+    {
+        "id": 532,
+        "raw": "[CharacterCutin(widgetID=\"1\", name=\"avg_108_silent_1#1$1\", style=\"cutin\", fadestyle= \"horiz_expand_center\", fadetime=0.5, offsetx=300, width=200, block=true)]",
+        "type": "character_cutin",
+        "widgetID": "1",
+        "name": "avg_108_silent_1#1$1",
+        "style": "cutin",
+        "fadetime": "0.5,",
+        "offsetx": "300,",
+        "width": "200,",
+        "block": true
+    },
+    {
+        "id": 533,
+        "raw": "[Character(name=\"avg_npc_535_1#1$1\", name2=\"char_empty\",focus=-1)]",
+        "type": "character",
+        "name": "avg_npc_535_1#1$1",
+        "name2": "char_empty",
+        "focus": -1
+    },
+    {
+        "id": 534,
+        "raw": "[name=\"Silence\"]Hello, sir.",
+        "type": "dialog",
+        "speaker": "Silence",
+        "content": "Hello, sir."
+    },
+    {
+        "id": 535,
+        "raw": "[name=\"Silence\"]I'm Joyce Moore's attending physician. My name is Silence.",
+        "type": "dialog",
+        "speaker": "Silence",
+        "content": "I'm Joyce Moore's attending physician. My name is Silence."
+    },
+    {
+        "id": 536,
+        "raw": "[Character(name=\"avg_npc_535_1#1$1\", name2=\"char_empty\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_535_1#1$1",
+        "name2": "char_empty",
+        "focus": 1
+    },
+    {
+        "id": 537,
+        "raw": "[name=\"Sonny\"]Doc Silence.",
+        "type": "dialog",
+        "speaker": "Sonny",
+        "content": "Doc Silence."
+    },
+    {
+        "id": 538,
+        "raw": "[Character(name=\"avg_npc_535_1#1$1\", name2=\"char_empty\",focus=-1)]",
+        "type": "character",
+        "name": "avg_npc_535_1#1$1",
+        "name2": "char_empty",
+        "focus": -1
+    },
+    {
+        "id": 539,
+        "raw": "[name=\"Silence\"]Firstly, I'd like to offer you my thanks.",
+        "type": "dialog",
+        "speaker": "Silence",
+        "content": "Firstly, I'd like to offer you my thanks."
+    },
+    {
+        "id": 540,
+        "raw": "[name=\"Silence\"]Joyce's condition has only stabilized so quickly with your aid, and that of the other Pioneers.",
+        "type": "dialog",
+        "speaker": "Silence",
+        "content": "Joyce's condition has only stabilized so quickly with your aid, and that of the other Pioneers."
+    },
+    {
+        "id": 541,
+        "raw": "[Character(name=\"avg_npc_535_1#1$1\", name2=\"char_empty\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_535_1#1$1",
+        "name2": "char_empty",
+        "focus": 1
+    },
+    {
+        "id": 542,
+        "raw": "[name=\"Sonny\"]You're gonna thank us kidnappers, huh?",
+        "type": "dialog",
+        "speaker": "Sonny",
+        "content": "You're gonna thank us kidnappers, huh?"
+    },
+    {
+        "id": 543,
+        "raw": "[Character(name=\"avg_npc_535_1#1$1\", name2=\"char_empty\",focus=-1)]",
+        "type": "character",
+        "name": "avg_npc_535_1#1$1",
+        "name2": "char_empty",
+        "focus": -1
+    },
+    {
+        "id": 544,
+        "raw": "[name=\"Silence\"]In return, and please trust me when I say this, we really, truly wish to assist you.",
+        "type": "dialog",
+        "speaker": "Silence",
+        "content": "In return, and please trust me when I say this, we really, truly wish to assist you."
+    },
+    {
+        "id": 545,
+        "raw": "[name=\"Silence\"]We still have five minutes before your comms, and power to your living quarters, are simultaneously cut—",
+        "type": "dialog",
+        "speaker": "Silence",
+        "content": "We still have five minutes before your comms, and power to your living quarters, are simultaneously cut—"
+    },
+    {
+        "id": 546,
+        "raw": "[name=\"Frontier Team Member\"]Sir—w—we've got a blackout!",
+        "type": "dialog",
+        "speaker": "Frontier Team Member",
+        "content": "Sir—w—we've got a blackout!"
+    },
+    {
+        "id": 547,
+        "raw": "[Character(name=\"avg_npc_535_1#11$1\", name2=\"char_empty\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_535_1#11$1",
+        "name2": "char_empty",
+        "focus": 1
+    },
+    {
+        "id": 548,
+        "raw": "[name=\"Sonny\"]......",
+        "type": "dialog",
+        "speaker": "Sonny",
+        "content": "......"
+    },
+    {
+        "id": 549,
+        "raw": "[Character(name=\"avg_npc_535_1#11$1\", name2=\"char_empty\",focus=-1)]",
+        "type": "character",
+        "name": "avg_npc_535_1#11$1",
+        "name2": "char_empty",
+        "focus": -1
+    },
+    {
+        "id": 550,
+        "raw": "[name=\"Silence\"]It seems they've acted ahead of schedule.",
+        "type": "dialog",
+        "speaker": "Silence",
+        "content": "It seems they've acted ahead of schedule."
+    },
+    {
+        "id": 551,
+        "raw": "[Character(name=\"avg_npc_535_1#11$1\", name2=\"char_empty\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_535_1#11$1",
+        "name2": "char_empty",
+        "focus": 1
+    },
+    {
+        "id": 552,
+        "raw": "[name=\"Sonny\"]Don't sweat it. I gotta appreciate you being willing to warn us.",
+        "type": "dialog",
+        "speaker": "Sonny",
+        "content": "Don't sweat it. I gotta appreciate you being willing to warn us."
+    },
+    {
+        "id": 553,
+        "raw": "[Character(name=\"avg_npc_535_1#11$1\", name2=\"char_empty\",focus=-1)]",
+        "type": "character",
+        "name": "avg_npc_535_1#11$1",
+        "name2": "char_empty",
+        "focus": -1
+    },
+    {
+        "id": 554,
+        "raw": "[name=\"Silence\"]I gathered from ma'am Mary that you'd like a dialogue with Rhine Lab's upper management.",
+        "type": "dialog",
+        "speaker": "Silence",
+        "content": "I gathered from ma'am Mary that you'd like a dialogue with Rhine Lab's upper management."
+    },
+    {
+        "id": 555,
+        "raw": "[name=\"Silence\"]Can I ask why that is?",
+        "type": "dialog",
+        "speaker": "Silence",
+        "content": "Can I ask why that is?"
+    },
+    {
+        "id": 556,
+        "raw": "[Character(name=\"avg_npc_535_1#11$1\", name2=\"char_empty\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_535_1#11$1",
+        "name2": "char_empty",
+        "focus": 1
+    },
+    {
+        "id": 557,
+        "raw": "[name=\"Sonny\"]......",
+        "type": "dialog",
+        "speaker": "Sonny",
+        "content": "......"
+    },
+    {
+        "id": 558,
+        "raw": "[name=\"Sonny\"]I wanna beg them to stop the experiments they're doing here.",
+        "type": "dialog",
+        "speaker": "Sonny",
+        "content": "I wanna beg them to stop the experiments they're doing here."
+    },
+    {
+        "id": 559,
+        "raw": "[Character(name=\"avg_npc_535_1#11$1\", name2=\"char_empty\",focus=-1)]",
+        "type": "character",
+        "name": "avg_npc_535_1#11$1",
+        "name2": "char_empty",
+        "focus": -1
+    },
+    {
+        "id": 560,
+        "raw": "[name=\"Silence\"]To what?",
+        "type": "dialog",
+        "speaker": "Silence",
+        "content": "To what?"
+    },
+    {
+        "id": 561,
+        "raw": "[Character(name=\"avg_npc_535_1#11$1\", name2=\"char_empty\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_535_1#11$1",
+        "name2": "char_empty",
+        "focus": 1
+    },
+    {
+        "id": 562,
+        "raw": "[name=\"Sonny\"]You're a good doc, same as Doc Moore here. But something tells me stopping a project this big's out of your hands.",
+        "type": "dialog",
+        "speaker": "Sonny",
+        "content": "You're a good doc, same as Doc Moore here. But something tells me stopping a project this big's out of your hands."
+    },
+    {
+        "id": 563,
+        "raw": "[name=\"Sonny\"]Can you tell the Rhine Lab boss that this experiment is seriously, wicked dangerous?",
+        "type": "dialog",
+        "speaker": "Sonny",
+        "content": "Can you tell the Rhine Lab boss that this experiment is seriously, wicked dangerous?"
+    },
+    {
+        "id": 564,
+        "raw": "[Character(name=\"avg_npc_535_1#11$1\", name2=\"char_empty\",focus=-1)]",
+        "type": "character",
+        "name": "avg_npc_535_1#11$1",
+        "name2": "char_empty",
+        "focus": -1
+    },
+    {
+        "id": 565,
+        "raw": "[name=\"Silence\"]Sir, do you have any proof?",
+        "type": "dialog",
+        "speaker": "Silence",
+        "content": "Sir, do you have any proof?"
+    },
+    {
+        "id": 566,
+        "raw": "[Character(name=\"avg_npc_535_1#11$1\", name2=\"char_empty\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_535_1#11$1",
+        "name2": "char_empty",
+        "focus": 1
+    },
+    {
+        "id": 567,
+        "raw": "[name=\"Sonny\"]Even if I did, would you believe me...? A lone Pioneer at the end of his rope?",
+        "type": "dialog",
+        "speaker": "Sonny",
+        "content": "Even if I did, would you believe me...? A lone Pioneer at the end of his rope?"
+    },
+    {
+        "id": 568,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 569,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 570,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 571,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 572,
+        "raw": "[CharacterCutin(widgetID=\"1\",block=true)]",
+        "type": "character_cutin",
+        "widgetID": "1",
+        "block": true
+    },
+    {
+        "id": 573,
+        "raw": "[Character(name=\"avg_npc_527_1#1$1\",name2=\"avg_npc_528_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_527_1#1$1",
+        "name2": "avg_npc_528_1#1$1"
+    },
+    {
+        "id": 574,
+        "raw": "[Background(image=\"29_g2_edgeofbase\",screenadapt=\"showall\")]",
+        "type": "background",
+        "image": "29_g2_edgeofbase.png",
+        "screenadapt": "showall"
+    },
+    {
+        "id": 575,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 576,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 577,
+        "raw": "[Delay(time=2)]\t",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 578,
+        "raw": "[MusicVolume(volume=0.4, fadetime=0.2)]",
+        "type": "music_volume",
+        "volume": "0.4,",
+        "fadetime": 0.2
+    },
+    {
+        "id": 579,
+        "raw": "[Character(name=\"avg_npc_527_1#1$1\",name2=\"avg_npc_528_1#1$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_527_1#1$1",
+        "name2": "avg_npc_528_1#1$1",
+        "focus": 2
+    },
+    {
+        "id": 580,
+        "raw": "[name=\"Rhine Defense Member\"]Officer, we're all set. We can cut the site's comms at any time.",
+        "type": "dialog",
+        "speaker": "Rhine Defense Member",
+        "content": "Officer, we're all set. We can cut the site's comms at any time."
+    },
+    {
+        "id": 581,
+        "raw": "[Character(name=\"avg_npc_527_1#1$1\",name2=\"avg_npc_528_1#1$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_527_1#1$1",
+        "name2": "avg_npc_528_1#1$1",
+        "focus": 1
+    },
+    {
+        "id": 582,
+        "raw": "[name=\"Mary\"]Wait for Doc Silence to finish.",
+        "type": "dialog",
+        "speaker": "Mary",
+        "content": "Wait for Doc Silence to finish."
+    },
+    {
+        "id": 583,
+        "raw": "[Character(name=\"avg_npc_527_1#1$1\",name2=\"avg_npc_528_1#1$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_527_1#1$1",
+        "name2": "avg_npc_528_1#1$1",
+        "focus": 2
+    },
+    {
+        "id": 584,
+        "raw": "[name=\"Rhine Defense Member\"]But the Director's demanding immediate...",
+        "type": "dialog",
+        "speaker": "Rhine Defense Member",
+        "content": "But the Director's demanding immediate..."
+    },
+    {
+        "id": 585,
+        "raw": "[Character(name=\"avg_npc_527_1#1$1\",name2=\"avg_npc_528_1#1$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_527_1#1$1",
+        "name2": "avg_npc_528_1#1$1",
+        "focus": 1
+    },
+    {
+        "id": 586,
+        "raw": "[name=\"Mary\"]Sorry, what police rank does your director hold? Remind me.",
+        "type": "dialog",
+        "speaker": "Mary",
+        "content": "Sorry, what police rank does your director hold? Remind me."
+    },
+    {
+        "id": 587,
+        "raw": "[Character(name=\"avg_npc_527_1#5$1\",name2=\"avg_npc_528_1#1$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_527_1#5$1",
+        "name2": "avg_npc_528_1#1$1",
+        "focus": 1
+    },
+    {
+        "id": 588,
+        "raw": "[name=\"Mary\"]Tell fricking Ferdinand that saving people is my job. I'm not taking him on a ride-along here!",
+        "type": "dialog",
+        "speaker": "Mary",
+        "content": "Tell fricking Ferdinand that saving people is my job. I'm not taking him on a ride-along here!"
+    },
+    {
+        "id": 589,
+        "raw": "[Character(name=\"avg_npc_527_1#5$1\",name2=\"avg_npc_528_1#1$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_527_1#5$1",
+        "name2": "avg_npc_528_1#1$1",
+        "focus": 2
+    },
+    {
+        "id": 590,
+        "raw": "[name=\"Rhine Defense Member\"]The Director's been in contact with the commissioner, Officer. They drew up this plan together.",
+        "type": "dialog",
+        "speaker": "Rhine Defense Member",
+        "content": "The Director's been in contact with the commissioner, Officer. They drew up this plan together."
+    },
+    {
+        "id": 591,
+        "raw": "[Character(name=\"avg_npc_527_1#1$1\",name2=\"avg_npc_528_1#1$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_527_1#1$1",
+        "name2": "avg_npc_528_1#1$1",
+        "focus": 1
+    },
+    {
+        "id": 592,
+        "raw": "[name=\"Mary\"]......",
+        "type": "dialog",
+        "speaker": "Mary",
+        "content": "......"
+    },
+    {
+        "id": 593,
+        "raw": "[Character(name=\"avg_108_silent_1#7$1\")]",
+        "type": "character",
+        "name": "avg_108_silent_1#7$1"
+    },
+    {
+        "id": 594,
+        "raw": "[name=\"Silence\"]Director... Ferdinand?",
+        "type": "dialog",
+        "speaker": "Silence",
+        "content": "Director... Ferdinand?"
+    },
+    {
+        "id": 595,
+        "raw": "[name=\"Silence\"]I never imagined Defense would fall under Energy's purview.",
+        "type": "dialog",
+        "speaker": "Silence",
+        "content": "I never imagined Defense would fall under Energy's purview."
+    },
+    {
+        "id": 596,
+        "raw": "[Character(name=\"avg_npc_528_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_528_1#1$1"
+    },
+    {
+        "id": 597,
+        "raw": "[name=\"Rhine Defense Member\"]Er...",
+        "type": "dialog",
+        "speaker": "Rhine Defense Member",
+        "content": "Er..."
+    },
+    {
+        "id": 598,
+        "raw": "[Character(name=\"avg_108_silent_1#4$1\")]",
+        "type": "character",
+        "name": "avg_108_silent_1#4$1"
+    },
+    {
+        "id": 599,
+        "raw": "[name=\"Silence\"]If Ferdinand feels that Structural is his to rule too, then I would not mind resigning from Rhine Lab, effective immediately.",
+        "type": "dialog",
+        "speaker": "Silence",
+        "content": "If Ferdinand feels that Structural is his to rule too, then I would not mind resigning from Rhine Lab, effective immediately."
+    },
+    {
+        "id": 600,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 601,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 602,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 603,
+        "raw": "[stopmusic(fadetime=1)]",
+        "type": "stop_music",
+        "fadetime": 1
+    },
+    {
+        "id": 604,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 605,
+        "raw": "[Character(name=\"avg_128_plosis_1#8$1\")]",
+        "type": "character",
+        "name": "avg_128_plosis_1#8$1"
+    },
+    {
+        "id": 606,
+        "raw": "[Background(image=\"29_g3_cottage\",screenadapt=\"showall\")]",
+        "type": "background",
+        "image": "29_g3_cottage.png",
+        "screenadapt": "showall"
+    },
+    {
+        "id": 607,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 608,
+        "raw": "[playMusic(intro=\"$darkness01_intro\", key=\"$darkness01_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta1_180603/m_dia_darkness01_intro.mp3",
+        "key": "sound_beta_2/music/beta1_180603/m_dia_darkness01_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 609,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 610,
+        "raw": "[Delay(time=2)]\t",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 611,
+        "raw": "[Character(name=\"avg_128_plosis_1#8$1\")]",
+        "type": "character",
+        "name": "avg_128_plosis_1#8$1"
+    },
+    {
+        "id": 612,
+        "raw": "[name=\"Ptilopsis\"]......",
+        "type": "dialog",
+        "speaker": "Ptilopsis",
+        "content": "......"
+    },
+    {
+        "id": 613,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 614,
+        "raw": "[character(time=1.5)]",
+        "type": "character",
+        "time": 1.5
+    },
+    {
+        "id": 615,
+        "raw": "[PlaySound(key=\"$bodyfalldown1\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_bodyfalldown1.mp3"
+    },
+    {
+        "id": 616,
+        "raw": "[delay(time=2.3)]",
+        "type": "delay",
+        "time": 2.3
+    },
+    {
+        "id": 617,
+        "raw": "[Character(name=\"avg_135_halo_1#7$1\")]",
+        "type": "character",
+        "name": "avg_135_halo_1#7$1"
+    },
+    {
+        "id": 618,
+        "raw": "[characteraction(name=\"middle\", type=\"jump\" , power=5, times=2, fadetime=0.51,block=true)]",
+        "type": "jump",
+        "name": "middle",
+        "power": "5,",
+        "times": "2,",
+        "fadetime": "0.51,block=true"
+    },
+    {
+        "id": 619,
+        "raw": "[name=\"Elena\"]Joyce... Joyce!",
+        "type": "dialog",
+        "speaker": "Elena",
+        "content": "Joyce... Joyce!"
+    },
+    {
+        "id": 620,
+        "raw": "[Character(name=\"avg_npc_535_1#7$1\")]",
+        "type": "character",
+        "name": "avg_npc_535_1#7$1"
+    },
+    {
+        "id": 621,
+        "raw": "[name=\"Sonny\"]Is she... asleep?",
+        "type": "dialog",
+        "speaker": "Sonny",
+        "content": "Is she... asleep?"
+    },
+    {
+        "id": 622,
+        "raw": "[Character(name=\"avg_135_halo_1#3$1\")]",
+        "type": "character",
+        "name": "avg_135_halo_1#3$1"
+    },
+    {
+        "id": 623,
+        "raw": "[name=\"Elena\"]She's lost consciousness.",
+        "type": "dialog",
+        "speaker": "Elena",
+        "content": "She's lost consciousness."
+    },
+    {
+        "id": 624,
+        "raw": "[name=\"Elena\"]If we don't get her treatment in time, she... she'll experience brain death before long.",
+        "type": "dialog",
+        "speaker": "Elena",
+        "content": "If we don't get her treatment in time, she... she'll experience brain death before long."
+    },
+    {
+        "id": 625,
+        "raw": "[Character(name=\"avg_npc_535_1#4$1\")]",
+        "type": "character",
+        "name": "avg_npc_535_1#4$1"
+    },
+    {
+        "id": 626,
+        "raw": "[name=\"Sonny\"]......",
+        "type": "dialog",
+        "speaker": "Sonny",
+        "content": "......"
+    },
+    {
+        "id": 627,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 628,
+        "raw": "[character]",
+        "type": "character"
+    },
+    {
+        "id": 629,
+        "raw": "[PlaySound(key=\"$d_gen_transmissionget\",volume=0.6)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_transmissionget.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 630,
+        "raw": "[CharacterCutin(widgetID=\"1\", name=\"avg_108_silent_1#4$1\", style=\"cutin\", fadestyle= \"horiz_expand_center\", fadetime=0.5, offsetx=0, width=200, block=true)]",
+        "type": "character_cutin",
+        "widgetID": "1",
+        "name": "avg_108_silent_1#4$1",
+        "style": "cutin",
+        "fadetime": "0.5,",
+        "offsetx": "0,",
+        "width": "200,",
+        "block": true
+    },
+    {
+        "id": 631,
+        "raw": "[name=\"Silence\"]Sir, I am preparing to enter the site now.",
+        "type": "dialog",
+        "speaker": "Silence",
+        "content": "Sir, I am preparing to enter the site now."
+    },
+    {
+        "id": 632,
+        "raw": "[name=\"Silence\"]I understand your concerns, so I would like to reassure you, I will not be carrying any weapons.",
+        "type": "dialog",
+        "speaker": "Silence",
+        "content": "I understand your concerns, so I would like to reassure you, I will not be carrying any weapons."
+    },
+    {
+        "id": 633,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 634,
+        "raw": "[CharacterCutin(widgetID=\"1\",block=true)]",
+        "type": "character_cutin",
+        "widgetID": "1",
+        "block": true
+    },
+    {
+        "id": 635,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 636,
+        "raw": "[stopmusic(fadetime=1)]",
+        "type": "stop_music",
+        "fadetime": 1
+    },
+    {
+        "id": 637,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 638,
+        "raw": "[CharacterCutin(widgetID=\"1\",block=true)]",
+        "type": "character_cutin",
+        "widgetID": "1",
+        "block": true
+    },
+    {
+        "id": 639,
+        "raw": "[Character(name=\"avg_npc_527_1#1$1\",name2=\"avg_108_silent_1#7$1\")]",
+        "type": "character",
+        "name": "avg_npc_527_1#1$1",
+        "name2": "avg_108_silent_1#7$1"
+    },
+    {
+        "id": 640,
+        "raw": "[Background(image=\"29_g2_edgeofbase\",screenadapt=\"showall\")]",
+        "type": "background",
+        "image": "29_g2_edgeofbase.png",
+        "screenadapt": "showall"
+    },
+    {
+        "id": 641,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 642,
+        "raw": "[PlayMusic(intro=\"$mist_intro\", key=\"$mist_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta1_180603/m_dia_mist_intro.mp3",
+        "key": "sound_beta_2/music/beta1_180603/m_dia_mist_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 643,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 644,
+        "raw": "[Delay(time=2)]\t",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 645,
+        "raw": "[Character(name=\"avg_npc_527_1#5$1\",name2=\"avg_108_silent_1#7$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_527_1#5$1",
+        "name2": "avg_108_silent_1#7$1",
+        "focus": 1
+    },
+    {
+        "id": 646,
+        "raw": "[name=\"Mary\"]Don't do anything stupid, Doctor!",
+        "type": "dialog",
+        "speaker": "Mary",
+        "content": "Don't do anything stupid, Doctor!"
+    },
+    {
+        "id": 647,
+        "raw": "[Character(name=\"avg_npc_527_1#5$1\",name2=\"avg_108_silent_1#7$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_527_1#5$1",
+        "name2": "avg_108_silent_1#7$1",
+        "focus": 2
+    },
+    {
+        "id": 648,
+        "raw": "[name=\"Silence\"]I know full well what I am doing.",
+        "type": "dialog",
+        "speaker": "Silence",
+        "content": "I know full well what I am doing."
+    },
+    {
+        "id": 649,
+        "raw": "[name=\"Silence\"]Sir, I will not allow any police officers... nor Defense personnel to follow me.",
+        "type": "dialog",
+        "speaker": "Silence",
+        "content": "Sir, I will not allow any police officers... nor Defense personnel to follow me."
+    },
+    {
+        "id": 650,
+        "raw": "[Character(name=\"avg_npc_528_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_528_1#1$1"
+    },
+    {
+        "id": 651,
+        "raw": "[name=\"Rhine Defense Member\"]Researcher Silence, I will report your conduct to the Director... Director Parvis.",
+        "type": "dialog",
+        "speaker": "Rhine Defense Member",
+        "content": "Researcher Silence, I will report your conduct to the Director... Director Parvis."
+    },
+    {
+        "id": 652,
+        "raw": "[Character(name=\"avg_108_silent_1#7$1\")]",
+        "type": "character",
+        "name": "avg_108_silent_1#7$1"
+    },
+    {
+        "id": 653,
+        "raw": "[name=\"Silence\"]I am entering Test Site 359 under my status as a Rhodes Island Operator—",
+        "type": "dialog",
+        "speaker": "Silence",
+        "content": "I am entering Test Site 359 under my status as a Rhodes Island Operator—"
+    },
+    {
+        "id": 654,
+        "raw": "[Character(name=\"avg_1027_greyy2_1#7$2\")]",
+        "type": "character",
+        "name": "avg_1027_greyy2_1#7$2"
+    },
+    {
+        "id": 655,
+        "raw": "[name=\"Greyy\"]Me too...",
+        "type": "dialog",
+        "speaker": "Greyy",
+        "content": "Me too..."
+    },
+    {
+        "id": 656,
+        "raw": "[Character(name=\"avg_108_silent_1#2$1\")]",
+        "type": "character",
+        "name": "avg_108_silent_1#2$1"
+    },
+    {
+        "id": 657,
+        "raw": "[name=\"Silence\"]—And my electrical engineering colleague will accompany me.",
+        "type": "dialog",
+        "speaker": "Silence",
+        "content": "—And my electrical engineering colleague will accompany me."
+    },
+    {
+        "id": 658,
+        "raw": "[Character(name=\"avg_108_silent_1#4$1\")]",
+        "type": "character",
+        "name": "avg_108_silent_1#4$1"
+    },
+    {
+        "id": 659,
+        "raw": "[name=\"Silence\"]We will provide medical services, free of charge, to the Oripathy patients on-site.",
+        "type": "dialog",
+        "speaker": "Silence",
+        "content": "We will provide medical services, free of charge, to the Oripathy patients on-site."
+    },
+    {
+        "id": 660,
+        "raw": "[name=\"Silence\"]Not just for my friend, but for all of you.",
+        "type": "dialog",
+        "speaker": "Silence",
+        "content": "Not just for my friend, but for all of you."
+    },
+    {
+        "id": 661,
+        "raw": "[Character(name=\"avg_108_silent_1#7$1\")]",
+        "type": "character",
+        "name": "avg_108_silent_1#7$1"
+    },
+    {
+        "id": 662,
+        "raw": "[name=\"Silence\"]I do not care what choices Rhine Lab makes in the wake of this.",
+        "type": "dialog",
+        "speaker": "Silence",
+        "content": "I do not care what choices Rhine Lab makes in the wake of this."
+    },
+    {
+        "id": 663,
+        "raw": "[Character(name=\"avg_108_silent_1#4$1\")]",
+        "type": "character",
+        "name": "avg_108_silent_1#4$1"
+    },
+    {
+        "id": 664,
+        "raw": "[name=\"Silence\"]I only know this—treating the Infected is constant to the Rhodes Island code of conduct.",
+        "type": "dialog",
+        "speaker": "Silence",
+        "content": "I only know this—treating the Infected is constant to the Rhodes Island code of conduct."
+    },
+    {
+        "id": 665,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 666,
+        "raw": "[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 667,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 668,
+        "raw": "[stopmusic(fadetime=1)]",
+        "type": "stop_music",
+        "fadetime": 1
+    },
+    {
+        "id": 669,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 670,
+        "raw": "[Image]",
+        "type": "image"
+    }
+]

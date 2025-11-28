@@ -1,0 +1,5511 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")]",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK"
+    },
+    {
+        "id": 2,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 3,
+        "raw": "[stopmusic]",
+        "type": "stop_music"
+    },
+    {
+        "id": 4,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 5,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 6,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 7,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 8,
+        "raw": "[Character(fadetime=0)]",
+        "type": "character",
+        "fadetime": 0
+    },
+    {
+        "id": 9,
+        "raw": "[Background(image=\"50_g3_mainbattlefield_ex\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "50_g3_mainbattlefield_ex.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 10,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=4, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "4,",
+        "block": true
+    },
+    {
+        "id": 11,
+        "raw": "[playMusic(intro=\"$darkness02_intro\", key=\"$darkness02_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta1_180603/m_dia_darkness02_intro.mp3",
+        "key": "sound_beta_2/music/beta1_180603/m_dia_darkness02_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 12,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 13,
+        "raw": "작전 시작 65시간 후",
+        "type": "narration",
+        "content": "작전 시작 65시간 후"
+    },
+    {
+        "id": 14,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#3$1\",focus=\"m\",duration=1)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#3$1.png",
+        "focus": "m",
+        "duration": 1
+    },
+    {
+        "id": 15,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 16,
+        "raw": "[name=\"켈시\"]공작 연합군과 나흐체러르가 참혹한 전쟁을 치르고 있어.",
+        "type": "dialog",
+        "speaker": "켈시",
+        "content": "공작 연합군과 나흐체러르가 참혹한 전쟁을 치르고 있어."
+    },
+    {
+        "id": 17,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#3$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#3$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 18,
+        "raw": "[name=\"켈시\"]앞으로 조금만 더 가면 실버록 블러프스야. 차량은 오리지늄 반응이 격해지면서 마비됐어.",
+        "type": "dialog",
+        "speaker": "켈시",
+        "content": "앞으로 조금만 더 가면 실버록 블러프스야. 차량은 오리지늄 반응이 격해지면서 마비됐어."
+    },
+    {
+        "id": 19,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 20,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#3$1\",focus=\"none\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#3$1.png",
+        "focus": "none"
+    },
+    {
+        "id": 21,
+        "raw": "[Decision(options=\"비나도 곧 전선에 도착할 것 같아.;파라곤 부대의 임무가 막중한걸.\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "비나도 곧 전선에 도착할 것 같아.;파라곤 부대의 임무가 막중한걸.",
+        "values": "1;2"
+    },
+    {
+        "id": 22,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 23,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#5$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#5$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 24,
+        "raw": "[name=\"켈시\"]왕의 숨결이 검의 자리와 합체한다면, 여기서도 볼 수 있을 거야.",
+        "type": "dialog",
+        "speaker": "켈시",
+        "content": "왕의 숨결이 검의 자리와 합체한다면, 여기서도 볼 수 있을 거야."
+    },
+    {
+        "id": 25,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 26,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#5$1\",focus=\"none\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#5$1.png",
+        "focus": "none"
+    },
+    {
+        "id": 27,
+        "raw": "[Decision(options=\"“재앙을 가른다”인가.\", values=\"1\")]",
+        "type": "decision",
+        "options": "“재앙을 가른다”인가.",
+        "values": "1"
+    },
+    {
+        "id": 28,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 29,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#5$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#5$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 30,
+        "raw": "[name=\"켈시\"]단순한 전설일 뿐이야.",
+        "type": "dialog",
+        "speaker": "켈시",
+        "content": "단순한 전설일 뿐이야."
+    },
+    {
+        "id": 31,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#5$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#5$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 32,
+        "raw": "[name=\"켈시\"]사람들은 자신이 이해할 수 없는 현상을 목격하면 그것을 과장하게 되며, 후세로 전해져 내려오는 동안 낭만적인 요소를 덧붙이는 경우가 많지.",
+        "type": "dialog",
+        "speaker": "켈시",
+        "content": "사람들은 자신이 이해할 수 없는 현상을 목격하면 그것을 과장하게 되며, 후세로 전해져 내려오는 동안 낭만적인 요소를 덧붙이는 경우가 많지."
+    },
+    {
+        "id": 33,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 34,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#5$1\",focus=\"none\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#5$1.png",
+        "focus": "none"
+    },
+    {
+        "id": 35,
+        "raw": "[Decision(options=\"더 샤드 빌딩과 왕의 숨결……;빅토리아인의 '창'과 '방패'……\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "더 샤드 빌딩과 왕의 숨결……;빅토리아인의 '창'과 '방패'……",
+        "values": "1;2"
+    },
+    {
+        "id": 36,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 37,
+        "raw": "[Decision(options=\"더 샤드 빌딩은 오리지늄의 응용이고, 대형 주술 장치와 동급이야.\", values=\"1\")]",
+        "type": "decision",
+        "options": "더 샤드 빌딩은 오리지늄의 응용이고, 대형 주술 장치와 동급이야.",
+        "values": "1"
+    },
+    {
+        "id": 38,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 39,
+        "raw": "[Decision(options=\"왕의 숨결은 오리지늄 반응을 일부 상쇄할 수 있고.\", values=\"1\")]",
+        "type": "decision",
+        "options": "왕의 숨결은 오리지늄 반응을 일부 상쇄할 수 있고.",
+        "values": "1"
+    },
+    {
+        "id": 40,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 41,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 42,
+        "raw": "[name=\"켈시\"]이미 알고 있었나.",
+        "type": "dialog",
+        "speaker": "켈시",
+        "content": "이미 알고 있었나."
+    },
+    {
+        "id": 43,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 44,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"none\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#1$1.png",
+        "focus": "none"
+    },
+    {
+        "id": 45,
+        "raw": "[Decision(options=\"흔히들 오리지늄을 '고질병'에 비유하지.;재앙에 대응하는 가장 좋은 방법은 여전히 대피뿐이야.\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "흔히들 오리지늄을 '고질병'에 비유하지.;재앙에 대응하는 가장 좋은 방법은 여전히 대피뿐이야.",
+        "values": "1;2"
+    },
+    {
+        "id": 46,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 47,
+        "raw": "[Decision(options=\"아직 오리지늄 활동에 직접 개입하기는 힘들어.;빅토리아는 일찍이 도구를 이용한 자구책을 터득했지.\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "아직 오리지늄 활동에 직접 개입하기는 힘들어.;빅토리아는 일찍이 도구를 이용한 자구책을 터득했지.",
+        "values": "1;2"
+    },
+    {
+        "id": 48,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 49,
+        "raw": "[Decision(options=\"왕의 숨결의 근원은 빅토리아가 아니지?\", values=\"1\")]",
+        "type": "decision",
+        "options": "왕의 숨결의 근원은 빅토리아가 아니지?",
+        "values": "1"
+    },
+    {
+        "id": 50,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 51,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#3$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#3$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 52,
+        "raw": "[name=\"켈시\"]내가 왕의 숨결을 처음 본 건, 사르곤 왕중왕 궁전의 깊은 곳이었어.",
+        "type": "dialog",
+        "speaker": "켈시",
+        "content": "내가 왕의 숨결을 처음 본 건, 사르곤 왕중왕 궁전의 깊은 곳이었어."
+    },
+    {
+        "id": 53,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#3$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#3$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 54,
+        "raw": "[name=\"켈시\"]사람들은 그것을 아슬란 왕권의 상징으로 여기며, 마을과 도시를 보호할 수 있다고 생각했지. 실제로도 그랬고. 왕의 숨결은 오리지늄 반응을 어느 정도 상쇄해주는 기능을 가지고 있었으니까.",
+        "type": "dialog",
+        "speaker": "켈시",
+        "content": "사람들은 그것을 아슬란 왕권의 상징으로 여기며, 마을과 도시를 보호할 수 있다고 생각했지. 실제로도 그랬고. 왕의 숨결은 오리지늄 반응을 어느 정도 상쇄해주는 기능을 가지고 있었으니까."
+    },
+    {
+        "id": 55,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 56,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#3$1\",focus=\"none\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#3$1.png",
+        "focus": "none"
+    },
+    {
+        "id": 57,
+        "raw": "[Decision(options=\"겨우 '어느 정도'?;딱히 관심이 없었나 보네.\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "겨우 '어느 정도'?;딱히 관심이 없었나 보네.",
+        "values": "1;2"
+    },
+    {
+        "id": 58,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 59,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 60,
+        "raw": "[name=\"켈시\"]맞아. 고대 사르곤의 캐스터들이 아무리 열심히 발굴하고 개조해 봤자, 왕의 숨결은 과거 도시의 방어 장치일 뿐이야.",
+        "type": "dialog",
+        "speaker": "켈시",
+        "content": "맞아. 고대 사르곤의 캐스터들이 아무리 열심히 발굴하고 개조해 봤자, 왕의 숨결은 과거 도시의 방어 장치일 뿐이야."
+    },
+    {
+        "id": 61,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 62,
+        "raw": "[name=\"켈시\"]왕의 숨결이 사용되던 시절에는 오리지늄이 아직 대지에 곳곳에 퍼져 있지 않았어.",
+        "type": "dialog",
+        "speaker": "켈시",
+        "content": "왕의 숨결이 사용되던 시절에는 오리지늄이 아직 대지에 곳곳에 퍼져 있지 않았어."
+    },
+    {
+        "id": 63,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 64,
+        "raw": "[name=\"켈시\"]왕의 숨결이 일시적으로 '암나남'을 멈추고, 베헤모스의 해골이 날아오를 수 있게 하는 건 맞지만, 그렇다고 그게 오리지늄의 활동을 멈추게 하는 억제제가 되는 건 아니야.",
+        "type": "dialog",
+        "speaker": "켈시",
+        "content": "왕의 숨결이 일시적으로 '암나남'을 멈추고, 베헤모스의 해골이 날아오를 수 있게 하는 건 맞지만, 그렇다고 그게 오리지늄의 활동을 멈추게 하는 억제제가 되는 건 아니야."
+    },
+    {
+        "id": 65,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 66,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"none\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#1$1.png",
+        "focus": "none"
+    },
+    {
+        "id": 67,
+        "raw": "[Decision(options=\"지난 세월 동안, 실망을 많이 했나 봐?\", values=\"1\")]",
+        "type": "decision",
+        "options": "지난 세월 동안, 실망을 많이 했나 봐?",
+        "values": "1"
+    },
+    {
+        "id": 68,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 69,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#14$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#14$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 70,
+        "raw": "[name=\"켈시\"]……박사, 지금의 너에겐 오리지늄이 무엇으로 보여?",
+        "type": "dialog",
+        "speaker": "켈시",
+        "content": "……박사, 지금의 너에겐 오리지늄이 무엇으로 보여?"
+    },
+    {
+        "id": 71,
+        "raw": "[name=\"켈시\"]미지로 가득 찬 현상? 이용할 수 있는 자원? 아니면 질병과 재해의 근원?",
+        "type": "dialog",
+        "speaker": "켈시",
+        "content": "미지로 가득 찬 현상? 이용할 수 있는 자원? 아니면 질병과 재해의 근원?"
+    },
+    {
+        "id": 72,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 73,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#14$1\",focus=\"none\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#14$1.png",
+        "focus": "none"
+    },
+    {
+        "id": 74,
+        "raw": "[Decision(options=\"……;고를 수가 없는데.\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "……;고를 수가 없는데.",
+        "values": "1;2"
+    },
+    {
+        "id": 75,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 76,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#2$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#2$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 77,
+        "raw": "[name=\"켈시\"]고르고 싶지 않은 거겠지. 대답은 '전부'일 테니까.",
+        "type": "dialog",
+        "speaker": "켈시",
+        "content": "고르고 싶지 않은 거겠지. 대답은 '전부'일 테니까."
+    },
+    {
+        "id": 78,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 79,
+        "raw": "[name=\"켈시\"]오리지늄은 이미 우리의 모든 것과 결합되어 있어. 환경, 과학, 기술, 문화, 심지어 우리의 신체까지.",
+        "type": "dialog",
+        "speaker": "켈시",
+        "content": "오리지늄은 이미 우리의 모든 것과 결합되어 있어. 환경, 과학, 기술, 문화, 심지어 우리의 신체까지."
+    },
+    {
+        "id": 80,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 81,
+        "raw": "[name=\"켈시\"]신체의 일부가 망가졌다면, 망가진 부분을 잘라내면 문제를 해결할 수 있을지도 몰라. 하지만 머리부터 발끝까지, 신체의 모든 게 문제라면?",
+        "type": "dialog",
+        "speaker": "켈시",
+        "content": "신체의 일부가 망가졌다면, 망가진 부분을 잘라내면 문제를 해결할 수 있을지도 몰라. 하지만 머리부터 발끝까지, 신체의 모든 게 문제라면?"
+    },
+    {
+        "id": 82,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 83,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"none\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#1$1.png",
+        "focus": "none"
+    },
+    {
+        "id": 84,
+        "raw": "[Decision(options=\"누군가의 눈에는 전지전능으로 보이겠지.\", values=\"1\")]",
+        "type": "decision",
+        "options": "누군가의 눈에는 전지전능으로 보이겠지.",
+        "values": "1"
+    },
+    {
+        "id": 85,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 86,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 87,
+        "raw": "[name=\"켈시\"]……",
+        "type": "dialog",
+        "speaker": "켈시",
+        "content": "……"
+    },
+    {
+        "id": 88,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 89,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"none\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#1$1.png",
+        "focus": "none"
+    },
+    {
+        "id": 90,
+        "raw": "[Decision(options=\"왜…… 나를 봐?\", values=\"1\")]",
+        "type": "decision",
+        "options": "왜…… 나를 봐?",
+        "values": "1"
+    },
+    {
+        "id": 91,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 92,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 93,
+        "raw": "[name=\"켈시\"]아까 실망을 했었냐고 물었지?",
+        "type": "dialog",
+        "speaker": "켈시",
+        "content": "아까 실망을 했었냐고 물었지?"
+    },
+    {
+        "id": 94,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 95,
+        "raw": "[name=\"켈시\"]……예전에 딱 한 번 있었다.",
+        "type": "dialog",
+        "speaker": "켈시",
+        "content": "……예전에 딱 한 번 있었다."
+    },
+    {
+        "id": 96,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 97,
+        "raw": "[name=\"켈시\"]내가 누군가를 지나치게 의존하는 바람에 잘못된 판단을 거듭했고, 그 대가를 치렀어.",
+        "type": "dialog",
+        "speaker": "켈시",
+        "content": "내가 누군가를 지나치게 의존하는 바람에 잘못된 판단을 거듭했고, 그 대가를 치렀어."
+    },
+    {
+        "id": 98,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 99,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"none\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#1$1.png",
+        "focus": "none"
+    },
+    {
+        "id": 100,
+        "raw": "[Decision(options=\"그건……;……;하아……\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "그건……;……;하아……",
+        "values": "1;2;3"
+    },
+    {
+        "id": 101,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 102,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 103,
+        "raw": "[name=\"켈시\"]그렇다고 두 번 다시 믿지 않겠다는 건 아니야.",
+        "type": "dialog",
+        "speaker": "켈시",
+        "content": "그렇다고 두 번 다시 믿지 않겠다는 건 아니야."
+    },
+    {
+        "id": 104,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 105,
+        "raw": "[name=\"켈시\"]우리의 근원과 뿌리에 저항하는 것은 매우 어려운 일이야. 어떤 기술에…… 혹은 어떤 사람에게만 의지한다는 자체가 비현실적이지.",
+        "type": "dialog",
+        "speaker": "켈시",
+        "content": "우리의 근원과 뿌리에 저항하는 것은 매우 어려운 일이야. 어떤 기술에…… 혹은 어떤 사람에게만 의지한다는 자체가 비현실적이지."
+    },
+    {
+        "id": 106,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 107,
+        "raw": "[name=\"아미야\"]박사님! 켈시 선생님! 이것 좀 보세요!",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "박사님! 켈시 선생님! 이것 좀 보세요!"
+    },
+    {
+        "id": 108,
+        "raw": "[name=\"아미야\"]앞에 동굴이 있어요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "앞에 동굴이 있어요."
+    },
+    {
+        "id": 109,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 110,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 111,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 112,
+        "raw": "[Character(fadetime=0)]",
+        "type": "character",
+        "fadetime": 0
+    },
+    {
+        "id": 113,
+        "raw": "[Background(image=\"50_g18_originiumcave\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "50_g18_originiumcave.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 114,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 115,
+        "raw": "[playMusic(key=\"$darkness_03_loop\", volume=0.6)]",
+        "type": "play_music",
+        "key": "sound_beta_2/music/avg/m_avg_darkness_03_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 116,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 117,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1072_1#5$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1072_1#5$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 118,
+        "raw": "[name=\"로고스\"]……누군가 일부러 입구를 숨겼군.",
+        "type": "dialog",
+        "speaker": "로고스",
+        "content": "……누군가 일부러 입구를 숨겼군."
+    },
+    {
+        "id": 119,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1072_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 120,
+        "raw": "[name=\"로고스\"]거칠고, 뒤틀려 있다. 고해신부의 환술이다.",
+        "type": "dialog",
+        "speaker": "로고스",
+        "content": "거칠고, 뒤틀려 있다. 고해신부의 환술이다."
+    },
+    {
+        "id": 121,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#7$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#7$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 122,
+        "raw": "[name=\"아미야\"]주술 제단은 분명 가장 깊은 곳에 있을 거예요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "주술 제단은 분명 가장 깊은 곳에 있을 거예요."
+    },
+    {
+        "id": 123,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#7$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#7$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 124,
+        "raw": "[name=\"아미야\"]오리지늄 반응이 가장 강렬한 곳으로 가보죠.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "오리지늄 반응이 가장 강렬한 곳으로 가보죠."
+    },
+    {
+        "id": 125,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 126,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 127,
+        "raw": "[Decision(options=\"온통 오리지늄투성이네.;이렇게 활성화된 오리지늄은 본 적도 없어.\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "온통 오리지늄투성이네.;이렇게 활성화된 오리지늄은 본 적도 없어.",
+        "values": "1;2"
+    },
+    {
+        "id": 128,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 129,
+        "raw": "[Decision(options=\"아미야, 괜찮아?;로고스도 감염자잖아. 위화감은 안 들어?;켈시, 우리 약이 효과가 있을까?\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "아미야, 괜찮아?;로고스도 감염자잖아. 위화감은 안 들어?;켈시, 우리 약이 효과가 있을까?",
+        "values": "1;2;3"
+    },
+    {
+        "id": 130,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 131,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#8$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#8$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 132,
+        "raw": "[name=\"아미야\"]괜찮아요, 박사님.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "괜찮아요, 박사님."
+    },
+    {
+        "id": 133,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#8$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#8$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 134,
+        "raw": "[name=\"아미야\"]더 중요한 일이 남아있으니까요. 버틸 수 있어요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "더 중요한 일이 남아있으니까요. 버틸 수 있어요."
+    },
+    {
+        "id": 135,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 136,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1072_1#5$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1072_1#5$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 137,
+        "raw": "[name=\"로고스\"]환경의 영향이 전혀 없다고는 할 수 없겠군.",
+        "type": "dialog",
+        "speaker": "로고스",
+        "content": "환경의 영향이 전혀 없다고는 할 수 없겠군."
+    },
+    {
+        "id": 138,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1072_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 139,
+        "raw": "[name=\"로고스\"]그렇다 해도, 그 영향이 원석에 의한 것만은 아니겠지.",
+        "type": "dialog",
+        "speaker": "로고스",
+        "content": "그렇다 해도, 그 영향이 원석에 의한 것만은 아니겠지."
+    },
+    {
+        "id": 140,
+        "raw": "[Predicate(references=\"3\")]",
+        "type": "predicate",
+        "references": "3"
+    },
+    {
+        "id": 141,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 142,
+        "raw": "[name=\"켈시\"]아무런 준비도 하지 않은 것보다는 나아.",
+        "type": "dialog",
+        "speaker": "켈시",
+        "content": "아무런 준비도 하지 않은 것보다는 나아."
+    },
+    {
+        "id": 143,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 144,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 145,
+        "raw": "[name=\"켈시\"]오리지늄은 '암나남'의 영향으로 더욱 그 본질에 가까워지게 될 거야.",
+        "type": "dialog",
+        "speaker": "켈시",
+        "content": "오리지늄은 '암나남'의 영향으로 더욱 그 본질에 가까워지게 될 거야."
+    },
+    {
+        "id": 146,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 147,
+        "raw": "[name=\"켈시\"]결정은 점점 더 빠른 속도로 모든 생물과 무생물에 결합하여, 동화라는 형식으로 정보를 봉인하겠지.",
+        "type": "dialog",
+        "speaker": "켈시",
+        "content": "결정은 점점 더 빠른 속도로 모든 생물과 무생물에 결합하여, 동화라는 형식으로 정보를 봉인하겠지."
+    },
+    {
+        "id": 148,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 149,
+        "raw": "[name=\"켈시\"]오리지늄은 자신의 구조로만 정보를 보존할 수 있어. 그렇기에 동화된 개체는 원래의 생명 형태를 완전히 잃어버리지.",
+        "type": "dialog",
+        "speaker": "켈시",
+        "content": "오리지늄은 자신의 구조로만 정보를 보존할 수 있어. 그렇기에 동화된 개체는 원래의 생명 형태를 완전히 잃어버리지."
+    },
+    {
+        "id": 150,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 151,
+        "raw": "[name=\"켈시\"]옆에서 보면 순식간에 '분해'되는 것처럼 보이겠지.",
+        "type": "dialog",
+        "speaker": "켈시",
+        "content": "옆에서 보면 순식간에 '분해'되는 것처럼 보이겠지."
+    },
+    {
+        "id": 152,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 153,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"none\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#1$1.png",
+        "focus": "none"
+    },
+    {
+        "id": 154,
+        "raw": "[Decision(options=\"광석병 발작으로 죽는 사람처럼……\", values=\"1\")]",
+        "type": "decision",
+        "options": "광석병 발작으로 죽는 사람처럼……",
+        "values": "1"
+    },
+    {
+        "id": 155,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 156,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 157,
+        "raw": "[name=\"켈시\"]비슷한 점이 있지. 환자들은 의식이 사라지면, 그 신체는 일정 시간 내에 고도로 활성화된 오리지늄 분진으로 분해되니까 말이야.",
+        "type": "dialog",
+        "speaker": "켈시",
+        "content": "비슷한 점이 있지. 환자들은 의식이 사라지면, 그 신체는 일정 시간 내에 고도로 활성화된 오리지늄 분진으로 분해되니까 말이야."
+    },
+    {
+        "id": 158,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 159,
+        "raw": "[name=\"켈시\"]동화란 이 과정을 극한으로 압축시켜 놓은 거야.",
+        "type": "dialog",
+        "speaker": "켈시",
+        "content": "동화란 이 과정을 극한으로 압축시켜 놓은 거야."
+    },
+    {
+        "id": 160,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 161,
+        "raw": "[name=\"켈시\"]로도스 아일랜드의 기술로는 체세포와 오리지늄의 융합률이 임계치에 도달하는 것을 지연시키는 게 고작이야. 진정한 방어 장벽을 생성해 오리지늄을 막는 것은 아직 불가능해.",
+        "type": "dialog",
+        "speaker": "켈시",
+        "content": "로도스 아일랜드의 기술로는 체세포와 오리지늄의 융합률이 임계치에 도달하는 것을 지연시키는 게 고작이야. 진정한 방어 장벽을 생성해 오리지늄을 막는 것은 아직 불가능해."
+    },
+    {
+        "id": 162,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 163,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"none\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#1$1.png",
+        "focus": "none"
+    },
+    {
+        "id": 164,
+        "raw": "[Decision(options=\"……\", values=\"1\")]",
+        "type": "decision",
+        "options": "……",
+        "values": "1"
+    },
+    {
+        "id": 165,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 166,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 167,
+        "raw": "[name=\"켈시\"]박사, 너무 걱정할 필요는 없어. 이곳의 오리지늄 농도는 아직 최악의 상황은 아니야.",
+        "type": "dialog",
+        "speaker": "켈시",
+        "content": "박사, 너무 걱정할 필요는 없어. 이곳의 오리지늄 농도는 아직 최악의 상황은 아니야."
+    },
+    {
+        "id": 168,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 169,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"none\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#1$1.png",
+        "focus": "none"
+    },
+    {
+        "id": 170,
+        "raw": "[Decision(options=\"이게 최악이 아니라고?;걱정을 안 할 수가 없는걸.\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "이게 최악이 아니라고?;걱정을 안 할 수가 없는걸.",
+        "values": "1;2"
+    },
+    {
+        "id": 171,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 172,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#3$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#3$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 173,
+        "raw": "[name=\"켈시\"]아직은 움직이고 숨을 쉴 수 있잖아.",
+        "type": "dialog",
+        "speaker": "켈시",
+        "content": "아직은 움직이고 숨을 쉴 수 있잖아."
+    },
+    {
+        "id": 174,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#3$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#3$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 175,
+        "raw": "[name=\"켈시\"]적시에 오리지늄의 확산을 막을 수 있다면, 돌이킬 수 없는 상황까지는 가지 않을 거야.",
+        "type": "dialog",
+        "speaker": "켈시",
+        "content": "적시에 오리지늄의 확산을 막을 수 있다면, 돌이킬 수 없는 상황까지는 가지 않을 거야."
+    },
+    {
+        "id": 176,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#7$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#7$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 177,
+        "raw": "[name=\"아미야\"]켈시 선생님, 박사님, 적이 움직이는 소리가 들렸어요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "켈시 선생님, 박사님, 적이 움직이는 소리가 들렸어요."
+    },
+    {
+        "id": 178,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#7$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#7$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 179,
+        "raw": "[name=\"아미야\"]로고스 씨, 전투 준비를 해주세요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "로고스 씨, 전투 준비를 해주세요."
+    },
+    {
+        "id": 180,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 181,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 182,
+        "raw": "[PlaySound(key=\"$d_gen_soldiersrun\",volume=0.5)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_soldiersrun.mp3",
+        "volume": 0.5
+    },
+    {
+        "id": 183,
+        "raw": "[charslot(slot=\"l\",name=\"avg_npc_425_1#1$1\",duration=1.5)]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_425_1#1$1.png",
+        "duration": 1.5
+    },
+    {
+        "id": 184,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_425_1#1$1\",duration=1.5)]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_425_1#1$1.png",
+        "duration": 1.5
+    },
+    {
+        "id": 185,
+        "raw": "[Delay(time=2.5)]",
+        "type": "delay",
+        "time": 2.5
+    },
+    {
+        "id": 186,
+        "raw": "[name=\"고해신부 직속 위병\"]침입자인가?!",
+        "type": "dialog",
+        "speaker": "고해신부 직속 위병",
+        "content": "침입자인가?!"
+    },
+    {
+        "id": 187,
+        "raw": "[multiline(name=\"고해신부 직속 위병\")]적은 밴시와……",
+        "type": "dialog",
+        "speaker": "고해신부 직속 위병",
+        "content": "적은 밴시와……",
+        "name": "고해신부 직속 위병"
+    },
+    {
+        "id": 188,
+        "raw": "[PlaySound(key=\"$b_char_defboost\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/battle/b_char/b_char_defboost.mp3"
+    },
+    {
+        "id": 189,
+        "raw": "[CameraShake(duration=1, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "xstrength": "20,",
+        "ystrength": "20,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 190,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 191,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.05,",
+        "block": true
+    },
+    {
+        "id": 192,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 193,
+        "raw": "[PlaySound(key=\"$bodyfalldown1\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_bodyfalldown1.mp3",
+        "volume": 1
+    },
+    {
+        "id": 194,
+        "raw": "[charslot(duration=0.5)]",
+        "type": "charslot",
+        "duration": 0.5
+    },
+    {
+        "id": 195,
+        "raw": "[multiline(name=\"고해신부 직속 위병\")]으윽!",
+        "type": "dialog",
+        "speaker": "고해신부 직속 위병",
+        "content": "으윽!",
+        "name": "고해신부 직속 위병"
+    },
+    {
+        "id": 196,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 197,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1072_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 198,
+        "raw": "[name=\"로고스\"]수비 병력이 적은 건 아니지만, 어렵지 않게 해결할 수 있겠군.",
+        "type": "dialog",
+        "speaker": "로고스",
+        "content": "수비 병력이 적은 건 아니지만, 어렵지 않게 해결할 수 있겠군."
+    },
+    {
+        "id": 199,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1072_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 200,
+        "raw": "[name=\"로고스\"]어둠 속에 필시 더 큰 위험이 도사리고 있을 것이다. 박사, 절대 낙오되지 말도록.",
+        "type": "dialog",
+        "speaker": "로고스",
+        "content": "어둠 속에 필시 더 큰 위험이 도사리고 있을 것이다. 박사, 절대 낙오되지 말도록."
+    },
+    {
+        "id": 201,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1072_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 202,
+        "raw": "[name=\"로고스\"]고해신부의 주술 때문에 정확한 위치를 알아내기는 힘들지만, '티카즈의 피'가 근처에 있는 건 확실하다.",
+        "type": "dialog",
+        "speaker": "로고스",
+        "content": "고해신부의 주술 때문에 정확한 위치를 알아내기는 힘들지만, '티카즈의 피'가 근처에 있는 건 확실하다."
+    },
+    {
+        "id": 203,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 204,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 205,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 206,
+        "raw": "[Character(fadetime=0)]",
+        "type": "character",
+        "fadetime": 0
+    },
+    {
+        "id": 207,
+        "raw": "티카즈의 피에 최초의 오리지늄이 각성했다.",
+        "type": "narration",
+        "content": "티카즈의 피에 최초의 오리지늄이 각성했다."
+    },
+    {
+        "id": 208,
+        "raw": "아주 오랜 세월 동안, 살카즈의 운명은 이렇게 오리지늄과 얽혀 있었다.",
+        "type": "narration",
+        "content": "아주 오랜 세월 동안, 살카즈의 운명은 이렇게 오리지늄과 얽혀 있었다."
+    },
+    {
+        "id": 209,
+        "raw": "아미야와 로고스는 고통을 겪고 있다. 혹은 그 고통을 짊어지고 여기까지 왔다고 해야 할까.",
+        "type": "narration",
+        "content": "아미야와 로고스는 고통을 겪고 있다. 혹은 그 고통을 짊어지고 여기까지 왔다고 해야 할까."
+    },
+    {
+        "id": 210,
+        "raw": "그렇다면 당신은? 당신은 켈시가 몇 번이고 말을 꺼내려다가 다시 침묵한 걸 떠올렸다.",
+        "type": "narration",
+        "content": "그렇다면 당신은? 당신은 켈시가 몇 번이고 말을 꺼내려다가 다시 침묵한 걸 떠올렸다."
+    },
+    {
+        "id": 211,
+        "raw": "당신은 증인이자, 동반자일 뿐만 아니라, 오리지늄과 이 전쟁, 그리고 지금 일어나고 있는 일들과 더 깊은 관련이 있을 것이다.",
+        "type": "narration",
+        "content": "당신은 증인이자, 동반자일 뿐만 아니라, 오리지늄과 이 전쟁, 그리고 지금 일어나고 있는 일들과 더 깊은 관련이 있을 것이다."
+    },
+    {
+        "id": 212,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 213,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 214,
+        "raw": "[Background(image=\"50_g8_altarcoreandblood\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "50_g8_altarcoreandblood.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 215,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 216,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 217,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#5$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#5$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 218,
+        "raw": "[name=\"아미야\"]이게 바로……",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "이게 바로……"
+    },
+    {
+        "id": 219,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 220,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 221,
+        "raw": "[Decision(options=\"“티카즈의 피”.\", values=\"1\")]",
+        "type": "decision",
+        "options": "“티카즈의 피”.",
+        "values": "1"
+    },
+    {
+        "id": 222,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 223,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 224,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1072_1#5$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1072_1#5$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 225,
+        "raw": "[name=\"로고스\"]두카렐의 집념이지.",
+        "type": "dialog",
+        "speaker": "로고스",
+        "content": "두카렐의 집념이지."
+    },
+    {
+        "id": 226,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1072_1#5$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1072_1#5$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 227,
+        "raw": "[name=\"로고스\"]순수한 피에는 아무런 '불순물'도 들어 있지 않다.",
+        "type": "dialog",
+        "speaker": "로고스",
+        "content": "순수한 피에는 아무런 '불순물'도 들어 있지 않다."
+    },
+    {
+        "id": 228,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1072_1#5$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1072_1#5$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 229,
+        "raw": "[name=\"로고스\"]피 자체에는 아무런 힘도 없다.",
+        "type": "dialog",
+        "speaker": "로고스",
+        "content": "피 자체에는 아무런 힘도 없다."
+    },
+    {
+        "id": 230,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1072_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 231,
+        "raw": "[name=\"로고스\"]아미야, 티카즈의 피와 제단의 연결을 끊어버려.",
+        "type": "dialog",
+        "speaker": "로고스",
+        "content": "아미야, 티카즈의 피와 제단의 연결을 끊어버려."
+    },
+    {
+        "id": 232,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#7$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#7$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 233,
+        "raw": "[name=\"아미야\"]알겠습니……",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "알겠습니……"
+    },
+    {
+        "id": 234,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 235,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 236,
+        "raw": "[CameraShake(duration=1, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "xstrength": "20,",
+        "ystrength": "20,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 237,
+        "raw": "[PlaySound(key=\"$p_skill_chimera\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/player/p_skill/p_skill_chimera.mp3",
+        "volume": 1
+    },
+    {
+        "id": 238,
+        "raw": "[Delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 239,
+        "raw": "[stopmusic(fadetime=1.5)]",
+        "type": "stop_music",
+        "fadetime": 1.5
+    },
+    {
+        "id": 240,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#6$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#6$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 241,
+        "raw": "[name=\"켈시\"]잠깐.",
+        "type": "dialog",
+        "speaker": "켈시",
+        "content": "잠깐."
+    },
+    {
+        "id": 242,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 243,
+        "raw": "[name=\"아미야\"]……켈시 선생님?",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "……켈시 선생님?"
+    },
+    {
+        "id": 244,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#5$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#5$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 245,
+        "raw": "[name=\"켈시\"]Mon3tr, 저기에 있는 위병의 시체를 공격해!",
+        "type": "dialog",
+        "speaker": "켈시",
+        "content": "Mon3tr, 저기에 있는 위병의 시체를 공격해!"
+    },
+    {
+        "id": 246,
+        "raw": "[charslot(slot=\"m\",name=\"npc_10002\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "npc_10002.png",
+        "focus": "m"
+    },
+    {
+        "id": 247,
+        "raw": "[PlaySound(key=\"$Mon3tr_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/player/p_atk/p_atk_mon3tr_n.mp3"
+    },
+    {
+        "id": 248,
+        "raw": "[name=\"Mon3tr\"]크르르릉!",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "크르르릉!"
+    },
+    {
+        "id": 249,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 250,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 251,
+        "raw": "[charslot(slot=\"m\",name=\"npc_10003_1\",duration=1,focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "npc_10003_1.png",
+        "duration": "1,focus=\"m\""
+    },
+    {
+        "id": 252,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 253,
+        "raw": "[PlayMusic(intro=\"$suspenseful_intro\", key=\"$suspenseful_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act15d0d0/m_avg_suspenseful_intro.mp3",
+        "key": "sound_beta_2/music/act15d0d0/m_avg_suspenseful_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 254,
+        "raw": "[PlaySound(key=\"$Mon3tr_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/player/p_atk/p_atk_mon3tr_n.mp3"
+    },
+    {
+        "id": 255,
+        "raw": "[name=\"Mon3tr?\"]……",
+        "type": "dialog",
+        "speaker": "Mon3tr?",
+        "content": "……"
+    },
+    {
+        "id": 256,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#15$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#15$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 257,
+        "raw": "[name=\"아미야\"]또 다른 Mon3tr?",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "또 다른 Mon3tr?"
+    },
+    {
+        "id": 258,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#13$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#13$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 259,
+        "raw": "[name=\"아미야\"]하나뿐이 아니군요. 쓰러진 고해신부 위병들…… 전부 진짜 위병이 아니었네요!",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "하나뿐이 아니군요. 쓰러진 고해신부 위병들…… 전부 진짜 위병이 아니었네요!"
+    },
+    {
+        "id": 260,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1072_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 261,
+        "raw": "[name=\"로고스\"]진짜와 거의 비슷한 '모방'이군.",
+        "type": "dialog",
+        "speaker": "로고스",
+        "content": "진짜와 거의 비슷한 '모방'이군."
+    },
+    {
+        "id": 262,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1072_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 263,
+        "raw": "[name=\"로고스\"]그 녀석만이 이 동굴을…… 진짜 제단처럼 꾸밀 수 있지.",
+        "type": "dialog",
+        "speaker": "로고스",
+        "content": "그 녀석만이 이 동굴을…… 진짜 제단처럼 꾸밀 수 있지."
+    },
+    {
+        "id": 264,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1072_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 265,
+        "raw": "[name=\"로고스\"]이건 우리를 노린 함정이야.",
+        "type": "dialog",
+        "speaker": "로고스",
+        "content": "이건 우리를 노린 함정이야."
+    },
+    {
+        "id": 266,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 267,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 268,
+        "raw": "[Decision(options=\"다마즈티.\", values=\"1\")]",
+        "type": "decision",
+        "options": "다마즈티.",
+        "values": "1"
+    },
+    {
+        "id": 269,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 270,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#5$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#5$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 271,
+        "raw": "[name=\"켈시\"]아미야, 물러나!",
+        "type": "dialog",
+        "speaker": "켈시",
+        "content": "아미야, 물러나!"
+    },
+    {
+        "id": 272,
+        "raw": "[charslot(slot=\"m\",name=\"npc_10002\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "npc_10002.png",
+        "focus": "m"
+    },
+    {
+        "id": 273,
+        "raw": "[PlaySound(key=\"$Mon3tr_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/player/p_atk/p_atk_mon3tr_n.mp3"
+    },
+    {
+        "id": 274,
+        "raw": "[CameraShake(duration=0.5, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "20,",
+        "ystrength": "20,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 275,
+        "raw": "[name=\"Mon3tr\"](분노하듯) 크르르르!",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "(분노하듯) 크르르르!"
+    },
+    {
+        "id": 276,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 277,
+        "raw": "Mon3tr가 당신들의 앞을 막아섰다.",
+        "type": "narration",
+        "content": "Mon3tr가 당신들의 앞을 막아섰다."
+    },
+    {
+        "id": 278,
+        "raw": "당신은 아미야의 손을 꽉 잡았다.",
+        "type": "narration",
+        "content": "당신은 아미야의 손을 꽉 잡았다."
+    },
+    {
+        "id": 279,
+        "raw": "제단과 '티카즈의 피'가 붕괴하는 가운데, 주위의 암벽이 밀려오고 있었다.",
+        "type": "narration",
+        "content": "제단과 '티카즈의 피'가 붕괴하는 가운데, 주위의 암벽이 밀려오고 있었다."
+    },
+    {
+        "id": 280,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 281,
+        "raw": "[playsound(key=\"$smallearthquake\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_smallearthquake.mp3",
+        "volume": 1
+    },
+    {
+        "id": 282,
+        "raw": "[playsound(key=\"$d_avg_statueshake\", volume=1,delay=1.5)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_statueshake.mp3",
+        "volume": "1,delay=1.5"
+    },
+    {
+        "id": 283,
+        "raw": "[CameraShake(duration=4, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "4,",
+        "xstrength": "40,",
+        "ystrength": "40,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 284,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 285,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 286,
+        "raw": "[Character(fadetime=0)]",
+        "type": "character",
+        "fadetime": 0
+    },
+    {
+        "id": 287,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 288,
+        "raw": "[Background(image=\"50_g18_originiumcave\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "50_g18_originiumcave.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 289,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 290,
+        "raw": "환각은 사라졌지만, 지형의 변화는 실제로 일어났다.",
+        "type": "narration",
+        "content": "환각은 사라졌지만, 지형의 변화는 실제로 일어났다."
+    },
+    {
+        "id": 291,
+        "raw": "진짜 제단은 여전히 작동하고 있다. 자라나는 오리지늄은 당신들이 보고 있는 모든 것들을 집어삼킬 것이다.",
+        "type": "narration",
+        "content": "진짜 제단은 여전히 작동하고 있다. 자라나는 오리지늄은 당신들이 보고 있는 모든 것들을 집어삼킬 것이다."
+    },
+    {
+        "id": 292,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#7$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#7$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 293,
+        "raw": "[name=\"아미야\"]박사님!",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "박사님!"
+    },
+    {
+        "id": 294,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 295,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 296,
+        "raw": "[Decision(options=\"여기는……;……고해신부의 동굴인가.\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "여기는……;……고해신부의 동굴인가.",
+        "values": "1;2"
+    },
+    {
+        "id": 297,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 298,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 299,
+        "raw": "[name=\"아미야\"]아까 그 가짜 제단의 아래층으로 떨어진 것 같아요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "아까 그 가짜 제단의 아래층으로 떨어진 것 같아요."
+    },
+    {
+        "id": 300,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 301,
+        "raw": "[name=\"아미야\"]오리지늄 구조의 변화 속도가 너무 빨라서 박사님밖에 붙잡지 못했어요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "오리지늄 구조의 변화 속도가 너무 빨라서 박사님밖에 붙잡지 못했어요."
+    },
+    {
+        "id": 302,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#18$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#18$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 303,
+        "raw": "[name=\"아미야\"]켈시 선생님과 로고스 씨는 어디에 계신 걸까요…… 곳곳에 있는 오리지늄 때문에 정보가 너무 많아요. 켈시 선생님과 로고스 씨가 느껴지지 않아요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "켈시 선생님과 로고스 씨는 어디에 계신 걸까요…… 곳곳에 있는 오리지늄 때문에 정보가 너무 많아요. 켈시 선생님과 로고스 씨가 느껴지지 않아요."
+    },
+    {
+        "id": 304,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 305,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#18$1\",focus=\"none\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#18$1.png",
+        "focus": "none"
+    },
+    {
+        "id": 306,
+        "raw": "[Decision(options=\"아마 우리랑 멀리 떨어져 있을 거야.\", values=\"1\")]",
+        "type": "decision",
+        "options": "아마 우리랑 멀리 떨어져 있을 거야.",
+        "values": "1"
+    },
+    {
+        "id": 307,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 308,
+        "raw": "[Decision(options=\"적이 우리를 가둬 놓으려는 것 같아.;적이 제단을 부수지 못하게 하려는 것 같아.\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "적이 우리를 가둬 놓으려는 것 같아.;적이 제단을 부수지 못하게 하려는 것 같아.",
+        "values": "1;2"
+    },
+    {
+        "id": 309,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 310,
+        "raw": "[Decision(options=\"하지만 고해신부의 최우선 목표는 여전히 너야.\", values=\"1\")]",
+        "type": "decision",
+        "options": "하지만 고해신부의 최우선 목표는 여전히 너야.",
+        "values": "1"
+    },
+    {
+        "id": 311,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 312,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#7$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#7$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 313,
+        "raw": "[name=\"아미야\"]그들이 원하는 것은 '마왕'이겠죠.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "그들이 원하는 것은 '마왕'이겠죠."
+    },
+    {
+        "id": 314,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 315,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 316,
+        "raw": "[playsound(key=\"$smallearthquake\", volume=0.6)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_smallearthquake.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 317,
+        "raw": "[CameraShake(duration=3, xstrength=4, ystrength=4, vibrato=20, randomness=30, fadeout=true)]",
+        "type": "camera_shake",
+        "duration": "3,",
+        "xstrength": "4,",
+        "ystrength": "4,",
+        "vibrato": "20,",
+        "randomness": "30,",
+        "fadeout": true
+    },
+    {
+        "id": 318,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 319,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#15$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#15$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 320,
+        "raw": "[name=\"아미야\"]땅이 흔들리고 있어요…… 결정이 계속 확산 중인 걸까요?",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "땅이 흔들리고 있어요…… 결정이 계속 확산 중인 걸까요?"
+    },
+    {
+        "id": 321,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#15$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#15$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 322,
+        "raw": "[name=\"아미야\"]저건……",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "저건……"
+    },
+    {
+        "id": 323,
+        "raw": "[stopmusic(fadetime=1)]",
+        "type": "stop_music",
+        "fadetime": 1
+    },
+    {
+        "id": 324,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 325,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 326,
+        "raw": "[PlaySound(key=\"$d_avg_land_impact\", volume=0.4)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_land_impact.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 327,
+        "raw": "[playsound(key=\"$d_avg_rockfall\", volume=0.6,delay=0.2)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_rockfall.mp3",
+        "volume": "0.6,delay=0.2"
+    },
+    {
+        "id": 328,
+        "raw": "[PlaySound(key=\"$d_avg_land_impact\", volume=0.6, loop=false, channel=\"cmr\",delay=0.7)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_land_impact.mp3",
+        "volume": "0.6,",
+        "loop": "false,",
+        "channel": "cmr",
+        "delay": 0.7
+    },
+    {
+        "id": 329,
+        "raw": "[CameraShake(duration=2, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "2,",
+        "xstrength": "40,",
+        "ystrength": "40,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 330,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1335_1#1$1\",bstart=0.5,bend=0.9,focus=\"m\",duration=2)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1335_1#1$1.png",
+        "bstart": "0.5,bend=0.9,focus=\"m\",duration=2"
+    },
+    {
+        "id": 331,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 332,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 333,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1335_1#1$1\",bstart=0.5,bend=0.9,focus=\"m\")]",
+        "type": "charslot",
+        "bstart": "0.5,bend=0.9,focus=\"m\""
+    },
+    {
+        "id": 334,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": false
+    },
+    {
+        "id": 335,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 336,
+        "raw": "[PlayMusic(key=\"$m_bat_act37d0d0_01_loop\", volume=0.6)]",
+        "type": "play_music",
+        "key": "sound_beta_2/music/act37d0d0/m_bat_act37d0d0_01_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 337,
+        "raw": "[PlaySound(key=\"$d_avg_chimera\", volume=0.8)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_chimera.mp3",
+        "volume": 0.8
+    },
+    {
+        "id": 338,
+        "raw": "[CameraShake(duration=2.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "2.5,",
+        "xstrength": "40,",
+        "ystrength": "40,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 339,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_1335_1#1$1\",posfrom = \"0,0\", posto = \"200,0\",focus=\"n\")]",
+        "type": "charslot",
+        "focus": "n"
+    },
+    {
+        "id": 340,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1335_1#1$1\",bstart=0,bend=0,duration=2,focus=\"m\")]",
+        "type": "charslot",
+        "bstart": "0,bend=0,duration=2,focus=\"m\""
+    },
+    {
+        "id": 341,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 342,
+        "raw": "[name=\"???\"]……",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "……"
+    },
+    {
+        "id": 343,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 344,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 345,
+        "raw": "오리지늄 깊숙한 곳에서 기어 나온 괴물.",
+        "type": "narration",
+        "content": "오리지늄 깊숙한 곳에서 기어 나온 괴물."
+    },
+    {
+        "id": 346,
+        "raw": "웬디고의 뿔, 가고일의 몸, 다이아볼릭의 불.",
+        "type": "narration",
+        "content": "웬디고의 뿔, 가고일의 몸, 다이아볼릭의 불."
+    },
+    {
+        "id": 347,
+        "raw": "당신은 고해신부의 석상에서 이런 특징들을 본 적이 있다. 전부 살카즈의 씨족들이었다.",
+        "type": "narration",
+        "content": "당신은 고해신부의 석상에서 이런 특징들을 본 적이 있다. 전부 살카즈의 씨족들이었다."
+    },
+    {
+        "id": 348,
+        "raw": "하지만 지금, 그 특징은 하나의 몸에 나타나고 있었다.",
+        "type": "narration",
+        "content": "하지만 지금, 그 특징은 하나의 몸에 나타나고 있었다."
+    },
+    {
+        "id": 349,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 350,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#2$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#2$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 351,
+        "raw": "[name=\"아미야\"]저것의 감정은…… 매우 혼란스러워하고 있군요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "저것의 감정은…… 매우 혼란스러워하고 있군요."
+    },
+    {
+        "id": 352,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#2$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#2$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 353,
+        "raw": "[name=\"아미야\"]추억만이 존재해요. 수많은 단편적이고, 모호하며, 뒤섞인 추억들……",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "추억만이 존재해요. 수많은 단편적이고, 모호하며, 뒤섞인 추억들……"
+    },
+    {
+        "id": 354,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 355,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 356,
+        "raw": "[Decision(options=\"아미야, 다른 쪽에서도……!\", values=\"1\")]",
+        "type": "decision",
+        "options": "아미야, 다른 쪽에서도……!",
+        "values": "1"
+    },
+    {
+        "id": 357,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 358,
+        "raw": "[PlaySound(key=\"$d_avg_chimera2\", volume=0.8)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_chimera2.mp3",
+        "volume": 0.8
+    },
+    {
+        "id": 359,
+        "raw": "[CameraShake(duration=2, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "2,",
+        "xstrength": "40,",
+        "ystrength": "40,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 360,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_1335_1#1$1\",posfrom=\"-200,0\",posto=\"-200,0\",duration=1)]",
+        "type": "charslot",
+        "posfrom": "-200,0",
+        "posto": "-200,0",
+        "duration": 1
+    },
+    {
+        "id": 361,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_1335_1#1$1\",posfrom=\"150,0\",posto=\"150,0\",duration=1)]",
+        "type": "charslot",
+        "posfrom": "150,0",
+        "posto": "150,0",
+        "duration": 1
+    },
+    {
+        "id": 362,
+        "raw": "[delay(time=2.5)]",
+        "type": "delay",
+        "time": 2.5
+    },
+    {
+        "id": 363,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 364,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#7$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#7$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 365,
+        "raw": "[name=\"아미야\"]박사님, 앞으로 더 많이 몰려들 거예요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "박사님, 앞으로 더 많이 몰려들 거예요."
+    },
+    {
+        "id": 366,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#7$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#7$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 367,
+        "raw": "[name=\"아미야\"]이 동굴은 저것들이 태어난 곳이에요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "이 동굴은 저것들이 태어난 곳이에요."
+    },
+    {
+        "id": 368,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#7$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#7$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 369,
+        "raw": "[multiline(name=\"아미야\")]고해신부가 살카즈의 피와 오리지늄을 사용해……",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "고해신부가 살카즈의 피와 오리지늄을 사용해……",
+        "name": "아미야"
+    },
+    {
+        "id": 370,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#11$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#11$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 371,
+        "raw": "[multiline(name=\"아미야\")]저 생물들을 만들어 냈어요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "저 생물들을 만들어 냈어요.",
+        "name": "아미야"
+    },
+    {
+        "id": 372,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 373,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#11$1\",focus=\"none\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#11$1.png",
+        "focus": "none"
+    },
+    {
+        "id": 374,
+        "raw": "[Decision(options=\"너…… 슬퍼하고 있는 거야?;아미야……\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "너…… 슬퍼하고 있는 거야?;아미야……",
+        "values": "1;2"
+    },
+    {
+        "id": 375,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 376,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#11$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#11$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 377,
+        "raw": "[name=\"아미야\"]박사님, 저들은 아직 살아있어요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "박사님, 저들은 아직 살아있어요."
+    },
+    {
+        "id": 378,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#11$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#11$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 379,
+        "raw": "[name=\"아미야\"]돌멩이도, 순수한 주술의 피조물도 아닌, 살아있는 생명체예요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "돌멩이도, 순수한 주술의 피조물도 아닌, 살아있는 생명체예요."
+    },
+    {
+        "id": 380,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#11$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#11$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 381,
+        "raw": "[name=\"아미야\"]하지만 저들은 오직 고해신부의 명령에만 따를 뿐이에요. 고통을 느끼지 못하며, 자신의 운명에 한탄하지도 않죠.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "하지만 저들은 오직 고해신부의 명령에만 따를 뿐이에요. 고통을 느끼지 못하며, 자신의 운명에 한탄하지도 않죠."
+    },
+    {
+        "id": 382,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#11$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#11$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 383,
+        "raw": "[name=\"아미야\"]사람들은 저런 생물들을…… '괴물'이라 부르죠.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "사람들은 저런 생물들을…… '괴물'이라 부르죠."
+    },
+    {
+        "id": 384,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 385,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 386,
+        "raw": "[name=\"???\"]그래, '괴물'.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "그래, '괴물'."
+    },
+    {
+        "id": 387,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 388,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3"
+    },
+    {
+        "id": 389,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_653_1#9$1\",focus=\"m\",duration=2)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_653_1#9$1.png",
+        "focus": "m",
+        "duration": 2
+    },
+    {
+        "id": 390,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 391,
+        "raw": "[name=\"살루스\"]혹은…… '키메라'.",
+        "type": "dialog",
+        "speaker": "살루스",
+        "content": "혹은…… '키메라'."
+    },
+    {
+        "id": 392,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_653_1#8$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_653_1#8$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 393,
+        "raw": "[name=\"살루스\"]너는 도대체 누구를 위해 한탄하고 있는 거지?",
+        "type": "dialog",
+        "speaker": "살루스",
+        "content": "너는 도대체 누구를 위해 한탄하고 있는 거지?"
+    },
+    {
+        "id": 394,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_653_1#8$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_653_1#8$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 395,
+        "raw": "[name=\"살루스\"]아무것도 모르는 동류들을 위해서? 아니면 억지로 왕관이 씌워진 너 자신을 위해서? 키메라.",
+        "type": "dialog",
+        "speaker": "살루스",
+        "content": "아무것도 모르는 동류들을 위해서? 아니면 억지로 왕관이 씌워진 너 자신을 위해서? 키메라."
+    },
+    {
+        "id": 396,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 397,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1335_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1335_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 398,
+        "raw": "[PlaySound(key=\"$d_avg_chimera\", volume=0.8)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_chimera.mp3",
+        "volume": 0.8
+    },
+    {
+        "id": 399,
+        "raw": "[CameraShake(duration=1, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "xstrength": "40,",
+        "ystrength": "40,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 400,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 401,
+        "raw": "[name=\"고해신부의 '키메라'\"]크르르르르!!",
+        "type": "dialog",
+        "speaker": "고해신부의 '키메라'",
+        "content": "크르르르르!!"
+    },
+    {
+        "id": 402,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#7$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#7$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 403,
+        "raw": "[name=\"아미야\"]……",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "……"
+    },
+    {
+        "id": 404,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#7$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#7$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 405,
+        "raw": "[name=\"아미야\"]전투가 시작될 것 같군요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "전투가 시작될 것 같군요."
+    },
+    {
+        "id": 406,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 407,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_653_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_653_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 408,
+        "raw": "[PlaySound(key=\"$d_avg_originiumcastshort\", volume=0.8)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_originiumcastshort.mp3",
+        "volume": 0.8
+    },
+    {
+        "id": 409,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 410,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 411,
+        "raw": "[Blocker(a=1, r=1, g=1, b=1, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "1,",
+        "g": "1,",
+        "b": "1,",
+        "afrom": "0,",
+        "rfrom": "0,",
+        "gfrom": "0,",
+        "bfrom": "0,",
+        "fadetime": "0.1,",
+        "block": true
+    },
+    {
+        "id": 412,
+        "raw": "[PlaySound(key=\"$p_imp_whip_h\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/player/p_imp/p_imp_whip_h.mp3",
+        "volume": 1
+    },
+    {
+        "id": 413,
+        "raw": "[Blocker(a=0, fadetime=1.5, block=false)]",
+        "type": "blocker",
+        "a": "0,",
+        "fadetime": "1.5,",
+        "block": false
+    },
+    {
+        "id": 414,
+        "raw": "[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "xstrength": "10,",
+        "ystrength": "12,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 415,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 416,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 417,
+        "raw": "[Decision(options=\"아미야, 아무 영향 없는 거야?;고해신부의 주술이야!\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "아미야, 아무 영향 없는 거야?;고해신부의 주술이야!",
+        "values": "1;2"
+    },
+    {
+        "id": 418,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 419,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#7$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#7$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 420,
+        "raw": "[name=\"아미야\"]박사님, 고해신부에게 두 번은 당하지 않을 겁니다.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "박사님, 고해신부에게 두 번은 당하지 않을 겁니다."
+    },
+    {
+        "id": 421,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#7$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#7$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 422,
+        "raw": "[name=\"아미야\"]환상과 악몽일 뿐, 저는 그렇게 약하지 않아요. '키메라'라는 이름은 꿈속에서 이미 충분할 정도로 많이 들었어요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "환상과 악몽일 뿐, 저는 그렇게 약하지 않아요. '키메라'라는 이름은 꿈속에서 이미 충분할 정도로 많이 들었어요."
+    },
+    {
+        "id": 423,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#7$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#7$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 424,
+        "raw": "[name=\"아미야\"]제가 그걸로 동요한다면, 이곳에 올 자격조차 없었던 거겠죠.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "제가 그걸로 동요한다면, 이곳에 올 자격조차 없었던 거겠죠."
+    },
+    {
+        "id": 425,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#7$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#7$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 426,
+        "raw": "[name=\"아미야\"]게다가, 제 미숙함 때문에 박사님이 휘말리는 일은 다시는 보고 싶지 않거든요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "게다가, 제 미숙함 때문에 박사님이 휘말리는 일은 다시는 보고 싶지 않거든요."
+    },
+    {
+        "id": 427,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 428,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#7$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#7$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 429,
+        "raw": "[CameraShake(duration=1, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "xstrength": "20,",
+        "ystrength": "20,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 430,
+        "raw": "[PlaySound(key=\"$p_skill_chimera\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/player/p_skill/p_skill_chimera.mp3",
+        "volume": 1
+    },
+    {
+        "id": 431,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 432,
+        "raw": "[Blocker(a=0.8, r=1, g=1, b=1, fadetime=0.1, block=true)]",
+        "type": "blocker",
+        "a": "0.8,",
+        "r": "1,",
+        "g": "1,",
+        "b": "1,",
+        "fadetime": "0.1,",
+        "block": true
+    },
+    {
+        "id": 433,
+        "raw": "[Blocker(a=0.8, r=0, g=0, b=0, fadetime=0.1, block=true)]",
+        "type": "blocker",
+        "a": "0.8,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.1,",
+        "block": true
+    },
+    {
+        "id": 434,
+        "raw": "[Blocker(a=0.8, r=1, g=1, b=1, fadetime=0.1, block=true)]",
+        "type": "blocker",
+        "a": "0.8,",
+        "r": "1,",
+        "g": "1,",
+        "b": "1,",
+        "fadetime": "0.1,",
+        "block": true
+    },
+    {
+        "id": 435,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=false)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": false
+    },
+    {
+        "id": 436,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 437,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 438,
+        "raw": "자그마한 왕관이 카우투스 소녀의 머리 위에 나타났다.",
+        "type": "narration",
+        "content": "자그마한 왕관이 카우투스 소녀의 머리 위에 나타났다."
+    },
+    {
+        "id": 439,
+        "raw": "검은 선이 아미야의 손가락 사이에서 형태를 이루었다.",
+        "type": "narration",
+        "content": "검은 선이 아미야의 손가락 사이에서 형태를 이루었다."
+    },
+    {
+        "id": 440,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 441,
+        "raw": "[Decision(options=\"너와 '마왕'의 연결이 더 깊어지고 있어.\", values=\"1\")]",
+        "type": "decision",
+        "options": "너와 '마왕'의 연결이 더 깊어지고 있어.",
+        "values": "1"
+    },
+    {
+        "id": 442,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 443,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#3$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#3$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 444,
+        "raw": "[name=\"아미야\"]어쩌면……",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "어쩌면……"
+    },
+    {
+        "id": 445,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#7$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#7$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 446,
+        "raw": "[name=\"아미야\"]어쩌면 여전히 부족할 수도 있어요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "어쩌면 여전히 부족할 수도 있어요."
+    },
+    {
+        "id": 447,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 448,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 449,
+        "raw": "[Character(fadetime=0)]",
+        "type": "character",
+        "fadetime": 0
+    },
+    {
+        "id": 450,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 451,
+        "raw": "[Background(image=\"50_g18_originiumcave\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "50_g18_originiumcave.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 452,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 453,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1072_1#5$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1072_1#5$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 454,
+        "raw": "[name=\"로고스\"]……아미야.",
+        "type": "dialog",
+        "speaker": "로고스",
+        "content": "……아미야."
+    },
+    {
+        "id": 455,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_425_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_425_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 456,
+        "raw": "[name=\"고해신부 직속 위병?\"]그렇게 서두를 것 없어.",
+        "type": "dialog",
+        "speaker": "고해신부 직속 위병?",
+        "content": "그렇게 서두를 것 없어."
+    },
+    {
+        "id": 457,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1072_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 458,
+        "raw": "[name=\"로고스\"]내 주술 앞에서 분신 같은 건 아무런 의미도 없다, 다마즈티.",
+        "type": "dialog",
+        "speaker": "로고스",
+        "content": "내 주술 앞에서 분신 같은 건 아무런 의미도 없다, 다마즈티."
+    },
+    {
+        "id": 459,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1072_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 460,
+        "raw": "[name=\"로고스\"]네 말 대로, 이건 '시간 낭비'다.",
+        "type": "dialog",
+        "speaker": "로고스",
+        "content": "네 말 대로, 이건 '시간 낭비'다."
+    },
+    {
+        "id": 461,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_425_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_425_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 462,
+        "raw": "[name=\"고해신부 직속 위병?\"]그 공연, 그리고 그 산책, 우리는 아직도 기억나.",
+        "type": "dialog",
+        "speaker": "고해신부 직속 위병?",
+        "content": "그 공연, 그리고 그 산책, 우리는 아직도 기억나."
+    },
+    {
+        "id": 463,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_425_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_425_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 464,
+        "raw": "[name=\"고해신부 직속 위병?\"]너는 우리와 오랫동안 이야기를 나누었지.",
+        "type": "dialog",
+        "speaker": "고해신부 직속 위병?",
+        "content": "너는 우리와 오랫동안 이야기를 나누었지."
+    },
+    {
+        "id": 465,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1072_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 466,
+        "raw": "[name=\"로고스\"]그때 나와 이야기를 나누던 너는 다른 모습을 하고 있었지만, 적어도 자신이 왕정의 주인이라는 자각이 있었다.",
+        "type": "dialog",
+        "speaker": "로고스",
+        "content": "그때 나와 이야기를 나누던 너는 다른 모습을 하고 있었지만, 적어도 자신이 왕정의 주인이라는 자각이 있었다."
+    },
+    {
+        "id": 467,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1072_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 468,
+        "raw": "[name=\"로고스\"]지금의 너는 무엇이지?",
+        "type": "dialog",
+        "speaker": "로고스",
+        "content": "지금의 너는 무엇이지?"
+    },
+    {
+        "id": 469,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_425_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_425_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 470,
+        "raw": "[name=\"고해신부 직속 위병?\"]우리는 다양한 신분으로 살아 봤어.",
+        "type": "dialog",
+        "speaker": "고해신부 직속 위병?",
+        "content": "우리는 다양한 신분으로 살아 봤어."
+    },
+    {
+        "id": 471,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_425_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_425_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 472,
+        "raw": "[name=\"고해신부 직속 위병?\"]하지만 이 여정들이 우리에게 답을 준 것은 아니었지.",
+        "type": "dialog",
+        "speaker": "고해신부 직속 위병?",
+        "content": "하지만 이 여정들이 우리에게 답을 준 것은 아니었지."
+    },
+    {
+        "id": 473,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_425_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_425_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 474,
+        "raw": "[name=\"고해신부 직속 위병?\"]생각한 끝에 알게 됐지. 시작과 끝이 없는 길은 그저 순환일 뿐이라는 걸 말이야.",
+        "type": "dialog",
+        "speaker": "고해신부 직속 위병?",
+        "content": "생각한 끝에 알게 됐지. 시작과 끝이 없는 길은 그저 순환일 뿐이라는 걸 말이야."
+    },
+    {
+        "id": 475,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1072_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 476,
+        "raw": "[name=\"로고스\"]넌 죽음으로서 그 증거를 찾으려고 했군.",
+        "type": "dialog",
+        "speaker": "로고스",
+        "content": "넌 죽음으로서 그 증거를 찾으려고 했군."
+    },
+    {
+        "id": 477,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_425_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_425_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 478,
+        "raw": "[name=\"고해신부 직속 위병?\"]죽음의 끝에는 아무것도 없어.",
+        "type": "dialog",
+        "speaker": "고해신부 직속 위병?",
+        "content": "죽음의 끝에는 아무것도 없어."
+    },
+    {
+        "id": 479,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_425_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_425_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 480,
+        "raw": "[name=\"고해신부 직속 위병?\"]너희들이 말하는 영혼은 우리에게 아무런 말도 하지 않았지.",
+        "type": "dialog",
+        "speaker": "고해신부 직속 위병?",
+        "content": "너희들이 말하는 영혼은 우리에게 아무런 말도 하지 않았지."
+    },
+    {
+        "id": 481,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_425_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_425_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 482,
+        "raw": "[name=\"고해신부 직속 위병?\"]밴시, 우리를 향해 골피리를 불었을 때, 어떤 느낌이 들었지?",
+        "type": "dialog",
+        "speaker": "고해신부 직속 위병?",
+        "content": "밴시, 우리를 향해 골피리를 불었을 때, 어떤 느낌이 들었지?"
+    },
+    {
+        "id": 483,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1072_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 484,
+        "raw": "[name=\"로고스\"]“부서져라”.",
+        "type": "dialog",
+        "speaker": "로고스",
+        "content": "“부서져라”."
+    },
+    {
+        "id": 485,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 486,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_425_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_425_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 487,
+        "raw": "[delay(time=0.2)]",
+        "type": "delay",
+        "time": 0.2
+    },
+    {
+        "id": 488,
+        "raw": "[PlaySound(key=\"$d_avg_spelldfns_2\", volume=0.6)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_spelldfns_2.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 489,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 490,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.05,",
+        "block": true
+    },
+    {
+        "id": 491,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 492,
+        "raw": "[name=\"고해신부 직속 위병?\"]……",
+        "type": "dialog",
+        "speaker": "고해신부 직속 위병?",
+        "content": "……"
+    },
+    {
+        "id": 493,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 494,
+        "raw": "[PlaySound(key=\"$d_avg_shdwblwvr\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_shdwblwvr.mp3",
+        "volume": 1
+    },
+    {
+        "id": 495,
+        "raw": "[charslot(duration=1)]",
+        "type": "charslot",
+        "duration": 1
+    },
+    {
+        "id": 496,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 497,
+        "raw": "[charslot(slot=\"l\",name=\"avg_npc_425_1#1$1\",duration=1.5)]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_425_1#1$1.png",
+        "duration": 1.5
+    },
+    {
+        "id": 498,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_425_1#1$1\",duration=1.5)]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_425_1#1$1.png",
+        "duration": 1.5
+    },
+    {
+        "id": 499,
+        "raw": "[Delay(time=2.5)]",
+        "type": "delay",
+        "time": 2.5
+    },
+    {
+        "id": 500,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 501,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1072_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 502,
+        "raw": "[name=\"로고스\"]끝이 없군.",
+        "type": "dialog",
+        "speaker": "로고스",
+        "content": "끝이 없군."
+    },
+    {
+        "id": 503,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1072_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 504,
+        "raw": "[name=\"로고스\"]이게 너의 힘인가? 한 번 죽더니 예전 같지 않은 모양이군.",
+        "type": "dialog",
+        "speaker": "로고스",
+        "content": "이게 너의 힘인가? 한 번 죽더니 예전 같지 않은 모양이군."
+    },
+    {
+        "id": 505,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 506,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 507,
+        "raw": "저주에 의해 부서진 분신은 과거처럼 물거품으로 변하지 않았다.",
+        "type": "narration",
+        "content": "저주에 의해 부서진 분신은 과거처럼 물거품으로 변하지 않았다."
+    },
+    {
+        "id": 508,
+        "raw": "쓰러진 시체 하나하나는 소용돌이치는 오리지늄 파도에 휘말려 빠르게 모습을 감추었다.",
+        "type": "narration",
+        "content": "쓰러진 시체 하나하나는 소용돌이치는 오리지늄 파도에 휘말려 빠르게 모습을 감추었다."
+    },
+    {
+        "id": 509,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 510,
+        "raw": "[PlaySound(key=\"$d_avg_erthshkng\",loop=true,channel=\"lc\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_erthshkng.mp3",
+        "loop": "true,channel=\"lc\",volume=1"
+    },
+    {
+        "id": 511,
+        "raw": "[StopSound(channel=\"lc\", fadetime=2.5)]",
+        "type": "stop_sound",
+        "channel": "lc",
+        "fadetime": 2.5
+    },
+    {
+        "id": 512,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 513,
+        "raw": "[PlaySound(key=\"$d_avg_statuecollapse\",volume=0.8)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_statuecollapse.mp3",
+        "volume": 0.8
+    },
+    {
+        "id": 514,
+        "raw": "[CameraShake(duration=1, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "xstrength": "40,",
+        "ystrength": "40,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 515,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 516,
+        "raw": "곧이어 앙상한 나뭇가지 같은 손이 결정에서 튀어나왔다.",
+        "type": "narration",
+        "content": "곧이어 앙상한 나뭇가지 같은 손이 결정에서 튀어나왔다."
+    },
+    {
+        "id": 517,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 518,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1072_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 519,
+        "raw": "[PlaySound(key=\"$d_avg_magic_3\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_magic_3.mp3",
+        "volume": 1
+    },
+    {
+        "id": 520,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 521,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.05,",
+        "block": true
+    },
+    {
+        "id": 522,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 523,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 524,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1072_1#5$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1072_1#5$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 525,
+        "raw": "[name=\"로고스\"]영장.",
+        "type": "dialog",
+        "speaker": "로고스",
+        "content": "영장."
+    },
+    {
+        "id": 526,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 527,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 528,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1331_1#1$1\",focus=\"m\",duration=2)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1331_1#1$1.png",
+        "focus": "m",
+        "duration": 2
+    },
+    {
+        "id": 529,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 530,
+        "raw": "[name=\"'영장'?\"]밴시…… 너도 과거에 나를 죽인 적이 있었지.",
+        "type": "dialog",
+        "speaker": "'영장'?",
+        "content": "밴시…… 너도 과거에 나를 죽인 적이 있었지."
+    },
+    {
+        "id": 531,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1072_1#5$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1072_1#5$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 532,
+        "raw": "[name=\"로고스\"]전장에서 우리의 입장은 서로 달랐으니.",
+        "type": "dialog",
+        "speaker": "로고스",
+        "content": "전장에서 우리의 입장은 서로 달랐으니."
+    },
+    {
+        "id": 533,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1331_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1331_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 534,
+        "raw": "[name=\"'영장'?\"]카즈델에서, 나는 명을 받들어 왕정의 배신자들을 죽였다.",
+        "type": "dialog",
+        "speaker": "'영장'?",
+        "content": "카즈델에서, 나는 명을 받들어 왕정의 배신자들을 죽였다."
+    },
+    {
+        "id": 535,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1331_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1331_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 536,
+        "raw": "[name=\"'영장'?\"]너는 내 앞을 막아서며, 저주로 나의 머리와 몸을 분리시켰지.",
+        "type": "dialog",
+        "speaker": "'영장'?",
+        "content": "너는 내 앞을 막아서며, 저주로 나의 머리와 몸을 분리시켰지."
+    },
+    {
+        "id": 537,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1331_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1331_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 538,
+        "raw": "[name=\"'영장'?\"]그때의 너는 그저 앳된 목소리를 가진 어린아이에 불과했다.",
+        "type": "dialog",
+        "speaker": "'영장'?",
+        "content": "그때의 너는 그저 앳된 목소리를 가진 어린아이에 불과했다."
+    },
+    {
+        "id": 539,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1072_1#5$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1072_1#5$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 540,
+        "raw": "[name=\"로고스\"]……기억나는군.",
+        "type": "dialog",
+        "speaker": "로고스",
+        "content": "……기억나는군."
+    },
+    {
+        "id": 541,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1072_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 542,
+        "raw": "[name=\"로고스\"]네가 말하는 배신자들이란, 그저 평온한 삶을 찾아 카즈델을 떠나려고 했던 일가족이었다.",
+        "type": "dialog",
+        "speaker": "로고스",
+        "content": "네가 말하는 배신자들이란, 그저 평온한 삶을 찾아 카즈델을 떠나려고 했던 일가족이었다."
+    },
+    {
+        "id": 543,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1331_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1331_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 544,
+        "raw": "[name=\"'영장'?\"]놈들은 왕정에 충성을 맹세했어야 했다.",
+        "type": "dialog",
+        "speaker": "'영장'?",
+        "content": "놈들은 왕정에 충성을 맹세했어야 했다."
+    },
+    {
+        "id": 545,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1072_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 546,
+        "raw": "[name=\"로고스\"]왕정이 살카즈 위에 군림해선 안 된다. 네가 카즈델의 전쟁 영웅이었다고 하더라도, 네가 일반인들을 학살하도록 내버려 둘 수는 없었다.",
+        "type": "dialog",
+        "speaker": "로고스",
+        "content": "왕정이 살카즈 위에 군림해선 안 된다. 네가 카즈델의 전쟁 영웅이었다고 하더라도, 네가 일반인들을 학살하도록 내버려 둘 수는 없었다."
+    },
+    {
+        "id": 547,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1331_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1331_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 548,
+        "raw": "[name=\"'영장'?\"]그렇기에 너는 바벨과 테레시아를 선택한 것인가…… 네가 말하는 평범한 살카즈들을 위해서 말이야.",
+        "type": "dialog",
+        "speaker": "'영장'?",
+        "content": "그렇기에 너는 바벨과 테레시아를 선택한 것인가…… 네가 말하는 평범한 살카즈들을 위해서 말이야."
+    },
+    {
+        "id": 549,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1072_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 550,
+        "raw": "[name=\"로고스\"]그게 미래로 향하는 더 올바른 길이다.",
+        "type": "dialog",
+        "speaker": "로고스",
+        "content": "그게 미래로 향하는 더 올바른 길이다."
+    },
+    {
+        "id": 551,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 552,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1331_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1331_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 553,
+        "raw": "[delay(time=0.2)]",
+        "type": "delay",
+        "time": 0.2
+    },
+    {
+        "id": 554,
+        "raw": "[PlaySound(key=\"$e_skill_ignite_cast\", volume=0.6)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_skill/e_skill_ignite_cast.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 555,
+        "raw": "[PlaySound(key=\"$d_avg_spelldfns_2\", volume=0.7,delay=0.6)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_spelldfns_2.mp3",
+        "volume": "0.7,delay=0.6"
+    },
+    {
+        "id": 556,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 557,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.05,",
+        "block": true
+    },
+    {
+        "id": 558,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 559,
+        "raw": "[PlaySound(key=\"$d_avg_shdwblwvr\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_shdwblwvr.mp3",
+        "volume": 1
+    },
+    {
+        "id": 560,
+        "raw": "[charslot(duration=0.7)]",
+        "type": "charslot",
+        "duration": 0.7
+    },
+    {
+        "id": 561,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 562,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_054\",focus=\"m\",duration=2)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_054.png",
+        "focus": "m",
+        "duration": 2
+    },
+    {
+        "id": 563,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 564,
+        "raw": "[name=\"바벨 멤버?\"]하지만 그녀가 죽었음에도 너는 카즈델로 돌아가지 않았지!",
+        "type": "dialog",
+        "speaker": "바벨 멤버?",
+        "content": "하지만 그녀가 죽었음에도 너는 카즈델로 돌아가지 않았지!"
+    },
+    {
+        "id": 565,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_054\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_054.png",
+        "focus": "m"
+    },
+    {
+        "id": 566,
+        "raw": "[name=\"바벨 멤버?\"]심지어 이종족들과 함께 '마왕'을 훔쳐 도망치기까지 했어.",
+        "type": "dialog",
+        "speaker": "바벨 멤버?",
+        "content": "심지어 이종족들과 함께 '마왕'을 훔쳐 도망치기까지 했어."
+    },
+    {
+        "id": 567,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1072_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 568,
+        "raw": "[name=\"로고스\"]마왕의 계승은 테레시아 전하의 결정이었다. 나는 바벨의 멤버이자, 전하의 부하로서, 그 결정에 끼어들 자격을 가지고 있지 않았지.",
+        "type": "dialog",
+        "speaker": "로고스",
+        "content": "마왕의 계승은 테레시아 전하의 결정이었다. 나는 바벨의 멤버이자, 전하의 부하로서, 그 결정에 끼어들 자격을 가지고 있지 않았지."
+    },
+    {
+        "id": 569,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_054\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_054.png",
+        "focus": "m"
+    },
+    {
+        "id": 570,
+        "raw": "[name=\"바벨 멤버?\"]너는 네 손으로 나를 죽였어.",
+        "type": "dialog",
+        "speaker": "바벨 멤버?",
+        "content": "너는 네 손으로 나를 죽였어."
+    },
+    {
+        "id": 571,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_054\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_054.png",
+        "focus": "m"
+    },
+    {
+        "id": 572,
+        "raw": "[name=\"바벨 멤버?\"]저주가 심장을 조여왔던 그때…… 하하, 나는 믿을 수가 없었지.",
+        "type": "dialog",
+        "speaker": "바벨 멤버?",
+        "content": "저주가 심장을 조여왔던 그때…… 하하, 나는 믿을 수가 없었지."
+    },
+    {
+        "id": 573,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_054\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_054.png",
+        "focus": "m"
+    },
+    {
+        "id": 574,
+        "raw": "[name=\"바벨 멤버?\"]그렇게나 오랫동안 함께 해왔는데, 네가 내게 품은 감정이 그 외부인들보다 못했다니.",
+        "type": "dialog",
+        "speaker": "바벨 멤버?",
+        "content": "그렇게나 오랫동안 함께 해왔는데, 네가 내게 품은 감정이 그 외부인들보다 못했다니."
+    },
+    {
+        "id": 575,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1072_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 576,
+        "raw": "[name=\"로고스\"]……네가 함선에 남겨둔 황금초는 지금도 잘 자라고 있다.",
+        "type": "dialog",
+        "speaker": "로고스",
+        "content": "……네가 함선에 남겨둔 황금초는 지금도 잘 자라고 있다."
+    },
+    {
+        "id": 577,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_054\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_054.png",
+        "focus": "m"
+    },
+    {
+        "id": 578,
+        "raw": "[name=\"바벨 멤버?\"]전하의 죽음 이후 바벨을 휩쓴 그 내전에서, 너는 대체 몇 명의 동료들을 죽였지?",
+        "type": "dialog",
+        "speaker": "바벨 멤버?",
+        "content": "전하의 죽음 이후 바벨을 휩쓴 그 내전에서, 너는 대체 몇 명의 동료들을 죽였지?"
+    },
+    {
+        "id": 579,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_054\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_054.png",
+        "focus": "m"
+    },
+    {
+        "id": 580,
+        "raw": "[name=\"바벨 멤버?\"]그렇게 많은 사람들의 유품이…… 네 방을 전부 채워버렸잖아? 내가 화분에 아무렇게나 심은 풀을 볼 때마다 슬픔은 느껴지는가?",
+        "type": "dialog",
+        "speaker": "바벨 멤버?",
+        "content": "그렇게 많은 사람들의 유품이…… 네 방을 전부 채워버렸잖아? 내가 화분에 아무렇게나 심은 풀을 볼 때마다 슬픔은 느껴지는가?"
+    },
+    {
+        "id": 581,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1072_1#2$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1072_1#2$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 582,
+        "raw": "[name=\"로고스\"]만약 내가 정말로 슬픔을 느낀다면……",
+        "type": "dialog",
+        "speaker": "로고스",
+        "content": "만약 내가 정말로 슬픔을 느낀다면……"
+    },
+    {
+        "id": 583,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1072_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 584,
+        "raw": "[name=\"로고스\"]그건 죽음조차도 너희들이 마땅히 받아야 할 안식을 주지 못했기 때문이다.",
+        "type": "dialog",
+        "speaker": "로고스",
+        "content": "그건 죽음조차도 너희들이 마땅히 받아야 할 안식을 주지 못했기 때문이다."
+    },
+    {
+        "id": 585,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 586,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_054\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_054.png",
+        "focus": "m"
+    },
+    {
+        "id": 587,
+        "raw": "[delay(time=0.2)]",
+        "type": "delay",
+        "time": 0.2
+    },
+    {
+        "id": 588,
+        "raw": "[PlaySound(key=\"$e_skill_ignite_cast\", volume=0.6)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_skill/e_skill_ignite_cast.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 589,
+        "raw": "[PlaySound(key=\"$d_avg_spelldfns_2\", volume=0.7,delay=0.6)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_spelldfns_2.mp3",
+        "volume": "0.7,delay=0.6"
+    },
+    {
+        "id": 590,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 591,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.05,",
+        "block": true
+    },
+    {
+        "id": 592,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 593,
+        "raw": "[PlaySound(key=\"$d_avg_shdwblwvr\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_shdwblwvr.mp3",
+        "volume": 1
+    },
+    {
+        "id": 594,
+        "raw": "[charslot(duration=0.7)]",
+        "type": "charslot",
+        "duration": 0.7
+    },
+    {
+        "id": 595,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 596,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1072_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 597,
+        "raw": "[name=\"로고스\"]다마즈티, 과거의 너는 '죽은 자'를 연기하는 것에 그렇게 심취하지 않았을 텐데.",
+        "type": "dialog",
+        "speaker": "로고스",
+        "content": "다마즈티, 과거의 너는 '죽은 자'를 연기하는 것에 그렇게 심취하지 않았을 텐데."
+    },
+    {
+        "id": 598,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1072_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 599,
+        "raw": "[name=\"로고스\"]논쟁은 너에게 답을 줄 수 없으며, 나의 감정을 탐구하는 것도 불가능하다.",
+        "type": "dialog",
+        "speaker": "로고스",
+        "content": "논쟁은 너에게 답을 줄 수 없으며, 나의 감정을 탐구하는 것도 불가능하다."
+    },
+    {
+        "id": 600,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 601,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 602,
+        "raw": "죽은 자는 대답하지 않았다.",
+        "type": "narration",
+        "content": "죽은 자는 대답하지 않았다."
+    },
+    {
+        "id": 603,
+        "raw": "그들은 여전히 칠흑같이 새카만 결정 속에서 끊임없이 튀어나오고 있었다.",
+        "type": "narration",
+        "content": "그들은 여전히 칠흑같이 새카만 결정 속에서 끊임없이 튀어나오고 있었다."
+    },
+    {
+        "id": 604,
+        "raw": "수많은 얼굴들이 나왔다. 익숙한 얼굴, 낯선 얼굴, 하지만 그 얼굴은 전부 살카즈의 얼굴이었다.",
+        "type": "narration",
+        "content": "수많은 얼굴들이 나왔다. 익숙한 얼굴, 낯선 얼굴, 하지만 그 얼굴은 전부 살카즈의 얼굴이었다."
+    },
+    {
+        "id": 605,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1072_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 606,
+        "raw": "[name=\"로고스\"]네 천부적인 능력이 오리지늄에 담긴 정보와 공명하고 있군.",
+        "type": "dialog",
+        "speaker": "로고스",
+        "content": "네 천부적인 능력이 오리지늄에 담긴 정보와 공명하고 있군."
+    },
+    {
+        "id": 607,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1072_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 608,
+        "raw": "[name=\"로고스\"]네 힘의 증폭이 오리지늄에 의한 것이라면……",
+        "type": "dialog",
+        "speaker": "로고스",
+        "content": "네 힘의 증폭이 오리지늄에 의한 것이라면……"
+    },
+    {
+        "id": 609,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 610,
+        "raw": "[PlaySound(key=\"$d_avg_clothmovementsp\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_clothmovementsp.mp3",
+        "volume": 1
+    },
+    {
+        "id": 611,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 612,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 613,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 614,
+        "raw": "로고스는 손을 들어 올렸다.",
+        "type": "narration",
+        "content": "로고스는 손을 들어 올렸다."
+    },
+    {
+        "id": 615,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 616,
+        "raw": "[PlaySound(key=\"$d_avg_erthshkng\",loop=true,channel=\"sk\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_erthshkng.mp3",
+        "loop": "true,channel=\"sk\",volume=1"
+    },
+    {
+        "id": 617,
+        "raw": "[PlaySound(key=\"$d_avg_shdwblwvr\", volume=1,delay=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_shdwblwvr.mp3",
+        "volume": "1,delay=1"
+    },
+    {
+        "id": 618,
+        "raw": "[CameraShake(duration=3, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "3,",
+        "xstrength": "20,",
+        "ystrength": "20,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 619,
+        "raw": "[StopSound(channel=\"sk\", fadetime=4)]",
+        "type": "stop_sound",
+        "channel": "sk",
+        "fadetime": 4
+    },
+    {
+        "id": 620,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 621,
+        "raw": "주문은 필요 없었다. 암벽의 진동이 만들어낸 가벼운 울림만이 퍼질 뿐이었다.",
+        "type": "narration",
+        "content": "주문은 필요 없었다. 암벽의 진동이 만들어낸 가벼운 울림만이 퍼질 뿐이었다."
+    },
+    {
+        "id": 622,
+        "raw": "다마즈티의 모든 분신이 순식간에 무너져 내렸다.",
+        "type": "narration",
+        "content": "다마즈티의 모든 분신이 순식간에 무너져 내렸다."
+    },
+    {
+        "id": 623,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1072_1#5$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1072_1#5$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 624,
+        "raw": "[name=\"로고스\"]그렇군.",
+        "type": "dialog",
+        "speaker": "로고스",
+        "content": "그렇군."
+    },
+    {
+        "id": 625,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1072_1#5$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1072_1#5$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 626,
+        "raw": "[name=\"로고스\"]그리고 또 하나…… 마지막 하나인가.",
+        "type": "dialog",
+        "speaker": "로고스",
+        "content": "그리고 또 하나…… 마지막 하나인가."
+    },
+    {
+        "id": 627,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1072_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 628,
+        "raw": "[name=\"로고스\"]……",
+        "type": "dialog",
+        "speaker": "로고스",
+        "content": "……"
+    },
+    {
+        "id": 629,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1072_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 630,
+        "raw": "[name=\"로고스\"]너였나.",
+        "type": "dialog",
+        "speaker": "로고스",
+        "content": "너였나."
+    },
+    {
+        "id": 631,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 632,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 633,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_410_1#1$1\",bstart=0.2,bend=0.7,focus=\"m\",duration=1)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_410_1#1$1.png",
+        "bstart": "0.2,bend=0.7,focus=\"m\",duration=1"
+    },
+    {
+        "id": 634,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 635,
+        "raw": "[name=\"???\"]……",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "……"
+    },
+    {
+        "id": 636,
+        "raw": "[Charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 637,
+        "raw": "동굴 깊은 곳에 서 있는 뱀파이어의 모습은 그날 베헤모스의 머리뼈 위에 서 있었을 때와 매우 흡사했다.",
+        "type": "narration",
+        "content": "동굴 깊은 곳에 서 있는 뱀파이어의 모습은 그날 베헤모스의 머리뼈 위에 서 있었을 때와 매우 흡사했다."
+    },
+    {
+        "id": 638,
+        "raw": "그러나 지금 그의 주위에 소용돌이치는 것은 더 이상 선혈이 아닌, 오리지늄의 결정이었다.",
+        "type": "narration",
+        "content": "그러나 지금 그의 주위에 소용돌이치는 것은 더 이상 선혈이 아닌, 오리지늄의 결정이었다."
+    },
+    {
+        "id": 639,
+        "raw": "로고스는 자신의 몸 안에서 피가 요동치는 것을 느낄 수 있었다.",
+        "type": "narration",
+        "content": "로고스는 자신의 몸 안에서 피가 요동치는 것을 느낄 수 있었다."
+    },
+    {
+        "id": 640,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1072_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 641,
+        "raw": "[name=\"로고스\"]뱀파이어 생귀나르…… 두카렐.",
+        "type": "dialog",
+        "speaker": "로고스",
+        "content": "뱀파이어 생귀나르…… 두카렐."
+    },
+    {
+        "id": 642,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1072_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 643,
+        "raw": "[name=\"로고스\"]네가 다른 분신과는 다르단 걸 알고 있다.",
+        "type": "dialog",
+        "speaker": "로고스",
+        "content": "네가 다른 분신과는 다르단 걸 알고 있다."
+    },
+    {
+        "id": 644,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1072_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1072_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 645,
+        "raw": "[name=\"로고스\"]너는 다마즈티의 화신이 아니다.",
+        "type": "dialog",
+        "speaker": "로고스",
+        "content": "너는 다마즈티의 화신이 아니다."
+    },
+    {
+        "id": 646,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 647,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 648,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 649,
+        "raw": "[Character(fadetime=0)]",
+        "type": "character",
+        "fadetime": 0
+    },
+    {
+        "id": 650,
+        "raw": "[Background(image=\"50_g3_mainbattlefield_ex\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "50_g3_mainbattlefield_ex.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 651,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 652,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 653,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#5$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#5$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 654,
+        "raw": "[name=\"켈시\"]다마즈티, 여기에 남은 당신의 일부는 키사르투슈타지를 돕는 것을 선택하셨군요.",
+        "type": "dialog",
+        "speaker": "켈시",
+        "content": "다마즈티, 여기에 남은 당신의 일부는 키사르투슈타지를 돕는 것을 선택하셨군요."
+    },
+    {
+        "id": 655,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_426_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_426_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 656,
+        "raw": "[name=\"다마즈티\"]아니…… 우리는 누군가를 도우려는 게 아니라, 그저 답을 찾고 있을 뿐이야.",
+        "type": "dialog",
+        "speaker": "다마즈티",
+        "content": "아니…… 우리는 누군가를 도우려는 게 아니라, 그저 답을 찾고 있을 뿐이야."
+    },
+    {
+        "id": 657,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_426_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_426_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 658,
+        "raw": "[name=\"다마즈티\"]켈시, 살카즈가 아직 살카즈가 아니었던 시절, 우리는 너를 봤어.",
+        "type": "dialog",
+        "speaker": "다마즈티",
+        "content": "켈시, 살카즈가 아직 살카즈가 아니었던 시절, 우리는 너를 봤어."
+    },
+    {
+        "id": 659,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_426_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_426_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 660,
+        "raw": "[name=\"다마즈티\"]너는 우리를 지나쳐갔지.",
+        "type": "dialog",
+        "speaker": "다마즈티",
+        "content": "너는 우리를 지나쳐갔지."
+    },
+    {
+        "id": 661,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#5$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#5$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 662,
+        "raw": "[name=\"켈시\"]저는 그 만남을 기억하지 못합니다.",
+        "type": "dialog",
+        "speaker": "켈시",
+        "content": "저는 그 만남을 기억하지 못합니다."
+    },
+    {
+        "id": 663,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_426_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_426_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 664,
+        "raw": "[name=\"다마즈티\"]그땐, 우리에게 말할 수 있는 입이 없었으니까.",
+        "type": "dialog",
+        "speaker": "다마즈티",
+        "content": "그땐, 우리에게 말할 수 있는 입이 없었으니까."
+    },
+    {
+        "id": 665,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_426_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_426_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 666,
+        "raw": "[name=\"다마즈티\"]그 후에……",
+        "type": "dialog",
+        "speaker": "다마즈티",
+        "content": "그 후에……"
+    },
+    {
+        "id": 667,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 668,
+        "raw": "[name=\"켈시\"]최초의 티카즈 마왕이 오리지늄과 접촉했죠.",
+        "type": "dialog",
+        "speaker": "켈시",
+        "content": "최초의 티카즈 마왕이 오리지늄과 접촉했죠."
+    },
+    {
+        "id": 669,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_426_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_426_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 670,
+        "raw": "[name=\"다마즈티\"]그때 우리가 처음으로 '각성'했지.",
+        "type": "dialog",
+        "speaker": "다마즈티",
+        "content": "그때 우리가 처음으로 '각성'했지."
+    },
+    {
+        "id": 671,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_426_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_426_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 672,
+        "raw": "[name=\"다마즈티\"]첫 번째 개체가 우리 안에서 일어났어.",
+        "type": "dialog",
+        "speaker": "다마즈티",
+        "content": "첫 번째 개체가 우리 안에서 일어났어."
+    },
+    {
+        "id": 673,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_426_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_426_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 674,
+        "raw": "[name=\"다마즈티\"]서로를 느낄 수 있었지.",
+        "type": "dialog",
+        "speaker": "다마즈티",
+        "content": "서로를 느낄 수 있었지."
+    },
+    {
+        "id": 675,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_426_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_426_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 676,
+        "raw": "[name=\"다마즈티\"]그전에 우리가 얼마나 오랫동안 존재했는지는 몰라. 그때가 되어서야 우리는 자신의 존재를 명확하게 인지할 수 있었지.",
+        "type": "dialog",
+        "speaker": "다마즈티",
+        "content": "그전에 우리가 얼마나 오랫동안 존재했는지는 몰라. 그때가 되어서야 우리는 자신의 존재를 명확하게 인지할 수 있었지."
+    },
+    {
+        "id": 677,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_426_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_426_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 678,
+        "raw": "[name=\"다마즈티\"]우리가 '사고'를 하기 시작했기 때문에.",
+        "type": "dialog",
+        "speaker": "다마즈티",
+        "content": "우리가 '사고'를 하기 시작했기 때문에."
+    },
+    {
+        "id": 679,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 680,
+        "raw": "[name=\"켈시\"]……오리지늄은 오리지늄과 접촉한 모든 생명체와 동화할 수 있죠.",
+        "type": "dialog",
+        "speaker": "켈시",
+        "content": "……오리지늄은 오리지늄과 접촉한 모든 생명체와 동화할 수 있죠."
+    },
+    {
+        "id": 681,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 682,
+        "raw": "[name=\"켈시\"]당신들뿐만이 아닙니다. 최초의 뱀파이어, 밴시, 웬디고…… 모든 티카즈에게 변화가 생겼죠. 당신들은 이 땅에 존재했던 또 다른 생물의 형태에 다가가고 있는 것입니다.",
+        "type": "dialog",
+        "speaker": "켈시",
+        "content": "당신들뿐만이 아닙니다. 최초의 뱀파이어, 밴시, 웬디고…… 모든 티카즈에게 변화가 생겼죠. 당신들은 이 땅에 존재했던 또 다른 생물의 형태에 다가가고 있는 것입니다."
+    },
+    {
+        "id": 683,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_426_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_426_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 684,
+        "raw": "[name=\"다마즈티\"]그렇다면 너는?",
+        "type": "dialog",
+        "speaker": "다마즈티",
+        "content": "그렇다면 너는?"
+    },
+    {
+        "id": 685,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 686,
+        "raw": "[Charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 687,
+        "raw": "[PlaySound(key=\"$d_avg_humanchange\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_humanchange.mp3",
+        "volume": 1
+    },
+    {
+        "id": 688,
+        "raw": "[charslot(slot=\"m\",name=\"npc_10003_1\",bstart=0,bend=0.8,focus=\"m\",duration=2)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "npc_10003_1.png",
+        "bstart": "0,bend=0.8,focus=\"m\",duration=2"
+    },
+    {
+        "id": 689,
+        "raw": "[delay(time=4)]",
+        "type": "delay",
+        "time": 4
+    },
+    {
+        "id": 690,
+        "raw": "[charslot(slot=\"m\",name=\"npc_10002\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "npc_10002.png",
+        "focus": "m"
+    },
+    {
+        "id": 691,
+        "raw": "[PlaySound(key=\"$p_skill_Mon3trburst\", volume=0.4)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/player/p_skill/p_skill_mon3trburst.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 692,
+        "raw": "[CameraShake(duration=1, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "xstrength": "20,",
+        "ystrength": "20,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 693,
+        "raw": "[name=\"Mon3tr\"](기분 나쁜 듯) 크르르르……",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "(기분 나쁜 듯) 크르르르……"
+    },
+    {
+        "id": 694,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 695,
+        "raw": "[charslot(slot=\"m\",name=\"npc_10003_1\",bstart=0,bend=0.8,focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "npc_10003_1.png",
+        "bstart": "0,bend=0.8,focus=\"m\""
+    },
+    {
+        "id": 696,
+        "raw": "[name=\"Mon3tr?\"]또 다른 자신을 보는 게 달갑지 않나 보군.",
+        "type": "dialog",
+        "speaker": "Mon3tr?",
+        "content": "또 다른 자신을 보는 게 달갑지 않나 보군."
+    },
+    {
+        "id": 697,
+        "raw": "[charslot(slot=\"m\",name=\"npc_10003_1\",bstart=0,bend=0.8,focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "npc_10003_1.png",
+        "bstart": "0,bend=0.8,focus=\"m\""
+    },
+    {
+        "id": 698,
+        "raw": "[name=\"Mon3tr?\"]켈시…… 불멸하는 자여.",
+        "type": "dialog",
+        "speaker": "Mon3tr?",
+        "content": "켈시…… 불멸하는 자여."
+    },
+    {
+        "id": 699,
+        "raw": "[charslot(slot=\"m\",name=\"npc_10003_1\",bstart=0,bend=0.8,focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "npc_10003_1.png",
+        "bstart": "0,bend=0.8,focus=\"m\""
+    },
+    {
+        "id": 700,
+        "raw": "[name=\"Mon3tr?\"]너는 최초의 자신의 모습을 기억하고 있나?",
+        "type": "dialog",
+        "speaker": "Mon3tr?",
+        "content": "너는 최초의 자신의 모습을 기억하고 있나?"
+    },
+    {
+        "id": 701,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#5$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#5$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 702,
+        "raw": "[name=\"켈시\"]불멸하는 자라는 이름은 저에 대한 일부 사람들의 상상과 오해에 불과합니다.",
+        "type": "dialog",
+        "speaker": "켈시",
+        "content": "불멸하는 자라는 이름은 저에 대한 일부 사람들의 상상과 오해에 불과합니다."
+    },
+    {
+        "id": 703,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#5$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#5$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 704,
+        "raw": "[name=\"켈시\"]시간은 저에게도 그 흔적을 남기고 있죠. '켈시'라고 불렸던 최초의 개체는 이미 모래 속에 묻혀 없어졌습니다.",
+        "type": "dialog",
+        "speaker": "켈시",
+        "content": "시간은 저에게도 그 흔적을 남기고 있죠. '켈시'라고 불렸던 최초의 개체는 이미 모래 속에 묻혀 없어졌습니다."
+    },
+    {
+        "id": 705,
+        "raw": "[charslot(slot=\"m\",name=\"npc_10003_1\",bstart=0,bend=0.8,focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "npc_10003_1.png",
+        "bstart": "0,bend=0.8,focus=\"m\""
+    },
+    {
+        "id": 706,
+        "raw": "[name=\"Mon3tr?\"]하지만 너는 여전히 너 자신이지.",
+        "type": "dialog",
+        "speaker": "Mon3tr?",
+        "content": "하지만 너는 여전히 너 자신이지."
+    },
+    {
+        "id": 707,
+        "raw": "[charslot(slot=\"m\",name=\"npc_10003_1\",bstart=0,bend=0.8,focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "npc_10003_1.png",
+        "bstart": "0,bend=0.8,focus=\"m\""
+    },
+    {
+        "id": 708,
+        "raw": "[name=\"Mon3tr?\"]네가 테레시아의 곁에서 다시 태어났을 때도, 우리는 너를 지켜보고 있었어.",
+        "type": "dialog",
+        "speaker": "Mon3tr?",
+        "content": "네가 테레시아의 곁에서 다시 태어났을 때도, 우리는 너를 지켜보고 있었어."
+    },
+    {
+        "id": 709,
+        "raw": "[charslot(slot=\"m\",name=\"npc_10003_1\",bstart=0,bend=0.8,focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "npc_10003_1.png",
+        "bstart": "0,bend=0.8,focus=\"m\""
+    },
+    {
+        "id": 710,
+        "raw": "[name=\"Mon3tr?\"]너는 이전의 너와 외모부터 성격까지, 모든 것이 달라.",
+        "type": "dialog",
+        "speaker": "Mon3tr?",
+        "content": "너는 이전의 너와 외모부터 성격까지, 모든 것이 달라."
+    },
+    {
+        "id": 711,
+        "raw": "[charslot(slot=\"m\",name=\"npc_10003_1\",bstart=0,bend=0.8,focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "npc_10003_1.png",
+        "bstart": "0,bend=0.8,focus=\"m\""
+    },
+    {
+        "id": 712,
+        "raw": "[name=\"Mon3tr?\"]우리는 생존을 위해서 끊임없이 변화하는 것에 익숙하지.",
+        "type": "dialog",
+        "speaker": "Mon3tr?",
+        "content": "우리는 생존을 위해서 끊임없이 변화하는 것에 익숙하지."
+    },
+    {
+        "id": 713,
+        "raw": "[name=\"Mon3tr?\"]살카즈 중에서도 다마즈티는 특별해. 우리는 네가 우리와 비슷한 성질을 가지고 있다고 생각했어.",
+        "type": "dialog",
+        "speaker": "Mon3tr?",
+        "content": "살카즈 중에서도 다마즈티는 특별해. 우리는 네가 우리와 비슷한 성질을 가지고 있다고 생각했어."
+    },
+    {
+        "id": 714,
+        "raw": "[name=\"Mon3tr?\"]우리는 수많은 '켈시'를 알고 있어. 마치 켈시가 수많은 우리를 알고 있듯이.",
+        "type": "dialog",
+        "speaker": "Mon3tr?",
+        "content": "우리는 수많은 '켈시'를 알고 있어. 마치 켈시가 수많은 우리를 알고 있듯이."
+    },
+    {
+        "id": 715,
+        "raw": "[name=\"Mon3tr?\"]다마즈티는 언제나 군체였어. 모든 다마즈티는 우리가 이 세계를 느낄 수 있는 수신기야.",
+        "type": "dialog",
+        "speaker": "Mon3tr?",
+        "content": "다마즈티는 언제나 군체였어. 모든 다마즈티는 우리가 이 세계를 느낄 수 있는 수신기야."
+    },
+    {
+        "id": 716,
+        "raw": "[name=\"Mon3tr?\"]하지만 '켈시'와는 달라. 모든 켈시는 오직 너 하나뿐이니까.",
+        "type": "dialog",
+        "speaker": "Mon3tr?",
+        "content": "하지만 '켈시'와는 달라. 모든 켈시는 오직 너 하나뿐이니까."
+    },
+    {
+        "id": 717,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 718,
+        "raw": "[name=\"켈시\"]저도 그렇게 생각합니다.",
+        "type": "dialog",
+        "speaker": "켈시",
+        "content": "저도 그렇게 생각합니다."
+    },
+    {
+        "id": 719,
+        "raw": "[charslot(slot=\"m\",name=\"npc_10003_1\",bstart=0,bend=0.8,focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "npc_10003_1.png",
+        "bstart": "0,bend=0.8,focus=\"m\""
+    },
+    {
+        "id": 720,
+        "raw": "[name=\"Mon3tr?\"]어째서지?",
+        "type": "dialog",
+        "speaker": "Mon3tr?",
+        "content": "어째서지?"
+    },
+    {
+        "id": 721,
+        "raw": "[name=\"Mon3tr?\"]기억의 전승이 너를 이렇게 고집스럽게 만든 건가? 기억은 너무나도 쉽게 조작되고 주입될 수 있지. 우리는 수많은 장생자들이 비슷한 수단을 사용하는 것을 알고 있어.",
+        "type": "dialog",
+        "speaker": "Mon3tr?",
+        "content": "기억의 전승이 너를 이렇게 고집스럽게 만든 건가? 기억은 너무나도 쉽게 조작되고 주입될 수 있지. 우리는 수많은 장생자들이 비슷한 수단을 사용하는 것을 알고 있어."
+    },
+    {
+        "id": 722,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 723,
+        "raw": "[name=\"켈시\"]이런 식으로 이루어지는 '영생'은 거짓이나 다름없죠.",
+        "type": "dialog",
+        "speaker": "켈시",
+        "content": "이런 식으로 이루어지는 '영생'은 거짓이나 다름없죠."
+    },
+    {
+        "id": 724,
+        "raw": "[charslot(slot=\"m\",name=\"npc_10003_1\",bstart=0,bend=0.8,focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "npc_10003_1.png",
+        "bstart": "0,bend=0.8,focus=\"m\""
+    },
+    {
+        "id": 725,
+        "raw": "[name=\"Mon3tr?\"]그렇다면, 혹시 어떤 책임 때문에……",
+        "type": "dialog",
+        "speaker": "Mon3tr?",
+        "content": "그렇다면, 혹시 어떤 책임 때문에……"
+    },
+    {
+        "id": 726,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 727,
+        "raw": "[name=\"켈시\"]제가 태어난 그 순간부터, 제 목숨이 책임과 연결됐다는 건 부인하지 않겠습니다.",
+        "type": "dialog",
+        "speaker": "켈시",
+        "content": "제가 태어난 그 순간부터, 제 목숨이 책임과 연결됐다는 건 부인하지 않겠습니다."
+    },
+    {
+        "id": 728,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 729,
+        "raw": "[name=\"켈시\"]돌이켜보면, 저는…… 진정으로 '살아있다'고 생각하지 않습니다.",
+        "type": "dialog",
+        "speaker": "켈시",
+        "content": "돌이켜보면, 저는…… 진정으로 '살아있다'고 생각하지 않습니다."
+    },
+    {
+        "id": 730,
+        "raw": "[charslot(slot=\"m\",name=\"npc_10003_1\",bstart=0,bend=0.8,focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "npc_10003_1.png",
+        "bstart": "0,bend=0.8,focus=\"m\""
+    },
+    {
+        "id": 731,
+        "raw": "[name=\"Mon3tr?\"]네 신체를 구성하는 물질은 전부 교체되었고, 계승한 이전 개체의 기억도 믿을 수 없는 건 마찬가지지. 강요된 사명이 너 자신의 것일 필요는 없어.",
+        "type": "dialog",
+        "speaker": "Mon3tr?",
+        "content": "네 신체를 구성하는 물질은 전부 교체되었고, 계승한 이전 개체의 기억도 믿을 수 없는 건 마찬가지지. 강요된 사명이 너 자신의 것일 필요는 없어."
+    },
+    {
+        "id": 732,
+        "raw": "[name=\"Mon3tr?\"]켈시, 지난 만여 년의 시간 동안, 자신이 변하지 않을 거라 믿을 수 있던 이유가 뭐지?",
+        "type": "dialog",
+        "speaker": "Mon3tr?",
+        "content": "켈시, 지난 만여 년의 시간 동안, 자신이 변하지 않을 거라 믿을 수 있던 이유가 뭐지?"
+    },
+    {
+        "id": 733,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 734,
+        "raw": "[name=\"켈시\"]하나의 이름입니다.",
+        "type": "dialog",
+        "speaker": "켈시",
+        "content": "하나의 이름입니다."
+    },
+    {
+        "id": 735,
+        "raw": "[charslot(slot=\"m\",name=\"npc_10003_1\",bstart=0,bend=0.8,focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "npc_10003_1.png",
+        "bstart": "0,bend=0.8,focus=\"m\""
+    },
+    {
+        "id": 736,
+        "raw": "[name=\"Mon3tr?\"]고유한 호칭 혹은 코드네임인가? 애정이 부족한 수많은 살카즈들이 신경 쓰고 있는 것들이지.",
+        "type": "dialog",
+        "speaker": "Mon3tr?",
+        "content": "고유한 호칭 혹은 코드네임인가? 애정이 부족한 수많은 살카즈들이 신경 쓰고 있는 것들이지."
+    },
+    {
+        "id": 737,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 738,
+        "raw": "[name=\"켈시\"]이 이름에는 수많은 의미가 있죠.",
+        "type": "dialog",
+        "speaker": "켈시",
+        "content": "이 이름에는 수많은 의미가 있죠."
+    },
+    {
+        "id": 739,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 740,
+        "raw": "[name=\"켈시\"]제게 이름을 준 사람, 그리고 제가 신경 쓰고 있는 사람이 지금 위험에 처해 있습니다. 지금은 대화를 나누기 좋은 시기는 아니군요.",
+        "type": "dialog",
+        "speaker": "켈시",
+        "content": "제게 이름을 준 사람, 그리고 제가 신경 쓰고 있는 사람이 지금 위험에 처해 있습니다. 지금은 대화를 나누기 좋은 시기는 아니군요."
+    },
+    {
+        "id": 741,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 742,
+        "raw": "[Charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 743,
+        "raw": "[PlaySound(key=\"$d_avg_humanchange\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_humanchange.mp3",
+        "volume": 1
+    },
+    {
+        "id": 744,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_426_1#1$1\",focus=\"m\",duration=2)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_426_1#1$1.png",
+        "focus": "m",
+        "duration": 2
+    },
+    {
+        "id": 745,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 746,
+        "raw": "[name=\"다마즈티\"]네가 이렇게나 감성적일 줄은 몰랐네.",
+        "type": "dialog",
+        "speaker": "다마즈티",
+        "content": "네가 이렇게나 감성적일 줄은 몰랐네."
+    },
+    {
+        "id": 747,
+        "raw": "[charslot(slot=\"m\",name=\"avg_003_kalts_1#5$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_003_kalts_1#5$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 748,
+        "raw": "[name=\"켈시\"]Mon3tr.",
+        "type": "dialog",
+        "speaker": "켈시",
+        "content": "Mon3tr."
+    },
+    {
+        "id": 749,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 750,
+        "raw": "[charslot(slot=\"m\",name=\"npc_10002\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "npc_10002.png",
+        "focus": "m"
+    },
+    {
+        "id": 751,
+        "raw": "[playsound(key=\"$char_Mon3tr\",volume=0.5)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/battle/b_char/b_char_mon3tr.mp3",
+        "volume": 0.5
+    },
+    {
+        "id": 752,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 753,
+        "raw": "[name=\"Mon3tr\"](흥분한 듯) 크르르르!",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "(흥분한 듯) 크르르르!"
+    },
+    {
+        "id": 754,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 755,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 756,
+        "raw": "[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "ystrength": "40,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 757,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.03,",
+        "block": true
+    },
+    {
+        "id": 758,
+        "raw": "[PlaySound(key=\"$p_skill_Mon3trburst\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/player/p_skill/p_skill_mon3trburst.mp3",
+        "volume": 1
+    },
+    {
+        "id": 759,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 760,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 761,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 762,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 763,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 764,
+        "raw": "[Image]",
+        "type": "image"
+    }
+]
