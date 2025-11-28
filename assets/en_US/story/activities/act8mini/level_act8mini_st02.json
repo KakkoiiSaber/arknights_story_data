@@ -1,0 +1,5631 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")] ",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK"
+    },
+    {
+        "id": 2,
+        "raw": "[stopmusic]",
+        "type": "stop_music"
+    },
+    {
+        "id": 3,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 4,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 5,
+        "raw": "4:11 P.M. \\ Overcast, Visibility: 10 km",
+        "type": "narration",
+        "content": "4:11 P.M. \\ Overcast, Visibility: 10 km"
+    },
+    {
+        "id": 6,
+        "raw": "Rhodes Island Landship, Medical Cabin",
+        "type": "narration",
+        "content": "Rhodes Island Landship, Medical Cabin"
+    },
+    {
+        "id": 7,
+        "raw": "[playMusic(intro=\"$path_intro\", key=\"$path_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/a001/m_dia_path_intro.mp3",
+        "key": "sound_beta_2/music/a001/m_dia_path_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 8,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 9,
+        "raw": "[delay]",
+        "type": "delay"
+    },
+    {
+        "id": 10,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 11,
+        "raw": "[Background(image=\"bg_infirmary\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_infirmary.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 12,
+        "raw": "[Character(name=\"char_003_kalts_1#1\",fadetime=0,block=true)]",
+        "type": "character",
+        "name": "char_003_kalts_1#1",
+        "fadetime": "0,block=true"
+    },
+    {
+        "id": 13,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=4, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "4,",
+        "block": true
+    },
+    {
+        "id": 14,
+        "raw": "[name=\"Kal'tsit\"]Remove the electrodes.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Remove the electrodes."
+    },
+    {
+        "id": 15,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 16,
+        "raw": "[Decision(options=\"What's the prognosis?;......;My head feels hot and distended. Not good.\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "What's the prognosis?;......;My head feels hot and distended. Not good.",
+        "values": "1;2;3"
+    },
+    {
+        "id": 17,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 18,
+        "raw": "[Character(name=\"char_003_kalts_1#3\")]",
+        "type": "character",
+        "name": "char_003_kalts_1#3"
+    },
+    {
+        "id": 19,
+        "raw": "[name=\"Kal'tsit\"]No new developments.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "No new developments."
+    },
+    {
+        "id": 20,
+        "raw": "[Predicate(references=\"3\")]",
+        "type": "predicate",
+        "references": "3"
+    },
+    {
+        "id": 21,
+        "raw": "[Character(name=\"char_003_kalts_1#3\")]",
+        "type": "character",
+        "name": "char_003_kalts_1#3"
+    },
+    {
+        "id": 22,
+        "raw": "[name=\"Kal'tsit\"]You'll feel better after a quick rest.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "You'll feel better after a quick rest."
+    },
+    {
+        "id": 23,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 24,
+        "raw": "[name=\"Kal'tsit\"]Dr. {@nickname}, I've scanned your brain seven times over the past month or so, and the results are always the same.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Dr. {@nickname}, I've scanned your brain seven times over the past month or so, and the results are always the same."
+    },
+    {
+        "id": 25,
+        "raw": "[name=\"Kal'tsit\"]There's nothing wrong with your medial temporal lobe, and the neurons in other brain areas are as active as they are in most young people.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "There's nothing wrong with your medial temporal lobe, and the neurons in other brain areas are as active as they are in most young people."
+    },
+    {
+        "id": 26,
+        "raw": "[Character(name=\"char_003_kalts_1#1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1#1"
+    },
+    {
+        "id": 27,
+        "raw": "[name=\"Kal'tsit\"]Meaning you don't need to come to Medical for these unpleasant tests so often.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Meaning you don't need to come to Medical for these unpleasant tests so often."
+    },
+    {
+        "id": 28,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 29,
+        "raw": "[Decision(options=\"Then, what's wrong with my memory?\", values=\"1\")]",
+        "type": "decision",
+        "options": "Then, what's wrong with my memory?",
+        "values": "1"
+    },
+    {
+        "id": 30,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 31,
+        "raw": "[name=\"Kal'tsit\"]There's no doubt that you've lost a lot of your memory. Even someone like you wouldn't be able to manipulate the results.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "There's no doubt that you've lost a lot of your memory. Even someone like you wouldn't be able to manipulate the results."
+    },
+    {
+        "id": 32,
+        "raw": "[name=\"Kal'tsit\"]Those memories are episodic, chiefly concerning the subjective awareness of your identity, and even more so about all your experiences before you fell asleep in the Chernobog sarcophagus.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Those memories are episodic, chiefly concerning the subjective awareness of your identity, and even more so about all your experiences before you fell asleep in the Chernobog sarcophagus."
+    },
+    {
+        "id": 33,
+        "raw": "[name=\"Kal'tsit\"]In contrast, your procedural memory has recovered extremely quickly.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "In contrast, your procedural memory has recovered extremely quickly."
+    },
+    {
+        "id": 34,
+        "raw": "[name=\"Kal'tsit\"]From my reports or Amiya's and Dobermann's observations, this conclusion is clear.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "From my reports or Amiya's and Dobermann's observations, this conclusion is clear."
+    },
+    {
+        "id": 35,
+        "raw": "[name=\"Kal'tsit\"]Your ability to command, as exhibited during the Chernobog incident, is not significantly worse than before.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Your ability to command, as exhibited during the Chernobog incident, is not significantly worse than before."
+    },
+    {
+        "id": 36,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 37,
+        "raw": "[Decision(options=\"Why would this happen?;......;In other words, I'm still useful?\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "Why would this happen?;......;In other words, I'm still useful?",
+        "values": "1;2;3"
+    },
+    {
+        "id": 38,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 39,
+        "raw": "[name=\"Kal'tsit\"]There are many reasons for memory loss. Some are force majeure, others are subjective.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "There are many reasons for memory loss. Some are force majeure, others are subjective."
+    },
+    {
+        "id": 40,
+        "raw": "[name=\"Kal'tsit\"]Medical testing can only rule out qualitative pathological changes.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Medical testing can only rule out qualitative pathological changes."
+    },
+    {
+        "id": 41,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 42,
+        "raw": "[name=\"Kal'tsit\"]Of course, you don't make as much noise as you used to.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Of course, you don't make as much noise as you used to."
+    },
+    {
+        "id": 43,
+        "raw": "[name=\"Kal'tsit\"]Considering your language center has not been damaged, I can only guess that the deprivation of episodic memory has caused some changes in your personality.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Considering your language center has not been damaged, I can only guess that the deprivation of episodic memory has caused some changes in your personality."
+    },
+    {
+        "id": 44,
+        "raw": "[Predicate(references=\"3\")]",
+        "type": "predicate",
+        "references": "3"
+    },
+    {
+        "id": 45,
+        "raw": "[name=\"Kal'tsit\"]To Rhodes Island, you are far more than just 'useful.'",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "To Rhodes Island, you are far more than just 'useful.'"
+    },
+    {
+        "id": 46,
+        "raw": "[name=\"Kal'tsit\"]Even if you truly lost all your memories and become an ignorant bystander, Amiya would not have regretted saving you, and there will always be a place for you at Rhodes Island.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Even if you truly lost all your memories and become an ignorant bystander, Amiya would not have regretted saving you, and there will always be a place for you at Rhodes Island."
+    },
+    {
+        "id": 47,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 48,
+        "raw": "[name=\"Kal'tsit\"]In any case, I believe that the skills you possess will play just as key a role as they did in the past.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "In any case, I believe that the skills you possess will play just as key a role as they did in the past."
+    },
+    {
+        "id": 49,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 50,
+        "raw": "[Decision(options=\"I want to be able to help you.;I want to be able to help Amiya.\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "I want to be able to help you.;I want to be able to help Amiya.",
+        "values": "1;2"
+    },
+    {
+        "id": 51,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 52,
+        "raw": "[name=\"Kal'tsit\"]I know.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "I know."
+    },
+    {
+        "id": 53,
+        "raw": "[name=\"Kal'tsit\"]And I've seen how hard you've been working.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "And I've seen how hard you've been working."
+    },
+    {
+        "id": 54,
+        "raw": "[name=\"Kal'tsit\"]After leaving Lungmen, we've been making our way through the wastelands for some time. The operators need an opportunity to rest, Amiya in particular.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "After leaving Lungmen, we've been making our way through the wastelands for some time. The operators need an opportunity to rest, Amiya in particular."
+    },
+    {
+        "id": 55,
+        "raw": "[Character(name=\"char_003_kalts_1#4\")]",
+        "type": "character",
+        "name": "char_003_kalts_1#4"
+    },
+    {
+        "id": 56,
+        "raw": "[name=\"Kal'tsit\"]Likewise, you also need a chance to catch your breath, don't you?",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Likewise, you also need a chance to catch your breath, don't you?"
+    },
+    {
+        "id": 57,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 58,
+        "raw": "[Decision(options=\"I just want some time to adjust.;......;I don't want to stop here.\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "I just want some time to adjust.;......;I don't want to stop here.",
+        "values": "1;2;3"
+    },
+    {
+        "id": 59,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 60,
+        "raw": "[Character(name=\"char_003_kalts_1#1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1#1"
+    },
+    {
+        "id": 61,
+        "raw": "[name=\"Kal'tsit\"]With PRTS to help you, it won't take long for you to adapt to your work at Rhodes Island.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "With PRTS to help you, it won't take long for you to adapt to your work at Rhodes Island."
+    },
+    {
+        "id": 62,
+        "raw": "[name=\"Kal'tsit\"]However, I don't want you to push yourself.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "However, I don't want you to push yourself."
+    },
+    {
+        "id": 63,
+        "raw": "[name=\"Kal'tsit\"]Rhodes Island is not the only thing that has just emerged from a terrible disaster. You have as well, Dr. {@nickname}.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Rhodes Island is not the only thing that has just emerged from a terrible disaster. You have as well, Dr. {@nickname}."
+    },
+    {
+        "id": 64,
+        "raw": "[name=\"Kal'tsit\"]Your physical indicators have more or less returned to normal, but your memory is still damaged, and your mental state is unstable.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Your physical indicators have more or less returned to normal, but your memory is still damaged, and your mental state is unstable."
+    },
+    {
+        "id": 65,
+        "raw": "[Character(name=\"char_003_kalts_1#2\")]",
+        "type": "character",
+        "name": "char_003_kalts_1#2"
+    },
+    {
+        "id": 66,
+        "raw": "[name=\"Kal'tsit\"]As a patient, overwork can only harm you.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "As a patient, overwork can only harm you."
+    },
+    {
+        "id": 67,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 68,
+        "raw": "[Decision(options=\"You're also a patient.;Amiya is also a patient.\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "You're also a patient.;Amiya is also a patient.",
+        "values": "1;2"
+    },
+    {
+        "id": 69,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 70,
+        "raw": "[Character(name=\"char_003_kalts_1#3\")]",
+        "type": "character",
+        "name": "char_003_kalts_1#3"
+    },
+    {
+        "id": 71,
+        "raw": "[name=\"Kal'tsit\"]Me? I appreciate your concern.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Me? I appreciate your concern."
+    },
+    {
+        "id": 72,
+        "raw": "[Character(name=\"char_003_kalts_1#1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1#1"
+    },
+    {
+        "id": 73,
+        "raw": "[name=\"Kal'tsit\"]Though I can't say I'm used to Oripathy, I can assure you that I'm the last person you should worry about.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Though I can't say I'm used to Oripathy, I can assure you that I'm the last person you should worry about."
+    },
+    {
+        "id": 74,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 75,
+        "raw": "[name=\"Kal'tsit\"]Amiya knows you're concerned about her, and she's been paying more attention to her health lately.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Amiya knows you're concerned about her, and she's been paying more attention to her health lately."
+    },
+    {
+        "id": 76,
+        "raw": "[name=\"Kal'tsit\"]I have no choice but to admit, there are some areas in which your words hold more weight than mine.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "I have no choice but to admit, there are some areas in which your words hold more weight than mine."
+    },
+    {
+        "id": 77,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 78,
+        "raw": "[name=\"Kal'tsit\"]Dr. {@nickname}, in the span of one short month, you've taken over the staffing of several departments on this ship.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Dr. {@nickname}, in the span of one short month, you've taken over the staffing of several departments on this ship."
+    },
+    {
+        "id": 79,
+        "raw": "[name=\"Kal'tsit\"]In addition, I've seen you reviewing past battles together with combat operators to further explore the possibilities of tactical optimization.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "In addition, I've seen you reviewing past battles together with combat operators to further explore the possibilities of tactical optimization."
+    },
+    {
+        "id": 80,
+        "raw": "[name=\"Kal'tsit\"]You've even been reading during this entire examination. Are you looking at the briefing submitted by the new operator who just reported in a few days ago?",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "You've even been reading during this entire examination. Are you looking at the briefing submitted by the new operator who just reported in a few days ago?"
+    },
+    {
+        "id": 81,
+        "raw": "[Character(name=\"char_003_kalts_1#3\")]",
+        "type": "character",
+        "name": "char_003_kalts_1#3"
+    },
+    {
+        "id": 82,
+        "raw": "[name=\"Kal'tsit\"]Furthermore, I've seen your notes.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Furthermore, I've seen your notes."
+    },
+    {
+        "id": 83,
+        "raw": "[name=\"Kal'tsit\"]Those records about even the most trivial of the operators' details, those flashes of tactical inspiration...",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Those records about even the most trivial of the operators' details, those flashes of tactical inspiration..."
+    },
+    {
+        "id": 84,
+        "raw": "[name=\"Kal'tsit\"]Those calculations for determining Rhodes Island's business efficiency, and even those scrawls that I can't make sense of. They are all evidence of your commitment to your duty.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Those calculations for determining Rhodes Island's business efficiency, and even those scrawls that I can't make sense of. They are all evidence of your commitment to your duty."
+    },
+    {
+        "id": 85,
+        "raw": "[name=\"Kal'tsit\"]Although most of these tasks can be completed with the assistance of PRTS, I think this is your preferred method.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Although most of these tasks can be completed with the assistance of PRTS, I think this is your preferred method."
+    },
+    {
+        "id": 86,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 87,
+        "raw": "[Decision(options=\"It's just a way of organizing my thoughts.;PRTS's data lacks a bit of that human touch.;You didn't see me badmouthing you, did you?!\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "It's just a way of organizing my thoughts.;PRTS's data lacks a bit of that human touch.;You didn't see me badmouthing you, did you?!",
+        "values": "1;2;3"
+    },
+    {
+        "id": 88,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 89,
+        "raw": "[name=\"Kal'tsit\"]As the density of your notes increases, your cognition also improves.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "As the density of your notes increases, your cognition also improves."
+    },
+    {
+        "id": 90,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 91,
+        "raw": "[name=\"Kal'tsit\"]PRTS is just a tool. Avoiding overreliance on tools is a good working habit.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "PRTS is just a tool. Avoiding overreliance on tools is a good working habit."
+    },
+    {
+        "id": 92,
+        "raw": "[Predicate(references=\"3\")]",
+        "type": "predicate",
+        "references": "3"
+    },
+    {
+        "id": 93,
+        "raw": "[name=\"Kal'tsit\"]So that was a complaint? I would rather take those words as a compliment.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "So that was a complaint? I would rather take those words as a compliment."
+    },
+    {
+        "id": 94,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 95,
+        "raw": "[name=\"Kal'tsit\"]All of your abilities are recovering rapidly, not only due to the retention of your procedural memory, but also due to your extraordinary efforts.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "All of your abilities are recovering rapidly, not only due to the retention of your procedural memory, but also due to your extraordinary efforts."
+    },
+    {
+        "id": 96,
+        "raw": "[name=\"Kal'tsit\"]Conscious exercise will help your brain return more quickly to your pre-comatose state, and may even bring back your memory faster than expected.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Conscious exercise will help your brain return more quickly to your pre-comatose state, and may even bring back your memory faster than expected."
+    },
+    {
+        "id": 97,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 98,
+        "raw": "[Decision(options=\"Do you want me to recover as quickly as possible?\", values=\"1\")]",
+        "type": "decision",
+        "options": "Do you want me to recover as quickly as possible?",
+        "values": "1"
+    },
+    {
+        "id": 99,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 100,
+        "raw": "[name=\"Kal'tsit\"]I am your doctor. There's not a doctor out there who does not wish for the quick recovery of her patient.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "I am your doctor. There's not a doctor out there who does not wish for the quick recovery of her patient."
+    },
+    {
+        "id": 101,
+        "raw": "[name=\"Kal'tsit\"]That said, if you end up collapsing due to overwork, you'll disrupt Amiya's condition as well.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "That said, if you end up collapsing due to overwork, you'll disrupt Amiya's condition as well."
+    },
+    {
+        "id": 102,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 103,
+        "raw": "[Decision(options=\"Are you only concerned about Amiya?;......;I see. You do care about me.\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "Are you only concerned about Amiya?;......;I see. You do care about me.",
+        "values": "1;2;3"
+    },
+    {
+        "id": 104,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 105,
+        "raw": "[Character(name=\"char_003_kalts_1#3\")]",
+        "type": "character",
+        "name": "char_003_kalts_1#3"
+    },
+    {
+        "id": 106,
+        "raw": "[name=\"Kal'tsit\"]These sentiments of yours that occasionally leak through are quite unlike the past you. While this is rather intriguing, if I am the object of your feelings, let's just say we've no need of that.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "These sentiments of yours that occasionally leak through are quite unlike the past you. While this is rather intriguing, if I am the object of your feelings, let's just say we've no need of that."
+    },
+    {
+        "id": 107,
+        "raw": "[name=\"Kal'tsit\"]I've told you many times over that ensuring your physical and mental well-being has always been one of my duties.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "I've told you many times over that ensuring your physical and mental well-being has always been one of my duties."
+    },
+    {
+        "id": 108,
+        "raw": "[Character(name=\"char_003_kalts_1#4\")]",
+        "type": "character",
+        "name": "char_003_kalts_1#4"
+    },
+    {
+        "id": 109,
+        "raw": "[name=\"Kal'tsit\"]So, yes, even here, I still care about you. Even without a battle.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "So, yes, even here, I still care about you. Even without a battle."
+    },
+    {
+        "id": 110,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 111,
+        "raw": "[Decision(options=\"It's strange that you'd talk to me like this.;......;Alright.\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "It's strange that you'd talk to me like this.;......;Alright.",
+        "values": "1;2;3"
+    },
+    {
+        "id": 112,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 113,
+        "raw": "[Character(name=\"char_003_kalts_1#2\")]",
+        "type": "character",
+        "name": "char_003_kalts_1#2"
+    },
+    {
+        "id": 114,
+        "raw": "[name=\"Kal'tsit\"]Today's exam is over.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Today's exam is over."
+    },
+    {
+        "id": 115,
+        "raw": "[Character(name=\"char_003_kalts_1#3\")]",
+        "type": "character",
+        "name": "char_003_kalts_1#3"
+    },
+    {
+        "id": 116,
+        "raw": "[name=\"Kal'tsit\"]As I said, you don't need to report back here at the same time next week.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "As I said, you don't need to report back here at the same time next week."
+    },
+    {
+        "id": 117,
+        "raw": "[name=\"Kal'tsit\"]The regular morning and evening check-ups will continue for a while. Lancet-2 will look after you for me.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "The regular morning and evening check-ups will continue for a while. Lancet-2 will look after you for me."
+    },
+    {
+        "id": 118,
+        "raw": "[name=\"Kal'tsit\"]If we ever find that your physical condition does not support your continued work, you must immediately return to Medical.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "If we ever find that your physical condition does not support your continued work, you must immediately return to Medical."
+    },
+    {
+        "id": 119,
+        "raw": "[name=\"Kal'tsit\"]As for now, you may return to your work, Doctor.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "As for now, you may return to your work, Doctor."
+    },
+    {
+        "id": 120,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 121,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 122,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 123,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 124,
+        "raw": "[Background(image=\"bg_corridor\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_corridor.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 125,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 126,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 127,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 128,
+        "raw": "4:32 P.M. \\ Overcast, Visibility: 7 km",
+        "type": "narration",
+        "content": "4:32 P.M. \\ Overcast, Visibility: 7 km"
+    },
+    {
+        "id": 129,
+        "raw": "Rhodes Island Landship, Hallway outside the bridge",
+        "type": "narration",
+        "content": "Rhodes Island Landship, Hallway outside the bridge"
+    },
+    {
+        "id": 130,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 131,
+        "raw": "[playsound(key=\"$d_gen_walk_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3"
+    },
+    {
+        "id": 132,
+        "raw": "[character(name=\"char_183_skgoat_1\",fadetime=1.5)]",
+        "type": "character",
+        "name": "char_183_skgoat_1",
+        "fadetime": 1.5
+    },
+    {
+        "id": 133,
+        "raw": "[delay(time=3)]",
+        "type": "delay",
+        "time": 3
+    },
+    {
+        "id": 134,
+        "raw": "[Character(name=\"avg_npc_088\",name2=\"char_183_skgoat_1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_088",
+        "name2": "char_183_skgoat_1",
+        "focus": 1
+    },
+    {
+        "id": 135,
+        "raw": "[name=\"Navigator A\"]Earthspirit? What brings you here?",
+        "type": "dialog",
+        "speaker": "Navigator A",
+        "content": "Earthspirit? What brings you here?"
+    },
+    {
+        "id": 136,
+        "raw": "[Character(name=\"avg_npc_088\",name2=\"char_183_skgoat_1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_088",
+        "name2": "char_183_skgoat_1",
+        "focus": 2
+    },
+    {
+        "id": 137,
+        "raw": "[name=\"Earthspirit\"]I've updated the geological monitoring report I submitted this morning.",
+        "type": "dialog",
+        "speaker": "Earthspirit",
+        "content": "I've updated the geological monitoring report I submitted this morning."
+    },
+    {
+        "id": 138,
+        "raw": "[Character(name=\"avg_npc_088\",name2=\"char_183_skgoat_1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_088",
+        "name2": "char_183_skgoat_1",
+        "focus": 1
+    },
+    {
+        "id": 139,
+        "raw": "[name=\"Navigator A\"]You needed to make an adjustment so soon? That's unlike you.",
+        "type": "dialog",
+        "speaker": "Navigator A",
+        "content": "You needed to make an adjustment so soon? That's unlike you."
+    },
+    {
+        "id": 140,
+        "raw": "[Character(name=\"avg_npc_088\",name2=\"char_183_skgoat_1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_088",
+        "name2": "char_183_skgoat_1",
+        "focus": 2
+    },
+    {
+        "id": 141,
+        "raw": "[name=\"Earthspirit\"]The numbers changed quickly. Made me miss my afternoon nap.",
+        "type": "dialog",
+        "speaker": "Earthspirit",
+        "content": "The numbers changed quickly. Made me miss my afternoon nap."
+    },
+    {
+        "id": 142,
+        "raw": "[name=\"Earthspirit\"]Forward the report to your team leader. My recommendations are at the bottom.",
+        "type": "dialog",
+        "speaker": "Earthspirit",
+        "content": "Forward the report to your team leader. My recommendations are at the bottom."
+    },
+    {
+        "id": 143,
+        "raw": "[Character(name=\"avg_npc_088\",name2=\"char_183_skgoat_1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_088",
+        "name2": "char_183_skgoat_1",
+        "focus": 1
+    },
+    {
+        "id": 144,
+        "raw": "[name=\"Navigator A\"]Sure. Strong winds warning, is it?",
+        "type": "dialog",
+        "speaker": "Navigator A",
+        "content": "Sure. Strong winds warning, is it?"
+    },
+    {
+        "id": 145,
+        "raw": "[name=\"Navigator A\"]That's no problem. The Engineering Department strengthened the storm shutters two days in advance, and Logistics notified everyone to stay away from the at-risk deck areas.",
+        "type": "dialog",
+        "speaker": "Navigator A",
+        "content": "That's no problem. The Engineering Department strengthened the storm shutters two days in advance, and Logistics notified everyone to stay away from the at-risk deck areas."
+    },
+    {
+        "id": 146,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 147,
+        "raw": "[Character(name=\"avg_npc_088\",name2=\"char_183_skgoat_1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_088",
+        "name2": "char_183_skgoat_1",
+        "focus": 2
+    },
+    {
+        "id": 148,
+        "raw": "[name=\"Earthspirit\"]That's not all. Keep reading.",
+        "type": "dialog",
+        "speaker": "Earthspirit",
+        "content": "That's not all. Keep reading."
+    },
+    {
+        "id": 149,
+        "raw": "[Character(name=\"avg_npc_088\",name2=\"char_183_skgoat_1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_088",
+        "name2": "char_183_skgoat_1",
+        "focus": 1
+    },
+    {
+        "id": 150,
+        "raw": "[playMusic(intro=\"$mist_intro\", key=\"$mist_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta1_180603/m_dia_mist_intro.mp3",
+        "key": "sound_beta_2/music/beta1_180603/m_dia_mist_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 151,
+        "raw": "[name=\"Navigator A\"]Huh... There might be a strong windstorm ahead of our route? Should we slow down or make a detour?",
+        "type": "dialog",
+        "speaker": "Navigator A",
+        "content": "Huh... There might be a strong windstorm ahead of our route? Should we slow down or make a detour?"
+    },
+    {
+        "id": 152,
+        "raw": "[name=\"Navigator A\"]How dangerous is this windstorm you're talking about here?",
+        "type": "dialog",
+        "speaker": "Navigator A",
+        "content": "How dangerous is this windstorm you're talking about here?"
+    },
+    {
+        "id": 153,
+        "raw": "[Character(name=\"avg_npc_088\",name2=\"char_183_skgoat_1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_088",
+        "name2": "char_183_skgoat_1",
+        "focus": 2
+    },
+    {
+        "id": 154,
+        "raw": "[name=\"Earthspirit\"]I don't know.",
+        "type": "dialog",
+        "speaker": "Earthspirit",
+        "content": "I don't know."
+    },
+    {
+        "id": 155,
+        "raw": "[name=\"Earthspirit\"]I looked at anomalies in the data and made my best call. All I know for sure is there's more than one cyclone forming ahead, and it's far more intense than anyone would expect.",
+        "type": "dialog",
+        "speaker": "Earthspirit",
+        "content": "I looked at anomalies in the data and made my best call. All I know for sure is there's more than one cyclone forming ahead, and it's far more intense than anyone would expect."
+    },
+    {
+        "id": 156,
+        "raw": "[Character(name=\"avg_npc_088\",name2=\"char_183_skgoat_1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_088",
+        "name2": "char_183_skgoat_1",
+        "focus": 1
+    },
+    {
+        "id": 157,
+        "raw": "[name=\"Navigator A\"]Sounds pretty vague.",
+        "type": "dialog",
+        "speaker": "Navigator A",
+        "content": "Sounds pretty vague."
+    },
+    {
+        "id": 158,
+        "raw": "[name=\"Navigator A\"]We set our route a month ago, it's already been approved. We're looking at a big mess if we change it on the fly.",
+        "type": "dialog",
+        "speaker": "Navigator A",
+        "content": "We set our route a month ago, it's already been approved. We're looking at a big mess if we change it on the fly."
+    },
+    {
+        "id": 159,
+        "raw": "[name=\"Navigator A\"]You were in that meeting, right? We chose the route for its super low risk profile. Over the last decade, caravans from Lungmen to Leithanien have been back and forth over this route dozens of times.",
+        "type": "dialog",
+        "speaker": "Navigator A",
+        "content": "You were in that meeting, right? We chose the route for its super low risk profile. Over the last decade, caravans from Lungmen to Leithanien have been back and forth over this route dozens of times."
+    },
+    {
+        "id": 160,
+        "raw": "[Character(name=\"avg_npc_088\",name2=\"char_183_skgoat_1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_088",
+        "name2": "char_183_skgoat_1",
+        "focus": 2
+    },
+    {
+        "id": 161,
+        "raw": "[name=\"Earthspirit\"]Yes. In theory, we've avoided the Catastrophe-prone areas, and the probability of encountering danger is low.",
+        "type": "dialog",
+        "speaker": "Earthspirit",
+        "content": "Yes. In theory, we've avoided the Catastrophe-prone areas, and the probability of encountering danger is low."
+    },
+    {
+        "id": 162,
+        "raw": "[Character(name=\"avg_npc_088\",name2=\"char_183_skgoat_1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_088",
+        "name2": "char_183_skgoat_1",
+        "focus": 1
+    },
+    {
+        "id": 163,
+        "raw": "[name=\"Navigator A\"]But you're also not sure?",
+        "type": "dialog",
+        "speaker": "Navigator A",
+        "content": "But you're also not sure?"
+    },
+    {
+        "id": 164,
+        "raw": "[name=\"Navigator A\"]The bosses want us as far away from Ursus and Lungmen as soon as possible.",
+        "type": "dialog",
+        "speaker": "Navigator A",
+        "content": "The bosses want us as far away from Ursus and Lungmen as soon as possible."
+    },
+    {
+        "id": 165,
+        "raw": "[Character(name=\"avg_npc_088\",name2=\"char_183_skgoat_1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_088",
+        "name2": "char_183_skgoat_1",
+        "focus": 2
+    },
+    {
+        "id": 166,
+        "raw": "[name=\"Earthspirit\"]Whatever... I just needed to make sure you got my warning.",
+        "type": "dialog",
+        "speaker": "Earthspirit",
+        "content": "Whatever... I just needed to make sure you got my warning."
+    },
+    {
+        "id": 167,
+        "raw": "[name=\"Earthspirit\"]Deciding what to do with it is not in my job description. That's up to you.",
+        "type": "dialog",
+        "speaker": "Earthspirit",
+        "content": "Deciding what to do with it is not in my job description. That's up to you."
+    },
+    {
+        "id": 168,
+        "raw": "[Character(name=\"avg_npc_088\",name2=\"char_183_skgoat_1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_088",
+        "name2": "char_183_skgoat_1",
+        "focus": 1
+    },
+    {
+        "id": 169,
+        "raw": "[name=\"Navigator A\"]Settle down, Earthspirit, we've got protocols. I'll notify the team leader, and we'll discuss...",
+        "type": "dialog",
+        "speaker": "Navigator A",
+        "content": "Settle down, Earthspirit, we've got protocols. I'll notify the team leader, and we'll discuss..."
+    },
+    {
+        "id": 170,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 171,
+        "raw": "[Decision(options=\"There's no time for that.\", values=\"1\")]",
+        "type": "decision",
+        "options": "There's no time for that.",
+        "values": "1"
+    },
+    {
+        "id": 172,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 173,
+        "raw": "[Character(name=\"avg_npc_088\",fadetime=0,block=true)]",
+        "type": "character",
+        "name": "avg_npc_088",
+        "fadetime": "0,block=true"
+    },
+    {
+        "id": 174,
+        "raw": "[name=\"Navigator A\"]Huh, Doctor?! Why are you here?",
+        "type": "dialog",
+        "speaker": "Navigator A",
+        "content": "Huh, Doctor?! Why are you here?"
+    },
+    {
+        "id": 175,
+        "raw": "[name=\"Navigator A\"]Shouldn't you be in your office?",
+        "type": "dialog",
+        "speaker": "Navigator A",
+        "content": "Shouldn't you be in your office?"
+    },
+    {
+        "id": 176,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 177,
+        "raw": "[Decision(options=\"I was going up onto the bridge.\", values=\"1\")]",
+        "type": "decision",
+        "options": "I was going up onto the bridge.",
+        "values": "1"
+    },
+    {
+        "id": 178,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 179,
+        "raw": "[name=\"Navigator A\"]Now that's some coincidence...",
+        "type": "dialog",
+        "speaker": "Navigator A",
+        "content": "Now that's some coincidence..."
+    },
+    {
+        "id": 180,
+        "raw": "[name=\"Navigator A\"]If you're taking the report, are you going to explain the situation to our team leader in person?",
+        "type": "dialog",
+        "speaker": "Navigator A",
+        "content": "If you're taking the report, are you going to explain the situation to our team leader in person?"
+    },
+    {
+        "id": 181,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 182,
+        "raw": "[Decision(options=\"The windstorm is right in front of us. He'll notice soon enough.;The situation is urgent, I'll let Amiya know.\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "The windstorm is right in front of us. He'll notice soon enough.;The situation is urgent, I'll let Amiya know.",
+        "values": "1;2"
+    },
+    {
+        "id": 183,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 184,
+        "raw": "[name=\"Navigator A\"]What? It's that serious? Well that's not good...",
+        "type": "dialog",
+        "speaker": "Navigator A",
+        "content": "What? It's that serious? Well that's not good..."
+    },
+    {
+        "id": 185,
+        "raw": "[Character(name=\"char_183_skgoat_1\",fadetime=0,block=true)]",
+        "type": "character",
+        "name": "char_183_skgoat_1",
+        "fadetime": "0,block=true"
+    },
+    {
+        "id": 186,
+        "raw": "[name=\"Earthspirit\"]Doctor, you believe me?",
+        "type": "dialog",
+        "speaker": "Earthspirit",
+        "content": "Doctor, you believe me?"
+    },
+    {
+        "id": 187,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 188,
+        "raw": "[Decision(options=\"I believe in reality.;I believe my operators.\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "I believe in reality.;I believe my operators.",
+        "values": "1;2"
+    },
+    {
+        "id": 189,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 190,
+        "raw": "[name=\"Earthspirit\"]Then I'll go to the bridge with you. I'll continue to observe the situation in real time and report to you and Amiya.",
+        "type": "dialog",
+        "speaker": "Earthspirit",
+        "content": "Then I'll go to the bridge with you. I'll continue to observe the situation in real time and report to you and Amiya."
+    },
+    {
+        "id": 191,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 192,
+        "raw": "[Decision(options=\"Good. That's the best option.;Not going to ask for overtime?\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "Good. That's the best option.;Not going to ask for overtime?",
+        "values": "1;2"
+    },
+    {
+        "id": 193,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 194,
+        "raw": "[name=\"Earthspirit\"]This is within the scope of my duties.",
+        "type": "dialog",
+        "speaker": "Earthspirit",
+        "content": "This is within the scope of my duties."
+    },
+    {
+        "id": 195,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 196,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 197,
+        "raw": "[Background(image=\"bg_bridge\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_bridge.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 198,
+        "raw": "[character]",
+        "type": "character"
+    },
+    {
+        "id": 199,
+        "raw": "4:39 P.M. \\ Overcast, Visibility: 4 km",
+        "type": "narration",
+        "content": "4:39 P.M. \\ Overcast, Visibility: 4 km"
+    },
+    {
+        "id": 200,
+        "raw": "Rhodes Island Landship, Bridge",
+        "type": "narration",
+        "content": "Rhodes Island Landship, Bridge"
+    },
+    {
+        "id": 201,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 202,
+        "raw": "[Character(name=\"char_013_riop\",name2=\"char_002_amiya_1\",focus=1)]",
+        "type": "character",
+        "name": "char_013_riop",
+        "name2": "char_002_amiya_1",
+        "focus": 1
+    },
+    {
+        "id": 203,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 204,
+        "raw": "[name=\"Central Control Staff\"]Warning, the wind speed is increasing rapidly!",
+        "type": "dialog",
+        "speaker": "Central Control Staff",
+        "content": "Warning, the wind speed is increasing rapidly!"
+    },
+    {
+        "id": 205,
+        "raw": "[name=\"Central Control Staff\"]At these numbers, our visibility's going to fall under one kilometer within a few minutes!",
+        "type": "dialog",
+        "speaker": "Central Control Staff",
+        "content": "At these numbers, our visibility's going to fall under one kilometer within a few minutes!"
+    },
+    {
+        "id": 206,
+        "raw": "[Character(name=\"char_013_riop\",name2=\"char_002_amiya_1\",focus=2)]",
+        "type": "character",
+        "name": "char_013_riop",
+        "name2": "char_002_amiya_1",
+        "focus": 2
+    },
+    {
+        "id": 207,
+        "raw": "[name=\"Amiya\"]Did you turn on the assisted driving function for sandstorm mode?",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Did you turn on the assisted driving function for sandstorm mode?"
+    },
+    {
+        "id": 208,
+        "raw": "[Character(name=\"char_013_riop\",name2=\"char_002_amiya_1\",focus=1)]",
+        "type": "character",
+        "name": "char_013_riop",
+        "name2": "char_002_amiya_1",
+        "focus": 1
+    },
+    {
+        "id": 209,
+        "raw": "[name=\"Central Control Staff\"]We've had it on for a while, it was part of the itinerary.",
+        "type": "dialog",
+        "speaker": "Central Control Staff",
+        "content": "We've had it on for a while, it was part of the itinerary."
+    },
+    {
+        "id": 210,
+        "raw": "[name=\"Central Control Staff\"]But Amiya, this might not be an ordinary sandstorm...",
+        "type": "dialog",
+        "speaker": "Central Control Staff",
+        "content": "But Amiya, this might not be an ordinary sandstorm..."
+    },
+    {
+        "id": 211,
+        "raw": "[playMusic(intro=\"$tense_intro\", key=\"$tense_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act15d0d0/m_avg_tense_intro.mp3",
+        "key": "sound_beta_2/music/act15d0d0/m_avg_tense_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 212,
+        "raw": "[Character(name=\"avg_npc_012\")]",
+        "type": "character",
+        "name": "avg_npc_012"
+    },
+    {
+        "id": 213,
+        "raw": "[name=\"Navigator B\"]My god!",
+        "type": "dialog",
+        "speaker": "Navigator B",
+        "content": "My god!"
+    },
+    {
+        "id": 214,
+        "raw": "[characteraction(name=\"middle\", type=\"jump\", power=5, times=2, fadetime=0.51,block=true)]",
+        "type": "jump",
+        "name": "middle",
+        "power": "5,",
+        "times": "2,",
+        "fadetime": "0.51,block=true"
+    },
+    {
+        "id": 215,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 216,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 217,
+        "raw": "[Character(name=\"avg_npc_012\",name2=\"char_002_amiya_1#6\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_012",
+        "name2": "char_002_amiya_1#6",
+        "focus": 2
+    },
+    {
+        "id": 218,
+        "raw": "[name=\"Amiya\"]What is it, Pavel?",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "What is it, Pavel?"
+    },
+    {
+        "id": 219,
+        "raw": "[Character(name=\"avg_npc_012\",name2=\"char_002_amiya_1#6\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_012",
+        "name2": "char_002_amiya_1#6",
+        "focus": 1
+    },
+    {
+        "id": 220,
+        "raw": "[name=\"Navigator B\"]Sensors detecting thunderstorm clouds ahead!",
+        "type": "dialog",
+        "speaker": "Navigator B",
+        "content": "Sensors detecting thunderstorm clouds ahead!"
+    },
+    {
+        "id": 221,
+        "raw": "[Character(name=\"avg_npc_012\",name2=\"char_002_amiya_1#6\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_012",
+        "name2": "char_002_amiya_1#6",
+        "focus": 2
+    },
+    {
+        "id": 222,
+        "raw": "[name=\"Amiya\"]......",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "......"
+    },
+    {
+        "id": 223,
+        "raw": "[character(name=\"char_002_amiya_1#7\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#7"
+    },
+    {
+        "id": 224,
+        "raw": "[name=\"Amiya\"]Open the PA, tell the whole ship that Rhodes Island will pass through a thunderstorm shortly, and raise the alert level by one!",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Open the PA, tell the whole ship that Rhodes Island will pass through a thunderstorm shortly, and raise the alert level by one!"
+    },
+    {
+        "id": 225,
+        "raw": "[name=\"Amiya\"]Central command personnel, slow us down right now!",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Central command personnel, slow us down right now!"
+    },
+    {
+        "id": 226,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 227,
+        "raw": "[character]",
+        "type": "character"
+    },
+    {
+        "id": 228,
+        "raw": "[CameraShake(duration=2, xstrength=50, ystrength=50, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "2,",
+        "xstrength": "50,",
+        "ystrength": "50,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 229,
+        "raw": "[delay(time=3)]",
+        "type": "delay",
+        "time": 3
+    },
+    {
+        "id": 230,
+        "raw": "[character(name=\"char_002_amiya_1#5\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#5"
+    },
+    {
+        "id": 231,
+        "raw": "[name=\"Amiya\"]Ugh... we're rocking a lot...",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Ugh... we're rocking a lot..."
+    },
+    {
+        "id": 232,
+        "raw": "[character(name=\"char_002_amiya_1#2\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#2"
+    },
+    {
+        "id": 233,
+        "raw": "[name=\"Amiya\"]What's the situation?",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "What's the situation?"
+    },
+    {
+        "id": 234,
+        "raw": "[Character(name=\"char_013_riop\",name2=\"char_002_amiya_1\",focus=1)]",
+        "type": "character",
+        "name": "char_013_riop",
+        "name2": "char_002_amiya_1",
+        "focus": 1
+    },
+    {
+        "id": 235,
+        "raw": "[name=\"Central Control Staff\"]The pressure on the hull side panels is skyrocketing!",
+        "type": "dialog",
+        "speaker": "Central Control Staff",
+        "content": "The pressure on the hull side panels is skyrocketing!"
+    },
+    {
+        "id": 236,
+        "raw": "[name=\"Central Control Staff\"]70% of the outermost storm shutters have been damaged and are basically failing!",
+        "type": "dialog",
+        "speaker": "Central Control Staff",
+        "content": "70% of the outermost storm shutters have been damaged and are basically failing!"
+    },
+    {
+        "id": 237,
+        "raw": "[name=\"Central Control Staff\"]Also... multiple abnormal heat sources detected near the hull, energy amplitude approaching critical threshold!",
+        "type": "dialog",
+        "speaker": "Central Control Staff",
+        "content": "Also... multiple abnormal heat sources detected near the hull, energy amplitude approaching critical threshold!"
+    },
+    {
+        "id": 238,
+        "raw": "[character(name=\"char_002_amiya_1#2\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#2"
+    },
+    {
+        "id": 239,
+        "raw": "[name=\"Amiya\"]Does this mean...",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Does this mean..."
+    },
+    {
+        "id": 240,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 241,
+        "raw": "[Decision(options=\"Yes. It's a Catastrophe.\", values=\"1\")]",
+        "type": "decision",
+        "options": "Yes. It's a Catastrophe.",
+        "values": "1"
+    },
+    {
+        "id": 242,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 243,
+        "raw": "[character(name=\"char_002_amiya_1#5\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#5"
+    },
+    {
+        "id": 244,
+        "raw": "[name=\"Amiya\"]Ah, Dr. {@nickname}!",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Ah, Dr. {@nickname}!"
+    },
+    {
+        "id": 245,
+        "raw": "[name=\"Amiya\"]How... can this be?",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "How... can this be?"
+    },
+    {
+        "id": 246,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 247,
+        "raw": "[Decision(options=\"No time to explain.;It's a supercell.\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "No time to explain.;It's a supercell.",
+        "values": "1;2"
+    },
+    {
+        "id": 248,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 249,
+        "raw": "[character(name=\"char_002_amiya_1\")]",
+        "type": "character",
+        "name": "char_002_amiya_1"
+    },
+    {
+        "id": 250,
+        "raw": "[name=\"Amiya\"]Alright... I got it.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Alright... I got it."
+    },
+    {
+        "id": 251,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 252,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 253,
+        "raw": "[character(name=\"char_002_amiya_1#7\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#7"
+    },
+    {
+        "id": 254,
+        "raw": "[playsound(key=\"$d_gen_transmissionget\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_transmissionget.mp3"
+    },
+    {
+        "id": 255,
+        "raw": "[name=\"Amiya\"]All hands, activate code red Catastrophe alert!",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "All hands, activate code red Catastrophe alert!"
+    },
+    {
+        "id": 256,
+        "raw": "[name=\"Amiya\"]Evacuate all personnel on the first deck, bridge excluded. Gather all non-engineering personnel from the second to sixth levels in the central area for safety!",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Evacuate all personnel on the first deck, bridge excluded. Gather all non-engineering personnel from the second to sixth levels in the central area for safety!"
+    },
+    {
+        "id": 257,
+        "raw": "[name=\"Amiya\"]Central control, maintain minimum speed cruising...",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Central control, maintain minimum speed cruising..."
+    },
+    {
+        "id": 258,
+        "raw": "[character(name=\"char_002_amiya_1\")]",
+        "type": "character",
+        "name": "char_002_amiya_1"
+    },
+    {
+        "id": 259,
+        "raw": "[name=\"Amiya\"]Navigator, how long will this desert thunderstorm last?",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Navigator, how long will this desert thunderstorm last?"
+    },
+    {
+        "id": 260,
+        "raw": "[character(name=\"avg_npc_012\")]",
+        "type": "character",
+        "name": "avg_npc_012"
+    },
+    {
+        "id": 261,
+        "raw": "[name=\"Navigator B\"]These sudden-onset storms usually pass within an hour or two...",
+        "type": "dialog",
+        "speaker": "Navigator B",
+        "content": "These sudden-onset storms usually pass within an hour or two..."
+    },
+    {
+        "id": 262,
+        "raw": "[Character(name=\"avg_npc_088\")]",
+        "type": "character",
+        "name": "avg_npc_088"
+    },
+    {
+        "id": 263,
+        "raw": "[name=\"Navigator A\"]It's hard to say for sure. Doctor? Earthspirit?",
+        "type": "dialog",
+        "speaker": "Navigator A",
+        "content": "It's hard to say for sure. Doctor? Earthspirit?"
+    },
+    {
+        "id": 264,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 265,
+        "raw": "[Decision(options=\"Earthspirit, your analysis.\", values=\"1\")]",
+        "type": "decision",
+        "options": "Earthspirit, your analysis.",
+        "values": "1"
+    },
+    {
+        "id": 266,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 267,
+        "raw": "[Character(name=\"char_183_skgoat_1\",fadetime=0,block=true)]",
+        "type": "character",
+        "name": "char_183_skgoat_1",
+        "fadetime": "0,block=true"
+    },
+    {
+        "id": 268,
+        "raw": "[name=\"Earthspirit\"]Yes, Doctor.",
+        "type": "dialog",
+        "speaker": "Earthspirit",
+        "content": "Yes, Doctor."
+    },
+    {
+        "id": 269,
+        "raw": "[name=\"Earthspirit\"]Mr. Pavel, the Doctor gave you the report I completed an hour ago.",
+        "type": "dialog",
+        "speaker": "Earthspirit",
+        "content": "Mr. Pavel, the Doctor gave you the report I completed an hour ago."
+    },
+    {
+        "id": 270,
+        "raw": "[Character(name=\"avg_npc_012\",name2=\"char_183_skgoat_1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_012",
+        "name2": "char_183_skgoat_1",
+        "focus": 1
+    },
+    {
+        "id": 271,
+        "raw": "[name=\"Navigator B\"]Multiple small cyclones within two kilometers...? This doesn't bode well!",
+        "type": "dialog",
+        "speaker": "Navigator B",
+        "content": "Multiple small cyclones within two kilometers...? This doesn't bode well!"
+    },
+    {
+        "id": 272,
+        "raw": "[name=\"Navigator B\"]This Catastrophe is no ordinary desert thunderstorm... we could be looking at a maximum strength windstorm!",
+        "type": "dialog",
+        "speaker": "Navigator B",
+        "content": "This Catastrophe is no ordinary desert thunderstorm... we could be looking at a maximum strength windstorm!"
+    },
+    {
+        "id": 273,
+        "raw": "[Character(name=\"avg_npc_012\",name2=\"char_183_skgoat_1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_012",
+        "name2": "char_183_skgoat_1",
+        "focus": 2
+    },
+    {
+        "id": 274,
+        "raw": "[name=\"Earthspirit\"]Can I borrow one of the sensors on the bridge?",
+        "type": "dialog",
+        "speaker": "Earthspirit",
+        "content": "Can I borrow one of the sensors on the bridge?"
+    },
+    {
+        "id": 275,
+        "raw": "[Character(name=\"avg_npc_012\",name2=\"char_183_skgoat_1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_012",
+        "name2": "char_183_skgoat_1",
+        "focus": 1
+    },
+    {
+        "id": 276,
+        "raw": "[name=\"Navigator B\"]Of course. I should've seen it myself...",
+        "type": "dialog",
+        "speaker": "Navigator B",
+        "content": "Of course. I should've seen it myself..."
+    },
+    {
+        "id": 277,
+        "raw": "[Character(name=\"avg_npc_012\",name2=\"char_183_skgoat_1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_012",
+        "name2": "char_183_skgoat_1",
+        "focus": 2
+    },
+    {
+        "id": 278,
+        "raw": "[name=\"Earthspirit\"]It's alright, Mr. Pavel. This is an extremely abnormal phenomenon and well beyond the scope of normal Catastrophe prediction. An experienced Catastrophe Messenger would have some trouble spotting all the signs in time.",
+        "type": "dialog",
+        "speaker": "Earthspirit",
+        "content": "It's alright, Mr. Pavel. This is an extremely abnormal phenomenon and well beyond the scope of normal Catastrophe prediction. An experienced Catastrophe Messenger would have some trouble spotting all the signs in time."
+    },
+    {
+        "id": 279,
+        "raw": "[name=\"Earthspirit\"]If not for the Doctor's assistance, I would've treated the outliers as errors and glossed over them.",
+        "type": "dialog",
+        "speaker": "Earthspirit",
+        "content": "If not for the Doctor's assistance, I would've treated the outliers as errors and glossed over them."
+    },
+    {
+        "id": 280,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 281,
+        "raw": "[Decision(options=\"We still have time to move things in the right direction.;......;I'm getting a real bad feeling about this.\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "We still have time to move things in the right direction.;......;I'm getting a real bad feeling about this.",
+        "values": "1;2;3"
+    },
+    {
+        "id": 282,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 283,
+        "raw": "[Character(name=\"avg_npc_012\",name2=\"char_183_skgoat_1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_012",
+        "name2": "char_183_skgoat_1",
+        "focus": 2
+    },
+    {
+        "id": 284,
+        "raw": "[name=\"Earthspirit\"]Doctor, Amiya, the small cyclones ahead are converging and intensifying.",
+        "type": "dialog",
+        "speaker": "Earthspirit",
+        "content": "Doctor, Amiya, the small cyclones ahead are converging and intensifying."
+    },
+    {
+        "id": 285,
+        "raw": "[name=\"Earthspirit\"]In other words, the core of the multi-cyclone vortex is about to generate.",
+        "type": "dialog",
+        "speaker": "Earthspirit",
+        "content": "In other words, the core of the multi-cyclone vortex is about to generate."
+    },
+    {
+        "id": 286,
+        "raw": "[name=\"Earthspirit\"]Once the core forms, I estimate the cyclone will reach two kilometers in diameter and last at least seven to eight hours.",
+        "type": "dialog",
+        "speaker": "Earthspirit",
+        "content": "Once the core forms, I estimate the cyclone will reach two kilometers in diameter and last at least seven to eight hours."
+    },
+    {
+        "id": 287,
+        "raw": "[character(name=\"char_002_amiya_1\")]",
+        "type": "character",
+        "name": "char_002_amiya_1"
+    },
+    {
+        "id": 288,
+        "raw": "[name=\"Amiya\"]What happens if Rhodes Island maintains its speed as it approaches the core?",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "What happens if Rhodes Island maintains its speed as it approaches the core?"
+    },
+    {
+        "id": 289,
+        "raw": "[Character(name=\"char_013_riop\",name2=\"char_002_amiya_1\",focus=1)]",
+        "type": "character",
+        "name": "char_013_riop",
+        "name2": "char_002_amiya_1",
+        "focus": 1
+    },
+    {
+        "id": 290,
+        "raw": "[name=\"Central Control Staff\"]If we come into contact with the vortex, the ship's hull may collide with high-speed active Originium dust, roughly equivalent to the simultaneous detonation of hundreds of maximum-payload Originium bombs across the bulwark.",
+        "type": "dialog",
+        "speaker": "Central Control Staff",
+        "content": "If we come into contact with the vortex, the ship's hull may collide with high-speed active Originium dust, roughly equivalent to the simultaneous detonation of hundreds of maximum-payload Originium bombs across the bulwark."
+    },
+    {
+        "id": 291,
+        "raw": "[name=\"Central Control Staff\"]I'm sure you can guess how that might go for us.",
+        "type": "dialog",
+        "speaker": "Central Control Staff",
+        "content": "I'm sure you can guess how that might go for us."
+    },
+    {
+        "id": 292,
+        "raw": "[Character(name=\"char_013_riop\",name2=\"char_002_amiya_1\",focus=2)]",
+        "type": "character",
+        "name": "char_013_riop",
+        "name2": "char_002_amiya_1",
+        "focus": 2
+    },
+    {
+        "id": 293,
+        "raw": "[name=\"Amiya\"]Do we have enough time to change course?",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Do we have enough time to change course?"
+    },
+    {
+        "id": 294,
+        "raw": "[Character(name=\"char_013_riop\",name2=\"char_002_amiya_1\",focus=1)]",
+        "type": "character",
+        "name": "char_013_riop",
+        "name2": "char_002_amiya_1",
+        "focus": 1
+    },
+    {
+        "id": 295,
+        "raw": "[name=\"Central Control Staff\"]I can try...",
+        "type": "dialog",
+        "speaker": "Central Control Staff",
+        "content": "I can try..."
+    },
+    {
+        "id": 296,
+        "raw": "[Character(name=\"char_013_riop\",name2=\"avg_npc_012\",focus=2)]",
+        "type": "character",
+        "name": "char_013_riop",
+        "name2": "avg_npc_012",
+        "focus": 2
+    },
+    {
+        "id": 297,
+        "raw": "[name=\"Navigator B\"]The core of the windstorm changes directions very quickly, and can reach a maximum speed of nearly 1,000 kilometers per hour.",
+        "type": "dialog",
+        "speaker": "Navigator B",
+        "content": "The core of the windstorm changes directions very quickly, and can reach a maximum speed of nearly 1,000 kilometers per hour."
+    },
+    {
+        "id": 298,
+        "raw": "[Character(name=\"char_013_riop\",name2=\"avg_npc_012\",focus=1)]",
+        "type": "character",
+        "name": "char_013_riop",
+        "name2": "avg_npc_012",
+        "focus": 1
+    },
+    {
+        "id": 299,
+        "raw": "[name=\"Central Control Staff\"]Then there's no point in us trying.",
+        "type": "dialog",
+        "speaker": "Central Control Staff",
+        "content": "Then there's no point in us trying."
+    },
+    {
+        "id": 300,
+        "raw": "[name=\"Central Control Staff\"]Amiya, even if we try a full speed retreat, if we get unlucky with the direction, Rhodes Island won't escape the storm.",
+        "type": "dialog",
+        "speaker": "Central Control Staff",
+        "content": "Amiya, even if we try a full speed retreat, if we get unlucky with the direction, Rhodes Island won't escape the storm."
+    },
+    {
+        "id": 301,
+        "raw": "[Character(name=\"char_002_amiya_1\",name2=\"avg_npc_012\",focus=1)]",
+        "type": "character",
+        "name": "char_002_amiya_1",
+        "name2": "avg_npc_012",
+        "focus": 1
+    },
+    {
+        "id": 302,
+        "raw": "[name=\"Amiya\"]Then it seems like the only thing we can do is stay put.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Then it seems like the only thing we can do is stay put."
+    },
+    {
+        "id": 303,
+        "raw": "[name=\"Amiya\"]Mr. Pavel, give me a potential damage assessment.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Mr. Pavel, give me a potential damage assessment."
+    },
+    {
+        "id": 304,
+        "raw": "[Character(name=\"char_002_amiya_1\",name2=\"avg_npc_012\",focus=2)]",
+        "type": "character",
+        "name": "char_002_amiya_1",
+        "name2": "avg_npc_012",
+        "focus": 2
+    },
+    {
+        "id": 305,
+        "raw": "[name=\"Navigator B\"]If we spend seven hours in a thunderstorm of a similar scale, the first to sixth decks will be damaged maybe 15%...",
+        "type": "dialog",
+        "speaker": "Navigator B",
+        "content": "If we spend seven hours in a thunderstorm of a similar scale, the first to sixth decks will be damaged maybe 15%..."
+    },
+    {
+        "id": 306,
+        "raw": "[name=\"Navigator B\"]Of those, the first deck will take the hardest hits, and casualties are likely.",
+        "type": "dialog",
+        "speaker": "Navigator B",
+        "content": "Of those, the first deck will take the hardest hits, and casualties are likely."
+    },
+    {
+        "id": 307,
+        "raw": "[Character(name=\"char_002_amiya_1#4\",name2=\"avg_npc_012\",focus=1)]",
+        "type": "character",
+        "name": "char_002_amiya_1#4",
+        "name2": "avg_npc_012",
+        "focus": 1
+    },
+    {
+        "id": 308,
+        "raw": "[name=\"Amiya\"]It'll be the biggest loss the ship takes in a year.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "It'll be the biggest loss the ship takes in a year."
+    },
+    {
+        "id": 309,
+        "raw": "[name=\"Amiya\"]But, I don't see any options...",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "But, I don't see any options..."
+    },
+    {
+        "id": 310,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 311,
+        "raw": "[Decision(options=\"There is a way.\", values=\"1\")]",
+        "type": "decision",
+        "options": "There is a way.",
+        "values": "1"
+    },
+    {
+        "id": 312,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 313,
+        "raw": "[character(name=\"char_002_amiya_1#2\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#2"
+    },
+    {
+        "id": 314,
+        "raw": "[name=\"Amiya\"]Doctor?",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Doctor?"
+    },
+    {
+        "id": 315,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 316,
+        "raw": "[Decision(options=\"We won't have to take damage.;You don't want to have to dock for a month of repairs, right?\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "We won't have to take damage.;You don't want to have to dock for a month of repairs, right?",
+        "values": "1;2"
+    },
+    {
+        "id": 317,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 318,
+        "raw": "[character(name=\"char_002_amiya_1\")]",
+        "type": "character",
+        "name": "char_002_amiya_1"
+    },
+    {
+        "id": 319,
+        "raw": "[name=\"Amiya\"]Yes, if we have to stop in the wastelands, we could face other threats.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Yes, if we have to stop in the wastelands, we could face other threats."
+    },
+    {
+        "id": 320,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 321,
+        "raw": "[Decision(options=\"We have another choice.;Since we can't retreat and don't want to stop, what else can we do?\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "We have another choice.;Since we can't retreat and don't want to stop, what else can we do?",
+        "values": "1;2"
+    },
+    {
+        "id": 322,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 323,
+        "raw": "[character(name=\"char_002_amiya_1\")]",
+        "type": "character",
+        "name": "char_002_amiya_1"
+    },
+    {
+        "id": 324,
+        "raw": "[name=\"Amiya\"]Doctor, are you suggesting that we continue straight ahead?",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Doctor, are you suggesting that we continue straight ahead?"
+    },
+    {
+        "id": 325,
+        "raw": "[Character(name=\"char_013_riop\",name2=\"char_002_amiya_1\",focus=1)]",
+        "type": "character",
+        "name": "char_013_riop",
+        "name2": "char_002_amiya_1",
+        "focus": 1
+    },
+    {
+        "id": 326,
+        "raw": "[name=\"Central Control Staff\"]That's out of the question, visibility is too low!",
+        "type": "dialog",
+        "speaker": "Central Control Staff",
+        "content": "That's out of the question, visibility is too low!"
+    },
+    {
+        "id": 327,
+        "raw": "[name=\"Central Control Staff\"]Even with assisted driving, I can't navigate. I'm from Sargon, plunging headfirst into a sandstorm like this is suicide!",
+        "type": "dialog",
+        "speaker": "Central Control Staff",
+        "content": "Even with assisted driving, I can't navigate. I'm from Sargon, plunging headfirst into a sandstorm like this is suicide!"
+    },
+    {
+        "id": 328,
+        "raw": "[Character(name=\"char_013_riop\",name2=\"char_002_amiya_1\",focus=2)]",
+        "type": "character",
+        "name": "char_013_riop",
+        "name2": "char_002_amiya_1",
+        "focus": 2
+    },
+    {
+        "id": 329,
+        "raw": "[name=\"Amiya\"]I understand your concerns, Mr. Kamal.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "I understand your concerns, Mr. Kamal."
+    },
+    {
+        "id": 330,
+        "raw": "[name=\"Amiya\"]But, I trust the Doctor.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "But, I trust the Doctor."
+    },
+    {
+        "id": 331,
+        "raw": "[character(name=\"char_002_amiya_1#7\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#7"
+    },
+    {
+        "id": 332,
+        "raw": "[name=\"Amiya\"]Dr. {@nickname}, are you sure about leading Rhodes Island through the Catastrophe zone?",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Dr. {@nickname}, are you sure about leading Rhodes Island through the Catastrophe zone?"
+    },
+    {
+        "id": 333,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 334,
+        "raw": "[Decision(options=\"I need Earthspirit to keep calculating the real-time coordinates of the vortex.;Yes.;I need PRTS to help me calculate the energy amplitude of the Originium on the surface.\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "I need Earthspirit to keep calculating the real-time coordinates of the vortex.;Yes.;I need PRTS to help me calculate the energy amplitude of the Originium on the surface.",
+        "values": "1;2;3"
+    },
+    {
+        "id": 335,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 336,
+        "raw": "[character(name=\"char_002_amiya_1#7\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#7"
+    },
+    {
+        "id": 337,
+        "raw": "[name=\"Amiya\"]Good, please cooperate with the Doctor.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Good, please cooperate with the Doctor."
+    },
+    {
+        "id": 338,
+        "raw": "[Character(name=\"char_013_riop\",name2=\"char_002_amiya_1\",focus=1)]",
+        "type": "character",
+        "name": "char_013_riop",
+        "name2": "char_002_amiya_1",
+        "focus": 1
+    },
+    {
+        "id": 339,
+        "raw": "[name=\"Central Control Staff\"]Calculating a safe route in such a short time sounds like a bad joke.",
+        "type": "dialog",
+        "speaker": "Central Control Staff",
+        "content": "Calculating a safe route in such a short time sounds like a bad joke."
+    },
+    {
+        "id": 340,
+        "raw": "[Character(name=\"char_013_riop\",name2=\"char_002_amiya_1\",focus=2)]",
+        "type": "character",
+        "name": "char_013_riop",
+        "name2": "char_002_amiya_1",
+        "focus": 2
+    },
+    {
+        "id": 341,
+        "raw": "[name=\"Amiya\"]If anyone can do it, it's our Doctor.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "If anyone can do it, it's our Doctor."
+    },
+    {
+        "id": 342,
+        "raw": "[Character(name=\"char_013_riop\",name2=\"char_002_amiya_1\",focus=1)]",
+        "type": "character",
+        "name": "char_013_riop",
+        "name2": "char_002_amiya_1",
+        "focus": 1
+    },
+    {
+        "id": 343,
+        "raw": "[name=\"Central Control Staff\"]I've heard stories of the battles and all... but operating the landship is nothing like field command!",
+        "type": "dialog",
+        "speaker": "Central Control Staff",
+        "content": "I've heard stories of the battles and all... but operating the landship is nothing like field command!"
+    },
+    {
+        "id": 344,
+        "raw": "[Character(name=\"char_013_riop\",name2=\"avg_npc_012\",focus=2)]",
+        "type": "character",
+        "name": "char_013_riop",
+        "name2": "avg_npc_012",
+        "focus": 2
+    },
+    {
+        "id": 345,
+        "raw": "[name=\"Navigator B\"]I don't know about this... Of course, I don't doubt the Doctor's abilities, but I've never heard of this real-time calculation method...",
+        "type": "dialog",
+        "speaker": "Navigator B",
+        "content": "I don't know about this... Of course, I don't doubt the Doctor's abilities, but I've never heard of this real-time calculation method..."
+    },
+    {
+        "id": 346,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 347,
+        "raw": "[Character(name=\"char_183_skgoat_1\")]",
+        "type": "character",
+        "name": "char_183_skgoat_1"
+    },
+    {
+        "id": 348,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 349,
+        "raw": "[name=\"Earthspirit\"]It just might work...",
+        "type": "dialog",
+        "speaker": "Earthspirit",
+        "content": "It just might work..."
+    },
+    {
+        "id": 350,
+        "raw": "[Character(name=\"char_183_skgoat_1\",name2=\"avg_npc_012\",focus=2)]",
+        "type": "character",
+        "name": "char_183_skgoat_1",
+        "name2": "avg_npc_012",
+        "focus": 2
+    },
+    {
+        "id": 351,
+        "raw": "[name=\"Navigator B\"]Earthspirit, can you make sense of the Doctor's formulas?",
+        "type": "dialog",
+        "speaker": "Navigator B",
+        "content": "Earthspirit, can you make sense of the Doctor's formulas?"
+    },
+    {
+        "id": 352,
+        "raw": "[Character(name=\"char_183_skgoat_1\",name2=\"avg_npc_012\",focus=1)]",
+        "type": "character",
+        "name": "char_183_skgoat_1",
+        "name2": "avg_npc_012",
+        "focus": 1
+    },
+    {
+        "id": 353,
+        "raw": "[name=\"Earthspirit\"]No.",
+        "type": "dialog",
+        "speaker": "Earthspirit",
+        "content": "No."
+    },
+    {
+        "id": 354,
+        "raw": "[name=\"Earthspirit\"]But they feel a bit familiar.",
+        "type": "dialog",
+        "speaker": "Earthspirit",
+        "content": "But they feel a bit familiar."
+    },
+    {
+        "id": 355,
+        "raw": "[name=\"Earthspirit\"]Right... I heard about a similar formula from some whiz kid a couple days ago, but the Doctor's version is more complicated and varied.",
+        "type": "dialog",
+        "speaker": "Earthspirit",
+        "content": "Right... I heard about a similar formula from some whiz kid a couple days ago, but the Doctor's version is more complicated and varied."
+    },
+    {
+        "id": 356,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 357,
+        "raw": "[Decision(options=\"I've given the route to the navigator.;Work with the central control staff if you need to change course rapidly.;Amiya, we're ready.\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "I've given the route to the navigator.;Work with the central control staff if you need to change course rapidly.;Amiya, we're ready.",
+        "values": "1;2;3"
+    },
+    {
+        "id": 358,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 359,
+        "raw": "[character(name=\"char_002_amiya_1\")]",
+        "type": "character",
+        "name": "char_002_amiya_1"
+    },
+    {
+        "id": 360,
+        "raw": "[name=\"Amiya\"]Let's head forward then!",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Let's head forward then!"
+    },
+    {
+        "id": 361,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 362,
+        "raw": "[Decision(options=\"I'll help you issue instructions.;Leave it to me.\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "I'll help you issue instructions.;Leave it to me.",
+        "values": "1;2"
+    },
+    {
+        "id": 363,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 364,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 365,
+        "raw": "[name=\"Amiya\"]No, Doctor, that would be too inefficient.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "No, Doctor, that would be too inefficient."
+    },
+    {
+        "id": 366,
+        "raw": "[name=\"Amiya\"]Rhodes Island only needs one commander right now.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Rhodes Island only needs one commander right now."
+    },
+    {
+        "id": 367,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 368,
+        "raw": "[name=\"Amiya\"]Okay, Doctor, go forward until you're at my position.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Okay, Doctor, go forward until you're at my position."
+    },
+    {
+        "id": 369,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 370,
+        "raw": "[character(name=\"char_002_amiya_1#7\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#7"
+    },
+    {
+        "id": 371,
+        "raw": "[name=\"Amiya\"]From the moment I saw you appear on the bridge, I trusted that the situation would definitely turn around.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "From the moment I saw you appear on the bridge, I trusted that the situation would definitely turn around."
+    },
+    {
+        "id": 372,
+        "raw": "[name=\"Amiya\"]Attention, everyone on the bridge–",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Attention, everyone on the bridge–"
+    },
+    {
+        "id": 373,
+        "raw": "[name=\"Amiya\"]From now on, I am transferring command of the Rhodes Island landship to Dr. {@nickname}!",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "From now on, I am transferring command of the Rhodes Island landship to Dr. {@nickname}!"
+    },
+    {
+        "id": 374,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 375,
+        "raw": "[Decision(options=\"Notify Closure and have her put all cabins into energy-saving mode!;All power to the engines!\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "Notify Closure and have her put all cabins into energy-saving mode!;All power to the engines!",
+        "values": "1;2"
+    },
+    {
+        "id": 376,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 377,
+        "raw": "[character(name=\"avg_npc_012\")]",
+        "type": "character",
+        "name": "avg_npc_012"
+    },
+    {
+        "id": 378,
+        "raw": "[name=\"Navigator B\"]Got it, Doctor!",
+        "type": "dialog",
+        "speaker": "Navigator B",
+        "content": "Got it, Doctor!"
+    },
+    {
+        "id": 379,
+        "raw": "[playsound(key=\"$d_gen_transmissionget\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_transmissionget.mp3"
+    },
+    {
+        "id": 380,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 381,
+        "raw": "[character(name=\"char_002_amiya_1\")]",
+        "type": "character",
+        "name": "char_002_amiya_1"
+    },
+    {
+        "id": 382,
+        "raw": "[name=\"Amiya\"]Message from Closure: The engine is ready, and she wishes us 'good luck'...",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Message from Closure: The engine is ready, and she wishes us 'good luck'..."
+    },
+    {
+        "id": 383,
+        "raw": "[Character(name=\"char_002_amiya_1\",name2=\"char_183_skgoat_1\",focus=2)]",
+        "type": "character",
+        "name": "char_002_amiya_1",
+        "name2": "char_183_skgoat_1",
+        "focus": 2
+    },
+    {
+        "id": 384,
+        "raw": "[name=\"Earthspirit\"]There's nothing wrong with going a little crazy every now and then.",
+        "type": "dialog",
+        "speaker": "Earthspirit",
+        "content": "There's nothing wrong with going a little crazy every now and then."
+    },
+    {
+        "id": 385,
+        "raw": "[Character(name=\"char_002_amiya_1\",name2=\"char_013_riop\",focus=2)]",
+        "type": "character",
+        "name": "char_002_amiya_1",
+        "name2": "char_013_riop",
+        "focus": 2
+    },
+    {
+        "id": 386,
+        "raw": "[name=\"Central Control Staff\"]If I knew I'd be sailing like this, I would've brought some booze.",
+        "type": "dialog",
+        "speaker": "Central Control Staff",
+        "content": "If I knew I'd be sailing like this, I would've brought some booze."
+    },
+    {
+        "id": 387,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 388,
+        "raw": "[Decision(options=\"Rhodes Island, all ahead full!\", values=\"1\")]",
+        "type": "decision",
+        "options": "Rhodes Island, all ahead full!",
+        "values": "1"
+    },
+    {
+        "id": 389,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 390,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 391,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 392,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 393,
+        "raw": "[CameraShake(duration=-1, xstrength=30, ystrength=30, vibrato=30, randomness=60, fadeout=false, block=false)]",
+        "type": "camera_shake",
+        "duration": "-1,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "30,",
+        "randomness": "60,",
+        "fadeout": "false,",
+        "block": false
+    },
+    {
+        "id": 394,
+        "raw": "[Image(image=\"bg_0_rhodes\", fadetime=0, xScale=1.4, yScale=1.4,x=100)]",
+        "type": "image",
+        "image": "bg_0_rhodes.png",
+        "fadetime": "0,",
+        "xScale": "1.4,",
+        "yScale": "1.4,x=100"
+    },
+    {
+        "id": 395,
+        "raw": "[PlaySound(key=\"$smallearthquake\",channel=\"bgs\", volume=1,block=false,loop=false)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_smallearthquake.mp3",
+        "channel": "bgs",
+        "volume": "1,block=false,loop=false"
+    },
+    {
+        "id": 396,
+        "raw": "[ImageTween(image=\"bg_0_rhodes\", fadetime=0.5, xScaleFrom=1.4, yScaleFrom=1.4, xScaleTo=1.2, yScaleTo=1.2,xFrom=100,xTo=-50,duration=30)]",
+        "type": "image_tween",
+        "image": "bg_0_rhodes",
+        "fadetime": "0.5,",
+        "xScaleFrom": "1.4,",
+        "yScaleFrom": "1.4,",
+        "xScaleTo": "1.2,",
+        "yScaleTo": "1.2,xFrom=100,xTo=-50,duration=30"
+    },
+    {
+        "id": 397,
+        "raw": "[Blocker(a=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 398,
+        "raw": "[Blocker(a=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 399,
+        "raw": "[name=\"Central Control Staff\"]I'm getting a nosebleed from this speed!",
+        "type": "dialog",
+        "speaker": "Central Control Staff",
+        "content": "I'm getting a nosebleed from this speed!"
+    },
+    {
+        "id": 400,
+        "raw": "[name=\"Navigator B\"]That's because I elbowed your nose... Sorry, but the whole place is shaking so much I can't control my limbs.",
+        "type": "dialog",
+        "speaker": "Navigator B",
+        "content": "That's because I elbowed your nose... Sorry, but the whole place is shaking so much I can't control my limbs."
+    },
+    {
+        "id": 401,
+        "raw": "[name=\"Central Control Staff\"]Is the seismic damper malfunctioning?",
+        "type": "dialog",
+        "speaker": "Central Control Staff",
+        "content": "Is the seismic damper malfunctioning?"
+    },
+    {
+        "id": 402,
+        "raw": "[name=\"Navigator B\"]Looks like it's not just my imagination - the whole ship's falling apart.",
+        "type": "dialog",
+        "speaker": "Navigator B",
+        "content": "Looks like it's not just my imagination - the whole ship's falling apart."
+    },
+    {
+        "id": 403,
+        "raw": "[name=\"Navigator B\"]Earthspirit, you haven't taken your eyes off the screen at all...",
+        "type": "dialog",
+        "speaker": "Navigator B",
+        "content": "Earthspirit, you haven't taken your eyes off the screen at all..."
+    },
+    {
+        "id": 404,
+        "raw": "[name=\"Earthspirit\"]Cyclone number two is continuing to move thirty degrees southeast, cyclone number three... cyclone number four...",
+        "type": "dialog",
+        "speaker": "Earthspirit",
+        "content": "Cyclone number two is continuing to move thirty degrees southeast, cyclone number three... cyclone number four..."
+    },
+    {
+        "id": 405,
+        "raw": "[name=\"Amiya\"]Doctor, hold my hand!",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Doctor, hold my hand!"
+    },
+    {
+        "id": 406,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 407,
+        "raw": "[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 408,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 409,
+        "raw": "[CameraShake(duration=0.2, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.2,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 410,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 411,
+        "raw": "[delay(time=0.6)]",
+        "type": "delay",
+        "time": 0.6
+    },
+    {
+        "id": 412,
+        "raw": "[image]",
+        "type": "image"
+    },
+    {
+        "id": 413,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 414,
+        "raw": "[Decision(options=\"I've got you, Amiya.\", values=\"1\")]",
+        "type": "decision",
+        "options": "I've got you, Amiya.",
+        "values": "1"
+    },
+    {
+        "id": 415,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 416,
+        "raw": "[Background]",
+        "type": "background"
+    },
+    {
+        "id": 417,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 418,
+        "raw": "[Blocker(a=0.4, r=255,g=0,b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0.4,",
+        "r": "255,g=0,b=0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 419,
+        "raw": "[PlaySound(key=\"$fightgeneral\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_fightgeneral.mp3",
+        "volume": 1
+    },
+    {
+        "id": 420,
+        "raw": "[Blocker(a=0, r=255,g=0,b=0, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,g=0,b=0,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 421,
+        "raw": "[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "40,",
+        "ystrength": "40,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 422,
+        "raw": "[Blocker(a=0, r=255,g=255, b=255, fadetime=0.1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,g=255,",
+        "b": "255,",
+        "fadetime": "0.1,",
+        "block": true
+    },
+    {
+        "id": 423,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 424,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 425,
+        "raw": "[Background(image=\"bg_bridge\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_bridge.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 426,
+        "raw": "[Blocker(a=0, r=0,g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 427,
+        "raw": "[character(name=\"char_002_amiya_1#5\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#5"
+    },
+    {
+        "id": 428,
+        "raw": "[name=\"Amiya\"]Doctor, did I step on your foot...?",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Doctor, did I step on your foot...?"
+    },
+    {
+        "id": 429,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 430,
+        "raw": "[Decision(options=\"Don't worry about it. You can hold on even tighter.;......;Your ears are making my face itchy.\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "Don't worry about it. You can hold on even tighter.;......;Your ears are making my face itchy.",
+        "values": "1;2;3"
+    },
+    {
+        "id": 431,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 432,
+        "raw": "[character(name=\"char_002_amiya_1#4\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#4"
+    },
+    {
+        "id": 433,
+        "raw": "[name=\"Amiya\"]Are we shaking less?",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Are we shaking less?"
+    },
+    {
+        "id": 434,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 435,
+        "raw": "[Decision(options=\"Hard right, now!!\", values=\"1\")]",
+        "type": "decision",
+        "options": "Hard right, now!!",
+        "values": "1"
+    },
+    {
+        "id": 436,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 437,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 438,
+        "raw": "[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "ystrength": "40,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 439,
+        "raw": "[PlaySound(key=\"$d_gen_explo_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_explo_n.mp3"
+    },
+    {
+        "id": 440,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 441,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.05,",
+        "block": true
+    },
+    {
+        "id": 442,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0.05, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.05,",
+        "block": true
+    },
+    {
+        "id": 443,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.05,",
+        "block": true
+    },
+    {
+        "id": 444,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 445,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 446,
+        "raw": "[Character(name=\"char_013_riop\")]",
+        "type": "character",
+        "name": "char_013_riop"
+    },
+    {
+        "id": 447,
+        "raw": "[name=\"Central Control Staff\"]Haah... I didn't even notice that strong wind just now. If it caught us, there's no telling if we would've been able to stabilize the hull at this speed!",
+        "type": "dialog",
+        "speaker": "Central Control Staff",
+        "content": "Haah... I didn't even notice that strong wind just now. If it caught us, there's no telling if we would've been able to stabilize the hull at this speed!"
+    },
+    {
+        "id": 448,
+        "raw": "[Character(name=\"char_013_riop\",name2=\"avg_npc_012\",focus=2)]",
+        "type": "character",
+        "name": "char_013_riop",
+        "name2": "avg_npc_012",
+        "focus": 2
+    },
+    {
+        "id": 449,
+        "raw": "[name=\"Navigator B\"]Did the downburst make contact with the ground?",
+        "type": "dialog",
+        "speaker": "Navigator B",
+        "content": "Did the downburst make contact with the ground?"
+    },
+    {
+        "id": 450,
+        "raw": "[character(name=\"char_183_skgoat_1\")]",
+        "type": "character",
+        "name": "char_183_skgoat_1"
+    },
+    {
+        "id": 451,
+        "raw": "[name=\"Earthspirit\"]Only two minutes until the core of the storm forms.",
+        "type": "dialog",
+        "speaker": "Earthspirit",
+        "content": "Only two minutes until the core of the storm forms."
+    },
+    {
+        "id": 452,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 453,
+        "raw": "[Decision(options=\"Maintain current trajectory and keep moving forward!\", values=\"1\")]",
+        "type": "decision",
+        "options": "Maintain current trajectory and keep moving forward!",
+        "values": "1"
+    },
+    {
+        "id": 454,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 455,
+        "raw": "[Character(name=\"char_013_riop\")]",
+        "type": "character",
+        "name": "char_013_riop"
+    },
+    {
+        "id": 456,
+        "raw": "[name=\"Central Control Staff\"]Wait, I see the cyclone!",
+        "type": "dialog",
+        "speaker": "Central Control Staff",
+        "content": "Wait, I see the cyclone!"
+    },
+    {
+        "id": 457,
+        "raw": "[name=\"Central Control Staff\"]There's one on the left and another on the right!",
+        "type": "dialog",
+        "speaker": "Central Control Staff",
+        "content": "There's one on the left and another on the right!"
+    },
+    {
+        "id": 458,
+        "raw": "[name=\"Central Control Staff\"]We're surrounded. Rhodes Island is going to collide in just two or three more minutes!",
+        "type": "dialog",
+        "speaker": "Central Control Staff",
+        "content": "We're surrounded. Rhodes Island is going to collide in just two or three more minutes!"
+    },
+    {
+        "id": 459,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 460,
+        "raw": "[Decision(options=\"Keep going.\", values=\"1\")]",
+        "type": "decision",
+        "options": "Keep going.",
+        "values": "1"
+    },
+    {
+        "id": 461,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 462,
+        "raw": "[Character(name=\"char_013_riop\")]",
+        "type": "character",
+        "name": "char_013_riop"
+    },
+    {
+        "id": 463,
+        "raw": "[name=\"Central Control Staff\"]It's impossible to avoid them! We don't have enough space to maneuver!",
+        "type": "dialog",
+        "speaker": "Central Control Staff",
+        "content": "It's impossible to avoid them! We don't have enough space to maneuver!"
+    },
+    {
+        "id": 464,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 465,
+        "raw": "[Decision(options=\"Trust me.\", values=\"1\")]",
+        "type": "decision",
+        "options": "Trust me.",
+        "values": "1"
+    },
+    {
+        "id": 466,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 467,
+        "raw": "[Character(name=\"char_013_riop\")]",
+        "type": "character",
+        "name": "char_013_riop"
+    },
+    {
+        "id": 468,
+        "raw": "[name=\"Central Control Staff\"]I'm trying real hard, Doctor!",
+        "type": "dialog",
+        "speaker": "Central Control Staff",
+        "content": "I'm trying real hard, Doctor!"
+    },
+    {
+        "id": 469,
+        "raw": "[name=\"Central Control Staff\"]But I don't trust myself so much!",
+        "type": "dialog",
+        "speaker": "Central Control Staff",
+        "content": "But I don't trust myself so much!"
+    },
+    {
+        "id": 470,
+        "raw": "[name=\"Central Control Staff\"]Forget it, if Amiya's with you, I'm on board too. Even if I have to tie my hand to the steering handle, I'll keep pushing it forward until the very end!",
+        "type": "dialog",
+        "speaker": "Central Control Staff",
+        "content": "Forget it, if Amiya's with you, I'm on board too. Even if I have to tie my hand to the steering handle, I'll keep pushing it forward until the very end!"
+    },
+    {
+        "id": 471,
+        "raw": "[name=\"Central Control Staff\"]I just regret agreeing to swap shifts with that stinky lad, George...",
+        "type": "dialog",
+        "speaker": "Central Control Staff",
+        "content": "I just regret agreeing to swap shifts with that stinky lad, George..."
+    },
+    {
+        "id": 472,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 473,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 474,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 475,
+        "raw": "[CameraShake(duration=-1, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=false, block=false)]",
+        "type": "camera_shake",
+        "duration": "-1,",
+        "xstrength": "15,",
+        "ystrength": "15,",
+        "vibrato": "20,",
+        "randomness": "70,",
+        "fadeout": "false,",
+        "block": false
+    },
+    {
+        "id": 476,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 477,
+        "raw": "[Image(image=\"avg_7_9\",xScale=1.2,yScale=1.2, fadetime=0)]",
+        "type": "image",
+        "image": "avg_7_9.png",
+        "xScale": "1.2,yScale=1.2,",
+        "fadetime": 0
+    },
+    {
+        "id": 478,
+        "raw": "[PlaySound(key=\"$blizzard\",channel=\"bgs\", volume=1,block=false,loop=false)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_amb_blizzard.mp3",
+        "channel": "bgs",
+        "volume": "1,block=false,loop=false"
+    },
+    {
+        "id": 479,
+        "raw": "[ImageTween(xFrom=-128, xTo=128, duration=5, block=false)]",
+        "type": "image_tween",
+        "xFrom": "-128,",
+        "xTo": "128,",
+        "duration": "5,",
+        "block": false
+    },
+    {
+        "id": 480,
+        "raw": "[Blocker(a=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 481,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 482,
+        "raw": "[Background(image=\"bg_black\",screenadapt=\"coverall\",fadetime=2)]",
+        "type": "background",
+        "image": "bg_black.png",
+        "screenadapt": "coverall",
+        "fadetime": 2
+    },
+    {
+        "id": 483,
+        "raw": "[name=\"Earthspirit\"]Seventy-five meters. Fifty meters. Thirty meters...",
+        "type": "dialog",
+        "speaker": "Earthspirit",
+        "content": "Seventy-five meters. Fifty meters. Thirty meters..."
+    },
+    {
+        "id": 484,
+        "raw": "[name=\"Navigator B\"](Gulps nervously) I've never seen a Catastrophe-cyclone up close before...",
+        "type": "dialog",
+        "speaker": "Navigator B",
+        "content": "(Gulps nervously) I've never seen a Catastrophe-cyclone up close before..."
+    },
+    {
+        "id": 485,
+        "raw": "[name=\"Amiya\"]Doctor...",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Doctor..."
+    },
+    {
+        "id": 486,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 487,
+        "raw": "[Decision(options=\"Amiya, are you afraid?;......;You're hurting my hand.\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "Amiya, are you afraid?;......;You're hurting my hand.",
+        "values": "1;2;3"
+    },
+    {
+        "id": 488,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 489,
+        "raw": "[name=\"Amiya\"]I'm a bit nervous, but I'm not afraid.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "I'm a bit nervous, but I'm not afraid."
+    },
+    {
+        "id": 490,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 491,
+        "raw": "[name=\"Amiya\"]I am a little nervous. But rest assured, Doctor, I'm not afraid.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "I am a little nervous. But rest assured, Doctor, I'm not afraid."
+    },
+    {
+        "id": 492,
+        "raw": "[Predicate(references=\"3\")]",
+        "type": "predicate",
+        "references": "3"
+    },
+    {
+        "id": 493,
+        "raw": "[name=\"Amiya\"]Sorry, Doctor, I'm a bit nervous. But I'm not afraid.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Sorry, Doctor, I'm a bit nervous. But I'm not afraid."
+    },
+    {
+        "id": 494,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 495,
+        "raw": "[name=\"Amiya\"]We've been through times like this together before.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "We've been through times like this together before."
+    },
+    {
+        "id": 496,
+        "raw": "[name=\"Amiya\"]The closer we might be to despair, the bigger everyone's hopes are, the more incredible the outcome will be.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "The closer we might be to despair, the bigger everyone's hopes are, the more incredible the outcome will be."
+    },
+    {
+        "id": 497,
+        "raw": "[name=\"Amiya\"]Doctor, this is what you taught me.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Doctor, this is what you taught me."
+    },
+    {
+        "id": 498,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 499,
+        "raw": "[Decision(options=\"Hope comes from the commitment to never give in, even at the bitter end.\", values=\"1\")]",
+        "type": "decision",
+        "options": "Hope comes from the commitment to never give in, even at the bitter end.",
+        "values": "1"
+    },
+    {
+        "id": 500,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 501,
+        "raw": "[name=\"Amiya\"]Yes, Doctor, you once said the exact same words.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Yes, Doctor, you once said the exact same words."
+    },
+    {
+        "id": 502,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 503,
+        "raw": "[PlaySound(key=\"$alarmenter\",channel=\"bgs\", volume=1,block=false,loop=true)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/battle/b_ui/b_ui_alarmenter.mp3",
+        "channel": "bgs",
+        "volume": "1,block=false,loop=true"
+    },
+    {
+        "id": 504,
+        "raw": "[Blocker(a=0.4, r=255,g=0,b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0.4,",
+        "r": "255,g=0,b=0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 505,
+        "raw": "[Blocker(a=0, r=255,g=0,b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,g=0,b=0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 506,
+        "raw": "[Blocker(a=0.4, r=255,g=0,b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0.4,",
+        "r": "255,g=0,b=0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 507,
+        "raw": "[StopSound(channel=\"bgs\", fadetime=0)]",
+        "type": "stop_sound",
+        "channel": "bgs",
+        "fadetime": 0
+    },
+    {
+        "id": 508,
+        "raw": "[Blocker(a=0, r=255,g=0,b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,g=0,b=0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 509,
+        "raw": "[Blocker(a=0.4, r=255,g=0,b=0, fadetime=0.7, block=false)]",
+        "type": "blocker",
+        "a": "0.4,",
+        "r": "255,g=0,b=0,",
+        "fadetime": "0.7,",
+        "block": false
+    },
+    {
+        "id": 510,
+        "raw": "[playsound(key=\"$d_gen_transmissionget\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_transmissionget.mp3"
+    },
+    {
+        "id": 511,
+        "raw": "'Red alert, red alert...'",
+        "type": "narration",
+        "content": "'Red alert, red alert...'"
+    },
+    {
+        "id": 512,
+        "raw": "'Attention everyone, prepare for impact!'",
+        "type": "narration",
+        "content": "'Attention everyone, prepare for impact!'"
+    },
+    {
+        "id": 513,
+        "raw": "[name=\"Amiya\"]Just like before, we'll get through this crisis together.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Just like before, we'll get through this crisis together."
+    },
+    {
+        "id": 514,
+        "raw": "[Image(fadetime=1)]",
+        "type": "image",
+        "fadetime": 1
+    },
+    {
+        "id": 515,
+        "raw": "[Musicvolume(volume=0,fadetime=1)]",
+        "type": "music_volume",
+        "volume": "0,fadetime=1"
+    },
+    {
+        "id": 516,
+        "raw": "[Background(image=\"bg_black\",screenadapt=\"coverall\",fadetime=2)]",
+        "type": "background",
+        "image": "bg_black.png",
+        "screenadapt": "coverall",
+        "fadetime": 2
+    },
+    {
+        "id": 517,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 518,
+        "raw": "[character]",
+        "type": "character"
+    },
+    {
+        "id": 519,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 520,
+        "raw": "[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "ystrength": "40,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 521,
+        "raw": "[stopmusic(fadetime=3)]",
+        "type": "stop_music",
+        "fadetime": 3
+    },
+    {
+        "id": 522,
+        "raw": "[PlaySound(key=\"$d_gen_explo_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_explo_n.mp3"
+    },
+    {
+        "id": 523,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 524,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.05,",
+        "block": true
+    },
+    {
+        "id": 525,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0.05, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.05,",
+        "block": true
+    },
+    {
+        "id": 526,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.05,",
+        "block": true
+    },
+    {
+        "id": 527,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 528,
+        "raw": "[delay(time=2.5)]",
+        "type": "delay",
+        "time": 2.5
+    },
+    {
+        "id": 529,
+        "raw": "[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 530,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 531,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 532,
+        "raw": "[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "15,",
+        "ystrength": "15,",
+        "vibrato": "20,",
+        "randomness": "70,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 533,
+        "raw": "[Background(image=\"bg_0_rhodes3\",screenadapt=\"coverall\",fadetime=5)]",
+        "type": "background",
+        "image": "bg_0_rhodes3.png",
+        "screenadapt": "coverall",
+        "fadetime": 5
+    },
+    {
+        "id": 534,
+        "raw": "[CameraShake(duration=3, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "3,",
+        "xstrength": "15,",
+        "ystrength": "15,",
+        "vibrato": "20,",
+        "randomness": "70,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 535,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=4, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "4,",
+        "block": true
+    },
+    {
+        "id": 536,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 537,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 538,
+        "raw": "[playMusic(intro=\"$warm_intro\", key=\"$warm_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act9d0d0/m_avg_warm_intro.mp3",
+        "key": "sound_beta_2/music/act9d0d0/m_avg_warm_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 539,
+        "raw": "[Decision(options=\"Yes, we survived back then.;Look.;I think my record's looking pretty good.\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "Yes, we survived back then.;Look.;I think my record's looking pretty good.",
+        "values": "1;2;3"
+    },
+    {
+        "id": 540,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 541,
+        "raw": "[name=\"Amiya\"]The wind is subsiding... and the color of the sky is changing too.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "The wind is subsiding... and the color of the sky is changing too."
+    },
+    {
+        "id": 542,
+        "raw": "[name=\"Navigator B\"]Report, Rhodes Island has left the Catastrophe zone!!",
+        "type": "dialog",
+        "speaker": "Navigator B",
+        "content": "Report, Rhodes Island has left the Catastrophe zone!!"
+    },
+    {
+        "id": 543,
+        "raw": "[name=\"Navigator B\"]The damage to all deck levels is less than 5%, and nobody was injured!",
+        "type": "dialog",
+        "speaker": "Navigator B",
+        "content": "The damage to all deck levels is less than 5%, and nobody was injured!"
+    },
+    {
+        "id": 544,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 545,
+        "raw": "[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 546,
+        "raw": "[StopSound(channel=\"bgs\", fadetime=1)]",
+        "type": "stop_sound",
+        "channel": "bgs",
+        "fadetime": 1
+    },
+    {
+        "id": 547,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 548,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 549,
+        "raw": "[Background(image=\"bg_bridge\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_bridge.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 550,
+        "raw": "[delay(time=0.6)]",
+        "type": "delay",
+        "time": 0.6
+    },
+    {
+        "id": 551,
+        "raw": "[Blocker(a=0, r=0,g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 552,
+        "raw": "[Musicvolume(volume=0.4,fadetime=1)]",
+        "type": "music_volume",
+        "volume": "0.4,fadetime=1"
+    },
+    {
+        "id": 553,
+        "raw": "[character(name=\"char_002_amiya_1#4\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#4"
+    },
+    {
+        "id": 554,
+        "raw": "[name=\"Amiya\"]Thank goodness...",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Thank goodness..."
+    },
+    {
+        "id": 555,
+        "raw": "[Character(name=\"char_013_riop\",name2=\"avg_npc_012\",focus=1)]",
+        "type": "character",
+        "name": "char_013_riop",
+        "name2": "avg_npc_012",
+        "focus": 1
+    },
+    {
+        "id": 556,
+        "raw": "[name=\"Central Control Staff\"]My nose hurtsssss... Pavel, do you know you hit my nose again?",
+        "type": "dialog",
+        "speaker": "Central Control Staff",
+        "content": "My nose hurtsssss... Pavel, do you know you hit my nose again?"
+    },
+    {
+        "id": 557,
+        "raw": "[Character(name=\"char_013_riop\",name2=\"avg_npc_012\",focus=2)]",
+        "type": "character",
+        "name": "char_013_riop",
+        "name2": "avg_npc_012",
+        "focus": 2
+    },
+    {
+        "id": 558,
+        "raw": "[name=\"Navigator B\"]So what if I did? We're alive, I say! Alive!",
+        "type": "dialog",
+        "speaker": "Navigator B",
+        "content": "So what if I did? We're alive, I say! Alive!"
+    },
+    {
+        "id": 559,
+        "raw": "[Character(name=\"char_013_riop\",name2=\"avg_npc_012\",focus=1)]",
+        "type": "character",
+        "name": "char_013_riop",
+        "name2": "avg_npc_012",
+        "focus": 1
+    },
+    {
+        "id": 560,
+        "raw": "[name=\"Central Control Staff\"]Fine, but you owe me a drink.",
+        "type": "dialog",
+        "speaker": "Central Control Staff",
+        "content": "Fine, but you owe me a drink."
+    },
+    {
+        "id": 561,
+        "raw": "[Character(name=\"char_013_riop\",name2=\"avg_npc_012\",focus=2)]",
+        "type": "character",
+        "name": "char_013_riop",
+        "name2": "avg_npc_012",
+        "focus": 2
+    },
+    {
+        "id": 562,
+        "raw": "[name=\"Navigator B\"]Whatever you want, it's on my tab. I almost made a big mistake.",
+        "type": "dialog",
+        "speaker": "Navigator B",
+        "content": "Whatever you want, it's on my tab. I almost made a big mistake."
+    },
+    {
+        "id": 563,
+        "raw": "[name=\"Navigator B\"]Doctor, it's all thanks to you!",
+        "type": "dialog",
+        "speaker": "Navigator B",
+        "content": "Doctor, it's all thanks to you!"
+    },
+    {
+        "id": 564,
+        "raw": "[Character(name=\"char_183_skgoat_1\")]",
+        "type": "character",
+        "name": "char_183_skgoat_1"
+    },
+    {
+        "id": 565,
+        "raw": "[name=\"Earthspirit\"]Absolutely brilliant calculations, Doctor.",
+        "type": "dialog",
+        "speaker": "Earthspirit",
+        "content": "Absolutely brilliant calculations, Doctor."
+    },
+    {
+        "id": 566,
+        "raw": "[Character(name=\"char_013_riop\")]",
+        "type": "character",
+        "name": "char_013_riop"
+    },
+    {
+        "id": 567,
+        "raw": "[name=\"Central Control Staff\"]Doctor, is your command always so thrilling? Haha, I'd like to get another taste of that sometime!",
+        "type": "dialog",
+        "speaker": "Central Control Staff",
+        "content": "Doctor, is your command always so thrilling? Haha, I'd like to get another taste of that sometime!"
+    },
+    {
+        "id": 568,
+        "raw": "[Character(name=\"avg_npc_088\")]",
+        "type": "character",
+        "name": "avg_npc_088"
+    },
+    {
+        "id": 569,
+        "raw": "[name=\"Navigator A\"]Doctor, how in the world did you pull that off? It's like you've got prophetic Arts or something, suddenly showing up on the bridge right before we get hit by a Catastrophe!",
+        "type": "dialog",
+        "speaker": "Navigator A",
+        "content": "Doctor, how in the world did you pull that off? It's like you've got prophetic Arts or something, suddenly showing up on the bridge right before we get hit by a Catastrophe!"
+    },
+    {
+        "id": 570,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 571,
+        "raw": "[Decision(options=\"To be fair, I was pretty anxious through that whole thing.;......;Shouldn't we celebrate?\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "To be fair, I was pretty anxious through that whole thing.;......;Shouldn't we celebrate?",
+        "values": "1;2;3"
+    },
+    {
+        "id": 572,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 573,
+        "raw": "[character(name=\"char_002_amiya_1#2\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#2"
+    },
+    {
+        "id": 574,
+        "raw": "[name=\"Amiya\"]Doctor...",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Doctor..."
+    },
+    {
+        "id": 575,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 576,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 577,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 578,
+        "raw": "[Subtitle(text=\"Amiya hugs you suddenly, and you realize that the hands on your waist are squeezing you tighter than they were at any point during the storm.\", x=300, y=370, alignment=\"center\", size=24, delay=0.04, width=700)]",
+        "type": "subtitle",
+        "text": "Amiya hugs you suddenly, and you realize that the hands on your waist are squeezing you tighter than they were at any point during the storm.",
+        "x": "300,",
+        "y": "370,",
+        "alignment": "center",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": 700
+    },
+    {
+        "id": 579,
+        "raw": "[subtitle]",
+        "type": "subtitle"
+    },
+    {
+        "id": 580,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 581,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 582,
+        "raw": "[character(name=\"char_002_amiya_1#10\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#10"
+    },
+    {
+        "id": 583,
+        "raw": "[name=\"Amiya\"]Thank you... Thank you standing by my side.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Thank you... Thank you standing by my side."
+    },
+    {
+        "id": 584,
+        "raw": "[stopmusic(fadetime=3)]",
+        "type": "stop_music",
+        "fadetime": 3
+    },
+    {
+        "id": 585,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 586,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 587,
+        "raw": "[stopmusic(fadetime=1)]",
+        "type": "stop_music",
+        "fadetime": 1
+    },
+    {
+        "id": 588,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 589,
+        "raw": "[Background(image=\"bg_room_2\")]",
+        "type": "background",
+        "image": "bg_room_2.png"
+    },
+    {
+        "id": 590,
+        "raw": "[Delay(time=3)]",
+        "type": "delay",
+        "time": 3
+    },
+    {
+        "id": 591,
+        "raw": "[playMusic(intro=\"$newhope01_intro\", key=\"$newhope01_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta3_181101/m_dia_newhope01_intro.mp3",
+        "key": "sound_beta_2/music/beta3_181101/m_dia_newhope01_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 592,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 593,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 594,
+        "raw": "[Character(name=\"char_003_kalts_1#3\",fadetime=0.3,block=true)]",
+        "type": "character",
+        "name": "char_003_kalts_1#3",
+        "fadetime": "0.3,block=true"
+    },
+    {
+        "id": 595,
+        "raw": "[name=\"Kal'tsit\"]Not half bad.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Not half bad."
+    },
+    {
+        "id": 596,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 597,
+        "raw": "[Decision(options=\"I did what I had to do.;......;Thanks.\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "I did what I had to do.;......;Thanks.",
+        "values": "1;2;3"
+    },
+    {
+        "id": 598,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 599,
+        "raw": "[name=\"Kal'tsit\"]The relationship between the self-replication speed of Originium and the increase in energy— you applied this knowledge to the calculation of wind-Catastrophe trajectories.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "The relationship between the self-replication speed of Originium and the increase in energy— you applied this knowledge to the calculation of wind-Catastrophe trajectories."
+    },
+    {
+        "id": 600,
+        "raw": "[name=\"Kal'tsit\"]You demonstrated similar abilities in the past, helping your colleagues at the time mitigate losses from Catastrophes. Some called you a Catastrophe expert.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "You demonstrated similar abilities in the past, helping your colleagues at the time mitigate losses from Catastrophes. Some called you a Catastrophe expert."
+    },
+    {
+        "id": 601,
+        "raw": "[name=\"Kal'tsit\"]But we both know what you really specialize in.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "But we both know what you really specialize in."
+    },
+    {
+        "id": 602,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 603,
+        "raw": "[Decision(options=\"What do I specialize in?;......;Look, I really don't know.\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "What do I specialize in?;......;Look, I really don't know.",
+        "values": "1;2;3"
+    },
+    {
+        "id": 604,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 605,
+        "raw": "[name=\"Kal'tsit\"]That formula... You still remember it.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "That formula... You still remember it."
+    },
+    {
+        "id": 606,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 607,
+        "raw": "[Decision(options=\"I didn't remember it before.;It jumped right into my head.\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "I didn't remember it before.;It jumped right into my head.",
+        "values": "1;2"
+    },
+    {
+        "id": 608,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 609,
+        "raw": "[name=\"Kal'tsit\"]You created that formula yourself.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "You created that formula yourself."
+    },
+    {
+        "id": 610,
+        "raw": "[name=\"Kal'tsit\"]You've recovered a lot of information about Originium and Catastrophes over the past month, and you left a lot of calculations in your notes.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "You've recovered a lot of information about Originium and Catastrophes over the past month, and you left a lot of calculations in your notes."
+    },
+    {
+        "id": 611,
+        "raw": "[name=\"Kal'tsit\"]Perhaps the sudden crisis dredged up the latent memories from deep inside your consciousness, or perhaps you reinvented it using the knowledge you left behind.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Perhaps the sudden crisis dredged up the latent memories from deep inside your consciousness, or perhaps you reinvented it using the knowledge you left behind."
+    },
+    {
+        "id": 612,
+        "raw": "[name=\"Kal'tsit\"]The fact that you could recall this formula proves that you still retain a basic understanding of the nature of Originium.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "The fact that you could recall this formula proves that you still retain a basic understanding of the nature of Originium."
+    },
+    {
+        "id": 613,
+        "raw": "[name=\"Kal'tsit\"]In other words, you've never forgotten your identity as a researcher of Originium.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "In other words, you've never forgotten your identity as a researcher of Originium."
+    },
+    {
+        "id": 614,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 615,
+        "raw": "[Decision(options=\"I want to continue this line of research.;This seems to be my duty.\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "I want to continue this line of research.;This seems to be my duty.",
+        "values": "1;2"
+    },
+    {
+        "id": 616,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 617,
+        "raw": "[name=\"Kal'tsit\"]You may see the study of Originium as your duty, but know that our actions should never be restricted by duty alone.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "You may see the study of Originium as your duty, but know that our actions should never be restricted by duty alone."
+    },
+    {
+        "id": 618,
+        "raw": "[name=\"Kal'tsit\"]Dr. {@nickname}, what drives you to pursue the study of Originium so fervently?",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Dr. {@nickname}, what drives you to pursue the study of Originium so fervently?"
+    },
+    {
+        "id": 619,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 620,
+        "raw": "[Decision(options=\"Both you and Amiya have Oripathy.;The suffering caused by Originium scars our world.;I want to bring an end to this calamity.\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "Both you and Amiya have Oripathy.;The suffering caused by Originium scars our world.;I want to bring an end to this calamity.",
+        "values": "1;2;3"
+    },
+    {
+        "id": 621,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 622,
+        "raw": "[name=\"Kal'tsit\"]I once heard an answer to this question.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "I once heard an answer to this question."
+    },
+    {
+        "id": 623,
+        "raw": "[name=\"Kal'tsit\"]It was very similar to what you said today, but also completely different.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "It was very similar to what you said today, but also completely different."
+    },
+    {
+        "id": 624,
+        "raw": "[name=\"Kal'tsit\"]The person who uttered those words had an instinctive desire to unravel truths unknown, and also worked hard to save lives.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "The person who uttered those words had an instinctive desire to unravel truths unknown, and also worked hard to save lives."
+    },
+    {
+        "id": 625,
+        "raw": "[name=\"Kal'tsit\"]But sometimes, salvation also meant destruction— that is what the same person told me.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "But sometimes, salvation also meant destruction— that is what the same person told me."
+    },
+    {
+        "id": 626,
+        "raw": "[name=\"Kal'tsit\"]Do you still harbor that same answer deep within your brain?",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Do you still harbor that same answer deep within your brain?"
+    },
+    {
+        "id": 627,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 628,
+        "raw": "[Decision(options=\"Does it still count as being there even if I don't remember it?;......;Whatever makes you happy.\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "Does it still count as being there even if I don't remember it?;......;Whatever makes you happy.",
+        "values": "1;2;3"
+    },
+    {
+        "id": 629,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 630,
+        "raw": "[name=\"Kal'tsit\"]Amiya said your performance on the bridge today was much like that of an actual 'prophet.'",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Amiya said your performance on the bridge today was much like that of an actual 'prophet.'"
+    },
+    {
+        "id": 631,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 632,
+        "raw": "[Decision(options=\"I did my homework.;......;Why are you staring at me like that?\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "I did my homework.;......;Why are you staring at me like that?",
+        "values": "1;2;3"
+    },
+    {
+        "id": 633,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 634,
+        "raw": "[name=\"Kal'tsit\"]The rational part of me wants to believe in science.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "The rational part of me wants to believe in science."
+    },
+    {
+        "id": 635,
+        "raw": "[name=\"Kal'tsit\"]When the results of your first brain examination came back, I thought I saw some errors in the process, and so there was a second time, a third time... and even a seventh time.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "When the results of your first brain examination came back, I thought I saw some errors in the process, and so there was a second time, a third time... and even a seventh time."
+    },
+    {
+        "id": 636,
+        "raw": "[name=\"Kal'tsit\"]The rational part of me told me that repeating the same results three times was enough to prove that you weren't lying.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "The rational part of me told me that repeating the same results three times was enough to prove that you weren't lying."
+    },
+    {
+        "id": 637,
+        "raw": "[name=\"Kal'tsit\"]Without a shadow of a doubt, you really did lose a lot of your memories. You don't remember what you did to Theresa, and you forgot why you were standing here in the first place.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Without a shadow of a doubt, you really did lose a lot of your memories. You don't remember what you did to Theresa, and you forgot why you were standing here in the first place."
+    },
+    {
+        "id": 638,
+        "raw": "[name=\"Kal'tsit\"]All of this has caused a significant... dichotomy between you and the person I once knew.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "All of this has caused a significant... dichotomy between you and the person I once knew."
+    },
+    {
+        "id": 639,
+        "raw": "[name=\"Kal'tsit\"]But just like I allowed you to do the seventh test, in this moment, I once again find myself doubting... Who exactly is standing in front of me?",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "But just like I allowed you to do the seventh test, in this moment, I once again find myself doubting... Who exactly is standing in front of me?"
+    },
+    {
+        "id": 640,
+        "raw": "[name=\"Kal'tsit\"]How much of the past remains, and how much of you blooms anew?",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "How much of the past remains, and how much of you blooms anew?"
+    },
+    {
+        "id": 641,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 642,
+        "raw": "[Decision(options=\"You're being sentimental again.;It felt terrible having to sit through seven exams.\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "You're being sentimental again.;It felt terrible having to sit through seven exams.",
+        "values": "1;2"
+    },
+    {
+        "id": 643,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 644,
+        "raw": "[name=\"Kal'tsit\"]Perhaps, I won't deny it. Dealing with you always has a tendency to sway my emotions.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Perhaps, I won't deny it. Dealing with you always has a tendency to sway my emotions."
+    },
+    {
+        "id": 645,
+        "raw": "[name=\"Kal'tsit\"]But this is also born of extreme rationality.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "But this is also born of extreme rationality."
+    },
+    {
+        "id": 646,
+        "raw": "[name=\"Kal'tsit\"]I hope you understand, there can be errors in our measurements. And in your case, I can no longer tolerate any errors.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "I hope you understand, there can be errors in our measurements. And in your case, I can no longer tolerate any errors."
+    },
+    {
+        "id": 647,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 648,
+        "raw": "[name=\"Kal'tsit\"]I would like to apologize to you regarding this matter.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "I would like to apologize to you regarding this matter."
+    },
+    {
+        "id": 649,
+        "raw": "[name=\"Kal'tsit\"]But taking a better grasp of your memory recuperation will also have real benefits for your body.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "But taking a better grasp of your memory recuperation will also have real benefits for your body."
+    },
+    {
+        "id": 650,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 651,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 652,
+        "raw": "[Decision(options=\"There's something I've wanted to ask for a long time.\", values=\"1\")]",
+        "type": "decision",
+        "options": "There's something I've wanted to ask for a long time.",
+        "values": "1"
+    },
+    {
+        "id": 653,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 654,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 655,
+        "raw": "[Decision(options=\"Setting aside your role as a doctor, do you want me to regain my memories?\", values=\"1\")]",
+        "type": "decision",
+        "options": "Setting aside your role as a doctor, do you want me to regain my memories?",
+        "values": "1"
+    },
+    {
+        "id": 656,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 657,
+        "raw": "[name=\"Kal'tsit\"]Situations are rarely black and white... and the same is true of human emotions.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Situations are rarely black and white... and the same is true of human emotions."
+    },
+    {
+        "id": 658,
+        "raw": "[name=\"Kal'tsit\"]I've not concealed my hatred for you in the past, but... no matter how much I hate to admit it, there's something else there too.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "I've not concealed my hatred for you in the past, but... no matter how much I hate to admit it, there's something else there too."
+    },
+    {
+        "id": 659,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 660,
+        "raw": "[Decision(options=\"You want me doing everything I could before.;Do you miss the person you hate?;You're searching for the truth of the past.\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "You want me doing everything I could before.;Do you miss the person you hate?;You're searching for the truth of the past.",
+        "values": "1;2;3"
+    },
+    {
+        "id": 661,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 662,
+        "raw": "[name=\"Kal'tsit\"]If it's only strength I needed, I believe that you are good enough as you are... Perhaps, you can do even better.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "If it's only strength I needed, I believe that you are good enough as you are... Perhaps, you can do even better."
+    },
+    {
+        "id": 663,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 664,
+        "raw": "[Character(name=\"char_003_kalts_1#3\")]",
+        "type": "character",
+        "name": "char_003_kalts_1#3"
+    },
+    {
+        "id": 665,
+        "raw": "[name=\"Kal'tsit\"]Do I... 'miss'...?",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Do I... 'miss'...?"
+    },
+    {
+        "id": 666,
+        "raw": "[name=\"Kal'tsit\"]That word is far too simple. The languages of this world have developed over thousands of years, and yet I am still unable to choose the most suitable word to order my thoughts during the many moments I think about you.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "That word is far too simple. The languages of this world have developed over thousands of years, and yet I am still unable to choose the most suitable word to order my thoughts during the many moments I think about you."
+    },
+    {
+        "id": 667,
+        "raw": "[Predicate(references=\"3\")]",
+        "type": "predicate",
+        "references": "3"
+    },
+    {
+        "id": 668,
+        "raw": "[name=\"Kal'tsit\"]Without a doubt, I seek that answer.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Without a doubt, I seek that answer."
+    },
+    {
+        "id": 669,
+        "raw": "[name=\"Kal'tsit\"]Ideally, I want to hear the truth from your mouth. But I will not give up looking for that truth in other ways.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Ideally, I want to hear the truth from your mouth. But I will not give up looking for that truth in other ways."
+    },
+    {
+        "id": 670,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 671,
+        "raw": "[name=\"Kal'tsit\"]Now, it's my turn to ask you.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Now, it's my turn to ask you."
+    },
+    {
+        "id": 672,
+        "raw": "[name=\"Kal'tsit\"]Dr. {@nickname}, do you want your memories back?",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Dr. {@nickname}, do you want your memories back?"
+    },
+    {
+        "id": 673,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 674,
+        "raw": "[Decision(options=\"I do.;I don't.\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "I do.;I don't.",
+        "values": "1;2"
+    },
+    {
+        "id": 675,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 676,
+        "raw": "[name=\"Kal'tsit\"]Your answer doesn't matter. I see your hesitation.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Your answer doesn't matter. I see your hesitation."
+    },
+    {
+        "id": 677,
+        "raw": "[name=\"Kal'tsit\"]Once your memories come back, many of your questions will be answered. However, not every answer will satisfy you.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Once your memories come back, many of your questions will be answered. However, not every answer will satisfy you."
+    },
+    {
+        "id": 678,
+        "raw": "[name=\"Kal'tsit\"]You will know where all the emotions pouring into you come from, whether it is the hatred from me and W, the unconditional trust from Amiya, or... even further back.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "You will know where all the emotions pouring into you come from, whether it is the hatred from me and W, the unconditional trust from Amiya, or... even further back."
+    },
+    {
+        "id": 679,
+        "raw": "[name=\"Kal'tsit\"]Excess memories, intense emotions, will instantly flood your entire brain—",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Excess memories, intense emotions, will instantly flood your entire brain—"
+    },
+    {
+        "id": 680,
+        "raw": "[name=\"Kal'tsit\"]Trust me, what you will feel at that time will be far greater than exhaustion.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Trust me, what you will feel at that time will be far greater than exhaustion."
+    },
+    {
+        "id": 681,
+        "raw": "[name=\"Kal'tsit\"]What you should fear even more is, when the past finally catches up to you, you must decide.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "What you should fear even more is, when the past finally catches up to you, you must decide."
+    },
+    {
+        "id": 682,
+        "raw": "[name=\"Kal'tsit\"]What if those memories are too strong and engulf all the hard work you've put in recently, and pull you back into the abyss that you failed to crawl out of over countless years?",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "What if those memories are too strong and engulf all the hard work you've put in recently, and pull you back into the abyss that you failed to crawl out of over countless years?"
+    },
+    {
+        "id": 683,
+        "raw": "[name=\"Kal'tsit\"]Once the current you is defeated, everything you've worked so hard to build will collapse, and your will may no longer be your own.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Once the current you is defeated, everything you've worked so hard to build will collapse, and your will may no longer be your own."
+    },
+    {
+        "id": 684,
+        "raw": "[name=\"Kal'tsit\"]So, let me ask you once more—",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "So, let me ask you once more—"
+    },
+    {
+        "id": 685,
+        "raw": "[name=\"Kal'tsit\"]Dr. {@nickname}, are you ready?",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Dr. {@nickname}, are you ready?"
+    },
+    {
+        "id": 686,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 687,
+        "raw": "[Decision(options=\"......\", values=\"1\")]",
+        "type": "decision",
+        "options": "......",
+        "values": "1"
+    },
+    {
+        "id": 688,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 689,
+        "raw": "[name=\"Kal'tsit\"]If luck is on our side, you won't need to answer this question any time soon.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "If luck is on our side, you won't need to answer this question any time soon."
+    },
+    {
+        "id": 690,
+        "raw": "[name=\"Kal'tsit\"]I want to thank you. Over the past month or so, you've shown me some new possibilities.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "I want to thank you. Over the past month or so, you've shown me some new possibilities."
+    },
+    {
+        "id": 691,
+        "raw": "[name=\"Kal'tsit\"]Especially today. I learned that you still remember the formula.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Especially today. I learned that you still remember the formula."
+    },
+    {
+        "id": 692,
+        "raw": "[Character(name=\"char_003_kalts_1#4\")]",
+        "type": "character",
+        "name": "char_003_kalts_1#4"
+    },
+    {
+        "id": 693,
+        "raw": "[name=\"Kal'tsit\"]It turns out, you and I are not the only ones preparing for that day.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "It turns out, you and I are not the only ones preparing for that day."
+    },
+    {
+        "id": 694,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 695,
+        "raw": "[name=\"Kal'tsit\"]I suspected this long ago, that home-use life functions restoration device was not supposed to have the defect of deleting one's memory—",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "I suspected this long ago, that home-use life functions restoration device was not supposed to have the defect of deleting one's memory—"
+    },
+    {
+        "id": 696,
+        "raw": "[name=\"Kal'tsit\"]In particular, it's impossible to selectively delete the part of the brain most likely involved in decision-making, but still retaining the parts most meaningful to you.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "In particular, it's impossible to selectively delete the part of the brain most likely involved in decision-making, but still retaining the parts most meaningful to you."
+    },
+    {
+        "id": 697,
+        "raw": "[name=\"Kal'tsit\"]Dr. {@nickname}......",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Dr. {@nickname}......"
+    },
+    {
+        "id": 698,
+        "raw": "[name=\"Kal'tsit\"]What I think is, she trusted you even more than I could fathom in the past.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "What I think is, she trusted you even more than I could fathom in the past."
+    },
+    {
+        "id": 699,
+        "raw": "[name=\"Kal'tsit\"]That being the case, we should continue to work hard.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "That being the case, we should continue to work hard."
+    },
+    {
+        "id": 700,
+        "raw": "[name=\"Kal'tsit\"]Just as I've said countless times already, I will help you, as long as we continue to stand together.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Just as I've said countless times already, I will help you, as long as we continue to stand together."
+    },
+    {
+        "id": 701,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 702,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 703,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 704,
+        "raw": "[stopmusic(fadetime=1)]",
+        "type": "stop_music",
+        "fadetime": 1
+    },
+    {
+        "id": 705,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 706,
+        "raw": "[Background(image=\"bg_rhodescom\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_rhodescom.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 707,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 708,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 709,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 710,
+        "raw": "7:43 P.M. \\ Overcast",
+        "type": "narration",
+        "content": "7:43 P.M. \\ Overcast"
+    },
+    {
+        "id": 711,
+        "raw": "Rhodes Island Landship, Command Center",
+        "type": "narration",
+        "content": "Rhodes Island Landship, Command Center"
+    },
+    {
+        "id": 712,
+        "raw": "[PlaySound(key=\"$doorknockquite\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_doorknockquite.mp3",
+        "volume": 1
+    },
+    {
+        "id": 713,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 714,
+        "raw": "[name=\"???\"]Professor, are you here?",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "Professor, are you here?"
+    },
+    {
+        "id": 715,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 716,
+        "raw": "[Decision(options=\"Eyjafjalla? Come in.\", values=\"1\")]",
+        "type": "decision",
+        "options": "Eyjafjalla? Come in.",
+        "values": "1"
+    },
+    {
+        "id": 717,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 718,
+        "raw": "[Character(name=\"char_empty\")]",
+        "type": "character",
+        "name": "char_empty"
+    },
+    {
+        "id": 719,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 720,
+        "raw": "[characteraction(name=\"middle\", type=\"move\", xpos=200, fadetime=0.3, block=true)]",
+        "type": "move",
+        "name": "middle",
+        "xpos": "200,",
+        "fadetime": "0.3,",
+        "block": true
+    },
+    {
+        "id": 721,
+        "raw": "[delay(time=0.51)]",
+        "type": "delay",
+        "time": 0.51
+    },
+    {
+        "id": 722,
+        "raw": "[characteraction(name=\"middle\", type=\"move\", xpos=-200, fadetime=1, block=false)]",
+        "type": "move",
+        "name": "middle",
+        "xpos": "-200,",
+        "fadetime": "1,",
+        "block": false
+    },
+    {
+        "id": 723,
+        "raw": "[Character(name=\"char_180_amgoat_1\")]",
+        "type": "character",
+        "name": "char_180_amgoat_1"
+    },
+    {
+        "id": 724,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 725,
+        "raw": "[name=\"Eyjafjalla\"]Professor, they said you wanted to see me...",
+        "type": "dialog",
+        "speaker": "Eyjafjalla",
+        "content": "Professor, they said you wanted to see me..."
+    },
+    {
+        "id": 726,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 727,
+        "raw": "[Decision(options=\"This is for you.\", values=\"1\")]",
+        "type": "decision",
+        "options": "This is for you.",
+        "values": "1"
+    },
+    {
+        "id": 728,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 729,
+        "raw": "[name=\"Eyjafjalla\"]Is it about my application to become an operator...? Oh, it's been approved?",
+        "type": "dialog",
+        "speaker": "Eyjafjalla",
+        "content": "Is it about my application to become an operator...? Oh, it's been approved?"
+    },
+    {
+        "id": 730,
+        "raw": "[Character(name=\"char_180_amgoat_1#6\")]",
+        "type": "character",
+        "name": "char_180_amgoat_1#6"
+    },
+    {
+        "id": 731,
+        "raw": "[name=\"Eyjafjalla\"]That's great news. Everyone said you and Miss Amiya would turn me down because of my condition.",
+        "type": "dialog",
+        "speaker": "Eyjafjalla",
+        "content": "That's great news. Everyone said you and Miss Amiya would turn me down because of my condition."
+    },
+    {
+        "id": 732,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 733,
+        "raw": "[Decision(options=\"I convinced her.\", values=\"1\")]",
+        "type": "decision",
+        "options": "I convinced her.",
+        "values": "1"
+    },
+    {
+        "id": 734,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 735,
+        "raw": "[Character(name=\"char_180_amgoat_1#1\")]",
+        "type": "character",
+        "name": "char_180_amgoat_1#1"
+    },
+    {
+        "id": 736,
+        "raw": "[name=\"Eyjafjalla\"]I see, you even went out of your way to get it approved? Thank you...",
+        "type": "dialog",
+        "speaker": "Eyjafjalla",
+        "content": "I see, you even went out of your way to get it approved? Thank you..."
+    },
+    {
+        "id": 737,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 738,
+        "raw": "[Decision(options=\"The briefing you submitted this morning helped Rhodes Island through a crisis.\", values=\"1\")]",
+        "type": "decision",
+        "options": "The briefing you submitted this morning helped Rhodes Island through a crisis.",
+        "values": "1"
+    },
+    {
+        "id": 739,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 740,
+        "raw": "[Character(name=\"char_180_amgoat_1#5\")]",
+        "type": "character",
+        "name": "char_180_amgoat_1#5"
+    },
+    {
+        "id": 741,
+        "raw": "[name=\"Eyjafjalla\"]You mean... the Catastrophe this afternoon?",
+        "type": "dialog",
+        "speaker": "Eyjafjalla",
+        "content": "You mean... the Catastrophe this afternoon?"
+    },
+    {
+        "id": 742,
+        "raw": "[name=\"Eyjafjalla\"]Professor, did you read my analysis?",
+        "type": "dialog",
+        "speaker": "Eyjafjalla",
+        "content": "Professor, did you read my analysis?"
+    },
+    {
+        "id": 743,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 744,
+        "raw": "[Decision(options=\"Your Originium vein expansion observations were incredibly accurate.;You were able to predict a Catastrophe through an increase in Originium activation on the surface.\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "Your Originium vein expansion observations were incredibly accurate.;You were able to predict a Catastrophe through an increase in Originium activation on the surface.",
+        "values": "1;2"
+    },
+    {
+        "id": 745,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 746,
+        "raw": "[Character(name=\"char_180_amgoat_1#1\")]",
+        "type": "character",
+        "name": "char_180_amgoat_1#1"
+    },
+    {
+        "id": 747,
+        "raw": "[name=\"Eyjafjalla\"]It was just a hunch.",
+        "type": "dialog",
+        "speaker": "Eyjafjalla",
+        "content": "It was just a hunch."
+    },
+    {
+        "id": 748,
+        "raw": "[name=\"Eyjafjalla\"]They said the density of Originium near the surface around here would be very low, but I saw the same situation in a volcano in southern Leithanien...",
+        "type": "dialog",
+        "speaker": "Eyjafjalla",
+        "content": "They said the density of Originium near the surface around here would be very low, but I saw the same situation in a volcano in southern Leithanien..."
+    },
+    {
+        "id": 749,
+        "raw": "[name=\"Eyjafjalla\"]Even a small amount of Originium proliferates rapidly over a brief period when the conditions are right.",
+        "type": "dialog",
+        "speaker": "Eyjafjalla",
+        "content": "Even a small amount of Originium proliferates rapidly over a brief period when the conditions are right."
+    },
+    {
+        "id": 750,
+        "raw": "[name=\"Eyjafjalla\"]Two days ago, after finishing my daily treatment, I was walking around the dorms as usual when I saw the approaching phenomenon from the dust samples on the porthole.",
+        "type": "dialog",
+        "speaker": "Eyjafjalla",
+        "content": "Two days ago, after finishing my daily treatment, I was walking around the dorms as usual when I saw the approaching phenomenon from the dust samples on the porthole."
+    },
+    {
+        "id": 751,
+        "raw": "[name=\"Eyjafjalla\"]In sandy terrain, a sudden burst in Originium energy will cause the ground temperature to rise rapidly, leading to a significant increase in the possibility of large-scale wind-Catastrophes.",
+        "type": "dialog",
+        "speaker": "Eyjafjalla",
+        "content": "In sandy terrain, a sudden burst in Originium energy will cause the ground temperature to rise rapidly, leading to a significant increase in the possibility of large-scale wind-Catastrophes."
+    },
+    {
+        "id": 752,
+        "raw": "[Character(name=\"char_180_amgoat_1#3\")]",
+        "type": "character",
+        "name": "char_180_amgoat_1#3"
+    },
+    {
+        "id": 753,
+        "raw": "[name=\"Eyjafjalla\"]Um... I'm so sorry... I can go on and on about this stuff...",
+        "type": "dialog",
+        "speaker": "Eyjafjalla",
+        "content": "Um... I'm so sorry... I can go on and on about this stuff..."
+    },
+    {
+        "id": 754,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 755,
+        "raw": "[Decision(options=\"Please continue.\", values=\"1\")]",
+        "type": "decision",
+        "options": "Please continue.",
+        "values": "1"
+    },
+    {
+        "id": 756,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 757,
+        "raw": "[Character(name=\"char_180_amgoat_1#2\")]",
+        "type": "character",
+        "name": "char_180_amgoat_1#2"
+    },
+    {
+        "id": 758,
+        "raw": "[name=\"Eyjafjalla\"]You've already seen the report, right?",
+        "type": "dialog",
+        "speaker": "Eyjafjalla",
+        "content": "You've already seen the report, right?"
+    },
+    {
+        "id": 759,
+        "raw": "[name=\"Eyjafjalla\"]Busy as you are, I never expected you'd read our random notes.",
+        "type": "dialog",
+        "speaker": "Eyjafjalla",
+        "content": "Busy as you are, I never expected you'd read our random notes."
+    },
+    {
+        "id": 760,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 761,
+        "raw": "[Decision(options=\"I also read your thesis.;Your research is very interesting.;I've said before, I'm a hard worker, but some folks are thinking I can use Arts.\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "I also read your thesis.;Your research is very interesting.;I've said before, I'm a hard worker, but some folks are thinking I can use Arts.",
+        "values": "1;2;3"
+    },
+    {
+        "id": 762,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 763,
+        "raw": "[Character(name=\"char_180_amgoat_1#1\")]",
+        "type": "character",
+        "name": "char_180_amgoat_1#1"
+    },
+    {
+        "id": 764,
+        "raw": "[name=\"Eyjafjalla\"]Professor, are you interested in my research?",
+        "type": "dialog",
+        "speaker": "Eyjafjalla",
+        "content": "Professor, are you interested in my research?"
+    },
+    {
+        "id": 765,
+        "raw": "[Predicate(references=\"3\")]",
+        "type": "predicate",
+        "references": "3"
+    },
+    {
+        "id": 766,
+        "raw": "[Character(name=\"char_180_amgoat_1#4\")]",
+        "type": "character",
+        "name": "char_180_amgoat_1#4"
+    },
+    {
+        "id": 767,
+        "raw": "[name=\"Eyjafjalla\"]Do mystical Originium Arts like that exist?",
+        "type": "dialog",
+        "speaker": "Eyjafjalla",
+        "content": "Do mystical Originium Arts like that exist?"
+    },
+    {
+        "id": 768,
+        "raw": "[name=\"Eyjafjalla\"]......",
+        "type": "dialog",
+        "speaker": "Eyjafjalla",
+        "content": "......"
+    },
+    {
+        "id": 769,
+        "raw": "[name=\"Eyjafjalla\"]............",
+        "type": "dialog",
+        "speaker": "Eyjafjalla",
+        "content": "............"
+    },
+    {
+        "id": 770,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 771,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 772,
+        "raw": "[Character(name=\"char_180_amgoat_1#6\")]",
+        "type": "character",
+        "name": "char_180_amgoat_1#6"
+    },
+    {
+        "id": 773,
+        "raw": "[characteraction(name=\"middle\", type=\"jump\", power=20, fadetime=0.5,block=false)]",
+        "type": "jump",
+        "name": "middle",
+        "power": "20,",
+        "fadetime": "0.5,block=false"
+    },
+    {
+        "id": 774,
+        "raw": "[name=\"Eyjafjalla\"]Ah... I understand, you were making a joke.",
+        "type": "dialog",
+        "speaker": "Eyjafjalla",
+        "content": "Ah... I understand, you were making a joke."
+    },
+    {
+        "id": 775,
+        "raw": "[Character(name=\"char_180_amgoat_1#1\")]",
+        "type": "character",
+        "name": "char_180_amgoat_1#1"
+    },
+    {
+        "id": 776,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 777,
+        "raw": "[name=\"Eyjafjalla\"]If you're not too busy, I'd love to stay over and have a nice chat with you again.",
+        "type": "dialog",
+        "speaker": "Eyjafjalla",
+        "content": "If you're not too busy, I'd love to stay over and have a nice chat with you again."
+    },
+    {
+        "id": 778,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 779,
+        "raw": "[Character(name=\"char_180_amgoat_1#1\")]",
+        "type": "character",
+        "name": "char_180_amgoat_1#1"
+    },
+    {
+        "id": 780,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 781,
+        "raw": "[Decision(options=\"After I get some work done.;You're welcome to look around.\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "After I get some work done.;You're welcome to look around.",
+        "values": "1;2"
+    },
+    {
+        "id": 782,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 783,
+        "raw": "[Character(name=\"char_180_amgoat_1#1\")]",
+        "type": "character",
+        "name": "char_180_amgoat_1#1"
+    },
+    {
+        "id": 784,
+        "raw": "[name=\"Eyjafjalla\"]There are so many books on your desk...",
+        "type": "dialog",
+        "speaker": "Eyjafjalla",
+        "content": "There are so many books on your desk..."
+    },
+    {
+        "id": 785,
+        "raw": "[name=\"Eyjafjalla\"]Annals of the Great Yan Classics,' 'A Tower Without a Legend,' 'Columbia Judicial Observation Notes,' 'Conquest and Assimilation' ...Professor, are these the books you normally read?",
+        "type": "dialog",
+        "speaker": "Eyjafjalla",
+        "content": "Annals of the Great Yan Classics,' 'A Tower Without a Legend,' 'Columbia Judicial Observation Notes,' 'Conquest and Assimilation' ...Professor, are these the books you normally read?"
+    },
+    {
+        "id": 786,
+        "raw": "[name=\"Eyjafjalla\"]Your interests are so diverse. It's nothing like the bookcases of the other professors I know.",
+        "type": "dialog",
+        "speaker": "Eyjafjalla",
+        "content": "Your interests are so diverse. It's nothing like the bookcases of the other professors I know."
+    },
+    {
+        "id": 787,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 788,
+        "raw": "[Decision(options=\"I think this one will interest you the most.\", values=\"1\")]",
+        "type": "decision",
+        "options": "I think this one will interest you the most.",
+        "values": "1"
+    },
+    {
+        "id": 789,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 790,
+        "raw": "[name=\"Eyjafjalla\"]These are your... Catastrophe research notes?",
+        "type": "dialog",
+        "speaker": "Eyjafjalla",
+        "content": "These are your... Catastrophe research notes?"
+    },
+    {
+        "id": 791,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 792,
+        "raw": "[Decision(options=\"Just something to read over.;Just some thoughts I jotted down.;Just a rough draft.\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "Just something to read over.;Just some thoughts I jotted down.;Just a rough draft.",
+        "values": "1;2;3"
+    },
+    {
+        "id": 793,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 794,
+        "raw": "[Character(name=\"char_180_amgoat_1#6\")]",
+        "type": "character",
+        "name": "char_180_amgoat_1#6"
+    },
+    {
+        "id": 795,
+        "raw": "[name=\"Eyjafjalla\"]Thank you... Thank you so much! I'll study these thoroughly!",
+        "type": "dialog",
+        "speaker": "Eyjafjalla",
+        "content": "Thank you... Thank you so much! I'll study these thoroughly!"
+    },
+    {
+        "id": 796,
+        "raw": "[Character(name=\"char_180_amgoat_1#1\")]",
+        "type": "character",
+        "name": "char_180_amgoat_1#1"
+    },
+    {
+        "id": 797,
+        "raw": "[name=\"Eyjafjalla\"]If I have any questions, may I come to talk to you?",
+        "type": "dialog",
+        "speaker": "Eyjafjalla",
+        "content": "If I have any questions, may I come to talk to you?"
+    },
+    {
+        "id": 798,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 799,
+        "raw": "[Decision(options=\"Any time.;You're always welcome.;As long as I can finish my other work.\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "Any time.;You're always welcome.;As long as I can finish my other work.",
+        "values": "1;2;3"
+    },
+    {
+        "id": 800,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 801,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 802,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 803,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 804,
+        "raw": "[Subtitle(text=\"The young scholar clutches the notes you handed her tightly, lifts her head, and looks at you with conviction-filled eyes.\", x=300, y=370, alignment=\"center\", size=24, delay=0.04, width=700)]",
+        "type": "subtitle",
+        "text": "The young scholar clutches the notes you handed her tightly, lifts her head, and looks at you with conviction-filled eyes.",
+        "x": "300,",
+        "y": "370,",
+        "alignment": "center",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": 700
+    },
+    {
+        "id": 805,
+        "raw": "[subtitle]",
+        "type": "subtitle"
+    },
+    {
+        "id": 806,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 807,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 808,
+        "raw": "[Character(name=\"char_180_amgoat_1#1\")]",
+        "type": "character",
+        "name": "char_180_amgoat_1#1"
+    },
+    {
+        "id": 809,
+        "raw": "[name=\"Eyjafjalla\"]Professor... my life has been a series of wonderful surprises since coming to Rhodes Island.",
+        "type": "dialog",
+        "speaker": "Eyjafjalla",
+        "content": "Professor... my life has been a series of wonderful surprises since coming to Rhodes Island."
+    },
+    {
+        "id": 810,
+        "raw": "[name=\"Eyjafjalla\"]The stability of my Oripathy has given me a lot more confidence about my future, and people like you have given me the hope to keep moving forward.",
+        "type": "dialog",
+        "speaker": "Eyjafjalla",
+        "content": "The stability of my Oripathy has given me a lot more confidence about my future, and people like you have given me the hope to keep moving forward."
+    },
+    {
+        "id": 811,
+        "raw": "[name=\"Eyjafjalla\"]If you're working so hard, then what reason do any of us have to give up?",
+        "type": "dialog",
+        "speaker": "Eyjafjalla",
+        "content": "If you're working so hard, then what reason do any of us have to give up?"
+    },
+    {
+        "id": 812,
+        "raw": "[name=\"Eyjafjalla\"]—Professor.",
+        "type": "dialog",
+        "speaker": "Eyjafjalla",
+        "content": "—Professor."
+    },
+    {
+        "id": 813,
+        "raw": "[Character(name=\"char_180_amgoat_1#6\")]",
+        "type": "character",
+        "name": "char_180_amgoat_1#6"
+    },
+    {
+        "id": 814,
+        "raw": "[name=\"Eyjafjalla\"]Thank you so much for leading Rhodes Island forward, and on into the future.",
+        "type": "dialog",
+        "speaker": "Eyjafjalla",
+        "content": "Thank you so much for leading Rhodes Island forward, and on into the future."
+    },
+    {
+        "id": 815,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 816,
+        "raw": "[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 817,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 818,
+        "raw": "[stopmusic(fadetime=3)]",
+        "type": "stop_music",
+        "fadetime": 3
+    },
+    {
+        "id": 819,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 820,
+        "raw": "[Image]",
+        "type": "image"
+    }
+]

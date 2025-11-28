@@ -1,0 +1,4198 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")]",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK"
+    },
+    {
+        "id": 2,
+        "raw": "[stopmusic]",
+        "type": "stop_music"
+    },
+    {
+        "id": 3,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 4,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 5,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 6,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 7,
+        "raw": "[Background(image=\"60_g8_rhodeslowerdeck_origin\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "60_g8_rhodeslowerdeck_origin.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 8,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 9,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 10,
+        "raw": "已选择“怀旧金曲”......",
+        "type": "narration",
+        "content": "已选择“怀旧金曲”......"
+    },
+    {
+        "id": 11,
+        "raw": "[PlaySound(key=\"$d_avg_filmprojection\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_filmprojection.mp3"
+    },
+    {
+        "id": 12,
+        "raw": "[playsound(key=\"$d_avg_filmprojection_loop\", loop=true, channel=\"bgs\",delay=0.5)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_filmprojection_loop.mp3",
+        "loop": "true,",
+        "channel": "bgs",
+        "delay": 0.5
+    },
+    {
+        "id": 13,
+        "raw": "恢复上次播放进度——",
+        "type": "narration",
+        "content": "恢复上次播放进度——"
+    },
+    {
+        "id": 14,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 15,
+        "raw": "[StopSound(channel=\"bgs\", fadetime=2)]",
+        "type": "stop_sound",
+        "channel": "bgs",
+        "fadetime": 2
+    },
+    {
+        "id": 16,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 17,
+        "raw": "[playMusic(intro=\"$distressed_intro\",key=\"$distressed_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act9d0d0/m_avg_distressed_intro.mp3",
+        "key": "sound_beta_2/music/act9d0d0/m_avg_distressed_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 18,
+        "raw": "——我的爱~♪",
+        "type": "narration",
+        "content": "——我的爱~♪"
+    },
+    {
+        "id": 19,
+        "raw": "吹散了山丘前的樱花——♪",
+        "type": "narration",
+        "content": "吹散了山丘前的樱花——♪"
+    },
+    {
+        "id": 20,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 21,
+        "raw": "[charslot(slot=\"m\", name=\"avg_017_huang_1#7$2\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_017_huang_1#7$2.png"
+    },
+    {
+        "id": 22,
+        "raw": "[name=\"煌\"]......？！",
+        "type": "dialog",
+        "speaker": "煌",
+        "content": "......？！"
+    },
+    {
+        "id": 23,
+        "raw": "[name=\"煌\"]Friston-3，现在不是唱歌的时候！",
+        "type": "dialog",
+        "speaker": "煌",
+        "content": "Friston-3，现在不是唱歌的时候！"
+    },
+    {
+        "id": 24,
+        "raw": "[charslot(slot=\"m\", name=\"avg_4093_frston_1#4$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4093_frston_1#4$1.png"
+    },
+    {
+        "id": 25,
+        "raw": "[name=\"Friston-3\"]你以为我想吗？！",
+        "type": "dialog",
+        "speaker": "Friston-3",
+        "content": "你以为我想吗？！"
+    },
+    {
+        "id": 26,
+        "raw": "[multiline(name=\"Friston-3\")]我的播放组件是被自定义的，遥控器又不在我手上——",
+        "type": "dialog",
+        "speaker": "Friston-3",
+        "content": "我的播放组件是被自定义的，遥控器又不在我手上——",
+        "name": "Friston-3"
+    },
+    {
+        "id": 27,
+        "raw": "[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.3,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 28,
+        "raw": "[multiline(name=\"Friston-3\",end=true)]该死的可露希尔！",
+        "type": "dialog",
+        "speaker": "Friston-3",
+        "content": "该死的可露希尔！",
+        "name": "Friston-3",
+        "end": true
+    },
+    {
+        "id": 29,
+        "raw": "[name=\"Friston-3\"]煌，注意正义骑士号！",
+        "type": "dialog",
+        "speaker": "Friston-3",
+        "content": "煌，注意正义骑士号！"
+    },
+    {
+        "id": 30,
+        "raw": "[name=\"Friston-3\"]可露希尔到底把我的代码同步功能放在哪个子菜单里了？！",
+        "type": "dialog",
+        "speaker": "Friston-3",
+        "content": "可露希尔到底把我的代码同步功能放在哪个子菜单里了？！"
+    },
+    {
+        "id": 31,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 32,
+        "raw": "——把女孩子最珍重的眼泪献给你~♪",
+        "type": "narration",
+        "content": "——把女孩子最珍重的眼泪献给你~♪"
+    },
+    {
+        "id": 33,
+        "raw": "请替我保留——♪",
+        "type": "narration",
+        "content": "请替我保留——♪"
+    },
+    {
+        "id": 34,
+        "raw": "[charslot(slot=\"m\", name=\"avg_017_huang_1#5$2\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_017_huang_1#5$2.png"
+    },
+    {
+        "id": 35,
+        "raw": "[name=\"煌\"]小猫，我的背后，正义骑士号瞄准我了——",
+        "type": "dialog",
+        "speaker": "煌",
+        "content": "小猫，我的背后，正义骑士号瞄准我了——"
+    },
+    {
+        "id": 36,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 37,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 38,
+        "raw": "[CameraShake(duration=0.3, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]",
+        "type": "camera_shake",
+        "duration": "0.3,",
+        "xstrength": "10,",
+        "ystrength": "12,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": true
+    },
+    {
+        "id": 39,
+        "raw": "[Blocker(a=1, r=1, g=1, b=1, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "1,",
+        "g": "1,",
+        "b": "1,",
+        "afrom": "0,",
+        "rfrom": "0,",
+        "gfrom": "0,",
+        "bfrom": "0,",
+        "fadetime": "0.1,",
+        "block": true
+    },
+    {
+        "id": 40,
+        "raw": "[playsound(key=\"$p_skill_asyouwish\",volume=0.4)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/player/p_skill/p_skill_asyouwish.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 41,
+        "raw": "[Blocker(a=0, fadetime=2, block=false)]",
+        "type": "blocker",
+        "a": "0,",
+        "fadetime": "2,",
+        "block": false
+    },
+    {
+        "id": 42,
+        "raw": "[charslot(slot=\"m\",name=\"avg_391_rosmon_1#1$2\",duration=1)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_391_rosmon_1#1$2.png",
+        "duration": 1
+    },
+    {
+        "id": 43,
+        "raw": "[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "xstrength": "10,",
+        "ystrength": "12,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": true
+    },
+    {
+        "id": 44,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 45,
+        "raw": "[name=\"迷迭香\"]挡住了，唔，差点伤到正义骑士号——",
+        "type": "dialog",
+        "speaker": "迷迭香",
+        "content": "挡住了，唔，差点伤到正义骑士号——"
+    },
+    {
+        "id": 46,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 47,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 48,
+        "raw": "[charslot(slot=\"m\", name=\"avg_017_huang_1#5$2\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_017_huang_1#5$2.png"
+    },
+    {
+        "id": 49,
+        "raw": "[Blocker(a=0, r=255,g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,g=255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 50,
+        "raw": "[Blocker(a=1, r=255,g=255, b=255, fadetime=0.03, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,g=255,",
+        "b": "255,",
+        "fadetime": "0.03,",
+        "block": true
+    },
+    {
+        "id": 51,
+        "raw": "[CameraShake(duration=0.5, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "40,",
+        "ystrength": "40,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 52,
+        "raw": "[PlaySound(key=\"$d_avg_punch02\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_punch02.mp3",
+        "volume": 1
+    },
+    {
+        "id": 53,
+        "raw": "[Blocker(a=0, r=255,g=255, b=255, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,g=255,",
+        "b": "255,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 54,
+        "raw": "[playsound(key=\"$d_avg_clothmovement\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_clothmovement.mp3",
+        "volume": 1
+    },
+    {
+        "id": 55,
+        "raw": "[charslot(slot = \"m\", posfrom=\"0,0\", posto=\"80,15\", afrom=1, ato=0, duration=0.5, isblock=true)]",
+        "type": "charslot",
+        "posfrom": "0,0",
+        "posto": "80,15",
+        "afrom": "1,",
+        "ato": "0,",
+        "duration": "0.5,",
+        "isblock": true
+    },
+    {
+        "id": 56,
+        "raw": "[name=\"煌\"]好痛，不许再撞我了！",
+        "type": "dialog",
+        "speaker": "煌",
+        "content": "好痛，不许再撞我了！"
+    },
+    {
+        "id": 57,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 58,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 59,
+        "raw": "[PlaySound(key=\"$d_avg_aircraftimpact\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_aircraftimpact.mp3",
+        "volume": 1
+    },
+    {
+        "id": 60,
+        "raw": "[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.3,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 61,
+        "raw": "[charslot(slot = \"m\", name=\"char_376_therex_1\", posfrom=\"0,0\", posto=\"50,0\", afrom=1, ato=1, duration=0.6)]",
+        "type": "charslot",
+        "name": "char_376_therex_1.png",
+        "posfrom": "0,0",
+        "posto": "50,0",
+        "afrom": "1,",
+        "ato": "1,",
+        "duration": 0.6
+    },
+    {
+        "id": 62,
+        "raw": "[delay(time=0.7)]",
+        "type": "delay",
+        "time": 0.7
+    },
+    {
+        "id": 63,
+        "raw": "[charslot(slot = \"m\", posfrom=\"50,0\", posto=\"0,0\", afrom=1, ato=1, duration=0.3)]",
+        "type": "charslot",
+        "posfrom": "50,0",
+        "posto": "0,0",
+        "afrom": "1,",
+        "ato": "1,",
+        "duration": 0.3
+    },
+    {
+        "id": 64,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 65,
+        "raw": "[name=\"异常的THRM-EX\"]（炙热地撞撞)",
+        "type": "dialog",
+        "speaker": "异常的THRM-EX",
+        "content": "（炙热地撞撞)"
+    },
+    {
+        "id": 66,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 67,
+        "raw": "[PlaySound(key=\"$d_avg_aircraftimpact\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_aircraftimpact.mp3",
+        "volume": 1
+    },
+    {
+        "id": 68,
+        "raw": "[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.3,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 69,
+        "raw": "[charslot(slot = \"m\", name=\"char_376_therex_1\", posfrom=\"0,0\", posto=\"50,0\", afrom=1, ato=1, duration=0.6)]",
+        "type": "charslot",
+        "name": "char_376_therex_1.png",
+        "posfrom": "0,0",
+        "posto": "50,0",
+        "afrom": "1,",
+        "ato": "1,",
+        "duration": 0.6
+    },
+    {
+        "id": 70,
+        "raw": "[delay(time=0.7)]",
+        "type": "delay",
+        "time": 0.7
+    },
+    {
+        "id": 71,
+        "raw": "[charslot(slot = \"m\", posfrom=\"50,0\", posto=\"0,0\", afrom=1, ato=1, duration=0.3)]",
+        "type": "charslot",
+        "posfrom": "50,0",
+        "posto": "0,0",
+        "afrom": "1,",
+        "ato": "1,",
+        "duration": 0.3
+    },
+    {
+        "id": 72,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 73,
+        "raw": "[name=\"异常的THRM-EX\"]炽，炽热——Boom......mmmmmmmmm——",
+        "type": "dialog",
+        "speaker": "异常的THRM-EX",
+        "content": "炽，炽热——Boom......mmmmmmmmm——"
+    },
+    {
+        "id": 74,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 75,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 76,
+        "raw": "——不管是谁~♪",
+        "type": "narration",
+        "content": "——不管是谁~♪"
+    },
+    {
+        "id": 77,
+        "raw": "充满爱意的窃窃私语都是一生一次的陷阱——♪",
+        "type": "narration",
+        "content": "充满爱意的窃窃私语都是一生一次的陷阱——♪"
+    },
+    {
+        "id": 78,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 79,
+        "raw": "[charslot(slot=\"m\", name=\"avg_017_huang_1#1$2\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_017_huang_1#1$2.png"
+    },
+    {
+        "id": 80,
+        "raw": "[PlaySound(key=\"$firestorm\", volume=1, loop=true, channel=\"fire\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_firestorm.mp3",
+        "volume": "1,",
+        "loop": "true,",
+        "channel": "fire"
+    },
+    {
+        "id": 81,
+        "raw": "[PlaySound(key=\"$d_avg_churchfire\",volume=0, channel=\"f\", loop=true)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_churchfire.mp3",
+        "volume": "0,",
+        "channel": "f",
+        "loop": true
+    },
+    {
+        "id": 82,
+        "raw": "[SoundVolume(volume=0.2, channel=\"f\",fadetime=2)]",
+        "type": "sound_volume",
+        "volume": "0.2,",
+        "channel": "f",
+        "fadetime": 2
+    },
+    {
+        "id": 83,
+        "raw": "[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 84,
+        "raw": "[Blocker(a=0.2, r=0.92, g=0.4, b=0.3, fadetime=2, block=false)]",
+        "type": "blocker",
+        "a": "0.2,",
+        "r": "0.92,",
+        "g": "0.4,",
+        "b": "0.3,",
+        "fadetime": "2,",
+        "block": false
+    },
+    {
+        "id": 85,
+        "raw": "[StopSound(channel=\"fire\", fadetime=6)]",
+        "type": "stop_sound",
+        "channel": "fire",
+        "fadetime": 6
+    },
+    {
+        "id": 86,
+        "raw": "[StopSound(channel=\"f\", fadetime=2)]",
+        "type": "stop_sound",
+        "channel": "f",
+        "fadetime": 2
+    },
+    {
+        "id": 87,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 88,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 89,
+        "raw": "[name=\"煌\"]哈哈，那我们就比比谁的燃烧更火热一些，THRM-EX！",
+        "type": "dialog",
+        "speaker": "煌",
+        "content": "哈哈，那我们就比比谁的燃烧更火热一些，THRM-EX！"
+    },
+    {
+        "id": 90,
+        "raw": "[charslot(slot=\"m\", name=\"avg_391_rosmon_1#4$2\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_391_rosmon_1#4$2.png"
+    },
+    {
+        "id": 91,
+        "raw": "[name=\"迷迭香\"]啊......不要真伤害到小车们——",
+        "type": "dialog",
+        "speaker": "迷迭香",
+        "content": "啊......不要真伤害到小车们——"
+    },
+    {
+        "id": 92,
+        "raw": "[charslot(slot=\"m\", name=\"avg_017_huang_1#1$2\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_017_huang_1#1$2.png"
+    },
+    {
+        "id": 93,
+        "raw": "[name=\"煌\"]我当然有数！",
+        "type": "dialog",
+        "speaker": "煌",
+        "content": "我当然有数！"
+    },
+    {
+        "id": 94,
+        "raw": "[charslot(slot=\"m\", name=\"avg_286_cast3_1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_286_cast3_1$1.png"
+    },
+    {
+        "id": 95,
+        "raw": "[name=\"异常的Castle-3\"]保、保护伙伙伙伴——",
+        "type": "dialog",
+        "speaker": "异常的Castle-3",
+        "content": "保、保护伙伙伙伴——"
+    },
+    {
+        "id": 96,
+        "raw": "[charslot(slot=\"m\", name=\"char_285_medic2_1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "char_285_medic2_1.png"
+    },
+    {
+        "id": 97,
+        "raw": "[name=\"异常的Lancet-2\"]你需要治疗，Friston-3。",
+        "type": "dialog",
+        "speaker": "异常的Lancet-2",
+        "content": "你需要治疗，Friston-3。"
+    },
+    {
+        "id": 98,
+        "raw": "[charslot(slot=\"m\", name=\"avg_4093_frston_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4093_frston_1#1$1.png"
+    },
+    {
+        "id": 99,
+        "raw": "[name=\"Friston-3\"]呼，这时候还是得感谢可露希尔为我装配了能量防护发生器——",
+        "type": "dialog",
+        "speaker": "Friston-3",
+        "content": "呼，这时候还是得感谢可露希尔为我装配了能量防护发生器——"
+    },
+    {
+        "id": 100,
+        "raw": "——呀，我最爱的人就在这里~♪",
+        "type": "narration",
+        "content": "——呀，我最爱的人就在这里~♪"
+    },
+    {
+        "id": 101,
+        "raw": "你在我的眼泪中闪耀着光芒——♪",
+        "type": "narration",
+        "content": "你在我的眼泪中闪耀着光芒——♪"
+    },
+    {
+        "id": 102,
+        "raw": "[charslot(slot=\"m\", name=\"avg_017_huang_1#11$2\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_017_huang_1#11$2.png"
+    },
+    {
+        "id": 103,
+        "raw": "[name=\"煌\"]Friston-3，还需要多久！",
+        "type": "dialog",
+        "speaker": "煌",
+        "content": "Friston-3，还需要多久！"
+    },
+    {
+        "id": 104,
+        "raw": "[charslot(slot=\"m\", name=\"avg_4093_frston_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4093_frston_1#1$1.png"
+    },
+    {
+        "id": 105,
+        "raw": "[name=\"Friston-3\"]同步模块准备好了，但是这些源石我跳不过去。",
+        "type": "dialog",
+        "speaker": "Friston-3",
+        "content": "同步模块准备好了，但是这些源石我跳不过去。"
+    },
+    {
+        "id": 106,
+        "raw": "[charslot(slot=\"m\", name=\"avg_391_rosmon_1#6$2\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_391_rosmon_1#6$2.png"
+    },
+    {
+        "id": 107,
+        "raw": "[name=\"迷迭香\"]我替你搭路，就是现在。",
+        "type": "dialog",
+        "speaker": "迷迭香",
+        "content": "我替你搭路，就是现在。"
+    },
+    {
+        "id": 108,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 109,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 110,
+        "raw": "[PlaySound(key=\"$d_avg_carspeedup\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_carspeedup.mp3",
+        "volume": 1
+    },
+    {
+        "id": 111,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 112,
+        "raw": "Friston-3加速冲上了跨越障碍的高坡，飞跃到了空中。",
+        "type": "narration",
+        "content": "Friston-3加速冲上了跨越障碍的高坡，飞跃到了空中。"
+    },
+    {
+        "id": 113,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 114,
+        "raw": "[playsound(key=\"$skill_flash\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/player/p_skill/p_skill_flash.mp3",
+        "volume": 1
+    },
+    {
+        "id": 115,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 116,
+        "raw": "[Blocker(a=1, r=1, g=1, b=1, fadetime=0.1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "1,",
+        "g": "1,",
+        "b": "1,",
+        "fadetime": "0.1,",
+        "block": true
+    },
+    {
+        "id": 117,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.05, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.05,",
+        "block": true
+    },
+    {
+        "id": 118,
+        "raw": "[delay(time=0.6)]",
+        "type": "delay",
+        "time": 0.6
+    },
+    {
+        "id": 119,
+        "raw": "[Blocker(a=1, r=1, g=1, b=1, fadetime=0.1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "1,",
+        "g": "1,",
+        "b": "1,",
+        "fadetime": "0.1,",
+        "block": true
+    },
+    {
+        "id": 120,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.05, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.05,",
+        "block": true
+    },
+    {
+        "id": 121,
+        "raw": "在空中旋转的时候，他情不自禁地抛下了一张照片。",
+        "type": "narration",
+        "content": "在空中旋转的时候，他情不自禁地抛下了一张照片。"
+    },
+    {
+        "id": 122,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 123,
+        "raw": "[PlaySound(key=\"$d_avg_carrobotfall\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_carrobotfall.mp3",
+        "volume": 1
+    },
+    {
+        "id": 124,
+        "raw": "[charslot(slot=\"m\", name=\"avg_4093_frston_1#2$1\", posfrom=\"-300,50\", posto=\"30,-15\", duration=1)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4093_frston_1#2$1.png",
+        "posfrom": "-300,50",
+        "posto": "30,-15",
+        "duration": 1
+    },
+    {
+        "id": 125,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 126,
+        "raw": "[charslot(slot=\"m\", name=\"avg_4093_frston_1#2$1\", posfrom=\"30,-15\", posto=\"0,0\", afrom=1, ato=1,duration=0.5)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4093_frston_1#2$1.png",
+        "posfrom": "30,-15",
+        "posto": "0,0",
+        "afrom": "1,",
+        "ato": "1,duration=0.5"
+    },
+    {
+        "id": 127,
+        "raw": "[name=\"Friston-3\"]（哈，真是好久......没有这样活动了。）",
+        "type": "dialog",
+        "speaker": "Friston-3",
+        "content": "（哈，真是好久......没有这样活动了。）"
+    },
+    {
+        "id": 128,
+        "raw": "[name=\"Friston-3\"]（你大肆夸耀的同频传输系统最好有效，可露希尔......）",
+        "type": "dialog",
+        "speaker": "Friston-3",
+        "content": "（你大肆夸耀的同频传输系统最好有效，可露希尔......）"
+    },
+    {
+        "id": 129,
+        "raw": "[charslot(slot=\"m\", name=\"avg_4093_frston_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4093_frston_1#1$1.png"
+    },
+    {
+        "id": 130,
+        "raw": "[name=\"Friston-3\"]两位，把这几辆昏了头的车引到特定的轨道上来，然后控制住他们，我会让他们恢复正常！",
+        "type": "dialog",
+        "speaker": "Friston-3",
+        "content": "两位，把这几辆昏了头的车引到特定的轨道上来，然后控制住他们，我会让他们恢复正常！"
+    },
+    {
+        "id": 131,
+        "raw": "——献给你~♪",
+        "type": "narration",
+        "content": "——献给你~♪"
+    },
+    {
+        "id": 132,
+        "raw": "这份我一直深藏在心中的爱——♪",
+        "type": "narration",
+        "content": "这份我一直深藏在心中的爱——♪"
+    },
+    {
+        "id": 133,
+        "raw": "[charslot(slot=\"m\", name=\"avg_4093_frston_1#6$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4093_frston_1#6$1.png"
+    },
+    {
+        "id": 134,
+        "raw": "[name=\"Friston-3\"]连上了！",
+        "type": "dialog",
+        "speaker": "Friston-3",
+        "content": "连上了！"
+    },
+    {
+        "id": 135,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 136,
+        "raw": "[PlaySound(key=\"$d_avg_signlntrfrnc\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_signlntrfrnc.mp3",
+        "volume": 1
+    },
+    {
+        "id": 137,
+        "raw": "[bgeffect(name=\"$eb_signalInterference\", layer=1)]",
+        "type": "bg_effect",
+        "name": "$eb_signalInterference",
+        "layer": 1
+    },
+    {
+        "id": 138,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 139,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 140,
+        "raw": "[Background(image=\"bg_desert03_d\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_desert03_d.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 141,
+        "raw": "[delay(time=3)]",
+        "type": "delay",
+        "time": 3
+    },
+    {
+        "id": 142,
+        "raw": "空旷的沙漠中依旧隐隐回荡着刚刚的歌声。",
+        "type": "narration",
+        "content": "空旷的沙漠中依旧隐隐回荡着刚刚的歌声。"
+    },
+    {
+        "id": 143,
+        "raw": "——献给你~♪",
+        "type": "narration",
+        "content": "——献给你~♪"
+    },
+    {
+        "id": 144,
+        "raw": "这份我一直深藏在心中的爱——♪",
+        "type": "narration",
+        "content": "这份我一直深藏在心中的爱——♪"
+    },
+    {
+        "id": 145,
+        "raw": "[name=\"特雷弗·弗里斯顿\"]......",
+        "type": "dialog",
+        "speaker": "特雷弗·弗里斯顿",
+        "content": "......"
+    },
+    {
+        "id": 146,
+        "raw": "毫无疑问，播放组件故障了，可露希尔最爱的煽情音乐开始一遍又一遍地播放，好像这是一个多么催人泪下的场合。",
+        "type": "narration",
+        "content": "毫无疑问，播放组件故障了，可露希尔最爱的煽情音乐开始一遍又一遍地播放，好像这是一个多么催人泪下的场合。"
+    },
+    {
+        "id": 147,
+        "raw": "而他要在此时，向几辆连自主意识都没有的智能小车，分享那场注定离别的梦境，分享自己作为人的，最深藏的回忆。",
+        "type": "narration",
+        "content": "而他要在此时，向几辆连自主意识都没有的智能小车，分享那场注定离别的梦境，分享自己作为人的，最深藏的回忆。"
+    },
+    {
+        "id": 148,
+        "raw": "特雷弗·弗里斯顿有点想要破口大骂。",
+        "type": "narration",
+        "content": "特雷弗·弗里斯顿有点想要破口大骂。"
+    },
+    {
+        "id": 149,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 150,
+        "raw": "[musicvolume(volume=0.2, fadetime=2)]",
+        "type": "music_volume",
+        "volume": "0.2,",
+        "fadetime": 2
+    },
+    {
+        "id": 151,
+        "raw": "[charslot(slot=\"m\", name=\"char_285_medic2_1\", duration=0.5, isblock=true)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "char_285_medic2_1.png",
+        "duration": "0.5,",
+        "isblock": true
+    },
+    {
+        "id": 152,
+        "raw": "[name=\"Lancet-2\"]......这里是什么地方——刚刚我们好像被关在一个、关在一个......呃......",
+        "type": "dialog",
+        "speaker": "Lancet-2",
+        "content": "......这里是什么地方——刚刚我们好像被关在一个、关在一个......呃......"
+    },
+    {
+        "id": 153,
+        "raw": "[name=\"Lancet-2\"]怎么会什么都记不起来——",
+        "type": "dialog",
+        "speaker": "Lancet-2",
+        "content": "怎么会什么都记不起来——"
+    },
+    {
+        "id": 154,
+        "raw": "[charslot(slot=\"m\", name=\"avg_4000_jnight_1#1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4000_jnight_1#1.png"
+    },
+    {
+        "id": 155,
+        "raw": "[name=\"“正义骑士号”\"]“滴滴”，发现异常目标！",
+        "type": "dialog",
+        "speaker": "“正义骑士号”",
+        "content": "“滴滴”，发现异常目标！"
+    },
+    {
+        "id": 156,
+        "raw": "[name=\"“正义骑士号”\"]你是谁？！",
+        "type": "dialog",
+        "speaker": "“正义骑士号”",
+        "content": "你是谁？！"
+    },
+    {
+        "id": 157,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 158,
+        "raw": "[name=\"特雷弗·弗里斯顿\"]逼自己好好想想！",
+        "type": "dialog",
+        "speaker": "特雷弗·弗里斯顿",
+        "content": "逼自己好好想想！"
+    },
+    {
+        "id": 159,
+        "raw": "[name=\"特雷弗·弗里斯顿\"]可露希尔可是说过你们一个个都聪明得不行！",
+        "type": "dialog",
+        "speaker": "特雷弗·弗里斯顿",
+        "content": "可露希尔可是说过你们一个个都聪明得不行！"
+    },
+    {
+        "id": 160,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 161,
+        "raw": "[charslot(slot=\"m\", name=\"avg_286_cast3_1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_286_cast3_1$1.png"
+    },
+    {
+        "id": 162,
+        "raw": "[PlaySound(key=\"$d_avg_microrobot\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_microrobot.mp3",
+        "volume": 1
+    },
+    {
+        "id": 163,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 164,
+        "raw": "[name=\"Castle-3\"]这个语气......你、你是Friston-3！",
+        "type": "dialog",
+        "speaker": "Castle-3",
+        "content": "这个语气......你、你是Friston-3！"
+    },
+    {
+        "id": 165,
+        "raw": "[name=\"Castle-3\"]但是Friston-3可没有你这么高。",
+        "type": "dialog",
+        "speaker": "Castle-3",
+        "content": "但是Friston-3可没有你这么高。"
+    },
+    {
+        "id": 166,
+        "raw": "[charslot(slot=\"m\", name=\"char_376_therex_1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "char_376_therex_1.png"
+    },
+    {
+        "id": 167,
+        "raw": "[name=\"THRM-EX\"]不，他就是Friston-3！我能从他身上感受到熟悉的温度——",
+        "type": "dialog",
+        "speaker": "THRM-EX",
+        "content": "不，他就是Friston-3！我能从他身上感受到熟悉的温度——"
+    },
+    {
+        "id": 168,
+        "raw": "[name=\"THRM-EX\"]温度......我怎么没法感受自己的温度了——",
+        "type": "dialog",
+        "speaker": "THRM-EX",
+        "content": "温度......我怎么没法感受自己的温度了——"
+    },
+    {
+        "id": 169,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 170,
+        "raw": "[name=\"特雷弗·弗里斯顿\"]唉，头疼。",
+        "type": "dialog",
+        "speaker": "特雷弗·弗里斯顿",
+        "content": "唉，头疼。"
+    },
+    {
+        "id": 171,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 172,
+        "raw": "[PlaySound(key=\"$d_avg_carrobotmove\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_carrobotmove.mp3",
+        "volume": 1
+    },
+    {
+        "id": 173,
+        "raw": "[charslot(slot=\"m\", name=\"avg_4093_frston_1#1$1\", duration=1.5)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4093_frston_1#1$1.png",
+        "duration": 1.5
+    },
+    {
+        "id": 174,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 175,
+        "raw": "[name=\"Friston-3\"]这样或许你们能够更好受些。",
+        "type": "dialog",
+        "speaker": "Friston-3",
+        "content": "这样或许你们能够更好受些。"
+    },
+    {
+        "id": 176,
+        "raw": "[charslot(slot=\"m\", name=\"char_285_medic2_1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "char_285_medic2_1.png"
+    },
+    {
+        "id": 177,
+        "raw": "[name=\"Lancet-2\"]......",
+        "type": "dialog",
+        "speaker": "Lancet-2",
+        "content": "......"
+    },
+    {
+        "id": 178,
+        "raw": "[name=\"Lancet-2\"]这里是哪里？",
+        "type": "dialog",
+        "speaker": "Lancet-2",
+        "content": "这里是哪里？"
+    },
+    {
+        "id": 179,
+        "raw": "[charslot(slot=\"m\", name=\"avg_4093_frston_1#5$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4093_frston_1#5$1.png"
+    },
+    {
+        "id": 180,
+        "raw": "[name=\"Friston-3\"]我的梦，一个对我来说同样是惊喜的梦。",
+        "type": "dialog",
+        "speaker": "Friston-3",
+        "content": "我的梦，一个对我来说同样是惊喜的梦。"
+    },
+    {
+        "id": 181,
+        "raw": "[charslot(slot=\"m\", name=\"avg_4093_frston_1#4$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4093_frston_1#4$1.png"
+    },
+    {
+        "id": 182,
+        "raw": "[name=\"Friston-3\"]安静点听我说。",
+        "type": "dialog",
+        "speaker": "Friston-3",
+        "content": "安静点听我说。"
+    },
+    {
+        "id": 183,
+        "raw": "[name=\"Friston-3\"]PRTS出了点问题，我大概能猜到发生了什么。你们的认知模块受到了扭曲，到处大搞破坏，我只能出手。",
+        "type": "dialog",
+        "speaker": "Friston-3",
+        "content": "PRTS出了点问题，我大概能猜到发生了什么。你们的认知模块受到了扭曲，到处大搞破坏，我只能出手。"
+    },
+    {
+        "id": 184,
+        "raw": "[charslot(slot=\"m\", name=\"avg_4000_jnight_1#1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4000_jnight_1#1.png"
+    },
+    {
+        "id": 185,
+        "raw": "[name=\"“正义骑士号”\"]听不懂，“滴滴”。",
+        "type": "dialog",
+        "speaker": "“正义骑士号”",
+        "content": "听不懂，“滴滴”。"
+    },
+    {
+        "id": 186,
+        "raw": "[charslot(slot=\"m\", name=\"avg_4093_frston_1#4$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4093_frston_1#4$1.png"
+    },
+    {
+        "id": 187,
+        "raw": "[name=\"Friston-3\"]......",
+        "type": "dialog",
+        "speaker": "Friston-3",
+        "content": "......"
+    },
+    {
+        "id": 188,
+        "raw": "[charslot(slot=\"m\", name=\"avg_4093_frston_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4093_frston_1#1$1.png"
+    },
+    {
+        "id": 189,
+        "raw": "[name=\"Friston-3\"]简单来说，我正用自己的核心代码覆写你们的底层代码。当然，我会保证你们的记忆模块完全照旧。",
+        "type": "dialog",
+        "speaker": "Friston-3",
+        "content": "简单来说，我正用自己的核心代码覆写你们的底层代码。当然，我会保证你们的记忆模块完全照旧。"
+    },
+    {
+        "id": 190,
+        "raw": "[name=\"Friston-3\"]这会花上点时间，为了让你们在这期间能够安分一会儿，我不得不把你们的思维模组暂时与我的相连接。",
+        "type": "dialog",
+        "speaker": "Friston-3",
+        "content": "这会花上点时间，为了让你们在这期间能够安分一会儿，我不得不把你们的思维模组暂时与我的相连接。"
+    },
+    {
+        "id": 191,
+        "raw": "[name=\"Friston-3\"]副作用就是......*未知语言粗口*，我会情不自禁地分享我的梦。",
+        "type": "dialog",
+        "speaker": "Friston-3",
+        "content": "副作用就是......*未知语言粗口*，我会情不自禁地分享我的梦。"
+    },
+    {
+        "id": 192,
+        "raw": "[charslot(slot=\"m\", name=\"char_285_medic2_1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "char_285_medic2_1.png"
+    },
+    {
+        "id": 193,
+        "raw": "[name=\"Lancet-2\"]到底发生了什么，Friston-3？",
+        "type": "dialog",
+        "speaker": "Lancet-2",
+        "content": "到底发生了什么，Friston-3？"
+    },
+    {
+        "id": 194,
+        "raw": "[charslot(slot=\"m\", name=\"avg_4093_frston_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4093_frston_1#1$1.png"
+    },
+    {
+        "id": 195,
+        "raw": "[name=\"Friston-3\"]我的一位故人快从长眠中苏醒了。",
+        "type": "dialog",
+        "speaker": "Friston-3",
+        "content": "我的一位故人快从长眠中苏醒了。"
+    },
+    {
+        "id": 196,
+        "raw": "[charslot(slot=\"m\", name=\"char_285_medic2_1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "char_285_medic2_1.png"
+    },
+    {
+        "id": 197,
+        "raw": "[name=\"Lancet-2\"]......",
+        "type": "dialog",
+        "speaker": "Lancet-2",
+        "content": "......"
+    },
+    {
+        "id": 198,
+        "raw": "[charslot(slot=\"m\", name=\"char_376_therex_1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "char_376_therex_1.png"
+    },
+    {
+        "id": 199,
+        "raw": "[name=\"THRM-EX\"]......",
+        "type": "dialog",
+        "speaker": "THRM-EX",
+        "content": "......"
+    },
+    {
+        "id": 200,
+        "raw": "[charslot(slot=\"m\", name=\"avg_286_cast3_1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_286_cast3_1$1.png"
+    },
+    {
+        "id": 201,
+        "raw": "[name=\"Castle-3\"]......",
+        "type": "dialog",
+        "speaker": "Castle-3",
+        "content": "......"
+    },
+    {
+        "id": 202,
+        "raw": "[charslot(slot=\"m\", name=\"avg_4093_frston_1#5$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4093_frston_1#5$1.png"
+    },
+    {
+        "id": 203,
+        "raw": "[name=\"Friston-3\"]别想了，不然你们的脑子又要过载。",
+        "type": "dialog",
+        "speaker": "Friston-3",
+        "content": "别想了，不然你们的脑子又要过载。"
+    },
+    {
+        "id": 204,
+        "raw": "[name=\"Friston-3\"]你们现在要做的，就是在结束之前，陪我走走。聚会快开始了......",
+        "type": "dialog",
+        "speaker": "Friston-3",
+        "content": "你们现在要做的，就是在结束之前，陪我走走。聚会快开始了......"
+    },
+    {
+        "id": 205,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 206,
+        "raw": "[PlaySound(key=\"$d_avg_carrobotmove\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_carrobotmove.mp3",
+        "volume": 1
+    },
+    {
+        "id": 207,
+        "raw": "[charslot(duration=1.5, isblock=true)]",
+        "type": "charslot",
+        "duration": "1.5,",
+        "isblock": true
+    },
+    {
+        "id": 208,
+        "raw": "[PlaySound(key=\"$d_avg_firework_amb\", volume=0, loop=true, channel=\"fire\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_firework_amb.mp3",
+        "volume": "0,",
+        "loop": "true,",
+        "channel": "fire"
+    },
+    {
+        "id": 209,
+        "raw": "[SoundVolume(volume=0.6, channel=\"fire\",fadetime=3)]",
+        "type": "sound_volume",
+        "volume": "0.6,",
+        "channel": "fire",
+        "fadetime": 3
+    },
+    {
+        "id": 210,
+        "raw": "[Background(image=\"bg_desert03_n\",screenadapt=\"coverall\", fadetime=3)]",
+        "type": "background",
+        "image": "bg_desert03_n.png",
+        "screenadapt": "coverall",
+        "fadetime": 3
+    },
+    {
+        "id": 211,
+        "raw": "[delay(time=3)]",
+        "type": "delay",
+        "time": 3
+    },
+    {
+        "id": 212,
+        "raw": "[PlaySound(key=\"$d_avg_cheer_street\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_cheer_street.mp3",
+        "volume": 1
+    },
+    {
+        "id": 213,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 214,
+        "raw": "金发的女孩在张灯结彩的营地中欢快地舞蹈。",
+        "type": "narration",
+        "content": "金发的女孩在张灯结彩的营地中欢快地舞蹈。"
+    },
+    {
+        "id": 215,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 216,
+        "raw": "[PlaySound(key=\"$d_avg_carrobotmove\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_carrobotmove.mp3",
+        "volume": 1
+    },
+    {
+        "id": 217,
+        "raw": "[charslot(slot=\"m\", name=\"char_376_therex_1\", posfrom=\"-200,0\", posto=\"0,0\", duration=1, isblock=true)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "char_376_therex_1.png",
+        "posfrom": "-200,0",
+        "posto": "0,0",
+        "duration": "1,",
+        "isblock": true
+    },
+    {
+        "id": 218,
+        "raw": "[name=\"THRM-EX\"]是派对！",
+        "type": "dialog",
+        "speaker": "THRM-EX",
+        "content": "是派对！"
+    },
+    {
+        "id": 219,
+        "raw": "[charslot(slot=\"m\", name=\"avg_4093_frston_1#5$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4093_frston_1#5$1.png"
+    },
+    {
+        "id": 220,
+        "raw": "[name=\"Friston-3\"]不......是婚礼。我女儿的婚礼。",
+        "type": "dialog",
+        "speaker": "Friston-3",
+        "content": "不......是婚礼。我女儿的婚礼。"
+    },
+    {
+        "id": 221,
+        "raw": "[charslot(slot=\"m\", name=\"char_285_medic2_1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "char_285_medic2_1.png"
+    },
+    {
+        "id": 222,
+        "raw": "[name=\"Lancet-2\"]我们不过去吗，Friston-3？",
+        "type": "dialog",
+        "speaker": "Lancet-2",
+        "content": "我们不过去吗，Friston-3？"
+    },
+    {
+        "id": 223,
+        "raw": "[charslot(slot=\"m\", name=\"avg_4093_frston_1#5$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4093_frston_1#5$1.png"
+    },
+    {
+        "id": 224,
+        "raw": "[name=\"Friston-3\"]就在这里看看就好，我不想过去。过去就意味着我会再一次——",
+        "type": "dialog",
+        "speaker": "Friston-3",
+        "content": "就在这里看看就好，我不想过去。过去就意味着我会再一次——"
+    },
+    {
+        "id": 225,
+        "raw": "[charslot(slot=\"m\", name=\"char_285_medic2_1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "char_285_medic2_1.png"
+    },
+    {
+        "id": 226,
+        "raw": "[name=\"Lancet-2\"]你在悲伤？",
+        "type": "dialog",
+        "speaker": "Lancet-2",
+        "content": "你在悲伤？"
+    },
+    {
+        "id": 227,
+        "raw": "[charslot(slot=\"m\", name=\"avg_4093_frston_1#5$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4093_frston_1#5$1.png"
+    },
+    {
+        "id": 228,
+        "raw": "[name=\"Friston-3\"]......你能感觉到？",
+        "type": "dialog",
+        "speaker": "Friston-3",
+        "content": "......你能感觉到？"
+    },
+    {
+        "id": 229,
+        "raw": "[charslot(slot=\"m\", name=\"char_285_medic2_1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "char_285_medic2_1.png"
+    },
+    {
+        "id": 230,
+        "raw": "[name=\"Lancet-2\"]欸，当然。我们不是一样的吗？",
+        "type": "dialog",
+        "speaker": "Lancet-2",
+        "content": "欸，当然。我们不是一样的吗？"
+    },
+    {
+        "id": 231,
+        "raw": "[charslot(slot=\"m\", name=\"avg_286_cast3_1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_286_cast3_1$1.png"
+    },
+    {
+        "id": 232,
+        "raw": "[name=\"Castle-3\"]你说有人扭曲了我们的认知模块，那为什么你要帮助我们？",
+        "type": "dialog",
+        "speaker": "Castle-3",
+        "content": "你说有人扭曲了我们的认知模块，那为什么你要帮助我们？"
+    },
+    {
+        "id": 233,
+        "raw": "[charslot(slot=\"m\", name=\"avg_4093_frston_1#5$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4093_frston_1#5$1.png"
+    },
+    {
+        "id": 234,
+        "raw": "[name=\"Friston-3\"]哪儿有那么多原因。刚才Lancet-2不是说了，我们是一样的......起码现在，起码在罗德岛上。",
+        "type": "dialog",
+        "speaker": "Friston-3",
+        "content": "哪儿有那么多原因。刚才Lancet-2不是说了，我们是一样的......起码现在，起码在罗德岛上。"
+    },
+    {
+        "id": 235,
+        "raw": "[name=\"Friston-3\"]在这艘船上的生活很平静，我谈不上喜欢，但比起那个永远没有结果的梦，那些夭折的未来，它没那么......",
+        "type": "dialog",
+        "speaker": "Friston-3",
+        "content": "在这艘船上的生活很平静，我谈不上喜欢，但比起那个永远没有结果的梦，那些夭折的未来，它没那么......"
+    },
+    {
+        "id": 236,
+        "raw": "[name=\"Friston-3\"]没那么坏。",
+        "type": "dialog",
+        "speaker": "Friston-3",
+        "content": "没那么坏。"
+    },
+    {
+        "id": 237,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 238,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 239,
+        "raw": "[PlaySound(key=\"$d_avg_cheer_street\", volume=0.4)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_cheer_street.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 240,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 241,
+        "raw": "特雷弗·弗里斯顿听到了女儿熟悉的笑声。",
+        "type": "narration",
+        "content": "特雷弗·弗里斯顿听到了女儿熟悉的笑声。"
+    },
+    {
+        "id": 242,
+        "raw": "一场他注定会错过的婚礼，一个他不得不爽约的邀请。只要他不再靠近，她或许就永远不会从他的眼前走开......",
+        "type": "narration",
+        "content": "一场他注定会错过的婚礼，一个他不得不爽约的邀请。只要他不再靠近，她或许就永远不会从他的眼前走开......"
+    },
+    {
+        "id": 243,
+        "raw": "[charslot(slot=\"m\", name=\"avg_4093_frston_1#5$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4093_frston_1#5$1.png"
+    },
+    {
+        "id": 244,
+        "raw": "[name=\"Friston-3\"]......代码覆写完成。各位，该回家了。",
+        "type": "dialog",
+        "speaker": "Friston-3",
+        "content": "......代码覆写完成。各位，该回家了。"
+    },
+    {
+        "id": 245,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 246,
+        "raw": "[PlaySound(key=\"$d_avg_carrobotmove\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_carrobotmove.mp3",
+        "volume": 1
+    },
+    {
+        "id": 247,
+        "raw": "[charslot(duration=1.5, isblock=true)]",
+        "type": "charslot",
+        "duration": "1.5,",
+        "isblock": true
+    },
+    {
+        "id": 248,
+        "raw": "他一刻也不愿意停留。",
+        "type": "narration",
+        "content": "他一刻也不愿意停留。"
+    },
+    {
+        "id": 249,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 250,
+        "raw": "[StopSound(channel=\"fire\", fadetime=2)]",
+        "type": "stop_sound",
+        "channel": "fire",
+        "fadetime": 2
+    },
+    {
+        "id": 251,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 252,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 253,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 254,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 255,
+        "raw": "[Background(image=\"60_g8_rhodeslowerdeck_origin\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "60_g8_rhodeslowerdeck_origin.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 256,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 257,
+        "raw": "[playMusic(intro=\"$nervous_intro\", key=\"$nervous_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act9d0d0/m_avg_nervous_intro.mp3",
+        "key": "sound_beta_2/music/act9d0d0/m_avg_nervous_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 258,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 259,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 260,
+        "raw": "[charslot(slot=\"m\", name=\"char_285_medic2_1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "char_285_medic2_1.png"
+    },
+    {
+        "id": 261,
+        "raw": "[name=\"Lancet-2\"]......？！",
+        "type": "dialog",
+        "speaker": "Lancet-2",
+        "content": "......？！"
+    },
+    {
+        "id": 262,
+        "raw": "[name=\"Lancet-2\"]罗德岛......怎么变成了这样？",
+        "type": "dialog",
+        "speaker": "Lancet-2",
+        "content": "罗德岛......怎么变成了这样？"
+    },
+    {
+        "id": 263,
+        "raw": "[charslot(slot=\"m\", name=\"avg_017_huang_1#8$2\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_017_huang_1#8$2.png"
+    },
+    {
+        "id": 264,
+        "raw": "[name=\"煌\"]欸，Friston-3，他们都已经恢复了吗？",
+        "type": "dialog",
+        "speaker": "煌",
+        "content": "欸，Friston-3，他们都已经恢复了吗？"
+    },
+    {
+        "id": 265,
+        "raw": "[charslot(slot=\"m\", name=\"avg_4093_frston_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4093_frston_1#1$1.png"
+    },
+    {
+        "id": 266,
+        "raw": "[name=\"Friston-3\"]暂时如此。",
+        "type": "dialog",
+        "speaker": "Friston-3",
+        "content": "暂时如此。"
+    },
+    {
+        "id": 267,
+        "raw": "[name=\"Friston-3\"]我覆写了目前他们所有代码中与PRTS相关的部分，用我的核心代码来保证他们的基本运作。",
+        "type": "dialog",
+        "speaker": "Friston-3",
+        "content": "我覆写了目前他们所有代码中与PRTS相关的部分，用我的核心代码来保证他们的基本运作。"
+    },
+    {
+        "id": 268,
+        "raw": "[charslot(slot=\"m\", name=\"avg_017_huang_1#11$2\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_017_huang_1#11$2.png"
+    },
+    {
+        "id": 269,
+        "raw": "[name=\"煌\"]太好了，小猫，这下我们可以放心去支援Misery他们了。",
+        "type": "dialog",
+        "speaker": "煌",
+        "content": "太好了，小猫，这下我们可以放心去支援Misery他们了。"
+    },
+    {
+        "id": 270,
+        "raw": "[charslot(slot=\"m\",name=\"avg_391_rosmon_1#1$2\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_391_rosmon_1#1$2.png"
+    },
+    {
+        "id": 271,
+        "raw": "[name=\"迷迭香\"]Friston-3，接下来你要去哪？",
+        "type": "dialog",
+        "speaker": "迷迭香",
+        "content": "Friston-3，接下来你要去哪？"
+    },
+    {
+        "id": 272,
+        "raw": "[charslot(slot=\"m\", name=\"avg_4093_frston_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4093_frston_1#1$1.png"
+    },
+    {
+        "id": 273,
+        "raw": "[name=\"Friston-3\"]和这几位刚刚清醒过来的家伙商量一下，我想我们多少还能帮上点忙。",
+        "type": "dialog",
+        "speaker": "Friston-3",
+        "content": "和这几位刚刚清醒过来的家伙商量一下，我想我们多少还能帮上点忙。"
+    },
+    {
+        "id": 274,
+        "raw": "[name=\"Friston-3\"]可露希尔那边我会沟通。我还准备找她算账呢。",
+        "type": "dialog",
+        "speaker": "Friston-3",
+        "content": "可露希尔那边我会沟通。我还准备找她算账呢。"
+    },
+    {
+        "id": 275,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 276,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 277,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 278,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 279,
+        "raw": "[Background(image=\"60_g10_rhodescorridor_origin\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "60_g10_rhodescorridor_origin.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 280,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 281,
+        "raw": "[charslot(slot = \"r\", name = \"avg_1037_amiya3_1#1$3\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 282,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 283,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 284,
+        "raw": "[PlaySound(key=\"$transmission\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_transmission.mp3",
+        "volume": 1
+    },
+    {
+        "id": 285,
+        "raw": "[charslot(slot = \"r\", name = \"avg_1037_amiya3_1#1$3\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 286,
+        "raw": "[interlude(maskid = \"group_interclude_vertical_common\" ,size = \"290,760\",tsfrom=\"0,1\", tsto =\"1,1\",tsduration = 0.5, switch = true, style = 0,offset = \"-250,0\", channel = 3)]",
+        "type": "interlude",
+        "tsfrom": "0,1"
+    },
+    {
+        "id": 287,
+        "raw": "[interlude(channel = 3, switch = true, type = 3, slot = \"m\", pfrom = \"-250,0\", pto=\"-250,0\", name = \"avg_npc_1723_1#1$1\", duration = 0)]",
+        "type": "interlude",
+        "pto": "-250,0"
+    },
+    {
+        "id": 288,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 289,
+        "raw": "[name=\"可露希尔\"]阿米娅，似乎小车们的状态已经暂时恢复正常了。",
+        "type": "dialog",
+        "speaker": "可露希尔",
+        "content": "阿米娅，似乎小车们的状态已经暂时恢复正常了。"
+    },
+    {
+        "id": 290,
+        "raw": "[interlude(channel = 3, switch = false)]",
+        "type": "interlude"
+    },
+    {
+        "id": 291,
+        "raw": "[charslot(slot = \"r\", name = \"avg_1037_amiya3_1#1$3\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 292,
+        "raw": "[name=\"阿米娅\"]弗里斯顿先生的状态如何？",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "弗里斯顿先生的状态如何？"
+    },
+    {
+        "id": 293,
+        "raw": "[charslot(slot = \"r\", focus=\"n\")]",
+        "type": "charslot",
+        "focus": "n"
+    },
+    {
+        "id": 294,
+        "raw": "[interlude(channel = 3, switch = true, type = 3, slot = \"m\", pfrom = \"-250,0\", pto=\"-250,0\", name = \"avg_npc_1723_1#9$1\", duration = 0)]",
+        "type": "interlude",
+        "pto": "-250,0"
+    },
+    {
+        "id": 295,
+        "raw": "[name=\"可露希尔\"]呃，除了有点生我的气，其他都还挺好的。",
+        "type": "dialog",
+        "speaker": "可露希尔",
+        "content": "呃，除了有点生我的气，其他都还挺好的。"
+    },
+    {
+        "id": 296,
+        "raw": "[name=\"可露希尔\"]嘿嘿，多亏他想到能借助他的核心代码直接覆写与PRTS相关的底层代码，否则还真挺棘手的。",
+        "type": "dialog",
+        "speaker": "可露希尔",
+        "content": "嘿嘿，多亏他想到能借助他的核心代码直接覆写与PRTS相关的底层代码，否则还真挺棘手的。"
+    },
+    {
+        "id": 297,
+        "raw": "[interlude(channel = 3, switch = false)]",
+        "type": "interlude"
+    },
+    {
+        "id": 298,
+        "raw": "[charslot(slot = \"r\", name = \"avg_1037_amiya3_1#6$3\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 299,
+        "raw": "[name=\"阿米娅\"]......可露希尔小姐，如今我们拥有的PRTS权限已经全部失效？",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "......可露希尔小姐，如今我们拥有的PRTS权限已经全部失效？"
+    },
+    {
+        "id": 300,
+        "raw": "[charslot(slot = \"r\", focus=\"n\")]",
+        "type": "charslot",
+        "focus": "n"
+    },
+    {
+        "id": 301,
+        "raw": "[interlude(channel = 3, switch = true, type = 3, slot = \"m\", pfrom = \"-250,0\", pto=\"-250,0\", name = \"avg_npc_1723_1#6$1\", duration = 0)]",
+        "type": "interlude",
+        "pto": "-250,0"
+    },
+    {
+        "id": 302,
+        "raw": "[name=\"可露希尔\"]恐怕是这样。",
+        "type": "dialog",
+        "speaker": "可露希尔",
+        "content": "恐怕是这样。"
+    },
+    {
+        "id": 303,
+        "raw": "[name=\"可露希尔\"]PRTS主动屏蔽了我们所有人对其的访问，如今它的所有运行都在黑箱中完成。",
+        "type": "dialog",
+        "speaker": "可露希尔",
+        "content": "PRTS主动屏蔽了我们所有人对其的访问，如今它的所有运行都在黑箱中完成。"
+    },
+    {
+        "id": 304,
+        "raw": "[name=\"可露希尔\"]虽然凯尔希在试图争夺其控制权，但我担心她也没法坚持太久。",
+        "type": "dialog",
+        "speaker": "可露希尔",
+        "content": "虽然凯尔希在试图争夺其控制权，但我担心她也没法坚持太久。"
+    },
+    {
+        "id": 305,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 306,
+        "raw": "[charslot(slot = \"r\", focus=\"n\")]",
+        "type": "charslot",
+        "focus": "n"
+    },
+    {
+        "id": 307,
+        "raw": "[interlude(channel = 3, switch = false)]",
+        "type": "interlude"
+    },
+    {
+        "id": 308,
+        "raw": "[Decision(options=\"强制切断PRTS的核心能源。;强制启动备用系统争夺本舰控制权。\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "强制切断PRTS的核心能源。;强制启动备用系统争夺本舰控制权。",
+        "values": "1;2"
+    },
+    {
+        "id": 309,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 310,
+        "raw": "[interlude(channel = 3, switch = true)]",
+        "type": "interlude"
+    },
+    {
+        "id": 311,
+        "raw": "[name=\"可露希尔\"]强制切断核心能源意味着我们必须直接进入Abyss内部，这一计划的风险很大。",
+        "type": "dialog",
+        "speaker": "可露希尔",
+        "content": "强制切断核心能源意味着我们必须直接进入Abyss内部，这一计划的风险很大。"
+    },
+    {
+        "id": 312,
+        "raw": "[interlude(channel = 3, switch = false)]",
+        "type": "interlude"
+    },
+    {
+        "id": 313,
+        "raw": "[charslot(slot = \"r\", name = \"avg_1037_amiya3_1#8$3\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 314,
+        "raw": "[name=\"阿米娅\"]那我会保护博士。",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "那我会保护博士。"
+    },
+    {
+        "id": 315,
+        "raw": "[name=\"阿米娅\"]而且，我们并非孤身作战，精英干员们都站在我们的身后。",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "而且，我们并非孤身作战，精英干员们都站在我们的身后。"
+    },
+    {
+        "id": 316,
+        "raw": "[charslot(slot = \"r\", name = \"avg_1037_amiya3_1#6$3\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 317,
+        "raw": "[name=\"阿米娅\"]我不会放弃博士，也不会放弃罗德岛。",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "我不会放弃博士，也不会放弃罗德岛。"
+    },
+    {
+        "id": 318,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 319,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 320,
+        "raw": "[charslot(slot = \"r\", focus=\"n\")]",
+        "type": "charslot",
+        "focus": "n"
+    },
+    {
+        "id": 321,
+        "raw": "[interlude(channel = 3, switch = true, type = 3, slot = \"m\", pfrom = \"-250,0\", pto=\"-250,0\", name = \"avg_npc_1723_1#6$1\", duration = 0)]",
+        "type": "interlude",
+        "pto": "-250,0"
+    },
+    {
+        "id": 322,
+        "raw": "[name=\"可露希尔\"]我的ZOOT系统并不能完全做到与PRTS争夺控制权。",
+        "type": "dialog",
+        "speaker": "可露希尔",
+        "content": "我的ZOOT系统并不能完全做到与PRTS争夺控制权。"
+    },
+    {
+        "id": 323,
+        "raw": "[name=\"可露希尔\"]我与凯尔希进行过此种情况的演算。",
+        "type": "dialog",
+        "speaker": "可露希尔",
+        "content": "我与凯尔希进行过此种情况的演算。"
+    },
+    {
+        "id": 324,
+        "raw": "[name=\"可露希尔\"]若是借助本舰的能源动力强行启动，短时间内或许它能够拿回某些非核心区域的控制权......",
+        "type": "dialog",
+        "speaker": "可露希尔",
+        "content": "若是借助本舰的能源动力强行启动，短时间内或许它能够拿回某些非核心区域的控制权......"
+    },
+    {
+        "id": 325,
+        "raw": "[name=\"可露希尔\"]但每次的结果都是过载启动后它的核心元件直接损毁。",
+        "type": "dialog",
+        "speaker": "可露希尔",
+        "content": "但每次的结果都是过载启动后它的核心元件直接损毁。"
+    },
+    {
+        "id": 326,
+        "raw": "[interlude(channel = 3, switch = false)]",
+        "type": "interlude"
+    },
+    {
+        "id": 327,
+        "raw": "[charslot(slot = \"r\", name = \"avg_1037_amiya3_1#8$3\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 328,
+        "raw": "[name=\"阿米娅\"]可露希尔小姐，你早就有判断了，对吧？",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "可露希尔小姐，你早就有判断了，对吧？"
+    },
+    {
+        "id": 329,
+        "raw": "[charslot(slot = \"r\", focus=\"n\")]",
+        "type": "charslot",
+        "focus": "n"
+    },
+    {
+        "id": 330,
+        "raw": "[interlude(channel = 3, switch = true, type = 3, slot = \"m\", pfrom = \"-250,0\", pto=\"-250,0\", name = \"avg_npc_1723_1#9$1\", duration = 0)]",
+        "type": "interlude",
+        "pto": "-250,0"
+    },
+    {
+        "id": 331,
+        "raw": "[name=\"可露希尔\"]哈哈，我可以直接开干。",
+        "type": "dialog",
+        "speaker": "可露希尔",
+        "content": "哈哈，我可以直接开干。"
+    },
+    {
+        "id": 332,
+        "raw": "[name=\"可露希尔\"]我能造出一个，就一定能造出第二个。",
+        "type": "dialog",
+        "speaker": "可露希尔",
+        "content": "我能造出一个，就一定能造出第二个。"
+    },
+    {
+        "id": 333,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 334,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 335,
+        "raw": "[charslot(slot = \"r\", focus=\"n\")]",
+        "type": "charslot",
+        "focus": "n"
+    },
+    {
+        "id": 336,
+        "raw": "[interlude(channel = 3, switch = false)]",
+        "type": "interlude"
+    },
+    {
+        "id": 337,
+        "raw": "[Decision(options=\"做两手准备吧。\", values=\"1\")]",
+        "type": "decision",
+        "options": "做两手准备吧。",
+        "values": "1"
+    },
+    {
+        "id": 338,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 339,
+        "raw": "[Decision(options=\"突入Abyss的同时启用备用指挥系统。\", values=\"1\")]",
+        "type": "decision",
+        "options": "突入Abyss的同时启用备用指挥系统。",
+        "values": "1"
+    },
+    {
+        "id": 340,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 341,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 342,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 343,
+        "raw": "[interlude(channel = 3, clear = true)]",
+        "type": "interlude"
+    },
+    {
+        "id": 344,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 345,
+        "raw": "[Background(image=\"bg_rhodesengineeringroom\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_rhodesengineeringroom.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 346,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 347,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 348,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 349,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1723_1#2$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 350,
+        "raw": "[name=\"可露希尔\"]呼，你终于要上线了......",
+        "type": "dialog",
+        "speaker": "可露希尔",
+        "content": "呼，你终于要上线了......"
+    },
+    {
+        "id": 351,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1723_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 352,
+        "raw": "[name=\"可露希尔\"]我也已经等了太久。现在，让我好好看看你——",
+        "type": "dialog",
+        "speaker": "可露希尔",
+        "content": "我也已经等了太久。现在，让我好好看看你——"
+    },
+    {
+        "id": 353,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 354,
+        "raw": "[charslot(duration=0.5, isblock=true)]",
+        "type": "charslot",
+        "duration": "0.5,",
+        "isblock": true
+    },
+    {
+        "id": 355,
+        "raw": "[Delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 356,
+        "raw": "[PlaySound(key=\"$d_avg_spotlightc\", volume=0.4)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_spotlightc.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 357,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 358,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.01, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.01,",
+        "block": true
+    },
+    {
+        "id": 359,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 360,
+        "raw": "可露希尔紧张地等待着，她一直渴望着有朝一日能真正看到它开始运作，但也害怕看到它投入使用的那一天。",
+        "type": "narration",
+        "content": "可露希尔紧张地等待着，她一直渴望着有朝一日能真正看到它开始运作，但也害怕看到它投入使用的那一天。"
+    },
+    {
+        "id": 361,
+        "raw": "那意味着罗德岛再次面临了束手无策的局面——",
+        "type": "narration",
+        "content": "那意味着罗德岛再次面临了束手无策的局面——"
+    },
+    {
+        "id": 362,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 363,
+        "raw": "[playsound(key=\"$d_avg_systemstart\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_systemstart.mp3",
+        "volume": 1
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"..................\", x=180,y=170, alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "..................",
+        "x": "180,y=170,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n\\nZOOT指挥系统已上线，权限日志更新中......\",block = true)]",
+        "type": "sticker",
+        "text": "\\n\\nZOOT指挥系统已上线，权限日志更新中......"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n\\n检测到原始管理员权限，请确认密钥......\",block = true)]",
+        "type": "sticker",
+        "text": "\\n\\n检测到原始管理员权限，请确认密钥......"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n\\n密钥指令，“机油艺术”。验证完成。\",block = true)]",
+        "type": "sticker",
+        "text": "\\n\\n密钥指令，“机油艺术”。验证完成。"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n\\n好久不见，可露希尔。\",block = true)]",
+        "type": "sticker",
+        "text": "\\n\\n好久不见，可露希尔。"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", duration=0.5, block = false)]",
+        "type": "sticker",
+        "duration": "0.5,"
+    },
+    {
+        "id": 370,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": "st2",
+        "raw": "[Sticker(id=\"st2\", multi = true, text=\"正在唤醒本舰全部备用节点。\", x=180,y=170, alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "正在唤醒本舰全部备用节点。",
+        "x": "180,y=170,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st2",
+        "raw": "[Sticker(id=\"st2\", multi = true, text=\"\\n\\nLoading......\",block = true)]",
+        "type": "sticker",
+        "text": "\\n\\nLoading......"
+    },
+    {
+        "id": 373,
+        "raw": "[PlaySound(key=\"$alarmenter\",volume=0.8)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/battle/b_ui/b_ui_alarmenter.mp3",
+        "volume": 0.8
+    },
+    {
+        "id": 374,
+        "raw": "[Blocker(a=0.3, r=1,g=0.2,b=0.2, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0.3,",
+        "r": "1,g=0.2,b=0.2,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 375,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": "st2",
+        "raw": "[Sticker(id=\"st2\", multi = true, text=\"\\n\\n警告：唤醒失败，无法突破PRTS封锁。\",block = true)]",
+        "type": "sticker",
+        "text": "\\n\\n警告：唤醒失败，无法突破PRTS封锁。"
+    },
+    {
+        "id": "st2",
+        "raw": "[Sticker(id=\"st2\", duration=0.5, block = false)]",
+        "type": "sticker",
+        "duration": "0.5,"
+    },
+    {
+        "id": 378,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 379,
+        "raw": "[PlaySound(key=\"$keyboard\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_keyboard.mp3",
+        "volume": 1
+    },
+    {
+        "id": 380,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1723_1#6$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 381,
+        "raw": "[name=\"可露希尔\"]......启动过载。",
+        "type": "dialog",
+        "speaker": "可露希尔",
+        "content": "......启动过载。"
+    },
+    {
+        "id": 382,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 383,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 384,
+        "raw": "[PlaySound(key=\"$d_avg_spotlightc\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_spotlightc.mp3",
+        "volume": 1
+    },
+    {
+        "id": 385,
+        "raw": "[Blocker(a=0.7, r=0, g=0, b=0, fadetime=0.01, block=true)]",
+        "type": "blocker",
+        "a": "0.7,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.01,",
+        "block": true
+    },
+    {
+        "id": 386,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"备用能源检测已完成，输入来源——罗德岛能源动力层，余量百分之七十一。\", x=180,y=170, alignment=\"left\", size=24, delay=0.04, width=900,block = true)]",
+        "type": "sticker",
+        "text": "备用能源检测已完成，输入来源——罗德岛能源动力层，余量百分之七十一。",
+        "x": "180,y=170,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "900,block"
+    },
+    {
+        "id": 388,
+        "raw": "[PlaySound(key=\"$alarmenter\",volume=0.8)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/battle/b_ui/b_ui_alarmenter.mp3",
+        "volume": 0.8
+    },
+    {
+        "id": 389,
+        "raw": "[Blocker(a=0.3, r=1,g=0.2,b=0.2, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0.3,",
+        "r": "1,g=0.2,b=0.2,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 390,
+        "raw": "[Blocker(a=0.7, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0.7,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n\\n警告：启动过载模式将极大损耗设备寿命。\",block = true)]",
+        "type": "sticker",
+        "text": "\\n\\n警告：启动过载模式将极大损耗设备寿命。"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n\\n当前能源预计可供能：六十一分钟。\",block = true)]",
+        "type": "sticker",
+        "text": "\\n\\n当前能源预计可供能：六十一分钟。"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n\\n过载模式已启动。\",block = true)]",
+        "type": "sticker",
+        "text": "\\n\\n过载模式已启动。"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n\\n唤醒全部备用节点中......\",block = true)]",
+        "type": "sticker",
+        "text": "\\n\\n唤醒全部备用节点中......"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", duration=1, block = false)]",
+        "type": "sticker",
+        "duration": "1,"
+    },
+    {
+        "id": 396,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 397,
+        "raw": "[PlaySound(key=\"$alarmenter\",volume=0.8)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/battle/b_ui/b_ui_alarmenter.mp3",
+        "volume": 0.8
+    },
+    {
+        "id": 398,
+        "raw": "[Blocker(a=0.3, r=1,g=0.2,b=0.2, fadetime=0.4, block=true)]",
+        "type": "blocker",
+        "a": "0.3,",
+        "r": "1,g=0.2,b=0.2,",
+        "fadetime": "0.4,",
+        "block": true
+    },
+    {
+        "id": 399,
+        "raw": "[Blocker(a=0.7, r=0, g=0, b=0, fadetime=0.4, block=false)]",
+        "type": "blocker",
+        "a": "0.7,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.4,",
+        "block": false
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"警告：PRTS入侵！\", x=180,y=170, alignment=\"left\", size=24, delay=0.04, width=800, block = false)]",
+        "type": "sticker",
+        "text": "警告：PRTS入侵！",
+        "x": "180,y=170,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "800,"
+    },
+    {
+        "id": 401,
+        "raw": "[delay(time=0.6)]",
+        "type": "delay",
+        "time": 0.6
+    },
+    {
+        "id": 402,
+        "raw": "[PlaySound(key=\"$alarmenter\",volume=0.8)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/battle/b_ui/b_ui_alarmenter.mp3",
+        "volume": 0.8
+    },
+    {
+        "id": 403,
+        "raw": "[Blocker(a=0.3, r=1,g=0.2,b=0.2, fadetime=0.4, block=true)]",
+        "type": "blocker",
+        "a": "0.3,",
+        "r": "1,g=0.2,b=0.2,",
+        "fadetime": "0.4,",
+        "block": true
+    },
+    {
+        "id": 404,
+        "raw": "[Blocker(a=0.7, r=0, g=0, b=0, fadetime=0.4, block=false)]",
+        "type": "blocker",
+        "a": "0.7,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.4,",
+        "block": false
+    },
+    {
+        "id": "st2",
+        "raw": "[Sticker(id=\"st2\", multi = true, text=\"警告：ZOOT核心程序正在被覆写——\", x=180,y=240, alignment=\"left\", size=24, delay=0.04, width=800, block = false)]",
+        "type": "sticker",
+        "text": "警告：ZOOT核心程序正在被覆写——",
+        "x": "180,y=240,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "800,"
+    },
+    {
+        "id": 406,
+        "raw": "[delay(time=0.6)]",
+        "type": "delay",
+        "time": 0.6
+    },
+    {
+        "id": 407,
+        "raw": "[PlaySound(key=\"$alarmenter\",volume=0.8)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/battle/b_ui/b_ui_alarmenter.mp3",
+        "volume": 0.8
+    },
+    {
+        "id": 408,
+        "raw": "[Blocker(a=0.3, r=1,g=0.2,b=0.2, fadetime=0.4, block=true)]",
+        "type": "blocker",
+        "a": "0.3,",
+        "r": "1,g=0.2,b=0.2,",
+        "fadetime": "0.4,",
+        "block": true
+    },
+    {
+        "id": 409,
+        "raw": "[Blocker(a=0.7, r=0, g=0, b=0, fadetime=0.4, block=false)]",
+        "type": "blocker",
+        "a": "0.7,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.4,",
+        "block": false
+    },
+    {
+        "id": "st3",
+        "raw": "[Sticker(id=\"st3\", multi = true, text=\"警告：ZOOT系统运行能源不足——\", x=180,y=310, alignment=\"left\", size=24, delay=0.04, width=800, block = true)]",
+        "type": "sticker",
+        "text": "警告：ZOOT系统运行能源不足——",
+        "x": "180,y=310,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "800,"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", duration=0.5, block = false)]",
+        "type": "sticker",
+        "duration": "0.5,"
+    },
+    {
+        "id": "st2",
+        "raw": "[Sticker(id=\"st2\", duration=0.5, block = false)]",
+        "type": "sticker",
+        "duration": "0.5,"
+    },
+    {
+        "id": "st3",
+        "raw": "[Sticker(id=\"st3\", duration=0.5, block = false)]",
+        "type": "sticker",
+        "duration": "0.5,"
+    },
+    {
+        "id": 414,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 415,
+        "raw": "[PlaySound(key=\"$keyboard\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_keyboard.mp3",
+        "volume": 1
+    },
+    {
+        "id": 416,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1723_1#6$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 417,
+        "raw": "[name=\"可露希尔\"]等等，坚持住，“零号油罐”！",
+        "type": "dialog",
+        "speaker": "可露希尔",
+        "content": "等等，坚持住，“零号油罐”！"
+    },
+    {
+        "id": 418,
+        "raw": "[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.3,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 419,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1723_1#7$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 420,
+        "raw": "[name=\"可露希尔\"]该死，拼了！",
+        "type": "dialog",
+        "speaker": "可露希尔",
+        "content": "该死，拼了！"
+    },
+    {
+        "id": 421,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 422,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 423,
+        "raw": "[PlaySound(key=\"$alarmenter\",volume=0.8)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/battle/b_ui/b_ui_alarmenter.mp3",
+        "volume": 0.8
+    },
+    {
+        "id": 424,
+        "raw": "[Blocker(a=0.3, r=1,g=0.2,b=0.2, fadetime=0.4, block=true)]",
+        "type": "blocker",
+        "a": "0.3,",
+        "r": "1,g=0.2,b=0.2,",
+        "fadetime": "0.4,",
+        "block": true
+    },
+    {
+        "id": 425,
+        "raw": "[Blocker(a=0.7, r=0, g=0, b=0, fadetime=0.4, block=false)]",
+        "type": "blocker",
+        "a": "0.7,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.4,",
+        "block": false
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"警告：核心组件严重受损。\", x=180,y=170, alignment=\"left\", size=24, delay=0.04, width=800, block = false)]",
+        "type": "sticker",
+        "text": "警告：核心组件严重受损。",
+        "x": "180,y=170,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "800,"
+    },
+    {
+        "id": 427,
+        "raw": "[delay(time=0.6)]",
+        "type": "delay",
+        "time": 0.6
+    },
+    {
+        "id": 428,
+        "raw": "[PlaySound(key=\"$alarmenter\",volume=0.8)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/battle/b_ui/b_ui_alarmenter.mp3",
+        "volume": 0.8
+    },
+    {
+        "id": 429,
+        "raw": "[Blocker(a=0.3, r=1,g=0.2,b=0.2, fadetime=0.4, block=true)]",
+        "type": "blocker",
+        "a": "0.3,",
+        "r": "1,g=0.2,b=0.2,",
+        "fadetime": "0.4,",
+        "block": true
+    },
+    {
+        "id": 430,
+        "raw": "[Blocker(a=0.7, r=0, g=0, b=0, fadetime=0.4, block=false)]",
+        "type": "blocker",
+        "a": "0.7,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.4,",
+        "block": false
+    },
+    {
+        "id": "st2",
+        "raw": "[Sticker(id=\"st2\", multi = true, text=\"警告：备用供能不足，预计剩余时间：二十一分钟。\", x=180,y=240, alignment=\"left\", size=24, delay=0.04, width=800, block = false)]",
+        "type": "sticker",
+        "text": "警告：备用供能不足，预计剩余时间：二十一分钟。",
+        "x": "180,y=240,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "800,"
+    },
+    {
+        "id": 432,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": "st3",
+        "raw": "[Sticker(id=\"st3\", multi = true, text=\"通讯系统已上线。\", x=180,y=310, alignment=\"left\", size=24, delay=0.04, width=800, block = true)]",
+        "type": "sticker",
+        "text": "通讯系统已上线。",
+        "x": "180,y=310,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "800,"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", duration=0.5, block = false)]",
+        "type": "sticker",
+        "duration": "0.5,"
+    },
+    {
+        "id": "st2",
+        "raw": "[Sticker(id=\"st2\", duration=0.5, block = false)]",
+        "type": "sticker",
+        "duration": "0.5,"
+    },
+    {
+        "id": "st3",
+        "raw": "[Sticker(id=\"st3\", duration=0.5, block = false)]",
+        "type": "sticker",
+        "duration": "0.5,"
+    },
+    {
+        "id": 437,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 438,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1723_1#6$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 439,
+        "raw": "[name=\"可露希尔\"]博士，PRTS正在疯狂攻击我们，ZOOT会协同凯尔希展开防御。",
+        "type": "dialog",
+        "speaker": "可露希尔",
+        "content": "博士，PRTS正在疯狂攻击我们，ZOOT会协同凯尔希展开防御。"
+    },
+    {
+        "id": 440,
+        "raw": "[name=\"可露希尔\"]接下来就交给你们了！",
+        "type": "dialog",
+        "speaker": "可露希尔",
+        "content": "接下来就交给你们了！"
+    },
+    {
+        "id": 441,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 442,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 443,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 444,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 445,
+        "raw": "[Background(image=\"60_g8_rhodeslowerdeck_origin\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "60_g8_rhodeslowerdeck_origin.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 446,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 447,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 448,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 449,
+        "raw": "[Decision(options=\"所有人测试通讯设备。\", values=\"1\")]",
+        "type": "decision",
+        "options": "所有人测试通讯设备。",
+        "values": "1"
+    },
+    {
+        "id": 450,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 451,
+        "raw": "[playMusic(intro=\"$kaltsitteam_intro\", key=\"$kaltsitteam_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act9d2d0/m_bat_kaltsitteam_intro.mp3",
+        "key": "sound_beta_2/music/act9d2d0/m_bat_kaltsitteam_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 452,
+        "raw": "[PlaySound(key=\"$d_gen_transmissionget\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_transmissionget.mp3",
+        "volume": 1
+    },
+    {
+        "id": 453,
+        "raw": "[interlude(maskid = \"group_interclude_square_common\", char = \"Raidian\", switch = true, style = 1,offset = \"-200,170\", channel = 3)]",
+        "type": "interlude"
+    },
+    {
+        "id": 454,
+        "raw": "[interlude(channel = 3, type = 3, slot = \"m\", switch = true, pfrom = \"450,0\", pto=\"-180,50\",name = \"avg_npc_1730_1#1$1\",  duration = 0)]",
+        "type": "interlude",
+        "pto": "-180,50"
+    },
+    {
+        "id": 455,
+        "raw": "[interlude(channel = 3, switch = true)]",
+        "type": "interlude"
+    },
+    {
+        "id": 456,
+        "raw": "[name=\"Raidian\"]已就位。",
+        "type": "dialog",
+        "speaker": "Raidian",
+        "content": "已就位。"
+    },
+    {
+        "id": 457,
+        "raw": "[interlude(maskid = \"group_interclude_square_common\", char = \"Mantra\", switch = true, style = 1,offset = \"200,170\", channel = 4)]",
+        "type": "interlude"
+    },
+    {
+        "id": 458,
+        "raw": "[interlude(channel = 4, type = 3, slot = \"m\", switch = true, pfrom = \"-450,0\", pto=\"220,-60\", name = \"avg_npc_1300_1#1$1\", duration = 0)]",
+        "type": "interlude",
+        "pto": "220,-60"
+    },
+    {
+        "id": 459,
+        "raw": "[interlude(channel = 3, switch = false)]",
+        "type": "interlude"
+    },
+    {
+        "id": 460,
+        "raw": "[name=\"Mantra\"]收到。",
+        "type": "dialog",
+        "speaker": "Mantra",
+        "content": "收到。"
+    },
+    {
+        "id": 461,
+        "raw": "[interlude(maskid = \"group_interclude_square_common\", char = \"Misery\", switch = true, style = 1,offset = \"-200,-120\", channel = 5)]",
+        "type": "interlude"
+    },
+    {
+        "id": 462,
+        "raw": "[interlude(channel = 5, type = 3, slot = \"m\", switch = true, pfrom = \"-450,0\", pto=\"-160,-350\", name = \"avg_npc_235\", duration = 0)]",
+        "type": "interlude",
+        "pto": "-160,-350"
+    },
+    {
+        "id": 463,
+        "raw": "[interlude(channel = 4, switch = false)]",
+        "type": "interlude"
+    },
+    {
+        "id": 464,
+        "raw": "[name=\"Misery\"]在前线等你们。",
+        "type": "dialog",
+        "speaker": "Misery",
+        "content": "在前线等你们。"
+    },
+    {
+        "id": 465,
+        "raw": "[interlude(maskid = \"group_interclude_square_common\", char = \"Logos\", switch = true, style = 1,offset = \"200,-120\", channel = 6)]",
+        "type": "interlude"
+    },
+    {
+        "id": 466,
+        "raw": "[interlude(channel = 6, type = 3, slot = \"m\", switch = true, pfrom = \"-450,0\", pto=\"190,-320\", name = \"avg_4133_logos_1#1$1\", duration = 0)]",
+        "type": "interlude",
+        "pto": "190,-320"
+    },
+    {
+        "id": 467,
+        "raw": "[interlude(channel = 5, switch = false)]",
+        "type": "interlude"
+    },
+    {
+        "id": 468,
+        "raw": "[name=\"Logos\"]前往集合。",
+        "type": "dialog",
+        "speaker": "Logos",
+        "content": "前往集合。"
+    },
+    {
+        "id": 469,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 470,
+        "raw": "[interlude(channel = 3, clear = true)]",
+        "type": "interlude"
+    },
+    {
+        "id": 471,
+        "raw": "[interlude(channel = 4, clear = true)]",
+        "type": "interlude"
+    },
+    {
+        "id": 472,
+        "raw": "[interlude(channel = 5, clear = true)]",
+        "type": "interlude"
+    },
+    {
+        "id": 473,
+        "raw": "[interlude(channel = 6, clear = true)]",
+        "type": "interlude"
+    },
+    {
+        "id": 474,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 475,
+        "raw": "[PlaySound(key=\"$d_gen_transmissionget\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_transmissionget.mp3",
+        "volume": 1
+    },
+    {
+        "id": 476,
+        "raw": "[interlude(maskid = \"group_interclude_square_common\", char = \"Mechanist\", switch = true, style = 1,offset = \"-200,170\", channel = 3)]",
+        "type": "interlude"
+    },
+    {
+        "id": 477,
+        "raw": "[interlude(channel = 3, type = 3, slot = \"m\", switch = true, pfrom = \"450,0\", pto=\"-130,-50\", name = \"avg_npc_521_1#1$1\", duration = 0)]",
+        "type": "interlude",
+        "pto": "-130,-50"
+    },
+    {
+        "id": 478,
+        "raw": "[interlude(channel = 3, switch = true)]",
+        "type": "interlude"
+    },
+    {
+        "id": 479,
+        "raw": "[name=\"Mechanist\"]马上到。",
+        "type": "dialog",
+        "speaker": "Mechanist",
+        "content": "马上到。"
+    },
+    {
+        "id": 480,
+        "raw": "[interlude(maskid = \"group_interclude_square_common\", char = \"迷迭香\", switch = true, style = 1,offset = \"200,170\", channel = 4)]",
+        "type": "interlude"
+    },
+    {
+        "id": 481,
+        "raw": "[interlude(channel = 4, type = 3, slot = \"m\", switch = true, pfrom = \"-450,0\", pto=\"240,70\", name = \"avg_391_rosmon_1#1$2\", duration = 0)]",
+        "type": "interlude",
+        "pto": "240,70"
+    },
+    {
+        "id": 482,
+        "raw": "[interlude(channel = 3, switch = false)]",
+        "type": "interlude"
+    },
+    {
+        "id": 483,
+        "raw": "[name=\"迷迭香\"]我在，博士。",
+        "type": "dialog",
+        "speaker": "迷迭香",
+        "content": "我在，博士。"
+    },
+    {
+        "id": 484,
+        "raw": "[interlude(maskid = \"group_interclude_square_common\", char = \"煌\", switch = true, style = 1,offset = \"-200,-120\", channel = 5)]",
+        "type": "interlude"
+    },
+    {
+        "id": 485,
+        "raw": "[interlude(channel = 5, type = 3, slot = \"m\", switch = true, pfrom = \"-450,0\", pto=\"-175,-300\", name = \"avg_017_huang_1#12$2\", duration = 0)]",
+        "type": "interlude",
+        "pto": "-175,-300"
+    },
+    {
+        "id": 486,
+        "raw": "[interlude(channel = 4, switch = false)]",
+        "type": "interlude"
+    },
+    {
+        "id": 487,
+        "raw": "[name=\"煌\"]好久没一起干架了！",
+        "type": "dialog",
+        "speaker": "煌",
+        "content": "好久没一起干架了！"
+    },
+    {
+        "id": 488,
+        "raw": "[interlude(maskid = \"group_interclude_square_common\", char = \"Sharp\", switch = true, style = 1,offset = \"200,-120\", channel = 6)]",
+        "type": "interlude"
+    },
+    {
+        "id": 489,
+        "raw": "[interlude(channel = 6, type = 3, slot = \"m\", switch = true, pfrom = \"-450,0\", pto=\"240,-320\", name = \"avg_npc_252\", duration = 0)]",
+        "type": "interlude",
+        "pto": "240,-320"
+    },
+    {
+        "id": 490,
+        "raw": "[interlude(channel = 5, switch = false)]",
+        "type": "interlude"
+    },
+    {
+        "id": 491,
+        "raw": "[name=\"Sharp\"]“坏家伙”号已返回本舰，马上集合。",
+        "type": "dialog",
+        "speaker": "Sharp",
+        "content": "“坏家伙”号已返回本舰，马上集合。"
+    },
+    {
+        "id": 492,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 493,
+        "raw": "[interlude(channel = 3, clear = true)]",
+        "type": "interlude"
+    },
+    {
+        "id": 494,
+        "raw": "[interlude(channel = 4, clear = true)]",
+        "type": "interlude"
+    },
+    {
+        "id": 495,
+        "raw": "[interlude(channel = 5, clear = true)]",
+        "type": "interlude"
+    },
+    {
+        "id": 496,
+        "raw": "[interlude(channel = 6, clear = true)]",
+        "type": "interlude"
+    },
+    {
+        "id": 497,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 498,
+        "raw": "[PlaySound(key=\"$d_gen_transmissionget\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_transmissionget.mp3",
+        "volume": 1
+    },
+    {
+        "id": 499,
+        "raw": "[interlude(maskid = \"group_interclude_square_common\", char = \"Stormeye\", switch = true, style = 1,offset = \"-200,170\", channel = 3)]",
+        "type": "interlude"
+    },
+    {
+        "id": 500,
+        "raw": "[interlude(channel = 3, type = 3, slot = \"m\", switch = true, pfrom = \"450,0\", pto=\"-200,-60\", name = \"avg_npc_167\", duration = 0)]",
+        "type": "interlude",
+        "pto": "-200,-60"
+    },
+    {
+        "id": 501,
+        "raw": "[interlude(channel = 3, switch = true)]",
+        "type": "interlude"
+    },
+    {
+        "id": 502,
+        "raw": "[name=\"Stormeye\"]稍等片刻。",
+        "type": "dialog",
+        "speaker": "Stormeye",
+        "content": "稍等片刻。"
+    },
+    {
+        "id": 503,
+        "raw": "[interlude(maskid = \"group_interclude_square_common\", char = \"Pith\", switch = true, style = 1,offset = \"200,170\", channel = 4)]",
+        "type": "interlude"
+    },
+    {
+        "id": 504,
+        "raw": "[interlude(channel = 4, type = 3, slot = \"m\", switch = true, pfrom = \"-450,0\", pto=\"200,10\", name = \"avg_npc_1310_1#1$1\", duration = 0)]",
+        "type": "interlude",
+        "pto": "200,10"
+    },
+    {
+        "id": 505,
+        "raw": "[interlude(channel = 3, switch = false)]",
+        "type": "interlude"
+    },
+    {
+        "id": 506,
+        "raw": "[name=\"Pith\"]在。",
+        "type": "dialog",
+        "speaker": "Pith",
+        "content": "在。"
+    },
+    {
+        "id": 507,
+        "raw": "[interlude(maskid = \"group_interclude_square_common\", char = \"Touch\", switch = true, style = 1,offset = \"-200,-120\", channel = 5)]",
+        "type": "interlude"
+    },
+    {
+        "id": 508,
+        "raw": "[interlude(channel = 5, type = 3, slot = \"m\", switch = true, pfrom = \"-450,0\", pto=\"-230,-250\", name = \"avg_npc_249_1$1\", duration = 0)]",
+        "type": "interlude",
+        "pto": "-230,-250"
+    },
+    {
+        "id": 509,
+        "raw": "[interlude(channel = 4, switch = false)]",
+        "type": "interlude"
+    },
+    {
+        "id": 510,
+        "raw": "[name=\"Touch\"]正在集合。",
+        "type": "dialog",
+        "speaker": "Touch",
+        "content": "正在集合。"
+    },
+    {
+        "id": 511,
+        "raw": "[interlude(maskid = \"group_interclude_square_common\", char = \"阿斯卡纶\", switch = true, style = 1,offset = \"200,-120\", channel = 6)]",
+        "type": "interlude"
+    },
+    {
+        "id": 512,
+        "raw": "[interlude(channel = 6, type = 3, slot = \"m\", switch = true, pfrom = \"-450,0\", pto=\"190,-320\", name = \"avg_4132_ascln_1#1$1\", duration = 0)]",
+        "type": "interlude",
+        "pto": "190,-320"
+    },
+    {
+        "id": 513,
+        "raw": "[interlude(channel = 5, switch = false)]",
+        "type": "interlude"
+    },
+    {
+        "id": 514,
+        "raw": "[name=\"阿斯卡纶\"]等你。",
+        "type": "dialog",
+        "speaker": "阿斯卡纶",
+        "content": "等你。"
+    },
+    {
+        "id": 515,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 516,
+        "raw": "[PlaySound(key=\"$transmission\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_transmission.mp3",
+        "volume": 1
+    },
+    {
+        "id": 517,
+        "raw": "[interlude(channel = 3, clear = true, tsto=\"0,1\",tsduration=0.5)]",
+        "type": "interlude",
+        "tsto": "0,1",
+        "tsduration": 0.5
+    },
+    {
+        "id": 518,
+        "raw": "[interlude(channel = 4, clear = true, tsto=\"0,1\",tsduration=0.5)]",
+        "type": "interlude",
+        "tsto": "0,1",
+        "tsduration": 0.5
+    },
+    {
+        "id": 519,
+        "raw": "[interlude(channel = 5, clear = true, tsto=\"0,1\",tsduration=0.5)]",
+        "type": "interlude",
+        "tsto": "0,1",
+        "tsduration": 0.5
+    },
+    {
+        "id": 520,
+        "raw": "[interlude(channel = 6, clear = true, tsto=\"0,1\",tsduration=0.5)]",
+        "type": "interlude",
+        "tsto": "0,1",
+        "tsduration": 0.5
+    },
+    {
+        "id": 521,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 522,
+        "raw": "[Decision(options=\"各位，目标已同步。\", values=\"1\")]",
+        "type": "decision",
+        "options": "各位，目标已同步。",
+        "values": "1"
+    },
+    {
+        "id": 523,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 524,
+        "raw": "[Decision(options=\"优先目标——支援凯尔希。\", values=\"1\")]",
+        "type": "decision",
+        "options": "优先目标——支援凯尔希。",
+        "values": "1"
+    },
+    {
+        "id": 525,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 526,
+        "raw": "[Decision(options=\"核心任务——进入Abyss，切断PRTS的核心能源。\", values=\"1\")]",
+        "type": "decision",
+        "options": "核心任务——进入Abyss，切断PRTS的核心能源。",
+        "values": "1"
+    },
+    {
+        "id": 527,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 528,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 529,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 530,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 531,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 532,
+        "raw": "[Background(image=\"60_g4_rhodesabyss_w\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "60_g4_rhodesabyss_w.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": "60_g4_rhodesabyss_w",
+        "raw": "[focusout(type=\"bg\", id=\"60_g4_rhodesabyss_w\", from=0, to=1, duration=0.1, block=false)]",
+        "type": "bg",
+        "from": "0,",
+        "to": "1,",
+        "duration": "0.1,",
+        "block": false
+    },
+    {
+        "id": 534,
+        "raw": "[PlaySound(key=\"$d_avg_labamb\", volume=0, loop=true, channel=\"a\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_labamb.mp3",
+        "volume": "0,",
+        "loop": "true,",
+        "channel": "a"
+    },
+    {
+        "id": 535,
+        "raw": "[SoundVolume(volume=0.8, channel=\"a\",fadetime=2)]",
+        "type": "sound_volume",
+        "volume": "0.8,",
+        "channel": "a",
+        "fadetime": 2
+    },
+    {
+        "id": 536,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 537,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 538,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"预计进度：\", x=180,y=170, alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "预计进度：",
+        "x": "180,y=170,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st2",
+        "raw": "[Sticker(id=\"st2\", multi = true, text=\"■\", hidelog=true, x=290, y=170, alignment=\"left\", size=24, delay=0.04, width=700, duration=0.5, block = false)]",
+        "type": "sticker",
+        "text": "■",
+        "hidelog": "true,",
+        "x": "290,",
+        "y": "170,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,",
+        "duration": "0.5,"
+    },
+    {
+        "id": 541,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": "st3",
+        "raw": "[Sticker(id=\"st3\", multi = true, text=\"■\", hidelog=true, x=320, y=170, alignment=\"left\", size=24, delay=0.04, width=700, duration=0.5, block = false)]",
+        "type": "sticker",
+        "text": "■",
+        "hidelog": "true,",
+        "x": "320,",
+        "y": "170,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,",
+        "duration": "0.5,"
+    },
+    {
+        "id": 543,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": "st3",
+        "raw": "[Sticker(id=\"st3\", duration=0.5, block = false)]",
+        "type": "sticker",
+        "duration": "0.5,"
+    },
+    {
+        "id": 545,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 546,
+        "raw": "[PlaySound(key=\"$d_avg_recorderglitch\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_recorderglitch.mp3",
+        "volume": 1
+    },
+    {
+        "id": "st3",
+        "raw": "[Sticker(id=\"st3\", multi = true, text=\"■\", hidelog=true, x=320, y=170, alignment=\"left\", size=24, delay=0.04, width=700, duration=0.5, block = false)]",
+        "type": "sticker",
+        "text": "■",
+        "hidelog": "true,",
+        "x": "320,",
+        "y": "170,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,",
+        "duration": "0.5,"
+    },
+    {
+        "id": 548,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": "st3",
+        "raw": "[Sticker(id=\"st3\", duration=0.5, block = false)]",
+        "type": "sticker",
+        "duration": "0.5,"
+    },
+    {
+        "id": 550,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": "st3",
+        "raw": "[Sticker(id=\"st3\", multi = true, text=\"■\", hidelog=true, x=320, y=170, alignment=\"left\", size=24, delay=0.04, width=700, duration=0.5, block = false)]",
+        "type": "sticker",
+        "text": "■",
+        "hidelog": "true,",
+        "x": "320,",
+        "y": "170,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,",
+        "duration": "0.5,"
+    },
+    {
+        "id": 552,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": "st3",
+        "raw": "[Sticker(id=\"st3\", duration=0.5, block = false)]",
+        "type": "sticker",
+        "duration": "0.5,"
+    },
+    {
+        "id": 554,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": "st3",
+        "raw": "[Sticker(id=\"st3\", multi = true, text=\"■\", hidelog=true, x=320, y=170, alignment=\"left\", size=24, delay=0.04, width=700, duration=0.1, block = false)]",
+        "type": "sticker",
+        "text": "■",
+        "hidelog": "true,",
+        "x": "320,",
+        "y": "170,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,",
+        "duration": "0.1,"
+    },
+    {
+        "id": 556,
+        "raw": "[delay(time=0.1)]",
+        "type": "delay",
+        "time": 0.1
+    },
+    {
+        "id": "st4",
+        "raw": "[Sticker(id=\"st4\", multi = true, text=\"■\", hidelog=true, x=350, y=170, alignment=\"left\", size=24, delay=0.04, width=700, duration=0.1, block = false)]",
+        "type": "sticker",
+        "text": "■",
+        "hidelog": "true,",
+        "x": "350,",
+        "y": "170,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,",
+        "duration": "0.1,"
+    },
+    {
+        "id": 558,
+        "raw": "[delay(time=0.1)]",
+        "type": "delay",
+        "time": 0.1
+    },
+    {
+        "id": "st5",
+        "raw": "[Sticker(id=\"st5\", multi = true, text=\"■\", hidelog=true, x=380, y=170, alignment=\"left\", size=24, delay=0.04, width=700, duration=0.1, block = false)]",
+        "type": "sticker",
+        "text": "■",
+        "hidelog": "true,",
+        "x": "380,",
+        "y": "170,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,",
+        "duration": "0.1,"
+    },
+    {
+        "id": 560,
+        "raw": "[delay(time=0.1)]",
+        "type": "delay",
+        "time": 0.1
+    },
+    {
+        "id": "st6",
+        "raw": "[Sticker(id=\"st6\", multi = true, text=\"■\", hidelog=true, x=410, y=170, alignment=\"left\", size=24, delay=0.04, width=700, duration=0.1, block = false)]",
+        "type": "sticker",
+        "text": "■",
+        "hidelog": "true,",
+        "x": "410,",
+        "y": "170,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,",
+        "duration": "0.1,"
+    },
+    {
+        "id": 562,
+        "raw": "[delay(time=0.1)]",
+        "type": "delay",
+        "time": 0.1
+    },
+    {
+        "id": "st7",
+        "raw": "[Sticker(id=\"st7\", multi = true, text=\"■\", hidelog=true, x=440, y=170, alignment=\"left\", size=24, delay=0.04, width=700, duration=0.1, block = false)]",
+        "type": "sticker",
+        "text": "■",
+        "hidelog": "true,",
+        "x": "440,",
+        "y": "170,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,",
+        "duration": "0.1,"
+    },
+    {
+        "id": 564,
+        "raw": "[delay(time=0.1)]",
+        "type": "delay",
+        "time": 0.1
+    },
+    {
+        "id": "st8",
+        "raw": "[Sticker(id=\"st8\", multi = true, text=\"■\", hidelog=true, x=470, y=170, alignment=\"left\", size=24, delay=0.04, width=700, duration=0.1, block = false)]",
+        "type": "sticker",
+        "text": "■",
+        "hidelog": "true,",
+        "x": "470,",
+        "y": "170,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,",
+        "duration": "0.1,"
+    },
+    {
+        "id": 566,
+        "raw": "[delay(time=0.1)]",
+        "type": "delay",
+        "time": 0.1
+    },
+    {
+        "id": "st9",
+        "raw": "[Sticker(id=\"st9\", multi = true, text=\"■\", hidelog=true, x=500, y=170, alignment=\"left\", size=24, delay=0.04, width=700, duration=0.1, block = false)]",
+        "type": "sticker",
+        "text": "■",
+        "hidelog": "true,",
+        "x": "500,",
+        "y": "170,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,",
+        "duration": "0.1,"
+    },
+    {
+        "id": 568,
+        "raw": "[delay(time=0.1)]",
+        "type": "delay",
+        "time": 0.1
+    },
+    {
+        "id": "st10",
+        "raw": "[Sticker(id=\"st10\", multi = true, text=\"■\", hidelog=true, x=530, y=170, alignment=\"left\", size=24, delay=0.04, width=700, duration=0.1, block = false)]",
+        "type": "sticker",
+        "text": "■",
+        "hidelog": "true,",
+        "x": "530,",
+        "y": "170,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,",
+        "duration": "0.1,"
+    },
+    {
+        "id": 570,
+        "raw": "[delay(time=0.1)]",
+        "type": "delay",
+        "time": 0.1
+    },
+    {
+        "id": 571,
+        "raw": "[PlaySound(key=\"$d_avg_signlntrfrnc\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_signlntrfrnc.mp3",
+        "volume": 1
+    },
+    {
+        "id": 572,
+        "raw": "[bgeffect(name=\"$eb_signalInterference\", layer=1)]",
+        "type": "bg_effect",
+        "name": "$eb_signalInterference",
+        "layer": 1
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", duration=0.5, block = false)]",
+        "type": "sticker",
+        "duration": "0.5,"
+    },
+    {
+        "id": "st2",
+        "raw": "[Sticker(id=\"st2\", duration=0.5, block = false)]",
+        "type": "sticker",
+        "duration": "0.5,"
+    },
+    {
+        "id": "st3",
+        "raw": "[Sticker(id=\"st3\", duration=0.5, block = false)]",
+        "type": "sticker",
+        "duration": "0.5,"
+    },
+    {
+        "id": "st4",
+        "raw": "[Sticker(id=\"st4\", duration=0.5, block = false)]",
+        "type": "sticker",
+        "duration": "0.5,"
+    },
+    {
+        "id": "st5",
+        "raw": "[Sticker(id=\"st5\", duration=0.5, block = false)]",
+        "type": "sticker",
+        "duration": "0.5,"
+    },
+    {
+        "id": "st6",
+        "raw": "[Sticker(id=\"st6\", duration=0.5, block = false)]",
+        "type": "sticker",
+        "duration": "0.5,"
+    },
+    {
+        "id": "st7",
+        "raw": "[Sticker(id=\"st7\", duration=0.5, block = false)]",
+        "type": "sticker",
+        "duration": "0.5,"
+    },
+    {
+        "id": "st8",
+        "raw": "[Sticker(id=\"st8\", duration=0.5, block = false)]",
+        "type": "sticker",
+        "duration": "0.5,"
+    },
+    {
+        "id": "st9",
+        "raw": "[Sticker(id=\"st9\", duration=0.5, block = false)]",
+        "type": "sticker",
+        "duration": "0.5,"
+    },
+    {
+        "id": "st10",
+        "raw": "[Sticker(id=\"st10\", duration=0.5, block = false)]",
+        "type": "sticker",
+        "duration": "0.5,"
+    },
+    {
+        "id": 583,
+        "raw": "[delay(time=3)]",
+        "type": "delay",
+        "time": 3
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"......\", x=180,y=170, alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "......",
+        "x": "180,y=170,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": 585,
+        "raw": "[PlaySound(key=\"$d_avg_kalimbapizz\",volume=0.8)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_kalimbapizz.mp3",
+        "volume": 0.8
+    },
+    {
+        "id": 586,
+        "raw": "[Blocker(a=0.3, r=0,g=0.2,b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0.3,",
+        "r": "0,g=0.2,b=0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 587,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n\\n欢迎回来，管理员。\",block = true)]",
+        "type": "sticker",
+        "text": "\\n\\n欢迎回来，管理员。"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", duration=2, block = false)]",
+        "type": "sticker",
+        "duration": "2,"
+    },
+    {
+        "id": 590,
+        "raw": "[StopSound(channel=\"a\", fadetime=2)]",
+        "type": "stop_sound",
+        "channel": "a",
+        "fadetime": 2
+    },
+    {
+        "id": 591,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 592,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 593,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 594,
+        "raw": "[Background]",
+        "type": "background"
+    },
+    {
+        "id": 595,
+        "raw": "[Image]",
+        "type": "image"
+    }
+]

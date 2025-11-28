@@ -1,0 +1,2951 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")]",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK"
+    },
+    {
+        "id": 2,
+        "raw": "[stopmusic]",
+        "type": "stop_music"
+    },
+    {
+        "id": 3,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 4,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 5,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 6,
+        "raw": "[Background(image=\"32_g1_lentiavenue\",screenadapt=\"showall\")]",
+        "type": "background",
+        "image": "32_g1_lentiavenue.png",
+        "screenadapt": "showall"
+    },
+    {
+        "id": 7,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 8,
+        "raw": "[playMusic(intro=\"$calamity_intro\", key=\"$calamity_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta2_180603/m_dia_calamity_intro.mp3",
+        "key": "sound_beta_2/music/beta2_180603/m_dia_calamity_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 9,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 10,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 11,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 12,
+        "raw": "[playsound(key=\"$transmission\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_transmission.mp3"
+    },
+    {
+        "id": 13,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 14,
+        "raw": "[Character(name=\"avg_npc_012\",fadetime=0.7)]",
+        "type": "character",
+        "name": "avg_npc_012",
+        "fadetime": 0.7
+    },
+    {
+        "id": 15,
+        "raw": "[delay(time=0.7)]",
+        "type": "delay",
+        "time": 0.7
+    },
+    {
+        "id": 16,
+        "raw": "[name=\"ロドスオペレーター\"]アーミヤさん、信号を受信した！",
+        "type": "dialog",
+        "speaker": "ロドスオペレーター",
+        "content": "アーミヤさん、信号を受信した！"
+    },
+    {
+        "id": 17,
+        "raw": "[Character(name=\"avg_npc_394_1#7$1\")]",
+        "type": "character",
+        "name": "avg_npc_394_1#7$1"
+    },
+    {
+        "id": 18,
+        "raw": "[name=\"アーミヤ\"]わかりました。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "わかりました。"
+    },
+    {
+        "id": 19,
+        "raw": "[name=\"アーミヤ\"]術師オペレーター、私と一緒にアーツバリアを維持してください！",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "術師オペレーター、私と一緒にアーツバリアを維持してください！"
+    },
+    {
+        "id": 20,
+        "raw": "[name=\"アーミヤ\"]他のみなさんは、街角へ向かって走って！",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "他のみなさんは、街角へ向かって走って！"
+    },
+    {
+        "id": 21,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 22,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 23,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 24,
+        "raw": "[PlaySound(key=\"$d_avg_clothmovement\",volume=0.5)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_clothmovement.mp3",
+        "volume": 0.5
+    },
+    {
+        "id": 25,
+        "raw": "[PlaySound(key=\"$d_avg_clothmovement\", volume=0.5, loop=false, channel=\"cast1\",delay=0.3)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_clothmovement.mp3",
+        "volume": "0.5,",
+        "loop": "false,",
+        "channel": "cast1",
+        "delay": 0.3
+    },
+    {
+        "id": 26,
+        "raw": "[PlaySound(key=\"$d_avg_clothmovement\", volume=0.5, loop=false, channel=\"cast2\",delay=0.5)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_clothmovement.mp3",
+        "volume": "0.5,",
+        "loop": "false,",
+        "channel": "cast2",
+        "delay": 0.5
+    },
+    {
+        "id": 27,
+        "raw": "[PlaySound(key=\"$d_avg_clothmovement\", volume=0.5, loop=false, channel=\"cast3\",delay=0.7)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_clothmovement.mp3",
+        "volume": "0.5,",
+        "loop": "false,",
+        "channel": "cast3",
+        "delay": 0.7
+    },
+    {
+        "id": 28,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 29,
+        "raw": "サルカズの術師たちが一斉にアーツユニットを掲げた。",
+        "type": "narration",
+        "content": "サルカズの術師たちが一斉にアーツユニットを掲げた。"
+    },
+    {
+        "id": 30,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 31,
+        "raw": "[CameraShake(duration=2.5, xstrength=30, ystrength=30, vibrato=60, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "2.5,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "60,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 32,
+        "raw": "[PlaySound(key=\"$smallearthquake\", volume=0.7)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_smallearthquake.mp3",
+        "volume": 0.7
+    },
+    {
+        "id": 33,
+        "raw": "[delay(time=3)]",
+        "type": "delay",
+        "time": 3
+    },
+    {
+        "id": 34,
+        "raw": "[playsound(key=\"$e_atk_airshipvibe\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_atk/e_atk_airshipvibe.mp3"
+    },
+    {
+        "id": 35,
+        "raw": "[playsound(key=\"$e_atk_vibe_n\",delay=0.4)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_atk/e_atk_vibe_n.mp3",
+        "delay": 0.4
+    },
+    {
+        "id": 36,
+        "raw": "[playsound(key=\"$d_avg_tear\",delay=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_tear.mp3",
+        "delay": 1
+    },
+    {
+        "id": 37,
+        "raw": "凝縮した鮮血の化け物が地面から群れを成して湧き出す。通りがまるごと、戦士たちの足元で口を大きく開いた。",
+        "type": "narration",
+        "content": "凝縮した鮮血の化け物が地面から群れを成して湧き出す。通りがまるごと、戦士たちの足元で口を大きく開いた。"
+    },
+    {
+        "id": 38,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 39,
+        "raw": "[Character(name=\"avg_npc_394_1#4$1\")]",
+        "type": "character",
+        "name": "avg_npc_394_1#4$1"
+    },
+    {
+        "id": 40,
+        "raw": "[name=\"アーミヤ\"]うっ――！",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "うっ――！"
+    },
+    {
+        "id": 41,
+        "raw": "[name=\"アーミヤ\"]多すぎます、防ぎきれません！",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "多すぎます、防ぎきれません！"
+    },
+    {
+        "id": 42,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 43,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 44,
+        "raw": "[delay(time=0.3)]",
+        "type": "delay",
+        "time": 0.3
+    },
+    {
+        "id": 45,
+        "raw": "[PlaySound(key=\"$d_avg_spiritwhoosh\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_spiritwhoosh.mp3"
+    },
+    {
+        "id": 46,
+        "raw": "[PlaySound(key=\"$p_aoe_nmag_h\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/player/p_aoe/p_aoe_nmag_h.mp3"
+    },
+    {
+        "id": 47,
+        "raw": "[CameraShake(duration=0.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 48,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 49,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.05,",
+        "block": true
+    },
+    {
+        "id": 50,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 51,
+        "raw": "[delay(time=0.3)]",
+        "type": "delay",
+        "time": 0.3
+    },
+    {
+        "id": 52,
+        "raw": "[PlaySound(key=\"$p_imp_amiyamag_h\", volume=0.9)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/player/p_imp/p_imp_amiyamag_h.mp3",
+        "volume": 0.9
+    },
+    {
+        "id": 53,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 54,
+        "raw": "[playsound(key=\"$e_atk_airshipvibe\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_atk/e_atk_airshipvibe.mp3"
+    },
+    {
+        "id": 55,
+        "raw": "[playsound(key=\"$e_atk_vibe_n\",delay=0.4)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_atk/e_atk_vibe_n.mp3",
+        "delay": 0.4
+    },
+    {
+        "id": 56,
+        "raw": "[playsound(key=\"$d_avg_tear\",delay=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_tear.mp3",
+        "delay": 1
+    },
+    {
+        "id": 57,
+        "raw": "黒い線が化け物の血肉を軽々と切り裂く。しかしすぐに、さらに多くの化け物が倒れた血肉の中から再び生まれ、アーツで築いた防衛線を好き勝手にかじり出した。",
+        "type": "narration",
+        "content": "黒い線が化け物の血肉を軽々と切り裂く。しかしすぐに、さらに多くの化け物が倒れた血肉の中から再び生まれ、アーツで築いた防衛線を好き勝手にかじり出した。"
+    },
+    {
+        "id": 58,
+        "raw": "戦士たちは死に物狂いで走った。しかし、捕食者の口の中から放たれる腥い臭いが、首の後ろにべったりとついて回った。",
+        "type": "narration",
+        "content": "戦士たちは死に物狂いで走った。しかし、捕食者の口の中から放たれる腥い臭いが、首の後ろにべったりとついて回った。"
+    },
+    {
+        "id": 59,
+        "raw": "しかし、それも彼らが別の路地の中へと駆け込むことに成功するまでだった。身も凍るような、しかし清涼な気配が正面から押し寄せてきた。",
+        "type": "narration",
+        "content": "しかし、それも彼らが別の路地の中へと駆け込むことに成功するまでだった。身も凍るような、しかし清涼な気配が正面から押し寄せてきた。"
+    },
+    {
+        "id": 60,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 61,
+        "raw": "[stopmusic(fadetime=1)]",
+        "type": "stop_music",
+        "fadetime": 1
+    },
+    {
+        "id": 62,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 63,
+        "raw": "[PlaySound(key=\"$d_avg_timestop\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_timestop.mp3",
+        "volume": 1
+    },
+    {
+        "id": 64,
+        "raw": "[BackgroundTween(xScaleFrom=1, yScaleFrom=1, xScaleTo=1.1, yScaleTo=1.1, duration=0.2, block=true,ease=\"InOutCubic\")]",
+        "type": "background_tween",
+        "xScaleFrom": "1,",
+        "yScaleFrom": "1,",
+        "xScaleTo": "1.1,",
+        "yScaleTo": "1.1,",
+        "duration": "0.2,",
+        "block": "true,ease=\"InOutCubic\""
+    },
+    {
+        "id": 65,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 66,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.05,",
+        "block": true
+    },
+    {
+        "id": 67,
+        "raw": "[Blocker(a=0.2, r=255, g=255, b=255, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0.2,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 68,
+        "raw": "[name=\"？？？\"]止まれ。",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "止まれ。"
+    },
+    {
+        "id": 69,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 70,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": false
+    },
+    {
+        "id": 71,
+        "raw": "[BackgroundTween(xScaleFrom=1.1, yScaleFrom=1.1, xScaleTo=1, yScaleTo=1, duration=3, block=true,ease=\"InOutCubic\")]",
+        "type": "background_tween",
+        "xScaleFrom": "1.1,",
+        "yScaleFrom": "1.1,",
+        "xScaleTo": "1,",
+        "yScaleTo": "1,",
+        "duration": "3,",
+        "block": "true,ease=\"InOutCubic\""
+    },
+    {
+        "id": 72,
+        "raw": "[Blocker(a=0.1, r=0, g=0, b=0, fadetime=0.3, block=true)]",
+        "type": "blocker",
+        "a": "0.1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.3,",
+        "block": true
+    },
+    {
+        "id": 73,
+        "raw": "[Blocker(a=0.15, r=0, g=0, b=0, fadetime=0.3, block=true)]",
+        "type": "blocker",
+        "a": "0.15,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.3,",
+        "block": true
+    },
+    {
+        "id": 74,
+        "raw": "[Blocker(a=0.2, r=0, g=0, b=0, fadetime=0.3, block=true)]",
+        "type": "blocker",
+        "a": "0.2,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.3,",
+        "block": true
+    },
+    {
+        "id": 75,
+        "raw": "[playsound(key=\"$e_atk_airshipvibe\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_atk/e_atk_airshipvibe.mp3"
+    },
+    {
+        "id": 76,
+        "raw": "[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "xstrength": "10,",
+        "ystrength": "12,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 77,
+        "raw": "[playsound(key=\"$e_atk_vibe_n\",delay=0.4)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_atk/e_atk_vibe_n.mp3",
+        "delay": 0.4
+    },
+    {
+        "id": 78,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 79,
+        "raw": "[playMusic(intro=\"$escape_intro\", key=\"$escape_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta2_180603/m_dia_escape_intro.mp3",
+        "key": "sound_beta_2/music/beta2_180603/m_dia_escape_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 80,
+        "raw": "無情に打ち寄せる真っ赤な潮は、声に従ったかのように、突然前進を止めた。",
+        "type": "narration",
+        "content": "無情に打ち寄せる真っ赤な潮は、声に従ったかのように、突然前進を止めた。"
+    },
+    {
+        "id": 81,
+        "raw": "見えない壁が街角に突然現れたかのように、ワーム状のアーツの造物が次々と何かにぶつかって粉々に砕けた。地面には血の引きずられた跡だけが残る。",
+        "type": "narration",
+        "content": "見えない壁が街角に突然現れたかのように、ワーム状のアーツの造物が次々と何かにぶつかって粉々に砕けた。地面には血の引きずられた跡だけが残る。"
+    },
+    {
+        "id": 82,
+        "raw": "がらんとした通りにはもう何の音もしない。",
+        "type": "narration",
+        "content": "がらんとした通りにはもう何の音もしない。"
+    },
+    {
+        "id": 83,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 84,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 85,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 86,
+        "raw": "[Background(image=\"21_G7_decisivebattlealley_d\",screenadapt=\"showall\")]",
+        "type": "background",
+        "image": "21_G7_decisivebattlealley_d.png",
+        "screenadapt": "showall"
+    },
+    {
+        "id": 87,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 88,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 89,
+        "raw": "[Delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 90,
+        "raw": "[Character(name=\"avg_npc_394_1#11$1\")]",
+        "type": "character",
+        "name": "avg_npc_394_1#11$1"
+    },
+    {
+        "id": 91,
+        "raw": "[name=\"アーミヤ\"]死傷者の状況はどうですか？",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "死傷者の状況はどうですか？"
+    },
+    {
+        "id": 92,
+        "raw": "[Character(name=\"avg_npc_012\")]",
+        "type": "character",
+        "name": "avg_npc_012"
+    },
+    {
+        "id": 93,
+        "raw": "[name=\"ロドスオペレーター\"]それほど深刻ではありません。みんなの撤退速度が速かったので。",
+        "type": "dialog",
+        "speaker": "ロドスオペレーター",
+        "content": "それほど深刻ではありません。みんなの撤退速度が速かったので。"
+    },
+    {
+        "id": 94,
+        "raw": "[name=\"ロドスオペレーター\"]しかしアラデルさんとシージさんがより安全に行動できるよう、俺たちでサルカズの動きを牽制できるかどうか……",
+        "type": "dialog",
+        "speaker": "ロドスオペレーター",
+        "content": "しかしアラデルさんとシージさんがより安全に行動できるよう、俺たちでサルカズの動きを牽制できるかどうか……"
+    },
+    {
+        "id": 95,
+        "raw": "[Character(name=\"avg_npc_394_1#8$1\")]",
+        "type": "character",
+        "name": "avg_npc_394_1#8$1"
+    },
+    {
+        "id": 96,
+        "raw": "[name=\"アーミヤ\"]みなさんありがとうございます。特に自救軍のみなさん、我が身を顧みず一緒に危険を冒してくれて感謝します。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "みなさんありがとうございます。特に自救軍のみなさん、我が身を顧みず一緒に危険を冒してくれて感謝します。"
+    },
+    {
+        "id": 97,
+        "raw": "[character(name=\"avg_npc_398_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_398_1#1$1"
+    },
+    {
+        "id": 98,
+        "raw": "[name=\"自救軍戦士\"]どうってことないっすよ！　アーミヤさん、ロドスは自救軍にとって一番に重要な盟友だって、クロヴィシア指揮官が言ってましたから！",
+        "type": "dialog",
+        "speaker": "自救軍戦士",
+        "content": "どうってことないっすよ！　アーミヤさん、ロドスは自救軍にとって一番に重要な盟友だって、クロヴィシア指揮官が言ってましたから！"
+    },
+    {
+        "id": 99,
+        "raw": "[name=\"自救軍戦士\"]それに、もしそちらの凄腕のオペレーターさんが何度も助けてくれてなけりゃ、ブラッドブルードの手から逃れ切ることなんてできませんでしたよ。",
+        "type": "dialog",
+        "speaker": "自救軍戦士",
+        "content": "それに、もしそちらの凄腕のオペレーターさんが何度も助けてくれてなけりゃ、ブラッドブルードの手から逃れ切ることなんてできませんでしたよ。"
+    },
+    {
+        "id": 100,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 101,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 102,
+        "raw": "[Delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 103,
+        "raw": "[Character(name=\"avg_npc_650_1#1$1\",blackstart=0.2,blackend=0.7,fadetime=1,block=true)]",
+        "type": "character",
+        "name": "avg_npc_650_1#1$1",
+        "blackstart": "0.2,blackend=0.7,fadetime=1,block=true"
+    },
+    {
+        "id": 104,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 105,
+        "raw": "[name=\"？？？\"]礼は不要。",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "礼は不要。"
+    },
+    {
+        "id": 106,
+        "raw": "[name=\"？？？\"]ロンディニウムにおいては、由無い虐殺を腐るほど目の当たりにしてきた。理性を失ったサルカズは、同胞の手で阻止せねばならぬ。",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "ロンディニウムにおいては、由無い虐殺を腐るほど目の当たりにしてきた。理性を失ったサルカズは、同胞の手で阻止せねばならぬ。"
+    },
+    {
+        "id": 107,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 108,
+        "raw": "[stopmusic(fadetime=2.5)]",
+        "type": "stop_music",
+        "fadetime": 2.5
+    },
+    {
+        "id": 109,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 110,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 111,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 112,
+        "raw": "[Background(image=\"32_g4_ordnancefactory\",screenadapt=\"showall\")]",
+        "type": "background",
+        "image": "32_g4_ordnancefactory.png",
+        "screenadapt": "showall"
+    },
+    {
+        "id": 113,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 114,
+        "raw": "[PlayMusic(intro=\"$m_dia_street_intro\", key=\"$m_dia_street_loop\",volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta3_181101/m_dia_street_intro.mp3",
+        "key": "sound_beta_2/music/beta3_181101/m_dia_street_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 115,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 116,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 117,
+        "raw": "[Character(name=\"avg_4072_ironmn_1#8$1\")]",
+        "type": "character",
+        "name": "avg_4072_ironmn_1#8$1"
+    },
+    {
+        "id": 118,
+        "raw": "[name=\"フェイスト\"]ごめんよ、ドクター……",
+        "type": "dialog",
+        "speaker": "フェイスト",
+        "content": "ごめんよ、ドクター……"
+    },
+    {
+        "id": 119,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 120,
+        "raw": "[Character(name=\"avg_4072_ironmn_1#8$1\",focus=-1)]",
+        "type": "character",
+        "name": "avg_4072_ironmn_1#8$1",
+        "focus": -1
+    },
+    {
+        "id": 121,
+        "raw": "[Decision(options=\"君が家に帰る付き添いをするだけかと思っていた。;自分たちは全く歓迎されていないのかな？\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "君が家に帰る付き添いをするだけかと思っていた。;自分たちは全く歓迎されていないのかな？",
+        "values": "1;2"
+    },
+    {
+        "id": 122,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 123,
+        "raw": "[Character(name=\"avg_4072_ironmn_1#9$1\")]",
+        "type": "character",
+        "name": "avg_4072_ironmn_1#9$1"
+    },
+    {
+        "id": 124,
+        "raw": "[name=\"フェイスト\"]……去年工場から逃げ出す時にさ、ばあちゃんと喧嘩しちゃったんだよね。",
+        "type": "dialog",
+        "speaker": "フェイスト",
+        "content": "……去年工場から逃げ出す時にさ、ばあちゃんと喧嘩しちゃったんだよね。"
+    },
+    {
+        "id": 125,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 126,
+        "raw": "[character]",
+        "type": "character"
+    },
+    {
+        "id": 127,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 128,
+        "raw": "[PlaySound(key=\"$d_gen_soldiersrun\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_soldiersrun.mp3",
+        "volume": 1
+    },
+    {
+        "id": 129,
+        "raw": "[Character(name=\"avg_npc_660_1#1$1\",name2=\"char_empty\",fadetime=0.5)]",
+        "type": "character",
+        "name": "avg_npc_660_1#1$1",
+        "name2": "char_empty",
+        "fadetime": 0.5
+    },
+    {
+        "id": 130,
+        "raw": "[delay(time=0.51)]",
+        "type": "delay",
+        "time": 0.51
+    },
+    {
+        "id": 131,
+        "raw": "[Character(name=\"char_empty\",name2=\"avg_npc_660_1#1$1\",fadetime=0.5)]",
+        "type": "character",
+        "name": "char_empty",
+        "name2": "avg_npc_660_1#1$1",
+        "fadetime": 0.5
+    },
+    {
+        "id": 132,
+        "raw": "[delay(time=0.51)]",
+        "type": "delay",
+        "time": 0.51
+    },
+    {
+        "id": 133,
+        "raw": "[Character(name=\"avg_npc_660_1#1$1\",name2=\"char_empty\",fadetime=0.5)]",
+        "type": "character",
+        "name": "avg_npc_660_1#1$1",
+        "name2": "char_empty",
+        "fadetime": 0.5
+    },
+    {
+        "id": 134,
+        "raw": "[delay(time=0.51)]",
+        "type": "delay",
+        "time": 0.51
+    },
+    {
+        "id": 135,
+        "raw": "[Character(name=\"avg_npc_660_1#1$1\",name2=\"avg_npc_660_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_660_1#1$1",
+        "name2": "avg_npc_660_1#1$1"
+    },
+    {
+        "id": 136,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 137,
+        "raw": "十数人の屈強な工員があなたたちを取り囲んだ。",
+        "type": "narration",
+        "content": "十数人の屈強な工員があなたたちを取り囲んだ。"
+    },
+    {
+        "id": 138,
+        "raw": "その全員の目が警戒心に満ちている。",
+        "type": "narration",
+        "content": "その全員の目が警戒心に満ちている。"
+    },
+    {
+        "id": 139,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 140,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 141,
+        "raw": "あなたは彼らの手にあるドリルとレンチを見た後、彼らと似たような格好をしているが、独りぼっちのフェイストを見た。",
+        "type": "narration",
+        "content": "あなたは彼らの手にあるドリルとレンチを見た後、彼らと似たような格好をしているが、独りぼっちのフェイストを見た。"
+    },
+    {
+        "id": 142,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 143,
+        "raw": "[Decision(options=\"喧嘩したなんて単純なものじゃなさそうだ。;本当に我々は敵だと思われていないのか？\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "喧嘩したなんて単純なものじゃなさそうだ。;本当に我々は敵だと思われていないのか？",
+        "values": "1;2"
+    },
+    {
+        "id": 144,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 145,
+        "raw": "[Character(name=\"avg_4072_ironmn_1#8$1\")]",
+        "type": "character",
+        "name": "avg_4072_ironmn_1#8$1"
+    },
+    {
+        "id": 146,
+        "raw": "[name=\"フェイスト\"]ばあちゃんは、まだカンカンみたいでさ……",
+        "type": "dialog",
+        "speaker": "フェイスト",
+        "content": "ばあちゃんは、まだカンカンみたいでさ……"
+    },
+    {
+        "id": 147,
+        "raw": "[Character(name=\"avg_npc_648_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_648_1#1$1"
+    },
+    {
+        "id": 148,
+        "raw": "[name=\"キャサリン\"]ハッ。死人に怒る必要なんてないね。つい今まで、たった一人の孫がまだ生きていたなんて、知らなかったんだから。",
+        "type": "dialog",
+        "speaker": "キャサリン",
+        "content": "ハッ。死人に怒る必要なんてないね。つい今まで、たった一人の孫がまだ生きていたなんて、知らなかったんだから。"
+    },
+    {
+        "id": 149,
+        "raw": "[Character(name=\"avg_4072_ironmn_1#1$1\")]",
+        "type": "character",
+        "name": "avg_4072_ironmn_1#1$1"
+    },
+    {
+        "id": 150,
+        "raw": "[name=\"フェイスト\"]工場にメッセージを送ろうとも考えはしたんだ。でもそれじゃ危険すぎるだろ。ハイベリー区に入る情報は、全部サルカズが監視してんだしさ。",
+        "type": "dialog",
+        "speaker": "フェイスト",
+        "content": "工場にメッセージを送ろうとも考えはしたんだ。でもそれじゃ危険すぎるだろ。ハイベリー区に入る情報は、全部サルカズが監視してんだしさ。"
+    },
+    {
+        "id": 151,
+        "raw": "[name=\"フェイスト\"]ばあちゃんたちが自救軍と繋がりがあるとか、サルカズの連中に思われちゃいけないっしょ。",
+        "type": "dialog",
+        "speaker": "フェイスト",
+        "content": "ばあちゃんたちが自救軍と繋がりがあるとか、サルカズの連中に思われちゃいけないっしょ。"
+    },
+    {
+        "id": 152,
+        "raw": "[Character(name=\"avg_npc_648_1#6$1\")]",
+        "type": "character",
+        "name": "avg_npc_648_1#6$1"
+    },
+    {
+        "id": 153,
+        "raw": "[name=\"キャサリン\"]つまり、あんたはもうそのバカげた集団に入ったってことかい。",
+        "type": "dialog",
+        "speaker": "キャサリン",
+        "content": "つまり、あんたはもうそのバカげた集団に入ったってことかい。"
+    },
+    {
+        "id": 154,
+        "raw": "[Character(name=\"avg_4072_ironmn_1#11$1\")]",
+        "type": "character",
+        "name": "avg_4072_ironmn_1#11$1"
+    },
+    {
+        "id": 155,
+        "raw": "[name=\"フェイスト\"]……ロンディニウム市民自救軍だよ。",
+        "type": "dialog",
+        "speaker": "フェイスト",
+        "content": "……ロンディニウム市民自救軍だよ。"
+    },
+    {
+        "id": 156,
+        "raw": "[Character(name=\"avg_4072_ironmn_1#1$1\")]",
+        "type": "character",
+        "name": "avg_4072_ironmn_1#1$1"
+    },
+    {
+        "id": 157,
+        "raw": "[name=\"フェイスト\"]ばあちゃん、俺たちはサディアン区で色んなことをやったんだ。それで、サルカズは新聞やテレビを操作して、俺たちを正体不明の暴力集団にでっち上げてるんだ……",
+        "type": "dialog",
+        "speaker": "フェイスト",
+        "content": "ばあちゃん、俺たちはサディアン区で色んなことをやったんだ。それで、サルカズは新聞やテレビを操作して、俺たちを正体不明の暴力集団にでっち上げてるんだ……"
+    },
+    {
+        "id": 158,
+        "raw": "[Character(name=\"avg_npc_648_1#6$1\")]",
+        "type": "character",
+        "name": "avg_npc_648_1#6$1"
+    },
+    {
+        "id": 159,
+        "raw": "[name=\"キャサリン\"]つまり、城壁を爆破したのはあんたらで間違いないみたいだね。",
+        "type": "dialog",
+        "speaker": "キャサリン",
+        "content": "つまり、城壁を爆破したのはあんたらで間違いないみたいだね。"
+    },
+    {
+        "id": 160,
+        "raw": "[Character(name=\"avg_4072_ironmn_1#8$1\")]",
+        "type": "character",
+        "name": "avg_4072_ironmn_1#8$1"
+    },
+    {
+        "id": 161,
+        "raw": "[name=\"フェイスト\"]ええと……そいつはドク……",
+        "type": "dialog",
+        "speaker": "フェイスト",
+        "content": "ええと……そいつはドク……"
+    },
+    {
+        "id": 162,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 163,
+        "raw": "[Character(name=\"avg_4072_ironmn_1#8$1\",focus=-1)]",
+        "type": "character",
+        "name": "avg_4072_ironmn_1#8$1",
+        "focus": -1
+    },
+    {
+        "id": 164,
+        "raw": "[Decision(options=\"サルカズの追撃が、ロンディニウム城壁の損害を招いた。;お孫さんはあの戦いではとても勇敢だった。\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "サルカズの追撃が、ロンディニウム城壁の損害を招いた。;お孫さんはあの戦いではとても勇敢だった。",
+        "values": "1;2"
+    },
+    {
+        "id": 165,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 166,
+        "raw": "[Character(name=\"avg_4072_ironmn_1#8$1\")]",
+        "type": "character",
+        "name": "avg_4072_ironmn_1#8$1"
+    },
+    {
+        "id": 167,
+        "raw": "[name=\"フェイスト\"]……そそ、サルカズのせいなんだって。",
+        "type": "dialog",
+        "speaker": "フェイスト",
+        "content": "……そそ、サルカズのせいなんだって。"
+    },
+    {
+        "id": 168,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 169,
+        "raw": "[Character(name=\"avg_4072_ironmn_1#4$1\")]",
+        "type": "character",
+        "name": "avg_4072_ironmn_1#4$1"
+    },
+    {
+        "id": 170,
+        "raw": "[name=\"フェイスト\"]サンキューな、ドクター。",
+        "type": "dialog",
+        "speaker": "フェイスト",
+        "content": "サンキューな、ドクター。"
+    },
+    {
+        "id": 171,
+        "raw": "[name=\"フェイスト\"]俺はあんたにワイヤー何本か括りつけただけだけど、まさかそんなに高く評価してくれてたなんてさ。",
+        "type": "dialog",
+        "speaker": "フェイスト",
+        "content": "俺はあんたにワイヤー何本か括りつけただけだけど、まさかそんなに高く評価してくれてたなんてさ。"
+    },
+    {
+        "id": 172,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 173,
+        "raw": "[Character(name=\"avg_npc_648_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_648_1#1$1"
+    },
+    {
+        "id": 174,
+        "raw": "[name=\"キャサリン\"]で、あんたが今回帰ってきたのは、あたしらの軍事工場も爆破するためかい？",
+        "type": "dialog",
+        "speaker": "キャサリン",
+        "content": "で、あんたが今回帰ってきたのは、あたしらの軍事工場も爆破するためかい？"
+    },
+    {
+        "id": 175,
+        "raw": "[Character(name=\"avg_4072_ironmn_1#8$1\")]",
+        "type": "character",
+        "name": "avg_4072_ironmn_1#8$1"
+    },
+    {
+        "id": 176,
+        "raw": "[name=\"フェイスト\"]……んなわけねーだろ！？",
+        "type": "dialog",
+        "speaker": "フェイスト",
+        "content": "……んなわけねーだろ！？"
+    },
+    {
+        "id": 177,
+        "raw": "[Character(name=\"avg_npc_648_1#8$1\")]",
+        "type": "character",
+        "name": "avg_npc_648_1#8$1"
+    },
+    {
+        "id": 178,
+        "raw": "[name=\"キャサリン\"]あんた、自救軍のお友達にはなんて言ったんだい？　あたしたちの工場はサルカズのために武器を製造していて、その武器は最終的にヴィクトリア人に向けられるって？",
+        "type": "dialog",
+        "speaker": "キャサリン",
+        "content": "あんた、自救軍のお友達にはなんて言ったんだい？　あたしたちの工場はサルカズのために武器を製造していて、その武器は最終的にヴィクトリア人に向けられるって？"
+    },
+    {
+        "id": 179,
+        "raw": "[Character(name=\"avg_4072_ironmn_1#8$1\")]",
+        "type": "character",
+        "name": "avg_4072_ironmn_1#8$1"
+    },
+    {
+        "id": 180,
+        "raw": "[name=\"フェイスト\"]……違うよ、ばあちゃん、仲間には――",
+        "type": "dialog",
+        "speaker": "フェイスト",
+        "content": "……違うよ、ばあちゃん、仲間には――"
+    },
+    {
+        "id": 181,
+        "raw": "[Character(name=\"avg_4072_ironmn_1#4$1\")]",
+        "type": "character",
+        "name": "avg_4072_ironmn_1#4$1"
+    },
+    {
+        "id": 182,
+        "raw": "[name=\"フェイスト\"]俺のばあちゃんは、みんなの生活を守るために立ち上がることを選んだって言ってあるんだ。",
+        "type": "dialog",
+        "speaker": "フェイスト",
+        "content": "俺のばあちゃんは、みんなの生活を守るために立ち上がることを選んだって言ってあるんだ。"
+    },
+    {
+        "id": 183,
+        "raw": "[Character(name=\"avg_npc_648_1#5$1\")]",
+        "type": "character",
+        "name": "avg_npc_648_1#5$1"
+    },
+    {
+        "id": 184,
+        "raw": "[name=\"キャサリン\"]……",
+        "type": "dialog",
+        "speaker": "キャサリン",
+        "content": "……"
+    },
+    {
+        "id": 185,
+        "raw": "[Character(name=\"avg_4072_ironmn_1#4$1\")]",
+        "type": "character",
+        "name": "avg_4072_ironmn_1#4$1"
+    },
+    {
+        "id": 186,
+        "raw": "[name=\"フェイスト\"]ばあちゃん。ばあちゃんからしたら、俺は悪知恵が働くだけのガキなのはわかってるよ。",
+        "type": "dialog",
+        "speaker": "フェイスト",
+        "content": "ばあちゃん。ばあちゃんからしたら、俺は悪知恵が働くだけのガキなのはわかってるよ。"
+    },
+    {
+        "id": 187,
+        "raw": "[name=\"フェイスト\"]だけどさ、俺は工場のみんなを巻き込むために戻ってきたわけじゃないんだ。ばあちゃんを説得しにきたわけでもない。",
+        "type": "dialog",
+        "speaker": "フェイスト",
+        "content": "だけどさ、俺は工場のみんなを巻き込むために戻ってきたわけじゃないんだ。ばあちゃんを説得しにきたわけでもない。"
+    },
+    {
+        "id": 188,
+        "raw": "[name=\"フェイスト\"]もちろん、目的はあるよ。もし手伝ってもらえるなら、それに越したことはねーけどさ、でもそんなことよりまず――",
+        "type": "dialog",
+        "speaker": "フェイスト",
+        "content": "もちろん、目的はあるよ。もし手伝ってもらえるなら、それに越したことはねーけどさ、でもそんなことよりまず――"
+    },
+    {
+        "id": 189,
+        "raw": "[name=\"フェイスト\"]ばあちゃんの無事を、俺の目で確認したかっただけなんだ。",
+        "type": "dialog",
+        "speaker": "フェイスト",
+        "content": "ばあちゃんの無事を、俺の目で確認したかっただけなんだ。"
+    },
+    {
+        "id": 190,
+        "raw": "[Character(name=\"avg_npc_648_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_648_1#1$1"
+    },
+    {
+        "id": 191,
+        "raw": "[name=\"キャサリン\"]こっちへ来て、顔を見せな。",
+        "type": "dialog",
+        "speaker": "キャサリン",
+        "content": "こっちへ来て、顔を見せな。"
+    },
+    {
+        "id": 192,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 193,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 194,
+        "raw": "[Delay(time=0.2)]",
+        "type": "delay",
+        "time": 0.2
+    },
+    {
+        "id": 195,
+        "raw": "[Character(name=\"avg_npc_648_1#1$1\", name2=\"char_empty\")]",
+        "type": "character",
+        "name": "avg_npc_648_1#1$1",
+        "name2": "char_empty"
+    },
+    {
+        "id": 196,
+        "raw": "[Delay(time=0.3)]",
+        "type": "delay",
+        "time": 0.3
+    },
+    {
+        "id": 197,
+        "raw": "[characteraction(name=\"right\", type=\"move\", xpos=200, fadetime=0.3, block=true)]",
+        "type": "move",
+        "name": "right",
+        "xpos": "200,",
+        "fadetime": "0.3,",
+        "block": true
+    },
+    {
+        "id": 198,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 199,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 200,
+        "raw": "[characteraction(name=\"right\", type=\"move\", xpos=-200, fadetime=1, block=false)]",
+        "type": "move",
+        "name": "right",
+        "xpos": "-200,",
+        "fadetime": "1,",
+        "block": false
+    },
+    {
+        "id": 201,
+        "raw": "[Character(name=\"avg_npc_648_1#1$1\", name2=\"avg_4072_ironmn_1#7$1\",fadetime=0.7)]",
+        "type": "character",
+        "name": "avg_npc_648_1#1$1",
+        "name2": "avg_4072_ironmn_1#7$1",
+        "fadetime": 0.7
+    },
+    {
+        "id": 202,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 203,
+        "raw": "[Character(name=\"avg_npc_648_1#1$1\", name2=\"avg_4072_ironmn_1#7$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_648_1#1$1",
+        "name2": "avg_4072_ironmn_1#7$1",
+        "focus": 2
+    },
+    {
+        "id": 204,
+        "raw": "[name=\"フェイスト\"]ばあちゃん……",
+        "type": "dialog",
+        "speaker": "フェイスト",
+        "content": "ばあちゃん……"
+    },
+    {
+        "id": 205,
+        "raw": "[Character(name=\"avg_npc_648_1#10$1\", name2=\"avg_4072_ironmn_1#7$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_648_1#10$1",
+        "name2": "avg_4072_ironmn_1#7$1",
+        "focus": 1
+    },
+    {
+        "id": 206,
+        "raw": "[name=\"キャサリン\"]バカな子だよ。背が伸びたね。",
+        "type": "dialog",
+        "speaker": "キャサリン",
+        "content": "バカな子だよ。背が伸びたね。"
+    },
+    {
+        "id": 207,
+        "raw": "[Character(name=\"avg_npc_648_1#10$1\", name2=\"avg_4072_ironmn_1#4$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_648_1#10$1",
+        "name2": "avg_4072_ironmn_1#4$1",
+        "focus": 2
+    },
+    {
+        "id": 208,
+        "raw": "[name=\"フェイスト\"]うん、ちょっとな。",
+        "type": "dialog",
+        "speaker": "フェイスト",
+        "content": "うん、ちょっとな。"
+    },
+    {
+        "id": 209,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 210,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 211,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 212,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 213,
+        "raw": "[Background(image=\"21_G7_decisivebattlealley_d\",screenadapt=\"showall\")]",
+        "type": "background",
+        "image": "21_G7_decisivebattlealley_d.png",
+        "screenadapt": "showall"
+    },
+    {
+        "id": 214,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 215,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 216,
+        "raw": "[Delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 217,
+        "raw": "[PlaySound(key=\"$transmission\",volume=0.6)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_transmission.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 218,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 219,
+        "raw": "[Character(name=\"avg_npc_177\")]",
+        "type": "character",
+        "name": "avg_npc_177"
+    },
+    {
+        "id": 220,
+        "raw": "[name=\"ロンディニウム商人\"]もうすぐあれが手に入るぞ。",
+        "type": "dialog",
+        "speaker": "ロンディニウム商人",
+        "content": "もうすぐあれが手に入るぞ。"
+    },
+    {
+        "id": 221,
+        "raw": "[name=\"ロンディニウム商人\"]蒸気騎士の甲冑――どれだけの者が、なりふり構わず欲しがるだろうな？",
+        "type": "dialog",
+        "speaker": "ロンディニウム商人",
+        "content": "蒸気騎士の甲冑――どれだけの者が、なりふり構わず欲しがるだろうな？"
+    },
+    {
+        "id": 222,
+        "raw": "[name=\"ロンディニウム商人\"]リターニアの貴族たちは、こういったアンティークで体裁を飾るのを最も好むからな。",
+        "type": "dialog",
+        "speaker": "ロンディニウム商人",
+        "content": "リターニアの貴族たちは、こういったアンティークで体裁を飾るのを最も好むからな。"
+    },
+    {
+        "id": 223,
+        "raw": "[name=\"ロンディニウム商人\"]そうだ、クルビアの企業にもいくつか持ちかけてみるか。数百年前の技術でも、興味を持つかもしれない。",
+        "type": "dialog",
+        "speaker": "ロンディニウム商人",
+        "content": "そうだ、クルビアの企業にもいくつか持ちかけてみるか。数百年前の技術でも、興味を持つかもしれない。"
+    },
+    {
+        "id": 224,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 225,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 226,
+        "raw": "[name=\"ロンディニウム商人\"]運び出すのは問題ない、私が今のロンディニウムで、どんなビジネスをしていると思ってるんだ？",
+        "type": "dialog",
+        "speaker": "ロンディニウム商人",
+        "content": "運び出すのは問題ない、私が今のロンディニウムで、どんなビジネスをしていると思ってるんだ？"
+    },
+    {
+        "id": 227,
+        "raw": "[name=\"ロンディニウム商人\"]サルカズは一般的な道理の通じない気狂い揃いだが、あいつらだけでロンディニウムを統治することはできないさ。",
+        "type": "dialog",
+        "speaker": "ロンディニウム商人",
+        "content": "サルカズは一般的な道理の通じない気狂い揃いだが、あいつらだけでロンディニウムを統治することはできないさ。"
+    },
+    {
+        "id": 228,
+        "raw": "[name=\"ロンディニウム商人\"]都市防衛軍に頼りになる友人がいるからな、彼らが私のためにうまくやってくれるはずだ。",
+        "type": "dialog",
+        "speaker": "ロンディニウム商人",
+        "content": "都市防衛軍に頼りになる友人がいるからな、彼らが私のためにうまくやってくれるはずだ。"
+    },
+    {
+        "id": 229,
+        "raw": "[name=\"ロンディニウム商人\"]唯一の問題は――私が目をつけたあれは状態が良くないと聞いた、値引きされなければいいのだが。",
+        "type": "dialog",
+        "speaker": "ロンディニウム商人",
+        "content": "唯一の問題は――私が目をつけたあれは状態が良くないと聞いた、値引きされなければいいのだが。"
+    },
+    {
+        "id": 230,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 231,
+        "raw": "[Character(name=\"avg_npc_177\",focus=-1)]",
+        "type": "character",
+        "name": "avg_npc_177",
+        "focus": -1
+    },
+    {
+        "id": 232,
+        "raw": "[name=\"？？？\"]そんなに値引きが心配なら、いっそ手放してしまえ。",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "そんなに値引きが心配なら、いっそ手放してしまえ。"
+    },
+    {
+        "id": 233,
+        "raw": "[Character(name=\"avg_npc_177\")]",
+        "type": "character",
+        "name": "avg_npc_177"
+    },
+    {
+        "id": 234,
+        "raw": "[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "15,",
+        "ystrength": "15,",
+        "vibrato": "20,",
+        "randomness": "70,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 235,
+        "raw": "[name=\"ロンディニウム商人\"]誰だ！？",
+        "type": "dialog",
+        "speaker": "ロンディニウム商人",
+        "content": "誰だ！？"
+    },
+    {
+        "id": 236,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 237,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 238,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 239,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 240,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 241,
+        "raw": "[Character(name=\"avg_npc_407_1#3$1\",fadetime=1,block=true)]",
+        "type": "character",
+        "name": "avg_npc_407_1#3$1",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 242,
+        "raw": "[Delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 243,
+        "raw": "[name=\"シージ\"]恐れなくていい、たまたま貴様と方向が同じだけだ。",
+        "type": "dialog",
+        "speaker": "シージ",
+        "content": "恐れなくていい、たまたま貴様と方向が同じだけだ。"
+    },
+    {
+        "id": 244,
+        "raw": "[Character(name=\"avg_npc_177\")]",
+        "type": "character",
+        "name": "avg_npc_177"
+    },
+    {
+        "id": 245,
+        "raw": "[name=\"ロンディニウム商人\"]誰か、早くこいつをつまみ出せ！",
+        "type": "dialog",
+        "speaker": "ロンディニウム商人",
+        "content": "誰か、早くこいつをつまみ出せ！"
+    },
+    {
+        "id": 246,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 247,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 248,
+        "raw": "[playMusic(intro=\"$farce_intro\", key=\"$farce_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/a001/m_dia_farce_intro.mp3",
+        "key": "sound_beta_2/music/a001/m_dia_farce_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 249,
+        "raw": "[name=\"ロンディニウム商人\"]待て、私のボディー……ボディーガードは？",
+        "type": "dialog",
+        "speaker": "ロンディニウム商人",
+        "content": "待て、私のボディー……ボディーガードは？"
+    },
+    {
+        "id": 250,
+        "raw": "[Character(name=\"avg_npc_407_1#3$1\")]",
+        "type": "character",
+        "name": "avg_npc_407_1#3$1"
+    },
+    {
+        "id": 251,
+        "raw": "[name=\"シージ\"]路地の入り口で一休みしてもらっている。話が終わった後で、探しに行くといい。",
+        "type": "dialog",
+        "speaker": "シージ",
+        "content": "路地の入り口で一休みしてもらっている。話が終わった後で、探しに行くといい。"
+    },
+    {
+        "id": 252,
+        "raw": "[Character(name=\"avg_npc_177\")]",
+        "type": "character",
+        "name": "avg_npc_177"
+    },
+    {
+        "id": 253,
+        "raw": "[name=\"ロンディニウム商人\"]あいつら全員を、お前が……たった一人で！",
+        "type": "dialog",
+        "speaker": "ロンディニウム商人",
+        "content": "あいつら全員を、お前が……たった一人で！"
+    },
+    {
+        "id": 254,
+        "raw": "[Character(name=\"avg_npc_407_1#8$1\")]",
+        "type": "character",
+        "name": "avg_npc_407_1#8$1"
+    },
+    {
+        "id": 255,
+        "raw": "[name=\"シージ\"]一人？　残念ながら、一人であったことはない。",
+        "type": "dialog",
+        "speaker": "シージ",
+        "content": "一人？　残念ながら、一人であったことはない。"
+    },
+    {
+        "id": 256,
+        "raw": "[Character(name=\"avg_npc_407_1#3$1\")]",
+        "type": "character",
+        "name": "avg_npc_407_1#3$1"
+    },
+    {
+        "id": 257,
+        "raw": "[name=\"シージ\"]背後に気を付けろ。",
+        "type": "dialog",
+        "speaker": "シージ",
+        "content": "背後に気を付けろ。"
+    },
+    {
+        "id": 258,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 259,
+        "raw": "[Character(fadetime=0)]",
+        "type": "character",
+        "fadetime": 0
+    },
+    {
+        "id": 260,
+        "raw": "[character(name=\"avg_155_tiger_1#1$1\")]",
+        "type": "character",
+        "name": "avg_155_tiger_1#1$1"
+    },
+    {
+        "id": 261,
+        "raw": "[Delay(time=1.2)]",
+        "type": "delay",
+        "time": 1.2
+    },
+    {
+        "id": 262,
+        "raw": "[Character(name=\"avg_npc_405_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_405_1#1$1"
+    },
+    {
+        "id": 263,
+        "raw": "[Delay(time=1.2)]",
+        "type": "delay",
+        "time": 1.2
+    },
+    {
+        "id": 264,
+        "raw": "[Character(name=\"avg_npc_396_1#8$1\")]",
+        "type": "character",
+        "name": "avg_npc_396_1#8$1"
+    },
+    {
+        "id": 265,
+        "raw": "[Delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 266,
+        "raw": "[Character(name=\"avg_npc_177\")]",
+        "type": "character",
+        "name": "avg_npc_177"
+    },
+    {
+        "id": 267,
+        "raw": "[name=\"ロンディニウム商人\"]お前ら……ここはロンディニウムだぞ！　私にはお前らでは手に負えない友人がいるんだぞ――",
+        "type": "dialog",
+        "speaker": "ロンディニウム商人",
+        "content": "お前ら……ここはロンディニウムだぞ！　私にはお前らでは手に負えない友人がいるんだぞ――"
+    },
+    {
+        "id": 268,
+        "raw": "[Character(name=\"avg_155_tiger_1#1$1\")]",
+        "type": "character",
+        "name": "avg_155_tiger_1#1$1"
+    },
+    {
+        "id": 269,
+        "raw": "[PlaySound(key=\"$d_avg_unsheathe\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_unsheathe.mp3",
+        "volume": 1
+    },
+    {
+        "id": 270,
+        "raw": "[name=\"インドラ\"]そのお友達っつーのはどこにいんだよ。もしかしたら俺と気が合ったりしてな？",
+        "type": "dialog",
+        "speaker": "インドラ",
+        "content": "そのお友達っつーのはどこにいんだよ。もしかしたら俺と気が合ったりしてな？"
+    },
+    {
+        "id": 271,
+        "raw": "[Character(name=\"avg_npc_177\")]",
+        "type": "character",
+        "name": "avg_npc_177"
+    },
+    {
+        "id": 272,
+        "raw": "[name=\"ロンディニウム商人\"]ひぃ！！　落ち着け、話せばわかる！！",
+        "type": "dialog",
+        "speaker": "ロンディニウム商人",
+        "content": "ひぃ！！　落ち着け、話せばわかる！！"
+    },
+    {
+        "id": 273,
+        "raw": "[Character(name=\"avg_155_tiger_1#1$1\")]",
+        "type": "character",
+        "name": "avg_155_tiger_1#1$1"
+    },
+    {
+        "id": 274,
+        "raw": "[name=\"インドラ\"]俺はもとからそこまで喧嘩っ早くねぇんだ。お前が大人しくしてる限りはな。",
+        "type": "dialog",
+        "speaker": "インドラ",
+        "content": "俺はもとからそこまで喧嘩っ早くねぇんだ。お前が大人しくしてる限りはな。"
+    },
+    {
+        "id": 275,
+        "raw": "[Character(name=\"avg_npc_396_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_396_1#1$1"
+    },
+    {
+        "id": 276,
+        "raw": "[name=\"ダグザ\"]お前はただシージが言った通りにすればいい。わかるか？",
+        "type": "dialog",
+        "speaker": "ダグザ",
+        "content": "お前はただシージが言った通りにすればいい。わかるか？"
+    },
+    {
+        "id": 277,
+        "raw": "[Character(name=\"avg_npc_396_1#7$1\")]",
+        "type": "character",
+        "name": "avg_npc_396_1#7$1"
+    },
+    {
+        "id": 278,
+        "raw": "[name=\"ダグザ\"]そうしないと、次に私のメタルクローが振り下ろされる時、引き裂かれる相手はこの壁じゃなくなるぞ。",
+        "type": "dialog",
+        "speaker": "ダグザ",
+        "content": "そうしないと、次に私のメタルクローが振り下ろされる時、引き裂かれる相手はこの壁じゃなくなるぞ。"
+    },
+    {
+        "id": 279,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 280,
+        "raw": "[CameraShake(duration=0.5, xstrength=15, ystrength=15, vibrato=20, randomness=70, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "15,",
+        "ystrength": "15,",
+        "vibrato": "20,",
+        "randomness": "70,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 281,
+        "raw": "[PlaySound(key=\"$d_avg_iron_claw\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_iron_claw.mp3",
+        "volume": 1
+    },
+    {
+        "id": 282,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 283,
+        "raw": "[Character(name=\"avg_npc_177\")]",
+        "type": "character",
+        "name": "avg_npc_177"
+    },
+    {
+        "id": 284,
+        "raw": "[name=\"ロンディニウム商人\"]わ、わかった！",
+        "type": "dialog",
+        "speaker": "ロンディニウム商人",
+        "content": "わ、わかった！"
+    },
+    {
+        "id": 285,
+        "raw": "[Character(name=\"avg_155_tiger_1#5$1\")]",
+        "type": "character",
+        "name": "avg_155_tiger_1#5$1"
+    },
+    {
+        "id": 286,
+        "raw": "[name=\"インドラ\"]……こいつマジかよ？",
+        "type": "dialog",
+        "speaker": "インドラ",
+        "content": "……こいつマジかよ？"
+    },
+    {
+        "id": 287,
+        "raw": "[Character(name=\"avg_npc_405_1#9$1\")]",
+        "type": "character",
+        "name": "avg_npc_405_1#9$1"
+    },
+    {
+        "id": 288,
+        "raw": "[name=\"モーガン\"]あんたが一番張り切ってるなんてね～。",
+        "type": "dialog",
+        "speaker": "モーガン",
+        "content": "あんたが一番張り切ってるなんてね～。"
+    },
+    {
+        "id": 289,
+        "raw": "[Character(name=\"avg_npc_396_1#8$1\")]",
+        "type": "character",
+        "name": "avg_npc_396_1#8$1"
+    },
+    {
+        "id": 290,
+        "raw": "[name=\"ダグザ\"]あんたたちから教わったんだろ。",
+        "type": "dialog",
+        "speaker": "ダグザ",
+        "content": "あんたたちから教わったんだろ。"
+    },
+    {
+        "id": 291,
+        "raw": "[Character(name=\"avg_npc_407_1#3$1\")]",
+        "type": "character",
+        "name": "avg_npc_407_1#3$1"
+    },
+    {
+        "id": 292,
+        "raw": "[name=\"シージ\"]ほら、そいつを放してやれ。",
+        "type": "dialog",
+        "speaker": "シージ",
+        "content": "ほら、そいつを放してやれ。"
+    },
+    {
+        "id": 293,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 294,
+        "raw": "[Character(fadetime=0)]",
+        "type": "character",
+        "fadetime": 0
+    },
+    {
+        "id": 295,
+        "raw": "[PlaySound(key=\"$d_avg_cloakmovement\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_cloakmovement.mp3",
+        "volume": 1
+    },
+    {
+        "id": 296,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 297,
+        "raw": "[Character(name=\"avg_npc_177\")]",
+        "type": "character",
+        "name": "avg_npc_177"
+    },
+    {
+        "id": 298,
+        "raw": "[name=\"ロンディニウム商人\"]うぅ……",
+        "type": "dialog",
+        "speaker": "ロンディニウム商人",
+        "content": "うぅ……"
+    },
+    {
+        "id": 299,
+        "raw": "[Character(name=\"avg_npc_407_1#3$1\",name2=\"avg_npc_177\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_407_1#3$1",
+        "name2": "avg_npc_177",
+        "focus": 1
+    },
+    {
+        "id": 300,
+        "raw": "[name=\"シージ\"]ベーダーさん。目を開けて、無理して両手を上げる必要もない。貴様を傷つけるつもりはない……少なくとも今はな。",
+        "type": "dialog",
+        "speaker": "シージ",
+        "content": "ベーダーさん。目を開けて、無理して両手を上げる必要もない。貴様を傷つけるつもりはない……少なくとも今はな。"
+    },
+    {
+        "id": 301,
+        "raw": "[Character(name=\"avg_npc_407_1#3$1\",name2=\"avg_npc_177\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_407_1#3$1",
+        "name2": "avg_npc_177",
+        "focus": 2
+    },
+    {
+        "id": 302,
+        "raw": "[name=\"ロンディニウム商人\"]お前たちは何が目的だ？",
+        "type": "dialog",
+        "speaker": "ロンディニウム商人",
+        "content": "お前たちは何が目的だ？"
+    },
+    {
+        "id": 303,
+        "raw": "[Character(name=\"avg_npc_407_1#1$1\",name2=\"avg_npc_177\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_407_1#1$1",
+        "name2": "avg_npc_177",
+        "focus": 1
+    },
+    {
+        "id": 304,
+        "raw": "[name=\"シージ\"]私の要求はもう話した。カンバーランド家の蒸気騎士甲冑を付け狙うことは諦めろ。",
+        "type": "dialog",
+        "speaker": "シージ",
+        "content": "私の要求はもう話した。カンバーランド家の蒸気騎士甲冑を付け狙うことは諦めろ。"
+    },
+    {
+        "id": 305,
+        "raw": "[Character(name=\"avg_npc_407_1#1$1\",name2=\"avg_npc_177\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_407_1#1$1",
+        "name2": "avg_npc_177",
+        "focus": 2
+    },
+    {
+        "id": 306,
+        "raw": "[name=\"ロンディニウム商人\"]諦めれば私を行かせてくれるか？",
+        "type": "dialog",
+        "speaker": "ロンディニウム商人",
+        "content": "諦めれば私を行かせてくれるか？"
+    },
+    {
+        "id": 307,
+        "raw": "[Character(name=\"avg_npc_407_1#1$1\",name2=\"avg_npc_177\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_407_1#1$1",
+        "name2": "avg_npc_177",
+        "focus": 1
+    },
+    {
+        "id": 308,
+        "raw": "[name=\"シージ\"]ああ。",
+        "type": "dialog",
+        "speaker": "シージ",
+        "content": "ああ。"
+    },
+    {
+        "id": 309,
+        "raw": "[name=\"シージ\"]だが貴様が約束を果たすよう確保はさせてもらう。",
+        "type": "dialog",
+        "speaker": "シージ",
+        "content": "だが貴様が約束を果たすよう確保はさせてもらう。"
+    },
+    {
+        "id": 310,
+        "raw": "[name=\"シージ\"]モーガン、地図をベーダーさんに見せてやれ。",
+        "type": "dialog",
+        "speaker": "シージ",
+        "content": "モーガン、地図をベーダーさんに見せてやれ。"
+    },
+    {
+        "id": 311,
+        "raw": "[Character(name=\"avg_npc_405_1#1$1\")]",
+        "type": "character",
+        "name": "avg_npc_405_1#1$1"
+    },
+    {
+        "id": 312,
+        "raw": "[name=\"モーガン\"]はいは～い。",
+        "type": "dialog",
+        "speaker": "モーガン",
+        "content": "はいは～い。"
+    },
+    {
+        "id": 313,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 314,
+        "raw": "[PlaySound(key=\"$d_avg_scroll\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_scroll.mp3",
+        "volume": 1
+    },
+    {
+        "id": 315,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 316,
+        "raw": "[Character(name=\"avg_npc_407_1#3$1\",name2=\"avg_npc_177\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_407_1#3$1",
+        "name2": "avg_npc_177",
+        "focus": 2
+    },
+    {
+        "id": 317,
+        "raw": "[name=\"ロンディニウム商人\"]地図？　このマークされた場所は、どれも私の臨時倉庫じゃないか……なぜお前たちが知っている！？",
+        "type": "dialog",
+        "speaker": "ロンディニウム商人",
+        "content": "地図？　このマークされた場所は、どれも私の臨時倉庫じゃないか……なぜお前たちが知っている！？"
+    },
+    {
+        "id": 318,
+        "raw": "[Character(name=\"avg_npc_407_1#3$1\",name2=\"avg_npc_177\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_407_1#3$1",
+        "name2": "avg_npc_177",
+        "focus": 1
+    },
+    {
+        "id": 319,
+        "raw": "[name=\"シージ\"]今後外を出歩く時は、周りをよく注意するといい。",
+        "type": "dialog",
+        "speaker": "シージ",
+        "content": "今後外を出歩く時は、周りをよく注意するといい。"
+    },
+    {
+        "id": 320,
+        "raw": "[Character(name=\"avg_npc_407_1#3$1\",name2=\"avg_npc_177\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_407_1#3$1",
+        "name2": "avg_npc_177",
+        "focus": 2
+    },
+    {
+        "id": 321,
+        "raw": "[name=\"ロンディニウム商人\"]私をつけさせていたのか？",
+        "type": "dialog",
+        "speaker": "ロンディニウム商人",
+        "content": "私をつけさせていたのか？"
+    },
+    {
+        "id": 322,
+        "raw": "[Character(name=\"avg_npc_407_1#3$1\",name2=\"avg_npc_177\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_407_1#3$1",
+        "name2": "avg_npc_177",
+        "focus": 1
+    },
+    {
+        "id": 323,
+        "raw": "[name=\"シージ\"]貴様の言う通りサルカズが買収されることはない。貴様が「コネ」を利用して、これほど多くの禁止物をロンディニウムに運び込んでいたと奴らに知られれば……",
+        "type": "dialog",
+        "speaker": "シージ",
+        "content": "貴様の言う通りサルカズが買収されることはない。貴様が「コネ」を利用して、これほど多くの禁止物をロンディニウムに運び込んでいたと奴らに知られれば……"
+    },
+    {
+        "id": 324,
+        "raw": "[Character(name=\"avg_npc_407_1#1$1\",name2=\"avg_npc_177\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_407_1#1$1",
+        "name2": "avg_npc_177",
+        "focus": 1
+    },
+    {
+        "id": 325,
+        "raw": "[name=\"シージ\"]その時、お友達は貴様を助けてくれるか？　そいつ自身はどんな末路を迎えると思う？",
+        "type": "dialog",
+        "speaker": "シージ",
+        "content": "その時、お友達は貴様を助けてくれるか？　そいつ自身はどんな末路を迎えると思う？"
+    },
+    {
+        "id": 326,
+        "raw": "[Character(name=\"avg_npc_407_1#1$1\",name2=\"avg_npc_177\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_407_1#1$1",
+        "name2": "avg_npc_177",
+        "focus": 2
+    },
+    {
+        "id": 327,
+        "raw": "[name=\"ロンディニウム商人\"]……",
+        "type": "dialog",
+        "speaker": "ロンディニウム商人",
+        "content": "……"
+    },
+    {
+        "id": 328,
+        "raw": "[Character(name=\"avg_npc_407_1#10$1\",name2=\"avg_npc_177\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_407_1#10$1",
+        "name2": "avg_npc_177",
+        "focus": 1
+    },
+    {
+        "id": 329,
+        "raw": "[name=\"シージ\"]サルカズに情報を流そうか考えているな。",
+        "type": "dialog",
+        "speaker": "シージ",
+        "content": "サルカズに情報を流そうか考えているな。"
+    },
+    {
+        "id": 330,
+        "raw": "[name=\"シージ\"]それを行動に移すならば、お互い逃げられなくなるかもしれない。だが貴様が私たちに協力してくれるなら、サルカズは何も知らないままだ。",
+        "type": "dialog",
+        "speaker": "シージ",
+        "content": "それを行動に移すならば、お互い逃げられなくなるかもしれない。だが貴様が私たちに協力してくれるなら、サルカズは何も知らないままだ。"
+    },
+    {
+        "id": 331,
+        "raw": "[Character(name=\"avg_npc_407_1#10$1\",name2=\"avg_npc_177\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_407_1#10$1",
+        "name2": "avg_npc_177",
+        "focus": 2
+    },
+    {
+        "id": 332,
+        "raw": "[name=\"ロンディニウム商人\"]なら選択の余地などあるか？",
+        "type": "dialog",
+        "speaker": "ロンディニウム商人",
+        "content": "なら選択の余地などあるか？"
+    },
+    {
+        "id": 333,
+        "raw": "[Character(name=\"avg_npc_407_1#1$1\",name2=\"avg_npc_177\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_407_1#1$1",
+        "name2": "avg_npc_177",
+        "focus": 1
+    },
+    {
+        "id": 334,
+        "raw": "[name=\"シージ\"]貴様の苦労はわかっている。それに、貴様との取引も大切にするつもりだ。与えられるべき報酬は違えないと約束しよう。",
+        "type": "dialog",
+        "speaker": "シージ",
+        "content": "貴様の苦労はわかっている。それに、貴様との取引も大切にするつもりだ。与えられるべき報酬は違えないと約束しよう。"
+    },
+    {
+        "id": 335,
+        "raw": "[Character(name=\"avg_npc_407_1#1$1\",name2=\"avg_npc_177\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_407_1#1$1",
+        "name2": "avg_npc_177",
+        "focus": 2
+    },
+    {
+        "id": 336,
+        "raw": "[name=\"ロンディニウム商人\"]……待て。",
+        "type": "dialog",
+        "speaker": "ロンディニウム商人",
+        "content": "……待て。"
+    },
+    {
+        "id": 337,
+        "raw": "[name=\"ロンディニウム商人\"]あなたはアラデル・カンバーランドとどんな関係だ？　彼女の従者なのか？　いや、カンバーランド家はとっくに空っぽだ、従者など雇えるはずがない。",
+        "type": "dialog",
+        "speaker": "ロンディニウム商人",
+        "content": "あなたはアラデル・カンバーランドとどんな関係だ？　彼女の従者なのか？　いや、カンバーランド家はとっくに空っぽだ、従者など雇えるはずがない。"
+    },
+    {
+        "id": 338,
+        "raw": "[Character(name=\"avg_155_tiger_1#7$1\")]",
+        "type": "character",
+        "name": "avg_155_tiger_1#7$1"
+    },
+    {
+        "id": 339,
+        "raw": "[name=\"インドラ\"]バカ言ってんじゃねぇぞ、カンバーランドの方がヴィーナの従者ならまだしも！",
+        "type": "dialog",
+        "speaker": "インドラ",
+        "content": "バカ言ってんじゃねぇぞ、カンバーランドの方がヴィーナの従者ならまだしも！"
+    },
+    {
+        "id": 340,
+        "raw": "[Character(name=\"avg_npc_407_1#1$1\",name2=\"avg_npc_177\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_407_1#1$1",
+        "name2": "avg_npc_177",
+        "focus": 2
+    },
+    {
+        "id": 341,
+        "raw": "[name=\"ロンディニウム商人\"]しかし彼女は大公爵の娘だぞ！　もしや……",
+        "type": "dialog",
+        "speaker": "ロンディニウム商人",
+        "content": "しかし彼女は大公爵の娘だぞ！　もしや……"
+    },
+    {
+        "id": 342,
+        "raw": "[Character(name=\"avg_npc_407_1#1$1\",name2=\"avg_npc_177\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_407_1#1$1",
+        "name2": "avg_npc_177",
+        "focus": 1
+    },
+    {
+        "id": 343,
+        "raw": "[name=\"シージ\"]……勘違いだ、私は何者でもない。",
+        "type": "dialog",
+        "speaker": "シージ",
+        "content": "……勘違いだ、私は何者でもない。"
+    },
+    {
+        "id": 344,
+        "raw": "[Character(name=\"avg_npc_407_1#3$1\",name2=\"avg_npc_177\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_407_1#3$1",
+        "name2": "avg_npc_177",
+        "focus": 1
+    },
+    {
+        "id": 345,
+        "raw": "[name=\"シージ\"]強いて言うなら、私はカンバーランドさんの仲間だ。私たちの後ろには、同様に平和を渇望するロンディニウム人が無数にいる。",
+        "type": "dialog",
+        "speaker": "シージ",
+        "content": "強いて言うなら、私はカンバーランドさんの仲間だ。私たちの後ろには、同様に平和を渇望するロンディニウム人が無数にいる。"
+    },
+    {
+        "id": 346,
+        "raw": "[name=\"シージ\"]ベーダーさん、貴様も例外ではないことを願おう。",
+        "type": "dialog",
+        "speaker": "シージ",
+        "content": "ベーダーさん、貴様も例外ではないことを願おう。"
+    },
+    {
+        "id": 347,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 348,
+        "raw": "[stopmusic(fadetime=1.5)]",
+        "type": "stop_music",
+        "fadetime": 1.5
+    },
+    {
+        "id": 349,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 350,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 351,
+        "raw": "[character]",
+        "type": "character"
+    },
+    {
+        "id": 352,
+        "raw": "[Background(image=\"32_g3_school_indoor\",screenadapt=\"showall\")]",
+        "type": "background",
+        "image": "32_g3_school_indoor.png",
+        "screenadapt": "showall"
+    },
+    {
+        "id": 353,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 354,
+        "raw": "[playMusic(intro=\"$path_intro\", key=\"$path_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/a001/m_dia_path_intro.mp3",
+        "key": "sound_beta_2/music/a001/m_dia_path_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 355,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 356,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 357,
+        "raw": "[Blocker(a=1, r=1, g=1, b=1,  block=true, image = \"blocker_movi\", fadetime=1)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "1,",
+        "g": "1,",
+        "b": "1,",
+        "block": "true,",
+        "fadetime": 1
+    },
+    {
+        "id": 358,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 359,
+        "raw": "[musicvolume(volume=0.2, fadetime=1)]",
+        "type": "music_volume",
+        "volume": "0.2,",
+        "fadetime": 1
+    },
+    {
+        "id": 360,
+        "raw": "[Subtitle(text=\"第四幕\\n――――――\\n第三場\", x=300, y=320, alignment=\"center\", size=27, delay=0.04, width=700)]",
+        "type": "subtitle",
+        "text": "第四幕\\n――――――\\n第三場",
+        "x": "300,",
+        "y": "320,",
+        "alignment": "center",
+        "size": "27,",
+        "delay": "0.04,",
+        "width": 700
+    },
+    {
+        "id": 361,
+        "raw": "[subtitle]",
+        "type": "subtitle"
+    },
+    {
+        "id": 362,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 363,
+        "raw": "[Character(name=\"avg_npc_240\",fadetime=1,block=true)]",
+        "type": "character",
+        "name": "avg_npc_240",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 364,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 365,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 366,
+        "raw": "[Blocker(a=0.3, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0.3,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 367,
+        "raw": "[PlaySound(key=\"$d_avg_spotlight\",volume=0.7)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_spotlight.mp3",
+        "volume": 0.7
+    },
+    {
+        "id": 368,
+        "raw": "[bgeffect(name=\"$eb_spotlight\",x=-10,layer=1)]",
+        "type": "bg_effect",
+        "name": "$eb_spotlight",
+        "x": "-10,layer=1"
+    },
+    {
+        "id": 369,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 370,
+        "raw": "[musicvolume(volume=0.4, fadetime=1)]",
+        "type": "music_volume",
+        "volume": "0.4,",
+        "fadetime": 1
+    },
+    {
+        "id": 371,
+        "raw": "[name=\"騎士\"]この土地に忠誠を誓う全ての戦士が私の背後にいる。邪悪との決戦はもう目の前だ……",
+        "type": "dialog",
+        "speaker": "騎士",
+        "content": "この土地に忠誠を誓う全ての戦士が私の背後にいる。邪悪との決戦はもう目の前だ……"
+    },
+    {
+        "id": 372,
+        "raw": "[name=\"騎士\"]君たちは……ここに住む子供たちか？",
+        "type": "dialog",
+        "speaker": "騎士",
+        "content": "君たちは……ここに住む子供たちか？"
+    },
+    {
+        "id": 373,
+        "raw": "[name=\"騎士\"]街の陰に隠れてはならない。君たちは、まだ武器を持つことはできないかもしれない……",
+        "type": "dialog",
+        "speaker": "騎士",
+        "content": "街の陰に隠れてはならない。君たちは、まだ武器を持つことはできないかもしれない……"
+    },
+    {
+        "id": 374,
+        "raw": "[name=\"騎士\"]しかし、武器を握る者だけが戦士だというわけではないのだ。君たちは目を開き、見て、聞いて、判断をしなければならない。",
+        "type": "dialog",
+        "speaker": "騎士",
+        "content": "しかし、武器を握る者だけが戦士だというわけではないのだ。君たちは目を開き、見て、聞いて、判断をしなければならない。"
+    },
+    {
+        "id": 375,
+        "raw": "[name=\"騎士\"]君たちは私に、何が正しく、何が間違いで、何が君たちの望む生活であるかを教えてくれるに足る存在だ。",
+        "type": "dialog",
+        "speaker": "騎士",
+        "content": "君たちは私に、何が正しく、何が間違いで、何が君たちの望む生活であるかを教えてくれるに足る存在だ。"
+    },
+    {
+        "id": 376,
+        "raw": "[name=\"騎士\"]今、私は前へ進む。そして君たちは、それを見届けるのだ。",
+        "type": "dialog",
+        "speaker": "騎士",
+        "content": "今、私は前へ進む。そして君たちは、それを見届けるのだ。"
+    },
+    {
+        "id": 377,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 378,
+        "raw": "[bgeffect(layer=1)]",
+        "type": "bg_effect",
+        "layer": 1
+    },
+    {
+        "id": 379,
+        "raw": "[PlaySound(key=\"$d_avg_spotlight\",volume=0.7)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_spotlight.mp3",
+        "volume": 0.7
+    },
+    {
+        "id": 380,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 381,
+        "raw": "[character(fadetime=0.5)]",
+        "type": "character",
+        "fadetime": 0.5
+    },
+    {
+        "id": 382,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 383,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 384,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 385,
+        "raw": "[Character(name=\"avg_npc_647_1#8$1\",name2=\"avg_npc_657_1#7$1\",fadetime=0.7)]",
+        "type": "character",
+        "name": "avg_npc_647_1#8$1",
+        "name2": "avg_npc_657_1#7$1",
+        "fadetime": 0.7
+    },
+    {
+        "id": 386,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 387,
+        "raw": "[Character(name=\"avg_npc_647_1#8$1\",name2=\"avg_npc_657_1#7$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_647_1#8$1",
+        "name2": "avg_npc_657_1#7$1",
+        "focus": 2
+    },
+    {
+        "id": 388,
+        "raw": "[name=\"モリー\"]なんて、素晴らしい！　ゴールディングさん、ラルフの演技見ましたか……本当に成長しましたね、四年前なんてまだいたずら好きな子供だったのに！",
+        "type": "dialog",
+        "speaker": "モリー",
+        "content": "なんて、素晴らしい！　ゴールディングさん、ラルフの演技見ましたか……本当に成長しましたね、四年前なんてまだいたずら好きな子供だったのに！"
+    },
+    {
+        "id": 389,
+        "raw": "[Character(name=\"avg_npc_647_1#8$1\",name2=\"avg_npc_657_1#7$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_647_1#8$1",
+        "name2": "avg_npc_657_1#7$1",
+        "focus": 1
+    },
+    {
+        "id": 390,
+        "raw": "[name=\"ゴールディング\"]本当に。私も非常に嬉しいです。モリー、ハンカチは必要ですか？",
+        "type": "dialog",
+        "speaker": "ゴールディング",
+        "content": "本当に。私も非常に嬉しいです。モリー、ハンカチは必要ですか？"
+    },
+    {
+        "id": 391,
+        "raw": "[Character(name=\"avg_npc_647_1#8$1\",name2=\"avg_npc_657_1#2$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_647_1#8$1",
+        "name2": "avg_npc_657_1#2$1",
+        "focus": 2
+    },
+    {
+        "id": 392,
+        "raw": "[name=\"モリー\"]ハンカチ？　そうですよね、涙を流して服を汚したりしたら、子供たちの前で格好がつきませんよね……本当に堪えきれません、ラルフたちがもうすぐで学校を去ってしまうと思うと、私……",
+        "type": "dialog",
+        "speaker": "モリー",
+        "content": "ハンカチ？　そうですよね、涙を流して服を汚したりしたら、子供たちの前で格好がつきませんよね……本当に堪えきれません、ラルフたちがもうすぐで学校を去ってしまうと思うと、私……"
+    },
+    {
+        "id": 393,
+        "raw": "[Character(name=\"avg_npc_647_1#8$1\",name2=\"avg_npc_657_1#2$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_647_1#8$1",
+        "name2": "avg_npc_657_1#2$1",
+        "focus": 1
+    },
+    {
+        "id": 394,
+        "raw": "[name=\"ゴールディング\"]子供たちは休憩をとるべき時間です。私たちも、少し長めに一息つきましょう。",
+        "type": "dialog",
+        "speaker": "ゴールディング",
+        "content": "子供たちは休憩をとるべき時間です。私たちも、少し長めに一息つきましょう。"
+    },
+    {
+        "id": 395,
+        "raw": "[Character(name=\"avg_npc_647_1#8$1\",name2=\"avg_npc_657_1#1$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_647_1#8$1",
+        "name2": "avg_npc_657_1#1$1",
+        "focus": 2
+    },
+    {
+        "id": 396,
+        "raw": "[name=\"モリー\"]そうですね、まだ最後の一幕があります……最後の一幕が最も素晴らしいんですから。",
+        "type": "dialog",
+        "speaker": "モリー",
+        "content": "そうですね、まだ最後の一幕があります……最後の一幕が最も素晴らしいんですから。"
+    },
+    {
+        "id": 397,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 398,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 399,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 400,
+        "raw": "[PlaySound(key=\"$d_avg_strangeclap\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_strangeclap.mp3",
+        "volume": 1
+    },
+    {
+        "id": 401,
+        "raw": "[Delay(time=3)]",
+        "type": "delay",
+        "time": 3
+    },
+    {
+        "id": 402,
+        "raw": "[Character(name=\"avg_npc_647_1#10$1\",name2=\"avg_npc_657_1#8$1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_647_1#10$1",
+        "name2": "avg_npc_657_1#8$1",
+        "focus": 2
+    },
+    {
+        "id": 403,
+        "raw": "[name=\"モリー\"]誰が拍手しているのでしょう？",
+        "type": "dialog",
+        "speaker": "モリー",
+        "content": "誰が拍手しているのでしょう？"
+    },
+    {
+        "id": 404,
+        "raw": "[name=\"モリー\"]今日はただのリハーサルで、近隣の人や友人は誰も招待していませんよね？",
+        "type": "dialog",
+        "speaker": "モリー",
+        "content": "今日はただのリハーサルで、近隣の人や友人は誰も招待していませんよね？"
+    },
+    {
+        "id": 405,
+        "raw": "[Character(name=\"avg_npc_647_1#10$1\",name2=\"avg_npc_657_1#8$1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_647_1#10$1",
+        "name2": "avg_npc_657_1#8$1",
+        "focus": 1
+    },
+    {
+        "id": 406,
+        "raw": "[name=\"ゴールディング\"]……",
+        "type": "dialog",
+        "speaker": "ゴールディング",
+        "content": "……"
+    },
+    {
+        "id": 407,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 408,
+        "raw": "[Character(fadetime=0.5)]",
+        "type": "character",
+        "fadetime": 0.5
+    },
+    {
+        "id": 409,
+        "raw": "[Delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 410,
+        "raw": "先生たちの視線が教室の最後列に向けられた。",
+        "type": "narration",
+        "content": "先生たちの視線が教室の最後列に向けられた。"
+    },
+    {
+        "id": 411,
+        "raw": "軍服を着た男性がドアに一番近い隅に座り、ゆっくりと力強い拍手をしていた。",
+        "type": "narration",
+        "content": "軍服を着た男性がドアに一番近い隅に座り、ゆっくりと力強い拍手をしていた。"
+    },
+    {
+        "id": 412,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 413,
+        "raw": "[Character(name=\"avg_npc_649_1#9$1\",blackstart=0.2,blackend=0.7,fadetime=1,block=true)]",
+        "type": "character",
+        "name": "avg_npc_649_1#9$1",
+        "blackstart": "0.2,blackend=0.7,fadetime=1,block=true"
+    },
+    {
+        "id": 414,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 415,
+        "raw": "[name=\"？？？\"]見事な劇だ。",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "見事な劇だ。"
+    },
+    {
+        "id": 416,
+        "raw": "[Character(name=\"avg_npc_647_1#4$1\")]",
+        "type": "character",
+        "name": "avg_npc_647_1#4$1"
+    },
+    {
+        "id": 417,
+        "raw": "[name=\"ゴールディング\"]……レト中佐。",
+        "type": "dialog",
+        "speaker": "ゴールディング",
+        "content": "……レト中佐。"
+    },
+    {
+        "id": 418,
+        "raw": "[name=\"ゴールディング\"]まさか都市防衛軍の指揮官様が、こんな小さな教室にお越しになる時間がおありだなんて。",
+        "type": "dialog",
+        "speaker": "ゴールディング",
+        "content": "まさか都市防衛軍の指揮官様が、こんな小さな教室にお越しになる時間がおありだなんて。"
+    },
+    {
+        "id": 419,
+        "raw": "[Character(name=\"avg_npc_649_1#9$1\")]",
+        "type": "character",
+        "name": "avg_npc_649_1#9$1"
+    },
+    {
+        "id": 420,
+        "raw": "[name=\"レト中佐\"]うむ、ごきげんよう。",
+        "type": "dialog",
+        "speaker": "レト中佐",
+        "content": "うむ、ごきげんよう。"
+    },
+    {
+        "id": 421,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 422,
+        "raw": "[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 423,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 424,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 425,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 426,
+        "raw": "[Image]",
+        "type": "image"
+    }
+]

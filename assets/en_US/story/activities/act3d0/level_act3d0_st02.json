@@ -1,0 +1,818 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")] 第三关（前）",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK",
+        "content": "第三关（前）"
+    },
+    {
+        "id": 2,
+        "raw": "[PlayMusic(intro=\"$darkness01_intro\", key=\"$darkness01_loop\", volume=0.8,crossfade=1)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta1_180603/m_dia_darkness01_intro.mp3",
+        "key": "sound_beta_2/music/beta1_180603/m_dia_darkness01_loop.mp3",
+        "volume": "0.8,crossfade=1"
+    },
+    {
+        "id": 3,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 4,
+        "raw": "[playsound(key=\"$d_gen_transmissionget\", volume=0.4)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_transmissionget.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 5,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 6,
+        "raw": "[Image(image=\"ac3_volcano\",x=0, y=0, xScale=1, yScale=1, fadetime=0, screenadapt=\"coverall\")]",
+        "type": "image",
+        "image": "ac3_volcano.png",
+        "x": "0,",
+        "y": "0,",
+        "xScale": "1,",
+        "yScale": "1,",
+        "fadetime": "0,",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 7,
+        "raw": "[Blocker(a=0, r=0,g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 8,
+        "raw": "[name=\"Eyjafjalla\"]   Finally, through comparing isotopes and analyzing various samples, we've basically been able to confirm your hypothesis.",
+        "type": "dialog",
+        "speaker": "Eyjafjalla",
+        "content": "Finally, through comparing isotopes and analyzing various samples, we've basically been able to confirm your hypothesis."
+    },
+    {
+        "id": 9,
+        "raw": "[name=\"Eyjafjalla\"]   The frequency of volcanic activity has, without a doubt, been rising abnormally. Though there's no imminent danger of a Catastrophe, we cannot ignore the danger.",
+        "type": "dialog",
+        "speaker": "Eyjafjalla",
+        "content": "The frequency of volcanic activity has, without a doubt, been rising abnormally. Though there's no imminent danger of a Catastrophe, we cannot ignore the danger."
+    },
+    {
+        "id": 10,
+        "raw": "[name=\"Eyjafjalla\"]   In two to four weeks, the volcanic activity will reach a critical point. Expect a Catastrophe to occur at that point.",
+        "type": "dialog",
+        "speaker": "Eyjafjalla",
+        "content": "In two to four weeks, the volcanic activity will reach a critical point. Expect a Catastrophe to occur at that point."
+    },
+    {
+        "id": 11,
+        "raw": "[name=\"Eyjafjalla\"]   If possible, I would recommend beginning evacuation efforts as soon as possible.",
+        "type": "dialog",
+        "speaker": "Eyjafjalla",
+        "content": "If possible, I would recommend beginning evacuation efforts as soon as possible."
+    },
+    {
+        "id": 12,
+        "raw": "[name=\"Eyjafjalla\"]   ...To summarize, that's the conclusion I've drawn from the information you provided me.",
+        "type": "dialog",
+        "speaker": "Eyjafjalla",
+        "content": "...To summarize, that's the conclusion I've drawn from the information you provided me."
+    },
+    {
+        "id": 13,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 14,
+        "raw": "[Image(fadetime=0)]",
+        "type": "image",
+        "fadetime": 0
+    },
+    {
+        "id": 15,
+        "raw": "[Background(image=\"bg_hotel\", fadetime=0)]",
+        "type": "background",
+        "image": "bg_hotel.png",
+        "fadetime": 0
+    },
+    {
+        "id": 16,
+        "raw": "[Blocker(a=0, r=0,g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 17,
+        "raw": "[Character(name=\"char_145_prove_1\")]",
+        "type": "character",
+        "name": "char_145_prove_1"
+    },
+    {
+        "id": 18,
+        "raw": "[name=\"Provence\"]   That's Eyjafjalla for you. She can even give a 40-minute lecture over the phone.",
+        "type": "dialog",
+        "speaker": "Provence",
+        "content": "That's Eyjafjalla for you. She can even give a 40-minute lecture over the phone."
+    },
+    {
+        "id": 19,
+        "raw": "[name=\"Provence\"]   Doctor, did you understand all that?",
+        "type": "dialog",
+        "speaker": "Provence",
+        "content": "Doctor, did you understand all that?"
+    },
+    {
+        "id": 20,
+        "raw": "[Decision(options=\"In one ear and out the other.;Mhm, I understood the gist of it.\",values=\"1;2\")]",
+        "type": "decision",
+        "options": "In one ear and out the other.;Mhm, I understood the gist of it.",
+        "values": "1;2"
+    },
+    {
+        "id": 21,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 22,
+        "raw": "[name=\"Provence\"]   That's what I thought as well. Before I could react, it was already over.",
+        "type": "dialog",
+        "speaker": "Provence",
+        "content": "That's what I thought as well. Before I could react, it was already over."
+    },
+    {
+        "id": 23,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 24,
+        "raw": "[name=\"Provence\"]   Wow, that's amazing, Doctor. I couldn't understand her at all...",
+        "type": "dialog",
+        "speaker": "Provence",
+        "content": "Wow, that's amazing, Doctor. I couldn't understand her at all..."
+    },
+    {
+        "id": 25,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 26,
+        "raw": "[name=\"Provence\"]   Seeing those two over there, I thought I was the only one who wasn't getting it.",
+        "type": "dialog",
+        "speaker": "Provence",
+        "content": "Seeing those two over there, I thought I was the only one who wasn't getting it."
+    },
+    {
+        "id": 27,
+        "raw": "[Character(name=\"char_348_ceylon_4#7\",name2=\"char_166_skfire_3#2\",focus=2)]",
+        "type": "character",
+        "name": "char_348_ceylon_4#7",
+        "name2": "char_166_skfire_3#2",
+        "focus": 2
+    },
+    {
+        "id": 28,
+        "raw": "[name=\"Skyfire\"]   As expected of Eyjafjalla. Even I felt like I was just put through a seminar.",
+        "type": "dialog",
+        "speaker": "Skyfire",
+        "content": "As expected of Eyjafjalla. Even I felt like I was just put through a seminar."
+    },
+    {
+        "id": 29,
+        "raw": "[Character(name=\"char_348_ceylon_4#7\",name2=\"char_166_skfire_3#2\",focus=1)]",
+        "type": "character",
+        "name": "char_348_ceylon_4#7",
+        "name2": "char_166_skfire_3#2",
+        "focus": 1
+    },
+    {
+        "id": 30,
+        "raw": "[name=\"Ceylon\"]   I see, so that's a true professional. I never knew the data could be analyzed like that.",
+        "type": "dialog",
+        "speaker": "Ceylon",
+        "content": "I see, so that's a true professional. I never knew the data could be analyzed like that."
+    },
+    {
+        "id": 31,
+        "raw": "[name=\"Ceylon\"]   I didn't expect to be presented with such a good learning experience. Jeez, I should have written it all down!",
+        "type": "dialog",
+        "speaker": "Ceylon",
+        "content": "I didn't expect to be presented with such a good learning experience. Jeez, I should have written it all down!"
+    },
+    {
+        "id": 32,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 33,
+        "raw": "[name=\"Eyjafjalla\"]   Even though the information we have right now is far from comprehensive, I've reached the same conclusion as you have. The volcano has most likely become active once more.",
+        "type": "dialog",
+        "speaker": "Eyjafjalla",
+        "content": "Even though the information we have right now is far from comprehensive, I've reached the same conclusion as you have. The volcano has most likely become active once more."
+    },
+    {
+        "id": 34,
+        "raw": "[name=\"Eyjafjalla\"]   Unfortunately, I can't be there to further delve into why it has become active.",
+        "type": "dialog",
+        "speaker": "Eyjafjalla",
+        "content": "Unfortunately, I can't be there to further delve into why it has become active."
+    },
+    {
+        "id": 35,
+        "raw": "[name=\"Eyjafjalla\"]   ...Sorry. If we had a bit more on-site information, we'd be able to better predict the activity cycle.",
+        "type": "dialog",
+        "speaker": "Eyjafjalla",
+        "content": "...Sorry. If we had a bit more on-site information, we'd be able to better predict the activity cycle."
+    },
+    {
+        "id": 36,
+        "raw": "[name=\"Eyjafjalla\"]   That way, we'd be able to evacuate the citizens more easily.",
+        "type": "dialog",
+        "speaker": "Eyjafjalla",
+        "content": "That way, we'd be able to evacuate the citizens more easily."
+    },
+    {
+        "id": 37,
+        "raw": "[Character(name=\"char_145_prove_1\")]",
+        "type": "character",
+        "name": "char_145_prove_1"
+    },
+    {
+        "id": 38,
+        "raw": "[name=\"Provence\"]   We all know that you're passionate about volcanoes, Eyjafjalla.",
+        "type": "dialog",
+        "speaker": "Provence",
+        "content": "We all know that you're passionate about volcanoes, Eyjafjalla."
+    },
+    {
+        "id": 39,
+        "raw": "[name=\"Provence\"]   You've already been a great help. Thank you very much.",
+        "type": "dialog",
+        "speaker": "Provence",
+        "content": "You've already been a great help. Thank you very much."
+    },
+    {
+        "id": 40,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 41,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 42,
+        "raw": "[stopmusic(fadetime=1)]",
+        "type": "stop_music",
+        "fadetime": 1
+    },
+    {
+        "id": 43,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 44,
+        "raw": "[Blocker(a=0, fadetime=1, block=false)]",
+        "type": "blocker",
+        "a": "0,",
+        "fadetime": "1,",
+        "block": false
+    },
+    {
+        "id": 45,
+        "raw": "[PlayMusic(intro=\"$farce_intro\", key=\"$farce_loop\", volume=0.8, crossfade=1.5)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/a001/m_dia_farce_intro.mp3",
+        "key": "sound_beta_2/music/a001/m_dia_farce_loop.mp3",
+        "volume": "0.8,",
+        "crossfade": 1.5
+    },
+    {
+        "id": 46,
+        "raw": "[Character(name=\"char_348_ceylon_4#4\")]",
+        "type": "character",
+        "name": "char_348_ceylon_4#4"
+    },
+    {
+        "id": 47,
+        "raw": "[name=\"Ceylon\"]   I'm glad I had such a professional team like yours to help me confirm my findings.",
+        "type": "dialog",
+        "speaker": "Ceylon",
+        "content": "I'm glad I had such a professional team like yours to help me confirm my findings."
+    },
+    {
+        "id": 48,
+        "raw": "[name=\"Ceylon\"]   Something might be wrong with the detector in the monitoring station. It hasn't detected any abnormal readings so far.",
+        "type": "dialog",
+        "speaker": "Ceylon",
+        "content": "Something might be wrong with the detector in the monitoring station. It hasn't detected any abnormal readings so far."
+    },
+    {
+        "id": 49,
+        "raw": "[name=\"Ceylon\"]   By the looks of things, my efforts were worth it.",
+        "type": "dialog",
+        "speaker": "Ceylon",
+        "content": "By the looks of things, my efforts were worth it."
+    },
+    {
+        "id": 50,
+        "raw": "[name=\"Ceylon\"]   We've got to send news of this to the City Council. Otherwise, the results could be devastating.",
+        "type": "dialog",
+        "speaker": "Ceylon",
+        "content": "We've got to send news of this to the City Council. Otherwise, the results could be devastating."
+    },
+    {
+        "id": 51,
+        "raw": "[Character(name=\"char_145_prove_1\",name2=\"char_166_skfire_3#1\",focus=2)]",
+        "type": "character",
+        "name": "char_145_prove_1",
+        "name2": "char_166_skfire_3#1",
+        "focus": 2
+    },
+    {
+        "id": 52,
+        "raw": "[name=\"Skyfire\"]   You're telling me that Siesta didn't even make any emergency plans for a possible Catastrophe before hosting such a large-scale event?",
+        "type": "dialog",
+        "speaker": "Skyfire",
+        "content": "You're telling me that Siesta didn't even make any emergency plans for a possible Catastrophe before hosting such a large-scale event?"
+    },
+    {
+        "id": 53,
+        "raw": "[Character(name=\"char_348_ceylon_4#2\")]",
+        "type": "character",
+        "name": "char_348_ceylon_4#2"
+    },
+    {
+        "id": 54,
+        "raw": "[name=\"Ceylon\"]   The people here probably haven't even considered the possibility of a Catastrophe, let alone made preparations for it.",
+        "type": "dialog",
+        "speaker": "Ceylon",
+        "content": "The people here probably haven't even considered the possibility of a Catastrophe, let alone made preparations for it."
+    },
+    {
+        "id": 55,
+        "raw": "[name=\"Ceylon\"]   My father went to the new development zone to conduct business about three months ago, and won't be back for a few more days. Now, his secretary, Cronin, is responsible for everything.",
+        "type": "dialog",
+        "speaker": "Ceylon",
+        "content": "My father went to the new development zone to conduct business about three months ago, and won't be back for a few more days. Now, his secretary, Cronin, is responsible for everything."
+    },
+    {
+        "id": 56,
+        "raw": "[name=\"Ceylon\"]   Cronin is also this city's Catastrophe Messenger. When we take the data and the samples down to the City Hall, he'll be able to understand the situation.",
+        "type": "dialog",
+        "speaker": "Ceylon",
+        "content": "Cronin is also this city's Catastrophe Messenger. When we take the data and the samples down to the City Hall, he'll be able to understand the situation."
+    },
+    {
+        "id": 57,
+        "raw": "[name=\"Ceylon\"]   Even though I'm the mayor's daughter, I rarely get involved in the government's affairs.",
+        "type": "dialog",
+        "speaker": "Ceylon",
+        "content": "Even though I'm the mayor's daughter, I rarely get involved in the government's affairs."
+    },
+    {
+        "id": 58,
+        "raw": "[Character(name=\"char_348_ceylon_4#4\")]",
+        "type": "character",
+        "name": "char_348_ceylon_4#4"
+    },
+    {
+        "id": 59,
+        "raw": "[name=\"Ceylon\"]   But now that we have definitive proof, I might be able to get some help from the family.",
+        "type": "dialog",
+        "speaker": "Ceylon",
+        "content": "But now that we have definitive proof, I might be able to get some help from the family."
+    },
+    {
+        "id": 60,
+        "raw": "[Character(name=\"char_145_prove_1\")]",
+        "type": "character",
+        "name": "char_145_prove_1"
+    },
+    {
+        "id": 61,
+        "raw": "[name=\"Provence\"]   Doctor, I have an idea. I want to head to the volcano again to check on that reason that Eyjafjalla mentioned.",
+        "type": "dialog",
+        "speaker": "Provence",
+        "content": "Doctor, I have an idea. I want to head to the volcano again to check on that reason that Eyjafjalla mentioned."
+    },
+    {
+        "id": 62,
+        "raw": "[name=\"Provence\"]   Can you help Ceylon out while I'm gone?",
+        "type": "dialog",
+        "speaker": "Provence",
+        "content": "Can you help Ceylon out while I'm gone?"
+    },
+    {
+        "id": 63,
+        "raw": "[Decision(options=\"You're entering the volcano? Isn't that a bit too dangerous?!\",values=\"1\")]",
+        "type": "decision",
+        "options": "You're entering the volcano? Isn't that a bit too dangerous?!",
+        "values": "1"
+    },
+    {
+        "id": 64,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 65,
+        "raw": "[Character(name=\"char_145_prove_1\")]",
+        "type": "character",
+        "name": "char_145_prove_1"
+    },
+    {
+        "id": 66,
+        "raw": "[name=\"Provence\"]   Catastrophe Messengers always put their lives on the line for their work, so don't worry. I have plenty of experience with this kind of stuff.",
+        "type": "dialog",
+        "speaker": "Provence",
+        "content": "Catastrophe Messengers always put their lives on the line for their work, so don't worry. I have plenty of experience with this kind of stuff."
+    },
+    {
+        "id": 67,
+        "raw": "[name=\"Provence\"]   Although I'll only be able to call you from the hotel, I'll be sure to stay connected with the Doctor.",
+        "type": "dialog",
+        "speaker": "Provence",
+        "content": "Although I'll only be able to call you from the hotel, I'll be sure to stay connected with the Doctor."
+    },
+    {
+        "id": 68,
+        "raw": "[Character(name=\"char_145_prove_1\",name2=\"char_166_skfire_3#1\",focus=2)]",
+        "type": "character",
+        "name": "char_145_prove_1",
+        "name2": "char_166_skfire_3#1",
+        "focus": 2
+    },
+    {
+        "id": 69,
+        "raw": "[name=\"Skyfire\"]   I'll also come with you.",
+        "type": "dialog",
+        "speaker": "Skyfire",
+        "content": "I'll also come with you."
+    },
+    {
+        "id": 70,
+        "raw": "[CharacterCutin(widgetID=\"1\")]",
+        "type": "character_cutin",
+        "widgetID": "1"
+    },
+    {
+        "id": 71,
+        "raw": "[Character(name=\"char_145_prove_1\",name2=\"char_166_skfire_3#1\",focus=1)]",
+        "type": "character",
+        "name": "char_145_prove_1",
+        "name2": "char_166_skfire_3#1",
+        "focus": 1
+    },
+    {
+        "id": 72,
+        "raw": "[name=\"Provence\"]   Huh?",
+        "type": "dialog",
+        "speaker": "Provence",
+        "content": "Huh?"
+    },
+    {
+        "id": 73,
+        "raw": "[Character(name=\"char_145_prove_1\",name2=\"char_166_skfire_3#1\",focus=2)]",
+        "type": "character",
+        "name": "char_145_prove_1",
+        "name2": "char_166_skfire_3#1",
+        "focus": 2
+    },
+    {
+        "id": 74,
+        "raw": "[name=\"Skyfire\"]   Got a problem with that? I can't just let you go alone. What if you ruin all the precious data?",
+        "type": "dialog",
+        "speaker": "Skyfire",
+        "content": "Got a problem with that? I can't just let you go alone. What if you ruin all the precious data?"
+    },
+    {
+        "id": 75,
+        "raw": "[name=\"Skyfire\"]   Of course I have to go with you.",
+        "type": "dialog",
+        "speaker": "Skyfire",
+        "content": "Of course I have to go with you."
+    },
+    {
+        "id": 76,
+        "raw": "[Character(name=\"char_145_prove_1\",name2=\"char_166_skfire_3#1\",focus=1)]",
+        "type": "character",
+        "name": "char_145_prove_1",
+        "name2": "char_166_skfire_3#1",
+        "focus": 1
+    },
+    {
+        "id": 77,
+        "raw": "[name=\"Provence\"]   Um, all right, all right.",
+        "type": "dialog",
+        "speaker": "Provence",
+        "content": "Um, all right, all right."
+    },
+    {
+        "id": 78,
+        "raw": "[name=\"Provence\"]   By the way, do we need to notify Amiya first?",
+        "type": "dialog",
+        "speaker": "Provence",
+        "content": "By the way, do we need to notify Amiya first?"
+    },
+    {
+        "id": 79,
+        "raw": "[Character(name=\"char_145_prove_1\",name2=\"char_166_skfire_3#2\",focus=2)]",
+        "type": "character",
+        "name": "char_145_prove_1",
+        "name2": "char_166_skfire_3#2",
+        "focus": 2
+    },
+    {
+        "id": 80,
+        "raw": "[name=\"Skyfire\"]   Nah, it's fine. It's not that serious. As long as the Doctor knows about it, we're good.",
+        "type": "dialog",
+        "speaker": "Skyfire",
+        "content": "Nah, it's fine. It's not that serious. As long as the Doctor knows about it, we're good."
+    },
+    {
+        "id": 81,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 82,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 83,
+        "raw": "[Delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 84,
+        "raw": "[Character(name=\"char_348_ceylon_4#2\")]",
+        "type": "character",
+        "name": "char_348_ceylon_4#2"
+    },
+    {
+        "id": 85,
+        "raw": "[name=\"Ceylon\"]   So if that's all settled, let's get going, Doctor. Please prepare everything you need, and we'll head for the City Hall at 2 P.M.",
+        "type": "dialog",
+        "speaker": "Ceylon",
+        "content": "So if that's all settled, let's get going, Doctor. Please prepare everything you need, and we'll head for the City Hall at 2 P.M."
+    },
+    {
+        "id": 86,
+        "raw": "[Decision(options=\"No problem.\",values=\"1\")]",
+        "type": "decision",
+        "options": "No problem.",
+        "values": "1"
+    },
+    {
+        "id": 87,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 88,
+        "raw": "[Character(name=\"char_348_ceylon_4#4\")]",
+        "type": "character",
+        "name": "char_348_ceylon_4#4"
+    },
+    {
+        "id": 89,
+        "raw": "[name=\"Ceylon\"]   Phew, that about wraps things up. I suppose I can finally relax a bit.",
+        "type": "dialog",
+        "speaker": "Ceylon",
+        "content": "Phew, that about wraps things up. I suppose I can finally relax a bit."
+    },
+    {
+        "id": 90,
+        "raw": "[name=\"Ceylon\"]   Doctor, here's some tea I brought back from Victoria. Would you like a cup?",
+        "type": "dialog",
+        "speaker": "Ceylon",
+        "content": "Doctor, here's some tea I brought back from Victoria. Would you like a cup?"
+    },
+    {
+        "id": 91,
+        "raw": "[Decision(options=\"Sure.;No thank you.\",values=\"2;3\")]",
+        "type": "decision",
+        "options": "Sure.;No thank you.",
+        "values": "2;3"
+    },
+    {
+        "id": 92,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 93,
+        "raw": "[name=\"Ceylon\"]   I think you'll enjoy it.",
+        "type": "dialog",
+        "speaker": "Ceylon",
+        "content": "I think you'll enjoy it."
+    },
+    {
+        "id": 94,
+        "raw": "[Predicate(references=\"3\")]",
+        "type": "predicate",
+        "references": "3"
+    },
+    {
+        "id": 95,
+        "raw": "[name=\"Ceylon\"]   Do you not know how to make tea? I'll help you then.",
+        "type": "dialog",
+        "speaker": "Ceylon",
+        "content": "Do you not know how to make tea? I'll help you then."
+    },
+    {
+        "id": 96,
+        "raw": "[Decision(options=\"Sure.;...No thank you.\",values=\"4;5\")]",
+        "type": "decision",
+        "options": "Sure.;...No thank you.",
+        "values": "4;5"
+    },
+    {
+        "id": 97,
+        "raw": "[Predicate(references=\"4\")]",
+        "type": "predicate",
+        "references": "4"
+    },
+    {
+        "id": 98,
+        "raw": "[name=\"Ceylon\"]   Mhm, I just know you'll like it.",
+        "type": "dialog",
+        "speaker": "Ceylon",
+        "content": "Mhm, I just know you'll like it."
+    },
+    {
+        "id": 99,
+        "raw": "[Predicate(references=\"5\")]",
+        "type": "predicate",
+        "references": "5"
+    },
+    {
+        "id": 100,
+        "raw": "[name=\"Ceylon\"]   You're a really difficult person, you know.",
+        "type": "dialog",
+        "speaker": "Ceylon",
+        "content": "You're a really difficult person, you know."
+    },
+    {
+        "id": 101,
+        "raw": "[name=\"Ceylon\"]   I'll have you know that this is one of the highest-grade teas in Victoria!",
+        "type": "dialog",
+        "speaker": "Ceylon",
+        "content": "I'll have you know that this is one of the highest-grade teas in Victoria!"
+    },
+    {
+        "id": 102,
+        "raw": "[Decision(options=\"Fine, you win.;......No thank you.\",values=\"6;7\")]",
+        "type": "decision",
+        "options": "Fine, you win.;......No thank you.",
+        "values": "6;7"
+    },
+    {
+        "id": 103,
+        "raw": "[Predicate(references=\"6\")]",
+        "type": "predicate",
+        "references": "6"
+    },
+    {
+        "id": 104,
+        "raw": "[name=\"Ceylon\"]   There you go. You'll definitely like it.",
+        "type": "dialog",
+        "speaker": "Ceylon",
+        "content": "There you go. You'll definitely like it."
+    },
+    {
+        "id": 105,
+        "raw": "[Predicate(references=\"7\")]",
+        "type": "predicate",
+        "references": "7"
+    },
+    {
+        "id": 106,
+        "raw": "[name=\"Ceylon\"]   I make really good tea. You'll regret it your whole life if you miss this chance.",
+        "type": "dialog",
+        "speaker": "Ceylon",
+        "content": "I make really good tea. You'll regret it your whole life if you miss this chance."
+    },
+    {
+        "id": 107,
+        "raw": "[Decision(options=\".........Fine.\",values=\"8\")]",
+        "type": "decision",
+        "options": ".........Fine.",
+        "values": "8"
+    },
+    {
+        "id": 108,
+        "raw": "[Predicate(references=\"8\")]",
+        "type": "predicate",
+        "references": "8"
+    },
+    {
+        "id": 109,
+        "raw": "[name=\"Ceylon\"]   How stubborn. I had to say all that just to make you try it.",
+        "type": "dialog",
+        "speaker": "Ceylon",
+        "content": "How stubborn. I had to say all that just to make you try it."
+    },
+    {
+        "id": 110,
+        "raw": "[name=\"Ceylon\"]   All right, just wait a moment.",
+        "type": "dialog",
+        "speaker": "Ceylon",
+        "content": "All right, just wait a moment."
+    },
+    {
+        "id": 111,
+        "raw": "[Predicate(references=\"2;4;6;8\")]",
+        "type": "predicate",
+        "references": "2;4;6;8"
+    },
+    {
+        "id": 112,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 113,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 114,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 115,
+        "raw": "[Delay(time=0.6)]",
+        "type": "delay",
+        "time": 0.6
+    },
+    {
+        "id": 116,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 117,
+        "raw": "[Blocker(block=true)]",
+        "type": "blocker",
+        "block": true
+    },
+    {
+        "id": 118,
+        "raw": "[Image]",
+        "type": "image"
+    }
+]

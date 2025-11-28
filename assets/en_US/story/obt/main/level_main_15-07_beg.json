@@ -1,0 +1,2240 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")]",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK"
+    },
+    {
+        "id": 2,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 3,
+        "raw": "[stopmusic]",
+        "type": "stop_music"
+    },
+    {
+        "id": 4,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 5,
+        "raw": "[Image(image=\"avg_ac8mi_Pre\",screenadapt=\"coverall\", fadetime=0)]",
+        "type": "image",
+        "image": "avg_ac8mi_Pre.png",
+        "screenadapt": "coverall",
+        "fadetime": 0
+    },
+    {
+        "id": 6,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 7,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 8,
+        "raw": "[playMusic(intro=\"$loneliness_intro\",key=\"$loneliness_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/static/m_avg/m_avg_loneliness_intro.mp3",
+        "key": "sound_beta_2/music/static/m_avg/m_avg_loneliness_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 9,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 10,
+        "raw": "The scene plays out before you, but no matter how hard you try, you cannot get any closer.",
+        "type": "narration",
+        "content": "The scene plays out before you, but no matter how hard you try, you cannot get any closer."
+    },
+    {
+        "id": 11,
+        "raw": "[name=\"Amiya\"]Doctor, that person she's talking to... Is that you?",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Doctor, that person she's talking to... Is that you?"
+    },
+    {
+        "id": 12,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 13,
+        "raw": "[Decision(options=\"......;I can't say for sure.\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "......;I can't say for sure.",
+        "values": "1;2"
+    },
+    {
+        "id": 14,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 15,
+        "raw": "[name=\"Priestess\"](Unknown language) I don't believe I'll be able to create a language that will allow us to derive the ultimate answer. Not by myself, at least.",
+        "type": "dialog",
+        "speaker": "Priestess",
+        "content": "(Unknown language) I don't believe I'll be able to create a language that will allow us to derive the ultimate answer. Not by myself, at least."
+    },
+    {
+        "id": 16,
+        "raw": "[name=\"Priestess\"](Unknown language) I stand on the shoulders of giants, after all. From the base I put together with the greatest discoveries of our colleagues' respective fields, I will continue onwards.",
+        "type": "dialog",
+        "speaker": "Priestess",
+        "content": "(Unknown language) I stand on the shoulders of giants, after all. From the base I put together with the greatest discoveries of our colleagues' respective fields, I will continue onwards."
+    },
+    {
+        "id": 17,
+        "raw": "[name=\"Oracle\"](Unknown language) Even if nothing will come of it in the end?",
+        "type": "dialog",
+        "speaker": "Oracle",
+        "content": "(Unknown language) Even if nothing will come of it in the end?"
+    },
+    {
+        "id": 18,
+        "raw": "[name=\"Priestess\"](Unknown language) Of course. It wouldn't be the first time.",
+        "type": "dialog",
+        "speaker": "Priestess",
+        "content": "(Unknown language) Of course. It wouldn't be the first time."
+    },
+    {
+        "id": 19,
+        "raw": "[name=\"Priestess\"](Unknown language) Does it look like we have anything better to do while we quietly wait for the darkness to swallow us?",
+        "type": "dialog",
+        "speaker": "Priestess",
+        "content": "(Unknown language) Does it look like we have anything better to do while we quietly wait for the darkness to swallow us?"
+    },
+    {
+        "id": 20,
+        "raw": "[name=\"Priestess\"](Unknown language) Besides, I'm sure you won't say no to me, {@nickname}.",
+        "type": "dialog",
+        "speaker": "Priestess",
+        "content": "(Unknown language) Besides, I'm sure you won't say no to me, {@nickname}."
+    },
+    {
+        "id": 21,
+        "raw": "[name=\"Oracle\"]......",
+        "type": "dialog",
+        "speaker": "Oracle",
+        "content": "......"
+    },
+    {
+        "id": 22,
+        "raw": "[name=\"Oracle\"](Unknown language) So, where are you starting your research from?",
+        "type": "dialog",
+        "speaker": "Oracle",
+        "content": "(Unknown language) So, where are you starting your research from?"
+    },
+    {
+        "id": 23,
+        "raw": "Priestess does not answer, electing to instead look at the faint dawn light peeking over the horizon. The one next to her does not bother her any further.",
+        "type": "narration",
+        "content": "Priestess does not answer, electing to instead look at the faint dawn light peeking over the horizon. The one next to her does not bother her any further."
+    },
+    {
+        "id": 24,
+        "raw": "The two of them simply stand aboard the deck.",
+        "type": "narration",
+        "content": "The two of them simply stand aboard the deck."
+    },
+    {
+        "id": 25,
+        "raw": "You look at her, and subconsciously tell yourself: 'She's pondering something again'—",
+        "type": "narration",
+        "content": "You look at her, and subconsciously tell yourself: 'She's pondering something again'—"
+    },
+    {
+        "id": 26,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 27,
+        "raw": "[Decision(options=\"......\", values=\"1\")]",
+        "type": "decision",
+        "options": "......",
+        "values": "1"
+    },
+    {
+        "id": 28,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 29,
+        "raw": "Why did you think that all of a sudden?",
+        "type": "narration",
+        "content": "Why did you think that all of a sudden?"
+    },
+    {
+        "id": 30,
+        "raw": "[name=\"Amiya\"]What is it, Doctor?",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "What is it, Doctor?"
+    },
+    {
+        "id": 31,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 32,
+        "raw": "[Decision(options=\"Nothing, just zoned out.\", values=\"1\")]",
+        "type": "decision",
+        "options": "Nothing, just zoned out.",
+        "values": "1"
+    },
+    {
+        "id": 33,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 34,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 35,
+        "raw": "[Decision(options=\"I don't think we'll be finding any important clues here.\", values=\"1\")]",
+        "type": "decision",
+        "options": "I don't think we'll be finding any important clues here.",
+        "values": "1"
+    },
+    {
+        "id": 36,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 37,
+        "raw": "[name=\"Amiya\"]The information Dr. Kal'tsit wants isn't here?",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "The information Dr. Kal'tsit wants isn't here?"
+    },
+    {
+        "id": 38,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 39,
+        "raw": "[Decision(options=\"This is most likely a fragment of history from before Originium was born.\", values=\"1\")]",
+        "type": "decision",
+        "options": "This is most likely a fragment of history from before Originium was born.",
+        "values": "1"
+    },
+    {
+        "id": 40,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 41,
+        "raw": "[name=\"Amiya\"]...?!",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "...?!"
+    },
+    {
+        "id": 42,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 43,
+        "raw": "[Decision(options=\"Based on what I experienced in the Assimilated Universe, at least.\", values=\"1\")]",
+        "type": "decision",
+        "options": "Based on what I experienced in the Assimilated Universe, at least.",
+        "values": "1"
+    },
+    {
+        "id": 44,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 45,
+        "raw": "[name=\"Amiya\"]Doctor, you mean what we're seeing right now is because you...",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Doctor, you mean what we're seeing right now is because you..."
+    },
+    {
+        "id": 46,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 47,
+        "raw": "[Decision(options=\"That's not all, I'm afraid.\", values=\"1\")]",
+        "type": "decision",
+        "options": "That's not all, I'm afraid.",
+        "values": "1"
+    },
+    {
+        "id": 48,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 49,
+        "raw": "[name=\"Amiya\"]—Then that huge ship floating in the sky and that giant, shattered sphere are also...",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "—Then that huge ship floating in the sky and that giant, shattered sphere are also..."
+    },
+    {
+        "id": 50,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 51,
+        "raw": "[Decision(options=\"I'm not too sure what relation I have with them.\", values=\"1\")]",
+        "type": "decision",
+        "options": "I'm not too sure what relation I have with them.",
+        "values": "1"
+    },
+    {
+        "id": 52,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 53,
+        "raw": "[name=\"Amiya\"]We'll make it clear, then.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "We'll make it clear, then."
+    },
+    {
+        "id": 54,
+        "raw": "[name=\"Amiya\"]But since you're sure this isn't our main target, we should continue onwards.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "But since you're sure this isn't our main target, we should continue onwards."
+    },
+    {
+        "id": 55,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 56,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 57,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 58,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 59,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 60,
+        "raw": "[Image(image=\"60_i04\",screenadapt=\"coverall\")]",
+        "type": "image",
+        "image": "60_i04.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 61,
+        "raw": "[ImageTween( xScaleFrom=1, yScaleFrom=1, xScaleTo=1.2, yScaleTo=1.2,duration=100)]",
+        "type": "image_tween",
+        "xScaleFrom": "1,",
+        "yScaleFrom": "1,",
+        "xScaleTo": "1.2,",
+        "yScaleTo": "1.2,duration=100"
+    },
+    {
+        "id": 62,
+        "raw": "[CameraShake(duration=-1, xstrength=3, ystrength=2, vibrato=20, randomness=60, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "-1,",
+        "xstrength": "3,",
+        "ystrength": "2,",
+        "vibrato": "20,",
+        "randomness": "60,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 63,
+        "raw": "[playMusic(intro=\"$shatterpoint_02_intro\",key=\"$shatterpoint_02_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act27d0d0/m_bat_shatterpoint_02_intro.mp3",
+        "key": "sound_beta_2/music/act27d0d0/m_bat_shatterpoint_02_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 64,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 65,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 66,
+        "raw": "[name=\"Amiya\"]The singularity is right in front of us, but the bridge I built is reaching its limit.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "The singularity is right in front of us, but the bridge I built is reaching its limit."
+    },
+    {
+        "id": 67,
+        "raw": "[name=\"Amiya\"]The information density here's too high. Pressing onwards is like drowning in a deep river.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "The information density here's too high. Pressing onwards is like drowning in a deep river."
+    },
+    {
+        "id": 68,
+        "raw": "[name=\"Amiya\"]...How are we going to find the information we need in all this chaos?",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "...How are we going to find the information we need in all this chaos?"
+    },
+    {
+        "id": 69,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 70,
+        "raw": "[Decision(options=\"Allow me.\", values=\"1\")]",
+        "type": "decision",
+        "options": "Allow me.",
+        "values": "1"
+    },
+    {
+        "id": 71,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 72,
+        "raw": "Your thoughts come infinitely close to the singularity, all while the near-physical deluge of information presses down on the two of you...",
+        "type": "narration",
+        "content": "Your thoughts come infinitely close to the singularity, all while the near-physical deluge of information presses down on the two of you..."
+    },
+    {
+        "id": 73,
+        "raw": "While you yourself seem able to adapt to the pressure, you sense a great strain on Amiya.",
+        "type": "narration",
+        "content": "While you yourself seem able to adapt to the pressure, you sense a great strain on Amiya."
+    },
+    {
+        "id": 74,
+        "raw": "You don't have much time.",
+        "type": "narration",
+        "content": "You don't have much time."
+    },
+    {
+        "id": 75,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 76,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 77,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 78,
+        "raw": "[CameraShake(duration=0, xstrength=3, ystrength=2, vibrato=20, randomness=60, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0,",
+        "xstrength": "3,",
+        "ystrength": "2,",
+        "vibrato": "20,",
+        "randomness": "60,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 79,
+        "raw": "[Image(image=\"60_i05\",screenadapt=\"coverall\")]",
+        "type": "image",
+        "image": "60_i05.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 80,
+        "raw": "[bgeffect(name=\"$eb_confusion_centra\",layer=1)]",
+        "type": "bg_effect",
+        "name": "$eb_confusion_centra",
+        "layer": 1
+    },
+    {
+        "id": 81,
+        "raw": "[bgeffect(name=\"$eb_confusion_loop\",layer=3)]",
+        "type": "bg_effect",
+        "name": "$eb_confusion_loop",
+        "layer": 3
+    },
+    {
+        "id": 82,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 83,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 84,
+        "raw": "You pull out every keyword the 'Priestess' in the Assimilated Universe said, and quickly connect together every clue left behind by Kal'tsit.",
+        "type": "narration",
+        "content": "You pull out every keyword the 'Priestess' in the Assimilated Universe said, and quickly connect together every clue left behind by Kal'tsit."
+    },
+    {
+        "id": 85,
+        "raw": "Calculate a new result as quickly as you can, then add a new condition... Continue this cycle until you have isolated the information you need.",
+        "type": "narration",
+        "content": "Calculate a new result as quickly as you can, then add a new condition... Continue this cycle until you have isolated the information you need."
+    },
+    {
+        "id": 86,
+        "raw": "Your thoughts are like diving into an endless ocean of building blocks. What you need to do is not particularly complicated.",
+        "type": "narration",
+        "content": "Your thoughts are like diving into an endless ocean of building blocks. What you need to do is not particularly complicated."
+    },
+    {
+        "id": 87,
+        "raw": "Find the blocks that are different, their surfaces finely engraved with the words Kal'tsit left for you—",
+        "type": "narration",
+        "content": "Find the blocks that are different, their surfaces finely engraved with the words Kal'tsit left for you—"
+    },
+    {
+        "id": 88,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 89,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", text=\"'I never forgot.'\", x=320,y=340, alignment=\"center\", size=24, delay=0.001, width=700,block = true,duration=1)]",
+        "type": "sticker",
+        "text": "'I never forgot.'",
+        "x": "320,y=340,",
+        "alignment": "center",
+        "size": "24,",
+        "delay": "0.001,",
+        "width": "700,block",
+        "duration": 1
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\",duration=1,block = false)]",
+        "type": "sticker",
+        "duration": "1,block"
+    },
+    {
+        "id": 92,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 93,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 94,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 95,
+        "raw": "[Decision(options=\"I think we did it, Amiya.\", values=\"1\")]",
+        "type": "decision",
+        "options": "I think we did it, Amiya.",
+        "values": "1"
+    },
+    {
+        "id": 96,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 97,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 98,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 99,
+        "raw": "[Blocker(a=1, r=1, g=1, b=1, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "1,",
+        "g": "1,",
+        "b": "1,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 100,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 101,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 102,
+        "raw": "[image]",
+        "type": "image"
+    },
+    {
+        "id": 103,
+        "raw": "[bgeffect]",
+        "type": "bg_effect"
+    },
+    {
+        "id": 104,
+        "raw": "[Background(image=\"60_g1_rhodescorridor_bc\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "60_g1_rhodescorridor_bc.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 105,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 106,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 107,
+        "raw": "[playMusic(key=\"$calm_loop\", volume=0.6)]",
+        "type": "play_music",
+        "key": "sound_beta_2/music/avg/m_avg_calm_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 108,
+        "raw": "[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#5$2\",duration=1)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_1037_amiya3_1#5$2.png",
+        "duration": 1
+    },
+    {
+        "id": 109,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 110,
+        "raw": "[name=\"Amiya\"]Where... Where are we?",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Where... Where are we?"
+    },
+    {
+        "id": 111,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 112,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 113,
+        "raw": "[Decision(options=\"Rhodes Island.;The Rhodes Island of the past.\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "Rhodes Island.;The Rhodes Island of the past.",
+        "values": "1;2"
+    },
+    {
+        "id": 114,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 115,
+        "raw": "[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#5$2\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_1037_amiya3_1#5$2.png"
+    },
+    {
+        "id": 116,
+        "raw": "[name=\"Amiya\"]——?!",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "——?!"
+    },
+    {
+        "id": 117,
+        "raw": "[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#10$2\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_1037_amiya3_1#10$2.png"
+    },
+    {
+        "id": 118,
+        "raw": "[name=\"Amiya\"]But this place and our Rhodes Island are—",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "But this place and our Rhodes Island are—"
+    },
+    {
+        "id": 119,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 120,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 121,
+        "raw": "[Decision(options=\"Completely different.\", values=\"1\")]",
+        "type": "decision",
+        "options": "Completely different.",
+        "values": "1"
+    },
+    {
+        "id": 122,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 123,
+        "raw": "[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#7$2\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_1037_amiya3_1#7$2.png"
+    },
+    {
+        "id": 124,
+        "raw": "[name=\"Amiya\"]Dr. Kal'tsit once said the ship was excavated in Rim Billiton and had to be repaired before it could be used.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Dr. Kal'tsit once said the ship was excavated in Rim Billiton and had to be repaired before it could be used."
+    },
+    {
+        "id": 125,
+        "raw": "[name=\"Amiya\"]Just... Just what exactly has Rhodes Island gone through?",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Just... Just what exactly has Rhodes Island gone through?"
+    },
+    {
+        "id": 126,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 127,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 128,
+        "raw": "[Decision(options=\"I haven't the slightest idea.\", values=\"1\")]",
+        "type": "decision",
+        "options": "I haven't the slightest idea.",
+        "values": "1"
+    },
+    {
+        "id": 129,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 130,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 131,
+        "raw": "[name=\"???\"](Unknown language) Looks like you're in good spirits today. I guess our efforts paid off.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "(Unknown language) Looks like you're in good spirits today. I guess our efforts paid off."
+    },
+    {
+        "id": 132,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 133,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1360_1#1$1\",duration=1)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1360_1#1$1.png",
+        "duration": 1
+    },
+    {
+        "id": 134,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 135,
+        "raw": "[name=\"Oracle\"](Unknown language) Were you scared, waiting by yourself in the lab?",
+        "type": "dialog",
+        "speaker": "Oracle",
+        "content": "(Unknown language) Were you scared, waiting by yourself in the lab?"
+    },
+    {
+        "id": 136,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 137,
+        "raw": "[name=\"Primitive Construct\"](Proud purring)",
+        "type": "dialog",
+        "speaker": "Primitive Construct",
+        "content": "(Proud purring)"
+    },
+    {
+        "id": 138,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1360_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1360_1#1$1.png"
+    },
+    {
+        "id": 139,
+        "raw": "[name=\"Oracle\"](Unknown language) Good timing then. I'm currently trying to put together a model that reduces the loss of meta-information during transmission through special mediums. Can you try helping me do some calculations?",
+        "type": "dialog",
+        "speaker": "Oracle",
+        "content": "(Unknown language) Good timing then. I'm currently trying to put together a model that reduces the loss of meta-information during transmission through special mediums. Can you try helping me do some calculations?"
+    },
+    {
+        "id": 140,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 141,
+        "raw": "[name=\"Primitive Construct\"](Restless twitching)",
+        "type": "dialog",
+        "speaker": "Primitive Construct",
+        "content": "(Restless twitching)"
+    },
+    {
+        "id": 142,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 143,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 144,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1360_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1360_1#1$1.png"
+    },
+    {
+        "id": 145,
+        "raw": "[name=\"Oracle\"](Unknown language) Alright, that's enough. I terminated your process.",
+        "type": "dialog",
+        "speaker": "Oracle",
+        "content": "(Unknown language) Alright, that's enough. I terminated your process."
+    },
+    {
+        "id": 146,
+        "raw": "[name=\"Oracle\"](Unknown language) You are to never harm your own core unit, even if an order comes from me or her.",
+        "type": "dialog",
+        "speaker": "Oracle",
+        "content": "(Unknown language) You are to never harm your own core unit, even if an order comes from me or her."
+    },
+    {
+        "id": 147,
+        "raw": "[name=\"Oracle\"](Unknown language) Protect yourself, AMa-10. Survival is an instinct the living are born with.",
+        "type": "dialog",
+        "speaker": "Oracle",
+        "content": "(Unknown language) Protect yourself, AMa-10. Survival is an instinct the living are born with."
+    },
+    {
+        "id": 148,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 149,
+        "raw": "[name=\"Primitive Construct\"](Stubborn purring)",
+        "type": "dialog",
+        "speaker": "Primitive Construct",
+        "content": "(Stubborn purring)"
+    },
+    {
+        "id": 150,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1360_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1360_1#1$1.png"
+    },
+    {
+        "id": 151,
+        "raw": "[name=\"Oracle\"](Unknown language) Haha, at least your emotional module is iterating quickly.",
+        "type": "dialog",
+        "speaker": "Oracle",
+        "content": "(Unknown language) Haha, at least your emotional module is iterating quickly."
+    },
+    {
+        "id": 152,
+        "raw": "[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#7$2\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_1037_amiya3_1#7$2.png"
+    },
+    {
+        "id": 153,
+        "raw": "[name=\"Amiya\"]Do you understand their language, Doctor?",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Do you understand their language, Doctor?"
+    },
+    {
+        "id": 154,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 155,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 156,
+        "raw": "[Decision(options=\"I don't.\", values=\"1\")]",
+        "type": "decision",
+        "options": "I don't.",
+        "values": "1"
+    },
+    {
+        "id": 157,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 158,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 159,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 160,
+        "raw": "[Decision(options=\"Ignore that person and the thing by their side.;What we need is somewhere else.\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "Ignore that person and the thing by their side.;What we need is somewhere else.",
+        "values": "1;2"
+    },
+    {
+        "id": 161,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 162,
+        "raw": "[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#1$2\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_1037_amiya3_1#1$2.png"
+    },
+    {
+        "id": 163,
+        "raw": "[name=\"Amiya\"]You're right. Since Dr. Kal'tsit believed we would be able to find the key, she must have anticipated the language barrier.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "You're right. Since Dr. Kal'tsit believed we would be able to find the key, she must have anticipated the language barrier."
+    },
+    {
+        "id": 164,
+        "raw": "[name=\"Amiya\"]Look at the glass next to that person, Doctor. It's got writing written all over it.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Look at the glass next to that person, Doctor. It's got writing written all over it."
+    },
+    {
+        "id": 165,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 166,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 167,
+        "raw": "[Decision(options=\"Formulas?\", values=\"1\")]",
+        "type": "decision",
+        "options": "Formulas?",
+        "values": "1"
+    },
+    {
+        "id": 168,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 169,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 170,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1360_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1360_1#1$1.png"
+    },
+    {
+        "id": 171,
+        "raw": "[name=\"Oracle\"](Unknown language) It's a shame the development of Originium isn't going very smoothly.",
+        "type": "dialog",
+        "speaker": "Oracle",
+        "content": "(Unknown language) It's a shame the development of Originium isn't going very smoothly."
+    },
+    {
+        "id": 172,
+        "raw": "[name=\"Oracle\"](Unknown language) We're venturing into uncharted territory here. It's hard for others to keep up with us.",
+        "type": "dialog",
+        "speaker": "Oracle",
+        "content": "(Unknown language) We're venturing into uncharted territory here. It's hard for others to keep up with us."
+    },
+    {
+        "id": 173,
+        "raw": "[name=\"Oracle\"](Unknown language) While I have been engrossed in debate with her more often than not lately, our experimental progress has slowed.",
+        "type": "dialog",
+        "speaker": "Oracle",
+        "content": "(Unknown language) While I have been engrossed in debate with her more often than not lately, our experimental progress has slowed."
+    },
+    {
+        "id": 174,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 175,
+        "raw": "[name=\"Primitive Construct\"](Vigorous consolation)",
+        "type": "dialog",
+        "speaker": "Primitive Construct",
+        "content": "(Vigorous consolation)"
+    },
+    {
+        "id": 176,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1360_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1360_1#1$1.png"
+    },
+    {
+        "id": 177,
+        "raw": "[name=\"Oracle\"](Unknown language) No need to worry about us. If this model's operational efficiency meets expectations, we might be able to cross the first hurdle on Originium's development.",
+        "type": "dialog",
+        "speaker": "Oracle",
+        "content": "(Unknown language) No need to worry about us. If this model's operational efficiency meets expectations, we might be able to cross the first hurdle on Originium's development."
+    },
+    {
+        "id": 178,
+        "raw": "[name=\"Oracle\"](Unknown language) Oh, right, Lu's sent us a message. There's been a rare breakthrough in the Caerula Arbor, and she'll be able to come visit us again soon.",
+        "type": "dialog",
+        "speaker": "Oracle",
+        "content": "(Unknown language) Oh, right, Lu's sent us a message. There's been a rare breakthrough in the Caerula Arbor, and she'll be able to come visit us again soon."
+    },
+    {
+        "id": 179,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 180,
+        "raw": "[name=\"Primitive Construct\"](Heartfelt joy)",
+        "type": "dialog",
+        "speaker": "Primitive Construct",
+        "content": "(Heartfelt joy)"
+    },
+    {
+        "id": 181,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1360_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1360_1#1$1.png"
+    },
+    {
+        "id": 182,
+        "raw": "[name=\"Oracle\"](Unknown language) Looks like you're very fond of her.",
+        "type": "dialog",
+        "speaker": "Oracle",
+        "content": "(Unknown language) Looks like you're very fond of her."
+    },
+    {
+        "id": 183,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 184,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 185,
+        "raw": "[Decision(options=\"Amiya, we need to note down those formulas!\", values=\"1\")]",
+        "type": "decision",
+        "options": "Amiya, we need to note down those formulas!",
+        "values": "1"
+    },
+    {
+        "id": 186,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 187,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 188,
+        "raw": "[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#6$2\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_1037_amiya3_1#6$2.png"
+    },
+    {
+        "id": 189,
+        "raw": "[name=\"Amiya\"]I'm trying—",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "I'm trying—"
+    },
+    {
+        "id": 190,
+        "raw": "[stopmusic(fadetime=1)]",
+        "type": "stop_music",
+        "fadetime": 1
+    },
+    {
+        "id": 191,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 192,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 193,
+        "raw": "[bgeffect(name=\"$eb_tvnoise\",layer=1)]",
+        "type": "bg_effect",
+        "name": "$eb_tvnoise",
+        "layer": 1
+    },
+    {
+        "id": 194,
+        "raw": "[CameraEffect(effect=\"Grayscale\", fadetime=2, keep=true, initamount=0, amount=0.4, block=true)]",
+        "type": "camera_effect",
+        "effect": "Grayscale",
+        "fadetime": "2,",
+        "keep": "true,",
+        "initamount": "0,",
+        "amount": "0.4,",
+        "block": true
+    },
+    {
+        "id": 195,
+        "raw": "[bgeffect]",
+        "type": "bg_effect"
+    },
+    {
+        "id": 196,
+        "raw": "[curtain(direction = 2,fillfrom = 0,fillto = 0.15, fadetime=2)]",
+        "type": "curtain",
+        "fadetime": 2
+    },
+    {
+        "id": 197,
+        "raw": "[curtain(direction = 6,fillfrom = 0,fillto = 0.15, fadetime=2)]",
+        "type": "curtain",
+        "fadetime": 2
+    },
+    {
+        "id": 198,
+        "raw": "[CameraShake(duration=2, xstrength=15, ystrength=15, vibrato=50, randomness=90, fadeout=true, block=true)]",
+        "type": "camera_shake",
+        "duration": "2,",
+        "xstrength": "15,",
+        "ystrength": "15,",
+        "vibrato": "50,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": true
+    },
+    {
+        "id": 199,
+        "raw": "[CameraShake(duration=-1, xstrength=2, ystrength=1, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "-1,",
+        "xstrength": "2,",
+        "ystrength": "1,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 200,
+        "raw": "[playMusic(intro=\"$snowmonster_intro\",key=\"$snowmonster_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/static/m_bat/m_bat_snowmonster_intro.mp3",
+        "key": "sound_beta_2/music/static/m_bat/m_bat_snowmonster_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 201,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 202,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 203,
+        "raw": "[Decision(options=\"What's happening?;Is the bridge's stability under attack?\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "What's happening?;Is the bridge's stability under attack?",
+        "values": "1;2"
+    },
+    {
+        "id": 204,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 205,
+        "raw": "[charslot(slot=\"m\",name=\"avg_1037_amiya3_1#6$2\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_1037_amiya3_1#6$2.png"
+    },
+    {
+        "id": 206,
+        "raw": "[name=\"Amiya\"]Theresa warned me about this. It's Civilight Eterna's baseline logic trying to eliminate loopholes!",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Theresa warned me about this. It's Civilight Eterna's baseline logic trying to eliminate loopholes!"
+    },
+    {
+        "id": 207,
+        "raw": "[name=\"Amiya\"]Because we're trying to transcribe information from outside the boundary.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Because we're trying to transcribe information from outside the boundary."
+    },
+    {
+        "id": 208,
+        "raw": "[name=\"Amiya\"]Doctor, I don't understand what the characters in these formulas mean—",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Doctor, I don't understand what the characters in these formulas mean—"
+    },
+    {
+        "id": 209,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 210,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 211,
+        "raw": "[Decision(options=\"Forget about understanding them!;We just need to record them down!;I'm memorizing them as best I can too!\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "Forget about understanding them!;We just need to record them down!;I'm memorizing them as best I can too!",
+        "values": "1;2;3"
+    },
+    {
+        "id": 212,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 213,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 214,
+        "raw": "[CameraEffect(effect=\"Grayscale\", fadetime=2, keep=true, initamount=0, amount=0.8)]",
+        "type": "camera_effect",
+        "effect": "Grayscale",
+        "fadetime": "2,",
+        "keep": "true,",
+        "initamount": "0,",
+        "amount": 0.8
+    },
+    {
+        "id": 215,
+        "raw": "[bgeffect(name=\"$eb_tvnoise\",layer=1)]",
+        "type": "bg_effect",
+        "name": "$eb_tvnoise",
+        "layer": 1
+    },
+    {
+        "id": 216,
+        "raw": "[curtain(direction = 2,fillfrom = 0.15,fillto = 0.25, fadetime=2)]",
+        "type": "curtain",
+        "fadetime": 2
+    },
+    {
+        "id": 217,
+        "raw": "[curtain(direction = 6,fillfrom = 0.15,fillto = 0.25, fadetime=2)]",
+        "type": "curtain",
+        "fadetime": 2
+    },
+    {
+        "id": 218,
+        "raw": "[CameraShake(duration=2, xstrength=15, ystrength=15, vibrato=50, randomness=90, fadeout=true, block=true)]",
+        "type": "camera_shake",
+        "duration": "2,",
+        "xstrength": "15,",
+        "ystrength": "15,",
+        "vibrato": "50,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": true
+    },
+    {
+        "id": 219,
+        "raw": "[CameraShake(duration=-1, xstrength=2, ystrength=1, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "-1,",
+        "xstrength": "2,",
+        "ystrength": "1,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 220,
+        "raw": "The information of the boundary begins to reorganize. The loophole is being repaired, and the scene you are witnessing begins to rapidly fade away.",
+        "type": "narration",
+        "content": "The information of the boundary begins to reorganize. The loophole is being repaired, and the scene you are witnessing begins to rapidly fade away."
+    },
+    {
+        "id": 221,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1360_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1360_1#1$1.png"
+    },
+    {
+        "id": 222,
+        "raw": "[name=\"Oracle\"](Unknown language) I've foreseen it, AMa-10. This model she and I developed together will succeed.",
+        "type": "dialog",
+        "speaker": "Oracle",
+        "content": "(Unknown language) I've foreseen it, AMa-10. This model she and I developed together will succeed."
+    },
+    {
+        "id": 223,
+        "raw": "[name=\"Oracle\"](Unknown language) I look forward to the day that language's creation is truly complete—",
+        "type": "dialog",
+        "speaker": "Oracle",
+        "content": "(Unknown language) I look forward to the day that language's creation is truly complete—"
+    },
+    {
+        "id": 224,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 225,
+        "raw": "[name=\"Primitive Construct\"](Kindly reminder)",
+        "type": "dialog",
+        "speaker": "Primitive Construct",
+        "content": "(Kindly reminder)"
+    },
+    {
+        "id": 226,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1360_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1360_1#1$1.png"
+    },
+    {
+        "id": 227,
+        "raw": "[name=\"Oracle\"](Unknown language) DWDB-221E's synchronization is still underway? *sigh* I know that. It's not like I forgot myself, right?",
+        "type": "dialog",
+        "speaker": "Oracle",
+        "content": "(Unknown language) DWDB-221E's synchronization is still underway? *sigh* I know that. It's not like I forgot myself, right?"
+    },
+    {
+        "id": 228,
+        "raw": "[charslot(slot=\"m\",afrom=1,ato=0.5,duration=1)]",
+        "type": "charslot",
+        "slot": "m",
+        "afrom": "1,ato=0.5,duration=1"
+    },
+    {
+        "id": 229,
+        "raw": "The speaker starts to fade away as well.",
+        "type": "narration",
+        "content": "The speaker starts to fade away as well."
+    },
+    {
+        "id": 230,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1360_1#1$1\",afrom=0.5,ato=0.5)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1360_1#1$1.png",
+        "afrom": "0.5,ato=0.5"
+    },
+    {
+        "id": 231,
+        "raw": "[name=\"Oracle\"](Whispering in unknown language) No matter where in this vast universe you came from, I bid you to witness the beacons we left behind, remnants of a civilization now gone to eternal rest.",
+        "type": "dialog",
+        "speaker": "Oracle",
+        "content": "(Whispering in unknown language) No matter where in this vast universe you came from, I bid you to witness the beacons we left behind, remnants of a civilization now gone to eternal rest."
+    },
+    {
+        "id": 232,
+        "raw": "[name=\"Oracle\"](Whispering in unknown language) Perhaps it will be our blessing... and the final gift of hope.",
+        "type": "dialog",
+        "speaker": "Oracle",
+        "content": "(Whispering in unknown language) Perhaps it will be our blessing... and the final gift of hope."
+    },
+    {
+        "id": 233,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 234,
+        "raw": "You begin to feel like that person is... looking right at you?",
+        "type": "narration",
+        "content": "You begin to feel like that person is... looking right at you?"
+    },
+    {
+        "id": 235,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 236,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 237,
+        "raw": "[Decision(options=\"...?!\", values=\"1\")]",
+        "type": "decision",
+        "options": "...?!",
+        "values": "1"
+    },
+    {
+        "id": 238,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 239,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 240,
+        "raw": "[name=\"Primitive Construct\"](Anxious murmuring)",
+        "type": "dialog",
+        "speaker": "Primitive Construct",
+        "content": "(Anxious murmuring)"
+    },
+    {
+        "id": 241,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1360_1#1$1\",afrom=0.5,ato=0.5)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1360_1#1$1.png",
+        "afrom": "0.5,ato=0.5"
+    },
+    {
+        "id": 242,
+        "raw": "[name=\"Oracle\"](Unknown language) ...We will see it come to be, AMa-10. I believe it so.",
+        "type": "dialog",
+        "speaker": "Oracle",
+        "content": "(Unknown language) ...We will see it come to be, AMa-10. I believe it so."
+    },
+    {
+        "id": 243,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 244,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 245,
+        "raw": "[curtain(direction = 2,fillfrom = 0.25,fillto = 0.35, fadetime=2)]",
+        "type": "curtain",
+        "fadetime": 2
+    },
+    {
+        "id": 246,
+        "raw": "[curtain(direction = 6,fillfrom = 0.25,fillto = 0.35, fadetime=2)]",
+        "type": "curtain",
+        "fadetime": 2
+    },
+    {
+        "id": 247,
+        "raw": "[CameraShake(duration=2, xstrength=15, ystrength=15, vibrato=50, randomness=90, fadeout=true, block=true)]",
+        "type": "camera_shake",
+        "duration": "2,",
+        "xstrength": "15,",
+        "ystrength": "15,",
+        "vibrato": "50,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": true
+    },
+    {
+        "id": 248,
+        "raw": "[CameraShake(duration=-1, xstrength=2, ystrength=1, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "-1,",
+        "xstrength": "2,",
+        "ystrength": "1,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 249,
+        "raw": "[name=\"Amiya\"]The formulas are beginning to vanish!",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "The formulas are beginning to vanish!"
+    },
+    {
+        "id": 250,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 251,
+        "raw": "[Decision(options=\"Retreat, while we still have the bridge.\", values=\"1\")]",
+        "type": "decision",
+        "options": "Retreat, while we still have the bridge.",
+        "values": "1"
+    },
+    {
+        "id": 252,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 253,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 254,
+        "raw": "[name=\"Amiya\"]But I haven't—",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "But I haven't—"
+    },
+    {
+        "id": 255,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 256,
+        "raw": "[Decision(options=\"You still have me!;We can reconstruct them together.\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "You still have me!;We can reconstruct them together.",
+        "values": "1;2"
+    },
+    {
+        "id": 257,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 258,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 259,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 260,
+        "raw": "[curtain(direction = 2,fillfrom = 0.35,fillto = 1, fadetime=1)]",
+        "type": "curtain",
+        "fadetime": 1
+    },
+    {
+        "id": 261,
+        "raw": "[curtain(direction = 6,fillfrom = 0.35,fillto = 1, fadetime=1)]",
+        "type": "curtain",
+        "fadetime": 1
+    },
+    {
+        "id": 262,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 263,
+        "raw": "[CameraShake(duration=3, xstrength=15, ystrength=15, vibrato=50, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "3,",
+        "xstrength": "15,",
+        "ystrength": "15,",
+        "vibrato": "50,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 264,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 265,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 266,
+        "raw": "[curtain]",
+        "type": "curtain"
+    },
+    {
+        "id": 267,
+        "raw": "[Delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 268,
+        "raw": "[bgeffect]",
+        "type": "bg_effect"
+    },
+    {
+        "id": 269,
+        "raw": "[CameraEffect(effect=\"Grayscale\", fadetime=0, amount=0, block=true)]",
+        "type": "camera_effect",
+        "effect": "Grayscale",
+        "fadetime": "0,",
+        "amount": "0,",
+        "block": true
+    },
+    {
+        "id": 270,
+        "raw": "[Background(image=\"bg_white\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_white.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 271,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 272,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 273,
+        "raw": "A massive attack strikes your thoughts, and you sense yourself falling.",
+        "type": "narration",
+        "content": "A massive attack strikes your thoughts, and you sense yourself falling."
+    },
+    {
+        "id": 274,
+        "raw": "The last act of consciousness you remember is keeping Amiya as far as possible from the singularity, and that familiar figure—",
+        "type": "narration",
+        "content": "The last act of consciousness you remember is keeping Amiya as far as possible from the singularity, and that familiar figure—"
+    },
+    {
+        "id": 275,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 276,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4134_cetsyr_1#1$1\",duration=1)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4134_cetsyr_1#1$1.png",
+        "duration": 1
+    },
+    {
+        "id": 277,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 278,
+        "raw": "[name=\"Civilight Eterna\"]Thank you for bringing Amiya back here. Now...",
+        "type": "dialog",
+        "speaker": "Civilight Eterna",
+        "content": "Thank you for bringing Amiya back here. Now..."
+    },
+    {
+        "id": 279,
+        "raw": "[name=\"Civilight Eterna\"]Leave.",
+        "type": "dialog",
+        "speaker": "Civilight Eterna",
+        "content": "Leave."
+    },
+    {
+        "id": 280,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 281,
+        "raw": "It is at this moment that the mental link between you and Amiya breaks. Your mind is so exhausted you do not remember anything that happened afterwards.",
+        "type": "narration",
+        "content": "It is at this moment that the mental link between you and Amiya breaks. Your mind is so exhausted you do not remember anything that happened afterwards."
+    },
+    {
+        "id": 282,
+        "raw": "The two of you leave Civilight Eterna.",
+        "type": "narration",
+        "content": "The two of you leave Civilight Eterna."
+    },
+    {
+        "id": 283,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 284,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 285,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 286,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 287,
+        "raw": "[Background(image=\"60_g1_rhodescorridor_bc\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "60_g1_rhodescorridor_bc.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 288,
+        "raw": "The information erupting from the singularity does not cease, and among the flow, there is an insignificant scene that has never been accessed since the day of its recording—",
+        "type": "narration",
+        "content": "The information erupting from the singularity does not cease, and among the flow, there is an insignificant scene that has never been accessed since the day of its recording—"
+    },
+    {
+        "id": 289,
+        "raw": "In the quiet of space, a ray of light illuminates a field of stars, bringing with it darkness and a despair beyond doubt.",
+        "type": "narration",
+        "content": "In the quiet of space, a ray of light illuminates a field of stars, bringing with it darkness and a despair beyond doubt."
+    },
+    {
+        "id": 290,
+        "raw": "When sensors tens of thousands of light-years away receive the image of this starfield from the distant past, the planets that these stars shed their light upon are already filled with graveyards and ruins.",
+        "type": "narration",
+        "content": "When sensors tens of thousands of light-years away receive the image of this starfield from the distant past, the planets that these stars shed their light upon are already filled with graveyards and ruins."
+    },
+    {
+        "id": 291,
+        "raw": "It has come.",
+        "type": "narration",
+        "content": "It has come."
+    },
+    {
+        "id": 292,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 293,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 294,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 295,
+        "raw": "[playMusic(intro=\"$newhope01_intro\",key=\"$newhope01_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta3_181101/m_dia_newhope01_intro.mp3",
+        "key": "sound_beta_2/music/beta3_181101/m_dia_newhope01_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 296,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 297,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1725_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1725_1#1$1.png"
+    },
+    {
+        "id": 298,
+        "raw": "[name=\"Raydistorter\"]♫~♫~",
+        "type": "dialog",
+        "speaker": "Raydistorter",
+        "content": "♫~♫~"
+    },
+    {
+        "id": 299,
+        "raw": "[name=\"Raydistorter\"]Did the Presence tell you to use these words to defend her?",
+        "type": "dialog",
+        "speaker": "Raydistorter",
+        "content": "Did the Presence tell you to use these words to defend her?"
+    },
+    {
+        "id": 300,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1719_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1719_1#1$1.png"
+    },
+    {
+        "id": 301,
+        "raw": "[name=\"Hierda\"]No, she never asked me to do such a thing when she left.",
+        "type": "dialog",
+        "speaker": "Hierda",
+        "content": "No, she never asked me to do such a thing when she left."
+    },
+    {
+        "id": 302,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1725_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1725_1#1$1.png"
+    },
+    {
+        "id": 303,
+        "raw": "[name=\"Raydistorter\"]Then keep your wits around her. Don't let her confuse you.",
+        "type": "dialog",
+        "speaker": "Raydistorter",
+        "content": "Then keep your wits around her. Don't let her confuse you."
+    },
+    {
+        "id": 304,
+        "raw": "[name=\"Raydistorter\"]...Because if you let down your guard thanks to her charm, she might put you in danger. That's how her people hunt. It's their instinct.",
+        "type": "dialog",
+        "speaker": "Raydistorter",
+        "content": "...Because if you let down your guard thanks to her charm, she might put you in danger. That's how her people hunt. It's their instinct."
+    },
+    {
+        "id": 305,
+        "raw": "[name=\"Raydistorter\"]As for the person you're looking for, Priestess, the master of the ship...",
+        "type": "dialog",
+        "speaker": "Raydistorter",
+        "content": "As for the person you're looking for, Priestess, the master of the ship..."
+    },
+    {
+        "id": 306,
+        "raw": "[name=\"Raydistorter\"]She's doing some important research right now. I'm afraid her consciousness is shuttling back and forth between various research locations in this starfield.",
+        "type": "dialog",
+        "speaker": "Raydistorter",
+        "content": "She's doing some important research right now. I'm afraid her consciousness is shuttling back and forth between various research locations in this starfield."
+    },
+    {
+        "id": 307,
+        "raw": "[name=\"Raydistorter\"]It'll be very hard for you to have a moment with her if she's not willing.",
+        "type": "dialog",
+        "speaker": "Raydistorter",
+        "content": "It'll be very hard for you to have a moment with her if she's not willing."
+    },
+    {
+        "id": 308,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1719_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1719_1#1$1.png"
+    },
+    {
+        "id": 309,
+        "raw": "[name=\"Hierda\"]......",
+        "type": "dialog",
+        "speaker": "Hierda",
+        "content": "......"
+    },
+    {
+        "id": 310,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1725_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1725_1#1$1.png"
+    },
+    {
+        "id": 311,
+        "raw": "[name=\"Raydistorter\"]Hierda, are you so desperate to find her because you want to thank the person who rescued you?",
+        "type": "dialog",
+        "speaker": "Raydistorter",
+        "content": "Hierda, are you so desperate to find her because you want to thank the person who rescued you?"
+    },
+    {
+        "id": 312,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1719_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1719_1#1$1.png"
+    },
+    {
+        "id": 313,
+        "raw": "[name=\"Hierda\"]Not exactly.",
+        "type": "dialog",
+        "speaker": "Hierda",
+        "content": "Not exactly."
+    },
+    {
+        "id": 314,
+        "raw": "[name=\"Hierda\"]I understand that I'm in some fantastical place called the 'universe', and it's not the afterlife, either...",
+        "type": "dialog",
+        "speaker": "Hierda",
+        "content": "I understand that I'm in some fantastical place called the 'universe', and it's not the afterlife, either..."
+    },
+    {
+        "id": 315,
+        "raw": "[name=\"Hierda\"]I even have a wild guess that my home of Terra might be somewhere out there in this universe.",
+        "type": "dialog",
+        "speaker": "Hierda",
+        "content": "I even have a wild guess that my home of Terra might be somewhere out there in this universe."
+    },
+    {
+        "id": 316,
+        "raw": "[name=\"Hierda\"]But the more I know, the more questions I have. I want to ask her—",
+        "type": "dialog",
+        "speaker": "Hierda",
+        "content": "But the more I know, the more questions I have. I want to ask her—"
+    },
+    {
+        "id": 317,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1719_1#10$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1719_1#10$1.png"
+    },
+    {
+        "id": 318,
+        "raw": "[name=\"Hierda\"]Why am I not dead?",
+        "type": "dialog",
+        "speaker": "Hierda",
+        "content": "Why am I not dead?"
+    },
+    {
+        "id": 319,
+        "raw": "[name=\"Hierda\"]Where exactly is my home, Terra?",
+        "type": "dialog",
+        "speaker": "Hierda",
+        "content": "Where exactly is my home, Terra?"
+    },
+    {
+        "id": 320,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 321,
+        "raw": "The Cautus looks out through the porthole at the stars in frustration.",
+        "type": "narration",
+        "content": "The Cautus looks out through the porthole at the stars in frustration."
+    },
+    {
+        "id": 322,
+        "raw": "Perhaps it is because her bishop and the rest of her fellow churchgoers are still praying for her back in her land, but she has no way to respond.",
+        "type": "narration",
+        "content": "Perhaps it is because her bishop and the rest of her fellow churchgoers are still praying for her back in her land, but she has no way to respond."
+    },
+    {
+        "id": 323,
+        "raw": "She curls up against the wall, allowing the light of the stars to quickly sweep across her face.",
+        "type": "narration",
+        "content": "She curls up against the wall, allowing the light of the stars to quickly sweep across her face."
+    },
+    {
+        "id": 324,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1719_1#10$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1719_1#10$1.png"
+    },
+    {
+        "id": 325,
+        "raw": "[name=\"Hierda\"]It turns out you can see time passing by with your own eyes.",
+        "type": "dialog",
+        "speaker": "Hierda",
+        "content": "It turns out you can see time passing by with your own eyes."
+    },
+    {
+        "id": 326,
+        "raw": "[charslot(duration=1)]",
+        "type": "charslot",
+        "duration": 1
+    },
+    {
+        "id": 327,
+        "raw": "She has met many people aboard this ship. No matter if they were the respected, hooded genius tucked away in the lab, or the wanderer of the universe who had survived ruination...",
+        "type": "narration",
+        "content": "She has met many people aboard this ship. No matter if they were the respected, hooded genius tucked away in the lab, or the wanderer of the universe who had survived ruination..."
+    },
+    {
+        "id": 328,
+        "raw": "Their optimism and kindness have dispelled her initial fear, but she knows that she will never truly be one of the crew of this miraculous ship.",
+        "type": "narration",
+        "content": "Their optimism and kindness have dispelled her initial fear, but she knows that she will never truly be one of the crew of this miraculous ship."
+    },
+    {
+        "id": 329,
+        "raw": "'I miss Terra already.'",
+        "type": "narration",
+        "content": "'I miss Terra already.'"
+    },
+    {
+        "id": 330,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 331,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 332,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 333,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 334,
+        "raw": "[Image]",
+        "type": "image"
+    },
+    {
+        "id": 335,
+        "raw": "[charslot]",
+        "type": "charslot"
+    }
+]

@@ -1,0 +1,2268 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")] ",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK"
+    },
+    {
+        "id": 2,
+        "raw": "[stopmusic]",
+        "type": "stop_music"
+    },
+    {
+        "id": 3,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 4,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 5,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 6,
+        "raw": "[Blocker(fadetime=1,block=true)]",
+        "type": "blocker",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 7,
+        "raw": "[PlaySound(key=\"$e_skill_skulsrsword\", volume=0.9)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_skill/e_skill_skulsrsword.mp3",
+        "volume": 0.9
+    },
+    {
+        "id": 8,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 9,
+        "raw": "Bloodied. Torn. Pierced.",
+        "type": "narration",
+        "content": "Bloodied. Torn. Pierced."
+    },
+    {
+        "id": 10,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 11,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 12,
+        "raw": "[Decision(options=\"This isn't right.\", values=\"1\")]",
+        "type": "decision",
+        "options": "This isn't right.",
+        "values": "1"
+    },
+    {
+        "id": 13,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 14,
+        "raw": "[PlaySound(key=\"$e_skill_skulsrsword\", volume=0.9)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_skill/e_skill_skulsrsword.mp3",
+        "volume": 0.9
+    },
+    {
+        "id": 15,
+        "raw": "[delay(time=0.6)]",
+        "type": "delay",
+        "time": 0.6
+    },
+    {
+        "id": 16,
+        "raw": "Us. Enemies. People.",
+        "type": "narration",
+        "content": "Us. Enemies. People."
+    },
+    {
+        "id": 17,
+        "raw": "Wailing, screaming, groaning.",
+        "type": "narration",
+        "content": "Wailing, screaming, groaning."
+    },
+    {
+        "id": 18,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 19,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 20,
+        "raw": "[Background(image=\"bg_cherunder\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_cherunder.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 21,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 22,
+        "raw": "[playMusic(intro=\"$plot_intro\", key=\"$plot_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act9d0d0/m_avg_plot_intro.mp3",
+        "key": "sound_beta_2/music/act9d0d0/m_avg_plot_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 23,
+        "raw": "[Decision(options=\"This isn't right!;......!;I can't take this anymore.\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "This isn't right!;......!;I can't take this anymore.",
+        "values": "1;2;3"
+    },
+    {
+        "id": 24,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 25,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 26,
+        "raw": "[name=\"Kal'tsit\"]  ......",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "......"
+    },
+    {
+        "id": 27,
+        "raw": "[name=\"Kal'tsit\"]  You have a question. Ask.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "You have a question. Ask."
+    },
+    {
+        "id": 28,
+        "raw": "[Character(name=\"avg_npc_012\")]",
+        "type": "character",
+        "name": "avg_npc_012"
+    },
+    {
+        "id": 29,
+        "raw": "[name=\"Rhodes Island Operator\"]  Doctor... is this your first time seeing Rosmontis fight?",
+        "type": "dialog",
+        "speaker": "Rhodes Island Operator",
+        "content": "Doctor... is this your first time seeing Rosmontis fight?"
+    },
+    {
+        "id": 30,
+        "raw": "[name=\"Rhodes Island Operator\"]  I know it's hard to watch, but—",
+        "type": "dialog",
+        "speaker": "Rhodes Island Operator",
+        "content": "I know it's hard to watch, but—"
+    },
+    {
+        "id": 31,
+        "raw": "[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_012\",focus=1)]",
+        "type": "character",
+        "name": "char_003_kalts_1",
+        "name2": "avg_npc_012",
+        "focus": 1
+    },
+    {
+        "id": 32,
+        "raw": "[name=\"Kal'tsit\"]  I'll handle it. You go tend to the wounded enemies who can't fight anymore. Also, among them are communications personnel relaying orders and intelligence.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "I'll handle it. You go tend to the wounded enemies who can't fight anymore. Also, among them are communications personnel relaying orders and intelligence."
+    },
+    {
+        "id": 33,
+        "raw": "[name=\"Kal'tsit\"]  If they're allowed to escape, it puts our whole operation at risk.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "If they're allowed to escape, it puts our whole operation at risk."
+    },
+    {
+        "id": 34,
+        "raw": "[Character(name=\"char_003_kalts_1\",name2=\"avg_npc_012\",focus=2)]",
+        "type": "character",
+        "name": "char_003_kalts_1",
+        "name2": "avg_npc_012",
+        "focus": 2
+    },
+    {
+        "id": 35,
+        "raw": "[name=\"Rhodes Island Operator\"]  ...Roger.",
+        "type": "dialog",
+        "speaker": "Rhodes Island Operator",
+        "content": "...Roger."
+    },
+    {
+        "id": 36,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 37,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 38,
+        "raw": "[Decision(options=\"How old is she? \", values=\"1\")]",
+        "type": "decision",
+        "options": "How old is she? ",
+        "values": "1"
+    },
+    {
+        "id": 39,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 40,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 41,
+        "raw": "[name=\"Kal'tsit\"]  Fourteen.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Fourteen."
+    },
+    {
+        "id": 42,
+        "raw": "[Decision(options=\"And you're letting her...?!\", values=\"1\")]",
+        "type": "decision",
+        "options": "And you're letting her...?!",
+        "values": "1"
+    },
+    {
+        "id": 43,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 44,
+        "raw": "[Character(name=\"char_002_amiya_1\")]",
+        "type": "character",
+        "name": "char_002_amiya_1"
+    },
+    {
+        "id": 45,
+        "raw": "[name=\"Amiya\"]  People, please... let me through!",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "People, please... let me through!"
+    },
+    {
+        "id": 46,
+        "raw": "[name=\"Amiya\"]  What happened here? I just finished handling the...",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "What happened here? I just finished handling the..."
+    },
+    {
+        "id": 47,
+        "raw": "[name=\"Amiya\"]  Doctor?",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Doctor?"
+    },
+    {
+        "id": 48,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 49,
+        "raw": "[name=\"Rosmontis\"]  ...What?",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "...What?"
+    },
+    {
+        "id": 50,
+        "raw": "[name=\"Rosmontis\"]  Doctor, did you just call me?",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "Doctor, did you just call me?"
+    },
+    {
+        "id": 51,
+        "raw": "[Decision(options=\"Who sent you out to fight?\", values=\"1\")]",
+        "type": "decision",
+        "options": "Who sent you out to fight?",
+        "values": "1"
+    },
+    {
+        "id": 52,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 53,
+        "raw": "[Character(name=\"char_002_amiya_1\")]",
+        "type": "character",
+        "name": "char_002_amiya_1"
+    },
+    {
+        "id": 54,
+        "raw": "[name=\"Amiya\"]  ......",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "......"
+    },
+    {
+        "id": 55,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 56,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 57,
+        "raw": "[Decision(options=\"Who sent you here?!\", values=\"1\")]",
+        "type": "decision",
+        "options": "Who sent you here?!",
+        "values": "1"
+    },
+    {
+        "id": 58,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 59,
+        "raw": "[Character(name=\"char_002_amiya_1#4\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#4"
+    },
+    {
+        "id": 60,
+        "raw": "[name=\"Amiya\"]  Doctor!",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Doctor!"
+    },
+    {
+        "id": 61,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 62,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 63,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 64,
+        "raw": "[Decision(options=\"This is too cruel!;...This is terrible...;You should not have to suffer through this.\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "This is too cruel!;...This is terrible...;You should not have to suffer through this.",
+        "values": "1;2;3"
+    },
+    {
+        "id": 65,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 66,
+        "raw": "[Decision(options=\"...Why would they let you do this?\", values=\"1\")]",
+        "type": "decision",
+        "options": "...Why would they let you do this?",
+        "values": "1"
+    },
+    {
+        "id": 67,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 68,
+        "raw": "[Decision(options=\"Kal'tsit!;......!;This isn't right.\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "Kal'tsit!;......!;This isn't right.",
+        "values": "1;2;3"
+    },
+    {
+        "id": 69,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 70,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 71,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 72,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 73,
+        "raw": "[name=\"Rosmontis\"]  I did.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "I did."
+    },
+    {
+        "id": 74,
+        "raw": "[Decision(options=\"What are you talking about?;......;You did what...?\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "What are you talking about?;......;You did what...?",
+        "values": "1;2;3"
+    },
+    {
+        "id": 75,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 76,
+        "raw": "[name=\"Rosmontis\"]  I did. I chose to fight. I want to fight.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "I did. I chose to fight. I want to fight."
+    },
+    {
+        "id": 77,
+        "raw": "[name=\"Rosmontis\"]  There are some feelings I can only experience on the battlefield.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "There are some feelings I can only experience on the battlefield."
+    },
+    {
+        "id": 78,
+        "raw": "[name=\"Rosmontis\"]  Protecting my friends and family is the only way I can feel complete.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "Protecting my friends and family is the only way I can feel complete."
+    },
+    {
+        "id": 79,
+        "raw": "[name=\"Rosmontis\"]  ...Rhodes Island needs me.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "...Rhodes Island needs me."
+    },
+    {
+        "id": 80,
+        "raw": "[name=\"Rosmontis\"]  The world is calling my name, to prevent more people like me from coming into it.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "The world is calling my name, to prevent more people like me from coming into it."
+    },
+    {
+        "id": 81,
+        "raw": "[Decision(options=\"Still though, you can't...\", values=\"1\")]",
+        "type": "decision",
+        "options": "Still though, you can't...",
+        "values": "1"
+    },
+    {
+        "id": 82,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 83,
+        "raw": "[Decision(options=\"You can't—\", values=\"1\")]",
+        "type": "decision",
+        "options": "You can't—",
+        "values": "1"
+    },
+    {
+        "id": 84,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 85,
+        "raw": "[name=\"Rosmontis\"]  ...Does death care that I am a child?",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "...Does death care that I am a child?"
+    },
+    {
+        "id": 86,
+        "raw": "[name=\"Rosmontis\"]  Would war or disease spare someone because they are a child?",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "Would war or disease spare someone because they are a child?"
+    },
+    {
+        "id": 87,
+        "raw": "[name=\"Rosmontis\"]  When Amiya or I stand on the battlefield... who looks at us and thinks 'children?'",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "When Amiya or I stand on the battlefield... who looks at us and thinks 'children?'"
+    },
+    {
+        "id": 88,
+        "raw": "[name=\"Rosmontis\"]  We're 'monsters,' aren't we, Doctor?",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "We're 'monsters,' aren't we, Doctor?"
+    },
+    {
+        "id": 89,
+        "raw": "[Decision(options=\"No!;......;That's just how you see yourself.\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "No!;......;That's just how you see yourself.",
+        "values": "1;2;3"
+    },
+    {
+        "id": 90,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 91,
+        "raw": "[name=\"Rosmontis\"]  No, Doctor.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "No, Doctor."
+    },
+    {
+        "id": 92,
+        "raw": "[name=\"Rosmontis\"]  No, Dr. {@nickname}.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "No, Dr. {@nickname}."
+    },
+    {
+        "id": 93,
+        "raw": "[name=\"Rosmontis\"]  It doesn't matter what I am.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "It doesn't matter what I am."
+    },
+    {
+        "id": 94,
+        "raw": "[name=\"Rosmontis\"]  I just want to make a difference, with my family.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "I just want to make a difference, with my family."
+    },
+    {
+        "id": 95,
+        "raw": "[name=\"Rosmontis\"]  Do you know Scout?",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "Do you know Scout?"
+    },
+    {
+        "id": 96,
+        "raw": "[Decision(options=\"What...?\", values=\"1\")]",
+        "type": "decision",
+        "options": "What...?",
+        "values": "1"
+    },
+    {
+        "id": 97,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 98,
+        "raw": "[name=\"Rosmontis\"]  ...Do you know Ace?",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "...Do you know Ace?"
+    },
+    {
+        "id": 99,
+        "raw": "[Decision(options=\"Yes.\", values=\"1\")]",
+        "type": "decision",
+        "options": "Yes.",
+        "values": "1"
+    },
+    {
+        "id": 100,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 101,
+        "raw": "[name=\"Rosmontis\"]  ..It's already been a few days since I watched any of their materials.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "..It's already been a few days since I watched any of their materials."
+    },
+    {
+        "id": 102,
+        "raw": "[name=\"Rosmontis\"]  I've forgotten a lot.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "I've forgotten a lot."
+    },
+    {
+        "id": 103,
+        "raw": "[name=\"Rosmontis\"]  But I only forgot. I'm not like you, Doctor, who threw away everything.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "But I only forgot. I'm not like you, Doctor, who threw away everything."
+    },
+    {
+        "id": 104,
+        "raw": "[Character(name=\"avg_npc_042\",name2=\"char_002_amiya_1#4\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_042",
+        "name2": "char_002_amiya_1#4",
+        "focus": 2
+    },
+    {
+        "id": 105,
+        "raw": "[name=\"Amiya\"]  Rosmontis.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Rosmontis."
+    },
+    {
+        "id": 106,
+        "raw": "[Character(name=\"avg_npc_042\",name2=\"char_002_amiya_1#4\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_042",
+        "name2": "char_002_amiya_1#4",
+        "focus": 1
+    },
+    {
+        "id": 107,
+        "raw": "[name=\"Rosmontis\"]  No, I didn't mean that. But you get it, Amiya.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "No, I didn't mean that. But you get it, Amiya."
+    },
+    {
+        "id": 108,
+        "raw": "[Character(name=\"avg_npc_042\",name2=\"char_002_amiya_1#4\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_042",
+        "name2": "char_002_amiya_1#4",
+        "focus": 2
+    },
+    {
+        "id": 109,
+        "raw": "[name=\"Amiya\"]  ...I get it. But just... don't say it like that.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "...I get it. But just... don't say it like that."
+    },
+    {
+        "id": 110,
+        "raw": "[Character(name=\"avg_npc_042\",name2=\"char_002_amiya_1#4\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_042",
+        "name2": "char_002_amiya_1#4",
+        "focus": 1
+    },
+    {
+        "id": 111,
+        "raw": "[name=\"Rosmontis\"]  Mm... Fine.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "Mm... Fine."
+    },
+    {
+        "id": 112,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 113,
+        "raw": "[name=\"Rosmontis\"]  I've lost bits and pieces of things. Lots of pictures and words.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "I've lost bits and pieces of things. Lots of pictures and words."
+    },
+    {
+        "id": 114,
+        "raw": "[name=\"Rosmontis\"]  Those feelings... feelings I can't say, only Amiya can understand...",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "Those feelings... feelings I can't say, only Amiya can understand..."
+    },
+    {
+        "id": 115,
+        "raw": "[name=\"Rosmontis\"]  But they never truly left me.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "But they never truly left me."
+    },
+    {
+        "id": 116,
+        "raw": "[Decision(options=\"......\", values=\"1\")]",
+        "type": "decision",
+        "options": "......",
+        "values": "1"
+    },
+    {
+        "id": 117,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 118,
+        "raw": "[name=\"Rosmontis\"]  Doctor... I feel like you're complicated.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "Doctor... I feel like you're complicated."
+    },
+    {
+        "id": 119,
+        "raw": "[name=\"Rosmontis\"]  Even more complicated than they say.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "Even more complicated than they say."
+    },
+    {
+        "id": 120,
+        "raw": "[name=\"Rosmontis\"]  They say I'm complicated too. Some of them are scared of me. Some of them say I shouldn't be like this.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "They say I'm complicated too. Some of them are scared of me. Some of them say I shouldn't be like this."
+    },
+    {
+        "id": 121,
+        "raw": "[name=\"Rosmontis\"]  But they don't know why I'm like this. They don't know what I've been through.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "But they don't know why I'm like this. They don't know what I've been through."
+    },
+    {
+        "id": 122,
+        "raw": "[name=\"Rosmontis\"]  Why does my heart suddenly ache? Why do I want to cry, now of all times?",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "Why does my heart suddenly ache? Why do I want to cry, now of all times?"
+    },
+    {
+        "id": 123,
+        "raw": "[name=\"Rosmontis\"]  Even though I can't remember anything... why are my eyes still sore? Why are my lips dry?",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "Even though I can't remember anything... why are my eyes still sore? Why are my lips dry?"
+    },
+    {
+        "id": 124,
+        "raw": "[name=\"Rosmontis\"]  Who left a stain in the corridor, and why hasn't it been cleaned? Why do I feel worried when I break a vase, but also strangely happy?",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "Who left a stain in the corridor, and why hasn't it been cleaned? Why do I feel worried when I break a vase, but also strangely happy?"
+    },
+    {
+        "id": 125,
+        "raw": "[name=\"Rosmontis\"]  Why do I feel disgust from looking at flowers, but wonder from looking at bugs?",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "Why do I feel disgust from looking at flowers, but wonder from looking at bugs?"
+    },
+    {
+        "id": 126,
+        "raw": "[name=\"Rosmontis\"]  What happened during all that time I can no longer remember? Why do these emotions keep welling up within me?",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "What happened during all that time I can no longer remember? Why do these emotions keep welling up within me?"
+    },
+    {
+        "id": 127,
+        "raw": "[name=\"Rosmontis\"]  Every operator I feel has their own unique differences.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "Every operator I feel has their own unique differences."
+    },
+    {
+        "id": 128,
+        "raw": "[name=\"Rosmontis\"]  And when I lose them, those feelings also disappear.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "And when I lose them, those feelings also disappear."
+    },
+    {
+        "id": 129,
+        "raw": "[name=\"Rosmontis\"]  But why...? Why do we even have emotions?",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "But why...? Why do we even have emotions?"
+    },
+    {
+        "id": 130,
+        "raw": "[name=\"Rosmontis\"]  Why do my tears keep flowing even when I can't even feel anymore?",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "Why do my tears keep flowing even when I can't even feel anymore?"
+    },
+    {
+        "id": 131,
+        "raw": "[name=\"Rosmontis\"]  Didn't I already forget everything?",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "Didn't I already forget everything?"
+    },
+    {
+        "id": 132,
+        "raw": "[Character(name=\"char_002_amiya_1#4\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#4"
+    },
+    {
+        "id": 133,
+        "raw": "[name=\"Amiya\"]  ......",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "......"
+    },
+    {
+        "id": 134,
+        "raw": "[name=\"Amiya\"]  But Rosmontis never wanted me to take her feelings away.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "But Rosmontis never wanted me to take her feelings away."
+    },
+    {
+        "id": 135,
+        "raw": "[name=\"Amiya\"]  These sudden surges of emotion belong to her, no matter what they are.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "These sudden surges of emotion belong to her, no matter what they are."
+    },
+    {
+        "id": 136,
+        "raw": "[name=\"Amiya\"]  ...They belong only to Rosmontis.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "...They belong only to Rosmontis."
+    },
+    {
+        "id": 137,
+        "raw": "[name=\"Amiya\"]  I can't interfere with them. As long as Rosmontis still has hope somewhere inside her... I won't do that.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "I can't interfere with them. As long as Rosmontis still has hope somewhere inside her... I won't do that."
+    },
+    {
+        "id": 138,
+        "raw": "[name=\"Amiya\"]  Because it's up to her to choose what to do. She can also choose to forget.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Because it's up to her to choose what to do. She can also choose to forget."
+    },
+    {
+        "id": 139,
+        "raw": "[name=\"Amiya\"]  To truly forget.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "To truly forget."
+    },
+    {
+        "id": 140,
+        "raw": "[Decision(options=\"What happened to Rosmontis?;......;I don't know that much about her.\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "What happened to Rosmontis?;......;I don't know that much about her.",
+        "values": "1;2;3"
+    },
+    {
+        "id": 141,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 142,
+        "raw": "[Character(name=\"char_002_amiya_1\")]",
+        "type": "character",
+        "name": "char_002_amiya_1"
+    },
+    {
+        "id": 143,
+        "raw": "[name=\"Amiya\"]  Dr. {@nickname}... Rhodes Island has a strict screening process for our operators.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Dr. {@nickname}... Rhodes Island has a strict screening process for our operators."
+    },
+    {
+        "id": 144,
+        "raw": "[name=\"Amiya\"]  Many of them apply for combat roles, and we reject most of those. We look at lots of different metrics to decide if an operator is fit for combat.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Many of them apply for combat roles, and we reject most of those. We look at lots of different metrics to decide if an operator is fit for combat."
+    },
+    {
+        "id": 145,
+        "raw": "[name=\"Amiya\"]  Combat ability, tactical aptitude, discipline, and physical fitness are all important parameters, but that barely scratches the surface.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Combat ability, tactical aptitude, discipline, and physical fitness are all important parameters, but that barely scratches the surface."
+    },
+    {
+        "id": 146,
+        "raw": "[name=\"Amiya\"]  People often have difficulty trusting one another when they're on an actual mission.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "People often have difficulty trusting one another when they're on an actual mission."
+    },
+    {
+        "id": 147,
+        "raw": "[name=\"Amiya\"]  Rosmontis is here because she trusts in our orders and objectives, and we trust in her abilities and judgment.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Rosmontis is here because she trusts in our orders and objectives, and we trust in her abilities and judgment."
+    },
+    {
+        "id": 148,
+        "raw": "[name=\"Amiya\"]  Please believe in me, Doctor. No, believe in us...",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Please believe in me, Doctor. No, believe in us..."
+    },
+    {
+        "id": 149,
+        "raw": "[name=\"Amiya\"]  You'll slowly begin to see... the colors of her emotions.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "You'll slowly begin to see... the colors of her emotions."
+    },
+    {
+        "id": 150,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 151,
+        "raw": "[name=\"Rosmontis\"]  ......",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "......"
+    },
+    {
+        "id": 152,
+        "raw": "[name=\"Rosmontis\"]  Doctor. Thank you for fighting alongside Blaze.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "Doctor. Thank you for fighting alongside Blaze."
+    },
+    {
+        "id": 153,
+        "raw": "[Decision(options=\"Why?;......;You don't have to thank me.\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "Why?;......;You don't have to thank me.",
+        "values": "1;2;3"
+    },
+    {
+        "id": 154,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 155,
+        "raw": "[name=\"Rosmontis\"]  Blaze needs more people fighting alongside her. And I want to see her smile.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "Blaze needs more people fighting alongside her. And I want to see her smile."
+    },
+    {
+        "id": 156,
+        "raw": "[name=\"Rosmontis\"]  I want to see you too. I want to see the one Ace and Scout always talked about.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "I want to see you too. I want to see the one Ace and Scout always talked about."
+    },
+    {
+        "id": 157,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 158,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 159,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 160,
+        "raw": "[Background(image=\"bg_cherunder\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_cherunder.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 161,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 162,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 163,
+        "raw": "[name=\"Kal'tsit\"]  Here you are.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Here you are."
+    },
+    {
+        "id": 164,
+        "raw": "[Decision(options=\"You found me this time.\", values=\"1\")]",
+        "type": "decision",
+        "options": "You found me this time.",
+        "values": "1"
+    },
+    {
+        "id": 165,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 166,
+        "raw": "[name=\"Kal'tsit\"]  ...She uses heavy machinery to quickly and effectively destroy the enemy, while at the same time exhibiting astonishing self-control and adaptiveness.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "...She uses heavy machinery to quickly and effectively destroy the enemy, while at the same time exhibiting astonishing self-control and adaptiveness."
+    },
+    {
+        "id": 167,
+        "raw": "[name=\"Kal'tsit\"]  Rosmontis is one of Rhodes Island's greatest annihilation specialists.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Rosmontis is one of Rhodes Island's greatest annihilation specialists."
+    },
+    {
+        "id": 168,
+        "raw": "[name=\"Kal'tsit\"]  As such, the way she treats people and the way she speaks may worry you. The way she fights and its contrast with her appearance, is indeed very cruel.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "As such, the way she treats people and the way she speaks may worry you. The way she fights and its contrast with her appearance, is indeed very cruel."
+    },
+    {
+        "id": 169,
+        "raw": "[name=\"Kal'tsit\"]  Blaze running around with her chainsaw may be easier to accept, but the destruction of when Rosmontis takes the field is much harder to stomach.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Blaze running around with her chainsaw may be easier to accept, but the destruction of when Rosmontis takes the field is much harder to stomach."
+    },
+    {
+        "id": 170,
+        "raw": "[name=\"Kal'tsit\"]  If it will help you sleep at night, I can make you a promise. If it will help at all.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "If it will help you sleep at night, I can make you a promise. If it will help at all."
+    },
+    {
+        "id": 171,
+        "raw": "[name=\"Kal'tsit\"]  —Rosmontis almost never kills. Though her tactics seems to singularly aim for that outcome, she actually focuses on disabling the enemy's combat abilities.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "—Rosmontis almost never kills. Though her tactics seems to singularly aim for that outcome, she actually focuses on disabling the enemy's combat abilities."
+    },
+    {
+        "id": 172,
+        "raw": "[name=\"Kal'tsit\"]  Take the last battle, for example, all the enemies were disarmed, and not a single one died to Rosmontis's attacks.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Take the last battle, for example, all the enemies were disarmed, and not a single one died to Rosmontis's attacks."
+    },
+    {
+        "id": 173,
+        "raw": "[name=\"Kal'tsit\"]  She also has much more control over her weapons than she once did.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "She also has much more control over her weapons than she once did."
+    },
+    {
+        "id": 174,
+        "raw": "[name=\"Kal'tsit\"]  Of course, whether or not we can keep the prisoners alive depends entirely on our ability to destroy Reunion's leadership. Only then will we be able to send rescue teams into the core city.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Of course, whether or not we can keep the prisoners alive depends entirely on our ability to destroy Reunion's leadership. Only then will we be able to send rescue teams into the core city."
+    },
+    {
+        "id": 175,
+        "raw": "[name=\"Kal'tsit\"]  But sometimes, we must use lethal force in order to accomplish our goals. Some loss of life is inevitable.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "But sometimes, we must use lethal force in order to accomplish our goals. Some loss of life is inevitable."
+    },
+    {
+        "id": 176,
+        "raw": "[name=\"Kal'tsit\"]  You still look disturbed. Is this all beyond your ability to accept?",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "You still look disturbed. Is this all beyond your ability to accept?"
+    },
+    {
+        "id": 177,
+        "raw": "[Decision(options=\"I can't accept this.;......;It doesn't make sense.\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "I can't accept this.;......;It doesn't make sense.",
+        "values": "1;2;3"
+    },
+    {
+        "id": 178,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 179,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 180,
+        "raw": "[name=\"Kal'tsit\"]  You might not be able to accept the truth either.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "You might not be able to accept the truth either."
+    },
+    {
+        "id": 181,
+        "raw": "[name=\"Kal'tsit\"]  Her terrifying Originium Arts and incredible perception are not the only reasons why Rosmontis is an elite operator.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Her terrifying Originium Arts and incredible perception are not the only reasons why Rosmontis is an elite operator."
+    },
+    {
+        "id": 182,
+        "raw": "[name=\"Kal'tsit\"]  —Rosmontis demonstrates these qualities because she became an elite operator.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "—Rosmontis demonstrates these qualities because she became an elite operator."
+    },
+    {
+        "id": 183,
+        "raw": "[name=\"Kal'tsit\"]  We made our judgment not on whether to send her to battle, but how disastrous the consequences might be if we didn't let her become a fighter like this.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "We made our judgment not on whether to send her to battle, but how disastrous the consequences might be if we didn't let her become a fighter like this."
+    },
+    {
+        "id": 184,
+        "raw": "[Decision(options=\"What kind of consequences?\", values=\"1\")]",
+        "type": "decision",
+        "options": "What kind of consequences?",
+        "values": "1"
+    },
+    {
+        "id": 185,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 186,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 187,
+        "raw": "[name=\"Kal'tsit\"]  Worst case scenario, her Arts leak out from her body and push her to kill, subconsciously or otherwise.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Worst case scenario, her Arts leak out from her body and push her to kill, subconsciously or otherwise."
+    },
+    {
+        "id": 188,
+        "raw": "[name=\"Kal'tsit\"]  Humans killing each other has become the normal state of things. Even so, most people still hold their weapons and staves themselves.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Humans killing each other has become the normal state of things. Even so, most people still hold their weapons and staves themselves."
+    },
+    {
+        "id": 189,
+        "raw": "[name=\"Kal'tsit\"]  Whether or not someone who has lost her sense of self can still be called a person is another topic I'm not interested in discussing. But humanity grapples with the extent and manifestation of this problem.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Whether or not someone who has lost her sense of self can still be called a person is another topic I'm not interested in discussing. But humanity grapples with the extent and manifestation of this problem."
+    },
+    {
+        "id": 190,
+        "raw": "[name=\"Kal'tsit\"]  'When you deprive a human being of her sentience, what is left? What is created?'",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "'When you deprive a human being of her sentience, what is left? What is created?'"
+    },
+    {
+        "id": 191,
+        "raw": "[name=\"Kal'tsit\"]  'When that creation deprives us of our lives, who is at fault?'",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "'When that creation deprives us of our lives, who is at fault?'"
+    },
+    {
+        "id": 192,
+        "raw": "[name=\"Kal'tsit\"]  The one who created the weapon, the one who used the weapon, or the one we treat as a weapon?",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "The one who created the weapon, the one who used the weapon, or the one we treat as a weapon?"
+    },
+    {
+        "id": 193,
+        "raw": "[Decision(options=\"Another riddle?;......;I'll figure it out myself.\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "Another riddle?;......;I'll figure it out myself.",
+        "values": "1;2;3"
+    },
+    {
+        "id": 194,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 195,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 196,
+        "raw": "[name=\"Kal'tsit\"]  As we move on to the next battle, I may be able to teach you more.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "As we move on to the next battle, I may be able to teach you more."
+    },
+    {
+        "id": 197,
+        "raw": "[name=\"Kal'tsit\"]  By the way, on the issue of her age...",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "By the way, on the issue of her age..."
+    },
+    {
+        "id": 198,
+        "raw": "[name=\"Kal'tsit\"]  Amiya puts on an air of maturity that may have you fooled. Maybe, maybe not.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Amiya puts on an air of maturity that may have you fooled. Maybe, maybe not."
+    },
+    {
+        "id": 199,
+        "raw": "[name=\"Kal'tsit\"]  A young creature known as a deadly weapon won't be seen as an ordinary child just because she looks young.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "A young creature known as a deadly weapon won't be seen as an ordinary child just because she looks young."
+    },
+    {
+        "id": 200,
+        "raw": "[name=\"Kal'tsit\"]  —Not to mention all that they've been through.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "—Not to mention all that they've been through."
+    },
+    {
+        "id": 201,
+        "raw": "[name=\"Kal'tsit\"]  ...Take what you need. It's time to head to the surface.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "...Take what you need. It's time to head to the surface."
+    },
+    {
+        "id": 202,
+        "raw": "[Decision(options=\"What about Amiya? Is she a weapon too?\", values=\"1\")]",
+        "type": "decision",
+        "options": "What about Amiya? Is she a weapon too?",
+        "values": "1"
+    },
+    {
+        "id": 203,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 204,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 205,
+        "raw": "[name=\"Kal'tsit\"]  You can ask her yourself.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "You can ask her yourself."
+    },
+    {
+        "id": 206,
+        "raw": "[name=\"Kal'tsit\"]  This is something you should hear from her.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "This is something you should hear from her."
+    },
+    {
+        "id": 207,
+        "raw": "[stopmusic(fadetime=3)]",
+        "type": "stop_music",
+        "fadetime": 3
+    },
+    {
+        "id": 208,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 209,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 210,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 211,
+        "raw": "[cameraEffect(effect=\"Grayscale\", keep=true, amount=1, fadetime=0)]",
+        "type": "camera_effect",
+        "effect": "Grayscale",
+        "keep": "true,",
+        "amount": "1,",
+        "fadetime": 0
+    },
+    {
+        "id": 212,
+        "raw": "[Background(image=\"bg_corridor\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_corridor.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 213,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 214,
+        "raw": "[playMusic(intro=\"$darkness02_intro\", key=\"$darkness02_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta1_180603/m_dia_darkness02_intro.mp3",
+        "key": "sound_beta_2/music/beta1_180603/m_dia_darkness02_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 215,
+        "raw": "[Character(name=\"char_171_bldsk_1\",fadetime=1,block=true)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 216,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 217,
+        "raw": "[name=\"Warfarin\"]  Kal'tsit! Stop right there!",
+        "type": "dialog",
+        "speaker": "Warfarin",
+        "content": "Kal'tsit! Stop right there!"
+    },
+    {
+        "id": 218,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=2)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 2
+    },
+    {
+        "id": 219,
+        "raw": "[name=\"Kal'tsit\"]  Warfarin, I was just leaving. Whatever it is, make it quick.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Warfarin, I was just leaving. Whatever it is, make it quick."
+    },
+    {
+        "id": 220,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=1)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 1
+    },
+    {
+        "id": 221,
+        "raw": "[name=\"Warfarin\"]  You know the prophecy, don't you? Yes, there's nothing you don't know.",
+        "type": "dialog",
+        "speaker": "Warfarin",
+        "content": "You know the prophecy, don't you? Yes, there's nothing you don't know."
+    },
+    {
+        "id": 222,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=2)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 2
+    },
+    {
+        "id": 223,
+        "raw": "[name=\"Kal'tsit\"]  Prophecy?",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Prophecy?"
+    },
+    {
+        "id": 224,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=1)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 1
+    },
+    {
+        "id": 225,
+        "raw": "[name=\"Warfarin\"]  Is that not why you allowed Amiya to go?",
+        "type": "dialog",
+        "speaker": "Warfarin",
+        "content": "Is that not why you allowed Amiya to go?"
+    },
+    {
+        "id": 226,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=2)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 2
+    },
+    {
+        "id": 227,
+        "raw": "[name=\"Kal'tsit\"]  Amiya is the commander of this operation, as well as the one who suggested it.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Amiya is the commander of this operation, as well as the one who suggested it."
+    },
+    {
+        "id": 228,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=1)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 1
+    },
+    {
+        "id": 229,
+        "raw": "[name=\"Warfarin\"]  But as young as Amiya is, how can she command—",
+        "type": "dialog",
+        "speaker": "Warfarin",
+        "content": "But as young as Amiya is, how can she command—"
+    },
+    {
+        "id": 230,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=2)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 2
+    },
+    {
+        "id": 231,
+        "raw": "[name=\"Kal'tsit\"]  Warfarin, how long has it been since we left Kazdel?",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Warfarin, how long has it been since we left Kazdel?"
+    },
+    {
+        "id": 232,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=1)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 1
+    },
+    {
+        "id": 233,
+        "raw": "[name=\"Warfarin\"]  ......",
+        "type": "dialog",
+        "speaker": "Warfarin",
+        "content": "......"
+    },
+    {
+        "id": 234,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=2)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 2
+    },
+    {
+        "id": 235,
+        "raw": "[name=\"Kal'tsit\"]  Be precise, or I'm leaving.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Be precise, or I'm leaving."
+    },
+    {
+        "id": 236,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=1)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 1
+    },
+    {
+        "id": 237,
+        "raw": "[name=\"Warfarin\"]  ...Two months?",
+        "type": "dialog",
+        "speaker": "Warfarin",
+        "content": "...Two months?"
+    },
+    {
+        "id": 238,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=2)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 2
+    },
+    {
+        "id": 239,
+        "raw": "[name=\"Kal'tsit\"]  Warfarin... stop joking around.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Warfarin... stop joking around."
+    },
+    {
+        "id": 240,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=1)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 1
+    },
+    {
+        "id": 241,
+        "raw": "[name=\"Warfarin\"]  I know what you mean. She's grown up.",
+        "type": "dialog",
+        "speaker": "Warfarin",
+        "content": "I know what you mean. She's grown up."
+    },
+    {
+        "id": 242,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=2)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 2
+    },
+    {
+        "id": 243,
+        "raw": "[name=\"Kal'tsit\"]  Yes, Warfarin. Time flies.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Yes, Warfarin. Time flies."
+    },
+    {
+        "id": 244,
+        "raw": "[name=\"Kal'tsit\"]  Age progression in Cautuses and Vampires is radically different. It has been three years since we left Kazdel.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Age progression in Cautuses and Vampires is radically different. It has been three years since we left Kazdel."
+    },
+    {
+        "id": 245,
+        "raw": "[name=\"Kal'tsit\"]  It may feel like a short time for you, but Amiya has matured a lot.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "It may feel like a short time for you, but Amiya has matured a lot."
+    },
+    {
+        "id": 246,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=1)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 1
+    },
+    {
+        "id": 247,
+        "raw": "[name=\"Warfarin\"]  Answer my first question. The prophecy.",
+        "type": "dialog",
+        "speaker": "Warfarin",
+        "content": "Answer my first question. The prophecy."
+    },
+    {
+        "id": 248,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=2)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 2
+    },
+    {
+        "id": 249,
+        "raw": "[name=\"Kal'tsit\"]  ...'The last Wendigo will die at the hands of the Lord of Fiends?'",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "...'The last Wendigo will die at the hands of the Lord of Fiends?'"
+    },
+    {
+        "id": 250,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=1)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 1
+    },
+    {
+        "id": 251,
+        "raw": "[name=\"Warfarin\"]  Correct. I'm familiar with that guerilla group, and their leader. I'm certain it's him.",
+        "type": "dialog",
+        "speaker": "Warfarin",
+        "content": "Correct. I'm familiar with that guerilla group, and their leader. I'm certain it's him."
+    },
+    {
+        "id": 252,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=2)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 2
+    },
+    {
+        "id": 253,
+        "raw": "[name=\"Kal'tsit\"]  The original phrasing of the prophecy was 'The son of Hor-Tekrz, traitor to Sarkaz and disreputable end of the bloodline, will be executed by the Lord of Sarkaz.'",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "The original phrasing of the prophecy was 'The son of Hor-Tekrz, traitor to Sarkaz and disreputable end of the bloodline, will be executed by the Lord of Sarkaz.'"
+    },
+    {
+        "id": 254,
+        "raw": "[name=\"Kal'tsit\"]  Some prophecy. Whether or not there's any extension of their 'bloodline,' there are still many Wendigos living their lives in Columbia and Ursus.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Some prophecy. Whether or not there's any extension of their 'bloodline,' there are still many Wendigos living their lives in Columbia and Ursus."
+    },
+    {
+        "id": 255,
+        "raw": "[name=\"Kal'tsit\"]  ...That is, if a few dozen can be called 'many.'",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "...That is, if a few dozen can be called 'many.'"
+    },
+    {
+        "id": 256,
+        "raw": "[name=\"Kal'tsit\"]  And, considering the context of the time, you should view it as a threat. Many people did not want to see the Wendigos leave Kazdel.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "And, considering the context of the time, you should view it as a threat. Many people did not want to see the Wendigos leave Kazdel."
+    },
+    {
+        "id": 257,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=1)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 1
+    },
+    {
+        "id": 258,
+        "raw": "[name=\"Warfarin\"]  It wasn't either of us who said it. And since you still remember it, you must have found it important. No?",
+        "type": "dialog",
+        "speaker": "Warfarin",
+        "content": "It wasn't either of us who said it. And since you still remember it, you must have found it important. No?"
+    },
+    {
+        "id": 259,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=2)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 2
+    },
+    {
+        "id": 260,
+        "raw": "[name=\"Kal'tsit\"]  Are you getting old? Since when do you believe in 'prophecies' and Sarkaz witchcraft?",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Are you getting old? Since when do you believe in 'prophecies' and Sarkaz witchcraft?"
+    },
+    {
+        "id": 261,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=1)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 1
+    },
+    {
+        "id": 262,
+        "raw": "[name=\"Warfarin\"]  —Old? M-Me?!",
+        "type": "dialog",
+        "speaker": "Warfarin",
+        "content": "—Old? M-Me?!"
+    },
+    {
+        "id": 263,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=2)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 2
+    },
+    {
+        "id": 264,
+        "raw": "[name=\"Kal'tsit\"]  I contracted Oripathy. Death is always here with me, waiting for the right time to strike. Warfarin, my life is no doubt much shorter than you think.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "I contracted Oripathy. Death is always here with me, waiting for the right time to strike. Warfarin, my life is no doubt much shorter than you think."
+    },
+    {
+        "id": 265,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=1)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 1
+    },
+    {
+        "id": 266,
+        "raw": "[name=\"Warfarin\"]  Hey!",
+        "type": "dialog",
+        "speaker": "Warfarin",
+        "content": "Hey!"
+    },
+    {
+        "id": 267,
+        "raw": "[name=\"Warfarin\"]  Must we be so morbid? I'm not your little girl Closure. I won't let you keep skirting the topic.",
+        "type": "dialog",
+        "speaker": "Warfarin",
+        "content": "Must we be so morbid? I'm not your little girl Closure. I won't let you keep skirting the topic."
+    },
+    {
+        "id": 268,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=2)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 2
+    },
+    {
+        "id": 269,
+        "raw": "[name=\"Kal'tsit\"]  The issue you raised is quite morbid.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "The issue you raised is quite morbid."
+    },
+    {
+        "id": 270,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=1)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 1
+    },
+    {
+        "id": 271,
+        "raw": "[name=\"Warfarin\"]  ...Never mind.",
+        "type": "dialog",
+        "speaker": "Warfarin",
+        "content": "...Never mind."
+    },
+    {
+        "id": 272,
+        "raw": "[name=\"Warfarin\"]  Hear me, Kal'tsit, the others may not say as much to you, but I will.",
+        "type": "dialog",
+        "speaker": "Warfarin",
+        "content": "Hear me, Kal'tsit, the others may not say as much to you, but I will."
+    },
+    {
+        "id": 273,
+        "raw": "[name=\"Warfarin\"]  He is one of the very few left among us. I am no bleeding heart, no goodly busybody, but... we are Sarkaz.",
+        "type": "dialog",
+        "speaker": "Warfarin",
+        "content": "He is one of the very few left among us. I am no bleeding heart, no goodly busybody, but... we are Sarkaz."
+    },
+    {
+        "id": 274,
+        "raw": "[name=\"Warfarin\"]  I am a Vampire, and the old man is a Wendigo, but we are the same.",
+        "type": "dialog",
+        "speaker": "Warfarin",
+        "content": "I am a Vampire, and the old man is a Wendigo, but we are the same."
+    },
+    {
+        "id": 275,
+        "raw": "[name=\"Warfarin\"]  This world is a tough place for Sarkaz. I hope he can return to Kazdel, if possible. Or come with us.",
+        "type": "dialog",
+        "speaker": "Warfarin",
+        "content": "This world is a tough place for Sarkaz. I hope he can return to Kazdel, if possible. Or come with us."
+    },
+    {
+        "id": 276,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=2)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 2
+    },
+    {
+        "id": 277,
+        "raw": "[name=\"Kal'tsit\"]  ——",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "——"
+    },
+    {
+        "id": 278,
+        "raw": "[name=\"Kal'tsit\"]  I'm not, Warfarin. I'm not Sarkaz.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "I'm not, Warfarin. I'm not Sarkaz."
+    },
+    {
+        "id": 279,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=1)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 1
+    },
+    {
+        "id": 280,
+        "raw": "[name=\"Warfarin\"]  So you refuse?",
+        "type": "dialog",
+        "speaker": "Warfarin",
+        "content": "So you refuse?"
+    },
+    {
+        "id": 281,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=2)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 2
+    },
+    {
+        "id": 282,
+        "raw": "[name=\"Kal'tsit\"]  No...",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "No..."
+    },
+    {
+        "id": 283,
+        "raw": "[name=\"Kal'tsit\"]  I'll do what I can.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "I'll do what I can."
+    },
+    {
+        "id": 284,
+        "raw": "[name=\"Kal'tsit\"]  ...Even I remember him, Warfarin.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "...Even I remember him, Warfarin."
+    },
+    {
+        "id": 285,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=1)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 1
+    },
+    {
+        "id": 286,
+        "raw": "[name=\"Warfarin\"]  Your promise is stronger than anything.",
+        "type": "dialog",
+        "speaker": "Warfarin",
+        "content": "Your promise is stronger than anything."
+    },
+    {
+        "id": 287,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=2)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 2
+    },
+    {
+        "id": 288,
+        "raw": "[name=\"Kal'tsit\"]  Don't get your hopes up that this will be easy.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Don't get your hopes up that this will be easy."
+    },
+    {
+        "id": 289,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=1)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 1
+    },
+    {
+        "id": 290,
+        "raw": "[name=\"Warfarin\"]  But this time, you'll be there. As long as Dr. Kal'tsit makes her best effort, I'll accept the outcome.",
+        "type": "dialog",
+        "speaker": "Warfarin",
+        "content": "But this time, you'll be there. As long as Dr. Kal'tsit makes her best effort, I'll accept the outcome."
+    },
+    {
+        "id": 291,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=2)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 2
+    },
+    {
+        "id": 292,
+        "raw": "[name=\"Kal'tsit\"]  Maybe you haven't heard, but your proposal came too late. Some things have already unfolded, and rather unfortunately.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Maybe you haven't heard, but your proposal came too late. Some things have already unfolded, and rather unfortunately."
+    },
+    {
+        "id": 293,
+        "raw": "[name=\"Kal'tsit\"]  Some time ago, an Infected clinic in Chernobog called 'Azazel' traded information with us. I learned some more information about the Wendigo in Reunion's service.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Some time ago, an Infected clinic in Chernobog called 'Azazel' traded information with us. I learned some more information about the Wendigo in Reunion's service."
+    },
+    {
+        "id": 294,
+        "raw": "[name=\"Kal'tsit\"]  What's more, and you should know this well, anyone who stands against the most brutal blade in Ursus will soon learn whether it tastes of salt or rust.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "What's more, and you should know this well, anyone who stands against the most brutal blade in Ursus will soon learn whether it tastes of salt or rust."
+    },
+    {
+        "id": 295,
+        "raw": "[name=\"Kal'tsit\"]  Nobody should knowingly place our operators in danger.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Nobody should knowingly place our operators in danger."
+    },
+    {
+        "id": 296,
+        "raw": "[Character(name=\"char_171_bldsk_1\",name2=\"char_003_kalts_1\",focus=1)]",
+        "type": "character",
+        "name": "char_171_bldsk_1",
+        "name2": "char_003_kalts_1",
+        "focus": 1
+    },
+    {
+        "id": 297,
+        "raw": "[name=\"Warfarin\"]  Some patients' days are numbered, but that number depends on the doctor treating them. It's all up to us.",
+        "type": "dialog",
+        "speaker": "Warfarin",
+        "content": "Some patients' days are numbered, but that number depends on the doctor treating them. It's all up to us."
+    },
+    {
+        "id": 298,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 299,
+        "raw": "[name=\"Kal'tsit\"]  ...It's all up to us.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "...It's all up to us."
+    },
+    {
+        "id": 300,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 301,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 302,
+        "raw": "[cameraEffect(effect=\"Grayscale\", keep=true, amount=0, fadetime=0)]",
+        "type": "camera_effect",
+        "effect": "Grayscale",
+        "keep": "true,",
+        "amount": "0,",
+        "fadetime": 0
+    },
+    {
+        "id": 303,
+        "raw": "[name=\"Kal'tsit\"]  And I told you before... You may have forgotten.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "And I told you before... You may have forgotten."
+    },
+    {
+        "id": 304,
+        "raw": "[name=\"Kal'tsit\"]  I won't discipline you for it, but I may do something to put an end to it once and for all.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "I won't discipline you for it, but I may do something to put an end to it once and for all."
+    },
+    {
+        "id": 305,
+        "raw": "[name=\"Kal'tsit\"]  You are not to say I'm frightening, Warfarin. We've been over this.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "You are not to say I'm frightening, Warfarin. We've been over this."
+    },
+    {
+        "id": 306,
+        "raw": "[name=\"Kal'tsit\"]  Do not, under any circumstances, even at Rhodes Island, speak of 'the Lord of Fiends.'",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Do not, under any circumstances, even at Rhodes Island, speak of 'the Lord of Fiends.'"
+    },
+    {
+        "id": 307,
+        "raw": "[name=\"Kal'tsit\"]  Ever.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Ever."
+    },
+    {
+        "id": 308,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 309,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 310,
+        "raw": "[Background(image=\"bg_cherunder\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_cherunder.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 311,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 312,
+        "raw": "[Character(name=\"char_002_amiya_1#7\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#7"
+    },
+    {
+        "id": 313,
+        "raw": "[name=\"Amiya\"]  Wait.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Wait."
+    },
+    {
+        "id": 314,
+        "raw": "[playMusic(intro=\"$plot_intro\", key=\"$plot_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act9d0d0/m_avg_plot_intro.mp3",
+        "key": "sound_beta_2/music/act9d0d0/m_avg_plot_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 315,
+        "raw": "[name=\"Amiya\"]  All hands, at ease!",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "All hands, at ease!"
+    },
+    {
+        "id": 316,
+        "raw": "[name=\"Amiya\"]  Rosmontis... am I getting this right?",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Rosmontis... am I getting this right?"
+    },
+    {
+        "id": 317,
+        "raw": "[Character(name=\"avg_npc_042\")]",
+        "type": "character",
+        "name": "avg_npc_042"
+    },
+    {
+        "id": 318,
+        "raw": "[name=\"Rosmontis\"]  Hm. Yes. I felt it too.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "Hm. Yes. I felt it too."
+    },
+    {
+        "id": 319,
+        "raw": "[Character(name=\"char_002_amiya_1#7\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#7"
+    },
+    {
+        "id": 320,
+        "raw": "[name=\"Amiya\"]  Dr. {@nickname}, something unexpected here.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Dr. {@nickname}, something unexpected here."
+    },
+    {
+        "id": 321,
+        "raw": "[Decision(options=\"What is it?\", values=\"1\")]",
+        "type": "decision",
+        "options": "What is it?",
+        "values": "1"
+    },
+    {
+        "id": 322,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 323,
+        "raw": "[Character(name=\"char_002_amiya_1#7\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#7"
+    },
+    {
+        "id": 324,
+        "raw": "[name=\"Amiya\"]  I'm not totally sure, but...",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "I'm not totally sure, but..."
+    },
+    {
+        "id": 325,
+        "raw": "[name=\"Amiya\"]  The core city might be... slowing down?",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "The core city might be... slowing down?"
+    },
+    {
+        "id": 326,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 327,
+        "raw": "[Blocker(fadetime=3,block=true)]",
+        "type": "blocker",
+        "fadetime": "3,block=true"
+    },
+    {
+        "id": 328,
+        "raw": "[Image]",
+        "type": "image"
+    }
+]

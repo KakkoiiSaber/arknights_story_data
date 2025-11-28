@@ -1,0 +1,1490 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")] 第三关（前）",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK",
+        "content": "第三关（前）"
+    },
+    {
+        "id": 2,
+        "raw": "[PlayMusic(intro=\"$m_dia_street_intro\", key=\"$m_dia_street_loop\", volume=0.8, crossfade=1.5)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta3_181101/m_dia_street_intro.mp3",
+        "key": "sound_beta_2/music/beta3_181101/m_dia_street_loop.mp3",
+        "volume": "0.8,",
+        "crossfade": 1.5
+    },
+    {
+        "id": 3,
+        "raw": "[largebg(imagegroup=\"bg_beach_1/bg_beach_2\", solidwidth=\"920/920\", solidheight=720,x=-720)]",
+        "type": "large_bg",
+        "imagegroup": "bg_beach_1/bg_beach_2",
+        "solidwidth": "920/920",
+        "solidheight": "720,x=-720"
+    },
+    {
+        "id": 4,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 5,
+        "raw": "[playsound(key=\"$beach\", volume=0.7, channel=\"B\",loop=true)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_amb_beach.mp3",
+        "volume": "0.7,",
+        "channel": "B",
+        "loop": true
+    },
+    {
+        "id": 6,
+        "raw": "[Character(name=\"char_002_amiya_summer_2#1\",fadetime=1,block=true)]",
+        "type": "character",
+        "name": "char_002_amiya_summer_2#1",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 7,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 8,
+        "raw": "[name=\"アーミヤ\"]   ドクター、今回は私も言わせてもらいます。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "ドクター、今回は私も言わせてもらいます。"
+    },
+    {
+        "id": 9,
+        "raw": "[name=\"アーミヤ\"]   軽傷とはいえ、皆さんが負傷してしまった件、それを引率していたドクターにも責任があります！",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "軽傷とはいえ、皆さんが負傷してしまった件、それを引率していたドクターにも責任があります！"
+    },
+    {
+        "id": 10,
+        "raw": "[name=\"アーミヤ\"]   グムさんが怪我の処置をしてくれましたが、海に入れば多少なりとも傷口にしみるはずです。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "グムさんが怪我の処置をしてくれましたが、海に入れば多少なりとも傷口にしみるはずです。"
+    },
+    {
+        "id": 11,
+        "raw": "[name=\"アーミヤ\"]   本当に、皆さんを連れて遊ぶのはいいですが、はしゃぎすぎるのは……。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "本当に、皆さんを連れて遊ぶのはいいですが、はしゃぎすぎるのは……。"
+    },
+    {
+        "id": 12,
+        "raw": "[Decision(options=\"本当に申し訳ない。;水着がとても似合っているね。アーミヤ。\",values=\"1;2\")]",
+        "type": "decision",
+        "options": "本当に申し訳ない。;水着がとても似合っているね。アーミヤ。",
+        "values": "1;2"
+    },
+    {
+        "id": 13,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 14,
+        "raw": "[Character(name=\"char_002_amiya_summer_2#1\")]",
+        "type": "character",
+        "name": "char_002_amiya_summer_2#1"
+    },
+    {
+        "id": 15,
+        "raw": "[name=\"アーミヤ\"]   えっと……その、別にドクターが楽しめたのなら、それでもいいんですけど……。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "えっと……その、別にドクターが楽しめたのなら、それでもいいんですけど……。"
+    },
+    {
+        "id": 16,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 17,
+        "raw": "[Character(name=\"char_002_amiya_summer_2#2\")]",
+        "type": "character",
+        "name": "char_002_amiya_summer_2#2"
+    },
+    {
+        "id": 18,
+        "raw": "[name=\"アーミヤ\"]   そ、そうですか？　これサベージさんが選んでくれた水着なんです……。実はドクターが気に入ってくれるか、ずっと気になって――",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "そ、そうですか？　これサベージさんが選んでくれた水着なんです……。実はドクターが気に入ってくれるか、ずっと気になって――"
+    },
+    {
+        "id": 19,
+        "raw": "[Character(name=\"char_002_amiya_summer_2#1\")]",
+        "type": "character",
+        "name": "char_002_amiya_summer_2#1"
+    },
+    {
+        "id": 20,
+        "raw": "[name=\"アーミヤ\"]   ああっ！　話をすり替えないでください、Dr.{@nickname}！",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "ああっ！　話をすり替えないでください、Dr.{@nickname}！"
+    },
+    {
+        "id": 21,
+        "raw": "[Decision(options=\"確かに今回はやりすぎた……。\",values=\"1\")]",
+        "type": "decision",
+        "options": "確かに今回はやりすぎた……。",
+        "values": "1"
+    },
+    {
+        "id": 22,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 23,
+        "raw": "[Character(name=\"char_002_amiya_summer_2#1\")]",
+        "type": "character",
+        "name": "char_002_amiya_summer_2#1"
+    },
+    {
+        "id": 24,
+        "raw": "[name=\"アーミヤ\"]   そうですよ、ヘラグさんにも言っておきます！",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "そうですよ、ヘラグさんにも言っておきます！"
+    },
+    {
+        "id": 25,
+        "raw": "[name=\"アーミヤ\"]   ドクターの監督を任せたのに、諸々見て見ぬふりなんて……。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "ドクターの監督を任せたのに、諸々見て見ぬふりなんて……。"
+    },
+    {
+        "id": 26,
+        "raw": "[name=\"アーミヤ\"]   何の契約も結んでない状況下では、ロドスは他の都市の内部事情には干渉すべきではありません。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "何の契約も結んでない状況下では、ロドスは他の都市の内部事情には干渉すべきではありません。"
+    },
+    {
+        "id": 27,
+        "raw": "[name=\"アーミヤ\"]   もし面倒事に巻き込まれてしまえば、ロドスの境遇が悪くなるばかりか、深みにハマって抜け出せなくなってしまうかもしれませんから。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "もし面倒事に巻き込まれてしまえば、ロドスの境遇が悪くなるばかりか、深みにハマって抜け出せなくなってしまうかもしれませんから。"
+    },
+    {
+        "id": 28,
+        "raw": "[Decision(options=\"実は、もう既に……。\",values=\"1\")]",
+        "type": "decision",
+        "options": "実は、もう既に……。",
+        "values": "1"
+    },
+    {
+        "id": 29,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 30,
+        "raw": "[Character(name=\"char_002_amiya_summer_2#1\")]",
+        "type": "character",
+        "name": "char_002_amiya_summer_2#1"
+    },
+    {
+        "id": 31,
+        "raw": "[name=\"アーミヤ\"]   はい、もう知ってますよ。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "はい、もう知ってますよ。"
+    },
+    {
+        "id": 32,
+        "raw": "[name=\"アーミヤ\"]   ダメじゃないですか。こんな危険なことして！",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "ダメじゃないですか。こんな危険なことして！"
+    },
+    {
+        "id": 33,
+        "raw": "[Character(name=\"char_002_amiya_summer_2#2\")]",
+        "type": "character",
+        "name": "char_002_amiya_summer_2#2"
+    },
+    {
+        "id": 34,
+        "raw": "[name=\"アーミヤ\"]   ――盛り上がったファンたちと揉めるなんて！　ドクターももう少し大人になってください。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "――盛り上がったファンたちと揉めるなんて！　ドクターももう少し大人になってください。"
+    },
+    {
+        "id": 35,
+        "raw": "[name=\"アーミヤ\"]   好きなグループを応援するのもいいですが、他のファンたちとも仲良くしないと。しかも喧嘩になるなんてもっての外です！",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "好きなグループを応援するのもいいですが、他のファンたちとも仲良くしないと。しかも喧嘩になるなんてもっての外です！"
+    },
+    {
+        "id": 36,
+        "raw": "[Decision(options=\"……？　いや、我々は……。\",values=\"1\")]",
+        "type": "decision",
+        "options": "……？　いや、我々は……。",
+        "values": "1"
+    },
+    {
+        "id": 37,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 38,
+        "raw": "[Character(name=\"char_002_amiya_summer_2#2\")]",
+        "type": "character",
+        "name": "char_002_amiya_summer_2#2"
+    },
+    {
+        "id": 39,
+        "raw": "[name=\"アーミヤ\"]  （シーッ！　）",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "（シーッ！　）"
+    },
+    {
+        "id": 40,
+        "raw": "[name=\"アーミヤ\"]  とにかくもういいです！　今回の件はここまでにします！　はい！",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "とにかくもういいです！　今回の件はここまでにします！　はい！"
+    },
+    {
+        "id": 41,
+        "raw": "[name=\"アーミヤ\"]  次からは気をつけてくださいね？",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "次からは気をつけてくださいね？"
+    },
+    {
+        "id": 42,
+        "raw": "[Decision(options=\"わかった。\",values=\"1\")]",
+        "type": "decision",
+        "options": "わかった。",
+        "values": "1"
+    },
+    {
+        "id": 43,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 44,
+        "raw": "[Character(name=\"char_002_amiya_summer_2#2\")]",
+        "type": "character",
+        "name": "char_002_amiya_summer_2#2"
+    },
+    {
+        "id": 45,
+        "raw": "[name=\"アーミヤ\"]  はい！",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "はい！"
+    },
+    {
+        "id": 46,
+        "raw": "[name=\"アーミヤ\"]  ドクター、あっちに行きましょう！　サンゴ礁の向こう側にたくさんきれいな貝殻があるんです！　ビーチって楽しいですね！",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "ドクター、あっちに行きましょう！　サンゴ礁の向こう側にたくさんきれいな貝殻があるんです！　ビーチって楽しいですね！"
+    },
+    {
+        "id": 47,
+        "raw": "[name=\"アーミヤ\"]  水もそれほど冷たくありませんし……。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "水もそれほど冷たくありませんし……。"
+    },
+    {
+        "id": 48,
+        "raw": "[Decision(options=\"（アーミヤについていく）;（アーミヤに水をかける）;（アーミヤと手をつなぐ）\",values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "（アーミヤについていく）;（アーミヤに水をかける）;（アーミヤと手をつなぐ）",
+        "values": "1;2;3"
+    },
+    {
+        "id": 49,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 50,
+        "raw": "[name=\"アーミヤ\"]  こっちですよ、ドクター、行きましょう！",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "こっちですよ、ドクター、行きましょう！"
+    },
+    {
+        "id": 51,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 52,
+        "raw": "[name=\"アーミヤ\"]  あっ！　もう、ドクター！　やめてください！",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "あっ！　もう、ドクター！　やめてください！"
+    },
+    {
+        "id": 53,
+        "raw": "[name=\"アーミヤ\"]  いじわる！　それっ！　フフフ……。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "いじわる！　それっ！　フフフ……。"
+    },
+    {
+        "id": 54,
+        "raw": "[Predicate(references=\"3\")]",
+        "type": "predicate",
+        "references": "3"
+    },
+    {
+        "id": 55,
+        "raw": "[name=\"アーミヤ\"]  ……えへへ……。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "……えへへ……。"
+    },
+    {
+        "id": 56,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 57,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 58,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 59,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 60,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 61,
+        "raw": "[Blocker(a=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 62,
+        "raw": "[Character(name=\"avg_npc_024\")]",
+        "type": "character",
+        "name": "avg_npc_024"
+    },
+    {
+        "id": 63,
+        "raw": "[name=\"ヘルマン\"]   君はDr.{@nickname}だったね。",
+        "type": "dialog",
+        "speaker": "ヘルマン",
+        "content": "君はDr.{@nickname}だったね。"
+    },
+    {
+        "id": 64,
+        "raw": "[name=\"ヘルマン\"]   セイロンから君たちロドスのことを聞いてな。君と少し話をしたいと思っていたところだ。",
+        "type": "dialog",
+        "speaker": "ヘルマン",
+        "content": "セイロンから君たちロドスのことを聞いてな。君と少し話をしたいと思っていたところだ。"
+    },
+    {
+        "id": 65,
+        "raw": "[name=\"ヘルマン\"]   どうだい、私と少し歩かないか。",
+        "type": "dialog",
+        "speaker": "ヘルマン",
+        "content": "どうだい、私と少し歩かないか。"
+    },
+    {
+        "id": 66,
+        "raw": "[Decision(options=\"……わかった。\",values=\"1\")]",
+        "type": "decision",
+        "options": "……わかった。",
+        "values": "1"
+    },
+    {
+        "id": 67,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 68,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 69,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 70,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 71,
+        "raw": "[largebg(imagegroup=\"bg_beach_1/bg_beach_2\", solidwidth=\"920/920\", solidheight=720,x=-180)]",
+        "type": "large_bg",
+        "imagegroup": "bg_beach_1/bg_beach_2",
+        "solidwidth": "920/920",
+        "solidheight": "720,x=-180"
+    },
+    {
+        "id": 72,
+        "raw": "[Blocker(a=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 73,
+        "raw": "[Character(name=\"avg_npc_024\")]",
+        "type": "character",
+        "name": "avg_npc_024"
+    },
+    {
+        "id": 74,
+        "raw": "[name=\"ヘルマン\"]   まずは礼を言わせて欲しい。ロドスのドクターよ。",
+        "type": "dialog",
+        "speaker": "ヘルマン",
+        "content": "まずは礼を言わせて欲しい。ロドスのドクターよ。"
+    },
+    {
+        "id": 75,
+        "raw": "[name=\"ヘルマン\"]   今回もし君たちの助けがなければ、私の娘の無鉄砲が悲惨な結末を招いていたかもしれない。",
+        "type": "dialog",
+        "speaker": "ヘルマン",
+        "content": "今回もし君たちの助けがなければ、私の娘の無鉄砲が悲惨な結末を招いていたかもしれない。"
+    },
+    {
+        "id": 76,
+        "raw": "[Decision(options=\"あれは無鉄砲なんかじゃない。;自分はそれほど何もしていない。;あなたが感謝すべきはご自分の娘だろう。\",values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "あれは無鉄砲なんかじゃない。;自分はそれほど何もしていない。;あなたが感謝すべきはご自分の娘だろう。",
+        "values": "1;2;3"
+    },
+    {
+        "id": 77,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 78,
+        "raw": "[name=\"ヘルマン\"]   クローニンは私が目をかけて育ててきた人材だ。野心があったが、能力もあった。だから多少の身勝手には目をつぶってきた。",
+        "type": "dialog",
+        "speaker": "ヘルマン",
+        "content": "クローニンは私が目をかけて育ててきた人材だ。野心があったが、能力もあった。だから多少の身勝手には目をつぶってきた。"
+    },
+    {
+        "id": 79,
+        "raw": "[name=\"ヘルマン\"]   だが彼はここ数年で道を踏み外し、私ですら制御できない存在と成り果てた。",
+        "type": "dialog",
+        "speaker": "ヘルマン",
+        "content": "だが彼はここ数年で道を踏み外し、私ですら制御できない存在と成り果てた。"
+    },
+    {
+        "id": 80,
+        "raw": "[name=\"ヘルマン\"]   今回は開発エリアに行く機会を借りて、シュヴァルツに彼の人となりを見極めさせたのだ。",
+        "type": "dialog",
+        "speaker": "ヘルマン",
+        "content": "今回は開発エリアに行く機会を借りて、シュヴァルツに彼の人となりを見極めさせたのだ。"
+    },
+    {
+        "id": 81,
+        "raw": "[name=\"ヘルマン\"]   そして、このように残念な結果となってしまった。",
+        "type": "dialog",
+        "speaker": "ヘルマン",
+        "content": "そして、このように残念な結果となってしまった。"
+    },
+    {
+        "id": 82,
+        "raw": "[Decision(options=\"どうして自分にそれを言う？\",values=\"1\")]",
+        "type": "decision",
+        "options": "どうして自分にそれを言う？",
+        "values": "1"
+    },
+    {
+        "id": 83,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 84,
+        "raw": "[name=\"ヘルマン\"]   ……私はこの海岸沿いを散歩するのが好きなのだよ。",
+        "type": "dialog",
+        "speaker": "ヘルマン",
+        "content": "……私はこの海岸沿いを散歩するのが好きなのだよ。"
+    },
+    {
+        "id": 85,
+        "raw": "[name=\"ヘルマン\"]   バーバラ――私の妻が、この海に眠っているからな。",
+        "type": "dialog",
+        "speaker": "ヘルマン",
+        "content": "バーバラ――私の妻が、この海に眠っているからな。"
+    },
+    {
+        "id": 86,
+        "raw": "[name=\"ヘルマン\"]   あの日のことはまだ脳裏に焼き付いている。少し暑く、夕日が美しい日だった。この場所で彼女はこう言ったんだ。「ずっとここで一緒に生きていければいいのに……」とな。",
+        "type": "dialog",
+        "speaker": "ヘルマン",
+        "content": "あの日のことはまだ脳裏に焼き付いている。少し暑く、夕日が美しい日だった。この場所で彼女はこう言ったんだ。「ずっとここで一緒に生きていければいいのに……」とな。"
+    },
+    {
+        "id": 87,
+        "raw": "[name=\"ヘルマン\"]   そして、いつのまにか、私は一人になってしまっていた。",
+        "type": "dialog",
+        "speaker": "ヘルマン",
+        "content": "そして、いつのまにか、私は一人になってしまっていた。"
+    },
+    {
+        "id": 88,
+        "raw": "[name=\"ヘルマン\"]   ドクター、振り返ってみてくれ。",
+        "type": "dialog",
+        "speaker": "ヘルマン",
+        "content": "ドクター、振り返ってみてくれ。"
+    },
+    {
+        "id": 89,
+        "raw": "[name=\"ヘルマン\"]   君に理解できるだろうか？　この都市は私が彼女のために作り上げた天国なんだ。",
+        "type": "dialog",
+        "speaker": "ヘルマン",
+        "content": "君に理解できるだろうか？　この都市は私が彼女のために作り上げた天国なんだ。"
+    },
+    {
+        "id": 90,
+        "raw": "[name=\"ヘルマン\"]   どうして君にこんな話をするか、だったな……。",
+        "type": "dialog",
+        "speaker": "ヘルマン",
+        "content": "どうして君にこんな話をするか、だったな……。"
+    },
+    {
+        "id": 91,
+        "raw": "[name=\"ヘルマン\"]   私にはわかる。君は私と同種の人間だからな。",
+        "type": "dialog",
+        "speaker": "ヘルマン",
+        "content": "私にはわかる。君は私と同種の人間だからな。"
+    },
+    {
+        "id": 92,
+        "raw": "[name=\"ヘルマン\"]   この世界では、正しい物事だけに頼っていても、解決できないことがある。時には悪事だと分かっていても、それに頼る必要もあるのだ。",
+        "type": "dialog",
+        "speaker": "ヘルマン",
+        "content": "この世界では、正しい物事だけに頼っていても、解決できないことがある。時には悪事だと分かっていても、それに頼る必要もあるのだ。"
+    },
+    {
+        "id": 93,
+        "raw": "[Decision(options=\"そうだ。;違う。;わからない。\",values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "そうだ。;違う。;わからない。",
+        "values": "1;2;3"
+    },
+    {
+        "id": 94,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 95,
+        "raw": "[name=\"ヘルマン\"]   私という人間にとって、善悪は遥か昔にその意味を失っている。あるのは結果だけ、あるのはこの都市だけだ。",
+        "type": "dialog",
+        "speaker": "ヘルマン",
+        "content": "私という人間にとって、善悪は遥か昔にその意味を失っている。あるのは結果だけ、あるのはこの都市だけだ。"
+    },
+    {
+        "id": 96,
+        "raw": "[Decision(options=\"どうしてそれをセイロンに言わない？\",values=\"1\")]",
+        "type": "decision",
+        "options": "どうしてそれをセイロンに言わない？",
+        "values": "1"
+    },
+    {
+        "id": 97,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 98,
+        "raw": "[name=\"ヘルマン\"]   私は理解を求めているわけではない、ドクター。",
+        "type": "dialog",
+        "speaker": "ヘルマン",
+        "content": "私は理解を求めているわけではない、ドクター。"
+    },
+    {
+        "id": 99,
+        "raw": "[name=\"ヘルマン\"]   もしあの子に理解させようとするなら、今のような接し方はしないだろう。",
+        "type": "dialog",
+        "speaker": "ヘルマン",
+        "content": "もしあの子に理解させようとするなら、今のような接し方はしないだろう。"
+    },
+    {
+        "id": 100,
+        "raw": "[name=\"ヘルマン\"]   それに、私の考えを伝えたからと言って、あの子がすぐに理解してくれるとは限らない。",
+        "type": "dialog",
+        "speaker": "ヘルマン",
+        "content": "それに、私の考えを伝えたからと言って、あの子がすぐに理解してくれるとは限らない。"
+    },
+    {
+        "id": 101,
+        "raw": "[name=\"ヘルマン\"]   それはまず無理だろうな。この世界はあの子が思うほど合理的にできていない。それを理解し受け入れるには時間がかかる。",
+        "type": "dialog",
+        "speaker": "ヘルマン",
+        "content": "それはまず無理だろうな。この世界はあの子が思うほど合理的にできていない。それを理解し受け入れるには時間がかかる。"
+    },
+    {
+        "id": 102,
+        "raw": "[name=\"ヘルマン\"]   シュヴァルツは、あの子がそんなことを永遠に理解する必要はないと考えているようだが、私は……残念ながら選択の機会を失ってしまった。",
+        "type": "dialog",
+        "speaker": "ヘルマン",
+        "content": "シュヴァルツは、あの子がそんなことを永遠に理解する必要はないと考えているようだが、私は……残念ながら選択の機会を失ってしまった。"
+    },
+    {
+        "id": 103,
+        "raw": "[name=\"ヘルマン\"]   ドクター、セイロンがロドスに入りたがっている。もしあの子が入れるのならば、シュヴァルツもついて行かせようと思う。",
+        "type": "dialog",
+        "speaker": "ヘルマン",
+        "content": "ドクター、セイロンがロドスに入りたがっている。もしあの子が入れるのならば、シュヴァルツもついて行かせようと思う。"
+    },
+    {
+        "id": 104,
+        "raw": "[name=\"ヘルマン\"]   シエスタは、もう彼女の天国でなくなってしまったからな。",
+        "type": "dialog",
+        "speaker": "ヘルマン",
+        "content": "シエスタは、もう彼女の天国でなくなってしまったからな。"
+    },
+    {
+        "id": 105,
+        "raw": "[name=\"ヘルマン\"]   新しい地質観測データを見たよ。このまま行けば、シエスタは遅かれ早かれ溶岩の海に沈むだろう。",
+        "type": "dialog",
+        "speaker": "ヘルマン",
+        "content": "新しい地質観測データを見たよ。このまま行けば、シエスタは遅かれ早かれ溶岩の海に沈むだろう。"
+    },
+    {
+        "id": 106,
+        "raw": "[name=\"ヘルマン\"]   その日の到来を遅らせることはできたとはいえな……。君たちが力を尽くしてくれたこと、本当に感謝しても感謝しきれない。",
+        "type": "dialog",
+        "speaker": "ヘルマン",
+        "content": "その日の到来を遅らせることはできたとはいえな……。君たちが力を尽くしてくれたこと、本当に感謝しても感謝しきれない。"
+    },
+    {
+        "id": 107,
+        "raw": "[name=\"ヘルマン\"]   実は私も、ここ数年来この件の解決法を探っていたんだ。そして一つだけ方法を見つけはしたものの、それはシエスタにとって代償の大きなものだ。",
+        "type": "dialog",
+        "speaker": "ヘルマン",
+        "content": "実は私も、ここ数年来この件の解決法を探っていたんだ。そして一つだけ方法を見つけはしたものの、それはシエスタにとって代償の大きなものだ。"
+    },
+    {
+        "id": 108,
+        "raw": "[name=\"ヘルマン\"]   これまで開発に精を出してきた高度開発エリア……そう、あれは新しい移動都市になりうる。今となっては、あれを新たなシエスタにする方法しか残されていない。",
+        "type": "dialog",
+        "speaker": "ヘルマン",
+        "content": "これまで開発に精を出してきた高度開発エリア……そう、あれは新しい移動都市になりうる。今となっては、あれを新たなシエスタにする方法しか残されていない。"
+    },
+    {
+        "id": 109,
+        "raw": "[name=\"ヘルマン\"]   私のこの土地に対する想い……いや、もう執念と言うべきか、それは何よりも深い。しかし今まさに目覚めようとしている火山の傍ら、手をこまねいているつもりはない。",
+        "type": "dialog",
+        "speaker": "ヘルマン",
+        "content": "私のこの土地に対する想い……いや、もう執念と言うべきか、それは何よりも深い。しかし今まさに目覚めようとしている火山の傍ら、手をこまねいているつもりはない。"
+    },
+    {
+        "id": 110,
+        "raw": "[name=\"ヘルマン\"]   今回の黒曜石祭が終了し落ち着いたら、移動都市への移住計画を推し進めるつもりだ。今のシエスタは遺棄され、いずれは溶岩の中に沈むだろう。",
+        "type": "dialog",
+        "speaker": "ヘルマン",
+        "content": "今回の黒曜石祭が終了し落ち着いたら、移動都市への移住計画を推し進めるつもりだ。今のシエスタは遺棄され、いずれは溶岩の中に沈むだろう。"
+    },
+    {
+        "id": 111,
+        "raw": "[Decision(options=\"では今後の黒曜石祭は……。\",values=\"1\")]",
+        "type": "decision",
+        "options": "では今後の黒曜石祭は……。",
+        "values": "1"
+    },
+    {
+        "id": 112,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 113,
+        "raw": "[name=\"ヘルマン\"]   聞くところによると、この海洋には果てがあるそうだ。本物の海ではなく、陸地に囲まれた地形であるという者もいる。",
+        "type": "dialog",
+        "speaker": "ヘルマン",
+        "content": "聞くところによると、この海洋には果てがあるそうだ。本物の海ではなく、陸地に囲まれた地形であるという者もいる。"
+    },
+    {
+        "id": 114,
+        "raw": "[name=\"ヘルマン\"]   となれば、この海岸沿いに移動していけば、いつの日か一周して、またこの場所に戻ってくることもあるかもしれん。",
+        "type": "dialog",
+        "speaker": "ヘルマン",
+        "content": "となれば、この海岸沿いに移動していけば、いつの日か一周して、またこの場所に戻ってくることもあるかもしれん。"
+    },
+    {
+        "id": 115,
+        "raw": "[name=\"ヘルマン\"]   ただ、美しい海岸と盛大な黒曜石祭、そしてこの場所で感じ取れる火山の息吹と海を渡る風は――",
+        "type": "dialog",
+        "speaker": "ヘルマン",
+        "content": "ただ、美しい海岸と盛大な黒曜石祭、そしてこの場所で感じ取れる火山の息吹と海を渡る風は――"
+    },
+    {
+        "id": 116,
+        "raw": "[name=\"ヘルマン\"]   シエスタ人の思い出が無数に詰まったシエスタは、もう二度と戻ってはこない。",
+        "type": "dialog",
+        "speaker": "ヘルマン",
+        "content": "シエスタ人の思い出が無数に詰まったシエスタは、もう二度と戻ってはこない。"
+    },
+    {
+        "id": 117,
+        "raw": "[name=\"ヘルマン\"]   今日話したことは、いつの日かセイロンに伝えてもいい。",
+        "type": "dialog",
+        "speaker": "ヘルマン",
+        "content": "今日話したことは、いつの日かセイロンに伝えてもいい。"
+    },
+    {
+        "id": 118,
+        "raw": "[name=\"ヘルマン\"]   もちろん、永遠に伝えなくてもいい。",
+        "type": "dialog",
+        "speaker": "ヘルマン",
+        "content": "もちろん、永遠に伝えなくてもいい。"
+    },
+    {
+        "id": 119,
+        "raw": "[name=\"ヘルマン\"]   どちらにせよ、あの子が助けを必要とする日が来たら、再び私を訪ねてくれ。",
+        "type": "dialog",
+        "speaker": "ヘルマン",
+        "content": "どちらにせよ、あの子が助けを必要とする日が来たら、再び私を訪ねてくれ。"
+    },
+    {
+        "id": 120,
+        "raw": "[name=\"ヘルマン\"]   シエスタがどこにあろうと、どのように変わろうと、この都市はいつまでもあの子を支え続ける存在であることに変わりはない。",
+        "type": "dialog",
+        "speaker": "ヘルマン",
+        "content": "シエスタがどこにあろうと、どのように変わろうと、この都市はいつまでもあの子を支え続ける存在であることに変わりはない。"
+    },
+    {
+        "id": 121,
+        "raw": "[name=\"ヘルマン\"]   いや――こう言うべきか。シエスタ人がいる限り、シエスタは永遠に不滅だ。あの子たちのような若者こそが、本物の「シエスタ」なのだから。",
+        "type": "dialog",
+        "speaker": "ヘルマン",
+        "content": "いや――こう言うべきか。シエスタ人がいる限り、シエスタは永遠に不滅だ。あの子たちのような若者こそが、本物の「シエスタ」なのだから。"
+    },
+    {
+        "id": 122,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 123,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 124,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 125,
+        "raw": "[Blocker(a=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 126,
+        "raw": "[Character(name=\"avg_npc_024\")]",
+        "type": "character",
+        "name": "avg_npc_024"
+    },
+    {
+        "id": 127,
+        "raw": "[name=\"ヘルマン\"]   今のうちに、今回の黒曜石祭を満喫していってくれ。",
+        "type": "dialog",
+        "speaker": "ヘルマン",
+        "content": "今のうちに、今回の黒曜石祭を満喫していってくれ。"
+    },
+    {
+        "id": 128,
+        "raw": "[name=\"ヘルマン\"]   新たな理想の会場が見つかるまでは、MSRとも疎遠にならざるを得ないだろう。それについては彼らともしっかり話し合う必要があるな。",
+        "type": "dialog",
+        "speaker": "ヘルマン",
+        "content": "新たな理想の会場が見つかるまでは、MSRとも疎遠にならざるを得ないだろう。それについては彼らともしっかり話し合う必要があるな。"
+    },
+    {
+        "id": 129,
+        "raw": "[name=\"ヘルマン\"]   そうだ、シュヴァルツも君と話したがっていた。彼女は、あそこにいる。",
+        "type": "dialog",
+        "speaker": "ヘルマン",
+        "content": "そうだ、シュヴァルツも君と話したがっていた。彼女は、あそこにいる。"
+    },
+    {
+        "id": 130,
+        "raw": "[name=\"ヘルマン\"]   さて、私の話が長くなりすぎれば、彼女が話したいこともなくなってしまう。やはり本人から言ってもらわないとな。",
+        "type": "dialog",
+        "speaker": "ヘルマン",
+        "content": "さて、私の話が長くなりすぎれば、彼女が話したいこともなくなってしまう。やはり本人から言ってもらわないとな。"
+    },
+    {
+        "id": 131,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 132,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 133,
+        "raw": "[Character(name=\"char_340_shwaz_2#3\",fadetime=1,block=true)]",
+        "type": "character",
+        "name": "char_340_shwaz_2#3",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 134,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3"
+    },
+    {
+        "id": 135,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 136,
+        "raw": "[name=\"シュヴァルツ\"]   ……旦那様。",
+        "type": "dialog",
+        "speaker": "シュヴァルツ",
+        "content": "……旦那様。"
+    },
+    {
+        "id": 137,
+        "raw": "[Character(name=\"avg_npc_024\")]",
+        "type": "character",
+        "name": "avg_npc_024"
+    },
+    {
+        "id": 138,
+        "raw": "[name=\"ヘルマン\"]   私のことは気にするな。ここからは君たち若者の時間だ。",
+        "type": "dialog",
+        "speaker": "ヘルマン",
+        "content": "私のことは気にするな。ここからは君たち若者の時間だ。"
+    },
+    {
+        "id": 139,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 140,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 141,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 142,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 143,
+        "raw": "[Blocker(a=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 144,
+        "raw": "[Character(name=\"char_340_shwaz_2#1\")]",
+        "type": "character",
+        "name": "char_340_shwaz_2#1"
+    },
+    {
+        "id": 145,
+        "raw": "[name=\"シュヴァルツ\"]   こんにちは。",
+        "type": "dialog",
+        "speaker": "シュヴァルツ",
+        "content": "こんにちは。"
+    },
+    {
+        "id": 146,
+        "raw": "[Decision(options=\"目的は？;こんにちは、見知らぬ御人。;一杯いかが？\",values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "目的は？;こんにちは、見知らぬ御人。;一杯いかが？",
+        "values": "1;2;3"
+    },
+    {
+        "id": 147,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 148,
+        "raw": "[name=\"シュヴァルツ\"]   そんなに警戒しないでください。もう敵同士ではありませんから。",
+        "type": "dialog",
+        "speaker": "シュヴァルツ",
+        "content": "そんなに警戒しないでください。もう敵同士ではありませんから。"
+    },
+    {
+        "id": 149,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 150,
+        "raw": "[Character(name=\"char_340_shwaz_2#1\")]",
+        "type": "character",
+        "name": "char_340_shwaz_2#1"
+    },
+    {
+        "id": 151,
+        "raw": "[name=\"シュヴァルツ\"]   フッ。こんにちは、見知らぬ御人。",
+        "type": "dialog",
+        "speaker": "シュヴァルツ",
+        "content": "フッ。こんにちは、見知らぬ御人。"
+    },
+    {
+        "id": 152,
+        "raw": "[Predicate(references=\"3\")]",
+        "type": "predicate",
+        "references": "3"
+    },
+    {
+        "id": 153,
+        "raw": "[name=\"シュヴァルツ\"]   今は遠慮しておきます。",
+        "type": "dialog",
+        "speaker": "シュヴァルツ",
+        "content": "今は遠慮しておきます。"
+    },
+    {
+        "id": 154,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 155,
+        "raw": "[name=\"シュヴァルツ\"]   何か特別話したいことがある……というわけではないのです。",
+        "type": "dialog",
+        "speaker": "シュヴァルツ",
+        "content": "何か特別話したいことがある……というわけではないのです。"
+    },
+    {
+        "id": 156,
+        "raw": "[name=\"シュヴァルツ\"]   元々はあなたに文句の一つでも、と思っていました……。お嬢様……いえ、セイロン様をあのような危険に晒したことについて。",
+        "type": "dialog",
+        "speaker": "シュヴァルツ",
+        "content": "元々はあなたに文句の一つでも、と思っていました……。お嬢様……いえ、セイロン様をあのような危険に晒したことについて。"
+    },
+    {
+        "id": 157,
+        "raw": "[name=\"シュヴァルツ\"]   ですが、今となってはやはり感謝しております。あなたがいなければ、私とセイロン様の誤解は永遠に解かれることはなかった。",
+        "type": "dialog",
+        "speaker": "シュヴァルツ",
+        "content": "ですが、今となってはやはり感謝しております。あなたがいなければ、私とセイロン様の誤解は永遠に解かれることはなかった。"
+    },
+    {
+        "id": 158,
+        "raw": "[name=\"シュヴァルツ\"]   私は一方的にセイロン様がこのようなことには関わってほしくないと考えておりました。ですがあなたの方が正しかったのですね。セイロン様にはご自身のお考えも、責任もあります。",
+        "type": "dialog",
+        "speaker": "シュヴァルツ",
+        "content": "私は一方的にセイロン様がこのようなことには関わってほしくないと考えておりました。ですがあなたの方が正しかったのですね。セイロン様にはご自身のお考えも、責任もあります。"
+    },
+    {
+        "id": 159,
+        "raw": "[Decision(options=\"彼女に代わって勝手に決定を下すのはよくない。;やり直すことはできないが、前に進むことはできる。;申し訳ないことをしたな？\",values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "彼女に代わって勝手に決定を下すのはよくない。;やり直すことはできないが、前に進むことはできる。;申し訳ないことをしたな？",
+        "values": "1;2;3"
+    },
+    {
+        "id": 160,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 161,
+        "raw": "[name=\"シュヴァルツ\"]   ……ありがとうございます。もしあなたたちがいなければ、今頃私の愛する全てがあの火山に呑み込まれていたかもしれません。",
+        "type": "dialog",
+        "speaker": "シュヴァルツ",
+        "content": "……ありがとうございます。もしあなたたちがいなければ、今頃私の愛する全てがあの火山に呑み込まれていたかもしれません。"
+    },
+    {
+        "id": 162,
+        "raw": "[name=\"シュヴァルツ\"]   このご恩、一生忘れません。そしてこの借りはいつかきっと返してみせます。",
+        "type": "dialog",
+        "speaker": "シュヴァルツ",
+        "content": "このご恩、一生忘れません。そしてこの借りはいつかきっと返してみせます。"
+    },
+    {
+        "id": 163,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 164,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 165,
+        "raw": "[Character(name=\"char_348_ceylon_4#6\")]",
+        "type": "character",
+        "name": "char_348_ceylon_4#6"
+    },
+    {
+        "id": 166,
+        "raw": "[name=\"セイロン\"]   ドクター！",
+        "type": "dialog",
+        "speaker": "セイロン",
+        "content": "ドクター！"
+    },
+    {
+        "id": 167,
+        "raw": "[Character(name=\"char_348_ceylon_4#8\")]",
+        "type": "character",
+        "name": "char_348_ceylon_4#8"
+    },
+    {
+        "id": 168,
+        "raw": "[name=\"セイロン\"]   あら、シュヴァルツもここにいたの？",
+        "type": "dialog",
+        "speaker": "セイロン",
+        "content": "あら、シュヴァルツもここにいたの？"
+    },
+    {
+        "id": 169,
+        "raw": "[Character(name=\"char_348_ceylon_4#8\",name2=\"char_340_shwaz_2#1\",focus=2)]",
+        "type": "character",
+        "name": "char_348_ceylon_4#8",
+        "name2": "char_340_shwaz_2#1",
+        "focus": 2
+    },
+    {
+        "id": 170,
+        "raw": "[name=\"シュヴァルツ\"]   ……セイロン様？",
+        "type": "dialog",
+        "speaker": "シュヴァルツ",
+        "content": "……セイロン様？"
+    },
+    {
+        "id": 171,
+        "raw": "[Character(name=\"char_348_ceylon_4#6\",name2=\"char_340_shwaz_2#1\",focus=1)]",
+        "type": "character",
+        "name": "char_348_ceylon_4#6",
+        "name2": "char_340_shwaz_2#1",
+        "focus": 1
+    },
+    {
+        "id": 172,
+        "raw": "[name=\"セイロン\"]   ちょうどよかった、貴方がたに伝えたいことがあるの！",
+        "type": "dialog",
+        "speaker": "セイロン",
+        "content": "ちょうどよかった、貴方がたに伝えたいことがあるの！"
+    },
+    {
+        "id": 173,
+        "raw": "[name=\"セイロン\"]   わたくし、ロドスに履歴書を出すつもりよ。",
+        "type": "dialog",
+        "speaker": "セイロン",
+        "content": "わたくし、ロドスに履歴書を出すつもりよ。"
+    },
+    {
+        "id": 174,
+        "raw": "[Decision(options=\"?!\",values=\"1\")]",
+        "type": "decision",
+        "options": "?!",
+        "values": "1"
+    },
+    {
+        "id": 175,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 176,
+        "raw": "[Character(name=\"char_348_ceylon_4#6\")]",
+        "type": "character",
+        "name": "char_348_ceylon_4#6"
+    },
+    {
+        "id": 177,
+        "raw": "[name=\"セイロン\"]   前にも言ったことがあるでしょう。元々、貴方がたの会社には興味があったの。",
+        "type": "dialog",
+        "speaker": "セイロン",
+        "content": "前にも言ったことがあるでしょう。元々、貴方がたの会社には興味があったの。"
+    },
+    {
+        "id": 178,
+        "raw": "[Decision(options=\"ロドスに入るのは簡単ではないが……。\",values=\"1\")]",
+        "type": "decision",
+        "options": "ロドスに入るのは簡単ではないが……。",
+        "values": "1"
+    },
+    {
+        "id": 179,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 180,
+        "raw": "[Character(name=\"char_348_ceylon_4#4\")]",
+        "type": "character",
+        "name": "char_348_ceylon_4#4"
+    },
+    {
+        "id": 181,
+        "raw": "[name=\"セイロン\"]   あら、エイヤフィヤトラさんとスカイフレアさんにお伺いは立てましたわ。わたくしの能力であれば全く問題ないと仰ってくれてますの。",
+        "type": "dialog",
+        "speaker": "セイロン",
+        "content": "あら、エイヤフィヤトラさんとスカイフレアさんにお伺いは立てましたわ。わたくしの能力であれば全く問題ないと仰ってくれてますの。"
+    },
+    {
+        "id": 182,
+        "raw": "[name=\"セイロン\"]   今回の件で知ることができた、貴方がたの実力も鑑みて、熟考して決めたことですわ。",
+        "type": "dialog",
+        "speaker": "セイロン",
+        "content": "今回の件で知ることができた、貴方がたの実力も鑑みて、熟考して決めたことですわ。"
+    },
+    {
+        "id": 183,
+        "raw": "[Character(name=\"char_348_ceylon_4#4\",name2=\"char_340_shwaz_2#1\",focus=2)]",
+        "type": "character",
+        "name": "char_348_ceylon_4#4",
+        "name2": "char_340_shwaz_2#1",
+        "focus": 2
+    },
+    {
+        "id": 184,
+        "raw": "[name=\"シュヴァルツ\"]   ロドスはただの製薬会社というわけでは……。",
+        "type": "dialog",
+        "speaker": "シュヴァルツ",
+        "content": "ロドスはただの製薬会社というわけでは……。"
+    },
+    {
+        "id": 185,
+        "raw": "[Character(name=\"char_348_ceylon_4#6\",name2=\"char_340_shwaz_2#1\",focus=1)]",
+        "type": "character",
+        "name": "char_348_ceylon_4#6",
+        "name2": "char_340_shwaz_2#1",
+        "focus": 1
+    },
+    {
+        "id": 186,
+        "raw": "[name=\"セイロン\"]   ええ、だから一緒に来てほしいの、シュヴァルツ。",
+        "type": "dialog",
+        "speaker": "セイロン",
+        "content": "ええ、だから一緒に来てほしいの、シュヴァルツ。"
+    },
+    {
+        "id": 187,
+        "raw": "[name=\"セイロン\"]   一応言っておくけど、お父様は同意してくれたわ。",
+        "type": "dialog",
+        "speaker": "セイロン",
+        "content": "一応言っておくけど、お父様は同意してくれたわ。"
+    },
+    {
+        "id": 188,
+        "raw": "[Character(name=\"char_348_ceylon_4#6\",name2=\"char_340_shwaz_2#5\",focus=2)]",
+        "type": "character",
+        "name": "char_348_ceylon_4#6",
+        "name2": "char_340_shwaz_2#5",
+        "focus": 2
+    },
+    {
+        "id": 189,
+        "raw": "[name=\"シュヴァルツ\"]   ……わかりました、仰せのままに。セイロン様。",
+        "type": "dialog",
+        "speaker": "シュヴァルツ",
+        "content": "……わかりました、仰せのままに。セイロン様。"
+    },
+    {
+        "id": 190,
+        "raw": "[Character(name=\"char_348_ceylon_4#6\")]",
+        "type": "character",
+        "name": "char_348_ceylon_4#6"
+    },
+    {
+        "id": 191,
+        "raw": "[name=\"セイロン\"]   ですからドクター、これからもよろしくお願いしますわね。",
+        "type": "dialog",
+        "speaker": "セイロン",
+        "content": "ですからドクター、これからもよろしくお願いしますわね。"
+    },
+    {
+        "id": 192,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 193,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 194,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 195,
+        "raw": "[stopsound(channel=\"B\", fadetime=1)]",
+        "type": "stop_sound",
+        "channel": "B",
+        "fadetime": 1
+    },
+    {
+        "id": 196,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 197,
+        "raw": "[largebg]",
+        "type": "large_bg"
+    },
+    {
+        "id": 198,
+        "raw": "[Background(image=\"bg_bridge\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_bridge.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 199,
+        "raw": "[Blocker(a=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 200,
+        "raw": "[name=\"セイロン\"]   ドクター、何をしているの！　実験を始めますわよ！",
+        "type": "dialog",
+        "speaker": "セイロン",
+        "content": "ドクター、何をしているの！　実験を始めますわよ！"
+    },
+    {
+        "id": 201,
+        "raw": "[name=\"セイロン\"]   ああもう、シュヴァルツ、ドクターを担いで来て！",
+        "type": "dialog",
+        "speaker": "セイロン",
+        "content": "ああもう、シュヴァルツ、ドクターを担いで来て！"
+    },
+    {
+        "id": 202,
+        "raw": "[name=\"シュヴァルツ\"]   ……周囲が振動するほどの音量です、ドクターに聞こえていないということはないかと思いますが……セイロン様。",
+        "type": "dialog",
+        "speaker": "シュヴァルツ",
+        "content": "……周囲が振動するほどの音量です、ドクターに聞こえていないということはないかと思いますが……セイロン様。"
+    },
+    {
+        "id": 203,
+        "raw": "[name=\"シュヴァルツ\"]   ……ドクター、何を待ってらっしゃるのかはわかりませんが、セイロン様はああなると。私たちが何を考えているかなどお構いなしです。",
+        "type": "dialog",
+        "speaker": "シュヴァルツ",
+        "content": "……ドクター、何を待ってらっしゃるのかはわかりませんが、セイロン様はああなると。私たちが何を考えているかなどお構いなしです。"
+    },
+    {
+        "id": 204,
+        "raw": "[name=\"シュヴァルツ\"]   面倒かもしれませんが行ってあげてください。本当に担いで行くのは、見苦しいですからね。",
+        "type": "dialog",
+        "speaker": "シュヴァルツ",
+        "content": "面倒かもしれませんが行ってあげてください。本当に担いで行くのは、見苦しいですからね。"
+    },
+    {
+        "id": 205,
+        "raw": "[Decision(options=\"今行く！;……。;彼女が変なことをしないように見ておくから、安心して。\",values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "今行く！;……。;彼女が変なことをしないように見ておくから、安心して。",
+        "values": "1;2;3"
+    },
+    {
+        "id": 206,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 207,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 208,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 209,
+        "raw": "[Background]",
+        "type": "background"
+    },
+    {
+        "id": 210,
+        "raw": "[Character(fadetime=0)]",
+        "type": "character",
+        "fadetime": 0
+    },
+    {
+        "id": 211,
+        "raw": "[Image(image=\"ac3_kv\",x=0, y=0, xScale=1, yScale=1, fadetime=0, screenadapt=\"coverall\")]",
+        "type": "image",
+        "image": "ac3_kv.png",
+        "x": "0,",
+        "y": "0,",
+        "xScale": "1,",
+        "yScale": "1,",
+        "fadetime": "0,",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 212,
+        "raw": "[Blocker(a=0, fadetime=3, block=false)]",
+        "type": "blocker",
+        "a": "0,",
+        "fadetime": "3,",
+        "block": false
+    },
+    {
+        "id": 213,
+        "raw": "[name=\"シュヴァルツ\"]   はい。",
+        "type": "dialog",
+        "speaker": "シュヴァルツ",
+        "content": "はい。"
+    },
+    {
+        "id": 214,
+        "raw": "[name=\"シュヴァルツ\"]   セイロン様！すぐに行きますから！",
+        "type": "dialog",
+        "speaker": "シュヴァルツ",
+        "content": "セイロン様！すぐに行きますから！"
+    },
+    {
+        "id": 215,
+        "raw": "[name=\"シュヴァルツ\"]   さぁ、行きましょう、ドクター。",
+        "type": "dialog",
+        "speaker": "シュヴァルツ",
+        "content": "さぁ、行きましょう、ドクター。"
+    },
+    {
+        "id": 216,
+        "raw": "[Image(fadetime=2)]",
+        "type": "image",
+        "fadetime": 2
+    },
+    {
+        "id": 217,
+        "raw": "[Delay(time=0.6)]",
+        "type": "delay",
+        "time": 0.6
+    },
+    {
+        "id": 218,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 219,
+        "raw": "[Blocker(block=true)]",
+        "type": "blocker",
+        "block": true
+    },
+    {
+        "id": 220,
+        "raw": "[Image]",
+        "type": "image"
+    }
+]

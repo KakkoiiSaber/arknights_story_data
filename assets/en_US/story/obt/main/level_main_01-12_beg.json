@@ -1,0 +1,683 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")] 第十二关（前）",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK",
+        "content": "第十二关（前）"
+    },
+    {
+        "id": 2,
+        "raw": "[name=\"\"]   Time - Unknown \\ Weather - Unknown \\ Visibility - Poor",
+        "type": "narration",
+        "content": "Time - Unknown \\ Weather - Unknown \\ Visibility - Poor"
+    },
+    {
+        "id": 3,
+        "raw": "[name=\"\"]   Chernobog - Operation Squad E0's Location",
+        "type": "narration",
+        "content": "Chernobog - Operation Squad E0's Location"
+    },
+    {
+        "id": 4,
+        "raw": "[name=\"\"]   Dr. {@nickname} Rescue Operation - Final Retreat Phase",
+        "type": "narration",
+        "content": "Dr. {@nickname} Rescue Operation - Final Retreat Phase"
+    },
+    {
+        "id": 5,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 6,
+        "raw": "[Background(image=\"bg_cher_3\", width=1, height=1, fadetime=1, screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_cher_3.png",
+        "width": "1,",
+        "height": "1,",
+        "fadetime": "1,",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 7,
+        "raw": "[stopmusic(fadetime=1)]",
+        "type": "stop_music",
+        "fadetime": 1
+    },
+    {
+        "id": 8,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 9,
+        "raw": "[Character(name=\"char_130_doberm_ex\")]",
+        "type": "character",
+        "name": "char_130_doberm_ex"
+    },
+    {
+        "id": 10,
+        "raw": "[name=\"Dobermann\"]   Damn it!",
+        "type": "dialog",
+        "speaker": "Dobermann",
+        "content": "Damn it!"
+    },
+    {
+        "id": 11,
+        "raw": "[name=\"Dobermann\"]   Even though we've already made it to the exit...!",
+        "type": "dialog",
+        "speaker": "Dobermann",
+        "content": "Even though we've already made it to the exit...!"
+    },
+    {
+        "id": 12,
+        "raw": "[Character(name=\"char_1504_cqbw#2\")]",
+        "type": "character",
+        "name": "char_1504_cqbw#2"
+    },
+    {
+        "id": 13,
+        "raw": "[name=\"???\"]  Did you really think we'd let you just stroll out of Chernobog?",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "Did you really think we'd let you just stroll out of Chernobog?"
+    },
+    {
+        "id": 14,
+        "raw": "[name=\"???\"]  Don't you think it's about time for someone to wake you from your daydream?",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "Don't you think it's about time for someone to wake you from your daydream?"
+    },
+    {
+        "id": 15,
+        "raw": "[Character(name=\"char_130_doberm_ex\")]",
+        "type": "character",
+        "name": "char_130_doberm_ex"
+    },
+    {
+        "id": 16,
+        "raw": "[name=\"Dobermann\"]   Our commmunications have been restored, and I've contact O.P.D. They'll be joining up with us shortly!",
+        "type": "dialog",
+        "speaker": "Dobermann",
+        "content": "Our commmunications have been restored, and I've contact O.P.D. They'll be joining up with us shortly!"
+    },
+    {
+        "id": 17,
+        "raw": "[name=\"Dobermann\"]   But, this blasted...",
+        "type": "dialog",
+        "speaker": "Dobermann",
+        "content": "But, this blasted..."
+    },
+    {
+        "id": 18,
+        "raw": "[Character(name=\"char_148_nearl_1#3\")]",
+        "type": "character",
+        "name": "char_148_nearl_1#3"
+    },
+    {
+        "id": 19,
+        "raw": "[name=\"Nearl\"]  Watch out, she's holding onto explosives!",
+        "type": "dialog",
+        "speaker": "Nearl",
+        "content": "Watch out, she's holding onto explosives!"
+    },
+    {
+        "id": 20,
+        "raw": "[PlayMusic(intro=\"$calamity_intro\", key=\"$calamity_loop\", volume=0.8, crossfade=1.5, delay=0.5)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta2_180603/m_dia_calamity_intro.mp3",
+        "key": "sound_beta_2/music/beta2_180603/m_dia_calamity_loop.mp3",
+        "volume": "0.8,",
+        "crossfade": "1.5,",
+        "delay": 0.5
+    },
+    {
+        "id": 21,
+        "raw": "[character(fadetime=0)]",
+        "type": "character",
+        "fadetime": 0
+    },
+    {
+        "id": 22,
+        "raw": "[Dialog(fadetime=0)]",
+        "type": "dialog_marker",
+        "fadetime": 0
+    },
+    {
+        "id": 23,
+        "raw": "[PlaySound(key=\"$d_sp_ballista\",volume=0.7)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_sp_ballista.mp3",
+        "volume": 0.7
+    },
+    {
+        "id": 24,
+        "raw": "[Blocker(a=1, r=100, g=100, b=100, fadetime=0.1,block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "100,",
+        "g": "100,",
+        "b": "100,",
+        "fadetime": "0.1,block=true"
+    },
+    {
+        "id": 25,
+        "raw": "[CameraShake(duration=1, xstrength=3, ystrength=5, vibrato=30, randomness=90, fadeout=false)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "xstrength": "3,",
+        "ystrength": "5,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": false
+    },
+    {
+        "id": 26,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.3, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.3,",
+        "block": true
+    },
+    {
+        "id": 27,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 28,
+        "raw": "[Character(name=\"char_130_doberm_ex\")]",
+        "type": "character",
+        "name": "char_130_doberm_ex"
+    },
+    {
+        "id": 29,
+        "raw": "[name=\"Dobermann\"]   I still can't get in touch with the recon team!",
+        "type": "dialog",
+        "speaker": "Dobermann",
+        "content": "I still can't get in touch with the recon team!"
+    },
+    {
+        "id": 30,
+        "raw": "[Character(name=\"char_002_amiya_1#7\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#7"
+    },
+    {
+        "id": 31,
+        "raw": "[name=\"Amiya\"]  ... Who exactly are you?",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "... Who exactly are you?"
+    },
+    {
+        "id": 32,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 33,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 34,
+        "raw": "[Character(name=\"char_1504_cqbw\",fadetime=1)]",
+        "type": "character",
+        "name": "char_1504_cqbw",
+        "fadetime": 1
+    },
+    {
+        "id": 35,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 36,
+        "raw": "[name=\"???\"]  I don't expect you to know who I am...",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "I don't expect you to know who I am..."
+    },
+    {
+        "id": 37,
+        "raw": "[name=\"???\"]  But, I know that person next to you.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "But, I know that person next to you."
+    },
+    {
+        "id": 38,
+        "raw": "[Character(name=\"char_002_amiya_1#7\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#7"
+    },
+    {
+        "id": 39,
+        "raw": "[name=\"Amiya\"]  Is Reunion... going to continue fighting us?",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Is Reunion... going to continue fighting us?"
+    },
+    {
+        "id": 40,
+        "raw": "[Character(name=\"char_002_amiya_1#7\", name2=\"char_1504_cqbw\", focus=2)]",
+        "type": "character",
+        "name": "char_002_amiya_1#7",
+        "name2": "char_1504_cqbw",
+        "focus": 2
+    },
+    {
+        "id": 41,
+        "raw": "[name=\"???\"]  Hey, hey, don't be like that.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "Hey, hey, don't be like that."
+    },
+    {
+        "id": 42,
+        "raw": "[name=\"???\"]  I have no love for that she-dragon, Talulah. I'm not even cut out for this goaltending business. It's a pain to have to rush over here after a long day of work.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "I have no love for that she-dragon, Talulah. I'm not even cut out for this goaltending business. It's a pain to have to rush over here after a long day of work."
+    },
+    {
+        "id": 43,
+        "raw": "[name=\"???\"]  So for the sake of future cooperation, why don't we exchange some pleasantries first?",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "So for the sake of future cooperation, why don't we exchange some pleasantries first?"
+    },
+    {
+        "id": 44,
+        "raw": "[name=\"???\"]  You may simply call me... W.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "You may simply call me... W."
+    },
+    {
+        "id": 45,
+        "raw": "[name=\"W\"]  I've waited a long time to see that person next to you.",
+        "type": "dialog",
+        "speaker": "W",
+        "content": "I've waited a long time to see that person next to you."
+    },
+    {
+        "id": 46,
+        "raw": "[Character(name=\"char_002_amiya_1#7\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#7"
+    },
+    {
+        "id": 47,
+        "raw": "[name=\"Amiya\"]  ...Doctor?",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "...Doctor?"
+    },
+    {
+        "id": 48,
+        "raw": "[Character(name=\"char_002_amiya_1#7\", name2=\"char_1504_cqbw\", focus=2)]",
+        "type": "character",
+        "name": "char_002_amiya_1#7",
+        "name2": "char_1504_cqbw",
+        "focus": 2
+    },
+    {
+        "id": 49,
+        "raw": "[name=\"W\"]  Dr.{@Nickname}......",
+        "type": "dialog",
+        "speaker": "W",
+        "content": "Dr.{@Nickname}......"
+    },
+    {
+        "id": 50,
+        "raw": "[name=\"W\"]  I have a few little questions I'd like to ask {@Nickname}. Would you be so kind as to give us some... alone time?",
+        "type": "dialog",
+        "speaker": "W",
+        "content": "I have a few little questions I'd like to ask {@Nickname}. Would you be so kind as to give us some... alone time?"
+    },
+    {
+        "id": 51,
+        "raw": "[stopmusic(fadetime=1)]",
+        "type": "stop_music",
+        "fadetime": 1
+    },
+    {
+        "id": 52,
+        "raw": "[Character(name=\"char_148_nearl_1#1\")]",
+        "type": "character",
+        "name": "char_148_nearl_1#1"
+    },
+    {
+        "id": 53,
+        "raw": "[name=\"Nearl\"]  You're wasting your breath.",
+        "type": "dialog",
+        "speaker": "Nearl",
+        "content": "You're wasting your breath."
+    },
+    {
+        "id": 54,
+        "raw": "[Character(name=\"char_148_nearl_1#8\", name2=\"char_1504_cqbw\", focus=2)]",
+        "type": "character",
+        "name": "char_148_nearl_1#8",
+        "name2": "char_1504_cqbw",
+        "focus": 2
+    },
+    {
+        "id": 55,
+        "raw": "[name=\"W\"]  --Don't be so hasty. I have some information you might be interested in.",
+        "type": "dialog",
+        "speaker": "W",
+        "content": "--Don't be so hasty. I have some information you might be interested in."
+    },
+    {
+        "id": 56,
+        "raw": "[name=\"W\"]  Actually, we just met some rather slick fellows... Quite skilled, and dressed just like you guys.",
+        "type": "dialog",
+        "speaker": "W",
+        "content": "Actually, we just met some rather slick fellows... Quite skilled, and dressed just like you guys."
+    },
+    {
+        "id": 57,
+        "raw": "[name=\"W\"]  Though their camouflage might have been enough to fool Ursus, I saw right through their little trick~",
+        "type": "dialog",
+        "speaker": "W",
+        "content": "Though their camouflage might have been enough to fool Ursus, I saw right through their little trick~"
+    },
+    {
+        "id": 58,
+        "raw": "[Character(name=\"char_002_amiya_1#2\", name2=\"char_1504_cqbw\", focus=1)]",
+        "type": "character",
+        "name": "char_002_amiya_1#2",
+        "name2": "char_1504_cqbw",
+        "focus": 1
+    },
+    {
+        "id": 59,
+        "raw": "[name=\"Amiya\"]  Could they be from the recon team?",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Could they be from the recon team?"
+    },
+    {
+        "id": 60,
+        "raw": "[name=\"Amiya\"]  I'm glad... that they're safe...",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "I'm glad... that they're safe..."
+    },
+    {
+        "id": 61,
+        "raw": "[Character(name=\"char_002_amiya_1#2\", name2=\"char_1504_cqbw\", focus=2)]",
+        "type": "character",
+        "name": "char_002_amiya_1#2",
+        "name2": "char_1504_cqbw",
+        "focus": 2
+    },
+    {
+        "id": 62,
+        "raw": "[name=\"W\"]  Little bunny, are you their leader?",
+        "type": "dialog",
+        "speaker": "W",
+        "content": "Little bunny, are you their leader?"
+    },
+    {
+        "id": 63,
+        "raw": "[Character(name=\"char_002_amiya_1#1\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#1"
+    },
+    {
+        "id": 64,
+        "raw": "[name=\"Amiya\"]  ? !",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "? !"
+    },
+    {
+        "id": 65,
+        "raw": "[Character(name=\"char_002_amiya_1#1\", name2=\"char_1504_cqbw\", focus=2)]",
+        "type": "character",
+        "name": "char_002_amiya_1#1",
+        "name2": "char_1504_cqbw",
+        "focus": 2
+    },
+    {
+        "id": 66,
+        "raw": "[name=\"W\"]  I'm quite curious, what charm do you hold over them... so that they'd give their lives so enthusiastically and unremorsefully for you?",
+        "type": "dialog",
+        "speaker": "W",
+        "content": "I'm quite curious, what charm do you hold over them... so that they'd give their lives so enthusiastically and unremorsefully for you?"
+    },
+    {
+        "id": 67,
+        "raw": "[Character(name=\"char_002_amiya_1#7\", name2=\"char_1504_cqbw\", focus=1)]",
+        "type": "character",
+        "name": "char_002_amiya_1#7",
+        "name2": "char_1504_cqbw",
+        "focus": 1
+    },
+    {
+        "id": 68,
+        "raw": "[name=\"Amiya\"]  What... are you saying...?",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "What... are you saying...?"
+    },
+    {
+        "id": 69,
+        "raw": "[Character(name=\"char_1504_cqbw\")]",
+        "type": "character",
+        "name": "char_1504_cqbw"
+    },
+    {
+        "id": 70,
+        "raw": "[name=\"W\"]  You heard me. None of them... will be returning to you.",
+        "type": "dialog",
+        "speaker": "W",
+        "content": "You heard me. None of them... will be returning to you."
+    },
+    {
+        "id": 71,
+        "raw": "[name=\"W\"]  Hey, you...",
+        "type": "dialog",
+        "speaker": "W",
+        "content": "Hey, you..."
+    },
+    {
+        "id": 72,
+        "raw": "[name=\"W\"]  Are you really... worth sacrificing their lives over?",
+        "type": "dialog",
+        "speaker": "W",
+        "content": "Are you really... worth sacrificing their lives over?"
+    },
+    {
+        "id": 73,
+        "raw": "[PlayMusic(intro=\"$m_bat_game02_intro\", key=\"$m_bat_game02_loop\", volume=0.8, crossfade=1.5, delay=0.5)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta3_181101/m_bat_game02_intro.mp3",
+        "key": "sound_beta_2/music/beta3_181101/m_bat_game02_loop.mp3",
+        "volume": "0.8,",
+        "crossfade": "1.5,",
+        "delay": 0.5
+    },
+    {
+        "id": 74,
+        "raw": "[Character(name=\"char_002_amiya_1#7\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#7"
+    },
+    {
+        "id": 75,
+        "raw": "[name=\"Amiya\"]  ...",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "..."
+    },
+    {
+        "id": 76,
+        "raw": "[Decision(options=\"Don't worry about her. The exit's right there!;Amiya...;What's the point of you doing this, W?\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "Don't worry about her. The exit's right there!;Amiya...;What's the point of you doing this, W?",
+        "values": "1;2;3"
+    },
+    {
+        "id": 77,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 78,
+        "raw": "[Character(name=\"char_1504_cqbw\")]",
+        "type": "character",
+        "name": "char_1504_cqbw"
+    },
+    {
+        "id": 79,
+        "raw": "[name=\"W\"]  I'm not done talking yet.",
+        "type": "dialog",
+        "speaker": "W",
+        "content": "I'm not done talking yet."
+    },
+    {
+        "id": 80,
+        "raw": "[name=\"W\"]  Amiya...",
+        "type": "dialog",
+        "speaker": "W",
+        "content": "Amiya..."
+    },
+    {
+        "id": 81,
+        "raw": "[name=\"W\"]  ... Did I make you mad?",
+        "type": "dialog",
+        "speaker": "W",
+        "content": "... Did I make you mad?"
+    },
+    {
+        "id": 82,
+        "raw": "[Character(name=\"char_002_amiya_1#7\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#7"
+    },
+    {
+        "id": 83,
+        "raw": "[name=\"Amiya\"]  ... You've gone too far.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "... You've gone too far."
+    },
+    {
+        "id": 84,
+        "raw": "[Character(name=\"char_1504_cqbw\")]",
+        "type": "character",
+        "name": "char_1504_cqbw"
+    },
+    {
+        "id": 85,
+        "raw": "[name=\"W\"]  Good, good... Now that's more like it.",
+        "type": "dialog",
+        "speaker": "W",
+        "content": "Good, good... Now that's more like it."
+    },
+    {
+        "id": 86,
+        "raw": "[name=\"W\"]  Come at me.",
+        "type": "dialog",
+        "speaker": "W",
+        "content": "Come at me."
+    },
+    {
+        "id": 87,
+        "raw": "[Character(name=\"char_002_amiya_1#7\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#7"
+    },
+    {
+        "id": 88,
+        "raw": "[name=\"Amiya\"]  W of the Reunion Movement, you've gone too far!",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "W of the Reunion Movement, you've gone too far!"
+    },
+    {
+        "id": 89,
+        "raw": "[name=\"Amiya\"]  Every life is precious, each and every one...",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Every life is precious, each and every one..."
+    },
+    {
+        "id": 90,
+        "raw": "[name=\"Amiya\"]  This is something that you'll never tarnish!",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "This is something that you'll never tarnish!"
+    },
+    {
+        "id": 91,
+        "raw": "[name=\"Amiya\"]  Doctor!!",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Doctor!!"
+    },
+    {
+        "id": 92,
+        "raw": "[Decision(options=\"Rhodes Island, prepare for combat!\", values=\"1\")]",
+        "type": "decision",
+        "options": "Rhodes Island, prepare for combat!",
+        "values": "1"
+    },
+    {
+        "id": 93,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 94,
+        "raw": "[Character(name=\"char_1504_cqbw\")]",
+        "type": "character",
+        "name": "char_1504_cqbw"
+    },
+    {
+        "id": 95,
+        "raw": "[name=\"W\"]  Heheh...",
+        "type": "dialog",
+        "speaker": "W",
+        "content": "Heheh..."
+    },
+    {
+        "id": 96,
+        "raw": "[Delay(time=0.6)]",
+        "type": "delay",
+        "time": 0.6
+    },
+    {
+        "id": 97,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 98,
+        "raw": "[Blocker(block=true)]",
+        "type": "blocker",
+        "block": true
+    },
+    {
+        "id": 99,
+        "raw": "[Image]",
+        "type": "image"
+    }
+]

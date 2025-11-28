@@ -1,0 +1,4440 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")]",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK"
+    },
+    {
+        "id": 2,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 3,
+        "raw": "[Background(image=\"bg_black\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_black.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 4,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 5,
+        "raw": "[stopmusic]",
+        "type": "stop_music"
+    },
+    {
+        "id": 6,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 7,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 8,
+        "raw": "[PlayMusic(intro=\"$loneliness_intro\", key=\"$loneliness_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/static/m_avg/m_avg_loneliness_intro.mp3",
+        "key": "sound_beta_2/music/static/m_avg/m_avg_loneliness_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 9,
+        "raw": "[interlude(maskid = \"ui_cutin_mask_vertical\", style = 1, size = \"450, 720\",offset = \"-100,0\", channel = 2)]",
+        "type": "interlude"
+    },
+    {
+        "id": 10,
+        "raw": "[interlude(channel = 2, type = 2, name = \"bg_ltroom\", afrom = 0, ato = 1, aduration = 3, sfrom = \"1.3,1.3\", sto = \"1.3,1.3\", sduration = 0)]",
+        "type": "interlude"
+    },
+    {
+        "id": 11,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 12,
+        "raw": "[interlude(channel = 2, type = 1, slot = \"m\", offset = \"-100,-20\", name = \"cutin_char_16\",sfrom = \"0.9,0.9\", sto = \"0.9,0.9\",  aduration = 2,block=false)]",
+        "type": "interlude",
+        "block": false
+    },
+    {
+        "id": 13,
+        "raw": "[interlude(channel = 2, type = 1, slot = \"m\", pfrom = \"-100,-20\", pto = \"-140,-20\", duration = 40)]",
+        "type": "interlude"
+    },
+    {
+        "id": 14,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 15,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"In my wardrobe, I have a drawer specifically for collecting medals.\", x=300,y=270, alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "In my wardrobe, I have a drawer specifically for collecting medals.",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"The medal I received upon graduating from Cyr Military College, the fifteen-year service medal from the Defense Forces, the Londinium Freedom Medal awarded to me by City Hall four years ago, after quelling the chaos in the city.\", x=300,y=270, alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "The medal I received upon graduating from Cyr Military College, the fifteen-year service medal from the Defense Forces, the Londinium Freedom Medal awarded to me by City Hall four years ago, after quelling the chaos in the city.",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"Deeper in the drawer are the remnants of a previous order, passed down through my family. The emblem of the Vieux Vanguard, a piece of brick from Lingones, and a golden cup awarded by His Majesty Corsica I.\",x=300,y=270, alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "Deeper in the drawer are the remnants of a previous order, passed down through my family. The emblem of the Vieux Vanguard, a piece of brick from Lingones, and a golden cup awarded by His Majesty Corsica I.",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nThe cup is now split into two pieces, and the etchings on top are unclear. However, I remember the layout of each pattern, and the expressions on each relief figure.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nThe cup is now split into two pieces, and the etchings on top are unclear. However, I remember the layout of each pattern, and the expressions on each relief figure."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"This is all that my parents, my uncles, and aunts, all that they hoped for: the glory of Gaul, a glory that cannot be denied, and would never fade.\", x=300,y=270, alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "This is all that my parents, my uncles, and aunts, all that they hoped for: the glory of Gaul, a glory that cannot be denied, and would never fade.",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": 25,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 26,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 27,
+        "raw": "[interlude(channel = 2,clear = true,duration=2)]",
+        "type": "interlude",
+        "duration": 2
+    },
+    {
+        "id": 28,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 29,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 30,
+        "raw": "[Background(image=\"bg_offce\", screenadapt=\"coverall\", block=true)]",
+        "type": "background",
+        "image": "bg_offce.png",
+        "screenadapt": "coverall",
+        "block": true
+    },
+    {
+        "id": 31,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#8$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#8$1.png"
+    },
+    {
+        "id": 32,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 33,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 34,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 35,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#8$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#8$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 36,
+        "raw": "[name=\"Lt. Colonel Lettou\"]...The cup is quite weighty. You should be able to sell it for a good price. The market for Gaulish pieces has always been brisk.",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "...The cup is quite weighty. You should be able to sell it for a good price. The market for Gaulish pieces has always been brisk."
+    },
+    {
+        "id": 37,
+        "raw": "[name=\"Lt. Colonel Lettou\"]Even if you just melt the thing and sell it as raw gold, it should be enough for you to easily buy an apartment in the finest part of any city.",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "Even if you just melt the thing and sell it as raw gold, it should be enough for you to easily buy an apartment in the finest part of any city."
+    },
+    {
+        "id": 38,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 39,
+        "raw": "[playsound(key=\"$d_avg_key\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_key.mp3"
+    },
+    {
+        "id": 40,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 41,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#6$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#6$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 42,
+        "raw": "[name=\"Lt. Colonel Lettou\"]Here is the key to my home, keep it. The things are in the wardrobe.",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "Here is the key to my home, keep it. The things are in the wardrobe."
+    },
+    {
+        "id": 43,
+        "raw": "[name=\"Lt. Colonel Lettou\"]Pick a place and start over. Forget everything that happened this past year, call it a fleeting nightmare.",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "Pick a place and start over. Forget everything that happened this past year, call it a fleeting nightmare."
+    },
+    {
+        "id": 44,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_399_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_399_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 45,
+        "raw": "[name=\"Former Defense Forces Soldier\"]Sir, it was you who saved me when those Sarkaz were chasing me. You hid me in the Defense Forces office.",
+        "type": "dialog",
+        "speaker": "Former Defense Forces Soldier",
+        "content": "Sir, it was you who saved me when those Sarkaz were chasing me. You hid me in the Defense Forces office."
+    },
+    {
+        "id": 46,
+        "raw": "[name=\"Former Defense Forces Soldier\"]I should be thanking you. I'm no longer a member of the Forces, or your Gaulish compatriot...",
+        "type": "dialog",
+        "speaker": "Former Defense Forces Soldier",
+        "content": "I should be thanking you. I'm no longer a member of the Forces, or your Gaulish compatriot..."
+    },
+    {
+        "id": 47,
+        "raw": "[name=\"Former Defense Forces Soldier\"]You didn't have to—",
+        "type": "dialog",
+        "speaker": "Former Defense Forces Soldier",
+        "content": "You didn't have to—"
+    },
+    {
+        "id": 48,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 49,
+        "raw": "[name=\"Lt. Colonel Lettou\"]Take it.",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "Take it."
+    },
+    {
+        "id": 50,
+        "raw": "[name=\"Lt. Colonel Lettou\"]If you find anything else in the house you like, it's yours. The memories mean little to me anymore.",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "If you find anything else in the house you like, it's yours. The memories mean little to me anymore."
+    },
+    {
+        "id": 51,
+        "raw": "[name=\"Lt. Colonel Lettou\"]You'll want to hide here for a while yet, until the situation stabilizes.",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "You'll want to hide here for a while yet, until the situation stabilizes."
+    },
+    {
+        "id": 52,
+        "raw": "[name=\"Lt. Colonel Lettou\"]The Military Commission has disarmed the Defense Forces. As it stands now, you're no different from the Victorian civilians to the Sarkaz.",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "The Military Commission has disarmed the Defense Forces. As it stands now, you're no different from the Victorian civilians to the Sarkaz."
+    },
+    {
+        "id": 53,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_399_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_399_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 54,
+        "raw": "[name=\"Former Defense Forces Soldier\"]But our comrades are still outside. Some of them are, um, unsettled. I want to save them all...",
+        "type": "dialog",
+        "speaker": "Former Defense Forces Soldier",
+        "content": "But our comrades are still outside. Some of them are, um, unsettled. I want to save them all..."
+    },
+    {
+        "id": 55,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#8$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#8$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 56,
+        "raw": "[name=\"Lt. Colonel Lettou\"]They've all been captured.",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "They've all been captured."
+    },
+    {
+        "id": 57,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_399_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_399_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 58,
+        "raw": "[name=\"Former Defense Forces Soldier\"]......",
+        "type": "dialog",
+        "speaker": "Former Defense Forces Soldier",
+        "content": "......"
+    },
+    {
+        "id": 59,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#8$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#8$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 60,
+        "raw": "[name=\"Lt. Colonel Lettou\"]I handed them over to the Military Commission myself.",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "I handed them over to the Military Commission myself."
+    },
+    {
+        "id": 61,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_399_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_399_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 62,
+        "raw": "[name=\"Former Defense Forces Soldier\"]You what...?",
+        "type": "dialog",
+        "speaker": "Former Defense Forces Soldier",
+        "content": "You what...?"
+    },
+    {
+        "id": 63,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 64,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 65,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 66,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"The anger in his eyes deflates before it can reach a peak.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "The anger in his eyes deflates before it can reach a peak.",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nA coward, I evaluated him as much in the past. He may have had some courage in battle, but ultimately, he is a coward.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nA coward, I evaluated him as much in the past. He may have had some courage in battle, but ultimately, he is a coward."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nHe survives here with me in ignominy. He can't be compared to those warriors who resist the Sarkaz.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nHe survives here with me in ignominy. He can't be compared to those warriors who resist the Sarkaz."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nHe could never compare.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nHe could never compare."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"......\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "......",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nCould I?\",block = true)]",
+        "type": "sticker",
+        "text": "\\nCould I?"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"Hah.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "Hah.",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nI... don't care.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nI... don't care."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nIt's been a long time since I cared.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nIt's been a long time since I cared."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": 79,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 80,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_399_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_399_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 81,
+        "raw": "[name=\"Former Defense Forces Soldier\"]Sir, what... are you going to do next?",
+        "type": "dialog",
+        "speaker": "Former Defense Forces Soldier",
+        "content": "Sir, what... are you going to do next?"
+    },
+    {
+        "id": 82,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 83,
+        "raw": "[name=\"Lt. Colonel Lettou\"]Me?",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "Me?"
+    },
+    {
+        "id": 84,
+        "raw": "[name=\"Lt. Colonel Lettou\"]The Sanguinarch of Vampires has been waiting for me for some time.",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "The Sanguinarch of Vampires has been waiting for me for some time."
+    },
+    {
+        "id": 85,
+        "raw": "[name=\"Lt. Colonel Lettou\"]Stay here. Wait until it's all done before you go.",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "Stay here. Wait until it's all done before you go."
+    },
+    {
+        "id": 86,
+        "raw": "[name=\"Lt. Colonel Lettou\"]If you want to live, you'd best pray that when you open the door, the cheering you hear is Victorians, and not the devils.",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "If you want to live, you'd best pray that when you open the door, the cheering you hear is Victorians, and not the devils."
+    },
+    {
+        "id": 87,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 88,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 89,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 90,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 91,
+        "raw": "[Background(image=\"bg_black\", screenadapt=\"coverall\", block=true)]",
+        "type": "background",
+        "image": "bg_black.png",
+        "screenadapt": "coverall",
+        "block": true
+    },
+    {
+        "id": 92,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 93,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 94,
+        "raw": "[Delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"......\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "......",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nCheering Victorians...\",block = true)]",
+        "type": "sticker",
+        "text": "\\nCheering Victorians..."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nThe first thing that comes to my mind is, surprisingly, that Victoria will win.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nThe first thing that comes to my mind is, surprisingly, that Victoria will win."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"No, it's probably just a force of habit. Naturally, I hope that Theresis will win. That's the prerequisite to him restoring Gaul.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "No, it's probably just a force of habit. Naturally, I hope that Theresis will win. That's the prerequisite to him restoring Gaul.",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nAll my sacrifices, all my betrayals, all my unforgivable sins were enacted in the service of Gaul.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nAll my sacrifices, all my betrayals, all my unforgivable sins were enacted in the service of Gaul."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nYes, of course, I serve... Gaul.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nYes, of course, I serve... Gaul."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nI hope.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nI hope."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": 104,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 105,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 106,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 107,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 108,
+        "raw": "[Background(image=\"32_g1_lentiavenue\", screenadapt=\"coverall\", block=true)]",
+        "type": "background",
+        "image": "32_g1_lentiavenue.png",
+        "screenadapt": "coverall",
+        "block": true
+    },
+    {
+        "id": 109,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 110,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 111,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 112,
+        "raw": "[PlaySound(key=\"$d_avg_soldiersstep\",volume=0.5)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_soldiersstep.mp3",
+        "volume": 0.5
+    },
+    {
+        "id": 113,
+        "raw": "[PlaySound(key=\"$d_avg_autocannon\", volume=0.9)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_autocannon.mp3",
+        "volume": 0.9
+    },
+    {
+        "id": 114,
+        "raw": "[PlaySound(key=\"$d_avg_wellwheel\",volume=0.4)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_wellwheel.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 115,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 116,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 117,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 118,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 119,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"Groups of people are led out by the Sarkaz forces, heading for the city walls in the distance.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "Groups of people are led out by the Sarkaz forces, heading for the city walls in the distance.",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nThe Sarkaz intend to fortify Londinium, and I'm afraid the final battle lies right before us.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nThe Sarkaz intend to fortify Londinium, and I'm afraid the final battle lies right before us."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nDo they plan to defend the Victorian capital? Perhaps.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nDo they plan to defend the Victorian capital? Perhaps."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"Some of the men cast resentful glances at me. I know them. We once... shared a toast.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "Some of the men cast resentful glances at me. I know them. We once... shared a toast.",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nNo one stops me. The Sarkaz don't care where I'm going.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nNo one stops me. The Sarkaz don't care where I'm going."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nEven if you open the door for a caged fowlbeast, where can it fly?\",block = true)]",
+        "type": "sticker",
+        "text": "\\nEven if you open the door for a caged fowlbeast, where can it fly?"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": 128,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 129,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 130,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 131,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 132,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 133,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 134,
+        "raw": "[Background(image=\"25_mini02_victoria_street_n\", screenadapt=\"coverall\", block=true)]",
+        "type": "background",
+        "image": "25_mini02_victoria_street_n.png",
+        "screenadapt": "coverall",
+        "block": true
+    },
+    {
+        "id": 135,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 136,
+        "raw": "[playMusic(intro=\"$darkness02_intro\", key=\"$darkness02_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta1_180603/m_dia_darkness02_intro.mp3",
+        "key": "sound_beta_2/music/beta1_180603/m_dia_darkness02_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 137,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 138,
+        "raw": "[Delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 139,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_401_1#1$1\",bstart=0.2,bend=0.7,duration=0.7)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_401_1#1$1.png",
+        "bstart": "0.2,bend=0.7,duration=0.7"
+    },
+    {
+        "id": 140,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 141,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_401_1#1$1\",bstart=0.2,bend=0.7,focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_401_1#1$1.png",
+        "bstart": "0.2,bend=0.7,focus=\"m\""
+    },
+    {
+        "id": 142,
+        "raw": "[name=\"???\"]René Lettou?",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "René Lettou?"
+    },
+    {
+        "id": 143,
+        "raw": "[name=\"???\"]I didn't expect to encounter you like this.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "I didn't expect to encounter you like this."
+    },
+    {
+        "id": 144,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 145,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_401_1#1$1\",bstart=0.2,bend=0.7,focus=\"m\")]",
+        "type": "charslot",
+        "bstart": "0.2,bend=0.7,focus=\"m\""
+    },
+    {
+        "id": 146,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": false
+    },
+    {
+        "id": 147,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 148,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#1$1\",posfrom = \"0,0\", posto = \"200,0\",focus=\"n\")]",
+        "type": "charslot",
+        "focus": "n"
+    },
+    {
+        "id": 149,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_401_1#1$1\",bstart=0,bend=0,duration=2,focus=\"m\")]",
+        "type": "charslot",
+        "bstart": "0,bend=0,duration=2,focus=\"m\""
+    },
+    {
+        "id": 150,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 151,
+        "raw": "[name=\"Clovisia\"]This may be a good sign. At least you haven't been executed by the Sarkaz.",
+        "type": "dialog",
+        "speaker": "Clovisia",
+        "content": "This may be a good sign. At least you haven't been executed by the Sarkaz."
+    },
+    {
+        "id": 152,
+        "raw": "[name=\"Clovisia\"]Do you have time to chat?",
+        "type": "dialog",
+        "speaker": "Clovisia",
+        "content": "Do you have time to chat?"
+    },
+    {
+        "id": 153,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 154,
+        "raw": "[charslot(duration=0.2)]",
+        "type": "charslot",
+        "duration": 0.2
+    },
+    {
+        "id": 155,
+        "raw": "[delay(time=0.3)]",
+        "type": "delay",
+        "time": 0.3
+    },
+    {
+        "id": 156,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#1$1\",focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 157,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_649_1#1$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_649_1#1$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 158,
+        "raw": "[name=\"Lt. Colonel Lettou\"]......",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "......"
+    },
+    {
+        "id": 159,
+        "raw": "[name=\"Lt. Colonel Lettou\"]Hm, I know you... You're Clovisia, the little leader of the Self-Salvation Corps, yes?",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "Hm, I know you... You're Clovisia, the little leader of the Self-Salvation Corps, yes?"
+    },
+    {
+        "id": 160,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_649_1#5$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_649_1#5$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 161,
+        "raw": "[name=\"Lt. Colonel Lettou\"]We've cleared out all your bases, the remaining forces should have all fled Londinium. Why are you still here?",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "We've cleared out all your bases, the remaining forces should have all fled Londinium. Why are you still here?"
+    },
+    {
+        "id": 162,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#1$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 163,
+        "raw": "[name=\"Clovisia\"]Some of the thanks go to the Defense Forces, and some go to Caster for keeping her promise.",
+        "type": "dialog",
+        "speaker": "Clovisia",
+        "content": "Some of the thanks go to the Defense Forces, and some go to Caster for keeping her promise."
+    },
+    {
+        "id": 164,
+        "raw": "[name=\"Clovisia\"]Her Trilby Asher did indeed ensure the smooth evacuation of the Self-Salvation Corps.",
+        "type": "dialog",
+        "speaker": "Clovisia",
+        "content": "Her Trilby Asher did indeed ensure the smooth evacuation of the Self-Salvation Corps."
+    },
+    {
+        "id": 165,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_649_1#8$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_649_1#8$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 166,
+        "raw": "[name=\"Lt. Colonel Lettou\"]The Duke of Caster...",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "The Duke of Caster..."
+    },
+    {
+        "id": 167,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_649_1#1$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_649_1#1$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 168,
+        "raw": "[name=\"Lt. Colonel Lettou\"]...I guessed your identity a long time ago. But now, no matter which of the dukes you're vassal or puppet of, I no longer care.",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "...I guessed your identity a long time ago. But now, no matter which of the dukes you're vassal or puppet of, I no longer care."
+    },
+    {
+        "id": 169,
+        "raw": "[name=\"Lt. Colonel Lettou\"]I may not know how capable you really are, but Londinium as she stands is no place for a rebellious child to be wandering around.",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "I may not know how capable you really are, but Londinium as she stands is no place for a rebellious child to be wandering around."
+    },
+    {
+        "id": 170,
+        "raw": "[name=\"Lt. Colonel Lettou\"]Go back to your hiding place. Treasure the fact that the Sarkaz have not caught you yet. I'll pretend I never saw you.",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "Go back to your hiding place. Treasure the fact that the Sarkaz have not caught you yet. I'll pretend I never saw you."
+    },
+    {
+        "id": 171,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#9$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 172,
+        "raw": "[name=\"Clovisia\"]...Lettou.",
+        "type": "dialog",
+        "speaker": "Clovisia",
+        "content": "...Lettou."
+    },
+    {
+        "id": 173,
+        "raw": "[name=\"Clovisia\"]You've been cowering in Londinium for long enough.",
+        "type": "dialog",
+        "speaker": "Clovisia",
+        "content": "You've been cowering in Londinium for long enough."
+    },
+    {
+        "id": 174,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_649_1#8$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_649_1#8$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 175,
+        "raw": "[name=\"Lt. Colonel Lettou\"]......",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "......"
+    },
+    {
+        "id": 176,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#1$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 177,
+        "raw": "[name=\"Clovisia\"]After losing contact with the Self-Salvation Corps, I quickly found new objectives to work on within Londinium.",
+        "type": "dialog",
+        "speaker": "Clovisia",
+        "content": "After losing contact with the Self-Salvation Corps, I quickly found new objectives to work on within Londinium."
+    },
+    {
+        "id": 178,
+        "raw": "[name=\"Clovisia\"]We... were betrayed too. And I don't even know who the traitors were.",
+        "type": "dialog",
+        "speaker": "Clovisia",
+        "content": "We... were betrayed too. And I don't even know who the traitors were."
+    },
+    {
+        "id": 179,
+        "raw": "[name=\"Clovisia\"]But I don't have time to dwell on that. The situation within the city far surpasses our understanding of a nomadic city under occupation.",
+        "type": "dialog",
+        "speaker": "Clovisia",
+        "content": "But I don't have time to dwell on that. The situation within the city far surpasses our understanding of a nomadic city under occupation."
+    },
+    {
+        "id": 180,
+        "raw": "[name=\"Clovisia\"]What's happening now is something you won't find in the history books.",
+        "type": "dialog",
+        "speaker": "Clovisia",
+        "content": "What's happening now is something you won't find in the history books."
+    },
+    {
+        "id": 181,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_649_1#1$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_649_1#1$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 182,
+        "raw": "[name=\"Lt. Colonel Lettou\"]I know that better than anyone.",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "I know that better than anyone."
+    },
+    {
+        "id": 183,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#6$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 184,
+        "raw": "[name=\"Clovisia\"]But have you seen what's going on outside the city?",
+        "type": "dialog",
+        "speaker": "Clovisia",
+        "content": "But have you seen what's going on outside the city?"
+    },
+    {
+        "id": 185,
+        "raw": "[name=\"Clovisia\"]I've seen the Sarkaz Arts Circles, the red light in the sky, the war machines in their many forms, things unlike the military equipment of any ordinary nation.",
+        "type": "dialog",
+        "speaker": "Clovisia",
+        "content": "I've seen the Sarkaz Arts Circles, the red light in the sky, the war machines in their many forms, things unlike the military equipment of any ordinary nation."
+    },
+    {
+        "id": 186,
+        "raw": "[name=\"Clovisia\"]I've seen hexcrafters floating in midair, seizing control of the sky, forcing drones and Arts alike to fail.",
+        "type": "dialog",
+        "speaker": "Clovisia",
+        "content": "I've seen hexcrafters floating in midair, seizing control of the sky, forcing drones and Arts alike to fail."
+    },
+    {
+        "id": 187,
+        "raw": "[name=\"Clovisia\"]I used to think the descriptions of the Sarkaz military and the so-called 'Nachzehrer' were tall tales, literary embellishment for horror's sake.",
+        "type": "dialog",
+        "speaker": "Clovisia",
+        "content": "I used to think the descriptions of the Sarkaz military and the so-called 'Nachzehrer' were tall tales, literary embellishment for horror's sake."
+    },
+    {
+        "id": 188,
+        "raw": "[name=\"Clovisia\"]I don't think that anymore.",
+        "type": "dialog",
+        "speaker": "Clovisia",
+        "content": "I don't think that anymore."
+    },
+    {
+        "id": 189,
+        "raw": "[name=\"Clovisia\"]When death itself opens its doors, what manmade hell do we face?",
+        "type": "dialog",
+        "speaker": "Clovisia",
+        "content": "When death itself opens its doors, what manmade hell do we face?"
+    },
+    {
+        "id": 190,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_649_1#1$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_649_1#1$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 191,
+        "raw": "[name=\"Lt. Colonel Lettou\"]And what of the dukes?",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "And what of the dukes?"
+    },
+    {
+        "id": 192,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#6$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 193,
+        "raw": "[name=\"Clovisia\"]The ducal armies... they're resilient, grand, but...",
+        "type": "dialog",
+        "speaker": "Clovisia",
+        "content": "The ducal armies... they're resilient, grand, but..."
+    },
+    {
+        "id": 194,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#8$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 195,
+        "raw": "[name=\"Clovisia\"]They stand on the horizon, out of reach.",
+        "type": "dialog",
+        "speaker": "Clovisia",
+        "content": "They stand on the horizon, out of reach."
+    },
+    {
+        "id": 196,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_649_1#8$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_649_1#8$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 197,
+        "raw": "[name=\"Lt. Colonel Lettou\"]......",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "......"
+    },
+    {
+        "id": 198,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#9$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 199,
+        "raw": "[name=\"Clovisia\"]I suppose you may be feeling guilt and melancholy, perhaps mixed with a dash of pride?",
+        "type": "dialog",
+        "speaker": "Clovisia",
+        "content": "I suppose you may be feeling guilt and melancholy, perhaps mixed with a dash of pride?"
+    },
+    {
+        "id": 200,
+        "raw": "[name=\"Clovisia\"]You ponder the cruel choices you've made, but your mission is now accomplished.",
+        "type": "dialog",
+        "speaker": "Clovisia",
+        "content": "You ponder the cruel choices you've made, but your mission is now accomplished."
+    },
+    {
+        "id": 201,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_649_1#8$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_649_1#8$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 202,
+        "raw": "[name=\"Lt. Colonel Lettou\"]......",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "......"
+    },
+    {
+        "id": 203,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#9$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 204,
+        "raw": "[name=\"Clovisia\"]I guess you proposed a deal to Theresis regarding the nomadic cities that once belonged to Gaul.",
+        "type": "dialog",
+        "speaker": "Clovisia",
+        "content": "I guess you proposed a deal to Theresis regarding the nomadic cities that once belonged to Gaul."
+    },
+    {
+        "id": 205,
+        "raw": "[name=\"Clovisia\"]Londinium is too small, she can't contain the Sarkaz ambition. He is simply using this place to provoke the expansionist lust of Terra's other powers.",
+        "type": "dialog",
+        "speaker": "Clovisia",
+        "content": "Londinium is too small, she can't contain the Sarkaz ambition. He is simply using this place to provoke the expansionist lust of Terra's other powers."
+    },
+    {
+        "id": 206,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#6$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 207,
+        "raw": "[name=\"Clovisia\"]Do you honestly believe he cares at all for your Gaul?",
+        "type": "dialog",
+        "speaker": "Clovisia",
+        "content": "Do you honestly believe he cares at all for your Gaul?"
+    },
+    {
+        "id": 208,
+        "raw": "[name=\"Clovisia\"]Londinium's fall is complete, but you are no fool. You see it.",
+        "type": "dialog",
+        "speaker": "Clovisia",
+        "content": "Londinium's fall is complete, but you are no fool. You see it."
+    },
+    {
+        "id": 209,
+        "raw": "[name=\"Clovisia\"]The Military Commission of Kazdel has no intention of occupying Victoria.",
+        "type": "dialog",
+        "speaker": "Clovisia",
+        "content": "The Military Commission of Kazdel has no intention of occupying Victoria."
+    },
+    {
+        "id": 210,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_649_1#8$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_649_1#8$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 211,
+        "raw": "[name=\"Lt. Colonel Lettou\"]Correct, I am no fool. I never once placed my hopes in Theresis keeping his word.",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "Correct, I am no fool. I never once placed my hopes in Theresis keeping his word."
+    },
+    {
+        "id": 212,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#6$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 213,
+        "raw": "[name=\"Clovisia\"]And yet you still had a hand in so many tragedies.",
+        "type": "dialog",
+        "speaker": "Clovisia",
+        "content": "And yet you still had a hand in so many tragedies."
+    },
+    {
+        "id": 214,
+        "raw": "[name=\"Clovisia\"]Are you trying to create an opportunity? Like what the Sarkaz are doing for Kazdel?",
+        "type": "dialog",
+        "speaker": "Clovisia",
+        "content": "Are you trying to create an opportunity? Like what the Sarkaz are doing for Kazdel?"
+    },
+    {
+        "id": 215,
+        "raw": "[name=\"Clovisia\"]Perhaps this war will exhaust the ducal militaries, making space for the ghost of Gaul to return to the land of the living.",
+        "type": "dialog",
+        "speaker": "Clovisia",
+        "content": "Perhaps this war will exhaust the ducal militaries, making space for the ghost of Gaul to return to the land of the living."
+    },
+    {
+        "id": 216,
+        "raw": "[name=\"Clovisia\"]But the question is—",
+        "type": "dialog",
+        "speaker": "Clovisia",
+        "content": "But the question is—"
+    },
+    {
+        "id": 217,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#1$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 218,
+        "raw": "[name=\"Clovisia\"]—Do you actually believe that, René Lettou?",
+        "type": "dialog",
+        "speaker": "Clovisia",
+        "content": "—Do you actually believe that, René Lettou?"
+    },
+    {
+        "id": 219,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_649_1#8$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_649_1#8$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 220,
+        "raw": "[name=\"Lt. Colonel Lettou\"]......",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "......"
+    },
+    {
+        "id": 221,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_649_1#5$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_649_1#5$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 222,
+        "raw": "[name=\"Lt. Colonel Lettou\"]What else can I believe in?",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "What else can I believe in?"
+    },
+    {
+        "id": 223,
+        "raw": "[name=\"Lt. Colonel Lettou\"]I've admitted my weakness. Do you need me to admit my stupidity, my despair, my irrelevance?",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "I've admitted my weakness. Do you need me to admit my stupidity, my despair, my irrelevance?"
+    },
+    {
+        "id": 224,
+        "raw": "[name=\"Lt. Colonel Lettou\"]What do you want from me?",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "What do you want from me?"
+    },
+    {
+        "id": 225,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#1$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 226,
+        "raw": "[name=\"Clovisia\"]Cooperation.",
+        "type": "dialog",
+        "speaker": "Clovisia",
+        "content": "Cooperation."
+    },
+    {
+        "id": 227,
+        "raw": "[name=\"Clovisia\"]The Self-Salvation Corps, those resisting the Sarkaz, those struggling for survival among Victoria's nonsensical nobility, they all still have a chance.",
+        "type": "dialog",
+        "speaker": "Clovisia",
+        "content": "The Self-Salvation Corps, those resisting the Sarkaz, those struggling for survival among Victoria's nonsensical nobility, they all still have a chance."
+    },
+    {
+        "id": 228,
+        "raw": "[name=\"Clovisia\"]And that which you seek, your so-called 'Gaul', may also exist within that chance.",
+        "type": "dialog",
+        "speaker": "Clovisia",
+        "content": "And that which you seek, your so-called 'Gaul', may also exist within that chance."
+    },
+    {
+        "id": 229,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_649_1#6$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_649_1#6$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 230,
+        "raw": "[name=\"Lt. Colonel Lettou\"]Gaul... oh, Gaul.",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "Gaul... oh, Gaul."
+    },
+    {
+        "id": 231,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_649_1#1$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_649_1#1$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 232,
+        "raw": "[name=\"Lt. Colonel Lettou\"]It seems you're still willing to fight.",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "It seems you're still willing to fight."
+    },
+    {
+        "id": 233,
+        "raw": "[name=\"Lt. Colonel Lettou\"]For a person like you, the dusty rubble is a platform from which to grab the next ledge.",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "For a person like you, the dusty rubble is a platform from which to grab the next ledge."
+    },
+    {
+        "id": 234,
+        "raw": "[name=\"Lt. Colonel Lettou\"]For you, those like you, for the Military Commission...",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "For you, those like you, for the Military Commission..."
+    },
+    {
+        "id": 235,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_649_1#6$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_649_1#6$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 236,
+        "raw": "[name=\"Lt. Colonel Lettou\"]You are strong enough to subvert a nation, to change the course of history, not to mention... manipulate the fate of one or two men like me.",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "You are strong enough to subvert a nation, to change the course of history, not to mention... manipulate the fate of one or two men like me."
+    },
+    {
+        "id": 237,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#1$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 238,
+        "raw": "[name=\"Clovisia\"]Enough of the self-pity. There is still much we can do before hell descends upon us.",
+        "type": "dialog",
+        "speaker": "Clovisia",
+        "content": "Enough of the self-pity. There is still much we can do before hell descends upon us."
+    },
+    {
+        "id": 239,
+        "raw": "[name=\"Clovisia\"]Whether you consider this a form of atonement or the beginning of a new struggle doesn't matter to me.",
+        "type": "dialog",
+        "speaker": "Clovisia",
+        "content": "Whether you consider this a form of atonement or the beginning of a new struggle doesn't matter to me."
+    },
+    {
+        "id": 240,
+        "raw": "[name=\"Clovisia\"]But Lettou, I hope we can—",
+        "type": "dialog",
+        "speaker": "Clovisia",
+        "content": "But Lettou, I hope we can—"
+    },
+    {
+        "id": 241,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_649_1#9$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_649_1#9$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 242,
+        "raw": "[name=\"Lt. Colonel Lettou\"]Now then, oh great one, can you tell me—",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "Now then, oh great one, can you tell me—"
+    },
+    {
+        "id": 243,
+        "raw": "[name=\"Lt. Colonel Lettou\"]How I might save myself?",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "How I might save myself?"
+    },
+    {
+        "id": 244,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#5$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 245,
+        "raw": "[name=\"Clovisia\"]......",
+        "type": "dialog",
+        "speaker": "Clovisia",
+        "content": "......"
+    },
+    {
+        "id": 246,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_649_1#9$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_649_1#9$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 247,
+        "raw": "[name=\"Lt. Colonel Lettou\"]There it is. You haven't a clue yourself.",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "There it is. You haven't a clue yourself."
+    },
+    {
+        "id": 248,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_649_1#1$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_649_1#1$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 249,
+        "raw": "[name=\"Lt. Colonel Lettou\"]Let me by.",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "Let me by."
+    },
+    {
+        "id": 250,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#7$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 251,
+        "raw": "[name=\"Clovisia\"]You really won't turn back?",
+        "type": "dialog",
+        "speaker": "Clovisia",
+        "content": "You really won't turn back?"
+    },
+    {
+        "id": 252,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_649_1#1$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_649_1#1$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 253,
+        "raw": "[name=\"Lt. Colonel Lettou\"]I won't.",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "I won't."
+    },
+    {
+        "id": 254,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#6$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 255,
+        "raw": "[name=\"Clovisia\"]Then I can't say I wish you well.",
+        "type": "dialog",
+        "speaker": "Clovisia",
+        "content": "Then I can't say I wish you well."
+    },
+    {
+        "id": 256,
+        "raw": "[name=\"Clovisia\"]Your hands are stained with the blood of so many, with the blood of my friends, and you carry on with such despicable decisions.",
+        "type": "dialog",
+        "speaker": "Clovisia",
+        "content": "Your hands are stained with the blood of so many, with the blood of my friends, and you carry on with such despicable decisions."
+    },
+    {
+        "id": 257,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_401_1#3$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 258,
+        "raw": "[name=\"Clovisia\"]René Lettou!",
+        "type": "dialog",
+        "speaker": "Clovisia",
+        "content": "René Lettou!"
+    },
+    {
+        "id": 259,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_649_1#5$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_649_1#5$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 260,
+        "raw": "[name=\"Lt. Colonel Lettou\"]That'll do, then. Run along now, the Sarkaz are coming.",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "That'll do, then. Run along now, the Sarkaz are coming."
+    },
+    {
+        "id": 261,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_649_1#8$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_649_1#8$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 262,
+        "raw": "[name=\"Lt. Colonel Lettou\"]I still have... to say goodbye.",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "I still have... to say goodbye."
+    },
+    {
+        "id": 263,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 264,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 265,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 266,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 267,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 268,
+        "raw": "[Background(image=\"32_g11_victoriaroom_n\", screenadapt=\"coverall\", block=true)]",
+        "type": "background",
+        "image": "32_g11_victoriaroom_n.png",
+        "screenadapt": "coverall",
+        "block": true
+    },
+    {
+        "id": 269,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 270,
+        "raw": "[PlayMusic(intro=\"$loneliness_intro\", key=\"$loneliness_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/static/m_avg/m_avg_loneliness_intro.mp3",
+        "key": "sound_beta_2/music/static/m_avg/m_avg_loneliness_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 271,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 272,
+        "raw": "[Delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"Ces Lingones baignent nos yeux de larmes♪\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "Ces Lingones baignent nos yeux de larmes♪",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nLe champ de bataille est chargé d'amertume et de peine♪\",block = true)]",
+        "type": "sticker",
+        "text": "\\nLe champ de bataille est chargé d'amertume et de peine♪"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nMais ce jour viendra, c'est certain♪\",block = true)]",
+        "type": "sticker",
+        "text": "\\nMais ce jour viendra, c'est certain♪"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nPour juger à mort les agresseurs♪\",block = true)]",
+        "type": "sticker",
+        "text": "\\nPour juger à mort les agresseurs♪"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nPour juger à mort les agresseurs♪\",block = true)]",
+        "type": "sticker",
+        "text": "\\nPour juger à mort les agresseurs♪"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": 279,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 280,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 281,
+        "raw": "[PlaySound(key=\"$doorknockquite\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_doorknockquite.mp3",
+        "volume": 1
+    },
+    {
+        "id": 282,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 283,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 284,
+        "raw": "[PlaySound(key=\"$dooropenquite\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_dooropenquite.mp3"
+    },
+    {
+        "id": 285,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 286,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#1$1\",duration=0.7)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#1$1.png",
+        "duration": 0.7
+    },
+    {
+        "id": 287,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 288,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 289,
+        "raw": "[name=\"Lt. Colonel Lettou\"]......",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "......"
+    },
+    {
+        "id": 290,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 291,
+        "raw": "[Charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 292,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 293,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 294,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 295,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"A 'Vieux Vanguard' living in the city.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "A 'Vieux Vanguard' living in the city.",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nWhy is he the first thing to come to my mind in this moment?\",block = true)]",
+        "type": "sticker",
+        "text": "\\nWhy is he the first thing to come to my mind in this moment?"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": 299,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 300,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 301,
+        "raw": "[musicvolume(volume=0, fadetime=1)]",
+        "type": "music_volume",
+        "volume": "0,",
+        "fadetime": 1
+    },
+    {
+        "id": 302,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#5$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#5$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 303,
+        "raw": "[delay(time=0.3)]",
+        "type": "delay",
+        "time": 0.3
+    },
+    {
+        "id": 304,
+        "raw": "[PlaySound(key=\"$d_avg_punchsp1\",volume=0.8)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_punchsp1.mp3",
+        "volume": 0.8
+    },
+    {
+        "id": 305,
+        "raw": "[CameraShake(duration=0.7, xstrength=15, ystrength=15, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.7,",
+        "xstrength": "15,",
+        "ystrength": "15,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 306,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_081\", posfrom = \"-60,0\", posto = \"-60,0\",bstart=0.2,bend=0.7,afrom=0,ato=0,duration=0,focus=\"m\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_081.png",
+        "bstart": "0.2,bend=0.7,afrom=0,ato=0,duration=0,focus=\"m\""
+    },
+    {
+        "id": 307,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_081\",action=\"zoom\",poszoom=\"0.5,0.5\",scale=0.95,duration=0,focus=\"m\",bstart=0.2,bend=0.7,isblock=true)]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_081.png",
+        "action": "zoom",
+        "poszoom": "0.5,0.5",
+        "scale": "0.95,duration=0,focus=\"m\",bstart=0.2,bend=0.7,isblock=true"
+    },
+    {
+        "id": 308,
+        "raw": "[charslot(slot=\"r\",afrom=0,ato=1,duration=1,focus=\"m\",bstart=0.2,bend=0.7,isblock=true)]",
+        "type": "charslot",
+        "slot": "r",
+        "afrom": "0,ato=1,duration=1,focus=\"m\",bstart=0.2,bend=0.7,isblock=true"
+    },
+    {
+        "id": 309,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#5$1\",focus=\"n\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#5$1.png",
+        "focus": "n"
+    },
+    {
+        "id": 310,
+        "raw": "[name=\"???\"]...Name! Rank! Unit!",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "...Name! Rank! Unit!"
+    },
+    {
+        "id": 311,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#5$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#5$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 312,
+        "raw": "[name=\"Lt. Colonel Lettou\"]Your baton is pressed against my waist rather harshly, sir.",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "Your baton is pressed against my waist rather harshly, sir."
+    },
+    {
+        "id": 313,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#5$1\",focus=\"n\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#5$1.png",
+        "focus": "n"
+    },
+    {
+        "id": 314,
+        "raw": "[name=\"???\"]Fermez-la! Report... Name, rank, and unit! Soldat!",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "Fermez-la! Report... Name, rank, and unit! Soldat!"
+    },
+    {
+        "id": 315,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#2$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#2$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 316,
+        "raw": "[name=\"Lt. Colonel Lettou\"]......",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "......"
+    },
+    {
+        "id": 317,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 318,
+        "raw": "[name=\"Lt. Colonel Lettou\"]Lingones Youth Vanguards, 2e Régiment de la Garde Sautante, Caporal Lettou!",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "Lingones Youth Vanguards, 2e Régiment de la Garde Sautante, Caporal Lettou!"
+    },
+    {
+        "id": 319,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 320,
+        "raw": "[PlaySound(key=\"$d_avg_runstop\", volume=0.4)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_runstop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 321,
+        "raw": "[charslot(slot=\"r\", posfrom = \"-60,0\", posto = \"60,0\",afrom=1,ato=1,duration=0.5,focus=\"m\")]",
+        "type": "charslot",
+        "slot": "r",
+        "afrom": "1,ato=1,duration=0.5,focus=\"m\""
+    },
+    {
+        "id": 322,
+        "raw": "[charslot(slot=\"r\",afrom=1,ato=1,action=\"zoom\",poszoom=\"0.5,0.5\",scale=1,focus=\"m\",duration=0.5)]",
+        "type": "charslot",
+        "slot": "r",
+        "afrom": "1,ato=1,action=\"zoom\",poszoom=\"0.5,0.5\",scale=1,focus=\"m\",duration=0.5"
+    },
+    {
+        "id": 323,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 324,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_081\",bstart=0.2,bend=0.7,focus=\"m\")]",
+        "type": "charslot",
+        "bstart": "0.2,bend=0.7,focus=\"m\""
+    },
+    {
+        "id": 325,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=false)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": false
+    },
+    {
+        "id": 326,
+        "raw": "[delay(time=0.2)]",
+        "type": "delay",
+        "time": 0.2
+    },
+    {
+        "id": 327,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_081\",posfrom = \"0,0\", posto = \"460,0\",focus=\"n\")]",
+        "type": "charslot",
+        "focus": "n"
+    },
+    {
+        "id": 328,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_081\",bstart=0,bend=0,duration=1,focus=\"r\")]",
+        "type": "charslot",
+        "bstart": "0,bend=0,duration=1,focus=\"r\""
+    },
+    {
+        "id": 329,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 330,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_081\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_081.png",
+        "focus": "r"
+    },
+    {
+        "id": 331,
+        "raw": "[name=\"Senile Old Man\"]My... unit?",
+        "type": "dialog",
+        "speaker": "Senile Old Man",
+        "content": "My... unit?"
+    },
+    {
+        "id": 332,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 333,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_081\",focus=\"all\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_081.png",
+        "focus": "all"
+    },
+    {
+        "id": 334,
+        "raw": "[delay(time=0.2)]",
+        "type": "delay",
+        "time": 0.2
+    },
+    {
+        "id": 335,
+        "raw": "[PlaySound(key=\"$d_avg_cloakmovement\", volume=0.7)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_cloakmovement.mp3",
+        "volume": 0.7
+    },
+    {
+        "id": 336,
+        "raw": "[charslot(slot=\"m\", posfrom = \"0,0\", posto = \"-200,0\",afrom=1,ato=1,duration=1.5)]",
+        "type": "charslot",
+        "slot": "m",
+        "afrom": "1,ato=1,duration=1.5"
+    },
+    {
+        "id": 337,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 338,
+        "raw": "[musicvolume(volume=0.6, fadetime=2)]",
+        "type": "music_volume",
+        "volume": "0.6,",
+        "fadetime": 2
+    },
+    {
+        "id": 339,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#9$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#9$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 340,
+        "raw": "[name=\"Lt. Colonel Lettou\"]Yes, your unit.",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "Yes, your unit."
+    },
+    {
+        "id": 341,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_081\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_081.png",
+        "focus": "r"
+    },
+    {
+        "id": 342,
+        "raw": "[name=\"Senile Old Man\"]I've... never seen you... before.",
+        "type": "dialog",
+        "speaker": "Senile Old Man",
+        "content": "I've... never seen you... before."
+    },
+    {
+        "id": 343,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#9$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#9$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 344,
+        "raw": "[name=\"Lt. Colonel Lettou\"]You have, you've just forgotten, sir.",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "You have, you've just forgotten, sir."
+    },
+    {
+        "id": 345,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_081\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_081.png",
+        "focus": "r"
+    },
+    {
+        "id": 346,
+        "raw": "[name=\"Senile Old Man\"]Have I...?",
+        "type": "dialog",
+        "speaker": "Senile Old Man",
+        "content": "Have I...?"
+    },
+    {
+        "id": 347,
+        "raw": "[name=\"Senile Old Man\"]L'Empereur, Sa Majesté, he ordered me to recover here... but... I want to know... what's happening... on the front lines.",
+        "type": "dialog",
+        "speaker": "Senile Old Man",
+        "content": "L'Empereur, Sa Majesté, he ordered me to recover here... but... I want to know... what's happening... on the front lines."
+    },
+    {
+        "id": 348,
+        "raw": "[name=\"Senile Old Man\"]Le Roi-Sorcier... the wicked Witch King... did our fleet... destroy him?",
+        "type": "dialog",
+        "speaker": "Senile Old Man",
+        "content": "Le Roi-Sorcier... the wicked Witch King... did our fleet... destroy him?"
+    },
+    {
+        "id": 349,
+        "raw": "[name=\"Senile Old Man\"]I saw it on television... the Victorian Duke with the great... big... HUGE beard... his army!",
+        "type": "dialog",
+        "speaker": "Senile Old Man",
+        "content": "I saw it on television... the Victorian Duke with the great... big... HUGE beard... his army!"
+    },
+    {
+        "id": 350,
+        "raw": "[name=\"Senile Old Man\"]Do they... wish to betray Sa Majesté... our great Emperor... they will stab him in the back... too?",
+        "type": "dialog",
+        "speaker": "Senile Old Man",
+        "content": "Do they... wish to betray Sa Majesté... our great Emperor... they will stab him in the back... too?"
+    },
+    {
+        "id": 351,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#8$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#8$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 352,
+        "raw": "[name=\"Lt. Colonel Lettou\"]Sir, Londinium has fallen.",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "Sir, Londinium has fallen."
+    },
+    {
+        "id": 353,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_081\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_081.png",
+        "focus": "r"
+    },
+    {
+        "id": 354,
+        "raw": "[name=\"Senile Old Man\"]C'est bien! Good!",
+        "type": "dialog",
+        "speaker": "Senile Old Man",
+        "content": "C'est bien! Good!"
+    },
+    {
+        "id": 355,
+        "raw": "[name=\"Senile Old Man\"]I'll be promoted... to the Vieux Vanguard! You... it's not your time yet... you still need... to prove yourself!",
+        "type": "dialog",
+        "speaker": "Senile Old Man",
+        "content": "I'll be promoted... to the Vieux Vanguard! You... it's not your time yet... you still need... to prove yourself!"
+    },
+    {
+        "id": 356,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 357,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 358,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 359,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"He's nearly ninety years old. He's been not-entirely-there for quite some time, forgetting nearly everything.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "He's nearly ninety years old. He's been not-entirely-there for quite some time, forgetting nearly everything.",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nFor decades, his mind has remained in the golden age when the Gaulishmen joined Corsica I's march into Leithanien.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nFor decades, his mind has remained in the golden age when the Gaulishmen joined Corsica I's march into Leithanien."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nThe nurses always said he had only a year to live, but he's still here.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nThe nurses always said he had only a year to live, but he's still here."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nHe's lived to see Gaul become history.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nHe's lived to see Gaul become history."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nHe's lived to Londinium teetering on the edge of her grave.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nHe's lived to Londinium teetering on the edge of her grave."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"......\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "......",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nBefore I left the Defense Forces, I issued one last order, to guarantee the safety of this sanatorium.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nBefore I left the Defense Forces, I issued one last order, to guarantee the safety of this sanatorium."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nThis is the only thing I did for myself in my entire long service to the Forces.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nThis is the only thing I did for myself in my entire long service to the Forces."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": 370,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 371,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 372,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#9$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#9$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 373,
+        "raw": "[name=\"Lt. Colonel Lettou\"]I brought you a Rheims Champagne, from Lingones. Your favorite. Have a seat, won't you?",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "I brought you a Rheims Champagne, from Lingones. Your favorite. Have a seat, won't you?"
+    },
+    {
+        "id": 374,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 375,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_081\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_081.png",
+        "focus": "m"
+    },
+    {
+        "id": 376,
+        "raw": "[delay(time=0.2)]",
+        "type": "delay",
+        "time": 0.2
+    },
+    {
+        "id": 377,
+        "raw": "[PlaySound(key=\"$d_avg_chairrub\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_chairrub.mp3"
+    },
+    {
+        "id": 378,
+        "raw": "[charslot(duration=1)]",
+        "type": "charslot",
+        "duration": 1
+    },
+    {
+        "id": 379,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 380,
+        "raw": "[name=\"Senile Old Man\"]Hm...",
+        "type": "dialog",
+        "speaker": "Senile Old Man",
+        "content": "Hm..."
+    },
+    {
+        "id": 381,
+        "raw": "[name=\"Senile Old Man\"]A fine drink, Caporal, mm...",
+        "type": "dialog",
+        "speaker": "Senile Old Man",
+        "content": "A fine drink, Caporal, mm..."
+    },
+    {
+        "id": 382,
+        "raw": "[name=\"Senile Old Man\"]Ces Lingones baignent nos yeux de larmes♪",
+        "type": "dialog",
+        "speaker": "Senile Old Man",
+        "content": "Ces Lingones baignent nos yeux de larmes♪"
+    },
+    {
+        "id": 383,
+        "raw": "[name=\"Senile Old Man\"]Le champ de bataille est chargé d'amertume et de peine♪",
+        "type": "dialog",
+        "speaker": "Senile Old Man",
+        "content": "Le champ de bataille est chargé d'amertume et de peine♪"
+    },
+    {
+        "id": 384,
+        "raw": "[name=\"Senile Old Man\"]...Pour juger à mort les agresseurs...♪",
+        "type": "dialog",
+        "speaker": "Senile Old Man",
+        "content": "...Pour juger à mort les agresseurs...♪"
+    },
+    {
+        "id": 385,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#9$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#9$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 386,
+        "raw": "[name=\"Lt. Colonel Lettou\"]When you sing that song, it's as if there never was any pain, as if you never aged a day.",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "When you sing that song, it's as if there never was any pain, as if you never aged a day."
+    },
+    {
+        "id": 387,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 388,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 389,
+        "raw": "[name=\"Senile Old Man\"]...Notre drapeau sera toujours glorieux♪",
+        "type": "dialog",
+        "speaker": "Senile Old Man",
+        "content": "...Notre drapeau sera toujours glorieux♪"
+    },
+    {
+        "id": 390,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 391,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 392,
+        "raw": "[name=\"Lt. Colonel Lettou\"]I've never seen Lingones.",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "I've never seen Lingones."
+    },
+    {
+        "id": 393,
+        "raw": "[name=\"Lt. Colonel Lettou\"]You told me again and again about those magnificent halls, the flourishing road networks...",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "You told me again and again about those magnificent halls, the flourishing road networks..."
+    },
+    {
+        "id": 394,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#8$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#8$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 395,
+        "raw": "[name=\"Lt. Colonel Lettou\"]...Do you remember Golding, the girl who visited you with me so many years ago?",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "...Do you remember Golding, the girl who visited you with me so many years ago?"
+    },
+    {
+        "id": 396,
+        "raw": "[name=\"Lt. Colonel Lettou\"]She's dead.",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "She's dead."
+    },
+    {
+        "id": 397,
+        "raw": "[name=\"Lt. Colonel Lettou\"]She died for this cruel, unshakeable, bloodstained world.",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "She died for this cruel, unshakeable, bloodstained world."
+    },
+    {
+        "id": 398,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#6$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#6$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 399,
+        "raw": "[name=\"Lt. Colonel Lettou\"]And I'm one of the murderers responsible for it all.",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "And I'm one of the murderers responsible for it all."
+    },
+    {
+        "id": 400,
+        "raw": "[name=\"Lt. Colonel Lettou\"]I don't know... what to feel for her.",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "I don't know... what to feel for her."
+    },
+    {
+        "id": 401,
+        "raw": "[name=\"Lt. Colonel Lettou\"]But she's gone. She's out of my sight, and she'll certainly never see me anymore.",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "But she's gone. She's out of my sight, and she'll certainly never see me anymore."
+    },
+    {
+        "id": 402,
+        "raw": "[name=\"Lt. Colonel Lettou\"]I... I'm frightened, sir.",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "I... I'm frightened, sir."
+    },
+    {
+        "id": 403,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 404,
+        "raw": "[name=\"Lt. Colonel Lettou\"]A girl called Amiya says that all I've done was done out of cowardice.",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "A girl called Amiya says that all I've done was done out of cowardice."
+    },
+    {
+        "id": 405,
+        "raw": "[name=\"Lt. Colonel Lettou\"]I once confessed to Golding that my only goal was to survive the ruin to come.",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "I once confessed to Golding that my only goal was to survive the ruin to come."
+    },
+    {
+        "id": 406,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#8$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#8$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 407,
+        "raw": "[name=\"Lt. Colonel Lettou\"]But I still hope...",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "But I still hope..."
+    },
+    {
+        "id": 408,
+        "raw": "[name=\"Lt. Colonel Lettou\"]Even if it's just a pretext, I still hope—",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "Even if it's just a pretext, I still hope—"
+    },
+    {
+        "id": 409,
+        "raw": "[name=\"Lt. Colonel Lettou\"]That from the ruins, a new Gaulishman will rise...",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "That from the ruins, a new Gaulishman will rise..."
+    },
+    {
+        "id": 410,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#6$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#6$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 411,
+        "raw": "[name=\"Lt. Colonel Lettou\"]No, that's not it.",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "No, that's not it."
+    },
+    {
+        "id": 412,
+        "raw": "[name=\"Lt. Colonel Lettou\"]I wish Golding could keep on teaching the children, under the sunshine, among the fragrance of the flowers.",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "I wish Golding could keep on teaching the children, under the sunshine, among the fragrance of the flowers."
+    },
+    {
+        "id": 413,
+        "raw": "[name=\"Lt. Colonel Lettou\"]Her persistence was truly beautiful.",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "Her persistence was truly beautiful."
+    },
+    {
+        "id": 414,
+        "raw": "[name=\"Lt. Colonel Lettou\"]But me, I'm the one who... I'm...",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "But me, I'm the one who... I'm..."
+    },
+    {
+        "id": 415,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 416,
+        "raw": "[name=\"Lt. Colonel Lettou\"]I've done all I can, sir. It's tiring.",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "I've done all I can, sir. It's tiring."
+    },
+    {
+        "id": 417,
+        "raw": "[name=\"Lt. Colonel Lettou\"]Do you think we still have a future?",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "Do you think we still have a future?"
+    },
+    {
+        "id": 418,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 419,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 420,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 421,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 422,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 423,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 424,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"......\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "......",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\n......\",block = true)]",
+        "type": "sticker",
+        "text": "\\n......"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"He'd fallen asleep minutes ago.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "He'd fallen asleep minutes ago.",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nRight then.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nRight then."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": 431,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 432,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 433,
+        "raw": "[PlaySound(key=\"$d_avg_drawsword\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_drawsword.mp3"
+    },
+    {
+        "id": 434,
+        "raw": "[PlaySound(key=\"$d_avg_exsheath\",delay=0.3)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_exsheath.mp3",
+        "delay": 0.3
+    },
+    {
+        "id": 435,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 436,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 437,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 438,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 439,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"I draw my saber. A sword that once belonged to a Gaulishman.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "I draw my saber. A sword that once belonged to a Gaulishman.",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nI think... it might be better to let him remain in that dream before the Sarkaz force their way in.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nI think... it might be better to let him remain in that dream before the Sarkaz force their way in."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nAt least it'll be a splendid dream.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nAt least it'll be a splendid dream."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nBut me... despicable man that I am, dare not reach out to pollute—\",block = true)]",
+        "type": "sticker",
+        "text": "\\nBut me... despicable man that I am, dare not reach out to pollute—"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": 445,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 446,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 447,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 448,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 449,
+        "raw": "[stopmusic(fadetime=1.5)]",
+        "type": "stop_music",
+        "fadetime": 1.5
+    },
+    {
+        "id": 450,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 451,
+        "raw": "[Background(image=\"bg_black\", screenadapt=\"coverall\", block=true)]",
+        "type": "background",
+        "image": "bg_black.png",
+        "screenadapt": "coverall",
+        "block": true
+    },
+    {
+        "id": 452,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 453,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 454,
+        "raw": "[Delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 455,
+        "raw": "[playsound(key=\"$d_avg_broadswordblood\",volume=0.7)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_broadswordblood.mp3",
+        "volume": 0.7
+    },
+    {
+        "id": 456,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 457,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 458,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 459,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 460,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"......\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "......",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nThe blood of the aged Youth Vanguard splatters my hands.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nThe blood of the aged Youth Vanguard splatters my hands."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": 464,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 465,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 466,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 467,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 468,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 469,
+        "raw": "[Background(image=\"bg_victoria\", screenadapt=\"coverall\", block=true)]",
+        "type": "background",
+        "image": "bg_victoria.png",
+        "screenadapt": "coverall",
+        "block": true
+    },
+    {
+        "id": 470,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 471,
+        "raw": "[playMusic(intro=\"$plot_intro\", key=\"$plot_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act9d0d0/m_avg_plot_intro.mp3",
+        "key": "sound_beta_2/music/act9d0d0/m_avg_plot_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 472,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 473,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 474,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 475,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 476,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 477,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"The Prince of Blood himself, the Sanguinarch of Vampires, looks silently at the extravagant decor of the Victorian palace.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "The Prince of Blood himself, the Sanguinarch of Vampires, looks silently at the extravagant decor of the Victorian palace.",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nThe expression on his face could be described as... serene.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nThe expression on his face could be described as... serene."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": 481,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 482,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 483,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_410_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_410_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 484,
+        "raw": "[name=\"Sanguinarch of Vampires\"]You came, Lettou.",
+        "type": "dialog",
+        "speaker": "Sanguinarch of Vampires",
+        "content": "You came, Lettou."
+    },
+    {
+        "id": 485,
+        "raw": "[name=\"Sanguinarch of Vampires\"]Here I thought you'd find somewhere to hide.",
+        "type": "dialog",
+        "speaker": "Sanguinarch of Vampires",
+        "content": "Here I thought you'd find somewhere to hide."
+    },
+    {
+        "id": 486,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 487,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 488,
+        "raw": "[Delay(time=0.2)]",
+        "type": "delay",
+        "time": 0.2
+    },
+    {
+        "id": 489,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\",volume=0.6)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 490,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#1$1\",duration=1)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#1$1.png",
+        "duration": 1
+    },
+    {
+        "id": 491,
+        "raw": "[Delay(time=2.5)]",
+        "type": "delay",
+        "time": 2.5
+    },
+    {
+        "id": 492,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 493,
+        "raw": "[name=\"Lt. Colonel Lettou\"]No, of course not.",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "No, of course not."
+    },
+    {
+        "id": 494,
+        "raw": "[name=\"Lt. Colonel Lettou\"]I was always going to come find Your Highness.",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "I was always going to come find Your Highness."
+    },
+    {
+        "id": 495,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_410_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_410_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 496,
+        "raw": "[name=\"Sanguinarch of Vampires\"]You seem spirited today, I'm pleased. Ever since that old Gaulish teacher of yours died, you've been quite the buzzkill.",
+        "type": "dialog",
+        "speaker": "Sanguinarch of Vampires",
+        "content": "You seem spirited today, I'm pleased. Ever since that old Gaulish teacher of yours died, you've been quite the buzzkill."
+    },
+    {
+        "id": 497,
+        "raw": "[name=\"Sanguinarch of Vampires\"]I made a bet with my children, they wagered that you were about to die.",
+        "type": "dialog",
+        "speaker": "Sanguinarch of Vampires",
+        "content": "I made a bet with my children, they wagered that you were about to die."
+    },
+    {
+        "id": 498,
+        "raw": "[name=\"Sanguinarch of Vampires\"]But I believed in you, Lettou.",
+        "type": "dialog",
+        "speaker": "Sanguinarch of Vampires",
+        "content": "But I believed in you, Lettou."
+    },
+    {
+        "id": 499,
+        "raw": "[name=\"Sanguinarch of Vampires\"]Have a drink with me, to the defeat of your enemies, the death of the nation of Victoria.",
+        "type": "dialog",
+        "speaker": "Sanguinarch of Vampires",
+        "content": "Have a drink with me, to the defeat of your enemies, the death of the nation of Victoria."
+    },
+    {
+        "id": 500,
+        "raw": "[name=\"Sanguinarch of Vampires\"]I'll begin the ritual myself, bestowing the most ancient curse, the most tragic end.",
+        "type": "dialog",
+        "speaker": "Sanguinarch of Vampires",
+        "content": "I'll begin the ritual myself, bestowing the most ancient curse, the most tragic end."
+    },
+    {
+        "id": 501,
+        "raw": "[name=\"Sanguinarch of Vampires\"]And so I will be leaving soon. Even my own kin don't enjoy such an honor, you should be grateful.",
+        "type": "dialog",
+        "speaker": "Sanguinarch of Vampires",
+        "content": "And so I will be leaving soon. Even my own kin don't enjoy such an honor, you should be grateful."
+    },
+    {
+        "id": 502,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#8$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#8$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 503,
+        "raw": "[name=\"Lt. Colonel Lettou\"]......",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "......"
+    },
+    {
+        "id": 504,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 505,
+        "raw": "[name=\"Lt. Colonel Lettou\"]You know, Your Highness...",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "You know, Your Highness..."
+    },
+    {
+        "id": 506,
+        "raw": "[name=\"Lt. Colonel Lettou\"]By the time I was born, Gaul's capital had already been razed by the Duke of Wellington and his despicable accomplices.",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "By the time I was born, Gaul's capital had already been razed by the Duke of Wellington and his despicable accomplices."
+    },
+    {
+        "id": 507,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 508,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 509,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"A city annihilated, as one breathes a sigh.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "A city annihilated, as one breathes a sigh.",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": 512,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 513,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 514,
+        "raw": "[name=\"Lt. Colonel Lettou\"]Now it seems you will do the same to Londinium.",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "Now it seems you will do the same to Londinium."
+    },
+    {
+        "id": 515,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_410_1#7$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_410_1#7$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 516,
+        "raw": "[name=\"Sanguinarch of Vampires\"]Will you weep for her?",
+        "type": "dialog",
+        "speaker": "Sanguinarch of Vampires",
+        "content": "Will you weep for her?"
+    },
+    {
+        "id": 517,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#8$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#8$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 518,
+        "raw": "[name=\"Lt. Colonel Lettou\"]I just... didn't expect it.",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "I just... didn't expect it."
+    },
+    {
+        "id": 519,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_410_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_410_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 520,
+        "raw": "[name=\"Sanguinarch of Vampires\"]Duke Wellington dismantled Lingones, pulling those mobile plates apart. Heh, so silly, so boring, the Victorians.",
+        "type": "dialog",
+        "speaker": "Sanguinarch of Vampires",
+        "content": "Duke Wellington dismantled Lingones, pulling those mobile plates apart. Heh, so silly, so boring, the Victorians."
+    },
+    {
+        "id": 521,
+        "raw": "[name=\"Sanguinarch of Vampires\"]Would you like to settle the blood debt with your own hands? I admire your persistence.",
+        "type": "dialog",
+        "speaker": "Sanguinarch of Vampires",
+        "content": "Would you like to settle the blood debt with your own hands? I admire your persistence."
+    },
+    {
+        "id": 522,
+        "raw": "[name=\"Sanguinarch of Vampires\"]I could grant you such an opportunity.",
+        "type": "dialog",
+        "speaker": "Sanguinarch of Vampires",
+        "content": "I could grant you such an opportunity."
+    },
+    {
+        "id": 523,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 524,
+        "raw": "[name=\"Lt. Colonel Lettou\"]Your Highness is most magnanimous.",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "Your Highness is most magnanimous."
+    },
+    {
+        "id": 525,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 526,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 527,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 528,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"I bow deeply, but I feel his gaze lingering on me.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "I bow deeply, but I feel his gaze lingering on me.",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": 531,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 532,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_410_1#5$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_410_1#5$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 533,
+        "raw": "[name=\"Sanguinarch of Vampires\"]Ah... pathetic.",
+        "type": "dialog",
+        "speaker": "Sanguinarch of Vampires",
+        "content": "Ah... pathetic."
+    },
+    {
+        "id": 534,
+        "raw": "[name=\"Sanguinarch of Vampires\"]Mean, fickle, cowardly, self-righteous.",
+        "type": "dialog",
+        "speaker": "Sanguinarch of Vampires",
+        "content": "Mean, fickle, cowardly, self-righteous."
+    },
+    {
+        "id": 535,
+        "raw": "[name=\"Sanguinarch of Vampires\"]Begging for mercy out of fear, self-destructing out of despair.",
+        "type": "dialog",
+        "speaker": "Sanguinarch of Vampires",
+        "content": "Begging for mercy out of fear, self-destructing out of despair."
+    },
+    {
+        "id": 536,
+        "raw": "[name=\"Sanguinarch of Vampires\"]But I'm still very curious about you.",
+        "type": "dialog",
+        "speaker": "Sanguinarch of Vampires",
+        "content": "But I'm still very curious about you."
+    },
+    {
+        "id": 537,
+        "raw": "[name=\"Sanguinarch of Vampires\"]In the scheme of your insignificant life, we've spent quite some time together.",
+        "type": "dialog",
+        "speaker": "Sanguinarch of Vampires",
+        "content": "In the scheme of your insignificant life, we've spent quite some time together."
+    },
+    {
+        "id": 538,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_410_1#9$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_410_1#9$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 539,
+        "raw": "[name=\"Sanguinarch of Vampires\"]—Do you really think you can kill me, Lettou?",
+        "type": "dialog",
+        "speaker": "Sanguinarch of Vampires",
+        "content": "—Do you really think you can kill me, Lettou?"
+    },
+    {
+        "id": 540,
+        "raw": "[name=\"Sanguinarch of Vampires\"]You won't.",
+        "type": "dialog",
+        "speaker": "Sanguinarch of Vampires",
+        "content": "You won't."
+    },
+    {
+        "id": 541,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 542,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 543,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 544,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"My very blood grips my heart.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "My very blood grips my heart.",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": 547,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 548,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#7$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#7$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 549,
+        "raw": "[name=\"Lt. Colonel Lettou\"]—",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "—"
+    },
+    {
+        "id": 550,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_410_1#7$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_410_1#7$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 551,
+        "raw": "[name=\"Sanguinarch of Vampires\"]You may think to yourself, this Sarkaz is so arrogant, so contemptuous.",
+        "type": "dialog",
+        "speaker": "Sanguinarch of Vampires",
+        "content": "You may think to yourself, this Sarkaz is so arrogant, so contemptuous."
+    },
+    {
+        "id": 552,
+        "raw": "[name=\"Sanguinarch of Vampires\"]On the contrary... Lettou.",
+        "type": "dialog",
+        "speaker": "Sanguinarch of Vampires",
+        "content": "On the contrary... Lettou."
+    },
+    {
+        "id": 553,
+        "raw": "[name=\"Sanguinarch of Vampires\"]Considering what I am about to see, I am positively <i>filled</i> with affection for you.",
+        "type": "dialog",
+        "speaker": "Sanguinarch of Vampires",
+        "content": "Considering what I am about to see, I am positively <i>filled</i> with affection for you."
+    },
+    {
+        "id": 554,
+        "raw": "[name=\"Sanguinarch of Vampires\"]You are a fool, yes, and despicable indeed. You should cherish your blood.",
+        "type": "dialog",
+        "speaker": "Sanguinarch of Vampires",
+        "content": "You are a fool, yes, and despicable indeed. You should cherish your blood."
+    },
+    {
+        "id": 555,
+        "raw": "[name=\"Sanguinarch of Vampires\"]At first, I thought they might have some more interesting uses.",
+        "type": "dialog",
+        "speaker": "Sanguinarch of Vampires",
+        "content": "At first, I thought they might have some more interesting uses."
+    },
+    {
+        "id": 556,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_410_1#5$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_410_1#5$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 557,
+        "raw": "[name=\"Sanguinarch of Vampires\"]*Sigh*, such hasty farewells between us.",
+        "type": "dialog",
+        "speaker": "Sanguinarch of Vampires",
+        "content": "*Sigh*, such hasty farewells between us."
+    },
+    {
+        "id": 558,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 559,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 560,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 561,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"The Gaulishman's sword... I do my best to reach it.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "The Gaulishman's sword... I do my best to reach it.",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nThe despicable man's sword.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nThe despicable man's sword."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": 565,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 566,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_410_1#5$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_410_1#5$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 567,
+        "raw": "[name=\"Sanguinarch of Vampires\"]Poor man. Keep trying, give it all you've got and you just might reach the hilt.",
+        "type": "dialog",
+        "speaker": "Sanguinarch of Vampires",
+        "content": "Poor man. Keep trying, give it all you've got and you just might reach the hilt."
+    },
+    {
+        "id": 568,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#7$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#7$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 569,
+        "raw": "[name=\"Lt. Colonel Lettou\"]...I'll...",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "...I'll..."
+    },
+    {
+        "id": 570,
+        "raw": "[name=\"Lt. Colonel Lettou\"]I'll... grant...",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "I'll... grant..."
+    },
+    {
+        "id": 571,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_410_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_410_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 572,
+        "raw": "[name=\"Sanguinarch of Vampires\"]What is it you're trying to say?",
+        "type": "dialog",
+        "speaker": "Sanguinarch of Vampires",
+        "content": "What is it you're trying to say?"
+    },
+    {
+        "id": 573,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#7$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#7$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 574,
+        "raw": "[name=\"Lt. Colonel Lettou\"]I'm saying—",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "I'm saying—"
+    },
+    {
+        "id": 575,
+        "raw": "[stopmusic(fadetime=1)]",
+        "type": "stop_music",
+        "fadetime": 1
+    },
+    {
+        "id": 576,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 577,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 578,
+        "raw": "[CameraShake(duration=1, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 579,
+        "raw": "[Blocker(a=0, r=1,g=0.2, b=0.2, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "1,g=0.2,",
+        "b": "0.2,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 580,
+        "raw": "[Blocker(a=0.3, r=1,g=0.2, b=0.2, fadetime=0.03, block=true)]",
+        "type": "blocker",
+        "a": "0.3,",
+        "r": "1,g=0.2,",
+        "b": "0.2,",
+        "fadetime": "0.03,",
+        "block": true
+    },
+    {
+        "id": 581,
+        "raw": "[PlaySound(key=\"$d_avg_bldwhoosh\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_bldwhoosh.mp3",
+        "volume": 1
+    },
+    {
+        "id": 582,
+        "raw": "[PlaySound(key=\"$d_avg_tear\", volume=1,delay=0.2)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_tear.mp3",
+        "volume": "1,delay=0.2"
+    },
+    {
+        "id": 583,
+        "raw": "[Blocker(a=0, r=1,g=0.2, b=0.2, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "1,g=0.2,",
+        "b": "0.2,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 584,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 585,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 586,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 587,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 588,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"The blade cuts across my throat, cold, chilling.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "The blade cuts across my throat, cold, chilling.",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nI see my filthy blood gushing from my neck.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nI see my filthy blood gushing from my neck."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nThe crimson liquid stains his clothes and splashes his face.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nThe crimson liquid stains his clothes and splashes his face."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nHah.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nHah."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": 594,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 595,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 596,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#3$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#3$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 597,
+        "raw": "[CameraShake(duration=0.5, xstrength=12, ystrength=15, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "12,",
+        "ystrength": "15,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 598,
+        "raw": "[name=\"Lt. Colonel Lettou\"]I'm saying... I'll... 'grant' you my blood, vile leech!",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "I'm saying... I'll... 'grant' you my blood, vile leech!"
+    },
+    {
+        "id": 599,
+        "raw": "[name=\"Lt. Colonel Lettou\"]You'll never boast about the purity of your blood ever again!",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "You'll never boast about the purity of your blood ever again!"
+    },
+    {
+        "id": 600,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_649_1#3$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_649_1#3$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 601,
+        "raw": "[name=\"Lt. Colonel Lettou\"]Because the despicable René Lettou has polluted it!",
+        "type": "dialog",
+        "speaker": "Lt. Colonel Lettou",
+        "content": "Because the despicable René Lettou has polluted it!"
+    },
+    {
+        "id": 602,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 603,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 604,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 605,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 606,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 607,
+        "raw": "[Image]",
+        "type": "image"
+    }
+]

@@ -1,0 +1,1830 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")] ",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK"
+    },
+    {
+        "id": 2,
+        "raw": "[stopmusic]",
+        "type": "stop_music"
+    },
+    {
+        "id": 3,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 4,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 5,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 6,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 7,
+        "raw": "[Background(image=\"bg_cher_3\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_cher_3.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 8,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 9,
+        "raw": "[playMusic(intro=\"$darkness02_intro\", key=\"$darkness02_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta1_180603/m_dia_darkness02_intro.mp3",
+        "key": "sound_beta_2/music/beta1_180603/m_dia_darkness02_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 10,
+        "raw": "[Character(name=\"avg_npc_054\",fadetime=1,block=true)]",
+        "type": "character",
+        "name": "avg_npc_054",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 11,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 12,
+        "raw": "[name=\"Sarkaz Mercenary Leader\"]  You... I've seen you somewhere before... comrade. We've met on the battlefield before.",
+        "type": "dialog",
+        "speaker": "Sarkaz Mercenary Leader",
+        "content": "You... I've seen you somewhere before... comrade. We've met on the battlefield before."
+    },
+    {
+        "id": 13,
+        "raw": "[name=\"Sarkaz Mercenary Leader\"]  ...Hey, hey. You shouldn't have come to Chernobog. Everybody here has the intel on Rhodes Island. You're all going to die here.",
+        "type": "dialog",
+        "speaker": "Sarkaz Mercenary Leader",
+        "content": "...Hey, hey. You shouldn't have come to Chernobog. Everybody here has the intel on Rhodes Island. You're all going to die here."
+    },
+    {
+        "id": 14,
+        "raw": "[name=\"Sarkaz Mercenary Leader\"]  But no matter how good you are, you shouldn't have been able to get through W's defensive line. Not unless...",
+        "type": "dialog",
+        "speaker": "Sarkaz Mercenary Leader",
+        "content": "But no matter how good you are, you shouldn't have been able to get through W's defensive line. Not unless..."
+    },
+    {
+        "id": 15,
+        "raw": "[name=\"Sarkaz Mercenary Leader\"]  By the looks of things, she ended up making that choice after all. In fact, we all expected it.",
+        "type": "dialog",
+        "speaker": "Sarkaz Mercenary Leader",
+        "content": "By the looks of things, she ended up making that choice after all. In fact, we all expected it."
+    },
+    {
+        "id": 16,
+        "raw": "[Decision(options=\"Some of you fought with us, side-by-side.;That's the only reason we're still exchanging words on the battlefield.\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "Some of you fought with us, side-by-side.;That's the only reason we're still exchanging words on the battlefield.",
+        "values": "1;2"
+    },
+    {
+        "id": 17,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 18,
+        "raw": "[Character(name=\"avg_npc_054\")]",
+        "type": "character",
+        "name": "avg_npc_054"
+    },
+    {
+        "id": 19,
+        "raw": "[name=\"Sarkaz Mercenary Leader\"]  ...Theresa was an exceptional leader. She changed the way many people see this patch of dirt.",
+        "type": "dialog",
+        "speaker": "Sarkaz Mercenary Leader",
+        "content": "...Theresa was an exceptional leader. She changed the way many people see this patch of dirt."
+    },
+    {
+        "id": 20,
+        "raw": "[name=\"Sarkaz Mercenary Leader\"]  But it was an idealized viewpoint.",
+        "type": "dialog",
+        "speaker": "Sarkaz Mercenary Leader",
+        "content": "But it was an idealized viewpoint."
+    },
+    {
+        "id": 21,
+        "raw": "[name=\"Sarkaz Mercenary Leader\"]  You don't need to argue with me. I know better than you the cruelty that Kazdel has faced, nor do I want to deny her. But for such a tremendous effort, I just want to see some semblance of results.",
+        "type": "dialog",
+        "speaker": "Sarkaz Mercenary Leader",
+        "content": "You don't need to argue with me. I know better than you the cruelty that Kazdel has faced, nor do I want to deny her. But for such a tremendous effort, I just want to see some semblance of results."
+    },
+    {
+        "id": 22,
+        "raw": "[name=\"Sarkaz Mercenary Leader\"]  Only by the Regent's hand can a new future come to Kazdel. There's not enough goodwill to go around for everyone.",
+        "type": "dialog",
+        "speaker": "Sarkaz Mercenary Leader",
+        "content": "Only by the Regent's hand can a new future come to Kazdel. There's not enough goodwill to go around for everyone."
+    },
+    {
+        "id": 23,
+        "raw": "[Decision(options=\"We could have tried to work together. Or at least so that we don't have to die together.\", values=\"1\")]",
+        "type": "decision",
+        "options": "We could have tried to work together. Or at least so that we don't have to die together.",
+        "values": "1"
+    },
+    {
+        "id": 24,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 25,
+        "raw": "[Character(name=\"avg_npc_054\")]",
+        "type": "character",
+        "name": "avg_npc_054"
+    },
+    {
+        "id": 26,
+        "raw": "[name=\"Sarkaz Mercenary Leader\"]  A naive notion. How are we supposed to set aside our years of discontent as Sarkaz? How are we to right a long history of wrongs?",
+        "type": "dialog",
+        "speaker": "Sarkaz Mercenary Leader",
+        "content": "A naive notion. How are we supposed to set aside our years of discontent as Sarkaz? How are we to right a long history of wrongs?"
+    },
+    {
+        "id": 27,
+        "raw": "[name=\"Sarkaz Mercenary Leader\"]  Ursus and the uninfected. Reunion and the Infected. Kazdel and the Sarkaz.",
+        "type": "dialog",
+        "speaker": "Sarkaz Mercenary Leader",
+        "content": "Ursus and the uninfected. Reunion and the Infected. Kazdel and the Sarkaz."
+    },
+    {
+        "id": 28,
+        "raw": "[name=\"Sarkaz Mercenary Leader\"]  It's all the same. I became more convinced of it during the time I spent working with Reunion.",
+        "type": "dialog",
+        "speaker": "Sarkaz Mercenary Leader",
+        "content": "It's all the same. I became more convinced of it during the time I spent working with Reunion."
+    },
+    {
+        "id": 29,
+        "raw": "[name=\"Sarkaz Mercenary Leader\"]  His Royal Highness, the Regent, can open a new home for us, and I've chosen to chase this opportunity.",
+        "type": "dialog",
+        "speaker": "Sarkaz Mercenary Leader",
+        "content": "His Royal Highness, the Regent, can open a new home for us, and I've chosen to chase this opportunity."
+    },
+    {
+        "id": 30,
+        "raw": "[name=\"Sarkaz Mercenary Leader\"]  Just as in the past, you still naively cling to Theresa.",
+        "type": "dialog",
+        "speaker": "Sarkaz Mercenary Leader",
+        "content": "Just as in the past, you still naively cling to Theresa."
+    },
+    {
+        "id": 31,
+        "raw": "[name=\"Sarkaz Mercenary Leader\"]  ...That's enough.",
+        "type": "dialog",
+        "speaker": "Sarkaz Mercenary Leader",
+        "content": "...That's enough."
+    },
+    {
+        "id": 32,
+        "raw": "[name=\"Sarkaz Mercenary Leader\"]  Since W decided to let you through, you must've also paid the price.",
+        "type": "dialog",
+        "speaker": "Sarkaz Mercenary Leader",
+        "content": "Since W decided to let you through, you must've also paid the price."
+    },
+    {
+        "id": 33,
+        "raw": "[name=\"Sarkaz Mercenary Leader\"]  What did you give up? An underling who died to buy you time? Or... maybe your own soul?",
+        "type": "dialog",
+        "speaker": "Sarkaz Mercenary Leader",
+        "content": "What did you give up? An underling who died to buy you time? Or... maybe your own soul?"
+    },
+    {
+        "id": 34,
+        "raw": "[Decision(options=\"......\", values=\"1\")]",
+        "type": "decision",
+        "options": "......",
+        "values": "1"
+    },
+    {
+        "id": 35,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 36,
+        "raw": "[Character(name=\"avg_npc_054\")]",
+        "type": "character",
+        "name": "avg_npc_054"
+    },
+    {
+        "id": 37,
+        "raw": "[name=\"Sarkaz Mercenary Leader\"]  Tell me the name you go by now.",
+        "type": "dialog",
+        "speaker": "Sarkaz Mercenary Leader",
+        "content": "Tell me the name you go by now."
+    },
+    {
+        "id": 38,
+        "raw": "[Decision(options=\"—Scout.;Don't mercenaries also use codenames, Garcin?\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "—Scout.;Don't mercenaries also use codenames, Garcin?",
+        "values": "1;2"
+    },
+    {
+        "id": 39,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 40,
+        "raw": "[Character(name=\"avg_npc_054\")]",
+        "type": "character",
+        "name": "avg_npc_054"
+    },
+    {
+        "id": 41,
+        "raw": "[name=\"Sarkaz Mercenary Leader\"]  It's been a while since I heard that name. Originally, I wanted to carve your name onto this knife as a show of respect.",
+        "type": "dialog",
+        "speaker": "Sarkaz Mercenary Leader",
+        "content": "It's been a while since I heard that name. Originally, I wanted to carve your name onto this knife as a show of respect."
+    },
+    {
+        "id": 42,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 43,
+        "raw": "[Character(name=\"avg_npc_054\")]",
+        "type": "character",
+        "name": "avg_npc_054"
+    },
+    {
+        "id": 44,
+        "raw": "[name=\"Sarkaz Mercenary Leader\"]  ...But you're right.",
+        "type": "dialog",
+        "speaker": "Sarkaz Mercenary Leader",
+        "content": "...But you're right."
+    },
+    {
+        "id": 45,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 46,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 47,
+        "raw": "[Blocker(fadetime=1,block=true)]",
+        "type": "blocker",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 48,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 49,
+        "raw": "[stopmusic(fadetime=1)]",
+        "type": "stop_music",
+        "fadetime": 1
+    },
+    {
+        "id": 50,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 51,
+        "raw": "[Background(image=\"bg_cher_1\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_cher_1.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 52,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 53,
+        "raw": "[CameraShake(duration=1, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "xstrength": "8,",
+        "ystrength": "6,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 54,
+        "raw": "[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]",
+        "type": "blocker",
+        "a": "0.7,",
+        "r": "0.95,",
+        "g": "0.95,",
+        "b": "0.95,",
+        "fadetime": "0.02,",
+        "block": true
+    },
+    {
+        "id": 55,
+        "raw": "[PlaySound(key=\"$d_sp_ballista\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_sp_ballista.mp3"
+    },
+    {
+        "id": 56,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.25, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.25,",
+        "block": true
+    },
+    {
+        "id": 57,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 58,
+        "raw": "[PlaySound(key=\"$rungeneral\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_rungeneral.mp3"
+    },
+    {
+        "id": 59,
+        "raw": "[playMusic(intro=\"$nervous_intro\",key=\"$nervous_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act9d0d0/m_avg_nervous_intro.mp3",
+        "key": "sound_beta_2/music/act9d0d0/m_avg_nervous_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 60,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 61,
+        "raw": "[Character(name=\"avg_npc_052\",fadetime=1,block=true)]",
+        "type": "character",
+        "name": "avg_npc_052",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 62,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3"
+    },
+    {
+        "id": 63,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 64,
+        "raw": "[name=\"Ines\"]  Stop resisting.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "Stop resisting."
+    },
+    {
+        "id": 65,
+        "raw": "[name=\"Ines\"]  ...The twelve other members of your team have been eliminated.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "...The twelve other members of your team have been eliminated."
+    },
+    {
+        "id": 66,
+        "raw": "[name=\"Ines\"]  Leafa, Mimi, and Thumbtack died after being surrounded by Reunion casters. One died on her feet.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "Leafa, Mimi, and Thumbtack died after being surrounded by Reunion casters. One died on her feet."
+    },
+    {
+        "id": 67,
+        "raw": "[name=\"Ines\"]  Mary, Macron, Slink, and Scorpion held a section that W broke with her own team.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "Mary, Macron, Slink, and Scorpion held a section that W broke with her own team."
+    },
+    {
+        "id": 68,
+        "raw": "[name=\"Ines\"]  Milim, Tipsy, and Mudflower took one of our teams down with them. One of them fought her way out of the trap, but Hoederer's swordsmen got her head.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "Milim, Tipsy, and Mudflower took one of our teams down with them. One of them fought her way out of the trap, but Hoederer's swordsmen got her head."
+    },
+    {
+        "id": 69,
+        "raw": "[name=\"Ines\"]  Unexpectedly, Pter died downstairs over there not too long ago. Apparently tried to save some civilian who didn't have time to evacuate.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "Unexpectedly, Pter died downstairs over there not too long ago. Apparently tried to save some civilian who didn't have time to evacuate."
+    },
+    {
+        "id": 70,
+        "raw": "[name=\"Ines\"]  Slanna's still breathing and we took her in, but she's probably looking for some way to kill herself.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "Slanna's still breathing and we took her in, but she's probably looking for some way to kill herself."
+    },
+    {
+        "id": 71,
+        "raw": "[name=\"Ines\"]  ....What, nothing to say?",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "....What, nothing to say?"
+    },
+    {
+        "id": 72,
+        "raw": "[name=\"Ines\"]  Stop hiding. I know you can hear me. I can see your shadow, and I can tell from your ragged breathing that you're badly wounded.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "Stop hiding. I know you can hear me. I can see your shadow, and I can tell from your ragged breathing that you're badly wounded."
+    },
+    {
+        "id": 73,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 74,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 75,
+        "raw": "[Character(name=\"avg_npc_026\",fadetime=1,block=true)]",
+        "type": "character",
+        "name": "avg_npc_026",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 76,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 77,
+        "raw": "[name=\"Scout\"]  ...Why do you know their names?",
+        "type": "dialog",
+        "speaker": "Scout",
+        "content": "...Why do you know their names?"
+    },
+    {
+        "id": 78,
+        "raw": "[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_052",
+        "name2": "avg_npc_026",
+        "focus": 1
+    },
+    {
+        "id": 79,
+        "raw": "[name=\"Ines\"]  W told me specifically for the occasion. You guys keep some kind of dogtags on you.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "W told me specifically for the occasion. You guys keep some kind of dogtags on you."
+    },
+    {
+        "id": 80,
+        "raw": "[name=\"Ines\"]  'At least you have to know who you killed. This isn't Kazdel anymore. It'd be bad if you killed the wrong person.'",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "'At least you have to know who you killed. This isn't Kazdel anymore. It'd be bad if you killed the wrong person.'"
+    },
+    {
+        "id": 81,
+        "raw": "[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_052",
+        "name2": "avg_npc_026",
+        "focus": 2
+    },
+    {
+        "id": 82,
+        "raw": "[name=\"Scout\"]  Those aren't dogtags, and the operators we lost... weren't all soldiers.",
+        "type": "dialog",
+        "speaker": "Scout",
+        "content": "Those aren't dogtags, and the operators we lost... weren't all soldiers."
+    },
+    {
+        "id": 83,
+        "raw": "[name=\"Scout\"]  I thought W would finish me herself.",
+        "type": "dialog",
+        "speaker": "Scout",
+        "content": "I thought W would finish me herself."
+    },
+    {
+        "id": 84,
+        "raw": "[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_052",
+        "name2": "avg_npc_026",
+        "focus": 1
+    },
+    {
+        "id": 85,
+        "raw": "[name=\"Ines\"]  Hmph. She... Would you believe me if I told you that she doesn't have the heart to do that?",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "Hmph. She... Would you believe me if I told you that she doesn't have the heart to do that?"
+    },
+    {
+        "id": 86,
+        "raw": "[name=\"Ines\"]  You killed the leader that the Regent sent. She's not the only one who wants to take over, so she has her hands full.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "You killed the leader that the Regent sent. She's not the only one who wants to take over, so she has her hands full."
+    },
+    {
+        "id": 87,
+        "raw": "[name=\"Ines\"]  Like the agreement you had with W.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "Like the agreement you had with W."
+    },
+    {
+        "id": 88,
+        "raw": "[name=\"Ines\"]  As soon as you complete your mission, we'll annihilate you with all our strength, in 'hindsight.'",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "As soon as you complete your mission, we'll annihilate you with all our strength, in 'hindsight.'"
+    },
+    {
+        "id": 89,
+        "raw": "[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_052",
+        "name2": "avg_npc_026",
+        "focus": 2
+    },
+    {
+        "id": 90,
+        "raw": "[name=\"Scout\"]  ......",
+        "type": "dialog",
+        "speaker": "Scout",
+        "content": "......"
+    },
+    {
+        "id": 91,
+        "raw": "[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_052",
+        "name2": "avg_npc_026",
+        "focus": 1
+    },
+    {
+        "id": 92,
+        "raw": "[name=\"Ines\"]  ...During the firefight, you even took the time to rescue someone. But, that's not any of our business.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "...During the firefight, you even took the time to rescue someone. But, that's not any of our business."
+    },
+    {
+        "id": 93,
+        "raw": "[name=\"Ines\"]  Patriot is over there, so there's no need to bother with that.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "Patriot is over there, so there's no need to bother with that."
+    },
+    {
+        "id": 94,
+        "raw": "[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_052",
+        "name2": "avg_npc_026",
+        "focus": 2
+    },
+    {
+        "id": 95,
+        "raw": "[name=\"Scout\"]  ...Good.",
+        "type": "dialog",
+        "speaker": "Scout",
+        "content": "...Good."
+    },
+    {
+        "id": 96,
+        "raw": "[name=\"Scout\"]  You've all... changed. W was not the kind of person to go out of her way to remember the names of the dead.",
+        "type": "dialog",
+        "speaker": "Scout",
+        "content": "You've all... changed. W was not the kind of person to go out of her way to remember the names of the dead."
+    },
+    {
+        "id": 97,
+        "raw": "[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_052",
+        "name2": "avg_npc_026",
+        "focus": 1
+    },
+    {
+        "id": 98,
+        "raw": "[name=\"Ines\"]  Yeah, she did change. But she's only become more of a lunatic.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "Yeah, she did change. But she's only become more of a lunatic."
+    },
+    {
+        "id": 99,
+        "raw": "[name=\"Ines\"]  Your experience on the battlefield is pure, like Faust's Arts. Who's to say that this wasn't just a ruse to trip you up? What if she only wrote down their names so I could toy with you with my Arts?",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "Your experience on the battlefield is pure, like Faust's Arts. Who's to say that this wasn't just a ruse to trip you up? What if she only wrote down their names so I could toy with you with my Arts?"
+    },
+    {
+        "id": 100,
+        "raw": "[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_052",
+        "name2": "avg_npc_026",
+        "focus": 2
+    },
+    {
+        "id": 101,
+        "raw": "[name=\"Scout\"]  ...That sounds like her. She would never miss an opportunity to have some fun.",
+        "type": "dialog",
+        "speaker": "Scout",
+        "content": "...That sounds like her. She would never miss an opportunity to have some fun."
+    },
+    {
+        "id": 102,
+        "raw": "[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_052",
+        "name2": "avg_npc_026",
+        "focus": 1
+    },
+    {
+        "id": 103,
+        "raw": "[name=\"Ines\"]  Same with you. Didn't you also agree to this crazy deal that only W could come up with?",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "Same with you. Didn't you also agree to this crazy deal that only W could come up with?"
+    },
+    {
+        "id": 104,
+        "raw": "[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_052",
+        "name2": "avg_npc_026",
+        "focus": 2
+    },
+    {
+        "id": 105,
+        "raw": "[name=\"Scout\"]  Trading my life for an opportunity, then letting those who should take that opportunity follow through? There's nothing crazy about that.",
+        "type": "dialog",
+        "speaker": "Scout",
+        "content": "Trading my life for an opportunity, then letting those who should take that opportunity follow through? There's nothing crazy about that."
+    },
+    {
+        "id": 106,
+        "raw": "[name=\"Scout\"]  Just like those who sacrificed their lives. They died for their own ideals. Without them, I cannot succeed.",
+        "type": "dialog",
+        "speaker": "Scout",
+        "content": "Just like those who sacrificed their lives. They died for their own ideals. Without them, I cannot succeed."
+    },
+    {
+        "id": 107,
+        "raw": "[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_052",
+        "name2": "avg_npc_026",
+        "focus": 1
+    },
+    {
+        "id": 108,
+        "raw": "[name=\"Ines\"]  ...It seems like everyone's changed with the passing of time.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "...It seems like everyone's changed with the passing of time."
+    },
+    {
+        "id": 109,
+        "raw": "[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_052",
+        "name2": "avg_npc_026",
+        "focus": 2
+    },
+    {
+        "id": 110,
+        "raw": "[name=\"Scout\"]  You too. You never would've given your enemy time to breathe, like you're doing now.",
+        "type": "dialog",
+        "speaker": "Scout",
+        "content": "You too. You never would've given your enemy time to breathe, like you're doing now."
+    },
+    {
+        "id": 111,
+        "raw": "[name=\"Scout\"]  Hoederer should have warned you.",
+        "type": "dialog",
+        "speaker": "Scout",
+        "content": "Hoederer should have warned you."
+    },
+    {
+        "id": 112,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 113,
+        "raw": "[Character(name=\"avg_npc_026\")]",
+        "type": "character",
+        "name": "avg_npc_026"
+    },
+    {
+        "id": 114,
+        "raw": "[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]",
+        "type": "blocker",
+        "a": "0.7,",
+        "r": "0.95,",
+        "g": "0.95,",
+        "b": "0.95,",
+        "fadetime": "0.02,",
+        "block": true
+    },
+    {
+        "id": 115,
+        "raw": "[PlaySound(key=\"$pistol\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_pistol.mp3"
+    },
+    {
+        "id": 116,
+        "raw": "[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0.95,",
+        "g": "0.95,",
+        "b": "0.95,",
+        "fadetime": "0.25,",
+        "block": true
+    },
+    {
+        "id": 117,
+        "raw": "[CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=true)]",
+        "type": "camera_shake",
+        "duration": "0.6,",
+        "xstrength": "5,",
+        "ystrength": "8,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "block": true
+    },
+    {
+        "id": 118,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 119,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 120,
+        "raw": "[Character(name=\"avg_npc_052\")]",
+        "type": "character",
+        "name": "avg_npc_052"
+    },
+    {
+        "id": 121,
+        "raw": "[name=\"Ines\"]  What?!",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "What?!"
+    },
+    {
+        "id": 122,
+        "raw": "[name=\"Ines\"]  Why are you still resisting?",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "Why are you still resisting?"
+    },
+    {
+        "id": 123,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 124,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 125,
+        "raw": "[CameraShake(duration=1, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "xstrength": "8,",
+        "ystrength": "6,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 126,
+        "raw": "[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]",
+        "type": "blocker",
+        "a": "0.7,",
+        "r": "0.95,",
+        "g": "0.95,",
+        "b": "0.95,",
+        "fadetime": "0.02,",
+        "block": true
+    },
+    {
+        "id": 127,
+        "raw": "[PlaySound(key=\"$d_sp_ballista\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_sp_ballista.mp3"
+    },
+    {
+        "id": 128,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.25, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.25,",
+        "block": true
+    },
+    {
+        "id": 129,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 130,
+        "raw": "[Character(name=\"avg_npc_052\")]",
+        "type": "character",
+        "name": "avg_npc_052"
+    },
+    {
+        "id": 131,
+        "raw": "[name=\"Ines\"]  ...Tch... He's gone...",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "...Tch... He's gone..."
+    },
+    {
+        "id": 132,
+        "raw": "[name=\"Ines\"]  ...",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "..."
+    },
+    {
+        "id": 133,
+        "raw": "[name=\"Ines\"]  But don't think you can get away so easily...",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "But don't think you can get away so easily..."
+    },
+    {
+        "id": 134,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 135,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 136,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 137,
+        "raw": "[Background(image=\"bg_cher_1\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_cher_1.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 138,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 139,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3"
+    },
+    {
+        "id": 140,
+        "raw": "[Character(name=\"avg_npc_052\")]",
+        "type": "character",
+        "name": "avg_npc_052"
+    },
+    {
+        "id": 141,
+        "raw": "[name=\"Ines\"]  (This way?)",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "(This way?)"
+    },
+    {
+        "id": 142,
+        "raw": "[name=\"Ines\"]  (......)",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "(......)"
+    },
+    {
+        "id": 143,
+        "raw": "[name=\"Ines\"]  (No doubt, this is the way. He's fast.)",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "(No doubt, this is the way. He's fast.)"
+    },
+    {
+        "id": 144,
+        "raw": "[name=\"Ines\"]  (Tricky bastard. If he wasn't injured, I might not even be able to keep up...)",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "(Tricky bastard. If he wasn't injured, I might not even be able to keep up...)"
+    },
+    {
+        "id": 145,
+        "raw": "[name=\"Ines\"]  (Wait...)",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "(Wait...)"
+    },
+    {
+        "id": 146,
+        "raw": "[name=\"Ines\"]  (He... he's heading towards the middle of the city?)",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "(He... he's heading towards the middle of the city?)"
+    },
+    {
+        "id": 147,
+        "raw": "[name=\"Ines\"]  (That's where... Tch!)",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "(That's where... Tch!)"
+    },
+    {
+        "id": 148,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 149,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 150,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 151,
+        "raw": "[Background(image=\"bg_cher_5\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_cher_5.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 152,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 153,
+        "raw": "[PlaySound(key=\"$rungeneral\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_rungeneral.mp3"
+    },
+    {
+        "id": 154,
+        "raw": "[Character(name=\"avg_npc_052\")]",
+        "type": "character",
+        "name": "avg_npc_052"
+    },
+    {
+        "id": 155,
+        "raw": "[name=\"Ines\"]  ...Damn it!",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "...Damn it!"
+    },
+    {
+        "id": 156,
+        "raw": "[name=\"Ines\"]  What are you after, so close to the core city?",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "What are you after, so close to the core city?"
+    },
+    {
+        "id": 157,
+        "raw": "[name=\"Ines\"]  Why can't you just get out of Chernobog?!",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "Why can't you just get out of Chernobog?!"
+    },
+    {
+        "id": 158,
+        "raw": "[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_052",
+        "name2": "avg_npc_026",
+        "focus": 2
+    },
+    {
+        "id": 159,
+        "raw": "[name=\"Scout\"]  ...You really don't act like a Sarkaz at times, Ines.",
+        "type": "dialog",
+        "speaker": "Scout",
+        "content": "...You really don't act like a Sarkaz at times, Ines."
+    },
+    {
+        "id": 160,
+        "raw": "[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_052",
+        "name2": "avg_npc_026",
+        "focus": 1
+    },
+    {
+        "id": 161,
+        "raw": "[name=\"Ines\"]  I never was one.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "I never was one."
+    },
+    {
+        "id": 162,
+        "raw": "[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_052",
+        "name2": "avg_npc_026",
+        "focus": 2
+    },
+    {
+        "id": 163,
+        "raw": "[name=\"Scout\"]  —You should keep pretending that you are. You are a Sarkaz mercenary, and this is the battlefield.",
+        "type": "dialog",
+        "speaker": "Scout",
+        "content": "—You should keep pretending that you are. You are a Sarkaz mercenary, and this is the battlefield."
+    },
+    {
+        "id": 164,
+        "raw": "[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_052",
+        "name2": "avg_npc_026",
+        "focus": 1
+    },
+    {
+        "id": 165,
+        "raw": "[name=\"Ines\"]  You can't even run anymore. You've lost too much blood, your head is spinning, and your limbs are going numb. Your shadow's the only thing still burning. You shouldn't even be able to stand.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "You can't even run anymore. You've lost too much blood, your head is spinning, and your limbs are going numb. Your shadow's the only thing still burning. You shouldn't even be able to stand."
+    },
+    {
+        "id": 166,
+        "raw": "[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_052",
+        "name2": "avg_npc_026",
+        "focus": 2
+    },
+    {
+        "id": 167,
+        "raw": "[name=\"Scout\"]  I'm well aware of my own injuries. Besides, this place is crawling with Reunion.",
+        "type": "dialog",
+        "speaker": "Scout",
+        "content": "I'm well aware of my own injuries. Besides, this place is crawling with Reunion."
+    },
+    {
+        "id": 168,
+        "raw": "[name=\"Scout\"]  But for the lot of you... You, Hoederer, and also W... I have a suggestion.",
+        "type": "dialog",
+        "speaker": "Scout",
+        "content": "But for the lot of you... You, Hoederer, and also W... I have a suggestion."
+    },
+    {
+        "id": 169,
+        "raw": "[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_052",
+        "name2": "avg_npc_026",
+        "focus": 1
+    },
+    {
+        "id": 170,
+        "raw": "[name=\"Ines\"]  ...For Her Majesty's sake.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "...For Her Majesty's sake."
+    },
+    {
+        "id": 171,
+        "raw": "[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_052",
+        "name2": "avg_npc_026",
+        "focus": 2
+    },
+    {
+        "id": 172,
+        "raw": "[name=\"Scout\"]  Use those eyes of yours to see the truth, and don't die in vain before that.",
+        "type": "dialog",
+        "speaker": "Scout",
+        "content": "Use those eyes of yours to see the truth, and don't die in vain before that."
+    },
+    {
+        "id": 173,
+        "raw": "[name=\"Scout\"]  We Sarkaz... should not allow others to continue to use us.",
+        "type": "dialog",
+        "speaker": "Scout",
+        "content": "We Sarkaz... should not allow others to continue to use us."
+    },
+    {
+        "id": 174,
+        "raw": "[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_052",
+        "name2": "avg_npc_026",
+        "focus": 1
+    },
+    {
+        "id": 175,
+        "raw": "[name=\"Ines\"]  Are you talking about my Arts? What am I supposed to be seeing—",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "Are you talking about my Arts? What am I supposed to be seeing—"
+    },
+    {
+        "id": 176,
+        "raw": "[Character(name=\"avg_npc_052\")]",
+        "type": "character",
+        "name": "avg_npc_052"
+    },
+    {
+        "id": 177,
+        "raw": "[name=\"Ines\"]  ——",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "——"
+    },
+    {
+        "id": 178,
+        "raw": "[name=\"Ines\"]  ————",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "————"
+    },
+    {
+        "id": 179,
+        "raw": "[name=\"Ines\"]  ——What... this... Who is this... why...?",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "——What... this... Who is this... why...?"
+    },
+    {
+        "id": 180,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 181,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 182,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0.3, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.3,",
+        "block": true
+    },
+    {
+        "id": 183,
+        "raw": "[Background(image=\"bg_indoor_1\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_indoor_1.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 184,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 185,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0.3, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.3,",
+        "block": true
+    },
+    {
+        "id": 186,
+        "raw": "[Background(image=\"bg_cher_5\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_cher_5.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 187,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 188,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0.3, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.3,",
+        "block": true
+    },
+    {
+        "id": 189,
+        "raw": "[Background(image=\"bg_cher_3\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_cher_3.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 190,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 191,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0.3, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.3,",
+        "block": true
+    },
+    {
+        "id": 192,
+        "raw": "[Background(image=\"bg_cher_0\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_cher_0.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 193,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 194,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 195,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0.3, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.3,",
+        "block": true
+    },
+    {
+        "id": 196,
+        "raw": "[Background]",
+        "type": "background"
+    },
+    {
+        "id": 197,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 198,
+        "raw": "[Character(name=\"char_011_talula_1\",fadetime=1,block=true)]",
+        "type": "character",
+        "name": "char_011_talula_1",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 199,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 200,
+        "raw": "[name=\"Talulah?\"]  ...",
+        "type": "dialog",
+        "speaker": "Talulah?",
+        "content": "..."
+    },
+    {
+        "id": 201,
+        "raw": "[name=\"Talulah?\"]  ...Sarkaz?",
+        "type": "dialog",
+        "speaker": "Talulah?",
+        "content": "...Sarkaz?"
+    },
+    {
+        "id": 202,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 203,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 204,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 205,
+        "raw": "[Background(image=\"bg_cher_5\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_cher_5.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 206,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 207,
+        "raw": "[Character(name=\"avg_npc_052\")]",
+        "type": "character",
+        "name": "avg_npc_052"
+    },
+    {
+        "id": 208,
+        "raw": "[CameraShake(duration=0.4, xstrength=0, ystrength=8, vibrato=30, randomness=30, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.4,",
+        "xstrength": "0,",
+        "ystrength": "8,",
+        "vibrato": "30,",
+        "randomness": "30,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 209,
+        "raw": "[name=\"Ines\"]  ——!",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "——!"
+    },
+    {
+        "id": 210,
+        "raw": "[name=\"Ines\"]  Impossible... She saw me?!",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "Impossible... She saw me?!"
+    },
+    {
+        "id": 211,
+        "raw": "[Character(name=\"avg_npc_026\")]",
+        "type": "character",
+        "name": "avg_npc_026"
+    },
+    {
+        "id": 212,
+        "raw": "[name=\"Scout\"]  (Now's my chance—!)",
+        "type": "dialog",
+        "speaker": "Scout",
+        "content": "(Now's my chance—!)"
+    },
+    {
+        "id": 213,
+        "raw": "[stopmusic(fadetime=1)]",
+        "type": "stop_music",
+        "fadetime": 1
+    },
+    {
+        "id": 214,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 215,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 216,
+        "raw": "[PlaySound(key=\"$knifegore\", volume=0.9)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_knifegore.mp3",
+        "volume": 0.9
+    },
+    {
+        "id": 217,
+        "raw": "[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "xstrength": "10,",
+        "ystrength": "12,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": true
+    },
+    {
+        "id": 218,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 219,
+        "raw": "[Character(name=\"avg_npc_047\",fadetime=1,block=true)]",
+        "type": "character",
+        "name": "avg_npc_047",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 220,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 221,
+        "raw": "[name=\"Hoederer\"]  Long time no see.",
+        "type": "dialog",
+        "speaker": "Hoederer",
+        "content": "Long time no see."
+    },
+    {
+        "id": 222,
+        "raw": "[Character(name=\"avg_npc_047\",name2=\"avg_npc_026\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_047",
+        "name2": "avg_npc_026",
+        "focus": 2
+    },
+    {
+        "id": 223,
+        "raw": "[name=\"Scout\"]  Nngh... You? So... you're alive...",
+        "type": "dialog",
+        "speaker": "Scout",
+        "content": "Nngh... You? So... you're alive..."
+    },
+    {
+        "id": 224,
+        "raw": "[Character(name=\"avg_npc_047\",name2=\"avg_npc_026\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_047",
+        "name2": "avg_npc_026",
+        "focus": 1
+    },
+    {
+        "id": 225,
+        "raw": "[name=\"Hoederer\"]  Mhm.",
+        "type": "dialog",
+        "speaker": "Hoederer",
+        "content": "Mhm."
+    },
+    {
+        "id": 226,
+        "raw": "[name=\"Hoederer\"]  I've been following you this whole time. I figured Ines alone wouldn't be enough to handle an elite like you.",
+        "type": "dialog",
+        "speaker": "Hoederer",
+        "content": "I've been following you this whole time. I figured Ines alone wouldn't be enough to handle an elite like you."
+    },
+    {
+        "id": 227,
+        "raw": "[name=\"Hoederer\"]  The price to pay for this information is your life. And though we never planned to show any mercy, I did hope that you would...",
+        "type": "dialog",
+        "speaker": "Hoederer",
+        "content": "The price to pay for this information is your life. And though we never planned to show any mercy, I did hope that you would..."
+    },
+    {
+        "id": 228,
+        "raw": "[name=\"Hoederer\"]  But now, we can't give you any more chances. You're too close to the core city. W doesn't want anyone poking around over there.",
+        "type": "dialog",
+        "speaker": "Hoederer",
+        "content": "But now, we can't give you any more chances. You're too close to the core city. W doesn't want anyone poking around over there."
+    },
+    {
+        "id": 229,
+        "raw": "[Character(name=\"avg_npc_047\",name2=\"avg_npc_026\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_047",
+        "name2": "avg_npc_026",
+        "focus": 2
+    },
+    {
+        "id": 230,
+        "raw": "[name=\"Scout\"]  Heh... Sounds like... she's the captain now...",
+        "type": "dialog",
+        "speaker": "Scout",
+        "content": "Heh... Sounds like... she's the captain now..."
+    },
+    {
+        "id": 231,
+        "raw": "[name=\"Scout\"]  You... always...",
+        "type": "dialog",
+        "speaker": "Scout",
+        "content": "You... always..."
+    },
+    {
+        "id": 232,
+        "raw": "[Character(name=\"avg_npc_047\",name2=\"avg_npc_026\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_047",
+        "name2": "avg_npc_026",
+        "focus": 1
+    },
+    {
+        "id": 233,
+        "raw": "[name=\"Hoederer\"]  ...I'm sorry. Sleep now, old friend.",
+        "type": "dialog",
+        "speaker": "Hoederer",
+        "content": "...I'm sorry. Sleep now, old friend."
+    },
+    {
+        "id": 234,
+        "raw": "[Character(name=\"avg_npc_047\",name2=\"avg_npc_026\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_047",
+        "name2": "avg_npc_026",
+        "focus": 2
+    },
+    {
+        "id": 235,
+        "raw": "[name=\"Scout\"]  You... should not stay here...",
+        "type": "dialog",
+        "speaker": "Scout",
+        "content": "You... should not stay here..."
+    },
+    {
+        "id": 236,
+        "raw": "[Character(name=\"avg_npc_047\")]",
+        "type": "character",
+        "name": "avg_npc_047"
+    },
+    {
+        "id": 237,
+        "raw": "[name=\"Hoederer\"]  ...I know, old friend.",
+        "type": "dialog",
+        "speaker": "Hoederer",
+        "content": "...I know, old friend."
+    },
+    {
+        "id": 238,
+        "raw": "[name=\"Hoederer\"]  I've known that all along.",
+        "type": "dialog",
+        "speaker": "Hoederer",
+        "content": "I've known that all along."
+    },
+    {
+        "id": 239,
+        "raw": "[Character(name=\"avg_npc_052\")]",
+        "type": "character",
+        "name": "avg_npc_052"
+    },
+    {
+        "id": 240,
+        "raw": "[name=\"Ines\"]  Hoederer!",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "Hoederer!"
+    },
+    {
+        "id": 241,
+        "raw": "[Character(name=\"avg_npc_047\")]",
+        "type": "character",
+        "name": "avg_npc_047"
+    },
+    {
+        "id": 242,
+        "raw": "[name=\"Hoederer\"]  You hesitated back there. Why?",
+        "type": "dialog",
+        "speaker": "Hoederer",
+        "content": "You hesitated back there. Why?"
+    },
+    {
+        "id": 243,
+        "raw": "[Character(name=\"avg_npc_052\")]",
+        "type": "character",
+        "name": "avg_npc_052"
+    },
+    {
+        "id": 244,
+        "raw": "[name=\"Ines\"]  —Hurry!",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "—Hurry!"
+    },
+    {
+        "id": 245,
+        "raw": "[name=\"Ines\"]  We need to let W know, immediately!",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "We need to let W know, immediately!"
+    },
+    {
+        "id": 246,
+        "raw": "[name=\"Ines\"]  Tch! She's coming!",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "Tch! She's coming!"
+    },
+    {
+        "id": 247,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 248,
+        "raw": "[Blocker(fadetime=1,block=true)]",
+        "type": "blocker",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 249,
+        "raw": "[Image]",
+        "type": "image"
+    },
+    {
+        "id": 250,
+        "raw": "[name=\"Talulah\"]  ...",
+        "type": "dialog",
+        "speaker": "Talulah",
+        "content": "..."
+    },
+    {
+        "id": 251,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 252,
+        "raw": "[Blocker(fadetime=1,block=true)]",
+        "type": "blocker",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 253,
+        "raw": "[Image]",
+        "type": "image"
+    }
+]

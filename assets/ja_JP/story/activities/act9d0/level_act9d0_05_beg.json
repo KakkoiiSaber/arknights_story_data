@@ -1,0 +1,1830 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")] ",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK"
+    },
+    {
+        "id": 2,
+        "raw": "[stopmusic]",
+        "type": "stop_music"
+    },
+    {
+        "id": 3,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 4,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 5,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 6,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 7,
+        "raw": "[Background(image=\"bg_cher_3\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_cher_3.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 8,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 9,
+        "raw": "[playMusic(intro=\"$darkness02_intro\", key=\"$darkness02_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta1_180603/m_dia_darkness02_intro.mp3",
+        "key": "sound_beta_2/music/beta1_180603/m_dia_darkness02_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 10,
+        "raw": "[Character(name=\"avg_npc_054\",fadetime=1,block=true)]",
+        "type": "character",
+        "name": "avg_npc_054",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 11,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 12,
+        "raw": "[name=\"サルカズ傭兵のリーダー\"]  お前のことは……覚えている……同胞よ。戦場で会ったことがあるだろう。",
+        "type": "dialog",
+        "speaker": "サルカズ傭兵のリーダー",
+        "content": "お前のことは……覚えている……同胞よ。戦場で会ったことがあるだろう。"
+    },
+    {
+        "id": 13,
+        "raw": "[name=\"サルカズ傭兵のリーダー\"]  ……お前たちは、チェルノボーグに来るべきではなかった。ロドスの情報は既に全部隊に知れ渡っている。お前も、部下も、全員死ぬぞ。",
+        "type": "dialog",
+        "speaker": "サルカズ傭兵のリーダー",
+        "content": "……お前たちは、チェルノボーグに来るべきではなかった。ロドスの情報は既に全部隊に知れ渡っている。お前も、部下も、全員死ぬぞ。"
+    },
+    {
+        "id": 14,
+        "raw": "[name=\"サルカズ傭兵のリーダー\"]  だが、お前たちがいくら優秀だとしても、Wが敷いた防衛線をここまで容易く越えられるとは……もしや……",
+        "type": "dialog",
+        "speaker": "サルカズ傭兵のリーダー",
+        "content": "だが、お前たちがいくら優秀だとしても、Wが敷いた防衛線をここまで容易く越えられるとは……もしや……"
+    },
+    {
+        "id": 15,
+        "raw": "[name=\"サルカズ傭兵のリーダー\"]  そうか、彼女はやはりそれを選んだのか。実のところ、予想はしていた。",
+        "type": "dialog",
+        "speaker": "サルカズ傭兵のリーダー",
+        "content": "そうか、彼女はやはりそれを選んだのか。実のところ、予想はしていた。"
+    },
+    {
+        "id": 16,
+        "raw": "[Decision(options=\"あんたたちの中にはかつて共に戦った奴もいる。;それが今、俺がここで話をしている唯一の理由だ。\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "あんたたちの中にはかつて共に戦った奴もいる。;それが今、俺がここで話をしている唯一の理由だ。",
+        "values": "1;2"
+    },
+    {
+        "id": 17,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 18,
+        "raw": "[Character(name=\"avg_npc_054\")]",
+        "type": "character",
+        "name": "avg_npc_054"
+    },
+    {
+        "id": 19,
+        "raw": "[name=\"サルカズ傭兵のリーダー\"]  ……テレジアは素晴らしい統率者だった。彼女に影響を受け、多くの者が――",
+        "type": "dialog",
+        "speaker": "サルカズ傭兵のリーダー",
+        "content": "……テレジアは素晴らしい統率者だった。彼女に影響を受け、多くの者が――"
+    },
+    {
+        "id": 20,
+        "raw": "[name=\"サルカズ傭兵のリーダー\"]  この地に、理想を抱いた。",
+        "type": "dialog",
+        "speaker": "サルカズ傭兵のリーダー",
+        "content": "この地に、理想を抱いた。"
+    },
+    {
+        "id": 21,
+        "raw": "[name=\"サルカズ傭兵のリーダー\"]  反論は急がなくていい。私はお前よりもカズデルが直面したことの残酷さを知っている。彼女を否定するつもりはないが、私からすれば、偉大な過程より小さな結果の方が重要だ。",
+        "type": "dialog",
+        "speaker": "サルカズ傭兵のリーダー",
+        "content": "反論は急がなくていい。私はお前よりもカズデルが直面したことの残酷さを知っている。彼女を否定するつもりはないが、私からすれば、偉大な過程より小さな結果の方が重要だ。"
+    },
+    {
+        "id": 22,
+        "raw": "[name=\"サルカズ傭兵のリーダー\"]  善意だけではどうにもならないこともある。今、サルカズに新たな未来を与えられるのは、摂政王だけだ。",
+        "type": "dialog",
+        "speaker": "サルカズ傭兵のリーダー",
+        "content": "善意だけではどうにもならないこともある。今、サルカズに新たな未来を与えられるのは、摂政王だけだ。"
+    },
+    {
+        "id": 23,
+        "raw": "[Decision(options=\"俺たちは協力することができると思っていた。\", values=\"1\")]",
+        "type": "decision",
+        "options": "俺たちは協力することができると思っていた。",
+        "values": "1"
+    },
+    {
+        "id": 24,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 25,
+        "raw": "[Character(name=\"avg_npc_054\")]",
+        "type": "character",
+        "name": "avg_npc_054"
+    },
+    {
+        "id": 26,
+        "raw": "[name=\"サルカズ傭兵のリーダー\"]  それはあまりにも愚かな考えだ。サルカズの長きに渡る怒りにどう始末をつける？　時間と共に傾いた天秤はどう正す？",
+        "type": "dialog",
+        "speaker": "サルカズ傭兵のリーダー",
+        "content": "それはあまりにも愚かな考えだ。サルカズの長きに渡る怒りにどう始末をつける？　時間と共に傾いた天秤はどう正す？"
+    },
+    {
+        "id": 27,
+        "raw": "[name=\"サルカズ傭兵のリーダー\"]  非感染者とウルサス。感染者とレユニオン。サルカズとカズデル。",
+        "type": "dialog",
+        "speaker": "サルカズ傭兵のリーダー",
+        "content": "非感染者とウルサス。感染者とレユニオン。サルカズとカズデル。"
+    },
+    {
+        "id": 28,
+        "raw": "[name=\"サルカズ傭兵のリーダー\"]  結局は、どれも同じだった。レユニオンと共に戦ってきた日々で、私はそれを確信した。",
+        "type": "dialog",
+        "speaker": "サルカズ傭兵のリーダー",
+        "content": "結局は、どれも同じだった。レユニオンと共に戦ってきた日々で、私はそれを確信した。"
+    },
+    {
+        "id": 29,
+        "raw": "[name=\"サルカズ傭兵のリーダー\"]  摂政王殿下は、我々のために新しい居場所を切り開いてくださる。私はその可能性に賭けることを選んだんだ。",
+        "type": "dialog",
+        "speaker": "サルカズ傭兵のリーダー",
+        "content": "摂政王殿下は、我々のために新しい居場所を切り開いてくださる。私はその可能性に賭けることを選んだんだ。"
+    },
+    {
+        "id": 30,
+        "raw": "[name=\"サルカズ傭兵のリーダー\"]  お前たちが何の疑いもなく、テレジアに従っていたようにな。",
+        "type": "dialog",
+        "speaker": "サルカズ傭兵のリーダー",
+        "content": "お前たちが何の疑いもなく、テレジアに従っていたようにな。"
+    },
+    {
+        "id": 31,
+        "raw": "[name=\"サルカズ傭兵のリーダー\"]  ……ああ、余計な話はこの辺にしておこう。",
+        "type": "dialog",
+        "speaker": "サルカズ傭兵のリーダー",
+        "content": "……ああ、余計な話はこの辺にしておこう。"
+    },
+    {
+        "id": 32,
+        "raw": "[name=\"サルカズ傭兵のリーダー\"]  お前がここまで来れたのは、Wの協力があったからだろう。彼女に何の対価を払った？",
+        "type": "dialog",
+        "speaker": "サルカズ傭兵のリーダー",
+        "content": "お前がここまで来れたのは、Wの協力があったからだろう。彼女に何の対価を払った？"
+    },
+    {
+        "id": 33,
+        "raw": "[name=\"サルカズ傭兵のリーダー\"]  時間稼ぎに使った部下の命か？　それとも……お前自身か？",
+        "type": "dialog",
+        "speaker": "サルカズ傭兵のリーダー",
+        "content": "時間稼ぎに使った部下の命か？　それとも……お前自身か？"
+    },
+    {
+        "id": 34,
+        "raw": "[Decision(options=\"......\", values=\"1\")]",
+        "type": "decision",
+        "options": "......",
+        "values": "1"
+    },
+    {
+        "id": 35,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 36,
+        "raw": "[Character(name=\"avg_npc_054\")]",
+        "type": "character",
+        "name": "avg_npc_054"
+    },
+    {
+        "id": 37,
+        "raw": "[name=\"サルカズ傭兵のリーダー\"]  お前の今の名前を教えてくれ。",
+        "type": "dialog",
+        "speaker": "サルカズ傭兵のリーダー",
+        "content": "お前の今の名前を教えてくれ。"
+    },
+    {
+        "id": 38,
+        "raw": "[Decision(options=\"――Scout。;傭兵はみんな偽名を使うだろ。なぁガルシン。\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "――Scout。;傭兵はみんな偽名を使うだろ。なぁガルシン。",
+        "values": "1;2"
+    },
+    {
+        "id": 39,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 40,
+        "raw": "[Character(name=\"avg_npc_054\")]",
+        "type": "character",
+        "name": "avg_npc_054"
+    },
+    {
+        "id": 41,
+        "raw": "[name=\"サルカズ傭兵のリーダー\"]  聞き慣れたコードネームだな。敬意を表して、お前の本名をこの刀に刻もうと思っていたのだが。",
+        "type": "dialog",
+        "speaker": "サルカズ傭兵のリーダー",
+        "content": "聞き慣れたコードネームだな。敬意を表して、お前の本名をこの刀に刻もうと思っていたのだが。"
+    },
+    {
+        "id": 42,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 43,
+        "raw": "[Character(name=\"avg_npc_054\")]",
+        "type": "character",
+        "name": "avg_npc_054"
+    },
+    {
+        "id": 44,
+        "raw": "[name=\"サルカズ傭兵のリーダー\"]  ……その通りだ。",
+        "type": "dialog",
+        "speaker": "サルカズ傭兵のリーダー",
+        "content": "……その通りだ。"
+    },
+    {
+        "id": 45,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 46,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 47,
+        "raw": "[Blocker(fadetime=1,block=true)]",
+        "type": "blocker",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 48,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 49,
+        "raw": "[stopmusic(fadetime=1)]",
+        "type": "stop_music",
+        "fadetime": 1
+    },
+    {
+        "id": 50,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 51,
+        "raw": "[Background(image=\"bg_cher_1\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_cher_1.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 52,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 53,
+        "raw": "[CameraShake(duration=1, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "xstrength": "8,",
+        "ystrength": "6,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 54,
+        "raw": "[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]",
+        "type": "blocker",
+        "a": "0.7,",
+        "r": "0.95,",
+        "g": "0.95,",
+        "b": "0.95,",
+        "fadetime": "0.02,",
+        "block": true
+    },
+    {
+        "id": 55,
+        "raw": "[PlaySound(key=\"$d_sp_ballista\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_sp_ballista.mp3"
+    },
+    {
+        "id": 56,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.25, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.25,",
+        "block": true
+    },
+    {
+        "id": 57,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 58,
+        "raw": "[PlaySound(key=\"$rungeneral\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_rungeneral.mp3"
+    },
+    {
+        "id": 59,
+        "raw": "[playMusic(intro=\"$nervous_intro\",key=\"$nervous_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act9d0d0/m_avg_nervous_intro.mp3",
+        "key": "sound_beta_2/music/act9d0d0/m_avg_nervous_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 60,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 61,
+        "raw": "[Character(name=\"avg_npc_052\",fadetime=1,block=true)]",
+        "type": "character",
+        "name": "avg_npc_052",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 62,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3"
+    },
+    {
+        "id": 63,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 64,
+        "raw": "[name=\"イネス\"]  抵抗はやめなさい。",
+        "type": "dialog",
+        "speaker": "イネス",
+        "content": "抵抗はやめなさい。"
+    },
+    {
+        "id": 65,
+        "raw": "[name=\"イネス\"]  ……あなたの十二人の部隊は、もう全滅したわ。",
+        "type": "dialog",
+        "speaker": "イネス",
+        "content": "……あなたの十二人の部隊は、もう全滅したわ。"
+    },
+    {
+        "id": 66,
+        "raw": "[name=\"イネス\"]  レイファ、ミミ、サムタックはレユニオンの術師の包囲網の中で死んだ。一人は立ったままね。",
+        "type": "dialog",
+        "speaker": "イネス",
+        "content": "レイファ、ミミ、サムタックはレユニオンの術師の包囲網の中で死んだ。一人は立ったままね。"
+    },
+    {
+        "id": 67,
+        "raw": "[name=\"イネス\"]  マリー、ロングトーン、スリンカー、スコーピオンは戦線を維持してたけど、Wの部隊にやられたわ。",
+        "type": "dialog",
+        "speaker": "イネス",
+        "content": "マリー、ロングトーン、スリンカー、スコーピオンは戦線を維持してたけど、Wの部隊にやられたわ。"
+    },
+    {
+        "id": 68,
+        "raw": "[name=\"イネス\"]  ムラム、カクテル、ユランは私たちの分隊と相打ちになった。結構頑張っていたけど、最後はヘドリーの刀兵に首を落とされたわ。",
+        "type": "dialog",
+        "speaker": "イネス",
+        "content": "ムラム、カクテル、ユランは私たちの分隊と相打ちになった。結構頑張っていたけど、最後はヘドリーの刀兵に首を落とされたわ。"
+    },
+    {
+        "id": 69,
+        "raw": "[name=\"イネス\"]  プータルはついさっき、あのビルの下敷きになったところよ。逃げ遅れた市民を助けるためにだったみたい。",
+        "type": "dialog",
+        "speaker": "イネス",
+        "content": "プータルはついさっき、あのビルの下敷きになったところよ。逃げ遅れた市民を助けるためにだったみたい。"
+    },
+    {
+        "id": 70,
+        "raw": "[name=\"イネス\"]  まだ息があったソラナは、連れ帰られたわ。でもきっと、拷問される前に自害するでしょうね。",
+        "type": "dialog",
+        "speaker": "イネス",
+        "content": "まだ息があったソラナは、連れ帰られたわ。でもきっと、拷問される前に自害するでしょうね。"
+    },
+    {
+        "id": 71,
+        "raw": "[name=\"イネス\"]  ……これでもまだ黙ってるの？",
+        "type": "dialog",
+        "speaker": "イネス",
+        "content": "……これでもまだ黙ってるの？"
+    },
+    {
+        "id": 72,
+        "raw": "[name=\"イネス\"]  息が乱れてるわね……かなりの怪我なんでしょう？　隠れたって無駄よ。影を見れば全部わかるんだから。",
+        "type": "dialog",
+        "speaker": "イネス",
+        "content": "息が乱れてるわね……かなりの怪我なんでしょう？　隠れたって無駄よ。影を見れば全部わかるんだから。"
+    },
+    {
+        "id": 73,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 74,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 75,
+        "raw": "[Character(name=\"avg_npc_026\",fadetime=1,block=true)]",
+        "type": "character",
+        "name": "avg_npc_026",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 76,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 77,
+        "raw": "[name=\"Scout\"]  ……どうして隊員たちの名前を知っている？",
+        "type": "dialog",
+        "speaker": "Scout",
+        "content": "……どうして隊員たちの名前を知っている？"
+    },
+    {
+        "id": 78,
+        "raw": "[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_052",
+        "name2": "avg_npc_026",
+        "focus": 1
+    },
+    {
+        "id": 79,
+        "raw": "[name=\"イネス\"]  あなたたちはみんな、軍の認識票みたいなものを身に着けてるじゃない。Wが言ってたわ――",
+        "type": "dialog",
+        "speaker": "イネス",
+        "content": "あなたたちはみんな、軍の認識票みたいなものを身に着けてるじゃない。Wが言ってたわ――"
+    },
+    {
+        "id": 80,
+        "raw": "[name=\"イネス\"]  「誰を殺したのか、ちゃんと確認しないとね。ここはカズデルじゃないから、殺し間違えたら大変でしょ。」って。",
+        "type": "dialog",
+        "speaker": "イネス",
+        "content": "「誰を殺したのか、ちゃんと確認しないとね。ここはカズデルじゃないから、殺し間違えたら大変でしょ。」って。"
+    },
+    {
+        "id": 81,
+        "raw": "[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_052",
+        "name2": "avg_npc_026",
+        "focus": 2
+    },
+    {
+        "id": 82,
+        "raw": "[name=\"Scout\"]  あれは軍のものとは違う。犠牲になった者たちは……皆が皆兵士というわけじゃないからな。",
+        "type": "dialog",
+        "speaker": "Scout",
+        "content": "あれは軍のものとは違う。犠牲になった者たちは……皆が皆兵士というわけじゃないからな。"
+    },
+    {
+        "id": 83,
+        "raw": "[name=\"Scout\"]  俺の始末をつけに来るのは、Wだと思ってた。",
+        "type": "dialog",
+        "speaker": "Scout",
+        "content": "俺の始末をつけに来るのは、Wだと思ってた。"
+    },
+    {
+        "id": 84,
+        "raw": "[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_052",
+        "name2": "avg_npc_026",
+        "focus": 1
+    },
+    {
+        "id": 85,
+        "raw": "[name=\"イネス\"]  Wは……自分でやるのは辛いらしいわよ。そう言ったら信じる？",
+        "type": "dialog",
+        "speaker": "イネス",
+        "content": "Wは……自分でやるのは辛いらしいわよ。そう言ったら信じる？"
+    },
+    {
+        "id": 86,
+        "raw": "[name=\"イネス\"]  あなたは摂政王が派遣したリーダーを殺した。そしてその座を奪うために、Wは忙しくしてる――",
+        "type": "dialog",
+        "speaker": "イネス",
+        "content": "あなたは摂政王が派遣したリーダーを殺した。そしてその座を奪うために、Wは忙しくしてる――"
+    },
+    {
+        "id": 87,
+        "raw": "[name=\"イネス\"]  あなたとWが決めてた通りにね。",
+        "type": "dialog",
+        "speaker": "イネス",
+        "content": "あなたとWが決めてた通りにね。"
+    },
+    {
+        "id": 88,
+        "raw": "[name=\"イネス\"]  あなたが任務を終えた後、「異変に気付いた」私たちがあなたたちを討つ。そういう流れなんでしょ。",
+        "type": "dialog",
+        "speaker": "イネス",
+        "content": "あなたが任務を終えた後、「異変に気付いた」私たちがあなたたちを討つ。そういう流れなんでしょ。"
+    },
+    {
+        "id": 89,
+        "raw": "[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_052",
+        "name2": "avg_npc_026",
+        "focus": 2
+    },
+    {
+        "id": 90,
+        "raw": "[name=\"Scout\"]  ......",
+        "type": "dialog",
+        "speaker": "Scout",
+        "content": "......"
+    },
+    {
+        "id": 91,
+        "raw": "[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_052",
+        "name2": "avg_npc_026",
+        "focus": 1
+    },
+    {
+        "id": 92,
+        "raw": "[name=\"イネス\"]  ……あなたは市街戦の中で人を救った。でもあそこは、私たちの管轄じゃないわ。",
+        "type": "dialog",
+        "speaker": "イネス",
+        "content": "……あなたは市街戦の中で人を救った。でもあそこは、私たちの管轄じゃないわ。"
+    },
+    {
+        "id": 93,
+        "raw": "[name=\"イネス\"]  パトリオットがいたから、心配もいらなかったんだけどね。",
+        "type": "dialog",
+        "speaker": "イネス",
+        "content": "パトリオットがいたから、心配もいらなかったんだけどね。"
+    },
+    {
+        "id": 94,
+        "raw": "[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_052",
+        "name2": "avg_npc_026",
+        "focus": 2
+    },
+    {
+        "id": 95,
+        "raw": "[name=\"Scout\"]  ……それで、いいさ。",
+        "type": "dialog",
+        "speaker": "Scout",
+        "content": "……それで、いいさ。"
+    },
+    {
+        "id": 96,
+        "raw": "[name=\"Scout\"]  あんたたちは……変わった。昔のWはわざわざ死者の名前を覚えておくような奴じゃなかった。",
+        "type": "dialog",
+        "speaker": "Scout",
+        "content": "あんたたちは……変わった。昔のWはわざわざ死者の名前を覚えておくような奴じゃなかった。"
+    },
+    {
+        "id": 97,
+        "raw": "[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_052",
+        "name2": "avg_npc_026",
+        "focus": 1
+    },
+    {
+        "id": 98,
+        "raw": "[name=\"イネス\"]  確かに変わったわね。でも相変わらず……ううん、前以上に狂ってるところもある。",
+        "type": "dialog",
+        "speaker": "イネス",
+        "content": "確かに変わったわね。でも相変わらず……ううん、前以上に狂ってるところもある。"
+    },
+    {
+        "id": 99,
+        "raw": "[name=\"イネス\"]  もしかしたらＷは、あなたを動揺させるためにわざわざ名前を覚えておいたのかもしれないわよ？　私のアーツであなたを捉えやすくなるようにね。",
+        "type": "dialog",
+        "speaker": "イネス",
+        "content": "もしかしたらＷは、あなたを動揺させるためにわざわざ名前を覚えておいたのかもしれないわよ？　私のアーツであなたを捉えやすくなるようにね。"
+    },
+    {
+        "id": 100,
+        "raw": "[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_052",
+        "name2": "avg_npc_026",
+        "focus": 2
+    },
+    {
+        "id": 101,
+        "raw": "[name=\"Scout\"]  ……暇さえあれば人をからかうところは、変わらないんだな。",
+        "type": "dialog",
+        "speaker": "Scout",
+        "content": "……暇さえあれば人をからかうところは、変わらないんだな。"
+    },
+    {
+        "id": 102,
+        "raw": "[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_052",
+        "name2": "avg_npc_026",
+        "focus": 1
+    },
+    {
+        "id": 103,
+        "raw": "[name=\"イネス\"]  お互い様でしょ。あなただって、Wにしか思いつかないような狂った取引に応じたんだから。",
+        "type": "dialog",
+        "speaker": "イネス",
+        "content": "お互い様でしょ。あなただって、Wにしか思いつかないような狂った取引に応じたんだから。"
+    },
+    {
+        "id": 104,
+        "raw": "[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_052",
+        "name2": "avg_npc_026",
+        "focus": 2
+    },
+    {
+        "id": 105,
+        "raw": "[name=\"Scout\"]  俺の命と引き換えに手に入れたチャンスを然るべき奴に託す。これは狂った取引なんかじゃない。",
+        "type": "dialog",
+        "speaker": "Scout",
+        "content": "俺の命と引き換えに手に入れたチャンスを然るべき奴に託す。これは狂った取引なんかじゃない。"
+    },
+    {
+        "id": 106,
+        "raw": "[name=\"Scout\"]  犠牲になった俺の隊員たちも、同じ考えだろうよ。彼らは自分の理想のために死んだ。そして俺は、彼らなしではこの任務を成しえなかった。",
+        "type": "dialog",
+        "speaker": "Scout",
+        "content": "犠牲になった俺の隊員たちも、同じ考えだろうよ。彼らは自分の理想のために死んだ。そして俺は、彼らなしではこの任務を成しえなかった。"
+    },
+    {
+        "id": 107,
+        "raw": "[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_052",
+        "name2": "avg_npc_026",
+        "focus": 1
+    },
+    {
+        "id": 108,
+        "raw": "[name=\"イネス\"]  ……時間と共に、みんな少なからず変わったのね。",
+        "type": "dialog",
+        "speaker": "イネス",
+        "content": "……時間と共に、みんな少なからず変わったのね。"
+    },
+    {
+        "id": 109,
+        "raw": "[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_052",
+        "name2": "avg_npc_026",
+        "focus": 2
+    },
+    {
+        "id": 110,
+        "raw": "[name=\"Scout\"]  あんたもだ。昔のあんたは、こんな風に敵と話したりしなかった。",
+        "type": "dialog",
+        "speaker": "Scout",
+        "content": "あんたもだ。昔のあんたは、こんな風に敵と話したりしなかった。"
+    },
+    {
+        "id": 111,
+        "raw": "[name=\"Scout\"]  ヘドリーも警告していたはずだ。",
+        "type": "dialog",
+        "speaker": "Scout",
+        "content": "ヘドリーも警告していたはずだ。"
+    },
+    {
+        "id": 112,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 113,
+        "raw": "[Character(name=\"avg_npc_026\")]",
+        "type": "character",
+        "name": "avg_npc_026"
+    },
+    {
+        "id": 114,
+        "raw": "[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]",
+        "type": "blocker",
+        "a": "0.7,",
+        "r": "0.95,",
+        "g": "0.95,",
+        "b": "0.95,",
+        "fadetime": "0.02,",
+        "block": true
+    },
+    {
+        "id": 115,
+        "raw": "[PlaySound(key=\"$pistol\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_pistol.mp3"
+    },
+    {
+        "id": 116,
+        "raw": "[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0.95,",
+        "g": "0.95,",
+        "b": "0.95,",
+        "fadetime": "0.25,",
+        "block": true
+    },
+    {
+        "id": 117,
+        "raw": "[CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=true)]",
+        "type": "camera_shake",
+        "duration": "0.6,",
+        "xstrength": "5,",
+        "ystrength": "8,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "block": true
+    },
+    {
+        "id": 118,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 119,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 120,
+        "raw": "[Character(name=\"avg_npc_052\")]",
+        "type": "character",
+        "name": "avg_npc_052"
+    },
+    {
+        "id": 121,
+        "raw": "[name=\"イネス\"]  ――",
+        "type": "dialog",
+        "speaker": "イネス",
+        "content": "――"
+    },
+    {
+        "id": 122,
+        "raw": "[name=\"イネス\"]  どうしてまだ抵抗するの？　もう勝てないって――",
+        "type": "dialog",
+        "speaker": "イネス",
+        "content": "どうしてまだ抵抗するの？　もう勝てないって――"
+    },
+    {
+        "id": 123,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 124,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 125,
+        "raw": "[CameraShake(duration=1, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "xstrength": "8,",
+        "ystrength": "6,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 126,
+        "raw": "[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]",
+        "type": "blocker",
+        "a": "0.7,",
+        "r": "0.95,",
+        "g": "0.95,",
+        "b": "0.95,",
+        "fadetime": "0.02,",
+        "block": true
+    },
+    {
+        "id": 127,
+        "raw": "[PlaySound(key=\"$d_sp_ballista\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_sp_ballista.mp3"
+    },
+    {
+        "id": 128,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.25, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.25,",
+        "block": true
+    },
+    {
+        "id": 129,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 130,
+        "raw": "[Character(name=\"avg_npc_052\")]",
+        "type": "character",
+        "name": "avg_npc_052"
+    },
+    {
+        "id": 131,
+        "raw": "[name=\"イネス\"]  ……チッ、消えた……",
+        "type": "dialog",
+        "speaker": "イネス",
+        "content": "……チッ、消えた……"
+    },
+    {
+        "id": 132,
+        "raw": "[name=\"イネス\"]  ……",
+        "type": "dialog",
+        "speaker": "イネス",
+        "content": "……"
+    },
+    {
+        "id": 133,
+        "raw": "[name=\"イネス\"]  逃げきってくれれば、いいんだけどね……",
+        "type": "dialog",
+        "speaker": "イネス",
+        "content": "逃げきってくれれば、いいんだけどね……"
+    },
+    {
+        "id": 134,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 135,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 136,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 137,
+        "raw": "[Background(image=\"bg_cher_1\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_cher_1.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 138,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 139,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3"
+    },
+    {
+        "id": 140,
+        "raw": "[Character(name=\"avg_npc_052\")]",
+        "type": "character",
+        "name": "avg_npc_052"
+    },
+    {
+        "id": 141,
+        "raw": "[name=\"イネス\"]  （この辺り……）",
+        "type": "dialog",
+        "speaker": "イネス",
+        "content": "（この辺り……）"
+    },
+    {
+        "id": 142,
+        "raw": "[name=\"イネス\"]  （……）",
+        "type": "dialog",
+        "speaker": "イネス",
+        "content": "（……）"
+    },
+    {
+        "id": 143,
+        "raw": "[name=\"イネス\"]  （間違いない、こっちへ来てるわ。素早いわね。）",
+        "type": "dialog",
+        "speaker": "イネス",
+        "content": "（間違いない、こっちへ来てるわ。素早いわね。）"
+    },
+    {
+        "id": 144,
+        "raw": "[name=\"イネス\"]  （本当に面倒な奴……でも怪我をしててラッキーだったわ。もし無傷ならきっと、逃げた痕跡すら追えなかった……）",
+        "type": "dialog",
+        "speaker": "イネス",
+        "content": "（本当に面倒な奴……でも怪我をしててラッキーだったわ。もし無傷ならきっと、逃げた痕跡すら追えなかった……）"
+    },
+    {
+        "id": 145,
+        "raw": "[name=\"イネス\"]  （……えっ？）",
+        "type": "dialog",
+        "speaker": "イネス",
+        "content": "（……えっ？）"
+    },
+    {
+        "id": 146,
+        "raw": "[name=\"イネス\"]  （なんで……中枢エリアに向かってるの？）",
+        "type": "dialog",
+        "speaker": "イネス",
+        "content": "（なんで……中枢エリアに向かってるの？）"
+    },
+    {
+        "id": 147,
+        "raw": "[name=\"イネス\"]  （あそこは――チッ！）",
+        "type": "dialog",
+        "speaker": "イネス",
+        "content": "（あそこは――チッ！）"
+    },
+    {
+        "id": 148,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 149,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 150,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 151,
+        "raw": "[Background(image=\"bg_cher_5\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_cher_5.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 152,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 153,
+        "raw": "[PlaySound(key=\"$rungeneral\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_rungeneral.mp3"
+    },
+    {
+        "id": 154,
+        "raw": "[Character(name=\"avg_npc_052\")]",
+        "type": "character",
+        "name": "avg_npc_052"
+    },
+    {
+        "id": 155,
+        "raw": "[name=\"イネス\"]  ……クソッ！",
+        "type": "dialog",
+        "speaker": "イネス",
+        "content": "……クソッ！"
+    },
+    {
+        "id": 156,
+        "raw": "[name=\"イネス\"]  こんなところまで来て、何をするつもり？",
+        "type": "dialog",
+        "speaker": "イネス",
+        "content": "こんなところまで来て、何をするつもり？"
+    },
+    {
+        "id": 157,
+        "raw": "[name=\"イネス\"]  黙って素直にチェルノボーグから出ていきなさいよ！？",
+        "type": "dialog",
+        "speaker": "イネス",
+        "content": "黙って素直にチェルノボーグから出ていきなさいよ！？"
+    },
+    {
+        "id": 158,
+        "raw": "[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_052",
+        "name2": "avg_npc_026",
+        "focus": 2
+    },
+    {
+        "id": 159,
+        "raw": "[name=\"Scout\"]  ……あんたは時々、サルカズらしくないことを言うな。",
+        "type": "dialog",
+        "speaker": "Scout",
+        "content": "……あんたは時々、サルカズらしくないことを言うな。"
+    },
+    {
+        "id": 160,
+        "raw": "[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_052",
+        "name2": "avg_npc_026",
+        "focus": 1
+    },
+    {
+        "id": 161,
+        "raw": "[name=\"イネス\"]  私は元々サルカズじゃないわ。",
+        "type": "dialog",
+        "speaker": "イネス",
+        "content": "私は元々サルカズじゃないわ。"
+    },
+    {
+        "id": 162,
+        "raw": "[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_052",
+        "name2": "avg_npc_026",
+        "focus": 2
+    },
+    {
+        "id": 163,
+        "raw": "[name=\"Scout\"]  ――そんなことを俺に話すべきじゃない。ここは戦場で、あんたはサルカズの傭兵だ。",
+        "type": "dialog",
+        "speaker": "Scout",
+        "content": "――そんなことを俺に話すべきじゃない。ここは戦場で、あんたはサルカズの傭兵だ。"
+    },
+    {
+        "id": 164,
+        "raw": "[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_052",
+        "name2": "avg_npc_026",
+        "focus": 1
+    },
+    {
+        "id": 165,
+        "raw": "[name=\"イネス\"]  あなたの影、消えそうになってるわね。出血も多いし、立ってるのがやっとなんじゃない？",
+        "type": "dialog",
+        "speaker": "イネス",
+        "content": "あなたの影、消えそうになってるわね。出血も多いし、立ってるのがやっとなんじゃない？"
+    },
+    {
+        "id": 166,
+        "raw": "[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_052",
+        "name2": "avg_npc_026",
+        "focus": 2
+    },
+    {
+        "id": 167,
+        "raw": "[name=\"Scout\"]  だから何だ。自分の身体のことは、自分が一番わかってる。こんな山程レユニオンがいるところで、生き長らえられるなんて思っちゃいないさ。",
+        "type": "dialog",
+        "speaker": "Scout",
+        "content": "だから何だ。自分の身体のことは、自分が一番わかってる。こんな山程レユニオンがいるところで、生き長らえられるなんて思っちゃいないさ。"
+    },
+    {
+        "id": 168,
+        "raw": "[name=\"Scout\"]  はぁ……あんたとヘドリー、あとはWに……一つアドバイスだ。",
+        "type": "dialog",
+        "speaker": "Scout",
+        "content": "はぁ……あんたとヘドリー、あとはWに……一つアドバイスだ。"
+    },
+    {
+        "id": 169,
+        "raw": "[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_052",
+        "name2": "avg_npc_026",
+        "focus": 1
+    },
+    {
+        "id": 170,
+        "raw": "[name=\"イネス\"]  ……何？　最後に聞いてあげるわ。",
+        "type": "dialog",
+        "speaker": "イネス",
+        "content": "……何？　最後に聞いてあげるわ。"
+    },
+    {
+        "id": 171,
+        "raw": "[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_052",
+        "name2": "avg_npc_026",
+        "focus": 2
+    },
+    {
+        "id": 172,
+        "raw": "[name=\"Scout\"]  ……あんたの目で真実を見極めろ。その日が来るまでは、無駄死にするな。",
+        "type": "dialog",
+        "speaker": "Scout",
+        "content": "……あんたの目で真実を見極めろ。その日が来るまでは、無駄死にするな。"
+    },
+    {
+        "id": 173,
+        "raw": "[name=\"Scout\"]  俺たち……サルカズは、このまま利用され続けるべきじゃない。",
+        "type": "dialog",
+        "speaker": "Scout",
+        "content": "俺たち……サルカズは、このまま利用され続けるべきじゃない。"
+    },
+    {
+        "id": 174,
+        "raw": "[Character(name=\"avg_npc_052\",name2=\"avg_npc_026\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_052",
+        "name2": "avg_npc_026",
+        "focus": 1
+    },
+    {
+        "id": 175,
+        "raw": "[name=\"イネス\"]  それは……私のアーツのことを言ってるの？　ここで何が見え――",
+        "type": "dialog",
+        "speaker": "イネス",
+        "content": "それは……私のアーツのことを言ってるの？　ここで何が見え――"
+    },
+    {
+        "id": 176,
+        "raw": "[Character(name=\"avg_npc_052\")]",
+        "type": "character",
+        "name": "avg_npc_052"
+    },
+    {
+        "id": 177,
+        "raw": "[name=\"イネス\"]  ――",
+        "type": "dialog",
+        "speaker": "イネス",
+        "content": "――"
+    },
+    {
+        "id": 178,
+        "raw": "[name=\"イネス\"]  ――――",
+        "type": "dialog",
+        "speaker": "イネス",
+        "content": "――――"
+    },
+    {
+        "id": 179,
+        "raw": "[name=\"イネス\"]  ――これは……こ……これは誰……こんな……",
+        "type": "dialog",
+        "speaker": "イネス",
+        "content": "――これは……こ……これは誰……こんな……"
+    },
+    {
+        "id": 180,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 181,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 182,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0.3, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.3,",
+        "block": true
+    },
+    {
+        "id": 183,
+        "raw": "[Background(image=\"bg_indoor_1\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_indoor_1.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 184,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 185,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0.3, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.3,",
+        "block": true
+    },
+    {
+        "id": 186,
+        "raw": "[Background(image=\"bg_cher_5\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_cher_5.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 187,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 188,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0.3, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.3,",
+        "block": true
+    },
+    {
+        "id": 189,
+        "raw": "[Background(image=\"bg_cher_3\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_cher_3.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 190,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 191,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0.3, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.3,",
+        "block": true
+    },
+    {
+        "id": 192,
+        "raw": "[Background(image=\"bg_cher_0\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_cher_0.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 193,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 194,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 195,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0.3, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.3,",
+        "block": true
+    },
+    {
+        "id": 196,
+        "raw": "[Background]",
+        "type": "background"
+    },
+    {
+        "id": 197,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 198,
+        "raw": "[Character(name=\"char_011_talula_1\",fadetime=1,block=true)]",
+        "type": "character",
+        "name": "char_011_talula_1",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 199,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 200,
+        "raw": "[name=\"タルラ？\"]  ……",
+        "type": "dialog",
+        "speaker": "タルラ？",
+        "content": "……"
+    },
+    {
+        "id": 201,
+        "raw": "[name=\"タルラ？\"]  ……サルカズか？",
+        "type": "dialog",
+        "speaker": "タルラ？",
+        "content": "……サルカズか？"
+    },
+    {
+        "id": 202,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 203,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 204,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 205,
+        "raw": "[Background(image=\"bg_cher_5\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_cher_5.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 206,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 207,
+        "raw": "[Character(name=\"avg_npc_052\")]",
+        "type": "character",
+        "name": "avg_npc_052"
+    },
+    {
+        "id": 208,
+        "raw": "[CameraShake(duration=0.4, xstrength=0, ystrength=8, vibrato=30, randomness=30, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.4,",
+        "xstrength": "0,",
+        "ystrength": "8,",
+        "vibrato": "30,",
+        "randomness": "30,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 209,
+        "raw": "[name=\"イネス\"]  ――！",
+        "type": "dialog",
+        "speaker": "イネス",
+        "content": "――！"
+    },
+    {
+        "id": 210,
+        "raw": "[name=\"イネス\"]  気づかれたの――！？　あり得ないわ！",
+        "type": "dialog",
+        "speaker": "イネス",
+        "content": "気づかれたの――！？　あり得ないわ！"
+    },
+    {
+        "id": 211,
+        "raw": "[Character(name=\"avg_npc_026\")]",
+        "type": "character",
+        "name": "avg_npc_026"
+    },
+    {
+        "id": 212,
+        "raw": "[name=\"Scout\"]  （チャンスだ――！）",
+        "type": "dialog",
+        "speaker": "Scout",
+        "content": "（チャンスだ――！）"
+    },
+    {
+        "id": 213,
+        "raw": "[stopmusic(fadetime=1)]",
+        "type": "stop_music",
+        "fadetime": 1
+    },
+    {
+        "id": 214,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 215,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 216,
+        "raw": "[PlaySound(key=\"$knifegore\", volume=0.9)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_knifegore.mp3",
+        "volume": 0.9
+    },
+    {
+        "id": 217,
+        "raw": "[CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "xstrength": "10,",
+        "ystrength": "12,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": true
+    },
+    {
+        "id": 218,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 219,
+        "raw": "[Character(name=\"avg_npc_047\",fadetime=1,block=true)]",
+        "type": "character",
+        "name": "avg_npc_047",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 220,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 221,
+        "raw": "[name=\"ヘドリー\"]  久しぶりだな。",
+        "type": "dialog",
+        "speaker": "ヘドリー",
+        "content": "久しぶりだな。"
+    },
+    {
+        "id": 222,
+        "raw": "[Character(name=\"avg_npc_047\",name2=\"avg_npc_026\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_047",
+        "name2": "avg_npc_026",
+        "focus": 2
+    },
+    {
+        "id": 223,
+        "raw": "[name=\"Scout\"]  くっ……あんたまだ……生きてたんだな。",
+        "type": "dialog",
+        "speaker": "Scout",
+        "content": "くっ……あんたまだ……生きてたんだな。"
+    },
+    {
+        "id": 224,
+        "raw": "[Character(name=\"avg_npc_047\",name2=\"avg_npc_026\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_047",
+        "name2": "avg_npc_026",
+        "focus": 1
+    },
+    {
+        "id": 225,
+        "raw": "[name=\"ヘドリー\"]  ああ。",
+        "type": "dialog",
+        "speaker": "ヘドリー",
+        "content": "ああ。"
+    },
+    {
+        "id": 226,
+        "raw": "[name=\"ヘドリー\"]  お前をつけていた。イネス一人でお前の相手をするのは、荷が重いと思ってな。",
+        "type": "dialog",
+        "speaker": "ヘドリー",
+        "content": "お前をつけていた。イネス一人でお前の相手をするのは、荷が重いと思ってな。"
+    },
+    {
+        "id": 227,
+        "raw": "[name=\"ヘドリー\"]  取引条件はお前の命だ。それに慈悲を示すつもりはなかったが、それでも俺はお前に生きて……いや――",
+        "type": "dialog",
+        "speaker": "ヘドリー",
+        "content": "取引条件はお前の命だ。それに慈悲を示すつもりはなかったが、それでも俺はお前に生きて……いや――"
+    },
+    {
+        "id": 228,
+        "raw": "[name=\"ヘドリー\"]  もうこれ以上チャンスを与えてやることはできない。ここは中枢に近すぎる。Wはこの場所に、誰も入れたくないんだ。",
+        "type": "dialog",
+        "speaker": "ヘドリー",
+        "content": "もうこれ以上チャンスを与えてやることはできない。ここは中枢に近すぎる。Wはこの場所に、誰も入れたくないんだ。"
+    },
+    {
+        "id": 229,
+        "raw": "[Character(name=\"avg_npc_047\",name2=\"avg_npc_026\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_047",
+        "name2": "avg_npc_026",
+        "focus": 2
+    },
+    {
+        "id": 230,
+        "raw": "[name=\"Scout\"]  フッ……どうやら……今の隊長はＷみたいだな……",
+        "type": "dialog",
+        "speaker": "Scout",
+        "content": "フッ……どうやら……今の隊長はＷみたいだな……"
+    },
+    {
+        "id": 231,
+        "raw": "[name=\"Scout\"]  あんたは……最初から……",
+        "type": "dialog",
+        "speaker": "Scout",
+        "content": "あんたは……最初から……"
+    },
+    {
+        "id": 232,
+        "raw": "[Character(name=\"avg_npc_047\",name2=\"avg_npc_026\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_047",
+        "name2": "avg_npc_026",
+        "focus": 1
+    },
+    {
+        "id": 233,
+        "raw": "[name=\"ヘドリー\"]  ……すまない。そろそろ休んでくれ、友よ。",
+        "type": "dialog",
+        "speaker": "ヘドリー",
+        "content": "……すまない。そろそろ休んでくれ、友よ。"
+    },
+    {
+        "id": 234,
+        "raw": "[Character(name=\"avg_npc_047\",name2=\"avg_npc_026\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_047",
+        "name2": "avg_npc_026",
+        "focus": 2
+    },
+    {
+        "id": 235,
+        "raw": "[name=\"Scout\"]  あんたたちは……ここにいるべきじゃない……",
+        "type": "dialog",
+        "speaker": "Scout",
+        "content": "あんたたちは……ここにいるべきじゃない……"
+    },
+    {
+        "id": 236,
+        "raw": "[Character(name=\"avg_npc_047\")]",
+        "type": "character",
+        "name": "avg_npc_047"
+    },
+    {
+        "id": 237,
+        "raw": "[name=\"ヘドリー\"]  ……そんなこと、わかっている。",
+        "type": "dialog",
+        "speaker": "ヘドリー",
+        "content": "……そんなこと、わかっている。"
+    },
+    {
+        "id": 238,
+        "raw": "[name=\"ヘドリー\"]  最初からな。",
+        "type": "dialog",
+        "speaker": "ヘドリー",
+        "content": "最初からな。"
+    },
+    {
+        "id": 239,
+        "raw": "[Character(name=\"avg_npc_052\")]",
+        "type": "character",
+        "name": "avg_npc_052"
+    },
+    {
+        "id": 240,
+        "raw": "[name=\"イネス\"]  ヘドリー！",
+        "type": "dialog",
+        "speaker": "イネス",
+        "content": "ヘドリー！"
+    },
+    {
+        "id": 241,
+        "raw": "[Character(name=\"avg_npc_047\")]",
+        "type": "character",
+        "name": "avg_npc_047"
+    },
+    {
+        "id": 242,
+        "raw": "[name=\"ヘドリー\"]  イネス、さっきは何を驚いていたんだ？",
+        "type": "dialog",
+        "speaker": "ヘドリー",
+        "content": "イネス、さっきは何を驚いていたんだ？"
+    },
+    {
+        "id": 243,
+        "raw": "[Character(name=\"avg_npc_052\")]",
+        "type": "character",
+        "name": "avg_npc_052"
+    },
+    {
+        "id": 244,
+        "raw": "[name=\"イネス\"]  ――早く！　行くわよ！",
+        "type": "dialog",
+        "speaker": "イネス",
+        "content": "――早く！　行くわよ！"
+    },
+    {
+        "id": 245,
+        "raw": "[name=\"イネス\"]  すぐにWに知らせないと、何としてでも――",
+        "type": "dialog",
+        "speaker": "イネス",
+        "content": "すぐにWに知らせないと、何としてでも――"
+    },
+    {
+        "id": 246,
+        "raw": "[name=\"イネス\"]  チッ！　近づいてくる！",
+        "type": "dialog",
+        "speaker": "イネス",
+        "content": "チッ！　近づいてくる！"
+    },
+    {
+        "id": 247,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 248,
+        "raw": "[Blocker(fadetime=1,block=true)]",
+        "type": "blocker",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 249,
+        "raw": "[Image]",
+        "type": "image"
+    },
+    {
+        "id": 250,
+        "raw": "[name=\"タルラ\"]  ……",
+        "type": "dialog",
+        "speaker": "タルラ",
+        "content": "……"
+    },
+    {
+        "id": 251,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 252,
+        "raw": "[Blocker(fadetime=1,block=true)]",
+        "type": "blocker",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 253,
+        "raw": "[Image]",
+        "type": "image"
+    }
+]

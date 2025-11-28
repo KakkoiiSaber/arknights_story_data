@@ -1,0 +1,4081 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")]",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK"
+    },
+    {
+        "id": 2,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 3,
+        "raw": "[stopmusic]",
+        "type": "stop_music"
+    },
+    {
+        "id": 4,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 5,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 6,
+        "raw": "[Background(image=\"66_g3_miningarea\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "66_g3_miningarea.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 7,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 8,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 9,
+        "raw": "[playMusic(key=\"$saferoom_loop\", volume=0.6)]",
+        "type": "play_music",
+        "key": "sound_beta_2/music/act28side/m_avg_saferoom_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 10,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4208_wintim_1#1$1\",duration=1)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4208_wintim_1#1$1.png",
+        "duration": 1
+    },
+    {
+        "id": 11,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 12,
+        "raw": "[name=\"科谢尼娅\"]前面就是第一次发现“奥卡”的矿洞了。",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "前面就是第一次发现“奥卡”的矿洞了。"
+    },
+    {
+        "id": 13,
+        "raw": "[name=\"科谢尼娅\"]按理说，在那不久之后这里就被严格管控起来了......但是现在看来，像是完全废弃了。",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "按理说，在那不久之后这里就被严格管控起来了......但是现在看来，像是完全废弃了。"
+    },
+    {
+        "id": 14,
+        "raw": "[name=\"科谢尼娅\"]不过，好消息是矿洞里的活性源石粉尘含量也在停工后迅速下降了，只要不去直接接触失去活性的源石结晶，不会有太大的感染风险。",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "不过，好消息是矿洞里的活性源石粉尘含量也在停工后迅速下降了，只要不去直接接触失去活性的源石结晶，不会有太大的感染风险。"
+    },
+    {
+        "id": 15,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4179_monstr_1#10$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4179_monstr_1#10$1.png"
+    },
+    {
+        "id": 16,
+        "raw": "[name=\"Mon3tr\"]博士，我没有检测到别的生命信号——看上去不用打架就可以进去了。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "博士，我没有检测到别的生命信号——看上去不用打架就可以进去了。"
+    },
+    {
+        "id": 17,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 18,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 19,
+        "raw": "[Decision(options=\"我们尚不清楚这里是什么情况。; 纠察队和卫兵随时都有可能回来。\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "我们尚不清楚这里是什么情况。; 纠察队和卫兵随时都有可能回来。",
+        "values": "1;2"
+    },
+    {
+        "id": 20,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 21,
+        "raw": "[Decision(options=\"抓紧时间。;我们快去快回。\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "抓紧时间。;我们快去快回。",
+        "values": "1;2"
+    },
+    {
+        "id": 22,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 23,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 24,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 25,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 26,
+        "raw": "[playsound(key=\"$d_gen_walk_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3"
+    },
+    {
+        "id": 27,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 28,
+        "raw": "[name=\"Mon3tr\"]科谢尼娅，你确定是这个方向吗？",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "科谢尼娅，你确定是这个方向吗？"
+    },
+    {
+        "id": 29,
+        "raw": "[name=\"Mon3tr\"]我什么也没看到。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "我什么也没看到。"
+    },
+    {
+        "id": 30,
+        "raw": "[name=\"科谢尼娅\"]抱歉，我只下来过一次......",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "抱歉，我只下来过一次......"
+    },
+    {
+        "id": 31,
+        "raw": "[name=\"科谢尼娅\"]让我先找找应急能源开关的位置。",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "让我先找找应急能源开关的位置。"
+    },
+    {
+        "id": 32,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 33,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 34,
+        "raw": "[name=\"科谢尼娅\"]哦，在这儿。",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "哦，在这儿。"
+    },
+    {
+        "id": 35,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 36,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 37,
+        "raw": "[PlaySound(key=\"$d_avg_spotlightc\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_spotlightc.mp3"
+    },
+    {
+        "id": 38,
+        "raw": "[Background(image=\"66_g5_deepmine\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "66_g5_deepmine.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 39,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 40,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 41,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4208_wintim_1#9$1\",duration=0.5)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4208_wintim_1#9$1.png",
+        "duration": 0.5
+    },
+    {
+        "id": 42,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 43,
+        "raw": "[name=\"科谢尼娅\"]呼，看来没错。接下来继续往矿车运行的反方向走就行。",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "呼，看来没错。接下来继续往矿车运行的反方向走就行。"
+    },
+    {
+        "id": 44,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4179_monstr_1#8$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4179_monstr_1#8$1.png"
+    },
+    {
+        "id": 45,
+        "raw": "[name=\"Mon3tr\"]反方向？我以为我们要下到更深处去。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "反方向？我以为我们要下到更深处去。"
+    },
+    {
+        "id": 46,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4208_wintim_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4208_wintim_1#1$1.png"
+    },
+    {
+        "id": 47,
+        "raw": "[name=\"科谢尼娅\"]前面连接的是其他地方，并不是矿洞。我也不知道那边具体是做什么的，但应该只走货物不走人。",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "前面连接的是其他地方，并不是矿洞。我也不知道那边具体是做什么的，但应该只走货物不走人。"
+    },
+    {
+        "id": 48,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4179_monstr_1#5$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4179_monstr_1#5$1.png"
+    },
+    {
+        "id": 49,
+        "raw": "[name=\"Mon3tr\"]矿车呢？还能用吗？",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "矿车呢？还能用吗？"
+    },
+    {
+        "id": 50,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 51,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4208_wintim_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4208_wintim_1#1$1.png"
+    },
+    {
+        "id": 52,
+        "raw": "[PlaySound(key=\"$d_avg_goldbarhit\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_goldbarhit.mp3"
+    },
+    {
+        "id": 53,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 54,
+        "raw": "[name=\"科谢尼娅\"]矿车本身没有问题，但被搁置太久了，应急能源大概只够提供照明，我们还是不去尝试的好。",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "矿车本身没有问题，但被搁置太久了，应急能源大概只够提供照明，我们还是不去尝试的好。"
+    },
+    {
+        "id": 55,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 56,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 57,
+        "raw": "[Decision(options=\"没错。; 我们走下去就行。\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "没错。; 我们走下去就行。",
+        "values": "1;2"
+    },
+    {
+        "id": 58,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 59,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 60,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4179_monstr_1#4$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4179_monstr_1#4$1.png"
+    },
+    {
+        "id": 61,
+        "raw": "[name=\"Mon3tr\"]唔。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "唔。"
+    },
+    {
+        "id": 62,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4179_monstr_1#10$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4179_monstr_1#10$1.png"
+    },
+    {
+        "id": 63,
+        "raw": "[name=\"Mon3tr\"]你们两个，上矿车。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "你们两个，上矿车。"
+    },
+    {
+        "id": 64,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4208_wintim_1#6$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4208_wintim_1#6$1.png"
+    },
+    {
+        "id": 65,
+        "raw": "[name=\"科谢尼娅\"]什么？",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "什么？"
+    },
+    {
+        "id": 66,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 67,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 68,
+        "raw": "[Decision(options=\"矿车里可没有安全带！;我们可以自己走下去！\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "矿车里可没有安全带！;我们可以自己走下去！",
+        "values": "1;2"
+    },
+    {
+        "id": 69,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 70,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4179_monstr_1#10$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4179_monstr_1#10$1.png"
+    },
+    {
+        "id": 71,
+        "raw": "[name=\"Mon3tr\"]上矿车，博士。这样节省时间。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "上矿车，博士。这样节省时间。"
+    },
+    {
+        "id": 72,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4208_wintim_1#6$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4208_wintim_1#6$1.png"
+    },
+    {
+        "id": 73,
+        "raw": "[name=\"科谢尼娅\"]但矿车启动不了——",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "但矿车启动不了——"
+    },
+    {
+        "id": 74,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4179_monstr_1#10$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4179_monstr_1#10$1.png"
+    },
+    {
+        "id": 75,
+        "raw": "[name=\"Mon3tr\"]别担心，我来解决。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "别担心，我来解决。"
+    },
+    {
+        "id": 76,
+        "raw": "[name=\"Mon3tr\"]博士，需要我扶你上去吗？",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "博士，需要我扶你上去吗？"
+    },
+    {
+        "id": 77,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 78,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 79,
+        "raw": "[Decision(options=\"......我自己来！\", values=\"1\")]",
+        "type": "decision",
+        "options": "......我自己来！",
+        "values": "1"
+    },
+    {
+        "id": 80,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 81,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 82,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 83,
+        "raw": "[curtain(direction = 0,fillfrom = 0.01,fillto = 0.15, fadetime=0.01)]",
+        "type": "curtain",
+        "fadetime": 0.01
+    },
+    {
+        "id": 84,
+        "raw": "[curtain(direction = 4,fillfrom = 0.01,fillto = 0.15, fadetime=0.01)]",
+        "type": "curtain",
+        "fadetime": 0.01
+    },
+    {
+        "id": 85,
+        "raw": "[delay(time=0.25)]",
+        "type": "delay",
+        "time": 0.25
+    },
+    {
+        "id": 86,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 87,
+        "raw": "[name=\"Mon3tr\"]准备好了吗？",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "准备好了吗？"
+    },
+    {
+        "id": 88,
+        "raw": "[name=\"科谢尼娅\"]可是，Mon3tr小姐，你准备做什——",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "可是，Mon3tr小姐，你准备做什——"
+    },
+    {
+        "id": 89,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 90,
+        "raw": "[CameraShake(duration=0.5, xstrength=10, ystrength=5, vibrato=10, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "10,",
+        "ystrength": "5,",
+        "vibrato": "10,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 91,
+        "raw": "[playsound(key=\"$d_avg_tramcarwheel_loop\", loop=true, channel=\"kc\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_tramcarwheel_loop.mp3",
+        "loop": "true,",
+        "channel": "kc"
+    },
+    {
+        "id": 92,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 93,
+        "raw": "[StopSound(channel=\"kc\", fadetime=0.5)]",
+        "type": "stop_sound",
+        "channel": "kc",
+        "fadetime": 0.5
+    },
+    {
+        "id": 94,
+        "raw": "[name=\"科谢尼娅\"]——呃？！",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "——呃？！"
+    },
+    {
+        "id": 95,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 96,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 97,
+        "raw": "[Decision(options=\"我们绝对会被晃飞出去。;矿车绝对会被你弄散架的。\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "我们绝对会被晃飞出去。;矿车绝对会被你弄散架的。",
+        "values": "1;2"
+    },
+    {
+        "id": 98,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 99,
+        "raw": "[name=\"Mon3tr\"]我保证不会的，你们坐稳就行。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "我保证不会的，你们坐稳就行。"
+    },
+    {
+        "id": 100,
+        "raw": "[name=\"Mon3tr\"]我们要出发了！",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "我们要出发了！"
+    },
+    {
+        "id": 101,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 102,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=100, block=false)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "100,",
+        "block": false
+    },
+    {
+        "id": 103,
+        "raw": "[CameraShake(duration=-1, xstrength=1, ystrength=1, vibrato=10, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "-1,",
+        "xstrength": "1,",
+        "ystrength": "1,",
+        "vibrato": "10,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 104,
+        "raw": "[playsound(key=\"$d_avg_tramcarwheel_loop\", loop=true, channel=\"kc\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_tramcarwheel_loop.mp3",
+        "loop": "true,",
+        "channel": "kc"
+    },
+    {
+        "id": 105,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 106,
+        "raw": "[name=\"科谢尼娅\"]还好，矿洞看上去还正常，没有出现坍塌。",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "还好，矿洞看上去还正常，没有出现坍塌。"
+    },
+    {
+        "id": 107,
+        "raw": "[name=\"科谢尼娅\"]不过......下来之前我们应该先烤烤火的。矿洞深处的湿度比外面要高许多，几乎是伊比利亚沿海和乌萨斯内陆的区别。",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "不过......下来之前我们应该先烤烤火的。矿洞深处的湿度比外面要高许多，几乎是伊比利亚沿海和乌萨斯内陆的区别。"
+    },
+    {
+        "id": 108,
+        "raw": "[name=\"科谢尼娅\"]当然，矿井内外的温差也很大......你们感觉还好吗？",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "当然，矿井内外的温差也很大......你们感觉还好吗？"
+    },
+    {
+        "id": 109,
+        "raw": "[name=\"Mon3tr\"]我当然没什么问题啦。博士呢？",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "我当然没什么问题啦。博士呢？"
+    },
+    {
+        "id": 110,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 111,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 112,
+        "raw": "[Decision(options=\"感觉......感觉我的脑子被晃得很均匀。;Mon3tr，你好像玩得很开心！\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "感觉......感觉我的脑子被晃得很均匀。;Mon3tr，你好像玩得很开心！",
+        "values": "1;2"
+    },
+    {
+        "id": 113,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 114,
+        "raw": "[name=\"Mon3tr\"]我控制速度了啊？",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "我控制速度了啊？"
+    },
+    {
+        "id": 115,
+        "raw": "[name=\"科谢尼娅\"]Mon3tr小姐是一位很好的驾驶员，或者说推车工人。",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "Mon3tr小姐是一位很好的驾驶员，或者说推车工人。"
+    },
+    {
+        "id": 116,
+        "raw": "[name=\"Mon3tr\"]哼，看来不是我的问题。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "哼，看来不是我的问题。"
+    },
+    {
+        "id": 117,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 118,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 119,
+        "raw": "[Decision(options=\"科谢尼娅，我有一个问题。;矿区第一次发现“奥卡”是什么时候？\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "科谢尼娅，我有一个问题。;矿区第一次发现“奥卡”是什么时候？",
+        "values": "1;2"
+    },
+    {
+        "id": 120,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 121,
+        "raw": "[name=\"科谢尼娅\"]具体时间我并不清楚，在一个月前，第一份“奥卡”样本才被送到研究所。",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "具体时间我并不清楚，在一个月前，第一份“奥卡”样本才被送到研究所。"
+    },
+    {
+        "id": 122,
+        "raw": "[name=\"科谢尼娅\"]那也是我知道源石矿井中出现这种......闻所未闻的新物质的时刻。",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "那也是我知道源石矿井中出现这种......闻所未闻的新物质的时刻。"
+    },
+    {
+        "id": 123,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 124,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 125,
+        "raw": "[Decision(options=\"可是很奇怪......\", values=\"1\")]",
+        "type": "decision",
+        "options": "可是很奇怪......",
+        "values": "1"
+    },
+    {
+        "id": 126,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 127,
+        "raw": "[Decision(options=\"像这种矿井中出现的物质......;研究所是如何把它和“人体实验”联系起来的？\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "像这种矿井中出现的物质......;研究所是如何把它和“人体实验”联系起来的？",
+        "values": "1;2"
+    },
+    {
+        "id": 128,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 129,
+        "raw": "[name=\"科谢尼娅\"]就在这个发现了“奥卡”的矿洞里，感染者出现了匪夷所思的异变。",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "就在这个发现了“奥卡”的矿洞里，感染者出现了匪夷所思的异变。"
+    },
+    {
+        "id": 130,
+        "raw": "[name=\"科谢尼娅\"]感染者的感染程度奇高无比的同时，却保持着正常的生命体征，甚至算得上“健康”......",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "感染者的感染程度奇高无比的同时，却保持着正常的生命体征，甚至算得上“健康”......"
+    },
+    {
+        "id": 131,
+        "raw": "[name=\"Mon3tr\"]症状听起来很熟悉。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "症状听起来很熟悉。"
+    },
+    {
+        "id": 132,
+        "raw": "[name=\"科谢尼娅\"]你们在别的地方也遇到了这样的病人？他们也接触过“奥卡”？",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "你们在别的地方也遇到了这样的病人？他们也接触过“奥卡”？"
+    },
+    {
+        "id": 133,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 134,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 135,
+        "raw": "[Decision(options=\"或许还有别的可能。;我们还不能确定......\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "或许还有别的可能。;我们还不能确定......",
+        "values": "1;2"
+    },
+    {
+        "id": 136,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 137,
+        "raw": "[name=\"科谢尼娅\"]总之......乌萨斯官方想要复制这样的“奇迹”。",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "总之......乌萨斯官方想要复制这样的“奇迹”。"
+    },
+    {
+        "id": 138,
+        "raw": "[name=\"科谢尼娅\"]我猜，他们是想要不惧病痛、不会反抗的劳动力，甚至是......另一种特殊的军队。",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "我猜，他们是想要不惧病痛、不会反抗的劳动力，甚至是......另一种特殊的军队。"
+    },
+    {
+        "id": 139,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 140,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 141,
+        "raw": "[Decision(options=\"乌萨斯官方会有这样的反应并不令人意外......;他们还没有意识到这样做的危害。\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "乌萨斯官方会有这样的反应并不令人意外......;他们还没有意识到这样做的危害。",
+        "values": "1;2"
+    },
+    {
+        "id": 142,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 143,
+        "raw": "[name=\"Mon3tr\"]博士，科谢尼娅，我们好像接近了。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "博士，科谢尼娅，我们好像接近了。"
+    },
+    {
+        "id": 144,
+        "raw": "[CameraShake(duration=1, xstrength=1, ystrength=1, vibrato=10, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "xstrength": "1,",
+        "ystrength": "1,",
+        "vibrato": "10,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 145,
+        "raw": "[StopSound(channel=\"kc\", fadetime=1)]",
+        "type": "stop_sound",
+        "channel": "kc",
+        "fadetime": 1
+    },
+    {
+        "id": 146,
+        "raw": "[name=\"Mon3tr\"]矿车的轨道就到这里了，接下来我们得步行了。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "矿车的轨道就到这里了，接下来我们得步行了。"
+    },
+    {
+        "id": 147,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 148,
+        "raw": "三人摸黑徒步向前走去。",
+        "type": "narration",
+        "content": "三人摸黑徒步向前走去。"
+    },
+    {
+        "id": 149,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 150,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 151,
+        "raw": "[playsound(key=\"$d_avg_rainlight_loop\", loop=true, channel=\"bgs\",volume=0)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_rainlight_loop.mp3",
+        "loop": "true,",
+        "channel": "bgs",
+        "volume": 0
+    },
+    {
+        "id": 152,
+        "raw": "[SoundVolume(volume=0.5, channel=\"bgs\",fadetime=2)]",
+        "type": "sound_volume",
+        "volume": "0.5,",
+        "channel": "bgs",
+        "fadetime": 2
+    },
+    {
+        "id": 153,
+        "raw": "比光线先进入知觉的依然是声音。水声，滞重的水声。",
+        "type": "narration",
+        "content": "比光线先进入知觉的依然是声音。水声，滞重的水声。"
+    },
+    {
+        "id": 154,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 155,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 156,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 157,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 158,
+        "raw": "[curtain]",
+        "type": "curtain"
+    },
+    {
+        "id": 159,
+        "raw": "[SoundVolume(volume=1, fadetime=3,channel=\"bgs\")]",
+        "type": "sound_volume",
+        "volume": "1,",
+        "fadetime": "3,channel=\"bgs\""
+    },
+    {
+        "id": 160,
+        "raw": "[Background(image=\"66_g6_magnetofluidwaterfall\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "66_g6_magnetofluidwaterfall.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 161,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 162,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 163,
+        "raw": "三人抬起头，缓慢睁开眼睛。",
+        "type": "narration",
+        "content": "三人抬起头，缓慢睁开眼睛。"
+    },
+    {
+        "id": 164,
+        "raw": "他们很快意识到洞内的光亮并不来自外界，它来自眼前地上静止不动的液体，以及视线尽头淋漓的——瀑布。",
+        "type": "narration",
+        "content": "他们很快意识到洞内的光亮并不来自外界，它来自眼前地上静止不动的液体，以及视线尽头淋漓的——瀑布。"
+    },
+    {
+        "id": 165,
+        "raw": "液体有着黑曜石般的光泽，在下落过程中折射从高处缝隙中透出的光亮，让洞窟崎岖的内部明亮得如同下过小雨的清晨。",
+        "type": "narration",
+        "content": "液体有着黑曜石般的光泽，在下落过程中折射从高处缝隙中透出的光亮，让洞窟崎岖的内部明亮得如同下过小雨的清晨。"
+    },
+    {
+        "id": 166,
+        "raw": "[playMusic(intro=\"$tech_intro\",key=\"$tech_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta2_180603/m_sys_tech_intro.mp3",
+        "key": "sound_beta_2/music/beta2_180603/m_sys_tech_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 167,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 168,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 169,
+        "raw": "[Decision(options=\"......逆向河。\", values=\"1\")]",
+        "type": "decision",
+        "options": "......逆向河。",
+        "values": "1"
+    },
+    {
+        "id": 170,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 171,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4208_wintim_1#6$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4208_wintim_1#6$1.png"
+    },
+    {
+        "id": 172,
+        "raw": "[name=\"科谢尼娅\"]你看出来了？",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "你看出来了？"
+    },
+    {
+        "id": 173,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4208_wintim_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4208_wintim_1#1$1.png"
+    },
+    {
+        "id": 174,
+        "raw": "[name=\"科谢尼娅\"]是的，类似逆向河，“奥卡”本应溢出的部分无法沿倾斜面向外流淌，因此只能往回流，直到像这样“静止”。",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "是的，类似逆向河，“奥卡”本应溢出的部分无法沿倾斜面向外流淌，因此只能往回流，直到像这样“静止”。"
+    },
+    {
+        "id": 175,
+        "raw": "[name=\"科谢尼娅\"]但它其实保持着某种程度上的流动性，即使没有外力影响。这可能也是他们把它命名为“奥卡”的原因，像河流一样。",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "但它其实保持着某种程度上的流动性，即使没有外力影响。这可能也是他们把它命名为“奥卡”的原因，像河流一样。"
+    },
+    {
+        "id": 176,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4179_monstr_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4179_monstr_1#1$1.png"
+    },
+    {
+        "id": 177,
+        "raw": "[name=\"Mon3tr\"]这里到处都是这种液体。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "这里到处都是这种液体。"
+    },
+    {
+        "id": 178,
+        "raw": "[name=\"Mon3tr\"]根本看不出这里是矿洞，简直就像是一个天然溶洞。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "根本看不出这里是矿洞，简直就像是一个天然溶洞。"
+    },
+    {
+        "id": 179,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4208_wintim_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4208_wintim_1#1$1.png"
+    },
+    {
+        "id": 180,
+        "raw": "[name=\"科谢尼娅\"]更神奇的是，“奥卡”本身，就像是水一样。",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "更神奇的是，“奥卡”本身，就像是水一样。"
+    },
+    {
+        "id": 181,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 182,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 183,
+        "raw": "[Decision(options=\"这是什么意思？;这怎么可能？\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "这是什么意思？;这怎么可能？",
+        "values": "1;2"
+    },
+    {
+        "id": 184,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 185,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4208_wintim_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4208_wintim_1#1$1.png"
+    },
+    {
+        "id": 186,
+        "raw": "[name=\"科谢尼娅\"]不......只是一个比方。",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "不......只是一个比方。"
+    },
+    {
+        "id": 187,
+        "raw": "[name=\"科谢尼娅\"]沉淀一段时间之后，“奥卡”呈现出的状态非常稳定，甚至可以被当作通用溶剂使用。",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "沉淀一段时间之后，“奥卡”呈现出的状态非常稳定，甚至可以被当作通用溶剂使用。"
+    },
+    {
+        "id": 188,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4208_wintim_1#6$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4208_wintim_1#6$1.png"
+    },
+    {
+        "id": 189,
+        "raw": "[CameraShake(duration=0.3, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.3,",
+        "xstrength": "20,",
+        "ystrength": "20,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 190,
+        "raw": "[name=\"科谢尼娅\"]请等一下！就算是这样我们也不能直接用手去接触——",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "请等一下！就算是这样我们也不能直接用手去接触——"
+    },
+    {
+        "id": 191,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4208_wintim_1#7$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4208_wintim_1#7$1.png"
+    },
+    {
+        "id": 192,
+        "raw": "[name=\"科谢尼娅\"]啊......",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "啊......"
+    },
+    {
+        "id": 193,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 194,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 195,
+        "raw": "[playsound(key=\"$d_avg_walk_water\", loop=true, channel=\"w\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_walk_water.mp3",
+        "loop": "true,",
+        "channel": "w"
+    },
+    {
+        "id": 196,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 197,
+        "raw": "[StopSound(channel=\"w\", fadetime=0)]",
+        "type": "stop_sound",
+        "channel": "w",
+        "fadetime": 0
+    },
+    {
+        "id": 198,
+        "raw": "Mon3tr弯腰，用试管从地上收集起一些液体。她没戴手套，也未做任何防护。",
+        "type": "narration",
+        "content": "Mon3tr弯腰，用试管从地上收集起一些液体。她没戴手套，也未做任何防护。"
+    },
+    {
+        "id": 199,
+        "raw": "湿漉漉的双手晃动着试管中的液体，她的表情凝重起来。",
+        "type": "narration",
+        "content": "湿漉漉的双手晃动着试管中的液体，她的表情凝重起来。"
+    },
+    {
+        "id": 200,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 201,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 202,
+        "raw": "[Decision(options=\"Mon3tr？\", values=\"1\")]",
+        "type": "decision",
+        "options": "Mon3tr？",
+        "values": "1"
+    },
+    {
+        "id": 203,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 204,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4208_wintim_1#6$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4208_wintim_1#6$1.png"
+    },
+    {
+        "id": 205,
+        "raw": "[name=\"科谢尼娅\"]Mon3tr小姐，你不该直接接触——我带了防护设备，你想要样本的话可以告诉我，让我来采集！",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "Mon3tr小姐，你不该直接接触——我带了防护设备，你想要样本的话可以告诉我，让我来采集！"
+    },
+    {
+        "id": 206,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4179_monstr_1#2$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4179_monstr_1#2$1.png"
+    },
+    {
+        "id": 207,
+        "raw": "[name=\"Mon3tr\"]（小声）......博士，我知道这是什么了。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "（小声）......博士，我知道这是什么了。"
+    },
+    {
+        "id": 208,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4208_wintim_1#8$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4208_wintim_1#8$1.png"
+    },
+    {
+        "id": 209,
+        "raw": "[name=\"科谢尼娅\"]什么？",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "什么？"
+    },
+    {
+        "id": 210,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 211,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 212,
+        "raw": "[Decision(options=\"......\", values=\"1\")]",
+        "type": "decision",
+        "options": "......",
+        "values": "1"
+    },
+    {
+        "id": 213,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 214,
+        "raw": "[Decision(options=\"科谢尼娅，样本采集......;那能麻烦你去采集一下瀑布那边的样本吗？\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "科谢尼娅，样本采集......;那能麻烦你去采集一下瀑布那边的样本吗？",
+        "values": "1;2"
+    },
+    {
+        "id": 215,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 216,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4208_wintim_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4208_wintim_1#1$1.png"
+    },
+    {
+        "id": 217,
+        "raw": "[name=\"科谢尼娅\"]啊，可以。",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "啊，可以。"
+    },
+    {
+        "id": 218,
+        "raw": "[name=\"科谢尼娅\"]你们就在这里等我，我很快回来。",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "你们就在这里等我，我很快回来。"
+    },
+    {
+        "id": 219,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4208_wintim_1#4$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4208_wintim_1#4$1.png"
+    },
+    {
+        "id": 220,
+        "raw": "[name=\"科谢尼娅\"]......要小心。",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "......要小心。"
+    },
+    {
+        "id": 221,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 222,
+        "raw": "[playsound(key=\"$d_avg_shallowswalk\", loop=true, channel=\"w1\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_shallowswalk.mp3",
+        "loop": "true,",
+        "channel": "w1"
+    },
+    {
+        "id": 223,
+        "raw": "[charslot(duration=1)]",
+        "type": "charslot",
+        "duration": 1
+    },
+    {
+        "id": 224,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 225,
+        "raw": "[StopSound(channel=\"w1\", fadetime=0.5)]",
+        "type": "stop_sound",
+        "channel": "w1",
+        "fadetime": 0.5
+    },
+    {
+        "id": 226,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 227,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4179_monstr_1#2$1\",duration=1)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4179_monstr_1#2$1.png",
+        "duration": 1
+    },
+    {
+        "id": 228,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 229,
+        "raw": "[name=\"Mon3tr\"]这种被称为“奥卡”的流体......实际上就是“源石”。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "这种被称为“奥卡”的流体......实际上就是“源石”。"
+    },
+    {
+        "id": 230,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 231,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 232,
+        "raw": "[Decision(options=\"源石......;为什么会是这个样子？\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "源石......;为什么会是这个样子？",
+        "values": "1;2"
+    },
+    {
+        "id": 233,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 234,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4179_monstr_1#2$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4179_monstr_1#2$1.png"
+    },
+    {
+        "id": 235,
+        "raw": "[name=\"Mon3tr\"]这解释起来稍微有些复杂。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "这解释起来稍微有些复杂。"
+    },
+    {
+        "id": 236,
+        "raw": "[name=\"Mon3tr\"]博士，你还记得莱茵生命研究的“递质”，或者伊比利亚炼金术中常被提及的“心相原质”吗？",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "博士，你还记得莱茵生命研究的“递质”，或者伊比利亚炼金术中常被提及的“心相原质”吗？"
+    },
+    {
+        "id": 237,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 238,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 239,
+        "raw": "[Decision(options=\"我记得。;它们之间有关系？\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "我记得。;它们之间有关系？",
+        "values": "1;2"
+    },
+    {
+        "id": 240,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 241,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4179_monstr_1#2$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4179_monstr_1#2$1.png"
+    },
+    {
+        "id": 242,
+        "raw": "[name=\"Mon3tr\"]这可能就是它们的原型，或者说原始素材。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "这可能就是它们的原型，或者说原始素材。"
+    },
+    {
+        "id": 243,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 244,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 245,
+        "raw": "[Decision(options=\"“递质”和“心相原质”的共通点......;它们都是某种“媒介”。\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "“递质”和“心相原质”的共通点......;它们都是某种“媒介”。",
+        "values": "1;2"
+    },
+    {
+        "id": 246,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 247,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4179_monstr_1#2$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4179_monstr_1#2$1.png"
+    },
+    {
+        "id": 248,
+        "raw": "[name=\"Mon3tr\"]没错，能直接与人体产生反应，或留存信息的“媒介”。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "没错，能直接与人体产生反应，或留存信息的“媒介”。"
+    },
+    {
+        "id": 249,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 250,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 251,
+        "raw": "[Decision(options=\"所以这两种产物才都呈现为流体？\", values=\"1\")]",
+        "type": "decision",
+        "options": "所以这两种产物才都呈现为流体？",
+        "values": "1"
+    },
+    {
+        "id": 252,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 253,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4179_monstr_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4179_monstr_1#1$1.png"
+    },
+    {
+        "id": 254,
+        "raw": "[name=\"Mon3tr\"]我认为是这样的......",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "我认为是这样的......"
+    },
+    {
+        "id": 255,
+        "raw": "[name=\"Mon3tr\"]博士，你应该已经了解，源石既是“信息”的载体，也是“能量”的载体。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "博士，你应该已经了解，源石既是“信息”的载体，也是“能量”的载体。"
+    },
+    {
+        "id": 256,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4179_monstr_1#4$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4179_monstr_1#4$1.png"
+    },
+    {
+        "id": 257,
+        "raw": "[name=\"Mon3tr\"]“递质”与“心相原质”，都是用特定的手段重新刻录了源石能量，用以保留不同信息的产物。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "“递质”与“心相原质”，都是用特定的手段重新刻录了源石能量，用以保留不同信息的产物。"
+    },
+    {
+        "id": 258,
+        "raw": "[name=\"Mon3tr\"]而出现在这里的“奥卡”，是以一种更高效的手段抽空了源石中的能量后，残余的空白物质......",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "而出现在这里的“奥卡”，是以一种更高效的手段抽空了源石中的能量后，残余的空白物质......"
+    },
+    {
+        "id": 259,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4179_monstr_1#2$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4179_monstr_1#2$1.png"
+    },
+    {
+        "id": 260,
+        "raw": "[name=\"Mon3tr\"]所以，它甚至真的就是一种“通用溶剂”。或许这也可以解释那些接触过“奥卡”的感染者为何会出现“变异”。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "所以，它甚至真的就是一种“通用溶剂”。或许这也可以解释那些接触过“奥卡”的感染者为何会出现“变异”。"
+    },
+    {
+        "id": 261,
+        "raw": "[name=\"Mon3tr\"]简单来说，“奥卡”作为一种失去了能量的源石，中和了感染者体内的源石活性，同时也为源石的持续生长创造了前所未有的优越条件。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "简单来说，“奥卡”作为一种失去了能量的源石，中和了感染者体内的源石活性，同时也为源石的持续生长创造了前所未有的优越条件。"
+    },
+    {
+        "id": 262,
+        "raw": "[name=\"Mon3tr\"]这或许能暂时维持感染者的生命体征，但是无法改变他们注定很快就会死去的结果。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "这或许能暂时维持感染者的生命体征，但是无法改变他们注定很快就会死去的结果。"
+    },
+    {
+        "id": 263,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4179_monstr_1#9$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4179_monstr_1#9$1.png"
+    },
+    {
+        "id": 264,
+        "raw": "[name=\"Mon3tr\"]而那些被注入了“奥卡”的普通人，由于体内几乎毫无活性源石，产生了强烈的排异反应，所以无一幸存......",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "而那些被注入了“奥卡”的普通人，由于体内几乎毫无活性源石，产生了强烈的排异反应，所以无一幸存......"
+    },
+    {
+        "id": 265,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 266,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 267,
+        "raw": "[Decision(options=\"它大规模出现在这里......;那就意味着......\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "它大规模出现在这里......;那就意味着......",
+        "values": "1;2"
+    },
+    {
+        "id": 268,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 269,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4179_monstr_1#9$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4179_monstr_1#9$1.png"
+    },
+    {
+        "id": 270,
+        "raw": "[name=\"Mon3tr\"]这就是我们最应该担忧的事......",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "这就是我们最应该担忧的事......"
+    },
+    {
+        "id": 271,
+        "raw": "[name=\"Mon3tr\"]博士，科罗萨主矿脉正在枯竭。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "博士，科罗萨主矿脉正在枯竭。"
+    },
+    {
+        "id": 272,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 273,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 274,
+        "raw": "[Decision(options=\"......;......;......\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "......;......;......",
+        "values": "1;2;3"
+    },
+    {
+        "id": 275,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 276,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4179_monstr_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4179_monstr_1#1$1.png"
+    },
+    {
+        "id": 277,
+        "raw": "[name=\"Mon3tr\"]我们听到的那些传闻，乌萨斯正在加快开采源石的速度......实际上是在掩饰矿脉枯竭的事实。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "我们听到的那些传闻，乌萨斯正在加快开采源石的速度......实际上是在掩饰矿脉枯竭的事实。"
+    },
+    {
+        "id": 278,
+        "raw": "[name=\"Mon3tr\"]从这里，乌萨斯最北端的矿区开始，枯竭的速度还会不断加快。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "从这里，乌萨斯最北端的矿区开始，枯竭的速度还会不断加快。"
+    },
+    {
+        "id": 279,
+        "raw": "[name=\"Mon3tr\"]我可以大概估算出，四个月之内，乌萨斯境内的源石矿储量将会下降到原有的百分之三十......",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "我可以大概估算出，四个月之内，乌萨斯境内的源石矿储量将会下降到原有的百分之三十......"
+    },
+    {
+        "id": 280,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 281,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 282,
+        "raw": "[Decision(options=\"这才是女大公封锁矿区的真正原因。;这件事根本不可能一直隐瞒下去。\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "这才是女大公封锁矿区的真正原因。;这件事根本不可能一直隐瞒下去。",
+        "values": "1;2"
+    },
+    {
+        "id": 283,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 284,
+        "raw": "甚至不用问出那个问题，你和Mon3tr对视，脑海中不约而同地浮现出一个名字。",
+        "type": "narration",
+        "content": "甚至不用问出那个问题，你和Mon3tr对视，脑海中不约而同地浮现出一个名字。"
+    },
+    {
+        "id": 285,
+        "raw": "那唯一一个有能力做到这件事的人的名字——",
+        "type": "narration",
+        "content": "那唯一一个有能力做到这件事的人的名字——"
+    },
+    {
+        "id": 286,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 287,
+        "raw": "[Decision(options=\"普瑞赛斯。\", values=\"1\")]",
+        "type": "decision",
+        "options": "普瑞赛斯。",
+        "values": "1"
+    },
+    {
+        "id": 288,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 289,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4179_monstr_1#2$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4179_monstr_1#2$1.png"
+    },
+    {
+        "id": 290,
+        "raw": "[name=\"Mon3tr\"]除了她，也不可能有其他人了。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "除了她，也不可能有其他人了。"
+    },
+    {
+        "id": 291,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 292,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 293,
+        "raw": "[Decision(options=\"她为什么要这样做？\", values=\"1\")]",
+        "type": "decision",
+        "options": "她为什么要这样做？",
+        "values": "1"
+    },
+    {
+        "id": 294,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 295,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4179_monstr_1#2$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4179_monstr_1#2$1.png"
+    },
+    {
+        "id": 296,
+        "raw": "[name=\"Mon3tr\"]矿脉枯竭的进程无法被干涉，也无法被逆转。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "矿脉枯竭的进程无法被干涉，也无法被逆转。"
+    },
+    {
+        "id": 297,
+        "raw": "[name=\"Mon3tr\"]乌萨斯必定会走向崩溃。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "乌萨斯必定会走向崩溃。"
+    },
+    {
+        "id": 298,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 299,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 300,
+        "raw": "[Decision(options=\"恐怕不只是乌萨斯。\", values=\"1\")]",
+        "type": "decision",
+        "options": "恐怕不只是乌萨斯。",
+        "values": "1"
+    },
+    {
+        "id": 301,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 302,
+        "raw": "[Decision(options=\"这种体量的资源枯竭必然会影响整个泰拉。\", values=\"1\")]",
+        "type": "decision",
+        "options": "这种体量的资源枯竭必然会影响整个泰拉。",
+        "values": "1"
+    },
+    {
+        "id": 303,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 304,
+        "raw": "[Decision(options=\"难道这就是她想要的？\", values=\"1\")]",
+        "type": "decision",
+        "options": "难道这就是她想要的？",
+        "values": "1"
+    },
+    {
+        "id": 305,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 306,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4179_monstr_1#8$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4179_monstr_1#8$1.png"
+    },
+    {
+        "id": 307,
+        "raw": "[name=\"Mon3tr\"]博士，博士！我想到了。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "博士，博士！我想到了。"
+    },
+    {
+        "id": 308,
+        "raw": "[name=\"Mon3tr\"]“奥卡”也是前文明的遗留......还是你们曾经实验的副产物。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "“奥卡”也是前文明的遗留......还是你们曾经实验的副产物。"
+    },
+    {
+        "id": 309,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4179_monstr_1#4$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4179_monstr_1#4$1.png"
+    },
+    {
+        "id": 310,
+        "raw": "[name=\"Mon3tr\"]如果矿脉枯竭是因为她做了些什么，那这里面可能存在一些有用的信息。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "如果矿脉枯竭是因为她做了些什么，那这里面可能存在一些有用的信息。"
+    },
+    {
+        "id": 311,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4179_monstr_1#2$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4179_monstr_1#2$1.png"
+    },
+    {
+        "id": 312,
+        "raw": "[name=\"Mon3tr\"]博士，你试试看能不能读取。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "博士，你试试看能不能读取。"
+    },
+    {
+        "id": 313,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 314,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 315,
+        "raw": "[Decision(options=\"我该怎么......？\", values=\"1\")]",
+        "type": "decision",
+        "options": "我该怎么......？",
+        "values": "1"
+    },
+    {
+        "id": 316,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 317,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4179_monstr_1#2$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4179_monstr_1#2$1.png"
+    },
+    {
+        "id": 318,
+        "raw": "[name=\"Mon3tr\"]现在条件有限，直接把你的手放进去，就像我刚才采集样本时那样。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "现在条件有限，直接把你的手放进去，就像我刚才采集样本时那样。"
+    },
+    {
+        "id": 319,
+        "raw": "[name=\"Mon3tr\"]放心，它不会对你产生伤害的。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "放心，它不会对你产生伤害的。"
+    },
+    {
+        "id": 320,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 321,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 322,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 323,
+        "raw": "[playsound(key=\"$d_avg_walk_water\", loop=true, channel=\"w\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_walk_water.mp3",
+        "loop": "true,",
+        "channel": "w"
+    },
+    {
+        "id": 324,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 325,
+        "raw": "[StopSound(channel=\"w\", fadetime=0)]",
+        "type": "stop_sound",
+        "channel": "w",
+        "fadetime": 0
+    },
+    {
+        "id": 326,
+        "raw": "依着Mon3tr的指示，你蹲下身去，把双手都沉入名为“奥卡”的液体当中。",
+        "type": "narration",
+        "content": "依着Mon3tr的指示，你蹲下身去，把双手都沉入名为“奥卡”的液体当中。"
+    },
+    {
+        "id": 327,
+        "raw": "你等待了一会儿。",
+        "type": "narration",
+        "content": "你等待了一会儿。"
+    },
+    {
+        "id": 328,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 329,
+        "raw": "[Decision(options=\"没感觉到有什么不同。\", values=\"1\")]",
+        "type": "decision",
+        "options": "没感觉到有什么不同。",
+        "values": "1"
+    },
+    {
+        "id": 330,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 331,
+        "raw": "你等待着变化，或者回应，就像先前数次发生过的“奇迹”一样。",
+        "type": "narration",
+        "content": "你等待着变化，或者回应，就像先前数次发生过的“奇迹”一样。"
+    },
+    {
+        "id": 332,
+        "raw": "然而最终却什么也没有发生。",
+        "type": "narration",
+        "content": "然而最终却什么也没有发生。"
+    },
+    {
+        "id": 333,
+        "raw": "来自前文明的产物似乎在拒绝、否认你们之间存在某种联系。",
+        "type": "narration",
+        "content": "来自前文明的产物似乎在拒绝、否认你们之间存在某种联系。"
+    },
+    {
+        "id": 334,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 335,
+        "raw": "[Decision(options=\"我们脚下这些会不会已经失去储存信息的功能了？;或者说，她根本没有想留给我们的信息。\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "我们脚下这些会不会已经失去储存信息的功能了？;或者说，她根本没有想留给我们的信息。",
+        "values": "1;2"
+    },
+    {
+        "id": 336,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 337,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4179_monstr_1#5$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4179_monstr_1#5$1.png"
+    },
+    {
+        "id": 338,
+        "raw": "[name=\"Mon3tr\"]......唔，不是没可能。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "......唔，不是没可能。"
+    },
+    {
+        "id": 339,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 340,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 341,
+        "raw": "[playsound(key=\"$d_avg_walk_water\", loop=true, channel=\"ww\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_walk_water.mp3",
+        "loop": "true,",
+        "channel": "ww"
+    },
+    {
+        "id": 342,
+        "raw": "[PlaySound(key=\"$d_avg_walkfast\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_walkfast.mp3"
+    },
+    {
+        "id": 343,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4208_wintim_1#6$1\",duration=0.5)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4208_wintim_1#6$1.png",
+        "duration": 0.5
+    },
+    {
+        "id": 344,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 345,
+        "raw": "[StopSound(channel=\"ww\", fadetime=0)]",
+        "type": "stop_sound",
+        "channel": "ww",
+        "fadetime": 0
+    },
+    {
+        "id": 346,
+        "raw": "[name=\"科谢尼娅\"]Mon3tr小姐，博士！",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "Mon3tr小姐，博士！"
+    },
+    {
+        "id": 347,
+        "raw": "[name=\"科谢尼娅\"]快过来，我发现了一些新东西！",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "快过来，我发现了一些新东西！"
+    },
+    {
+        "id": 348,
+        "raw": "[name=\"科谢尼娅\"]在瀑布后面有个空洞，爬上去，站到那里——",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "在瀑布后面有个空洞，爬上去，站到那里——"
+    },
+    {
+        "id": 349,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4208_wintim_1#4$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4208_wintim_1#4$1.png"
+    },
+    {
+        "id": 350,
+        "raw": "[name=\"科谢尼娅\"]我发现矿洞中存在一种特殊频率的声音，它很不自然——不，是绝对不自然！",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "我发现矿洞中存在一种特殊频率的声音，它很不自然——不，是绝对不自然！"
+    },
+    {
+        "id": 351,
+        "raw": "[name=\"科谢尼娅\"]就仿佛......它在试图通过声波传达某种信息！",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "就仿佛......它在试图通过声波传达某种信息！"
+    },
+    {
+        "id": 352,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4179_monstr_1#8$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4179_monstr_1#8$1.png"
+    },
+    {
+        "id": 353,
+        "raw": "[name=\"Mon3tr\"]啊......？",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "啊......？"
+    },
+    {
+        "id": 354,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 355,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 356,
+        "raw": "[Decision(options=\"我们去看看。\", values=\"1\")]",
+        "type": "decision",
+        "options": "我们去看看。",
+        "values": "1"
+    },
+    {
+        "id": 357,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 358,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 359,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 360,
+        "raw": "[StopSound(channel=\"bgs\", fadetime=2)]",
+        "type": "stop_sound",
+        "channel": "bgs",
+        "fadetime": 2
+    },
+    {
+        "id": 361,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 362,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 363,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 364,
+        "raw": "[playsound(key=\"$d_avg_magneticwaterfall_loop\", loop=true, channel=\"bgs\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_magneticwaterfall_loop.mp3",
+        "loop": "true,",
+        "channel": "bgs"
+    },
+    {
+        "id": 365,
+        "raw": "[SoundVolume(volume=0.6, channel=\"bgs\",fadetime=2)]",
+        "type": "sound_volume",
+        "volume": "0.6,",
+        "channel": "bgs",
+        "fadetime": 2
+    },
+    {
+        "id": 366,
+        "raw": "[Background(image=\"bg_black\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_black.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 367,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 368,
+        "raw": "[PlaySound(key=\"$d_avg_doorknob\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_doorknob.mp3",
+        "volume": 1
+    },
+    {
+        "id": 369,
+        "raw": "[bgeffect(name=\"$eb_glow_42i11_01\",layer=1,x=-600,y=-400)]",
+        "type": "bg_effect",
+        "name": "$eb_glow_42i11_01",
+        "layer": "1,x=-600,y=-400"
+    },
+    {
+        "id": 370,
+        "raw": "[Image(image=\"66_i06\",fadetime=3, xScale=1.3, yScale=1.3,screenadapt=\"coverall\")]",
+        "type": "image",
+        "image": "66_i06.png",
+        "fadetime": "3,",
+        "xScale": "1.3,",
+        "yScale": "1.3,screenadapt=\"coverall\""
+    },
+    {
+        "id": 371,
+        "raw": "[ImageTween( xScaleFrom=1.3, yScaleFrom=1.3, xScaleTo=1, yScaleTo=1, duration=60)]",
+        "type": "image_tween",
+        "xScaleFrom": "1.3,",
+        "yScaleFrom": "1.3,",
+        "xScaleTo": "1,",
+        "yScaleTo": "1,",
+        "duration": 60
+    },
+    {
+        "id": 372,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 373,
+        "raw": "[playMusic(intro=\"$newhope01_intro\",key=\"$newhope01_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta3_181101/m_dia_newhope01_intro.mp3",
+        "key": "sound_beta_2/music/beta3_181101/m_dia_newhope01_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 374,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 375,
+        "raw": "[PlaySound(key=\"$d_avg_airbuzz_1\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_airbuzz_1.mp3"
+    },
+    {
+        "id": 376,
+        "raw": "[name=\"Mon3tr\"]这是——",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "这是——"
+    },
+    {
+        "id": 377,
+        "raw": "[name=\"Mon3tr\"]瀑布中间还有这样的地方？",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "瀑布中间还有这样的地方？"
+    },
+    {
+        "id": 378,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 379,
+        "raw": "[Decision(options=\"确实......很壮观。\", values=\"1\")]",
+        "type": "decision",
+        "options": "确实......很壮观。",
+        "values": "1"
+    },
+    {
+        "id": 380,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 381,
+        "raw": "[name=\"科谢尼娅\"]来，你们仔细听！在所有液体击打岩石的声音里，总有几段频率特别的声音，仿佛在吸引人注意。它们非常不同，你们一定能听见！",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "来，你们仔细听！在所有液体击打岩石的声音里，总有几段频率特别的声音，仿佛在吸引人注意。它们非常不同，你们一定能听见！"
+    },
+    {
+        "id": 382,
+        "raw": "[name=\"科谢尼娅\"]我刚才有试着解读我听到的那几段，这花了一些时间，因为要把时高时低的声音完全记录下来——",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "我刚才有试着解读我听到的那几段，这花了一些时间，因为要把时高时低的声音完全记录下来——"
+    },
+    {
+        "id": 383,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 384,
+        "raw": "[PlaySound(key=\"$d_avg_airbuzz_2\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_airbuzz_2.mp3"
+    },
+    {
+        "id": 385,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 386,
+        "raw": "[name=\"科谢尼娅\"]就是这个！你们听到了吗？",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "就是这个！你们听到了吗？"
+    },
+    {
+        "id": 387,
+        "raw": "[name=\"Mon3tr\"]我只听到了雨声！甚至听不清你说话——",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "我只听到了雨声！甚至听不清你说话——"
+    },
+    {
+        "id": 388,
+        "raw": "[name=\"Mon3tr\"]博士？",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "博士？"
+    },
+    {
+        "id": 389,
+        "raw": "你只是闭上了双眼，任由所有的声音将你包裹。",
+        "type": "narration",
+        "content": "你只是闭上了双眼，任由所有的声音将你包裹。"
+    },
+    {
+        "id": 390,
+        "raw": "直到明确听到了那不断变换频率的声音。",
+        "type": "narration",
+        "content": "直到明确听到了那不断变换频率的声音。"
+    },
+    {
+        "id": 391,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 392,
+        "raw": "[PlaySound(key=\"$d_avg_airbuzz_3\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_airbuzz_3.mp3"
+    },
+    {
+        "id": 393,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 394,
+        "raw": "[Decision(options=\"我......\", values=\"1\")]",
+        "type": "decision",
+        "options": "我......",
+        "values": "1"
+    },
+    {
+        "id": 395,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 396,
+        "raw": "[Decision(options=\"我听见了。\", values=\"1\")]",
+        "type": "decision",
+        "options": "我听见了。",
+        "values": "1"
+    },
+    {
+        "id": 397,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 398,
+        "raw": "[name=\"Mon3tr\"]——你是说你听见了吗——",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "——你是说你听见了吗——"
+    },
+    {
+        "id": 399,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 400,
+        "raw": "[PlaySound(key=\"$d_avg_airbuzz_4\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_airbuzz_4.mp3"
+    },
+    {
+        "id": 401,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 402,
+        "raw": "那些陡然闯入知觉的声音，时而由数段频率高的声波组成，时而简短且凌厉，像一张韵调别致的乐谱。",
+        "type": "narration",
+        "content": "那些陡然闯入知觉的声音，时而由数段频率高的声波组成，时而简短且凌厉，像一张韵调别致的乐谱。"
+    },
+    {
+        "id": 403,
+        "raw": "但你很快就确定，它理应是某种编码，或者是语言。",
+        "type": "narration",
+        "content": "但你很快就确定，它理应是某种编码，或者是语言。"
+    },
+    {
+        "id": 404,
+        "raw": "[PlaySound(key=\"$d_avg_airbuzz_5\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_airbuzz_5.mp3"
+    },
+    {
+        "id": 405,
+        "raw": "你尽力捕捉了自己能忆起的所有语言，将它们分门别类，一一对应之后，你意识到这只是同个词语在不同语言中的变体。",
+        "type": "narration",
+        "content": "你尽力捕捉了自己能忆起的所有语言，将它们分门别类，一一对应之后，你意识到这只是同个词语在不同语言中的变体。"
+    },
+    {
+        "id": 406,
+        "raw": "[name=\"科谢尼娅\"]好吧，我抄写下来了......",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "好吧，我抄写下来了......"
+    },
+    {
+        "id": 407,
+        "raw": "[name=\"科谢尼娅\"]虽然只是直觉，但如果按照不同移动城市之间使用的通用编码规则来识别这些声音......",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "虽然只是直觉，但如果按照不同移动城市之间使用的通用编码规则来识别这些声音......"
+    },
+    {
+        "id": 408,
+        "raw": "[name=\"科谢尼娅\"]我觉得它应该是一个单词，是用很多语言写出来的同一个单词。我可以认出乌萨斯语和高卢语！我觉得这两个词的意思都是——",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "我觉得它应该是一个单词，是用很多语言写出来的同一个单词。我可以认出乌萨斯语和高卢语！我觉得这两个词的意思都是——"
+    },
+    {
+        "id": 409,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 410,
+        "raw": "[StopSound(channel=\"bgs\", fadetime=2)]",
+        "type": "stop_sound",
+        "channel": "bgs",
+        "fadetime": 2
+    },
+    {
+        "id": 411,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 412,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 413,
+        "raw": "[image]",
+        "type": "image"
+    },
+    {
+        "id": 414,
+        "raw": "[bgeffect]",
+        "type": "bg_effect"
+    },
+    {
+        "id": 415,
+        "raw": "[Background(image=\"bg_black\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_black.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 416,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 417,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", text=\"“未知语言”\", x=300,y=340, alignment=\"center\", size=24, delay=0.001, width=700,block = true,duration=1)]",
+        "type": "sticker",
+        "text": "“未知语言”",
+        "x": "300,y=340,",
+        "alignment": "center",
+        "size": "24,",
+        "delay": "0.001,",
+        "width": "700,block",
+        "duration": 1
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\",duration=1,block = false)]",
+        "type": "sticker",
+        "duration": "1,block"
+    },
+    {
+        "id": 420,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 421,
+        "raw": "......",
+        "type": "narration",
+        "content": "......"
+    },
+    {
+        "id": 422,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", text=\"“спорить”\", x=300,y=340, alignment=\"center\", size=24, delay=0.001, width=700,block = true,duration=1)]",
+        "type": "sticker",
+        "text": "“спорить”",
+        "x": "300,y=340,",
+        "alignment": "center",
+        "size": "24,",
+        "delay": "0.001,",
+        "width": "700,block",
+        "duration": 1
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\",duration=1,block = false)]",
+        "type": "sticker",
+        "duration": "1,block"
+    },
+    {
+        "id": 425,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", text=\"“dibattito”\", x=300,y=340, alignment=\"center\", size=24, delay=0.001, width=700,block = true,duration=1)]",
+        "type": "sticker",
+        "text": "“dibattito”",
+        "x": "300,y=340,",
+        "alignment": "center",
+        "size": "24,",
+        "delay": "0.001,",
+        "width": "700,block",
+        "duration": 1
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\",duration=1,block = false)]",
+        "type": "sticker",
+        "duration": "1,block"
+    },
+    {
+        "id": 428,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 429,
+        "raw": "......",
+        "type": "narration",
+        "content": "......"
+    },
+    {
+        "id": 430,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", text=\"“débat”\", x=300,y=340, alignment=\"center\", size=24, delay=0.001, width=700,block = true,duration=1)]",
+        "type": "sticker",
+        "text": "“débat”",
+        "x": "300,y=340,",
+        "alignment": "center",
+        "size": "24,",
+        "delay": "0.001,",
+        "width": "700,block",
+        "duration": 1
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\",duration=1,block = false)]",
+        "type": "sticker",
+        "duration": "1,block"
+    },
+    {
+        "id": 433,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", text=\"“debate”\", x=300,y=340, alignment=\"center\", size=24, delay=0.001, width=700,block = true,duration=1)]",
+        "type": "sticker",
+        "text": "“debate”",
+        "x": "300,y=340,",
+        "alignment": "center",
+        "size": "24,",
+        "delay": "0.001,",
+        "width": "700,block",
+        "duration": 1
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\",duration=1,block = false)]",
+        "type": "sticker",
+        "duration": "1,block"
+    },
+    {
+        "id": 436,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 437,
+        "raw": "......",
+        "type": "narration",
+        "content": "......"
+    },
+    {
+        "id": 438,
+        "raw": "是的。留在矿井中的流体用敲击岩石的形式向你传递了同一个词语——",
+        "type": "narration",
+        "content": "是的。留在矿井中的流体用敲击岩石的形式向你传递了同一个词语——"
+    },
+    {
+        "id": 439,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 440,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 441,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 442,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 443,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 444,
+        "raw": "[Background(image=\"bg_white\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_white.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 445,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", text=\"<color=#000000>“辩论”。</color>\", x=320,y=340, alignment=\"center\", size=24, delay=0.001, width=700,block = true,duration=1.5)]",
+        "type": "sticker",
+        "text": "<color=#000000>“辩论”。</color>",
+        "x": "320,y=340,",
+        "alignment": "center",
+        "size": "24,",
+        "delay": "0.001,",
+        "width": "700,block",
+        "duration": 1.5
+    },
+    {
+        "id": "st2",
+        "raw": "[Sticker(id=\"st2\", text=\"<color=#000000>“辩论”。</color>\", x=320,y=340, alignment=\"center\", size=30, delay=0.001, width=700,block = false,duration=3)]",
+        "type": "sticker",
+        "text": "<color=#000000>“辩论”。</color>",
+        "x": "320,y=340,",
+        "alignment": "center",
+        "size": "30,",
+        "delay": "0.001,",
+        "width": "700,block",
+        "duration": 3
+    },
+    {
+        "id": 448,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 449,
+        "raw": "[playsound(key=\"$d_avg_jumpscare\",volume=0.6)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_jumpscare.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 450,
+        "raw": "[bgeffect(name=\"$eb_blackmask\",layer=1)]",
+        "type": "bg_effect",
+        "name": "$eb_blackmask",
+        "layer": 1
+    },
+    {
+        "id": 451,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 452,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1.5, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1.5,",
+        "block": true
+    },
+    {
+        "id": 453,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": "st2",
+        "raw": "[Sticker(id=\"st2\")]",
+        "type": "sticker"
+    },
+    {
+        "id": 456,
+        "raw": "[bgeffect]",
+        "type": "bg_effect"
+    },
+    {
+        "id": 457,
+        "raw": "[Background(image=\"bg_0_rhodes3\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_0_rhodes3.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 458,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1.5,",
+        "block": true
+    },
+    {
+        "id": 459,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 460,
+        "raw": "是了，Dr.{@nickname}。",
+        "type": "narration",
+        "content": "是了，Dr.{@nickname}。"
+    },
+    {
+        "id": 461,
+        "raw": "如果你依然认为自己的选择是正确的。",
+        "type": "narration",
+        "content": "如果你依然认为自己的选择是正确的。"
+    },
+    {
+        "id": 462,
+        "raw": "如果你依然坚定地相信你描述的未来。",
+        "type": "narration",
+        "content": "如果你依然坚定地相信你描述的未来。"
+    },
+    {
+        "id": 463,
+        "raw": "那就用现实来驳斥我，向我证明......",
+        "type": "narration",
+        "content": "那就用现实来驳斥我，向我证明......"
+    },
+    {
+        "id": 464,
+        "raw": "你坚持的......",
+        "type": "narration",
+        "content": "你坚持的......"
+    },
+    {
+        "id": 465,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", text=\"“希望”。\", x=300,y=340, alignment=\"center\", size=24, delay=0.001, width=700,block = true,duration=1.5)]",
+        "type": "sticker",
+        "text": "“希望”。",
+        "x": "300,y=340,",
+        "alignment": "center",
+        "size": "24,",
+        "delay": "0.001,",
+        "width": "700,block",
+        "duration": 1.5
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\",duration=1,block = false)]",
+        "type": "sticker",
+        "duration": "1,block"
+    },
+    {
+        "id": 468,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 469,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 470,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 471,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 472,
+        "raw": "[Image(image=\"66_i06\")]",
+        "type": "image",
+        "image": "66_i06.png"
+    },
+    {
+        "id": 473,
+        "raw": "[playMusic(intro=\"$newhope02_intro\",key=\"$newhope02_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta3_181101/m_dia_newhope02_intro.mp3",
+        "key": "sound_beta_2/music/beta3_181101/m_dia_newhope02_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 474,
+        "raw": "[playsound(key=\"$d_avg_magneticwaterfall_loop\", loop=true, channel=\"bgs\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_magneticwaterfall_loop.mp3",
+        "loop": "true,",
+        "channel": "bgs"
+    },
+    {
+        "id": 475,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 476,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 477,
+        "raw": "[Decision(options=\"......这是一个邀请。\", values=\"1\")]",
+        "type": "decision",
+        "options": "......这是一个邀请。",
+        "values": "1"
+    },
+    {
+        "id": 478,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 479,
+        "raw": "[name=\"Mon3tr\"]你说什么？",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "你说什么？"
+    },
+    {
+        "id": 480,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 481,
+        "raw": "[Decision(options=\"我说，这是一个邀请。\", values=\"1\")]",
+        "type": "decision",
+        "options": "我说，这是一个邀请。",
+        "values": "1"
+    },
+    {
+        "id": 482,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 483,
+        "raw": "[Decision(options=\"一个我必须接受的邀请。\", values=\"1\")]",
+        "type": "decision",
+        "options": "一个我必须接受的邀请。",
+        "values": "1"
+    },
+    {
+        "id": 484,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 485,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 486,
+        "raw": "[StopSound(channel=\"bgs\", fadetime=2)]",
+        "type": "stop_sound",
+        "channel": "bgs",
+        "fadetime": 2
+    },
+    {
+        "id": 487,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 488,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 489,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 490,
+        "raw": "[image]",
+        "type": "image"
+    },
+    {
+        "id": 491,
+        "raw": "[playsound(key=\"$d_avg_rainlight_loop\", loop=true, channel=\"bgs\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_rainlight_loop.mp3",
+        "loop": "true,",
+        "channel": "bgs"
+    },
+    {
+        "id": 492,
+        "raw": "[Background(image=\"66_g6_magnetofluidwaterfall\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "66_g6_magnetofluidwaterfall.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 493,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 494,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 495,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4179_monstr_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4179_monstr_1#1$1.png"
+    },
+    {
+        "id": 496,
+        "raw": "[name=\"Mon3tr\"]（小声）你认为这是普瑞赛斯留给你的信息？",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "（小声）你认为这是普瑞赛斯留给你的信息？"
+    },
+    {
+        "id": 497,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 498,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 499,
+        "raw": "[Decision(options=\"是的。; 我明白她的意思......\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "是的。; 我明白她的意思......",
+        "values": "1;2"
+    },
+    {
+        "id": 500,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 501,
+        "raw": "[Decision(options=\"我们应该尽快撤离了。\", values=\"1\")]",
+        "type": "decision",
+        "options": "我们应该尽快撤离了。",
+        "values": "1"
+    },
+    {
+        "id": 502,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 503,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4179_monstr_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4179_monstr_1#1$1.png"
+    },
+    {
+        "id": 504,
+        "raw": "[name=\"Mon3tr\"]等科谢尼娅采集完样本，我们就回研究所吧。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "等科谢尼娅采集完样本，我们就回研究所吧。"
+    },
+    {
+        "id": 505,
+        "raw": "[name=\"Mon3tr\"]得想个办法和阿米娅他们取得联络......",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "得想个办法和阿米娅他们取得联络......"
+    },
+    {
+        "id": 506,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 507,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 508,
+        "raw": "[Decision(options=\"不知道阿米娅他们怎么样了。; 希望阿米娅已经和Raidian他们取得联系了。\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "不知道阿米娅他们怎么样了。; 希望阿米娅已经和Raidian他们取得联系了。",
+        "values": "1;2"
+    },
+    {
+        "id": 509,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 510,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 511,
+        "raw": "[playsound(key=\"$d_avg_giantmonster_treadwater\", loop=true, channel=\"gf\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_giantmonster_treadwater.mp3",
+        "loop": "true,",
+        "channel": "gf"
+    },
+    {
+        "id": 512,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 513,
+        "raw": "[StopSound(channel=\"gf\", fadetime=0.3)]",
+        "type": "stop_sound",
+        "channel": "gf",
+        "fadetime": 0.3
+    },
+    {
+        "id": 514,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 515,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 516,
+        "raw": "[Decision(options=\"......你有没有听到什么声音？\", values=\"1\")]",
+        "type": "decision",
+        "options": "......你有没有听到什么声音？",
+        "values": "1"
+    },
+    {
+        "id": 517,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 518,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4179_monstr_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4179_monstr_1#1$1.png"
+    },
+    {
+        "id": 519,
+        "raw": "[name=\"Mon3tr\"]什么样的声音？",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "什么样的声音？"
+    },
+    {
+        "id": 520,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 521,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 522,
+        "raw": "[Decision(options=\"重物踩在水里移动的声音。\", values=\"1\")]",
+        "type": "decision",
+        "options": "重物踩在水里移动的声音。",
+        "values": "1"
+    },
+    {
+        "id": 523,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 524,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4179_monstr_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4179_monstr_1#1$1.png"
+    },
+    {
+        "id": 525,
+        "raw": "[name=\"Mon3tr\"]瀑布的水声一直挺大的。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "瀑布的水声一直挺大的。"
+    },
+    {
+        "id": 526,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4179_monstr_1#8$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4179_monstr_1#8$1.png"
+    },
+    {
+        "id": 527,
+        "raw": "[name=\"Mon3tr\"]博士，你确定不是耳鸣吗？也许是因为刚才需要你大脑同时处理的信息太多，知觉滞留......",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "博士，你确定不是耳鸣吗？也许是因为刚才需要你大脑同时处理的信息太多，知觉滞留......"
+    },
+    {
+        "id": 528,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 529,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 530,
+        "raw": "[playsound(key=\"$d_avg_giantmonster_treadwater\", loop=true, channel=\"gf\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_giantmonster_treadwater.mp3",
+        "loop": "true,",
+        "channel": "gf"
+    },
+    {
+        "id": 531,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 532,
+        "raw": "[StopSound(channel=\"gf\", fadetime=0.3)]",
+        "type": "stop_sound",
+        "channel": "gf",
+        "fadetime": 0.3
+    },
+    {
+        "id": 533,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4179_monstr_1#5$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4179_monstr_1#5$1.png"
+    },
+    {
+        "id": 534,
+        "raw": "[name=\"Mon3tr\"]......等等。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "......等等。"
+    },
+    {
+        "id": 535,
+        "raw": "[name=\"Mon3tr\"]科谢尼娅？是你吗？",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "科谢尼娅？是你吗？"
+    },
+    {
+        "id": 536,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 537,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 538,
+        "raw": "[Decision(options=\"那不是科谢尼娅的脚步声，体重和节奏都不对。\", values=\"1\")]",
+        "type": "decision",
+        "options": "那不是科谢尼娅的脚步声，体重和节奏都不对。",
+        "values": "1"
+    },
+    {
+        "id": 539,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 540,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4179_monstr_1#8$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4179_monstr_1#8$1.png"
+    },
+    {
+        "id": 541,
+        "raw": "[name=\"Mon3tr\"]那是......什么——",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "那是......什么——"
+    },
+    {
+        "id": 542,
+        "raw": "[Background(image=\"66_g6_magnetofluidwaterfall\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "66_g6_magnetofluidwaterfall.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 543,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 544,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 545,
+        "raw": "[effect(name=\"$e_sandfall_01\",layer=1,y=350)]",
+        "type": "effect",
+        "name": "$e_sandfall_01",
+        "layer": "1,y=350"
+    },
+    {
+        "id": 546,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 547,
+        "raw": "[playsound(key=\"$d_avg_giantmonster_treadwater\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_giantmonster_treadwater.mp3"
+    },
+    {
+        "id": 548,
+        "raw": "[playMusic(intro=\"$shatterpoint_01_intro\",key=\"$shatterpoint_01_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act27d0d0/m_bat_shatterpoint_01_intro.mp3",
+        "key": "sound_beta_2/music/act27d0d0/m_bat_shatterpoint_01_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 549,
+        "raw": "[PlaySound(key=\"$d_avg_stonegrowing\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_stonegrowing.mp3",
+        "volume": 1
+    },
+    {
+        "id": 550,
+        "raw": "[CameraShake(duration=1, xstrength=5, ystrength=5, vibrato=50, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "xstrength": "5,",
+        "ystrength": "5,",
+        "vibrato": "50,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 551,
+        "raw": "[cgitem(image=\"cgitem_66_i11_1\", style=\"cg\",pfrom = \"-400,0\",pto = \"-400,0\",pduration = 2, afrom = 0, ato = 1, aduration = 0.5,layer = 3)]",
+        "type": "cg_item",
+        "image": "cgitem_66_i11_1",
+        "style": "cg"
+    },
+    {
+        "id": 552,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 553,
+        "raw": "[backgroundTween(xScaleFrom=1, yScaleFrom=1, xScaleTo=1.1, yScaleTo=1.1, duration=0.3,block=false)]",
+        "type": "background_tween",
+        "xScaleFrom": "1,",
+        "yScaleFrom": "1,",
+        "xScaleTo": "1.1,",
+        "yScaleTo": "1.1,",
+        "duration": "0.3,block=false"
+    },
+    {
+        "id": 554,
+        "raw": "[curtain(direction = 0,fillfrom = 0.01,fillto = 0.07, fadetime=0.3)]",
+        "type": "curtain",
+        "fadetime": 0.3
+    },
+    {
+        "id": 555,
+        "raw": "[curtain(direction = 4,fillfrom = 0.01,fillto = 0.07, fadetime=0.3)]",
+        "type": "curtain",
+        "fadetime": 0.3
+    },
+    {
+        "id": 556,
+        "raw": "[CameraShake(duration=1, xstrength=5, ystrength=5, vibrato=50, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "xstrength": "5,",
+        "ystrength": "5,",
+        "vibrato": "50,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 557,
+        "raw": "[cgitem(image=\"cgitem_66_i11_2\", style=\"cg\",pfrom = \"400,0\",pto = \"400,0\",pduration = 2, afrom = 0, ato = 1, aduration = 0.5,layer = 2)]",
+        "type": "cg_item",
+        "image": "cgitem_66_i11_2",
+        "style": "cg"
+    },
+    {
+        "id": 558,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 559,
+        "raw": "[CameraShake(duration=1, xstrength=5, ystrength=5, vibrato=50, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "xstrength": "5,",
+        "ystrength": "5,",
+        "vibrato": "50,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 560,
+        "raw": "[backgroundTween(xScaleFrom=1.1, yScaleFrom=1.1, xScaleTo=1.2, yScaleTo=1.2, duration=0.3,block=false)]",
+        "type": "background_tween",
+        "xScaleFrom": "1.1,",
+        "yScaleFrom": "1.1,",
+        "xScaleTo": "1.2,",
+        "yScaleTo": "1.2,",
+        "duration": "0.3,block=false"
+    },
+    {
+        "id": 561,
+        "raw": "[curtain(direction = 0,fillfrom = 0.07,fillto = 0.14, fadetime=0.3)]",
+        "type": "curtain",
+        "fadetime": 0.3
+    },
+    {
+        "id": 562,
+        "raw": "[curtain(direction = 4,fillfrom = 0.07,fillto = 0.14, fadetime=0.3)]",
+        "type": "curtain",
+        "fadetime": 0.3
+    },
+    {
+        "id": 563,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 564,
+        "raw": "[CameraShake(duration=1, xstrength=10, ystrength=10, vibrato=50, randomness=50, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "xstrength": "10,",
+        "ystrength": "10,",
+        "vibrato": "50,",
+        "randomness": "50,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 565,
+        "raw": "[Image(image=\"66_i11\",fadetime=1,screenadapt=\"coverall\", xScale=1.15, yScale=1.15)]",
+        "type": "image",
+        "image": "66_i11.png",
+        "fadetime": "1,screenadapt=\"coverall\",",
+        "xScale": "1.15,",
+        "yScale": 1.15
+    },
+    {
+        "id": 566,
+        "raw": "[delay(time=3)]",
+        "type": "delay",
+        "time": 3
+    },
+    {
+        "id": 567,
+        "raw": "[Background]",
+        "type": "background"
+    },
+    {
+        "id": 568,
+        "raw": "[ImageTween(xScaleTo=1.7, yScaleTo=1.7, duration=0.6)]",
+        "type": "image_tween",
+        "xScaleTo": "1.7,",
+        "yScaleTo": "1.7,",
+        "duration": 0.6
+    },
+    {
+        "id": 569,
+        "raw": "[PlaySound(key=\"$d_avg_giantmonster_growl\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_giantmonster_growl.mp3",
+        "volume": 1
+    },
+    {
+        "id": 570,
+        "raw": "[curtain(direction = 0,fillfrom = 0.14,fillto = 0, fadetime=1)]",
+        "type": "curtain",
+        "fadetime": 1
+    },
+    {
+        "id": 571,
+        "raw": "[curtain(direction = 4,fillfrom = 0.14,fillto = 0, fadetime=1)]",
+        "type": "curtain",
+        "fadetime": 1
+    },
+    {
+        "id": 572,
+        "raw": "[CameraShake(duration=3, xstrength=20, ystrength=20, vibrato=50, randomness=50, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "3,",
+        "xstrength": "20,",
+        "ystrength": "20,",
+        "vibrato": "50,",
+        "randomness": "50,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 573,
+        "raw": "[Image(image=\"66_i11\",fadetime=1,screenadapt=\"coverall\", xScale=1, yScale=1)]",
+        "type": "image",
+        "image": "66_i11.png",
+        "fadetime": "1,screenadapt=\"coverall\",",
+        "xScale": "1,",
+        "yScale": 1
+    },
+    {
+        "id": 574,
+        "raw": "[ImageTween(xScaleTo=1.3, yScaleTo=1.3, duration=60)]",
+        "type": "image_tween",
+        "xScaleTo": "1.3,",
+        "yScaleTo": "1.3,",
+        "duration": 60
+    },
+    {
+        "id": 575,
+        "raw": "[delay(time=5)]",
+        "type": "delay",
+        "time": 5
+    },
+    {
+        "id": 576,
+        "raw": "癫狂的呼号，急促的呼吸，獠牙之间的黏液不断滴穿水面。",
+        "type": "narration",
+        "content": "癫狂的呼号，急促的呼吸，獠牙之间的黏液不断滴穿水面。"
+    },
+    {
+        "id": 577,
+        "raw": "暗红的源石贯穿了它整个身躯，似乎是由于这坚硬的钳制，才使它必须像人一样站立。",
+        "type": "narration",
+        "content": "暗红的源石贯穿了它整个身躯，似乎是由于这坚硬的钳制，才使它必须像人一样站立。"
+    },
+    {
+        "id": 578,
+        "raw": "而后，你看到它擎起巨大的前掌——",
+        "type": "narration",
+        "content": "而后，你看到它擎起巨大的前掌——"
+    },
+    {
+        "id": 579,
+        "raw": "不，不能说是前掌。因为那完全是一双干枯的、人的双手。",
+        "type": "narration",
+        "content": "不，不能说是前掌。因为那完全是一双干枯的、人的双手。"
+    },
+    {
+        "id": 580,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 581,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 582,
+        "raw": "[Decision(options=\"......被源石感染的裂兽。\", values=\"1\")]",
+        "type": "decision",
+        "options": "......被源石感染的裂兽。",
+        "values": "1"
+    },
+    {
+        "id": 583,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 584,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 585,
+        "raw": "[name=\"科谢尼娅\"]我采集完样本了！",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "我采集完样本了！"
+    },
+    {
+        "id": 586,
+        "raw": "[name=\"科谢尼娅\"]你们......怎么站在这里不动？",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "你们......怎么站在这里不动？"
+    },
+    {
+        "id": 587,
+        "raw": "与认知不符的怪异裂兽正站在她身后。",
+        "type": "narration",
+        "content": "与认知不符的怪异裂兽正站在她身后。"
+    },
+    {
+        "id": 588,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 589,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 590,
+        "raw": "[Decision(options=\"科谢尼娅，快过来！\", values=\"1\")]",
+        "type": "decision",
+        "options": "科谢尼娅，快过来！",
+        "values": "1"
+    },
+    {
+        "id": 591,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 592,
+        "raw": "[name=\"Mon3tr\"]跑，科谢尼娅！往前跑，不要回头看！",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "跑，科谢尼娅！往前跑，不要回头看！"
+    },
+    {
+        "id": 593,
+        "raw": "[name=\"Mon3tr\"]我得去带她回来。博士，你去矿车那边，我们在那里会合！",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "我得去带她回来。博士，你去矿车那边，我们在那里会合！"
+    },
+    {
+        "id": 594,
+        "raw": "[name=\"Mon3tr\"]博士，快走！",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "博士，快走！"
+    },
+    {
+        "id": 595,
+        "raw": "[name=\"科谢尼娅\"]什——",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "什——"
+    },
+    {
+        "id": 596,
+        "raw": "[PlaySound(key=\"$d_avg_shallowsrun\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_shallowsrun.mp3",
+        "volume": 1
+    },
+    {
+        "id": 597,
+        "raw": "[CameraShake(duration=-1, xstrength=5, ystrength=5, vibrato=5, randomness=50, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "-1,",
+        "xstrength": "5,",
+        "ystrength": "5,",
+        "vibrato": "5,",
+        "randomness": "50,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 598,
+        "raw": "研究员奔跑起来的同时，忍不住回过头去。",
+        "type": "narration",
+        "content": "研究员奔跑起来的同时，忍不住回过头去。"
+    },
+    {
+        "id": 599,
+        "raw": "她只来得及咽下尖叫。",
+        "type": "narration",
+        "content": "她只来得及咽下尖叫。"
+    },
+    {
+        "id": 600,
+        "raw": "[name=\"科谢尼娅\"]——陛下在上——",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "——陛下在上——"
+    },
+    {
+        "id": 601,
+        "raw": "[name=\"科谢尼娅\"]那究竟是什么东西？！",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "那究竟是什么东西？！"
+    },
+    {
+        "id": 602,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 603,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 604,
+        "raw": "[StopSound(channel=\"bgs\", fadetime=2)]",
+        "type": "stop_sound",
+        "channel": "bgs",
+        "fadetime": 2
+    },
+    {
+        "id": 605,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 606,
+        "raw": "[CameraShake(duration=0, xstrength=10, ystrength=10, vibrato=20, randomness=50, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0,",
+        "xstrength": "10,",
+        "ystrength": "10,",
+        "vibrato": "20,",
+        "randomness": "50,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 607,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 608,
+        "raw": "[hidecgitem]",
+        "type": "hide_cg_item"
+    },
+    {
+        "id": 609,
+        "raw": "[Image]",
+        "type": "image"
+    },
+    {
+        "id": 610,
+        "raw": "[charslot]  ",
+        "type": "charslot"
+    }
+]

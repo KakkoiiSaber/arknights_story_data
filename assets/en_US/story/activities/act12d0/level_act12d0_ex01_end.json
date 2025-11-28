@@ -1,0 +1,2974 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")] ",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK"
+    },
+    {
+        "id": 2,
+        "raw": "[stopmusic]",
+        "type": "stop_music"
+    },
+    {
+        "id": 3,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 4,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 5,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 6,
+        "raw": "[Background(image=\"bg_desert_1\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_desert_1.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 7,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 8,
+        "raw": "[playMusic(intro=\"$farce_intro\", key=\"$farce_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/a001/m_dia_farce_intro.mp3",
+        "key": "sound_beta_2/music/a001/m_dia_farce_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 9,
+        "raw": "[CameraShake(duration=1, xstrength=0, ystrength=8, vibrato=30, randomness=30, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "xstrength": "0,",
+        "ystrength": "8,",
+        "vibrato": "30,",
+        "randomness": "30,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 10,
+        "raw": "[playsound(key=\"$drift\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_drift.mp3",
+        "volume": 1
+    },
+    {
+        "id": 11,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 12,
+        "raw": "[Character(name=\"npc_2002_Dan_rock\",fadetime=2,block=true)]",
+        "type": "character",
+        "name": "npc_2002_Dan_rock",
+        "fadetime": "2,block=true"
+    },
+    {
+        "id": 13,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 14,
+        "raw": "[name=\"Dan\"]  The scorching sun, the wilds, the golden sand, and the warm breeze! Woohoo! I feel a new song coming on!",
+        "type": "dialog",
+        "speaker": "Dan",
+        "content": "The scorching sun, the wilds, the golden sand, and the warm breeze! Woohoo! I feel a new song coming on!"
+    },
+    {
+        "id": 15,
+        "raw": "[Character(name=\"npc_2003_Frost_rock\")]",
+        "type": "character",
+        "name": "npc_2003_Frost_rock"
+    },
+    {
+        "id": 16,
+        "raw": "[name=\"Frost\"]  （solo）",
+        "type": "dialog",
+        "speaker": "Frost",
+        "content": "（solo）"
+    },
+    {
+        "id": 17,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\")]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock"
+    },
+    {
+        "id": 18,
+        "raw": "[name=\"Aya\"]  Could the both of you quiet down?",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "Could the both of you quiet down?"
+    },
+    {
+        "id": 19,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\")]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock"
+    },
+    {
+        "id": 20,
+        "raw": "[name=\"Alty\"]  Please. It's not often we get such a peaceful environment with no one chasing us. Can't we just have a nice, quiet rest?",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "Please. It's not often we get such a peaceful environment with no one chasing us. Can't we just have a nice, quiet rest?"
+    },
+    {
+        "id": 21,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\",name2=\"npc_2001_Aya_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock",
+        "name2": "npc_2001_Aya_rock",
+        "focus": 2
+    },
+    {
+        "id": 22,
+        "raw": "[name=\"Aya\"]  But Alty, I can smell the sea from here. Are you sure we're safe?",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "But Alty, I can smell the sea from here. Are you sure we're safe?"
+    },
+    {
+        "id": 23,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\",name2=\"npc_2001_Aya_rock\",focus=1)]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock",
+        "name2": "npc_2001_Aya_rock",
+        "focus": 1
+    },
+    {
+        "id": 24,
+        "raw": "[name=\"Alty\"]  Aya, could you not spoil the mood for once?",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "Aya, could you not spoil the mood for once?"
+    },
+    {
+        "id": 25,
+        "raw": "[name=\"Alty\"]  Nowhere in the world is truly safe, but we have to learn to let ourselves relax sometimes.",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "Nowhere in the world is truly safe, but we have to learn to let ourselves relax sometimes."
+    },
+    {
+        "id": 26,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\",name2=\"npc_2001_Aya_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock",
+        "name2": "npc_2001_Aya_rock",
+        "focus": 2
+    },
+    {
+        "id": 27,
+        "raw": "[name=\"Aya\"]  Maybe you're right.",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "Maybe you're right."
+    },
+    {
+        "id": 28,
+        "raw": "[name=\"Aya\"]  So what's the next step? How are we going to broaden our path? We can't go back empty-handed.",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "So what's the next step? How are we going to broaden our path? We can't go back empty-handed."
+    },
+    {
+        "id": 29,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\",name2=\"npc_2001_Aya_rock\",focus=1)]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock",
+        "name2": "npc_2001_Aya_rock",
+        "focus": 1
+    },
+    {
+        "id": 30,
+        "raw": "[name=\"Alty\"]  At least that doctor gave us an answer this time.",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "At least that doctor gave us an answer this time."
+    },
+    {
+        "id": 31,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 32,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 33,
+        "raw": "Alty looks at the 'key' in her hand.",
+        "type": "narration",
+        "content": "Alty looks at the 'key' in her hand."
+    },
+    {
+        "id": 34,
+        "raw": "[Character(name=\"npc_2002_Dan_rock\")]",
+        "type": "character",
+        "name": "npc_2002_Dan_rock"
+    },
+    {
+        "id": 35,
+        "raw": "[name=\"Dan\"]  Really? That looks like something special. And she just gave it to you? What did you trade for it?",
+        "type": "dialog",
+        "speaker": "Dan",
+        "content": "Really? That looks like something special. And she just gave it to you? What did you trade for it?"
+    },
+    {
+        "id": 36,
+        "raw": "[Character(name=\"npc_2002_Dan_rock\",name2=\"npc_2004_Alty_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2002_Dan_rock",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 2
+    },
+    {
+        "id": 37,
+        "raw": "[name=\"Alty\"]  Knowledge.",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "Knowledge."
+    },
+    {
+        "id": 38,
+        "raw": "[Character(name=\"npc_2002_Dan_rock\",name2=\"npc_2004_Alty_rock\",focus=1)]",
+        "type": "character",
+        "name": "npc_2002_Dan_rock",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 1
+    },
+    {
+        "id": 39,
+        "raw": "[name=\"Dan\"]  And was that a fair trade?",
+        "type": "dialog",
+        "speaker": "Dan",
+        "content": "And was that a fair trade?"
+    },
+    {
+        "id": 40,
+        "raw": "[Character(name=\"npc_2002_Dan_rock\",name2=\"npc_2004_Alty_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2002_Dan_rock",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 2
+    },
+    {
+        "id": 41,
+        "raw": "[name=\"Alty\"]  I'm not sure. But I think that doctor wants us to put this knowledge to use.",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "I'm not sure. But I think that doctor wants us to put this knowledge to use."
+    },
+    {
+        "id": 42,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\")]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock"
+    },
+    {
+        "id": 43,
+        "raw": "[name=\"Aya\"]  Wouldn't she know?",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "Wouldn't she know?"
+    },
+    {
+        "id": 44,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\")]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock"
+    },
+    {
+        "id": 45,
+        "raw": "[name=\"Alty\"]  We know a lot, she should just...",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "We know a lot, she should just..."
+    },
+    {
+        "id": 46,
+        "raw": "[name=\"Alty\"]  ...If you think about it, the real trade was her using our curiosity to get us to act.",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "...If you think about it, the real trade was her using our curiosity to get us to act."
+    },
+    {
+        "id": 47,
+        "raw": "[Character(name=\"npc_2002_Dan_rock\")]",
+        "type": "character",
+        "name": "npc_2002_Dan_rock"
+    },
+    {
+        "id": 48,
+        "raw": "[name=\"Dan\"]  So, that means she didn't pay anything?",
+        "type": "dialog",
+        "speaker": "Dan",
+        "content": "So, that means she didn't pay anything?"
+    },
+    {
+        "id": 49,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\")]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock"
+    },
+    {
+        "id": 50,
+        "raw": "[name=\"Aya\"]  Hm...",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "Hm..."
+    },
+    {
+        "id": 51,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\")]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock"
+    },
+    {
+        "id": 52,
+        "raw": "[name=\"Alty\"]  Hm...",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "Hm..."
+    },
+    {
+        "id": 53,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\",name2=\"npc_2001_Aya_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock",
+        "name2": "npc_2001_Aya_rock",
+        "focus": 2
+    },
+    {
+        "id": 54,
+        "raw": "[name=\"Aya\"]  We've been cheated.",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "We've been cheated."
+    },
+    {
+        "id": 55,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\",name2=\"npc_2001_Aya_rock\",focus=1)]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock",
+        "name2": "npc_2001_Aya_rock",
+        "focus": 1
+    },
+    {
+        "id": 56,
+        "raw": "[name=\"Alty\"]  More like baited.",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "More like baited."
+    },
+    {
+        "id": 57,
+        "raw": "[Character(name=\"npc_2002_Dan_rock\")]",
+        "type": "character",
+        "name": "npc_2002_Dan_rock"
+    },
+    {
+        "id": 58,
+        "raw": "[name=\"Dan\"]  Directed?",
+        "type": "dialog",
+        "speaker": "Dan",
+        "content": "Directed?"
+    },
+    {
+        "id": 59,
+        "raw": "[Character(name=\"npc_2003_Frost_rock\")]",
+        "type": "character",
+        "name": "npc_2003_Frost_rock"
+    },
+    {
+        "id": 60,
+        "raw": "[name=\"Frost\"]  Guided.",
+        "type": "dialog",
+        "speaker": "Frost",
+        "content": "Guided."
+    },
+    {
+        "id": 61,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\",name2=\"npc_2001_Aya_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock",
+        "name2": "npc_2001_Aya_rock",
+        "focus": 2
+    },
+    {
+        "id": 62,
+        "raw": "[name=\"Aya\"]  Is that doctor really so important?",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "Is that doctor really so important?"
+    },
+    {
+        "id": 63,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\",name2=\"npc_2001_Aya_rock\",focus=1)]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock",
+        "name2": "npc_2001_Aya_rock",
+        "focus": 1
+    },
+    {
+        "id": 64,
+        "raw": "[name=\"Alty\"]  No. I think she's trying to tell us that her actions have no impact at all.",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "No. I think she's trying to tell us that her actions have no impact at all."
+    },
+    {
+        "id": 65,
+        "raw": "[name=\"Alty\"]  What matters is what we think and what we do.",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "What matters is what we think and what we do."
+    },
+    {
+        "id": 66,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\",name2=\"npc_2001_Aya_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock",
+        "name2": "npc_2001_Aya_rock",
+        "focus": 2
+    },
+    {
+        "id": 67,
+        "raw": "[name=\"Aya\"]  Then what about the key? Should we go?",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "Then what about the key? Should we go?"
+    },
+    {
+        "id": 68,
+        "raw": "[Character(name=\"npc_2002_Dan_rock\",name2=\"npc_2004_Alty_rock\",focus=1)]",
+        "type": "character",
+        "name": "npc_2002_Dan_rock",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 1
+    },
+    {
+        "id": 69,
+        "raw": "[name=\"Dan\"]  Ugh, this sucks. Could we not go?",
+        "type": "dialog",
+        "speaker": "Dan",
+        "content": "Ugh, this sucks. Could we not go?"
+    },
+    {
+        "id": 70,
+        "raw": "[Character(name=\"npc_2002_Dan_rock\",name2=\"npc_2004_Alty_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2002_Dan_rock",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 2
+    },
+    {
+        "id": 71,
+        "raw": "[name=\"Alty\"]  I'm thinking it's sort of like music... Our power should not be to force change onto others, we should just be singing our own songs.",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "I'm thinking it's sort of like music... Our power should not be to force change onto others, we should just be singing our own songs."
+    },
+    {
+        "id": 72,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\",name2=\"npc_2001_Aya_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock",
+        "name2": "npc_2001_Aya_rock",
+        "focus": 2
+    },
+    {
+        "id": 73,
+        "raw": "[name=\"Aya\"]  Sing for them. If it sounds good—",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "Sing for them. If it sounds good—"
+    },
+    {
+        "id": 74,
+        "raw": "[Character(name=\"npc_2002_Dan_rock\")]",
+        "type": "character",
+        "name": "npc_2002_Dan_rock"
+    },
+    {
+        "id": 75,
+        "raw": "[name=\"Dan\"]  Then they'll sing too.",
+        "type": "dialog",
+        "speaker": "Dan",
+        "content": "Then they'll sing too."
+    },
+    {
+        "id": 76,
+        "raw": "[Character(name=\"npc_2003_Frost_rock\")]",
+        "type": "character",
+        "name": "npc_2003_Frost_rock"
+    },
+    {
+        "id": 77,
+        "raw": "[name=\"Frost\"]  （solo）",
+        "type": "dialog",
+        "speaker": "Frost",
+        "content": "（solo）"
+    },
+    {
+        "id": 78,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\")]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock"
+    },
+    {
+        "id": 79,
+        "raw": "[name=\"Alty\"]  Hah, then we will give even more knowledge, and the key, over to the one who is ready.",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "Hah, then we will give even more knowledge, and the key, over to the one who is ready."
+    },
+    {
+        "id": 80,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\",name2=\"npc_2001_Aya_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock",
+        "name2": "npc_2001_Aya_rock",
+        "focus": 2
+    },
+    {
+        "id": 81,
+        "raw": "[name=\"Aya\"]  And who will that be?",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "And who will that be?"
+    },
+    {
+        "id": 82,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\",name2=\"npc_2001_Aya_rock\",focus=1)]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock",
+        "name2": "npc_2001_Aya_rock",
+        "focus": 1
+    },
+    {
+        "id": 83,
+        "raw": "[name=\"Alty\"]  I don't know.",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "I don't know."
+    },
+    {
+        "id": 84,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\",name2=\"npc_2001_Aya_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock",
+        "name2": "npc_2001_Aya_rock",
+        "focus": 2
+    },
+    {
+        "id": 85,
+        "raw": "[name=\"Aya\"]  Maybe they haven't been born yet.",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "Maybe they haven't been born yet."
+    },
+    {
+        "id": 86,
+        "raw": "[Character(name=\"npc_2002_Dan_rock\")]",
+        "type": "character",
+        "name": "npc_2002_Dan_rock"
+    },
+    {
+        "id": 87,
+        "raw": "[name=\"Dan\"]  That would be great!",
+        "type": "dialog",
+        "speaker": "Dan",
+        "content": "That would be great!"
+    },
+    {
+        "id": 88,
+        "raw": "[Character(name=\"npc_2002_Dan_rock\",name2=\"npc_2004_Alty_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2002_Dan_rock",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 2
+    },
+    {
+        "id": 89,
+        "raw": "[name=\"Alty\"]  No it wouldn't, Dan. We... hm?",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "No it wouldn't, Dan. We... hm?"
+    },
+    {
+        "id": 90,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\",name2=\"npc_2001_Aya_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock",
+        "name2": "npc_2001_Aya_rock",
+        "focus": 2
+    },
+    {
+        "id": 91,
+        "raw": "[name=\"Aya\"]  What is it, Alty?",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "What is it, Alty?"
+    },
+    {
+        "id": 92,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\",name2=\"npc_2001_Aya_rock\",focus=1)]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock",
+        "name2": "npc_2001_Aya_rock",
+        "focus": 1
+    },
+    {
+        "id": 93,
+        "raw": "[name=\"Alty\"]  The car's dead.",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "The car's dead."
+    },
+    {
+        "id": 94,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\",name2=\"npc_2001_Aya_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock",
+        "name2": "npc_2001_Aya_rock",
+        "focus": 2
+    },
+    {
+        "id": 95,
+        "raw": "[name=\"Aya\"]  Didn't you prep it?",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "Didn't you prep it?"
+    },
+    {
+        "id": 96,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\",name2=\"npc_2001_Aya_rock\",focus=1)]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock",
+        "name2": "npc_2001_Aya_rock",
+        "focus": 1
+    },
+    {
+        "id": 97,
+        "raw": "[name=\"Alty\"]  Yes, but we took that detour.",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "Yes, but we took that detour."
+    },
+    {
+        "id": 98,
+        "raw": "[name=\"Alty\"]  And I have to admit, it's really easy to lose your heading in the middle of the wilderness with no roads or signs.",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "And I have to admit, it's really easy to lose your heading in the middle of the wilderness with no roads or signs."
+    },
+    {
+        "id": 99,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\",name2=\"npc_2001_Aya_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock",
+        "name2": "npc_2001_Aya_rock",
+        "focus": 2
+    },
+    {
+        "id": 100,
+        "raw": "[name=\"Aya\"]  So basically, we're lost?",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "So basically, we're lost?"
+    },
+    {
+        "id": 101,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\",name2=\"npc_2001_Aya_rock\",focus=1)]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock",
+        "name2": "npc_2001_Aya_rock",
+        "focus": 1
+    },
+    {
+        "id": 102,
+        "raw": "[name=\"Alty\"]  I'm not sure that's how I'd put it. It's not so much that we're off course as it is we're carving a new path.",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "I'm not sure that's how I'd put it. It's not so much that we're off course as it is we're carving a new path."
+    },
+    {
+        "id": 103,
+        "raw": "[Character(name=\"npc_2003_Frost_rock\")]",
+        "type": "character",
+        "name": "npc_2003_Frost_rock"
+    },
+    {
+        "id": 104,
+        "raw": "[name=\"Frost\"]  We're lost.",
+        "type": "dialog",
+        "speaker": "Frost",
+        "content": "We're lost."
+    },
+    {
+        "id": 105,
+        "raw": "[Character(name=\"npc_2002_Dan_rock\")]",
+        "type": "character",
+        "name": "npc_2002_Dan_rock"
+    },
+    {
+        "id": 106,
+        "raw": "[name=\"Dan\"]  We're lost! That's a pretty good theme.",
+        "type": "dialog",
+        "speaker": "Dan",
+        "content": "We're lost! That's a pretty good theme."
+    },
+    {
+        "id": 107,
+        "raw": "[Character(name=\"npc_2002_Dan_rock\",name2=\"npc_2001_Aya_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2002_Dan_rock",
+        "name2": "npc_2001_Aya_rock",
+        "focus": 2
+    },
+    {
+        "id": 108,
+        "raw": "[name=\"Aya\"]  You know, Dan, I really wish I could learn some of your optimism. So what are we going to do?",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "You know, Dan, I really wish I could learn some of your optimism. So what are we going to do?"
+    },
+    {
+        "id": 109,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\",name2=\"npc_2004_Alty_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 2
+    },
+    {
+        "id": 110,
+        "raw": "[name=\"Alty\"]  It looks like there's a rainforest over that way. Let's check it out.",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "It looks like there's a rainforest over that way. Let's check it out."
+    },
+    {
+        "id": 111,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\",name2=\"npc_2004_Alty_rock\",focus=1)]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 1
+    },
+    {
+        "id": 112,
+        "raw": "[name=\"Aya\"]  So, who's getting out to push?",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "So, who's getting out to push?"
+    },
+    {
+        "id": 113,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\")]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock"
+    },
+    {
+        "id": 114,
+        "raw": "[name=\"Alty\"]  We could take turns.",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "We could take turns."
+    },
+    {
+        "id": 115,
+        "raw": "[stopmusic(fadetime=3)]",
+        "type": "stop_music",
+        "fadetime": 3
+    },
+    {
+        "id": 116,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 117,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 118,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 119,
+        "raw": "[Background(image=\"bg_jungleentrance\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_jungleentrance.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 120,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 121,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 122,
+        "raw": "[playMusic(intro=\"$path_intro\", key=\"$path_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/a001/m_dia_path_intro.mp3",
+        "key": "sound_beta_2/music/a001/m_dia_path_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 123,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\")]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock"
+    },
+    {
+        "id": 124,
+        "raw": "[name=\"Aya\"]  Alty.",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "Alty."
+    },
+    {
+        "id": 125,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\",name2=\"npc_2004_Alty_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 2
+    },
+    {
+        "id": 126,
+        "raw": "[name=\"Alty\"]  What?",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "What?"
+    },
+    {
+        "id": 127,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\",name2=\"npc_2004_Alty_rock\",focus=1)]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 1
+    },
+    {
+        "id": 128,
+        "raw": "[name=\"Aya\"]  We've got a crowd here.",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "We've got a crowd here."
+    },
+    {
+        "id": 129,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\",name2=\"npc_2004_Alty_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 2
+    },
+    {
+        "id": 130,
+        "raw": "[name=\"Alty\"]  Yes, we do.",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "Yes, we do."
+    },
+    {
+        "id": 131,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 132,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 133,
+        "raw": "[Character(name=\"avg_npc_073\", name2=\"avg_npc_070\",fadetime=1,block=true)]",
+        "type": "character",
+        "name": "avg_npc_073",
+        "name2": "avg_npc_070",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 134,
+        "raw": "[delay(time=3)]",
+        "type": "delay",
+        "time": 3
+    },
+    {
+        "id": 135,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 136,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 137,
+        "raw": "[Character(name=\"avg_npc_071\", name2=\"avg_npc_072\",fadetime=1,block=true)]",
+        "type": "character",
+        "name": "avg_npc_071",
+        "name2": "avg_npc_072",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 138,
+        "raw": "[delay(time=3)]",
+        "type": "delay",
+        "time": 3
+    },
+    {
+        "id": 139,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\",name2=\"npc_2004_Alty_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 2
+    },
+    {
+        "id": 140,
+        "raw": "[name=\"Alty\"]  But I don't know what language they're speaking.",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "But I don't know what language they're speaking."
+    },
+    {
+        "id": 141,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\",name2=\"npc_2004_Alty_rock\",focus=1)]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 1
+    },
+    {
+        "id": 142,
+        "raw": "[name=\"Aya\"]  So should we just let them follow us?",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "So should we just let them follow us?"
+    },
+    {
+        "id": 143,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\",name2=\"npc_2004_Alty_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 2
+    },
+    {
+        "id": 144,
+        "raw": "[name=\"Alty\"]  Do you have a better idea?",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "Do you have a better idea?"
+    },
+    {
+        "id": 145,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\",name2=\"npc_2004_Alty_rock\",focus=1)]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 1
+    },
+    {
+        "id": 146,
+        "raw": "[name=\"Aya\"]  We could kill them all?",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "We could kill them all?"
+    },
+    {
+        "id": 147,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\",name2=\"npc_2004_Alty_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 2
+    },
+    {
+        "id": 148,
+        "raw": "[name=\"Alty\"]  You think you can get Frost and Dan to go along with that?",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "You think you can get Frost and Dan to go along with that?"
+    },
+    {
+        "id": 149,
+        "raw": "[Character(name=\"npc_2003_Frost_rock\")]",
+        "type": "character",
+        "name": "npc_2003_Frost_rock"
+    },
+    {
+        "id": 150,
+        "raw": "[name=\"Frost\"]  (Strumming and singing)",
+        "type": "dialog",
+        "speaker": "Frost",
+        "content": "(Strumming and singing)"
+    },
+    {
+        "id": 151,
+        "raw": "[Character(name=\"avg_npc_071\", name2=\"avg_npc_072\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_071",
+        "name2": "avg_npc_072",
+        "focus": 1
+    },
+    {
+        "id": 152,
+        "raw": "[name=\"Archosauria A\"]  &*......%$ ....& (W-What is this sound? And why do I like it so much?!)",
+        "type": "dialog",
+        "speaker": "Archosauria A",
+        "content": "&*......%$ ....& (W-What is this sound? And why do I like it so much?!)"
+    },
+    {
+        "id": 153,
+        "raw": "[Character(name=\"avg_npc_071\", name2=\"avg_npc_072\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_071",
+        "name2": "avg_npc_072",
+        "focus": 2
+    },
+    {
+        "id": 154,
+        "raw": "[name=\"Archosauria B\"]  &%......% (I've never heard anything like it...)",
+        "type": "dialog",
+        "speaker": "Archosauria B",
+        "content": "&%......% (I've never heard anything like it...)"
+    },
+    {
+        "id": 155,
+        "raw": "[Character(name=\"npc_2002_Dan_rock\")]",
+        "type": "character",
+        "name": "npc_2002_Dan_rock"
+    },
+    {
+        "id": 156,
+        "raw": "[name=\"Dan\"]  Hey, how is everybody?!",
+        "type": "dialog",
+        "speaker": "Dan",
+        "content": "Hey, how is everybody?!"
+    },
+    {
+        "id": 157,
+        "raw": "[name=\"Dan\"]  Can you tell me what language you're speaking?!",
+        "type": "dialog",
+        "speaker": "Dan",
+        "content": "Can you tell me what language you're speaking?!"
+    },
+    {
+        "id": 158,
+        "raw": "[name=\"Dan\"]  Oh, but I guess even if you told me, I still wouldn't know.",
+        "type": "dialog",
+        "speaker": "Dan",
+        "content": "Oh, but I guess even if you told me, I still wouldn't know."
+    },
+    {
+        "id": 159,
+        "raw": "[Character(name=\"avg_npc_073\", name2=\"avg_npc_070\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_073",
+        "name2": "avg_npc_070",
+        "focus": 1
+    },
+    {
+        "id": 160,
+        "raw": "[name=\"Archosauria C\"]  ......%&$ (Where did they come from?!)",
+        "type": "dialog",
+        "speaker": "Archosauria C",
+        "content": "......%&$ (Where did they come from?!)"
+    },
+    {
+        "id": 161,
+        "raw": "[Character(name=\"avg_npc_073\", name2=\"avg_npc_070\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_073",
+        "name2": "avg_npc_070",
+        "focus": 2
+    },
+    {
+        "id": 162,
+        "raw": "[name=\"Archosauria D\"]  $......&# (And why does this one look so weird?)",
+        "type": "dialog",
+        "speaker": "Archosauria D",
+        "content": "$......&# (And why does this one look so weird?)"
+    },
+    {
+        "id": 163,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\",name2=\"npc_2004_Alty_rock\",focus=1)]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 1
+    },
+    {
+        "id": 164,
+        "raw": "[name=\"Aya\"]  Well, at least there are people here.",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "Well, at least there are people here."
+    },
+    {
+        "id": 165,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\",name2=\"npc_2004_Alty_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 2
+    },
+    {
+        "id": 166,
+        "raw": "[name=\"Alty\"]  I just hope there's a place we can resupply.",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "I just hope there's a place we can resupply."
+    },
+    {
+        "id": 167,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\",name2=\"npc_2004_Alty_rock\",focus=1)]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 1
+    },
+    {
+        "id": 168,
+        "raw": "[name=\"Aya\"]  Wishful thinking.",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "Wishful thinking."
+    },
+    {
+        "id": 169,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 170,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 171,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3"
+    },
+    {
+        "id": 172,
+        "raw": "[Character(name=\"char_416_zumama_1\",fadetime=1,block=true)]",
+        "type": "character",
+        "name": "char_416_zumama_1",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 173,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 174,
+        "raw": "[name=\"Eunectes\"]  You're outsiders?",
+        "type": "dialog",
+        "speaker": "Eunectes",
+        "content": "You're outsiders?"
+    },
+    {
+        "id": 175,
+        "raw": "[Character(name=\"char_416_zumama_1\",name2=\"npc_2004_Alty_rock\",focus=2)]",
+        "type": "character",
+        "name": "char_416_zumama_1",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 2
+    },
+    {
+        "id": 176,
+        "raw": "[name=\"Alty\"]  Huh? You speak Sargonian?",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "Huh? You speak Sargonian?"
+    },
+    {
+        "id": 177,
+        "raw": "[Character(name=\"char_416_zumama_1\",name2=\"npc_2004_Alty_rock\",focus=1)]",
+        "type": "character",
+        "name": "char_416_zumama_1",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 1
+    },
+    {
+        "id": 178,
+        "raw": "[name=\"Eunectes\"]  Yes, it looks like you're definitely outsiders.",
+        "type": "dialog",
+        "speaker": "Eunectes",
+        "content": "Yes, it looks like you're definitely outsiders."
+    },
+    {
+        "id": 179,
+        "raw": "[name=\"Eunectes\"]  What are you doing here?",
+        "type": "dialog",
+        "speaker": "Eunectes",
+        "content": "What are you doing here?"
+    },
+    {
+        "id": 180,
+        "raw": "[Character(name=\"char_416_zumama_1\",name2=\"npc_2004_Alty_rock\",focus=2)]",
+        "type": "character",
+        "name": "char_416_zumama_1",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 2
+    },
+    {
+        "id": 181,
+        "raw": "[name=\"Alty\"]  Our car died, so we're looking for someone with the Arts to recharge it.",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "Our car died, so we're looking for someone with the Arts to recharge it."
+    },
+    {
+        "id": 182,
+        "raw": "[Character(name=\"char_416_zumama_1\",name2=\"npc_2004_Alty_rock\",focus=1)]",
+        "type": "character",
+        "name": "char_416_zumama_1",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 1
+    },
+    {
+        "id": 183,
+        "raw": "[name=\"Eunectes\"]  ...Come with me.",
+        "type": "dialog",
+        "speaker": "Eunectes",
+        "content": "...Come with me."
+    },
+    {
+        "id": 184,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\",name2=\"npc_2004_Alty_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 2
+    },
+    {
+        "id": 185,
+        "raw": "[name=\"Alty\"]  See, Aya, that was more than just wishful thinking.",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "See, Aya, that was more than just wishful thinking."
+    },
+    {
+        "id": 186,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\",name2=\"npc_2004_Alty_rock\",focus=1)]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 1
+    },
+    {
+        "id": 187,
+        "raw": "[name=\"Aya\"]  Fine. I guess the world is a magical place.",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "Fine. I guess the world is a magical place."
+    },
+    {
+        "id": 188,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 189,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 190,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 191,
+        "raw": "[Background(image=\"bg_village_2\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_village_2.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 192,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 193,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 194,
+        "raw": "[Character(name=\"npc_2002_Dan_rock\")]",
+        "type": "character",
+        "name": "npc_2002_Dan_rock"
+    },
+    {
+        "id": 195,
+        "raw": "[name=\"Dan\"]  Hey hey hey! What's this?!",
+        "type": "dialog",
+        "speaker": "Dan",
+        "content": "Hey hey hey! What's this?!"
+    },
+    {
+        "id": 196,
+        "raw": "[name=\"Dan\"]  There's a village here in the middle of this primeval forest!",
+        "type": "dialog",
+        "speaker": "Dan",
+        "content": "There's a village here in the middle of this primeval forest!"
+    },
+    {
+        "id": 197,
+        "raw": "[Character(name=\"npc_2003_Frost_rock\")]",
+        "type": "character",
+        "name": "npc_2003_Frost_rock"
+    },
+    {
+        "id": 198,
+        "raw": "[name=\"Frost\"]  (Humming)",
+        "type": "dialog",
+        "speaker": "Frost",
+        "content": "(Humming)"
+    },
+    {
+        "id": 199,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\")]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock"
+    },
+    {
+        "id": 200,
+        "raw": "[name=\"Aya\"]  It's really amazing. You can see the influence of modern architecture on most of the buildings, but they still have that primitive beauty.",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "It's really amazing. You can see the influence of modern architecture on most of the buildings, but they still have that primitive beauty."
+    },
+    {
+        "id": 201,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\")]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock"
+    },
+    {
+        "id": 202,
+        "raw": "[name=\"Alty\"]  It's odd, but very special.",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "It's odd, but very special."
+    },
+    {
+        "id": 203,
+        "raw": "[Character(name=\"char_416_zumama_1\")]",
+        "type": "character",
+        "name": "char_416_zumama_1"
+    },
+    {
+        "id": 204,
+        "raw": "[name=\"Eunectes\"]  I am the leader of this tribe, Zumama. Most of my people can understand your language.",
+        "type": "dialog",
+        "speaker": "Eunectes",
+        "content": "I am the leader of this tribe, Zumama. Most of my people can understand your language."
+    },
+    {
+        "id": 205,
+        "raw": "[name=\"Eunectes\"]  I can have some of our priests recharge your vehicle, but there are terms.",
+        "type": "dialog",
+        "speaker": "Eunectes",
+        "content": "I can have some of our priests recharge your vehicle, but there are terms."
+    },
+    {
+        "id": 206,
+        "raw": "[Character(name=\"char_416_zumama_1\",name2=\"npc_2004_Alty_rock\",focus=2)]",
+        "type": "character",
+        "name": "char_416_zumama_1",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 2
+    },
+    {
+        "id": 207,
+        "raw": "[name=\"Alty\"]  What terms?",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "What terms?"
+    },
+    {
+        "id": 208,
+        "raw": "[Character(name=\"char_416_zumama_1\",name2=\"npc_2004_Alty_rock\",focus=1)]",
+        "type": "character",
+        "name": "char_416_zumama_1",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 1
+    },
+    {
+        "id": 209,
+        "raw": "[name=\"Eunectes\"]  I want to look inside your vehicle, at its structure.",
+        "type": "dialog",
+        "speaker": "Eunectes",
+        "content": "I want to look inside your vehicle, at its structure."
+    },
+    {
+        "id": 210,
+        "raw": "[Character(name=\"char_416_zumama_1\",name2=\"npc_2004_Alty_rock\",focus=2)]",
+        "type": "character",
+        "name": "char_416_zumama_1",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 2
+    },
+    {
+        "id": 211,
+        "raw": "[name=\"Alty\"]  ...Is that all?",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "...Is that all?"
+    },
+    {
+        "id": 212,
+        "raw": "[Character(name=\"char_416_zumama_1\",name2=\"npc_2004_Alty_rock\",focus=1)]",
+        "type": "character",
+        "name": "char_416_zumama_1",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 1
+    },
+    {
+        "id": 213,
+        "raw": "[name=\"Eunectes\"]  Yes.",
+        "type": "dialog",
+        "speaker": "Eunectes",
+        "content": "Yes."
+    },
+    {
+        "id": 214,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\")]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock"
+    },
+    {
+        "id": 215,
+        "raw": "[name=\"Aya\"]  Are you sure you won't break it?",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "Are you sure you won't break it?"
+    },
+    {
+        "id": 216,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\",name2=\"char_416_zumama_1\",focus=2)]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock",
+        "name2": "char_416_zumama_1",
+        "focus": 2
+    },
+    {
+        "id": 217,
+        "raw": "[name=\"Eunectes\"]  I'm pretty sure.",
+        "type": "dialog",
+        "speaker": "Eunectes",
+        "content": "I'm pretty sure."
+    },
+    {
+        "id": 218,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\")]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock"
+    },
+    {
+        "id": 219,
+        "raw": "[name=\"Aya\"]  Alty?",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "Alty?"
+    },
+    {
+        "id": 220,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\")]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock"
+    },
+    {
+        "id": 221,
+        "raw": "[name=\"Alty\"]  It's not like we have a choice.",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "It's not like we have a choice."
+    },
+    {
+        "id": 222,
+        "raw": "[Character(name=\"char_416_zumama_1\")]",
+        "type": "character",
+        "name": "char_416_zumama_1"
+    },
+    {
+        "id": 223,
+        "raw": "[name=\"Eunectes\"]  So...?",
+        "type": "dialog",
+        "speaker": "Eunectes",
+        "content": "So...?"
+    },
+    {
+        "id": 224,
+        "raw": "[Character(name=\"char_416_zumama_1\",name2=\"npc_2004_Alty_rock\",focus=2)]",
+        "type": "character",
+        "name": "char_416_zumama_1",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 2
+    },
+    {
+        "id": 225,
+        "raw": "[name=\"Alty\"]  Agreed.",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "Agreed."
+    },
+    {
+        "id": 226,
+        "raw": "[Character(name=\"char_416_zumama_1\")]",
+        "type": "character",
+        "name": "char_416_zumama_1"
+    },
+    {
+        "id": 227,
+        "raw": "[name=\"Eunectes\"]  Good. High Priest...",
+        "type": "dialog",
+        "speaker": "Eunectes",
+        "content": "Good. High Priest..."
+    },
+    {
+        "id": 228,
+        "raw": "[Character(name=\"avg_npc_074\")]",
+        "type": "character",
+        "name": "avg_npc_074"
+    },
+    {
+        "id": 229,
+        "raw": "[name=\"High Priest\"]  I'm here! ...Oh?",
+        "type": "dialog",
+        "speaker": "High Priest",
+        "content": "I'm here! ...Oh?"
+    },
+    {
+        "id": 230,
+        "raw": "[name=\"High Priest\"]  Hmmmmm....?",
+        "type": "dialog",
+        "speaker": "High Priest",
+        "content": "Hmmmmm....?"
+    },
+    {
+        "id": 231,
+        "raw": "[name=\"High Priest\"]  I know of you...",
+        "type": "dialog",
+        "speaker": "High Priest",
+        "content": "I know of you..."
+    },
+    {
+        "id": 232,
+        "raw": "[Character(name=\"avg_npc_074\",name2=\"npc_2004_Alty_rock\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_074",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 2
+    },
+    {
+        "id": 233,
+        "raw": "[name=\"Alty\"]  I know of you...",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "I know of you..."
+    },
+    {
+        "id": 234,
+        "raw": "[name=\"Alty\"]  I never expected to see your kind here.",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "I never expected to see your kind here."
+    },
+    {
+        "id": 235,
+        "raw": "[Character(name=\"avg_npc_074\",name2=\"npc_2004_Alty_rock\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_074",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 1
+    },
+    {
+        "id": 236,
+        "raw": "[name=\"High Priest\"]  Oh, honestly, I was thinking the exact same thing.",
+        "type": "dialog",
+        "speaker": "High Priest",
+        "content": "Oh, honestly, I was thinking the exact same thing."
+    },
+    {
+        "id": 237,
+        "raw": "[name=\"High Priest\"]  But I'm more interested in your vehicle than you!",
+        "type": "dialog",
+        "speaker": "High Priest",
+        "content": "But I'm more interested in your vehicle than you!"
+    },
+    {
+        "id": 238,
+        "raw": "[Character(name=\"avg_npc_074\",name2=\"npc_2004_Alty_rock\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_074",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 2
+    },
+    {
+        "id": 239,
+        "raw": "[name=\"Alty\"]  By all means.",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "By all means."
+    },
+    {
+        "id": 240,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\",name2=\"npc_2004_Alty_rock\",focus=1)]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 1
+    },
+    {
+        "id": 241,
+        "raw": "[name=\"Aya\"]  I said it before and I'll say it again. The world is a magical place.",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "I said it before and I'll say it again. The world is a magical place."
+    },
+    {
+        "id": 242,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\",name2=\"npc_2004_Alty_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 2
+    },
+    {
+        "id": 243,
+        "raw": "[name=\"Alty\"]  I have to say, I agree.",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "I have to say, I agree."
+    },
+    {
+        "id": 244,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 245,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 246,
+        "raw": "[stopmusic(fadetime=1)]",
+        "type": "stop_music",
+        "fadetime": 1
+    },
+    {
+        "id": 247,
+        "raw": "At the same time, Frost hooks her guitar up to the ceremonial speaker and improvises a solo.",
+        "type": "narration",
+        "content": "At the same time, Frost hooks her guitar up to the ceremonial speaker and improvises a solo."
+    },
+    {
+        "id": 248,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\")]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock"
+    },
+    {
+        "id": 249,
+        "raw": "[name=\"Alty\"]  Nice, Frost.",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "Nice, Frost."
+    },
+    {
+        "id": 250,
+        "raw": "[Character(name=\"npc_2003_Frost_rock\")]",
+        "type": "character",
+        "name": "npc_2003_Frost_rock"
+    },
+    {
+        "id": 251,
+        "raw": "[name=\"Frost\"]  This village is inspiring me.",
+        "type": "dialog",
+        "speaker": "Frost",
+        "content": "This village is inspiring me."
+    },
+    {
+        "id": 252,
+        "raw": "[Character(name=\"npc_2002_Dan_rock\")]",
+        "type": "character",
+        "name": "npc_2002_Dan_rock"
+    },
+    {
+        "id": 253,
+        "raw": "[name=\"Dan\"]  Awesome, Frost, you really switched up the melody this time.",
+        "type": "dialog",
+        "speaker": "Dan",
+        "content": "Awesome, Frost, you really switched up the melody this time."
+    },
+    {
+        "id": 254,
+        "raw": "[Character(name=\"npc_2003_Frost_rock\")]",
+        "type": "character",
+        "name": "npc_2003_Frost_rock"
+    },
+    {
+        "id": 255,
+        "raw": "[playMusic(intro=\"$bat_Imfxingback_intro\", key=\"$bat_Imfxingback_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act12d0d0/m_bat_imfxingback_intro.mp3",
+        "key": "sound_beta_2/music/act12d0d0/m_bat_imfxingback_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 256,
+        "raw": "[name=\"Frost\"]  Heat, repressed...",
+        "type": "dialog",
+        "speaker": "Frost",
+        "content": "Heat, repressed..."
+    },
+    {
+        "id": 257,
+        "raw": "[name=\"Frost\"]  I'll call this song... 'D'!",
+        "type": "dialog",
+        "speaker": "Frost",
+        "content": "I'll call this song... 'D'!"
+    },
+    {
+        "id": 258,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 259,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 260,
+        "raw": "[name=\"Archosauria A\"]  Where's that sound coming from?",
+        "type": "dialog",
+        "speaker": "Archosauria A",
+        "content": "Where's that sound coming from?"
+    },
+    {
+        "id": 261,
+        "raw": "[name=\"Archosauria B\"]  What is it?I can feel it energizing me!",
+        "type": "dialog",
+        "speaker": "Archosauria B",
+        "content": "What is it?I can feel it energizing me!"
+    },
+    {
+        "id": 262,
+        "raw": "[name=\"Archosauria C\"]  It must be the outsiders who just came! Let's go see!",
+        "type": "dialog",
+        "speaker": "Archosauria C",
+        "content": "It must be the outsiders who just came! Let's go see!"
+    },
+    {
+        "id": 263,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\",name2=\"npc_2004_Alty_rock\",focus=1)]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 1
+    },
+    {
+        "id": 264,
+        "raw": "[name=\"Aya\"]  There are more of them, Alty...",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "There are more of them, Alty..."
+    },
+    {
+        "id": 265,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\",name2=\"npc_2004_Alty_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 2
+    },
+    {
+        "id": 266,
+        "raw": "[name=\"Alty\"]  That's not good.",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "That's not good."
+    },
+    {
+        "id": 267,
+        "raw": "[Character(name=\"npc_2003_Frost_rock\")]",
+        "type": "character",
+        "name": "npc_2003_Frost_rock"
+    },
+    {
+        "id": 268,
+        "raw": "[name=\"Frost\"]  These lives thirst for music! For energy! For...",
+        "type": "dialog",
+        "speaker": "Frost",
+        "content": "These lives thirst for music! For energy! For..."
+    },
+    {
+        "id": 269,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 270,
+        "raw": "[name=\"Archosauria B\"]  What a voice!",
+        "type": "dialog",
+        "speaker": "Archosauria B",
+        "content": "What a voice!"
+    },
+    {
+        "id": 271,
+        "raw": "[name=\"Archosauria C\"]  Outsider, give us more music!",
+        "type": "dialog",
+        "speaker": "Archosauria C",
+        "content": "Outsider, give us more music!"
+    },
+    {
+        "id": 272,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\",name2=\"npc_2004_Alty_rock\",focus=1)]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 1
+    },
+    {
+        "id": 273,
+        "raw": "[name=\"Aya\"]  Alty... I know it's unexpected, but I think the atmosphere here is actually really good.",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "Alty... I know it's unexpected, but I think the atmosphere here is actually really good."
+    },
+    {
+        "id": 274,
+        "raw": "[name=\"Aya\"]  Why don't we get out the amps and play together?",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "Why don't we get out the amps and play together?"
+    },
+    {
+        "id": 275,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\",name2=\"npc_2004_Alty_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock",
+        "name2": "npc_2004_Alty_rock",
+        "focus": 2
+    },
+    {
+        "id": 276,
+        "raw": "[name=\"Alty\"]  I guess that would be fine.",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "I guess that would be fine."
+    },
+    {
+        "id": 277,
+        "raw": "[Character(name=\"npc_2002_Dan_rock\")]",
+        "type": "character",
+        "name": "npc_2002_Dan_rock"
+    },
+    {
+        "id": 278,
+        "raw": "[name=\"Dan\"]  Yeah, can't let Frost take all the glory!",
+        "type": "dialog",
+        "speaker": "Dan",
+        "content": "Yeah, can't let Frost take all the glory!"
+    },
+    {
+        "id": 279,
+        "raw": "[name=\"Dan\"]  I gotta get in on such a badass track!",
+        "type": "dialog",
+        "speaker": "Dan",
+        "content": "I gotta get in on such a badass track!"
+    },
+    {
+        "id": 280,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\")]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock"
+    },
+    {
+        "id": 281,
+        "raw": "[name=\"Alty\"]  Then let the locals feel the music of AUS!",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "Then let the locals feel the music of AUS!"
+    },
+    {
+        "id": 282,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 283,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 284,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 285,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 286,
+        "raw": "[PlaySound(key=\"$livecrowd\", volume=0.2, loop=false, channel=\"people\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_livecrowd.mp3",
+        "volume": "0.2,",
+        "loop": "false,",
+        "channel": "people"
+    },
+    {
+        "id": 287,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 288,
+        "raw": "[name=\"Archosauria A\"]  It's just a few notes, but I'm too excited to sit still!",
+        "type": "dialog",
+        "speaker": "Archosauria A",
+        "content": "It's just a few notes, but I'm too excited to sit still!"
+    },
+    {
+        "id": 289,
+        "raw": "[name=\"Archosauria B\"]  It might be like what the priests do, it's called 'music'?",
+        "type": "dialog",
+        "speaker": "Archosauria B",
+        "content": "It might be like what the priests do, it's called 'music'?"
+    },
+    {
+        "id": 290,
+        "raw": "[name=\"Archosauria C\"]  I've never heard anything like it! Who are these people?!",
+        "type": "dialog",
+        "speaker": "Archosauria C",
+        "content": "I've never heard anything like it! Who are these people?!"
+    },
+    {
+        "id": 291,
+        "raw": "[name=\"Archosauria D\"]  I know, they must be 'Cuicayotl'!",
+        "type": "dialog",
+        "speaker": "Archosauria D",
+        "content": "I know, they must be 'Cuicayotl'!"
+    },
+    {
+        "id": 292,
+        "raw": "[Character(name=\"npc_2002_Dan_rock\")]",
+        "type": "character",
+        "name": "npc_2002_Dan_rock"
+    },
+    {
+        "id": 293,
+        "raw": "[name=\"Dan\"]  'Cuicayotl'? What's that?",
+        "type": "dialog",
+        "speaker": "Dan",
+        "content": "'Cuicayotl'? What's that?"
+    },
+    {
+        "id": 294,
+        "raw": "[Character(name=\"avg_npc_074\")]",
+        "type": "character",
+        "name": "avg_npc_074"
+    },
+    {
+        "id": 295,
+        "raw": "[name=\"High Priest\"]  Oh, that's how you say 'one who sings' in their language.",
+        "type": "dialog",
+        "speaker": "High Priest",
+        "content": "Oh, that's how you say 'one who sings' in their language."
+    },
+    {
+        "id": 296,
+        "raw": "[name=\"High Priest\"]  But it's been a long time since they had a 'Cuicayotl' here, and you've won them over with your music.",
+        "type": "dialog",
+        "speaker": "High Priest",
+        "content": "But it's been a long time since they had a 'Cuicayotl' here, and you've won them over with your music."
+    },
+    {
+        "id": 297,
+        "raw": "[name=\"High Priest\"]  And I must say, your music is vastly different from that of any other 'Cuicayotl' I've ever heard before!",
+        "type": "dialog",
+        "speaker": "High Priest",
+        "content": "And I must say, your music is vastly different from that of any other 'Cuicayotl' I've ever heard before!"
+    },
+    {
+        "id": 298,
+        "raw": "[name=\"High Priest\"]  But no matter. I find yours a lot more fun!",
+        "type": "dialog",
+        "speaker": "High Priest",
+        "content": "But no matter. I find yours a lot more fun!"
+    },
+    {
+        "id": 299,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 300,
+        "raw": "[name=\"Archosauria E\"]  'Cuicayotl', give us another song!",
+        "type": "dialog",
+        "speaker": "Archosauria E",
+        "content": "'Cuicayotl', give us another song!"
+    },
+    {
+        "id": 301,
+        "raw": "[name=\"Archosauria F\"]  I'll give you anything! Just one more song!",
+        "type": "dialog",
+        "speaker": "Archosauria F",
+        "content": "I'll give you anything! Just one more song!"
+    },
+    {
+        "id": 302,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\")]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock"
+    },
+    {
+        "id": 303,
+        "raw": "[name=\"Aya\"]  What do we do, Alty?",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "What do we do, Alty?"
+    },
+    {
+        "id": 304,
+        "raw": "[Character(name=\"npc_2002_Dan_rock\")]",
+        "type": "character",
+        "name": "npc_2002_Dan_rock"
+    },
+    {
+        "id": 305,
+        "raw": "[name=\"Dan\"]  Let's stay here, Alty!",
+        "type": "dialog",
+        "speaker": "Dan",
+        "content": "Let's stay here, Alty!"
+    },
+    {
+        "id": 306,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\")]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock"
+    },
+    {
+        "id": 307,
+        "raw": "[name=\"Alty\"]  Well, I can't let you forget our goal...",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "Well, I can't let you forget our goal..."
+    },
+    {
+        "id": 308,
+        "raw": "[name=\"Alty\"]  But, fine. We've got time.",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "But, fine. We've got time."
+    },
+    {
+        "id": 309,
+        "raw": "[stopmusic(fadetime=3)]",
+        "type": "stop_music",
+        "fadetime": 3
+    },
+    {
+        "id": 310,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 311,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 312,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 313,
+        "raw": "[Background(image=\"bg_jungle_1\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_jungle_1.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 314,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 315,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 316,
+        "raw": "[playMusic(intro=\"$path_intro\", key=\"$path_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/a001/m_dia_path_intro.mp3",
+        "key": "sound_beta_2/music/a001/m_dia_path_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 317,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\")]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock"
+    },
+    {
+        "id": 318,
+        "raw": "[name=\"Aya\"]  I never imagined there would be a Messenger here.",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "I never imagined there would be a Messenger here."
+    },
+    {
+        "id": 319,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\", name2=\"avg_npc_075\", focus=2)]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock",
+        "name2": "avg_npc_075",
+        "focus": 2
+    },
+    {
+        "id": 320,
+        "raw": "[name=\"Inam\"]  And I never thought AUS, from all the magazine covers, would show up here either.",
+        "type": "dialog",
+        "speaker": "Inam",
+        "content": "And I never thought AUS, from all the magazine covers, would show up here either."
+    },
+    {
+        "id": 321,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\", name2=\"avg_npc_075\", focus=1)]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock",
+        "name2": "avg_npc_075",
+        "focus": 1
+    },
+    {
+        "id": 322,
+        "raw": "[name=\"Alty\"]  Where's Zumama?",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "Where's Zumama?"
+    },
+    {
+        "id": 323,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\", name2=\"avg_npc_075\", focus=2)]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock",
+        "name2": "avg_npc_075",
+        "focus": 2
+    },
+    {
+        "id": 324,
+        "raw": "[name=\"Inam\"]  She's making the speaker system you asked for. So I'll be taking you.",
+        "type": "dialog",
+        "speaker": "Inam",
+        "content": "She's making the speaker system you asked for. So I'll be taking you."
+    },
+    {
+        "id": 325,
+        "raw": "[name=\"Inam\"]  How long are you going to stay?",
+        "type": "dialog",
+        "speaker": "Inam",
+        "content": "How long are you going to stay?"
+    },
+    {
+        "id": 326,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\", name2=\"avg_npc_075\", focus=1)]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock",
+        "name2": "avg_npc_075",
+        "focus": 1
+    },
+    {
+        "id": 327,
+        "raw": "[name=\"Alty\"]  Maybe a week, maybe a month, maybe a whole year.",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "Maybe a week, maybe a month, maybe a whole year."
+    },
+    {
+        "id": 328,
+        "raw": "[name=\"Alty\"]  This place is doing it for us. I think we can have some fun here, at least.",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "This place is doing it for us. I think we can have some fun here, at least."
+    },
+    {
+        "id": 329,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\", name2=\"avg_npc_075\", focus=2)]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock",
+        "name2": "avg_npc_075",
+        "focus": 2
+    },
+    {
+        "id": 330,
+        "raw": "[name=\"Inam\"]  Then this is the right place for you to put on a show.",
+        "type": "dialog",
+        "speaker": "Inam",
+        "content": "Then this is the right place for you to put on a show."
+    },
+    {
+        "id": 331,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 332,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 333,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 334,
+        "raw": "[Background(image=\"bg_temple_1\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_temple_1.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 335,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 336,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 337,
+        "raw": "[Character(name=\"npc_2002_Dan_rock\")]",
+        "type": "character",
+        "name": "npc_2002_Dan_rock"
+    },
+    {
+        "id": 338,
+        "raw": "[name=\"Dan\"]  So cool!",
+        "type": "dialog",
+        "speaker": "Dan",
+        "content": "So cool!"
+    },
+    {
+        "id": 339,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\")]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock"
+    },
+    {
+        "id": 340,
+        "raw": "[name=\"Alty\"]  It's... some kind of temple?",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "It's... some kind of temple?"
+    },
+    {
+        "id": 341,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\", name2=\"avg_npc_075\", focus=2)]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock",
+        "name2": "avg_npc_075",
+        "focus": 2
+    },
+    {
+        "id": 342,
+        "raw": "[name=\"Inam\"]  That's right. This is where all the tribes used to gather for the 'Mahuizzotia', but it hasn't been used since Gavial left.",
+        "type": "dialog",
+        "speaker": "Inam",
+        "content": "That's right. This is where all the tribes used to gather for the 'Mahuizzotia', but it hasn't been used since Gavial left."
+    },
+    {
+        "id": 343,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\")]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock"
+    },
+    {
+        "id": 344,
+        "raw": "[name=\"Aya\"]  'Mahuizzotia'?",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "'Mahuizzotia'?"
+    },
+    {
+        "id": 345,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\")]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock"
+    },
+    {
+        "id": 346,
+        "raw": "[name=\"Alty\"]  Gavial? That name came up at Rhodes Island... No, it's probably just a common name.",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "Gavial? That name came up at Rhodes Island... No, it's probably just a common name."
+    },
+    {
+        "id": 347,
+        "raw": "[Character(name=\"avg_npc_075\")]",
+        "type": "character",
+        "name": "avg_npc_075"
+    },
+    {
+        "id": 348,
+        "raw": "[name=\"Inam\"]  You can perform here.",
+        "type": "dialog",
+        "speaker": "Inam",
+        "content": "You can perform here."
+    },
+    {
+        "id": 349,
+        "raw": "[Character(name=\"npc_2003_Frost_rock\")]",
+        "type": "character",
+        "name": "npc_2003_Frost_rock"
+    },
+    {
+        "id": 350,
+        "raw": "[name=\"Frost\"]  We're going to give the people the best music they've ever heard.",
+        "type": "dialog",
+        "speaker": "Frost",
+        "content": "We're going to give the people the best music they've ever heard."
+    },
+    {
+        "id": 351,
+        "raw": "[Character(name=\"npc_2002_Dan_rock\")]",
+        "type": "character",
+        "name": "npc_2002_Dan_rock"
+    },
+    {
+        "id": 352,
+        "raw": "[name=\"Dan\"]  Yes, hahaha! Yes! We'll leave the mark of AUS right here!",
+        "type": "dialog",
+        "speaker": "Dan",
+        "content": "Yes, hahaha! Yes! We'll leave the mark of AUS right here!"
+    },
+    {
+        "id": 353,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 354,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 355,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 356,
+        "raw": "[Background(image=\"bg_village_2\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_village_2.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 357,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 358,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 359,
+        "raw": "Two months later...",
+        "type": "narration",
+        "content": "Two months later..."
+    },
+    {
+        "id": 360,
+        "raw": "[Character(name=\"avg_npc_075\")]",
+        "type": "character",
+        "name": "avg_npc_075"
+    },
+    {
+        "id": 361,
+        "raw": "[name=\"Inam\"]  AUS is unbelievable...",
+        "type": "dialog",
+        "speaker": "Inam",
+        "content": "AUS is unbelievable..."
+    },
+    {
+        "id": 362,
+        "raw": "[name=\"Inam\"]  They actually did stay for two whole months.",
+        "type": "dialog",
+        "speaker": "Inam",
+        "content": "They actually did stay for two whole months."
+    },
+    {
+        "id": 363,
+        "raw": "[name=\"Inam\"]  If Gavial ever comes back, she's going to be blown away by the music we have way out here now.",
+        "type": "dialog",
+        "speaker": "Inam",
+        "content": "If Gavial ever comes back, she's going to be blown away by the music we have way out here now."
+    },
+    {
+        "id": 364,
+        "raw": "[name=\"Inam\"]  The people fell in love with their rock and roll.",
+        "type": "dialog",
+        "speaker": "Inam",
+        "content": "The people fell in love with their rock and roll."
+    },
+    {
+        "id": 365,
+        "raw": "[name=\"Inam\"]  So what are they going to perform for us today?",
+        "type": "dialog",
+        "speaker": "Inam",
+        "content": "So what are they going to perform for us today?"
+    },
+    {
+        "id": 366,
+        "raw": "[name=\"Inam\"]  ...I wonder maybe if I'm their biggest fan.",
+        "type": "dialog",
+        "speaker": "Inam",
+        "content": "...I wonder maybe if I'm their biggest fan."
+    },
+    {
+        "id": 367,
+        "raw": "[name=\"Inam\"]  AUS...",
+        "type": "dialog",
+        "speaker": "Inam",
+        "content": "AUS..."
+    },
+    {
+        "id": 368,
+        "raw": "[name=\"Inam\"]  Huh?",
+        "type": "dialog",
+        "speaker": "Inam",
+        "content": "Huh?"
+    },
+    {
+        "id": 369,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 370,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 371,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 372,
+        "raw": "The room is empty. All the toiletries and bedding are neat and tidy, with a piece of paper resting on the table in the center.",
+        "type": "narration",
+        "content": "The room is empty. All the toiletries and bedding are neat and tidy, with a piece of paper resting on the table in the center."
+    },
+    {
+        "id": 373,
+        "raw": "[Character(name=\"avg_npc_075\")]",
+        "type": "character",
+        "name": "avg_npc_075"
+    },
+    {
+        "id": 374,
+        "raw": "[name=\"Inam\"]  They're gone?",
+        "type": "dialog",
+        "speaker": "Inam",
+        "content": "They're gone?"
+    },
+    {
+        "id": 375,
+        "raw": "[name=\"Inam\"]  There's a note on the table. Let's see...",
+        "type": "dialog",
+        "speaker": "Inam",
+        "content": "There's a note on the table. Let's see..."
+    },
+    {
+        "id": 376,
+        "raw": "[name=\"Inam\"]  'We left. Don't miss us. I hope you enjoyed the music. Also, we left all our records here for you. Have fun. -AUS'",
+        "type": "dialog",
+        "speaker": "Inam",
+        "content": "'We left. Don't miss us. I hope you enjoyed the music. Also, we left all our records here for you. Have fun. -AUS'"
+    },
+    {
+        "id": 377,
+        "raw": "[name=\"Inam\"]  ...Heh, they really are unbelievable.",
+        "type": "dialog",
+        "speaker": "Inam",
+        "content": "...Heh, they really are unbelievable."
+    },
+    {
+        "id": 378,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 379,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 380,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 381,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 382,
+        "raw": "[Background(image=\"bg_desert_1\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_desert_1.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 383,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 384,
+        "raw": "[playMusic(intro=\"$farce_intro\", key=\"$farce_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/a001/m_dia_farce_intro.mp3",
+        "key": "sound_beta_2/music/a001/m_dia_farce_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 385,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\")]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock"
+    },
+    {
+        "id": 386,
+        "raw": "[name=\"Alty\"]  I don't think I'll ever forget that Acahualla place.",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "I don't think I'll ever forget that Acahualla place."
+    },
+    {
+        "id": 387,
+        "raw": "[Character(name=\"npc_2003_Frost_rock\")]",
+        "type": "character",
+        "name": "npc_2003_Frost_rock"
+    },
+    {
+        "id": 388,
+        "raw": "[name=\"Frost\"]  (Humming) It was definitely unforgettable.",
+        "type": "dialog",
+        "speaker": "Frost",
+        "content": "(Humming) It was definitely unforgettable."
+    },
+    {
+        "id": 389,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\")]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock"
+    },
+    {
+        "id": 390,
+        "raw": "[name=\"Aya\"]  But the people there are really noisy, and wild.",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "But the people there are really noisy, and wild."
+    },
+    {
+        "id": 391,
+        "raw": "[Character(name=\"npc_2002_Dan_rock\")]",
+        "type": "character",
+        "name": "npc_2002_Dan_rock"
+    },
+    {
+        "id": 392,
+        "raw": "[name=\"Dan\"]  Yeah? I love them!",
+        "type": "dialog",
+        "speaker": "Dan",
+        "content": "Yeah? I love them!"
+    },
+    {
+        "id": 393,
+        "raw": "[Character(name=\"npc_2002_Dan_rock\",name2=\"npc_2001_Aya_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2002_Dan_rock",
+        "name2": "npc_2001_Aya_rock",
+        "focus": 2
+    },
+    {
+        "id": 394,
+        "raw": "[name=\"Aya\"]  Of course you do. I don't think you'd mind if we left you there.",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "Of course you do. I don't think you'd mind if we left you there."
+    },
+    {
+        "id": 395,
+        "raw": "[Character(name=\"npc_2002_Dan_rock\",name2=\"npc_2001_Aya_rock\",focus=1)]",
+        "type": "character",
+        "name": "npc_2002_Dan_rock",
+        "name2": "npc_2001_Aya_rock",
+        "focus": 1
+    },
+    {
+        "id": 396,
+        "raw": "[name=\"Dan\"]  I was definitely thinking about it.",
+        "type": "dialog",
+        "speaker": "Dan",
+        "content": "I was definitely thinking about it."
+    },
+    {
+        "id": 397,
+        "raw": "[name=\"Dan\"]  Don't you think those people have a kind of natural, primal energy?",
+        "type": "dialog",
+        "speaker": "Dan",
+        "content": "Don't you think those people have a kind of natural, primal energy?"
+    },
+    {
+        "id": 398,
+        "raw": "[name=\"Dan\"]  Out of all the countries and cities we've been to, I've never seen people like that.",
+        "type": "dialog",
+        "speaker": "Dan",
+        "content": "Out of all the countries and cities we've been to, I've never seen people like that."
+    },
+    {
+        "id": 399,
+        "raw": "[name=\"Dan\"]  I love 'em!",
+        "type": "dialog",
+        "speaker": "Dan",
+        "content": "I love 'em!"
+    },
+    {
+        "id": 400,
+        "raw": "[Character(name=\"npc_2002_Dan_rock\",name2=\"npc_2001_Aya_rock\",focus=2)]",
+        "type": "character",
+        "name": "npc_2002_Dan_rock",
+        "name2": "npc_2001_Aya_rock",
+        "focus": 2
+    },
+    {
+        "id": 401,
+        "raw": "[name=\"Aya\"]  Well, you're right about that much.",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "Well, you're right about that much."
+    },
+    {
+        "id": 402,
+        "raw": "[Character(name=\"npc_2003_Frost_rock\")]",
+        "type": "character",
+        "name": "npc_2003_Frost_rock"
+    },
+    {
+        "id": 403,
+        "raw": "[name=\"Frost\"]  They really get our music. They're the best audience we've ever had.",
+        "type": "dialog",
+        "speaker": "Frost",
+        "content": "They really get our music. They're the best audience we've ever had."
+    },
+    {
+        "id": 404,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\")]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock"
+    },
+    {
+        "id": 405,
+        "raw": "[name=\"Alty\"]  I think Frost likes them too.",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "I think Frost likes them too."
+    },
+    {
+        "id": 406,
+        "raw": "[name=\"Alty\"]  But we can't just show up and flip a whole civilization upside-down. We should stick to singing.",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "But we can't just show up and flip a whole civilization upside-down. We should stick to singing."
+    },
+    {
+        "id": 407,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\")]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock"
+    },
+    {
+        "id": 408,
+        "raw": "[name=\"Aya\"]  Sing for them. If it sounds good—",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "Sing for them. If it sounds good—"
+    },
+    {
+        "id": 409,
+        "raw": "[Character(name=\"npc_2002_Dan_rock\")]",
+        "type": "character",
+        "name": "npc_2002_Dan_rock"
+    },
+    {
+        "id": 410,
+        "raw": "[name=\"Dan\"]  Then they'll sing too.",
+        "type": "dialog",
+        "speaker": "Dan",
+        "content": "Then they'll sing too."
+    },
+    {
+        "id": 411,
+        "raw": "[Character(name=\"npc_2001_Aya_rock\")]",
+        "type": "character",
+        "name": "npc_2001_Aya_rock"
+    },
+    {
+        "id": 412,
+        "raw": "[name=\"Aya\"]  Didn't we say that before?",
+        "type": "dialog",
+        "speaker": "Aya",
+        "content": "Didn't we say that before?"
+    },
+    {
+        "id": 413,
+        "raw": "[Character(name=\"npc_2004_Alty_rock\")]",
+        "type": "character",
+        "name": "npc_2004_Alty_rock"
+    },
+    {
+        "id": 414,
+        "raw": "[name=\"Alty\"]  Who knows? We might've said it a million times already.",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "Who knows? We might've said it a million times already."
+    },
+    {
+        "id": 415,
+        "raw": "[name=\"Alty\"]  Let's go. Continue on our journey.",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "Let's go. Continue on our journey."
+    },
+    {
+        "id": 416,
+        "raw": "[name=\"Alty\"]  If we sing to the world, will she listen?",
+        "type": "dialog",
+        "speaker": "Alty",
+        "content": "If we sing to the world, will she listen?"
+    },
+    {
+        "id": 417,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 418,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 419,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 420,
+        "raw": "A few of the bandmates joke around for a bit, until the car goes silent.",
+        "type": "narration",
+        "content": "A few of the bandmates joke around for a bit, until the car goes silent."
+    },
+    {
+        "id": 421,
+        "raw": "Alty looks at the key in her hand, 'Dr. Kal'tsit, can that Rhodes Island of yours give the world the answer it's looking for?'",
+        "type": "narration",
+        "content": "Alty looks at the key in her hand, 'Dr. Kal'tsit, can that Rhodes Island of yours give the world the answer it's looking for?'"
+    },
+    {
+        "id": 422,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 423,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 424,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 425,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 426,
+        "raw": "[Image]",
+        "type": "image"
+    }
+]

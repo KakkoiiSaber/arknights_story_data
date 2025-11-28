@@ -1,0 +1,780 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")] 第六关（后）",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK",
+        "content": "第六关（后）"
+    },
+    {
+        "id": 2,
+        "raw": "[stopmusic]",
+        "type": "stop_music"
+    },
+    {
+        "id": 3,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 4,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 5,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 6,
+        "raw": "[Background(image=\"bg_topruins\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_topruins.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 7,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 8,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 9,
+        "raw": "[playMusic(intro=\"$drift_intro\", key=\"$drift_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act9d0d0/m_avg_drift_intro.mp3",
+        "key": "sound_beta_2/music/act9d0d0/m_avg_drift_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 10,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 11,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 12,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3"
+    },
+    {
+        "id": 13,
+        "raw": "[Character(name=\"char_009_12fce_1\",fadetime=1,block=true)]",
+        "type": "character",
+        "name": "char_009_12fce_1",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 14,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 15,
+        "raw": "[name=\"??? \"] Ah.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "Ah."
+    },
+    {
+        "id": 16,
+        "raw": "[name=\"??? \"] Forgive my presumption. Might you be the Doctor?",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "Forgive my presumption. Might you be the Doctor?"
+    },
+    {
+        "id": 17,
+        "raw": "[Decision(options=\"You're... 12F?;And you are...?\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "You're... 12F?;And you are...?",
+        "values": "1;2"
+    },
+    {
+        "id": 18,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 19,
+        "raw": "[name=\"12F\"] I never thought you'd remember me.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "I never thought you'd remember me."
+    },
+    {
+        "id": 20,
+        "raw": "[name=\"12F\"] Have we met somewhere before? Or, perhaps, you've previously read my files?",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "Have we met somewhere before? Or, perhaps, you've previously read my files?"
+    },
+    {
+        "id": 21,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 22,
+        "raw": "[name=\"??? \"] Ah, my apologies. Could this be the first time we've met? I still haven't introduced myself.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "Ah, my apologies. Could this be the first time we've met? I still haven't introduced myself."
+    },
+    {
+        "id": 23,
+        "raw": "[name=\"??? \"] Hello, Doctor. Call me 12F, let's say. Since I'm no more than an ordinary Detachment Operator, I've had relatively few chances to have met with you face-to-face.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "Hello, Doctor. Call me 12F, let's say. Since I'm no more than an ordinary Detachment Operator, I've had relatively few chances to have met with you face-to-face."
+    },
+    {
+        "id": 24,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 25,
+        "raw": "[Decision(options=\"Don't be so polite!;......;You don't need to be so reserved.\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "Don't be so polite!;......;You don't need to be so reserved.",
+        "values": "1;2;3"
+    },
+    {
+        "id": 26,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 27,
+        "raw": "[name=\"12F\"] Nay. Once you're familiar with me, you may well come to hate me.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "Nay. Once you're familiar with me, you may well come to hate me."
+    },
+    {
+        "id": 28,
+        "raw": "[name=\"12F\"] With some politeness, both sides are left a little leeway. Leeway to advance a step, or to withdraw something.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "With some politeness, both sides are left a little leeway. Leeway to advance a step, or to withdraw something."
+    },
+    {
+        "id": 29,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 30,
+        "raw": "[name=\"12F\"] I'd heard the Doctor was a reticent one. I won't be asking you to say anything further.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "I'd heard the Doctor was a reticent one. I won't be asking you to say anything further."
+    },
+    {
+        "id": 31,
+        "raw": "[name=\"12F\"] Your experiences and mine are probably nothing alike, and our dispositions are assuredly a gulf apart.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "Your experiences and mine are probably nothing alike, and our dispositions are assuredly a gulf apart."
+    },
+    {
+        "id": 32,
+        "raw": "[Predicate(references=\"3\")]",
+        "type": "predicate",
+        "references": "3"
+    },
+    {
+        "id": 33,
+        "raw": "[name=\"12F\"] When going outside, I do tend to be somewhat polite. Once used to speaking like this, it's hard to change.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "When going outside, I do tend to be somewhat polite. Once used to speaking like this, it's hard to change."
+    },
+    {
+        "id": 34,
+        "raw": "[name=\"12F\"] I've seen no shortage of rude remarks come to a fight, after all. By and large, we keep at a distance from vulgar people, without any another reason—only that one thing less, perhaps, beats one thing more.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "I've seen no shortage of rude remarks come to a fight, after all. By and large, we keep at a distance from vulgar people, without any another reason—only that one thing less, perhaps, beats one thing more."
+    },
+    {
+        "id": 35,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 36,
+        "raw": "[name=\"12F\"] It's truly been a long campaign... and you've endured to the bitter end.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "It's truly been a long campaign... and you've endured to the bitter end."
+    },
+    {
+        "id": 37,
+        "raw": "[name=\"12F\"] Battles like these are only cause to feel fear. Might you feel that way, Doctor?",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "Battles like these are only cause to feel fear. Might you feel that way, Doctor?"
+    },
+    {
+        "id": 38,
+        "raw": "[Decision(options=\"(In turn, ask him whether he's afraid.);(As ever, be silent.);(Painstakingly, explain to him how you're already used to this.)\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "(In turn, ask him whether he's afraid.);(As ever, be silent.);(Painstakingly, explain to him how you're already used to this.)",
+        "values": "1;2;3"
+    },
+    {
+        "id": 39,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 40,
+        "raw": "[name=\"12F\"] If you were to ask...",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "If you were to ask..."
+    },
+    {
+        "id": 41,
+        "raw": "[name=\"12F\"] I don't tell lies. I am. Granted, I've already come all this way with the team, but I'm still quite afraid.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "I don't tell lies. I am. Granted, I've already come all this way with the team, but I'm still quite afraid."
+    },
+    {
+        "id": 42,
+        "raw": "[name=\"12F\"] In the wilderness, dying is not much worth mentioning, a trivial thing. This has become a consensus across near to all people.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "In the wilderness, dying is not much worth mentioning, a trivial thing. This has become a consensus across near to all people."
+    },
+    {
+        "id": 43,
+        "raw": "[name=\"12F\"] I believe that was why we set up nomadic cities. We wished to live on, to not be killed by the wilderness again.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "I believe that was why we set up nomadic cities. We wished to live on, to not be killed by the wilderness again."
+    },
+    {
+        "id": 44,
+        "raw": "[name=\"12F\"] But the disasters occurring among these cities were a repeated reminder to us that often, when we think we've had the great fortune to escape from somewhere, we'll play new misfortunes upon ourselves.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "But the disasters occurring among these cities were a repeated reminder to us that often, when we think we've had the great fortune to escape from somewhere, we'll play new misfortunes upon ourselves."
+    },
+    {
+        "id": 45,
+        "raw": "[name=\"12F\"] Did the people of Chernobog ever imagine they'd go through this? I imagine they didn't. It's no good thing, passing your days trembling in fear.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "Did the people of Chernobog ever imagine they'd go through this? I imagine they didn't. It's no good thing, passing your days trembling in fear."
+    },
+    {
+        "id": 46,
+        "raw": "[name=\"12F\"] Outcomes such as this are too dark. I can't imagine what I'd be like, stuck to this vision and living on.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "Outcomes such as this are too dark. I can't imagine what I'd be like, stuck to this vision and living on."
+    },
+    {
+        "id": 47,
+        "raw": "[name=\"12F\"] But all of this has dropped, unwittingly, right on their heads. We've stopped the Core City. What if something broke out once again within Chernobog?",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "But all of this has dropped, unwittingly, right on their heads. We've stopped the Core City. What if something broke out once again within Chernobog?"
+    },
+    {
+        "id": 48,
+        "raw": "[name=\"12F\"] When I consider all we might encounter in future, it leaves me feeling only afraid.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "When I consider all we might encounter in future, it leaves me feeling only afraid."
+    },
+    {
+        "id": 49,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 50,
+        "raw": "[name=\"12F\"] Given you're unwilling to say much, Doctor, I won't ask much more.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "Given you're unwilling to say much, Doctor, I won't ask much more."
+    },
+    {
+        "id": 51,
+        "raw": "[Predicate(references=\"3\")]",
+        "type": "predicate",
+        "references": "3"
+    },
+    {
+        "id": 52,
+        "raw": "[name=\"12F\"] What is it you're used to?",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "What is it you're used to?"
+    },
+    {
+        "id": 53,
+        "raw": "[name=\"12F\"] Are you used to fear, or... used to fighting?",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "Are you used to fear, or... used to fighting?"
+    },
+    {
+        "id": 54,
+        "raw": "[name=\"12F\"] I'm somewhat saddened.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "I'm somewhat saddened."
+    },
+    {
+        "id": 55,
+        "raw": "[name=\"12F\"] Please, be reassured, I'm not prejudiced against you...",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "Please, be reassured, I'm not prejudiced against you..."
+    },
+    {
+        "id": 56,
+        "raw": "[name=\"12F\"] I suppose you should mean the latter.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "I suppose you should mean the latter."
+    },
+    {
+        "id": 57,
+        "raw": "[name=\"12F\"] To be used to fighting... many soldiers have said similar things.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "To be used to fighting... many soldiers have said similar things."
+    },
+    {
+        "id": 58,
+        "raw": "[name=\"12F\"] You aren't a soldier, yet you're used to risking life and limb alongside them. You ought to have something you pursue in battle, then?",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "You aren't a soldier, yet you're used to risking life and limb alongside them. You ought to have something you pursue in battle, then?"
+    },
+    {
+        "id": 59,
+        "raw": "[name=\"12F\"] Or alternatively, in your eyes, this conflict is only a means to an end... or perhaps, the blood and glory in every battle makes you feel... excitement?",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "Or alternatively, in your eyes, this conflict is only a means to an end... or perhaps, the blood and glory in every battle makes you feel... excitement?"
+    },
+    {
+        "id": 60,
+        "raw": "[name=\"12F\"] I'm sorry, Doctor, I'm sorry. I seem to have gone somewhat too far.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "I'm sorry, Doctor, I'm sorry. I seem to have gone somewhat too far."
+    },
+    {
+        "id": 61,
+        "raw": "[name=\"12F\"] Only, I myself hope greatly that you're able to leave the theater of war, Doctor. Perhaps you, in your capacity as a battlefield commander, can stand level against even Dr. Kal'tsit—",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "Only, I myself hope greatly that you're able to leave the theater of war, Doctor. Perhaps you, in your capacity as a battlefield commander, can stand level against even Dr. Kal'tsit—"
+    },
+    {
+        "id": 62,
+        "raw": "[name=\"12F\"] But just like Dr. Kal'tsit, I believe if you threw even greater energy into your original field of study, your original life, you would bring about even more benefit to others.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "But just like Dr. Kal'tsit, I believe if you threw even greater energy into your original field of study, your original life, you would bring about even more benefit to others."
+    },
+    {
+        "id": 63,
+        "raw": "[name=\"12F\"] But things often turn out contrary to how you wish. Innocent children pick up weapons, people who brimmed with vigor lose their lives, and families who live life happily shatter apart. We cannot prevent it.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "But things often turn out contrary to how you wish. Innocent children pick up weapons, people who brimmed with vigor lose their lives, and families who live life happily shatter apart. We cannot prevent it."
+    },
+    {
+        "id": 64,
+        "raw": "[name=\"12F\"] As for being used to being afraid, I believe that refers much more to people like me.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "As for being used to being afraid, I believe that refers much more to people like me."
+    },
+    {
+        "id": 65,
+        "raw": "[name=\"12F\"] I'm hard-pressed to feel that you and I are the same type, Doctor. Ever since you arose, all these battles you've taken part in, I consider you to have fundamentally won.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "I'm hard-pressed to feel that you and I are the same type, Doctor. Ever since you arose, all these battles you've taken part in, I consider you to have fundamentally won."
+    },
+    {
+        "id": 66,
+        "raw": "[name=\"12F\"] Are you possibly afraid of winning? Or are you possibly afraid that if you were unable to achieve victory, you'd lose something?",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "Are you possibly afraid of winning? Or are you possibly afraid that if you were unable to achieve victory, you'd lose something?"
+    },
+    {
+        "id": 67,
+        "raw": "[name=\"12F\"] But I'm not fond of battles at all. If I were allowed, I'd run far, far away.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "But I'm not fond of battles at all. If I were allowed, I'd run far, far away."
+    },
+    {
+        "id": 68,
+        "raw": "[name=\"12F\"] Perhaps, just maybe, I'm the complete contrary to you. Because I might even be afraid of victory.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "Perhaps, just maybe, I'm the complete contrary to you. Because I might even be afraid of victory."
+    },
+    {
+        "id": 69,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 70,
+        "raw": "[Decision(options=\"(Maintain silence.);(Inquire what his purpose for asking is.)\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "(Maintain silence.);(Inquire what his purpose for asking is.)",
+        "values": "1;2"
+    },
+    {
+        "id": 71,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 72,
+        "raw": "[name=\"12F\"] ——",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "——"
+    },
+    {
+        "id": 73,
+        "raw": "[name=\"12F\"] It's getting late. My team should be prepared to retreat by now.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "It's getting late. My team should be prepared to retreat by now."
+    },
+    {
+        "id": 74,
+        "raw": "[name=\"12F\"] Please take care of yourself. I wish you a pleasant day.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "Please take care of yourself. I wish you a pleasant day."
+    },
+    {
+        "id": 75,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 76,
+        "raw": "[name=\"12F\"] Because I wanted to understand your character. Though, given I could find you here, I can more or less arrive at my own answer.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "Because I wanted to understand your character. Though, given I could find you here, I can more or less arrive at my own answer."
+    },
+    {
+        "id": 77,
+        "raw": "[name=\"12F\"] Disregarding the people who already knew you well, there are plenty like myself who didn't join Rhodes Island too long ago, who feel some sense of curiosity about you.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "Disregarding the people who already knew you well, there are plenty like myself who didn't join Rhodes Island too long ago, who feel some sense of curiosity about you."
+    },
+    {
+        "id": 78,
+        "raw": "[name=\"12F\"] Of Amiya, we all have the same general impression. Everyone knows that beneath her miniscule stature lies a tenacious will, holding her up...",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "Of Amiya, we all have the same general impression. Everyone knows that beneath her miniscule stature lies a tenacious will, holding her up..."
+    },
+    {
+        "id": 79,
+        "raw": "[name=\"12F\"] Opinions on Dr. Kal'tsit all vary, while I can very much understand her. No matter what Dr. Kal'tsit does, she always has a basis. She's in no way impetuous, and never acts on an impulse.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "Opinions on Dr. Kal'tsit all vary, while I can very much understand her. No matter what Dr. Kal'tsit does, she always has a basis. She's in no way impetuous, and never acts on an impulse."
+    },
+    {
+        "id": 80,
+        "raw": "[name=\"12F\"] That's simply not something the average person can achieve.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "That's simply not something the average person can achieve."
+    },
+    {
+        "id": 81,
+        "raw": "[name=\"12F\"] Whereas you...",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "Whereas you..."
+    },
+    {
+        "id": 82,
+        "raw": "[name=\"12F\"] What about you?",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "What about you?"
+    },
+    {
+        "id": 83,
+        "raw": "[name=\"12F\"] It's not been too long since you came back to Rhodes Island, and before you'd returned, your name had spread fast.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "It's not been too long since you came back to Rhodes Island, and before you'd returned, your name had spread fast."
+    },
+    {
+        "id": 84,
+        "raw": "[name=\"12F\"] But we didn't know who you were. What kind of person were you? What would you bring for us?",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "But we didn't know who you were. What kind of person were you? What would you bring for us?"
+    },
+    {
+        "id": 85,
+        "raw": "[name=\"12F\"] Before you came, Dr. Kal'tsit pushed the notification to each individual's terminal, letting us all know that you'd be an important member of the Rhodes Island Command Department someday.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "Before you came, Dr. Kal'tsit pushed the notification to each individual's terminal, letting us all know that you'd be an important member of the Rhodes Island Command Department someday."
+    },
+    {
+        "id": 86,
+        "raw": "[name=\"12F\"] Though plenty of notifications from HR are similar, I was still able to pick up on the information concealed within that short paragraph of text—",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "Though plenty of notifications from HR are similar, I was still able to pick up on the information concealed within that short paragraph of text—"
+    },
+    {
+        "id": 87,
+        "raw": "[name=\"12F\"] —You were, to some of us, completely unfamiliar. At the time, at least, that was how it was.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "—You were, to some of us, completely unfamiliar. At the time, at least, that was how it was."
+    },
+    {
+        "id": 88,
+        "raw": "[name=\"12F\"] ...It's not just that we don't know what sort of past you had. We weren't even sure of what kind of future you had.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "...It's not just that we don't know what sort of past you had. We weren't even sure of what kind of future you had."
+    },
+    {
+        "id": 89,
+        "raw": "[name=\"12F\"] Where would Rhodes Island lead us? Along the way, you'd be sure to play an important role. I know that was how a lot of people felt.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "Where would Rhodes Island lead us? Along the way, you'd be sure to play an important role. I know that was how a lot of people felt."
+    },
+    {
+        "id": 90,
+        "raw": "[name=\"12F\"] But what about you yourself? Might you feel like all of that... is not part of you? You've lost your memories, after all, and this world hides a great many facts from you.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "But what about you yourself? Might you feel like all of that... is not part of you? You've lost your memories, after all, and this world hides a great many facts from you."
+    },
+    {
+        "id": 91,
+        "raw": "[name=\"12F\"] Doctor, I have some personal experience. Can you hear it out? You may as well, really; you don't have to take it seriously.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "Doctor, I have some personal experience. Can you hear it out? You may as well, really; you don't have to take it seriously."
+    },
+    {
+        "id": 92,
+        "raw": "[name=\"12F\"] You might feel like, ever since you've woken, you haven't had much right to choose anything, that the road has been paved out entirely by others.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "You might feel like, ever since you've woken, you haven't had much right to choose anything, that the road has been paved out entirely by others."
+    },
+    {
+        "id": 93,
+        "raw": "[name=\"12F\"] Personally, in my experience, from the moment I was born up 'til now, ever since I was tossed into this land, I've always had that sort of a feeling. That I can't choose. I can only live upon this great land.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "Personally, in my experience, from the moment I was born up 'til now, ever since I was tossed into this land, I've always had that sort of a feeling. That I can't choose. I can only live upon this great land."
+    },
+    {
+        "id": 94,
+        "raw": "[name=\"12F\"] Putting those great figures who've felt they could change their own fate aside, we ordinary people... please, just allow me to say this! We ordinary people are always pushed along.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "Putting those great figures who've felt they could change their own fate aside, we ordinary people... please, just allow me to say this! We ordinary people are always pushed along."
+    },
+    {
+        "id": 95,
+        "raw": "[name=\"12F\"] But are we truly allowed no choice?",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "But are we truly allowed no choice?"
+    },
+    {
+        "id": 96,
+        "raw": "[name=\"12F\"] To this Chernobog core city mission, I signed up.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "To this Chernobog core city mission, I signed up."
+    },
+    {
+        "id": 97,
+        "raw": "[name=\"12F\"] I knew this was highly dangerous, and I knew it went against what I believed... more than doing anything to shake the world, what I want is to live on.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "I knew this was highly dangerous, and I knew it went against what I believed... more than doing anything to shake the world, what I want is to live on."
+    },
+    {
+        "id": 98,
+        "raw": "[name=\"12F\"] And I was very well aware I couldn't help with much myself. Compared to other, far more specialized Operators, it was all I could do not to get in the way.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "And I was very well aware I couldn't help with much myself. Compared to other, far more specialized Operators, it was all I could do not to get in the way."
+    },
+    {
+        "id": 99,
+        "raw": "[name=\"12F\"] But I still chose to do things in this manner. I didn't need to explain to anyone else my reasons, nor did I need to tangle myself in anything after this.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "But I still chose to do things in this manner. I didn't need to explain to anyone else my reasons, nor did I need to tangle myself in anything after this."
+    },
+    {
+        "id": 100,
+        "raw": "[name=\"12F\"] Before we made our decisions, we wondered why we had to do things this way. And after that, so we did them.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "Before we made our decisions, we wondered why we had to do things this way. And after that, so we did them."
+    },
+    {
+        "id": 101,
+        "raw": "[name=\"12F\"] So, Doctor, you actually had some sort of choice, didn't you?",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "So, Doctor, you actually had some sort of choice, didn't you?"
+    },
+    {
+        "id": 102,
+        "raw": "[name=\"12F\"] You came with us all the way here.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "You came with us all the way here."
+    },
+    {
+        "id": 103,
+        "raw": "[name=\"12F\"] You're here.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "You're here."
+    },
+    {
+        "id": 104,
+        "raw": "[name=\"12F\"] ...That's my verdict, then.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "...That's my verdict, then."
+    },
+    {
+        "id": 105,
+        "raw": "[name=\"12F\"] Thank you for your time, Doctor. I apologize for talking to myself for so long. But I do understand you a little more now.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "Thank you for your time, Doctor. I apologize for talking to myself for so long. But I do understand you a little more now."
+    },
+    {
+        "id": 106,
+        "raw": "[name=\"12F\"] —It's getting late. Preparations for work should be more or less there by now. I've confirmed your safety as well. Following that, our team should be retreating.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "—It's getting late. Preparations for work should be more or less there by now. I've confirmed your safety as well. Following that, our team should be retreating."
+    },
+    {
+        "id": 107,
+        "raw": "[name=\"12F\"] So I'll see you at Rhodes, Doctor.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "So I'll see you at Rhodes, Doctor."
+    },
+    {
+        "id": 108,
+        "raw": "[name=\"12F\"] Oh, right, Doctor...",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "Oh, right, Doctor..."
+    },
+    {
+        "id": 109,
+        "raw": "[name=\"12F\"] No matter if it's just in the moment, or just the slightest variance. The future will surely follow with each difference in your choices, and expose a different appearance as time goes by.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "No matter if it's just in the moment, or just the slightest variance. The future will surely follow with each difference in your choices, and expose a different appearance as time goes by."
+    },
+    {
+        "id": 110,
+        "raw": "[name=\"12F\"] I trust you will always have a choice.",
+        "type": "dialog",
+        "speaker": "12F",
+        "content": "I trust you will always have a choice."
+    },
+    {
+        "id": 111,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 112,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 113,
+        "raw": "[Blocker(fadetime=2,block=true)]",
+        "type": "blocker",
+        "fadetime": "2,block=true"
+    },
+    {
+        "id": 114,
+        "raw": "[Image]",
+        "type": "image"
+    }
+]

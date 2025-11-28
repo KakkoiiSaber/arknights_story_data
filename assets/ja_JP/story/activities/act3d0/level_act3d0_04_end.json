@@ -1,0 +1,491 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")] 第六关（后）",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK",
+        "content": "第六关（后）"
+    },
+    {
+        "id": 2,
+        "raw": "[Background(image=\"bg_hotel\", fadetime=1)]",
+        "type": "background",
+        "image": "bg_hotel.png",
+        "fadetime": 1
+    },
+    {
+        "id": 3,
+        "raw": "[PlayMusic(intro=\"$darkness01_intro\", key=\"$darkness01_loop\", volume=0.8, crossfade=1.5)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta1_180603/m_dia_darkness01_intro.mp3",
+        "key": "sound_beta_2/music/beta1_180603/m_dia_darkness01_loop.mp3",
+        "volume": "0.8,",
+        "crossfade": 1.5
+    },
+    {
+        "id": 4,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 5,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 6,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 7,
+        "raw": "[Character(name=\"char_188_helage_1\")]",
+        "type": "character",
+        "name": "char_188_helage_1"
+    },
+    {
+        "id": 8,
+        "raw": "[name=\"へラグ\"]   あのフェリーン族の女性、他の中身の無い輩たちとは一線を画した存在だった。",
+        "type": "dialog",
+        "speaker": "へラグ",
+        "content": "あのフェリーン族の女性、他の中身の無い輩たちとは一線を画した存在だった。"
+    },
+    {
+        "id": 9,
+        "raw": "[Decision(options=\"それでもあなたの敵ではない。;将軍、怪我はないか？\",values=\"1;2\")]",
+        "type": "decision",
+        "options": "それでもあなたの敵ではない。;将軍、怪我はないか？",
+        "values": "1;2"
+    },
+    {
+        "id": 10,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 11,
+        "raw": "[name=\"へラグ\"]   なに、心配はいらんよ。彼女の部下たちは、皆凡庸な連中だったからな。ドクターたちが無事に逃げられさえすれば、私が撤退するのは造作もないことだ。",
+        "type": "dialog",
+        "speaker": "へラグ",
+        "content": "なに、心配はいらんよ。彼女の部下たちは、皆凡庸な連中だったからな。ドクターたちが無事に逃げられさえすれば、私が撤退するのは造作もないことだ。"
+    },
+    {
+        "id": 12,
+        "raw": "[name=\"へラグ\"]   だが、あのシュヴァルツというボディーガードに関しては、少し心当たりがある。",
+        "type": "dialog",
+        "speaker": "へラグ",
+        "content": "だが、あのシュヴァルツというボディーガードに関しては、少し心当たりがある。"
+    },
+    {
+        "id": 13,
+        "raw": "[Decision(options=\"素性に心当たりが？;まさか……。\",values=\"1;2\")]",
+        "type": "decision",
+        "options": "素性に心当たりが？;まさか……。",
+        "values": "1;2"
+    },
+    {
+        "id": 14,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 15,
+        "raw": "[name=\"へラグ\"]   クルビア出身でフェリーン族、金色の瞳を持つ銀髪の女性、黒いクロスボウ。その素性は殺し屋であり、傭兵でもある。",
+        "type": "dialog",
+        "speaker": "へラグ",
+        "content": "クルビア出身でフェリーン族、金色の瞳を持つ銀髪の女性、黒いクロスボウ。その素性は殺し屋であり、傭兵でもある。"
+    },
+    {
+        "id": 16,
+        "raw": "[name=\"へラグ\"]   殺し屋として街中に名が知れ渡ることは、恥ずべきことではあるとは言え、彼女の噂はあまりにも有名だ。",
+        "type": "dialog",
+        "speaker": "へラグ",
+        "content": "殺し屋として街中に名が知れ渡ることは、恥ずべきことではあるとは言え、彼女の噂はあまりにも有名だ。"
+    },
+    {
+        "id": 17,
+        "raw": "[name=\"へラグ\"]   クルビアのとある一家を消し去ったという話がある。隆盛な一族の重要人物が、数年のうちに次々と謎の死を遂げ、その結果一族は衰退の一途をたどり、そして誰もいなくなった。",
+        "type": "dialog",
+        "speaker": "へラグ",
+        "content": "クルビアのとある一家を消し去ったという話がある。隆盛な一族の重要人物が、数年のうちに次々と謎の死を遂げ、その結果一族は衰退の一途をたどり、そして誰もいなくなった。"
+    },
+    {
+        "id": 18,
+        "raw": "[name=\"へラグ\"]   さらには、巡察部隊を一個中隊まるまる潰したという話もある。奴らはクルビアの辺境で、焼き討ちと略奪を繰り返した無法集団だった。「野蛮人の征服者」などと名乗り異族を迫害していたのだ。",
+        "type": "dialog",
+        "speaker": "へラグ",
+        "content": "さらには、巡察部隊を一個中隊まるまる潰したという話もある。奴らはクルビアの辺境で、焼き討ちと略奪を繰り返した無法集団だった。「野蛮人の征服者」などと名乗り異族を迫害していたのだ。"
+    },
+    {
+        "id": 19,
+        "raw": "[name=\"へラグ\"]   しかし、その後の一ヶ月のうちに、奴らは山で逃げ惑いながら、一人また一人と狩られていった。最後に残った一人はボロボロになりながら街に下りてきたが、精神錯乱状態に陥っていたそうだ。",
+        "type": "dialog",
+        "speaker": "へラグ",
+        "content": "しかし、その後の一ヶ月のうちに、奴らは山で逃げ惑いながら、一人また一人と狩られていった。最後に残った一人はボロボロになりながら街に下りてきたが、精神錯乱状態に陥っていたそうだ。"
+    },
+    {
+        "id": 20,
+        "raw": "[name=\"へラグ\"]   そしてその話を私にしてくれた者も……。",
+        "type": "dialog",
+        "speaker": "へラグ",
+        "content": "そしてその話を私にしてくれた者も……。"
+    },
+    {
+        "id": 21,
+        "raw": "[Decision(options=\"それから、どうなった？;言ってくれ。怖くはない。\",values=\"1;2\")]",
+        "type": "decision",
+        "options": "それから、どうなった？;言ってくれ。怖くはない。",
+        "values": "1;2"
+    },
+    {
+        "id": 22,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 23,
+        "raw": "[name=\"へラグ\"]   多くを語る必要はないさ。……彼の傷跡は左肩から右足のかかとまで伸びていたそうだ。",
+        "type": "dialog",
+        "speaker": "へラグ",
+        "content": "多くを語る必要はないさ。……彼の傷跡は左肩から右足のかかとまで伸びていたそうだ。"
+    },
+    {
+        "id": 24,
+        "raw": "[name=\"へラグ\"]   それだけ手に血が染み付いた者ということさ、私も人のことは言えんがね。",
+        "type": "dialog",
+        "speaker": "へラグ",
+        "content": "それだけ手に血が染み付いた者ということさ、私も人のことは言えんがね。"
+    },
+    {
+        "id": 25,
+        "raw": "[name=\"へラグ\"]   そして、その殺し屋は姿を消してしばらくになる。本人だという確証は無いが……。",
+        "type": "dialog",
+        "speaker": "へラグ",
+        "content": "そして、その殺し屋は姿を消してしばらくになる。本人だという確証は無いが……。"
+    },
+    {
+        "id": 26,
+        "raw": "[name=\"へラグ\"]   ただ、もし彼女がその本人だった場合、我々の前に待ち受けるのは血なまぐさい結末しかないだろう。",
+        "type": "dialog",
+        "speaker": "へラグ",
+        "content": "ただ、もし彼女がその本人だった場合、我々の前に待ち受けるのは血なまぐさい結末しかないだろう。"
+    },
+    {
+        "id": 27,
+        "raw": "[Decision(options=\"想像よりも遥かに根が深い問題だ。;セイロンも欺かれ続けてきた？\",values=\"1;2\")]",
+        "type": "decision",
+        "options": "想像よりも遥かに根が深い問題だ。;セイロンも欺かれ続けてきた？",
+        "values": "1;2"
+    },
+    {
+        "id": 28,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 29,
+        "raw": "[name=\"へラグ\"]   市長は彼女の素性を知っているかもしれん。",
+        "type": "dialog",
+        "speaker": "へラグ",
+        "content": "市長は彼女の素性を知っているかもしれん。"
+    },
+    {
+        "id": 30,
+        "raw": "[name=\"へラグ\"]   いや、彼女がたとえ市長に仕える殺し屋であっても、私は不思議なことだとは思わん……と言うべきか。",
+        "type": "dialog",
+        "speaker": "へラグ",
+        "content": "いや、彼女がたとえ市長に仕える殺し屋であっても、私は不思議なことだとは思わん……と言うべきか。"
+    },
+    {
+        "id": 31,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 32,
+        "raw": "[CameraShake(duration=1, xstrength=5, ystrength=3, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "xstrength": "5,",
+        "ystrength": "3,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 33,
+        "raw": "（コップの割れる音）",
+        "type": "narration",
+        "content": "（コップの割れる音）"
+    },
+    {
+        "id": 34,
+        "raw": "[Decision(options=\"セイロン！？;いつからそこに……。\",values=\"1;2\")]",
+        "type": "decision",
+        "options": "セイロン！？;いつからそこに……。",
+        "values": "1;2"
+    },
+    {
+        "id": 35,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 36,
+        "raw": "[Character(name=\"char_188_helage_1\")]",
+        "type": "character",
+        "name": "char_188_helage_1"
+    },
+    {
+        "id": 37,
+        "raw": "[name=\"へラグ\"]   セイロン殿、隠れて聞き耳を立てなくともよい。",
+        "type": "dialog",
+        "speaker": "へラグ",
+        "content": "セイロン殿、隠れて聞き耳を立てなくともよい。"
+    },
+    {
+        "id": 38,
+        "raw": "[Character(name=\"char_188_helage_1\",name2=\"char_348_ceylon_4#8\",focus=2)]",
+        "type": "character",
+        "name": "char_188_helage_1",
+        "name2": "char_348_ceylon_4#8",
+        "focus": 2
+    },
+    {
+        "id": 39,
+        "raw": "[name=\"セイロン\"]   わ、わたくしは、ただお水を皆様に……。",
+        "type": "dialog",
+        "speaker": "セイロン",
+        "content": "わ、わたくしは、ただお水を皆様に……。"
+    },
+    {
+        "id": 40,
+        "raw": "[name=\"セイロン\"]   ヘラグおじ様、その傭兵はいつから活動を始め、そしていつ姿を消したのでしょうか？",
+        "type": "dialog",
+        "speaker": "セイロン",
+        "content": "ヘラグおじ様、その傭兵はいつから活動を始め、そしていつ姿を消したのでしょうか？"
+    },
+    {
+        "id": 41,
+        "raw": "[Character(name=\"char_188_helage_1\",name2=\"char_348_ceylon_4#8\",focus=1)]",
+        "type": "character",
+        "name": "char_188_helage_1",
+        "name2": "char_348_ceylon_4#8",
+        "focus": 1
+    },
+    {
+        "id": 42,
+        "raw": "[name=\"へラグ\"]   彼女の噂が流れ始めたのは、私が退役する前になるな。",
+        "type": "dialog",
+        "speaker": "へラグ",
+        "content": "彼女の噂が流れ始めたのは、私が退役する前になるな。"
+    },
+    {
+        "id": 43,
+        "raw": "[name=\"へラグ\"]   そしてその噂が途切れたのは、およそ一年前だ。例の一家の事件と共にな。",
+        "type": "dialog",
+        "speaker": "へラグ",
+        "content": "そしてその噂が途切れたのは、およそ一年前だ。例の一家の事件と共にな。"
+    },
+    {
+        "id": 44,
+        "raw": "[Character(name=\"char_188_helage_1\",name2=\"char_348_ceylon_4#8\",focus=2)]",
+        "type": "character",
+        "name": "char_188_helage_1",
+        "name2": "char_348_ceylon_4#8",
+        "focus": 2
+    },
+    {
+        "id": 45,
+        "raw": "[name=\"セイロン\"]   ……六年前まで、シュヴァルツはヴィクトリアでわたくしの世話をしてくれていましたわ。",
+        "type": "dialog",
+        "speaker": "セイロン",
+        "content": "……六年前まで、シュヴァルツはヴィクトリアでわたくしの世話をしてくれていましたわ。"
+    },
+    {
+        "id": 46,
+        "raw": "[name=\"セイロン\"]   ですがある日、突然お父様からの命令だと言っていなくなってしまいましたの。その後は、毎年クリスマスに迎えに来てくれたときに顔を合わせるだけになって……。",
+        "type": "dialog",
+        "speaker": "セイロン",
+        "content": "ですがある日、突然お父様からの命令だと言っていなくなってしまいましたの。その後は、毎年クリスマスに迎えに来てくれたときに顔を合わせるだけになって……。"
+    },
+    {
+        "id": 47,
+        "raw": "[Character(name=\"char_188_helage_1\",name2=\"char_348_ceylon_4#3\",focus=2)]",
+        "type": "character",
+        "name": "char_188_helage_1",
+        "name2": "char_348_ceylon_4#3",
+        "focus": 2
+    },
+    {
+        "id": 48,
+        "raw": "[name=\"セイロン\"]   で、ですが先ほどの彼女は、たまたま少し機嫌が悪かっただけですのよ。それにきっと誰かの命令に従っているだけ。何人も殺めた殺し屋だなんて……そんなこと……あるわけ……。",
+        "type": "dialog",
+        "speaker": "セイロン",
+        "content": "で、ですが先ほどの彼女は、たまたま少し機嫌が悪かっただけですのよ。それにきっと誰かの命令に従っているだけ。何人も殺めた殺し屋だなんて……そんなこと……あるわけ……。"
+    },
+    {
+        "id": 49,
+        "raw": "[name=\"セイロン\"]   しかも、貴方の言葉が本当なら、クローニンさんの後ろでお父様が糸を引いていると！？",
+        "type": "dialog",
+        "speaker": "セイロン",
+        "content": "しかも、貴方の言葉が本当なら、クローニンさんの後ろでお父様が糸を引いていると！？"
+    },
+    {
+        "id": 50,
+        "raw": "[name=\"セイロン\"]   そんなこと、信じられませんわ！",
+        "type": "dialog",
+        "speaker": "セイロン",
+        "content": "そんなこと、信じられませんわ！"
+    },
+    {
+        "id": 51,
+        "raw": "[Character(name=\"char_188_helage_1\",name2=\"char_348_ceylon_4#3\",focus=1)]",
+        "type": "character",
+        "name": "char_188_helage_1",
+        "name2": "char_348_ceylon_4#3",
+        "focus": 1
+    },
+    {
+        "id": 52,
+        "raw": "[name=\"へラグ\"]   邪推するつもりはない。だが君が最も信頼を置く者だとしても、相手が君に隠し立てしないとは限らないということだ。",
+        "type": "dialog",
+        "speaker": "へラグ",
+        "content": "邪推するつもりはない。だが君が最も信頼を置く者だとしても、相手が君に隠し立てしないとは限らないということだ。"
+    },
+    {
+        "id": 53,
+        "raw": "[name=\"へラグ\"]   君が信じるか否かはどちらでもよい。ただ、彼女の身体に刻まれたウルサス式の武器による傷跡を私は見間違えはしない。あの部隊が……雪深くに葬られたのは間違いない。",
+        "type": "dialog",
+        "speaker": "へラグ",
+        "content": "君が信じるか否かはどちらでもよい。ただ、彼女の身体に刻まれたウルサス式の武器による傷跡を私は見間違えはしない。あの部隊が……雪深くに葬られたのは間違いない。"
+    },
+    {
+        "id": 54,
+        "raw": "[Character(name=\"char_188_helage_1\")]",
+        "type": "character",
+        "name": "char_188_helage_1"
+    },
+    {
+        "id": 55,
+        "raw": "[name=\"へラグ\"]   現在の状況は以上だ。ドクター。",
+        "type": "dialog",
+        "speaker": "へラグ",
+        "content": "現在の状況は以上だ。ドクター。"
+    },
+    {
+        "id": 56,
+        "raw": "[name=\"へラグ\"]   もし、火山情報の発表を市政府が隠蔽しているのであれば、今回の件は我々が関わるべきでないのかもしれない。",
+        "type": "dialog",
+        "speaker": "へラグ",
+        "content": "もし、火山情報の発表を市政府が隠蔽しているのであれば、今回の件は我々が関わるべきでないのかもしれない。"
+    },
+    {
+        "id": 57,
+        "raw": "[name=\"へラグ\"]   セイロン殿も、事実と向き合うべきだろう。",
+        "type": "dialog",
+        "speaker": "へラグ",
+        "content": "セイロン殿も、事実と向き合うべきだろう。"
+    },
+    {
+        "id": 58,
+        "raw": "[Character(name=\"char_348_ceylon_4#9\")]",
+        "type": "character",
+        "name": "char_348_ceylon_4#9"
+    },
+    {
+        "id": 59,
+        "raw": "[name=\"セイロン\"]   わたくしは……少し…時間を頂きたく思います。その……冷静になるまで……。",
+        "type": "dialog",
+        "speaker": "セイロン",
+        "content": "わたくしは……少し…時間を頂きたく思います。その……冷静になるまで……。"
+    },
+    {
+        "id": 60,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 61,
+        "raw": "[Character(fadetime=1,block=true)]",
+        "type": "character",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 62,
+        "raw": "[PlaySound(key=\"$doorclosequite\", volume=0.9)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_doorclosequite.mp3",
+        "volume": 0.9
+    },
+    {
+        "id": 63,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 64,
+        "raw": "[Character(name=\"char_188_helage_1\")]",
+        "type": "character",
+        "name": "char_188_helage_1"
+    },
+    {
+        "id": 65,
+        "raw": "[name=\"へラグ\"]  さてドクター、貴殿の出番だ。",
+        "type": "dialog",
+        "speaker": "へラグ",
+        "content": "さてドクター、貴殿の出番だ。"
+    },
+    {
+        "id": 66,
+        "raw": "[Decision(options=\"はい？;何かしないとな。\",values=\"1;2\")]",
+        "type": "decision",
+        "options": "はい？;何かしないとな。",
+        "values": "1;2"
+    },
+    {
+        "id": 67,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 68,
+        "raw": "[name=\"へラグ\"]   当然、今の彼女には理解者が必要だ。",
+        "type": "dialog",
+        "speaker": "へラグ",
+        "content": "当然、今の彼女には理解者が必要だ。"
+    },
+    {
+        "id": 69,
+        "raw": "[Delay(time=0.6)]",
+        "type": "delay",
+        "time": 0.6
+    },
+    {
+        "id": 70,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 71,
+        "raw": "[Blocker(fadetime=3,block=true)]",
+        "type": "blocker",
+        "fadetime": "3,block=true"
+    },
+    {
+        "id": 72,
+        "raw": "[Image]",
+        "type": "image"
+    }
+]

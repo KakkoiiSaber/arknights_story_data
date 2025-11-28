@@ -1,0 +1,2874 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")] ",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK"
+    },
+    {
+        "id": 2,
+        "raw": "[stopmusic]",
+        "type": "stop_music"
+    },
+    {
+        "id": 3,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 4,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 5,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 6,
+        "raw": "[Blocker(fadetime=1,block=true)]",
+        "type": "blocker",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 7,
+        "raw": "[Dialog(fadetime=2,block=true)]",
+        "type": "dialog_marker",
+        "fadetime": "2,block=true"
+    },
+    {
+        "id": 8,
+        "raw": "6:00am",
+        "type": "narration",
+        "content": "6:00am"
+    },
+    {
+        "id": 9,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 10,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 11,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 12,
+        "raw": "[Background(image=\"bg_laccolith\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_laccolith.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 13,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 14,
+        "raw": "[playMusic(intro=\"$frontline_intro\", key=\"$frontline_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act9d0d0/m_avg_frontline_intro.mp3",
+        "key": "sound_beta_2/music/act9d0d0/m_avg_frontline_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 15,
+        "raw": "[Decision(options=\"We won't have much time after we take out that recon team.\", values=\"1\")]",
+        "type": "decision",
+        "options": "We won't have much time after we take out that recon team.",
+        "values": "1"
+    },
+    {
+        "id": 16,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 17,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 18,
+        "raw": "[name=\"Kal'tsit\"]  You're right. We're on a tight schedule.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "You're right. We're on a tight schedule."
+    },
+    {
+        "id": 19,
+        "raw": "[Decision(options=\"The operators aren't going to climb into the city from the sand.\", values=\"1\")]",
+        "type": "decision",
+        "options": "The operators aren't going to climb into the city from the sand.",
+        "values": "1"
+    },
+    {
+        "id": 20,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 21,
+        "raw": "[Character(name=\"char_002_amiya_1\")]",
+        "type": "character",
+        "name": "char_002_amiya_1"
+    },
+    {
+        "id": 22,
+        "raw": "[name=\"Amiya\"]  Um... we do that sometimes.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Um... we do that sometimes."
+    },
+    {
+        "id": 23,
+        "raw": "[name=\"Amiya\"]  But the core city is on the move. It will be hard to get into the foundation levels.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "But the core city is on the move. It will be hard to get into the foundation levels."
+    },
+    {
+        "id": 24,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 25,
+        "raw": "[name=\"Kal'tsit\"]  If the operators stand on the sand and wait for the city to pass over them, both height and speed are going to be an issue.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "If the operators stand on the sand and wait for the city to pass over them, both height and speed are going to be an issue."
+    },
+    {
+        "id": 26,
+        "raw": "[name=\"Kal'tsit\"]  If they can't open the maintenance hatches and waste chutes on the underside, our distraction and our camouflage won't be worth anything.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "If they can't open the maintenance hatches and waste chutes on the underside, our distraction and our camouflage won't be worth anything."
+    },
+    {
+        "id": 27,
+        "raw": "[name=\"Kal'tsit\"]  So our five teams will take a vehicle and use the cover of the sandstorm to approach the city, then employ special equipment to climb into the city superstructure.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "So our five teams will take a vehicle and use the cover of the sandstorm to approach the city, then employ special equipment to climb into the city superstructure."
+    },
+    {
+        "id": 28,
+        "raw": "[Decision(options=\"We only sent five teams? \", values=\"1\")]",
+        "type": "decision",
+        "options": "We only sent five teams? ",
+        "values": "1"
+    },
+    {
+        "id": 29,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 30,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 31,
+        "raw": "[name=\"Kal'tsit\"]  We're in no hurry to get the attention of the local Ursus brass.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "We're in no hurry to get the attention of the local Ursus brass."
+    },
+    {
+        "id": 32,
+        "raw": "[name=\"Kal'tsit\"]  And we wouldn't want them to send out an attack ship to smash Rhodes Island in the wilderness and kill our employees.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "And we wouldn't want them to send out an attack ship to smash Rhodes Island in the wilderness and kill our employees."
+    },
+    {
+        "id": 33,
+        "raw": "[name=\"Kal'tsit\"]  Even if they did that, you wouldn't see a single report on it in any newspaper. The bankers and insurance executives will quietly cross out your name and shove all the lucre into their own nest eggs.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Even if they did that, you wouldn't see a single report on it in any newspaper. The bankers and insurance executives will quietly cross out your name and shove all the lucre into their own nest eggs."
+    },
+    {
+        "id": 34,
+        "raw": "[name=\"Kal'tsit\"]  No one will speak of you. No one wants to upset Ursus.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "No one will speak of you. No one wants to upset Ursus."
+    },
+    {
+        "id": 35,
+        "raw": "[name=\"Kal'tsit\"]  Our neutrality gives us some freedom to move in the cracks between forces, and that means we can't be backed by any power.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Our neutrality gives us some freedom to move in the cracks between forces, and that means we can't be backed by any power."
+    },
+    {
+        "id": 36,
+        "raw": "[name=\"Kal'tsit\"]  We survive by working in secret. Just like when we sent those teams to save you.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "We survive by working in secret. Just like when we sent those teams to save you."
+    },
+    {
+        "id": 37,
+        "raw": "[name=\"Kal'tsit\"]  Five teams. Leave tracks, cover the tracks; objective complete, objective failed. No matter what, Rhodes Island only ever deploys five teams.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Five teams. Leave tracks, cover the tracks; objective complete, objective failed. No matter what, Rhodes Island only ever deploys five teams."
+    },
+    {
+        "id": 38,
+        "raw": "[Decision(options=\"But more teams means more firepower!;......;Even if they're not enough?\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "But more teams means more firepower!;......;Even if they're not enough?",
+        "values": "1;2;3"
+    },
+    {
+        "id": 39,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 40,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 41,
+        "raw": "[name=\"Kal'tsit\"]",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": ""
+    },
+    {
+        "id": 42,
+        "raw": "[name=\"Kal'tsit\"]  Even for a city-state like Lungmen, wiping us out would be a trifle.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Even for a city-state like Lungmen, wiping us out would be a trifle."
+    },
+    {
+        "id": 43,
+        "raw": "[name=\"Kal'tsit\"]  You saw the L.G.D. They're as strong as any country's special forces. They certainly have a pharmaceutical company beat.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "You saw the L.G.D. They're as strong as any country's special forces. They certainly have a pharmaceutical company beat."
+    },
+    {
+        "id": 44,
+        "raw": "[Decision(options=\"So why do they need us? \", values=\"1\")]",
+        "type": "decision",
+        "options": "So why do they need us? ",
+        "values": "1"
+    },
+    {
+        "id": 45,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 46,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 47,
+        "raw": "[name=\"Kal'tsit\"]  Because this is about the Infected.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Because this is about the Infected."
+    },
+    {
+        "id": 48,
+        "raw": "[name=\"Kal'tsit\"]  Rhodes Island has departed Lungmen, and we're bearing on the next trade port at fifteen kilometers per hour.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Rhodes Island has departed Lungmen, and we're bearing on the next trade port at fifteen kilometers per hour."
+    },
+    {
+        "id": 49,
+        "raw": "[name=\"Kal'tsit\"]  We'll be in the wilderness for a few weeks before we get there.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "We'll be in the wilderness for a few weeks before we get there."
+    },
+    {
+        "id": 50,
+        "raw": "[name=\"Kal'tsit\"]  Aside from some nearby Rhodes Island communications specialists and some trusted vessels, no one will pick up our signal. We'll plot a course around all the nomadic cities' known paths.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Aside from some nearby Rhodes Island communications specialists and some trusted vessels, no one will pick up our signal. We'll plot a course around all the nomadic cities' known paths."
+    },
+    {
+        "id": 51,
+        "raw": "[name=\"Kal'tsit\"]  Even if Lungmen decides to betray us, they won't be able to find us.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Even if Lungmen decides to betray us, they won't be able to find us."
+    },
+    {
+        "id": 52,
+        "raw": "[Decision(options=\"But that's not enough, is it?\", values=\"1\")]",
+        "type": "decision",
+        "options": "But that's not enough, is it?",
+        "values": "1"
+    },
+    {
+        "id": 53,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 54,
+        "raw": "[Decision(options=\"We need more oomph!;Need to be sharper.;We must have more to stake.\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "We need more oomph!;Need to be sharper.;We must have more to stake.",
+        "values": "1;2;3"
+    },
+    {
+        "id": 55,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 56,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 57,
+        "raw": "[name=\"Kal'tsit\"]  Right. We will need something else to tip the scales.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Right. We will need something else to tip the scales."
+    },
+    {
+        "id": 58,
+        "raw": "[Character(name=\"char_002_amiya_1\", name2=\"char_003_kalts_1\", focus=1)]",
+        "type": "character",
+        "name": "char_002_amiya_1",
+        "name2": "char_003_kalts_1",
+        "focus": 1
+    },
+    {
+        "id": 59,
+        "raw": "[name=\"Amiya\"]  ......",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "......"
+    },
+    {
+        "id": 60,
+        "raw": "[name=\"Amiya\"]  The both of you turned pretty gloomy, huh?",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "The both of you turned pretty gloomy, huh?"
+    },
+    {
+        "id": 61,
+        "raw": "[name=\"Amiya\"]  I know how serious this is, but you don't have to... smile like that, do you?",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "I know how serious this is, but you don't have to... smile like that, do you?"
+    },
+    {
+        "id": 62,
+        "raw": "[Character(name=\"char_002_amiya_1\", name2=\"char_003_kalts_1\", focus=2)]",
+        "type": "character",
+        "name": "char_002_amiya_1",
+        "name2": "char_003_kalts_1",
+        "focus": 2
+    },
+    {
+        "id": 63,
+        "raw": "[name=\"Kal'tsit\"]  Amiya... did I smile?",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Amiya... did I smile?"
+    },
+    {
+        "id": 64,
+        "raw": "[Character(name=\"char_002_amiya_1\", name2=\"char_003_kalts_1\", focus=1)]",
+        "type": "character",
+        "name": "char_002_amiya_1",
+        "name2": "char_003_kalts_1",
+        "focus": 1
+    },
+    {
+        "id": 65,
+        "raw": "[name=\"Amiya\"]  I know you did. Your lips may not have moved, but I could feel it.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "I know you did. Your lips may not have moved, but I could feel it."
+    },
+    {
+        "id": 66,
+        "raw": "[Character(name=\"char_002_amiya_1\", name2=\"char_003_kalts_1\", focus=2)]",
+        "type": "character",
+        "name": "char_002_amiya_1",
+        "name2": "char_003_kalts_1",
+        "focus": 2
+    },
+    {
+        "id": 67,
+        "raw": "[name=\"Kal'tsit\"]  So here we are.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "So here we are."
+    },
+    {
+        "id": 68,
+        "raw": "[Character(name=\"char_002_amiya_1\", name2=\"char_003_kalts_1\", focus=1)]",
+        "type": "character",
+        "name": "char_002_amiya_1",
+        "name2": "char_003_kalts_1",
+        "focus": 1
+    },
+    {
+        "id": 69,
+        "raw": "[name=\"Amiya\"]  ...Yay!",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "...Yay!"
+    },
+    {
+        "id": 70,
+        "raw": "[Character(name=\"char_002_amiya_1\", name2=\"char_003_kalts_1\", focus=2)]",
+        "type": "character",
+        "name": "char_002_amiya_1",
+        "name2": "char_003_kalts_1",
+        "focus": 2
+    },
+    {
+        "id": 71,
+        "raw": "[name=\"Kal'tsit\"]  No, I have to say this: I do not intend to rebuild any sort of relationship with this person.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "No, I have to say this: I do not intend to rebuild any sort of relationship with this person."
+    },
+    {
+        "id": 72,
+        "raw": "[Decision(options=\"Heh. The feeling is mutual.;......;You may be forgetting there's two sides to this.\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "Heh. The feeling is mutual.;......;You may be forgetting there's two sides to this.",
+        "values": "1;2;3"
+    },
+    {
+        "id": 73,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 74,
+        "raw": "[Character(name=\"char_002_amiya_1#6\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#6"
+    },
+    {
+        "id": 75,
+        "raw": "[name=\"Amiya\"]  *Sigh*...",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "*Sigh*..."
+    },
+    {
+        "id": 76,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 77,
+        "raw": "[name=\"Kal'tsit\"]  Myself, Amiya, and three of our elite operators will lead the five teams.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Myself, Amiya, and three of our elite operators will lead the five teams."
+    },
+    {
+        "id": 78,
+        "raw": "[name=\"Kal'tsit\"]  We have three combat teams, one recon team, and one spec ops team.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "We have three combat teams, one recon team, and one spec ops team."
+    },
+    {
+        "id": 79,
+        "raw": "[name=\"Kal'tsit\"]  You may want to meet the leader of one of those teams.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "You may want to meet the leader of one of those teams."
+    },
+    {
+        "id": 80,
+        "raw": "[stopmusic(fadetime=3)]",
+        "type": "stop_music",
+        "fadetime": 3
+    },
+    {
+        "id": 81,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 82,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 83,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 84,
+        "raw": "[cameraEffect(effect=\"Grayscale\", keep=true, amount=1, fadetime=0)]",
+        "type": "camera_effect",
+        "effect": "Grayscale",
+        "keep": "true,",
+        "amount": "1,",
+        "fadetime": 0
+    },
+    {
+        "id": 85,
+        "raw": "[Background(image=\"bg_bridge\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_bridge.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 86,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 87,
+        "raw": "[Character(name=\"char_017_homura_3#5\")]",
+        "type": "character",
+        "name": "char_017_homura_3#5"
+    },
+    {
+        "id": 88,
+        "raw": "[name=\"Blaze\"]  Rosmontis! Wait!",
+        "type": "dialog",
+        "speaker": "Blaze",
+        "content": "Rosmontis! Wait!"
+    },
+    {
+        "id": 89,
+        "raw": "[playMusic(intro=\"$dignified_intro\", key=\"$dignified_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act9d0d0/m_avg_dignified_intro.mp3",
+        "key": "sound_beta_2/music/act9d0d0/m_avg_dignified_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 90,
+        "raw": "[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=2)]",
+        "type": "character",
+        "name": "char_017_homura_3#5",
+        "name2": "avg_npc_042",
+        "focus": 2
+    },
+    {
+        "id": 91,
+        "raw": "[name=\"Rosmontis\"]  Oh... Blaze.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "Oh... Blaze."
+    },
+    {
+        "id": 92,
+        "raw": "[name=\"Rosmontis\"]  You're badly wounded. Why are you here? You should go back. Go on.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "You're badly wounded. Why are you here? You should go back. Go on."
+    },
+    {
+        "id": 93,
+        "raw": "[Character(name=\"char_017_homura_3#9\", name2=\"avg_npc_042\", focus=1)]",
+        "type": "character",
+        "name": "char_017_homura_3#9",
+        "name2": "avg_npc_042",
+        "focus": 1
+    },
+    {
+        "id": 94,
+        "raw": "[name=\"Blaze\"]  Are you going to sortie this time?",
+        "type": "dialog",
+        "speaker": "Blaze",
+        "content": "Are you going to sortie this time?"
+    },
+    {
+        "id": 95,
+        "raw": "[Character(name=\"char_017_homura_3#9\", name2=\"avg_npc_042\", focus=2)]",
+        "type": "character",
+        "name": "char_017_homura_3#9",
+        "name2": "avg_npc_042",
+        "focus": 2
+    },
+    {
+        "id": 96,
+        "raw": "[name=\"Rosmontis\"]  Yes.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "Yes."
+    },
+    {
+        "id": 97,
+        "raw": "[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=1)]",
+        "type": "character",
+        "name": "char_017_homura_3#5",
+        "name2": "avg_npc_042",
+        "focus": 1
+    },
+    {
+        "id": 98,
+        "raw": "[name=\"Blaze\"]  I'll get someone to replace you. How about Misery? He's better at assault ops than you.",
+        "type": "dialog",
+        "speaker": "Blaze",
+        "content": "I'll get someone to replace you. How about Misery? He's better at assault ops than you."
+    },
+    {
+        "id": 99,
+        "raw": "[name=\"Blaze\"]  He'll wave his hand and it'll be all done. Let's have him go.",
+        "type": "dialog",
+        "speaker": "Blaze",
+        "content": "He'll wave his hand and it'll be all done. Let's have him go."
+    },
+    {
+        "id": 100,
+        "raw": "[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=2)]",
+        "type": "character",
+        "name": "char_017_homura_3#5",
+        "name2": "avg_npc_042",
+        "focus": 2
+    },
+    {
+        "id": 101,
+        "raw": "[name=\"Rosmontis\"]  You don't want me to go?",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "You don't want me to go?"
+    },
+    {
+        "id": 102,
+        "raw": "[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=1)]",
+        "type": "character",
+        "name": "char_017_homura_3#5",
+        "name2": "avg_npc_042",
+        "focus": 1
+    },
+    {
+        "id": 103,
+        "raw": "[name=\"Blaze\"]  Yeah. You shouldn't.",
+        "type": "dialog",
+        "speaker": "Blaze",
+        "content": "Yeah. You shouldn't."
+    },
+    {
+        "id": 104,
+        "raw": "[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=2)]",
+        "type": "character",
+        "name": "char_017_homura_3#5",
+        "name2": "avg_npc_042",
+        "focus": 2
+    },
+    {
+        "id": 105,
+        "raw": "[name=\"Rosmontis\"]  You're giving me a weird feeling, Blaze.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "You're giving me a weird feeling, Blaze."
+    },
+    {
+        "id": 106,
+        "raw": "[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=1)]",
+        "type": "character",
+        "name": "char_017_homura_3#5",
+        "name2": "avg_npc_042",
+        "focus": 1
+    },
+    {
+        "id": 107,
+        "raw": "[name=\"Blaze\"]  This isn't like the missions you went on before!",
+        "type": "dialog",
+        "speaker": "Blaze",
+        "content": "This isn't like the missions you went on before!"
+    },
+    {
+        "id": 108,
+        "raw": "[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=2)]",
+        "type": "character",
+        "name": "char_017_homura_3#5",
+        "name2": "avg_npc_042",
+        "focus": 2
+    },
+    {
+        "id": 109,
+        "raw": "[name=\"Rosmontis\"]  Because I might die?",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "Because I might die?"
+    },
+    {
+        "id": 110,
+        "raw": "[Character(name=\"char_017_homura_3#6\", name2=\"avg_npc_042\", focus=1)]",
+        "type": "character",
+        "name": "char_017_homura_3#6",
+        "name2": "avg_npc_042",
+        "focus": 1
+    },
+    {
+        "id": 111,
+        "raw": "[name=\"Blaze\"]  Watch it!",
+        "type": "dialog",
+        "speaker": "Blaze",
+        "content": "Watch it!"
+    },
+    {
+        "id": 112,
+        "raw": "[name=\"Blaze\"]  You can't just... like... you can't just come out and say it like that!",
+        "type": "dialog",
+        "speaker": "Blaze",
+        "content": "You can't just... like... you can't just come out and say it like that!"
+    },
+    {
+        "id": 113,
+        "raw": "[name=\"Blaze\"]  You're too young for such a dangerous mission. It's not right!",
+        "type": "dialog",
+        "speaker": "Blaze",
+        "content": "You're too young for such a dangerous mission. It's not right!"
+    },
+    {
+        "id": 114,
+        "raw": "[Character(name=\"char_017_homura_3#6\", name2=\"avg_npc_042\", focus=2)]",
+        "type": "character",
+        "name": "char_017_homura_3#6",
+        "name2": "avg_npc_042",
+        "focus": 2
+    },
+    {
+        "id": 115,
+        "raw": "[name=\"Rosmontis\"]  But Amiya's going too.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "But Amiya's going too."
+    },
+    {
+        "id": 116,
+        "raw": "[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=1)]",
+        "type": "character",
+        "name": "char_017_homura_3#5",
+        "name2": "avg_npc_042",
+        "focus": 1
+    },
+    {
+        "id": 117,
+        "raw": "[name=\"Blaze\"]  That's because she...! She's...!",
+        "type": "dialog",
+        "speaker": "Blaze",
+        "content": "That's because she...! She's...!"
+    },
+    {
+        "id": 118,
+        "raw": "[name=\"Blaze\"]  She's...",
+        "type": "dialog",
+        "speaker": "Blaze",
+        "content": "She's..."
+    },
+    {
+        "id": 119,
+        "raw": "[name=\"Blaze\"]  Amiya...",
+        "type": "dialog",
+        "speaker": "Blaze",
+        "content": "Amiya..."
+    },
+    {
+        "id": 120,
+        "raw": "[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=2)]",
+        "type": "character",
+        "name": "char_017_homura_3#5",
+        "name2": "avg_npc_042",
+        "focus": 2
+    },
+    {
+        "id": 121,
+        "raw": "[name=\"Rosmontis\"]  She's just like me. She's Infected. She's an operator.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "She's just like me. She's Infected. She's an operator."
+    },
+    {
+        "id": 122,
+        "raw": "[name=\"Rosmontis\"]  And I checked the logs. Ace and Scout are both in Chernobog. They didn't come back.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "And I checked the logs. Ace and Scout are both in Chernobog. They didn't come back."
+    },
+    {
+        "id": 123,
+        "raw": "[name=\"Rosmontis\"]  That means they're gone.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "That means they're gone."
+    },
+    {
+        "id": 124,
+        "raw": "[name=\"Rosmontis\"]  I want to see. I want to know what happened. I want to see who's running Reunion. I want to know who did what.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "I want to see. I want to know what happened. I want to see who's running Reunion. I want to know who did what."
+    },
+    {
+        "id": 125,
+        "raw": "[name=\"Rosmontis\"]  I want to know what happened to Ace and Scout.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "I want to know what happened to Ace and Scout."
+    },
+    {
+        "id": 126,
+        "raw": "[Character(name=\"char_017_homura_3#10\", name2=\"avg_npc_042\", focus=1)]",
+        "type": "character",
+        "name": "char_017_homura_3#10",
+        "name2": "avg_npc_042",
+        "focus": 1
+    },
+    {
+        "id": 127,
+        "raw": "[name=\"Blaze\"]  Rosmontis? You don't have to record... that kind of stuff.",
+        "type": "dialog",
+        "speaker": "Blaze",
+        "content": "Rosmontis? You don't have to record... that kind of stuff."
+    },
+    {
+        "id": 128,
+        "raw": "[Character(name=\"char_017_homura_3#10\", name2=\"avg_npc_042\", focus=2)]",
+        "type": "character",
+        "name": "char_017_homura_3#10",
+        "name2": "avg_npc_042",
+        "focus": 2
+    },
+    {
+        "id": 129,
+        "raw": "[name=\"Rosmontis\"]  ...Blaze?",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "...Blaze?"
+    },
+    {
+        "id": 130,
+        "raw": "[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=1)]",
+        "type": "character",
+        "name": "char_017_homura_3#5",
+        "name2": "avg_npc_042",
+        "focus": 1
+    },
+    {
+        "id": 131,
+        "raw": "[name=\"Blaze\"]  Shit. What the hell am I saying...?",
+        "type": "dialog",
+        "speaker": "Blaze",
+        "content": "Shit. What the hell am I saying...?"
+    },
+    {
+        "id": 132,
+        "raw": "[name=\"Blaze\"]  No, sorry, I shouldn't have said that. Damn my big mouth!",
+        "type": "dialog",
+        "speaker": "Blaze",
+        "content": "No, sorry, I shouldn't have said that. Damn my big mouth!"
+    },
+    {
+        "id": 133,
+        "raw": "[name=\"Blaze\"]  But, their deaths... They...",
+        "type": "dialog",
+        "speaker": "Blaze",
+        "content": "But, their deaths... They..."
+    },
+    {
+        "id": 134,
+        "raw": "[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=2)]",
+        "type": "character",
+        "name": "char_017_homura_3#5",
+        "name2": "avg_npc_042",
+        "focus": 2
+    },
+    {
+        "id": 135,
+        "raw": "[name=\"Rosmontis\"]  Blaze.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "Blaze."
+    },
+    {
+        "id": 136,
+        "raw": "[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=1)]",
+        "type": "character",
+        "name": "char_017_homura_3#5",
+        "name2": "avg_npc_042",
+        "focus": 1
+    },
+    {
+        "id": 137,
+        "raw": "[name=\"Blaze\"]  I'm the one who's wrong. We have happy memories, and painful ones too. You have to remember them both.",
+        "type": "dialog",
+        "speaker": "Blaze",
+        "content": "I'm the one who's wrong. We have happy memories, and painful ones too. You have to remember them both."
+    },
+    {
+        "id": 138,
+        "raw": "[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=2)]",
+        "type": "character",
+        "name": "char_017_homura_3#5",
+        "name2": "avg_npc_042",
+        "focus": 2
+    },
+    {
+        "id": 139,
+        "raw": "[name=\"Rosmontis\"]  You're weird, Blaze. Your words are all scattered and broken.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "You're weird, Blaze. Your words are all scattered and broken."
+    },
+    {
+        "id": 140,
+        "raw": "[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=1)]",
+        "type": "character",
+        "name": "char_017_homura_3#5",
+        "name2": "avg_npc_042",
+        "focus": 1
+    },
+    {
+        "id": 141,
+        "raw": "[name=\"Blaze\"]  ...I don't want to see you hurting so much. Why do you have to look back at them? You... you can let go of those memories.",
+        "type": "dialog",
+        "speaker": "Blaze",
+        "content": "...I don't want to see you hurting so much. Why do you have to look back at them? You... you can let go of those memories."
+    },
+    {
+        "id": 142,
+        "raw": "[name=\"Blaze\"]  You can put them there, leave them there, and don't look back.",
+        "type": "dialog",
+        "speaker": "Blaze",
+        "content": "You can put them there, leave them there, and don't look back."
+    },
+    {
+        "id": 143,
+        "raw": "[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=2)]",
+        "type": "character",
+        "name": "char_017_homura_3#5",
+        "name2": "avg_npc_042",
+        "focus": 2
+    },
+    {
+        "id": 144,
+        "raw": "[name=\"Rosmontis\"]  If I don't look... then what's the point in recording them?",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "If I don't look... then what's the point in recording them?"
+    },
+    {
+        "id": 145,
+        "raw": "[name=\"Rosmontis\"]  If I don't look... then they're forgotten.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "If I don't look... then they're forgotten."
+    },
+    {
+        "id": 146,
+        "raw": "[name=\"Rosmontis\"]  I won't forget. I definitely won't forget a single death.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "I won't forget. I definitely won't forget a single death."
+    },
+    {
+        "id": 147,
+        "raw": "[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=1)]",
+        "type": "character",
+        "name": "char_017_homura_3#5",
+        "name2": "avg_npc_042",
+        "focus": 1
+    },
+    {
+        "id": 148,
+        "raw": "[name=\"Blaze\"]  Ha. Right. You're like me. You're a Rhodes Island elite operator.",
+        "type": "dialog",
+        "speaker": "Blaze",
+        "content": "Ha. Right. You're like me. You're a Rhodes Island elite operator."
+    },
+    {
+        "id": 149,
+        "raw": "[name=\"Blaze\"]  I can't go in your place. Really, I...",
+        "type": "dialog",
+        "speaker": "Blaze",
+        "content": "I can't go in your place. Really, I..."
+    },
+    {
+        "id": 150,
+        "raw": "[name=\"Blaze\"]  Nng... ugh...",
+        "type": "dialog",
+        "speaker": "Blaze",
+        "content": "Nng... ugh..."
+    },
+    {
+        "id": 151,
+        "raw": "[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=2)]",
+        "type": "character",
+        "name": "char_017_homura_3#5",
+        "name2": "avg_npc_042",
+        "focus": 2
+    },
+    {
+        "id": 152,
+        "raw": "[name=\"Rosmontis\"]  You're bleeding again?",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "You're bleeding again?"
+    },
+    {
+        "id": 153,
+        "raw": "[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=1)]",
+        "type": "character",
+        "name": "char_017_homura_3#5",
+        "name2": "avg_npc_042",
+        "focus": 1
+    },
+    {
+        "id": 154,
+        "raw": "[name=\"Blaze\"]  It's fine.",
+        "type": "dialog",
+        "speaker": "Blaze",
+        "content": "It's fine."
+    },
+    {
+        "id": 155,
+        "raw": "[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=2)]",
+        "type": "character",
+        "name": "char_017_homura_3#5",
+        "name2": "avg_npc_042",
+        "focus": 2
+    },
+    {
+        "id": 156,
+        "raw": "[name=\"Rosmontis\"]  I'll take you.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "I'll take you."
+    },
+    {
+        "id": 157,
+        "raw": "[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=1)]",
+        "type": "character",
+        "name": "char_017_homura_3#5",
+        "name2": "avg_npc_042",
+        "focus": 1
+    },
+    {
+        "id": 158,
+        "raw": "[name=\"Blaze\"]  Oof.",
+        "type": "dialog",
+        "speaker": "Blaze",
+        "content": "Oof."
+    },
+    {
+        "id": 159,
+        "raw": "[name=\"Blaze\"]  Rosmontis... You and Amiya look after yourselves.",
+        "type": "dialog",
+        "speaker": "Blaze",
+        "content": "Rosmontis... You and Amiya look after yourselves."
+    },
+    {
+        "id": 160,
+        "raw": "[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=2)]",
+        "type": "character",
+        "name": "char_017_homura_3#5",
+        "name2": "avg_npc_042",
+        "focus": 2
+    },
+    {
+        "id": 161,
+        "raw": "[name=\"Rosmontis\"]  Right. I will.",
+        "type": "dialog",
+        "speaker": "Rosmontis",
+        "content": "Right. I will."
+    },
+    {
+        "id": 162,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 163,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 164,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 165,
+        "raw": "[cameraEffect(effect=\"Grayscale\", keep=true, amount=0, fadetime=0)]",
+        "type": "camera_effect",
+        "effect": "Grayscale",
+        "keep": "true,",
+        "amount": "0,",
+        "fadetime": 0
+    },
+    {
+        "id": 166,
+        "raw": "[Background(image=\"bg_laccolith\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_laccolith.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 167,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 168,
+        "raw": "[Decision(options=\"Do I have to? Meet her...?\", values=\"1\")]",
+        "type": "decision",
+        "options": "Do I have to? Meet her...?",
+        "values": "1"
+    },
+    {
+        "id": 169,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 170,
+        "raw": "[Character(name=\"char_002_amiya_1\")]",
+        "type": "character",
+        "name": "char_002_amiya_1"
+    },
+    {
+        "id": 171,
+        "raw": "[name=\"Amiya\"]  Dr. {@nickname}...",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Dr. {@nickname}..."
+    },
+    {
+        "id": 172,
+        "raw": "[name=\"Amiya\"]  Rhodes Island's elite operators, for whatever reason, dedicate their talent and energy to the Rhodes Island project.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Rhodes Island's elite operators, for whatever reason, dedicate their talent and energy to the Rhodes Island project."
+    },
+    {
+        "id": 173,
+        "raw": "[name=\"Amiya\"]  The teams they bring with them fully support their work. Because our elite operators, to a certain degree, can directly determine how we use a certain tactic.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "The teams they bring with them fully support their work. Because our elite operators, to a certain degree, can directly determine how we use a certain tactic."
+    },
+    {
+        "id": 174,
+        "raw": "[name=\"Amiya\"]  But not all of them are... exactly as we imagine them.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "But not all of them are... exactly as we imagine them."
+    },
+    {
+        "id": 175,
+        "raw": "[name=\"Amiya\"]  You've met Elite Operator Blaze, Doctor. There are a lot of rumors about her, maybe you haven't heard. The truth is, they're a little exaggerated.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "You've met Elite Operator Blaze, Doctor. There are a lot of rumors about her, maybe you haven't heard. The truth is, they're a little exaggerated."
+    },
+    {
+        "id": 176,
+        "raw": "[name=\"Amiya\"]  But everyone has a different impression of her.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "But everyone has a different impression of her."
+    },
+    {
+        "id": 177,
+        "raw": "[name=\"Amiya\"]  But Doctor, I think... I think you're capable of understanding her choices.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "But Doctor, I think... I think you're capable of understanding her choices."
+    },
+    {
+        "id": 178,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 179,
+        "raw": "[name=\"Kal'tsit\"]  ——",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "——"
+    },
+    {
+        "id": 180,
+        "raw": "[name=\"Kal'tsit\"]  Judging by your reaction, you may have already met the one we're talking about.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Judging by your reaction, you may have already met the one we're talking about."
+    },
+    {
+        "id": 181,
+        "raw": "[Character(name=\"char_002_amiya_1\")]",
+        "type": "character",
+        "name": "char_002_amiya_1"
+    },
+    {
+        "id": 182,
+        "raw": "[name=\"Amiya\"]  Oh? Huh...",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Oh? Huh..."
+    },
+    {
+        "id": 183,
+        "raw": "[name=\"Amiya\"]  Then... we're okay?",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Then... we're okay?"
+    },
+    {
+        "id": 184,
+        "raw": "[Decision(options=\"Anything else I should know?\", values=\"1\")]",
+        "type": "decision",
+        "options": "Anything else I should know?",
+        "values": "1"
+    },
+    {
+        "id": 185,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 186,
+        "raw": "[Character(name=\"char_002_amiya_1\")]",
+        "type": "character",
+        "name": "char_002_amiya_1"
+    },
+    {
+        "id": 187,
+        "raw": "[name=\"Amiya\"]  That's the basic plan. Honestly, um... it's practical. A plan's a plan, an operation's an operation.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "That's the basic plan. Honestly, um... it's practical. A plan's a plan, an operation's an operation."
+    },
+    {
+        "id": 188,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 189,
+        "raw": "[name=\"Kal'tsit\"]  But the op is what matters. A plan is just a basic outline of an operation. And a misstep during an operation can shatter a plan.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "But the op is what matters. A plan is just a basic outline of an operation. And a misstep during an operation can shatter a plan."
+    },
+    {
+        "id": 190,
+        "raw": "[Decision(options=\"I hope we don't have any bad omen specialists here.\", values=\"1\")]",
+        "type": "decision",
+        "options": "I hope we don't have any bad omen specialists here.",
+        "values": "1"
+    },
+    {
+        "id": 191,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 192,
+        "raw": "[stopmusic(fadetime=3)]",
+        "type": "stop_music",
+        "fadetime": 3
+    },
+    {
+        "id": 193,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 194,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 195,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 196,
+        "raw": "[Background(image=\"bg_laccolith\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_laccolith.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 197,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 198,
+        "raw": "[playMusic(intro=\"$exciting_intro\", key=\"$exciting_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act9d0d0/m_avg_exciting02_intro.mp3",
+        "key": "sound_beta_2/music/act9d0d0/m_avg_exciting02_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 199,
+        "raw": "[Character(name=\"avg_npc_012\")]",
+        "type": "character",
+        "name": "avg_npc_012"
+    },
+    {
+        "id": 200,
+        "raw": "[name=\"Engineering Operator\"]  Uh oh... that ain't good! We have a problem!",
+        "type": "dialog",
+        "speaker": "Engineering Operator",
+        "content": "Uh oh... that ain't good! We have a problem!"
+    },
+    {
+        "id": 201,
+        "raw": "[name=\"Engineering Operator\"]  Dust density is still too low. This isn't going to work with that light angle.",
+        "type": "dialog",
+        "speaker": "Engineering Operator",
+        "content": "Dust density is still too low. This isn't going to work with that light angle."
+    },
+    {
+        "id": 202,
+        "raw": "[name=\"Engineering Operator\"]  We're in the open here! If they look down from the bridge, they might spot us before we're fully operational!",
+        "type": "dialog",
+        "speaker": "Engineering Operator",
+        "content": "We're in the open here! If they look down from the bridge, they might spot us before we're fully operational!"
+    },
+    {
+        "id": 203,
+        "raw": "[Character(name=\"avg_npc_012\", name2=\"char_016_medic\", focus=2)]",
+        "type": "character",
+        "name": "avg_npc_012",
+        "name2": "char_016_medic",
+        "focus": 2
+    },
+    {
+        "id": 204,
+        "raw": "[name=\"Rhodes Island Operator\"]  But we can't cover the machine any more than it already is. If we block the airflow, we won't get enough of a current going to kick up the dust!",
+        "type": "dialog",
+        "speaker": "Rhodes Island Operator",
+        "content": "But we can't cover the machine any more than it already is. If we block the airflow, we won't get enough of a current going to kick up the dust!"
+    },
+    {
+        "id": 205,
+        "raw": "[Character(name=\"avg_npc_012\", name2=\"char_016_medic\", focus=1)]",
+        "type": "character",
+        "name": "avg_npc_012",
+        "name2": "char_016_medic",
+        "focus": 1
+    },
+    {
+        "id": 206,
+        "raw": "[name=\"Engineering Operator\"]  What do we do? Should we keep moving back...? We might not have time!",
+        "type": "dialog",
+        "speaker": "Engineering Operator",
+        "content": "What do we do? Should we keep moving back...? We might not have time!"
+    },
+    {
+        "id": 207,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 208,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 209,
+        "raw": "[Character(name=\"char_148_nearl_1#3\",fadetime=1,block=true)]",
+        "type": "character",
+        "name": "char_148_nearl_1#3",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 210,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 211,
+        "raw": "[name=\"Nearl\"]  ...I'll take care of it.",
+        "type": "dialog",
+        "speaker": "Nearl",
+        "content": "...I'll take care of it."
+    },
+    {
+        "id": 212,
+        "raw": "[name=\"Nearl\"]  Firewatch, keep an eye out, and tell me which way to adjust.",
+        "type": "dialog",
+        "speaker": "Nearl",
+        "content": "Firewatch, keep an eye out, and tell me which way to adjust."
+    },
+    {
+        "id": 213,
+        "raw": "[Character(name=\"char_158_milu\")]",
+        "type": "character",
+        "name": "char_158_milu"
+    },
+    {
+        "id": 214,
+        "raw": "[name=\"Firewatch\"]  Lady? What... are you doing?",
+        "type": "dialog",
+        "speaker": "Firewatch",
+        "content": "Lady? What... are you doing?"
+    },
+    {
+        "id": 215,
+        "raw": "[Character(name=\"char_148_nearl_1#3\")]",
+        "type": "character",
+        "name": "char_148_nearl_1#3"
+    },
+    {
+        "id": 216,
+        "raw": "[name=\"Nearl\"]  Fixing the angle of the light",
+        "type": "dialog",
+        "speaker": "Nearl",
+        "content": "Fixing the angle of the light"
+    },
+    {
+        "id": 217,
+        "raw": "[name=\"Nearl\"]  To mitigate the suffering of the world... I believe even the sun itself will bow to me.",
+        "type": "dialog",
+        "speaker": "Nearl",
+        "content": "To mitigate the suffering of the world... I believe even the sun itself will bow to me."
+    },
+    {
+        "id": 218,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 219,
+        "raw": "[PlaySound(key=\"$b_char_defboost\", volume=0.5, Delay=0.4)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/battle/b_char/b_char_defboost.mp3",
+        "volume": "0.5,",
+        "Delay": 0.4
+    },
+    {
+        "id": 220,
+        "raw": "[PlaySound(key=\"$flashback\", volume=0.2, Delay=0.7)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/general/g_ui/g_ui_stagepush.mp3",
+        "volume": "0.2,",
+        "Delay": 0.7
+    },
+    {
+        "id": 221,
+        "raw": "[Blocker(a=1, r=1, g=1, b=1, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "1,",
+        "g": "1,",
+        "b": "1,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 222,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 223,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 224,
+        "raw": "[Character(name=\"char_401_elysm\",fadetime=1,block=true)]",
+        "type": "character",
+        "name": "char_401_elysm",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 225,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 226,
+        "raw": "[name=\"Elysium\"]  Oh? Who's that on the dune? Nearl? They're not saddling up and not falling back?",
+        "type": "dialog",
+        "speaker": "Elysium",
+        "content": "Oh? Who's that on the dune? Nearl? They're not saddling up and not falling back?"
+    },
+    {
+        "id": 227,
+        "raw": "[name=\"Elysium\"]  What's she doing? Meditating? Posing... is she posing here?",
+        "type": "dialog",
+        "speaker": "Elysium",
+        "content": "What's she doing? Meditating? Posing... is she posing here?"
+    },
+    {
+        "id": 228,
+        "raw": "[name=\"Elysium\"]  ...No, wait, what's that light? Her whole body is glowing... No, uh oh! Too bright!",
+        "type": "dialog",
+        "speaker": "Elysium",
+        "content": "...No, wait, what's that light? Her whole body is glowing... No, uh oh! Too bright!"
+    },
+    {
+        "id": 229,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 230,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 231,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0.4, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.4,",
+        "block": true
+    },
+    {
+        "id": 232,
+        "raw": "[Character(name=\"char_401_elysm\")]",
+        "type": "character",
+        "name": "char_401_elysm"
+    },
+    {
+        "id": 233,
+        "raw": "[name=\"Elysium\"]  Um, thanks, Captain...",
+        "type": "dialog",
+        "speaker": "Elysium",
+        "content": "Um, thanks, Captain..."
+    },
+    {
+        "id": 234,
+        "raw": "[name=\"Elysium\"]  Thanks for covering my eyes, but it would be great if you weren't squeezing like you wanted to crush my skull.",
+        "type": "dialog",
+        "speaker": "Elysium",
+        "content": "Thanks for covering my eyes, but it would be great if you weren't squeezing like you wanted to crush my skull."
+    },
+    {
+        "id": 235,
+        "raw": "[name=\"Elysium\"]  What is Nearl doing?",
+        "type": "dialog",
+        "speaker": "Elysium",
+        "content": "What is Nearl doing?"
+    },
+    {
+        "id": 236,
+        "raw": "[name=\"Elysium\"]  She's okay? Well... you say that, Captain, but that light is brighter than the sun. What is she up to?",
+        "type": "dialog",
+        "speaker": "Elysium",
+        "content": "She's okay? Well... you say that, Captain, but that light is brighter than the sun. What is she up to?"
+    },
+    {
+        "id": 237,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 238,
+        "raw": "[Blocker(a=0.8, r=1, g=1, b=1, fadetime=0.2, block=true)]",
+        "type": "blocker",
+        "a": "0.8,",
+        "r": "1,",
+        "g": "1,",
+        "b": "1,",
+        "fadetime": "0.2,",
+        "block": true
+    },
+    {
+        "id": 239,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 240,
+        "raw": "[Character(name=\"char_401_elysm\")]",
+        "type": "character",
+        "name": "char_401_elysm"
+    },
+    {
+        "id": 241,
+        "raw": "[name=\"Elysium\"]  Huh? No way... she's pulling in all the light around us?",
+        "type": "dialog",
+        "speaker": "Elysium",
+        "content": "Huh? No way... she's pulling in all the light around us?"
+    },
+    {
+        "id": 242,
+        "raw": "[name=\"Elysium\"]  Woah.",
+        "type": "dialog",
+        "speaker": "Elysium",
+        "content": "Woah."
+    },
+    {
+        "id": 243,
+        "raw": "[name=\"Elysium\"]  Captain, all the light is starting to form together.",
+        "type": "dialog",
+        "speaker": "Elysium",
+        "content": "Captain, all the light is starting to form together."
+    },
+    {
+        "id": 244,
+        "raw": "[name=\"Elysium\"]  I know. I'm just saying, could anyone but the Radiant Knight do something like this?",
+        "type": "dialog",
+        "speaker": "Elysium",
+        "content": "I know. I'm just saying, could anyone but the Radiant Knight do something like this?"
+    },
+    {
+        "id": 245,
+        "raw": "[name=\"Elysium\"]  Captain, look at the shadows of the sand dunes. Can you even tell what time of day it is?",
+        "type": "dialog",
+        "speaker": "Elysium",
+        "content": "Captain, look at the shadows of the sand dunes. Can you even tell what time of day it is?"
+    },
+    {
+        "id": 246,
+        "raw": "[name=\"Elysium\"]  *Sigh*... I'm just trying to brighten the mood here. And once we kick up that sandstorm, we won't be able to see the shadows, right?",
+        "type": "dialog",
+        "speaker": "Elysium",
+        "content": "*Sigh*... I'm just trying to brighten the mood here. And once we kick up that sandstorm, we won't be able to see the shadows, right?"
+    },
+    {
+        "id": 247,
+        "raw": "[name=\"Elysium\"]  Shutting up. Sorry.",
+        "type": "dialog",
+        "speaker": "Elysium",
+        "content": "Shutting up. Sorry."
+    },
+    {
+        "id": 248,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 249,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 250,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 251,
+        "raw": "[Background(image=\"bg_aircraft\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_aircraft.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 252,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 253,
+        "raw": "[Character(name=\"char_130_doberm_ex\")]",
+        "type": "character",
+        "name": "char_130_doberm_ex"
+    },
+    {
+        "id": 254,
+        "raw": "[name=\"Dobermann\"]  Take us up! We've got some weird-colored balls clipping us!",
+        "type": "dialog",
+        "speaker": "Dobermann",
+        "content": "Take us up! We've got some weird-colored balls clipping us!"
+    },
+    {
+        "id": 255,
+        "raw": "[Character(name=\"avg_npc_012\", name2=\"char_130_doberm_ex\", focus=1)]",
+        "type": "character",
+        "name": "avg_npc_012",
+        "name2": "char_130_doberm_ex",
+        "focus": 1
+    },
+    {
+        "id": 256,
+        "raw": "[name=\"Pilot\"]  Don't be scared, Instructor. Reunion casters aren't good enough to shoot us down.",
+        "type": "dialog",
+        "speaker": "Pilot",
+        "content": "Don't be scared, Instructor. Reunion casters aren't good enough to shoot us down."
+    },
+    {
+        "id": 257,
+        "raw": "[Character(name=\"avg_npc_012\", name2=\"char_130_doberm_ex\", focus=2)]",
+        "type": "character",
+        "name": "avg_npc_012",
+        "name2": "char_130_doberm_ex",
+        "focus": 2
+    },
+    {
+        "id": 258,
+        "raw": "[name=\"Dobermann\"]  We're just a distraction, no need to put on an air show for Reunion!",
+        "type": "dialog",
+        "speaker": "Dobermann",
+        "content": "We're just a distraction, no need to put on an air show for Reunion!"
+    },
+    {
+        "id": 259,
+        "raw": "[Character(name=\"avg_npc_012\", name2=\"char_130_doberm_ex\", focus=1)]",
+        "type": "character",
+        "name": "avg_npc_012",
+        "name2": "char_130_doberm_ex",
+        "focus": 1
+    },
+    {
+        "id": 260,
+        "raw": "[name=\"Pilot\"]  Put on a good enough show and Reunion might just surrender, huh?",
+        "type": "dialog",
+        "speaker": "Pilot",
+        "content": "Put on a good enough show and Reunion might just surrender, huh?"
+    },
+    {
+        "id": 261,
+        "raw": "[name=\"Pilot\"]  Isn't that what they call a show of force?",
+        "type": "dialog",
+        "speaker": "Pilot",
+        "content": "Isn't that what they call a show of force?"
+    },
+    {
+        "id": 262,
+        "raw": "[Character(name=\"avg_npc_012\", name2=\"char_130_doberm_ex\", focus=2)]",
+        "type": "character",
+        "name": "avg_npc_012",
+        "name2": "char_130_doberm_ex",
+        "focus": 2
+    },
+    {
+        "id": 263,
+        "raw": "[name=\"Dobermann\"]  Aerial acrobatics isn't a show of force!",
+        "type": "dialog",
+        "speaker": "Dobermann",
+        "content": "Aerial acrobatics isn't a show of force!"
+    },
+    {
+        "id": 264,
+        "raw": "[CameraShake(duration=0.4, xstrength=0, ystrength=8, vibrato=30, randomness=30, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.4,",
+        "xstrength": "0,",
+        "ystrength": "8,",
+        "vibrato": "30,",
+        "randomness": "30,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 265,
+        "raw": "[Character(name=\"avg_npc_012\", name2=\"char_130_doberm_ex\", focus=1)]",
+        "type": "character",
+        "name": "avg_npc_012",
+        "name2": "char_130_doberm_ex",
+        "focus": 1
+    },
+    {
+        "id": 266,
+        "raw": "[name=\"Pilot\"]  Hold on tight, Instructor!",
+        "type": "dialog",
+        "speaker": "Pilot",
+        "content": "Hold on tight, Instructor!"
+    },
+    {
+        "id": 267,
+        "raw": "[Character(name=\"avg_npc_012\", name2=\"char_130_doberm_ex\", focus=2)]",
+        "type": "character",
+        "name": "avg_npc_012",
+        "name2": "char_130_doberm_ex",
+        "focus": 2
+    },
+    {
+        "id": 268,
+        "raw": "[CameraShake(duration=0.4, xstrength=0, ystrength=8, vibrato=30, randomness=30, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.4,",
+        "xstrength": "0,",
+        "ystrength": "8,",
+        "vibrato": "30,",
+        "randomness": "30,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 269,
+        "raw": "[name=\"Dobermann\"]  —I need a barf bag!",
+        "type": "dialog",
+        "speaker": "Dobermann",
+        "content": "—I need a barf bag!"
+    },
+    {
+        "id": 270,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 271,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 272,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 273,
+        "raw": "[Background(image=\"bg_laccolith\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_laccolith.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 274,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 275,
+        "raw": "[playsound(key=\"$d_gen_transmissionget\", volume=0.4)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_transmissionget.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 276,
+        "raw": "[name=\"Nearl\"]  The device is fully functional! Amiya, we're ready to move!",
+        "type": "dialog",
+        "speaker": "Nearl",
+        "content": "The device is fully functional! Amiya, we're ready to move!"
+    },
+    {
+        "id": 277,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 278,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 279,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 280,
+        "raw": "[Character(name=\"char_002_amiya_1#7\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#7"
+    },
+    {
+        "id": 281,
+        "raw": "[name=\"Amiya\"]  Roger!",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Roger!"
+    },
+    {
+        "id": 282,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 283,
+        "raw": "[name=\"Kal'tsit\"]  Drivers, maintain a steady speed! Check your maps. Use the sandstorm to cover your approach to the core city until you're in range to deploy boarding gear! Engage!",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Drivers, maintain a steady speed! Check your maps. Use the sandstorm to cover your approach to the core city until you're in range to deploy boarding gear! Engage!"
+    },
+    {
+        "id": 284,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 285,
+        "raw": "[Image(image=\"avg_7_9\",x=-100, y=0, xScale=1, yScale=1, fadetime=0)]",
+        "type": "image",
+        "image": "avg_7_9.png",
+        "x": "-100,",
+        "y": "0,",
+        "xScale": "1,",
+        "yScale": "1,",
+        "fadetime": 0
+    },
+    {
+        "id": 286,
+        "raw": "[ImageTween(xFrom=-100,xTo=0,xScale=1, yScale=1, duration=60, block=false)]",
+        "type": "image_tween",
+        "xFrom": "-100,xTo=0,xScale=1,",
+        "yScale": "1,",
+        "duration": "60,",
+        "block": false
+    },
+    {
+        "id": 287,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 288,
+        "raw": "[playsound(key=\"$sportscarstart\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_sportscarstart.mp3",
+        "volume": 1
+    },
+    {
+        "id": 289,
+        "raw": "[CameraShake(duration=0.4, xstrength=0, ystrength=8, vibrato=30, randomness=30, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.4,",
+        "xstrength": "0,",
+        "ystrength": "8,",
+        "vibrato": "30,",
+        "randomness": "30,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 290,
+        "raw": "[playsound(key=\"$sportscarstart\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_sportscarstart.mp3",
+        "volume": 1
+    },
+    {
+        "id": 291,
+        "raw": "[CameraShake(duration=1, xstrength=0, ystrength=8, vibrato=30, randomness=30, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "xstrength": "0,",
+        "ystrength": "8,",
+        "vibrato": "30,",
+        "randomness": "30,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 292,
+        "raw": "[playsound(key=\"$drift\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_drift.mp3",
+        "volume": 1
+    },
+    {
+        "id": 293,
+        "raw": "[CameraShake(duration=0.2, xstrength=0, ystrength=8, vibrato=30, randomness=30, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.2,",
+        "xstrength": "0,",
+        "ystrength": "8,",
+        "vibrato": "30,",
+        "randomness": "30,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 294,
+        "raw": "[playsound(key=\"$drift\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_drift.mp3",
+        "volume": 1
+    },
+    {
+        "id": 295,
+        "raw": "[CameraShake(duration=0.8, xstrength=0, ystrength=8, vibrato=30, randomness=30, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.8,",
+        "xstrength": "0,",
+        "ystrength": "8,",
+        "vibrato": "30,",
+        "randomness": "30,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 296,
+        "raw": "[Character(name=\"char_002_amiya_1\")]",
+        "type": "character",
+        "name": "char_002_amiya_1"
+    },
+    {
+        "id": 297,
+        "raw": "[name=\"Amiya\"]  The sand will cover our tracks. Remember your protective gear, and don't let sand into our sensitive equipment!",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "The sand will cover our tracks. Remember your protective gear, and don't let sand into our sensitive equipment!"
+    },
+    {
+        "id": 298,
+        "raw": "[name=\"Amiya\"]  But... I can see the sun. Why is the sunlight breaking through the sandstorm?",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "But... I can see the sun. Why is the sunlight breaking through the sandstorm?"
+    },
+    {
+        "id": 299,
+        "raw": "[name=\"Amiya\"]  The underside of the core city is so clear, it's like... Arts.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "The underside of the core city is so clear, it's like... Arts."
+    },
+    {
+        "id": 300,
+        "raw": "[name=\"Amiya\"]  This wasn't... part of the plan. Is that natural light?",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "This wasn't... part of the plan. Is that natural light?"
+    },
+    {
+        "id": 301,
+        "raw": "[playsound(key=\"$d_gen_transmissionget\", volume=0.4)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_transmissionget.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 302,
+        "raw": "[Character(name=\"char_002_amiya_1\", name2=\"char_148_nearl_1\", focus=2)]",
+        "type": "character",
+        "name": "char_002_amiya_1",
+        "name2": "char_148_nearl_1",
+        "focus": 2
+    },
+    {
+        "id": 303,
+        "raw": "[name=\"Nearl\"]  ...Don't worry about it!",
+        "type": "dialog",
+        "speaker": "Nearl",
+        "content": "...Don't worry about it!"
+    },
+    {
+        "id": 304,
+        "raw": "[Character(name=\"char_002_amiya_1#7\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#7"
+    },
+    {
+        "id": 305,
+        "raw": "[name=\"Amiya\"]  Roger that! Grappling hooks, prepare to fire! Operators, make sure the cables are securely fixed to the underside of the city!",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Roger that! Grappling hooks, prepare to fire! Operators, make sure the cables are securely fixed to the underside of the city!"
+    },
+    {
+        "id": 306,
+        "raw": "[name=\"Amiya\"]  Once all our operators are aboard, the vehicles will depart at once! I don't usually say things like this, but I'm pretty sure that light just now is a good omen for us!",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Once all our operators are aboard, the vehicles will depart at once! I don't usually say things like this, but I'm pretty sure that light just now is a good omen for us!"
+    },
+    {
+        "id": 307,
+        "raw": "[Character(name=\"char_148_nearl_1\")]",
+        "type": "character",
+        "name": "char_148_nearl_1"
+    },
+    {
+        "id": 308,
+        "raw": "[name=\"Nearl\"]  ...Definitely!",
+        "type": "dialog",
+        "speaker": "Nearl",
+        "content": "...Definitely!"
+    },
+    {
+        "id": 309,
+        "raw": "[name=\"Nearl\"]  (I made it a little too intense and had to aim it at the ground, but let's not tell her that part...)",
+        "type": "dialog",
+        "speaker": "Nearl",
+        "content": "(I made it a little too intense and had to aim it at the ground, but let's not tell her that part...)"
+    },
+    {
+        "id": 310,
+        "raw": "[name=\"Nearl\"]  Hold on, the core city is speeding up?",
+        "type": "dialog",
+        "speaker": "Nearl",
+        "content": "Hold on, the core city is speeding up?"
+    },
+    {
+        "id": 311,
+        "raw": "[name=\"Nearl\"]  Our machines are wind-driven, but they can only keep the sandstorm up within a one kilometer range! If they break that range, they'll spot us for sure!",
+        "type": "dialog",
+        "speaker": "Nearl",
+        "content": "Our machines are wind-driven, but they can only keep the sandstorm up within a one kilometer range! If they break that range, they'll spot us for sure!"
+    },
+    {
+        "id": 312,
+        "raw": "[Character(name=\"char_002_amiya_1\")]",
+        "type": "character",
+        "name": "char_002_amiya_1"
+    },
+    {
+        "id": 313,
+        "raw": "[name=\"Amiya\"]  Hurry up, everyone!",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Hurry up, everyone!"
+    },
+    {
+        "id": 314,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 315,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 316,
+        "raw": "[playsound(key=\"$drift\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_drift.mp3",
+        "volume": 1
+    },
+    {
+        "id": 317,
+        "raw": "[CameraShake(duration=0.2, xstrength=0, ystrength=8, vibrato=30, randomness=30, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.2,",
+        "xstrength": "0,",
+        "ystrength": "8,",
+        "vibrato": "30,",
+        "randomness": "30,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 318,
+        "raw": "[playsound(key=\"$drift\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_drift.mp3",
+        "volume": 1
+    },
+    {
+        "id": 319,
+        "raw": "[CameraShake(duration=0.8, xstrength=0, ystrength=8, vibrato=30, randomness=30, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.8,",
+        "xstrength": "0,",
+        "ystrength": "8,",
+        "vibrato": "30,",
+        "randomness": "30,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 320,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 321,
+        "raw": "[image]",
+        "type": "image"
+    },
+    {
+        "id": 322,
+        "raw": "[Background(image=\"bg_laccolith\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_laccolith.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 323,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 324,
+        "raw": "[playsound(key=\"$drift\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_drift.mp3",
+        "volume": 1
+    },
+    {
+        "id": 325,
+        "raw": "[CameraShake(duration=0.2, xstrength=0, ystrength=8, vibrato=30, randomness=30, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.2,",
+        "xstrength": "0,",
+        "ystrength": "8,",
+        "vibrato": "30,",
+        "randomness": "30,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 326,
+        "raw": "[playsound(key=\"$drift\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_drift.mp3",
+        "volume": 1
+    },
+    {
+        "id": 327,
+        "raw": "[CameraShake(duration=0.8, xstrength=0, ystrength=8, vibrato=30, randomness=30, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.8,",
+        "xstrength": "0,",
+        "ystrength": "8,",
+        "vibrato": "30,",
+        "randomness": "30,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 328,
+        "raw": "[Character(name=\"avg_npc_012\")]",
+        "type": "character",
+        "name": "avg_npc_012"
+    },
+    {
+        "id": 329,
+        "raw": "[name=\"Pilot\"]  We're out of time! We have to slow down!",
+        "type": "dialog",
+        "speaker": "Pilot",
+        "content": "We're out of time! We have to slow down!"
+    },
+    {
+        "id": 330,
+        "raw": "[name=\"Pilot\"]  If we drive out of the sandstorm,, Chernobog's optical detection system will pick us right up and blow the whole op!",
+        "type": "dialog",
+        "speaker": "Pilot",
+        "content": "If we drive out of the sandstorm,, Chernobog's optical detection system will pick us right up and blow the whole op!"
+    },
+    {
+        "id": 331,
+        "raw": "[name=\"Pilot\"]  How many people do you have left? Hurry up and...",
+        "type": "dialog",
+        "speaker": "Pilot",
+        "content": "How many people do you have left? Hurry up and..."
+    },
+    {
+        "id": 332,
+        "raw": "[Decision(options=\"There aren't any left.\", values=\"1\")]",
+        "type": "decision",
+        "options": "There aren't any left.",
+        "values": "1"
+    },
+    {
+        "id": 333,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 334,
+        "raw": "[Character(name=\"avg_npc_012\")]",
+        "type": "character",
+        "name": "avg_npc_012"
+    },
+    {
+        "id": 335,
+        "raw": "[name=\"Pilot\"]  Huh?",
+        "type": "dialog",
+        "speaker": "Pilot",
+        "content": "Huh?"
+    },
+    {
+        "id": 336,
+        "raw": "[Decision(options=\"I'll do it myself!;(Silently put on a dust mask);Pass me the carabiner. I'm going myself.\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "I'll do it myself!;(Silently put on a dust mask);Pass me the carabiner. I'm going myself.",
+        "values": "1;2;3"
+    },
+    {
+        "id": 337,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 338,
+        "raw": "[Character(name=\"avg_npc_012\")]",
+        "type": "character",
+        "name": "avg_npc_012"
+    },
+    {
+        "id": 339,
+        "raw": "[name=\"Pilot\"]  It's too dangerous, Doctor!",
+        "type": "dialog",
+        "speaker": "Pilot",
+        "content": "It's too dangerous, Doctor!"
+    },
+    {
+        "id": 340,
+        "raw": "[name=\"Pilot\"]  You've never had operator training! We can't send you up there alone!",
+        "type": "dialog",
+        "speaker": "Pilot",
+        "content": "You've never had operator training! We can't send you up there alone!"
+    },
+    {
+        "id": 341,
+        "raw": "[name=\"Pilot\"]  Didn't Dr. Kal'tsit assign you any battlefield support?",
+        "type": "dialog",
+        "speaker": "Pilot",
+        "content": "Didn't Dr. Kal'tsit assign you any battlefield support?"
+    },
+    {
+        "id": 342,
+        "raw": "[Decision(options=\"Nope. What of it?;......;Maybe she thought I could use the exercise myself.\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "Nope. What of it?;......;Maybe she thought I could use the exercise myself.",
+        "values": "1;2;3"
+    },
+    {
+        "id": 343,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 344,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 345,
+        "raw": "[name=\"Kal'tsit\"]  I did.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "I did."
+    },
+    {
+        "id": 346,
+        "raw": "[Decision(options=\"?!\", values=\"1\")]",
+        "type": "decision",
+        "options": "?!",
+        "values": "1"
+    },
+    {
+        "id": 347,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 348,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 349,
+        "raw": "[name=\"Kal'tsit\"]  Me.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Me."
+    },
+    {
+        "id": 350,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 351,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 352,
+        "raw": "Kal'tsit grabbed by the waist with one arm and pulled you onto the zipline with the other.",
+        "type": "narration",
+        "content": "Kal'tsit grabbed by the waist with one arm and pulled you onto the zipline with the other."
+    },
+    {
+        "id": 353,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 354,
+        "raw": "[name=\"Kal'tsit\"]  Seize your own fate next time, Dr. {@nickname}.",
+        "type": "dialog",
+        "speaker": "Kal'tsit",
+        "content": "Seize your own fate next time, Dr. {@nickname}."
+    },
+    {
+        "id": 355,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 356,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 357,
+        "raw": "[Background]",
+        "type": "background"
+    },
+    {
+        "id": 358,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 359,
+        "raw": "[Image(image=\"avg_7_9\",x=0, y=0, xScale=0.9, yScale=0.9, fadetime=0)]",
+        "type": "image",
+        "image": "avg_7_9.png",
+        "x": "0,",
+        "y": "0,",
+        "xScale": "0.9,",
+        "yScale": "0.9,",
+        "fadetime": 0
+    },
+    {
+        "id": 360,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 361,
+        "raw": "The sandstorm was ferocious, and the 'arm' holding you was very hard. You couldn't be certain it belonged to Kal'tsit.",
+        "type": "narration",
+        "content": "The sandstorm was ferocious, and the 'arm' holding you was very hard. You couldn't be certain it belonged to Kal'tsit."
+    },
+    {
+        "id": 362,
+        "raw": "[Background]",
+        "type": "background"
+    },
+    {
+        "id": 363,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 364,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 365,
+        "raw": "[Image(image=\"avg_7_8\",x=0, y=0, xScale=0.9, yScale=0.9, fadetime=0)]",
+        "type": "image",
+        "image": "avg_7_8.png",
+        "x": "0,",
+        "y": "0,",
+        "xScale": "0.9,",
+        "yScale": "0.9,",
+        "fadetime": 0
+    },
+    {
+        "id": 366,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 367,
+        "raw": "[playsound(key=\"$d_gen_transmissionget\", volume=0.4)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_transmissionget.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 368,
+        "raw": "[name=\"Amiya\"]  All squads, take your positions!",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "All squads, take your positions!"
+    },
+    {
+        "id": 369,
+        "raw": "[name=\"Amiya\"]  There is no room for error in the operation to come!",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "There is no room for error in the operation to come!"
+    },
+    {
+        "id": 370,
+        "raw": "[stopmusic(fadetime=3)]",
+        "type": "stop_music",
+        "fadetime": 3
+    },
+    {
+        "id": 371,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 372,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 373,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 374,
+        "raw": "[image]",
+        "type": "image"
+    },
+    {
+        "id": 375,
+        "raw": "[Background(image=\"bg_cherunder\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_cherunder.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 376,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 377,
+        "raw": "10:30 a.m.",
+        "type": "narration",
+        "content": "10:30 a.m."
+    },
+    {
+        "id": 378,
+        "raw": "Core City Foundation",
+        "type": "narration",
+        "content": "Core City Foundation"
+    },
+    {
+        "id": 379,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 380,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3"
+    },
+    {
+        "id": 381,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 382,
+        "raw": "[Character(name=\"avg_npc_012\")]",
+        "type": "character",
+        "name": "avg_npc_012"
+    },
+    {
+        "id": 383,
+        "raw": "[name=\"Rhodes Island Operator\"]  Yeah, this is definitely a sign of someone breaking in here.",
+        "type": "dialog",
+        "speaker": "Rhodes Island Operator",
+        "content": "Yeah, this is definitely a sign of someone breaking in here."
+    },
+    {
+        "id": 384,
+        "raw": "[name=\"Rhodes Island Operator\"]  Confirmed one infiltrator.",
+        "type": "dialog",
+        "speaker": "Rhodes Island Operator",
+        "content": "Confirmed one infiltrator."
+    },
+    {
+        "id": 385,
+        "raw": "[Character(name=\"char_002_amiya_1#7\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#7"
+    },
+    {
+        "id": 386,
+        "raw": "[name=\"Amiya\"]  We can't be sure if that bloodstain over there is Reunion's or someone else's. It hasn't turned yet.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "We can't be sure if that bloodstain over there is Reunion's or someone else's. It hasn't turned yet."
+    },
+    {
+        "id": 387,
+        "raw": "[name=\"Amiya\"]  It very well could be Officer Ch'en's! We have to hurry.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "It very well could be Officer Ch'en's! We have to hurry."
+    },
+    {
+        "id": 388,
+        "raw": "[Character(name=\"char_002_amiya_1#6\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#6"
+    },
+    {
+        "id": 389,
+        "raw": "[name=\"Amiya\"]  Oh, Doctor!",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Oh, Doctor!"
+    },
+    {
+        "id": 390,
+        "raw": "[name=\"Amiya\"]  I'm glad you made it here safe.",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "I'm glad you made it here safe."
+    },
+    {
+        "id": 391,
+        "raw": "[Decision(options=\"You call that safe...!;...close.;I had help. You were this close to losing me.\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "You call that safe...!;...close.;I had help. You were this close to losing me.",
+        "values": "1;2;3"
+    },
+    {
+        "id": 392,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 393,
+        "raw": "[Character(name=\"char_002_amiya_1\")]",
+        "type": "character",
+        "name": "char_002_amiya_1"
+    },
+    {
+        "id": 394,
+        "raw": "[name=\"Amiya\"]  ...Oh? Huh?!",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "...Oh? Huh?!"
+    },
+    {
+        "id": 395,
+        "raw": "[name=\"Amiya\"]  Th-that dangerous, huh? Did you get hurt, Dr. {@nickname}?!",
+        "type": "dialog",
+        "speaker": "Amiya",
+        "content": "Th-that dangerous, huh? Did you get hurt, Dr. {@nickname}?!"
+    },
+    {
+        "id": 396,
+        "raw": "[Decision(options=\"I'm fine. Let's go. Just some psychological trauma.\", values=\"1\")]",
+        "type": "decision",
+        "options": "I'm fine. Let's go. Just some psychological trauma.",
+        "values": "1"
+    },
+    {
+        "id": 397,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 398,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 399,
+        "raw": "[Blocker(fadetime=2,block=true)]",
+        "type": "blocker",
+        "fadetime": "2,block=true"
+    },
+    {
+        "id": 400,
+        "raw": "[Image]",
+        "type": "image"
+    }
+]

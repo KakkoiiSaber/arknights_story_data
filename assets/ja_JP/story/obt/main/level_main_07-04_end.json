@@ -1,0 +1,2874 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")] ",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK"
+    },
+    {
+        "id": 2,
+        "raw": "[stopmusic]",
+        "type": "stop_music"
+    },
+    {
+        "id": 3,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 4,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 5,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 6,
+        "raw": "[Blocker(fadetime=1,block=true)]",
+        "type": "blocker",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 7,
+        "raw": "[Dialog(fadetime=2,block=true)]",
+        "type": "dialog_marker",
+        "fadetime": "2,block=true"
+    },
+    {
+        "id": 8,
+        "raw": "6:00am",
+        "type": "narration",
+        "content": "6:00am"
+    },
+    {
+        "id": 9,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 10,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 11,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 12,
+        "raw": "[Background(image=\"bg_laccolith\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_laccolith.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 13,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 14,
+        "raw": "[playMusic(intro=\"$frontline_intro\", key=\"$frontline_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act9d0d0/m_avg_frontline_intro.mp3",
+        "key": "sound_beta_2/music/act9d0d0/m_avg_frontline_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 15,
+        "raw": "[Decision(options=\"偵察部隊の対処後だと、間に合わないかもしれない。\", values=\"1\")]",
+        "type": "decision",
+        "options": "偵察部隊の対処後だと、間に合わないかもしれない。",
+        "values": "1"
+    },
+    {
+        "id": 16,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 17,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 18,
+        "raw": "[name=\"ケルシー\"]  その通りだ。状況は逼迫している。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "その通りだ。状況は逼迫している。"
+    },
+    {
+        "id": 19,
+        "raw": "[Decision(options=\"地面から飛び移るわけにはいかないし……\", values=\"1\")]",
+        "type": "decision",
+        "options": "地面から飛び移るわけにはいかないし……",
+        "values": "1"
+    },
+    {
+        "id": 20,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 21,
+        "raw": "[Character(name=\"char_002_amiya_1\")]",
+        "type": "character",
+        "name": "char_002_amiya_1"
+    },
+    {
+        "id": 22,
+        "raw": "[name=\"アーミヤ\"]  えっと……そうする場合もありますが。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "えっと……そうする場合もありますが。"
+    },
+    {
+        "id": 23,
+        "raw": "[name=\"アーミヤ\"]  今はこの中枢区画は移動中ですから、下層の基礎構造部分に入るのは困難です。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "今はこの中枢区画は移動中ですから、下層の基礎構造部分に入るのは困難です。"
+    },
+    {
+        "id": 24,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 25,
+        "raw": "[name=\"ケルシー\"]  砂地で移動都市が通りかかるのを待っていたら、相対速度的にも高度的にも、かなりの行動制限を受ける。作戦遂行は実質不可能だ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "砂地で移動都市が通りかかるのを待っていたら、相対速度的にも高度的にも、かなりの行動制限を受ける。作戦遂行は実質不可能だ。"
+    },
+    {
+        "id": 26,
+        "raw": "[name=\"ケルシー\"]  移動都市下層部のメンテナンス口やダストシュートをこじ開けられなければ、用意したエサやカモフラージュが無意味になる。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "移動都市下層部のメンテナンス口やダストシュートをこじ開けられなければ、用意したエサやカモフラージュが無意味になる。"
+    },
+    {
+        "id": 27,
+        "raw": "[name=\"ケルシー\"]  我々の五個小隊は、砂嵐を隠れ蓑にして中枢区画に接近、最終的にその下層に位置する工業エリアに侵入する。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "我々の五個小隊は、砂嵐を隠れ蓑にして中枢区画に接近、最終的にその下層に位置する工業エリアに侵入する。"
+    },
+    {
+        "id": 28,
+        "raw": "[Decision(options=\"五つの小隊しか出していないのか？\", values=\"1\")]",
+        "type": "decision",
+        "options": "五つの小隊しか出していないのか？",
+        "values": "1"
+    },
+    {
+        "id": 29,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 30,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 31,
+        "raw": "[name=\"ケルシー\"]  ウルサスの地方官僚相手に勇み足を踏むつもりはない。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "ウルサスの地方官僚相手に勇み足を踏むつもりはない。"
+    },
+    {
+        "id": 32,
+        "raw": "[name=\"ケルシー\"]  容易に動向を察知された挙げ句、遣わされた高速軍艦でロドスごと蹂躙されるのはご免だからな。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "容易に動向を察知された挙げ句、遣わされた高速軍艦でロドスごと蹂躙されるのはご免だからな。"
+    },
+    {
+        "id": 33,
+        "raw": "[name=\"ケルシー\"]  この辺境の地でそんなことが起きても、メディアで報道されることはない。ただ資産家や保険会社が、裏で入手した被害者の名前を顧客リストから消し、宙に浮いた財産をそっと金庫にしまうだけだ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "この辺境の地でそんなことが起きても、メディアで報道されることはない。ただ資産家や保険会社が、裏で入手した被害者の名前を顧客リストから消し、宙に浮いた財産をそっと金庫にしまうだけだ。"
+    },
+    {
+        "id": 34,
+        "raw": "[name=\"ケルシー\"]  誰も口を開くことはない。ウルサスがそれを望まないからだ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "誰も口を開くことはない。ウルサスがそれを望まないからだ。"
+    },
+    {
+        "id": 35,
+        "raw": "[name=\"ケルシー\"]  中立の立場はロドスに自由を保証しているが、その代わり、我々はどこかの政治勢力を後ろ盾にすることはできない。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "中立の立場はロドスに自由を保証しているが、その代わり、我々はどこかの政治勢力を後ろ盾にすることはできない。"
+    },
+    {
+        "id": 36,
+        "raw": "[name=\"ケルシー\"]  水面下の行動は我々の基本的生存戦略だ。君を救出する際も同様の状況だった。憶えていないだろうがね。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "水面下の行動は我々の基本的生存戦略だ。君を救出する際も同様の状況だった。憶えていないだろうがね。"
+    },
+    {
+        "id": 37,
+        "raw": "[name=\"ケルシー\"]  作戦規模の大小に関わらず、ロドスが同時派遣可能な最大戦力は、5個小隊。それが我々の戦略を成り立たせる必須条件だ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "作戦規模の大小に関わらず、ロドスが同時派遣可能な最大戦力は、5個小隊。それが我々の戦略を成り立たせる必須条件だ。"
+    },
+    {
+        "id": 38,
+        "raw": "[Decision(options=\"小隊を多く出せば、戦力も強大になる！;……;問題の解決に至らなくても？\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "小隊を多く出せば、戦力も強大になる！;……;問題の解決に至らなくても？",
+        "values": "1;2;3"
+    },
+    {
+        "id": 39,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 40,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 41,
+        "raw": "[name=\"ケルシー\"]",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": ""
+    },
+    {
+        "id": 42,
+        "raw": "[name=\"ケルシー\"]  龍門ほどの規模の都市でも、本気を出せば我々を潰すのは容易い。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "龍門ほどの規模の都市でも、本気を出せば我々を潰すのは容易い。"
+    },
+    {
+        "id": 43,
+        "raw": "[name=\"ケルシー\"]  君も目にしたと思うが、近衛局や、他国のエリート兵団にも劣らぬ特殊部隊の実力は一介の製薬会社とは比べ物にもならない。我々は自分たちで思うほど強い存在ではないのだよ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "君も目にしたと思うが、近衛局や、他国のエリート兵団にも劣らぬ特殊部隊の実力は一介の製薬会社とは比べ物にもならない。我々は自分たちで思うほど強い存在ではないのだよ。"
+    },
+    {
+        "id": 44,
+        "raw": "[Decision(options=\"だったらなぜ今回の行動を？\", values=\"1\")]",
+        "type": "decision",
+        "options": "だったらなぜ今回の行動を？",
+        "values": "1"
+    },
+    {
+        "id": 45,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 46,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 47,
+        "raw": "[name=\"ケルシー\"]  この陰謀には既に感染者が巻き込まれているからだ。ロドスが戦う理由はその一点に尽きる。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "この陰謀には既に感染者が巻き込まれているからだ。ロドスが戦う理由はその一点に尽きる。"
+    },
+    {
+        "id": 48,
+        "raw": "[name=\"ケルシー\"]  今ロドスは龍門を離れ、時速15キロで次の目的地へ航行中だ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "今ロドスは龍門を離れ、時速15キロで次の目的地へ航行中だ。"
+    },
+    {
+        "id": 49,
+        "raw": "[name=\"ケルシー\"]  その間、我々は荒野に数週間留まることになるかもしれない。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "その間、我々は荒野に数週間留まることになるかもしれない。"
+    },
+    {
+        "id": 50,
+        "raw": "[name=\"ケルシー\"]  ロドスの通信員と一部の限られた船以外、誰も我々との交信はできない。全ての視線を避ける移動ルートを選択しているのだ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "ロドスの通信員と一部の限られた船以外、誰も我々との交信はできない。全ての視線を避ける移動ルートを選択しているのだ。"
+    },
+    {
+        "id": 51,
+        "raw": "[name=\"ケルシー\"]  もし龍門が約束を破るようなことになったとしても、我々を見つけ出すのは容易ではあるまい。邪魔をされる前に中枢区画を止める。そのための本作戦だ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "もし龍門が約束を破るようなことになったとしても、我々を見つけ出すのは容易ではあるまい。邪魔をされる前に中枢区画を止める。そのための本作戦だ。"
+    },
+    {
+        "id": 52,
+        "raw": "[Decision(options=\"なるほど。しかしそれで十分なのか？\", values=\"1\")]",
+        "type": "decision",
+        "options": "なるほど。しかしそれで十分なのか？",
+        "values": "1"
+    },
+    {
+        "id": 53,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 54,
+        "raw": "[Decision(options=\"パンチが足りない気がする……;より鋭い牙が必要だ。;賭けられるカードはそれだけじゃないはず。\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "パンチが足りない気がする……;より鋭い牙が必要だ。;賭けられるカードはそれだけじゃないはず。",
+        "values": "1;2;3"
+    },
+    {
+        "id": 55,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 56,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 57,
+        "raw": "[name=\"ケルシー\"]  そうだ。他にも策が必要だ。より効果的で、かつ致命的な——",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "そうだ。他にも策が必要だ。より効果的で、かつ致命的な——"
+    },
+    {
+        "id": 58,
+        "raw": "[Character(name=\"char_002_amiya_1\", name2=\"char_003_kalts_1\", focus=1)]",
+        "type": "character",
+        "name": "char_002_amiya_1",
+        "name2": "char_003_kalts_1",
+        "focus": 1
+    },
+    {
+        "id": 59,
+        "raw": "[name=\"アーミヤ\"]  …………",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "…………"
+    },
+    {
+        "id": 60,
+        "raw": "[name=\"アーミヤ\"]  ドクターもケルシー先生も、すごく悪い顔になっていますよ……",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "ドクターもケルシー先生も、すごく悪い顔になっていますよ……"
+    },
+    {
+        "id": 61,
+        "raw": "[name=\"アーミヤ\"]  私は作戦内容を理解してるつもりですが、そんな邪悪な笑みを見せられると……この作戦が悪魔じみた計画に思えてきます……",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "私は作戦内容を理解してるつもりですが、そんな邪悪な笑みを見せられると……この作戦が悪魔じみた計画に思えてきます……"
+    },
+    {
+        "id": 62,
+        "raw": "[Character(name=\"char_002_amiya_1\", name2=\"char_003_kalts_1\", focus=2)]",
+        "type": "character",
+        "name": "char_002_amiya_1",
+        "name2": "char_003_kalts_1",
+        "focus": 2
+    },
+    {
+        "id": 63,
+        "raw": "[name=\"ケルシー\"]  待てアーミヤ……私が笑っただって？",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "待てアーミヤ……私が笑っただって？"
+    },
+    {
+        "id": 64,
+        "raw": "[Character(name=\"char_002_amiya_1\", name2=\"char_003_kalts_1\", focus=1)]",
+        "type": "character",
+        "name": "char_002_amiya_1",
+        "name2": "char_003_kalts_1",
+        "focus": 1
+    },
+    {
+        "id": 65,
+        "raw": "[name=\"アーミヤ\"]  ええ、笑ってました。口角は上がってませんでしたが、私にはそう感じられました。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "ええ、笑ってました。口角は上がってませんでしたが、私にはそう感じられました。"
+    },
+    {
+        "id": 66,
+        "raw": "[Character(name=\"char_002_amiya_1\", name2=\"char_003_kalts_1\", focus=2)]",
+        "type": "character",
+        "name": "char_002_amiya_1",
+        "name2": "char_003_kalts_1",
+        "focus": 2
+    },
+    {
+        "id": 67,
+        "raw": "[name=\"ケルシー\"]  何だ、そういうことか。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "何だ、そういうことか。"
+    },
+    {
+        "id": 68,
+        "raw": "[Character(name=\"char_002_amiya_1\", name2=\"char_003_kalts_1\", focus=1)]",
+        "type": "character",
+        "name": "char_002_amiya_1",
+        "name2": "char_003_kalts_1",
+        "focus": 1
+    },
+    {
+        "id": 69,
+        "raw": "[name=\"アーミヤ\"]  ……でも、良かったです。二人が仲良くなれそうで。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "……でも、良かったです。二人が仲良くなれそうで。"
+    },
+    {
+        "id": 70,
+        "raw": "[Character(name=\"char_002_amiya_1\", name2=\"char_003_kalts_1\", focus=2)]",
+        "type": "character",
+        "name": "char_002_amiya_1",
+        "name2": "char_003_kalts_1",
+        "focus": 2
+    },
+    {
+        "id": 71,
+        "raw": "[name=\"ケルシー\"]  いや。言っておくが、私は友好関係を築くつもりはない。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "いや。言っておくが、私は友好関係を築くつもりはない。"
+    },
+    {
+        "id": 72,
+        "raw": "[Decision(options=\"同意見だ。自分にもそのつもりはない。;……;そうする必要があるかどうかは双方次第だ。\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "同意見だ。自分にもそのつもりはない。;……;そうする必要があるかどうかは双方次第だ。",
+        "values": "1;2;3"
+    },
+    {
+        "id": 73,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 74,
+        "raw": "[Character(name=\"char_002_amiya_1#6\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#6"
+    },
+    {
+        "id": 75,
+        "raw": "[name=\"アーミヤ\"]  えぇ〜……",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "えぇ〜……"
+    },
+    {
+        "id": 76,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 77,
+        "raw": "[name=\"ケルシー\"]  ちなみにこの五つの小隊を率いるのは、私とアーミヤ、それと他三名のエリートオペレーターだ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "ちなみにこの五つの小隊を率いるのは、私とアーミヤ、それと他三名のエリートオペレーターだ。"
+    },
+    {
+        "id": 78,
+        "raw": "[name=\"ケルシー\"]  偵察小隊が一つ、作戦小隊が三つ、残る一つは特殊工作小隊だ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "偵察小隊が一つ、作戦小隊が三つ、残る一つは特殊工作小隊だ。"
+    },
+    {
+        "id": 79,
+        "raw": "[name=\"ケルシー\"]  そういえば……隊長の中に一人、作戦開始前に君に会っておいてもらいたい人物がいる——",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "そういえば……隊長の中に一人、作戦開始前に君に会っておいてもらいたい人物がいる——"
+    },
+    {
+        "id": 80,
+        "raw": "[stopmusic(fadetime=3)]",
+        "type": "stop_music",
+        "fadetime": 3
+    },
+    {
+        "id": 81,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 82,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 83,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 84,
+        "raw": "[cameraEffect(effect=\"Grayscale\", keep=true, amount=1, fadetime=0)]",
+        "type": "camera_effect",
+        "effect": "Grayscale",
+        "keep": "true,",
+        "amount": "1,",
+        "fadetime": 0
+    },
+    {
+        "id": 85,
+        "raw": "[Background(image=\"bg_bridge\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_bridge.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 86,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 87,
+        "raw": "[Character(name=\"char_017_homura_3#5\")]",
+        "type": "character",
+        "name": "char_017_homura_3#5"
+    },
+    {
+        "id": 88,
+        "raw": "[name=\"ブレイズ\"]  ロスモンティス！　待って！",
+        "type": "dialog",
+        "speaker": "ブレイズ",
+        "content": "ロスモンティス！　待って！"
+    },
+    {
+        "id": 89,
+        "raw": "[playMusic(intro=\"$dignified_intro\", key=\"$dignified_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act9d0d0/m_avg_dignified_intro.mp3",
+        "key": "sound_beta_2/music/act9d0d0/m_avg_dignified_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 90,
+        "raw": "[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=2)]",
+        "type": "character",
+        "name": "char_017_homura_3#5",
+        "name2": "avg_npc_042",
+        "focus": 2
+    },
+    {
+        "id": 91,
+        "raw": "[name=\"ロスモンティス\"]  あっ……ブレイズ。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "あっ……ブレイズ。"
+    },
+    {
+        "id": 92,
+        "raw": "[name=\"ロスモンティス\"]  ひどい怪我なのに、なんで来たの？　早く戻って。安静にしてて。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "ひどい怪我なのに、なんで来たの？　早く戻って。安静にしてて。"
+    },
+    {
+        "id": 93,
+        "raw": "[Character(name=\"char_017_homura_3#9\", name2=\"avg_npc_042\", focus=1)]",
+        "type": "character",
+        "name": "char_017_homura_3#9",
+        "name2": "avg_npc_042",
+        "focus": 1
+    },
+    {
+        "id": 94,
+        "raw": "[name=\"ブレイズ\"]  今回の作戦に参加するの？",
+        "type": "dialog",
+        "speaker": "ブレイズ",
+        "content": "今回の作戦に参加するの？"
+    },
+    {
+        "id": 95,
+        "raw": "[Character(name=\"char_017_homura_3#9\", name2=\"avg_npc_042\", focus=2)]",
+        "type": "character",
+        "name": "char_017_homura_3#9",
+        "name2": "avg_npc_042",
+        "focus": 2
+    },
+    {
+        "id": 96,
+        "raw": "[name=\"ロスモンティス\"]  うん。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "うん。"
+    },
+    {
+        "id": 97,
+        "raw": "[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=1)]",
+        "type": "character",
+        "name": "char_017_homura_3#5",
+        "name2": "avg_npc_042",
+        "focus": 1
+    },
+    {
+        "id": 98,
+        "raw": "[name=\"ブレイズ\"]  代わりの人を探してくるよ。そうだ、Miseryに行かせよう、君より市街戦が得意だし。",
+        "type": "dialog",
+        "speaker": "ブレイズ",
+        "content": "代わりの人を探してくるよ。そうだ、Miseryに行かせよう、君より市街戦が得意だし。"
+    },
+    {
+        "id": 99,
+        "raw": "[name=\"ブレイズ\"]  彼なら大丈夫でしょ。代わらせるよ。",
+        "type": "dialog",
+        "speaker": "ブレイズ",
+        "content": "彼なら大丈夫でしょ。代わらせるよ。"
+    },
+    {
+        "id": 100,
+        "raw": "[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=2)]",
+        "type": "character",
+        "name": "char_017_homura_3#5",
+        "name2": "avg_npc_042",
+        "focus": 2
+    },
+    {
+        "id": 101,
+        "raw": "[name=\"ロスモンティス\"]  私に行かせたくないの？",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "私に行かせたくないの？"
+    },
+    {
+        "id": 102,
+        "raw": "[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=1)]",
+        "type": "character",
+        "name": "char_017_homura_3#5",
+        "name2": "avg_npc_042",
+        "focus": 1
+    },
+    {
+        "id": 103,
+        "raw": "[name=\"ブレイズ\"]  そう。君が行くべきじゃないの。",
+        "type": "dialog",
+        "speaker": "ブレイズ",
+        "content": "そう。君が行くべきじゃないの。"
+    },
+    {
+        "id": 104,
+        "raw": "[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=2)]",
+        "type": "character",
+        "name": "char_017_homura_3#5",
+        "name2": "avg_npc_042",
+        "focus": 2
+    },
+    {
+        "id": 105,
+        "raw": "[name=\"ロスモンティス\"]  ブレイズ、なんだか変。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "ブレイズ、なんだか変。"
+    },
+    {
+        "id": 106,
+        "raw": "[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=1)]",
+        "type": "character",
+        "name": "char_017_homura_3#5",
+        "name2": "avg_npc_042",
+        "focus": 1
+    },
+    {
+        "id": 107,
+        "raw": "[name=\"ブレイズ\"]  君の今までの任務とは違うんだよ！",
+        "type": "dialog",
+        "speaker": "ブレイズ",
+        "content": "君の今までの任務とは違うんだよ！"
+    },
+    {
+        "id": 108,
+        "raw": "[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=2)]",
+        "type": "character",
+        "name": "char_017_homura_3#5",
+        "name2": "avg_npc_042",
+        "focus": 2
+    },
+    {
+        "id": 109,
+        "raw": "[name=\"ロスモンティス\"]  死ぬから？",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "死ぬから？"
+    },
+    {
+        "id": 110,
+        "raw": "[Character(name=\"char_017_homura_3#6\", name2=\"avg_npc_042\", focus=1)]",
+        "type": "character",
+        "name": "char_017_homura_3#6",
+        "name2": "avg_npc_042",
+        "focus": 1
+    },
+    {
+        "id": 111,
+        "raw": "[name=\"ブレイズ\"]  何……言ってるの！",
+        "type": "dialog",
+        "speaker": "ブレイズ",
+        "content": "何……言ってるの！"
+    },
+    {
+        "id": 112,
+        "raw": "[name=\"ブレイズ\"]  そんな……死ぬなんてそんな簡単に言うもんじゃない！",
+        "type": "dialog",
+        "speaker": "ブレイズ",
+        "content": "そんな……死ぬなんてそんな簡単に言うもんじゃない！"
+    },
+    {
+        "id": 113,
+        "raw": "[name=\"ブレイズ\"]  君はまだ幼いんだから。こんな危険な任務に行くべきじゃない。",
+        "type": "dialog",
+        "speaker": "ブレイズ",
+        "content": "君はまだ幼いんだから。こんな危険な任務に行くべきじゃない。"
+    },
+    {
+        "id": 114,
+        "raw": "[Character(name=\"char_017_homura_3#6\", name2=\"avg_npc_042\", focus=2)]",
+        "type": "character",
+        "name": "char_017_homura_3#6",
+        "name2": "avg_npc_042",
+        "focus": 2
+    },
+    {
+        "id": 115,
+        "raw": "[name=\"ロスモンティス\"]  でもアーミヤも行くよ。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "でもアーミヤも行くよ。"
+    },
+    {
+        "id": 116,
+        "raw": "[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=1)]",
+        "type": "character",
+        "name": "char_017_homura_3#5",
+        "name2": "avg_npc_042",
+        "focus": 1
+    },
+    {
+        "id": 117,
+        "raw": "[name=\"ブレイズ\"]  だってあの子は……！",
+        "type": "dialog",
+        "speaker": "ブレイズ",
+        "content": "だってあの子は……！"
+    },
+    {
+        "id": 118,
+        "raw": "[name=\"ブレイズ\"]  あの子は……",
+        "type": "dialog",
+        "speaker": "ブレイズ",
+        "content": "あの子は……"
+    },
+    {
+        "id": 119,
+        "raw": "[name=\"ブレイズ\"]  アーミヤちゃんは……",
+        "type": "dialog",
+        "speaker": "ブレイズ",
+        "content": "アーミヤちゃんは……"
+    },
+    {
+        "id": 120,
+        "raw": "[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=2)]",
+        "type": "character",
+        "name": "char_017_homura_3#5",
+        "name2": "avg_npc_042",
+        "focus": 2
+    },
+    {
+        "id": 121,
+        "raw": "[name=\"ロスモンティス\"]  アーミヤも私と同じ、感染者でオペレーター、でしょ？",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "アーミヤも私と同じ、感染者でオペレーター、でしょ？"
+    },
+    {
+        "id": 122,
+        "raw": "[name=\"ロスモンティス\"]  それと、ログを確認したの。AceとScoutは二人ともチェルノボーグに向かったのが最後の記録……",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "それと、ログを確認したの。AceとScoutは二人ともチェルノボーグに向かったのが最後の記録……"
+    },
+    {
+        "id": 123,
+        "raw": "[name=\"ロスモンティス\"]  戻ってきてないということは、二人はもう死んだんでしょ。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "戻ってきてないということは、二人はもう死んだんでしょ。"
+    },
+    {
+        "id": 124,
+        "raw": "[name=\"ロスモンティス\"]  行ってみたいの。行って自分の目で確かめたい。レユニオンのボスがどういう人なのか、そこで誰が何をしたのか。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "行ってみたいの。行って自分の目で確かめたい。レユニオンのボスがどういう人なのか、そこで誰が何をしたのか。"
+    },
+    {
+        "id": 125,
+        "raw": "[name=\"ロスモンティス\"]  AceとScoutの身に何が起きたのかを、知りたい……",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "AceとScoutの身に何が起きたのかを、知りたい……"
+    },
+    {
+        "id": 126,
+        "raw": "[Character(name=\"char_017_homura_3#10\", name2=\"avg_npc_042\", focus=1)]",
+        "type": "character",
+        "name": "char_017_homura_3#10",
+        "name2": "avg_npc_042",
+        "focus": 1
+    },
+    {
+        "id": 127,
+        "raw": "[name=\"ブレイズ\"]  ロスモンティス、そんなことは……憶えてなくてもいいんだよ。",
+        "type": "dialog",
+        "speaker": "ブレイズ",
+        "content": "ロスモンティス、そんなことは……憶えてなくてもいいんだよ。"
+    },
+    {
+        "id": 128,
+        "raw": "[Character(name=\"char_017_homura_3#10\", name2=\"avg_npc_042\", focus=2)]",
+        "type": "character",
+        "name": "char_017_homura_3#10",
+        "name2": "avg_npc_042",
+        "focus": 2
+    },
+    {
+        "id": 129,
+        "raw": "[name=\"ロスモンティス\"]  ……ブレイズ？",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "……ブレイズ？"
+    },
+    {
+        "id": 130,
+        "raw": "[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=1)]",
+        "type": "character",
+        "name": "char_017_homura_3#5",
+        "name2": "avg_npc_042",
+        "focus": 1
+    },
+    {
+        "id": 131,
+        "raw": "[name=\"ブレイズ\"]  ああもう、何言ってんだか……",
+        "type": "dialog",
+        "speaker": "ブレイズ",
+        "content": "ああもう、何言ってんだか……"
+    },
+    {
+        "id": 132,
+        "raw": "[name=\"ブレイズ\"]  違うの。ごめんね、そんなふうに言うべきじゃなかった。この口が悪いんだ！",
+        "type": "dialog",
+        "speaker": "ブレイズ",
+        "content": "違うの。ごめんね、そんなふうに言うべきじゃなかった。この口が悪いんだ！"
+    },
+    {
+        "id": 133,
+        "raw": "[name=\"ブレイズ\"]  でも彼らの死は……それは……",
+        "type": "dialog",
+        "speaker": "ブレイズ",
+        "content": "でも彼らの死は……それは……"
+    },
+    {
+        "id": 134,
+        "raw": "[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=2)]",
+        "type": "character",
+        "name": "char_017_homura_3#5",
+        "name2": "avg_npc_042",
+        "focus": 2
+    },
+    {
+        "id": 135,
+        "raw": "[name=\"ロスモンティス\"]  ブレイズ？",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "ブレイズ？"
+    },
+    {
+        "id": 136,
+        "raw": "[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=1)]",
+        "type": "character",
+        "name": "char_017_homura_3#5",
+        "name2": "avg_npc_042",
+        "focus": 1
+    },
+    {
+        "id": 137,
+        "raw": "[name=\"ブレイズ\"]  ……私が悪かった。嬉しいことも悲しいことも、みんな記憶の一部だよね。憶えなくていい記憶なんてないよね。ごめん。",
+        "type": "dialog",
+        "speaker": "ブレイズ",
+        "content": "……私が悪かった。嬉しいことも悲しいことも、みんな記憶の一部だよね。憶えなくていい記憶なんてないよね。ごめん。"
+    },
+    {
+        "id": 138,
+        "raw": "[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=2)]",
+        "type": "character",
+        "name": "char_017_homura_3#5",
+        "name2": "avg_npc_042",
+        "focus": 2
+    },
+    {
+        "id": 139,
+        "raw": "[name=\"ロスモンティス\"]  ブレイズ、やっぱり変。言ってることが支離滅裂だよ。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "ブレイズ、やっぱり変。言ってることが支離滅裂だよ。"
+    },
+    {
+        "id": 140,
+        "raw": "[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=1)]",
+        "type": "character",
+        "name": "char_017_homura_3#5",
+        "name2": "avg_npc_042",
+        "focus": 1
+    },
+    {
+        "id": 141,
+        "raw": "[name=\"ブレイズ\"]  でも……どうしてわざわざ思い出そうとするの？　君には苦しんで欲しくないんだ。君なら……その記憶を手放すこともできるのに。",
+        "type": "dialog",
+        "speaker": "ブレイズ",
+        "content": "でも……どうしてわざわざ思い出そうとするの？　君には苦しんで欲しくないんだ。君なら……その記憶を手放すこともできるのに。"
+    },
+    {
+        "id": 142,
+        "raw": "[name=\"ブレイズ\"]  そのまま手放して、二度と振り返らなくてもいいのに……",
+        "type": "dialog",
+        "speaker": "ブレイズ",
+        "content": "そのまま手放して、二度と振り返らなくてもいいのに……"
+    },
+    {
+        "id": 143,
+        "raw": "[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=2)]",
+        "type": "character",
+        "name": "char_017_homura_3#5",
+        "name2": "avg_npc_042",
+        "focus": 2
+    },
+    {
+        "id": 144,
+        "raw": "[name=\"ロスモンティス\"]  振り返らないのなら、記憶に意味がなくなる。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "振り返らないのなら、記憶に意味がなくなる。"
+    },
+    {
+        "id": 145,
+        "raw": "[name=\"ロスモンティス\"]  それは忘れるってことでしょ。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "それは忘れるってことでしょ。"
+    },
+    {
+        "id": 146,
+        "raw": "[name=\"ロスモンティス\"]  私は忘れたりしない。誰の死でも、絶対に忘れない。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "私は忘れたりしない。誰の死でも、絶対に忘れない。"
+    },
+    {
+        "id": 147,
+        "raw": "[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=1)]",
+        "type": "character",
+        "name": "char_017_homura_3#5",
+        "name2": "avg_npc_042",
+        "focus": 1
+    },
+    {
+        "id": 148,
+        "raw": "[name=\"ブレイズ\"]  ハハ……そうだね。君も私と同じ、ロドスのエリートオペレーターなんだよね。",
+        "type": "dialog",
+        "speaker": "ブレイズ",
+        "content": "ハハ……そうだね。君も私と同じ、ロドスのエリートオペレーターなんだよね。"
+    },
+    {
+        "id": 149,
+        "raw": "[name=\"ブレイズ\"]  君の代わりに行けないなんて、ほんと……",
+        "type": "dialog",
+        "speaker": "ブレイズ",
+        "content": "君の代わりに行けないなんて、ほんと……"
+    },
+    {
+        "id": 150,
+        "raw": "[name=\"ブレイズ\"]  くっ、ううっ……グスッ……",
+        "type": "dialog",
+        "speaker": "ブレイズ",
+        "content": "くっ、ううっ……グスッ……"
+    },
+    {
+        "id": 151,
+        "raw": "[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=2)]",
+        "type": "character",
+        "name": "char_017_homura_3#5",
+        "name2": "avg_npc_042",
+        "focus": 2
+    },
+    {
+        "id": 152,
+        "raw": "[name=\"ロスモンティス\"]  どうしたの？　傷が痛むの？",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "どうしたの？　傷が痛むの？"
+    },
+    {
+        "id": 153,
+        "raw": "[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=1)]",
+        "type": "character",
+        "name": "char_017_homura_3#5",
+        "name2": "avg_npc_042",
+        "focus": 1
+    },
+    {
+        "id": 154,
+        "raw": "[name=\"ブレイズ\"]  ……大丈夫。",
+        "type": "dialog",
+        "speaker": "ブレイズ",
+        "content": "……大丈夫。"
+    },
+    {
+        "id": 155,
+        "raw": "[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=2)]",
+        "type": "character",
+        "name": "char_017_homura_3#5",
+        "name2": "avg_npc_042",
+        "focus": 2
+    },
+    {
+        "id": 156,
+        "raw": "[name=\"ロスモンティス\"]  送ってくよ。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "送ってくよ。"
+    },
+    {
+        "id": 157,
+        "raw": "[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=1)]",
+        "type": "character",
+        "name": "char_017_homura_3#5",
+        "name2": "avg_npc_042",
+        "focus": 1
+    },
+    {
+        "id": 158,
+        "raw": "[name=\"ブレイズ\"]  まったく……",
+        "type": "dialog",
+        "speaker": "ブレイズ",
+        "content": "まったく……"
+    },
+    {
+        "id": 159,
+        "raw": "[name=\"ブレイズ\"]  ロスモンティス……アーミヤちゃんと、無事で帰ってきてね。",
+        "type": "dialog",
+        "speaker": "ブレイズ",
+        "content": "ロスモンティス……アーミヤちゃんと、無事で帰ってきてね。"
+    },
+    {
+        "id": 160,
+        "raw": "[Character(name=\"char_017_homura_3#5\", name2=\"avg_npc_042\", focus=2)]",
+        "type": "character",
+        "name": "char_017_homura_3#5",
+        "name2": "avg_npc_042",
+        "focus": 2
+    },
+    {
+        "id": 161,
+        "raw": "[name=\"ロスモンティス\"]  うん。わかった。",
+        "type": "dialog",
+        "speaker": "ロスモンティス",
+        "content": "うん。わかった。"
+    },
+    {
+        "id": 162,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 163,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 164,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 165,
+        "raw": "[cameraEffect(effect=\"Grayscale\", keep=true, amount=0, fadetime=0)]",
+        "type": "camera_effect",
+        "effect": "Grayscale",
+        "keep": "true,",
+        "amount": "0,",
+        "fadetime": 0
+    },
+    {
+        "id": 166,
+        "raw": "[Background(image=\"bg_laccolith\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_laccolith.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 167,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 168,
+        "raw": "[Decision(options=\"その隊長に会うのは、必要なことなのか？\", values=\"1\")]",
+        "type": "decision",
+        "options": "その隊長に会うのは、必要なことなのか？",
+        "values": "1"
+    },
+    {
+        "id": 169,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 170,
+        "raw": "[Character(name=\"char_002_amiya_1\")]",
+        "type": "character",
+        "name": "char_002_amiya_1"
+    },
+    {
+        "id": 171,
+        "raw": "[name=\"アーミヤ\"]  Dr.{@nickname}……",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "Dr.{@nickname}……"
+    },
+    {
+        "id": 172,
+        "raw": "[name=\"アーミヤ\"]  エリートオペレーターたちは、理由はそれぞれですが、みんな自分自身の努力も才能もロドスのために捧げてきました。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "エリートオペレーターたちは、理由はそれぞれですが、みんな自分自身の努力も才能もロドスのために捧げてきました。"
+    },
+    {
+        "id": 173,
+        "raw": "[name=\"アーミヤ\"]  戦場でのエリートオペレーターには、場合によっては自身の判断で戦術の運用方法を決定する権限があり、隊員たちは彼らを全力でサポートします。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "戦場でのエリートオペレーターには、場合によっては自身の判断で戦術の運用方法を決定する権限があり、隊員たちは彼らを全力でサポートします。"
+    },
+    {
+        "id": 174,
+        "raw": "[name=\"アーミヤ\"]  エリートオペレーターたちは、普通の人から見れば特別な存在かもしれません。でも彼らはみんな……本当の彼らは私たちの想像している姿と一緒とは限らないんです。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "エリートオペレーターたちは、普通の人から見れば特別な存在かもしれません。でも彼らはみんな……本当の彼らは私たちの想像している姿と一緒とは限らないんです。"
+    },
+    {
+        "id": 175,
+        "raw": "[name=\"アーミヤ\"]  ブレイズさんもそうです。彼女に関する噂はたくさんありますが、実はいろんな人たちによってかなり脚色されています。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "ブレイズさんもそうです。彼女に関する噂はたくさんありますが、実はいろんな人たちによってかなり脚色されています。"
+    },
+    {
+        "id": 176,
+        "raw": "[name=\"アーミヤ\"]  同じように……というわけではありませんが、彼女については、みんな持つ印象が違うんです。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "同じように……というわけではありませんが、彼女については、みんな持つ印象が違うんです。"
+    },
+    {
+        "id": 177,
+        "raw": "[name=\"アーミヤ\"]  ドクターなら、彼女……ロスモンティスさんと彼女自身の選択を、少しずつでも理解していけるはずです……きっと。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "ドクターなら、彼女……ロスモンティスさんと彼女自身の選択を、少しずつでも理解していけるはずです……きっと。"
+    },
+    {
+        "id": 178,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 179,
+        "raw": "[name=\"ケルシー\"]  …………",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "…………"
+    },
+    {
+        "id": 180,
+        "raw": "[name=\"ケルシー\"]  その反応を見る限りだと、もう会っているみたいだな。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "その反応を見る限りだと、もう会っているみたいだな。"
+    },
+    {
+        "id": 181,
+        "raw": "[Character(name=\"char_002_amiya_1\")]",
+        "type": "character",
+        "name": "char_002_amiya_1"
+    },
+    {
+        "id": 182,
+        "raw": "[name=\"アーミヤ\"]  ええっ？　そうなんですか……？",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "ええっ？　そうなんですか……？"
+    },
+    {
+        "id": 183,
+        "raw": "[name=\"アーミヤ\"]  じゃあ……もう大丈夫ですね。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "じゃあ……もう大丈夫ですね。"
+    },
+    {
+        "id": 184,
+        "raw": "[Decision(options=\"他に何か気をつけるべきことは？\", values=\"1\")]",
+        "type": "decision",
+        "options": "他に何か気をつけるべきことは？",
+        "values": "1"
+    },
+    {
+        "id": 185,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 186,
+        "raw": "[Character(name=\"char_002_amiya_1\")]",
+        "type": "character",
+        "name": "char_002_amiya_1"
+    },
+    {
+        "id": 187,
+        "raw": "[name=\"アーミヤ\"]  大体のポイントはこんな感じです。でも実際……必ずしも計画通りに事が運ぶとは限りませんから。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "大体のポイントはこんな感じです。でも実際……必ずしも計画通りに事が運ぶとは限りませんから。"
+    },
+    {
+        "id": 188,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 189,
+        "raw": "[name=\"ケルシー\"]  重要なのは行動だ。計画はあくまで机上の空論に過ぎない。行動中の予期せぬ出来事が計画を覆すことは大いにあり得る。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "重要なのは行動だ。計画はあくまで机上の空論に過ぎない。行動中の予期せぬ出来事が計画を覆すことは大いにあり得る。"
+    },
+    {
+        "id": 190,
+        "raw": "[Decision(options=\"縁起でも無いことを……\", values=\"1\")]",
+        "type": "decision",
+        "options": "縁起でも無いことを……",
+        "values": "1"
+    },
+    {
+        "id": 191,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 192,
+        "raw": "[stopmusic(fadetime=3)]",
+        "type": "stop_music",
+        "fadetime": 3
+    },
+    {
+        "id": 193,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 194,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 195,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 196,
+        "raw": "[Background(image=\"bg_laccolith\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_laccolith.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 197,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 198,
+        "raw": "[playMusic(intro=\"$exciting_intro\", key=\"$exciting_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act9d0d0/m_avg_exciting02_intro.mp3",
+        "key": "sound_beta_2/music/act9d0d0/m_avg_exciting02_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 199,
+        "raw": "[Character(name=\"avg_npc_012\")]",
+        "type": "character",
+        "name": "avg_npc_012"
+    },
+    {
+        "id": 200,
+        "raw": "[name=\"エンジニア\"]  しまった……！　まずいぞ！",
+        "type": "dialog",
+        "speaker": "エンジニア",
+        "content": "しまった……！　まずいぞ！"
+    },
+    {
+        "id": 201,
+        "raw": "[name=\"エンジニア\"]  砂塵の密度が低い。この太陽光の角度だと装置を完全に隠せない！",
+        "type": "dialog",
+        "speaker": "エンジニア",
+        "content": "砂塵の密度が低い。この太陽光の角度だと装置を完全に隠せない！"
+    },
+    {
+        "id": 202,
+        "raw": "[name=\"エンジニア\"]  ブリッジから見下ろせば、全力稼働し始める前に丸見えだ！",
+        "type": "dialog",
+        "speaker": "エンジニア",
+        "content": "ブリッジから見下ろせば、全力稼働し始める前に丸見えだ！"
+    },
+    {
+        "id": 203,
+        "raw": "[Character(name=\"avg_npc_012\", name2=\"char_016_medic\", focus=2)]",
+        "type": "character",
+        "name": "avg_npc_012",
+        "name2": "char_016_medic",
+        "focus": 2
+    },
+    {
+        "id": 204,
+        "raw": "[name=\"オペレーター\"]  だがこれ以上遮蔽物を増やすわけにはいかない。空気の流れを邪魔したら、砂嵐を起こすほどの上昇気流が作れなくなる！",
+        "type": "dialog",
+        "speaker": "オペレーター",
+        "content": "だがこれ以上遮蔽物を増やすわけにはいかない。空気の流れを邪魔したら、砂嵐を起こすほどの上昇気流が作れなくなる！"
+    },
+    {
+        "id": 205,
+        "raw": "[Character(name=\"avg_npc_012\", name2=\"char_016_medic\", focus=1)]",
+        "type": "character",
+        "name": "avg_npc_012",
+        "name2": "char_016_medic",
+        "focus": 1
+    },
+    {
+        "id": 206,
+        "raw": "[name=\"エンジニア\"]  どうする、更に位置を下げるか？　間に合わないかもしれないぞ！",
+        "type": "dialog",
+        "speaker": "エンジニア",
+        "content": "どうする、更に位置を下げるか？　間に合わないかもしれないぞ！"
+    },
+    {
+        "id": 207,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 208,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 209,
+        "raw": "[Character(name=\"char_148_nearl_1#3\",fadetime=1,block=true)]",
+        "type": "character",
+        "name": "char_148_nearl_1#3",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 210,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 211,
+        "raw": "[name=\"ニアール\"]  ……私に任せてくれ。",
+        "type": "dialog",
+        "speaker": "ニアール",
+        "content": "……私に任せてくれ。"
+    },
+    {
+        "id": 212,
+        "raw": "[name=\"ニアール\"]  ファイヤーウォッチ、私が行動を開始したら、実際の効果を観測しつつ、調整する方向を教えてくれ。",
+        "type": "dialog",
+        "speaker": "ニアール",
+        "content": "ファイヤーウォッチ、私が行動を開始したら、実際の効果を観測しつつ、調整する方向を教えてくれ。"
+    },
+    {
+        "id": 213,
+        "raw": "[Character(name=\"char_158_milu\")]",
+        "type": "character",
+        "name": "char_158_milu"
+    },
+    {
+        "id": 214,
+        "raw": "[name=\"ファイヤーウォッチ\"]  ニアール？　何をするつもりだ——",
+        "type": "dialog",
+        "speaker": "ファイヤーウォッチ",
+        "content": "ニアール？　何をするつもりだ——"
+    },
+    {
+        "id": 215,
+        "raw": "[Character(name=\"char_148_nearl_1#3\")]",
+        "type": "character",
+        "name": "char_148_nearl_1#3"
+    },
+    {
+        "id": 216,
+        "raw": "[name=\"ニアール\"]  光の角度を変える。",
+        "type": "dialog",
+        "speaker": "ニアール",
+        "content": "光の角度を変える。"
+    },
+    {
+        "id": 217,
+        "raw": "[name=\"ニアール\"]  この大地に広がる苦難を減らすためであれば……たとえ太陽の光だろうと、少しの間、力を貸してくれると信じたい。",
+        "type": "dialog",
+        "speaker": "ニアール",
+        "content": "この大地に広がる苦難を減らすためであれば……たとえ太陽の光だろうと、少しの間、力を貸してくれると信じたい。"
+    },
+    {
+        "id": 218,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 219,
+        "raw": "[PlaySound(key=\"$b_char_defboost\", volume=0.5, Delay=0.4)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/battle/b_char/b_char_defboost.mp3",
+        "volume": "0.5,",
+        "Delay": 0.4
+    },
+    {
+        "id": 220,
+        "raw": "[PlaySound(key=\"$flashback\", volume=0.2, Delay=0.7)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/general/g_ui/g_ui_stagepush.mp3",
+        "volume": "0.2,",
+        "Delay": 0.7
+    },
+    {
+        "id": 221,
+        "raw": "[Blocker(a=1, r=1, g=1, b=1, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "1,",
+        "g": "1,",
+        "b": "1,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 222,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 223,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 224,
+        "raw": "[Character(name=\"char_401_elysm\",fadetime=1,block=true)]",
+        "type": "character",
+        "name": "char_401_elysm",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 225,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 226,
+        "raw": "[name=\"エリジウム\"]  あれ？　砂丘の方にいるのはニアールさん？　まだ撤退しないの？",
+        "type": "dialog",
+        "speaker": "エリジウム",
+        "content": "あれ？　砂丘の方にいるのはニアールさん？　まだ撤退しないの？"
+    },
+    {
+        "id": 227,
+        "raw": "[name=\"エリジウム\"]  何してるんだろう……考え事？　あっ！　ポーズとってる！　あんなところで体操かな……でもどうして？",
+        "type": "dialog",
+        "speaker": "エリジウム",
+        "content": "何してるんだろう……考え事？　あっ！　ポーズとってる！　あんなところで体操かな……でもどうして？"
+    },
+    {
+        "id": 228,
+        "raw": "[name=\"エリジウム\"]  ……あれ？　ニアールさんの体が光り出した……ちょっと、えっ、何コレすっごい眩しい！",
+        "type": "dialog",
+        "speaker": "エリジウム",
+        "content": "……あれ？　ニアールさんの体が光り出した……ちょっと、えっ、何コレすっごい眩しい！"
+    },
+    {
+        "id": 229,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 230,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 231,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0.4, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.4,",
+        "block": true
+    },
+    {
+        "id": 232,
+        "raw": "[Character(name=\"char_401_elysm\")]",
+        "type": "character",
+        "name": "char_401_elysm"
+    },
+    {
+        "id": 233,
+        "raw": "[name=\"エリジウム\"]  え？　ちょっと誰……ああ、ありがとう隊長……",
+        "type": "dialog",
+        "speaker": "エリジウム",
+        "content": "え？　ちょっと誰……ああ、ありがとう隊長……"
+    },
+    {
+        "id": 234,
+        "raw": "[name=\"エリジウム\"]  僕の目を覆ってくれたのは感謝してるけど、だんだんまぶたに指がめり込んで来てるよ、痛い痛い！　放して隊長！",
+        "type": "dialog",
+        "speaker": "エリジウム",
+        "content": "僕の目を覆ってくれたのは感謝してるけど、だんだんまぶたに指がめり込んで来てるよ、痛い痛い！　放して隊長！"
+    },
+    {
+        "id": 235,
+        "raw": "[name=\"エリジウム\"]  ふぅ、目が潰れるかと思った……で、結局ニアールさんは何してるんだろう？",
+        "type": "dialog",
+        "speaker": "エリジウム",
+        "content": "ふぅ、目が潰れるかと思った……で、結局ニアールさんは何してるんだろう？"
+    },
+    {
+        "id": 236,
+        "raw": "[name=\"エリジウム\"]  大丈夫？　いや、隊長になんでそんなことが……ていうか、あんな太陽よりも眩しい光を出してどうするの？",
+        "type": "dialog",
+        "speaker": "エリジウム",
+        "content": "大丈夫？　いや、隊長になんでそんなことが……ていうか、あんな太陽よりも眩しい光を出してどうするの？"
+    },
+    {
+        "id": 237,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 238,
+        "raw": "[Blocker(a=0.8, r=1, g=1, b=1, fadetime=0.2, block=true)]",
+        "type": "blocker",
+        "a": "0.8,",
+        "r": "1,",
+        "g": "1,",
+        "b": "1,",
+        "fadetime": "0.2,",
+        "block": true
+    },
+    {
+        "id": 239,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 240,
+        "raw": "[Character(name=\"char_401_elysm\")]",
+        "type": "character",
+        "name": "char_401_elysm"
+    },
+    {
+        "id": 241,
+        "raw": "[name=\"エリジウム\"]  あれ？　……周りの光がだんだんニアールさんの光と同化してる？",
+        "type": "dialog",
+        "speaker": "エリジウム",
+        "content": "あれ？　……周りの光がだんだんニアールさんの光と同化してる？"
+    },
+    {
+        "id": 242,
+        "raw": "[name=\"エリジウム\"]  ……うわぁ。あたり一面が光の海みたいに……",
+        "type": "dialog",
+        "speaker": "エリジウム",
+        "content": "……うわぁ。あたり一面が光の海みたいに……"
+    },
+    {
+        "id": 243,
+        "raw": "[name=\"エリジウム\"]  隊長、このエリアの光輝度が全部同じレベルに調整されたみたい。",
+        "type": "dialog",
+        "speaker": "エリジウム",
+        "content": "隊長、このエリアの光輝度が全部同じレベルに調整されたみたい。"
+    },
+    {
+        "id": 244,
+        "raw": "[name=\"エリジウム\"]  ニアールさんの仕業だって？　いや、見りゃわかるよ。でもすごくない？　耀騎士ってこんなことまでできるんだ……",
+        "type": "dialog",
+        "speaker": "エリジウム",
+        "content": "ニアールさんの仕業だって？　いや、見りゃわかるよ。でもすごくない？　耀騎士ってこんなことまでできるんだ……"
+    },
+    {
+        "id": 245,
+        "raw": "[name=\"エリジウム\"]  あ、そうだ。ねぇ隊長、雑学クイズでもしよう。あの砂丘の影の向きを見て、今が午前なのか午後なのかわかる？",
+        "type": "dialog",
+        "speaker": "エリジウム",
+        "content": "あ、そうだ。ねぇ隊長、雑学クイズでもしよう。あの砂丘の影の向きを見て、今が午前なのか午後なのかわかる？"
+    },
+    {
+        "id": 246,
+        "raw": "[name=\"エリジウム\"]  えー？　場を和ませようとしただけでしょ？　それにこれから砂嵐が起こったら、何も見えなくなっちゃうでしょ？",
+        "type": "dialog",
+        "speaker": "エリジウム",
+        "content": "えー？　場を和ませようとしただけでしょ？　それにこれから砂嵐が起こったら、何も見えなくなっちゃうでしょ？"
+    },
+    {
+        "id": 247,
+        "raw": "[name=\"エリジウム\"]  ……はい、黙ります。ドーモスミマセン。",
+        "type": "dialog",
+        "speaker": "エリジウム",
+        "content": "……はい、黙ります。ドーモスミマセン。"
+    },
+    {
+        "id": 248,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 249,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 250,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 251,
+        "raw": "[Background(image=\"bg_aircraft\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_aircraft.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 252,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 253,
+        "raw": "[Character(name=\"char_130_doberm_ex\")]",
+        "type": "character",
+        "name": "char_130_doberm_ex"
+    },
+    {
+        "id": 254,
+        "raw": "[name=\"ドーベルマン\"]  もっと高度を上げろ！　今、敵の術式に当たりそうだったぞ！？",
+        "type": "dialog",
+        "speaker": "ドーベルマン",
+        "content": "もっと高度を上げろ！　今、敵の術式に当たりそうだったぞ！？"
+    },
+    {
+        "id": 255,
+        "raw": "[Character(name=\"avg_npc_012\", name2=\"char_130_doberm_ex\", focus=1)]",
+        "type": "character",
+        "name": "avg_npc_012",
+        "name2": "char_130_doberm_ex",
+        "focus": 1
+    },
+    {
+        "id": 256,
+        "raw": "[name=\"パイロット\"]  安心してください、教官。レユニオンの術師に撃ち落とされるほどヤワな訓練は積んじゃいませんよ！",
+        "type": "dialog",
+        "speaker": "パイロット",
+        "content": "安心してください、教官。レユニオンの術師に撃ち落とされるほどヤワな訓練は積んじゃいませんよ！"
+    },
+    {
+        "id": 257,
+        "raw": "[Character(name=\"avg_npc_012\", name2=\"char_130_doberm_ex\", focus=2)]",
+        "type": "character",
+        "name": "avg_npc_012",
+        "name2": "char_130_doberm_ex",
+        "focus": 2
+    },
+    {
+        "id": 258,
+        "raw": "[name=\"ドーベルマン\"]  いいかよく聞け！　囮になるってのは、飛行スキルを見せびらかすのとは違うんだぞ！",
+        "type": "dialog",
+        "speaker": "ドーベルマン",
+        "content": "いいかよく聞け！　囮になるってのは、飛行スキルを見せびらかすのとは違うんだぞ！"
+    },
+    {
+        "id": 259,
+        "raw": "[Character(name=\"avg_npc_012\", name2=\"char_130_doberm_ex\", focus=1)]",
+        "type": "character",
+        "name": "avg_npc_012",
+        "name2": "char_130_doberm_ex",
+        "focus": 1
+    },
+    {
+        "id": 260,
+        "raw": "[name=\"パイロット\"]  でも圧倒的な実力差を見せつけてやれば、レユニオンの連中だって降参するかもしれませんよ？",
+        "type": "dialog",
+        "speaker": "パイロット",
+        "content": "でも圧倒的な実力差を見せつけてやれば、レユニオンの連中だって降参するかもしれませんよ？"
+    },
+    {
+        "id": 261,
+        "raw": "[name=\"パイロット\"]  なんて言うんでしたっけ、武力誇示？",
+        "type": "dialog",
+        "speaker": "パイロット",
+        "content": "なんて言うんでしたっけ、武力誇示？"
+    },
+    {
+        "id": 262,
+        "raw": "[Character(name=\"avg_npc_012\", name2=\"char_130_doberm_ex\", focus=2)]",
+        "type": "character",
+        "name": "avg_npc_012",
+        "name2": "char_130_doberm_ex",
+        "focus": 2
+    },
+    {
+        "id": 263,
+        "raw": "[name=\"ドーベルマン\"]  曲芸飛行は武力誇示とは言わない！",
+        "type": "dialog",
+        "speaker": "ドーベルマン",
+        "content": "曲芸飛行は武力誇示とは言わない！"
+    },
+    {
+        "id": 264,
+        "raw": "[CameraShake(duration=0.4, xstrength=0, ystrength=8, vibrato=30, randomness=30, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.4,",
+        "xstrength": "0,",
+        "ystrength": "8,",
+        "vibrato": "30,",
+        "randomness": "30,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 265,
+        "raw": "[Character(name=\"avg_npc_012\", name2=\"char_130_doberm_ex\", focus=1)]",
+        "type": "character",
+        "name": "avg_npc_012",
+        "name2": "char_130_doberm_ex",
+        "focus": 1
+    },
+    {
+        "id": 266,
+        "raw": "[name=\"パイロット\"]  教官、しっかり掴まっててくださいね！",
+        "type": "dialog",
+        "speaker": "パイロット",
+        "content": "教官、しっかり掴まっててくださいね！"
+    },
+    {
+        "id": 267,
+        "raw": "[Character(name=\"avg_npc_012\", name2=\"char_130_doberm_ex\", focus=2)]",
+        "type": "character",
+        "name": "avg_npc_012",
+        "name2": "char_130_doberm_ex",
+        "focus": 2
+    },
+    {
+        "id": 268,
+        "raw": "[CameraShake(duration=0.4, xstrength=0, ystrength=8, vibrato=30, randomness=30, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.4,",
+        "xstrength": "0,",
+        "ystrength": "8,",
+        "vibrato": "30,",
+        "randomness": "30,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 269,
+        "raw": "[name=\"ドーベルマン\"]  バカやめろ！　うぐっ……おい、エチケット袋はどこだ！？",
+        "type": "dialog",
+        "speaker": "ドーベルマン",
+        "content": "バカやめろ！　うぐっ……おい、エチケット袋はどこだ！？"
+    },
+    {
+        "id": 270,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 271,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 272,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 273,
+        "raw": "[Background(image=\"bg_laccolith\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_laccolith.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 274,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 275,
+        "raw": "[playsound(key=\"$d_gen_transmissionget\", volume=0.4)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_transmissionget.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 276,
+        "raw": "[name=\"ニアール\"]  戦術送風機起動完了！　アーミヤ、車輌を出せ！",
+        "type": "dialog",
+        "speaker": "ニアール",
+        "content": "戦術送風機起動完了！　アーミヤ、車輌を出せ！"
+    },
+    {
+        "id": 277,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 278,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 279,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 280,
+        "raw": "[Character(name=\"char_002_amiya_1#7\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#7"
+    },
+    {
+        "id": 281,
+        "raw": "[name=\"アーミヤ\"]  はい！",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "はい！"
+    },
+    {
+        "id": 282,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 283,
+        "raw": "[name=\"ケルシー\"]  各ドライバー、等速を維持。図面の通り、登攀ツールが使用可能な距離まで中枢区画下層部に接近する。では状況開始！",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "各ドライバー、等速を維持。図面の通り、登攀ツールが使用可能な距離まで中枢区画下層部に接近する。では状況開始！"
+    },
+    {
+        "id": 284,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 285,
+        "raw": "[Image(image=\"avg_7_9\",x=-100, y=0, xScale=1, yScale=1, fadetime=0)]",
+        "type": "image",
+        "image": "avg_7_9.png",
+        "x": "-100,",
+        "y": "0,",
+        "xScale": "1,",
+        "yScale": "1,",
+        "fadetime": 0
+    },
+    {
+        "id": 286,
+        "raw": "[ImageTween(xFrom=-100,xTo=0,xScale=1, yScale=1, duration=60, block=false)]",
+        "type": "image_tween",
+        "xFrom": "-100,xTo=0,xScale=1,",
+        "yScale": "1,",
+        "duration": "60,",
+        "block": false
+    },
+    {
+        "id": 287,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 288,
+        "raw": "[playsound(key=\"$sportscarstart\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_sportscarstart.mp3",
+        "volume": 1
+    },
+    {
+        "id": 289,
+        "raw": "[CameraShake(duration=0.4, xstrength=0, ystrength=8, vibrato=30, randomness=30, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.4,",
+        "xstrength": "0,",
+        "ystrength": "8,",
+        "vibrato": "30,",
+        "randomness": "30,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 290,
+        "raw": "[playsound(key=\"$sportscarstart\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_sportscarstart.mp3",
+        "volume": 1
+    },
+    {
+        "id": 291,
+        "raw": "[CameraShake(duration=1, xstrength=0, ystrength=8, vibrato=30, randomness=30, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "xstrength": "0,",
+        "ystrength": "8,",
+        "vibrato": "30,",
+        "randomness": "30,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 292,
+        "raw": "[playsound(key=\"$drift\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_drift.mp3",
+        "volume": 1
+    },
+    {
+        "id": 293,
+        "raw": "[CameraShake(duration=0.2, xstrength=0, ystrength=8, vibrato=30, randomness=30, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.2,",
+        "xstrength": "0,",
+        "ystrength": "8,",
+        "vibrato": "30,",
+        "randomness": "30,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 294,
+        "raw": "[playsound(key=\"$drift\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_drift.mp3",
+        "volume": 1
+    },
+    {
+        "id": 295,
+        "raw": "[CameraShake(duration=0.8, xstrength=0, ystrength=8, vibrato=30, randomness=30, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.8,",
+        "xstrength": "0,",
+        "ystrength": "8,",
+        "vibrato": "30,",
+        "randomness": "30,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 296,
+        "raw": "[Character(name=\"char_002_amiya_1\")]",
+        "type": "character",
+        "name": "char_002_amiya_1"
+    },
+    {
+        "id": 297,
+        "raw": "[name=\"アーミヤ\"]  戦術送風機の起こす砂嵐が、私たちの作戦行動を隠してくれます。皆さん、防塵カバーをちゃんとチェックしてください。機器に砂が入らないように！",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "戦術送風機の起こす砂嵐が、私たちの作戦行動を隠してくれます。皆さん、防塵カバーをちゃんとチェックしてください。機器に砂が入らないように！"
+    },
+    {
+        "id": 298,
+        "raw": "[name=\"アーミヤ\"]  でも、この光……すごく透き通っています。どうして太陽光が砂塵に遮られていないんでしょう？",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "でも、この光……すごく透き通っています。どうして太陽光が砂塵に遮られていないんでしょう？"
+    },
+    {
+        "id": 299,
+        "raw": "[name=\"アーミヤ\"]  おかげで目標の可視度も上がっています。これはまるで……アーツみたい。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "おかげで目標の可視度も上がっています。これはまるで……アーツみたい。"
+    },
+    {
+        "id": 300,
+        "raw": "[name=\"アーミヤ\"]  これ……自然現象なんですか？　作戦予定には入ってませんよね？",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "これ……自然現象なんですか？　作戦予定には入ってませんよね？"
+    },
+    {
+        "id": 301,
+        "raw": "[playsound(key=\"$d_gen_transmissionget\", volume=0.4)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_transmissionget.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 302,
+        "raw": "[Character(name=\"char_002_amiya_1\", name2=\"char_148_nearl_1\", focus=2)]",
+        "type": "character",
+        "name": "char_002_amiya_1",
+        "name2": "char_148_nearl_1",
+        "focus": 2
+    },
+    {
+        "id": 303,
+        "raw": "[name=\"ニアール\"]  ……そういう話は後回しだ！",
+        "type": "dialog",
+        "speaker": "ニアール",
+        "content": "……そういう話は後回しだ！"
+    },
+    {
+        "id": 304,
+        "raw": "[Character(name=\"char_002_amiya_1#7\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#7"
+    },
+    {
+        "id": 305,
+        "raw": "[name=\"アーミヤ\"]  わかりました！　登攀ツール発射準備！　オペレーターの皆さん、ワイヤーが壁に完全に固定されているかどうかを優先的に確認してください！",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "わかりました！　登攀ツール発射準備！　オペレーターの皆さん、ワイヤーが壁に完全に固定されているかどうかを優先的に確認してください！"
+    },
+    {
+        "id": 306,
+        "raw": "[name=\"アーミヤ\"]  全員の登攀完了が確認できたら、車輌は撤退しますので！　私がこんなことを言うのは珍しいかもしれませんが……皆さん、この光はきっと私たちに幸運をもたらしてくれます！",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "全員の登攀完了が確認できたら、車輌は撤退しますので！　私がこんなことを言うのは珍しいかもしれませんが……皆さん、この光はきっと私たちに幸運をもたらしてくれます！"
+    },
+    {
+        "id": 307,
+        "raw": "[Character(name=\"char_148_nearl_1\")]",
+        "type": "character",
+        "name": "char_148_nearl_1"
+    },
+    {
+        "id": 308,
+        "raw": "[name=\"ニアール\"]  ……そうだな。",
+        "type": "dialog",
+        "speaker": "ニアール",
+        "content": "……そうだな。"
+    },
+    {
+        "id": 309,
+        "raw": "[name=\"ニアール\"]  （うっかり光を強くし過ぎて、地表に向けるしかないなんて、今はとても言い出せない……）",
+        "type": "dialog",
+        "speaker": "ニアール",
+        "content": "（うっかり光を強くし過ぎて、地表に向けるしかないなんて、今はとても言い出せない……）"
+    },
+    {
+        "id": 310,
+        "raw": "[name=\"ニアール\"]  ん？　……待て、移動都市が加速している？",
+        "type": "dialog",
+        "speaker": "ニアール",
+        "content": "ん？　……待て、移動都市が加速している？"
+    },
+    {
+        "id": 311,
+        "raw": "[name=\"ニアール\"]  風の勢いを借りても、砂塵のカバーできる範囲は1kmが限界だ！　今、この範囲から出られると、我々の存在に気づかれる！",
+        "type": "dialog",
+        "speaker": "ニアール",
+        "content": "風の勢いを借りても、砂塵のカバーできる範囲は1kmが限界だ！　今、この範囲から出られると、我々の存在に気づかれる！"
+    },
+    {
+        "id": 312,
+        "raw": "[Character(name=\"char_002_amiya_1\")]",
+        "type": "character",
+        "name": "char_002_amiya_1"
+    },
+    {
+        "id": 313,
+        "raw": "[name=\"アーミヤ\"]  皆さん、急いでください！",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "皆さん、急いでください！"
+    },
+    {
+        "id": 314,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 315,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 316,
+        "raw": "[playsound(key=\"$drift\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_drift.mp3",
+        "volume": 1
+    },
+    {
+        "id": 317,
+        "raw": "[CameraShake(duration=0.2, xstrength=0, ystrength=8, vibrato=30, randomness=30, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.2,",
+        "xstrength": "0,",
+        "ystrength": "8,",
+        "vibrato": "30,",
+        "randomness": "30,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 318,
+        "raw": "[playsound(key=\"$drift\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_drift.mp3",
+        "volume": 1
+    },
+    {
+        "id": 319,
+        "raw": "[CameraShake(duration=0.8, xstrength=0, ystrength=8, vibrato=30, randomness=30, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.8,",
+        "xstrength": "0,",
+        "ystrength": "8,",
+        "vibrato": "30,",
+        "randomness": "30,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 320,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 321,
+        "raw": "[image]",
+        "type": "image"
+    },
+    {
+        "id": 322,
+        "raw": "[Background(image=\"bg_laccolith\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_laccolith.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 323,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 324,
+        "raw": "[playsound(key=\"$drift\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_drift.mp3",
+        "volume": 1
+    },
+    {
+        "id": 325,
+        "raw": "[CameraShake(duration=0.2, xstrength=0, ystrength=8, vibrato=30, randomness=30, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.2,",
+        "xstrength": "0,",
+        "ystrength": "8,",
+        "vibrato": "30,",
+        "randomness": "30,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 326,
+        "raw": "[playsound(key=\"$drift\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_drift.mp3",
+        "volume": 1
+    },
+    {
+        "id": 327,
+        "raw": "[CameraShake(duration=0.8, xstrength=0, ystrength=8, vibrato=30, randomness=30, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.8,",
+        "xstrength": "0,",
+        "ystrength": "8,",
+        "vibrato": "30,",
+        "randomness": "30,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 328,
+        "raw": "[Character(name=\"avg_npc_012\")]",
+        "type": "character",
+        "name": "avg_npc_012"
+    },
+    {
+        "id": 329,
+        "raw": "[name=\"運転手\"]  間に合いません！　今すぐスピードを落とさないと！",
+        "type": "dialog",
+        "speaker": "運転手",
+        "content": "間に合いません！　今すぐスピードを落とさないと！"
+    },
+    {
+        "id": 330,
+        "raw": "[name=\"運転手\"]  このまま進んだら、数秒後には砂塵でカムフラージュできる範囲から外れます！",
+        "type": "dialog",
+        "speaker": "運転手",
+        "content": "このまま進んだら、数秒後には砂塵でカムフラージュできる範囲から外れます！"
+    },
+    {
+        "id": 331,
+        "raw": "[name=\"運転手\"]  あと何人残っているかわかりませんが、早く——",
+        "type": "dialog",
+        "speaker": "運転手",
+        "content": "あと何人残っているかわかりませんが、早く——"
+    },
+    {
+        "id": 332,
+        "raw": "[Decision(options=\"もう誰も残っていない。\", values=\"1\")]",
+        "type": "decision",
+        "options": "もう誰も残っていない。",
+        "values": "1"
+    },
+    {
+        "id": 333,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 334,
+        "raw": "[Character(name=\"avg_npc_012\")]",
+        "type": "character",
+        "name": "avg_npc_012"
+    },
+    {
+        "id": 335,
+        "raw": "[name=\"運転手\"]  えっ？　じゃあ、ドクターはどうやって？",
+        "type": "dialog",
+        "speaker": "運転手",
+        "content": "えっ？　じゃあ、ドクターはどうやって？"
+    },
+    {
+        "id": 336,
+        "raw": "[Decision(options=\"なんとかするしかない！;（黙って防塵マスクを被る）;ツールをくれ。自分で登る。\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "なんとかするしかない！;（黙って防塵マスクを被る）;ツールをくれ。自分で登る。",
+        "values": "1;2;3"
+    },
+    {
+        "id": 337,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 338,
+        "raw": "[Character(name=\"avg_npc_012\")]",
+        "type": "character",
+        "name": "avg_npc_012"
+    },
+    {
+        "id": 339,
+        "raw": "[name=\"運転手\"]  ……危険です、ドクター！",
+        "type": "dialog",
+        "speaker": "運転手",
+        "content": "……危険です、ドクター！"
+    },
+    {
+        "id": 340,
+        "raw": "[name=\"運転手\"]  訓練を受けてない者が一人で登るなんて冗談じゃありませんよ！",
+        "type": "dialog",
+        "speaker": "運転手",
+        "content": "訓練を受けてない者が一人で登るなんて冗談じゃありませんよ！"
+    },
+    {
+        "id": 341,
+        "raw": "[name=\"運転手\"]  ケルシー先生にサポートを用意してもらってないんですか？",
+        "type": "dialog",
+        "speaker": "運転手",
+        "content": "ケルシー先生にサポートを用意してもらってないんですか？"
+    },
+    {
+        "id": 342,
+        "raw": "[Decision(options=\"仕方がない。いないものはいないんだ。;…………;自分の身体能力を試すいいチャンスだ。\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "仕方がない。いないものはいないんだ。;…………;自分の身体能力を試すいいチャンスだ。",
+        "values": "1;2;3"
+    },
+    {
+        "id": 343,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 344,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 345,
+        "raw": "[name=\"ケルシー\"]  サポートならいる。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "サポートならいる。"
+    },
+    {
+        "id": 346,
+        "raw": "[Decision(options=\"?!\", values=\"1\")]",
+        "type": "decision",
+        "options": "?!",
+        "values": "1"
+    },
+    {
+        "id": 347,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 348,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 349,
+        "raw": "[name=\"ケルシー\"]  私だ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "私だ。"
+    },
+    {
+        "id": 350,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 351,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 352,
+        "raw": "ケルシーが片手をあなたの腰に回し、ワイヤーを繋いだ。",
+        "type": "narration",
+        "content": "ケルシーが片手をあなたの腰に回し、ワイヤーを繋いだ。"
+    },
+    {
+        "id": 353,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 354,
+        "raw": "[name=\"ケルシー\"]  Dr.{@nickname}、自分で運命を掴むのは、また次の機会にするがいい。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "Dr.{@nickname}、自分で運命を掴むのは、また次の機会にするがいい。"
+    },
+    {
+        "id": 355,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 356,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 357,
+        "raw": "[Background]",
+        "type": "background"
+    },
+    {
+        "id": 358,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 359,
+        "raw": "[Image(image=\"avg_7_9\",x=0, y=0, xScale=0.9, yScale=0.9, fadetime=0)]",
+        "type": "image",
+        "image": "avg_7_9.png",
+        "x": "0,",
+        "y": "0,",
+        "xScale": "0.9,",
+        "yScale": "0.9,",
+        "fadetime": 0
+    },
+    {
+        "id": 360,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 361,
+        "raw": "激しい砂嵐の中、意外と硬い感触がするその「手」が、果たしてケルシーのものなのかどうか、あなたは確信が持てなくなっていた。",
+        "type": "narration",
+        "content": "激しい砂嵐の中、意外と硬い感触がするその「手」が、果たしてケルシーのものなのかどうか、あなたは確信が持てなくなっていた。"
+    },
+    {
+        "id": 362,
+        "raw": "[Background]",
+        "type": "background"
+    },
+    {
+        "id": 363,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 364,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 365,
+        "raw": "[Image(image=\"avg_7_8\",x=0, y=0, xScale=0.9, yScale=0.9, fadetime=0)]",
+        "type": "image",
+        "image": "avg_7_8.png",
+        "x": "0,",
+        "y": "0,",
+        "xScale": "0.9,",
+        "yScale": "0.9,",
+        "fadetime": 0
+    },
+    {
+        "id": 366,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 367,
+        "raw": "[playsound(key=\"$d_gen_transmissionget\", volume=0.4)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_transmissionget.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 368,
+        "raw": "[name=\"アーミヤ\"]  各小隊、作戦位置についてください！",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "各小隊、作戦位置についてください！"
+    },
+    {
+        "id": 369,
+        "raw": "[name=\"アーミヤ\"]  これからの行動では、少しのミスも許されません。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "これからの行動では、少しのミスも許されません。"
+    },
+    {
+        "id": 370,
+        "raw": "[stopmusic(fadetime=3)]",
+        "type": "stop_music",
+        "fadetime": 3
+    },
+    {
+        "id": 371,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 372,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 373,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 374,
+        "raw": "[image]",
+        "type": "image"
+    },
+    {
+        "id": 375,
+        "raw": "[Background(image=\"bg_cherunder\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_cherunder.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 376,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 377,
+        "raw": "10:30 a.m.",
+        "type": "narration",
+        "content": "10:30 a.m."
+    },
+    {
+        "id": 378,
+        "raw": "中枢区画最下層",
+        "type": "narration",
+        "content": "中枢区画最下層"
+    },
+    {
+        "id": 379,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 380,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3"
+    },
+    {
+        "id": 381,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 382,
+        "raw": "[Character(name=\"avg_npc_012\")]",
+        "type": "character",
+        "name": "avg_npc_012"
+    },
+    {
+        "id": 383,
+        "raw": "[name=\"オペレーター\"]  確かに、これは侵入の痕跡ですね。",
+        "type": "dialog",
+        "speaker": "オペレーター",
+        "content": "確かに、これは侵入の痕跡ですね。"
+    },
+    {
+        "id": 384,
+        "raw": "[name=\"オペレーター\"]  侵入者は一人しかいないと断定できます。",
+        "type": "dialog",
+        "speaker": "オペレーター",
+        "content": "侵入者は一人しかいないと断定できます。"
+    },
+    {
+        "id": 385,
+        "raw": "[Character(name=\"char_002_amiya_1#7\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#7"
+    },
+    {
+        "id": 386,
+        "raw": "[name=\"アーミヤ\"]  あそこの血の跡は、レユニオンのものかどうかはわかりませんが、まだ新しいみたいです。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "あそこの血の跡は、レユニオンのものかどうかはわかりませんが、まだ新しいみたいです。"
+    },
+    {
+        "id": 387,
+        "raw": "[name=\"アーミヤ\"]  かなりの確率でチェンさんだと思います……！　急ぎましょう。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "かなりの確率でチェンさんだと思います……！　急ぎましょう。"
+    },
+    {
+        "id": 388,
+        "raw": "[Character(name=\"char_002_amiya_1#6\")]",
+        "type": "character",
+        "name": "char_002_amiya_1#6"
+    },
+    {
+        "id": 389,
+        "raw": "[name=\"アーミヤ\"]  あっ、ドクター！",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "あっ、ドクター！"
+    },
+    {
+        "id": 390,
+        "raw": "[name=\"アーミヤ\"]  無事に到着できたようで何よりです。",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "無事に到着できたようで何よりです。"
+    },
+    {
+        "id": 391,
+        "raw": "[Decision(options=\"あれで無事到着だと……？;……正直ヤバかった。;君に二度と会えなくなると覚悟したよ。\", values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "あれで無事到着だと……？;……正直ヤバかった。;君に二度と会えなくなると覚悟したよ。",
+        "values": "1;2;3"
+    },
+    {
+        "id": 392,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 393,
+        "raw": "[Character(name=\"char_002_amiya_1\")]",
+        "type": "character",
+        "name": "char_002_amiya_1"
+    },
+    {
+        "id": 394,
+        "raw": "[name=\"アーミヤ\"]  ……えっ？　ええ！？",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "……えっ？　ええ！？"
+    },
+    {
+        "id": 395,
+        "raw": "[name=\"アーミヤ\"]  危なかったんですか？　Dr.{@nickname}、どこか怪我はしてませんか？",
+        "type": "dialog",
+        "speaker": "アーミヤ",
+        "content": "危なかったんですか？　Dr.{@nickname}、どこか怪我はしてませんか？"
+    },
+    {
+        "id": 396,
+        "raw": "[Decision(options=\"大丈夫だ、行こう。受けたのは心の傷だけだ。\", values=\"1\")]",
+        "type": "decision",
+        "options": "大丈夫だ、行こう。受けたのは心の傷だけだ。",
+        "values": "1"
+    },
+    {
+        "id": 397,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 398,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 399,
+        "raw": "[Blocker(fadetime=2,block=true)]",
+        "type": "blocker",
+        "fadetime": "2,block=true"
+    },
+    {
+        "id": 400,
+        "raw": "[Image]",
+        "type": "image"
+    }
+]

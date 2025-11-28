@@ -1,0 +1,3208 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")]",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK"
+    },
+    {
+        "id": 2,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 3,
+        "raw": "[stopmusic]",
+        "type": "stop_music"
+    },
+    {
+        "id": 4,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 5,
+        "raw": "[Background(image=\"50_g18_originiumcave\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "50_g18_originiumcave.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 6,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 7,
+        "raw": "[PlayMusic(intro=\"$darkness01_intro\", key=\"$darkness01_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta1_180603/m_dia_darkness01_intro.mp3",
+        "key": "sound_beta_2/music/beta1_180603/m_dia_darkness01_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 8,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 9,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 10,
+        "raw": "[playsound(key=\"$d_avg_boneflute_low\",volume=0.5)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_boneflute_low.mp3",
+        "volume": 0.5
+    },
+    {
+        "id": 11,
+        "raw": "[Delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 12,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#2$1\",duration=1.5)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#2$1.png",
+        "duration": 1.5
+    },
+    {
+        "id": 13,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 14,
+        "raw": "[name=\"아미야\"]……조종.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "……조종."
+    },
+    {
+        "id": 15,
+        "raw": "[name=\"아미야\"]이건…… 로고스 씨의 골피리 소리네요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "이건…… 로고스 씨의 골피리 소리네요."
+    },
+    {
+        "id": 16,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 17,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#2$1\",focus=\"none\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#2$1.png",
+        "focus": "none"
+    },
+    {
+        "id": 18,
+        "raw": "[Decision(options=\"골피리……;……누구를 위해서 부는 걸까?\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "골피리……;……누구를 위해서 부는 걸까?",
+        "values": "1;2"
+    },
+    {
+        "id": 19,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 20,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#11$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#11$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 21,
+        "raw": "[name=\"아미야\"]……",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "……"
+    },
+    {
+        "id": 22,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 23,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#11$1\",focus=\"none\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#11$1.png",
+        "focus": "none"
+    },
+    {
+        "id": 24,
+        "raw": "[Decision(options=\"아미야……\", values=\"1\")]",
+        "type": "decision",
+        "options": "아미야……",
+        "values": "1"
+    },
+    {
+        "id": 25,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 26,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#17$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#17$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 27,
+        "raw": "[name=\"아미야\"]저 괜찮아요, 박사님.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "저 괜찮아요, 박사님."
+    },
+    {
+        "id": 28,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#11$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#11$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 29,
+        "raw": "[name=\"아미야\"]그냥, 조금…… 여러 가지 일들이 생각나서요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "그냥, 조금…… 여러 가지 일들이 생각나서요."
+    },
+    {
+        "id": 30,
+        "raw": "[name=\"아미야\"]로도스 아일랜드에 있었을 때, 로고스 씨가 밴시의 주인이라 자처하는 모습은 그다지 본 적이 없었어요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "로도스 아일랜드에 있었을 때, 로고스 씨가 밴시의 주인이라 자처하는 모습은 그다지 본 적이 없었어요."
+    },
+    {
+        "id": 31,
+        "raw": "[name=\"아미야\"]항상 자신이 스카우트 씨나 미저리 씨와 다를 게 없다고, 로도스 아일랜드의 이상을 믿는 살카즈 오퍼레이터에 불과하다고 말하고 다녔죠.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "항상 자신이 스카우트 씨나 미저리 씨와 다를 게 없다고, 로도스 아일랜드의 이상을 믿는 살카즈 오퍼레이터에 불과하다고 말하고 다녔죠."
+    },
+    {
+        "id": 32,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#2$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#2$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 33,
+        "raw": "[name=\"아미야\"]그래서…… 출발하던 그날, 로고스 씨가 왕정의 옷으로 갈아입는 모습을 보았을 때……",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "그래서…… 출발하던 그날, 로고스 씨가 왕정의 옷으로 갈아입는 모습을 보았을 때……"
+    },
+    {
+        "id": 34,
+        "raw": "[name=\"아미야\"]저는 로고스 씨의 눈에서 큰 결심과……",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "저는 로고스 씨의 눈에서 큰 결심과……"
+    },
+    {
+        "id": 35,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#11$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#11$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 36,
+        "raw": "[name=\"아미야\"]슬픔을…… 보았어요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "슬픔을…… 보았어요."
+    },
+    {
+        "id": 37,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 38,
+        "raw": "[stopmusic(fadetime=1.5)]",
+        "type": "stop_music",
+        "fadetime": 1.5
+    },
+    {
+        "id": 39,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 40,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 41,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 42,
+        "raw": "[Background(image=\"50_g1_originiumcanyon\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "50_g1_originiumcanyon.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 43,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 44,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 45,
+        "raw": "[Delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 46,
+        "raw": "[PlaySound(key=\"$fireburst\", volume=0.6)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_fireburst.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 47,
+        "raw": "[PlaySound(key=\"$d_gen_thunders_amb\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_thunders_amb.mp3",
+        "volume": 1
+    },
+    {
+        "id": 48,
+        "raw": "[CameraShake(duration=2, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "2,",
+        "xstrength": "20,",
+        "ystrength": "20,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 49,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 50,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.03,",
+        "block": true
+    },
+    {
+        "id": 51,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 52,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 53,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.03,",
+        "block": true
+    },
+    {
+        "id": 54,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 55,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 56,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.03,",
+        "block": true
+    },
+    {
+        "id": 57,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 58,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1.5,",
+        "block": true
+    },
+    {
+        "id": 59,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4133_logos_1#10$1\",duration=1.5)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4133_logos_1#10$1.png",
+        "duration": 1.5
+    },
+    {
+        "id": 60,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 61,
+        "raw": "[name=\"로고스\"]……",
+        "type": "dialog",
+        "speaker": "로고스",
+        "content": "……"
+    },
+    {
+        "id": 62,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 63,
+        "raw": "[PlaySound(key=\"$bodyfalldown1\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_bodyfalldown1.mp3",
+        "volume": 1
+    },
+    {
+        "id": 64,
+        "raw": "[charslot(duration=1.5)]",
+        "type": "charslot",
+        "duration": 1.5
+    },
+    {
+        "id": 65,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 66,
+        "raw": "골피리는 부서졌고 골필은 부러졌으며, 로고스의 입술에서는 피가 흘렀다.",
+        "type": "narration",
+        "content": "골피리는 부서졌고 골필은 부러졌으며, 로고스의 입술에서는 피가 흘렀다."
+    },
+    {
+        "id": 67,
+        "raw": "[PlayMusic(intro=\"$dignified_intro\", key=\"$dignified_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act9d0d0/m_avg_dignified_intro.mp3",
+        "key": "sound_beta_2/music/act9d0d0/m_avg_dignified_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 68,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1339_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1339_1#1$1.png"
+    },
+    {
+        "id": 69,
+        "raw": "[name=\"네츠살렘\"]그대는 더 이상 그 어떤 주술도 쓸 수 없다.",
+        "type": "dialog",
+        "speaker": "네츠살렘",
+        "content": "그대는 더 이상 그 어떤 주술도 쓸 수 없다."
+    },
+    {
+        "id": 70,
+        "raw": "[name=\"네츠살렘\"]스스로를 극한까지 몰아넣고, 전신의 피를 태워 골필을 분 게…… 고작 나를 잠깐이라도 막기 위해서인가.",
+        "type": "dialog",
+        "speaker": "네츠살렘",
+        "content": "스스로를 극한까지 몰아넣고, 전신의 피를 태워 골필을 분 게…… 고작 나를 잠깐이라도 막기 위해서인가."
+    },
+    {
+        "id": 71,
+        "raw": "[name=\"네츠살렘\"]아이파닐……",
+        "type": "dialog",
+        "speaker": "네츠살렘",
+        "content": "아이파닐……"
+    },
+    {
+        "id": 72,
+        "raw": "[name=\"네츠살렘\"]그대는, 전사로서 합격이다.",
+        "type": "dialog",
+        "speaker": "네츠살렘",
+        "content": "그대는, 전사로서 합격이다."
+    },
+    {
+        "id": 73,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 74,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 75,
+        "raw": "나흐체러르 킹이 두 팔을 벌렸다.",
+        "type": "narration",
+        "content": "나흐체러르 킹이 두 팔을 벌렸다."
+    },
+    {
+        "id": 76,
+        "raw": "몸에 걸진 수많은 너덜너덜한 깃발은 살카즈가 겪은 수많은 전쟁의 재현과도 같았다.",
+        "type": "narration",
+        "content": "몸에 걸진 수많은 너덜너덜한 깃발은 살카즈가 겪은 수많은 전쟁의 재현과도 같았다."
+    },
+    {
+        "id": 77,
+        "raw": "상처에서 떨어져 나온 피와 썩은 살이 전장에 영양을 공급하고 있었다. 새로운 가지가 땅을 뚫고 나와, 주문에 의해 중상을 입은 전사들의 몸을 다시금 채워주었다.",
+        "type": "narration",
+        "content": "상처에서 떨어져 나온 피와 썩은 살이 전장에 영양을 공급하고 있었다. 새로운 가지가 땅을 뚫고 나와, 주문에 의해 중상을 입은 전사들의 몸을 다시금 채워주었다."
+    },
+    {
+        "id": 78,
+        "raw": "쓰러진 '영장'들이 다시 일어서기 시작했다.",
+        "type": "narration",
+        "content": "쓰러진 '영장'들이 다시 일어서기 시작했다."
+    },
+    {
+        "id": 79,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 80,
+        "raw": "[playsound(key=\"$a_bat_buildingshaking_1\",volume=1,channel=\"2\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/ambience/a_bat/a_bat_buildingshaking_1.mp3",
+        "volume": "1,channel=\"2\""
+    },
+    {
+        "id": 81,
+        "raw": "[playsound(key=\"$d_avg_darkwhisper\",volume=1,channel=\"1\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_darkwhisper.mp3",
+        "volume": "1,channel=\"1\""
+    },
+    {
+        "id": 82,
+        "raw": "[charslot(slot=\"l\",name=\"avg_npc_1331_1#1$1\",duration=1.5)]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_1331_1#1$1.png",
+        "duration": 1.5
+    },
+    {
+        "id": 83,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_1331_1#1$1\",duration=1.5)]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_1331_1#1$1.png",
+        "duration": 1.5
+    },
+    {
+        "id": 84,
+        "raw": "[CameraShake(duration=3, xstrength=10, ystrength=10, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "3,",
+        "xstrength": "10,",
+        "ystrength": "10,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 85,
+        "raw": "[Delay(time=3.5)]",
+        "type": "delay",
+        "time": 3.5
+    },
+    {
+        "id": 86,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 87,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1339_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1339_1#1$1.png"
+    },
+    {
+        "id": 88,
+        "raw": "[name=\"네츠살렘\"]하지만 그대가 맞서 싸우려는 것은 한 명, 혹은 몇 명의 특정 인물이 아니다.",
+        "type": "dialog",
+        "speaker": "네츠살렘",
+        "content": "하지만 그대가 맞서 싸우려는 것은 한 명, 혹은 몇 명의 특정 인물이 아니다."
+    },
+    {
+        "id": 89,
+        "raw": "[name=\"네츠살렘\"]살카즈, 그리고 왕정 내부에 혁신가가 부족한 적은 없었지. 최종적으로 그들은 항상 실패했다. 마치 그날의 테레시아처럼 말이다.",
+        "type": "dialog",
+        "speaker": "네츠살렘",
+        "content": "살카즈, 그리고 왕정 내부에 혁신가가 부족한 적은 없었지. 최종적으로 그들은 항상 실패했다. 마치 그날의 테레시아처럼 말이다."
+    },
+    {
+        "id": 90,
+        "raw": "[name=\"네츠살렘\"]전쟁은 거대한 바위이며, 살카즈는 심연 속에 서 있을 운명이다. 바위는 그 머리 위로 영원히 계속해서 쏟아질 터.",
+        "type": "dialog",
+        "speaker": "네츠살렘",
+        "content": "전쟁은 거대한 바위이며, 살카즈는 심연 속에 서 있을 운명이다. 바위는 그 머리 위로 영원히 계속해서 쏟아질 터."
+    },
+    {
+        "id": 91,
+        "raw": "[name=\"네츠살렘\"]그대는……",
+        "type": "dialog",
+        "speaker": "네츠살렘",
+        "content": "그대는……"
+    },
+    {
+        "id": 92,
+        "raw": "[name=\"네츠살렘\"]나흐체러르의 경의를 얻었다. 이제, 내가 그대에게 죽음을 가져다주지.",
+        "type": "dialog",
+        "speaker": "네츠살렘",
+        "content": "나흐체러르의 경의를 얻었다. 이제, 내가 그대에게 죽음을 가져다주지."
+    },
+    {
+        "id": 93,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 94,
+        "raw": "[charslot(duration=1.5)]",
+        "type": "charslot",
+        "duration": 1.5
+    },
+    {
+        "id": 95,
+        "raw": "[Delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 96,
+        "raw": "나흐체러르가 부패의 안개를 헤치며 천천히 젊은 밴시에게 다가갔다.",
+        "type": "narration",
+        "content": "나흐체러르가 부패의 안개를 헤치며 천천히 젊은 밴시에게 다가갔다."
+    },
+    {
+        "id": 97,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 98,
+        "raw": "[bgeffect(name=\"$eb_dim_closeeye\",layer=1)]",
+        "type": "bg_effect",
+        "name": "$eb_dim_closeeye",
+        "layer": 1
+    },
+    {
+        "id": 99,
+        "raw": "[Delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 100,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 101,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 102,
+        "raw": "[PlaySound(key=\"$d_avg_cnstrctnck\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_cnstrctnck.mp3",
+        "volume": 1
+    },
+    {
+        "id": 103,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1339_1#1$1\",posfrom=\"0,-120\",posto=\"0,-120\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1339_1#1$1.png",
+        "posfrom": "0,-120",
+        "posto": "0,-120"
+    },
+    {
+        "id": 104,
+        "raw": "[charslot(slot=\"m\",action=\"zoom\",poszoom=\"0.5,0.65\",scale=2,focus=\"all\")]",
+        "type": "charslot",
+        "slot": "m",
+        "action": "zoom",
+        "poszoom": "0.5,0.65",
+        "scale": "2,focus=\"all\""
+    },
+    {
+        "id": 105,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 106,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 107,
+        "raw": "[CameraShake(duration=2.5,xstrength=10, ystrength=10, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "2.5,xstrength=10,",
+        "ystrength": "10,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 108,
+        "raw": "[PlaySound(key=\"$d_avg_magicscreen\", volume=1,channel=\"1\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_magicscreen.mp3",
+        "volume": "1,channel=\"1\""
+    },
+    {
+        "id": 109,
+        "raw": "[Blocker(a=0.5, r=0, g=0, b=0, fadetime=2.5, block=true)]",
+        "type": "blocker",
+        "a": "0.5,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2.5,",
+        "block": true
+    },
+    {
+        "id": 110,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 111,
+        "raw": "[bgeffect]",
+        "type": "bg_effect"
+    },
+    {
+        "id": 112,
+        "raw": "[name=\"로고스\"]“절단하라”.",
+        "type": "dialog",
+        "speaker": "로고스",
+        "content": "“절단하라”."
+    },
+    {
+        "id": 113,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 114,
+        "raw": "[Blocker(a=0.5, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0.5,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 115,
+        "raw": "[PlaySound(key=\"$d_avg_magic_5\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_magic_5.mp3",
+        "volume": 1
+    },
+    {
+        "id": 116,
+        "raw": "[Blocker(a=1, r=1, g=1, b=1, fadetime=0.03, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "1,",
+        "g": "1,",
+        "b": "1,",
+        "fadetime": "0.03,",
+        "block": true
+    },
+    {
+        "id": 117,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1.5,",
+        "block": true
+    },
+    {
+        "id": 118,
+        "raw": "밴시는 거의 들리지 않을 정도로 희미해진 목소리로 마지막 주문을 외쳤다. 로고스는 예리한 칼날로 변한 글귀를 꽉 잡고……",
+        "type": "narration",
+        "content": "밴시는 거의 들리지 않을 정도로 희미해진 목소리로 마지막 주문을 외쳤다. 로고스는 예리한 칼날로 변한 글귀를 꽉 잡고……"
+    },
+    {
+        "id": 119,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 120,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 121,
+        "raw": "[Effect(name=\"$e_bladeline_01_large\",x =-162.12, y =42.4,rox =8.6, roy =-47, roz =29.2, layer = 1)]",
+        "type": "effect",
+        "name": "$e_bladeline_01_large"
+    },
+    {
+        "id": 122,
+        "raw": "[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "ystrength": "40,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 123,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.03,",
+        "block": true
+    },
+    {
+        "id": 124,
+        "raw": "[PlaySound(key=\"$e_skill_skulsrsword\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_skill/e_skill_skulsrsword.mp3",
+        "volume": 1
+    },
+    {
+        "id": 125,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=1.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "1.5,",
+        "block": true
+    },
+    {
+        "id": 126,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 127,
+        "raw": "나흐체러르 킹의 오른팔을 잘라냈다.",
+        "type": "narration",
+        "content": "나흐체러르 킹의 오른팔을 잘라냈다."
+    },
+    {
+        "id": 128,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 129,
+        "raw": "[PlaySound(key=\"$d_avg_darkwhisper\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_darkwhisper.mp3",
+        "volume": 1
+    },
+    {
+        "id": 130,
+        "raw": "[charslot(slot=\"m\",posfrom=\"0,-120\",posto=\"0,0\",duration=0.5)]",
+        "type": "charslot",
+        "slot": "m",
+        "posfrom": "0,-120",
+        "posto": "0,0",
+        "duration": 0.5
+    },
+    {
+        "id": 131,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 132,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 133,
+        "raw": "[PlaySound(key=\"$bodyfalldown1\", volume=1,channel=\"1\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_bodyfalldown1.mp3",
+        "volume": "1,channel=\"1\""
+    },
+    {
+        "id": 134,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 135,
+        "raw": "[name=\"네츠살렘\"]이럴 수가…… 테레시스의 검술인가……",
+        "type": "dialog",
+        "speaker": "네츠살렘",
+        "content": "이럴 수가…… 테레시스의 검술인가……"
+    },
+    {
+        "id": 136,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 137,
+        "raw": "[Delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 138,
+        "raw": "[PlaySound(key=\"$d_avg_explosion_stone\", volume=1,channel=\"1\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_explosion_stone.mp3",
+        "volume": "1,channel=\"1\""
+    },
+    {
+        "id": 139,
+        "raw": "[PlaySound(key=\"$d_avg_punch\", volume=1,channel=\"2\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_punch.mp3",
+        "volume": "1,channel=\"2\""
+    },
+    {
+        "id": 140,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 141,
+        "raw": "나흐체러르 킹의 전력이 담긴 아츠가 로고스의 가슴에 적중했다.",
+        "type": "narration",
+        "content": "나흐체러르 킹의 전력이 담긴 아츠가 로고스의 가슴에 적중했다."
+    },
+    {
+        "id": 142,
+        "raw": "로고스는 벼랑으로 추락했다.",
+        "type": "narration",
+        "content": "로고스는 벼랑으로 추락했다."
+    },
+    {
+        "id": 143,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 144,
+        "raw": "[Delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 145,
+        "raw": "[stopmusic(fadetime=1.5)]",
+        "type": "stop_music",
+        "fadetime": 1.5
+    },
+    {
+        "id": 146,
+        "raw": "[PlaySound(key=\"$d_avg_jump_water\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_jump_water.mp3",
+        "volume": 1
+    },
+    {
+        "id": 147,
+        "raw": "[Background(image=\"49_g12_diving\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "49_g12_diving.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 148,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 149,
+        "raw": "[PlaySound(key=\"$d_avg_underwateramb\", volume=1,loop=true,channel=\"1\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_underwateramb.mp3",
+        "volume": "1,loop=true,channel=\"1\""
+    },
+    {
+        "id": 150,
+        "raw": "[BackgroundTween(xScaleFrom=1.3, yScaleFrom=1.3, xScaleTo=1, yScaleTo=1,duration=50, block=false,screenadapt=\"coverall\")]",
+        "type": "background_tween",
+        "xScaleFrom": "1.3,",
+        "yScaleFrom": "1.3,",
+        "xScaleTo": "1,",
+        "yScaleTo": "1,duration=50,",
+        "block": "false,screenadapt=\"coverall\""
+    },
+    {
+        "id": 151,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 152,
+        "raw": "[Delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 153,
+        "raw": "그와 동시에, 오리지늄으로 이루어진 바닥도 굉음과 함께 무너져 내렸다.",
+        "type": "narration",
+        "content": "그와 동시에, 오리지늄으로 이루어진 바닥도 굉음과 함께 무너져 내렸다."
+    },
+    {
+        "id": 154,
+        "raw": "로고스는 그 익숙한 함선이 산과 강을 지나갈 때의 모습이 떠올랐다. 함선의 캐터필러도 지금과 비슷한 굉음을 냈었다.",
+        "type": "narration",
+        "content": "로고스는 그 익숙한 함선이 산과 강을 지나갈 때의 모습이 떠올랐다. 함선의 캐터필러도 지금과 비슷한 굉음을 냈었다."
+    },
+    {
+        "id": 155,
+        "raw": "로고스는 처음 로도스 아일랜드에 승선한 그날, 테레시아와 함께 갑판에 올랐던 기억이 떠올랐다. 테레시아는 카즈델을 바라보며 바람을 타고 들려오는 통곡에 귀를 기울였다.",
+        "type": "narration",
+        "content": "로고스는 처음 로도스 아일랜드에 승선한 그날, 테레시아와 함께 갑판에 올랐던 기억이 떠올랐다. 테레시아는 카즈델을 바라보며 바람을 타고 들려오는 통곡에 귀를 기울였다."
+    },
+    {
+        "id": 156,
+        "raw": "로고스는 등을 구부리고 부품을 만지작거리며 클로저에게 재료를 낭비하지 말라고 훈계하던 메커니스트가 떠올랐다. 아웃캐스트는 블레이즈에게 이번 교훈은 얼마나 오래갈지 내기하다, 로봇 팔에 의해 모자가 벗겨지고 말았다.",
+        "type": "narration",
+        "content": "로고스는 등을 구부리고 부품을 만지작거리며 클로저에게 재료를 낭비하지 말라고 훈계하던 메커니스트가 떠올랐다. 아웃캐스트는 블레이즈에게 이번 교훈은 얼마나 오래갈지 내기하다, 로봇 팔에 의해 모자가 벗겨지고 말았다."
+    },
+    {
+        "id": 157,
+        "raw": "로고스는 방패와 술잔 옆에 놓여 있던, 에이스의 피 묻은 손이 떠올랐다. 스카우트의 손은 자신의 석궁만큼이나 차가웠고, 얼굴을 보지 않고 악수나 하이파이브만으로도 그게 스카우트인 걸 알 수 있을 정도였다.",
+        "type": "narration",
+        "content": "로고스는 방패와 술잔 옆에 놓여 있던, 에이스의 피 묻은 손이 떠올랐다. 스카우트의 손은 자신의 석궁만큼이나 차가웠고, 얼굴을 보지 않고 악수나 하이파이브만으로도 그게 스카우트인 걸 알 수 있을 정도였다."
+    },
+    {
+        "id": 158,
+        "raw": "로고스는 박사와 아미야가 복도에서 저녁 인사를 나누던 모습이 떠올랐다. 아미야는 그에게 런디니움으로 갈 준비가 다 되었는지 물어보았다.",
+        "type": "narration",
+        "content": "로고스는 박사와 아미야가 복도에서 저녁 인사를 나누던 모습이 떠올랐다. 아미야는 그에게 런디니움으로 갈 준비가 다 되었는지 물어보았다."
+    },
+    {
+        "id": 159,
+        "raw": "로고스는 아미야의 손을 잡고 사람들에게 다가온 켈시의 모습이 떠올랐다……",
+        "type": "narration",
+        "content": "로고스는 아미야의 손을 잡고 사람들에게 다가온 켈시의 모습이 떠올랐다……"
+    },
+    {
+        "id": 160,
+        "raw": "“테레시아는 죽었어. 이제 아미야가 로도스 아일랜드를 이끌 거야.”",
+        "type": "narration",
+        "content": "“테레시아는 죽었어. 이제 아미야가 로도스 아일랜드를 이끌 거야.”"
+    },
+    {
+        "id": 161,
+        "raw": "로고스는 끊임없이 추락하고 있었다.",
+        "type": "narration",
+        "content": "로고스는 끊임없이 추락하고 있었다."
+    },
+    {
+        "id": 162,
+        "raw": "얼음처럼 차가운 물에 머리가 잠길 때까지.",
+        "type": "narration",
+        "content": "얼음처럼 차가운 물에 머리가 잠길 때까지."
+    },
+    {
+        "id": 163,
+        "raw": "그는 오래전의 여러 광경이 떠올랐다.",
+        "type": "narration",
+        "content": "그는 오래전의 여러 광경이 떠올랐다."
+    },
+    {
+        "id": 164,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 165,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 166,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 167,
+        "raw": "[stopsound(channel=\"1\",fadetime=1.5)]",
+        "type": "stop_sound",
+        "channel": "1",
+        "fadetime": 1.5
+    },
+    {
+        "id": 168,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 169,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 170,
+        "raw": "[bgEffect(name=\"$eb_sunlight_01\", layer = 1)]",
+        "type": "bg_effect",
+        "name": "$eb_sunlight_01"
+    },
+    {
+        "id": 171,
+        "raw": "[image(image=\"50_i07\",screenadapt=\"coverall\",xScale=1.1, yScale=1.1,y=30)]",
+        "type": "image",
+        "image": "50_i07.png",
+        "screenadapt": "coverall",
+        "xScale": "1.1,",
+        "yScale": "1.1,y=30"
+    },
+    {
+        "id": 172,
+        "raw": "[ImageTween(xScaleFrom=1.1, yScaleFrom=1.1, xScaleTo=1, yScaleTo=1, duration=30,yTo=0)]",
+        "type": "image_tween",
+        "xScaleFrom": "1.1,",
+        "yScaleFrom": "1.1,",
+        "xScaleTo": "1,",
+        "yScaleTo": "1,",
+        "duration": "30,yTo=0"
+    },
+    {
+        "id": 173,
+        "raw": "[PlayMusic(key=\"$calm_loop\", volume=0.6)]",
+        "type": "play_music",
+        "key": "sound_beta_2/music/avg/m_avg_calm_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 174,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 175,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 176,
+        "raw": "[name=\"라케라말린\"]이미 정했구나.",
+        "type": "dialog",
+        "speaker": "라케라말린",
+        "content": "이미 정했구나."
+    },
+    {
+        "id": 177,
+        "raw": "[name=\"아이파닐\"]그렇습니다.",
+        "type": "dialog",
+        "speaker": "아이파닐",
+        "content": "그렇습니다."
+    },
+    {
+        "id": 178,
+        "raw": "[name=\"아이파닐\"]저는 로도스 아일랜드에 남아 그 함선과 함께 대지를 둘러보기로 했습니다.",
+        "type": "dialog",
+        "speaker": "아이파닐",
+        "content": "저는 로도스 아일랜드에 남아 그 함선과 함께 대지를 둘러보기로 했습니다."
+    },
+    {
+        "id": 179,
+        "raw": "[name=\"라케라말린\"]테레시아는…… 이제 없어.",
+        "type": "dialog",
+        "speaker": "라케라말린",
+        "content": "테레시아는…… 이제 없어."
+    },
+    {
+        "id": 180,
+        "raw": "[name=\"라케라말린\"]바벨의 이상은……",
+        "type": "dialog",
+        "speaker": "라케라말린",
+        "content": "바벨의 이상은……"
+    },
+    {
+        "id": 181,
+        "raw": "[name=\"아이파닐\"]……아직 남아있습니다.",
+        "type": "dialog",
+        "speaker": "아이파닐",
+        "content": "……아직 남아있습니다."
+    },
+    {
+        "id": 182,
+        "raw": "[name=\"아이파닐\"]전하께서는 이미 후계자를 정해두었습니다. 아직 어리지만, 눈에는 우리도 잘 아는 이상주의자의 불꽃이 타오르고 있죠.",
+        "type": "dialog",
+        "speaker": "아이파닐",
+        "content": "전하께서는 이미 후계자를 정해두었습니다. 아직 어리지만, 눈에는 우리도 잘 아는 이상주의자의 불꽃이 타오르고 있죠."
+    },
+    {
+        "id": 183,
+        "raw": "[name=\"아이파닐\"]그리고 제가 로도스 아일랜드에 남는 이유는 그 한 사람 때문만은 아닙니다.",
+        "type": "dialog",
+        "speaker": "아이파닐",
+        "content": "그리고 제가 로도스 아일랜드에 남는 이유는 그 한 사람 때문만은 아닙니다."
+    },
+    {
+        "id": 184,
+        "raw": "[name=\"아이파닐\"]전하의 탐구는 끝나지 않았고, 또 이대로 끝나서도 안 됩니다. 살카즈의 미래에 대한 답이 다른 곳에 있는 한, 저의 여행 또한 끝나지 않을 것입니다.",
+        "type": "dialog",
+        "speaker": "아이파닐",
+        "content": "전하의 탐구는 끝나지 않았고, 또 이대로 끝나서도 안 됩니다. 살카즈의 미래에 대한 답이 다른 곳에 있는 한, 저의 여행 또한 끝나지 않을 것입니다."
+    },
+    {
+        "id": 185,
+        "raw": "[name=\"아이파닐\"]그 말은, 제가 오랫동안 협곡에 돌아오지 않는다는 뜻입니다.",
+        "type": "dialog",
+        "speaker": "아이파닐",
+        "content": "그 말은, 제가 오랫동안 협곡에 돌아오지 않는다는 뜻입니다."
+    },
+    {
+        "id": 186,
+        "raw": "[name=\"라케라말린\"]그럼에도 미련을 품은 건…… 우리 곁에 있어 주지 못하기 때문인가?",
+        "type": "dialog",
+        "speaker": "라케라말린",
+        "content": "그럼에도 미련을 품은 건…… 우리 곁에 있어 주지 못하기 때문인가?"
+    },
+    {
+        "id": 187,
+        "raw": "[name=\"아이파닐\"]협곡 밖에서 저는 왕정의 주인으로서 행동하지 않을 겁니다.",
+        "type": "dialog",
+        "speaker": "아이파닐",
+        "content": "협곡 밖에서 저는 왕정의 주인으로서 행동하지 않을 겁니다."
+    },
+    {
+        "id": 188,
+        "raw": "[name=\"아이파닐\"]그럼에도 많은 사람들은 여전히 저의 의지를 왕정의 의지로 여기겠죠. 그들이 밴시에게 적의를 품을 우려가 있음에도…… 저는 당신들을 위해 협곡 밖으로부터 몰려오는 비바람을 막아주진 못할 것 같습니다.",
+        "type": "dialog",
+        "speaker": "아이파닐",
+        "content": "그럼에도 많은 사람들은 여전히 저의 의지를 왕정의 의지로 여기겠죠. 그들이 밴시에게 적의를 품을 우려가 있음에도…… 저는 당신들을 위해 협곡 밖으로부터 몰려오는 비바람을 막아주진 못할 것 같습니다."
+    },
+    {
+        "id": 189,
+        "raw": "[name=\"라케라말린\"]오랜 친구가 찾아온다면, 내가 기꺼이 환대해 주겠노라.",
+        "type": "dialog",
+        "speaker": "라케라말린",
+        "content": "오랜 친구가 찾아온다면, 내가 기꺼이 환대해 주겠노라."
+    },
+    {
+        "id": 190,
+        "raw": "[name=\"아이파닐\"]물론, 제가 밴시 협곡의 전 주인을 의심하는 건 아닙니다……",
+        "type": "dialog",
+        "speaker": "아이파닐",
+        "content": "물론, 제가 밴시 협곡의 전 주인을 의심하는 건 아닙니다……"
+    },
+    {
+        "id": 191,
+        "raw": "[name=\"라케라말린\"]나와 나의 자매들 역시 그대를 걱정하고 있다.",
+        "type": "dialog",
+        "speaker": "라케라말린",
+        "content": "나와 나의 자매들 역시 그대를 걱정하고 있다."
+    },
+    {
+        "id": 192,
+        "raw": "[name=\"아이파닐\"]……",
+        "type": "dialog",
+        "speaker": "아이파닐",
+        "content": "……"
+    },
+    {
+        "id": 193,
+        "raw": "[name=\"라케라말린\"]그러니 우리의 그리움도 가져가거라.",
+        "type": "dialog",
+        "speaker": "라케라말린",
+        "content": "그러니 우리의 그리움도 가져가거라."
+    },
+    {
+        "id": 194,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 195,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 196,
+        "raw": "[Blocker(a=1, r=1, g=1, b=1, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "1,",
+        "g": "1,",
+        "b": "1,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 197,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 198,
+        "raw": "[bgEffect]",
+        "type": "bg_effect"
+    },
+    {
+        "id": 199,
+        "raw": "[Background(image=\"49_g12_diving\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "49_g12_diving.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 200,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 201,
+        "raw": "[image]",
+        "type": "image"
+    },
+    {
+        "id": 202,
+        "raw": "[PlaySound(key=\"$d_avg_underwateramb\", volume=1,loop=true,channel=\"1\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_underwateramb.mp3",
+        "volume": "1,loop=true,channel=\"1\""
+    },
+    {
+        "id": 203,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 204,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 205,
+        "raw": "밴시의 노랫소리가 젊은 밴시의 주인을 에워쌌다.",
+        "type": "narration",
+        "content": "밴시의 노랫소리가 젊은 밴시의 주인을 에워쌌다."
+    },
+    {
+        "id": 206,
+        "raw": "물줄기는 금세 따뜻해졌고, 무수한 손이 되어 추락하고 있는 그를 부드럽게 잡아당겼다.",
+        "type": "narration",
+        "content": "물줄기는 금세 따뜻해졌고, 무수한 손이 되어 추락하고 있는 그를 부드럽게 잡아당겼다."
+    },
+    {
+        "id": 207,
+        "raw": "로고스는 눈을 떴다.",
+        "type": "narration",
+        "content": "로고스는 눈을 떴다."
+    },
+    {
+        "id": 208,
+        "raw": "어머니, 그리고 많은 가족들의 모습이 눈앞에 보이는 것 같았다.",
+        "type": "narration",
+        "content": "어머니, 그리고 많은 가족들의 모습이 눈앞에 보이는 것 같았다."
+    },
+    {
+        "id": 209,
+        "raw": "“아이파닐, 협곡의 가장 아름다운 빛, 가장 아름다운 노랫소리여…… 우리는 이곳에 남아 그대의 여행길을 배웅할 수밖에 없구나……”",
+        "type": "narration",
+        "content": "“아이파닐, 협곡의 가장 아름다운 빛, 가장 아름다운 노랫소리여…… 우리는 이곳에 남아 그대의 여행길을 배웅할 수밖에 없구나……”"
+    },
+    {
+        "id": 210,
+        "raw": "“하지만 어디로 가든, 우리의 축복은 항상 그대와 함께 있을 것이다.”",
+        "type": "narration",
+        "content": "“하지만 어디로 가든, 우리의 축복은 항상 그대와 함께 있을 것이다.”"
+    },
+    {
+        "id": 211,
+        "raw": "[name=\"로고스\"]……",
+        "type": "dialog",
+        "speaker": "로고스",
+        "content": "……"
+    },
+    {
+        "id": 212,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 213,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1334_1#1$1\",bstart=0.3,bend=0.8,duration=1.5)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1334_1#1$1.png",
+        "bstart": "0.3,bend=0.8,duration=1.5"
+    },
+    {
+        "id": 214,
+        "raw": "[Delay(time=2.5)]",
+        "type": "delay",
+        "time": 2.5
+    },
+    {
+        "id": 215,
+        "raw": "[name=\"???\"]아이파닐, 조금만 더 견디거라.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "아이파닐, 조금만 더 견디거라."
+    },
+    {
+        "id": 216,
+        "raw": "[name=\"???\"]그대 곁에는 우리가 있다…… 그 어떤 순간이라도.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "그대 곁에는 우리가 있다…… 그 어떤 순간이라도."
+    },
+    {
+        "id": 217,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 218,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 219,
+        "raw": "[PlaySound(key=\"$d_avg_magic_2\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_magic_2.mp3"
+    },
+    {
+        "id": 220,
+        "raw": "[Blocker(a=0.4, r=1, g=1, b=0, fadetime=0.05, block=true)]",
+        "type": "blocker",
+        "a": "0.4,",
+        "r": "1,",
+        "g": "1,",
+        "b": "0,",
+        "fadetime": "0.05,",
+        "block": true
+    },
+    {
+        "id": 221,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1.5,",
+        "block": true
+    },
+    {
+        "id": 222,
+        "raw": "[Delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 223,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 224,
+        "raw": "[PlaySound(key=\"$d_avg_magic_2\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_magic_2.mp3"
+    },
+    {
+        "id": 225,
+        "raw": "[Blocker(a=0.4, r=1, g=1, b=0, fadetime=0.05, block=true)]",
+        "type": "blocker",
+        "a": "0.4,",
+        "r": "1,",
+        "g": "1,",
+        "b": "0,",
+        "fadetime": "0.05,",
+        "block": true
+    },
+    {
+        "id": 226,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1.5,",
+        "block": true
+    },
+    {
+        "id": 227,
+        "raw": "[Delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 228,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 229,
+        "raw": "주문의 힘이 로고스의 전신에 서서히 주입되었다.",
+        "type": "narration",
+        "content": "주문의 힘이 로고스의 전신에 서서히 주입되었다."
+    },
+    {
+        "id": 230,
+        "raw": "로고스는 다시 한번 입을 열었다.",
+        "type": "narration",
+        "content": "로고스는 다시 한번 입을 열었다."
+    },
+    {
+        "id": 231,
+        "raw": "힘찬 노랫소리가 강물 위에서 메아리치며, 눈부신 빛의 물결을 자아냈다.",
+        "type": "narration",
+        "content": "힘찬 노랫소리가 강물 위에서 메아리치며, 눈부신 빛의 물결을 자아냈다."
+    },
+    {
+        "id": 232,
+        "raw": "추격자들은 모두 발걸음을 멈출 수밖에 없었다.",
+        "type": "narration",
+        "content": "추격자들은 모두 발걸음을 멈출 수밖에 없었다."
+    },
+    {
+        "id": 233,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 234,
+        "raw": "[stopsound(channel=\"1\",fadetime=1.5)]",
+        "type": "stop_sound",
+        "channel": "1",
+        "fadetime": 1.5
+    },
+    {
+        "id": 235,
+        "raw": "[stopmusic(fadetime=1.5)]",
+        "type": "stop_music",
+        "fadetime": 1.5
+    },
+    {
+        "id": 236,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 237,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 238,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 239,
+        "raw": "[Background(image=\"50_g1_originiumcanyon\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "50_g1_originiumcanyon.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 240,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 241,
+        "raw": "[PlayMusic(intro=\"$mist_intro\", key=\"$mist_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta1_180603/m_dia_mist_intro.mp3",
+        "key": "sound_beta_2/music/beta1_180603/m_dia_mist_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 242,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 243,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 244,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1339_1#1$1\",bstart=0.3,bend=0.5)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1339_1#1$1.png",
+        "bstart": "0.3,bend=0.5"
+    },
+    {
+        "id": 245,
+        "raw": "[name=\"네츠살렘\"]……",
+        "type": "dialog",
+        "speaker": "네츠살렘",
+        "content": "……"
+    },
+    {
+        "id": 246,
+        "raw": "[name=\"네츠살렘\"]설마 타국의 협곡에서 밴시들의 제창을 들을 줄이야.",
+        "type": "dialog",
+        "speaker": "네츠살렘",
+        "content": "설마 타국의 협곡에서 밴시들의 제창을 들을 줄이야."
+    },
+    {
+        "id": 247,
+        "raw": "[name=\"네츠살렘\"]새 목숨엔 죽음이 동반할지니……",
+        "type": "dialog",
+        "speaker": "네츠살렘",
+        "content": "새 목숨엔 죽음이 동반할지니……"
+    },
+    {
+        "id": 248,
+        "raw": "[name=\"네츠살렘\"]젊은이여. 마지막까지도 그대는…… 노래로 내게 충고하려는 것인가?",
+        "type": "dialog",
+        "speaker": "네츠살렘",
+        "content": "젊은이여. 마지막까지도 그대는…… 노래로 내게 충고하려는 것인가?"
+    },
+    {
+        "id": 249,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1331_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1331_1#1$1.png"
+    },
+    {
+        "id": 250,
+        "raw": "[name=\"'영장'\"]종장님. 밴시의 주문일뿐입니다.",
+        "type": "dialog",
+        "speaker": "'영장'",
+        "content": "종장님. 밴시의 주문일뿐입니다."
+    },
+    {
+        "id": 251,
+        "raw": "[name=\"'영장'\"]밴시들이 실제로 참전한 것은 아닙니다. 우리의 적은 여전히 어린 밴시 한 명에 불과합니다.",
+        "type": "dialog",
+        "speaker": "'영장'",
+        "content": "밴시들이 실제로 참전한 것은 아닙니다. 우리의 적은 여전히 어린 밴시 한 명에 불과합니다."
+    },
+    {
+        "id": 252,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1339_1#1$1\",bstart=0.3,bend=0.5)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1339_1#1$1.png",
+        "bstart": "0.3,bend=0.5"
+    },
+    {
+        "id": 253,
+        "raw": "[name=\"네츠살렘\"]……",
+        "type": "dialog",
+        "speaker": "네츠살렘",
+        "content": "……"
+    },
+    {
+        "id": 254,
+        "raw": "[name=\"네츠살렘\"]그래……",
+        "type": "dialog",
+        "speaker": "네츠살렘",
+        "content": "그래……"
+    },
+    {
+        "id": 255,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1331_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1331_1#1$1.png"
+    },
+    {
+        "id": 256,
+        "raw": "[name=\"'영장'\"]종장님, 상처가…… 심하시군요.",
+        "type": "dialog",
+        "speaker": "'영장'",
+        "content": "종장님, 상처가…… 심하시군요."
+    },
+    {
+        "id": 257,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1339_1#1$1\",bstart=0.3,bend=0.5)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1339_1#1$1.png",
+        "bstart": "0.3,bend=0.5"
+    },
+    {
+        "id": 258,
+        "raw": "[name=\"네츠살렘\"]아이파닐의 저주는 부패마저 부패하게 만들지. 일시적으로 회복할 수 없는 상태이다. 하지만 이 몸으로도…… 당장의 전투를 끝낼 때까지 버티기엔 충분하다.",
+        "type": "dialog",
+        "speaker": "네츠살렘",
+        "content": "아이파닐의 저주는 부패마저 부패하게 만들지. 일시적으로 회복할 수 없는 상태이다. 하지만 이 몸으로도…… 당장의 전투를 끝낼 때까지 버티기엔 충분하다."
+    },
+    {
+        "id": 259,
+        "raw": "[name=\"네츠살렘\"]지금은 일단…… 밴시들의 노랫소리를 듣게 해다오.",
+        "type": "dialog",
+        "speaker": "네츠살렘",
+        "content": "지금은 일단…… 밴시들의 노랫소리를 듣게 해다오."
+    },
+    {
+        "id": 260,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 261,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 262,
+        "raw": "[playsound(key=\"$d_gen_walk_n\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 263,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 264,
+        "raw": "네츠살렘은 어떠한 아츠에도 의지하지 않은 채, 벼랑 끝으로 다가갔다.",
+        "type": "narration",
+        "content": "네츠살렘은 어떠한 아츠에도 의지하지 않은 채, 벼랑 끝으로 다가갔다."
+    },
+    {
+        "id": 265,
+        "raw": "이 순간만큼은 그도 평범한 노인과 다를 바 없어 보였다.",
+        "type": "narration",
+        "content": "이 순간만큼은 그도 평범한 노인과 다를 바 없어 보였다."
+    },
+    {
+        "id": 266,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1339_1#1$1\",bstart=0.3,bend=0.5)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1339_1#1$1.png",
+        "bstart": "0.3,bend=0.5"
+    },
+    {
+        "id": 267,
+        "raw": "[name=\"네츠살렘\"]불드록카스티를…… 기억하고 있나?",
+        "type": "dialog",
+        "speaker": "네츠살렘",
+        "content": "불드록카스티를…… 기억하고 있나?"
+    },
+    {
+        "id": 268,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1331_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1331_1#1$1.png"
+    },
+    {
+        "id": 269,
+        "raw": "[name=\"'영장'\"]기억하고 있습니다.",
+        "type": "dialog",
+        "speaker": "'영장'",
+        "content": "기억하고 있습니다."
+    },
+    {
+        "id": 270,
+        "raw": "[name=\"'영장'\"]종장님께선 그를 마치 친자식처럼 여기셨죠.",
+        "type": "dialog",
+        "speaker": "'영장'",
+        "content": "종장님께선 그를 마치 친자식처럼 여기셨죠."
+    },
+    {
+        "id": 271,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1339_1#1$1\",bstart=0.3,bend=0.5)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1339_1#1$1.png",
+        "bstart": "0.3,bend=0.5"
+    },
+    {
+        "id": 272,
+        "raw": "[name=\"네츠살렘\"]천부적인 재능을 가지고 있던 그 사내는, 카즈델의 영웅이 될 것이 틀림없었지.",
+        "type": "dialog",
+        "speaker": "네츠살렘",
+        "content": "천부적인 재능을 가지고 있던 그 사내는, 카즈델의 영웅이 될 것이 틀림없었지."
+    },
+    {
+        "id": 273,
+        "raw": "[name=\"네츠살렘\"]내가 가장 아끼던 제자였다.",
+        "type": "dialog",
+        "speaker": "네츠살렘",
+        "content": "내가 가장 아끼던 제자였다."
+    },
+    {
+        "id": 274,
+        "raw": "[name=\"네츠살렘\"]하나 안타깝게도 카즈델을 떠났고, 이국의 음모 속에서 세상을 떠나게 되었지.",
+        "type": "dialog",
+        "speaker": "네츠살렘",
+        "content": "하나 안타깝게도 카즈델을 떠났고, 이국의 음모 속에서 세상을 떠나게 되었지."
+    },
+    {
+        "id": 275,
+        "raw": "[name=\"네츠살렘\"]불드록카스티는 다행히도 전사의 모습으로 죽을 수 있었다. 전쟁을 통해 삶의 의미를 실천하였으며, 죽음으로서 영혼들에게 돌아갔지.",
+        "type": "dialog",
+        "speaker": "네츠살렘",
+        "content": "불드록카스티는 다행히도 전사의 모습으로 죽을 수 있었다. 전쟁을 통해 삶의 의미를 실천하였으며, 죽음으로서 영혼들에게 돌아갔지."
+    },
+    {
+        "id": 276,
+        "raw": "[name=\"네츠살렘\"]다만…… 그 후에는……",
+        "type": "dialog",
+        "speaker": "네츠살렘",
+        "content": "다만…… 그 후에는……"
+    },
+    {
+        "id": 277,
+        "raw": "[name=\"네츠살렘\"]카즈델의 다음 영웅은…… 대체 어디에 있는 것인가?",
+        "type": "dialog",
+        "speaker": "네츠살렘",
+        "content": "카즈델의 다음 영웅은…… 대체 어디에 있는 것인가?"
+    },
+    {
+        "id": 278,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 279,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 280,
+        "raw": "네츠살렘은 벼랑 밑을 바라보았다.",
+        "type": "narration",
+        "content": "네츠살렘은 벼랑 밑을 바라보았다."
+    },
+    {
+        "id": 281,
+        "raw": "바람은 아물지 않은 상처를 뚫고 지나가며 아무런 의미도 없는 소리를 냈다.",
+        "type": "narration",
+        "content": "바람은 아물지 않은 상처를 뚫고 지나가며 아무런 의미도 없는 소리를 냈다."
+    },
+    {
+        "id": 282,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 283,
+        "raw": "[stopmusic(fadetime=1.5)]",
+        "type": "stop_music",
+        "fadetime": 1.5
+    },
+    {
+        "id": 284,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 285,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 286,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 287,
+        "raw": "[Background(image=\"50_g18_originiumcave\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "50_g18_originiumcave.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 288,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 289,
+        "raw": "[PlayMusic(intro=\"$darkness01_intro\", key=\"$darkness01_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta1_180603/m_dia_darkness01_intro.mp3",
+        "key": "sound_beta_2/music/beta1_180603/m_dia_darkness01_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 290,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 291,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 292,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#2$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#2$1.png"
+    },
+    {
+        "id": 293,
+        "raw": "[name=\"아미야\"]영혼들의 엘레지가 가벼워졌어요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "영혼들의 엘레지가 가벼워졌어요."
+    },
+    {
+        "id": 294,
+        "raw": "[name=\"아미야\"]오리지늄과 '티카즈의 피'의 연결이…… 로고스 씨의 골피리에 의해 잠시 동안 억제되었네요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "오리지늄과 '티카즈의 피'의 연결이…… 로고스 씨의 골피리에 의해 잠시 동안 억제되었네요."
+    },
+    {
+        "id": 295,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#7$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#7$1.png"
+    },
+    {
+        "id": 296,
+        "raw": "[name=\"아미야\"]이건 저희에게 최고의 기회예요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "이건 저희에게 최고의 기회예요."
+    },
+    {
+        "id": 297,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_394_1#7$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_394_1#7$1.png"
+    },
+    {
+        "id": 298,
+        "raw": "[name=\"아미야\"]박사님, 켈시 선생님…… 이번 기회는 절대 놓치지 않을 거예요.",
+        "type": "dialog",
+        "speaker": "아미야",
+        "content": "박사님, 켈시 선생님…… 이번 기회는 절대 놓치지 않을 거예요."
+    },
+    {
+        "id": 299,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 300,
+        "raw": "[stopmusic(fadetime=1.5)]",
+        "type": "stop_music",
+        "fadetime": 1.5
+    },
+    {
+        "id": 301,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 302,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 303,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 304,
+        "raw": "[Background(image=\"50_g8_altarcoreandblood\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "50_g8_altarcoreandblood.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 305,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 306,
+        "raw": "[PlayMusic(intro=\"$nervous_intro\", key=\"$nervous_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act9d0d0/m_avg_nervous_intro.mp3",
+        "key": "sound_beta_2/music/act9d0d0/m_avg_nervous_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 307,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 308,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 309,
+        "raw": "[playsound(key=\"$d_gen_walk_n\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 310,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_653_1#1$1\",duration=1.5)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_653_1#1$1.png",
+        "duration": 1.5
+    },
+    {
+        "id": 311,
+        "raw": "[Delay(time=2.5)]",
+        "type": "delay",
+        "time": 2.5
+    },
+    {
+        "id": 312,
+        "raw": "[name=\"살루스\"]……쫓아온 건가.",
+        "type": "dialog",
+        "speaker": "살루스",
+        "content": "……쫓아온 건가."
+    },
+    {
+        "id": 313,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_653_1#5$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_653_1#5$1.png"
+    },
+    {
+        "id": 314,
+        "raw": "[name=\"살루스\"]키사르시나그, 곧 도착하는 거지?",
+        "type": "dialog",
+        "speaker": "살루스",
+        "content": "키사르시나그, 곧 도착하는 거지?"
+    },
+    {
+        "id": 315,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_653_1#9$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_653_1#9$1.png"
+    },
+    {
+        "id": 316,
+        "raw": "[name=\"살루스\"]너랑 대장님…… 우리의 존경하는 아버지, 과연 왕좌에 다가가는 사람은…… 누가 될까?",
+        "type": "dialog",
+        "speaker": "살루스",
+        "content": "너랑 대장님…… 우리의 존경하는 아버지, 과연 왕좌에 다가가는 사람은…… 누가 될까?"
+    },
+    {
+        "id": 317,
+        "raw": "[Delay]",
+        "type": "delay"
+    },
+    {
+        "id": 318,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 319,
+        "raw": "살루스는 제단 위에 놓인 피를 향해 손을 뻗었다.",
+        "type": "narration",
+        "content": "살루스는 제단 위에 놓인 피를 향해 손을 뻗었다."
+    },
+    {
+        "id": 320,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 321,
+        "raw": "[PlaySound(key=\"$fireburst\", volume=0.6)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_fireburst.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 322,
+        "raw": "[CameraShake(duration=0.5, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "20,",
+        "ystrength": "20,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 323,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 324,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.03,",
+        "block": true
+    },
+    {
+        "id": 325,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 326,
+        "raw": "[Delay(time=3.5)]",
+        "type": "delay",
+        "time": 3.5
+    },
+    {
+        "id": 327,
+        "raw": "오리지늄이 타오르고, 영혼들이 포효한다.",
+        "type": "narration",
+        "content": "오리지늄이 타오르고, 영혼들이 포효한다."
+    },
+    {
+        "id": 328,
+        "raw": "막강한 주술의 작용으로 인해, 살루스의 손끝이 빠르게 검은색 결정으로 변해버렸다.",
+        "type": "narration",
+        "content": "막강한 주술의 작용으로 인해, 살루스의 손끝이 빠르게 검은색 결정으로 변해버렸다."
+    },
+    {
+        "id": 329,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_653_1#10$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_653_1#10$1.png"
+    },
+    {
+        "id": 330,
+        "raw": "[name=\"살루스\"]정말 기대되네……",
+        "type": "dialog",
+        "speaker": "살루스",
+        "content": "정말 기대되네……"
+    },
+    {
+        "id": 331,
+        "raw": "[name=\"살루스\"]원점이 이렇게나 가까워졌구나.",
+        "type": "dialog",
+        "speaker": "살루스",
+        "content": "원점이 이렇게나 가까워졌구나."
+    },
+    {
+        "id": 332,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 333,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 334,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 335,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 336,
+        "raw": "[Background(image=\"50_g7_confessariusaltar_on\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "50_g7_confessariusaltar_on.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 337,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 338,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 339,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 340,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_425_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_425_1#1$1.png"
+    },
+    {
+        "id": 341,
+        "raw": "[name=\"고해신부 직속 위병\"]넌……",
+        "type": "dialog",
+        "speaker": "고해신부 직속 위병",
+        "content": "넌……"
+    },
+    {
+        "id": 342,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 343,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 344,
+        "raw": "[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "ystrength": "40,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 345,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.03,",
+        "block": true
+    },
+    {
+        "id": 346,
+        "raw": "[PlaySound(key=\"$swordtsing4\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_swordtsing4.mp3",
+        "volume": 1
+    },
+    {
+        "id": 347,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 348,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 349,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 350,
+        "raw": "[playsound(key=\"$d_gen_walk_n\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 351,
+        "raw": "[charslot(slot=\"m\",name=\"avgnew_147_shining_1#5$1\",duration=1.5)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avgnew_147_shining_1#5$1.png",
+        "duration": 1.5
+    },
+    {
+        "id": 352,
+        "raw": "[Delay(time=2.5)]",
+        "type": "delay",
+        "time": 2.5
+    },
+    {
+        "id": 353,
+        "raw": "[charslot(slot=\"m\",name=\"avgnew_147_shining_1#5$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avgnew_147_shining_1#5$1.png"
+    },
+    {
+        "id": 354,
+        "raw": "[name=\"샤이닝\"]잘도 숨어 계셨군요.",
+        "type": "dialog",
+        "speaker": "샤이닝",
+        "content": "잘도 숨어 계셨군요."
+    },
+    {
+        "id": 355,
+        "raw": "[name=\"샤이닝\"]당신들을 찾는데…… 너무나도 많은 시간을 낭비했습니다.",
+        "type": "dialog",
+        "speaker": "샤이닝",
+        "content": "당신들을 찾는데…… 너무나도 많은 시간을 낭비했습니다."
+    },
+    {
+        "id": 356,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_425_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_425_1#1$1.png"
+    },
+    {
+        "id": 357,
+        "raw": "[name=\"고해신부 직속 위병\"]배신자 녀석!",
+        "type": "dialog",
+        "speaker": "고해신부 직속 위병",
+        "content": "배신자 녀석!"
+    },
+    {
+        "id": 358,
+        "raw": "[name=\"고해신부 직속 위병\"]제기랄, 여기로 오면서 대체 얼마나 많이 죽여댄 거지?",
+        "type": "dialog",
+        "speaker": "고해신부 직속 위병",
+        "content": "제기랄, 여기로 오면서 대체 얼마나 많이 죽여댄 거지?"
+    },
+    {
+        "id": 359,
+        "raw": "[charslot(slot=\"m\",name=\"avgnew_147_shining_1#5$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avgnew_147_shining_1#5$1.png"
+    },
+    {
+        "id": 360,
+        "raw": "[name=\"샤이닝\"]……탈출할 때보다는 적게 죽였습니다.",
+        "type": "dialog",
+        "speaker": "샤이닝",
+        "content": "……탈출할 때보다는 적게 죽였습니다."
+    },
+    {
+        "id": 361,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_425_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_425_1#1$1.png"
+    },
+    {
+        "id": 362,
+        "raw": "[name=\"고해신부 직속 위병\"]네가 탈출할 때…… 지하 실험 구역은 아군의 시체로 가득 차 있었지.",
+        "type": "dialog",
+        "speaker": "고해신부 직속 위병",
+        "content": "네가 탈출할 때…… 지하 실험 구역은 아군의 시체로 가득 차 있었지."
+    },
+    {
+        "id": 363,
+        "raw": "[name=\"고해신부 직속 위병\"]덕분에 대장이 로열 사이언스 아카데미에 한 배치가 물거품이 되었다! 그렇게 큰 소란을 일으켜준 덕분에 빅토리아인들이 우리의 계획을 거의 알아낼 뻔했다고!",
+        "type": "dialog",
+        "speaker": "고해신부 직속 위병",
+        "content": "덕분에 대장이 로열 사이언스 아카데미에 한 배치가 물거품이 되었다! 그렇게 큰 소란을 일으켜준 덕분에 빅토리아인들이 우리의 계획을 거의 알아낼 뻔했다고!"
+    },
+    {
+        "id": 364,
+        "raw": "[charslot(slot=\"m\",name=\"avgnew_147_shining_1#2$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avgnew_147_shining_1#2$1.png"
+    },
+    {
+        "id": 365,
+        "raw": "[name=\"샤이닝\"]차라리 그때 성공하지 못했다면 좋았을 텐데요.",
+        "type": "dialog",
+        "speaker": "샤이닝",
+        "content": "차라리 그때 성공하지 못했다면 좋았을 텐데요."
+    },
+    {
+        "id": 366,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_425_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_425_1#1$1.png"
+    },
+    {
+        "id": 367,
+        "raw": "[name=\"고해신부 직속 위병\"]하…… 예전의 너였다면 결코 그렇게 말하지 않았을 거다!",
+        "type": "dialog",
+        "speaker": "고해신부 직속 위병",
+        "content": "하…… 예전의 너였다면 결코 그렇게 말하지 않았을 거다!"
+    },
+    {
+        "id": 368,
+        "raw": "[name=\"고해신부 직속 위병\"]이제 와서 정의의 사도 행세라도 하겠다는 거냐? 그때 우리를 지휘한 건 바로 너였잖아!",
+        "type": "dialog",
+        "speaker": "고해신부 직속 위병",
+        "content": "이제 와서 정의의 사도 행세라도 하겠다는 거냐? 그때 우리를 지휘한 건 바로 너였잖아!"
+    },
+    {
+        "id": 369,
+        "raw": "[name=\"고해신부 직속 위병\"]런디니움 외곽의 거대한 땅굴과 수많은 실험 기지들…… 전부 네가 책임지지 않았나?",
+        "type": "dialog",
+        "speaker": "고해신부 직속 위병",
+        "content": "런디니움 외곽의 거대한 땅굴과 수많은 실험 기지들…… 전부 네가 책임지지 않았나?"
+    },
+    {
+        "id": 370,
+        "raw": "[name=\"고해신부 직속 위병\"]그때 대장은 대부분의 시간을 카즈델에서 보냈지. 연구를 주도한 사람은 바로 너였다. 가면을 쓰고 있는 모습은 대장과 완전히 똑같았지……",
+        "type": "dialog",
+        "speaker": "고해신부 직속 위병",
+        "content": "그때 대장은 대부분의 시간을 카즈델에서 보냈지. 연구를 주도한 사람은 바로 너였다. 가면을 쓰고 있는 모습은 대장과 완전히 똑같았지……"
+    },
+    {
+        "id": 371,
+        "raw": "[charslot(slot=\"m\",name=\"avgnew_147_shining_1#4$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avgnew_147_shining_1#4$1.png"
+    },
+    {
+        "id": 372,
+        "raw": "[name=\"샤이닝\"]당시의 제게는 선택권이 없었습니다.",
+        "type": "dialog",
+        "speaker": "샤이닝",
+        "content": "당시의 제게는 선택권이 없었습니다."
+    },
+    {
+        "id": 373,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_425_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_425_1#1$1.png"
+    },
+    {
+        "id": 374,
+        "raw": "[name=\"고해신부 직속 위병\"]선택권이 없었다고? 그럼 우리를 런디니움으로 끌고 가, 이 가면을 씌우면서 했던 그 말들은 뭐였지?",
+        "type": "dialog",
+        "speaker": "고해신부 직속 위병",
+        "content": "선택권이 없었다고? 그럼 우리를 런디니움으로 끌고 가, 이 가면을 씌우면서 했던 그 말들은 뭐였지?"
+    },
+    {
+        "id": 375,
+        "raw": "[name=\"고해신부 직속 위병\"]우리도 처음에는 용병이었어! 하지만 고해신부의 신앙을 믿고, 너희들이 말하는 '살카즈의 최후이자 최초의 길'을 믿었다고!",
+        "type": "dialog",
+        "speaker": "고해신부 직속 위병",
+        "content": "우리도 처음에는 용병이었어! 하지만 고해신부의 신앙을 믿고, 너희들이 말하는 '살카즈의 최후이자 최초의 길'을 믿었다고!"
+    },
+    {
+        "id": 376,
+        "raw": "[name=\"고해신부 직속 위병\"]우리의 타고난 업보, 그리고 이종족들에 의해 더해진 업보는 마지막에 도달하는 순간 전부 씻겨나갈 거라고 했지.",
+        "type": "dialog",
+        "speaker": "고해신부 직속 위병",
+        "content": "우리의 타고난 업보, 그리고 이종족들에 의해 더해진 업보는 마지막에 도달하는 순간 전부 씻겨나갈 거라고 했지."
+    },
+    {
+        "id": 377,
+        "raw": "[name=\"고해신부 직속 위병\"]그게 전부 거짓말이었다는 거냐?",
+        "type": "dialog",
+        "speaker": "고해신부 직속 위병",
+        "content": "그게 전부 거짓말이었다는 거냐?"
+    },
+    {
+        "id": 378,
+        "raw": "[charslot(slot=\"m\",name=\"avgnew_147_shining_1#2$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avgnew_147_shining_1#2$1.png"
+    },
+    {
+        "id": 379,
+        "raw": "[name=\"샤이닝\"]……",
+        "type": "dialog",
+        "speaker": "샤이닝",
+        "content": "……"
+    },
+    {
+        "id": 380,
+        "raw": "[name=\"샤이닝\"]확실히, 저는 거짓말이길 바랐습니다.",
+        "type": "dialog",
+        "speaker": "샤이닝",
+        "content": "확실히, 저는 거짓말이길 바랐습니다."
+    },
+    {
+        "id": 381,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_425_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_425_1#1$1.png"
+    },
+    {
+        "id": 382,
+        "raw": "[name=\"고해신부 직속 위병\"]그건 진짜야…… 거짓말이 아니었다고. 대장이 우리한테 한 약속은 전부 진심이었어. 너도 마찬가지야, 키사르시나그도. 네가 나중에 길을 잘못 들었다 하더라도……",
+        "type": "dialog",
+        "speaker": "고해신부 직속 위병",
+        "content": "그건 진짜야…… 거짓말이 아니었다고. 대장이 우리한테 한 약속은 전부 진심이었어. 너도 마찬가지야, 키사르시나그도. 네가 나중에 길을 잘못 들었다 하더라도……"
+    },
+    {
+        "id": 383,
+        "raw": "[name=\"고해신부 직속 위병\"]대장과 섭정왕은 반드시 성공할 거야.",
+        "type": "dialog",
+        "speaker": "고해신부 직속 위병",
+        "content": "대장과 섭정왕은 반드시 성공할 거야."
+    },
+    {
+        "id": 384,
+        "raw": "[name=\"고해신부 직속 위병\"]잃어버린 만 년의 자유와 권력이 이제 다시 모든 살카즈에게로 돌아올 거란 말이다.",
+        "type": "dialog",
+        "speaker": "고해신부 직속 위병",
+        "content": "잃어버린 만 년의 자유와 권력이 이제 다시 모든 살카즈에게로 돌아올 거란 말이다."
+    },
+    {
+        "id": 385,
+        "raw": "[charslot(slot=\"m\",name=\"avgnew_147_shining_1#2$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avgnew_147_shining_1#2$1.png"
+    },
+    {
+        "id": 386,
+        "raw": "[name=\"샤이닝\"]……",
+        "type": "dialog",
+        "speaker": "샤이닝",
+        "content": "……"
+    },
+    {
+        "id": 387,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_425_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_425_1#1$1.png"
+    },
+    {
+        "id": 388,
+        "raw": "[name=\"고해신부 직속 위병\"]죽이고 싶으면 그냥 죽여라.",
+        "type": "dialog",
+        "speaker": "고해신부 직속 위병",
+        "content": "죽이고 싶으면 그냥 죽여라."
+    },
+    {
+        "id": 389,
+        "raw": "[name=\"고해신부 직속 위병\"]가서 대장을, 네 부친을 만나라.",
+        "type": "dialog",
+        "speaker": "고해신부 직속 위병",
+        "content": "가서 대장을, 네 부친을 만나라."
+    },
+    {
+        "id": 390,
+        "raw": "[name=\"고해신부 직속 위병\"]이 길의 끝에서 그분이, 모두가 널 기다리고 있을 거다.",
+        "type": "dialog",
+        "speaker": "고해신부 직속 위병",
+        "content": "이 길의 끝에서 그분이, 모두가 널 기다리고 있을 거다."
+    },
+    {
+        "id": 391,
+        "raw": "[name=\"고해신부 직속 위병\"]나를 대신해, 그리고 우리를 대신해…… 네 검에 죽어간 영혼들을 지켜봐라.",
+        "type": "dialog",
+        "speaker": "고해신부 직속 위병",
+        "content": "나를 대신해, 그리고 우리를 대신해…… 네 검에 죽어간 영혼들을 지켜봐라."
+    },
+    {
+        "id": 392,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 393,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 394,
+        "raw": "[CameraShake(duration=1, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "ystrength": "40,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 395,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=0.03, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.03,",
+        "block": true
+    },
+    {
+        "id": 396,
+        "raw": "[PlaySound(key=\"$e_skill_skulsrsword\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_skill/e_skill_skulsrsword.mp3",
+        "volume": 1
+    },
+    {
+        "id": 397,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 398,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 399,
+        "raw": "[PlaySound(key=\"$bodyfalldown1\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_bodyfalldown1.mp3",
+        "volume": 1
+    },
+    {
+        "id": 400,
+        "raw": "[charslot(duration=1.5)]",
+        "type": "charslot",
+        "duration": 1.5
+    },
+    {
+        "id": 401,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 402,
+        "raw": "[charslot(slot=\"m\",name=\"avgnew_147_shining_1#2$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avgnew_147_shining_1#2$1.png"
+    },
+    {
+        "id": 403,
+        "raw": "[name=\"샤이닝\"]……",
+        "type": "dialog",
+        "speaker": "샤이닝",
+        "content": "……"
+    },
+    {
+        "id": 404,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 405,
+        "raw": "[charslot(slot=\"m\",posfrom=\"0,0\",posto=\"0,-50\",duration=1)]",
+        "type": "charslot",
+        "slot": "m",
+        "posfrom": "0,0",
+        "posto": "0,-50",
+        "duration": 1
+    },
+    {
+        "id": 406,
+        "raw": "[playsound(key=\"$d_avg_clothmovement\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_clothmovement.mp3",
+        "volume": 1
+    },
+    {
+        "id": 407,
+        "raw": "[Delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 408,
+        "raw": "[charslot(slot=\"m\",posfrom=\"0,-50\",posto=\"0,0\",duration=1)]",
+        "type": "charslot",
+        "slot": "m",
+        "posfrom": "0,-50",
+        "posto": "0,0",
+        "duration": 1
+    },
+    {
+        "id": 409,
+        "raw": "[Delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 410,
+        "raw": "샤이닝은 위병의 가면을 벗겼다.",
+        "type": "narration",
+        "content": "샤이닝은 위병의 가면을 벗겼다."
+    },
+    {
+        "id": 411,
+        "raw": "그녀는 이 위병의 얼굴을 기억하고 있었다. 분명 고해신부가 런디니움으로 데려간 첫 번째 용병 집단 소속이었다.",
+        "type": "narration",
+        "content": "그녀는 이 위병의 얼굴을 기억하고 있었다. 분명 고해신부가 런디니움으로 데려간 첫 번째 용병 집단 소속이었다."
+    },
+    {
+        "id": 412,
+        "raw": "처음에 그들은 아무것도 몰랐고, 그저 성 밖의 유적 발굴만을 담당했다.",
+        "type": "narration",
+        "content": "처음에 그들은 아무것도 몰랐고, 그저 성 밖의 유적 발굴만을 담당했다."
+    },
+    {
+        "id": 413,
+        "raw": "[charslot(slot=\"m\",name=\"avgnew_147_shining_1#3$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avgnew_147_shining_1#3$1.png"
+    },
+    {
+        "id": 414,
+        "raw": "이 젊은이는 그녀에게 직접 감사를 표하기도 했다. 후한 보수와 안전한 일자리를 가져다준 고해신부에게 그는 감사하고 있었던 것이다.",
+        "type": "narration",
+        "content": "이 젊은이는 그녀에게 직접 감사를 표하기도 했다. 후한 보수와 안전한 일자리를 가져다준 고해신부에게 그는 감사하고 있었던 것이다."
+    },
+    {
+        "id": 415,
+        "raw": "하지만 얼마 지나지 않아, 그들의 입에서 이런 말은 사라져갔다.",
+        "type": "narration",
+        "content": "하지만 얼마 지나지 않아, 그들의 입에서 이런 말은 사라져갔다."
+    },
+    {
+        "id": 416,
+        "raw": "고해신부의 대장이 런디니움에 도착했기 때문이었다.",
+        "type": "narration",
+        "content": "고해신부의 대장이 런디니움에 도착했기 때문이었다."
+    },
+    {
+        "id": 417,
+        "raw": "[charslot(slot=\"m\",name=\"avgnew_147_shining_1#2$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avgnew_147_shining_1#2$1.png"
+    },
+    {
+        "id": 418,
+        "raw": "더 이상 수다를 떨거나 술을 마시며 게임을 하는 용병들은 없었다. 전부 똑같은 가면을 쓴 그들은 반드시 필요할 때가 아니면 말을 하지 않았다.",
+        "type": "narration",
+        "content": "더 이상 수다를 떨거나 술을 마시며 게임을 하는 용병들은 없었다. 전부 똑같은 가면을 쓴 그들은 반드시 필요할 때가 아니면 말을 하지 않았다."
+    },
+    {
+        "id": 419,
+        "raw": "특별한 핏줄이 없는 그들이었기에, 키사르투슈타지는 그들의 의지를 쉽게 조종할 수 있었다.",
+        "type": "narration",
+        "content": "특별한 핏줄이 없는 그들이었기에, 키사르투슈타지는 그들의 의지를 쉽게 조종할 수 있었다."
+    },
+    {
+        "id": 420,
+        "raw": "하지만, 그들 자신을 형성한 일부는 결국 고해신부의 장대한 이상 앞에서 죽고 말았다.",
+        "type": "narration",
+        "content": "하지만, 그들 자신을 형성한 일부는 결국 고해신부의 장대한 이상 앞에서 죽고 말았다."
+    },
+    {
+        "id": 421,
+        "raw": "그리고 가장 먼저 그들을 죽인 것이 바로 그녀 자신이었다.",
+        "type": "narration",
+        "content": "그리고 가장 먼저 그들을 죽인 것이 바로 그녀 자신이었다."
+    },
+    {
+        "id": 422,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 423,
+        "raw": "[charslot(slot=\"m\",name=\"avgnew_147_shining_1#2$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avgnew_147_shining_1#2$1.png"
+    },
+    {
+        "id": 424,
+        "raw": "[Delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 425,
+        "raw": "[charslot(slot=\"m\",name=\"avgnew_147_shining_1#3$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avgnew_147_shining_1#3$1.png"
+    },
+    {
+        "id": 426,
+        "raw": "[Delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 427,
+        "raw": "[charslot(slot=\"m\",name=\"avgnew_147_shining_1#5$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avgnew_147_shining_1#5$1.png"
+    },
+    {
+        "id": 428,
+        "raw": "[name=\"샤이닝\"]이 업보가……",
+        "type": "dialog",
+        "speaker": "샤이닝",
+        "content": "이 업보가……"
+    },
+    {
+        "id": 429,
+        "raw": "[name=\"샤이닝\"]……더 이상 이어져선 안 됩니다.",
+        "type": "dialog",
+        "speaker": "샤이닝",
+        "content": "……더 이상 이어져선 안 됩니다."
+    },
+    {
+        "id": 430,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 431,
+        "raw": "[playsound(key=\"$d_gen_walk_n\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 432,
+        "raw": "[charslot(duration=1.5)]",
+        "type": "charslot",
+        "duration": 1.5
+    },
+    {
+        "id": 433,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 434,
+        "raw": "[playsound(key=\"$d_avg_glassbroken\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_glassbroken.mp3",
+        "volume": 1
+    },
+    {
+        "id": 435,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 436,
+        "raw": "가면은 부서졌고, 파편이 샤이닝의 손바닥을 찔렀다.",
+        "type": "narration",
+        "content": "가면은 부서졌고, 파편이 샤이닝의 손바닥을 찔렀다."
+    },
+    {
+        "id": 437,
+        "raw": "그러나 샤이닝은 계속해서 산 정상을 향해 나아갔다.",
+        "type": "narration",
+        "content": "그러나 샤이닝은 계속해서 산 정상을 향해 나아갔다."
+    },
+    {
+        "id": 438,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 439,
+        "raw": "[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 440,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 441,
+        "raw": "[stopmusic(fadetime=1)]",
+        "type": "stop_music",
+        "fadetime": 1
+    },
+    {
+        "id": 442,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 443,
+        "raw": "[Image]",
+        "type": "image"
+    }
+]

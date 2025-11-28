@@ -1,0 +1,4605 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")]",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK"
+    },
+    {
+        "id": 2,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 3,
+        "raw": "[stopmusic]",
+        "type": "stop_music"
+    },
+    {
+        "id": 4,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 5,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 6,
+        "raw": "[Background(image=\"47_g7_fieldhouse\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "47_g7_fieldhouse.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 7,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 8,
+        "raw": "[PlaySound(key=\"$d_avg_brdchrp\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_brdchrp.mp3"
+    },
+    {
+        "id": 9,
+        "raw": "The cries of fowlbeasts waft through the window of the farmhouse along with the rays of the rising sun. A mother opens her sleepy eyes, the child in her arms tightly grasping at the hem of her clothes.",
+        "type": "narration",
+        "content": "The cries of fowlbeasts waft through the window of the farmhouse along with the rays of the rising sun. A mother opens her sleepy eyes, the child in her arms tightly grasping at the hem of her clothes."
+    },
+    {
+        "id": 10,
+        "raw": "She lets out a sigh and sits up, thinking of the events of the previous day, as well as the cries of her frightened child throughout the night.",
+        "type": "narration",
+        "content": "She lets out a sigh and sits up, thinking of the events of the previous day, as well as the cries of her frightened child throughout the night."
+    },
+    {
+        "id": 11,
+        "raw": "The young child rouses from his sleep when he notices his mother's departure. His nose twitches, and tears soon flow down his chubby cheeks. The father adroitly picks up the child and stands next to the window, patting his back and lulling him back to sleep.",
+        "type": "narration",
+        "content": "The young child rouses from his sleep when he notices his mother's departure. His nose twitches, and tears soon flow down his chubby cheeks. The father adroitly picks up the child and stands next to the window, patting his back and lulling him back to sleep."
+    },
+    {
+        "id": 12,
+        "raw": "[PlaySound(key=\"$d_avg_reedmarshes\", volume=0, loop=true, channel=\"reed\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_reedmarshes.mp3",
+        "volume": "0,",
+        "loop": "true,",
+        "channel": "reed"
+    },
+    {
+        "id": 13,
+        "raw": "[SoundVolume(volume=1, fadetime=1,channel=\"reed\")]",
+        "type": "sound_volume",
+        "volume": "1,",
+        "fadetime": "1,channel=\"reed\""
+    },
+    {
+        "id": 14,
+        "raw": "'Hush, hush, there's no need to cry. Look out the window – there's nothing there at all.'",
+        "type": "narration",
+        "content": "'Hush, hush, there's no need to cry. Look out the window – there's nothing there at all.'"
+    },
+    {
+        "id": 15,
+        "raw": "'Look at the flowers, and look at our fields. Everything's fine, so there's no need to cry...'",
+        "type": "narration",
+        "content": "'Look at the flowers, and look at our fields. Everything's fine, so there's no need to cry...'"
+    },
+    {
+        "id": 16,
+        "raw": "However, the child bawls even louder, even stretching his arm to point out the window. The mother and father follow his gesture and look outside, where they see a strange, pale beast standing at the farmland's edge.",
+        "type": "narration",
+        "content": "However, the child bawls even louder, even stretching his arm to point out the window. The mother and father follow his gesture and look outside, where they see a strange, pale beast standing at the farmland's edge."
+    },
+    {
+        "id": 17,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 18,
+        "raw": "[backgroundTween(xScaleFrom=1, yScaleFrom=1, xScaleTo=1.05, yScaleTo=1.05, duration=3)]",
+        "type": "background_tween",
+        "xScaleFrom": "1,",
+        "yScaleFrom": "1,",
+        "xScaleTo": "1.05,",
+        "yScaleTo": "1.05,",
+        "duration": 3
+    },
+    {
+        "id": 19,
+        "raw": "[playMusic(intro=\"$plot_intro\",key=\"$plot_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act9d0d0/m_avg_plot_intro.mp3",
+        "key": "sound_beta_2/music/act9d0d0/m_avg_plot_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 20,
+        "raw": "[curtain(direction = 0,fillfrom = 0.01,fillto = 0.1,fadetime=3)]",
+        "type": "curtain",
+        "fadetime": 3
+    },
+    {
+        "id": 21,
+        "raw": "[curtain(direction = 4,fillfrom = 0.01,fillto = 0.1,fadetime=3)]",
+        "type": "curtain",
+        "fadetime": 3
+    },
+    {
+        "id": 22,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1244_1#3$1\",duration=0.01,afrom=0,ato=0,block=true)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1244_1#3$1.png",
+        "duration": "0.01,afrom=0,ato=0,block=true"
+    },
+    {
+        "id": 23,
+        "raw": "[charslot(slot = \"m\",action=\"zoom\", poszoom = \"0.5,0.5\", scale=0.9,duration = 0.01,block=true)]",
+        "type": "charslot",
+        "action": "zoom",
+        "scale": "0.9,duration",
+        "block": true
+    },
+    {
+        "id": 24,
+        "raw": "[charslot(slot=\"m\",duration=3,afrom=0,ato=1)]",
+        "type": "charslot",
+        "slot": "m",
+        "duration": "3,afrom=0,ato=1"
+    },
+    {
+        "id": 25,
+        "raw": "[Delay(time=4)]",
+        "type": "delay",
+        "time": 4
+    },
+    {
+        "id": 26,
+        "raw": "It stares back, through the window of the family of three.",
+        "type": "narration",
+        "content": "It stares back, through the window of the family of three."
+    },
+    {
+        "id": 27,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 28,
+        "raw": "[stopsound(channel=\"reed\",fadetime=2)]",
+        "type": "stop_sound",
+        "channel": "reed",
+        "fadetime": 2
+    },
+    {
+        "id": 29,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 30,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 31,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 32,
+        "raw": "[curtain]",
+        "type": "curtain"
+    },
+    {
+        "id": 33,
+        "raw": "[Background(image=\"47_g8_crestofweir\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "47_g8_crestofweir.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 34,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 35,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 36,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1243_1#1$1\",duration=1)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1243_1#1$1.png",
+        "duration": 1
+    },
+    {
+        "id": 37,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 38,
+        "raw": "[name=\"Silent Lumberjack\"]...",
+        "type": "dialog",
+        "speaker": "Silent Lumberjack",
+        "content": "..."
+    },
+    {
+        "id": 39,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 40,
+        "raw": "The silent lumberjack picks up his axe, and a wisp of tattered red cloth floats by. He rubs that coarse gash, as if remembering something.",
+        "type": "narration",
+        "content": "The silent lumberjack picks up his axe, and a wisp of tattered red cloth floats by. He rubs that coarse gash, as if remembering something."
+    },
+    {
+        "id": 41,
+        "raw": "A pair of strong, calloused hands – not quite bleached, but with distinct joints, coalesces with blood and mud. The hands tied a strand of red silk to his arm, before they fell lifelessly to the ground.",
+        "type": "narration",
+        "content": "A pair of strong, calloused hands – not quite bleached, but with distinct joints, coalesces with blood and mud. The hands tied a strand of red silk to his arm, before they fell lifelessly to the ground."
+    },
+    {
+        "id": 42,
+        "raw": "Those hands once lifted a heavy weapon. They once stroked his face. They once held a crying child.",
+        "type": "narration",
+        "content": "Those hands once lifted a heavy weapon. They once stroked his face. They once held a crying child."
+    },
+    {
+        "id": 43,
+        "raw": "The hand's master has slightly darkened skin, and when she smiles, she reveals her white teeth and shallow dimples.",
+        "type": "narration",
+        "content": "The hand's master has slightly darkened skin, and when she smiles, she reveals her white teeth and shallow dimples."
+    },
+    {
+        "id": 44,
+        "raw": "He stands before the woods along the riverbank. Among the tree trunks are tied strips of red silk, wooden placards engraved with blurry names dangling from them.",
+        "type": "narration",
+        "content": "He stands before the woods along the riverbank. Among the tree trunks are tied strips of red silk, wooden placards engraved with blurry names dangling from them."
+    },
+    {
+        "id": 45,
+        "raw": "[PlaySound(key=\"$d_avg_woodensign\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_woodensign.mp3",
+        "volume": 1
+    },
+    {
+        "id": 46,
+        "raw": "A gust of wind blows, the branches sway, and the wooden placards make crisp sounds.",
+        "type": "narration",
+        "content": "A gust of wind blows, the branches sway, and the wooden placards make crisp sounds."
+    },
+    {
+        "id": 47,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1243_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1243_1#1$1.png"
+    },
+    {
+        "id": 48,
+        "raw": "[name=\"Silent Lumberjack\"]Nngh...",
+        "type": "dialog",
+        "speaker": "Silent Lumberjack",
+        "content": "Nngh..."
+    },
+    {
+        "id": 49,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 50,
+        "raw": "[PlaySound(key=\"$d_avg_hgmgrssvcm\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_hgmgrssvcm.mp3"
+    },
+    {
+        "id": 51,
+        "raw": "A strange braying sound floats by, and the lumberjack half-opens his cloudy eyes.",
+        "type": "narration",
+        "content": "A strange braying sound floats by, and the lumberjack half-opens his cloudy eyes."
+    },
+    {
+        "id": 52,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 53,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 54,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1244_1#3$1\",duration=1)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1244_1#3$1.png",
+        "duration": 1
+    },
+    {
+        "id": 55,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 56,
+        "raw": "[PlaySound(key=\"$d_avg_hgmlgscrm\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_hgmlgscrm.mp3"
+    },
+    {
+        "id": 57,
+        "raw": "[name=\"Eerie Fabric\"](Howls)",
+        "type": "dialog",
+        "speaker": "Eerie Fabric",
+        "content": "(Howls)"
+    },
+    {
+        "id": 58,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 59,
+        "raw": "[charslot(slot = \"l\",name=\"avg_npc_1243_1#3$1\",posfrom = \"-150,0\", posto = \"0,0\",duration = 0.4)]",
+        "type": "charslot",
+        "name": "avg_npc_1243_1#3$1.png"
+    },
+    {
+        "id": 60,
+        "raw": "[PlaySound(key=\"$d_avg_singleblunt\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_singleblunt.mp3"
+    },
+    {
+        "id": 61,
+        "raw": "[PlaySound(key=\"$d_avg_hammer\", volume=0.8)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_hammer.mp3",
+        "volume": 0.8
+    },
+    {
+        "id": 62,
+        "raw": "[delay(time=0.2)]",
+        "type": "delay",
+        "time": 0.2
+    },
+    {
+        "id": 63,
+        "raw": "[charslot(slot=\"m\",duration=0.3,posfrom = \"0,0\", posto = \"200,0\")]",
+        "type": "charslot",
+        "slot": "m",
+        "duration": "0.3,posfrom"
+    },
+    {
+        "id": 64,
+        "raw": "[CameraShake(duration=0.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 65,
+        "raw": "[delay(time=0.7)]",
+        "type": "delay",
+        "time": 0.7
+    },
+    {
+        "id": 66,
+        "raw": "[PlaySound(key=\"$d_avg_hgmdspr\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_hgmdspr.mp3"
+    },
+    {
+        "id": 67,
+        "raw": "[charslot(slot=\"m\",afrom=1,ato=0,duration=1)]",
+        "type": "charslot",
+        "slot": "m",
+        "afrom": "1,ato=0,duration=1"
+    },
+    {
+        "id": 68,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 69,
+        "raw": "[charslot(slot=\"l\",name=\"avg_npc_1243_1#3$1\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_1243_1#3$1.png"
+    },
+    {
+        "id": 70,
+        "raw": "[name=\"Silent Lumberjack\"]—",
+        "type": "dialog",
+        "speaker": "Silent Lumberjack",
+        "content": "—"
+    },
+    {
+        "id": 71,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 72,
+        "raw": "They've returned.",
+        "type": "narration",
+        "content": "They've returned."
+    },
+    {
+        "id": 73,
+        "raw": "They shouldn't be here.",
+        "type": "narration",
+        "content": "They shouldn't be here."
+    },
+    {
+        "id": 74,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 75,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 76,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 77,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 78,
+        "raw": "[Background(image=\"47_g1_desertedcityfield_d\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "47_g1_desertedcityfield_d.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 79,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 80,
+        "raw": "[PlaySound(key=\"$smallearthquake\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_smallearthquake.mp3"
+    },
+    {
+        "id": 81,
+        "raw": "[CameraShake(duration=2.5, xstrength=10, ystrength=5, vibrato=50, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "2.5,",
+        "xstrength": "10,",
+        "ystrength": "5,",
+        "vibrato": "50,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 82,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 83,
+        "raw": "[charslot(slot=\"l\",name=\"avg_npc_1249_1#1$1\",duration=1)]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_1249_1#1$1.png",
+        "duration": 1
+    },
+    {
+        "id": 84,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_1250_1#1$1\",duration=1)]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_1250_1#1$1.png",
+        "duration": 1
+    },
+    {
+        "id": 85,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 86,
+        "raw": "[charslot(slot=\"l\",name=\"avg_npc_1249_1#1$1\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_1249_1#1$1.png",
+        "focus": "l"
+    },
+    {
+        "id": 87,
+        "raw": "[name=\"Panicked Farmer\"]What's wrong? An earthquake?",
+        "type": "dialog",
+        "speaker": "Panicked Farmer",
+        "content": "What's wrong? An earthquake?"
+    },
+    {
+        "id": 88,
+        "raw": "[name=\"Panicked Farmer\"]I thought the plate hadn't been completed yet?",
+        "type": "dialog",
+        "speaker": "Panicked Farmer",
+        "content": "I thought the plate hadn't been completed yet?"
+    },
+    {
+        "id": 89,
+        "raw": "[name=\"Panicked Farmer\"]Wh-What's going on then?!",
+        "type": "dialog",
+        "speaker": "Panicked Farmer",
+        "content": "Wh-What's going on then?!"
+    },
+    {
+        "id": 90,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 91,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1.5, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1.5,",
+        "block": true
+    },
+    {
+        "id": 92,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 93,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1.5,",
+        "block": true
+    },
+    {
+        "id": 94,
+        "raw": "[charslot(slot = \"left\", name = \"avg_npc_1251_1#3$1\",duration = 1,posfrom = \"0,-200\", posto = \"0,-200\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 95,
+        "raw": "[charslot(slot = \"right\", name = \"avg_npc_1251_1#3$1\",duration = 1,posfrom = \"0,-200\", posto = \"0,-200\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 96,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 97,
+        "raw": "[PlaySound(key=\"$d_avg_drone\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_drone.mp3"
+    },
+    {
+        "id": 98,
+        "raw": "[charslot(slot =\"l\", action=\"shake\", power=10, times=100, duration=1)]",
+        "type": "charslot",
+        "action": "shake",
+        "power": "10,",
+        "times": "100,",
+        "duration": 1
+    },
+    {
+        "id": 99,
+        "raw": "[charslot(slot =\"r\", action=\"shake\", power=10, times=100, duration=1)]",
+        "type": "charslot",
+        "action": "shake",
+        "power": "10,",
+        "times": "100,",
+        "duration": 1
+    },
+    {
+        "id": 100,
+        "raw": "[delay(time=1.1)]",
+        "type": "delay",
+        "time": 1.1
+    },
+    {
+        "id": 101,
+        "raw": "[charslot(slot = \"left\", name = \"avg_npc_1251_1#4$1\",duration = 1,posfrom = \"0,-200\", posto = \"0,-100\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 102,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 103,
+        "raw": "[charslot(slot = \"right\", name = \"avg_npc_1251_1#4$1\",duration = 1,posfrom = \"0,-200\", posto = \"0,-100\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 104,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 105,
+        "raw": "[charslot(slot = \"right\", name = \"avg_npc_1251_1#5$1\",duration = 0.3)]",
+        "type": "charslot"
+    },
+    {
+        "id": 106,
+        "raw": "[PlaySound(key=\"$d_avg_drone\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_drone.mp3"
+    },
+    {
+        "id": 107,
+        "raw": "[delay(time=0.3)]",
+        "type": "delay",
+        "time": 0.3
+    },
+    {
+        "id": 108,
+        "raw": "[charslot(slot = \"right\",duration = 0.5,posfrom = \"0,-100\", posto = \"300,200\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 109,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 110,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 111,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 112,
+        "raw": "[charslot(slot = \"m\",posfrom = \"0,0\", posto = \"-200,0\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 113,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1249_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1249_1#1$1.png"
+    },
+    {
+        "id": 114,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_1250_1#1$1\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_1250_1#1$1.png"
+    },
+    {
+        "id": 115,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 116,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_1251_1#5$1\",duration = 0.1)]",
+        "type": "charslot"
+    },
+    {
+        "id": 117,
+        "raw": "[charslot(slot = \"l\",duration = 0.5,posfrom = \"-500,-200\", posto = \"-100,200\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 118,
+        "raw": "[delay(time=0.1)]",
+        "type": "delay",
+        "time": 0.1
+    },
+    {
+        "id": 119,
+        "raw": "[charslot(slot = \"l\",duration = 0.3,afrom=1,ato=0)]",
+        "type": "charslot",
+        "afrom": "1,ato=0"
+    },
+    {
+        "id": 120,
+        "raw": "[charslot(slot = \"r\",posfrom = \"0,0\", posto = \"-100,0\",duration = 0.3)]",
+        "type": "charslot"
+    },
+    {
+        "id": 121,
+        "raw": "[delay(time=0.3)]",
+        "type": "delay",
+        "time": 0.3
+    },
+    {
+        "id": 122,
+        "raw": "[CameraShake(duration=0.5, xstrength=28, ystrength=26, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "28,",
+        "ystrength": "26,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 123,
+        "raw": "[charslot(slot = \"r\",posfrom = \"-100,0\", posto = \"100,0\",duration = 0.5)]",
+        "type": "charslot"
+    },
+    {
+        "id": 124,
+        "raw": "[charslot(slot = \"m\",posfrom = \"-200,0\", posto = \"0,0\",duration = 0.5)]",
+        "type": "charslot"
+    },
+    {
+        "id": 125,
+        "raw": "[delay(time=0.51)]",
+        "type": "delay",
+        "time": 0.51
+    },
+    {
+        "id": 126,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1249_1#1$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1249_1#1$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 127,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_1250_1#1$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_1250_1#1$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 128,
+        "raw": "[name=\"Worried Farmer\"]Watch out!",
+        "type": "dialog",
+        "speaker": "Worried Farmer",
+        "content": "Watch out!"
+    },
+    {
+        "id": 129,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1249_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1249_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 130,
+        "raw": "[name=\"Panicked Farmer\"]That was a close one... My head...",
+        "type": "dialog",
+        "speaker": "Panicked Farmer",
+        "content": "That was a close one... My head..."
+    },
+    {
+        "id": 131,
+        "raw": "[name=\"Panicked Farmer\"]What's happening... All the Sky Poles are out of control?!",
+        "type": "dialog",
+        "speaker": "Panicked Farmer",
+        "content": "What's happening... All the Sky Poles are out of control?!"
+    },
+    {
+        "id": 132,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 133,
+        "raw": "[PlaySound(key=\"$d_avg_drone\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_drone.mp3"
+    },
+    {
+        "id": 134,
+        "raw": "[PlaySound(key=\"$d_avg_drone\",channel=\"1\",delay=0.1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_drone.mp3",
+        "channel": "1",
+        "delay": 0.1
+    },
+    {
+        "id": 135,
+        "raw": "[PlaySound(key=\"$d_avg_drone\",channel=\"2\",delay=0.2)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_drone.mp3",
+        "channel": "2",
+        "delay": 0.2
+    },
+    {
+        "id": 136,
+        "raw": "[PlaySound(key=\"$d_avg_drone\",channel=\"3\",delay=0.3)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_drone.mp3",
+        "channel": "3",
+        "delay": 0.3
+    },
+    {
+        "id": 137,
+        "raw": "The Sky Poles seem affected by some disturbance, passing over the people's heads in swarms, blotting out the sky in a manner reminiscent of an insect plague not seen in ages.",
+        "type": "narration",
+        "content": "The Sky Poles seem affected by some disturbance, passing over the people's heads in swarms, blotting out the sky in a manner reminiscent of an insect plague not seen in ages."
+    },
+    {
+        "id": 138,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1249_1#1$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1249_1#1$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 139,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_1250_1#1$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_1250_1#1$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 140,
+        "raw": "[name=\"Worried Farmer\"]Look at that!",
+        "type": "dialog",
+        "speaker": "Worried Farmer",
+        "content": "Look at that!"
+    },
+    {
+        "id": 141,
+        "raw": "[name=\"Worried Farmer\"]What's with the color of the sun...?",
+        "type": "dialog",
+        "speaker": "Worried Farmer",
+        "content": "What's with the color of the sun...?"
+    },
+    {
+        "id": 142,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 143,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 144,
+        "raw": "[Effect(name=\"$e_demoninfect\",layer = 1)]",
+        "type": "effect",
+        "name": "$e_demoninfect"
+    },
+    {
+        "id": 145,
+        "raw": "[delay(time=3)]",
+        "type": "delay",
+        "time": 3
+    },
+    {
+        "id": 146,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 147,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 148,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 149,
+        "raw": "[image(image=\"47_i08\",screenadapt=\"coverall\",xScale=1.2,yScale=1.2)]",
+        "type": "image",
+        "image": "47_i08.png",
+        "screenadapt": "coverall",
+        "xScale": "1.2,yScale=1.2"
+    },
+    {
+        "id": 150,
+        "raw": "[imagetween(xScaleTo=1,yScaleTo=1,duration=30)]",
+        "type": "image_tween",
+        "xScaleTo": "1,yScaleTo=1,duration=30"
+    },
+    {
+        "id": 151,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 152,
+        "raw": "[delay(time=3)]",
+        "type": "delay",
+        "time": 3
+    },
+    {
+        "id": 153,
+        "raw": "The people lift their heads and see that the sun has suddenly dipped down into the west, illuminating half the sky blood-red.",
+        "type": "narration",
+        "content": "The people lift their heads and see that the sun has suddenly dipped down into the west, illuminating half the sky blood-red."
+    },
+    {
+        "id": 154,
+        "raw": "Everyone is stricken with a sense of fear.",
+        "type": "narration",
+        "content": "Everyone is stricken with a sense of fear."
+    },
+    {
+        "id": 155,
+        "raw": "A primordial fear that has existed within human hearts since ancient times.",
+        "type": "narration",
+        "content": "A primordial fear that has existed within human hearts since ancient times."
+    },
+    {
+        "id": 156,
+        "raw": "Catastrophe, pestilence, disease, famine...",
+        "type": "narration",
+        "content": "Catastrophe, pestilence, disease, famine..."
+    },
+    {
+        "id": 157,
+        "raw": "This realm is no longer the home they have known.",
+        "type": "narration",
+        "content": "This realm is no longer the home they have known."
+    },
+    {
+        "id": 158,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 159,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 160,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 161,
+        "raw": "[image]",
+        "type": "image"
+    },
+    {
+        "id": 162,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 163,
+        "raw": "[Background(image=\"47_g13_pollutedfield\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "47_g13_pollutedfield.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 164,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 165,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 166,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1244_1#3$1\",duration=1)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1244_1#3$1.png",
+        "duration": 1
+    },
+    {
+        "id": 167,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 168,
+        "raw": "[PlaySound(key=\"$d_avg_hgmgrssvcm\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_hgmgrssvcm.mp3"
+    },
+    {
+        "id": 169,
+        "raw": "[name=\"Eerie Fabric\"](Unsettling braying noises)",
+        "type": "dialog",
+        "speaker": "Eerie Fabric",
+        "content": "(Unsettling braying noises)"
+    },
+    {
+        "id": 170,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 171,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 172,
+        "raw": "[charslot(slot=\"l\",name=\"avg_npc_1249_1#1$1\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_1249_1#1$1.png",
+        "focus": "l"
+    },
+    {
+        "id": 173,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_1250_1#1$1\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_1250_1#1$1.png",
+        "focus": "l"
+    },
+    {
+        "id": 174,
+        "raw": "[name=\"Panicked Farmer\"]What are these things? Pests?",
+        "type": "dialog",
+        "speaker": "Panicked Farmer",
+        "content": "What are these things? Pests?"
+    },
+    {
+        "id": 175,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_1250_1#1$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_1250_1#1$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 176,
+        "raw": "[name=\"Anxious Farmer\"]How can this be?! They're popping out of thin air, straight out of the ground... They're everywhere!",
+        "type": "dialog",
+        "speaker": "Anxious Farmer",
+        "content": "How can this be?! They're popping out of thin air, straight out of the ground... They're everywhere!"
+    },
+    {
+        "id": 177,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 178,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 179,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4122_grabds_1#5$1\",duration=0.5)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4122_grabds_1#5$1.png",
+        "duration": 0.5
+    },
+    {
+        "id": 180,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 181,
+        "raw": "[playsound(key=\"$p_skill_ctefltpn\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/player/p_skill/p_skill_ctefltpn.mp3"
+    },
+    {
+        "id": 182,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 183,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4122_grabds_1#6$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4122_grabds_1#6$1.png"
+    },
+    {
+        "id": 184,
+        "raw": "[name=\"Grain Buds\"]What's going on...? Why are these animals not listening?",
+        "type": "dialog",
+        "speaker": "Grain Buds",
+        "content": "What's going on...? Why are these animals not listening?"
+    },
+    {
+        "id": 185,
+        "raw": "[PlaySound(key=\"$d_avg_hgmgrssvcm\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_hgmgrssvcm.mp3"
+    },
+    {
+        "id": 186,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1244_1#3$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1244_1#3$1.png"
+    },
+    {
+        "id": 187,
+        "raw": "[name=\"Eerie Fabric\"](Eerie cry)",
+        "type": "dialog",
+        "speaker": "Eerie Fabric",
+        "content": "(Eerie cry)"
+    },
+    {
+        "id": 188,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 189,
+        "raw": "[charslot(slot = \"r\",name=\"avg_4119_wanqin_1#6$1\",posfrom = \"250,0\", posto = \"0,0\",duration = 0.5)]",
+        "type": "charslot",
+        "name": "avg_4119_wanqin_1#6$1.png"
+    },
+    {
+        "id": 190,
+        "raw": "[PlaySound(key=\"$d_avg_singleblunt\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_singleblunt.mp3"
+    },
+    {
+        "id": 191,
+        "raw": "[delay(time=0.3)]",
+        "type": "delay",
+        "time": 0.3
+    },
+    {
+        "id": 192,
+        "raw": "[charslot(slot=\"m\",duration=0.4,posfrom = \"0,0\", posto = \"-200,0\")]",
+        "type": "charslot",
+        "slot": "m",
+        "duration": "0.4,posfrom"
+    },
+    {
+        "id": 193,
+        "raw": "[CameraShake(duration=0.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 194,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 195,
+        "raw": "[PlaySound(key=\"$d_avg_hgmdspr\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_hgmdspr.mp3"
+    },
+    {
+        "id": 196,
+        "raw": "[charslot(slot=\"m\",duration=0.7,afrom=1,ato=0)]",
+        "type": "charslot",
+        "slot": "m",
+        "duration": "0.7,afrom=1,ato=0"
+    },
+    {
+        "id": 197,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 198,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 199,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4119_wanqin_1#5$1\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4119_wanqin_1#5$1.png",
+        "focus": "l"
+    },
+    {
+        "id": 200,
+        "raw": "[charslot(slot=\"r\",name=\"avg_4122_grabds_1#2$1\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_4122_grabds_1#2$1.png",
+        "focus": "l"
+    },
+    {
+        "id": 201,
+        "raw": "[name=\"He Sheng\"]Are you okay?!",
+        "type": "dialog",
+        "speaker": "He Sheng",
+        "content": "Are you okay?!"
+    },
+    {
+        "id": 202,
+        "raw": "[charslot(slot=\"r\",name=\"avg_4122_grabds_1#4$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_4122_grabds_1#4$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 203,
+        "raw": "[name=\"Grain Buds\"]Um...",
+        "type": "dialog",
+        "speaker": "Grain Buds",
+        "content": "Um..."
+    },
+    {
+        "id": 204,
+        "raw": "[charslot(slot=\"r\",name=\"avg_4122_grabds_1#5$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_4122_grabds_1#5$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 205,
+        "raw": "[name=\"Grain Buds\"]I've never seen animals like these before. They almost look like... they're not even <i>animals?</i>",
+        "type": "dialog",
+        "speaker": "Grain Buds",
+        "content": "I've never seen animals like these before. They almost look like... they're not even <i>animals?</i>"
+    },
+    {
+        "id": 206,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4119_wanqin_1#8$1\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4119_wanqin_1#8$1.png",
+        "focus": "l"
+    },
+    {
+        "id": 207,
+        "raw": "[name=\"He Sheng\"]They're more like the monsters from popular operas than pestilence beasts... They're even popping out of the ground?",
+        "type": "dialog",
+        "speaker": "He Sheng",
+        "content": "They're more like the monsters from popular operas than pestilence beasts... They're even popping out of the ground?"
+    },
+    {
+        "id": 208,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4119_wanqin_1#5$1\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4119_wanqin_1#5$1.png",
+        "focus": "l"
+    },
+    {
+        "id": 209,
+        "raw": "[name=\"He Sheng\"]Let's give this a try...",
+        "type": "dialog",
+        "speaker": "He Sheng",
+        "content": "Let's give this a try..."
+    },
+    {
+        "id": 210,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 211,
+        "raw": "[playsound(key=\"$d_avg_windmagic\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_windmagic.mp3"
+    },
+    {
+        "id": 212,
+        "raw": "A gust of wind suddenly rises, and the monster's body is torn into fine threads. However, it snaps right back to its original form in an instant and continues to crawl forward.",
+        "type": "narration",
+        "content": "A gust of wind suddenly rises, and the monster's body is torn into fine threads. However, it snaps right back to its original form in an instant and continues to crawl forward."
+    },
+    {
+        "id": 213,
+        "raw": "More and more monsters begin to rise from the soil. Wherever they go, crops wither and the land dries up.",
+        "type": "narration",
+        "content": "More and more monsters begin to rise from the soil. Wherever they go, crops wither and the land dries up."
+    },
+    {
+        "id": 214,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4119_wanqin_1#7$1\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4119_wanqin_1#7$1.png",
+        "focus": "l"
+    },
+    {
+        "id": 215,
+        "raw": "[charslot(slot=\"r\",name=\"avg_4122_grabds_1#5$1\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_4122_grabds_1#5$1.png",
+        "focus": "l"
+    },
+    {
+        "id": 216,
+        "raw": "[name=\"He Sheng\"]It didn't do anything?!",
+        "type": "dialog",
+        "speaker": "He Sheng",
+        "content": "It didn't do anything?!"
+    },
+    {
+        "id": 217,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 218,
+        "raw": "[PlaySound(key=\"$d_avg_hgmlgscrm\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_hgmlgscrm.mp3"
+    },
+    {
+        "id": 219,
+        "raw": "[CameraShake(duration=1, xstrength=10, ystrength=5, vibrato=50, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "xstrength": "10,",
+        "ystrength": "5,",
+        "vibrato": "50,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 220,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1244_1#3$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1244_1#3$1.png"
+    },
+    {
+        "id": 221,
+        "raw": "[name=\"Eerie Fabric\"](Piercing wail)",
+        "type": "dialog",
+        "speaker": "Eerie Fabric",
+        "content": "(Piercing wail)"
+    },
+    {
+        "id": 222,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 223,
+        "raw": "[name=\"Zuo Le\"]Watch out—!",
+        "type": "dialog",
+        "speaker": "Zuo Le",
+        "content": "Watch out—!"
+    },
+    {
+        "id": 224,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 225,
+        "raw": "[charslot(slot = \"l\",name=\"avg_4121_zuole_1#4$1\",posfrom = \"200,0\", posto = \"200,0\",duration = 0.3)]",
+        "type": "charslot",
+        "name": "avg_4121_zuole_1#4$1.png"
+    },
+    {
+        "id": 226,
+        "raw": "[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=50, randomness=90, fadeout=false, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.3,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "50,",
+        "randomness": "90,",
+        "fadeout": "false,",
+        "block": false
+    },
+    {
+        "id": 227,
+        "raw": "[playsound(key=\"$d_avg_spear\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_spear.mp3"
+    },
+    {
+        "id": 228,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 229,
+        "raw": "[charslot(slot=\"m\",duration=0.7,afrom=1,ato=0)]",
+        "type": "charslot",
+        "slot": "m",
+        "duration": "0.7,afrom=1,ato=0"
+    },
+    {
+        "id": 230,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 231,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 232,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4119_wanqin_1#8$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4119_wanqin_1#8$1.png"
+    },
+    {
+        "id": 233,
+        "raw": "[name=\"He Sheng\"]Zuo Le! What are these things?",
+        "type": "dialog",
+        "speaker": "He Sheng",
+        "content": "Zuo Le! What are these things?"
+    },
+    {
+        "id": 234,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4121_zuole_1#4$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4121_zuole_1#4$1.png"
+    },
+    {
+        "id": 235,
+        "raw": "[name=\"Zuo Le\"]Get back... This isn't something I can explain in a sentence or two.",
+        "type": "dialog",
+        "speaker": "Zuo Le",
+        "content": "Get back... This isn't something I can explain in a sentence or two."
+    },
+    {
+        "id": 236,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 237,
+        "raw": "[PlaySound(key=\"$d_avg_hgmdspr\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_hgmdspr.mp3"
+    },
+    {
+        "id": 238,
+        "raw": "Zuo Le plucks a strand of silk with his longsword, but before he can raise it to eye level, the silk thread disappears on the wind.",
+        "type": "narration",
+        "content": "Zuo Le plucks a strand of silk with his longsword, but before he can raise it to eye level, the silk thread disappears on the wind."
+    },
+    {
+        "id": 239,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4119_wanqin_1#8$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4119_wanqin_1#8$1.png"
+    },
+    {
+        "id": 240,
+        "raw": "[name=\"He Sheng\"]Are they the same...?",
+        "type": "dialog",
+        "speaker": "He Sheng",
+        "content": "Are they the same...?"
+    },
+    {
+        "id": 241,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4121_zuole_1#2$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4121_zuole_1#2$1.png"
+    },
+    {
+        "id": 242,
+        "raw": "[name=\"Zuo Le\"]Yes.",
+        "type": "dialog",
+        "speaker": "Zuo Le",
+        "content": "Yes."
+    },
+    {
+        "id": 243,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 244,
+        "raw": "The Candleholder looks up toward the center of the city. A tower of white jade stands there, emitting an ominous light.",
+        "type": "narration",
+        "content": "The Candleholder looks up toward the center of the city. A tower of white jade stands there, emitting an ominous light."
+    },
+    {
+        "id": 245,
+        "raw": "'The Skybound White Jade Capital, of Twelve Pagodas and Five Cities.'",
+        "type": "narration",
+        "content": "'The Skybound White Jade Capital, of Twelve Pagodas and Five Cities.'"
+    },
+    {
+        "id": 246,
+        "raw": "The ancients once envisioned a city that reached the heavens, but now, it has become a source of calamity.",
+        "type": "narration",
+        "content": "The ancients once envisioned a city that reached the heavens, but now, it has become a source of calamity."
+    },
+    {
+        "id": 247,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4121_zuole_1#4$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4121_zuole_1#4$1.png"
+    },
+    {
+        "id": 248,
+        "raw": "[name=\"Zuo Le\"]He did it, in the end...",
+        "type": "dialog",
+        "speaker": "Zuo Le",
+        "content": "He did it, in the end..."
+    },
+    {
+        "id": 249,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4119_wanqin_1#8$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4119_wanqin_1#8$1.png"
+    },
+    {
+        "id": 250,
+        "raw": "[name=\"He Sheng\"]How much do you really know?",
+        "type": "dialog",
+        "speaker": "He Sheng",
+        "content": "How much do you really know?"
+    },
+    {
+        "id": 251,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4121_zuole_1#4$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4121_zuole_1#4$1.png"
+    },
+    {
+        "id": 252,
+        "raw": "[name=\"Zuo Le\"]There's no time to explain... He Sheng, do me a favor and rescue all the people here.",
+        "type": "dialog",
+        "speaker": "Zuo Le",
+        "content": "There's no time to explain... He Sheng, do me a favor and rescue all the people here."
+    },
+    {
+        "id": 253,
+        "raw": "[name=\"Zuo Le\"]Go gather all the farmers and have them stick together as much as possible... No, whatever you do, don't leave anyone alone.",
+        "type": "dialog",
+        "speaker": "Zuo Le",
+        "content": "Go gather all the farmers and have them stick together as much as possible... No, whatever you do, don't leave anyone alone."
+    },
+    {
+        "id": 254,
+        "raw": "[name=\"Zuo Le\"]Remember, don't be afraid of them. Even if you have to force yourself, do not feel fear.",
+        "type": "dialog",
+        "speaker": "Zuo Le",
+        "content": "Remember, don't be afraid of them. Even if you have to force yourself, do not feel fear."
+    },
+    {
+        "id": 255,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4119_wanqin_1#7$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4119_wanqin_1#7$1.png"
+    },
+    {
+        "id": 256,
+        "raw": "[name=\"He Sheng\"]What about you? What are you going to do?",
+        "type": "dialog",
+        "speaker": "He Sheng",
+        "content": "What about you? What are you going to do?"
+    },
+    {
+        "id": 257,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4121_zuole_1#4$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4121_zuole_1#4$1.png"
+    },
+    {
+        "id": 258,
+        "raw": "[name=\"Zuo Le\"]I'm going to shut down that device...",
+        "type": "dialog",
+        "speaker": "Zuo Le",
+        "content": "I'm going to shut down that device..."
+    },
+    {
+        "id": 259,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4119_wanqin_1#5$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4119_wanqin_1#5$1.png"
+    },
+    {
+        "id": 260,
+        "raw": "[name=\"He Sheng\"]You're doing this on your own again?",
+        "type": "dialog",
+        "speaker": "He Sheng",
+        "content": "You're doing this on your own again?"
+    },
+    {
+        "id": 261,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4121_zuole_1#7$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4121_zuole_1#7$1.png"
+    },
+    {
+        "id": 262,
+        "raw": "[name=\"Zuo Le\"]This is my duty... even if I have to put my life on the line...",
+        "type": "dialog",
+        "speaker": "Zuo Le",
+        "content": "This is my duty... even if I have to put my life on the line..."
+    },
+    {
+        "id": 263,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4119_wanqin_1#5$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4119_wanqin_1#5$1.png"
+    },
+    {
+        "id": 264,
+        "raw": "[name=\"He Sheng\"]What kind of talk is that?",
+        "type": "dialog",
+        "speaker": "He Sheng",
+        "content": "What kind of talk is that?"
+    },
+    {
+        "id": 265,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4119_wanqin_1#6$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4119_wanqin_1#6$1.png"
+    },
+    {
+        "id": 266,
+        "raw": "[name=\"He Sheng\"]Did anyone ask for your life? Why are you always up on your own pedestal, acting as if everyone's looking to you to save them?",
+        "type": "dialog",
+        "speaker": "He Sheng",
+        "content": "Did anyone ask for your life? Why are you always up on your own pedestal, acting as if everyone's looking to you to save them?"
+    },
+    {
+        "id": 267,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4121_zuole_1#6$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4121_zuole_1#6$1.png"
+    },
+    {
+        "id": 268,
+        "raw": "[name=\"Zuo Le\"]Well—",
+        "type": "dialog",
+        "speaker": "Zuo Le",
+        "content": "Well—"
+    },
+    {
+        "id": 269,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 270,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 271,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\",volume=0.7)] ",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3",
+        "volume": 0.7
+    },
+    {
+        "id": 272,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1240_1#4$1\",duration=1)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1240_1#4$1.png",
+        "duration": 1
+    },
+    {
+        "id": 273,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 274,
+        "raw": "[name=\"Old Xiangzhang\"]Xiaohe is right. This isn't a problem you can solve on your own.",
+        "type": "dialog",
+        "speaker": "Old Xiangzhang",
+        "content": "Xiaohe is right. This isn't a problem you can solve on your own."
+    },
+    {
+        "id": 275,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4121_zuole_1#6$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4121_zuole_1#6$1.png"
+    },
+    {
+        "id": 276,
+        "raw": "[name=\"Zuo Le\"]It's you...",
+        "type": "dialog",
+        "speaker": "Zuo Le",
+        "content": "It's you..."
+    },
+    {
+        "id": 277,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4119_wanqin_1#8$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4119_wanqin_1#8$1.png"
+    },
+    {
+        "id": 278,
+        "raw": "[name=\"He Sheng\"]What should we be doing now?",
+        "type": "dialog",
+        "speaker": "He Sheng",
+        "content": "What should we be doing now?"
+    },
+    {
+        "id": 279,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1240_1#4$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1240_1#4$1.png"
+    },
+    {
+        "id": 280,
+        "raw": "[name=\"Old Xiangzhang\"]This is happening because of the contamination on the north bank of the river. The flood allowed them to penetrate Dahuang's defenses.",
+        "type": "dialog",
+        "speaker": "Old Xiangzhang",
+        "content": "This is happening because of the contamination on the north bank of the river. The flood allowed them to penetrate Dahuang's defenses."
+    },
+    {
+        "id": 281,
+        "raw": "[name=\"Old Xiangzhang\"]Don't panic, the Tianshis from the Chamber of Heaven's Designs is on the way. But first, we need to organize everyone together. Strength in numbers: that's how we'll look after one another.",
+        "type": "dialog",
+        "speaker": "Old Xiangzhang",
+        "content": "Don't panic, the Tianshis from the Chamber of Heaven's Designs is on the way. But first, we need to organize everyone together. Strength in numbers: that's how we'll look after one another."
+    },
+    {
+        "id": 282,
+        "raw": "[name=\"Old Xiangzhang\"]Come together, and protect those in need.",
+        "type": "dialog",
+        "speaker": "Old Xiangzhang",
+        "content": "Come together, and protect those in need."
+    },
+    {
+        "id": 283,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 284,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4119_wanqin_1#5$1\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4119_wanqin_1#5$1.png",
+        "focus": "l"
+    },
+    {
+        "id": 285,
+        "raw": "[charslot(slot=\"r\",name=\"avg_4122_grabds_1#5$1\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_4122_grabds_1#5$1.png",
+        "focus": "l"
+    },
+    {
+        "id": 286,
+        "raw": "[name=\"He Sheng\"]Let's get going, Grain Buds.",
+        "type": "dialog",
+        "speaker": "He Sheng",
+        "content": "Let's get going, Grain Buds."
+    },
+    {
+        "id": 287,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 288,
+        "raw": "[charslot(slot = \"m\", focus = \"all\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 289,
+        "raw": "[playsound(key=\"$rungeneral\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_rungeneral.mp3"
+    },
+    {
+        "id": 290,
+        "raw": "[charslot(slot = \"r\",posfrom = \"0,0\", posto = \"300,0\",duration = 1,afrom=1,ato=0)]",
+        "type": "charslot",
+        "afrom": "1,ato=0"
+    },
+    {
+        "id": 291,
+        "raw": "[delay(time=0.3)]",
+        "type": "delay",
+        "time": 0.3
+    },
+    {
+        "id": 292,
+        "raw": "[charslot(slot = \"l\",posfrom = \"0,0\", posto = \"400,0\",duration = 1,afrom=1,ato=0)]",
+        "type": "charslot",
+        "afrom": "1,ato=0"
+    },
+    {
+        "id": 293,
+        "raw": "[delay(time=2.5)]",
+        "type": "delay",
+        "time": 2.5
+    },
+    {
+        "id": 294,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 295,
+        "raw": "[charslot(slot = \"left\", name = \"avg_4121_zuole_1#1$1\",duration = 1)]",
+        "type": "charslot"
+    },
+    {
+        "id": 296,
+        "raw": "[charslot(slot = \"right\", name = \"avg_npc_1240_1#1$1\",duration = 1)]",
+        "type": "charslot"
+    },
+    {
+        "id": 297,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 298,
+        "raw": "[charslot(slot = \"left\", name = \"avg_4121_zuole_1#1$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 299,
+        "raw": "[name=\"Zuo Le\"]Rong Wanqing... Qianbei.",
+        "type": "dialog",
+        "speaker": "Zuo Le",
+        "content": "Rong Wanqing... Qianbei."
+    },
+    {
+        "id": 300,
+        "raw": "[name=\"Zuo Le\"]I have seen your name on the Sui Regulator's roster.",
+        "type": "dialog",
+        "speaker": "Zuo Le",
+        "content": "I have seen your name on the Sui Regulator's roster."
+    },
+    {
+        "id": 301,
+        "raw": "[charslot(slot = \"right\", name = \"avg_npc_1240_1#3$1\",focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 302,
+        "raw": "[name=\"Rong Wanqing\"]I hung up those robes a long time ago.",
+        "type": "dialog",
+        "speaker": "Rong Wanqing",
+        "content": "I hung up those robes a long time ago."
+    },
+    {
+        "id": 303,
+        "raw": "[charslot(slot = \"left\", name = \"avg_4121_zuole_1#10$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 304,
+        "raw": "[name=\"Zuo Le\"]You suppressed the Shanhaizhong, and traced the criminal's master plan. You were the Sui Regulator's most storied Candleholder of the last century.",
+        "type": "dialog",
+        "speaker": "Zuo Le",
+        "content": "You suppressed the Shanhaizhong, and traced the criminal's master plan. You were the Sui Regulator's most storied Candleholder of the last century."
+    },
+    {
+        "id": 305,
+        "raw": "[name=\"Zuo Le\"]Forty years ago, you left the Sui Regulator to became a magistrate in Dahuang, and you've stayed here ever since... Why?",
+        "type": "dialog",
+        "speaker": "Zuo Le",
+        "content": "Forty years ago, you left the Sui Regulator to became a magistrate in Dahuang, and you've stayed here ever since... Why?"
+    },
+    {
+        "id": 306,
+        "raw": "[charslot(slot = \"right\", name = \"avg_npc_1240_1#1$1\",focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 307,
+        "raw": "[name=\"Rong Wanqing\"]My duty is to keep an eye on anything that might threaten Yan. However, Shu is not one of those things.",
+        "type": "dialog",
+        "speaker": "Rong Wanqing",
+        "content": "My duty is to keep an eye on anything that might threaten Yan. However, Shu is not one of those things."
+    },
+    {
+        "id": 308,
+        "raw": "[charslot(slot = \"left\", name = \"avg_4121_zuole_1#10$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 309,
+        "raw": "[name=\"Zuo Le\"]Shu... Used her own life to cleanse the demonic contamination beneath Dahuang?",
+        "type": "dialog",
+        "speaker": "Zuo Le",
+        "content": "Shu... Used her own life to cleanse the demonic contamination beneath Dahuang?"
+    },
+    {
+        "id": 310,
+        "raw": "[charslot(slot = \"right\", name = \"avg_npc_1240_1#1$1\",focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 311,
+        "raw": "[name=\"Rong Wanqing\"]She did.",
+        "type": "dialog",
+        "speaker": "Rong Wanqing",
+        "content": "She did."
+    },
+    {
+        "id": 312,
+        "raw": "[charslot(slot = \"right\", name = \"avg_npc_1240_1#4$1\",focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 313,
+        "raw": "[name=\"Rong Wanqing\"]But by some unknown means, Ji forcibly powered up the core city with demon fragments, resulting in the strange monsters we see now.",
+        "type": "dialog",
+        "speaker": "Rong Wanqing",
+        "content": "But by some unknown means, Ji forcibly powered up the core city with demon fragments, resulting in the strange monsters we see now."
+    },
+    {
+        "id": 314,
+        "raw": "[charslot(slot = \"left\", name = \"avg_4121_zuole_1#10$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 315,
+        "raw": "[name=\"Zuo Le\"]I failed to detect a criminal plan, a clear dereliction of duty...",
+        "type": "dialog",
+        "speaker": "Zuo Le",
+        "content": "I failed to detect a criminal plan, a clear dereliction of duty..."
+    },
+    {
+        "id": 316,
+        "raw": "[name=\"Zuo Le\"]But I've heard that the Chamber's defensive line along the northern bank is imperiled. How can we allocate the manpower to defend Dahuang?",
+        "type": "dialog",
+        "speaker": "Zuo Le",
+        "content": "But I've heard that the Chamber's defensive line along the northern bank is imperiled. How can we allocate the manpower to defend Dahuang?"
+    },
+    {
+        "id": 317,
+        "raw": "[charslot(slot = \"right\", name = \"avg_npc_1240_1#4$1\",focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 318,
+        "raw": "[name=\"Rong Wanqing\"]You've got the situation right. At the moment, we can only rely on ourselves.",
+        "type": "dialog",
+        "speaker": "Rong Wanqing",
+        "content": "You've got the situation right. At the moment, we can only rely on ourselves."
+    },
+    {
+        "id": 319,
+        "raw": "[name=\"Rong Wanqing\"]These creations come from the power of that proxy, and are also shadows of the demons fueled by fear... This struggle is also one of courage and the human heart itself.",
+        "type": "dialog",
+        "speaker": "Rong Wanqing",
+        "content": "These creations come from the power of that proxy, and are also shadows of the demons fueled by fear... This struggle is also one of courage and the human heart itself."
+    },
+    {
+        "id": 320,
+        "raw": "[charslot(slot = \"left\", name = \"avg_4121_zuole_1#10$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 321,
+        "raw": "[name=\"Zuo Le\"]How do we stop these monsters though...?",
+        "type": "dialog",
+        "speaker": "Zuo Le",
+        "content": "How do we stop these monsters though...?"
+    },
+    {
+        "id": 322,
+        "raw": "[charslot(slot = \"right\", name = \"avg_npc_1240_1#4$1\",focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 323,
+        "raw": "[name=\"Rong Wanqing\"]The heart can't move without its limbs. The Tumu Tianshis have already gone to sever the connections between the various plates and the core city. Our job is to protect the people here.",
+        "type": "dialog",
+        "speaker": "Rong Wanqing",
+        "content": "The heart can't move without its limbs. The Tumu Tianshis have already gone to sever the connections between the various plates and the core city. Our job is to protect the people here."
+    },
+    {
+        "id": 324,
+        "raw": "[charslot(slot = \"left\", name = \"avg_4121_zuole_1#4$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 325,
+        "raw": "[name=\"Zuo Le\"]...I'll see it done.",
+        "type": "dialog",
+        "speaker": "Zuo Le",
+        "content": "...I'll see it done."
+    },
+    {
+        "id": 326,
+        "raw": "[charslot(slot = \"right\", name = \"avg_npc_1240_1#4$1\",focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 327,
+        "raw": "[name=\"Rong Wanqing\"]A Candleholder's duty is to carry the fire that drives out the shadows of the Feranmut. However, the shadows that loom over the people do not come solely from Feranmuts.",
+        "type": "dialog",
+        "speaker": "Rong Wanqing",
+        "content": "A Candleholder's duty is to carry the fire that drives out the shadows of the Feranmut. However, the shadows that loom over the people do not come solely from Feranmuts."
+    },
+    {
+        "id": 328,
+        "raw": "[name=\"Rong Wanqing\"]Light the lamp, and let it remain lit. Do not forget that.",
+        "type": "dialog",
+        "speaker": "Rong Wanqing",
+        "content": "Light the lamp, and let it remain lit. Do not forget that."
+    },
+    {
+        "id": 329,
+        "raw": "[charslot(slot = \"left\", name = \"avg_4121_zuole_1#4$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 330,
+        "raw": "[name=\"Zuo Le\"]I'll stop him, I will.",
+        "type": "dialog",
+        "speaker": "Zuo Le",
+        "content": "I'll stop him, I will."
+    },
+    {
+        "id": 331,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 332,
+        "raw": "[playsound(key=\"$rungeneral\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_rungeneral.mp3"
+    },
+    {
+        "id": 333,
+        "raw": "[charslot(slot = \"left\",posfrom = \"0,0\", posto = \"500,0\",duration = 1.5,afrom=1,ato=0)]",
+        "type": "charslot",
+        "afrom": "1,ato=0"
+    },
+    {
+        "id": 334,
+        "raw": "[delay(time=2.5)]",
+        "type": "delay",
+        "time": 2.5
+    },
+    {
+        "id": 335,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 336,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1.5, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1.5,",
+        "block": true
+    },
+    {
+        "id": 337,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 338,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1.5,",
+        "block": true
+    },
+    {
+        "id": 339,
+        "raw": "[playsound(key=\"$d_avg_hgmgrssvcm\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_hgmgrssvcm.mp3"
+    },
+    {
+        "id": 340,
+        "raw": "[playsound(key=\"$d_avg_hgmgrssvcm\",channel=\"a\",delay=0.1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_hgmgrssvcm.mp3",
+        "channel": "a",
+        "delay": 0.1
+    },
+    {
+        "id": 341,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_1244_1#3$1\",duration = 1,posfrom = \"0,0\", posto = \"0,0\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 342,
+        "raw": "[charslot(slot = \"left\", name = \"avg_npc_1244_1#3$1\",duration = 1,posfrom = \"0,0\", posto = \"0,0\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 343,
+        "raw": "[delay(time=2.5)]",
+        "type": "delay",
+        "time": 2.5
+    },
+    {
+        "id": 344,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 345,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1240_1#2$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 346,
+        "raw": "[name=\"Rong Wanqing\"]This is the debt that you must collect...",
+        "type": "dialog",
+        "speaker": "Rong Wanqing",
+        "content": "This is the debt that you must collect..."
+    },
+    {
+        "id": 347,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 348,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 349,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 350,
+        "raw": "[CameraEffect(effect=\"Grayscale\", fadetime=0, keep=true, initamount=0, amount=0.7, block=true)]",
+        "type": "camera_effect",
+        "effect": "Grayscale",
+        "fadetime": "0,",
+        "keep": "true,",
+        "initamount": "0,",
+        "amount": "0.7,",
+        "block": true
+    },
+    {
+        "id": 351,
+        "raw": "[Background(image=\"47_g11_shuresearchoffice\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "47_g11_shuresearchoffice.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 352,
+        "raw": "[charslot(slot = \"left\", name = \"avg_npc_1236_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 353,
+        "raw": "[charslot(slot = \"right\", name = \"avg_npc_1240_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 354,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 355,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 356,
+        "raw": "[charslot(slot = \"left\", name = \"avg_npc_1236_1#9$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 357,
+        "raw": "[name=\"Ji\"]Would it be right to say... long time no see?",
+        "type": "dialog",
+        "speaker": "Ji",
+        "content": "Would it be right to say... long time no see?"
+    },
+    {
+        "id": 358,
+        "raw": "[charslot(slot = \"right\", name = \"avg_npc_1240_1#1$1\",focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 359,
+        "raw": "[name=\"Rong Wanqing\"]You shouldn't have come back.",
+        "type": "dialog",
+        "speaker": "Rong Wanqing",
+        "content": "You shouldn't have come back."
+    },
+    {
+        "id": 360,
+        "raw": "[charslot(slot = \"left\", name = \"avg_npc_1236_1#9$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 361,
+        "raw": "[name=\"Ji\"]At least you weren't the one who directly ordered my arrest.",
+        "type": "dialog",
+        "speaker": "Ji",
+        "content": "At least you weren't the one who directly ordered my arrest."
+    },
+    {
+        "id": 362,
+        "raw": "[charslot(slot = \"right\", name = \"avg_npc_1240_1#1$1\",focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 363,
+        "raw": "[name=\"Rong Wanqing\"]For Shu's sake.",
+        "type": "dialog",
+        "speaker": "Rong Wanqing",
+        "content": "For Shu's sake."
+    },
+    {
+        "id": 364,
+        "raw": "[name=\"Rong Wanqing\"]I can allow you to see her. But after that, begone.",
+        "type": "dialog",
+        "speaker": "Rong Wanqing",
+        "content": "I can allow you to see her. But after that, begone."
+    },
+    {
+        "id": 365,
+        "raw": "[charslot(slot = \"right\", name = \"avg_npc_1240_1#4$1\",focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 366,
+        "raw": "[name=\"Rong Wanqing\"]Any further transgressions, however, and you'll have only yourself to blame for any lingering sentiments being set aside.",
+        "type": "dialog",
+        "speaker": "Rong Wanqing",
+        "content": "Any further transgressions, however, and you'll have only yourself to blame for any lingering sentiments being set aside."
+    },
+    {
+        "id": 367,
+        "raw": "[charslot(slot = \"left\", name = \"avg_npc_1236_1#1$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 368,
+        "raw": "[name=\"Ji\"]Lingering sentiments? Sounds quite nice when you put it like that.",
+        "type": "dialog",
+        "speaker": "Ji",
+        "content": "Lingering sentiments? Sounds quite nice when you put it like that."
+    },
+    {
+        "id": 369,
+        "raw": "[name=\"Ji\"]If by lingering sentiments, you're referring to trapping her here for a millennium to be your work-beast, then...",
+        "type": "dialog",
+        "speaker": "Ji",
+        "content": "If by lingering sentiments, you're referring to trapping her here for a millennium to be your work-beast, then..."
+    },
+    {
+        "id": 370,
+        "raw": "[charslot(slot = \"right\", name = \"avg_npc_1240_1#4$1\",focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 371,
+        "raw": "[name=\"Rong Wanqing\"]Your tone suggests you would prefer we went back to the days when Great Yan was hunting all of you?",
+        "type": "dialog",
+        "speaker": "Rong Wanqing",
+        "content": "Your tone suggests you would prefer we went back to the days when Great Yan was hunting all of you?"
+    },
+    {
+        "id": 372,
+        "raw": "[charslot(slot = \"left\", name = \"avg_npc_1236_1#1$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 373,
+        "raw": "[name=\"Ji\"]No, no... Life is self-centered and zero-sum, and that much is as true for beasts as it is for humans. I simply want to make a deal with you.",
+        "type": "dialog",
+        "speaker": "Ji",
+        "content": "No, no... Life is self-centered and zero-sum, and that much is as true for beasts as it is for humans. I simply want to make a deal with you."
+    },
+    {
+        "id": 374,
+        "raw": "[name=\"Ji\"]I promise to you the successful completion of the Twelve Pagodas and Five Cities, free from the threat of demons and Catastrophes. Additionally, the next three years shall be beneficent, such that you will have ample time to stockpile food and recuperate.",
+        "type": "dialog",
+        "speaker": "Ji",
+        "content": "I promise to you the successful completion of the Twelve Pagodas and Five Cities, free from the threat of demons and Catastrophes. Additionally, the next three years shall be beneficent, such that you will have ample time to stockpile food and recuperate."
+    },
+    {
+        "id": 375,
+        "raw": "[name=\"Ji\"]In exchange, I ask that my sister be freed from this place.",
+        "type": "dialog",
+        "speaker": "Ji",
+        "content": "In exchange, I ask that my sister be freed from this place."
+    },
+    {
+        "id": 376,
+        "raw": "[charslot(slot = \"right\", name = \"avg_npc_1240_1#4$1\",focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 377,
+        "raw": "[name=\"Rong Wanqing\"]You make it sound like Dahuang won't be able to overcome this challenge without you.",
+        "type": "dialog",
+        "speaker": "Rong Wanqing",
+        "content": "You make it sound like Dahuang won't be able to overcome this challenge without you."
+    },
+    {
+        "id": 378,
+        "raw": "[charslot(slot = \"left\", name = \"avg_npc_1236_1#1$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 379,
+        "raw": "[name=\"Ji\"]The demons run rampant, and Catastrophes are capricious. You should be fully aware of Dahuang's situation.",
+        "type": "dialog",
+        "speaker": "Ji",
+        "content": "The demons run rampant, and Catastrophes are capricious. You should be fully aware of Dahuang's situation."
+    },
+    {
+        "id": 380,
+        "raw": "[charslot(slot = \"right\", name = \"avg_npc_1240_1#4$1\",focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 381,
+        "raw": "[name=\"Rong Wanqing\"]How do I know I can trust you?",
+        "type": "dialog",
+        "speaker": "Rong Wanqing",
+        "content": "How do I know I can trust you?"
+    },
+    {
+        "id": 382,
+        "raw": "[charslot(slot = \"left\", name = \"avg_npc_1236_1#9$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 383,
+        "raw": "[name=\"Ji\"]Is it not amply clear to the Sui Regulator what our abilities are?",
+        "type": "dialog",
+        "speaker": "Ji",
+        "content": "Is it not amply clear to the Sui Regulator what our abilities are?"
+    },
+    {
+        "id": 384,
+        "raw": "[name=\"Ji\"]I will do as I stated and uphold my side of the deal. If you pull out, however, I will be forced to collect other assets as collateral.",
+        "type": "dialog",
+        "speaker": "Ji",
+        "content": "I will do as I stated and uphold my side of the deal. If you pull out, however, I will be forced to collect other assets as collateral."
+    },
+    {
+        "id": 385,
+        "raw": "[charslot(slot = \"right\", name = \"avg_npc_1240_1#3$1\",focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 386,
+        "raw": "[name=\"Rong Wanqing\"]...",
+        "type": "dialog",
+        "speaker": "Rong Wanqing",
+        "content": "..."
+    },
+    {
+        "id": 387,
+        "raw": "[charslot(slot = \"left\", name = \"avg_npc_1236_1#9$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 388,
+        "raw": "[name=\"Ji\"]Just know that I, too, have lingering sentiments when it comes to this land.",
+        "type": "dialog",
+        "speaker": "Ji",
+        "content": "Just know that I, too, have lingering sentiments when it comes to this land."
+    },
+    {
+        "id": 389,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 390,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 391,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 392,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 393,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 394,
+        "raw": "[CameraEffect(effect=\"Grayscale\", fadetime=0, amount=0, block=true)]",
+        "type": "camera_effect",
+        "effect": "Grayscale",
+        "fadetime": "0,",
+        "amount": "0,",
+        "block": true
+    },
+    {
+        "id": 395,
+        "raw": "[name=\"Rong Wanqing\"]Shu... I did promise to let you leave.",
+        "type": "dialog",
+        "speaker": "Rong Wanqing",
+        "content": "Shu... I did promise to let you leave."
+    },
+    {
+        "id": 396,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 397,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1240_1#2$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 398,
+        "raw": "[Background(image=\"47_g13_pollutedfield\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "47_g13_pollutedfield.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 399,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 400,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1240_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 401,
+        "raw": "[name=\"Rong Wanqing\"]You will do as you stated...",
+        "type": "dialog",
+        "speaker": "Rong Wanqing",
+        "content": "You will do as you stated..."
+    },
+    {
+        "id": 402,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1240_1#4$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 403,
+        "raw": "[name=\"Rong Wanqing\"]But, if it's my life you would collect, we'll see just what these demons' blasphemous methods can do.",
+        "type": "dialog",
+        "speaker": "Rong Wanqing",
+        "content": "But, if it's my life you would collect, we'll see just what these demons' blasphemous methods can do."
+    },
+    {
+        "id": 404,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 405,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 406,
+        "raw": "[charslot(slot = \"m\",name = \"avg_npc_1244_1#3$1\",posfrom = \"150,0\", posto = \"0,0\",duration = 1)]",
+        "type": "charslot"
+    },
+    {
+        "id": 407,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 408,
+        "raw": "[playsound(key=\"$d_avg_hgmlgscrm\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_hgmlgscrm.mp3"
+    },
+    {
+        "id": 409,
+        "raw": "[name=\"Eerie Fabric\"](Piercing wail)",
+        "type": "dialog",
+        "speaker": "Eerie Fabric",
+        "content": "(Piercing wail)"
+    },
+    {
+        "id": 410,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 411,
+        "raw": "[charslot(slot = \"m\",action=\"zoom\", poszoom = \"0.5,0.5\", scale=1.05,duration = 0.6)]",
+        "type": "charslot",
+        "action": "zoom",
+        "scale": "1.05,duration"
+    },
+    {
+        "id": 412,
+        "raw": "[CameraShake(duration=0.8, xstrength=50, ystrength=50, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.8,",
+        "xstrength": "50,",
+        "ystrength": "50,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 413,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 414,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 415,
+        "raw": "[playsound(key=\"$b_char_defboost\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/battle/b_char/b_char_defboost.mp3"
+    },
+    {
+        "id": 416,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 417,
+        "raw": "[playsound(key=\"$fightgeneral\",volume=0.6)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_fightgeneral.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 418,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 419,
+        "raw": "[playsound(key=\"$d_avg_blddpgrn\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_blddpgrn.mp3"
+    },
+    {
+        "id": 420,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 421,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 422,
+        "raw": "[Background(image=\"47_g5_factory_inside\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "47_g5_factory_inside.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 423,
+        "raw": "[charslot(slot = \"left\", name = \"avg_npc_1245_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 424,
+        "raw": "[charslot(slot = \"right\", name = \"avg_npc_1246_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 425,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 426,
+        "raw": "[playMusic(intro=\"$loading_intro\",key=\"$loading_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta1_180603/m_sys_loading_intro.mp3",
+        "key": "sound_beta_2/music/beta1_180603/m_sys_loading_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 427,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 428,
+        "raw": "[PlaySound(key=\"$alarmenter\",channel=\"bgs\", volume=1,block=false,loop=true)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/battle/b_ui/b_ui_alarmenter.mp3",
+        "channel": "bgs",
+        "volume": "1,block=false,loop=true"
+    },
+    {
+        "id": 429,
+        "raw": "[Blocker(a=0.4, r=255,g=0,b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0.4,",
+        "r": "255,g=0,b=0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 430,
+        "raw": "[Blocker(a=0, r=255,g=0,b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,g=0,b=0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 431,
+        "raw": "[Blocker(a=0.4, r=255,g=0,b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0.4,",
+        "r": "255,g=0,b=0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 432,
+        "raw": "[StopSound(channel=\"bgs\", fadetime=0)]",
+        "type": "stop_sound",
+        "channel": "bgs",
+        "fadetime": 0
+    },
+    {
+        "id": 433,
+        "raw": "[Blocker(a=0, r=255,g=0,b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,g=0,b=0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 434,
+        "raw": "[charslot(slot = \"left\", name = \"avg_npc_1245_1#1$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 435,
+        "raw": "[name=\"Tumu Tianshi\"]The energy core activated on its own? But how? It's not ready yet!",
+        "type": "dialog",
+        "speaker": "Tumu Tianshi",
+        "content": "The energy core activated on its own? But how? It's not ready yet!"
+    },
+    {
+        "id": 436,
+        "raw": "[charslot(slot = \"right\", name = \"avg_npc_1246_1#1$1\",focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 437,
+        "raw": "[name=\"Tumu Tianshi\"]These readings... Is this is a joke? This is enough to power a sizable nomadic city for three hundred years.",
+        "type": "dialog",
+        "speaker": "Tumu Tianshi",
+        "content": "These readings... Is this is a joke? This is enough to power a sizable nomadic city for three hundred years."
+    },
+    {
+        "id": 438,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 439,
+        "raw": "[name=\"Assistant Minister Wan\"]Out of the way. I'll deal with this.",
+        "type": "dialog",
+        "speaker": "Assistant Minister Wan",
+        "content": "Out of the way. I'll deal with this."
+    },
+    {
+        "id": 440,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 441,
+        "raw": "[charslot(slot = \"r\",posfrom = \"0,0\", posto = \"200,0\",duration = 1)]",
+        "type": "charslot"
+    },
+    {
+        "id": 442,
+        "raw": "[charslot(slot = \"l\",posfrom = \"0,0\", posto = \"-200,0\",duration = 1)]",
+        "type": "charslot"
+    },
+    {
+        "id": 443,
+        "raw": "[charslot(duration=1)]",
+        "type": "charslot",
+        "duration": 1
+    },
+    {
+        "id": 444,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 445,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 446,
+        "raw": "[playsound(key=\"$d_gen_walk_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3"
+    },
+    {
+        "id": 447,
+        "raw": "[charslot(slot=\"l\",name=\"avg_npc_1241_1#4$1\",duration=1.5)]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_1241_1#4$1.png",
+        "duration": 1.5
+    },
+    {
+        "id": 448,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 449,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_298_1#1$1\",duration=1.5)]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_298_1#1$1.png",
+        "duration": 1.5
+    },
+    {
+        "id": 450,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 451,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_298_1#1$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_298_1#1$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 452,
+        "raw": "[name=\"Ning Ciqiu\"]The energy core has gone out of control... He's taken control and is using it to create monsters.",
+        "type": "dialog",
+        "speaker": "Ning Ciqiu",
+        "content": "The energy core has gone out of control... He's taken control and is using it to create monsters."
+    },
+    {
+        "id": 453,
+        "raw": "[charslot(slot=\"l\",name=\"avg_npc_1241_1#4$1\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_1241_1#4$1.png",
+        "focus": "l"
+    },
+    {
+        "id": 454,
+        "raw": "[name=\"Assistant Minister Wan\"]Spare me the abstract. Nobody knows this device better than me.",
+        "type": "dialog",
+        "speaker": "Assistant Minister Wan",
+        "content": "Spare me the abstract. Nobody knows this device better than me."
+    },
+    {
+        "id": 455,
+        "raw": "[name=\"Assistant Minister Wan\"]On the other hand, Assistant Minister Ning, I don't need to remind you that the current situation is due to the failures of the Ministry of Rites and the Sui Regulator.",
+        "type": "dialog",
+        "speaker": "Assistant Minister Wan",
+        "content": "On the other hand, Assistant Minister Ning, I don't need to remind you that the current situation is due to the failures of the Ministry of Rites and the Sui Regulator."
+    },
+    {
+        "id": 456,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_298_1#1$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_298_1#1$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 457,
+        "raw": "[name=\"Ning Ciqiu\"]...",
+        "type": "dialog",
+        "speaker": "Ning Ciqiu",
+        "content": "..."
+    },
+    {
+        "id": 458,
+        "raw": "[charslot(slot=\"l\",name=\"avg_npc_1241_1#4$1\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_1241_1#4$1.png",
+        "focus": "l"
+    },
+    {
+        "id": 459,
+        "raw": "[name=\"Assistant Minister Wan\"]'Out of control'... Since the day I joined the Tianshi Bureaus and began studying engineering, the three words I've come to hate most are 'out of control'.",
+        "type": "dialog",
+        "speaker": "Assistant Minister Wan",
+        "content": "'Out of control'... Since the day I joined the Tianshi Bureaus and began studying engineering, the three words I've come to hate most are 'out of control'."
+    },
+    {
+        "id": 460,
+        "raw": "[name=\"Assistant Minister Wan\"]So, I place a lot more stock in the Grand Commandant's 'discrimination' over the 'meritocracy' that the Grand Tutor speaks of.",
+        "type": "dialog",
+        "speaker": "Assistant Minister Wan",
+        "content": "So, I place a lot more stock in the Grand Commandant's 'discrimination' over the 'meritocracy' that the Grand Tutor speaks of."
+    },
+    {
+        "id": 461,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_298_1#1$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_298_1#1$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 462,
+        "raw": "[name=\"Ning Ciqiu\"]You'll have plenty of time to impeach the Ministry of Rites after this crisis is over.",
+        "type": "dialog",
+        "speaker": "Ning Ciqiu",
+        "content": "You'll have plenty of time to impeach the Ministry of Rites after this crisis is over."
+    },
+    {
+        "id": 463,
+        "raw": "[name=\"Ning Ciqiu\"]Our top priority is to cut the connection between the plates and the core city. If we can't regain control at that point, then we must destroy the core city.",
+        "type": "dialog",
+        "speaker": "Ning Ciqiu",
+        "content": "Our top priority is to cut the connection between the plates and the core city. If we can't regain control at that point, then we must destroy the core city."
+    },
+    {
+        "id": 464,
+        "raw": "[charslot(slot=\"l\",name=\"avg_npc_1241_1#4$1\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_1241_1#4$1.png",
+        "focus": "l"
+    },
+    {
+        "id": 465,
+        "raw": "[name=\"Assistant Minister Wan\"]I understand you don't appreciate the way I fawn upon the powerful figures, but I'm not so petty as to fail to grasp the overall situation.",
+        "type": "dialog",
+        "speaker": "Assistant Minister Wan",
+        "content": "I understand you don't appreciate the way I fawn upon the powerful figures, but I'm not so petty as to fail to grasp the overall situation."
+    },
+    {
+        "id": 466,
+        "raw": "[name=\"Assistant Minister Wan\"]You can go now. I will stop the device.",
+        "type": "dialog",
+        "speaker": "Assistant Minister Wan",
+        "content": "You can go now. I will stop the device."
+    },
+    {
+        "id": 467,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_298_1#4$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_298_1#4$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 468,
+        "raw": "[name=\"Ning Ciqiu\"]All by yourself?",
+        "type": "dialog",
+        "speaker": "Ning Ciqiu",
+        "content": "All by yourself?"
+    },
+    {
+        "id": 469,
+        "raw": "[charslot(slot=\"l\",name=\"avg_npc_1241_1#4$1\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_1241_1#4$1.png",
+        "focus": "l"
+    },
+    {
+        "id": 470,
+        "raw": "[name=\"Assistant Minister Wan\"]This is my project. My own projects have never gone out of control, nor will they ever.",
+        "type": "dialog",
+        "speaker": "Assistant Minister Wan",
+        "content": "This is my project. My own projects have never gone out of control, nor will they ever."
+    },
+    {
+        "id": 471,
+        "raw": "[charslot(slot=\"l\",name=\"avg_npc_1241_1#2$1\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_1241_1#2$1.png",
+        "focus": "l"
+    },
+    {
+        "id": 472,
+        "raw": "[name=\"Assistant Minister Wan\"]If it is to fail, then I should be the one to destroy it, and pay whatever price I must.",
+        "type": "dialog",
+        "speaker": "Assistant Minister Wan",
+        "content": "If it is to fail, then I should be the one to destroy it, and pay whatever price I must."
+    },
+    {
+        "id": 473,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 474,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 475,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 476,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 477,
+        "raw": "[CameraEffect(effect=\"Grayscale\", fadetime=0, keep=true, initamount=0, amount=0.7, block=true)]",
+        "type": "camera_effect",
+        "effect": "Grayscale",
+        "fadetime": "0,",
+        "keep": "true,",
+        "initamount": "0,",
+        "amount": "0.7,",
+        "block": true
+    },
+    {
+        "id": 478,
+        "raw": "[Background(image=\"47_g6_civilengineermasteroffice\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "47_g6_civilengineermasteroffice.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 479,
+        "raw": "[charslot(slot = \"left\", name = \"avg_npc_1241_1#4$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 480,
+        "raw": "[charslot(slot = \"right\", name = \"avg_npc_1236_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 481,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 482,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 483,
+        "raw": "[charslot(slot = \"left\", name = \"avg_npc_1241_1#4$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 484,
+        "raw": "[name=\"Assistant Minister Wan\"]You want to help me finish this project? Why?",
+        "type": "dialog",
+        "speaker": "Assistant Minister Wan",
+        "content": "You want to help me finish this project? Why?"
+    },
+    {
+        "id": 485,
+        "raw": "[charslot(slot = \"right\", name = \"avg_npc_1236_1#9$1\",focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 486,
+        "raw": "[name=\"Ji\"]I find you a sagacious partner, Assistant Minister Wan. I trust that our business will go smoothly.",
+        "type": "dialog",
+        "speaker": "Ji",
+        "content": "I find you a sagacious partner, Assistant Minister Wan. I trust that our business will go smoothly."
+    },
+    {
+        "id": 487,
+        "raw": "[name=\"Ji\"]I see how much you value this project... The material aid I sent is a token of my sincerity.",
+        "type": "dialog",
+        "speaker": "Ji",
+        "content": "I see how much you value this project... The material aid I sent is a token of my sincerity."
+    },
+    {
+        "id": 488,
+        "raw": "[charslot(slot = \"left\", name = \"avg_npc_1241_1#10$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 489,
+        "raw": "[name=\"Assistant Minister Wan\"]And you want me to pay for those supplies, yes? That's fine, name your price.",
+        "type": "dialog",
+        "speaker": "Assistant Minister Wan",
+        "content": "And you want me to pay for those supplies, yes? That's fine, name your price."
+    },
+    {
+        "id": 490,
+        "raw": "[charslot(slot = \"right\", name = \"avg_npc_1236_1#9$1\",focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 491,
+        "raw": "[name=\"Ji\"]You misunderstand, Assistant Minister Wan. What are these baubles worth, compared to you?",
+        "type": "dialog",
+        "speaker": "Ji",
+        "content": "You misunderstand, Assistant Minister Wan. What are these baubles worth, compared to you?"
+    },
+    {
+        "id": 492,
+        "raw": "[name=\"Ji\"]I've forgotten... What is the annual salary a Minister earn in the Ministry of Engineering? And how long would you like to occupy that position, Assistant Minister Wan?",
+        "type": "dialog",
+        "speaker": "Ji",
+        "content": "I've forgotten... What is the annual salary a Minister earn in the Ministry of Engineering? And how long would you like to occupy that position, Assistant Minister Wan?"
+    },
+    {
+        "id": 493,
+        "raw": "[charslot(slot = \"left\", name = \"avg_npc_1241_1#6$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 494,
+        "raw": "[name=\"Assistant Minister Wan\"]...",
+        "type": "dialog",
+        "speaker": "Assistant Minister Wan",
+        "content": "..."
+    },
+    {
+        "id": 495,
+        "raw": "[charslot(slot = \"right\", name = \"avg_npc_1236_1#9$1\",focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 496,
+        "raw": "[name=\"Ji\"]Nothing to be surprised about. I know how difficult it was for you to rise from a humble scholar to a second-tier official.",
+        "type": "dialog",
+        "speaker": "Ji",
+        "content": "Nothing to be surprised about. I know how difficult it was for you to rise from a humble scholar to a second-tier official."
+    },
+    {
+        "id": 497,
+        "raw": "[name=\"Ji\"]For all the hemming and hawing in the court, their plans amount to nothing more than 'profit'. Which is why you took such a great risk to help a certain mandarin deal with the aftermath of Yumen.",
+        "type": "dialog",
+        "speaker": "Ji",
+        "content": "For all the hemming and hawing in the court, their plans amount to nothing more than 'profit'. Which is why you took such a great risk to help a certain mandarin deal with the aftermath of Yumen."
+    },
+    {
+        "id": 498,
+        "raw": "[charslot(slot = \"left\", name = \"avg_npc_1241_1#4$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 499,
+        "raw": "[name=\"Assistant Minister Wan\"]Are you threatening me?",
+        "type": "dialog",
+        "speaker": "Assistant Minister Wan",
+        "content": "Are you threatening me?"
+    },
+    {
+        "id": 500,
+        "raw": "[charslot(slot = \"right\", name = \"avg_npc_1236_1#9$1\",focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 501,
+        "raw": "[name=\"Ji\"]I'm only out to make a deal here. It is to our mutual benefit that this project be completed.",
+        "type": "dialog",
+        "speaker": "Ji",
+        "content": "I'm only out to make a deal here. It is to our mutual benefit that this project be completed."
+    },
+    {
+        "id": 502,
+        "raw": "[charslot(slot = \"left\", name = \"avg_npc_1241_1#3$1\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 503,
+        "raw": "[name=\"Assistant Minister Wan\"]Fine... I accept.",
+        "type": "dialog",
+        "speaker": "Assistant Minister Wan",
+        "content": "Fine... I accept."
+    },
+    {
+        "id": 504,
+        "raw": "[charslot(slot = \"right\", name = \"avg_npc_1236_1#9$1\",focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 505,
+        "raw": "[name=\"Ji\"]You've readily agreed to the terms. But, allow me to remind you that once you've signed this contract, you will have to pay the price, come what may.",
+        "type": "dialog",
+        "speaker": "Ji",
+        "content": "You've readily agreed to the terms. But, allow me to remind you that once you've signed this contract, you will have to pay the price, come what may."
+    },
+    {
+        "id": 506,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 507,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 508,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 509,
+        "raw": "[CameraEffect(effect=\"Grayscale\", fadetime=0, amount=0, block=true)]",
+        "type": "camera_effect",
+        "effect": "Grayscale",
+        "fadetime": "0,",
+        "amount": "0,",
+        "block": true
+    },
+    {
+        "id": 510,
+        "raw": "[Background(image=\"47_g5_factory_inside\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "47_g5_factory_inside.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 511,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1241_1#2$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 512,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 513,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 514,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1241_1#4$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 515,
+        "raw": "[name=\"Assistant Minister Wan\"]All under Heaven live for profit, and die for profit.... Hmph. Do you think the only thing that matters to me is this minister's robe?",
+        "type": "dialog",
+        "speaker": "Assistant Minister Wan",
+        "content": "All under Heaven live for profit, and die for profit.... Hmph. Do you think the only thing that matters to me is this minister's robe?"
+    },
+    {
+        "id": 516,
+        "raw": "[name=\"Assistant Minister Wan\"]It's the lot of you who underestimate me!",
+        "type": "dialog",
+        "speaker": "Assistant Minister Wan",
+        "content": "It's the lot of you who underestimate me!"
+    },
+    {
+        "id": 517,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 518,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1241_1#5$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 519,
+        "raw": "[PlaySound(key=\"$d_avg_magic_5\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_magic_5.mp3",
+        "volume": 1
+    },
+    {
+        "id": 520,
+        "raw": "[PlaySound(key=\"$d_avg_magic_5\", channel=\"2\",delay=0.1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_magic_5.mp3",
+        "channel": "2",
+        "delay": 0.1
+    },
+    {
+        "id": 521,
+        "raw": "[PlaySound(key=\"$d_avg_magic_5\", channel=\"3\",delay=0.2)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_magic_5.mp3",
+        "channel": "3",
+        "delay": 0.2
+    },
+    {
+        "id": 522,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 523,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 524,
+        "raw": "[PlaySound(key=\"$d_avg_blddpgrn\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_blddpgrn.mp3"
+    },
+    {
+        "id": 525,
+        "raw": "[name=\"Assistant Minister Wan\"](Coughs up blood)",
+        "type": "dialog",
+        "speaker": "Assistant Minister Wan",
+        "content": "(Coughs up blood)"
+    },
+    {
+        "id": 526,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 527,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 528,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 529,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 530,
+        "raw": "[Background(image=\"47_g13_pollutedfield\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "47_g13_pollutedfield.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 531,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 532,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 533,
+        "raw": "[playsound(key=\"$rungeneral\", loop=true, channel=\"a\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_rungeneral.mp3",
+        "loop": "true,",
+        "channel": "a"
+    },
+    {
+        "id": 534,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4119_wanqin_1#2$1\",duration=1)]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4119_wanqin_1#2$1.png",
+        "duration": 1
+    },
+    {
+        "id": 535,
+        "raw": "[charslot(slot=\"r\",name=\"avg_4122_grabds_1#8$1\",duration=1)]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_4122_grabds_1#8$1.png",
+        "duration": 1
+    },
+    {
+        "id": 536,
+        "raw": "[StopSound(channel=\"a\", fadetime=2)]",
+        "type": "stop_sound",
+        "channel": "a",
+        "fadetime": 2
+    },
+    {
+        "id": 537,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 538,
+        "raw": "[playMusic(key=\"$wasteland_loop\", volume=0.6)]",
+        "type": "play_music",
+        "key": "sound_beta_2/music/act28side/m_avg_wasteland_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 539,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4119_wanqin_1#8$1\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4119_wanqin_1#8$1.png",
+        "focus": "l"
+    },
+    {
+        "id": 540,
+        "raw": "[name=\"He Sheng\"]What's wrong? Why did you stop?",
+        "type": "dialog",
+        "speaker": "He Sheng",
+        "content": "What's wrong? Why did you stop?"
+    },
+    {
+        "id": 541,
+        "raw": "[charslot(slot=\"r\",name=\"avg_4122_grabds_1#8$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_4122_grabds_1#8$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 542,
+        "raw": "[name=\"Grain Buds\"]He Sheng...",
+        "type": "dialog",
+        "speaker": "Grain Buds",
+        "content": "He Sheng..."
+    },
+    {
+        "id": 543,
+        "raw": "[name=\"Grain Buds\"]I'm actually... a bit scared...",
+        "type": "dialog",
+        "speaker": "Grain Buds",
+        "content": "I'm actually... a bit scared..."
+    },
+    {
+        "id": 544,
+        "raw": "[charslot(slot=\"r\",name=\"avg_4122_grabds_1#3$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_4122_grabds_1#3$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 545,
+        "raw": "[name=\"Grain Buds\"]What's happening with all the farmland? Monsters are popping out from all over the place, like in the operas...",
+        "type": "dialog",
+        "speaker": "Grain Buds",
+        "content": "What's happening with all the farmland? Monsters are popping out from all over the place, like in the operas..."
+    },
+    {
+        "id": 546,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4119_wanqin_1#8$1\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4119_wanqin_1#8$1.png",
+        "focus": "l"
+    },
+    {
+        "id": 547,
+        "raw": "[name=\"He Sheng\"]To be honest, I'm scared too.",
+        "type": "dialog",
+        "speaker": "He Sheng",
+        "content": "To be honest, I'm scared too."
+    },
+    {
+        "id": 548,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4119_wanqin_1#5$1\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4119_wanqin_1#5$1.png",
+        "focus": "l"
+    },
+    {
+        "id": 549,
+        "raw": "[name=\"He Sheng\"]But, I also know there are a lot of people even more scared, and they don't know what to do.",
+        "type": "dialog",
+        "speaker": "He Sheng",
+        "content": "But, I also know there are a lot of people even more scared, and they don't know what to do."
+    },
+    {
+        "id": 550,
+        "raw": "[name=\"He Sheng\"]There's still something I can do. I can still protect them...",
+        "type": "dialog",
+        "speaker": "He Sheng",
+        "content": "There's still something I can do. I can still protect them..."
+    },
+    {
+        "id": 551,
+        "raw": "[charslot(slot=\"r\",name=\"avg_4122_grabds_1#8$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_4122_grabds_1#8$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 552,
+        "raw": "[name=\"Grain Buds\"]Big Buffalo, even though I always call you a stupid buffalo, you're actually the smartest person I've ever met. You know so much; much more than anyone else when it comes to farming.",
+        "type": "dialog",
+        "speaker": "Grain Buds",
+        "content": "Big Buffalo, even though I always call you a stupid buffalo, you're actually the smartest person I've ever met. You know so much; much more than anyone else when it comes to farming."
+    },
+    {
+        "id": 553,
+        "raw": "[name=\"Grain Buds\"]Which is why no matter what happens, you have to swear to keep yourself safe. Your dreams will surely come true!",
+        "type": "dialog",
+        "speaker": "Grain Buds",
+        "content": "Which is why no matter what happens, you have to swear to keep yourself safe. Your dreams will surely come true!"
+    },
+    {
+        "id": 554,
+        "raw": "[name=\"Grain Buds\"]Whatever you do, don't think nobody cares about you just because you have no family... It's just...",
+        "type": "dialog",
+        "speaker": "Grain Buds",
+        "content": "Whatever you do, don't think nobody cares about you just because you have no family... It's just..."
+    },
+    {
+        "id": 555,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4119_wanqin_1#7$1\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4119_wanqin_1#7$1.png",
+        "focus": "l"
+    },
+    {
+        "id": 556,
+        "raw": "[name=\"He Sheng\"]What's gotten into you all of a sudden?",
+        "type": "dialog",
+        "speaker": "He Sheng",
+        "content": "What's gotten into you all of a sudden?"
+    },
+    {
+        "id": 557,
+        "raw": "[charslot(slot=\"r\",name=\"avg_4122_grabds_1#8$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_4122_grabds_1#8$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 558,
+        "raw": "[name=\"Grain Buds\"]I don't know... Maybe it's because I'm scared that I'm blurting out all the things I normally keep buried deep down.",
+        "type": "dialog",
+        "speaker": "Grain Buds",
+        "content": "I don't know... Maybe it's because I'm scared that I'm blurting out all the things I normally keep buried deep down."
+    },
+    {
+        "id": 559,
+        "raw": "[name=\"Grain Buds\"]*sigh*... If only Shu were here. She'd know what these things are.",
+        "type": "dialog",
+        "speaker": "Grain Buds",
+        "content": "*sigh*... If only Shu were here. She'd know what these things are."
+    },
+    {
+        "id": 560,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4119_wanqin_1#8$1\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4119_wanqin_1#8$1.png",
+        "focus": "l"
+    },
+    {
+        "id": 561,
+        "raw": "[name=\"He Sheng\"]Huh...? Who?",
+        "type": "dialog",
+        "speaker": "He Sheng",
+        "content": "Huh...? Who?"
+    },
+    {
+        "id": 562,
+        "raw": "[charslot(slot=\"r\",name=\"avg_4122_grabds_1#7$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_4122_grabds_1#7$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 563,
+        "raw": "[name=\"Grain Buds\"]What did I... just say?",
+        "type": "dialog",
+        "speaker": "Grain Buds",
+        "content": "What did I... just say?"
+    },
+    {
+        "id": 564,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4119_wanqin_1#8$1\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4119_wanqin_1#8$1.png",
+        "focus": "l"
+    },
+    {
+        "id": 565,
+        "raw": "[name=\"He Sheng\"]Who... is Shu?",
+        "type": "dialog",
+        "speaker": "He Sheng",
+        "content": "Who... is Shu?"
+    },
+    {
+        "id": 566,
+        "raw": "[charslot(slot=\"r\",name=\"avg_4122_grabds_1#11$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_4122_grabds_1#11$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 567,
+        "raw": "[name=\"Grain Buds\"]But, there was someone with us. She knew everything.",
+        "type": "dialog",
+        "speaker": "Grain Buds",
+        "content": "But, there was someone with us. She knew everything."
+    },
+    {
+        "id": 568,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 569,
+        "raw": "[PlaySound(key=\"$flashback\")] ",
+        "type": "play_sound",
+        "key": "sound_beta_2/general/g_ui/g_ui_stagepush.mp3"
+    },
+    {
+        "id": 570,
+        "raw": "[MusicVolume(volume=0.3, fadetime=1)]",
+        "type": "music_volume",
+        "volume": "0.3,",
+        "fadetime": 1
+    },
+    {
+        "id": 571,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 572,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 573,
+        "raw": "[charslot(slot=\"m\",name=\"avg_2025_shu_1#9$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_2025_shu_1#9$1.png"
+    },
+    {
+        "id": 574,
+        "raw": "[CameraEffect(effect=\"Grayscale\", fadetime=0, keep=true, initamount=0, amount=0.7, block=true)]",
+        "type": "camera_effect",
+        "effect": "Grayscale",
+        "fadetime": "0,",
+        "keep": "true,",
+        "initamount": "0,",
+        "amount": "0.7,",
+        "block": true
+    },
+    {
+        "id": 575,
+        "raw": "[Background(image=\"47_g7_fieldhouse\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "47_g7_fieldhouse.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 576,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 577,
+        "raw": "[charslot(slot = \"m\", bstart=0.2,bend=1,fadetime=2)]",
+        "type": "charslot",
+        "bstart": "0.2,bend=1,fadetime=2"
+    },
+    {
+        "id": 578,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 579,
+        "raw": "[charslot(duration=2)]",
+        "type": "charslot",
+        "duration": 2
+    },
+    {
+        "id": 580,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 581,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 582,
+        "raw": "[CameraEffect(effect=\"Grayscale\", fadetime=0, amount=0, block=true)]",
+        "type": "camera_effect",
+        "effect": "Grayscale",
+        "fadetime": "0,",
+        "amount": "0,",
+        "block": true
+    },
+    {
+        "id": 583,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4119_wanqin_1#8$1\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4119_wanqin_1#8$1.png"
+    },
+    {
+        "id": 584,
+        "raw": "[charslot(slot=\"r\",name=\"avg_4122_grabds_1#11$1\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_4122_grabds_1#11$1.png"
+    },
+    {
+        "id": 585,
+        "raw": "[Background(image=\"47_g13_pollutedfield\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "47_g13_pollutedfield.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 586,
+        "raw": "[MusicVolume(volume=0.6, fadetime=2)]",
+        "type": "music_volume",
+        "volume": "0.6,",
+        "fadetime": 2
+    },
+    {
+        "id": 587,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 588,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 589,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4119_wanqin_1#8$1\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4119_wanqin_1#8$1.png",
+        "focus": "l"
+    },
+    {
+        "id": 590,
+        "raw": "[name=\"He Sheng\"]What are you talking about...?",
+        "type": "dialog",
+        "speaker": "He Sheng",
+        "content": "What are you talking about...?"
+    },
+    {
+        "id": 591,
+        "raw": "[charslot(slot=\"r\",name=\"avg_4122_grabds_1#8$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_4122_grabds_1#8$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 592,
+        "raw": "[name=\"Grain Buds\"]I don't know...",
+        "type": "dialog",
+        "speaker": "Grain Buds",
+        "content": "I don't know..."
+    },
+    {
+        "id": 593,
+        "raw": "[name=\"Grain Buds\"]A couple days ago, someone stopped me along the riverbank and told me a story...",
+        "type": "dialog",
+        "speaker": "Grain Buds",
+        "content": "A couple days ago, someone stopped me along the riverbank and told me a story..."
+    },
+    {
+        "id": 594,
+        "raw": "[charslot(slot=\"r\",name=\"avg_4122_grabds_1#7$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_4122_grabds_1#7$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 595,
+        "raw": "[name=\"Grain Buds\"]Oh right, the riverbank...",
+        "type": "dialog",
+        "speaker": "Grain Buds",
+        "content": "Oh right, the riverbank..."
+    },
+    {
+        "id": 596,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 597,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 598,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 599,
+        "raw": "[MusicVolume(volume=0.3, fadetime=2)]",
+        "type": "music_volume",
+        "volume": "0.3,",
+        "fadetime": 2
+    },
+    {
+        "id": 600,
+        "raw": "[CameraEffect(effect=\"Grayscale\", fadetime=0, keep=true, initamount=0, amount=0.7, block=true)]",
+        "type": "camera_effect",
+        "effect": "Grayscale",
+        "fadetime": "0,",
+        "keep": "true,",
+        "initamount": "0,",
+        "amount": "0.7,",
+        "block": true
+    },
+    {
+        "id": 601,
+        "raw": "[Background(image=\"47_g8_crestofweir\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "47_g8_crestofweir.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 602,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 603,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 604,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_1243_1#1$1\",duration=1)]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_1243_1#1$1.png",
+        "duration": 1
+    },
+    {
+        "id": 605,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4122_grabds_1#9$1\",duration=1)]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4122_grabds_1#9$1.png",
+        "duration": 1
+    },
+    {
+        "id": 606,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 607,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4122_grabds_1#1$1\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4122_grabds_1#1$1.png",
+        "focus": "l"
+    },
+    {
+        "id": 608,
+        "raw": "[name=\"Grain Buds\"]How about this song?",
+        "type": "dialog",
+        "speaker": "Grain Buds",
+        "content": "How about this song?"
+    },
+    {
+        "id": 609,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_1243_1#2$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_1243_1#2$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 610,
+        "raw": "[name=\"Silent Lumberjack\"]...",
+        "type": "dialog",
+        "speaker": "Silent Lumberjack",
+        "content": "..."
+    },
+    {
+        "id": 611,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4122_grabds_1#7$1\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4122_grabds_1#7$1.png",
+        "focus": "l"
+    },
+    {
+        "id": 612,
+        "raw": "[name=\"Grain Buds\"]Not a fan, huh?",
+        "type": "dialog",
+        "speaker": "Grain Buds",
+        "content": "Not a fan, huh?"
+    },
+    {
+        "id": 613,
+        "raw": "[name=\"Grain Buds\"]Is 'Come Home Soon, Little Flower' the only song you like?",
+        "type": "dialog",
+        "speaker": "Grain Buds",
+        "content": "Is 'Come Home Soon, Little Flower' the only song you like?"
+    },
+    {
+        "id": 614,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_1243_1#1$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_1243_1#1$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 615,
+        "raw": "[name=\"Silent Lumberjack\"]...",
+        "type": "dialog",
+        "speaker": "Silent Lumberjack",
+        "content": "..."
+    },
+    {
+        "id": 616,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4122_grabds_1#11$1\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4122_grabds_1#11$1.png",
+        "focus": "l"
+    },
+    {
+        "id": 617,
+        "raw": "[name=\"Grain Buds\"]Did I tell you that I got into a fight with He Sheng?",
+        "type": "dialog",
+        "speaker": "Grain Buds",
+        "content": "Did I tell you that I got into a fight with He Sheng?"
+    },
+    {
+        "id": 618,
+        "raw": "[name=\"Grain Buds\"]He said that if I kept skipping school, all the good students would go off to Baizao but I'd have to stay here. So mean, right? Don't you think he's just trying to provoke me for no reason?",
+        "type": "dialog",
+        "speaker": "Grain Buds",
+        "content": "He said that if I kept skipping school, all the good students would go off to Baizao but I'd have to stay here. So mean, right? Don't you think he's just trying to provoke me for no reason?"
+    },
+    {
+        "id": 619,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_1243_1#7$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_1243_1#7$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 620,
+        "raw": "[name=\"Silent Lumberjack\"]...",
+        "type": "dialog",
+        "speaker": "Silent Lumberjack",
+        "content": "..."
+    },
+    {
+        "id": 621,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4122_grabds_1#8$1\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4122_grabds_1#8$1.png",
+        "focus": "l"
+    },
+    {
+        "id": 622,
+        "raw": "[name=\"Grain Buds\"]What's wrong with the way I am anyway? I just want to stay here and wait for my parents to come back.",
+        "type": "dialog",
+        "speaker": "Grain Buds",
+        "content": "What's wrong with the way I am anyway? I just want to stay here and wait for my parents to come back."
+    },
+    {
+        "id": 623,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 624,
+        "raw": "[charslot(slot = \"r\",posfrom = \"0,0\", posto = \"-100,0\",duration = 0.8)]",
+        "type": "charslot"
+    },
+    {
+        "id": 625,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 626,
+        "raw": "[PlaySound(key=\"$d_avg_clothmovement\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_clothmovement.mp3",
+        "volume": 1
+    },
+    {
+        "id": 627,
+        "raw": "[CameraShake(duration=0.5, xstrength=30, ystrength=0, vibrato=10, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "30,",
+        "ystrength": "0,",
+        "vibrato": "10,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 628,
+        "raw": "[charslot(slot = \"l\",posfrom = \"0,0\", posto = \"-70,0\",duration = 0.5)]",
+        "type": "charslot"
+    },
+    {
+        "id": 629,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 630,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4122_grabds_1#7$1\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4122_grabds_1#7$1.png",
+        "focus": "l"
+    },
+    {
+        "id": 631,
+        "raw": "[name=\"Grain Buds\"]Hey! Why are you chasing me off again?!",
+        "type": "dialog",
+        "speaker": "Grain Buds",
+        "content": "Hey! Why are you chasing me off again?!"
+    },
+    {
+        "id": 632,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 633,
+        "raw": "[charslot(slot = \"r\",posfrom = \"-100,0\", posto = \"-200,0\",duration = 0.8)]",
+        "type": "charslot"
+    },
+    {
+        "id": 634,
+        "raw": "[delay(time=0.3)]",
+        "type": "delay",
+        "time": 0.3
+    },
+    {
+        "id": 635,
+        "raw": "[PlaySound(key=\"$d_avg_clothmovement\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_clothmovement.mp3",
+        "volume": 1
+    },
+    {
+        "id": 636,
+        "raw": "[CameraShake(duration=0.5, xstrength=30, ystrength=0, vibrato=10, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "30,",
+        "ystrength": "0,",
+        "vibrato": "10,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 637,
+        "raw": "[charslot(slot = \"l\",posfrom = \"-70,0\", posto = \"-170,0\",duration = 0.6)]",
+        "type": "charslot"
+    },
+    {
+        "id": 638,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 639,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4122_grabds_1#7$1\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4122_grabds_1#7$1.png",
+        "focus": "l"
+    },
+    {
+        "id": 640,
+        "raw": "[name=\"Grain Buds\"]Okay, okay, I'm leaving! Woah! Watch where you're swinging that axe!",
+        "type": "dialog",
+        "speaker": "Grain Buds",
+        "content": "Okay, okay, I'm leaving! Woah! Watch where you're swinging that axe!"
+    },
+    {
+        "id": 641,
+        "raw": "[stopmusic(fadetime=3)]",
+        "type": "stop_music",
+        "fadetime": 3
+    },
+    {
+        "id": 642,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 643,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 644,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 645,
+        "raw": "[CameraEffect(effect=\"Grayscale\", fadetime=0, amount=0, block=true)]",
+        "type": "camera_effect",
+        "effect": "Grayscale",
+        "fadetime": "0,",
+        "amount": "0,",
+        "block": true
+    },
+    {
+        "id": 646,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4119_wanqin_1#8$1\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4119_wanqin_1#8$1.png"
+    },
+    {
+        "id": 647,
+        "raw": "[charslot(slot=\"r\",name=\"avg_4122_grabds_1#4$1\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_4122_grabds_1#4$1.png"
+    },
+    {
+        "id": 648,
+        "raw": "[Background(image=\"47_g13_pollutedfield\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "47_g13_pollutedfield.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 649,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 650,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 651,
+        "raw": "[charslot(slot=\"r\",name=\"avg_4122_grabds_1#4$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_4122_grabds_1#4$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 652,
+        "raw": "[name=\"Grain Buds\"]He Sheng, I...",
+        "type": "dialog",
+        "speaker": "Grain Buds",
+        "content": "He Sheng, I..."
+    },
+    {
+        "id": 653,
+        "raw": "[playMusic(key=\"$formal_loop\", volume=0.6)]",
+        "type": "play_music",
+        "key": "sound_beta_2/music/avg/m_avg_formal_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 654,
+        "raw": "[charslot(slot=\"r\",name=\"avg_4122_grabds_1#5$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_4122_grabds_1#5$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 655,
+        "raw": "[name=\"Grain Buds\"]...There's someone on the other side of the river who hasn't evacuated yet!",
+        "type": "dialog",
+        "speaker": "Grain Buds",
+        "content": "...There's someone on the other side of the river who hasn't evacuated yet!"
+    },
+    {
+        "id": 656,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4119_wanqin_1#5$1\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4119_wanqin_1#5$1.png",
+        "focus": "l"
+    },
+    {
+        "id": 657,
+        "raw": "[name=\"He Sheng\"]Grain Buds! Don't run off!",
+        "type": "dialog",
+        "speaker": "He Sheng",
+        "content": "Grain Buds! Don't run off!"
+    },
+    {
+        "id": 658,
+        "raw": "[charslot(slot=\"r\",name=\"avg_4122_grabds_1#5$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_4122_grabds_1#5$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 659,
+        "raw": "[name=\"Grain Buds\"]I'll be fine! The mute uncle only listens to me, so I have to bring him back! Everyone in Dahuang's gonna be safe and sound!",
+        "type": "dialog",
+        "speaker": "Grain Buds",
+        "content": "I'll be fine! The mute uncle only listens to me, so I have to bring him back! Everyone in Dahuang's gonna be safe and sound!"
+    },
+    {
+        "id": 660,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 661,
+        "raw": "[PlaySound(key=\"$rungeneral\", volume=0.7)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_rungeneral.mp3",
+        "volume": 0.7
+    },
+    {
+        "id": 662,
+        "raw": "[charslot(slot = \"r\",posfrom = \"0,0\", posto = \"300,0\",duration = 1,afrom=1,ato=0)]",
+        "type": "charslot",
+        "afrom": "1,ato=0"
+    },
+    {
+        "id": 663,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 664,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 665,
+        "raw": "[name=\"Grain Buds\"]I'll see you soon, in the center city!",
+        "type": "dialog",
+        "speaker": "Grain Buds",
+        "content": "I'll see you soon, in the center city!"
+    },
+    {
+        "id": 666,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 667,
+        "raw": "[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 668,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 669,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 670,
+        "raw": "[Image]",
+        "type": "image"
+    },
+    {
+        "id": 671,
+        "raw": "[charslot]",
+        "type": "charslot"
+    }
+]

@@ -1,0 +1,2554 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")]",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK"
+    },
+    {
+        "id": 2,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 3,
+        "raw": "[stopmusic]",
+        "type": "stop_music"
+    },
+    {
+        "id": 4,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 5,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 6,
+        "raw": "[Background(image=\"66_g10_instituteinterior\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "66_g10_instituteinterior.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 7,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 8,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 9,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 10,
+        "raw": "[animtext(id = \"at1\", name = \"group_location_stamp\", style=\"avg_only_heavy\", pos = \"-400,-200\", block = false)]<p=1>乌萨斯，远北中心矿区研究所</>",
+        "type": "anim_text",
+        "style": "avg_only_heavy",
+        "content": "<p=1>乌萨斯，远北中心矿区研究所</>"
+    },
+    {
+        "id": 11,
+        "raw": "[delay(time=3)]",
+        "type": "delay",
+        "time": 3
+    },
+    {
+        "id": 12,
+        "raw": "[animtextclean]",
+        "type": "anim_text_clean"
+    },
+    {
+        "id": 13,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 14,
+        "raw": "[playMusic(intro=\"$ponder_intro\",key=\"$ponder_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act15d0d0/m_avg_ponder_intro.mp3",
+        "key": "sound_beta_2/music/act15d0d0/m_avg_ponder_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 15,
+        "raw": "[charslot(slot = \"left\", name = \"avg_4208_wintim_1#1$2\",duration=1)]",
+        "type": "charslot",
+        "duration": 1
+    },
+    {
+        "id": 16,
+        "raw": "[charslot(slot = \"right\", name = \"avg_4179_monstr_1#1$1\",duration=1)]",
+        "type": "charslot",
+        "duration": 1
+    },
+    {
+        "id": 17,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 18,
+        "raw": "[charslot(slot = \"right\", name = \"avg_4179_monstr_1#8$1\",focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 19,
+        "raw": "[name=\"Mon3tr\"]她刚刚......是不是说了“内卫”？",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "她刚刚......是不是说了“内卫”？"
+    },
+    {
+        "id": 20,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 21,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 22,
+        "raw": "[Decision(options=\"我听到她说的是......; 杀死内卫。\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "我听到她说的是......; 杀死内卫。",
+        "values": "1;2"
+    },
+    {
+        "id": 23,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 24,
+        "raw": "[charslot(slot = \"right\", name = \"avg_4179_monstr_1#5$1\",focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 25,
+        "raw": "[name=\"Mon3tr\"]她的意思是......这种叫“奥卡”的物质，杀死了内卫？",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "她的意思是......这种叫“奥卡”的物质，杀死了内卫？"
+    },
+    {
+        "id": 26,
+        "raw": "[name=\"Mon3tr\"]这可能吗？难道这是某种比“国度”更恐怖的邪魔产物？",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "这可能吗？难道这是某种比“国度”更恐怖的邪魔产物？"
+    },
+    {
+        "id": 27,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 28,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 29,
+        "raw": "[Decision(options=\"一种从矿井中发现的未知物质。; 研究所用它分别在感染者和非感染者身上做了实验。\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "一种从矿井中发现的未知物质。; 研究所用它分别在感染者和非感染者身上做了实验。",
+        "values": "1;2"
+    },
+    {
+        "id": 30,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 31,
+        "raw": "[Decision(options=\"实验结果显示，它会使感染者的病情加重。\", values=\"1\")]",
+        "type": "decision",
+        "options": "实验结果显示，它会使感染者的病情加重。",
+        "values": "1"
+    },
+    {
+        "id": 32,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 33,
+        "raw": "[charslot(slot = \"right\", name = \"avg_4179_monstr_1#2$1\",focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 34,
+        "raw": "[name=\"Mon3tr\"]也许，这是这里的研究员对某种物质的特殊称呼，在见到实物之前，我们都没法下定论。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "也许，这是这里的研究员对某种物质的特殊称呼，在见到实物之前，我们都没法下定论。"
+    },
+    {
+        "id": 35,
+        "raw": "[charslot(slot = \"right\", name = \"avg_4179_monstr_1#6$1\",focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 36,
+        "raw": "[name=\"Mon3tr\"]科谢尼娅，科谢尼娅！看着我，你还能想起些什么吗？",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "科谢尼娅，科谢尼娅！看着我，你还能想起些什么吗？"
+    },
+    {
+        "id": 37,
+        "raw": "[charslot(slot = \"left\", name = \"avg_4208_wintim_1#1$2\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 38,
+        "raw": "[name=\"科谢尼娅\"]我......你是......",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "我......你是......"
+    },
+    {
+        "id": 39,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 40,
+        "raw": "Mon3tr以为这次呼唤会与之前一样毫无收获，但女人迷蒙的双眼却忽地睁大了。",
+        "type": "narration",
+        "content": "Mon3tr以为这次呼唤会与之前一样毫无收获，但女人迷蒙的双眼却忽地睁大了。"
+    },
+    {
+        "id": 41,
+        "raw": "紧接着，她反手死死抓住眼前人的衣服，把Mon3tr拽到身前。",
+        "type": "narration",
+        "content": "紧接着，她反手死死抓住眼前人的衣服，把Mon3tr拽到身前。"
+    },
+    {
+        "id": 42,
+        "raw": "[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.3,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 43,
+        "raw": "[charslot(slot = \"left\", name = \"avg_4208_wintim_1#6$2\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 44,
+        "raw": "[name=\"科谢尼娅\"]你是——您是所长？凯尔希所长？",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "你是——您是所长？凯尔希所长？"
+    },
+    {
+        "id": 45,
+        "raw": "[name=\"科谢尼娅\"]是您来接我了吗？我想回去，我还想见到老师——",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "是您来接我了吗？我想回去，我还想见到老师——"
+    },
+    {
+        "id": 46,
+        "raw": "[charslot(slot = \"left\", name = \"avg_4208_wintim_1#7$2\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 47,
+        "raw": "[name=\"科谢尼娅\"]我想见伊利亚老师......还有柳达......呜......",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "我想见伊利亚老师......还有柳达......呜......"
+    },
+    {
+        "id": 48,
+        "raw": "[name=\"科谢尼娅\"]但他们......他们还会想见我吗？我这样懦弱，什么也做不到......我还配见到他们吗？",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "但他们......他们还会想见我吗？我这样懦弱，什么也做不到......我还配见到他们吗？"
+    },
+    {
+        "id": 49,
+        "raw": "[name=\"科谢尼娅\"]呜......呜呜——啊！！！",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "呜......呜呜——啊！！！"
+    },
+    {
+        "id": 50,
+        "raw": "[charslot(slot = \"right\", name = \"avg_4179_monstr_1#9$1\",focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 51,
+        "raw": "[name=\"Mon3tr\"]我......我——",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "我......我——"
+    },
+    {
+        "id": 52,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 53,
+        "raw": "然而没等Mon3tr作出回应，女人又兀自放手，跌坐回去。",
+        "type": "narration",
+        "content": "然而没等Mon3tr作出回应，女人又兀自放手，跌坐回去。"
+    },
+    {
+        "id": 54,
+        "raw": "[charslot(slot = \"left\", name = \"avg_4208_wintim_1#8$2\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 55,
+        "raw": "[name=\"科谢尼娅\"]不，不对......",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "不，不对......"
+    },
+    {
+        "id": 56,
+        "raw": "[name=\"科谢尼娅\"]你不是凯尔希所长。我再也没见到过她，就像我再也没见到过其他人。她不该在这里。",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "你不是凯尔希所长。我再也没见到过她，就像我再也没见到过其他人。她不该在这里。"
+    },
+    {
+        "id": 57,
+        "raw": "[name=\"科谢尼娅\"]我甚至见过她后来的同伴，他们......他们......",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "我甚至见过她后来的同伴，他们......他们......"
+    },
+    {
+        "id": 58,
+        "raw": "[charslot(slot = \"right\", name = \"avg_4179_monstr_1#8$1\",focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 59,
+        "raw": "[name=\"Mon3tr\"]你见过？你见过谁？是不是一位个子小小的、总是面带微笑的黎博利？",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "你见过？你见过谁？是不是一位个子小小的、总是面带微笑的黎博利？"
+    },
+    {
+        "id": 60,
+        "raw": "[charslot(slot = \"left\", name = \"avg_4208_wintim_1#1$2\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 61,
+        "raw": "[name=\"科谢尼娅\"]黎博利......是啊，我见过她。",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "黎博利......是啊，我见过她。"
+    },
+    {
+        "id": 62,
+        "raw": "[charslot(slot = \"right\", name = \"avg_4179_monstr_1#8$1\",focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 63,
+        "raw": "[name=\"Mon3tr\"]她去哪儿了？",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "她去哪儿了？"
+    },
+    {
+        "id": 64,
+        "raw": "[charslot(slot = \"left\", name = \"avg_4208_wintim_1#1$2\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 65,
+        "raw": "[name=\"科谢尼娅\"]我不知道......",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "我不知道......"
+    },
+    {
+        "id": 66,
+        "raw": "[name=\"科谢尼娅\"]那群杀死内卫的人......那些感染者，她之前和那些人在一起。",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "那群杀死内卫的人......那些感染者，她之前和那些人在一起。"
+    },
+    {
+        "id": 67,
+        "raw": "[name=\"科谢尼娅\"]他们会死！所有人都会死！",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "他们会死！所有人都会死！"
+    },
+    {
+        "id": 68,
+        "raw": "[charslot(slot = \"left\", name = \"avg_4208_wintim_1#7$2\",focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 69,
+        "raw": "[name=\"科谢尼娅\"]呜......我不知道——我不知道......",
+        "type": "dialog",
+        "speaker": "科谢尼娅",
+        "content": "呜......我不知道——我不知道......"
+    },
+    {
+        "id": 70,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 71,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 72,
+        "raw": "[Decision(options=\"她需要镇静剂。; 她有脱水症状。\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "她需要镇静剂。; 她有脱水症状。",
+        "values": "1;2"
+    },
+    {
+        "id": 73,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 74,
+        "raw": "[charslot(slot = \"right\", name = \"avg_4179_monstr_1#1$1\",focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 75,
+        "raw": "[name=\"Mon3tr\"]那这些信息——",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "那这些信息——"
+    },
+    {
+        "id": 76,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 77,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 78,
+        "raw": "[Decision(options=\"矿工出逃与内卫有关。; Mantra说过内卫造成的污染在向南蔓延。\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "矿工出逃与内卫有关。; Mantra说过内卫造成的污染在向南蔓延。",
+        "values": "1;2"
+    },
+    {
+        "id": 79,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 80,
+        "raw": "[Decision(options=\"答案已经很明显了。\", values=\"1\")]",
+        "type": "decision",
+        "options": "答案已经很明显了。",
+        "values": "1"
+    },
+    {
+        "id": 81,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 82,
+        "raw": "[charslot(slot = \"right\", name = \"avg_4179_monstr_1#5$1\",focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 83,
+        "raw": "[name=\"Mon3tr\"]可是，内卫真的被杀了吗？被一群矿工？这有可能吗？",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "可是，内卫真的被杀了吗？被一群矿工？这有可能吗？"
+    },
+    {
+        "id": 84,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 85,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 86,
+        "raw": "[Decision(options=\"或许我们应该考虑......; 如果这是真的，那将意味着什么。\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "或许我们应该考虑......; 如果这是真的，那将意味着什么。",
+        "values": "1;2"
+    },
+    {
+        "id": 87,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 88,
+        "raw": "[charslot(slot = \"right\", name = \"avg_4179_monstr_1#5$1\",focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 89,
+        "raw": "[name=\"Mon3tr\"]那位女大公封锁矿区的真正目的，是为了隐藏有个内卫死在了她的辖区的事实？",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "那位女大公封锁矿区的真正目的，是为了隐藏有个内卫死在了她的辖区的事实？"
+    },
+    {
+        "id": 90,
+        "raw": "[charslot(slot = \"right\", name = \"avg_4179_monstr_1#8$1\",focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 91,
+        "raw": "[name=\"Mon3tr\"]但这不可能！无论是皇帝还是集团军，都不会善罢甘休的，如果她真的想要掩盖这件事，一开始就不会答应让我们进入矿区。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "但这不可能！无论是皇帝还是集团军，都不会善罢甘休的，如果她真的想要掩盖这件事，一开始就不会答应让我们进入矿区。"
+    },
+    {
+        "id": 92,
+        "raw": "[charslot(slot = \"right\", name = \"avg_4179_monstr_1#4$1\",focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 93,
+        "raw": "[name=\"Mon3tr\"]还有那位近卫军，她知道这件事吗？",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "还有那位近卫军，她知道这件事吗？"
+    },
+    {
+        "id": 94,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 95,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 96,
+        "raw": "[Decision(options=\"没错......; 这些正是我们需要担心的事。\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "没错......; 这些正是我们需要担心的事。",
+        "values": "1;2"
+    },
+    {
+        "id": 97,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 98,
+        "raw": "[Decision(options=\"先通知Mantra和阿米娅吧。\", values=\"1\")]",
+        "type": "decision",
+        "options": "先通知Mantra和阿米娅吧。",
+        "values": "1"
+    },
+    {
+        "id": 99,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 100,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 101,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1.5, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1.5,",
+        "block": true
+    },
+    {
+        "id": 102,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 103,
+        "raw": "[charslot(slot = \"m\", name = \"avg_4204_mantra_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 104,
+        "raw": "[Background(image=\"66_g9_institutecorridor\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "66_g9_institutecorridor.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 105,
+        "raw": "[playsound(key=\"$d_gen_transmissionget\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_transmissionget.mp3"
+    },
+    {
+        "id": 106,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1.5,",
+        "block": true
+    },
+    {
+        "id": 107,
+        "raw": "[name=\"Mantra\"]收到，博士。",
+        "type": "dialog",
+        "speaker": "Mantra",
+        "content": "收到，博士。"
+    },
+    {
+        "id": 108,
+        "raw": "[name=\"Mantra\"]我们这里同样有些发现，与你们得到的情报相符。",
+        "type": "dialog",
+        "speaker": "Mantra",
+        "content": "我们这里同样有些发现，与你们得到的情报相符。"
+    },
+    {
+        "id": 109,
+        "raw": "[name=\"Mantra\"]有打斗痕迹的场所，遗落了一些医疗用品。",
+        "type": "dialog",
+        "speaker": "Mantra",
+        "content": "有打斗痕迹的场所，遗落了一些医疗用品。"
+    },
+    {
+        "id": 110,
+        "raw": "[name=\"Mantra\"]是罗德岛的制式。",
+        "type": "dialog",
+        "speaker": "Mantra",
+        "content": "是罗德岛的制式。"
+    },
+    {
+        "id": 111,
+        "raw": "[name=\"Mantra\"]我们马上与你们会合。",
+        "type": "dialog",
+        "speaker": "Mantra",
+        "content": "我们马上与你们会合。"
+    },
+    {
+        "id": 112,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 113,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1.5, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1.5,",
+        "block": true
+    },
+    {
+        "id": 114,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 115,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#6$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 116,
+        "raw": "[Background(image=\"bg_Morgue\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_Morgue.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 117,
+        "raw": "[playsound(key=\"$d_gen_transmissionget\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_transmissionget.mp3"
+    },
+    {
+        "id": 118,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1.5,",
+        "block": true
+    },
+    {
+        "id": 119,
+        "raw": "[name=\"阿米娅\"]明白......博士。",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "明白......博士。"
+    },
+    {
+        "id": 120,
+        "raw": "[name=\"阿米娅\"]我们马上就到。",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "我们马上就到。"
+    },
+    {
+        "id": 121,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1966_1#4$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 122,
+        "raw": "[name=\"阿洛伊泽\"]怎么了？你的同伴那边有什么发现？",
+        "type": "dialog",
+        "speaker": "阿洛伊泽",
+        "content": "怎么了？你的同伴那边有什么发现？"
+    },
+    {
+        "id": 123,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#6$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 124,
+        "raw": "[name=\"阿米娅\"]恐怕需要我们会合后才能说明。",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "恐怕需要我们会合后才能说明。"
+    },
+    {
+        "id": 125,
+        "raw": "[name=\"阿米娅\"]阿洛伊泽小姐，这里还有什么需要注意的线索吗？",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "阿洛伊泽小姐，这里还有什么需要注意的线索吗？"
+    },
+    {
+        "id": 126,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1966_1#10$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 127,
+        "raw": "[name=\"阿洛伊泽\"]我所知有限，得不出什么更有效的信息，有必要的话，一会让那位博士亲自来查看一下也无妨。",
+        "type": "dialog",
+        "speaker": "阿洛伊泽",
+        "content": "我所知有限，得不出什么更有效的信息，有必要的话，一会让那位博士亲自来查看一下也无妨。"
+    },
+    {
+        "id": 128,
+        "raw": "[name=\"阿洛伊泽\"]不过这倒是更加让我确信了军方毫无底线这件事......",
+        "type": "dialog",
+        "speaker": "阿洛伊泽",
+        "content": "不过这倒是更加让我确信了军方毫无底线这件事......"
+    },
+    {
+        "id": 129,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#6$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 130,
+        "raw": "[name=\"阿米娅\"]阿洛伊泽小姐，我想问，对于发生在矿区的事，您还知道什么吗？",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "阿洛伊泽小姐，我想问，对于发生在矿区的事，您还知道什么吗？"
+    },
+    {
+        "id": 131,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1966_1#4$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 132,
+        "raw": "[name=\"阿洛伊泽\"]嗯？你是想问什么？这座研究所里的实验还是发生变异的感染者？",
+        "type": "dialog",
+        "speaker": "阿洛伊泽",
+        "content": "嗯？你是想问什么？这座研究所里的实验还是发生变异的感染者？"
+    },
+    {
+        "id": 133,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1966_1#10$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 134,
+        "raw": "[name=\"阿洛伊泽\"]......怎么了？",
+        "type": "dialog",
+        "speaker": "阿洛伊泽",
+        "content": "......怎么了？"
+    },
+    {
+        "id": 135,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#6$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 136,
+        "raw": "[name=\"阿米娅\"]......",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "......"
+    },
+    {
+        "id": 137,
+        "raw": "[charslot(slot = \"m\", focus = \"n\",name = \"avg_npc_1966_1#10$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 138,
+        "raw": "[PlaySound(key=\"$d_avg_crystalmagic_loop\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_crystalmagic_loop.mp3"
+    },
+    {
+        "id": 139,
+        "raw": "阿米娅向来抗拒在这样的情况下，以这种方式使用自己的能力，但她仍旧尝试着去触碰了眼前这位近卫军的思绪。",
+        "type": "narration",
+        "content": "阿米娅向来抗拒在这样的情况下，以这种方式使用自己的能力，但她仍旧尝试着去触碰了眼前这位近卫军的思绪。"
+    },
+    {
+        "id": 140,
+        "raw": "阿洛伊泽的心头满是阴霾和疑惑，却并未掺杂心虚。",
+        "type": "narration",
+        "content": "阿洛伊泽的心头满是阴霾和疑惑，却并未掺杂心虚。"
+    },
+    {
+        "id": 141,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 142,
+        "raw": "[name=\"阿米娅\"]没什么，我们走吧。",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "没什么，我们走吧。"
+    },
+    {
+        "id": 143,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 144,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 145,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 146,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 147,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 148,
+        "raw": "[Background(image=\"66_g10_instituteinterior\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "66_g10_instituteinterior.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 149,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 150,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 151,
+        "raw": "[playMusic(intro=\"$darkness01_intro\",key=\"$darkness01_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta1_180603/m_dia_darkness01_intro.mp3",
+        "key": "sound_beta_2/music/beta1_180603/m_dia_darkness01_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 152,
+        "raw": "[charslot(slot = \"m\", name = \"avg_4179_monstr_1#2$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 153,
+        "raw": "[name=\"Mon3tr\"]博士，这些资料......还有遗书，该怎么办？",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "博士，这些资料......还有遗书，该怎么办？"
+    },
+    {
+        "id": 154,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 155,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 156,
+        "raw": "[Decision(options=\"这份遗书没有提及太多与石棺有关的内容。; 那位近卫军提供了不少情报，我们也该适当地回报。\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "这份遗书没有提及太多与石棺有关的内容。; 那位近卫军提供了不少情报，我们也该适当地回报。",
+        "values": "1;2"
+    },
+    {
+        "id": 157,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 158,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 159,
+        "raw": "[playsound(key=\"$d_avg_openftstpwalk\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_openftstpwalk.mp3"
+    },
+    {
+        "id": 160,
+        "raw": "[playsound(key=\"$d_avg_churchfootstep\",delay=0.3,volume=0.5,channel=\"2\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_churchfootstep.mp3",
+        "delay": "0.3,volume=0.5,channel=\"2\""
+    },
+    {
+        "id": 161,
+        "raw": "[name=\"靠近的声音\"]是在这边吗？还真是难找......",
+        "type": "dialog",
+        "speaker": "靠近的声音",
+        "content": "是在这边吗？还真是难找......"
+    },
+    {
+        "id": 162,
+        "raw": "[name=\"靠近的声音\"]果然，藏得这么深，一定有秘密——",
+        "type": "dialog",
+        "speaker": "靠近的声音",
+        "content": "果然，藏得这么深，一定有秘密——"
+    },
+    {
+        "id": 163,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 164,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 165,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1966_1#1$1\",duration=0.5)]",
+        "type": "charslot",
+        "duration": 0.5
+    },
+    {
+        "id": 166,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 167,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1966_1#10$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 168,
+        "raw": "[name=\"阿洛伊泽\"]——等等，这是谁？",
+        "type": "dialog",
+        "speaker": "阿洛伊泽",
+        "content": "——等等，这是谁？"
+    },
+    {
+        "id": 169,
+        "raw": "[charslot(slot = \"m\", focus = \"n\", name = \"avg_4208_wintim_1#2$2\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 170,
+        "raw": "近卫军的目光投向斜靠在墙边，面色苍白，双目紧闭的女人。",
+        "type": "narration",
+        "content": "近卫军的目光投向斜靠在墙边，面色苍白，双目紧闭的女人。"
+    },
+    {
+        "id": 171,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 172,
+        "raw": "[charslot(slot = \"m\", name = \"avg_4179_monstr_1#2$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 173,
+        "raw": "[name=\"Mon3tr\"]一个没有撤离的研究员，科谢尼娅。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "一个没有撤离的研究员，科谢尼娅。"
+    },
+    {
+        "id": 174,
+        "raw": "[name=\"Mon3tr\"]研究所与流动医疗队可能有往来，我们想问她我们那些同伴的去向，但她精神恍惚，脱水严重，不宜继续接受询问。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "研究所与流动医疗队可能有往来，我们想问她我们那些同伴的去向，但她精神恍惚，脱水严重，不宜继续接受询问。"
+    },
+    {
+        "id": 175,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1966_1#4$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 176,
+        "raw": "[name=\"阿洛伊泽\"]那地上这些蜡烛和线路又是......？",
+        "type": "dialog",
+        "speaker": "阿洛伊泽",
+        "content": "那地上这些蜡烛和线路又是......？"
+    },
+    {
+        "id": 177,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#6$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 178,
+        "raw": "[name=\"阿米娅\"]......我猜，这是她为自我了断所做的准备。博士，这里到底发生了什么？",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "......我猜，这是她为自我了断所做的准备。博士，这里到底发生了什么？"
+    },
+    {
+        "id": 179,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 180,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 181,
+        "raw": "[Decision(options=\"我们及时赶到，阻止了爆炸发生。; 情况很复杂。\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "我们及时赶到，阻止了爆炸发生。; 情况很复杂。",
+        "values": "1;2"
+    },
+    {
+        "id": 182,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 183,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 184,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1966_1#4$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 185,
+        "raw": "[name=\"阿洛伊泽\"]你手上拿着的那些文件是什么？",
+        "type": "dialog",
+        "speaker": "阿洛伊泽",
+        "content": "你手上拿着的那些文件是什么？"
+    },
+    {
+        "id": 186,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 187,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 188,
+        "raw": "[Decision(options=\"遗书，你也看看吧。; （递给她）\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "遗书，你也看看吧。; （递给她）",
+        "values": "1;2"
+    },
+    {
+        "id": 189,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 190,
+        "raw": "[playsound(key=\"$d_avg_paper2\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_paper2.mp3"
+    },
+    {
+        "id": 191,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1966_1#4$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 192,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 193,
+        "raw": "[name=\"阿洛伊泽\"]......一事无成的研究员，名叫“奥卡”的神秘物质......人体实验。",
+        "type": "dialog",
+        "speaker": "阿洛伊泽",
+        "content": "......一事无成的研究员，名叫“奥卡”的神秘物质......人体实验。"
+    },
+    {
+        "id": 194,
+        "raw": "[name=\"阿洛伊泽\"]看上去，我们在下面见到的那些死者，是被这个“奥卡”杀死的。",
+        "type": "dialog",
+        "speaker": "阿洛伊泽",
+        "content": "看上去，我们在下面见到的那些死者，是被这个“奥卡”杀死的。"
+    },
+    {
+        "id": 195,
+        "raw": "[charslot(slot = \"m\", name = \"char_401_elysm_na_1#6\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 196,
+        "raw": "[name=\"极境\"]这里真的在做人体实验？",
+        "type": "dialog",
+        "speaker": "极境",
+        "content": "这里真的在做人体实验？"
+    },
+    {
+        "id": 197,
+        "raw": "[charslot(slot = \"m\", name = \"char_401_elysm_na_1#7\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 198,
+        "raw": "[name=\"极境\"]该死，我当时只是一说——",
+        "type": "dialog",
+        "speaker": "极境",
+        "content": "该死，我当时只是一说——"
+    },
+    {
+        "id": 199,
+        "raw": "[charslot(slot = \"m\", name = \"avg_4204_mantra_1#2$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 200,
+        "raw": "[name=\"Mantra\"]（摇头）",
+        "type": "dialog",
+        "speaker": "Mantra",
+        "content": "（摇头）"
+    },
+    {
+        "id": 201,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1966_1#5$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 202,
+        "raw": "[name=\"阿洛伊泽\"]哼，看来女大公果真隐瞒了很多东西。",
+        "type": "dialog",
+        "speaker": "阿洛伊泽",
+        "content": "哼，看来女大公果真隐瞒了很多东西。"
+    },
+    {
+        "id": 203,
+        "raw": "[name=\"阿洛伊泽\"]但是这个实验的目的是什么？这里的研究员会使用这种卑劣的手段，我并不意外，但他们总该有所图才是！",
+        "type": "dialog",
+        "speaker": "阿洛伊泽",
+        "content": "但是这个实验的目的是什么？这里的研究员会使用这种卑劣的手段，我并不意外，但他们总该有所图才是！"
+    },
+    {
+        "id": 204,
+        "raw": "[name=\"阿洛伊泽\"]这位研究员本人呢？她什么也没说吗？",
+        "type": "dialog",
+        "speaker": "阿洛伊泽",
+        "content": "这位研究员本人呢？她什么也没说吗？"
+    },
+    {
+        "id": 205,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 206,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 207,
+        "raw": "[Decision(options=\"看上去有些研究资料已经被人为销毁了。; 但不确定是矿工还是这里的研究员自己所为。\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "看上去有些研究资料已经被人为销毁了。; 但不确定是矿工还是这里的研究员自己所为。",
+        "values": "1;2"
+    },
+    {
+        "id": 208,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 209,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1966_1#4$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 210,
+        "raw": "[name=\"阿洛伊泽\"]所以，我们还是不知道那些变异感染者诞生的原因。",
+        "type": "dialog",
+        "speaker": "阿洛伊泽",
+        "content": "所以，我们还是不知道那些变异感染者诞生的原因。"
+    },
+    {
+        "id": 211,
+        "raw": "[name=\"阿洛伊泽\"]不过，起码现在我们知道这里还有活下来的矿工逃走了，除开这位研究员，那些逃走的矿工很可能就是整件事的唯一切入点了。",
+        "type": "dialog",
+        "speaker": "阿洛伊泽",
+        "content": "不过，起码现在我们知道这里还有活下来的矿工逃走了，除开这位研究员，那些逃走的矿工很可能就是整件事的唯一切入点了。"
+    },
+    {
+        "id": 212,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 213,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 214,
+        "raw": "[Decision(options=\"那些感染者矿工在洗劫了研究所后离开了。; 他们往南去了，这是唯一的线索。\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "那些感染者矿工在洗劫了研究所后离开了。; 他们往南去了，这是唯一的线索。",
+        "values": "1;2"
+    },
+    {
+        "id": 215,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 216,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1966_1#4$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 217,
+        "raw": "[name=\"阿洛伊泽\"]我们该抓紧时间了......这位研究员恢复到可以接受询问的状态还需要多久？",
+        "type": "dialog",
+        "speaker": "阿洛伊泽",
+        "content": "我们该抓紧时间了......这位研究员恢复到可以接受询问的状态还需要多久？"
+    },
+    {
+        "id": 218,
+        "raw": "[charslot(slot = \"m\", name = \"avg_4179_monstr_1#2$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 219,
+        "raw": "[name=\"Mon3tr\"]很难预估。她脱水严重，刚见面时精神状况也很糟糕，我们得先为她治疗。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "很难预估。她脱水严重，刚见面时精神状况也很糟糕，我们得先为她治疗。"
+    },
+    {
+        "id": 220,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1966_1#4$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 221,
+        "raw": "[name=\"阿洛伊泽\"]真麻烦......",
+        "type": "dialog",
+        "speaker": "阿洛伊泽",
+        "content": "真麻烦......"
+    },
+    {
+        "id": 222,
+        "raw": "[name=\"阿洛伊泽\"]我们还不清楚矿工已经出逃了多久，既然知道了方向，就必须抓紧时间追上去。",
+        "type": "dialog",
+        "speaker": "阿洛伊泽",
+        "content": "我们还不清楚矿工已经出逃了多久，既然知道了方向，就必须抓紧时间追上去。"
+    },
+    {
+        "id": 223,
+        "raw": "[name=\"阿洛伊泽\"]可我们不可能带着没有行动能力的伤员上路。",
+        "type": "dialog",
+        "speaker": "阿洛伊泽",
+        "content": "可我们不可能带着没有行动能力的伤员上路。"
+    },
+    {
+        "id": 224,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 225,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 226,
+        "raw": "[Decision(options=\"我和Mon3tr留下看顾科谢尼娅。; 你们去追踪离开的矿工队伍。\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "我和Mon3tr留下看顾科谢尼娅。; 你们去追踪离开的矿工队伍。",
+        "values": "1;2"
+    },
+    {
+        "id": 227,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 228,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1966_1#10$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 229,
+        "raw": "[name=\"阿洛伊泽\"]呃......你们确定要单独留在这里？",
+        "type": "dialog",
+        "speaker": "阿洛伊泽",
+        "content": "呃......你们确定要单独留在这里？"
+    },
+    {
+        "id": 230,
+        "raw": "[name=\"阿洛伊泽\"]虽然这是你们的自由，但我还是有必要提醒你们。",
+        "type": "dialog",
+        "speaker": "阿洛伊泽",
+        "content": "虽然这是你们的自由，但我还是有必要提醒你们。"
+    },
+    {
+        "id": 231,
+        "raw": "[name=\"阿洛伊泽\"]现在没人知道远北这些矿区都处于什么样的状态，同样也没人能保障你们的安全。",
+        "type": "dialog",
+        "speaker": "阿洛伊泽",
+        "content": "现在没人知道远北这些矿区都处于什么样的状态，同样也没人能保障你们的安全。"
+    },
+    {
+        "id": 232,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 233,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 234,
+        "raw": "[Decision(options=\"我们有能力保护好自己的安全。\", values=\"1\")]",
+        "type": "decision",
+        "options": "我们有能力保护好自己的安全。",
+        "values": "1"
+    },
+    {
+        "id": 235,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 236,
+        "raw": "[Decision(options=\"你们可以相信阿米娅的指挥。\", values=\"1\")]",
+        "type": "decision",
+        "options": "你们可以相信阿米娅的指挥。",
+        "values": "1"
+    },
+    {
+        "id": 237,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 238,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 239,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#5$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 240,
+        "raw": "[name=\"阿米娅\"]博士？",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "博士？"
+    },
+    {
+        "id": 241,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 242,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 243,
+        "raw": "[Decision(options=\"你可以的，阿米娅。; 相信你自己的判断。\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "你可以的，阿米娅。; 相信你自己的判断。",
+        "values": "1;2"
+    },
+    {
+        "id": 244,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 245,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 246,
+        "raw": "[charslot(slot = \"m\", name = \"avg_4204_mantra_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 247,
+        "raw": "[name=\"Mantra\"]我会和阿米娅一起。",
+        "type": "dialog",
+        "speaker": "Mantra",
+        "content": "我会和阿米娅一起。"
+    },
+    {
+        "id": 248,
+        "raw": "[name=\"Mantra\"]博士，希望你们顺利。",
+        "type": "dialog",
+        "speaker": "Mantra",
+        "content": "博士，希望你们顺利。"
+    },
+    {
+        "id": 249,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 250,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 251,
+        "raw": "[Decision(options=\"等科谢尼娅恢复行动能力，我们就去找你们会合。; 离开污染区之后，通讯应该会逐渐恢复。\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "等科谢尼娅恢复行动能力，我们就去找你们会合。; 离开污染区之后，通讯应该会逐渐恢复。",
+        "values": "1;2"
+    },
+    {
+        "id": 252,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 253,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 254,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1966_1#4$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 255,
+        "raw": "[name=\"阿洛伊泽\"]那就这样。",
+        "type": "dialog",
+        "speaker": "阿洛伊泽",
+        "content": "那就这样。"
+    },
+    {
+        "id": 256,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#6$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 257,
+        "raw": "[name=\"阿米娅\"]博士，如果通讯一直没有恢复，那我们找到那群矿工之后就回研究所和你们会合。",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "博士，如果通讯一直没有恢复，那我们找到那群矿工之后就回研究所和你们会合。"
+    },
+    {
+        "id": 258,
+        "raw": "[charslot(slot = \"m\", name = \"avg_4204_mantra_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 259,
+        "raw": "[name=\"Mantra\"]（点头）",
+        "type": "dialog",
+        "speaker": "Mantra",
+        "content": "（点头）"
+    },
+    {
+        "id": 260,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1966_1#4$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 261,
+        "raw": "[name=\"阿洛伊泽\"]行，后备计划也有了，我们赶紧出发。",
+        "type": "dialog",
+        "speaker": "阿洛伊泽",
+        "content": "行，后备计划也有了，我们赶紧出发。"
+    },
+    {
+        "id": 262,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 263,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 264,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 265,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 266,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 267,
+        "raw": "[Background(image=\"bg_battlefield\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_battlefield.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 268,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 269,
+        "raw": "[animtext(id = \"at1\", name = \"group_location_stamp\", style=\"avg_both\", pos = \"-400,-200\", block = false)]<p=1>乌萨斯远北中心矿区</><p=2>三天前</>",
+        "type": "anim_text",
+        "style": "avg_both",
+        "content": "<p=1>乌萨斯远北中心矿区</><p=2>三天前</>"
+    },
+    {
+        "id": 270,
+        "raw": "[delay(time=3)]",
+        "type": "delay",
+        "time": 3
+    },
+    {
+        "id": 271,
+        "raw": "[animtextclean]",
+        "type": "anim_text_clean"
+    },
+    {
+        "id": 272,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 273,
+        "raw": "[playsound(key=\"$d_avg_truckengine\", loop=true, channel=\"bgs\",volume=0)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_truckengine.mp3",
+        "loop": "true,",
+        "channel": "bgs",
+        "volume": 0
+    },
+    {
+        "id": 274,
+        "raw": "[SoundVolume(volume=0.8, channel=\"bgs\",fadetime=2)]",
+        "type": "sound_volume",
+        "volume": "0.8,",
+        "channel": "bgs",
+        "fadetime": 2
+    },
+    {
+        "id": 275,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 276,
+        "raw": "[StopSound(channel=\"bgs\", fadetime=1)]",
+        "type": "stop_sound",
+        "channel": "bgs",
+        "fadetime": 1
+    },
+    {
+        "id": 277,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 278,
+        "raw": "[playMusic(intro=\"$escape_intro\",key=\"$escape_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta2_180603/m_dia_escape_intro.mp3",
+        "key": "sound_beta_2/music/beta2_180603/m_dia_escape_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 279,
+        "raw": "[name=\"激动的纠察队队员\"]就在这边......快过来！",
+        "type": "dialog",
+        "speaker": "激动的纠察队队员",
+        "content": "就在这边......快过来！"
+    },
+    {
+        "id": 280,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 281,
+        "raw": "[charslot(slot=\"l\",name=\"avg_npc_082\",duration=0.5)]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_082.png",
+        "duration": 0.5
+    },
+    {
+        "id": 282,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 283,
+        "raw": "[name=\"疑惑的纠察队队员\"]哎，你跑什么！这破定位时灵时不灵的，指不定根本就不在这儿。",
+        "type": "dialog",
+        "speaker": "疑惑的纠察队队员",
+        "content": "哎，你跑什么！这破定位时灵时不灵的，指不定根本就不在这儿。"
+    },
+    {
+        "id": 284,
+        "raw": "[name=\"疑惑的纠察队队员\"]上次有个矿场的驮兽为了找草吃跑出了界，愣是让它跑了十多里路这东西才往岗哨发送信号，谁知道这次是不是也是一样的情况？",
+        "type": "dialog",
+        "speaker": "疑惑的纠察队队员",
+        "content": "上次有个矿场的驮兽为了找草吃跑出了界，愣是让它跑了十多里路这东西才往岗哨发送信号，谁知道这次是不是也是一样的情况？"
+    },
+    {
+        "id": 285,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 286,
+        "raw": "[playsound(key=\"$d_avg_snowbootwalk\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_snowbootwalk.mp3"
+    },
+    {
+        "id": 287,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_082\",duration=1)]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_082.png",
+        "duration": 1
+    },
+    {
+        "id": 288,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 289,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_082\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_082.png",
+        "focus": "r"
+    },
+    {
+        "id": 290,
+        "raw": "[name=\"散漫的纠察队队员\"]按理说这些人不该出现在南出口周围，这条路早就封了——",
+        "type": "dialog",
+        "speaker": "散漫的纠察队队员",
+        "content": "按理说这些人不该出现在南出口周围，这条路早就封了——"
+    },
+    {
+        "id": 291,
+        "raw": "[charslot(slot=\"l\",name=\"avg_npc_082\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_082.png",
+        "focus": "l"
+    },
+    {
+        "id": 292,
+        "raw": "[name=\"疑惑的纠察队队员\"]嗯？你怎么会从那边过来？",
+        "type": "dialog",
+        "speaker": "疑惑的纠察队队员",
+        "content": "嗯？你怎么会从那边过来？"
+    },
+    {
+        "id": 293,
+        "raw": "[name=\"疑惑的纠察队队员\"]不对，你不是我们队的吧，你在这儿做什么？",
+        "type": "dialog",
+        "speaker": "疑惑的纠察队队员",
+        "content": "不对，你不是我们队的吧，你在这儿做什么？"
+    },
+    {
+        "id": 294,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_082\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_082.png",
+        "focus": "r"
+    },
+    {
+        "id": 295,
+        "raw": "[name=\"散漫的纠察队队员\"]我还想问你呢。这儿不在你们队的管辖范围内吧？",
+        "type": "dialog",
+        "speaker": "散漫的纠察队队员",
+        "content": "我还想问你呢。这儿不在你们队的管辖范围内吧？"
+    },
+    {
+        "id": 296,
+        "raw": "[charslot(slot=\"l\",name=\"avg_npc_082\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_082.png",
+        "focus": "l"
+    },
+    {
+        "id": 297,
+        "raw": "[name=\"疑惑的纠察队队员\"]现在早就不兴那套辖区不辖区的东西了，谁先接到消息，先找到逃跑的感染者，那功劳就是谁的。",
+        "type": "dialog",
+        "speaker": "疑惑的纠察队队员",
+        "content": "现在早就不兴那套辖区不辖区的东西了，谁先接到消息，先找到逃跑的感染者，那功劳就是谁的。"
+    },
+    {
+        "id": 298,
+        "raw": "[name=\"疑惑的纠察队队员\"]让开，别挡道。",
+        "type": "dialog",
+        "speaker": "疑惑的纠察队队员",
+        "content": "让开，别挡道。"
+    },
+    {
+        "id": 299,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_082\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_082.png",
+        "focus": "r"
+    },
+    {
+        "id": 300,
+        "raw": "[name=\"散漫的纠察队队员\"]照你的说法，是我们先来的，那这功劳理应是我们的。",
+        "type": "dialog",
+        "speaker": "散漫的纠察队队员",
+        "content": "照你的说法，是我们先来的，那这功劳理应是我们的。"
+    },
+    {
+        "id": 301,
+        "raw": "[charslot(slot=\"l\",name=\"avg_npc_082\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_082.png",
+        "focus": "l"
+    },
+    {
+        "id": 302,
+        "raw": "[name=\"疑惑的纠察队队员\"]谁找到就*乌萨斯粗口*算谁的。",
+        "type": "dialog",
+        "speaker": "疑惑的纠察队队员",
+        "content": "谁找到就*乌萨斯粗口*算谁的。"
+    },
+    {
+        "id": 303,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 304,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 305,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 306,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_082\",duration=1)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_082.png",
+        "duration": 1
+    },
+    {
+        "id": 307,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 308,
+        "raw": "[name=\"纠察队队长\"]托夏，干什么呢？别跟他废话，找人要紧。",
+        "type": "dialog",
+        "speaker": "纠察队队长",
+        "content": "托夏，干什么呢？别跟他废话，找人要紧。"
+    },
+    {
+        "id": 309,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 310,
+        "raw": "[name=\"激动的纠察队队员\"]在这边！他们都躲在——哈哈哈哈啊哈哈！",
+        "type": "dialog",
+        "speaker": "激动的纠察队队员",
+        "content": "在这边！他们都躲在——哈哈哈哈啊哈哈！"
+    },
+    {
+        "id": 311,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_082\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_082.png"
+    },
+    {
+        "id": 312,
+        "raw": "[name=\"疑惑的纠察队队员\"]他发现什么了笑成这样？",
+        "type": "dialog",
+        "speaker": "疑惑的纠察队队员",
+        "content": "他发现什么了笑成这样？"
+    },
+    {
+        "id": 313,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_082\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_082.png"
+    },
+    {
+        "id": 314,
+        "raw": "[name=\"纠察队队长\"]走，去看看。",
+        "type": "dialog",
+        "speaker": "纠察队队长",
+        "content": "走，去看看。"
+    },
+    {
+        "id": 315,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 316,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 317,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 318,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 319,
+        "raw": "[name=\"激动的纠察队队员\"]前面有个不深不浅的洞，那几个矿工就躲在里面，还以为我们发现不了——",
+        "type": "dialog",
+        "speaker": "激动的纠察队队员",
+        "content": "前面有个不深不浅的洞，那几个矿工就躲在里面，还以为我们发现不了——"
+    },
+    {
+        "id": 320,
+        "raw": "[name=\"激动的纠察队队员\"]天哪，哈哈哈哈哈啊哈哈......这太好笑了。",
+        "type": "dialog",
+        "speaker": "激动的纠察队队员",
+        "content": "天哪，哈哈哈哈哈啊哈哈......这太好笑了。"
+    },
+    {
+        "id": 321,
+        "raw": "[charslot(slot=\"l\",name=\"avg_npc_082\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_082.png",
+        "focus": "l"
+    },
+    {
+        "id": 322,
+        "raw": "[name=\"纠察队队长\"]哼。他们以为那是什么，战壕吗？",
+        "type": "dialog",
+        "speaker": "纠察队队长",
+        "content": "哼。他们以为那是什么，战壕吗？"
+    },
+    {
+        "id": 323,
+        "raw": "[name=\"纠察队队长\"]托夏，戈沙，带上所有人，你们赶紧去把那些驮兽不如的蠢货给我弄出来。",
+        "type": "dialog",
+        "speaker": "纠察队队长",
+        "content": "托夏，戈沙，带上所有人，你们赶紧去把那些驮兽不如的蠢货给我弄出来。"
+    },
+    {
+        "id": 324,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 325,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_082\",duration=0.5)]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_082.png",
+        "duration": 0.5
+    },
+    {
+        "id": 326,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 327,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_082\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_082.png",
+        "focus": "r"
+    },
+    {
+        "id": 328,
+        "raw": "[name=\"散漫的纠察队队员\"]从定位上看，这些逃窜的感染者矿工数量还不少呢，需要帮忙吗？",
+        "type": "dialog",
+        "speaker": "散漫的纠察队队员",
+        "content": "从定位上看，这些逃窜的感染者矿工数量还不少呢，需要帮忙吗？"
+    },
+    {
+        "id": 329,
+        "raw": "[charslot(slot=\"l\",name=\"avg_npc_082\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_082.png",
+        "focus": "l"
+    },
+    {
+        "id": 330,
+        "raw": "[name=\"纠察队队长\"]你们队有多少人？",
+        "type": "dialog",
+        "speaker": "纠察队队长",
+        "content": "你们队有多少人？"
+    },
+    {
+        "id": 331,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_082\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_082.png",
+        "focus": "r"
+    },
+    {
+        "id": 332,
+        "raw": "[name=\"散漫的纠察队队员\"]不多，算上我也就六个人。",
+        "type": "dialog",
+        "speaker": "散漫的纠察队队员",
+        "content": "不多，算上我也就六个人。"
+    },
+    {
+        "id": 333,
+        "raw": "[charslot(slot=\"l\",name=\"avg_npc_082\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_082.png",
+        "focus": "l"
+    },
+    {
+        "id": 334,
+        "raw": "[name=\"纠察队队长\"]太多了。",
+        "type": "dialog",
+        "speaker": "纠察队队长",
+        "content": "太多了。"
+    },
+    {
+        "id": 335,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_082\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_082.png",
+        "focus": "r"
+    },
+    {
+        "id": 336,
+        "raw": "[name=\"散漫的纠察队队员\"]随你怎么说。咱们是这附近仅剩的两支空闲队伍，而且是我们先到的这里。",
+        "type": "dialog",
+        "speaker": "散漫的纠察队队员",
+        "content": "随你怎么说。咱们是这附近仅剩的两支空闲队伍，而且是我们先到的这里。"
+    },
+    {
+        "id": 337,
+        "raw": "[name=\"散漫的纠察队队员\"]这碗羹，你们不分也得分。",
+        "type": "dialog",
+        "speaker": "散漫的纠察队队员",
+        "content": "这碗羹，你们不分也得分。"
+    },
+    {
+        "id": 338,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 339,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 340,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 341,
+        "raw": "[Delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 342,
+        "raw": "[charslot(slot = \"l\",action=\"zoom\", poszoom = \"0.5,0.5\", scale=0.95,duration = 0, name = \"avg_npc_082\",afrom=0,ato=0)]",
+        "type": "charslot",
+        "action": "zoom",
+        "scale": "0.95,duration",
+        "afrom": "0,ato=0"
+    },
+    {
+        "id": 343,
+        "raw": "[charslot(slot = \"r\",action=\"zoom\", poszoom = \"0.5,0.5\", scale=0.95,duration = 0, name = \"avg_npc_082\",afrom=0,ato=0)]",
+        "type": "charslot",
+        "action": "zoom",
+        "scale": "0.95,duration",
+        "afrom": "0,ato=0"
+    },
+    {
+        "id": 344,
+        "raw": "[charslot(slot = \"right\",posfrom = \"120,0\", posto = \"0,0\",duration = 0.7,afrom=0,ato=1,focus=\"m\")]",
+        "type": "charslot",
+        "afrom": "0,ato=1,focus=\"m\""
+    },
+    {
+        "id": 345,
+        "raw": "[Delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 346,
+        "raw": "[charslot(slot = \"l\",posfrom = \"-120,0\", posto = \"0,0\",duration = 0.7,afrom=0,ato=1,focus=\"m\")]",
+        "type": "charslot",
+        "afrom": "0,ato=1,focus=\"m\""
+    },
+    {
+        "id": 347,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 348,
+        "raw": "[charslot(duration=0.5)]",
+        "type": "charslot",
+        "duration": 0.5
+    },
+    {
+        "id": 349,
+        "raw": "[Delay(time=0.6)]",
+        "type": "delay",
+        "time": 0.6
+    },
+    {
+        "id": 350,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 351,
+        "raw": "[charslot(slot=\"l\",name=\"avg_npc_082\",posfrom = \"50,0\", posto = \"50,0\",duration = 0.7)]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_082.png"
+    },
+    {
+        "id": 352,
+        "raw": "[Delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 353,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_082\",posfrom = \"-50,0\", posto = \"-50,0\",duration = 0.7)]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_082.png"
+    },
+    {
+        "id": 354,
+        "raw": "[Delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 355,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 356,
+        "raw": "[charslot(slot=\"l\",name=\"avg_npc_082\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_082.png",
+        "focus": "l"
+    },
+    {
+        "id": 357,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_082\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_082.png",
+        "focus": "l"
+    },
+    {
+        "id": 358,
+        "raw": "[name=\"纠察队队长\"]......",
+        "type": "dialog",
+        "speaker": "纠察队队长",
+        "content": "......"
+    },
+    {
+        "id": 359,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_082\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_082.png",
+        "focus": "r"
+    },
+    {
+        "id": 360,
+        "raw": "[name=\"散漫的纠察队队员\"]怎么——",
+        "type": "dialog",
+        "speaker": "散漫的纠察队队员",
+        "content": "怎么——"
+    },
+    {
+        "id": 361,
+        "raw": "[playMusic(intro=\"$calamity_intro\",key=\"$calamity_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta2_180603/m_dia_calamity_intro.mp3",
+        "key": "sound_beta_2/music/beta2_180603/m_dia_calamity_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 362,
+        "raw": "[CameraShake(duration=0.5, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "20,",
+        "ystrength": "20,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 363,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 364,
+        "raw": "[name=\"激动的纠察队队员\"]——啊！！！",
+        "type": "dialog",
+        "speaker": "激动的纠察队队员",
+        "content": "——啊！！！"
+    },
+    {
+        "id": 365,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 366,
+        "raw": "尖叫声打破了两支队伍的对峙。",
+        "type": "narration",
+        "content": "尖叫声打破了两支队伍的对峙。"
+    },
+    {
+        "id": 367,
+        "raw": "[PlaySound(key=\"$fightgeneral\",volume=0.7)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_fightgeneral.mp3",
+        "volume": 0.7
+    },
+    {
+        "id": 368,
+        "raw": "[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.3,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 369,
+        "raw": "[PlaySound(key=\"$d_avg_punch_xshield\",channel=\"2\",delay=0.3)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_punch_xshield.mp3",
+        "channel": "2",
+        "delay": 0.3
+    },
+    {
+        "id": 370,
+        "raw": "[playsound(key=\"$d_avg_riot\", loop=true, channel=\"bgs\",volume=0)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_riot.mp3",
+        "loop": "true,",
+        "channel": "bgs",
+        "volume": 0
+    },
+    {
+        "id": 371,
+        "raw": "[SoundVolume(volume=0.2, channel=\"bgs\",fadetime=2)]",
+        "type": "sound_volume",
+        "volume": "0.2,",
+        "channel": "bgs",
+        "fadetime": 2
+    },
+    {
+        "id": 372,
+        "raw": "紧随其后的，是肢体搏斗、钝器砸碎骨肉的声响。",
+        "type": "narration",
+        "content": "紧随其后的，是肢体搏斗、钝器砸碎骨肉的声响。"
+    },
+    {
+        "id": 373,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_082\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_082.png"
+    },
+    {
+        "id": 374,
+        "raw": "[name=\"纠察队队长\"]发生什么——",
+        "type": "dialog",
+        "speaker": "纠察队队长",
+        "content": "发生什么——"
+    },
+    {
+        "id": 375,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 376,
+        "raw": "[name=\"激动的纠察队队员\"]救命！救我！他们都疯了——",
+        "type": "dialog",
+        "speaker": "激动的纠察队队员",
+        "content": "救命！救我！他们都疯了——"
+    },
+    {
+        "id": 377,
+        "raw": "[name=\"激动的纠察队队员\"]这些该死的感染者都*乌萨斯粗口*疯了！",
+        "type": "dialog",
+        "speaker": "激动的纠察队队员",
+        "content": "这些该死的感染者都*乌萨斯粗口*疯了！"
+    },
+    {
+        "id": 378,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 379,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 380,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 381,
+        "raw": "[playsound(key=\"$d_avg_snowbootwalk\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_snowbootwalk.mp3"
+    },
+    {
+        "id": 382,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1963_1#10$1\",duration=1.5)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1963_1#10$1.png",
+        "duration": 1.5
+    },
+    {
+        "id": 383,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 384,
+        "raw": "[name=\"雷尔金\"]你说得对......",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "你说得对......"
+    },
+    {
+        "id": 385,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1963_1#5$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1963_1#5$1.png"
+    },
+    {
+        "id": 386,
+        "raw": "[name=\"雷尔金\"]我会让你们见识一下，感染者的愤怒，还有疯狂。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "我会让你们见识一下，感染者的愤怒，还有疯狂。"
+    },
+    {
+        "id": 387,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 388,
+        "raw": "[StopSound(channel=\"bgs\", fadetime=2)]",
+        "type": "stop_sound",
+        "channel": "bgs",
+        "fadetime": 2
+    },
+    {
+        "id": 389,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 390,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 391,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 392,
+        "raw": "[hidecgitem]",
+        "type": "hide_cg_item"
+    },
+    {
+        "id": 393,
+        "raw": "[Image]",
+        "type": "image"
+    },
+    {
+        "id": 394,
+        "raw": "[charslot] ",
+        "type": "charslot"
+    }
+]

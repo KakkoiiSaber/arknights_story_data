@@ -1,0 +1,4544 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")] ",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK"
+    },
+    {
+        "id": 2,
+        "raw": "[stopmusic]",
+        "type": "stop_music"
+    },
+    {
+        "id": 3,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 4,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 5,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 6,
+        "raw": "[stopmusic(fadetime=1)]",
+        "type": "stop_music",
+        "fadetime": 1
+    },
+    {
+        "id": 7,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 8,
+        "raw": "[Background(image=\"bg_cave_2\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_cave_2.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 9,
+        "raw": "[charslot(slot = \"m\", name = \"char_003_kalts_1#1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 10,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 11,
+        "raw": "[playMusic(intro=\"$nervous_intro\", key=\"$nervous_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act9d0d0/m_avg_nervous_intro.mp3",
+        "key": "sound_beta_2/music/act9d0d0/m_avg_nervous_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 12,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 13,
+        "raw": "[name=\"ケルシー\"]……",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "……"
+    },
+    {
+        "id": 14,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_536_1#3$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 15,
+        "raw": "[name=\"ホルハイヤ\"]あなたの表情、とっても面白いわね。",
+        "type": "dialog",
+        "speaker": "ホルハイヤ",
+        "content": "あなたの表情、とっても面白いわね。"
+    },
+    {
+        "id": 16,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 17,
+        "raw": "[charslot(slot = \"m\", focus=\"none\")]",
+        "type": "charslot",
+        "focus": "none"
+    },
+    {
+        "id": 18,
+        "raw": "[Decision(options=\"（尻尾が絡みついてきた。）;……;（Mon3trの出番だぞ、ケルシー！）\",values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "（尻尾が絡みついてきた。）;……;（Mon3trの出番だぞ、ケルシー！）",
+        "values": "1;2;3"
+    },
+    {
+        "id": 19,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 20,
+        "raw": "[charslot(slot = \"m\", name = \"char_003_kalts_1#1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 21,
+        "raw": "[name=\"ケルシー\"]……ドクターを解放しろ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "……ドクターを解放しろ。"
+    },
+    {
+        "id": 22,
+        "raw": "[name=\"ケルシー\"]求めるものを探しに行くといい。それで本当に君の疑問が解決するのならな。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "求めるものを探しに行くといい。それで本当に君の疑問が解決するのならな。"
+    },
+    {
+        "id": 23,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_536_1#3$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 24,
+        "raw": "[name=\"ホルハイヤ\"]……ふうん……",
+        "type": "dialog",
+        "speaker": "ホルハイヤ",
+        "content": "……ふうん……"
+    },
+    {
+        "id": 25,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_536_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 26,
+        "raw": "[name=\"ホルハイヤ\"]……あら、たったのそれだけ？",
+        "type": "dialog",
+        "speaker": "ホルハイヤ",
+        "content": "……あら、たったのそれだけ？"
+    },
+    {
+        "id": 27,
+        "raw": "[charslot(slot = \"m\", name = \"char_003_kalts_1#1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 28,
+        "raw": "[name=\"ケルシー\"]君の行動に対して一切動かないということも約束しよう。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "君の行動に対して一切動かないということも約束しよう。"
+    },
+    {
+        "id": 29,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_536_1#10$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 30,
+        "raw": "[name=\"ホルハイヤ\"]……サリアとブリキがあなたにとってる態度を見るに、とっても危険な人だと思っていたのに……どうしちゃったのかしら？",
+        "type": "dialog",
+        "speaker": "ホルハイヤ",
+        "content": "……サリアとブリキがあなたにとってる態度を見るに、とっても危険な人だと思っていたのに……どうしちゃったのかしら？"
+    },
+    {
+        "id": 31,
+        "raw": "[name=\"ホルハイヤ\"]あなたはそこまで無力な人なの？　その態度は、本当に何の力もない人には見えないけど。",
+        "type": "dialog",
+        "speaker": "ホルハイヤ",
+        "content": "あなたはそこまで無力な人なの？　その態度は、本当に何の力もない人には見えないけど。"
+    },
+    {
+        "id": 32,
+        "raw": "[charslot(slot = \"m\", name = \"char_003_kalts_1#1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 33,
+        "raw": "[name=\"ケルシー\"]想像にお任せしよう。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "想像にお任せしよう。"
+    },
+    {
+        "id": 34,
+        "raw": "[charslot(slot = \"m\", name = \"char_003_kalts_1#1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 35,
+        "raw": "[name=\"ケルシー\"]だが、ドクターの安全のためならば、私は危険を冒さないということはわかっているだろう。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "だが、ドクターの安全のためならば、私は危険を冒さないということはわかっているだろう。"
+    },
+    {
+        "id": 36,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_536_1#11$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 37,
+        "raw": "[name=\"ホルハイヤ\"]……そうみたいね。",
+        "type": "dialog",
+        "speaker": "ホルハイヤ",
+        "content": "……そうみたいね。"
+    },
+    {
+        "id": 38,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_536_1#3$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 39,
+        "raw": "[name=\"ホルハイヤ\"]まあ、マイレンダーと仲違いした以上、敵は少ないほうがいいし……クリステンの計画は動き出しているから、時間はあまり残ってないでしょう。",
+        "type": "dialog",
+        "speaker": "ホルハイヤ",
+        "content": "まあ、マイレンダーと仲違いした以上、敵は少ないほうがいいし……クリステンの計画は動き出しているから、時間はあまり残ってないでしょう。"
+    },
+    {
+        "id": 40,
+        "raw": "[name=\"ホルハイヤ\"]お喋りはこの辺りにして、D.C.が実力行使に出てくる前に――",
+        "type": "dialog",
+        "speaker": "ホルハイヤ",
+        "content": "お喋りはこの辺りにして、D.C.が実力行使に出てくる前に――"
+    },
+    {
+        "id": 41,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 42,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 43,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_536_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 44,
+        "raw": "[name=\"ホルハイヤ\"]――ッ！",
+        "type": "dialog",
+        "speaker": "ホルハイヤ",
+        "content": "――ッ！"
+    },
+    {
+        "id": 45,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 46,
+        "raw": "[PlaySound(key=\"$d_avg_magic_2\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_magic_2.mp3",
+        "volume": 1
+    },
+    {
+        "id": 47,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 48,
+        "raw": "[Blocker(a=0.5, r=0, g=0, b=0, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0.5,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 49,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 50,
+        "raw": "[charslot(slot = \"m\", action=\"shake\", power=10, times=100, isblock=true, duration=0.5)]",
+        "type": "charslot",
+        "action": "shake",
+        "power": "10,",
+        "times": "100,",
+        "isblock": "true,",
+        "duration": 0.5
+    },
+    {
+        "id": 51,
+        "raw": "[charslot(slot = \"m\", action=\"jump\", posto=\"-200,0\", power=20, times=1, afrom=1, ato=0, duration=0.5)]",
+        "type": "charslot",
+        "action": "jump",
+        "posto": "-200,0",
+        "power": "20,",
+        "times": "1,",
+        "afrom": "1,",
+        "ato": "0,",
+        "duration": 0.5
+    },
+    {
+        "id": 52,
+        "raw": "[PlaySound(key=\"$d_avg_clothmovementsp\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_clothmovementsp.mp3",
+        "volume": 1
+    },
+    {
+        "id": 53,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 54,
+        "raw": "[name=\"ホルハイヤ\"]何なの？",
+        "type": "dialog",
+        "speaker": "ホルハイヤ",
+        "content": "何なの？"
+    },
+    {
+        "id": 55,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 56,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 57,
+        "raw": "[PlaySound(key=\"$d_avg_cavewaterdrop\", volume=0.6, loop=true, channel=\"a\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_cavewaterdrop.mp3",
+        "volume": "0.6,",
+        "loop": "true,",
+        "channel": "a"
+    },
+    {
+        "id": 58,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 59,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\", duration=1.5, isblock=true)]",
+        "type": "charslot",
+        "duration": "1.5,",
+        "isblock": true
+    },
+    {
+        "id": 60,
+        "raw": "[name=\"ブリキ\"]……ああ、確かに。D.C.を危険に晒すわけにはいきませんし、事態の収束を急がなければなりませんね。",
+        "type": "dialog",
+        "speaker": "ブリキ",
+        "content": "……ああ、確かに。D.C.を危険に晒すわけにはいきませんし、事態の収束を急がなければなりませんね。"
+    },
+    {
+        "id": 61,
+        "raw": "[name=\"ブリキ\"]マイレンダーを裏切った人間が相手となれば、部外者に片付けていただくべきではないでしょう。",
+        "type": "dialog",
+        "speaker": "ブリキ",
+        "content": "マイレンダーを裏切った人間が相手となれば、部外者に片付けていただくべきではないでしょう。"
+    },
+    {
+        "id": 62,
+        "raw": "[charslot(slot = \"m\", name = \"char_003_kalts_1#1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 63,
+        "raw": "[name=\"ケルシー\"]君はそう愚かな人間ではない。あえてホルハイヤを野放しにし、行動の機会をうかがっていたのだろう。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "君はそう愚かな人間ではない。あえてホルハイヤを野放しにし、行動の機会をうかがっていたのだろう。"
+    },
+    {
+        "id": 64,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 65,
+        "raw": "[name=\"ブリキ\"]……ほう。私が裏切り者を追ってくることを予想されていたと？　やれやれ、こうしてあなたに利用されるのも、本当に懐かしいですね。",
+        "type": "dialog",
+        "speaker": "ブリキ",
+        "content": "……ほう。私が裏切り者を追ってくることを予想されていたと？　やれやれ、こうしてあなたに利用されるのも、本当に懐かしいですね。"
+    },
+    {
+        "id": 66,
+        "raw": "[name=\"ブリキ\"]まあ、あえてそうしたとも言い切れませんが。クリステンの元に送り込んだエージェントが次々に離反するもので、思わず自己不信に陥りましてね……反省に時間がかかってしまったんですよ。",
+        "type": "dialog",
+        "speaker": "ブリキ",
+        "content": "まあ、あえてそうしたとも言い切れませんが。クリステンの元に送り込んだエージェントが次々に離反するもので、思わず自己不信に陥りましてね……反省に時間がかかってしまったんですよ。"
+    },
+    {
+        "id": 67,
+        "raw": "[name=\"ブリキ\"]それにしても、お二人の命がかかっているというのに、少し隙を見せすぎではありませんか？　あの黒いしもべを放てば、彼女を捕らえるのはさほど難しくもないでしょうに。",
+        "type": "dialog",
+        "speaker": "ブリキ",
+        "content": "それにしても、お二人の命がかかっているというのに、少し隙を見せすぎではありませんか？　あの黒いしもべを放てば、彼女を捕らえるのはさほど難しくもないでしょうに。"
+    },
+    {
+        "id": 68,
+        "raw": "[charslot(slot = \"m\", name = \"char_003_kalts_1#1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 69,
+        "raw": "[name=\"ケルシー\"]……「この場所」では、いかなる武器も使うことはできない。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "……「この場所」では、いかなる武器も使うことはできない。"
+    },
+    {
+        "id": 70,
+        "raw": "[name=\"ケルシー\"]我々はすでに「真上」にいるんだ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "我々はすでに「真上」にいるんだ。"
+    },
+    {
+        "id": 71,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 72,
+        "raw": "[name=\"ブリキ\"]……それがはったりでない限り、その言葉はマイレンダー基金が相応の関心を払うには十分なものですね。",
+        "type": "dialog",
+        "speaker": "ブリキ",
+        "content": "……それがはったりでない限り、その言葉はマイレンダー基金が相応の関心を払うには十分なものですね。"
+    },
+    {
+        "id": 73,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 74,
+        "raw": "[PlaySound(key=\"$d_avg_windmagic\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_windmagic.mp3",
+        "volume": 1
+    },
+    {
+        "id": 75,
+        "raw": "[bgeffect(name=\"$eb_windburst\",layer=1)]",
+        "type": "bg_effect",
+        "name": "$eb_windburst",
+        "layer": 1
+    },
+    {
+        "id": 76,
+        "raw": "[charslot(slot = \"m\", action=\"shake\", power=8, times=100, duration=0.5, isblock=true)]",
+        "type": "charslot",
+        "action": "shake",
+        "power": "8,",
+        "times": "100,",
+        "duration": "0.5,",
+        "isblock": true
+    },
+    {
+        "id": 77,
+        "raw": "[PlaySound(key=\"$d_avg_clothmovement\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_clothmovement.mp3",
+        "volume": 1
+    },
+    {
+        "id": 78,
+        "raw": "[charslot(slot = \"m\", action=\"jump\", posto=\"200,0\", power=5, times=1, duration=0.5,isblock=true)]",
+        "type": "charslot",
+        "action": "jump",
+        "posto": "200,0",
+        "power": "5,",
+        "times": "1,",
+        "duration": "0.5,isblock=true"
+    },
+    {
+        "id": 79,
+        "raw": "[charslot(slot = \"m\", posfrom=\"200,0\", posto=\"300,0\", afrom=1, ato=0, duration=0.5, isblock=true)]",
+        "type": "charslot",
+        "posfrom": "200,0",
+        "posto": "300,0",
+        "afrom": "1,",
+        "ato": "0,",
+        "duration": "0.5,",
+        "isblock": true
+    },
+    {
+        "id": 80,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 81,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 82,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_536_1#3$1\", posfrom=\"-300,0\", posto=\"200,0\", duration=2, isblock=true)]",
+        "type": "charslot",
+        "posfrom": "-300,0",
+        "posto": "200,0",
+        "duration": "2,",
+        "isblock": true
+    },
+    {
+        "id": 83,
+        "raw": "[name=\"ホルハイヤ\"]本当に……予想外だったわ、ブリキさん。あなた一体いくつ身体があるの？",
+        "type": "dialog",
+        "speaker": "ホルハイヤ",
+        "content": "本当に……予想外だったわ、ブリキさん。あなた一体いくつ身体があるの？"
+    },
+    {
+        "id": 84,
+        "raw": "[name=\"ホルハイヤ\"]その可哀想な金属製の頭、ローキャンの所に放り捨てたつもりだったんだけど。",
+        "type": "dialog",
+        "speaker": "ホルハイヤ",
+        "content": "その可哀想な金属製の頭、ローキャンの所に放り捨てたつもりだったんだけど。"
+    },
+    {
+        "id": 85,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_536_1#10$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 86,
+        "raw": "[name=\"ホルハイヤ\"]それで、今回は見逃してくれるのかしら？　それとも、もう一度あなたを殺さないと、マイレンダー基金の支配からは逃れられない？",
+        "type": "dialog",
+        "speaker": "ホルハイヤ",
+        "content": "それで、今回は見逃してくれるのかしら？　それとも、もう一度あなたを殺さないと、マイレンダー基金の支配からは逃れられない？"
+    },
+    {
+        "id": 87,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 88,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 89,
+        "raw": "[name=\"ブリキ\"]（古代サルカズ語）後でお話しするとしましょう、裏切り者さん。",
+        "type": "dialog",
+        "speaker": "ブリキ",
+        "content": "（古代サルカズ語）後でお話しするとしましょう、裏切り者さん。"
+    },
+    {
+        "id": 90,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 91,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_536_1#3$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 92,
+        "raw": "[PlaySound(key=\"$d_avg_magic_2\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_magic_2.mp3",
+        "volume": 1
+    },
+    {
+        "id": 93,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 94,
+        "raw": "[Blocker(a=0.5, r=0, g=0, b=0, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0.5,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 95,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 96,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 97,
+        "raw": "[charslot(slot = \"m\", action=\"shake\", power=8, times=100, isblock=true, duration=0.5)]",
+        "type": "charslot",
+        "action": "shake",
+        "power": "8,",
+        "times": "100,",
+        "isblock": "true,",
+        "duration": 0.5
+    },
+    {
+        "id": 98,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_536_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 99,
+        "raw": "[name=\"ホルハイヤ\"]ッ……！",
+        "type": "dialog",
+        "speaker": "ホルハイヤ",
+        "content": "ッ……！"
+    },
+    {
+        "id": 100,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_536_1#11$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 101,
+        "raw": "[name=\"ホルハイヤ\"]（視界が暗い……私の目に――いいえ、精神に作用してる――手足が動かない――！）",
+        "type": "dialog",
+        "speaker": "ホルハイヤ",
+        "content": "（視界が暗い……私の目に――いいえ、精神に作用してる――手足が動かない――！）"
+    },
+    {
+        "id": 102,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 103,
+        "raw": "[charslot(slot = \"m\", action=\"shake\", power=4, times=40, isblock=true, duration=0.5)]",
+        "type": "charslot",
+        "action": "shake",
+        "power": "4,",
+        "times": "40,",
+        "isblock": "true,",
+        "duration": 0.5
+    },
+    {
+        "id": 104,
+        "raw": "[charslot(slot = \"m\", posfrom=\"0,0\", posto=\"0,-50\", duration=0.5)]",
+        "type": "charslot",
+        "posfrom": "0,0",
+        "posto": "0,-50",
+        "duration": 0.5
+    },
+    {
+        "id": 105,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 106,
+        "raw": "[charslot(slot = \"m\", posfrom=\"0,-50\", posto=\"0,-100\", afrom=1, ato=0, duration=0.5)]",
+        "type": "charslot",
+        "posfrom": "0,-50",
+        "posto": "0,-100",
+        "afrom": "1,",
+        "ato": "0,",
+        "duration": 0.5
+    },
+    {
+        "id": 107,
+        "raw": "[playsound(key=\"$bodyfalldown2\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_bodyfalldown2.mp3"
+    },
+    {
+        "id": 108,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 109,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 110,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 111,
+        "raw": "[name=\"ブリキ\"]……どうやら、アーツであればここでも使えるようですね。",
+        "type": "dialog",
+        "speaker": "ブリキ",
+        "content": "……どうやら、アーツであればここでも使えるようですね。"
+    },
+    {
+        "id": 112,
+        "raw": "[charslot(slot = \"m\", name = \"char_003_kalts_1#1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 113,
+        "raw": "[name=\"ケルシー\"]「武器」として検出される範囲には含まれないからな。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "「武器」として検出される範囲には含まれないからな。"
+    },
+    {
+        "id": 114,
+        "raw": "[name=\"ケルシー\"]さらにいえば、たとえレヴァナントの全力を以てしても、重要な部分には少しの損傷も与えることはできない。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "さらにいえば、たとえレヴァナントの全力を以てしても、重要な部分には少しの損傷も与えることはできない。"
+    },
+    {
+        "id": 115,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 116,
+        "raw": "[name=\"ブリキ\"]では、私の懐にある源石爆弾とアーツユニットではどうでしょう？",
+        "type": "dialog",
+        "speaker": "ブリキ",
+        "content": "では、私の懐にある源石爆弾とアーツユニットではどうでしょう？"
+    },
+    {
+        "id": 117,
+        "raw": "[charslot(slot = \"m\", name = \"char_003_kalts_1#1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 118,
+        "raw": "[name=\"ケルシー\"]あまりに原始的だな。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "あまりに原始的だな。"
+    },
+    {
+        "id": 119,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 120,
+        "raw": "[name=\"ブリキ\"]これはクルビアの最先端技術による代物で、我々を容易くこの大地深くに埋めてしまえるものです。",
+        "type": "dialog",
+        "speaker": "ブリキ",
+        "content": "これはクルビアの最先端技術による代物で、我々を容易くこの大地深くに埋めてしまえるものです。"
+    },
+    {
+        "id": 121,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 122,
+        "raw": "[name=\"ブリキ\"]さて――ほかに、マイレンダー基金に伝達していないことはありますか？",
+        "type": "dialog",
+        "speaker": "ブリキ",
+        "content": "さて――ほかに、マイレンダー基金に伝達していないことはありますか？"
+    },
+    {
+        "id": 123,
+        "raw": "[charslot(slot = \"m\", name = \"char_003_kalts_1#1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 124,
+        "raw": "[name=\"ケルシー\"]……",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "……"
+    },
+    {
+        "id": 125,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 126,
+        "raw": "[name=\"ブリキ\"]クルビア人としてという理由も、サルカズとしてという理由も、私があなたに同行するには不十分なのですか？",
+        "type": "dialog",
+        "speaker": "ブリキ",
+        "content": "クルビア人としてという理由も、サルカズとしてという理由も、私があなたに同行するには不十分なのですか？"
+    },
+    {
+        "id": 127,
+        "raw": "[charslot(slot = \"m\", name = \"char_003_kalts_1#1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 128,
+        "raw": "[name=\"ケルシー\"]私は初めから、あの場所へ行くのはドクターただ一人であってほしいと思っている。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "私は初めから、あの場所へ行くのはドクターただ一人であってほしいと思っている。"
+    },
+    {
+        "id": 129,
+        "raw": "[name=\"ケルシー\"]ライン生命の統括が増えただけでも、想定外だ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "ライン生命の統括が増えただけでも、想定外だ。"
+    },
+    {
+        "id": 130,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 131,
+        "raw": "[charslot(slot = \"m\", focus=\"none\")]",
+        "type": "charslot",
+        "focus": "none"
+    },
+    {
+        "id": 132,
+        "raw": "[Decision(options=\"……自分一人で？\",values=\"1\")]",
+        "type": "decision",
+        "options": "……自分一人で？",
+        "values": "1"
+    },
+    {
+        "id": 133,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 134,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 135,
+        "raw": "[name=\"ブリキ\"]残念ながら……それはあなたの一存で決められることではありませんよ。マイレンダー基金としての責務に加えて、私自身もこの古の故郷であった土地に強い興味がありますから。",
+        "type": "dialog",
+        "speaker": "ブリキ",
+        "content": "残念ながら……それはあなたの一存で決められることではありませんよ。マイレンダー基金としての責務に加えて、私自身もこの古の故郷であった土地に強い興味がありますから。"
+    },
+    {
+        "id": 136,
+        "raw": "[name=\"ブリキ\"]そこにはカズデルに関わる手がかりがあるかもしれませんし、恐らく――",
+        "type": "dialog",
+        "speaker": "ブリキ",
+        "content": "そこにはカズデルに関わる手がかりがあるかもしれませんし、恐らく――"
+    },
+    {
+        "id": 137,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 138,
+        "raw": "[PlaySound(key=\"$transmission\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_transmission.mp3",
+        "volume": 1
+    },
+    {
+        "id": 139,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 140,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 141,
+        "raw": "[name=\"ブリキ\"]――もしもし。ええ、ホルハイヤはすでにアーツで制圧しました。いつでも……はい？",
+        "type": "dialog",
+        "speaker": "ブリキ",
+        "content": "――もしもし。ええ、ホルハイヤはすでにアーツで制圧しました。いつでも……はい？"
+    },
+    {
+        "id": 142,
+        "raw": "[name=\"ブリキ\"]……大統領ご本人が？",
+        "type": "dialog",
+        "speaker": "ブリキ",
+        "content": "……大統領ご本人が？"
+    },
+    {
+        "id": 143,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 144,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 145,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_536_1#1$1\", posfrom=\"0,-100\", posto=\"0,-40\", duration=1.5)]",
+        "type": "charslot",
+        "posfrom": "0,-100",
+        "posto": "0,-40",
+        "duration": 1.5
+    },
+    {
+        "id": 146,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 147,
+        "raw": "[charslot(slot = \"m\", action=\"shake\", power=15, times=100,duration=1.5)]",
+        "type": "charslot",
+        "action": "shake",
+        "power": "15,",
+        "times": "100,duration=1.5"
+    },
+    {
+        "id": 148,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 149,
+        "raw": "[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 150,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=0.03, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "0.03,",
+        "block": true
+    },
+    {
+        "id": 151,
+        "raw": "[charslot(slot = \"m\", posfrom=\"0,-40\", posto=\"0,0\", duration=0.5)]",
+        "type": "charslot",
+        "posfrom": "0,-40",
+        "posto": "0,0",
+        "duration": 0.5
+    },
+    {
+        "id": 152,
+        "raw": "[PlaySound(key=\"$e_atk_magic_n\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_atk/e_atk_magic_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 153,
+        "raw": "[Blocker(a=0, r=0,g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 154,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 155,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_536_1#2$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 156,
+        "raw": "[name=\"ホルハイヤ\"]はぁ……はあ……どうやら、あなたのアーツもそこまで強力ではないみたいね。",
+        "type": "dialog",
+        "speaker": "ホルハイヤ",
+        "content": "はぁ……はあ……どうやら、あなたのアーツもそこまで強力ではないみたいね。"
+    },
+    {
+        "id": 157,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 158,
+        "raw": "[name=\"ブリキ\"]ううむ。彼女を甘く見ていたようですね。事情はわかりました、もちろんご命令に従いましょう。",
+        "type": "dialog",
+        "speaker": "ブリキ",
+        "content": "ううむ。彼女を甘く見ていたようですね。事情はわかりました、もちろんご命令に従いましょう。"
+    },
+    {
+        "id": 159,
+        "raw": "[name=\"ブリキ\"]ではまた。",
+        "type": "dialog",
+        "speaker": "ブリキ",
+        "content": "ではまた。"
+    },
+    {
+        "id": 160,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 161,
+        "raw": "[PlaySound(key=\"$d_avg_ringoff\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_ringoff.mp3",
+        "volume": 1
+    },
+    {
+        "id": 162,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 163,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 164,
+        "raw": "[name=\"ブリキ\"]私も腕が鈍ったものですね。力ずくでこの巫術から抜け出されるとは……百年前であれば、普通の征戦騎士なら身動き一つ取れなかったはずですが。",
+        "type": "dialog",
+        "speaker": "ブリキ",
+        "content": "私も腕が鈍ったものですね。力ずくでこの巫術から抜け出されるとは……百年前であれば、普通の征戦騎士なら身動き一つ取れなかったはずですが。"
+    },
+    {
+        "id": 165,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_536_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 166,
+        "raw": "[name=\"ホルハイヤ\"]さっきの発音は……サルカズの巫術？　あなたの種族って……一体何なの？",
+        "type": "dialog",
+        "speaker": "ホルハイヤ",
+        "content": "さっきの発音は……サルカズの巫術？　あなたの種族って……一体何なの？"
+    },
+    {
+        "id": 167,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_536_1#11$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 168,
+        "raw": "[name=\"ホルハイヤ\"]確かに確認したはずなのに……",
+        "type": "dialog",
+        "speaker": "ホルハイヤ",
+        "content": "確かに確認したはずなのに……"
+    },
+    {
+        "id": 169,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 170,
+        "raw": "[name=\"ブリキ\"]種族のことがそこまで気になるのですか？　本当に、可哀想な人ですね。",
+        "type": "dialog",
+        "speaker": "ブリキ",
+        "content": "種族のことがそこまで気になるのですか？　本当に、可哀想な人ですね。"
+    },
+    {
+        "id": 171,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_536_1#11$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 172,
+        "raw": "[name=\"ホルハイヤ\"]……",
+        "type": "dialog",
+        "speaker": "ホルハイヤ",
+        "content": "……"
+    },
+    {
+        "id": 173,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 174,
+        "raw": "[name=\"ブリキ\"]私としては、むしろ不思議なくらいですよ。あなたはこんな見た目をしている私を、頭が取れたら死んでしまうような一般人と見なしていたわけですから。",
+        "type": "dialog",
+        "speaker": "ブリキ",
+        "content": "私としては、むしろ不思議なくらいですよ。あなたはこんな見た目をしている私を、頭が取れたら死んでしまうような一般人と見なしていたわけですから。"
+    },
+    {
+        "id": 175,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_536_1#10$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 176,
+        "raw": "[name=\"ホルハイヤ\"]そうね、仰る通りだわ。それなら試してみたいんだけど……たとえばすり潰したとしても、自力で組み立て直せるのかしら？",
+        "type": "dialog",
+        "speaker": "ホルハイヤ",
+        "content": "そうね、仰る通りだわ。それなら試してみたいんだけど……たとえばすり潰したとしても、自力で組み立て直せるのかしら？"
+    },
+    {
+        "id": 177,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 178,
+        "raw": "[name=\"ブリキ\"]彼女には私が対処します。お二人は行ってください。",
+        "type": "dialog",
+        "speaker": "ブリキ",
+        "content": "彼女には私が対処します。お二人は行ってください。"
+    },
+    {
+        "id": 179,
+        "raw": "[name=\"ブリキ\"]先ほど大統領命令が下ったのです。この座標に到達したロドスの一行を無条件で支援せよ、とね。大統領はいつの間に、これほどはっきりと状況を把握されたのかが気になりますが……",
+        "type": "dialog",
+        "speaker": "ブリキ",
+        "content": "先ほど大統領命令が下ったのです。この座標に到達したロドスの一行を無条件で支援せよ、とね。大統領はいつの間に、これほどはっきりと状況を把握されたのかが気になりますが……"
+    },
+    {
+        "id": 180,
+        "raw": "[charslot(slot = \"m\", name = \"char_003_kalts_1#1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 181,
+        "raw": "[name=\"ケルシー\"]それを、サルカズとしての君はどう思っている？",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "それを、サルカズとしての君はどう思っている？"
+    },
+    {
+        "id": 182,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 183,
+        "raw": "[name=\"ブリキ\"]若きサルカズであれば様々な理由からあなたを恨み、そして敬愛するのでしょう。しかし私に言わせれば、あなたのほうがサルカズのために戦ってきた年月は長いですからね。",
+        "type": "dialog",
+        "speaker": "ブリキ",
+        "content": "若きサルカズであれば様々な理由からあなたを恨み、そして敬愛するのでしょう。しかし私に言わせれば、あなたのほうがサルカズのために戦ってきた年月は長いですからね。"
+    },
+    {
+        "id": 184,
+        "raw": "[name=\"ブリキ\"]とはいえ、それはただ長いだけではありますが。",
+        "type": "dialog",
+        "speaker": "ブリキ",
+        "content": "とはいえ、それはただ長いだけではありますが。"
+    },
+    {
+        "id": 185,
+        "raw": "[name=\"ブリキ\"]さあ、お急ぎください。できればのちほど、問題のない部分についてはお話しくださることを期待していますよ。",
+        "type": "dialog",
+        "speaker": "ブリキ",
+        "content": "さあ、お急ぎください。できればのちほど、問題のない部分についてはお話しくださることを期待していますよ。"
+    },
+    {
+        "id": 186,
+        "raw": "[charslot(slot = \"m\", name = \"char_003_kalts_1#1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 187,
+        "raw": "[name=\"ケルシー\"]……わかった、約束しよう。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "……わかった、約束しよう。"
+    },
+    {
+        "id": 188,
+        "raw": "[name=\"ケルシー\"]行くぞ、ドクター。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "行くぞ、ドクター。"
+    },
+    {
+        "id": 189,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 190,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 191,
+        "raw": "[charslot(duration=1.5, isblock=true)]",
+        "type": "charslot",
+        "duration": "1.5,",
+        "isblock": true
+    },
+    {
+        "id": 192,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_536_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 193,
+        "raw": "[name=\"ホルハイヤ\"]……随分あっさり自分の欲望を手放すのね。あなたには真相なんてどうでもいいってことかしら？",
+        "type": "dialog",
+        "speaker": "ホルハイヤ",
+        "content": "……随分あっさり自分の欲望を手放すのね。あなたには真相なんてどうでもいいってことかしら？"
+    },
+    {
+        "id": 194,
+        "raw": "[name=\"ホルハイヤ\"]あの人たちと一緒に、「古の故郷」を見に行きたくはないの？",
+        "type": "dialog",
+        "speaker": "ホルハイヤ",
+        "content": "あの人たちと一緒に、「古の故郷」を見に行きたくはないの？"
+    },
+    {
+        "id": 195,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 196,
+        "raw": "[name=\"ブリキ\"]任務中にその対象にほだされ、さらには国に背いてまで重要な技術を自分の懐に収めようとするとは……部下の教育をしくじったことはこの身の恥ですね。",
+        "type": "dialog",
+        "speaker": "ブリキ",
+        "content": "任務中にその対象にほだされ、さらには国に背いてまで重要な技術を自分の懐に収めようとするとは……部下の教育をしくじったことはこの身の恥ですね。"
+    },
+    {
+        "id": 197,
+        "raw": "[name=\"ブリキ\"]長く続いた平穏のせいで、この身体を破壊されるくらいでは怒りを感じるには不十分なのですが……",
+        "type": "dialog",
+        "speaker": "ブリキ",
+        "content": "長く続いた平穏のせいで、この身体を破壊されるくらいでは怒りを感じるには不十分なのですが……"
+    },
+    {
+        "id": 198,
+        "raw": "[name=\"ブリキ\"]あなたの上司として、そしてマイレンダー基金の責任者として、おとなしく投降し、寛大な処罰を求めることを勧めておきましょう。",
+        "type": "dialog",
+        "speaker": "ブリキ",
+        "content": "あなたの上司として、そしてマイレンダー基金の責任者として、おとなしく投降し、寛大な処罰を求めることを勧めておきましょう。"
+    },
+    {
+        "id": 199,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_536_1#11$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 200,
+        "raw": "[name=\"ホルハイヤ\"]チッ、老いぼれの化け物のくせに。その長い人生でたくさんのものを失くしてきたんでしょ？　本当にまだ責任感なんてものを持ち合わせているのかしら？",
+        "type": "dialog",
+        "speaker": "ホルハイヤ",
+        "content": "チッ、老いぼれの化け物のくせに。その長い人生でたくさんのものを失くしてきたんでしょ？　本当にまだ責任感なんてものを持ち合わせているのかしら？"
+    },
+    {
+        "id": 201,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 202,
+        "raw": "[name=\"ブリキ\"]長きにわたる歳月に魂を傷つけられぬよう、かつては多くのアーツを試したものですが、それは完全に効果を上げたとは言いがたいものです。",
+        "type": "dialog",
+        "speaker": "ブリキ",
+        "content": "長きにわたる歳月に魂を傷つけられぬよう、かつては多くのアーツを試したものですが、それは完全に効果を上げたとは言いがたいものです。"
+    },
+    {
+        "id": 203,
+        "raw": "[name=\"ブリキ\"]けれど結果を見るに、私は今なお大層責任感が強いほうだと言えるでしょう。このことは私に代わって死が証明してくれるはずです。",
+        "type": "dialog",
+        "speaker": "ブリキ",
+        "content": "けれど結果を見るに、私は今なお大層責任感が強いほうだと言えるでしょう。このことは私に代わって死が証明してくれるはずです。"
+    },
+    {
+        "id": 204,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_536_1#3$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 205,
+        "raw": "[name=\"ホルハイヤ\"]いいえ。私はあなたを倒し、欲するすべてを手に入れてみせるわ。",
+        "type": "dialog",
+        "speaker": "ホルハイヤ",
+        "content": "いいえ。私はあなたを倒し、欲するすべてを手に入れてみせるわ。"
+    },
+    {
+        "id": 206,
+        "raw": "[name=\"ホルハイヤ\"]自分のアイデンティティを証明するのよ。それがあなたや、マイレンダー基金を殺すことを――あるいは、あなたに殺されることを意味するのだとしてもね。",
+        "type": "dialog",
+        "speaker": "ホルハイヤ",
+        "content": "自分のアイデンティティを証明するのよ。それがあなたや、マイレンダー基金を殺すことを――あるいは、あなたに殺されることを意味するのだとしてもね。"
+    },
+    {
+        "id": 207,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_536_1#2$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 208,
+        "raw": "[name=\"ホルハイヤ\"]へえ……自分のために戦うって、こんなに血が沸き立つことだったのね。……どうして私は、古の血の復活ばかりを優先しようとしていたのかしら？",
+        "type": "dialog",
+        "speaker": "ホルハイヤ",
+        "content": "へえ……自分のために戦うって、こんなに血が沸き立つことだったのね。……どうして私は、古の血の復活ばかりを優先しようとしていたのかしら？"
+    },
+    {
+        "id": 209,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 210,
+        "raw": "[name=\"ブリキ\"]……あなたが受け継いできた記憶は、どれほどの年月にわたるものでしたか？",
+        "type": "dialog",
+        "speaker": "ブリキ",
+        "content": "……あなたが受け継いできた記憶は、どれほどの年月にわたるものでしたか？"
+    },
+    {
+        "id": 211,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_536_1#3$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 212,
+        "raw": "[name=\"ホルハイヤ\"]……",
+        "type": "dialog",
+        "speaker": "ホルハイヤ",
+        "content": "……"
+    },
+    {
+        "id": 213,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 214,
+        "raw": "[name=\"ブリキ\"]三百年？　それとも五百年でしょうか？",
+        "type": "dialog",
+        "speaker": "ブリキ",
+        "content": "三百年？　それとも五百年でしょうか？"
+    },
+    {
+        "id": 215,
+        "raw": "[name=\"ブリキ\"]確かにそれは、十分な長さです。一つの都市が生まれ、そして滅びるまでの時間……あるいは、一つの王朝が興り、そして衰退するまでの時間に等しいものでしょう。",
+        "type": "dialog",
+        "speaker": "ブリキ",
+        "content": "確かにそれは、十分な長さです。一つの都市が生まれ、そして滅びるまでの時間……あるいは、一つの王朝が興り、そして衰退するまでの時間に等しいものでしょう。"
+    },
+    {
+        "id": 216,
+        "raw": "[name=\"ブリキ\"]ですが、私にとっては……一つの悪夢から目覚めるのに要する時間でしかありません。",
+        "type": "dialog",
+        "speaker": "ブリキ",
+        "content": "ですが、私にとっては……一つの悪夢から目覚めるのに要する時間でしかありません。"
+    },
+    {
+        "id": 217,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_536_1#10$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 218,
+        "raw": "[name=\"ホルハイヤ\"]……偉そうに……",
+        "type": "dialog",
+        "speaker": "ホルハイヤ",
+        "content": "……偉そうに……"
+    },
+    {
+        "id": 219,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 220,
+        "raw": "[name=\"ブリキ\"]これは本当の話ですよ。",
+        "type": "dialog",
+        "speaker": "ブリキ",
+        "content": "これは本当の話ですよ。"
+    },
+    {
+        "id": 221,
+        "raw": "[name=\"ブリキ\"]あなたが苦悩した時間も、胸を打つ一族の歴史も、合金でできたこの指に残るひっかき傷の一つにも及ばぬものなのです、幼獣よ。",
+        "type": "dialog",
+        "speaker": "ブリキ",
+        "content": "あなたが苦悩した時間も、胸を打つ一族の歴史も、合金でできたこの指に残るひっかき傷の一つにも及ばぬものなのです、幼獣よ。"
+    },
+    {
+        "id": 222,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 223,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_536_1#10$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 224,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 225,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_536_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 226,
+        "raw": "[PlaySound(key=\"$d_avg_magic_2\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_magic_2.mp3",
+        "volume": 1
+    },
+    {
+        "id": 227,
+        "raw": "[charslot(slot = \"m\", action=\"shake\", power=8, times=100, duration=1, isblock=true)]",
+        "type": "charslot",
+        "action": "shake",
+        "power": "8,",
+        "times": "100,",
+        "duration": "1,",
+        "isblock": true
+    },
+    {
+        "id": 228,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 229,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 230,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 231,
+        "raw": "[Background(image=\"bg_black\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_black.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 232,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 233,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 234,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=0.1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.1,",
+        "block": true
+    },
+    {
+        "id": 235,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=false)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": false
+    },
+    {
+        "id": 236,
+        "raw": "[PlaySound(key=\"$d_gen_heartbeat\", volume=1, loop=true, channel=\"c\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_heartbeat.mp3",
+        "volume": "1,",
+        "loop": "true,",
+        "channel": "c"
+    },
+    {
+        "id": 237,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 238,
+        "raw": "[StopSound(channel=\"c\", fadetime=1)]",
+        "type": "stop_sound",
+        "channel": "c",
+        "fadetime": 1
+    },
+    {
+        "id": 239,
+        "raw": "ホルハイヤは一瞬、心臓が握り締められるのを感じた。",
+        "type": "narration",
+        "content": "ホルハイヤは一瞬、心臓が握り締められるのを感じた。"
+    },
+    {
+        "id": 240,
+        "raw": "そうして、視界は再び暗闇に閉ざされていく。先ほどそれを経験した彼女はすぐさま視覚を頼るのをやめ、アーツで体を包み込み、四肢の触覚を拡張しようとした。",
+        "type": "narration",
+        "content": "そうして、視界は再び暗闇に閉ざされていく。先ほどそれを経験した彼女はすぐさま視覚を頼るのをやめ、アーツで体を包み込み、四肢の触覚を拡張しようとした。"
+    },
+    {
+        "id": 241,
+        "raw": "百戦錬磨なマイレンダーのエージェントの中でも、彼女は並外れた天才だ。ククルカンの記憶は負担であったが、彼女を生まれながらに熟達した戦士にもしてくれていた。",
+        "type": "narration",
+        "content": "百戦錬磨なマイレンダーのエージェントの中でも、彼女は並外れた天才だ。ククルカンの記憶は負担であったが、彼女を生まれながらに熟達した戦士にもしてくれていた。"
+    },
+    {
+        "id": 242,
+        "raw": "その身体はあらゆる部位が凶器であり、その頭脳は類を見ないほど明晰であり、そのアーツは狡猾で敏捷なものである。",
+        "type": "narration",
+        "content": "その身体はあらゆる部位が凶器であり、その頭脳は類を見ないほど明晰であり、そのアーツは狡猾で敏捷なものである。"
+    },
+    {
+        "id": 243,
+        "raw": "しかし……",
+        "type": "narration",
+        "content": "しかし……"
+    },
+    {
+        "id": 244,
+        "raw": "ホルハイヤは今、じわじわと広がる恐怖を感じていた。",
+        "type": "narration",
+        "content": "ホルハイヤは今、じわじわと広がる恐怖を感じていた。"
+    },
+    {
+        "id": 245,
+        "raw": "刺すような痛みが鼓膜から脳にまでしみ渡り、その場には何の音もしていないにもかかわらず、彼女は苦痛に耳を塞いだ。",
+        "type": "narration",
+        "content": "刺すような痛みが鼓膜から脳にまでしみ渡り、その場には何の音もしていないにもかかわらず、彼女は苦痛に耳を塞いだ。"
+    },
+    {
+        "id": 246,
+        "raw": "次第に洞窟の景色が変わり始め、より深い暗闇がブリキの足元から広がってくる。",
+        "type": "narration",
+        "content": "次第に洞窟の景色が変わり始め、より深い暗闇がブリキの足元から広がってくる。"
+    },
+    {
+        "id": 247,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 248,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 249,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\",duration=1.5, isblock=true)]",
+        "type": "charslot",
+        "duration": "1.5,",
+        "isblock": true
+    },
+    {
+        "id": 250,
+        "raw": "[name=\"ブリキ\"]（古代サルカズ語）歴史の探究を望むのなら、もう少しだけ教えてあげましょう。",
+        "type": "dialog",
+        "speaker": "ブリキ",
+        "content": "（古代サルカズ語）歴史の探究を望むのなら、もう少しだけ教えてあげましょう。"
+    },
+    {
+        "id": 251,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 252,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 253,
+        "raw": "[PlaySound(key=\"$d_avg_snowstormflp\", volume=1, loop=true, channel=\"a\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_snowstormflp.mp3",
+        "volume": "1,",
+        "loop": "true,",
+        "channel": "a"
+    },
+    {
+        "id": 254,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 255,
+        "raw": "ホルハイヤは、自らの頬が荒い風砂に吹かれているのを感じた。",
+        "type": "narration",
+        "content": "ホルハイヤは、自らの頬が荒い風砂に吹かれているのを感じた。"
+    },
+    {
+        "id": 256,
+        "raw": "その肩は、ひどく重いものを担いでいるかのようにかすかに震えている。",
+        "type": "narration",
+        "content": "その肩は、ひどく重いものを担いでいるかのようにかすかに震えている。"
+    },
+    {
+        "id": 257,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_900_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 258,
+        "raw": "[name=\"ブリキ\"]（古代サルカズ語）あなたは歴史の重みを軽んじすぎています。",
+        "type": "dialog",
+        "speaker": "ブリキ",
+        "content": "（古代サルカズ語）あなたは歴史の重みを軽んじすぎています。"
+    },
+    {
+        "id": 259,
+        "raw": "[name=\"ブリキ\"]（古代サルカズ語）「心に刻み付ける」という言葉の本当の意味を知らないのでしょう。",
+        "type": "dialog",
+        "speaker": "ブリキ",
+        "content": "（古代サルカズ語）「心に刻み付ける」という言葉の本当の意味を知らないのでしょう。"
+    },
+    {
+        "id": 260,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 261,
+        "raw": "[StopSound(channel=\"a\", fadetime=1)]",
+        "type": "stop_sound",
+        "channel": "a",
+        "fadetime": 1
+    },
+    {
+        "id": 262,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 263,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 264,
+        "raw": "[stopmusic(fadetime=1)]",
+        "type": "stop_music",
+        "fadetime": 1
+    },
+    {
+        "id": 265,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 266,
+        "raw": "[Background(image=\"bg_aircraft\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_aircraft.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 267,
+        "raw": "[playMusic(intro=\"$act25side_01_intro\", key=\"$act25side_01_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act25side/m_bat_act25side_01_intro.mp3",
+        "key": "sound_beta_2/music/act25side/m_bat_act25side_01_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 268,
+        "raw": "[PlaySound(key=\"$d_avg_airwaramb\", volume=1, loop=true, channel=\"a\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_airwaramb.mp3",
+        "volume": "1,",
+        "loop": "true,",
+        "channel": "a"
+    },
+    {
+        "id": 269,
+        "raw": "p.m.7:59 フォーカスジェネレーターが高度5000mに到達 上昇停止",
+        "type": "narration",
+        "content": "p.m.7:59 フォーカスジェネレーターが高度5000mに到達 上昇停止"
+    },
+    {
+        "id": 270,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 271,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 272,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 273,
+        "raw": "[PlaySound(key=\"$d_avg_planeshake\", volume=0.3)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_planeshake.mp3",
+        "volume": 0.3
+    },
+    {
+        "id": 274,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 275,
+        "raw": "[CameraShake(duration=2.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "2.5,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 276,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 277,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_896_1#10$1\", focus=\"none\")]",
+        "type": "charslot",
+        "focus": "none"
+    },
+    {
+        "id": 278,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_890_1#4$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 279,
+        "raw": "[name=\"フェルディナンド\"]君、操縦できると言わなかったか！？",
+        "type": "dialog",
+        "speaker": "フェルディナンド",
+        "content": "君、操縦できると言わなかったか！？"
+    },
+    {
+        "id": 280,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_896_1#10$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 281,
+        "raw": "[name=\"サリア\"]掴まっていろ。",
+        "type": "dialog",
+        "speaker": "サリア",
+        "content": "掴まっていろ。"
+    },
+    {
+        "id": 282,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 283,
+        "raw": "[charslot(slot = \"m\",focus=\"none\")]",
+        "type": "charslot",
+        "focus": "none"
+    },
+    {
+        "id": 284,
+        "raw": "[PlaySound(key=\"$d_avg_planeshake\", volume=0.6)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_planeshake.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 285,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 286,
+        "raw": "[CameraShake(duration=2.5, xstrength=50, ystrength=50, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "2.5,",
+        "xstrength": "50,",
+        "ystrength": "50,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 287,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 288,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_890_1#5$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 289,
+        "raw": "[name=\"フェルディナンド\"]なっ……！　うっ――",
+        "type": "dialog",
+        "speaker": "フェルディナンド",
+        "content": "なっ……！　うっ――"
+    },
+    {
+        "id": 290,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_896_1#10$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 291,
+        "raw": "[name=\"サリア\"]私はすでに最大限努力している。でなければ、とっくに撃墜されているところだ。",
+        "type": "dialog",
+        "speaker": "サリア",
+        "content": "私はすでに最大限努力している。でなければ、とっくに撃墜されているところだ。"
+    },
+    {
+        "id": 292,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 293,
+        "raw": "[charslot(slot = \"m\",focus=\"none\")]",
+        "type": "charslot",
+        "focus": "none"
+    },
+    {
+        "id": 294,
+        "raw": "[SoundVolume(volume=0.6, channel=\"a\",fadetime=1)]",
+        "type": "sound_volume",
+        "volume": "0.6,",
+        "channel": "a",
+        "fadetime": 1
+    },
+    {
+        "id": 295,
+        "raw": "[PlaySound(key=\"$d_avg_plane\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_plane.mp3",
+        "volume": 1
+    },
+    {
+        "id": 296,
+        "raw": "[PlaySound(key=\"$d_avg_planeshake\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_planeshake.mp3",
+        "volume": 1
+    },
+    {
+        "id": 297,
+        "raw": "[CameraShake(duration=2.5, xstrength=50, ystrength=50, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "2.5,",
+        "xstrength": "50,",
+        "ystrength": "50,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 298,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 299,
+        "raw": "[CameraShake(duration=3, xstrength=80, ystrength=80, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "3,",
+        "xstrength": "80,",
+        "ystrength": "80,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 300,
+        "raw": "[PlaySound(key=\"$d_sp_ballista\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_sp_ballista.mp3",
+        "volume": 1
+    },
+    {
+        "id": 301,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 302,
+        "raw": "[PlaySound(key=\"$d_avg_aircraftalarm\", volume=0.6, loop=true, channel=\"c\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_aircraftalarm.mp3",
+        "volume": "0.6,",
+        "loop": "true,",
+        "channel": "c"
+    },
+    {
+        "id": 303,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 304,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_890_1#4$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 305,
+        "raw": "[name=\"フェルディナンド\"]サリア、窓の外を見ろ！",
+        "type": "dialog",
+        "speaker": "フェルディナンド",
+        "content": "サリア、窓の外を見ろ！"
+    },
+    {
+        "id": 306,
+        "raw": "[name=\"フェルディナンド\"]エンジンが燃えているぞ！",
+        "type": "dialog",
+        "speaker": "フェルディナンド",
+        "content": "エンジンが燃えているぞ！"
+    },
+    {
+        "id": 307,
+        "raw": "[StopSound(channel=\"c\", fadetime=2)]",
+        "type": "stop_sound",
+        "channel": "c",
+        "fadetime": 2
+    },
+    {
+        "id": 308,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_896_1#1$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 309,
+        "raw": "[name=\"サリア\"]出力は減少するが……問題ない。",
+        "type": "dialog",
+        "speaker": "サリア",
+        "content": "出力は減少するが……問題ない。"
+    },
+    {
+        "id": 310,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_890_1#4$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 311,
+        "raw": "[name=\"フェルディナンド\"]今にも爆発しそうなこれのどこが問題ないって！？",
+        "type": "dialog",
+        "speaker": "フェルディナンド",
+        "content": "今にも爆発しそうなこれのどこが問題ないって！？"
+    },
+    {
+        "id": 312,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_896_1#10$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 313,
+        "raw": "[name=\"サリア\"]いつからそんなに口数が多くなったんだ？",
+        "type": "dialog",
+        "speaker": "サリア",
+        "content": "いつからそんなに口数が多くなったんだ？"
+    },
+    {
+        "id": 314,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 315,
+        "raw": "[CameraShake(duration=2.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "2.5,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 316,
+        "raw": "[PlaySound(key=\"$d_avg_funnel\", volume=0.2)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_funnel.mp3",
+        "volume": 0.2
+    },
+    {
+        "id": 317,
+        "raw": "[delay(time=0.6)]",
+        "type": "delay",
+        "time": 0.6
+    },
+    {
+        "id": 318,
+        "raw": "[PlaySound(key=\"$d_avg_funnel\", volume=0.4)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_funnel.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 319,
+        "raw": "[delay(time=0.2)]",
+        "type": "delay",
+        "time": 0.2
+    },
+    {
+        "id": 320,
+        "raw": "[PlaySound(key=\"$d_avg_funnel\", volume=0.8)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_funnel.mp3",
+        "volume": 0.8
+    },
+    {
+        "id": 321,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 322,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_896_1#1$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 323,
+        "raw": "[name=\"サリア\"]チッ……あのドローン、次から次へと。",
+        "type": "dialog",
+        "speaker": "サリア",
+        "content": "チッ……あのドローン、次から次へと。"
+    },
+    {
+        "id": 324,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_896_1#10$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 325,
+        "raw": "[name=\"サリア\"]来い、フェルディナンド。",
+        "type": "dialog",
+        "speaker": "サリア",
+        "content": "来い、フェルディナンド。"
+    },
+    {
+        "id": 326,
+        "raw": "[name=\"サリア\"]このレバーを握って、離さずに押し続けろ。",
+        "type": "dialog",
+        "speaker": "サリア",
+        "content": "このレバーを握って、離さずに押し続けろ。"
+    },
+    {
+        "id": 327,
+        "raw": "[name=\"サリア\"]このメーターが見えるな？　針がこの値を超えた場合は呼べ。",
+        "type": "dialog",
+        "speaker": "サリア",
+        "content": "このメーターが見えるな？　針がこの値を超えた場合は呼べ。"
+    },
+    {
+        "id": 328,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_890_1#5$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 329,
+        "raw": "[name=\"フェルディナンド\"]一体何を――",
+        "type": "dialog",
+        "speaker": "フェルディナンド",
+        "content": "一体何を――"
+    },
+    {
+        "id": 330,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_896_1#1$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 331,
+        "raw": "[name=\"サリア\"]シートベルトを締めて手は離すな。少し出る。ドアを開けるぞ。",
+        "type": "dialog",
+        "speaker": "サリア",
+        "content": "シートベルトを締めて手は離すな。少し出る。ドアを開けるぞ。"
+    },
+    {
+        "id": 332,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_890_1#5$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 333,
+        "raw": "[name=\"フェルディナンド\"]ドア！？　出るって、どういう意味だ！？",
+        "type": "dialog",
+        "speaker": "フェルディナンド",
+        "content": "ドア！？　出るって、どういう意味だ！？"
+    },
+    {
+        "id": 334,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_890_1#4$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 335,
+        "raw": "[name=\"フェルディナンド\"]ここは空だぞ！？",
+        "type": "dialog",
+        "speaker": "フェルディナンド",
+        "content": "ここは空だぞ！？"
+    },
+    {
+        "id": 336,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 337,
+        "raw": "[PlaySound(key=\"$d_gen_dooropen\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_dooropen.mp3",
+        "volume": 1
+    },
+    {
+        "id": 338,
+        "raw": "[PlaySound(key=\"$d_avg_snowstormflp\", volume=1, loop=true, channel=\"b\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_snowstormflp.mp3",
+        "volume": "1,",
+        "loop": "true,",
+        "channel": "b"
+    },
+    {
+        "id": 339,
+        "raw": "[SoundVolume(volume=1, channel=\"a\",fadetime=1)]",
+        "type": "sound_volume",
+        "volume": "1,",
+        "channel": "a",
+        "fadetime": 1
+    },
+    {
+        "id": 340,
+        "raw": "[charslot(slot = \"l\", afrom=1, ato=0, duration=1, isblock=true)]",
+        "type": "charslot",
+        "afrom": "1,",
+        "ato": "0,",
+        "duration": "1,",
+        "isblock": true
+    },
+    {
+        "id": 341,
+        "raw": "[charslot(slot = \"r\", posfrom=\"0,0\", posto=\"-350,0\", duration=0.5)]",
+        "type": "charslot",
+        "posfrom": "0,0",
+        "posto": "-350,0",
+        "duration": 0.5
+    },
+    {
+        "id": 342,
+        "raw": "[PlaySound(key=\"$d_avg_planeshake\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_planeshake.mp3",
+        "volume": 1
+    },
+    {
+        "id": 343,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 344,
+        "raw": "[CameraShake(duration=2.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "2.5,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 345,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 346,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_890_1#4$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 347,
+        "raw": "[name=\"フェルディナンド\"]サリア！　揺れてるぞ！　サリア！！",
+        "type": "dialog",
+        "speaker": "フェルディナンド",
+        "content": "サリア！　揺れてるぞ！　サリア！！"
+    },
+    {
+        "id": 348,
+        "raw": "[name=\"フェルディナンド\"]クソッ……こんなことになるのなら、出る前に弁護士に電話しておくべきだった！",
+        "type": "dialog",
+        "speaker": "フェルディナンド",
+        "content": "クソッ……こんなことになるのなら、出る前に弁護士に電話しておくべきだった！"
+    },
+    {
+        "id": 349,
+        "raw": "[charslot(slot = \"m\", focus=\"none\")]",
+        "type": "charslot",
+        "focus": "none"
+    },
+    {
+        "id": 350,
+        "raw": "[name=\"サリア\"]失業したわりに、弁護士を雇う余裕はあるんだな。",
+        "type": "dialog",
+        "speaker": "サリア",
+        "content": "失業したわりに、弁護士を雇う余裕はあるんだな。"
+    },
+    {
+        "id": 351,
+        "raw": "[name=\"サリア\"]焦らなくていい。メーターにだけ注意していろ。",
+        "type": "dialog",
+        "speaker": "サリア",
+        "content": "焦らなくていい。メーターにだけ注意していろ。"
+    },
+    {
+        "id": 352,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_890_1#5$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 353,
+        "raw": "[name=\"フェルディナンド\"]き、君は何をやってるんだ！？",
+        "type": "dialog",
+        "speaker": "フェルディナンド",
+        "content": "き、君は何をやってるんだ！？"
+    },
+    {
+        "id": 354,
+        "raw": "[name=\"フェルディナンド\"]いくつかランプが点滅し始めてるぞ！　このままでは制御を失いそうだ！",
+        "type": "dialog",
+        "speaker": "フェルディナンド",
+        "content": "いくつかランプが点滅し始めてるぞ！　このままでは制御を失いそうだ！"
+    },
+    {
+        "id": 355,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_890_1#4$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 356,
+        "raw": "[name=\"フェルディナンド\"]サリア！　まだなのか！",
+        "type": "dialog",
+        "speaker": "フェルディナンド",
+        "content": "サリア！　まだなのか！"
+    },
+    {
+        "id": 357,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 358,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 359,
+        "raw": "[PlaySound(key=\"$d_avg_energycannon\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_energycannon.mp3",
+        "volume": 1
+    },
+    {
+        "id": 360,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 361,
+        "raw": "[Blocker(a=0.5, r=255, g=255, b=255, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0.5,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 362,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 363,
+        "raw": "[StopSound(channel=\"a\", fadetime=2)]",
+        "type": "stop_sound",
+        "channel": "a",
+        "fadetime": 2
+    },
+    {
+        "id": 364,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 365,
+        "raw": "[charslot(slot = \"r\", posfrom=\"0,0\", posto=\"-350,0\", duration=0)]",
+        "type": "charslot",
+        "posfrom": "0,0",
+        "posto": "-350,0",
+        "duration": 0
+    },
+    {
+        "id": 366,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_890_1#1$1\", focus=\"none\")]",
+        "type": "charslot",
+        "focus": "none"
+    },
+    {
+        "id": 367,
+        "raw": "[PlaySound(key=\"$d_gen_doorclose\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_doorclose.mp3",
+        "volume": 1
+    },
+    {
+        "id": 368,
+        "raw": "[StopSound(channel=\"b\", fadetime=1)]",
+        "type": "stop_sound",
+        "channel": "b",
+        "fadetime": 1
+    },
+    {
+        "id": 369,
+        "raw": "[charslot(slot = \"l\", posfrom=\"0,0\", posto=\"400,0\", duration=0)]",
+        "type": "charslot",
+        "posfrom": "0,0",
+        "posto": "400,0",
+        "duration": 0
+    },
+    {
+        "id": 370,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_896_1#9$1\", focus=\"l\", duration=1.5, isblock=true)]",
+        "type": "charslot",
+        "focus": "l",
+        "duration": "1.5,",
+        "isblock": true
+    },
+    {
+        "id": 371,
+        "raw": "[name=\"サリア\"]ふぅ……",
+        "type": "dialog",
+        "speaker": "サリア",
+        "content": "ふぅ……"
+    },
+    {
+        "id": 372,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_896_1#1$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 373,
+        "raw": "[name=\"サリア\"]レバーを離せ。私がやろう。",
+        "type": "dialog",
+        "speaker": "サリア",
+        "content": "レバーを離せ。私がやろう。"
+    },
+    {
+        "id": 374,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_890_1#1$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 375,
+        "raw": "[name=\"フェルディナンド\"]……",
+        "type": "dialog",
+        "speaker": "フェルディナンド",
+        "content": "……"
+    },
+    {
+        "id": 376,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_896_1#10$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 377,
+        "raw": "[name=\"サリア\"]聞こえないのか？　レバーを離せ、フェルディナンド。",
+        "type": "dialog",
+        "speaker": "サリア",
+        "content": "聞こえないのか？　レバーを離せ、フェルディナンド。"
+    },
+    {
+        "id": 378,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_890_1#5$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 379,
+        "raw": "[name=\"フェルディナンド\"]あ、ああ……",
+        "type": "dialog",
+        "speaker": "フェルディナンド",
+        "content": "あ、ああ……"
+    },
+    {
+        "id": 380,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 381,
+        "raw": "[charslot(slot = \"r\", posfrom=\"-350,0\", posto=\"0,0\", duration=1)]",
+        "type": "charslot",
+        "posfrom": "-350,0",
+        "posto": "0,0",
+        "duration": 1
+    },
+    {
+        "id": 382,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 383,
+        "raw": "[PlaySound(key=\"$d_avg_fastener\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_fastener.mp3",
+        "volume": 1
+    },
+    {
+        "id": 384,
+        "raw": "[charslot(slot = \"l\", posfrom=\"400,0\", posto=\"0,0\", duration=2, isblock=true)]",
+        "type": "charslot",
+        "posfrom": "400,0",
+        "posto": "0,0",
+        "duration": "2,",
+        "isblock": true
+    },
+    {
+        "id": 385,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_890_1#7$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 386,
+        "raw": "[name=\"フェルディナンド\"]銃撃が止まったが……何をした？",
+        "type": "dialog",
+        "speaker": "フェルディナンド",
+        "content": "銃撃が止まったが……何をした？"
+    },
+    {
+        "id": 387,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_896_1#6$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 388,
+        "raw": "[name=\"サリア\"]お前のそんな顔を見るのは、何年ぶりだろうな。",
+        "type": "dialog",
+        "speaker": "サリア",
+        "content": "お前のそんな顔を見るのは、何年ぶりだろうな。"
+    },
+    {
+        "id": 389,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_896_1#1$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 390,
+        "raw": "[name=\"サリア\"]パルス装置――レイジアン工業の技術を解析して使用した。",
+        "type": "dialog",
+        "speaker": "サリア",
+        "content": "パルス装置――レイジアン工業の技術を解析して使用した。"
+    },
+    {
+        "id": 391,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_896_1#1$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 392,
+        "raw": "[name=\"サリア\"]本来は輸送ドローンを乗っ取るのに使おうと思っていたが、こんな形で役立つとはな。",
+        "type": "dialog",
+        "speaker": "サリア",
+        "content": "本来は輸送ドローンを乗っ取るのに使おうと思っていたが、こんな形で役立つとはな。"
+    },
+    {
+        "id": 393,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_890_1#1$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 394,
+        "raw": "[name=\"フェルディナンド\"]は、はは……はははは……",
+        "type": "dialog",
+        "speaker": "フェルディナンド",
+        "content": "は、はは……はははは……"
+    },
+    {
+        "id": 395,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_896_1#1$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 396,
+        "raw": "[name=\"サリア\"]体勢確認、準備を。",
+        "type": "dialog",
+        "speaker": "サリア",
+        "content": "体勢確認、準備を。"
+    },
+    {
+        "id": 397,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 398,
+        "raw": "[charslot(slot = \"r\", focus=\"none\")]",
+        "type": "charslot",
+        "focus": "none"
+    },
+    {
+        "id": 399,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 400,
+        "raw": "[CameraShake(duration=1, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "xstrength": "20,",
+        "ystrength": "20,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 401,
+        "raw": "[PlaySound(key=\"$d_gen_dooropen\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_dooropen.mp3",
+        "volume": 1
+    },
+    {
+        "id": 402,
+        "raw": "[PlaySound(key=\"$d_avg_snowstormflp\", volume=1, loop=true, channel=\"b\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_snowstormflp.mp3",
+        "volume": "1,",
+        "loop": "true,",
+        "channel": "b"
+    },
+    {
+        "id": 403,
+        "raw": "サリアが操作を行うと、飛行ユニットのハッチが開き、猛烈な風と冷たい空気が勢いよく流れ込んでくる。",
+        "type": "narration",
+        "content": "サリアが操作を行うと、飛行ユニットのハッチが開き、猛烈な風と冷たい空気が勢いよく流れ込んでくる。"
+    },
+    {
+        "id": 404,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 405,
+        "raw": "[PlaySound(key=\"$d_avg_windmagic\", volume=1, loop=true, channel=\"c\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_windmagic.mp3",
+        "volume": "1,",
+        "loop": "true,",
+        "channel": "c"
+    },
+    {
+        "id": 406,
+        "raw": "[StopSound(channel=\"c\", fadetime=1)]",
+        "type": "stop_sound",
+        "channel": "c",
+        "fadetime": 1
+    },
+    {
+        "id": 407,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_890_1#5$1\", posfrom=\"0,0\", posto=\"250,-20\", afrom=1, ato=1, duration=1)]",
+        "type": "charslot",
+        "posfrom": "0,0",
+        "posto": "250,-20",
+        "afrom": "1,",
+        "ato": "1,",
+        "duration": 1
+    },
+    {
+        "id": 408,
+        "raw": "[delay(time=0.3)]",
+        "type": "delay",
+        "time": 0.3
+    },
+    {
+        "id": 409,
+        "raw": "[PlaySound(key=\"$bodyfalldown3\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_bodyfalldown3.mp3",
+        "volume": 1
+    },
+    {
+        "id": 410,
+        "raw": "[charslot(slot = \"l\", posfrom=\"0,0\", posto=\"400,0\", duration=0.5)]",
+        "type": "charslot",
+        "posfrom": "0,0",
+        "posto": "400,0",
+        "duration": 0.5
+    },
+    {
+        "id": 411,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 412,
+        "raw": "[CameraShake(duration=0.5, xstrength=20, ystrength=20, vibrato=20, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "20,",
+        "ystrength": "20,",
+        "vibrato": "20,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 413,
+        "raw": "[charslot(slot = \"l\", posfrom=\"400,0\", posto=\"200,0\", duration=1)]",
+        "type": "charslot",
+        "posfrom": "400,0",
+        "posto": "200,0",
+        "duration": 1
+    },
+    {
+        "id": 414,
+        "raw": "[charslot(slot = \"r\", posfrom=\"250,-20\", posto=\"0,0\", afrom=1, ato=1, duration=1)]",
+        "type": "charslot",
+        "posfrom": "250,-20",
+        "posto": "0,0",
+        "afrom": "1,",
+        "ato": "1,",
+        "duration": 1
+    },
+    {
+        "id": 415,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 416,
+        "raw": "[charslot(slot = \"l\", posfrom=\"200,0\", posto=\"0,0\", duration=1)]",
+        "type": "charslot",
+        "posfrom": "200,0",
+        "posto": "0,0",
+        "duration": 1
+    },
+    {
+        "id": 417,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 418,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_890_1#7$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 419,
+        "raw": "[name=\"フェルディナンド\"]ッ……もっと着込んでくるべきだったな……",
+        "type": "dialog",
+        "speaker": "フェルディナンド",
+        "content": "ッ……もっと着込んでくるべきだったな……"
+    },
+    {
+        "id": 420,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_896_1#1$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 421,
+        "raw": "[name=\"サリア\"]マスクをしろ。少しはマシになるはずだ。",
+        "type": "dialog",
+        "speaker": "サリア",
+        "content": "マスクをしろ。少しはマシになるはずだ。"
+    },
+    {
+        "id": 422,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 423,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_890_1#7$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 424,
+        "raw": "[PlaySound(key=\"$d_avg_fastener\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_fastener.mp3",
+        "volume": 1
+    },
+    {
+        "id": 425,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_890_1#8$1\", duration=1)]",
+        "type": "charslot",
+        "duration": 1
+    },
+    {
+        "id": 426,
+        "raw": "[StopSound(channel=\"b\", fadetime=1)]",
+        "type": "stop_sound",
+        "channel": "b",
+        "fadetime": 1
+    },
+    {
+        "id": 427,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 428,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_890_1#8$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 429,
+        "raw": "[name=\"フェルディナンド\"]……正直なところ、君は思いつめた人間の如く飛び降りて、このラボの天井に穴でも開けるんじゃないかと思っていたよ。",
+        "type": "dialog",
+        "speaker": "フェルディナンド",
+        "content": "……正直なところ、君は思いつめた人間の如く飛び降りて、このラボの天井に穴でも開けるんじゃないかと思っていたよ。"
+    },
+    {
+        "id": 430,
+        "raw": "[name=\"フェルディナンド\"]だが実際にはその予想を裏切り、ドローンがこの飛行ユニットに近づけないようパルスを用いた挙句、巧みに空中ドッキングをやってのけた。",
+        "type": "dialog",
+        "speaker": "フェルディナンド",
+        "content": "だが実際にはその予想を裏切り、ドローンがこの飛行ユニットに近づけないようパルスを用いた挙句、巧みに空中ドッキングをやってのけた。"
+    },
+    {
+        "id": 431,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_896_1#5$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 432,
+        "raw": "[name=\"サリア\"]このラボはナスティが細心の注意を払って建造したものだ。彼女が私に対する備えをしていないとは思えなかったからな。",
+        "type": "dialog",
+        "speaker": "サリア",
+        "content": "このラボはナスティが細心の注意を払って建造したものだ。彼女が私に対する備えをしていないとは思えなかったからな。"
+    },
+    {
+        "id": 433,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_896_1#1$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 434,
+        "raw": "[name=\"サリア\"]それに加え、お前がこの高度の気圧に耐えられる保証もなかった。",
+        "type": "dialog",
+        "speaker": "サリア",
+        "content": "それに加え、お前がこの高度の気圧に耐えられる保証もなかった。"
+    },
+    {
+        "id": 435,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_890_1#8$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 436,
+        "raw": "[name=\"フェルディナンド\"]君は警備課を去ったあとただ時間を持て余していたというわけでもないらしいな。",
+        "type": "dialog",
+        "speaker": "フェルディナンド",
+        "content": "君は警備課を去ったあとただ時間を持て余していたというわけでもないらしいな。"
+    },
+    {
+        "id": 437,
+        "raw": "[name=\"フェルディナンド\"]この数年は何をしていたんだ？",
+        "type": "dialog",
+        "speaker": "フェルディナンド",
+        "content": "この数年は何をしていたんだ？"
+    },
+    {
+        "id": 438,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_896_1#1$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 439,
+        "raw": "[name=\"サリア\"]仕事だ。",
+        "type": "dialog",
+        "speaker": "サリア",
+        "content": "仕事だ。"
+    },
+    {
+        "id": 440,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_890_1#8$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 441,
+        "raw": "[name=\"フェルディナンド\"]フッ、仕事ね。",
+        "type": "dialog",
+        "speaker": "フェルディナンド",
+        "content": "フッ、仕事ね。"
+    },
+    {
+        "id": 442,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_896_1#1$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 443,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 444,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 445,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_896_1#9$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 446,
+        "raw": "[name=\"サリア\"]それで、お前はいつまでシートベルトを握りしめているつもりだ？",
+        "type": "dialog",
+        "speaker": "サリア",
+        "content": "それで、お前はいつまでシートベルトを握りしめているつもりだ？"
+    },
+    {
+        "id": 447,
+        "raw": "[name=\"サリア\"]本気でライン生命を救いたいのなら、その覚悟を見せろ。",
+        "type": "dialog",
+        "speaker": "サリア",
+        "content": "本気でライン生命を救いたいのなら、その覚悟を見せろ。"
+    },
+    {
+        "id": 448,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_890_1#8$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 449,
+        "raw": "[name=\"フェルディナンド\"]……",
+        "type": "dialog",
+        "speaker": "フェルディナンド",
+        "content": "……"
+    },
+    {
+        "id": 450,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_890_1#8$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 451,
+        "raw": "[name=\"フェルディナンド\"]私は君の部下ではないし、君自体もう警備課の主任ではない。",
+        "type": "dialog",
+        "speaker": "フェルディナンド",
+        "content": "私は君の部下ではないし、君自体もう警備課の主任ではない。"
+    },
+    {
+        "id": 452,
+        "raw": "[name=\"フェルディナンド\"]そういう物言いはやめてくれたまえ。",
+        "type": "dialog",
+        "speaker": "フェルディナンド",
+        "content": "そういう物言いはやめてくれたまえ。"
+    },
+    {
+        "id": 453,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_896_1#1$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 454,
+        "raw": "[name=\"サリア\"]立っていられるか？",
+        "type": "dialog",
+        "speaker": "サリア",
+        "content": "立っていられるか？"
+    },
+    {
+        "id": 455,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_890_1#8$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 456,
+        "raw": "[name=\"フェルディナンド\"]もちろんだとも！",
+        "type": "dialog",
+        "speaker": "フェルディナンド",
+        "content": "もちろんだとも！"
+    },
+    {
+        "id": 457,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_890_1#8$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 458,
+        "raw": "[name=\"フェルディナンド\"]……だが支えてもらえるとありがたい！",
+        "type": "dialog",
+        "speaker": "フェルディナンド",
+        "content": "……だが支えてもらえるとありがたい！"
+    },
+    {
+        "id": 459,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 460,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 461,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 462,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 463,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 464,
+        "raw": "[Background(image=\"38_g3_rhinelab_corridor\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "38_g3_rhinelab_corridor.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 465,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 466,
+        "raw": "[PlaySound(key=\"$d_avg_energywell\", volume=0.4, loop=true, channel=\"d\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_energywell.mp3",
+        "volume": "0.4,",
+        "loop": "true,",
+        "channel": "d"
+    },
+    {
+        "id": 467,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 468,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 469,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 470,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_890_1#5$1\", duration=1.5, isblock=true)]",
+        "type": "charslot",
+        "duration": "1.5,",
+        "isblock": true
+    },
+    {
+        "id": 471,
+        "raw": "[name=\"フェルディナンド\"]妙な感覚がするな……我々は本当に、空中にいるのか？",
+        "type": "dialog",
+        "speaker": "フェルディナンド",
+        "content": "妙な感覚がするな……我々は本当に、空中にいるのか？"
+    },
+    {
+        "id": 472,
+        "raw": "[name=\"フェルディナンド\"]「星のさや」はこのすぐ上にあるわけか……",
+        "type": "dialog",
+        "speaker": "フェルディナンド",
+        "content": "「星のさや」はこのすぐ上にあるわけか……"
+    },
+    {
+        "id": 473,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_896_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 474,
+        "raw": "[name=\"サリア\"]いや、まだ遠い。先ほど降りた時、飛行ユニットの高度計は5037メートルを示していたからな。阻隔層まであと1000メートルはある。",
+        "type": "dialog",
+        "speaker": "サリア",
+        "content": "いや、まだ遠い。先ほど降りた時、飛行ユニットの高度計は5037メートルを示していたからな。阻隔層まであと1000メートルはある。"
+    },
+    {
+        "id": 475,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_890_1#5$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 476,
+        "raw": "[name=\"フェルディナンド\"]……君は少しも驚いていないようだが。",
+        "type": "dialog",
+        "speaker": "フェルディナンド",
+        "content": "……君は少しも驚いていないようだが。"
+    },
+    {
+        "id": 477,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_890_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 478,
+        "raw": "[name=\"フェルディナンド\"]まあ、それもそうか。大学時代に飛行ユニットの操縦を習っていたと言ったしな。",
+        "type": "dialog",
+        "speaker": "フェルディナンド",
+        "content": "まあ、それもそうか。大学時代に飛行ユニットの操縦を習っていたと言ったしな。"
+    },
+    {
+        "id": 479,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_890_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 480,
+        "raw": "[name=\"フェルディナンド\"]しかし、軍はこれを絶対兵器と考えているようだが――この設備とモニター装置、そしてメーターを見るに……ナスティはこの場所をトリマウンツで最も素晴らしいラボとして建設したと見える。",
+        "type": "dialog",
+        "speaker": "フェルディナンド",
+        "content": "しかし、軍はこれを絶対兵器と考えているようだが――この設備とモニター装置、そしてメーターを見るに……ナスティはこの場所をトリマウンツで最も素晴らしいラボとして建設したと見える。"
+    },
+    {
+        "id": 481,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_890_1#7$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 482,
+        "raw": "[name=\"フェルディナンド\"]あるいはこれも壮大な実験の第一歩に過ぎないのかもしれないが。",
+        "type": "dialog",
+        "speaker": "フェルディナンド",
+        "content": "あるいはこれも壮大な実験の第一歩に過ぎないのかもしれないが。"
+    },
+    {
+        "id": 483,
+        "raw": "[name=\"フェルディナンド\"]あの魔族……どれだけ私に隠し事をしていたんだ？　てっきり彼女は深く関わっていないとばかり思っていたな。",
+        "type": "dialog",
+        "speaker": "フェルディナンド",
+        "content": "あの魔族……どれだけ私に隠し事をしていたんだ？　てっきり彼女は深く関わっていないとばかり思っていたな。"
+    },
+    {
+        "id": 484,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_890_1#6$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 485,
+        "raw": "[name=\"フェルディナンド\"]――サリア。軍の輸送機が見えたぞ。想像よりも到着が早い。",
+        "type": "dialog",
+        "speaker": "フェルディナンド",
+        "content": "――サリア。軍の輸送機が見えたぞ。想像よりも到着が早い。"
+    },
+    {
+        "id": 486,
+        "raw": "[name=\"フェルディナンド\"]こちらに接近してくる……すぐにも乗り込んでくるぞ。奴らに乗っ取られる前に……",
+        "type": "dialog",
+        "speaker": "フェルディナンド",
+        "content": "こちらに接近してくる……すぐにも乗り込んでくるぞ。奴らに乗っ取られる前に……"
+    },
+    {
+        "id": 487,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 488,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 489,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_890_1#5$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 490,
+        "raw": "[name=\"フェルディナンド\"]サリア？",
+        "type": "dialog",
+        "speaker": "フェルディナンド",
+        "content": "サリア？"
+    },
+    {
+        "id": 491,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 492,
+        "raw": "彼は振り返り、元警備課主任がすでに円形の廊下の奥へと向かっていたことに気付いた。",
+        "type": "narration",
+        "content": "彼は振り返り、元警備課主任がすでに円形の廊下の奥へと向かっていたことに気付いた。"
+    },
+    {
+        "id": 493,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_890_1#5$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 494,
+        "raw": "[name=\"フェルディナンド\"]……",
+        "type": "dialog",
+        "speaker": "フェルディナンド",
+        "content": "……"
+    },
+    {
+        "id": 495,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_890_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 496,
+        "raw": "[name=\"フェルディナンド\"]わかったよ、もう好きにしろ。",
+        "type": "dialog",
+        "speaker": "フェルディナンド",
+        "content": "わかったよ、もう好きにしろ。"
+    },
+    {
+        "id": 497,
+        "raw": "[name=\"フェルディナンド\"]だが戻ったら、必ずヤラときっちり話をつけさせてもらうぞ。",
+        "type": "dialog",
+        "speaker": "フェルディナンド",
+        "content": "だが戻ったら、必ずヤラときっちり話をつけさせてもらうぞ。"
+    },
+    {
+        "id": 498,
+        "raw": "[name=\"フェルディナンド\"]ストックオプションを二倍にしてもらわないと割に合わん。",
+        "type": "dialog",
+        "speaker": "フェルディナンド",
+        "content": "ストックオプションを二倍にしてもらわないと割に合わん。"
+    },
+    {
+        "id": 499,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 500,
+        "raw": "[StopSound(channel=\"d\", fadetime=2)]",
+        "type": "stop_sound",
+        "channel": "d",
+        "fadetime": 2
+    },
+    {
+        "id": 501,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 502,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 503,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 504,
+        "raw": "[Background(image=\"bg_cave_2\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_cave_2.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 505,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 506,
+        "raw": "[PlaySound(key=\"$d_avg_cavewaterdrop\", volume=1, loop=true, channel=\"a\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_cavewaterdrop.mp3",
+        "volume": "1,",
+        "loop": "true,",
+        "channel": "a"
+    },
+    {
+        "id": 507,
+        "raw": "[charslot(slot = \"m\", name = \"char_003_kalts_1#1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 508,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 509,
+        "raw": "[name=\"ケルシー\"]……",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "……"
+    },
+    {
+        "id": 510,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 511,
+        "raw": "[charslot(slot = \"m\", focus=\"none\")]",
+        "type": "charslot",
+        "focus": "none"
+    },
+    {
+        "id": 512,
+        "raw": "[Decision(options=\"......\",values=\"1\")]",
+        "type": "decision",
+        "options": "......",
+        "values": "1"
+    },
+    {
+        "id": 513,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 514,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 515,
+        "raw": "[charslot(duration=1.5, isblock=true)]",
+        "type": "charslot",
+        "duration": "1.5,",
+        "isblock": true
+    },
+    {
+        "id": 516,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 517,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 518,
+        "raw": "[BackgroundTween(xScaleFrom=1, yScaleFrom=1, xScaleTo=1.4, yScaleTo=1.4, duration=40)]",
+        "type": "background_tween",
+        "xScaleFrom": "1,",
+        "yScaleFrom": "1,",
+        "xScaleTo": "1.4,",
+        "yScaleTo": "1.4,",
+        "duration": 40
+    },
+    {
+        "id": 519,
+        "raw": "あなたはケルシーについて歩いていた。彼女のこれほど真剣な表情を見るのは珍しいことだ。",
+        "type": "narration",
+        "content": "あなたはケルシーについて歩いていた。彼女のこれほど真剣な表情を見るのは珍しいことだ。"
+    },
+    {
+        "id": 520,
+        "raw": "あなたはひそかに、彼女の後ろ姿を観察し始めた。こうして静かに眺める機会は滅多にないと気付いたのだ。",
+        "type": "narration",
+        "content": "あなたはひそかに、彼女の後ろ姿を観察し始めた。こうして静かに眺める機会は滅多にないと気付いたのだ。"
+    },
+    {
+        "id": 521,
+        "raw": "あなたの不安は緊張に変わっていた。ケルシーが焦りや不安を見せることはほとんどない。そうなった時の結果がどうなるかは、言うまでもないことだった。",
+        "type": "narration",
+        "content": "あなたの不安は緊張に変わっていた。ケルシーが焦りや不安を見せることはほとんどない。そうなった時の結果がどうなるかは、言うまでもないことだった。"
+    },
+    {
+        "id": 522,
+        "raw": "あなたは口を開いた。",
+        "type": "narration",
+        "content": "あなたは口を開いた。"
+    },
+    {
+        "id": 523,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 524,
+        "raw": "[charslot(slot = \"m\", focus=\"none\")]",
+        "type": "charslot",
+        "focus": "none"
+    },
+    {
+        "id": 525,
+        "raw": "[Decision(options=\"Mon3trはどうした？;ブリキは何を求めているんだ？;ホルハイヤの攻撃でケガはしなかったか？\",values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "Mon3trはどうした？;ブリキは何を求めているんだ？;ホルハイヤの攻撃でケガはしなかったか？",
+        "values": "1;2;3"
+    },
+    {
+        "id": 526,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 527,
+        "raw": "[name=\"ケルシー\"]ドクター。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "ドクター。"
+    },
+    {
+        "id": 528,
+        "raw": "[name=\"ケルシー\"]私の様子が平時と違っていても、それは別の要因から来るものだ。この先にはそれほどの危険はないだろうし、緊張する必要はない。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "私の様子が平時と違っていても、それは別の要因から来るものだ。この先にはそれほどの危険はないだろうし、緊張する必要はない。"
+    },
+    {
+        "id": 529,
+        "raw": "[name=\"ケルシー\"]ただ……",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "ただ……"
+    },
+    {
+        "id": 530,
+        "raw": "[name=\"ケルシー\"]君はこれまで、私に多くの質問をしてきたが、私はそれに正面から答えることはしなかった。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "君はこれまで、私に多くの質問をしてきたが、私はそれに正面から答えることはしなかった。"
+    },
+    {
+        "id": 531,
+        "raw": "[name=\"ケルシー\"]あるいは今日、君はその答えを得るのかもしれない。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "あるいは今日、君はその答えを得るのかもしれない。"
+    },
+    {
+        "id": 532,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 533,
+        "raw": "[StopSound(channel=\"a\", fadetime=1)]",
+        "type": "stop_sound",
+        "channel": "a",
+        "fadetime": 1
+    },
+    {
+        "id": 534,
+        "raw": "[stopmusic(fadetime=1)]",
+        "type": "stop_music",
+        "fadetime": 1
+    },
+    {
+        "id": 535,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 536,
+        "raw": "[BackgroundTween(xScaleTo=1.5, yScaleTo=1.5, duration=3)]",
+        "type": "background_tween",
+        "xScaleTo": "1.5,",
+        "yScaleTo": "1.5,",
+        "duration": 3
+    },
+    {
+        "id": 537,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 538,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 539,
+        "raw": "[Background(image=\"38_g9_storage_activated\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "38_g9_storage_activated.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 540,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 541,
+        "raw": "[playMusic(intro=\"$mist_intro\", key=\"$mist_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta1_180603/m_dia_mist_intro.mp3",
+        "key": "sound_beta_2/music/beta1_180603/m_dia_mist_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 542,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=4, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "4,",
+        "block": true
+    },
+    {
+        "id": 543,
+        "raw": "[charslot(slot = \"m\", focus=\"none\")]",
+        "type": "charslot",
+        "focus": "none"
+    },
+    {
+        "id": 544,
+        "raw": "[Decision(options=\"これは――石棺！？;……！;こんなにたくさん？　どうして……？\",values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "これは――石棺！？;……！;こんなにたくさん？　どうして……？",
+        "values": "1;2;3"
+    },
+    {
+        "id": 545,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 546,
+        "raw": "[charslot(slot = \"m\", name = \"char_003_kalts_1#1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 547,
+        "raw": "[name=\"ケルシー\"]サリアが私に接触し、クリステンについて言及した時から、彼女がどんな手段を用いてでもそうするつもりなのだろうということは想定していた。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "サリアが私に接触し、クリステンについて言及した時から、彼女がどんな手段を用いてでもそうするつもりなのだろうということは想定していた。"
+    },
+    {
+        "id": 548,
+        "raw": "[name=\"ケルシー\"]しかし、空への挑戦は、人々の予想をはるかに上回る危険を伴うものだ。ゆえにサリアでさえ、その全容は知らなかった。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "しかし、空への挑戦は、人々の予想をはるかに上回る危険を伴うものだ。ゆえにサリアでさえ、その全容は知らなかった。"
+    },
+    {
+        "id": 549,
+        "raw": "[name=\"ケルシー\"]トリマウンツでの事件が起き、フィリオプシスとサイレンスが一見無関係に思える事件に巻き込まれるまでは――",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "トリマウンツでの事件が起き、フィリオプシスとサイレンスが一見無関係に思える事件に巻き込まれるまでは――"
+    },
+    {
+        "id": 550,
+        "raw": "[name=\"ケルシー\"]クリステンが再び空に挑まんとしていることは予想をしていても、今の状況に至ることまでは予測できていなかったと認めざるを得まい。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "クリステンが再び空に挑まんとしていることは予想をしていても、今の状況に至ることまでは予測できていなかったと認めざるを得まい。"
+    },
+    {
+        "id": 551,
+        "raw": "[name=\"ケルシー\"]事態が発展し、エネルギーウェルの規模や空へ浮かび上がるフォーカスジェネレーター、そして……ローキャン・ウィリアムズが試みている研究をこの目で見るにつれ――",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "事態が発展し、エネルギーウェルの規模や空へ浮かび上がるフォーカスジェネレーター、そして……ローキャン・ウィリアムズが試みている研究をこの目で見るにつれ――"
+    },
+    {
+        "id": 552,
+        "raw": "[name=\"ケルシー\"]私はようやく気付いた。クリステン・ライトの望みは本来ならば実現不可能であり、何か外部の力が彼女を助け、とてつもない影響を与えていたのだろうということに。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "私はようやく気付いた。クリステン・ライトの望みは本来ならば実現不可能であり、何か外部の力が彼女を助け、とてつもない影響を与えていたのだろうということに。"
+    },
+    {
+        "id": 553,
+        "raw": "[name=\"ケルシー\"]若き天才は軍の資金と人脈を用いて両親が残した研究を続け、ライン生命という殻で全員を欺いて、彼女の人生において最も確固たる望みをまっすぐに目指し続けていた。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "若き天才は軍の資金と人脈を用いて両親が残した研究を続け、ライン生命という殻で全員を欺いて、彼女の人生において最も確固たる望みをまっすぐに目指し続けていた。"
+    },
+    {
+        "id": 554,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 555,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 556,
+        "raw": "[charslot(slot = \"m\", name = \"char_003_kalts_1#3\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 557,
+        "raw": "[name=\"ケルシー\"]彼女は空を引き裂くつもりなんだ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "彼女は空を引き裂くつもりなんだ。"
+    },
+    {
+        "id": 558,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 559,
+        "raw": "[charslot(slot = \"m\", focus=\"none\")]",
+        "type": "charslot",
+        "focus": "none"
+    },
+    {
+        "id": 560,
+        "raw": "[Decision(options=\"そこまでは予測がついたが、そのあとは？;彼女の一存でこれだけ多くのことが起きるのは許せない。\",values=\"1;2\")]",
+        "type": "decision",
+        "options": "そこまでは予測がついたが、そのあとは？;彼女の一存でこれだけ多くのことが起きるのは許せない。",
+        "values": "1;2"
+    },
+    {
+        "id": 561,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 562,
+        "raw": "[charslot(slot = \"m\", name = \"char_003_kalts_1#1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 563,
+        "raw": "[name=\"ケルシー\"]彼女はただその真実を目にしようと、そして全人類にそれを目撃させようとしているだけだ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "彼女はただその真実を目にしようと、そして全人類にそれを目撃させようとしているだけだ。"
+    },
+    {
+        "id": 564,
+        "raw": "[name=\"ケルシー\"]そのあとは……視野は広がりを見せ、科学技術は急速に発展し、広がる空は可能性へと変化して、戦争の形さえも一変することになるだろう。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "そのあとは……視野は広がりを見せ、科学技術は急速に発展し、広がる空は可能性へと変化して、戦争の形さえも一変することになるだろう。"
+    },
+    {
+        "id": 565,
+        "raw": "[name=\"ケルシー\"]ほかの都市へ到達するのに要する時間は数十分の一に短縮されるかもしれないし、貴重だった空を飛ぶ乗り物は一夜にして普通の交通手段になるかもしれない。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "ほかの都市へ到達するのに要する時間は数十分の一に短縮されるかもしれないし、貴重だった空を飛ぶ乗り物は一夜にして普通の交通手段になるかもしれない。"
+    },
+    {
+        "id": 566,
+        "raw": "[name=\"ケルシー\"]だが、クリステンはそうしたすべてを、次の世代に任せることを選んだ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "だが、クリステンはそうしたすべてを、次の世代に任せることを選んだ。"
+    },
+    {
+        "id": 567,
+        "raw": "[charslot(slot = \"m\", name = \"char_003_kalts_1#3\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 568,
+        "raw": "[name=\"ケルシー\"]彼女はこの問題を損得の観点で考えたことがない。彼女個人の損益についても、全人類の損益についても同じだ。それがもたらす危険すらも無視している。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "彼女はこの問題を損得の観点で考えたことがない。彼女個人の損益についても、全人類の損益についても同じだ。それがもたらす危険すらも無視している。"
+    },
+    {
+        "id": 569,
+        "raw": "[name=\"ケルシー\"]……彼女の行動原理について、可能性はもう一つある。幼くして両親を亡くし、疑いの目と罵りを向けられながら成長したクリステンは、ただ世の人々にこの真実を証明したいだけなのかもしれない。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "……彼女の行動原理について、可能性はもう一つある。幼くして両親を亡くし、疑いの目と罵りを向けられながら成長したクリステンは、ただ世の人々にこの真実を証明したいだけなのかもしれない。"
+    },
+    {
+        "id": 570,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 571,
+        "raw": "[Predicate(references=\"2\")]",
+        "type": "predicate",
+        "references": "2"
+    },
+    {
+        "id": 572,
+        "raw": "[charslot(slot = \"m\", name = \"char_003_kalts_1#3\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 573,
+        "raw": "[name=\"ケルシー\"]……それはまさに、クリステンの学友であり、彼女の理想を初めに支持した人間として、サリアが考えていることでもあるかもしれないな……",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "……それはまさに、クリステンの学友であり、彼女の理想を初めに支持した人間として、サリアが考えていることでもあるかもしれないな……"
+    },
+    {
+        "id": 574,
+        "raw": "[name=\"ケルシー\"]クリステン・ライトがどれほど悲惨な過去と純粋な理想を持っていようとも、そしてこれまでに起きた多くのことが彼女自身の手によるものではなかったとしても……",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "クリステン・ライトがどれほど悲惨な過去と純粋な理想を持っていようとも、そしてこれまでに起きた多くのことが彼女自身の手によるものではなかったとしても……"
+    },
+    {
+        "id": 575,
+        "raw": "[name=\"ケルシー\"]その責任から逃れる権利など、彼女にはない。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "その責任から逃れる権利など、彼女にはない。"
+    },
+    {
+        "id": 576,
+        "raw": "[name=\"ケルシー\"]イフリータとサイレンスの身に起きたことを思えば、ライン生命統括が利己的な人物であることは疑いの余地がないことだ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "イフリータとサイレンスの身に起きたことを思えば、ライン生命統括が利己的な人物であることは疑いの余地がないことだ。"
+    },
+    {
+        "id": 577,
+        "raw": "[name=\"ケルシー\"]サリアはクリステンがそうした責任を負うことを望み、常に空へと向けている視線をライン生命の人間一人一人に向けるよう説得したいと思っている……",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "サリアはクリステンがそうした責任を負うことを望み、常に空へと向けている視線をライン生命の人間一人一人に向けるよう説得したいと思っている……"
+    },
+    {
+        "id": 578,
+        "raw": "[name=\"ケルシー\"]本来であれば、サリアはクリステンに代わって理想を担う最初の人間となるはずだった。だがライン生命では、道徳と倫理の不一致から、すべてが制御不能になってしまった。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "本来であれば、サリアはクリステンに代わって理想を担う最初の人間となるはずだった。だがライン生命では、道徳と倫理の不一致から、すべてが制御不能になってしまった。"
+    },
+    {
+        "id": 579,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 580,
+        "raw": "[charslot(slot = \"m\", name = \"char_003_kalts_1#1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 581,
+        "raw": "[name=\"ケルシー\"]どうあれ、サリアも私も一歩遅かったんだ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "どうあれ、サリアも私も一歩遅かったんだ。"
+    },
+    {
+        "id": 582,
+        "raw": "[name=\"ケルシー\"]現在のテラの源石技術を鑑みるに、空を切り裂くためには、テラ全土で長期にわたって作られる電力すべてに等しい力が必要となる。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "現在のテラの源石技術を鑑みるに、空を切り裂くためには、テラ全土で長期にわたって作られる電力すべてに等しい力が必要となる。"
+    },
+    {
+        "id": 583,
+        "raw": "[name=\"ケルシー\"]さらにはそれすらも単なる数値上の比較でしかなく、そこまで膨大なエネルギーを一箇所に集められる者などいない。ましてや、それを何ら支障なく空へと打ち上げられる者などな。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "さらにはそれすらも単なる数値上の比較でしかなく、そこまで膨大なエネルギーを一箇所に集められる者などいない。ましてや、それを何ら支障なく空へと打ち上げられる者などな。"
+    },
+    {
+        "id": 584,
+        "raw": "[name=\"ケルシー\"]だが……チェルノボーグの中枢区画では、一つの石棺を巡り、多くのことが起きたのを覚えているか？",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "だが……チェルノボーグの中枢区画では、一つの石棺を巡り、多くのことが起きたのを覚えているか？"
+    },
+    {
+        "id": 585,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 586,
+        "raw": "[charslot(slot = \"m\", focus=\"none\")]",
+        "type": "charslot",
+        "focus": "none"
+    },
+    {
+        "id": 587,
+        "raw": "[Decision(options=\"忘れはしない。;……;忘れるわけにはいかない。\",values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "忘れはしない。;……;忘れるわけにはいかない。",
+        "values": "1;2;3"
+    },
+    {
+        "id": 588,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 589,
+        "raw": "[charslot(slot = \"m\", name = \"char_003_kalts_1#1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 590,
+        "raw": "[name=\"ケルシー\"]当時のウルサスにおける浅い研究によってすら、石棺からは相当のエネルギーを得ることができた。となれば、目の前にあるものは……クリステンの狂った理想を実現するには十分だろう。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "当時のウルサスにおける浅い研究によってすら、石棺からは相当のエネルギーを得ることができた。となれば、目の前にあるものは……クリステンの狂った理想を実現するには十分だろう。"
+    },
+    {
+        "id": 591,
+        "raw": "[name=\"ケルシー\"]とはいえ彼女は軍やマイレンダー基金にこの情報を共有することはしなかった。これは国家機関の理性を失わせるに足るものであり、彼らをすぐさま新たな覇者にさせることすら可能だろうからな。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "とはいえ彼女は軍やマイレンダー基金にこの情報を共有することはしなかった。これは国家機関の理性を失わせるに足るものであり、彼らをすぐさま新たな覇者にさせることすら可能だろうからな。"
+    },
+    {
+        "id": 592,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 593,
+        "raw": "[charslot(slot = \"m\", focus=\"none\")]",
+        "type": "charslot",
+        "focus": "none"
+    },
+    {
+        "id": 594,
+        "raw": "[Decision(options=\"……この場所は何なんだ？;クリステンはどうやってここを見つけた？;この石棺は……\",values=\"1;2;3\")]",
+        "type": "decision",
+        "options": "……この場所は何なんだ？;クリステンはどうやってここを見つけた？;この石棺は……",
+        "values": "1;2;3"
+    },
+    {
+        "id": 595,
+        "raw": "[Predicate(references=\"1;2;3\")]",
+        "type": "predicate",
+        "references": "1;2;3"
+    },
+    {
+        "id": 596,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 597,
+        "raw": "[PlaySound(key=\"$d_avg_collapse\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_collapse.mp3",
+        "volume": 1
+    },
+    {
+        "id": 598,
+        "raw": "[CameraShake(duration=-1, xstrength=10, ystrength=25, vibrato=50, randomness=90, fadeout=false, block=false)]",
+        "type": "camera_shake",
+        "duration": "-1,",
+        "xstrength": "10,",
+        "ystrength": "25,",
+        "vibrato": "50,",
+        "randomness": "90,",
+        "fadeout": "false,",
+        "block": false
+    },
+    {
+        "id": 599,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 600,
+        "raw": "[charslot(slot = \"m\", focus=\"none\")]",
+        "type": "charslot",
+        "focus": "none"
+    },
+    {
+        "id": 601,
+        "raw": "[Decision(options=\"何だ？;何が起きてる……？\",values=\"1;2\")]",
+        "type": "decision",
+        "options": "何だ？;何が起きてる……？",
+        "values": "1;2"
+    },
+    {
+        "id": 602,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 603,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 604,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=4, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "4,",
+        "block": true
+    },
+    {
+        "id": 605,
+        "raw": "[Background(image=\"bg_white\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_white.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 606,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 607,
+        "raw": "[CameraShake(duration=0.01, xstrength=0, ystrength=0, vibrato=0, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.01,",
+        "xstrength": "0,",
+        "ystrength": "0,",
+        "vibrato": "0,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 608,
+        "raw": "[charslot(slot = \"m\", name = \"char_003_kalts_1#1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 609,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 610,
+        "raw": "[name=\"ケルシー\"]……Dr.{@nickname}。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "……Dr.{@nickname}。"
+    },
+    {
+        "id": 611,
+        "raw": "[name=\"ケルシー\"]今から言うことを覚えておいてくれ。そして、できれば、ロドスでの日々を思い出しながらこのあとの時間を過ごしてほしい。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "今から言うことを覚えておいてくれ。そして、できれば、ロドスでの日々を思い出しながらこのあとの時間を過ごしてほしい。"
+    },
+    {
+        "id": 612,
+        "raw": "[name=\"ケルシー\"]心を強く持つんだ。",
+        "type": "dialog",
+        "speaker": "ケルシー",
+        "content": "心を強く持つんだ。"
+    },
+    {
+        "id": 613,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 614,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 615,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 616,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 617,
+        "raw": "強烈な光が身体を通り抜け、あなたは不思議な懐かしさを感じた。",
+        "type": "narration",
+        "content": "強烈な光が身体を通り抜け、あなたは不思議な懐かしさを感じた。"
+    },
+    {
+        "id": 618,
+        "raw": "何の前触れもなく、あなたは目の前のものから、あの光景を思い出した。今でも忘れられない、あの光景を。",
+        "type": "narration",
+        "content": "何の前触れもなく、あなたは目の前のものから、あの光景を思い出した。今でも忘れられない、あの光景を。"
+    },
+    {
+        "id": 619,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 620,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 621,
+        "raw": "[PlayMusic(intro=\"$ekg_loop\", key=\"$ekg_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/dialog/d_avg_ekg_loop.mp3",
+        "key": "sound_beta_2/dialog/d_avg_ekg_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 622,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 623,
+        "raw": "石棺……そして冷たい光。",
+        "type": "narration",
+        "content": "石棺……そして冷たい光。"
+    },
+    {
+        "id": 624,
+        "raw": "アーミヤに手を握られて、何一つ思い出せないまま、チェルノボーグで渦巻く事変に巻き込まれたあの時が、すべての始まりだった。",
+        "type": "narration",
+        "content": "アーミヤに手を握られて、何一つ思い出せないまま、チェルノボーグで渦巻く事変に巻き込まれたあの時が、すべての始まりだった。"
+    },
+    {
+        "id": 625,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 626,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 627,
+        "raw": "あれから長い時が経ったが……何か、もっとはるか昔に抱いていた感情が、濃霧のような記憶の中に広がっていく。",
+        "type": "narration",
+        "content": "あれから長い時が経ったが……何か、もっとはるか昔に抱いていた感情が、濃霧のような記憶の中に広がっていく。"
+    },
+    {
+        "id": 628,
+        "raw": "それはあなたに悲しみを、懐かしさを、不安を与え……あなたのものであるにもかかわらず、近寄りがたいものだった。",
+        "type": "narration",
+        "content": "それはあなたに悲しみを、懐かしさを、不安を与え……あなたのものであるにもかかわらず、近寄りがたいものだった。"
+    },
+    {
+        "id": 629,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 630,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 631,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 632,
+        "raw": "あなたは必死に心を落ち着かせる。この静かな騒音とまばゆい暗闇を前に、言葉にならない極めて短い苦しみを経て、視界が戻った。",
+        "type": "narration",
+        "content": "あなたは必死に心を落ち着かせる。この静かな騒音とまばゆい暗闇を前に、言葉にならない極めて短い苦しみを経て、視界が戻った。"
+    },
+    {
+        "id": 633,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 634,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 635,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 636,
+        "raw": "[Background(image=\"38_g8_storage\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "38_g8_storage.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 637,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 638,
+        "raw": "[playMusic(intro=\"$act17_intro\", key=\"$act17_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act17d0d0/m_sys_act17_intro.mp3",
+        "key": "sound_beta_2/music/act17d0d0/m_sys_act17_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 639,
+        "raw": "[bgeffect(name=\"$eb_dim_openeye\",layer=1)]",
+        "type": "bg_effect",
+        "name": "$eb_dim_openeye",
+        "layer": 1
+    },
+    {
+        "id": 640,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 641,
+        "raw": "[delay(time=3)]",
+        "type": "delay",
+        "time": 3
+    },
+    {
+        "id": 642,
+        "raw": "驚きのあまり、声が出そうになる。",
+        "type": "narration",
+        "content": "驚きのあまり、声が出そうになる。"
+    },
+    {
+        "id": 643,
+        "raw": "しかしその未知なる何かはあなたに先んじて、目覚めの声をホールに響き渡らせた。",
+        "type": "narration",
+        "content": "しかしその未知なる何かはあなたに先んじて、目覚めの声をホールに響き渡らせた。"
+    },
+    {
+        "id": 644,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 645,
+        "raw": "[PlaySound(key=\"$d_avg_energybody\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_energybody.mp3",
+        "volume": 1
+    },
+    {
+        "id": 646,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 647,
+        "raw": "[name=\"？？？\"]（未知の言語）……信じがたいことだ。",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "（未知の言語）……信じがたいことだ。"
+    },
+    {
+        "id": 648,
+        "raw": "[name=\"？？？\"]（未知の言語）これほど長い時間を経て、なお……同僚と……そのしもべを目にすることができるとは。",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "（未知の言語）これほど長い時間を経て、なお……同僚と……そのしもべを目にすることができるとは。"
+    },
+    {
+        "id": 649,
+        "raw": "[name=\"？？？\"]（未知の言語）まったくもって……信じがたい、ことだ……",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "（未知の言語）まったくもって……信じがたい、ことだ……"
+    },
+    {
+        "id": 650,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 651,
+        "raw": "[Decision(options=\"その言語……なぜ理解できるのだろう？\",values=\"1\")]",
+        "type": "decision",
+        "options": "その言語……なぜ理解できるのだろう？",
+        "values": "1"
+    },
+    {
+        "id": 652,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 653,
+        "raw": "[Decision(options=\"君は何者だ！？\",values=\"1\")]",
+        "type": "decision",
+        "options": "君は何者だ！？",
+        "values": "1"
+    },
+    {
+        "id": 654,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 655,
+        "raw": "[name=\"？？？\"]（未知の言語）僕が誰かを聞いているのか？",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "（未知の言語）僕が誰かを聞いているのか？"
+    },
+    {
+        "id": 656,
+        "raw": "[name=\"？？？\"]（標準的なクルビア語）僕が誰かを？",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "（標準的なクルビア語）僕が誰かを？"
+    },
+    {
+        "id": 657,
+        "raw": "[name=\"？？？\"]……なぜテラの言語を用いているんだ？　それに、僕の存在を知らないのか？",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "……なぜテラの言語を用いているんだ？　それに、僕の存在を知らないのか？"
+    },
+    {
+        "id": 658,
+        "raw": "[name=\"？？？\"]何が起きている？　主人の代わりに答えてくれ、しもべ――AMa-10よ。",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "何が起きている？　主人の代わりに答えてくれ、しもべ――AMa-10よ。"
+    },
+    {
+        "id": 659,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 660,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 661,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 662,
+        "raw": "[charslot(slot = \"m\", name = \"char_003_kalts_1#1\", duration=2, isblock=true)]",
+        "type": "charslot",
+        "duration": "2,",
+        "isblock": true
+    },
+    {
+        "id": 663,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 664,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 665,
+        "raw": "[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 666,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 667,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 668,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 669,
+        "raw": "[Image]",
+        "type": "image"
+    }
+]

@@ -1,0 +1,3935 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")]",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK"
+    },
+    {
+        "id": 2,
+        "raw": "[stopmusic]",
+        "type": "stop_music"
+    },
+    {
+        "id": 3,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 4,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 5,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 6,
+        "raw": "[Background(image=\"bg_black\",screenadapt=\"showall\")]",
+        "type": "background",
+        "image": "bg_black.png",
+        "screenadapt": "showall"
+    },
+    {
+        "id": 7,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 8,
+        "raw": "[PlayMusic(intro=\"$mist_intro\", key=\"$mist_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta1_180603/m_dia_mist_intro.mp3",
+        "key": "sound_beta_2/music/beta1_180603/m_dia_mist_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 9,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 10,
+        "raw": "[Delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 11,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 12,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 13,
+        "raw": "[interlude(maskid = \"ui_cutin_mask_horizon\", style = 1, size = \"1500, 520\",offset = \"20,0\", channel = 2)]",
+        "type": "interlude"
+    },
+    {
+        "id": 14,
+        "raw": "[interlude(channel = 2, type = 2, name = \"bg_battlefield\", afrom = 0, ato = 1, aduration = 3, sfrom = \"1.2,1.2\", sto = \"1.2,1.2\", sduration = 0,block=true)]",
+        "type": "interlude",
+        "block": true
+    },
+    {
+        "id": 15,
+        "raw": "[interlude(channel = 2, type = 2, name = \"bg_battlefield\", pfrom=\"0,0\",pto=\"-80,0\", duration =30,block=false)]",
+        "type": "interlude",
+        "pfrom": "0,0",
+        "pto": "-80,0",
+        "block": false
+    },
+    {
+        "id": 16,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 17,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"How absurd it is that we're chasing illusions on this battlefield full of bones, blood, smoke and mud.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "How absurd it is that we're chasing illusions on this battlefield full of bones, blood, smoke and mud.",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nThe illusions are our only clue. Like the Lich said, the drifting fragments of history are the tracks it left behind.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nThe illusions are our only clue. Like the Lich said, the drifting fragments of history are the tracks it left behind."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nWe passed through many ruins, some long-forgotten, some never remembered to begin with.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nWe passed through many ruins, some long-forgotten, some never remembered to begin with."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nSoon, these sights will be gone too. Many times we barely arrived in time to grasp the last traces.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nSoon, these sights will be gone too. Many times we barely arrived in time to grasp the last traces."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": 23,
+        "raw": "[interlude(channel = 2, type = 1, slot = \"m\", offset = \"170,0\", name = \"cutin_char_3\",sfrom = \"0.7,0.7\", sto = \"0.7,0.7\",  aduration = 2,block=false)]",
+        "type": "interlude",
+        "block": false
+    },
+    {
+        "id": 24,
+        "raw": "[interlude(channel = 2, type = 1, slot = \"m\", pfrom = \"170,0\", pto = \"120,0\", duration = 40)]",
+        "type": "interlude"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"We found seventeen Vampire War Arts Circles.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "We found seventeen Vampire War Arts Circles.",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nThere are maybe dozens more... maybe even hundreds more of them on this battlefield.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nThere are maybe dozens more... maybe even hundreds more of them on this battlefield."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nThey all appeared within the past week, a scary level of efficiency.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nThey all appeared within the past week, a scary level of efficiency."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"We found troop tracks on two of them, but the marks indicated that the troops were only on maintenance or patrol missions.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "We found troop tracks on two of them, but the marks indicated that the troops were only on maintenance or patrol missions.",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nI doubt there's much point to destroying the Arts Circles. They could easily replace them with new ones.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nI doubt there's much point to destroying the Arts Circles. They could easily replace them with new ones."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nIt's only that much more important to take control of that thing, whatever it is.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nIt's only that much more important to take control of that thing, whatever it is."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": 33,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 34,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 35,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 36,
+        "raw": "[interlude(channel = 2,clear = true)]",
+        "type": "interlude"
+    },
+    {
+        "id": 37,
+        "raw": "[Background(image=\"bg_cherunder_2\", screenadapt=\"coverall\", block=true)]",
+        "type": "background",
+        "image": "bg_cherunder_2.png",
+        "screenadapt": "coverall",
+        "block": true
+    },
+    {
+        "id": 38,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 39,
+        "raw": "[playsound(key=\"$d_avg_sewer\",volume=0.4)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_sewer.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 40,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 41,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 42,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3"
+    },
+    {
+        "id": 43,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#4$1\",duration=0.7)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4088_hodrer_1#4$1.png",
+        "duration": 0.7
+    },
+    {
+        "id": 44,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 45,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#4$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4088_hodrer_1#4$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 46,
+        "raw": "[name=\"Hoederer\"]This place is completely ruined.",
+        "type": "dialog",
+        "speaker": "Hoederer",
+        "content": "This place is completely ruined."
+    },
+    {
+        "id": 47,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4087_ines_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4087_ines_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 48,
+        "raw": "[name=\"Ines\"]Just like the Rhodes Islanders said, it's another secret network of routes that lead into the city.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "Just like the Rhodes Islanders said, it's another secret network of routes that lead into the city."
+    },
+    {
+        "id": 49,
+        "raw": "[name=\"Ines\"]Through these hubs, Theresis has shipped huge amounts of steel, crystal units and witchcraft devices into Londinium, enough to repair The Shard and complete that airship.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "Through these hubs, Theresis has shipped huge amounts of steel, crystal units and witchcraft devices into Londinium, enough to repair The Shard and complete that airship."
+    },
+    {
+        "id": 50,
+        "raw": "[name=\"Ines\"]But how did these materials reach Londinium? Even the dumbest dukes wouldn't let large shipments of materiel outside their control to travel freely around Victoria.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "But how did these materials reach Londinium? Even the dumbest dukes wouldn't let large shipments of materiel outside their control to travel freely around Victoria."
+    },
+    {
+        "id": 51,
+        "raw": "[name=\"Ines\"]It's probably that they, like the Nachzehrer King's legion, appeared out of thin air around the hubs.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "It's probably that they, like the Nachzehrer King's legion, appeared out of thin air around the hubs."
+    },
+    {
+        "id": 52,
+        "raw": "[name=\"Ines\"]The so-called Sarkaz supply line we've been looking for may be the last and least important step of the transport process.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "The so-called Sarkaz supply line we've been looking for may be the last and least important step of the transport process."
+    },
+    {
+        "id": 53,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4087_ines_1#14$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4087_ines_1#14$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 54,
+        "raw": "[name=\"Ines\"]How did they do it?",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "How did they do it?"
+    },
+    {
+        "id": 55,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#8$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4088_hodrer_1#8$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 56,
+        "raw": "[name=\"Hoederer\"]Not only that, if Theresis had access methods like this, why isn't he using them directly in battle?",
+        "type": "dialog",
+        "speaker": "Hoederer",
+        "content": "Not only that, if Theresis had access methods like this, why isn't he using them directly in battle?"
+    },
+    {
+        "id": 57,
+        "raw": "[name=\"Hoederer\"]Teleporting armies behind enemy lines, or plopping Originium bombs right on top of ducal flagships.",
+        "type": "dialog",
+        "speaker": "Hoederer",
+        "content": "Teleporting armies behind enemy lines, or plopping Originium bombs right on top of ducal flagships."
+    },
+    {
+        "id": 58,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4087_ines_1#14$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4087_ines_1#14$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 59,
+        "raw": "[name=\"Ines\"]Either there are limitations to the method... or it's actually really fragile.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "Either there are limitations to the method... or it's actually really fragile."
+    },
+    {
+        "id": 60,
+        "raw": "[name=\"Ines\"]The Lich called it an Art beyond the realm of Originium Arts, but I just couldn't picture it...",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "The Lich called it an Art beyond the realm of Originium Arts, but I just couldn't picture it..."
+    },
+    {
+        "id": 61,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4088_hodrer_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 62,
+        "raw": "[name=\"Hoederer\"]W, over there—",
+        "type": "dialog",
+        "speaker": "Hoederer",
+        "content": "W, over there—"
+    },
+    {
+        "id": 63,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 64,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 65,
+        "raw": "[name=\"W\"]......",
+        "type": "dialog",
+        "speaker": "W",
+        "content": "......"
+    },
+    {
+        "id": 66,
+        "raw": "[name=\"W\"]Huh?",
+        "type": "dialog",
+        "speaker": "W",
+        "content": "Huh?"
+    },
+    {
+        "id": 67,
+        "raw": "[name=\"W\"]Uh, no sign of battle. It's completely collapsed.",
+        "type": "dialog",
+        "speaker": "W",
+        "content": "Uh, no sign of battle. It's completely collapsed."
+    },
+    {
+        "id": 68,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 69,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 70,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 71,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"W has looked detached ever since that encounter a few days ago.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "W has looked detached ever since that encounter a few days ago.",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nI saw her gaze absent-mindedly into the fire while on night watch.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nI saw her gaze absent-mindedly into the fire while on night watch."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nI can't help her. She'll get through this on her own.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nI can't help her. She'll get through this on her own."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": 76,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 77,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4088_hodrer_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 78,
+        "raw": "[name=\"Hoederer\"]Let's go. There's nothing to see here.",
+        "type": "dialog",
+        "speaker": "Hoederer",
+        "content": "Let's go. There's nothing to see here."
+    },
+    {
+        "id": 79,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 80,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 81,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 82,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 83,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 84,
+        "raw": "[Background(image=\"bg_labentrance\", screenadapt=\"coverall\", block=true)]",
+        "type": "background",
+        "image": "bg_labentrance.png",
+        "screenadapt": "coverall",
+        "block": true
+    },
+    {
+        "id": 85,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 86,
+        "raw": "[PlayMusic(intro=\"$ponder_intro\", key=\"$ponder_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act15d0d0/m_avg_ponder_intro.mp3",
+        "key": "sound_beta_2/music/act15d0d0/m_avg_ponder_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 87,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 88,
+        "raw": "[Delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 89,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 90,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 91,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"I look at the map in my hand. Scattered dots mark the locations of the Vampire Arts Circles.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "I look at the map in my hand. Scattered dots mark the locations of the Vampire Arts Circles.",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nI added a few, including the logistics hub just now, and the Nachzehrer King's legion camp.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nI added a few, including the logistics hub just now, and the Nachzehrer King's legion camp."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nSomething had been placed there using the same methods.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nSomething had been placed there using the same methods."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nThere must be something linking them.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nThere must be something linking them."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"I scan the names on the map. Hills, valleys, small patches of forests, and a few small ponds.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "I scan the names on the map. Hills, valleys, small patches of forests, and a few small ponds.",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nSome sort of commonality? Shared geographical traits?\",block = true)]",
+        "type": "sticker",
+        "text": "\\nSome sort of commonality? Shared geographical traits?"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nMy eyes fall upon the name of a town. Brentwood.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nMy eyes fall upon the name of a town. Brentwood."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": 101,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 102,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4088_hodrer_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 103,
+        "raw": "[name=\"Hoederer\"]Ines, you said that Rhodes Island analyzed the intel from the Defense Forces command tower, where they had set their sights near a town by the name of Brentwood.",
+        "type": "dialog",
+        "speaker": "Hoederer",
+        "content": "Ines, you said that Rhodes Island analyzed the intel from the Defense Forces command tower, where they had set their sights near a town by the name of Brentwood."
+    },
+    {
+        "id": 104,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 105,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 106,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"I draw a circle around Brentwood's location.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "I draw a circle around Brentwood's location.",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": 109,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 110,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4087_ines_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4087_ines_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 111,
+        "raw": "[name=\"Ines\"]Closure came up with the analysis. She stole the records of all cargo movement since Theresis entered the city in 1094, and created an overlapping route map.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "Closure came up with the analysis. She stole the records of all cargo movement since Theresis entered the city in 1094, and created an overlapping route map."
+    },
+    {
+        "id": 112,
+        "raw": "[name=\"Ines\"]All the towns around Londinium were covered in these cargo movements on the map.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "All the towns around Londinium were covered in these cargo movements on the map."
+    },
+    {
+        "id": 113,
+        "raw": "[name=\"Ines\"]It's Victoria's capital, after all. All the steak and wine the citizens enjoyed before the war didn't grow on the shelves.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "It's Victoria's capital, after all. All the steak and wine the citizens enjoyed before the war didn't grow on the shelves."
+    },
+    {
+        "id": 114,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4087_ines_1#14$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4087_ines_1#14$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 115,
+        "raw": "[name=\"Ines\"]But the area around Brentwood is strangely empty, with only a few scattered entries around 1094 and 1095.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "But the area around Brentwood is strangely empty, with only a few scattered entries around 1094 and 1095."
+    },
+    {
+        "id": 116,
+        "raw": "[name=\"Ines\"]It's pretty weird. Like there's a forgotten town right here in the middle of Victoria.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "It's pretty weird. Like there's a forgotten town right here in the middle of Victoria."
+    },
+    {
+        "id": 117,
+        "raw": "[name=\"Ines\"]The Rhodes Islanders think Brentwood might be the starting point of the Sarkaz underground railroad, or the hub of a hidden network, implementing some sort of secret embargo.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "The Rhodes Islanders think Brentwood might be the starting point of the Sarkaz underground railroad, or the hub of a hidden network, implementing some sort of secret embargo."
+    },
+    {
+        "id": 118,
+        "raw": "[name=\"Ines\"]We just proved the existence of these logistics hubs.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "We just proved the existence of these logistics hubs."
+    },
+    {
+        "id": 119,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4087_ines_1#3$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4087_ines_1#3$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 120,
+        "raw": "[name=\"Ines\"]But, we also learned that Theresis has a pair of, well, invisible hands, which lets him puts things anywhere he wants.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "But, we also learned that Theresis has a pair of, well, invisible hands, which lets him puts things anywhere he wants."
+    },
+    {
+        "id": 121,
+        "raw": "[name=\"Ines\"]We may need to reassess the significance of Brentwood.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "We may need to reassess the significance of Brentwood."
+    },
+    {
+        "id": 122,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4088_hodrer_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 123,
+        "raw": "[name=\"Hoederer\"]...No.",
+        "type": "dialog",
+        "speaker": "Hoederer",
+        "content": "...No."
+    },
+    {
+        "id": 124,
+        "raw": "[name=\"Hoederer\"]The closer we get, the more Vampire Arts Circles we see.",
+        "type": "dialog",
+        "speaker": "Hoederer",
+        "content": "The closer we get, the more Vampire Arts Circles we see."
+    },
+    {
+        "id": 125,
+        "raw": "[name=\"Hoederer\"]Meanwhile, if we draw a line from the furthest points to Brentwood, we see that they're about equidistant. That might be the logistical limit.",
+        "type": "dialog",
+        "speaker": "Hoederer",
+        "content": "Meanwhile, if we draw a line from the furthest points to Brentwood, we see that they're about equidistant. That might be the logistical limit."
+    },
+    {
+        "id": 126,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_412_1#8$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_412_1#8$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 127,
+        "raw": "[name=\"W\"]Stop guessing. I know Brentwood. You couldn't hide anything in that poor-ass town. There were barely any Sarkaz vagrants when I visited a few months ago.",
+        "type": "dialog",
+        "speaker": "W",
+        "content": "Stop guessing. I know Brentwood. You couldn't hide anything in that poor-ass town. There were barely any Sarkaz vagrants when I visited a few months ago."
+    },
+    {
+        "id": 128,
+        "raw": "[name=\"W\"]Maybe the caravans just don't pass through 'cause there's nothing interesting there.",
+        "type": "dialog",
+        "speaker": "W",
+        "content": "Maybe the caravans just don't pass through 'cause there's nothing interesting there."
+    },
+    {
+        "id": 129,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 130,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 131,
+        "raw": "[PlaySound(key=\"$d_avg_throwstone\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_throwstone.mp3",
+        "volume": 1
+    },
+    {
+        "id": 132,
+        "raw": "[PlaySound(key=\"$d_avg_vallyrck\", volume=0.6,delay=0.5)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_vallyrck.mp3",
+        "volume": "0.6,delay=0.5"
+    },
+    {
+        "id": 133,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 134,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 135,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 136,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"W disinterestedly throws a rock over.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "W disinterestedly throws a rock over.",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nShe's in a bad mood alright. She would normally have thrown a grenade pin.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nShe's in a bad mood alright. She would normally have thrown a grenade pin."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nThe rock rolls on the map and falls right where I'm looking. I'm about to move it out away—\",block = true)]",
+        "type": "sticker",
+        "text": "\\nThe rock rolls on the map and falls right where I'm looking. I'm about to move it out away—"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"There's a patch of hills not far behind Brentwood. The rock fell right in the middle of the icons representing hills.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "There's a patch of hills not far behind Brentwood. The rock fell right in the middle of the icons representing hills.",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": 143,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 144,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#6$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4088_hodrer_1#6$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 145,
+        "raw": "[name=\"Hoederer\"]...*sigh*.",
+        "type": "dialog",
+        "speaker": "Hoederer",
+        "content": "...*sigh*."
+    },
+    {
+        "id": 146,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4088_hodrer_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 147,
+        "raw": "[name=\"Hoederer\"]Let's go. It's not like we have any better leads. Maybe coincidence has something in mind.",
+        "type": "dialog",
+        "speaker": "Hoederer",
+        "content": "Let's go. It's not like we have any better leads. Maybe coincidence has something in mind."
+    },
+    {
+        "id": 148,
+        "raw": "[name=\"Hoederer\"]Let's start there.",
+        "type": "dialog",
+        "speaker": "Hoederer",
+        "content": "Let's start there."
+    },
+    {
+        "id": 149,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 150,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 151,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 152,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 153,
+        "raw": "[Background(image=\"40_g6_mountaincave\", screenadapt=\"coverall\", block=true)]",
+        "type": "background",
+        "image": "40_g6_mountaincave.png",
+        "screenadapt": "coverall",
+        "block": true
+    },
+    {
+        "id": 154,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 155,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 156,
+        "raw": "[Delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 157,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 158,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 159,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"The hills are dark and eerie.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "The hills are dark and eerie.",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nA Victorian history book wrote that the study of history is like walking into a cave, feeling the grains on the wall.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nA Victorian history book wrote that the study of history is like walking into a cave, feeling the grains on the wall."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nWorking blindly in the dark, all you can do is try to piece together the puzzle of where we came from by feeling around in the darkness.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nWorking blindly in the dark, all you can do is try to piece together the puzzle of where we came from by feeling around in the darkness."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"This land is not friendly to history.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "This land is not friendly to history.",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nOriginium veins assimilate any organic tissue around them, even bones.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nOriginium veins assimilate any organic tissue around them, even bones."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nAll that archaeologists had to work with are Originium-infested ruins. All they could do is mull over metal shards.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nAll that archaeologists had to work with are Originium-infested ruins. All they could do is mull over metal shards."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"But we are different. We are Sarkaz.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "But we are different. We are Sarkaz.",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nWe have many ways to look back. Legends say that the revenants in the furnace of Kazdel whisper the achievements of a certain King of Sarkaz, or the sad ending of another.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nWe have many ways to look back. Legends say that the revenants in the furnace of Kazdel whisper the achievements of a certain King of Sarkaz, or the sad ending of another."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nWhen I was little, I used to wait by the furnace that never went out, hoping to capture a single echo from the past.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nWhen I was little, I used to wait by the furnace that never went out, hoping to capture a single echo from the past."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nBut all I ever heard was silence.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nBut all I ever heard was silence."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": 173,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 174,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 175,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 176,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 177,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 178,
+        "raw": "[Background(image=\"40_g6_mountaincave\", screenadapt=\"coverall\", block=true)]",
+        "type": "background",
+        "image": "40_g6_mountaincave.png",
+        "screenadapt": "coverall",
+        "block": true
+    },
+    {
+        "id": 179,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4087_ines_1#14$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4087_ines_1#14$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 180,
+        "raw": "[Delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 181,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 182,
+        "raw": "[Delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 183,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4087_ines_1#14$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4087_ines_1#14$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 184,
+        "raw": "[name=\"Ines\"]You might actually be right. There's something unusual about the shadows here.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "You might actually be right. There's something unusual about the shadows here."
+    },
+    {
+        "id": 185,
+        "raw": "[name=\"Ines\"]There seems to be a pattern in the chaos.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "There seems to be a pattern in the chaos."
+    },
+    {
+        "id": 186,
+        "raw": "[name=\"Ines\"]It's like the ripples created by a sailing ship, overlapping and interfering with one another, until nothing is left but entropy.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "It's like the ripples created by a sailing ship, overlapping and interfering with one another, until nothing is left but entropy."
+    },
+    {
+        "id": 187,
+        "raw": "[name=\"Ines\"]Not so much sailing as... drifting.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "Not so much sailing as... drifting."
+    },
+    {
+        "id": 188,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#4$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4088_hodrer_1#4$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 189,
+        "raw": "[name=\"Hoederer\"]Drifting.",
+        "type": "dialog",
+        "speaker": "Hoederer",
+        "content": "Drifting."
+    },
+    {
+        "id": 190,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4088_hodrer_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 191,
+        "raw": "[name=\"Hoederer\"]I once heard a story from an old Diαblo, this word came up in his broken whispers.",
+        "type": "dialog",
+        "speaker": "Hoederer",
+        "content": "I once heard a story from an old Diαblo, this word came up in his broken whispers."
+    },
+    {
+        "id": 192,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_412_1#3$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_412_1#3$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 193,
+        "raw": "[name=\"W\"]What story?",
+        "type": "dialog",
+        "speaker": "W",
+        "content": "What story?"
+    },
+    {
+        "id": 194,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4088_hodrer_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 195,
+        "raw": "[name=\"Hoederer\"]A story of disaster.",
+        "type": "dialog",
+        "speaker": "Hoederer",
+        "content": "A story of disaster."
+    },
+    {
+        "id": 196,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#9$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4088_hodrer_1#9$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 197,
+        "raw": "[name=\"Hoederer\"]Let's hope we don't run into the stuff of those stories.",
+        "type": "dialog",
+        "speaker": "Hoederer",
+        "content": "Let's hope we don't run into the stuff of those stories."
+    },
+    {
+        "id": 198,
+        "raw": "[name=\"Hoederer\"]Let's hope we still have some good luck left in the bank.",
+        "type": "dialog",
+        "speaker": "Hoederer",
+        "content": "Let's hope we still have some good luck left in the bank."
+    },
+    {
+        "id": 199,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_412_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_412_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 200,
+        "raw": "[name=\"W\"]A merc who thinks he's lucky is a dead merc.",
+        "type": "dialog",
+        "speaker": "W",
+        "content": "A merc who thinks he's lucky is a dead merc."
+    },
+    {
+        "id": 201,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4088_hodrer_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 202,
+        "raw": "[name=\"Hoederer\"]Which is why we need you to stay behind, W.",
+        "type": "dialog",
+        "speaker": "Hoederer",
+        "content": "Which is why we need you to stay behind, W."
+    },
+    {
+        "id": 203,
+        "raw": "[name=\"Hoederer\"]We're not here to fight. We need to figure out what we're facing.",
+        "type": "dialog",
+        "speaker": "Hoederer",
+        "content": "We're not here to fight. We need to figure out what we're facing."
+    },
+    {
+        "id": 204,
+        "raw": "[name=\"Hoederer\"]If things go south and we need to pull out...",
+        "type": "dialog",
+        "speaker": "Hoederer",
+        "content": "If things go south and we need to pull out..."
+    },
+    {
+        "id": 205,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_412_1#7$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_412_1#7$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 206,
+        "raw": "[name=\"W\"]Don't worry, I won't leave the way open for you.",
+        "type": "dialog",
+        "speaker": "W",
+        "content": "Don't worry, I won't leave the way open for you."
+    },
+    {
+        "id": 207,
+        "raw": "[name=\"W\"]I'll set up the explosives and wait until you're almost at the exit, Vampires and Nachzehrer hot on your tail, maybe Theresis himself, and just as you're about to see the light...",
+        "type": "dialog",
+        "speaker": "W",
+        "content": "I'll set up the explosives and wait until you're almost at the exit, Vampires and Nachzehrer hot on your tail, maybe Theresis himself, and just as you're about to see the light..."
+    },
+    {
+        "id": 208,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_412_1#10$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_412_1#10$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 209,
+        "raw": "[name=\"W\"]Boom!",
+        "type": "dialog",
+        "speaker": "W",
+        "content": "Boom!"
+    },
+    {
+        "id": 210,
+        "raw": "[name=\"W\"]You'll become the tragic hero right out of your favorite stories, Hoederer!",
+        "type": "dialog",
+        "speaker": "W",
+        "content": "You'll become the tragic hero right out of your favorite stories, Hoederer!"
+    },
+    {
+        "id": 211,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4087_ines_1#2$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4087_ines_1#2$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 212,
+        "raw": "[name=\"Ines\"]You can't handle Theresa on your own, W.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "You can't handle Theresa on your own, W."
+    },
+    {
+        "id": 213,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_412_1#4$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_412_1#4$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 214,
+        "raw": "[name=\"W\"]......",
+        "type": "dialog",
+        "speaker": "W",
+        "content": "......"
+    },
+    {
+        "id": 215,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_412_1#13$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_412_1#13$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 216,
+        "raw": "[name=\"W\"]Ines.",
+        "type": "dialog",
+        "speaker": "W",
+        "content": "Ines."
+    },
+    {
+        "id": 217,
+        "raw": "[name=\"W\"]I'll actually bury you, you know.",
+        "type": "dialog",
+        "speaker": "W",
+        "content": "I'll actually bury you, you know."
+    },
+    {
+        "id": 218,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4087_ines_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4087_ines_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 219,
+        "raw": "[name=\"Ines\"]Hmph. You do you.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "Hmph. You do you."
+    },
+    {
+        "id": 220,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 221,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 222,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 223,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 224,
+        "raw": "[Background(image=\"bg_black\", screenadapt=\"coverall\", block=true)]",
+        "type": "background",
+        "image": "bg_black.png",
+        "screenadapt": "coverall",
+        "block": true
+    },
+    {
+        "id": 225,
+        "raw": "[Delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 226,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\",loop=true, channel=\"hd\",volume=0.8)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3",
+        "loop": "true,",
+        "channel": "hd",
+        "volume": 0.8
+    },
+    {
+        "id": 227,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\",loop=true,channel=\"in\",volume=0.4,delay=0.7)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3",
+        "loop": "true,channel=\"in\",volume=0.4,delay=0.7"
+    },
+    {
+        "id": 228,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 229,
+        "raw": "[Delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 230,
+        "raw": "[name=\"Hoederer\"]She really will blow the hills apart though.",
+        "type": "dialog",
+        "speaker": "Hoederer",
+        "content": "She really will blow the hills apart though."
+    },
+    {
+        "id": 231,
+        "raw": "[name=\"Hoederer\"]We both know she's crazy. No need to provoke her with Theresa's name.",
+        "type": "dialog",
+        "speaker": "Hoederer",
+        "content": "We both know she's crazy. No need to provoke her with Theresa's name."
+    },
+    {
+        "id": 232,
+        "raw": "[name=\"Ines\"]It's just pathetic, the act the she's putting on. I'd rather she knew what she wanted.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "It's just pathetic, the act the she's putting on. I'd rather she knew what she wanted."
+    },
+    {
+        "id": 233,
+        "raw": "[name=\"Ines\"]You've been in the city for so long. If she wanted to know the truth, she could've just asked you.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "You've been in the city for so long. If she wanted to know the truth, she could've just asked you."
+    },
+    {
+        "id": 234,
+        "raw": "[name=\"Ines\"]Did she ever ask if that Theresa was real?",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "Did she ever ask if that Theresa was real?"
+    },
+    {
+        "id": 235,
+        "raw": "[name=\"Hoederer\"]......",
+        "type": "dialog",
+        "speaker": "Hoederer",
+        "content": "......"
+    },
+    {
+        "id": 236,
+        "raw": "[name=\"Ines\"]She never asked me, either. She's never grown up.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "She never asked me, either. She's never grown up."
+    },
+    {
+        "id": 237,
+        "raw": "[name=\"Ines\"]She could do one of two things: Grovel at that Theresa's feet and beg for forgiveness, or plan to kill her.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "She could do one of two things: Grovel at that Theresa's feet and beg for forgiveness, or plan to kill her."
+    },
+    {
+        "id": 238,
+        "raw": "[name=\"Ines\"]But what is this that she's doing? Trying to prove that she's all great and powerful?",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "But what is this that she's doing? Trying to prove that she's all great and powerful?"
+    },
+    {
+        "id": 239,
+        "raw": "[name=\"Ines\"]Or is she trying to convince herself that nothing ever happened, that all she needs to do is kill people and plant mines like she always has, and it'll all pass?",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "Or is she trying to convince herself that nothing ever happened, that all she needs to do is kill people and plant mines like she always has, and it'll all pass?"
+    },
+    {
+        "id": 240,
+        "raw": "[name=\"Ines\"]It would've been fine if she could actually stop thinking about it. But right now, she's like a little girl standing on the ice.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "It would've been fine if she could actually stop thinking about it. But right now, she's like a little girl standing on the ice."
+    },
+    {
+        "id": 241,
+        "raw": "[name=\"Ines\"]She takes a few steps forward, then a few steps back, looking around the same place, sinking into pointless sentimentality.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "She takes a few steps forward, then a few steps back, looking around the same place, sinking into pointless sentimentality."
+    },
+    {
+        "id": 242,
+        "raw": "[name=\"Hoederer\"]I have no idea.",
+        "type": "dialog",
+        "speaker": "Hoederer",
+        "content": "I have no idea."
+    },
+    {
+        "id": 243,
+        "raw": "[name=\"Ines\"]Give me a break. You just don't want the extra trouble.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "Give me a break. You just don't want the extra trouble."
+    },
+    {
+        "id": 244,
+        "raw": "[name=\"Hoederer\"]I didn't know you cared so much about her.",
+        "type": "dialog",
+        "speaker": "Hoederer",
+        "content": "I didn't know you cared so much about her."
+    },
+    {
+        "id": 245,
+        "raw": "[name=\"Ines\"]I care about me. I don't want to die because of her.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "I care about me. I don't want to die because of her."
+    },
+    {
+        "id": 246,
+        "raw": "[name=\"Hoederer\"]In all seriousness, Ines, have you ever thought about going back to Kazdel?",
+        "type": "dialog",
+        "speaker": "Hoederer",
+        "content": "In all seriousness, Ines, have you ever thought about going back to Kazdel?"
+    },
+    {
+        "id": 247,
+        "raw": "[name=\"Ines\"]What? Am I in the way of your great plan?",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "What? Am I in the way of your great plan?"
+    },
+    {
+        "id": 248,
+        "raw": "[name=\"Hoederer\"]No, it's just occurred to me that W and I have a reason to stay in this war.",
+        "type": "dialog",
+        "speaker": "Hoederer",
+        "content": "No, it's just occurred to me that W and I have a reason to stay in this war."
+    },
+    {
+        "id": 249,
+        "raw": "[name=\"Hoederer\"]But what about you?",
+        "type": "dialog",
+        "speaker": "Hoederer",
+        "content": "But what about you?"
+    },
+    {
+        "id": 250,
+        "raw": "[name=\"Ines\"]...I've got my reason too.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "...I've got my reason too."
+    },
+    {
+        "id": 251,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 252,
+        "raw": "[stopSound(channel=\"hd\", fadetime=0.5)]",
+        "type": "stop_sound",
+        "channel": "hd",
+        "fadetime": 0.5
+    },
+    {
+        "id": 253,
+        "raw": "[stopSound(channel=\"in\", fadetime=0.5)]",
+        "type": "stop_sound",
+        "channel": "in",
+        "fadetime": 0.5
+    },
+    {
+        "id": 254,
+        "raw": "[Delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 255,
+        "raw": "[PlaySound(key=\"$d_avg_runstop\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_runstop.mp3",
+        "volume": 1
+    },
+    {
+        "id": 256,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 257,
+        "raw": "[name=\"Ines\"]Here we are.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "Here we are."
+    },
+    {
+        "id": 258,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 259,
+        "raw": "[stopmusic(fadetime=1)]",
+        "type": "stop_music",
+        "fadetime": 1
+    },
+    {
+        "id": 260,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 261,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 262,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 263,
+        "raw": "[Background(image=\"43_g5_spinestops\", screenadapt=\"coverall\", block=true)]",
+        "type": "background",
+        "image": "43_g5_spinestops.png",
+        "screenadapt": "coverall",
+        "block": true
+    },
+    {
+        "id": 264,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 265,
+        "raw": "[PlayMusic(intro=\"$mist_intro\", key=\"$mist_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta1_180603/m_dia_mist_intro.mp3",
+        "key": "sound_beta_2/music/beta1_180603/m_dia_mist_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 266,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=3.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3.5,",
+        "block": true
+    },
+    {
+        "id": 267,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 268,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4088_hodrer_1#1$1\",duration=0.7)]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4088_hodrer_1#1$1.png",
+        "duration": 0.7
+    },
+    {
+        "id": 269,
+        "raw": "[charslot(slot=\"r\",name=\"avg_4087_ines_1#7$1\",duration=0.7)]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_4087_ines_1#7$1.png",
+        "duration": 0.7
+    },
+    {
+        "id": 270,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 271,
+        "raw": "[charslot(slot=\"r\",name=\"avg_4087_ines_1#7$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_4087_ines_1#7$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 272,
+        "raw": "[name=\"Ines\"]We're... inside the hill.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "We're... inside the hill."
+    },
+    {
+        "id": 273,
+        "raw": "[name=\"Ines\"]They hollowed out the whole thing?",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "They hollowed out the whole thing?"
+    },
+    {
+        "id": 274,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4088_hodrer_1#1$1\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4088_hodrer_1#1$1.png",
+        "focus": "l"
+    },
+    {
+        "id": 275,
+        "raw": "[name=\"Hoederer\"]Well, that's going to make things easier for W's demolition plan.",
+        "type": "dialog",
+        "speaker": "Hoederer",
+        "content": "Well, that's going to make things easier for W's demolition plan."
+    },
+    {
+        "id": 276,
+        "raw": "[charslot(slot=\"r\",name=\"avg_4087_ines_1#7$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_4087_ines_1#7$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 277,
+        "raw": "[name=\"Ines\"]Look at the size of these tracks, and the loading mechanism.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "Look at the size of these tracks, and the loading mechanism."
+    },
+    {
+        "id": 278,
+        "raw": "[charslot(slot=\"r\",name=\"avg_4087_ines_1#9$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_4087_ines_1#9$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 279,
+        "raw": "[name=\"Ines\"]That's a big guy.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "That's a big guy."
+    },
+    {
+        "id": 280,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 281,
+        "raw": "[charslot(slot=\"r\",name=\"avg_4087_ines_1#9$1\",focus=\"n\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_4087_ines_1#9$1.png",
+        "focus": "n"
+    },
+    {
+        "id": 282,
+        "raw": "[PlaySound(key=\"$d_avg_walkfast\", volume=0.3)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_walkfast.mp3",
+        "volume": 0.3
+    },
+    {
+        "id": 283,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 284,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4088_hodrer_1#7$1\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4088_hodrer_1#7$1.png",
+        "focus": "l"
+    },
+    {
+        "id": 285,
+        "raw": "[name=\"Hoederer\"]Shh, get into the shadows.",
+        "type": "dialog",
+        "speaker": "Hoederer",
+        "content": "Shh, get into the shadows."
+    },
+    {
+        "id": 286,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 287,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4088_hodrer_1#7$1\",focus=\"all\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4088_hodrer_1#7$1.png",
+        "focus": "all"
+    },
+    {
+        "id": 288,
+        "raw": "[Delay(time=0.2)]",
+        "type": "delay",
+        "time": 0.2
+    },
+    {
+        "id": 289,
+        "raw": "[charslot(duration=0.3)]",
+        "type": "charslot",
+        "duration": 0.3
+    },
+    {
+        "id": 290,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 291,
+        "raw": "[charslot(slot=\"l\",name=\"avg_npc_053\",duration=0.7)]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_053.png",
+        "duration": 0.7
+    },
+    {
+        "id": 292,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_054\",duration=0.7)]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_054.png",
+        "duration": 0.7
+    },
+    {
+        "id": 293,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 294,
+        "raw": "[charslot(slot=\"l\",name=\"avg_npc_053\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_053.png",
+        "focus": "l"
+    },
+    {
+        "id": 295,
+        "raw": "[name=\"Tired Sarkaz Worker\"]When's the next shift?",
+        "type": "dialog",
+        "speaker": "Tired Sarkaz Worker",
+        "content": "When's the next shift?"
+    },
+    {
+        "id": 296,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_054\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_054.png",
+        "focus": "r"
+    },
+    {
+        "id": 297,
+        "raw": "[name=\"Quiet Sarkaz Worker\"]Close.",
+        "type": "dialog",
+        "speaker": "Quiet Sarkaz Worker",
+        "content": "Close."
+    },
+    {
+        "id": 298,
+        "raw": "[name=\"Quiet Sarkaz Worker\"]It's always on time.",
+        "type": "dialog",
+        "speaker": "Quiet Sarkaz Worker",
+        "content": "It's always on time."
+    },
+    {
+        "id": 299,
+        "raw": "[charslot(slot=\"l\",name=\"avg_npc_053\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_053.png",
+        "focus": "l"
+    },
+    {
+        "id": 300,
+        "raw": "[name=\"Tired Sarkaz Worker\"]I should've made a report to the boss. I would rather be outside, killing Victorians.",
+        "type": "dialog",
+        "speaker": "Tired Sarkaz Worker",
+        "content": "I should've made a report to the boss. I would rather be outside, killing Victorians."
+    },
+    {
+        "id": 301,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_054\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_054.png",
+        "focus": "r"
+    },
+    {
+        "id": 302,
+        "raw": "[name=\"Quiet Sarkaz Worker\"]You're not a warrior.",
+        "type": "dialog",
+        "speaker": "Quiet Sarkaz Worker",
+        "content": "You're not a warrior."
+    },
+    {
+        "id": 303,
+        "raw": "[charslot(slot=\"l\",name=\"avg_npc_053\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_053.png",
+        "focus": "l"
+    },
+    {
+        "id": 304,
+        "raw": "[name=\"Tired Sarkaz Worker\"]I don't need you to tell me! It's just that this place is so... oppressive.",
+        "type": "dialog",
+        "speaker": "Tired Sarkaz Worker",
+        "content": "I don't need you to tell me! It's just that this place is so... oppressive."
+    },
+    {
+        "id": 305,
+        "raw": "[name=\"Tired Sarkaz Worker\"]I see those illusions every day, the things you don't know whether they're real or not.",
+        "type": "dialog",
+        "speaker": "Tired Sarkaz Worker",
+        "content": "I see those illusions every day, the things you don't know whether they're real or not."
+    },
+    {
+        "id": 306,
+        "raw": "[name=\"Tired Sarkaz Worker\"]It's like a maelstrom that keeps spitting out trash from another dimension.",
+        "type": "dialog",
+        "speaker": "Tired Sarkaz Worker",
+        "content": "It's like a maelstrom that keeps spitting out trash from another dimension."
+    },
+    {
+        "id": 307,
+        "raw": "[name=\"Tired Sarkaz Worker\"]Good thing Ulšulah is a decent woman who doesn't pick on us for no reason or abuse her authority.",
+        "type": "dialog",
+        "speaker": "Tired Sarkaz Worker",
+        "content": "Good thing Ulšulah is a decent woman who doesn't pick on us for no reason or abuse her authority."
+    },
+    {
+        "id": 308,
+        "raw": "[name=\"Tired Sarkaz Worker\"]Is she the youngest major ever, according to Military Commission ranks?",
+        "type": "dialog",
+        "speaker": "Tired Sarkaz Worker",
+        "content": "Is she the youngest major ever, according to Military Commission ranks?"
+    },
+    {
+        "id": 309,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_054\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_054.png",
+        "focus": "r"
+    },
+    {
+        "id": 310,
+        "raw": "[name=\"Quiet Sarkaz Worker\"]She's not a member of the Royal Court. She won't go far.",
+        "type": "dialog",
+        "speaker": "Quiet Sarkaz Worker",
+        "content": "She's not a member of the Royal Court. She won't go far."
+    },
+    {
+        "id": 311,
+        "raw": "[charslot(slot=\"l\",name=\"avg_npc_053\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_053.png",
+        "focus": "l"
+    },
+    {
+        "id": 312,
+        "raw": "[name=\"Tired Sarkaz Worker\"]Lady Theresa and the Regent aren't blue-blood devils either.",
+        "type": "dialog",
+        "speaker": "Tired Sarkaz Worker",
+        "content": "Lady Theresa and the Regent aren't blue-blood devils either."
+    },
+    {
+        "id": 313,
+        "raw": "[name=\"Tired Sarkaz Worker\"]Screw the Royal Court. Kazdel wasn't won by those old fossils huddling around in a circle.",
+        "type": "dialog",
+        "speaker": "Tired Sarkaz Worker",
+        "content": "Screw the Royal Court. Kazdel wasn't won by those old fossils huddling around in a circle."
+    },
+    {
+        "id": 314,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_054\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_054.png",
+        "focus": "r"
+    },
+    {
+        "id": 315,
+        "raw": "[name=\"Quiet Sarkaz Worker\"]But they're the strongest.",
+        "type": "dialog",
+        "speaker": "Quiet Sarkaz Worker",
+        "content": "But they're the strongest."
+    },
+    {
+        "id": 316,
+        "raw": "[charslot(slot=\"l\",name=\"avg_npc_053\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_053.png",
+        "focus": "l"
+    },
+    {
+        "id": 317,
+        "raw": "[name=\"Tired Sarkaz Worker\"]That's because...",
+        "type": "dialog",
+        "speaker": "Tired Sarkaz Worker",
+        "content": "That's because..."
+    },
+    {
+        "id": 318,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_054\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_054.png",
+        "focus": "r"
+    },
+    {
+        "id": 319,
+        "raw": "[name=\"Quiet Sarkaz Worker\"]It's almost time.",
+        "type": "dialog",
+        "speaker": "Quiet Sarkaz Worker",
+        "content": "It's almost time."
+    },
+    {
+        "id": 320,
+        "raw": "[name=\"Quiet Sarkaz Worker\"]Go to the machine and prepare to load.",
+        "type": "dialog",
+        "speaker": "Quiet Sarkaz Worker",
+        "content": "Go to the machine and prepare to load."
+    },
+    {
+        "id": 321,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 322,
+        "raw": "[PlaySound(key=\"$d_gen_soldiersrun\",volume=0.8)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_soldiersrun.mp3",
+        "volume": 0.8
+    },
+    {
+        "id": 323,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 324,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 325,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 326,
+        "raw": "[Background(image=\"43_g5_spinestops\", screenadapt=\"coverall\", block=true)]",
+        "type": "background",
+        "image": "43_g5_spinestops.png",
+        "screenadapt": "coverall",
+        "block": true
+    },
+    {
+        "id": 327,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 328,
+        "raw": "[PlayMusic(intro=\"$mist_intro\", key=\"$mist_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta1_180603/m_dia_mist_intro.mp3",
+        "key": "sound_beta_2/music/beta1_180603/m_dia_mist_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 329,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 330,
+        "raw": "[Delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 331,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4088_hodrer_1#7$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4088_hodrer_1#7$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 332,
+        "raw": "[charslot(slot=\"r\",name=\"avg_4087_ines_1#7$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_4087_ines_1#7$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 333,
+        "raw": "[name=\"Ines\"]Did you hear the name they said?",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "Did you hear the name they said?"
+    },
+    {
+        "id": 334,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4088_hodrer_1#7$1\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4088_hodrer_1#7$1.png",
+        "focus": "l"
+    },
+    {
+        "id": 335,
+        "raw": "[name=\"Hoederer\"]Ulšulah.",
+        "type": "dialog",
+        "speaker": "Hoederer",
+        "content": "Ulšulah."
+    },
+    {
+        "id": 336,
+        "raw": "[charslot(slot=\"r\",name=\"avg_4087_ines_1#7$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_4087_ines_1#7$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 337,
+        "raw": "[name=\"Ines\"]Could it be...?",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "Could it be...?"
+    },
+    {
+        "id": 338,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4088_hodrer_1#7$1\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4088_hodrer_1#7$1.png",
+        "focus": "l"
+    },
+    {
+        "id": 339,
+        "raw": "[name=\"Hoederer\"]It's not necessarily the one we're thinking of. Sarkaz names are often codenames or taken from legends.",
+        "type": "dialog",
+        "speaker": "Hoederer",
+        "content": "It's not necessarily the one we're thinking of. Sarkaz names are often codenames or taken from legends."
+    },
+    {
+        "id": 340,
+        "raw": "[name=\"Hoederer\"]Ulšulah the Time-Stealer. Ulšulah of the Lock and Key. It's a Sarkaz legend about the Feranmut. Anyone could've drawn from it.",
+        "type": "dialog",
+        "speaker": "Hoederer",
+        "content": "Ulšulah the Time-Stealer. Ulšulah of the Lock and Key. It's a Sarkaz legend about the Feranmut. Anyone could've drawn from it."
+    },
+    {
+        "id": 341,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4088_hodrer_1#4$1\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4088_hodrer_1#4$1.png",
+        "focus": "l"
+    },
+    {
+        "id": 342,
+        "raw": "[name=\"Hoederer\"]Wait... Ulšulah the Time-Stealer?",
+        "type": "dialog",
+        "speaker": "Hoederer",
+        "content": "Wait... Ulšulah the Time-Stealer?"
+    },
+    {
+        "id": 343,
+        "raw": "[charslot(slot=\"r\",name=\"avg_4087_ines_1#14$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_4087_ines_1#14$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 344,
+        "raw": "[name=\"Ines\"]What's the origin of your name, 'Hoederer'?",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "What's the origin of your name, 'Hoederer'?"
+    },
+    {
+        "id": 345,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4088_hodrer_1#1$1\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4088_hodrer_1#1$1.png",
+        "focus": "l"
+    },
+    {
+        "id": 346,
+        "raw": "[name=\"Hoederer\"]Don't have one.",
+        "type": "dialog",
+        "speaker": "Hoederer",
+        "content": "Don't have one."
+    },
+    {
+        "id": 347,
+        "raw": "[charslot(slot=\"r\",name=\"avg_4087_ines_1#3$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_4087_ines_1#3$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 348,
+        "raw": "[name=\"Ines\"]Hah.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "Hah."
+    },
+    {
+        "id": 349,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 350,
+        "raw": "[charslot(slot=\"r\",name=\"avg_4087_ines_1#3$1\",focus=\"n\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_4087_ines_1#3$1.png",
+        "focus": "n"
+    },
+    {
+        "id": 351,
+        "raw": "[PlaySound(key=\"$bigbell\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_bigbell.mp3",
+        "volume": 1
+    },
+    {
+        "id": 352,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 353,
+        "raw": "[PlaySound(key=\"$bigbell\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_bigbell.mp3",
+        "volume": 1
+    },
+    {
+        "id": 354,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 355,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4088_hodrer_1#4$1\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4088_hodrer_1#4$1.png",
+        "focus": "l"
+    },
+    {
+        "id": 356,
+        "raw": "[name=\"Hoederer\"]Bells.",
+        "type": "dialog",
+        "speaker": "Hoederer",
+        "content": "Bells."
+    },
+    {
+        "id": 357,
+        "raw": "[charslot(slot=\"r\",name=\"avg_4087_ines_1#6$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_4087_ines_1#6$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 358,
+        "raw": "[name=\"Ines\"]Wait, over there...",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "Wait, over there..."
+    },
+    {
+        "id": 359,
+        "raw": "[name=\"Ines\"]What's that?",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "What's that?"
+    },
+    {
+        "id": 360,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 361,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 362,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 363,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 364,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 365,
+        "raw": "[Background(image=\"bg_black\", screenadapt=\"coverall\", block=true)]",
+        "type": "background",
+        "image": "bg_black.png",
+        "screenadapt": "coverall",
+        "block": true
+    },
+    {
+        "id": 366,
+        "raw": "[Delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 367,
+        "raw": "[PlaySound(key=\"$d_avg_erthshkng\",loop=true,channel=\"sk\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_erthshkng.mp3",
+        "loop": "true,channel=\"sk\",volume=1"
+    },
+    {
+        "id": 368,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 369,
+        "raw": "[Delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 370,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 371,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 372,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"What was that?\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "What was that?",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nThe hills are trembling...\",block = true)]",
+        "type": "sticker",
+        "text": "\\nThe hills are trembling..."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": 376,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 377,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 378,
+        "raw": "[StopSound(channel=\"sk\", fadetime=3)]",
+        "type": "stop_sound",
+        "channel": "sk",
+        "fadetime": 3
+    },
+    {
+        "id": 379,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 380,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 381,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 382,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"No, space itself is trembling.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "No, space itself is trembling.",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": 384,
+        "raw": "[skipnode(mode=\"nofirstskip\")]",
+        "type": "skip_node",
+        "mode": "nofirstskip"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": 386,
+        "raw": "[interlude(channel = 2,clear = true)]",
+        "type": "interlude"
+    },
+    {
+        "id": 387,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 388,
+        "raw": "[Background(image=\"bg_black\", screenadapt=\"coverall\", block=true)]",
+        "type": "background",
+        "image": "bg_black.png",
+        "screenadapt": "coverall",
+        "block": true
+    },
+    {
+        "id": 389,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 390,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 391,
+        "raw": "[theater(mode=true)]",
+        "type": "theater_mode",
+        "mode": true
+    },
+    {
+        "id": 392,
+        "raw": "[Video(res=\"video/main_13/main_13_01.mp4\")]",
+        "type": "video",
+        "res": "video/main_13/main_13_01.mp4"
+    },
+    {
+        "id": 393,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 394,
+        "raw": "[theater(mode=false)]",
+        "type": "theater_mode",
+        "mode": false
+    },
+    {
+        "id": 395,
+        "raw": "[skipnode(mode=\"skip\")]",
+        "type": "skip_node",
+        "mode": "skip"
+    },
+    {
+        "id": 396,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 397,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0.1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.1,",
+        "block": true
+    },
+    {
+        "id": 398,
+        "raw": "[Background(image=\"bg_black\", screenadapt=\"coverall\", block=true)]",
+        "type": "background",
+        "image": "bg_black.png",
+        "screenadapt": "coverall",
+        "block": true
+    },
+    {
+        "id": 399,
+        "raw": "[Image(image=\"43_i10\", screenadapt=\"coverall\",fadetime=0, xScale=1.8, yScale=1.8, x=-500, y=130)]",
+        "type": "image",
+        "image": "43_i10.png",
+        "screenadapt": "coverall",
+        "fadetime": "0,",
+        "xScale": "1.8,",
+        "yScale": "1.8,",
+        "x": "-500,",
+        "y": 130
+    },
+    {
+        "id": 400,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 401,
+        "raw": "[ImageTween(image=\"43_i10\", fadetime=0.5, xScaleFrom=1.8, yScaleFrom=1.8, xScaleTo=1.8, yScaleTo=1.8, xTo=-400, yTo=50, duration=30)]",
+        "type": "image_tween",
+        "image": "43_i10",
+        "fadetime": "0.5,",
+        "xScaleFrom": "1.8,",
+        "yScaleFrom": "1.8,",
+        "xScaleTo": "1.8,",
+        "yScaleTo": "1.8,",
+        "xTo": "-400,",
+        "yTo": "50,",
+        "duration": 30
+    },
+    {
+        "id": 402,
+        "raw": "[playMusic(intro=\"$stranger_intro\", key=\"$stranger_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act9d0d0/m_bat_stranger_intro.mp3",
+        "key": "sound_beta_2/music/act9d0d0/m_bat_stranger_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 403,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=4, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "4,",
+        "block": true
+    },
+    {
+        "id": 404,
+        "raw": "[bgeffect]",
+        "type": "bg_effect"
+    },
+    {
+        "id": 405,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 406,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 407,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 408,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"For an instant, I see visions beyond reckoning.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "For an instant, I see visions beyond reckoning.",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"Bloated emperors crumbling in halls of gold, ancient bloodborn cutting open their wrists to feed the newborn.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "Bloated emperors crumbling in halls of gold, ancient bloodborn cutting open their wrists to feed the newborn.",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nDiαbolic flames burning amber. Demons with deer horns prowl beneath great bronze walls, offering battered willow wood.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nDiαbolic flames burning amber. Demons with deer horns prowl beneath great bronze walls, offering battered willow wood."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nThe one knot falls from nothingness, splitting into countless threads; a red-skinned monster cuts off its own horn, impaling its own chest with it.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nThe one knot falls from nothingness, splitting into countless threads; a red-skinned monster cuts off its own horn, impaling its own chest with it."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": 415,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 416,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 417,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 418,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0.1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.1,",
+        "block": true
+    },
+    {
+        "id": 419,
+        "raw": "[Image(image=\"43_i10\", screenadapt=\"coverall\",fadetime=0, xScale=1.8, yScale=1.8, x=-100, y=50)]",
+        "type": "image",
+        "image": "43_i10.png",
+        "screenadapt": "coverall",
+        "fadetime": "0,",
+        "xScale": "1.8,",
+        "yScale": "1.8,",
+        "x": "-100,",
+        "y": 50
+    },
+    {
+        "id": 420,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 421,
+        "raw": "[ImageTween(image=\"43_i10\", fadetime=0.5, xScaleFrom=1.8, yScaleFrom=1.8, xScaleTo=1.8, yScaleTo=1.8, xTo=0, yTo=-30, duration=30)]",
+        "type": "image_tween",
+        "image": "43_i10",
+        "fadetime": "0.5,",
+        "xScaleFrom": "1.8,",
+        "yScaleFrom": "1.8,",
+        "xScaleTo": "1.8,",
+        "yScaleTo": "1.8,",
+        "xTo": "0,",
+        "yTo": "-30,",
+        "duration": 30
+    },
+    {
+        "id": 422,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1.5,",
+        "block": true
+    },
+    {
+        "id": 423,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 424,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 425,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 426,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"Broken shards become whole again. I see a far-away city.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "Broken shards become whole again. I see a far-away city.",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nCalm, peaceful, not yet wheeled, not yet drowned in hatred. Its beauty is absurd and out of place, even in a dream.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nCalm, peaceful, not yet wheeled, not yet drowned in hatred. Its beauty is absurd and out of place, even in a dream."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nFor no reason at all, I am convinced that it was Kazdel. A home that has long ceased to exist, from somewhere in history.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nFor no reason at all, I am convinced that it was Kazdel. A home that has long ceased to exist, from somewhere in history."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"I want to go there, go into there. I want to see what kind of life we once led.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "I want to go there, go into there. I want to see what kind of life we once led.",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": 433,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 434,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 435,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 436,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0.1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.1,",
+        "block": true
+    },
+    {
+        "id": 437,
+        "raw": "[Image(image=\"43_i10\", screenadapt=\"coverall\",fadetime=0, xScale=1.8, yScale=1.8, x=400, y=-50)]",
+        "type": "image",
+        "image": "43_i10.png",
+        "screenadapt": "coverall",
+        "fadetime": "0,",
+        "xScale": "1.8,",
+        "yScale": "1.8,",
+        "x": "400,",
+        "y": -50
+    },
+    {
+        "id": 438,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 439,
+        "raw": "[ImageTween(image=\"43_i10\", fadetime=0.5, xScaleFrom=1.8, yScaleFrom=1.8, xScaleTo=1.8, yScaleTo=1.8, xTo=500, yTo=-130, duration=30)]",
+        "type": "image_tween",
+        "image": "43_i10",
+        "fadetime": "0.5,",
+        "xScaleFrom": "1.8,",
+        "yScaleFrom": "1.8,",
+        "xScaleTo": "1.8,",
+        "yScaleTo": "1.8,",
+        "xTo": "500,",
+        "yTo": "-130,",
+        "duration": 30
+    },
+    {
+        "id": 440,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1.5,",
+        "block": true
+    },
+    {
+        "id": 441,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 442,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 443,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 444,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"I lift my foot, but put it down in the same place again. I watch it quietly.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "I lift my foot, but put it down in the same place again. I watch it quietly.",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nUntil all is silent.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nUntil all is silent."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nUntil—\",block = true)]",
+        "type": "sticker",
+        "text": "\\nUntil—"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": 449,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 450,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 451,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 452,
+        "raw": "[Image]",
+        "type": "image"
+    },
+    {
+        "id": 453,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 454,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 455,
+        "raw": "[Image(image=\"43_i10\",screenadapt=\"coverall\",fadetime=0,block=true)]",
+        "type": "image",
+        "image": "43_i10.png",
+        "screenadapt": "coverall",
+        "fadetime": "0,block=true"
+    },
+    {
+        "id": 456,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 457,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 458,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 459,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 460,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 461,
+        "raw": "[Blocker(a=0.6, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0.6,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"A pathetic creature that is naught but bleached bones moves slowly.\", x=300,y=270,  alignment=\"left\", size=24, delay=0.04, width=700,block = true)]",
+        "type": "sticker",
+        "text": "A pathetic creature that is naught but bleached bones moves slowly.",
+        "x": "300,y=270,",
+        "alignment": "left",
+        "size": "24,",
+        "delay": "0.04,",
+        "width": "700,block"
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nNerve strands reach out and grab the massive containers.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nNerve strands reach out and grab the massive containers."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\", multi = true, text=\"\\nIt still roams this place. It is not dead yet.\",block = true)]",
+        "type": "sticker",
+        "text": "\\nIt still roams this place. It is not dead yet."
+    },
+    {
+        "id": "st1",
+        "raw": "[Sticker(id=\"st1\")]",
+        "type": "sticker"
+    },
+    {
+        "id": 466,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.7, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.7,",
+        "block": true
+    },
+    {
+        "id": 467,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 468,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 469,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 470,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 471,
+        "raw": "[image]",
+        "type": "image"
+    },
+    {
+        "id": 472,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 473,
+        "raw": "[Delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 474,
+        "raw": "[Background(image=\"43_g4_spinestops_ex\", screenadapt=\"coverall\", block=true)]",
+        "type": "background",
+        "image": "43_g4_spinestops_ex.png",
+        "screenadapt": "coverall",
+        "block": true
+    },
+    {
+        "id": 475,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4088_hodrer_1#4$1\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4088_hodrer_1#4$1.png"
+    },
+    {
+        "id": 476,
+        "raw": "[charslot(slot=\"r\",name=\"avg_4087_ines_1#7$1\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_4087_ines_1#7$1.png"
+    },
+    {
+        "id": 477,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 478,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 479,
+        "raw": "[Delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 480,
+        "raw": "[charslot(slot=\"r\",name=\"avg_4087_ines_1#7$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_4087_ines_1#7$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 481,
+        "raw": "[name=\"Ines\"]This... this is the 'cargo ship'?",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "This... this is the 'cargo ship'?"
+    },
+    {
+        "id": 482,
+        "raw": "[name=\"Ines\"]So big... how did Theresis...?",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "So big... how did Theresis...?"
+    },
+    {
+        "id": 483,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4088_hodrer_1#4$1\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4088_hodrer_1#4$1.png",
+        "focus": "l"
+    },
+    {
+        "id": 484,
+        "raw": "[name=\"Hoederer\"]It... it's really...",
+        "type": "dialog",
+        "speaker": "Hoederer",
+        "content": "It... it's really..."
+    },
+    {
+        "id": 485,
+        "raw": "[name=\"Hoederer\"]Ulšulah the Time-Stealer...",
+        "type": "dialog",
+        "speaker": "Hoederer",
+        "content": "Ulšulah the Time-Stealer..."
+    },
+    {
+        "id": 486,
+        "raw": "[stopmusic(fadetime=3)]",
+        "type": "stop_music",
+        "fadetime": 3
+    },
+    {
+        "id": 487,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 488,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 489,
+        "raw": "[Delay(time=0.2)]",
+        "type": "delay",
+        "time": 0.2
+    },
+    {
+        "id": 490,
+        "raw": "[PlaySound(key=\"$d_avg_walk_stage\",channel=\"n\",loop=false)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_walk_stage.mp3",
+        "channel": "n",
+        "loop": false
+    },
+    {
+        "id": 491,
+        "raw": "[stopsound(channel=\"n\",fadetime=2)]",
+        "type": "stop_sound",
+        "channel": "n",
+        "fadetime": 2
+    },
+    {
+        "id": 492,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1067_1#1$1\",bstart=0.2,bend=0.7,duration=1)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#1$1.png",
+        "bstart": "0.2,bend=0.7,duration=1"
+    },
+    {
+        "id": 493,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 494,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1067_1#1$1\",bstart=0.2,bend=0.7,focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1067_1#1$1.png",
+        "bstart": "0.2,bend=0.7,focus=\"m\""
+    },
+    {
+        "id": 495,
+        "raw": "[name=\"???\"]What a coincidence, right?",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "What a coincidence, right?"
+    },
+    {
+        "id": 496,
+        "raw": "[name=\"???\"]The legend of Ulšulah tells of Kazdel being attacked by a Feranmut that could slow the time of all things and peer into the past through the fog.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "The legend of Ulšulah tells of Kazdel being attacked by a Feranmut that could slow the time of all things and peer into the past through the fog."
+    },
+    {
+        "id": 497,
+        "raw": "[name=\"???\"]Through so many pasts the hero Ulšulah journeyed, rescuing their kin lost in the mirage of time.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "Through so many pasts the hero Ulšulah journeyed, rescuing their kin lost in the mirage of time."
+    },
+    {
+        "id": 498,
+        "raw": "[name=\"???\"]Who knew that I, who took the name by happenstance, would one day witness the legend with my own eyes?",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "Who knew that I, who took the name by happenstance, would one day witness the legend with my own eyes?"
+    },
+    {
+        "id": 499,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 500,
+        "raw": "[playMusic(intro=\"$nervous_intro\", key=\"$nervous_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act9d0d0/m_avg_nervous_intro.mp3",
+        "key": "sound_beta_2/music/act9d0d0/m_avg_nervous_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 501,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#1$1\",bstart=0.2,bend=0.7,focus=\"m\")]",
+        "type": "charslot",
+        "bstart": "0.2,bend=0.7,focus=\"m\""
+    },
+    {
+        "id": 502,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": false
+    },
+    {
+        "id": 503,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 504,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_1067_1#1$1\",posfrom = \"0,0\", posto = \"200,0\",focus=\"n\")]",
+        "type": "charslot",
+        "focus": "n"
+    },
+    {
+        "id": 505,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#1$1\",bstart=0,bend=0,duration=2,focus=\"m\")]",
+        "type": "charslot",
+        "bstart": "0,bend=0,duration=2,focus=\"m\""
+    },
+    {
+        "id": 506,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 507,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#8$1\",focus=\"m\")]",
+        "type": "charslot",
+        "focus": "m"
+    },
+    {
+        "id": 508,
+        "raw": "[name=\"???\"]You've really ground those horns into shape, Ines. You could almost pass for a true blue Sarkaz.",
+        "type": "dialog",
+        "speaker": "???",
+        "content": "You've really ground those horns into shape, Ines. You could almost pass for a true blue Sarkaz."
+    },
+    {
+        "id": 509,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 510,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#7$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4088_hodrer_1#7$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 511,
+        "raw": "[name=\"Hoederer\"]Ulšulah.",
+        "type": "dialog",
+        "speaker": "Hoederer",
+        "content": "Ulšulah."
+    },
+    {
+        "id": 512,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#8$1\",focus=\"m\")]",
+        "type": "charslot",
+        "focus": "m"
+    },
+    {
+        "id": 513,
+        "raw": "[name=\"Ulšulah\"]Are you really going to betray General Manfred, Hoederer?",
+        "type": "dialog",
+        "speaker": "Ulšulah",
+        "content": "Are you really going to betray General Manfred, Hoederer?"
+    },
+    {
+        "id": 514,
+        "raw": "[name=\"Ulšulah\"]I knew you wouldn't kill Ines when I first heard the rumors, but the confidential nature of my work precluded a personal visit to Londinium to see you.",
+        "type": "dialog",
+        "speaker": "Ulšulah",
+        "content": "I knew you wouldn't kill Ines when I first heard the rumors, but the confidential nature of my work precluded a personal visit to Londinium to see you."
+    },
+    {
+        "id": 515,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4087_ines_1#3$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4087_ines_1#3$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 516,
+        "raw": "[name=\"Ines\"]Aren't you supposed to be the handpicked successor to the Scar Market? Sounds like you're already the bone driver here.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "Aren't you supposed to be the handpicked successor to the Scar Market? Sounds like you're already the bone driver here."
+    },
+    {
+        "id": 517,
+        "raw": "[name=\"Ines\"]Is playing a hero of legend worth such loyalty and commitment?",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "Is playing a hero of legend worth such loyalty and commitment?"
+    },
+    {
+        "id": 518,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#8$1\",focus=\"m\")]",
+        "type": "charslot",
+        "focus": "m"
+    },
+    {
+        "id": 519,
+        "raw": "[name=\"Ulšulah\"]Ancient things are not so appealing anymore.",
+        "type": "dialog",
+        "speaker": "Ulšulah",
+        "content": "Ancient things are not so appealing anymore."
+    },
+    {
+        "id": 520,
+        "raw": "[name=\"Ulšulah\"]Only one stuck in the past would continue to use the name.",
+        "type": "dialog",
+        "speaker": "Ulšulah",
+        "content": "Only one stuck in the past would continue to use the name."
+    },
+    {
+        "id": 521,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4088_hodrer_1#7$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4088_hodrer_1#7$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 522,
+        "raw": "[name=\"Hoederer\"]You could give yourself a new name.",
+        "type": "dialog",
+        "speaker": "Hoederer",
+        "content": "You could give yourself a new name."
+    },
+    {
+        "id": 523,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#8$1\",focus=\"m\")]",
+        "type": "charslot",
+        "focus": "m"
+    },
+    {
+        "id": 524,
+        "raw": "[name=\"Ulšulah\"]How would old friends who came a long way to visit be able to find me then?",
+        "type": "dialog",
+        "speaker": "Ulšulah",
+        "content": "How would old friends who came a long way to visit be able to find me then?"
+    },
+    {
+        "id": 525,
+        "raw": "[name=\"Ulšulah\"]Care for a drink?",
+        "type": "dialog",
+        "speaker": "Ulšulah",
+        "content": "Care for a drink?"
+    },
+    {
+        "id": 526,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 527,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4087_ines_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4087_ines_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 528,
+        "raw": "[PlaySound(key=\"$d_avg_drawsword\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_drawsword.mp3"
+    },
+    {
+        "id": 529,
+        "raw": "[PlaySound(key=\"$d_avg_exsheath\",delay=0.5)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_exsheath.mp3",
+        "delay": 0.5
+    },
+    {
+        "id": 530,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 531,
+        "raw": "[name=\"Ines\"]You didn't used to be a drinker.",
+        "type": "dialog",
+        "speaker": "Ines",
+        "content": "You didn't used to be a drinker."
+    },
+    {
+        "id": 532,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#2$1\",focus=\"m\")]",
+        "type": "charslot",
+        "focus": "m"
+    },
+    {
+        "id": 533,
+        "raw": "[name=\"Ulšulah\"]Used to, huh?",
+        "type": "dialog",
+        "speaker": "Ulšulah",
+        "content": "Used to, huh?"
+    },
+    {
+        "id": 534,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1067_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "focus": "m"
+    },
+    {
+        "id": 535,
+        "raw": "[name=\"Ulšulah\"]You didn't used to swing your sword at me either, Ines.",
+        "type": "dialog",
+        "speaker": "Ulšulah",
+        "content": "You didn't used to swing your sword at me either, Ines."
+    },
+    {
+        "id": 536,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 537,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 538,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 539,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 540,
+        "raw": "[Image]",
+        "type": "image"
+    }
+]

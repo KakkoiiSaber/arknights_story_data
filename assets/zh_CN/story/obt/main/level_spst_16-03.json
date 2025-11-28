@@ -1,0 +1,913 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")]",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK"
+    },
+    {
+        "id": 2,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 3,
+        "raw": "[stopmusic]",
+        "type": "stop_music"
+    },
+    {
+        "id": 4,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 5,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 6,
+        "raw": "[Background(image=\"50_g13_warshipcommandroom\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "50_g13_warshipcommandroom.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 7,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 8,
+        "raw": "[playMusic(intro=\"$darkness01_intro\",key=\"$darkness01_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta1_180603/m_dia_darkness01_intro.mp3",
+        "key": "sound_beta_2/music/beta1_180603/m_dia_darkness01_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 9,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 10,
+        "raw": "[playsound(key=\"$d_avg_telegraph_loop\", loop=true, channel=\"bgs\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_telegraph_loop.mp3",
+        "loop": "true,",
+        "channel": "bgs"
+    },
+    {
+        "id": 11,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 12,
+        "raw": "“各单位注意，这里是调度中心。”",
+        "type": "narration",
+        "content": "“各单位注意，这里是调度中心。”"
+    },
+    {
+        "id": 13,
+        "raw": "“应圣骏堡急电要求，各单位立即停火。”",
+        "type": "narration",
+        "content": "“应圣骏堡急电要求，各单位立即停火。”"
+    },
+    {
+        "id": 14,
+        "raw": "“重复，各单位立即停火。”",
+        "type": "narration",
+        "content": "“重复，各单位立即停火。”"
+    },
+    {
+        "id": 15,
+        "raw": "“收到回复。”",
+        "type": "narration",
+        "content": "“收到回复。”"
+    },
+    {
+        "id": 16,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 17,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 18,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1977_1#1$1\",duration=1)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1977_1#1$1.png",
+        "duration": 1
+    },
+    {
+        "id": 19,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 20,
+        "raw": "[name=\"军官\"]呼......",
+        "type": "dialog",
+        "speaker": "军官",
+        "content": "呼......"
+    },
+    {
+        "id": 21,
+        "raw": "[name=\"军官\"]停火范围？",
+        "type": "dialog",
+        "speaker": "军官",
+        "content": "停火范围？"
+    },
+    {
+        "id": 22,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 23,
+        "raw": "[name=\"通讯兵\"]所有出战单位。",
+        "type": "dialog",
+        "speaker": "通讯兵",
+        "content": "所有出战单位。"
+    },
+    {
+        "id": 24,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1977_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1977_1#1$1.png"
+    },
+    {
+        "id": 25,
+        "raw": "[name=\"军官\"]（点头）",
+        "type": "dialog",
+        "speaker": "军官",
+        "content": "（点头）"
+    },
+    {
+        "id": 26,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 27,
+        "raw": "“收到。”",
+        "type": "narration",
+        "content": "“收到。”"
+    },
+    {
+        "id": 28,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1977_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1977_1#1$1.png"
+    },
+    {
+        "id": 29,
+        "raw": "[name=\"军官\"]通知伊尔钦中尉，尽快核实第二师下辖所有兵团的停火情况。",
+        "type": "dialog",
+        "speaker": "军官",
+        "content": "通知伊尔钦中尉，尽快核实第二师下辖所有兵团的停火情况。"
+    },
+    {
+        "id": 30,
+        "raw": "[charslot(slot = \"m\", focus = \"n\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 31,
+        "raw": "“各单位原地待命，保持战斗警戒。”",
+        "type": "narration",
+        "content": "“各单位原地待命，保持战斗警戒。”"
+    },
+    {
+        "id": 32,
+        "raw": "“在威胁被彻底清除之前，我们将继续践行拱卫圣骏堡、保护人民的誓言。”",
+        "type": "narration",
+        "content": "“在威胁被彻底清除之前，我们将继续践行拱卫圣骏堡、保护人民的誓言。”"
+    },
+    {
+        "id": 33,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 34,
+        "raw": "[playsound(key=\"$p_imp_funnel_end_h\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/player/p_imp/p_imp_funnel_end_h.mp3"
+    },
+    {
+        "id": 35,
+        "raw": "[StopSound(channel=\"bgs\", fadetime=1)]",
+        "type": "stop_sound",
+        "channel": "bgs",
+        "fadetime": 1
+    },
+    {
+        "id": 36,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 37,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1977_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1977_1#1$1.png"
+    },
+    {
+        "id": 38,
+        "raw": "[name=\"军官\"]......去把军需官叫来。",
+        "type": "dialog",
+        "speaker": "军官",
+        "content": "......去把军需官叫来。"
+    },
+    {
+        "id": 39,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1976_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1976_1#1$1.png"
+    },
+    {
+        "id": 40,
+        "raw": "[name=\"士兵\"]报告长官，这次我们没有军需官随战。",
+        "type": "dialog",
+        "speaker": "士兵",
+        "content": "报告长官，这次我们没有军需官随战。"
+    },
+    {
+        "id": 41,
+        "raw": "[name=\"士兵\"]您对这场行动的预期只是一次快速响应——把那些制造暴乱的感染者都消灭不会花费太多的时间。",
+        "type": "dialog",
+        "speaker": "士兵",
+        "content": "您对这场行动的预期只是一次快速响应——把那些制造暴乱的感染者都消灭不会花费太多的时间。"
+    },
+    {
+        "id": 42,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1977_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1977_1#1$1.png"
+    },
+    {
+        "id": 43,
+        "raw": "[name=\"军官\"]......",
+        "type": "dialog",
+        "speaker": "军官",
+        "content": "......"
+    },
+    {
+        "id": 44,
+        "raw": "[name=\"军官\"]士兵，先照常回复调度中心。",
+        "type": "dialog",
+        "speaker": "军官",
+        "content": "士兵，先照常回复调度中心。"
+    },
+    {
+        "id": 45,
+        "raw": "[name=\"军官\"]然后，你。你叫什么名字？",
+        "type": "dialog",
+        "speaker": "军官",
+        "content": "然后，你。你叫什么名字？"
+    },
+    {
+        "id": 46,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1976_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1976_1#1$1.png"
+    },
+    {
+        "id": 47,
+        "raw": "[name=\"士兵\"]报告长官，我是列兵维亚切·季诺夫。",
+        "type": "dialog",
+        "speaker": "士兵",
+        "content": "报告长官，我是列兵维亚切·季诺夫。"
+    },
+    {
+        "id": 48,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1977_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1977_1#1$1.png"
+    },
+    {
+        "id": 49,
+        "raw": "[name=\"军官\"]好，列兵维亚切，去通知中尉吧，这里暂时不需要你的服务了。",
+        "type": "dialog",
+        "speaker": "军官",
+        "content": "好，列兵维亚切，去通知中尉吧，这里暂时不需要你的服务了。"
+    },
+    {
+        "id": 50,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 51,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 52,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 53,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 54,
+        "raw": "[Background(image=\"bg_warehouse_2\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_warehouse_2.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 55,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 56,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 57,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1978_1#1$1\",duration=1)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1978_1#1$1.png",
+        "duration": 1
+    },
+    {
+        "id": 58,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 59,
+        "raw": "[name=\"冷漠的士兵\"]......就这么件小事，值得让我擅离职守过来找你？",
+        "type": "dialog",
+        "speaker": "冷漠的士兵",
+        "content": "......就这么件小事，值得让我擅离职守过来找你？"
+    },
+    {
+        "id": 60,
+        "raw": "[name=\"冷漠的士兵\"]我看你是疯了。",
+        "type": "dialog",
+        "speaker": "冷漠的士兵",
+        "content": "我看你是疯了。"
+    },
+    {
+        "id": 61,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 62,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 63,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1976_1#1$1\",duration=0.5)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1976_1#1$1.png",
+        "duration": 0.5
+    },
+    {
+        "id": 64,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 65,
+        "raw": "[name=\"愤怒的士兵\"]帕季亚，瞧瞧你，穿着盾卫的制服，多么威风......！",
+        "type": "dialog",
+        "speaker": "愤怒的士兵",
+        "content": "帕季亚，瞧瞧你，穿着盾卫的制服，多么威风......！"
+    },
+    {
+        "id": 66,
+        "raw": "[name=\"愤怒的士兵\"]戴着那头盔难道真让你什么也瞧不见了？",
+        "type": "dialog",
+        "speaker": "愤怒的士兵",
+        "content": "戴着那头盔难道真让你什么也瞧不见了？"
+    },
+    {
+        "id": 67,
+        "raw": "[name=\"愤怒的士兵\"]那些军粮里的蛆虫、一折就断的弩箭——甚至还有哑弹！",
+        "type": "dialog",
+        "speaker": "愤怒的士兵",
+        "content": "那些军粮里的蛆虫、一折就断的弩箭——甚至还有哑弹！"
+    },
+    {
+        "id": 68,
+        "raw": "[name=\"愤怒的士兵\"]我们就用这种东西出去送死！",
+        "type": "dialog",
+        "speaker": "愤怒的士兵",
+        "content": "我们就用这种东西出去送死！"
+    },
+    {
+        "id": 69,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1978_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1978_1#1$1.png"
+    },
+    {
+        "id": 70,
+        "raw": "[name=\"冷漠的士兵\"]军粮里有虫，那就吃带虫的军粮；武器难以使用，那就用身体去填上。",
+        "type": "dialog",
+        "speaker": "冷漠的士兵",
+        "content": "军粮里有虫，那就吃带虫的军粮；武器难以使用，那就用身体去填上。"
+    },
+    {
+        "id": 71,
+        "raw": "[name=\"冷漠的士兵\"]我们是士兵，我们战斗，然后胜利。结局只有继续战斗或死去。",
+        "type": "dialog",
+        "speaker": "冷漠的士兵",
+        "content": "我们是士兵，我们战斗，然后胜利。结局只有继续战斗或死去。"
+    },
+    {
+        "id": 72,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1976_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1976_1#1$1.png"
+    },
+    {
+        "id": 73,
+        "raw": "[name=\"愤怒的士兵\"]我看你才是疯了！",
+        "type": "dialog",
+        "speaker": "愤怒的士兵",
+        "content": "我看你才是疯了！"
+    },
+    {
+        "id": 74,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1978_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1978_1#1$1.png"
+    },
+    {
+        "id": 75,
+        "raw": "[name=\"冷漠的士兵\"]发现他人职责上的失误，你应该报告给上级，而不是在这里向我抱怨。",
+        "type": "dialog",
+        "speaker": "冷漠的士兵",
+        "content": "发现他人职责上的失误，你应该报告给上级，而不是在这里向我抱怨。"
+    },
+    {
+        "id": 76,
+        "raw": "[name=\"冷漠的士兵\"]我不是军需官——",
+        "type": "dialog",
+        "speaker": "冷漠的士兵",
+        "content": "我不是军需官——"
+    },
+    {
+        "id": 77,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 78,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 79,
+        "raw": "[playsound(key=\"$d_avg_armyboots_walk\", loop=true, channel=\"bgs\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_armyboots_walk.mp3",
+        "loop": "true,",
+        "channel": "bgs"
+    },
+    {
+        "id": 80,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1977_1#1$1\",duration=1)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1977_1#1$1.png",
+        "duration": 1
+    },
+    {
+        "id": 81,
+        "raw": "[Delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 82,
+        "raw": "[StopSound(channel=\"bgs\", fadetime=0.3)]",
+        "type": "stop_sound",
+        "channel": "bgs",
+        "fadetime": 0.3
+    },
+    {
+        "id": 83,
+        "raw": "[Delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 84,
+        "raw": "[name=\"军官\"]我记得重装兵团应该在甲板上驻守。",
+        "type": "dialog",
+        "speaker": "军官",
+        "content": "我记得重装兵团应该在甲板上驻守。"
+    },
+    {
+        "id": 85,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1978_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1978_1#1$1.png"
+    },
+    {
+        "id": 86,
+        "raw": "[name=\"冷漠的士兵\"]......抱歉长官，我的确擅离职守了。",
+        "type": "dialog",
+        "speaker": "冷漠的士兵",
+        "content": "......抱歉长官，我的确擅离职守了。"
+    },
+    {
+        "id": 87,
+        "raw": "[name=\"冷漠的士兵\"]我会将这一失职行为上报给督战官。",
+        "type": "dialog",
+        "speaker": "冷漠的士兵",
+        "content": "我会将这一失职行为上报给督战官。"
+    },
+    {
+        "id": 88,
+        "raw": "[name=\"冷漠的士兵\"]（敬礼）",
+        "type": "dialog",
+        "speaker": "冷漠的士兵",
+        "content": "（敬礼）"
+    },
+    {
+        "id": 89,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 90,
+        "raw": "[playsound(key=\"$d_avg_armour\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_armour.mp3"
+    },
+    {
+        "id": 91,
+        "raw": "[charslot(duration=1)]",
+        "type": "charslot",
+        "duration": 1
+    },
+    {
+        "id": 92,
+        "raw": "[Delay(time=2.5)]",
+        "type": "delay",
+        "time": 2.5
+    },
+    {
+        "id": 93,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 94,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1977_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1977_1#1$1.png"
+    },
+    {
+        "id": 95,
+        "raw": "[name=\"军官\"]......",
+        "type": "dialog",
+        "speaker": "军官",
+        "content": "......"
+    },
+    {
+        "id": 96,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1976_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1976_1#1$1.png"
+    },
+    {
+        "id": 97,
+        "raw": "[name=\"愤怒的士兵\"]长、长官！",
+        "type": "dialog",
+        "speaker": "愤怒的士兵",
+        "content": "长、长官！"
+    },
+    {
+        "id": 98,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1977_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1977_1#1$1.png"
+    },
+    {
+        "id": 99,
+        "raw": "[name=\"军官\"]你发现了什么，士兵？",
+        "type": "dialog",
+        "speaker": "军官",
+        "content": "你发现了什么，士兵？"
+    },
+    {
+        "id": 100,
+        "raw": "[name=\"军官\"]告诉我使你愤怒的缘由。",
+        "type": "dialog",
+        "speaker": "军官",
+        "content": "告诉我使你愤怒的缘由。"
+    },
+    {
+        "id": 101,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1976_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1976_1#1$1.png"
+    },
+    {
+        "id": 102,
+        "raw": "[name=\"愤怒的士兵\"]......这次行动，我们的军需用品质量非常低劣。",
+        "type": "dialog",
+        "speaker": "愤怒的士兵",
+        "content": "......这次行动，我们的军需用品质量非常低劣。"
+    },
+    {
+        "id": 103,
+        "raw": "[name=\"愤怒的士兵\"]军粮偷工减料，配给的罐头全都破损，里面长满了蛆虫......",
+        "type": "dialog",
+        "speaker": "愤怒的士兵",
+        "content": "军粮偷工减料，配给的罐头全都破损，里面长满了蛆虫......"
+    },
+    {
+        "id": 104,
+        "raw": "[name=\"愤怒的士兵\"]还有弩箭......箭头有不少都不是钢制的，而是用生铁以次充好。",
+        "type": "dialog",
+        "speaker": "愤怒的士兵",
+        "content": "还有弩箭......箭头有不少都不是钢制的，而是用生铁以次充好。"
+    },
+    {
+        "id": 105,
+        "raw": "[name=\"愤怒的士兵\"]甚至备用的源石炸弹都是能量含量极低的版本，几乎和哑弹没有区别。",
+        "type": "dialog",
+        "speaker": "愤怒的士兵",
+        "content": "甚至备用的源石炸弹都是能量含量极低的版本，几乎和哑弹没有区别。"
+    },
+    {
+        "id": 106,
+        "raw": "[name=\"愤怒的士兵\"]就这样......这样我们要怎么进行下一步行动？",
+        "type": "dialog",
+        "speaker": "愤怒的士兵",
+        "content": "就这样......这样我们要怎么进行下一步行动？"
+    },
+    {
+        "id": 107,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1977_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1977_1#1$1.png"
+    },
+    {
+        "id": 108,
+        "raw": "[name=\"军官\"]......士兵，你应征入伍是为了什么？",
+        "type": "dialog",
+        "speaker": "军官",
+        "content": "......士兵，你应征入伍是为了什么？"
+    },
+    {
+        "id": 109,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1976_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1976_1#1$1.png"
+    },
+    {
+        "id": 110,
+        "raw": "[name=\"愤怒的士兵\"]为......",
+        "type": "dialog",
+        "speaker": "愤怒的士兵",
+        "content": "为......"
+    },
+    {
+        "id": 111,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1977_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1977_1#1$1.png"
+    },
+    {
+        "id": 112,
+        "raw": "[name=\"军官\"]大声回答我。",
+        "type": "dialog",
+        "speaker": "军官",
+        "content": "大声回答我。"
+    },
+    {
+        "id": 113,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1976_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1976_1#1$1.png"
+    },
+    {
+        "id": 114,
+        "raw": "[name=\"愤怒的士兵\"]为——为了证明自己！我想让自己的名字被更多人知道——",
+        "type": "dialog",
+        "speaker": "愤怒的士兵",
+        "content": "为——为了证明自己！我想让自己的名字被更多人知道——"
+    },
+    {
+        "id": 115,
+        "raw": "[name=\"愤怒的士兵\"]像您一样！",
+        "type": "dialog",
+        "speaker": "愤怒的士兵",
+        "content": "像您一样！"
+    },
+    {
+        "id": 116,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1977_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1977_1#1$1.png"
+    },
+    {
+        "id": 117,
+        "raw": "[name=\"军官\"]当军队送回你的军牌，你的母亲把你的名字刻在白桦树上，同样是一种众人皆知。",
+        "type": "dialog",
+        "speaker": "军官",
+        "content": "当军队送回你的军牌，你的母亲把你的名字刻在白桦树上，同样是一种众人皆知。"
+    },
+    {
+        "id": 118,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1976_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1976_1#1$1.png"
+    },
+    {
+        "id": 119,
+        "raw": "[name=\"愤怒的士兵\"]不，不是那种......",
+        "type": "dialog",
+        "speaker": "愤怒的士兵",
+        "content": "不，不是那种......"
+    },
+    {
+        "id": 120,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1977_1#1$1\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1977_1#1$1.png"
+    },
+    {
+        "id": 121,
+        "raw": "[name=\"军官\"]如果集体已经身处一场战争，那个人就不会有太多选择自己结局的余地。",
+        "type": "dialog",
+        "speaker": "军官",
+        "content": "如果集体已经身处一场战争，那个人就不会有太多选择自己结局的余地。"
+    },
+    {
+        "id": 122,
+        "raw": "[name=\"军官\"]但......",
+        "type": "dialog",
+        "speaker": "军官",
+        "content": "但......"
+    },
+    {
+        "id": 123,
+        "raw": "[name=\"军官\"]保持这种希望吧，孩子，然后把你的“发现”记在心里。",
+        "type": "dialog",
+        "speaker": "军官",
+        "content": "保持这种希望吧，孩子，然后把你的“发现”记在心里。"
+    },
+    {
+        "id": 124,
+        "raw": "[name=\"军官\"]为了让更多的乌萨斯人能够活下去，为了乌萨斯的存续，事到如今，留给我们的选择只有一个了......",
+        "type": "dialog",
+        "speaker": "军官",
+        "content": "为了让更多的乌萨斯人能够活下去，为了乌萨斯的存续，事到如今，留给我们的选择只有一个了......"
+    },
+    {
+        "id": 125,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 126,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 127,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 128,
+        "raw": "[name=\"军官\"]用一把火点燃这片大地。",
+        "type": "dialog",
+        "speaker": "军官",
+        "content": "用一把火点燃这片大地。"
+    },
+    {
+        "id": 129,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 130,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 131,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 132,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 133,
+        "raw": "[hidecgitem]",
+        "type": "hide_cg_item"
+    },
+    {
+        "id": 134,
+        "raw": "[Image]",
+        "type": "image"
+    },
+    {
+        "id": 135,
+        "raw": "[charslot] ",
+        "type": "charslot"
+    }
+]

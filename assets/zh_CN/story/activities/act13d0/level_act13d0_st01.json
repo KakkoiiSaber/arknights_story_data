@@ -1,0 +1,3414 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")] 中秋 史尔特尔",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK",
+        "content": "中秋 史尔特尔"
+    },
+    {
+        "id": 2,
+        "raw": "[stopmusic]",
+        "type": "stop_music"
+    },
+    {
+        "id": 3,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 4,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 5,
+        "raw": "[playMusic(intro=\"$path_intro\", key=\"$path_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/a001/m_dia_path_intro.mp3",
+        "key": "sound_beta_2/music/a001/m_dia_path_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 6,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 7,
+        "raw": "[Background(image=\"bg_laccolith\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_laccolith.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 8,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 9,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 10,
+        "raw": "7:10 A.M.  天气/晴",
+        "type": "narration",
+        "content": "7:10 A.M.  天气/晴"
+    },
+    {
+        "id": 11,
+        "raw": "卡兹戴尔远郊",
+        "type": "narration",
+        "content": "卡兹戴尔远郊"
+    },
+    {
+        "id": 12,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 13,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 14,
+        "raw": "[Background(image=\"bg_county_1\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_county_1.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 15,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 16,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3"
+    },
+    {
+        "id": 17,
+        "raw": "[Character(name=\"char_350_surtr_1#3\",fadetime=1,blo=true)]",
+        "type": "character",
+        "name": "char_350_surtr_1#3",
+        "fadetime": "1,blo=true"
+    },
+    {
+        "id": 18,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 19,
+        "raw": "[name=\"史尔特尔\"]  任务目的地是这儿？",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "任务目的地是这儿？"
+    },
+    {
+        "id": 20,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 21,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3"
+    },
+    {
+        "id": 22,
+        "raw": "[Character(name=\"char_219_meteo_1\",fadetime=1,blo=true)]",
+        "type": "character",
+        "name": "char_219_meteo_1",
+        "fadetime": "1,blo=true"
+    },
+    {
+        "id": 23,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 24,
+        "raw": "[name=\"陨星\"]  按照图像指示看来，应该就是这里，移动村庄——贝罗尼村。",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "按照图像指示看来，应该就是这里，移动村庄——贝罗尼村。"
+    },
+    {
+        "id": 25,
+        "raw": "[name=\"陨星\"]  比起移动村庄，不如说整个村子就是一个大型矿车。",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "比起移动村庄，不如说整个村子就是一个大型矿车。"
+    },
+    {
+        "id": 26,
+        "raw": "[name=\"陨星\"]  依靠源石驱动自带的钻井进行采掘，达成自给自足的同时，多余资源出售给附近的其他城市也能获得营收。",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "依靠源石驱动自带的钻井进行采掘，达成自给自足的同时，多余资源出售给附近的其他城市也能获得营收。"
+    },
+    {
+        "id": 27,
+        "raw": "[name=\"陨星\"]  如果发现了大型遗迹更是能向周围的大型移动城市寻求开采的赞助费。",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "如果发现了大型遗迹更是能向周围的大型移动城市寻求开采的赞助费。"
+    },
+    {
+        "id": 28,
+        "raw": "[Character(name=\"char_350_surtr_1#6\",name2=\"char_219_meteo_1\",focus=1)]",
+        "type": "character",
+        "name": "char_350_surtr_1#6",
+        "name2": "char_219_meteo_1",
+        "focus": 1
+    },
+    {
+        "id": 29,
+        "raw": "[name=\"史尔特尔\"]  就算你这么说，这村子也太破了吧。",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "就算你这么说，这村子也太破了吧。"
+    },
+    {
+        "id": 30,
+        "raw": "[name=\"史尔特尔\"]  遍地的灰尘，栅栏也破破烂烂。明明有人来往，但是却不愿意翻修翻修。",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "遍地的灰尘，栅栏也破破烂烂。明明有人来往，但是却不愿意翻修翻修。"
+    },
+    {
+        "id": 31,
+        "raw": "[name=\"史尔特尔\"]  看起来也并不是什么很有趣的地方。",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "看起来也并不是什么很有趣的地方。"
+    },
+    {
+        "id": 32,
+        "raw": "[Character(name=\"char_350_surtr_1#6\",name2=\"char_219_meteo_1\",focus=2)]",
+        "type": "character",
+        "name": "char_350_surtr_1#6",
+        "name2": "char_219_meteo_1",
+        "focus": 2
+    },
+    {
+        "id": 33,
+        "raw": "[name=\"陨星\"]  泰拉的大部分地方都不有趣，但是那些居住在无趣地方的人也有他们自己的生活。",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "泰拉的大部分地方都不有趣，但是那些居住在无趣地方的人也有他们自己的生活。"
+    },
+    {
+        "id": 34,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 35,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 36,
+        "raw": "[PlaySound(key=\"$rungeneral\", volume=0.9)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_rungeneral.mp3",
+        "volume": 0.9
+    },
+    {
+        "id": 37,
+        "raw": "[name=\"瘦弱的小孩\"]  等一下，还给我！",
+        "type": "dialog",
+        "speaker": "瘦弱的小孩",
+        "content": "等一下，还给我！"
+    },
+    {
+        "id": 38,
+        "raw": "[name=\"顽皮的小孩\"]  干嘛！不是你说好的这些雪糕要大家分着吃的吗！",
+        "type": "dialog",
+        "speaker": "顽皮的小孩",
+        "content": "干嘛！不是你说好的这些雪糕要大家分着吃的吗！"
+    },
+    {
+        "id": 39,
+        "raw": "[name=\"瘦弱的小孩\"]  别跑！都还没到家你都要把它捏化了！",
+        "type": "dialog",
+        "speaker": "瘦弱的小孩",
+        "content": "别跑！都还没到家你都要把它捏化了！"
+    },
+    {
+        "id": 40,
+        "raw": "[name=\"瘦弱的小孩\"]  白痴，快给我！",
+        "type": "dialog",
+        "speaker": "瘦弱的小孩",
+        "content": "白痴，快给我！"
+    },
+    {
+        "id": 41,
+        "raw": "[name=\"顽皮的小孩\"]  那不行，我比你跑得更快，得让我来把这些带回去给老爸！",
+        "type": "dialog",
+        "speaker": "顽皮的小孩",
+        "content": "那不行，我比你跑得更快，得让我来把这些带回去给老爸！"
+    },
+    {
+        "id": 42,
+        "raw": "[name=\"瘦弱的小孩\"]  等等我啊！！",
+        "type": "dialog",
+        "speaker": "瘦弱的小孩",
+        "content": "等等我啊！！"
+    },
+    {
+        "id": 43,
+        "raw": "[PlaySound(key=\"$rungeneral\", volume=0.9)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_rungeneral.mp3",
+        "volume": 0.9
+    },
+    {
+        "id": 44,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 45,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 46,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 47,
+        "raw": "[Character(name=\"char_350_surtr_1#6\",name2=\"char_219_meteo_1\",focus=2)]",
+        "type": "character",
+        "name": "char_350_surtr_1#6",
+        "name2": "char_219_meteo_1",
+        "focus": 2
+    },
+    {
+        "id": 48,
+        "raw": "[name=\"陨星\"]  在这样糟糕环境中努力生存着的人们不少，但是这并不意味着他们不幸福。",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "在这样糟糕环境中努力生存着的人们不少，但是这并不意味着他们不幸福。"
+    },
+    {
+        "id": 49,
+        "raw": "[Character(name=\"char_350_surtr_1#6\",name2=\"char_219_meteo_1\",focus=1)]",
+        "type": "character",
+        "name": "char_350_surtr_1#6",
+        "name2": "char_219_meteo_1",
+        "focus": 1
+    },
+    {
+        "id": 50,
+        "raw": "[name=\"史尔特尔\"]  为了一份普通的雪糕跑来跑去，不顾周围的人吵吵嚷嚷，一直到长大成人也都是这样。",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "为了一份普通的雪糕跑来跑去，不顾周围的人吵吵嚷嚷，一直到长大成人也都是这样。"
+    },
+    {
+        "id": 51,
+        "raw": "[name=\"史尔特尔\"]  这样也幸福？",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "这样也幸福？"
+    },
+    {
+        "id": 52,
+        "raw": "[Character(name=\"char_350_surtr_1#6\",name2=\"char_219_meteo_1\",focus=2)]",
+        "type": "character",
+        "name": "char_350_surtr_1#6",
+        "name2": "char_219_meteo_1",
+        "focus": 2
+    },
+    {
+        "id": 53,
+        "raw": "[name=\"陨星\"]  ......你是不是生气了。",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "......你是不是生气了。"
+    },
+    {
+        "id": 54,
+        "raw": "[Character(name=\"char_350_surtr_1#3\",name2=\"char_219_meteo_1\",focus=1)]",
+        "type": "character",
+        "name": "char_350_surtr_1#3",
+        "name2": "char_219_meteo_1",
+        "focus": 1
+    },
+    {
+        "id": 55,
+        "raw": "[name=\"史尔特尔\"]  我怎么会因为被这些小孩子不顾别人胡乱跑过扬起灰尘发脾气。",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "我怎么会因为被这些小孩子不顾别人胡乱跑过扬起灰尘发脾气。"
+    },
+    {
+        "id": 56,
+        "raw": "[Character(name=\"char_350_surtr_1#3\",name2=\"char_219_meteo_1\",focus=2)]",
+        "type": "character",
+        "name": "char_350_surtr_1#3",
+        "name2": "char_219_meteo_1",
+        "focus": 2
+    },
+    {
+        "id": 57,
+        "raw": "[name=\"陨星\"]  （这可不就是生气了吗。）",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "（这可不就是生气了吗。）"
+    },
+    {
+        "id": 58,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 59,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 60,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3"
+    },
+    {
+        "id": 61,
+        "raw": "[Character(name=\"avg_npc_006\",fadetime=1,blo=true)]",
+        "type": "character",
+        "name": "avg_npc_006",
+        "fadetime": "1,blo=true"
+    },
+    {
+        "id": 62,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 63,
+        "raw": "[name=\"村长\"]  不好意思不好意思，两位就是罗德岛特派过来的干员吗。",
+        "type": "dialog",
+        "speaker": "村长",
+        "content": "不好意思不好意思，两位就是罗德岛特派过来的干员吗。"
+    },
+    {
+        "id": 64,
+        "raw": "[name=\"村长\"]  让两位久等了。",
+        "type": "dialog",
+        "speaker": "村长",
+        "content": "让两位久等了。"
+    },
+    {
+        "id": 65,
+        "raw": "[Character(name=\"avg_npc_006\",name2=\"char_219_meteo_1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_006",
+        "name2": "char_219_meteo_1",
+        "focus": 2
+    },
+    {
+        "id": 66,
+        "raw": "[name=\"陨星\"]  啊是的，您好，请问您就是本地的对接人员吗。",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "啊是的，您好，请问您就是本地的对接人员吗。"
+    },
+    {
+        "id": 67,
+        "raw": "[Character(name=\"avg_npc_006\",name2=\"char_219_meteo_1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_006",
+        "name2": "char_219_meteo_1",
+        "focus": 1
+    },
+    {
+        "id": 68,
+        "raw": "[name=\"村长\"]  啊啊是的，敝人就是现在贝罗尼村的村长。由我来给大家带路，来，别在这里站着，咱们往里走吧，这边。",
+        "type": "dialog",
+        "speaker": "村长",
+        "content": "啊啊是的，敝人就是现在贝罗尼村的村长。由我来给大家带路，来，别在这里站着，咱们往里走吧，这边。"
+    },
+    {
+        "id": 69,
+        "raw": "[Character(name=\"avg_npc_006\",name2=\"char_219_meteo_1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_006",
+        "name2": "char_219_meteo_1",
+        "focus": 2
+    },
+    {
+        "id": 70,
+        "raw": "[name=\"陨星\"]   麻烦您了。",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "麻烦您了。"
+    },
+    {
+        "id": 71,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 72,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 73,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 74,
+        "raw": "[Background(image=\"bg_rhodescom\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_rhodescom.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 75,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 76,
+        "raw": "任务出发前",
+        "type": "narration",
+        "content": "任务出发前"
+    },
+    {
+        "id": 77,
+        "raw": "罗德岛指挥室",
+        "type": "narration",
+        "content": "罗德岛指挥室"
+    },
+    {
+        "id": 78,
+        "raw": "[Character(name=\"char_003_kalts_1\",fadetime=1,blo=true)]",
+        "type": "character",
+        "name": "char_003_kalts_1",
+        "fadetime": "1,blo=true"
+    },
+    {
+        "id": 79,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 80,
+        "raw": "[name=\"凯尔希\"]   地处卡兹戴尔边界的贝罗尼村是典型的矿区村庄，几个月前因为开采导致了塌方，矿场完全封闭了起来。",
+        "type": "dialog",
+        "speaker": "凯尔希",
+        "content": "地处卡兹戴尔边界的贝罗尼村是典型的矿区村庄，几个月前因为开采导致了塌方，矿场完全封闭了起来。"
+    },
+    {
+        "id": 81,
+        "raw": "[name=\"凯尔希\"]   塌方不仅破坏了矿场，还封住了村子的移动路线，贝罗尼村一直以来的通商通道也被阻拦。",
+        "type": "dialog",
+        "speaker": "凯尔希",
+        "content": "塌方不仅破坏了矿场，还封住了村子的移动路线，贝罗尼村一直以来的通商通道也被阻拦。"
+    },
+    {
+        "id": 82,
+        "raw": "[name=\"凯尔希\"]   村子近几个月以来一直在向临近的移动城市求助，不过并没有愿意去帮他们解决情况的城市出现。",
+        "type": "dialog",
+        "speaker": "凯尔希",
+        "content": "村子近几个月以来一直在向临近的移动城市求助，不过并没有愿意去帮他们解决情况的城市出现。"
+    },
+    {
+        "id": 83,
+        "raw": "[name=\"凯尔希\"]   这次希望陨星你能去现场进行初步探查，确定当地受困情况。",
+        "type": "dialog",
+        "speaker": "凯尔希",
+        "content": "这次希望陨星你能去现场进行初步探查，确定当地受困情况。"
+    },
+    {
+        "id": 84,
+        "raw": "[name=\"凯尔希\"]   将第一波数据带回来后，我们就可以展开救助计划。",
+        "type": "dialog",
+        "speaker": "凯尔希",
+        "content": "将第一波数据带回来后，我们就可以展开救助计划。"
+    },
+    {
+        "id": 85,
+        "raw": "[Character(name=\"char_219_meteo_1\")]",
+        "type": "character",
+        "name": "char_219_meteo_1"
+    },
+    {
+        "id": 86,
+        "raw": "[name=\"陨星\"]  了解，听起来并不是特别困难的任务。",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "了解，听起来并不是特别困难的任务。"
+    },
+    {
+        "id": 87,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 88,
+        "raw": "[name=\"凯尔希\"]   村子的问题看起来并没有牵扯到天灾和矿石病，但是也要小心行事。",
+        "type": "dialog",
+        "speaker": "凯尔希",
+        "content": "村子的问题看起来并没有牵扯到天灾和矿石病，但是也要小心行事。"
+    },
+    {
+        "id": 89,
+        "raw": "[Character(name=\"char_219_meteo_1\")]",
+        "type": "character",
+        "name": "char_219_meteo_1"
+    },
+    {
+        "id": 90,
+        "raw": "[name=\"陨星\"]  收到，不过......",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "收到，不过......"
+    },
+    {
+        "id": 91,
+        "raw": "[Character(name=\"char_350_surtr_1\")]",
+        "type": "character",
+        "name": "char_350_surtr_1"
+    },
+    {
+        "id": 92,
+        "raw": "[name=\"史尔特尔\"]  ......",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "......"
+    },
+    {
+        "id": 93,
+        "raw": "[Character(name=\"char_219_meteo_1\")]",
+        "type": "character",
+        "name": "char_219_meteo_1"
+    },
+    {
+        "id": 94,
+        "raw": "[name=\"陨星\"]  史尔特尔也要一起？这次任务没有这么困难吧。",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "史尔特尔也要一起？这次任务没有这么困难吧。"
+    },
+    {
+        "id": 95,
+        "raw": "[Character(name=\"char_350_surtr_1\")]",
+        "type": "character",
+        "name": "char_350_surtr_1"
+    },
+    {
+        "id": 96,
+        "raw": "[name=\"史尔特尔\"]  这次任务地点有我想去确认的东西。",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "这次任务地点有我想去确认的东西。"
+    },
+    {
+        "id": 97,
+        "raw": "[Character(name=\"char_003_kalts_1\")]",
+        "type": "character",
+        "name": "char_003_kalts_1"
+    },
+    {
+        "id": 98,
+        "raw": "[name=\"凯尔希\"]  史尔特尔因为一些个人需求申请了任务的同行，经过确认我们通过了此次申请。",
+        "type": "dialog",
+        "speaker": "凯尔希",
+        "content": "史尔特尔因为一些个人需求申请了任务的同行，经过确认我们通过了此次申请。"
+    },
+    {
+        "id": 99,
+        "raw": "[Character(name=\"char_350_surtr_1\")]",
+        "type": "character",
+        "name": "char_350_surtr_1"
+    },
+    {
+        "id": 100,
+        "raw": "[name=\"史尔特尔\"]  我不会成为累赘，不用在意我就行。",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "我不会成为累赘，不用在意我就行。"
+    },
+    {
+        "id": 101,
+        "raw": "[Character(name=\"char_219_meteo_1\")]",
+        "type": "character",
+        "name": "char_219_meteo_1"
+    },
+    {
+        "id": 102,
+        "raw": "[name=\"陨星\"]  ......",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "......"
+    },
+    {
+        "id": 103,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 104,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 105,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 106,
+        "raw": "[Background(image=\"bg_county_1\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_county_1.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 107,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 108,
+        "raw": "[Character(name=\"avg_npc_006\",name2=\"char_219_meteo_1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_006",
+        "name2": "char_219_meteo_1",
+        "focus": 1
+    },
+    {
+        "id": 109,
+        "raw": "[name=\"村长\"]  村子不大，麻烦两位先在这里等一等，我进去先拿一些工具。",
+        "type": "dialog",
+        "speaker": "村长",
+        "content": "村子不大，麻烦两位先在这里等一等，我进去先拿一些工具。"
+    },
+    {
+        "id": 110,
+        "raw": "[Character(name=\"avg_npc_006\",name2=\"char_219_meteo_1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_006",
+        "name2": "char_219_meteo_1",
+        "focus": 2
+    },
+    {
+        "id": 111,
+        "raw": "[name=\"陨星\"]  啊，基本的勘探工具我们都携带好了。",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "啊，基本的勘探工具我们都携带好了。"
+    },
+    {
+        "id": 112,
+        "raw": "[Character(name=\"avg_npc_006\",name2=\"char_219_meteo_1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_006",
+        "name2": "char_219_meteo_1",
+        "focus": 1
+    },
+    {
+        "id": 113,
+        "raw": "[name=\"村长\"]  村子边缘的矿区入口现在被我们用特殊的锁定设备封锁了。",
+        "type": "dialog",
+        "speaker": "村长",
+        "content": "村子边缘的矿区入口现在被我们用特殊的锁定设备封锁了。"
+    },
+    {
+        "id": 114,
+        "raw": "[name=\"村长\"]  如果不是特殊解锁工具的话是没办法打开的，倒不是我自夸，咱们村子在采掘方面还是很有经验的。",
+        "type": "dialog",
+        "speaker": "村长",
+        "content": "如果不是特殊解锁工具的话是没办法打开的，倒不是我自夸，咱们村子在采掘方面还是很有经验的。"
+    },
+    {
+        "id": 115,
+        "raw": "[Character(name=\"avg_npc_006\",name2=\"char_350_surtr_1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_006",
+        "name2": "char_350_surtr_1",
+        "focus": 2
+    },
+    {
+        "id": 116,
+        "raw": "[name=\"史尔特尔\"]  可是不也困在这里了。",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "可是不也困在这里了。"
+    },
+    {
+        "id": 117,
+        "raw": "[Character(name=\"avg_npc_006\",name2=\"char_350_surtr_1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_006",
+        "name2": "char_350_surtr_1",
+        "focus": 1
+    },
+    {
+        "id": 118,
+        "raw": "[name=\"村长\"]  哈哈哈确实是这样。",
+        "type": "dialog",
+        "speaker": "村长",
+        "content": "哈哈哈确实是这样。"
+    },
+    {
+        "id": 119,
+        "raw": "[Character(name=\"avg_npc_006\",name2=\"char_219_meteo_1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_006",
+        "name2": "char_219_meteo_1",
+        "focus": 2
+    },
+    {
+        "id": 120,
+        "raw": "[name=\"陨星\"]  啊啊抱歉她不是有心的。喂这也太没礼貌了吧。",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "啊啊抱歉她不是有心的。喂这也太没礼貌了吧。"
+    },
+    {
+        "id": 121,
+        "raw": "[Character(name=\"avg_npc_006\",name2=\"char_219_meteo_1\",focus=1)]",
+        "type": "character",
+        "name": "avg_npc_006",
+        "name2": "char_219_meteo_1",
+        "focus": 1
+    },
+    {
+        "id": 122,
+        "raw": "[name=\"村长\"]  也是惭愧，村子虽然在采掘方面有经验，但是确实没有预料到如此大规模的塌方事件。",
+        "type": "dialog",
+        "speaker": "村长",
+        "content": "也是惭愧，村子虽然在采掘方面有经验，但是确实没有预料到如此大规模的塌方事件。"
+    },
+    {
+        "id": 123,
+        "raw": "[name=\"村长\"]  钻井部分陷在塌方区域里面，为了安全着想，村子也不敢安排人员接近。",
+        "type": "dialog",
+        "speaker": "村长",
+        "content": "钻井部分陷在塌方区域里面，为了安全着想，村子也不敢安排人员接近。"
+    },
+    {
+        "id": 124,
+        "raw": "[name=\"村长\"]  即使这次能得到罗德岛的帮助，以后我们也得多钻研钻研应对手段。",
+        "type": "dialog",
+        "speaker": "村长",
+        "content": "即使这次能得到罗德岛的帮助，以后我们也得多钻研钻研应对手段。"
+    },
+    {
+        "id": 125,
+        "raw": "[name=\"村长\"]  两位先休息休息，稍等我去准备准备。",
+        "type": "dialog",
+        "speaker": "村长",
+        "content": "两位先休息休息，稍等我去准备准备。"
+    },
+    {
+        "id": 126,
+        "raw": "[Character(name=\"avg_npc_006\",name2=\"char_219_meteo_1\",focus=2)]",
+        "type": "character",
+        "name": "avg_npc_006",
+        "name2": "char_219_meteo_1",
+        "focus": 2
+    },
+    {
+        "id": 127,
+        "raw": "[name=\"陨星\"]  好的，您先去忙吧。",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "好的，您先去忙吧。"
+    },
+    {
+        "id": 128,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 129,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 130,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3"
+    },
+    {
+        "id": 131,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 132,
+        "raw": "[Character(name=\"char_219_meteo_1\")]",
+        "type": "character",
+        "name": "char_219_meteo_1"
+    },
+    {
+        "id": 133,
+        "raw": "[name=\"陨星\"]  ......",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "......"
+    },
+    {
+        "id": 134,
+        "raw": "[Character(name=\"char_219_meteo_1\",name2=\"char_350_surtr_1\",focus=2)]",
+        "type": "character",
+        "name": "char_219_meteo_1",
+        "name2": "char_350_surtr_1",
+        "focus": 2
+    },
+    {
+        "id": 135,
+        "raw": "[name=\"史尔特尔\"]  ......",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "......"
+    },
+    {
+        "id": 136,
+        "raw": "[Character(name=\"char_219_meteo_1\",name2=\"char_350_surtr_1\",focus=1)]",
+        "type": "character",
+        "name": "char_219_meteo_1",
+        "name2": "char_350_surtr_1",
+        "focus": 1
+    },
+    {
+        "id": 137,
+        "raw": "[name=\"陨星\"]  所以，你对别人也太不客气了吧。",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "所以，你对别人也太不客气了吧。"
+    },
+    {
+        "id": 138,
+        "raw": "[Character(name=\"char_219_meteo_1\",name2=\"char_350_surtr_1#6\",focus=2)]",
+        "type": "character",
+        "name": "char_219_meteo_1",
+        "name2": "char_350_surtr_1#6",
+        "focus": 2
+    },
+    {
+        "id": 139,
+        "raw": "[name=\"史尔特尔\"]  只不过说说事实而已。",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "只不过说说事实而已。"
+    },
+    {
+        "id": 140,
+        "raw": "[Character(name=\"char_219_meteo_1\")]",
+        "type": "character",
+        "name": "char_219_meteo_1"
+    },
+    {
+        "id": 141,
+        "raw": "[name=\"陨星\"]  唔......唔......",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "唔......唔......"
+    },
+    {
+        "id": 142,
+        "raw": "[name=\"陨星\"]  （好尴尬啊。）",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "（好尴尬啊。）"
+    },
+    {
+        "id": 143,
+        "raw": "[name=\"陨星\"]  （虽然早就听说史尔特尔很难相处了，但是没想到根本找不到话说。）",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "（虽然早就听说史尔特尔很难相处了，但是没想到根本找不到话说。）"
+    },
+    {
+        "id": 144,
+        "raw": "[Character(name=\"char_350_surtr_1\")]",
+        "type": "character",
+        "name": "char_350_surtr_1"
+    },
+    {
+        "id": 145,
+        "raw": "[name=\"史尔特尔\"]  ......（记录）",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "......（记录）"
+    },
+    {
+        "id": 146,
+        "raw": "[Character(name=\"char_219_meteo_1\",name2=\"char_350_surtr_1\",focus=1)]",
+        "type": "character",
+        "name": "char_219_meteo_1",
+        "name2": "char_350_surtr_1",
+        "focus": 1
+    },
+    {
+        "id": 147,
+        "raw": "[name=\"陨星\"]  你是在记录村子的情况吗。",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "你是在记录村子的情况吗。"
+    },
+    {
+        "id": 148,
+        "raw": "[Character(name=\"char_219_meteo_1\",name2=\"char_350_surtr_1\",focus=2)]",
+        "type": "character",
+        "name": "char_219_meteo_1",
+        "name2": "char_350_surtr_1",
+        "focus": 2
+    },
+    {
+        "id": 149,
+        "raw": "[name=\"史尔特尔\"]  并不是。",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "并不是。"
+    },
+    {
+        "id": 150,
+        "raw": "[Character(name=\"char_219_meteo_1\",name2=\"char_350_surtr_1\",focus=1)]",
+        "type": "character",
+        "name": "char_219_meteo_1",
+        "name2": "char_350_surtr_1",
+        "focus": 1
+    },
+    {
+        "id": 151,
+        "raw": "[name=\"陨星\"]  那是......",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "那是......"
+    },
+    {
+        "id": 152,
+        "raw": "[Character(name=\"char_219_meteo_1\",name2=\"char_350_surtr_1\",focus=2)]",
+        "type": "character",
+        "name": "char_219_meteo_1",
+        "name2": "char_350_surtr_1",
+        "focus": 2
+    },
+    {
+        "id": 153,
+        "raw": "[name=\"史尔特尔\"]  ......",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "......"
+    },
+    {
+        "id": 154,
+        "raw": "[Character(name=\"char_219_meteo_1\",name2=\"char_350_surtr_1\",focus=1)]",
+        "type": "character",
+        "name": "char_219_meteo_1",
+        "name2": "char_350_surtr_1",
+        "focus": 1
+    },
+    {
+        "id": 155,
+        "raw": "[name=\"陨星\"]  ............",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "............"
+    },
+    {
+        "id": 156,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 157,
+        "raw": "[Character(name=\"char_219_meteo_1\",name2=\"char_350_surtr_1\",focus=2)]",
+        "type": "character",
+        "name": "char_219_meteo_1",
+        "name2": "char_350_surtr_1",
+        "focus": 2
+    },
+    {
+        "id": 158,
+        "raw": "[name=\"史尔特尔\"]  ......你难道不知道吗，我还以为我的档案大家都能看到。",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "......你难道不知道吗，我还以为我的档案大家都能看到。"
+    },
+    {
+        "id": 159,
+        "raw": "[Character(name=\"char_219_meteo_1\",name2=\"char_350_surtr_1\",focus=1)]",
+        "type": "character",
+        "name": "char_219_meteo_1",
+        "name2": "char_350_surtr_1",
+        "focus": 1
+    },
+    {
+        "id": 160,
+        "raw": "[name=\"陨星\"]  看过确实是看过，只是......",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "看过确实是看过，只是......"
+    },
+    {
+        "id": 161,
+        "raw": "[Character(name=\"char_350_surtr_1\")]",
+        "type": "character",
+        "name": "char_350_surtr_1"
+    },
+    {
+        "id": 162,
+        "raw": "[playMusic(intro=\"$drift_intro\", key=\"$drift_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act9d0d0/m_avg_drift_intro.mp3",
+        "key": "sound_beta_2/music/act9d0d0/m_avg_drift_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 163,
+        "raw": "史尔特尔，档案中提到了这个孩子。",
+        "type": "narration",
+        "content": "史尔特尔，档案中提到了这个孩子。"
+    },
+    {
+        "id": 164,
+        "raw": "因为未知原因出现的记忆障碍，导致认知障碍。",
+        "type": "narration",
+        "content": "因为未知原因出现的记忆障碍，导致认知障碍。"
+    },
+    {
+        "id": 165,
+        "raw": "好像对她来说，脑中有大量记忆同时存在。因为数量过多，导致史尔特尔完全无法分辨哪些是真实的哪些是虚假的。",
+        "type": "narration",
+        "content": "好像对她来说，脑中有大量记忆同时存在。因为数量过多，导致史尔特尔完全无法分辨哪些是真实的哪些是虚假的。"
+    },
+    {
+        "id": 166,
+        "raw": "于是这个孩子一直在一个一个寻找着记忆中的场所。",
+        "type": "narration",
+        "content": "于是这个孩子一直在一个一个寻找着记忆中的场所。"
+    },
+    {
+        "id": 167,
+        "raw": "[Character(name=\"char_219_meteo_1\",name2=\"char_350_surtr_1\",focus=1)]",
+        "type": "character",
+        "name": "char_219_meteo_1",
+        "name2": "char_350_surtr_1",
+        "focus": 1
+    },
+    {
+        "id": 168,
+        "raw": "[name=\"陨星\"]  所以凯尔希医生说的私人原因，果然也是因为在这个村子的附近有你记忆中接近的地方吗。",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "所以凯尔希医生说的私人原因，果然也是因为在这个村子的附近有你记忆中接近的地方吗。"
+    },
+    {
+        "id": 169,
+        "raw": "[Character(name=\"char_219_meteo_1\",name2=\"char_350_surtr_1\",focus=2)]",
+        "type": "character",
+        "name": "char_219_meteo_1",
+        "name2": "char_350_surtr_1",
+        "focus": 2
+    },
+    {
+        "id": 170,
+        "raw": "[name=\"史尔特尔\"]  凯尔希医生告诉我这附近的情报是，对这个地区产生了熟悉感。",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "凯尔希医生告诉我这附近的情报是，对这个地区产生了熟悉感。"
+    },
+    {
+        "id": 171,
+        "raw": "[name=\"史尔特尔\"]  照片和记录中也出现了大量似曾相识的画面。",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "照片和记录中也出现了大量似曾相识的画面。"
+    },
+    {
+        "id": 172,
+        "raw": "[Character(name=\"char_219_meteo_1\",name2=\"char_350_surtr_1\",focus=1)]",
+        "type": "character",
+        "name": "char_219_meteo_1",
+        "name2": "char_350_surtr_1",
+        "focus": 1
+    },
+    {
+        "id": 173,
+        "raw": "[name=\"陨星\"]  到了实地，看到了村子后，有想起什么来吗？",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "到了实地，看到了村子后，有想起什么来吗？"
+    },
+    {
+        "id": 174,
+        "raw": "[Character(name=\"char_219_meteo_1\",name2=\"char_350_surtr_1\",focus=2)]",
+        "type": "character",
+        "name": "char_219_meteo_1",
+        "name2": "char_350_surtr_1",
+        "focus": 2
+    },
+    {
+        "id": 175,
+        "raw": "[name=\"史尔特尔\"]  什么都没有。走过村子的时候，看着路过的孩子，看着残破的小屋，虽然接近记忆里的画面，但是又完全不一样。",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "什么都没有。走过村子的时候，看着路过的孩子，看着残破的小屋，虽然接近记忆里的画面，但是又完全不一样。"
+    },
+    {
+        "id": 176,
+        "raw": "[name=\"史尔特尔\"]  我也不知道为什么。",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "我也不知道为什么。"
+    },
+    {
+        "id": 177,
+        "raw": "[Character(name=\"char_219_meteo_1\",name2=\"char_350_surtr_1\",focus=1)]",
+        "type": "character",
+        "name": "char_219_meteo_1",
+        "name2": "char_350_surtr_1",
+        "focus": 1
+    },
+    {
+        "id": 178,
+        "raw": "[name=\"陨星\"]  村子每个地方都调查过了吗？",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "村子每个地方都调查过了吗？"
+    },
+    {
+        "id": 179,
+        "raw": "[Character(name=\"char_219_meteo_1\",name2=\"char_350_surtr_1\",focus=2)]",
+        "type": "character",
+        "name": "char_219_meteo_1",
+        "name2": "char_350_surtr_1",
+        "focus": 2
+    },
+    {
+        "id": 180,
+        "raw": "[name=\"史尔特尔\"]  一眼看过去，并没有什么漏掉的地方。",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "一眼看过去，并没有什么漏掉的地方。"
+    },
+    {
+        "id": 181,
+        "raw": "[Character(name=\"char_219_meteo_1\",name2=\"char_350_surtr_1\",focus=1)]",
+        "type": "character",
+        "name": "char_219_meteo_1",
+        "name2": "char_350_surtr_1",
+        "focus": 1
+    },
+    {
+        "id": 182,
+        "raw": "[name=\"陨星\"]  不如一会儿问问村民们好了，说不定你印象中的村子是几年前的样子？现在已经改建过了？",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "不如一会儿问问村民们好了，说不定你印象中的村子是几年前的样子？现在已经改建过了？"
+    },
+    {
+        "id": 183,
+        "raw": "[Character(name=\"char_219_meteo_1\",name2=\"char_350_surtr_1\",focus=2)]",
+        "type": "character",
+        "name": "char_219_meteo_1",
+        "name2": "char_350_surtr_1",
+        "focus": 2
+    },
+    {
+        "id": 184,
+        "raw": "[name=\"史尔特尔\"]  ......可能吧。",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "......可能吧。"
+    },
+    {
+        "id": 185,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 186,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 187,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 188,
+        "raw": "空气中干燥植物的味道确实也跟回忆中并无二致。",
+        "type": "narration",
+        "content": "空气中干燥植物的味道确实也跟回忆中并无二致。"
+    },
+    {
+        "id": 189,
+        "raw": "闭上眼，仿佛就身处在熟悉的街道里一样。",
+        "type": "narration",
+        "content": "闭上眼，仿佛就身处在熟悉的街道里一样。"
+    },
+    {
+        "id": 190,
+        "raw": "身边跑过的孩童的脚步声，仿佛也是回忆里好友之间追逐的声音。",
+        "type": "narration",
+        "content": "身边跑过的孩童的脚步声，仿佛也是回忆里好友之间追逐的声音。"
+    },
+    {
+        "id": 191,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 192,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 193,
+        "raw": "可是睁开眼，眼前景色却依然是陌生的样子。",
+        "type": "narration",
+        "content": "可是睁开眼，眼前景色却依然是陌生的样子。"
+    },
+    {
+        "id": 194,
+        "raw": "[Character(name=\"char_219_meteo_1\")]",
+        "type": "character",
+        "name": "char_219_meteo_1"
+    },
+    {
+        "id": 195,
+        "raw": "[name=\"陨星\"]  凯尔希医生既然把这个任务安排给我了，我也来帮你一起做探查吧。",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "凯尔希医生既然把这个任务安排给我了，我也来帮你一起做探查吧。"
+    },
+    {
+        "id": 196,
+        "raw": "[name=\"陨星\"]  等到矿区塌方事件调查结束后，让我也帮你一起在村里寻找线索。",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "等到矿区塌方事件调查结束后，让我也帮你一起在村里寻找线索。"
+    },
+    {
+        "id": 197,
+        "raw": "[Character(name=\"char_219_meteo_1\",name2=\"char_350_surtr_1\",focus=2)]",
+        "type": "character",
+        "name": "char_219_meteo_1",
+        "name2": "char_350_surtr_1",
+        "focus": 2
+    },
+    {
+        "id": 198,
+        "raw": "[name=\"史尔特尔\"]  大可不必，我自己就可以。",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "大可不必，我自己就可以。"
+    },
+    {
+        "id": 199,
+        "raw": "[Character(name=\"char_219_meteo_1\")]",
+        "type": "character",
+        "name": "char_219_meteo_1"
+    },
+    {
+        "id": 200,
+        "raw": "[name=\"陨星\"]  ......",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "......"
+    },
+    {
+        "id": 201,
+        "raw": "[Character(name=\"char_350_surtr_1\")]",
+        "type": "character",
+        "name": "char_350_surtr_1"
+    },
+    {
+        "id": 202,
+        "raw": "[name=\"史尔特尔\"]  ......",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "......"
+    },
+    {
+        "id": 203,
+        "raw": "[Character(name=\"char_219_meteo_1\",name2=\"char_350_surtr_1\",focus=1)]",
+        "type": "character",
+        "name": "char_219_meteo_1",
+        "name2": "char_350_surtr_1",
+        "focus": 1
+    },
+    {
+        "id": 204,
+        "raw": "[name=\"陨星\"]  ......找不到过去找不到家的感觉，我也大概有所了解。",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "......找不到过去找不到家的感觉，我也大概有所了解。"
+    },
+    {
+        "id": 205,
+        "raw": "[Character(name=\"char_219_meteo_1\",name2=\"char_350_surtr_1\",focus=2)]",
+        "type": "character",
+        "name": "char_219_meteo_1",
+        "name2": "char_350_surtr_1",
+        "focus": 2
+    },
+    {
+        "id": 206,
+        "raw": "[name=\"史尔特尔\"]  ......",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "......"
+    },
+    {
+        "id": 207,
+        "raw": "[Character(name=\"char_219_meteo_1\",name2=\"char_350_surtr_1\",focus=1)]",
+        "type": "character",
+        "name": "char_219_meteo_1",
+        "name2": "char_350_surtr_1",
+        "focus": 1
+    },
+    {
+        "id": 208,
+        "raw": "[name=\"陨星\"]  为了萨卡兹的地位，为了萨卡兹的家，我与其他不少同伴一起，也在一直尝试努力。",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "为了萨卡兹的地位，为了萨卡兹的家，我与其他不少同伴一起，也在一直尝试努力。"
+    },
+    {
+        "id": 209,
+        "raw": "[Character(name=\"char_219_meteo_1\",name2=\"char_350_surtr_1\",focus=2)]",
+        "type": "character",
+        "name": "char_219_meteo_1",
+        "name2": "char_350_surtr_1",
+        "focus": 2
+    },
+    {
+        "id": 210,
+        "raw": "[name=\"史尔特尔\"]  我的情况并不一样。",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "我的情况并不一样。"
+    },
+    {
+        "id": 211,
+        "raw": "[Character(name=\"char_219_meteo_1\",name2=\"char_350_surtr_1\",focus=1)]",
+        "type": "character",
+        "name": "char_219_meteo_1",
+        "name2": "char_350_surtr_1",
+        "focus": 1
+    },
+    {
+        "id": 212,
+        "raw": "[name=\"陨星\"]  说不定不一样，说不定也是一样的呢？",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "说不定不一样，说不定也是一样的呢？"
+    },
+    {
+        "id": 213,
+        "raw": "[name=\"陨星\"]  说不定我们都只是在寻找一个归所而已。",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "说不定我们都只是在寻找一个归所而已。"
+    },
+    {
+        "id": 214,
+        "raw": "[name=\"陨星\"]  但是，在一个人看着未知的前方寻找着什么的时候，注意不到身边别的事物可不行。",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "但是，在一个人看着未知的前方寻找着什么的时候，注意不到身边别的事物可不行。"
+    },
+    {
+        "id": 215,
+        "raw": "[name=\"陨星\"]  这是阿米娅让我理解到的。",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "这是阿米娅让我理解到的。"
+    },
+    {
+        "id": 216,
+        "raw": "[Character(name=\"char_219_meteo_1\",name2=\"char_350_surtr_1\",focus=2)]",
+        "type": "character",
+        "name": "char_219_meteo_1",
+        "name2": "char_350_surtr_1",
+        "focus": 2
+    },
+    {
+        "id": 217,
+        "raw": "[name=\"史尔特尔\"]  ......",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "......"
+    },
+    {
+        "id": 218,
+        "raw": "[Character(name=\"avg_npc_006\")]",
+        "type": "character",
+        "name": "avg_npc_006"
+    },
+    {
+        "id": 219,
+        "raw": "[name=\"村长\"]  不好意思两位久等了，我们现在就出发吧！",
+        "type": "dialog",
+        "speaker": "村长",
+        "content": "不好意思两位久等了，我们现在就出发吧！"
+    },
+    {
+        "id": 220,
+        "raw": "[name=\"村长\"]  我已经准备好了！",
+        "type": "dialog",
+        "speaker": "村长",
+        "content": "我已经准备好了！"
+    },
+    {
+        "id": 221,
+        "raw": "[Character(name=\"char_219_meteo_1\")]",
+        "type": "character",
+        "name": "char_219_meteo_1"
+    },
+    {
+        "id": 222,
+        "raw": "[name=\"陨星\"]  不管怎么说，我们先优先完成我们的任务吧。",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "不管怎么说，我们先优先完成我们的任务吧。"
+    },
+    {
+        "id": 223,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 224,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 225,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 226,
+        "raw": "[Background(image=\"bg_caveentrance\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_caveentrance.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 227,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 228,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3"
+    },
+    {
+        "id": 229,
+        "raw": "[Character(name=\"char_219_meteo_1\")]",
+        "type": "character",
+        "name": "char_219_meteo_1"
+    },
+    {
+        "id": 230,
+        "raw": "[name=\"陨星\"]  这里就是......",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "这里就是......"
+    },
+    {
+        "id": 231,
+        "raw": "[Character(name=\"avg_npc_006\")]",
+        "type": "character",
+        "name": "avg_npc_006"
+    },
+    {
+        "id": 232,
+        "raw": "[name=\"村长\"]  是的，这里就是塌方的位置了。两位千万小心脚下。",
+        "type": "dialog",
+        "speaker": "村长",
+        "content": "是的，这里就是塌方的位置了。两位千万小心脚下。"
+    },
+    {
+        "id": 233,
+        "raw": "[name=\"村长\"]  挖掘口就在此，之前因为塌方导致周边地层下陷，现在这一带已经全部封住了。",
+        "type": "dialog",
+        "speaker": "村长",
+        "content": "挖掘口就在此，之前因为塌方导致周边地层下陷，现在这一带已经全部封住了。"
+    },
+    {
+        "id": 234,
+        "raw": "[name=\"村长\"]  这个洞口本来也是跟邻村的通道，闭塞了之后也没办法跟邻村进行物资交互了。",
+        "type": "dialog",
+        "speaker": "村长",
+        "content": "这个洞口本来也是跟邻村的通道，闭塞了之后也没办法跟邻村进行物资交互了。"
+    },
+    {
+        "id": 235,
+        "raw": "[Character(name=\"char_350_surtr_1#5\")]",
+        "type": "character",
+        "name": "char_350_surtr_1#5"
+    },
+    {
+        "id": 236,
+        "raw": "[name=\"史尔特尔\"]  ......！",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "......！"
+    },
+    {
+        "id": 237,
+        "raw": "[Character(name=\"char_219_meteo_1\")]",
+        "type": "character",
+        "name": "char_219_meteo_1"
+    },
+    {
+        "id": 238,
+        "raw": "[name=\"陨星\"]  史尔特尔？",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "史尔特尔？"
+    },
+    {
+        "id": 239,
+        "raw": "[Character(name=\"char_350_surtr_1#5\")]",
+        "type": "character",
+        "name": "char_350_surtr_1#5"
+    },
+    {
+        "id": 240,
+        "raw": "[name=\"史尔特尔\"]  这条路，我好像有印象。",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "这条路，我好像有印象。"
+    },
+    {
+        "id": 241,
+        "raw": "[Character(name=\"char_219_meteo_1\")]",
+        "type": "character",
+        "name": "char_219_meteo_1"
+    },
+    {
+        "id": 242,
+        "raw": "[name=\"陨星\"]  村长，这邻村跟咱们村子关系如何？",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "村长，这邻村跟咱们村子关系如何？"
+    },
+    {
+        "id": 243,
+        "raw": "[Character(name=\"avg_npc_006\")]",
+        "type": "character",
+        "name": "avg_npc_006"
+    },
+    {
+        "id": 244,
+        "raw": "[name=\"村长\"]   邻村算是跟我们村同规格的采掘村。因为附近几个村子都做着相同的产业，大家也算是经常有所往来。",
+        "type": "dialog",
+        "speaker": "村长",
+        "content": "邻村算是跟我们村同规格的采掘村。因为附近几个村子都做着相同的产业，大家也算是经常有所往来。"
+    },
+    {
+        "id": 245,
+        "raw": "[name=\"村长\"]   双方来回交流，甚至是来回搬家也是有可能的。",
+        "type": "dialog",
+        "speaker": "村长",
+        "content": "双方来回交流，甚至是来回搬家也是有可能的。"
+    },
+    {
+        "id": 246,
+        "raw": "[name=\"村长\"]   不过这次矿区塌方，我们村子的联络道路阻塞。隔壁村子应该也就自己开采自己的去了吧。",
+        "type": "dialog",
+        "speaker": "村长",
+        "content": "不过这次矿区塌方，我们村子的联络道路阻塞。隔壁村子应该也就自己开采自己的去了吧。"
+    },
+    {
+        "id": 247,
+        "raw": "[Character(name=\"char_350_surtr_1\")]",
+        "type": "character",
+        "name": "char_350_surtr_1"
+    },
+    {
+        "id": 248,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 249,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 250,
+        "raw": "[Blocker(a=0.5, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0.5,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 251,
+        "raw": "这个道路的轨迹，这个方向。",
+        "type": "narration",
+        "content": "这个道路的轨迹，这个方向。"
+    },
+    {
+        "id": 252,
+        "raw": "越来越熟悉了。",
+        "type": "narration",
+        "content": "越来越熟悉了。"
+    },
+    {
+        "id": 253,
+        "raw": "过去，确实是经常在这里来回出入。",
+        "type": "narration",
+        "content": "过去，确实是经常在这里来回出入。"
+    },
+    {
+        "id": 254,
+        "raw": "熟悉的孩子们身影仿佛就在身旁跑过，一刹那间就消失在了眼前堵塞的岩石之中。",
+        "type": "narration",
+        "content": "熟悉的孩子们身影仿佛就在身旁跑过，一刹那间就消失在了眼前堵塞的岩石之中。"
+    },
+    {
+        "id": 255,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 256,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 257,
+        "raw": "[Character(name=\"avg_npc_006\")]",
+        "type": "character",
+        "name": "avg_npc_006"
+    },
+    {
+        "id": 258,
+        "raw": "[name=\"村长\"]  你们想去邻村吗？",
+        "type": "dialog",
+        "speaker": "村长",
+        "content": "你们想去邻村吗？"
+    },
+    {
+        "id": 259,
+        "raw": "[name=\"村长\"]  如果道路开放之后，应该就能很快联络上他们了。",
+        "type": "dialog",
+        "speaker": "村长",
+        "content": "如果道路开放之后，应该就能很快联络上他们了。"
+    },
+    {
+        "id": 260,
+        "raw": "[Character(name=\"char_219_meteo_1\",name2=\"char_350_surtr_1\",focus=1)]",
+        "type": "character",
+        "name": "char_219_meteo_1",
+        "name2": "char_350_surtr_1",
+        "focus": 1
+    },
+    {
+        "id": 261,
+        "raw": "[name=\"陨星\"]  那实在是太好了......史尔特尔？",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "那实在是太好了......史尔特尔？"
+    },
+    {
+        "id": 262,
+        "raw": "[Character(name=\"char_350_surtr_1#5\")]",
+        "type": "character",
+        "name": "char_350_surtr_1#5"
+    },
+    {
+        "id": 263,
+        "raw": "[name=\"史尔特尔\"]  我可不准备等那么长的时间了。",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "我可不准备等那么长的时间了。"
+    },
+    {
+        "id": 264,
+        "raw": "[stopmusic(fadetime=1)]",
+        "type": "stop_music",
+        "fadetime": 1
+    },
+    {
+        "id": 265,
+        "raw": "[Character(name=\"char_219_meteo_1\")]",
+        "type": "character",
+        "name": "char_219_meteo_1"
+    },
+    {
+        "id": 266,
+        "raw": "[name=\"陨星\"]  啊？",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "啊？"
+    },
+    {
+        "id": 267,
+        "raw": "[Character(name=\"avg_npc_006\")]",
+        "type": "character",
+        "name": "avg_npc_006"
+    },
+    {
+        "id": 268,
+        "raw": "[name=\"村长\"]  啊？？",
+        "type": "dialog",
+        "speaker": "村长",
+        "content": "啊？？"
+    },
+    {
+        "id": 269,
+        "raw": "[Character(name=\"char_350_surtr_1#5\")]",
+        "type": "character",
+        "name": "char_350_surtr_1#5"
+    },
+    {
+        "id": 270,
+        "raw": "[name=\"史尔特尔\"]  你们都先让开！",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "你们都先让开！"
+    },
+    {
+        "id": 271,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 272,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 273,
+        "raw": "[Blocker(a=0.5, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0.5,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 274,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 275,
+        "raw": "[PlaySound(key=\"$d_sp_ballista\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_sp_ballista.mp3"
+    },
+    {
+        "id": 276,
+        "raw": "[Blocker(a=1, r=0.95, g=0.95, b=0.95, fadetime=0.2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0.95,",
+        "g": "0.95,",
+        "b": "0.95,",
+        "fadetime": "0.2,",
+        "block": true
+    },
+    {
+        "id": 277,
+        "raw": "[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0.95,",
+        "g": "0.95,",
+        "b": "0.95,",
+        "fadetime": "0.25,",
+        "block": true
+    },
+    {
+        "id": 278,
+        "raw": "[CameraShake(duration=1.3, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]",
+        "type": "camera_shake",
+        "duration": "1.3,",
+        "xstrength": "10,",
+        "ystrength": "12,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": true
+    },
+    {
+        "id": 279,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 280,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 281,
+        "raw": "[playMusic(intro=\"$nervous_intro\", key=\"$nervous_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act9d0d0/m_avg_nervous_intro.mp3",
+        "key": "sound_beta_2/music/act9d0d0/m_avg_nervous_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 282,
+        "raw": "[Character(name=\"char_219_meteo_1\")]",
+        "type": "character",
+        "name": "char_219_meteo_1"
+    },
+    {
+        "id": 283,
+        "raw": "[name=\"陨星\"]  史尔特尔，等等！我知道你急着想搞清楚，但是现在矿井一点都不安全啊！",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "史尔特尔，等等！我知道你急着想搞清楚，但是现在矿井一点都不安全啊！"
+    },
+    {
+        "id": 284,
+        "raw": "[name=\"陨星\"]  你这样往里深入可能会让自己陷入危险！",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "你这样往里深入可能会让自己陷入危险！"
+    },
+    {
+        "id": 285,
+        "raw": "[Character(name=\"char_350_surtr_1\")]",
+        "type": "character",
+        "name": "char_350_surtr_1"
+    },
+    {
+        "id": 286,
+        "raw": "[name=\"史尔特尔\"]  陨星，你就在外面等着我，帮我守好洞口就行！",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "陨星，你就在外面等着我，帮我守好洞口就行！"
+    },
+    {
+        "id": 287,
+        "raw": "[Character(name=\"avg_npc_006\")]",
+        "type": "character",
+        "name": "avg_npc_006"
+    },
+    {
+        "id": 288,
+        "raw": "[name=\"村长\"]  这个孩子！竟然打破了塌方的洞口直接冲进去了！？",
+        "type": "dialog",
+        "speaker": "村长",
+        "content": "这个孩子！竟然打破了塌方的洞口直接冲进去了！？"
+    },
+    {
+        "id": 289,
+        "raw": "[Character(name=\"char_219_meteo_1\")]",
+        "type": "character",
+        "name": "char_219_meteo_1"
+    },
+    {
+        "id": 290,
+        "raw": "[name=\"陨星\"]  喂，等一下！",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "喂，等一下！"
+    },
+    {
+        "id": 291,
+        "raw": "[Character(name=\"avg_npc_006\")]",
+        "type": "character",
+        "name": "avg_npc_006"
+    },
+    {
+        "id": 292,
+        "raw": "[name=\"村长\"]  不行！你可不能也再进去了！",
+        "type": "dialog",
+        "speaker": "村长",
+        "content": "不行！你可不能也再进去了！"
+    },
+    {
+        "id": 293,
+        "raw": "[name=\"村长\"]  里面可能还会产生新的塌方！",
+        "type": "dialog",
+        "speaker": "村长",
+        "content": "里面可能还会产生新的塌方！"
+    },
+    {
+        "id": 294,
+        "raw": "[Character(name=\"char_219_meteo_1\")]",
+        "type": "character",
+        "name": "char_219_meteo_1"
+    },
+    {
+        "id": 295,
+        "raw": "[name=\"陨星\"]  可恶！史尔特尔！",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "可恶！史尔特尔！"
+    },
+    {
+        "id": 296,
+        "raw": "[stopmusic(fadetime=1)]",
+        "type": "stop_music",
+        "fadetime": 1
+    },
+    {
+        "id": 297,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 298,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 299,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 300,
+        "raw": "[Background(image=\"bg_cave_2\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_cave_2.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 301,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 302,
+        "raw": "[playMusic(intro=\"$drift_intro\", key=\"$drift_loop\", volume=0.4)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act9d0d0/m_avg_drift_intro.mp3",
+        "key": "sound_beta_2/music/act9d0d0/m_avg_drift_loop.mp3",
+        "volume": 0.4
+    },
+    {
+        "id": 303,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3"
+    },
+    {
+        "id": 304,
+        "raw": "[Character(name=\"char_350_surtr_1\",fadetime=1,block=true)]",
+        "type": "character",
+        "name": "char_350_surtr_1",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 305,
+        "raw": "[delay(time=3)]",
+        "type": "delay",
+        "time": 3
+    },
+    {
+        "id": 306,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 307,
+        "raw": "深入矿井中，机械开采的痕迹清晰可见。",
+        "type": "narration",
+        "content": "深入矿井中，机械开采的痕迹清晰可见。"
+    },
+    {
+        "id": 308,
+        "raw": "道路蜿蜒向前，仿佛指引着史尔特尔前进。",
+        "type": "narration",
+        "content": "道路蜿蜒向前，仿佛指引着史尔特尔前进。"
+    },
+    {
+        "id": 309,
+        "raw": "[Character(name=\"char_350_surtr_1\")]",
+        "type": "character",
+        "name": "char_350_surtr_1"
+    },
+    {
+        "id": 310,
+        "raw": "[name=\"史尔特尔\"]  ......这里就是通往邻村的道路吧。",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "......这里就是通往邻村的道路吧。"
+    },
+    {
+        "id": 311,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 312,
+        "raw": "[PlaySound(key=\"$d_sp_ballista\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_sp_ballista.mp3"
+    },
+    {
+        "id": 313,
+        "raw": "[Blocker(a=1, r=0.95, g=0.95, b=0.95, fadetime=0.2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0.95,",
+        "g": "0.95,",
+        "b": "0.95,",
+        "fadetime": "0.2,",
+        "block": true
+    },
+    {
+        "id": 314,
+        "raw": "[Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0.95,",
+        "g": "0.95,",
+        "b": "0.95,",
+        "fadetime": "0.25,",
+        "block": true
+    },
+    {
+        "id": 315,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 316,
+        "raw": "[PlaySound(key=\"$e_skill_skulsrsword\",volume=0.5,block=true)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_skill/e_skill_skulsrsword.mp3",
+        "volume": "0.5,block=true"
+    },
+    {
+        "id": 317,
+        "raw": "[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]",
+        "type": "blocker",
+        "a": "0.7,",
+        "r": "0.95,",
+        "g": "0.95,",
+        "b": "0.95,",
+        "fadetime": "0.02,",
+        "block": true
+    },
+    {
+        "id": 318,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.25, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.25,",
+        "block": true
+    },
+    {
+        "id": 319,
+        "raw": "[CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=true)]",
+        "type": "camera_shake",
+        "duration": "0.6,",
+        "xstrength": "5,",
+        "ystrength": "8,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "block": true
+    },
+    {
+        "id": 320,
+        "raw": "[Character(name=\"char_350_surtr_1#6\")]",
+        "type": "character",
+        "name": "char_350_surtr_1#6"
+    },
+    {
+        "id": 321,
+        "raw": "[name=\"史尔特尔\"]  竟然已经完全变成了源石虫巢穴。",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "竟然已经完全变成了源石虫巢穴。"
+    },
+    {
+        "id": 322,
+        "raw": "[name=\"史尔特尔\"]  看来几个月过来，开采出的空洞已经被这些家伙彻底占领。",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "看来几个月过来，开采出的空洞已经被这些家伙彻底占领。"
+    },
+    {
+        "id": 323,
+        "raw": "[name=\"史尔特尔\"]  麻烦。",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "麻烦。"
+    },
+    {
+        "id": 324,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 325,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 326,
+        "raw": "[PlaySound(key=\"$e_skill_skulsrsword\",volume=0.5,block=true)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/enemy/e_skill/e_skill_skulsrsword.mp3",
+        "volume": "0.5,block=true"
+    },
+    {
+        "id": 327,
+        "raw": "[Blocker(a=0.7, r=0.95, g=0.95, b=0.95, fadetime=0.02, block=true)]",
+        "type": "blocker",
+        "a": "0.7,",
+        "r": "0.95,",
+        "g": "0.95,",
+        "b": "0.95,",
+        "fadetime": "0.02,",
+        "block": true
+    },
+    {
+        "id": 328,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.25, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.25,",
+        "block": true
+    },
+    {
+        "id": 329,
+        "raw": "[CameraShake(duration=0.6, xstrength=5, ystrength=8, vibrato=30, randomness=90, block=true)]",
+        "type": "camera_shake",
+        "duration": "0.6,",
+        "xstrength": "5,",
+        "ystrength": "8,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "block": true
+    },
+    {
+        "id": 330,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 331,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 332,
+        "raw": "[Character(name=\"char_350_surtr_1#5\")]",
+        "type": "character",
+        "name": "char_350_surtr_1#5"
+    },
+    {
+        "id": 333,
+        "raw": "[name=\"史尔特尔\"]  这是......",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "这是......"
+    },
+    {
+        "id": 334,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 335,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 336,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 337,
+        "raw": "牵着手的小孩子们，从眼前的道路穿过。",
+        "type": "narration",
+        "content": "牵着手的小孩子们，从眼前的道路穿过。"
+    },
+    {
+        "id": 338,
+        "raw": "绕过了数不清的源石虫的痕迹。",
+        "type": "narration",
+        "content": "绕过了数不清的源石虫的痕迹。"
+    },
+    {
+        "id": 339,
+        "raw": "消失在了黑暗的前方。",
+        "type": "narration",
+        "content": "消失在了黑暗的前方。"
+    },
+    {
+        "id": 340,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 341,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 342,
+        "raw": "[Character(name=\"char_350_surtr_1#5\")]",
+        "type": "character",
+        "name": "char_350_surtr_1#5"
+    },
+    {
+        "id": 343,
+        "raw": "[name=\"史尔特尔\"]  啊？",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "啊？"
+    },
+    {
+        "id": 344,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 345,
+        "raw": "[PlaySound(key=\"$d_sp_ballista\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_sp_ballista.mp3"
+    },
+    {
+        "id": 346,
+        "raw": "[Blocker(a=1, r=0.95, g=0.95, b=0.95, fadetime=0.2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0.95,",
+        "g": "0.95,",
+        "b": "0.95,",
+        "fadetime": "0.2,",
+        "block": true
+    },
+    {
+        "id": 347,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.25, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.25,",
+        "block": true
+    },
+    {
+        "id": 348,
+        "raw": "[CameraShake(duration=1.3, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]",
+        "type": "camera_shake",
+        "duration": "1.3,",
+        "xstrength": "10,",
+        "ystrength": "12,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": true
+    },
+    {
+        "id": 349,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 350,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 351,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 352,
+        "raw": "[Background(image=\"bg_caveentrance\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_caveentrance.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 353,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 354,
+        "raw": "[Character(name=\"char_219_meteo_1\")]",
+        "type": "character",
+        "name": "char_219_meteo_1"
+    },
+    {
+        "id": 355,
+        "raw": "[name=\"陨星\"]  这个爆炸声是！",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "这个爆炸声是！"
+    },
+    {
+        "id": 356,
+        "raw": "[Character(name=\"avg_npc_006\")]",
+        "type": "character",
+        "name": "avg_npc_006"
+    },
+    {
+        "id": 357,
+        "raw": "[name=\"村长\"]  难道又是塌方！",
+        "type": "dialog",
+        "speaker": "村长",
+        "content": "难道又是塌方！"
+    },
+    {
+        "id": 358,
+        "raw": "[name=\"村长\"]  那位小姑娘有危险了！这可怎么办啊！？",
+        "type": "dialog",
+        "speaker": "村长",
+        "content": "那位小姑娘有危险了！这可怎么办啊！？"
+    },
+    {
+        "id": 359,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 360,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 361,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 362,
+        "raw": "[Background(image=\"bg_black\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_black.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 363,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 364,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 365,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 366,
+        "raw": "记忆中的街道，充满了泥土味，而不是干燥的植物味。",
+        "type": "narration",
+        "content": "记忆中的街道，充满了泥土味，而不是干燥的植物味。"
+    },
+    {
+        "id": 367,
+        "raw": "记忆中的同伴，也不会拿着雪糕来回追赶。",
+        "type": "narration",
+        "content": "记忆中的同伴，也不会拿着雪糕来回追赶。"
+    },
+    {
+        "id": 368,
+        "raw": "房屋虽然很像，但是并不相同。",
+        "type": "narration",
+        "content": "房屋虽然很像，但是并不相同。"
+    },
+    {
+        "id": 369,
+        "raw": "并不只是设计的细微不同，而是，材质、结构都完全不同。",
+        "type": "narration",
+        "content": "并不只是设计的细微不同，而是，材质、结构都完全不同。"
+    },
+    {
+        "id": 370,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 371,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 372,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 373,
+        "raw": "[Background(image=\"bg_cave_2\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_cave_2.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 374,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 375,
+        "raw": "[Character(name=\"char_350_surtr_1#3\")]",
+        "type": "character",
+        "name": "char_350_surtr_1#3"
+    },
+    {
+        "id": 376,
+        "raw": "[name=\"史尔特尔\"]  啊，受伤了。疼，手掌心这不是擦伤了吗。",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "啊，受伤了。疼，手掌心这不是擦伤了吗。"
+    },
+    {
+        "id": 377,
+        "raw": "[name=\"史尔特尔\"]  没想到我也会有因为分心被源石虫偷袭的一天。",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "没想到我也会有因为分心被源石虫偷袭的一天。"
+    },
+    {
+        "id": 378,
+        "raw": "[name=\"史尔特尔\"]  啧。",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "啧。"
+    },
+    {
+        "id": 379,
+        "raw": "[Character(name=\"char_350_surtr_1#5\")]",
+        "type": "character",
+        "name": "char_350_surtr_1#5"
+    },
+    {
+        "id": 380,
+        "raw": "[name=\"史尔特尔\"]  这，这是......",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "这，这是......"
+    },
+    {
+        "id": 381,
+        "raw": "[name=\"史尔特尔\"]  在矿坑下面，还有另一个地下大空洞？",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "在矿坑下面，还有另一个地下大空洞？"
+    },
+    {
+        "id": 382,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 383,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 384,
+        "raw": "[Blocker(a=0.5, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0.5,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 385,
+        "raw": "悉悉索索，是源石虫的声音。",
+        "type": "narration",
+        "content": "悉悉索索，是源石虫的声音。"
+    },
+    {
+        "id": 386,
+        "raw": "悉悉索索。",
+        "type": "narration",
+        "content": "悉悉索索。"
+    },
+    {
+        "id": 387,
+        "raw": "悉悉索索。",
+        "type": "narration",
+        "content": "悉悉索索。"
+    },
+    {
+        "id": 388,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 389,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 390,
+        "raw": "[Character(name=\"char_350_surtr_1\")]",
+        "type": "character",
+        "name": "char_350_surtr_1"
+    },
+    {
+        "id": 391,
+        "raw": "[name=\"史尔特尔\"]  大空洞里面的这是，城市遗迹吗......",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "大空洞里面的这是，城市遗迹吗......"
+    },
+    {
+        "id": 392,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 393,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 394,
+        "raw": "[Blocker(a=0.5, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "0.5,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 395,
+        "raw": "史尔特尔身处在地下更深处的空洞之中。",
+        "type": "narration",
+        "content": "史尔特尔身处在地下更深处的空洞之中。"
+    },
+    {
+        "id": 396,
+        "raw": "除了源石虫的亮光，依稀能看清一些的房屋轮廓，横七竖八地掩埋在岩石间。",
+        "type": "narration",
+        "content": "除了源石虫的亮光，依稀能看清一些的房屋轮廓，横七竖八地掩埋在岩石间。"
+    },
+    {
+        "id": 397,
+        "raw": "路上的砖石，墙体的砖石。",
+        "type": "narration",
+        "content": "路上的砖石，墙体的砖石。"
+    },
+    {
+        "id": 398,
+        "raw": "怎么看，都是已经被掩埋了很长很长时间了。",
+        "type": "narration",
+        "content": "怎么看，都是已经被掩埋了很长很长时间了。"
+    },
+    {
+        "id": 399,
+        "raw": "几十年？几百年？",
+        "type": "narration",
+        "content": "几十年？几百年？"
+    },
+    {
+        "id": 400,
+        "raw": "史尔特尔也不知道，但是对她来说，确实是找到了自己想要找到的东西。",
+        "type": "narration",
+        "content": "史尔特尔也不知道，但是对她来说，确实是找到了自己想要找到的东西。"
+    },
+    {
+        "id": 401,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 402,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 403,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 404,
+        "raw": "[stopmucis(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 405,
+        "raw": "[Background(image=\"bg_caveentrance\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_caveentrance.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 406,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 407,
+        "raw": "[Character(name=\"char_219_meteo_1\")]",
+        "type": "character",
+        "name": "char_219_meteo_1"
+    },
+    {
+        "id": 408,
+        "raw": "[name=\"陨星\"]  就是这里！",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "就是这里！"
+    },
+    {
+        "id": 409,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 410,
+        "raw": "[PlaySound(key=\"$d_sp_ballista\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_sp_ballista.mp3"
+    },
+    {
+        "id": 411,
+        "raw": "[Blocker(a=1, r=0.95, g=0.95, b=0.95, fadetime=0.2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0.95,",
+        "g": "0.95,",
+        "b": "0.95,",
+        "fadetime": "0.2,",
+        "block": true
+    },
+    {
+        "id": 412,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.25, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.25,",
+        "block": true
+    },
+    {
+        "id": 413,
+        "raw": "[CameraShake(duration=1.3, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]",
+        "type": "camera_shake",
+        "duration": "1.3,",
+        "xstrength": "10,",
+        "ystrength": "12,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": true
+    },
+    {
+        "id": 414,
+        "raw": "[Character(name=\"char_219_meteo_1\")]",
+        "type": "character",
+        "name": "char_219_meteo_1"
+    },
+    {
+        "id": 415,
+        "raw": "[name=\"陨星\"]  ！！",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "！！"
+    },
+    {
+        "id": 416,
+        "raw": "[name=\"陨星\"]  史尔特尔！",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "史尔特尔！"
+    },
+    {
+        "id": 417,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 418,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3"
+    },
+    {
+        "id": 419,
+        "raw": "[Character(name=\"char_350_surtr_1\",fadetime=1,block=true)]",
+        "type": "character",
+        "name": "char_350_surtr_1",
+        "fadetime": "1,block=true"
+    },
+    {
+        "id": 420,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 421,
+        "raw": "[name=\"史尔特尔\"]  啊，多亏了陨星你帮我定好了位，这样也方便我从里面打破岩层出来。",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "啊，多亏了陨星你帮我定好了位，这样也方便我从里面打破岩层出来。"
+    },
+    {
+        "id": 422,
+        "raw": "[Character(name=\"char_219_meteo_1\",name2=\"char_350_surtr_1\",focus=1)]",
+        "type": "character",
+        "name": "char_219_meteo_1",
+        "name2": "char_350_surtr_1",
+        "focus": 1
+    },
+    {
+        "id": 423,
+        "raw": "[name=\"陨星\"]  你做了什么！干嘛要自己一个人深入危险的地方！",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "你做了什么！干嘛要自己一个人深入危险的地方！"
+    },
+    {
+        "id": 424,
+        "raw": "[Character(name=\"char_219_meteo_1\",name2=\"char_350_surtr_1\",focus=2)]",
+        "type": "character",
+        "name": "char_219_meteo_1",
+        "name2": "char_350_surtr_1",
+        "focus": 2
+    },
+    {
+        "id": 425,
+        "raw": "[name=\"史尔特尔\"]  我这不是，进去做探查吗。",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "我这不是，进去做探查吗。"
+    },
+    {
+        "id": 426,
+        "raw": "[name=\"史尔特尔\"]  顺便，我找到了内部塌方的原因，是因为在矿井下面有源石虫巢穴，里面有一个巨大的空洞。",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "顺便，我找到了内部塌方的原因，是因为在矿井下面有源石虫巢穴，里面有一个巨大的空洞。"
+    },
+    {
+        "id": 427,
+        "raw": "[name=\"史尔特尔\"]  挖掘导致了下方支撑压力扩大，于是整个塌方掉了。",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "挖掘导致了下方支撑压力扩大，于是整个塌方掉了。"
+    },
+    {
+        "id": 428,
+        "raw": "[name=\"史尔特尔\"]  为了解决问题，我已经把下面源石虫巢穴全毁，并且利用塌方把整个空洞都封了起来。",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "为了解决问题，我已经把下面源石虫巢穴全毁，并且利用塌方把整个空洞都封了起来。"
+    },
+    {
+        "id": 429,
+        "raw": "[name=\"史尔特尔\"]  虽然跳过了基础探测，应该算是解决了问题了。",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "虽然跳过了基础探测，应该算是解决了问题了。"
+    },
+    {
+        "id": 430,
+        "raw": "[Character(name=\"avg_npc_006\")]",
+        "type": "character",
+        "name": "avg_npc_006"
+    },
+    {
+        "id": 431,
+        "raw": "[name=\"村长\"]  啊!",
+        "type": "dialog",
+        "speaker": "村长",
+        "content": "啊!"
+    },
+    {
+        "id": 432,
+        "raw": "[Character(name=\"char_219_meteo_1\")]",
+        "type": "character",
+        "name": "char_219_meteo_1"
+    },
+    {
+        "id": 433,
+        "raw": "[name=\"陨星\"]  啊？",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "啊？"
+    },
+    {
+        "id": 434,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 435,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 436,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 437,
+        "raw": "[Background(image=\"bg_county_1\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_county_1.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 438,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 439,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 440,
+        "raw": "[Character(name=\"char_219_meteo_1\")]",
+        "type": "character",
+        "name": "char_219_meteo_1"
+    },
+    {
+        "id": 441,
+        "raw": "[name=\"陨星\"]  所以，恰好你自己就这样把问题全解决了，也没找到去邻村的路？",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "所以，恰好你自己就这样把问题全解决了，也没找到去邻村的路？"
+    },
+    {
+        "id": 442,
+        "raw": "[Character(name=\"char_219_meteo_1\",name2=\"char_350_surtr_1\",focus=2)]",
+        "type": "character",
+        "name": "char_219_meteo_1",
+        "name2": "char_350_surtr_1",
+        "focus": 2
+    },
+    {
+        "id": 443,
+        "raw": "[name=\"史尔特尔\"]  恩，我在路上就发现了，邻村也是错的，这里也是错的。",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "恩，我在路上就发现了，邻村也是错的，这里也是错的。"
+    },
+    {
+        "id": 444,
+        "raw": "[name=\"史尔特尔\"]  看来是我搞错了，这里并没有我想要找的回忆。",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "看来是我搞错了，这里并没有我想要找的回忆。"
+    },
+    {
+        "id": 445,
+        "raw": "[Character(name=\"char_219_meteo_1\",name2=\"char_350_surtr_1\",focus=1)]",
+        "type": "character",
+        "name": "char_219_meteo_1",
+        "name2": "char_350_surtr_1",
+        "focus": 1
+    },
+    {
+        "id": 446,
+        "raw": "[name=\"陨星\"]  一向记录得这么详细的你也会搞错？",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "一向记录得这么详细的你也会搞错？"
+    },
+    {
+        "id": 447,
+        "raw": "[Character(name=\"char_219_meteo_1\",name2=\"char_350_surtr_1\",focus=2)]",
+        "type": "character",
+        "name": "char_219_meteo_1",
+        "name2": "char_350_surtr_1",
+        "focus": 2
+    },
+    {
+        "id": 448,
+        "raw": "[name=\"史尔特尔\"]  大概吧。",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "大概吧。"
+    },
+    {
+        "id": 449,
+        "raw": "[Character(name=\"char_219_meteo_1\",name2=\"char_350_surtr_1\",focus=1)]",
+        "type": "character",
+        "name": "char_219_meteo_1",
+        "name2": "char_350_surtr_1",
+        "focus": 1
+    },
+    {
+        "id": 450,
+        "raw": "[name=\"陨星\"]  ......我以前也遇到过这样的事情。",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "......我以前也遇到过这样的事情。"
+    },
+    {
+        "id": 451,
+        "raw": "[name=\"陨星\"]  在寻找目标的路上，总会在接近目标的时候遇到各种失败。",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "在寻找目标的路上，总会在接近目标的时候遇到各种失败。"
+    },
+    {
+        "id": 452,
+        "raw": "[name=\"陨星\"]  不过我也是依靠了身边的人，至少才能让我坚持到现在。",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "不过我也是依靠了身边的人，至少才能让我坚持到现在。"
+    },
+    {
+        "id": 453,
+        "raw": "[Character(name=\"char_219_meteo_1\",name2=\"char_350_surtr_1\",focus=2)]",
+        "type": "character",
+        "name": "char_219_meteo_1",
+        "name2": "char_350_surtr_1",
+        "focus": 2
+    },
+    {
+        "id": 454,
+        "raw": "[name=\"史尔特尔\"]  对我来说倒也是习以为常了。",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "对我来说倒也是习以为常了。"
+    },
+    {
+        "id": 455,
+        "raw": "[name=\"史尔特尔\"]  毕竟这也不是第一次发现记忆中的地方产生了偏差。",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "毕竟这也不是第一次发现记忆中的地方产生了偏差。"
+    },
+    {
+        "id": 456,
+        "raw": "[Character(name=\"char_219_meteo_1\",name2=\"char_350_surtr_1\",focus=1)]",
+        "type": "character",
+        "name": "char_219_meteo_1",
+        "name2": "char_350_surtr_1",
+        "focus": 1
+    },
+    {
+        "id": 457,
+        "raw": "[name=\"陨星\"]  不过，就算今天没有找到，也并不意味着无家可回不是吗。",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "不过，就算今天没有找到，也并不意味着无家可回不是吗。"
+    },
+    {
+        "id": 458,
+        "raw": "[Character(name=\"char_219_meteo_1\",name2=\"char_350_surtr_1\",focus=2)]",
+        "type": "character",
+        "name": "char_219_meteo_1",
+        "name2": "char_350_surtr_1",
+        "focus": 2
+    },
+    {
+        "id": 459,
+        "raw": "[name=\"史尔特尔\"]  所以你的意思是，我也可以依靠你吗？",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "所以你的意思是，我也可以依靠你吗？"
+    },
+    {
+        "id": 460,
+        "raw": "[Character(name=\"char_219_meteo_1\",name2=\"char_350_surtr_1\",focus=1)]",
+        "type": "character",
+        "name": "char_219_meteo_1",
+        "name2": "char_350_surtr_1",
+        "focus": 1
+    },
+    {
+        "id": 461,
+        "raw": "[name=\"陨星\"]  呃，也不是说不是这个意思......",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "呃，也不是说不是这个意思......"
+    },
+    {
+        "id": 462,
+        "raw": "[Character(name=\"avg_npc_006\")]",
+        "type": "character",
+        "name": "avg_npc_006"
+    },
+    {
+        "id": 463,
+        "raw": "[name=\"村长\"]  两位！我已经通知过村里其他人了！",
+        "type": "dialog",
+        "speaker": "村长",
+        "content": "两位！我已经通知过村里其他人了！"
+    },
+    {
+        "id": 464,
+        "raw": "[name=\"村长\"]  正式的探查队已经在准备了！如果真如小姑娘你所说，那么现在矿坑就可以开始准备恢复工作了。",
+        "type": "dialog",
+        "speaker": "村长",
+        "content": "正式的探查队已经在准备了！如果真如小姑娘你所说，那么现在矿坑就可以开始准备恢复工作了。"
+    },
+    {
+        "id": 465,
+        "raw": "[Character(name=\"char_219_meteo_1\",name2=\"avg_npc_006\",focus=1)]",
+        "type": "character",
+        "name": "char_219_meteo_1",
+        "name2": "avg_npc_006",
+        "focus": 1
+    },
+    {
+        "id": 466,
+        "raw": "[name=\"陨星\"]  请务必等我们把现有数据带回罗德岛本舰后再进行深入勘探。",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "请务必等我们把现有数据带回罗德岛本舰后再进行深入勘探。"
+    },
+    {
+        "id": 467,
+        "raw": "[name=\"陨星\"]  一旦再发生新事故就得不偿失了。",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "一旦再发生新事故就得不偿失了。"
+    },
+    {
+        "id": 468,
+        "raw": "[Character(name=\"char_219_meteo_1\",name2=\"avg_npc_006\",focus=2)]",
+        "type": "character",
+        "name": "char_219_meteo_1",
+        "name2": "avg_npc_006",
+        "focus": 2
+    },
+    {
+        "id": 469,
+        "raw": "[name=\"村长\"]  哈哈没问题，大家都太开心了。真得感谢小姑娘你们了啊。",
+        "type": "dialog",
+        "speaker": "村长",
+        "content": "哈哈没问题，大家都太开心了。真得感谢小姑娘你们了啊。"
+    },
+    {
+        "id": 470,
+        "raw": "[name=\"村长\"]  如果不介意的话，今天就留在村里吧。",
+        "type": "dialog",
+        "speaker": "村长",
+        "content": "如果不介意的话，今天就留在村里吧。"
+    },
+    {
+        "id": 471,
+        "raw": "[name=\"村长\"]  让我们好好招待你们一次！",
+        "type": "dialog",
+        "speaker": "村长",
+        "content": "让我们好好招待你们一次！"
+    },
+    {
+        "id": 472,
+        "raw": "[Character(name=\"char_219_meteo_1\",name2=\"avg_npc_006\",focus=1)]",
+        "type": "character",
+        "name": "char_219_meteo_1",
+        "name2": "avg_npc_006",
+        "focus": 1
+    },
+    {
+        "id": 473,
+        "raw": "[name=\"陨星\"]  这......",
+        "type": "dialog",
+        "speaker": "陨星",
+        "content": "这......"
+    },
+    {
+        "id": 474,
+        "raw": "[Character(name=\"char_350_surtr_1\")]",
+        "type": "character",
+        "name": "char_350_surtr_1"
+    },
+    {
+        "id": 475,
+        "raw": "[name=\"史尔特尔\"]  我们还得赶快回去，看来是没办法接受招待了。",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "我们还得赶快回去，看来是没办法接受招待了。"
+    },
+    {
+        "id": 476,
+        "raw": "[name=\"史尔特尔\"]  不过......",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "不过......"
+    },
+    {
+        "id": 477,
+        "raw": "[name=\"史尔特尔\"]  能给我一份雪糕吗？",
+        "type": "dialog",
+        "speaker": "史尔特尔",
+        "content": "能给我一份雪糕吗？"
+    },
+    {
+        "id": 478,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 479,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 480,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 481,
+        "raw": "[Character]",
+        "type": "character"
+    },
+    {
+        "id": 482,
+        "raw": "[Image]",
+        "type": "image"
+    }
+]

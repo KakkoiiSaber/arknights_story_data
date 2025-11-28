@@ -1,0 +1,5291 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")]",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK"
+    },
+    {
+        "id": 2,
+        "raw": "[stopmusic]",
+        "type": "stop_music"
+    },
+    {
+        "id": 3,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 4,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 5,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 6,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 7,
+        "raw": "[CameraEffect(effect=\"Grayscale\", amount=0.8, keep=true)]",
+        "type": "camera_effect",
+        "effect": "Grayscale",
+        "amount": "0.8,",
+        "keep": true
+    },
+    {
+        "id": 8,
+        "raw": "[PlayMusic(intro=\"$darkness01_intro\", key=\"$darkness01_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/beta1_180603/m_dia_darkness01_intro.mp3",
+        "key": "sound_beta_2/music/beta1_180603/m_dia_darkness01_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 9,
+        "raw": "[Background(image=\"bg_rhodescom\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_rhodescom.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 10,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 11,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 12,
+        "raw": "[animtext(id = \"at1\", name = \"group_location_stamp\", style=\"avg_only_heavy\", pos = \"-400,-200\", block = false)]<p=1>罗德岛新基地，会议室</>",
+        "type": "anim_text",
+        "style": "avg_only_heavy",
+        "content": "<p=1>罗德岛新基地，会议室</>"
+    },
+    {
+        "id": 13,
+        "raw": "[delay(time=3)]",
+        "type": "delay",
+        "time": 3
+    },
+    {
+        "id": 14,
+        "raw": "[animtextclean]",
+        "type": "anim_text_clean"
+    },
+    {
+        "id": 15,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 16,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#5$1\", duration=1, isblock=true)]",
+        "type": "charslot",
+        "duration": "1,",
+        "isblock": true
+    },
+    {
+        "id": 17,
+        "raw": "[name=\"阿米娅\"]关于石棺的线索？",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "关于石棺的线索？"
+    },
+    {
+        "id": 18,
+        "raw": "[charslot(slot = \"m\", name = \"avg_4179_monstr_1#4$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 19,
+        "raw": "[name=\"Mon3tr\"]我们目前掌握的石棺的最后动向，是乌萨斯官方在切尔诺伯格-龙门事件之后，回收了全套石棺系统。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "我们目前掌握的石棺的最后动向，是乌萨斯官方在切尔诺伯格-龙门事件之后，回收了全套石棺系统。"
+    },
+    {
+        "id": 20,
+        "raw": "[name=\"Mon3tr\"]至于他们后续到底准备如何运用石棺，似乎是保密更为严格的项目，凯尔希的情报里也完全没有记录。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "至于他们后续到底准备如何运用石棺，似乎是保密更为严格的项目，凯尔希的情报里也完全没有记录。"
+    },
+    {
+        "id": 21,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 22,
+        "raw": "[charslot(slot = \"m\", focus=\"n\")]",
+        "type": "charslot",
+        "focus": "n"
+    },
+    {
+        "id": 23,
+        "raw": "[Decision(options=\"我们可没办法直接向乌萨斯官方申请借用石棺......;我们还有什么可以锁定石棺位置的方法？\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "我们可没办法直接向乌萨斯官方申请借用石棺......;我们还有什么可以锁定石棺位置的方法？",
+        "values": "1;2"
+    },
+    {
+        "id": 24,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 25,
+        "raw": "[charslot(slot = \"m\", name = \"avg_4179_monstr_1#2$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 26,
+        "raw": "[name=\"Mon3tr\"]当年切尔诺伯格研究所被破坏之后，从官方的名单上来看，除了那位谢尔盖，整个研究所没有其他幸存者。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "当年切尔诺伯格研究所被破坏之后，从官方的名单上来看，除了那位谢尔盖，整个研究所没有其他幸存者。"
+    },
+    {
+        "id": 27,
+        "raw": "[name=\"Mon3tr\"]但是通过研究谢尔盖的后续经历，我们可以发现些许线索。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "但是通过研究谢尔盖的后续经历，我们可以发现些许线索。"
+    },
+    {
+        "id": 28,
+        "raw": "[name=\"Mon3tr\"]在那之后，谢尔盖又成立了全新的研究石棺的研究所。就在这个研究所短暂运行的那段时间里，我们发现了一个特殊的人——",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "在那之后，谢尔盖又成立了全新的研究石棺的研究所。就在这个研究所短暂运行的那段时间里，我们发现了一个特殊的人——"
+    },
+    {
+        "id": 29,
+        "raw": "[charslot(slot = \"m\", name = \"avg_4179_monstr_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 30,
+        "raw": "[name=\"Mon3tr\"]阿尔乔姆·恰达耶夫。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "阿尔乔姆·恰达耶夫。"
+    },
+    {
+        "id": 31,
+        "raw": "[name=\"Mon3tr\"]这个人在谢尔盖的研究所里担任副所长，但是他过往的履历却一片空白，没有任何可信的学术和政治背景。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "这个人在谢尔盖的研究所里担任副所长，但是他过往的履历却一片空白，没有任何可信的学术和政治背景。"
+    },
+    {
+        "id": 32,
+        "raw": "[name=\"Mon3tr\"]或许我们可以合理推断......",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "或许我们可以合理推断......"
+    },
+    {
+        "id": 33,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 34,
+        "raw": "[charslot(slot = \"m\", focus=\"n\")]",
+        "type": "charslot",
+        "focus": "n"
+    },
+    {
+        "id": 35,
+        "raw": "[Decision(options=\"这个人和谢尔盖有特殊的关系？;这个人和研究所有特殊的关系？\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "这个人和谢尔盖有特殊的关系？;这个人和研究所有特殊的关系？",
+        "values": "1;2"
+    },
+    {
+        "id": 36,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 37,
+        "raw": "[charslot(slot = \"m\", name = \"avg_4179_monstr_1#2$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 38,
+        "raw": "[name=\"Mon3tr\"]不管是哪一种情况，这个人都有可能是突破口。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "不管是哪一种情况，这个人都有可能是突破口。"
+    },
+    {
+        "id": 39,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#7$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 40,
+        "raw": "[name=\"阿米娅\"]我们要找的，就是这位阿尔乔姆？",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "我们要找的，就是这位阿尔乔姆？"
+    },
+    {
+        "id": 41,
+        "raw": "[charslot(slot = \"m\", name = \"avg_4179_monstr_1#3$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 42,
+        "raw": "[name=\"Mon3tr\"]不，情况还要更复杂一点......",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "不，情况还要更复杂一点......"
+    },
+    {
+        "id": 43,
+        "raw": "[charslot(slot = \"m\", name = \"avg_4179_monstr_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 44,
+        "raw": "[name=\"Mon3tr\"]谢尔盖的研究所关闭之后，这个人的去向也很难追踪。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "谢尔盖的研究所关闭之后，这个人的去向也很难追踪。"
+    },
+    {
+        "id": 45,
+        "raw": "[name=\"Mon3tr\"]而根据凯尔希的私人情报，去年冬天，阿尔乔姆在圣骏堡皇家疗养院去世了，死于心脏衰竭。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "而根据凯尔希的私人情报，去年冬天，阿尔乔姆在圣骏堡皇家疗养院去世了，死于心脏衰竭。"
+    },
+    {
+        "id": 46,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 47,
+        "raw": "[charslot(slot = \"m\", focus=\"n\")]",
+        "type": "charslot",
+        "focus": "n"
+    },
+    {
+        "id": 48,
+        "raw": "[Decision(options=\"他到最后都和乌萨斯保持着不错的关系。;或许我们可以调查与他相关的人。\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "他到最后都和乌萨斯保持着不错的关系。;或许我们可以调查与他相关的人。",
+        "values": "1;2"
+    },
+    {
+        "id": 49,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 50,
+        "raw": "[charslot(slot = \"m\", name = \"avg_4179_monstr_1#10$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 51,
+        "raw": "[name=\"Mon3tr\"]聪明的判断！我也是这样想的。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "聪明的判断！我也是这样想的。"
+    },
+    {
+        "id": 52,
+        "raw": "[name=\"Mon3tr\"]所以我们要找的，是与这位阿尔乔姆有关的另一位研究员。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "所以我们要找的，是与这位阿尔乔姆有关的另一位研究员。"
+    },
+    {
+        "id": 53,
+        "raw": "[name=\"Mon3tr\"]科谢尼娅·马尔科芙娜·涅留朵娃。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "科谢尼娅·马尔科芙娜·涅留朵娃。"
+    },
+    {
+        "id": 54,
+        "raw": "[charslot(slot = \"m\", name = \"avg_4179_monstr_1#2$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 55,
+        "raw": "[name=\"Mon3tr\"]相比之下，这位研究员的履历要详细得多。在石棺事件发生前，她曾短暂地作为伊利亚的副手在切城研究所工作过，与凯尔希打过交道。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "相比之下，这位研究员的履历要详细得多。在石棺事件发生前，她曾短暂地作为伊利亚的副手在切城研究所工作过，与凯尔希打过交道。"
+    },
+    {
+        "id": 56,
+        "raw": "[name=\"Mon3tr\"]根据我们了解到的最新消息，目前，她正在乌萨斯远北地区，布列斯克下辖的远北中心矿区研究所里工作。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "根据我们了解到的最新消息，目前，她正在乌萨斯远北地区，布列斯克下辖的远北中心矿区研究所里工作。"
+    },
+    {
+        "id": 57,
+        "raw": "[name=\"Mon3tr\"]而那里，正是阿尔乔姆临终前寄出的最后几封信件的收件地址。",
+        "type": "dialog",
+        "speaker": "Mon3tr",
+        "content": "而那里，正是阿尔乔姆临终前寄出的最后几封信件的收件地址。"
+    },
+    {
+        "id": 58,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 59,
+        "raw": "[charslot(slot = \"m\", focus=\"n\")]",
+        "type": "charslot",
+        "focus": "n"
+    },
+    {
+        "id": 60,
+        "raw": "[Decision(options=\"听上去并不是一个十分可靠的线索......;却也是我们唯一的线索。\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "听上去并不是一个十分可靠的线索......;却也是我们唯一的线索。",
+        "values": "1;2"
+    },
+    {
+        "id": 61,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 62,
+        "raw": "[Decision(options=\"我们应该去那座研究所找她。\", values=\"1\")]",
+        "type": "decision",
+        "options": "我们应该去那座研究所找她。",
+        "values": "1"
+    },
+    {
+        "id": 63,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 64,
+        "raw": "[charslot(slot = \"m\", name = \"avg_171_bldsk_1#10$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 65,
+        "raw": "[name=\"华法琳\"]博士，我必须要提醒你。",
+        "type": "dialog",
+        "speaker": "华法琳",
+        "content": "博士，我必须要提醒你。"
+    },
+    {
+        "id": 66,
+        "raw": "[name=\"华法琳\"]虽然我们已经下定决心要把凯尔希带回来，但我们必须考量每一次任务的风险。",
+        "type": "dialog",
+        "speaker": "华法琳",
+        "content": "虽然我们已经下定决心要把凯尔希带回来，但我们必须考量每一次任务的风险。"
+    },
+    {
+        "id": 67,
+        "raw": "[name=\"华法琳\"]罗德岛现在经不起多少损失了......",
+        "type": "dialog",
+        "speaker": "华法琳",
+        "content": "罗德岛现在经不起多少损失了......"
+    },
+    {
+        "id": 68,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 69,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 70,
+        "raw": "[Decision(options=\"可是......\", values=\"1\")]",
+        "type": "decision",
+        "options": "可是......",
+        "values": "1"
+    },
+    {
+        "id": 71,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 72,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3"
+    },
+    {
+        "id": 73,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1730_1#3$1\", duration=1.5, isblock=true)]",
+        "type": "charslot",
+        "duration": "1.5,",
+        "isblock": true
+    },
+    {
+        "id": 74,
+        "raw": "[Delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 75,
+        "raw": "[name=\"Raidian\"]让我去吧。",
+        "type": "dialog",
+        "speaker": "Raidian",
+        "content": "让我去吧。"
+    },
+    {
+        "id": 76,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#5$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 77,
+        "raw": "[name=\"阿米娅\"]Raidian？",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "Raidian？"
+    },
+    {
+        "id": 78,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1730_1#2$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 79,
+        "raw": "[name=\"Raidian\"]乌萨斯至今依然是非常危险的地方，并且，这次任务我们掌握的情报十分有限。",
+        "type": "dialog",
+        "speaker": "Raidian",
+        "content": "乌萨斯至今依然是非常危险的地方，并且，这次任务我们掌握的情报十分有限。"
+    },
+    {
+        "id": 80,
+        "raw": "[name=\"Raidian\"]而罗德岛重建工作刚刚起步，很多事务还需要博士和阿米娅参与决策。",
+        "type": "dialog",
+        "speaker": "Raidian",
+        "content": "而罗德岛重建工作刚刚起步，很多事务还需要博士和阿米娅参与决策。"
+    },
+    {
+        "id": 81,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#5$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 82,
+        "raw": "[name=\"阿米娅\"]Raidian，我可以......",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "Raidian，我可以......"
+    },
+    {
+        "id": 83,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1730_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 84,
+        "raw": "[name=\"Raidian\"]我知道，阿米娅已经是很厉害的大人了，但正因为这样，留守罗德岛这项最重要的任务要交给阿米娅才行。",
+        "type": "dialog",
+        "speaker": "Raidian",
+        "content": "我知道，阿米娅已经是很厉害的大人了，但正因为这样，留守罗德岛这项最重要的任务要交给阿米娅才行。"
+    },
+    {
+        "id": 85,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1730_1#3$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 86,
+        "raw": "[name=\"Raidian\"]拉特兰传回的消息同样令人不安，博士势必要去处理。让罗德岛在新家园站稳脚跟，是我们当下最要紧的任务。",
+        "type": "dialog",
+        "speaker": "Raidian",
+        "content": "拉特兰传回的消息同样令人不安，博士势必要去处理。让罗德岛在新家园站稳脚跟，是我们当下最要紧的任务。"
+    },
+    {
+        "id": 87,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 88,
+        "raw": "[name=\"阿米娅\"]你说得对......",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "你说得对......"
+    },
+    {
+        "id": 89,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1730_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 90,
+        "raw": "[name=\"Raidian\"]如果只是潜入任务，那肯定是Misery的小队更加擅长，但还要收集情报的话，还是我的小队更为专精。",
+        "type": "dialog",
+        "speaker": "Raidian",
+        "content": "如果只是潜入任务，那肯定是Misery的小队更加擅长，但还要收集情报的话，还是我的小队更为专精。"
+    },
+    {
+        "id": 91,
+        "raw": "[name=\"Raidian\"]何况，回乌萨斯行动的话，也没有比我更合适的人选了，对吧？",
+        "type": "dialog",
+        "speaker": "Raidian",
+        "content": "何况，回乌萨斯行动的话，也没有比我更合适的人选了，对吧？"
+    },
+    {
+        "id": 92,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1723_1#3$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 93,
+        "raw": "[name=\"可露希尔\"]听上去，Raidian的分析还是很有道理的......",
+        "type": "dialog",
+        "speaker": "可露希尔",
+        "content": "听上去，Raidian的分析还是很有道理的......"
+    },
+    {
+        "id": 94,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1723_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 95,
+        "raw": "[name=\"可露希尔\"]博士，你决定吧。",
+        "type": "dialog",
+        "speaker": "可露希尔",
+        "content": "博士，你决定吧。"
+    },
+    {
+        "id": 96,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 97,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 98,
+        "raw": "[Decision(options=\"这次任务很危险。;一定要注意安全，Raidian。\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "这次任务很危险。;一定要注意安全，Raidian。",
+        "values": "1;2"
+    },
+    {
+        "id": 99,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 100,
+        "raw": "[Decision(options=\"罗德岛不能再失去任何人了。\", values=\"1\")]",
+        "type": "decision",
+        "options": "罗德岛不能再失去任何人了。",
+        "values": "1"
+    },
+    {
+        "id": 101,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 102,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1730_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 103,
+        "raw": "[name=\"Raidian\"]当然啦，我们会以流动医疗队的形式谨慎行动的。",
+        "type": "dialog",
+        "speaker": "Raidian",
+        "content": "当然啦，我们会以流动医疗队的形式谨慎行动的。"
+    },
+    {
+        "id": 104,
+        "raw": "[name=\"Raidian\"]我不在的时候，大家都要照顾好自己哦。",
+        "type": "dialog",
+        "speaker": "Raidian",
+        "content": "我不在的时候，大家都要照顾好自己哦。"
+    },
+    {
+        "id": 105,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#9$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 106,
+        "raw": "[name=\"阿米娅\"]嗯......",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "嗯......"
+    },
+    {
+        "id": 107,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#8$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 108,
+        "raw": "[name=\"阿米娅\"]希望每一个人，都能平安回家......",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "希望每一个人，都能平安回家......"
+    },
+    {
+        "id": 109,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 110,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 111,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 112,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 113,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 114,
+        "raw": "[Background]",
+        "type": "background"
+    },
+    {
+        "id": 115,
+        "raw": "[CameraEffect(effect=\"Grayscale\", amount=0, keep=true)]",
+        "type": "camera_effect",
+        "effect": "Grayscale",
+        "amount": "0,",
+        "keep": true
+    },
+    {
+        "id": 116,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 117,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 118,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 119,
+        "raw": "[name=\"苍老的声音\"]“......我愿意默想，并分担他的痛苦。”",
+        "type": "dialog",
+        "speaker": "苍老的声音",
+        "content": "“......我愿意默想，并分担他的痛苦。”"
+    },
+    {
+        "id": 120,
+        "raw": "[name=\"苍老的声音\"]“一个人的痛苦是每个人的痛苦，一个人的罪过是每个人的罪过......”",
+        "type": "dialog",
+        "speaker": "苍老的声音",
+        "content": "“一个人的痛苦是每个人的痛苦，一个人的罪过是每个人的罪过......”"
+    },
+    {
+        "id": 121,
+        "raw": "[name=\"苍老的声音\"]“愿有罪的人都能诚心忏悔，其罪过都可被原谅，其灵魂都可被救赎......”",
+        "type": "dialog",
+        "speaker": "苍老的声音",
+        "content": "“愿有罪的人都能诚心忏悔，其罪过都可被原谅，其灵魂都可被救赎......”"
+    },
+    {
+        "id": 122,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 123,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 124,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0.1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.1,",
+        "block": true
+    },
+    {
+        "id": 125,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 126,
+        "raw": "[Background(image=\"66_g4_miningarea_polluted\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "66_g4_miningarea_polluted.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 127,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 128,
+        "raw": "[PlayMusic(key=\"$wasteland_loop\", volume=0.6)]",
+        "type": "play_music",
+        "key": "sound_beta_2/music/act28side/m_avg_wasteland_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 129,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 130,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 131,
+        "raw": "[animtext(id = \"at1\", name = \"group_location_stamp\", style=\"avg_both\", pos = \"-400,-200\", block = false)]<p=1>乌萨斯远北中心矿区</><p=2>五天前</>",
+        "type": "anim_text",
+        "style": "avg_both",
+        "content": "<p=1>乌萨斯远北中心矿区</><p=2>五天前</>"
+    },
+    {
+        "id": 132,
+        "raw": "[delay(time=3)]",
+        "type": "delay",
+        "time": 3
+    },
+    {
+        "id": 133,
+        "raw": "[animtextclean]",
+        "type": "anim_text_clean"
+    },
+    {
+        "id": 134,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 135,
+        "raw": "[CameraShake(duration=0.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 136,
+        "raw": "[name=\"痛苦的嚎叫\"]呃啊——！",
+        "type": "dialog",
+        "speaker": "痛苦的嚎叫",
+        "content": "呃啊——！"
+    },
+    {
+        "id": 137,
+        "raw": "[name=\"痛苦的嚎叫\"]啊啊————！",
+        "type": "dialog",
+        "speaker": "痛苦的嚎叫",
+        "content": "啊啊————！"
+    },
+    {
+        "id": 138,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 139,
+        "raw": "[charslot(slot = \"r\", name = \"avg_4207_branch_1#1$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 140,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 141,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\", volume=1, loop=true, channel=\"w\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3",
+        "volume": "1,",
+        "loop": "true,",
+        "channel": "w"
+    },
+    {
+        "id": 142,
+        "raw": "[StopSound(channel=\"w\", fadetime=1)]",
+        "type": "stop_sound",
+        "channel": "w",
+        "fadetime": 1
+    },
+    {
+        "id": 143,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_1964_1#1$1\", posfrom=\"-100,0\", posto=\"0,0\", duration=1, isblock=true)]",
+        "type": "charslot",
+        "posfrom": "-100,0",
+        "posto": "0,0",
+        "duration": "1,",
+        "isblock": true
+    },
+    {
+        "id": 144,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_1964_1#1$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 145,
+        "raw": "[name=\"年迈的老妇\"]啊......",
+        "type": "dialog",
+        "speaker": "年迈的老妇",
+        "content": "啊......"
+    },
+    {
+        "id": 146,
+        "raw": "[charslot(slot = \"r\", name = \"avg_4207_branch_1#2$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 147,
+        "raw": "[name=\"少年矿工\"]没事的......奶奶，您，别害怕。",
+        "type": "dialog",
+        "speaker": "少年矿工",
+        "content": "没事的......奶奶，您，别害怕。"
+    },
+    {
+        "id": 148,
+        "raw": "[name=\"少年矿工\"]是，雷尔金，老师......他已经把，追过来的纠察队，都赶走了。",
+        "type": "dialog",
+        "speaker": "少年矿工",
+        "content": "是，雷尔金，老师......他已经把，追过来的纠察队，都赶走了。"
+    },
+    {
+        "id": 149,
+        "raw": "[name=\"少年矿工\"]我们，暂时安全了。",
+        "type": "dialog",
+        "speaker": "少年矿工",
+        "content": "我们，暂时安全了。"
+    },
+    {
+        "id": 150,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_1964_1#1$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 151,
+        "raw": "[name=\"年迈的老妇\"]是啊......暂时。",
+        "type": "dialog",
+        "speaker": "年迈的老妇",
+        "content": "是啊......暂时。"
+    },
+    {
+        "id": 152,
+        "raw": "[name=\"年迈的老妇\"]我们还能往哪去呢，我们该上哪去寻求安宁呢......？",
+        "type": "dialog",
+        "speaker": "年迈的老妇",
+        "content": "我们还能往哪去呢，我们该上哪去寻求安宁呢......？"
+    },
+    {
+        "id": 153,
+        "raw": "[charslot(slot = \"r\", name = \"avg_4207_branch_1#10$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 154,
+        "raw": "[name=\"少年矿工\"]奶奶......您、您饿了吗......？我去问问霍里，再要一块面包。",
+        "type": "dialog",
+        "speaker": "少年矿工",
+        "content": "奶奶......您、您饿了吗......？我去问问霍里，再要一块面包。"
+    },
+    {
+        "id": 155,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_1964_1#1$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 156,
+        "raw": "[name=\"年迈的老妇\"]我没事......乖孩子，我没事的。",
+        "type": "dialog",
+        "speaker": "年迈的老妇",
+        "content": "我没事......乖孩子，我没事的。"
+    },
+    {
+        "id": 157,
+        "raw": "[name=\"年迈的老妇\"]去看看雷尔金吧......",
+        "type": "dialog",
+        "speaker": "年迈的老妇",
+        "content": "去看看雷尔金吧......"
+    },
+    {
+        "id": 158,
+        "raw": "[name=\"年迈的老妇\"]他做了最多的事，他的心灵也会变得千疮百孔的......",
+        "type": "dialog",
+        "speaker": "年迈的老妇",
+        "content": "他做了最多的事，他的心灵也会变得千疮百孔的......"
+    },
+    {
+        "id": 159,
+        "raw": "[name=\"年迈的老妇\"]去看看他吧，不要让他再背负更多......",
+        "type": "dialog",
+        "speaker": "年迈的老妇",
+        "content": "去看看他吧，不要让他再背负更多......"
+    },
+    {
+        "id": 160,
+        "raw": "[charslot(slot = \"r\", name = \"avg_4207_branch_1#10$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 161,
+        "raw": "[name=\"少年矿工\"]老师，他......",
+        "type": "dialog",
+        "speaker": "少年矿工",
+        "content": "老师，他......"
+    },
+    {
+        "id": 162,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 163,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 164,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, style = \"slider\", inverse = true, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 165,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 166,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, style = \"slider\", inverse = true, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 167,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3"
+    },
+    {
+        "id": 168,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1963_1#3$1\", duration=1.5, isblock=true)]",
+        "type": "charslot",
+        "duration": "1.5,",
+        "isblock": true
+    },
+    {
+        "id": 169,
+        "raw": "[Delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 170,
+        "raw": "[name=\"青年矿工\"]......呼......",
+        "type": "dialog",
+        "speaker": "青年矿工",
+        "content": "......呼......"
+    },
+    {
+        "id": 171,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 172,
+        "raw": "昏暗的天幕下，青年肃杀的面容趋于平静。",
+        "type": "narration",
+        "content": "昏暗的天幕下，青年肃杀的面容趋于平静。"
+    },
+    {
+        "id": 173,
+        "raw": "阵雪很快消弭了矿镐上热血的温度，眼前畏缩的敌人已全然溃退。",
+        "type": "narration",
+        "content": "阵雪很快消弭了矿镐上热血的温度，眼前畏缩的敌人已全然溃退。"
+    },
+    {
+        "id": 174,
+        "raw": "[name=\"恐惧的纠察队队员\"]别......别杀我！你们不能动我，我已经投降了！",
+        "type": "dialog",
+        "speaker": "恐惧的纠察队队员",
+        "content": "别......别杀我！你们不能动我，我已经投降了！"
+    },
+    {
+        "id": 175,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1963_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 176,
+        "raw": "[name=\"青年矿工\"]但我们还没有接受。",
+        "type": "dialog",
+        "speaker": "青年矿工",
+        "content": "但我们还没有接受。"
+    },
+    {
+        "id": 177,
+        "raw": "[name=\"青年矿工\"]告诉我，像你们这样的追兵，还有多少？",
+        "type": "dialog",
+        "speaker": "青年矿工",
+        "content": "告诉我，像你们这样的追兵，还有多少？"
+    },
+    {
+        "id": 178,
+        "raw": "[charslot(slot = \"m\", focus=\"n\")]",
+        "type": "charslot",
+        "focus": "n"
+    },
+    {
+        "id": 179,
+        "raw": "[name=\"恐惧的纠察队队员\"]天杀的，我不——我不知道！",
+        "type": "dialog",
+        "speaker": "恐惧的纠察队队员",
+        "content": "天杀的，我不——我不知道！"
+    },
+    {
+        "id": 180,
+        "raw": "[name=\"恐惧的纠察队队员\"]每一支纠察队都是独立的，相互之间没什么联系！",
+        "type": "dialog",
+        "speaker": "恐惧的纠察队队员",
+        "content": "每一支纠察队都是独立的，相互之间没什么联系！"
+    },
+    {
+        "id": 181,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1963_1#10$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 182,
+        "raw": "[name=\"青年矿工\"]再告诉我一点我不知道的事，不然我没有让你活着的理由。",
+        "type": "dialog",
+        "speaker": "青年矿工",
+        "content": "再告诉我一点我不知道的事，不然我没有让你活着的理由。"
+    },
+    {
+        "id": 183,
+        "raw": "[charslot(slot = \"m\", focus=\"n\")]",
+        "type": "charslot",
+        "focus": "n"
+    },
+    {
+        "id": 184,
+        "raw": "[name=\"恐惧的纠察队队员\"]别，别动手！听我说！",
+        "type": "dialog",
+        "speaker": "恐惧的纠察队队员",
+        "content": "别，别动手！听我说！"
+    },
+    {
+        "id": 185,
+        "raw": "[name=\"恐惧的纠察队队员\"]你们身上的芯片！检测芯片！",
+        "type": "dialog",
+        "speaker": "恐惧的纠察队队员",
+        "content": "你们身上的芯片！检测芯片！"
+    },
+    {
+        "id": 186,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1963_1#6$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 187,
+        "raw": "[name=\"青年矿工\"]芯片？你是说检测感染程度的芯片？",
+        "type": "dialog",
+        "speaker": "青年矿工",
+        "content": "芯片？你是说检测感染程度的芯片？"
+    },
+    {
+        "id": 188,
+        "raw": "[charslot(slot = \"m\", focus=\"n\")]",
+        "type": "charslot",
+        "focus": "n"
+    },
+    {
+        "id": 189,
+        "raw": "[name=\"恐惧的纠察队队员\"]哈......哈哈哈......",
+        "type": "dialog",
+        "speaker": "恐惧的纠察队队员",
+        "content": "哈......哈哈哈......"
+    },
+    {
+        "id": 190,
+        "raw": "[name=\"恐惧的纠察队队员\"]“高尚的雷尔金”“英雄的雷尔金”，你真的这么天真？",
+        "type": "dialog",
+        "speaker": "恐惧的纠察队队员",
+        "content": "“高尚的雷尔金”“英雄的雷尔金”，你真的这么天真？"
+    },
+    {
+        "id": 191,
+        "raw": "[name=\"恐惧的纠察队队员\"]你们身上的芯片，会把坐标位置传回矿区研究所和最近的卫兵哨所，在你们私自离开矿区，或者芯片从身体里脱离的一瞬间——",
+        "type": "dialog",
+        "speaker": "恐惧的纠察队队员",
+        "content": "你们身上的芯片，会把坐标位置传回矿区研究所和最近的卫兵哨所，在你们私自离开矿区，或者芯片从身体里脱离的一瞬间——"
+    },
+    {
+        "id": 192,
+        "raw": "[name=\"恐惧的纠察队队员\"]“砰”！",
+        "type": "dialog",
+        "speaker": "恐惧的纠察队队员",
+        "content": "“砰”！"
+    },
+    {
+        "id": 193,
+        "raw": "[name=\"恐惧的纠察队队员\"]炸掉一条腿算便宜的，两条腿也不是没可能，毕竟这样你们就哪儿也去不了了，哈哈！",
+        "type": "dialog",
+        "speaker": "恐惧的纠察队队员",
+        "content": "炸掉一条腿算便宜的，两条腿也不是没可能，毕竟这样你们就哪儿也去不了了，哈哈！"
+    },
+    {
+        "id": 194,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1963_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 195,
+        "raw": "[name=\"雷尔金\"]......",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "......"
+    },
+    {
+        "id": 196,
+        "raw": "[charslot(slot = \"m\", focus=\"n\")]",
+        "type": "charslot",
+        "focus": "n"
+    },
+    {
+        "id": 197,
+        "raw": "[name=\"恐惧的纠察队队员\"]雷尔金，你放弃吧......你们以为杀了一支纠察队，就可以逃出这片矿场了？",
+        "type": "dialog",
+        "speaker": "恐惧的纠察队队员",
+        "content": "雷尔金，你放弃吧......你们以为杀了一支纠察队，就可以逃出这片矿场了？"
+    },
+    {
+        "id": 198,
+        "raw": "[name=\"恐惧的纠察队队员\"]你们哪都去不了......乌萨斯会永远追杀你们。",
+        "type": "dialog",
+        "speaker": "恐惧的纠察队队员",
+        "content": "你们哪都去不了......乌萨斯会永远追杀你们。"
+    },
+    {
+        "id": 199,
+        "raw": "[name=\"恐惧的纠察队队员\"]投降吧，这是保证你们不至于死得太悲惨的唯一办法。",
+        "type": "dialog",
+        "speaker": "恐惧的纠察队队员",
+        "content": "投降吧，这是保证你们不至于死得太悲惨的唯一办法。"
+    },
+    {
+        "id": 200,
+        "raw": "[PlaySound(key=\"$d_avg_axeimp\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_axeimp.mp3",
+        "volume": 1
+    },
+    {
+        "id": 201,
+        "raw": "[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.3,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 202,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1969_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 203,
+        "raw": "[name=\"激动的矿工\"]雷尔金，别听他张嘴就来！芯片要是会爆炸，早就有驮兽因为芯片缺胳膊缺腿了！",
+        "type": "dialog",
+        "speaker": "激动的矿工",
+        "content": "雷尔金，别听他张嘴就来！芯片要是会爆炸，早就有驮兽因为芯片缺胳膊缺腿了！"
+    },
+    {
+        "id": 204,
+        "raw": "[name=\"激动的矿工\"]纠察队都是畜生不如的东西，他们嘴里的真话就跟冬天的蚜虫一样少！我还没变成感染者的时候就见多了！",
+        "type": "dialog",
+        "speaker": "激动的矿工",
+        "content": "纠察队都是畜生不如的东西，他们嘴里的真话就跟冬天的蚜虫一样少！我还没变成感染者的时候就见多了！"
+    },
+    {
+        "id": 205,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 206,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3"
+    },
+    {
+        "id": 207,
+        "raw": "[charslot(slot = \"m\", action=\"zoom\", poszoom = \"0.5,0.5\", scale=1.1, duration = 1)]",
+        "type": "charslot",
+        "action": "zoom",
+        "scale": "1.1,"
+    },
+    {
+        "id": 208,
+        "raw": "[charslot(duration=1)]",
+        "type": "charslot",
+        "duration": 1
+    },
+    {
+        "id": 209,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 210,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 211,
+        "raw": "[CameraShake(duration=0.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 212,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 213,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.05,",
+        "block": true
+    },
+    {
+        "id": 214,
+        "raw": "[PlaySound(key=\"$d_avg_punch\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_punch.mp3"
+    },
+    {
+        "id": 215,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.05, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.05,",
+        "block": true
+    },
+    {
+        "id": 216,
+        "raw": "[CameraShake(duration=0.5, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 217,
+        "raw": "[Blocker(a=0, r=255, g=255, b=255, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 218,
+        "raw": "[Blocker(a=1, r=255, g=255, b=255, fadetime=0.05, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "255,",
+        "g": "255,",
+        "b": "255,",
+        "fadetime": "0.05,",
+        "block": true
+    },
+    {
+        "id": 219,
+        "raw": "[PlaySound(key=\"$d_avg_punch02\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_punch02.mp3"
+    },
+    {
+        "id": 220,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.05, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.05,",
+        "block": true
+    },
+    {
+        "id": 221,
+        "raw": "[name=\"恐惧的纠察队队员\"]呃——！",
+        "type": "dialog",
+        "speaker": "恐惧的纠察队队员",
+        "content": "呃——！"
+    },
+    {
+        "id": 222,
+        "raw": "[name=\"激动的矿工\"]雷尔金，你今天已经做得够多了，让我来杀了他！",
+        "type": "dialog",
+        "speaker": "激动的矿工",
+        "content": "雷尔金，你今天已经做得够多了，让我来杀了他！"
+    },
+    {
+        "id": 223,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1963_1#3$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 224,
+        "raw": "[name=\"雷尔金\"]......",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "......"
+    },
+    {
+        "id": 225,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 226,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 227,
+        "raw": "[PlaySound(key=\"$rungeneral\", volume=1, loop=true, channel=\"r\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_rungeneral.mp3",
+        "volume": "1,",
+        "loop": "true,",
+        "channel": "r"
+    },
+    {
+        "id": 228,
+        "raw": "[StopSound(channel=\"r\", fadetime=1)]",
+        "type": "stop_sound",
+        "channel": "r",
+        "fadetime": 1
+    },
+    {
+        "id": 229,
+        "raw": "[charslot(slot = \"m\", name = \"avg_4207_branch_1#6$1\", posfrom=\"-200,0\", posto=\"0,0\", duration=0.5, isblock=true)]",
+        "type": "charslot",
+        "posfrom": "-200,0",
+        "posto": "0,0",
+        "duration": "0.5,",
+        "isblock": true
+    },
+    {
+        "id": 230,
+        "raw": "[Delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 231,
+        "raw": "[name=\"少年矿工\"]不、不要！",
+        "type": "dialog",
+        "speaker": "少年矿工",
+        "content": "不、不要！"
+    },
+    {
+        "id": 232,
+        "raw": "[name=\"少年矿工\"]不要再、再——杀人了！",
+        "type": "dialog",
+        "speaker": "少年矿工",
+        "content": "不要再、再——杀人了！"
+    },
+    {
+        "id": 233,
+        "raw": "[charslot(slot = \"m\", name = \"avg_4207_branch_1#5$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 234,
+        "raw": "[name=\"少年矿工\"]我们......没事！没、没有人，重伤......",
+        "type": "dialog",
+        "speaker": "少年矿工",
+        "content": "我们......没事！没、没有人，重伤......"
+    },
+    {
+        "id": 235,
+        "raw": "[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.3,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 236,
+        "raw": "[charslot(slot = \"m\", name = \"avg_4207_branch_1#6$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 237,
+        "raw": "[name=\"少年矿工\"]老师！",
+        "type": "dialog",
+        "speaker": "少年矿工",
+        "content": "老师！"
+    },
+    {
+        "id": 238,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1963_1#3$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 239,
+        "raw": "[name=\"雷尔金\"]......",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "......"
+    },
+    {
+        "id": 240,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1963_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 241,
+        "raw": "[name=\"雷尔金\"]先放开他。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "先放开他。"
+    },
+    {
+        "id": 242,
+        "raw": "[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.3,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 243,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1969_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 244,
+        "raw": "[name=\"激动的矿工\"]“小枝条”，你让开！你干什么为这东西求情？",
+        "type": "dialog",
+        "speaker": "激动的矿工",
+        "content": "“小枝条”，你让开！你干什么为这东西求情？"
+    },
+    {
+        "id": 245,
+        "raw": "[name=\"激动的矿工\"]宝丽娜就是被这帮畜生逼死的，不过是因为她庇护了一个没登记的孩子......她被吊死的时候还怀着孕呢！",
+        "type": "dialog",
+        "speaker": "激动的矿工",
+        "content": "宝丽娜就是被这帮畜生逼死的，不过是因为她庇护了一个没登记的孩子......她被吊死的时候还怀着孕呢！"
+    },
+    {
+        "id": 246,
+        "raw": "[name=\"激动的矿工\"]他们做过多少丧良心的事，你都忘了？",
+        "type": "dialog",
+        "speaker": "激动的矿工",
+        "content": "他们做过多少丧良心的事，你都忘了？"
+    },
+    {
+        "id": 247,
+        "raw": "[charslot(slot = \"m\", name = \"avg_4207_branch_1#10$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 248,
+        "raw": "[name=\"“小枝条”\"]我......我......",
+        "type": "dialog",
+        "speaker": "“小枝条”",
+        "content": "我......我......"
+    },
+    {
+        "id": 249,
+        "raw": "[charslot(slot = \"m\", focus=\"n\")]",
+        "type": "charslot",
+        "focus": "n"
+    },
+    {
+        "id": 250,
+        "raw": "[name=\"恐惧的纠察队队员\"]呃，咳、咳咳！",
+        "type": "dialog",
+        "speaker": "恐惧的纠察队队员",
+        "content": "呃，咳、咳咳！"
+    },
+    {
+        "id": 251,
+        "raw": "[name=\"恐惧的纠察队队员\"]哈哈，谢谢你，“小枝条”。",
+        "type": "dialog",
+        "speaker": "恐惧的纠察队队员",
+        "content": "哈哈，谢谢你，“小枝条”。"
+    },
+    {
+        "id": 252,
+        "raw": "[name=\"恐惧的纠察队队员\"]我记得你......你是最温顺的孩子，你会有一个好下场的，就算他们所有人——",
+        "type": "dialog",
+        "speaker": "恐惧的纠察队队员",
+        "content": "我记得你......你是最温顺的孩子，你会有一个好下场的，就算他们所有人——"
+    },
+    {
+        "id": 253,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 254,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 255,
+        "raw": "[PlaySound(key=\"$d_avg_bldwhoosh\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_bldwhoosh.mp3",
+        "volume": 1
+    },
+    {
+        "id": 256,
+        "raw": "[Blocker(a=0.5, r=0.92, g=0.4, b=0.3, fadetime=0.1, block=true)]",
+        "type": "blocker",
+        "a": "0.5,",
+        "r": "0.92,",
+        "g": "0.4,",
+        "b": "0.3,",
+        "fadetime": "0.1,",
+        "block": true
+    },
+    {
+        "id": 257,
+        "raw": "[PlaySound(key=\"$d_avg_broadswordblood\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_broadswordblood.mp3",
+        "volume": 1
+    },
+    {
+        "id": 258,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1.5,",
+        "block": true
+    },
+    {
+        "id": 259,
+        "raw": "[CameraShake(duration=0.5, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "20,",
+        "ystrength": "20,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 260,
+        "raw": "[charslot(slot = \"m\", name = \"avg_4207_branch_1#6$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 261,
+        "raw": "[name=\"“小枝条”\"]老师！",
+        "type": "dialog",
+        "speaker": "“小枝条”",
+        "content": "老师！"
+    },
+    {
+        "id": 262,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1963_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 263,
+        "raw": "[name=\"雷尔金\"]......至少我没让他在雪地里失血而死。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "......至少我没让他在雪地里失血而死。"
+    },
+    {
+        "id": 264,
+        "raw": "[name=\"雷尔金\"]站稳了，别乔克。到后面去，去帮我把那位医生找来。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "站稳了，别乔克。到后面去，去帮我把那位医生找来。"
+    },
+    {
+        "id": 265,
+        "raw": "[name=\"雷尔金\"]保尔，你去找尼克托，告诉他，让所有想离开矿区的人都集中到南宿舍区。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "保尔，你去找尼克托，告诉他，让所有想离开矿区的人都集中到南宿舍区。"
+    },
+    {
+        "id": 266,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1963_1#5$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 267,
+        "raw": "[name=\"雷尔金\"]让大家做好准备，我们身上的芯片必须拆除。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "让大家做好准备，我们身上的芯片必须拆除。"
+    },
+    {
+        "id": 268,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1969_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 269,
+        "raw": "[name=\"激动的矿工\"]你真信那家伙说的话？",
+        "type": "dialog",
+        "speaker": "激动的矿工",
+        "content": "你真信那家伙说的话？"
+    },
+    {
+        "id": 270,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1963_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 271,
+        "raw": "[name=\"雷尔金\"]无论如何，我们都必须先拆掉芯片。就算爆炸是假的，定位也是真的。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "无论如何，我们都必须先拆掉芯片。就算爆炸是假的，定位也是真的。"
+    },
+    {
+        "id": 272,
+        "raw": "[name=\"雷尔金\"]已经有纠察队找上来了，我们还无法确定下一波是什么时候，这样下去我们会非常被动。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "已经有纠察队找上来了，我们还无法确定下一波是什么时候，这样下去我们会非常被动。"
+    },
+    {
+        "id": 273,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1969_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 274,
+        "raw": "[name=\"激动的矿工\"]好......我听你的。",
+        "type": "dialog",
+        "speaker": "激动的矿工",
+        "content": "好......我听你的。"
+    },
+    {
+        "id": 275,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 276,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 277,
+        "raw": "[charslot(duration=1.5, isblock=true)]",
+        "type": "charslot",
+        "duration": "1.5,",
+        "isblock": true
+    },
+    {
+        "id": 278,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 279,
+        "raw": "[charslot(slot = \"m\", name = \"avg_4207_branch_1#10$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 280,
+        "raw": "[name=\"别乔克\"]老师，您、您答应......答应过，我......",
+        "type": "dialog",
+        "speaker": "别乔克",
+        "content": "老师，您、您答应......答应过，我......"
+    },
+    {
+        "id": 281,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1963_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 282,
+        "raw": "[name=\"雷尔金\"]啊，你还在这里。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "啊，你还在这里。"
+    },
+    {
+        "id": 283,
+        "raw": "[name=\"雷尔金\"]我没答应过你任何事，别乔克。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "我没答应过你任何事，别乔克。"
+    },
+    {
+        "id": 284,
+        "raw": "[name=\"雷尔金\"]而且，如果其他纠察队的畜生都死了，他究竟凭什么例外？凭他的傲慢，凭他的讥诮？",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "而且，如果其他纠察队的畜生都死了，他究竟凭什么例外？凭他的傲慢，凭他的讥诮？"
+    },
+    {
+        "id": 285,
+        "raw": "[charslot(slot = \"m\", name = \"avg_4207_branch_1#10$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 286,
+        "raw": "[name=\"别乔克\"]不是的......",
+        "type": "dialog",
+        "speaker": "别乔克",
+        "content": "不是的......"
+    },
+    {
+        "id": 287,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1963_1#3$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 288,
+        "raw": "[name=\"雷尔金\"]......算了，你不懂。忘了我刚才说的话吧。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "......算了，你不懂。忘了我刚才说的话吧。"
+    },
+    {
+        "id": 289,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 290,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 291,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1963_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 292,
+        "raw": "[name=\"雷尔金\"]对了，你把这个拿着。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "对了，你把这个拿着。"
+    },
+    {
+        "id": 293,
+        "raw": "[charslot(slot = \"m\", name = \"avg_4207_branch_1#10$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 294,
+        "raw": "[name=\"别乔克\"]这是......什么？",
+        "type": "dialog",
+        "speaker": "别乔克",
+        "content": "这是......什么？"
+    },
+    {
+        "id": 295,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1963_1#2$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 296,
+        "raw": "[name=\"雷尔金\"]一个秒表，我在研究所里找到的，应该还能用。之后有空了，我教你认。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "一个秒表，我在研究所里找到的，应该还能用。之后有空了，我教你认。"
+    },
+    {
+        "id": 297,
+        "raw": "[name=\"雷尔金\"]以后，你不用再数着没有意义的数字过活，担心数漏一个就有人死在矿井下了。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "以后，你不用再数着没有意义的数字过活，担心数漏一个就有人死在矿井下了。"
+    },
+    {
+        "id": 298,
+        "raw": "[name=\"雷尔金\"]至于现在......去吧，别乔克。去帮我把人找来。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "至于现在......去吧，别乔克。去帮我把人找来。"
+    },
+    {
+        "id": 299,
+        "raw": "[charslot(slot = \"m\", name = \"avg_4207_branch_1#10$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 300,
+        "raw": "[name=\"别乔克\"]老师，您的手，在抖......",
+        "type": "dialog",
+        "speaker": "别乔克",
+        "content": "老师，您的手，在抖......"
+    },
+    {
+        "id": 301,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1963_1#3$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 302,
+        "raw": "[name=\"雷尔金\"]别说了。去做你该做的事。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "别说了。去做你该做的事。"
+    },
+    {
+        "id": 303,
+        "raw": "[charslot(slot = \"m\", name = \"avg_4207_branch_1#10$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 304,
+        "raw": "[name=\"别乔克\"]......那么，至少，让我......",
+        "type": "dialog",
+        "speaker": "别乔克",
+        "content": "......那么，至少，让我......"
+    },
+    {
+        "id": 305,
+        "raw": "[charslot(slot = \"m\", name = \"avg_4207_branch_1#10$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 306,
+        "raw": "[name=\"别乔克\"]愿您的......灵魂......得到......拯救。",
+        "type": "dialog",
+        "speaker": "别乔克",
+        "content": "愿您的......灵魂......得到......拯救。"
+    },
+    {
+        "id": 307,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1963_1#2$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 308,
+        "raw": "[name=\"雷尔金\"]即使你看见那些人怎么对待我们，也看见我是怎么要了他们的命？",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "即使你看见那些人怎么对待我们，也看见我是怎么要了他们的命？"
+    },
+    {
+        "id": 309,
+        "raw": "[charslot(slot = \"m\", name = \"avg_4207_branch_1#10$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 310,
+        "raw": "[name=\"别乔克\"]是......是的。",
+        "type": "dialog",
+        "speaker": "别乔克",
+        "content": "是......是的。"
+    },
+    {
+        "id": 311,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1963_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 312,
+        "raw": "[name=\"雷尔金\"]不要轻易祝福，更不要轻易宽恕，别乔克。即使是对我。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "不要轻易祝福，更不要轻易宽恕，别乔克。即使是对我。"
+    },
+    {
+        "id": 313,
+        "raw": "[name=\"雷尔金\"]快去吧，我们没有时间了。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "快去吧，我们没有时间了。"
+    },
+    {
+        "id": 314,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 315,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 316,
+        "raw": "[charslot(slot = \"m\", name = \"avg_4207_branch_1#10$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 317,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 318,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 319,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 320,
+        "raw": "[charslot(duration=1.5, isblock=true)]",
+        "type": "charslot",
+        "duration": "1.5,",
+        "isblock": true
+    },
+    {
+        "id": 321,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 322,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1963_1#3$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 323,
+        "raw": "[name=\"雷尔金\"]......",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "......"
+    },
+    {
+        "id": 324,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 325,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 326,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 327,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 328,
+        "raw": "[Background(image=\"34_g10_tent_inside\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "34_g10_tent_inside.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 329,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_1730_1#3$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 330,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 331,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 332,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 333,
+        "raw": "[name=\"Raidian\"]......雷尔金先生。",
+        "type": "dialog",
+        "speaker": "Raidian",
+        "content": "......雷尔金先生。"
+    },
+    {
+        "id": 334,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 335,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\", volume=1, loop=true, channel=\"w\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3",
+        "volume": "1,",
+        "loop": "true,",
+        "channel": "w"
+    },
+    {
+        "id": 336,
+        "raw": "[StopSound(channel=\"w\", fadetime=1)]",
+        "type": "stop_sound",
+        "channel": "w",
+        "fadetime": 1
+    },
+    {
+        "id": 337,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_1963_1#1$1\", posfrom=\"200,0\", posto=\"0,0\", duration=1, isblock=true)]",
+        "type": "charslot",
+        "posfrom": "200,0",
+        "posto": "0,0",
+        "duration": "1,",
+        "isblock": true
+    },
+    {
+        "id": 338,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_1963_1#1$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 339,
+        "raw": "[name=\"雷尔金\"]你好，塞拉菲娜女士。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "你好，塞拉菲娜女士。"
+    },
+    {
+        "id": 340,
+        "raw": "[name=\"雷尔金\"]虽然我们认识的时间不长，但我愿意相信，既然你的医疗小队愿意来到这片偏远的地方帮助治疗感染者，你们一定是可以托付信任的人。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "虽然我们认识的时间不长，但我愿意相信，既然你的医疗小队愿意来到这片偏远的地方帮助治疗感染者，你们一定是可以托付信任的人。"
+    },
+    {
+        "id": 341,
+        "raw": "[name=\"雷尔金\"]很抱歉，我现在不得不拜托你一件事。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "很抱歉，我现在不得不拜托你一件事。"
+    },
+    {
+        "id": 342,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_1730_1#4$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 343,
+        "raw": "[name=\"Raidian\"]请说吧，只要是我能帮得上的事......",
+        "type": "dialog",
+        "speaker": "Raidian",
+        "content": "请说吧，只要是我能帮得上的事......"
+    },
+    {
+        "id": 344,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_1963_1#1$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 345,
+        "raw": "[name=\"雷尔金\"]我刚才得知，这里的每一位矿工，体内都存在一枚随时可能爆炸的定位芯片。为了摆脱纠察队的追捕，我们必须想办法把芯片取出来。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "我刚才得知，这里的每一位矿工，体内都存在一枚随时可能爆炸的定位芯片。为了摆脱纠察队的追捕，我们必须想办法把芯片取出来。"
+    },
+    {
+        "id": 346,
+        "raw": "[name=\"雷尔金\"]我准备从自己开始。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "我准备从自己开始。"
+    },
+    {
+        "id": 347,
+        "raw": "[name=\"雷尔金\"]如果我成功了，请你协助我帮其他人进行手术；如果它不幸爆炸了，请你对我实施急救。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "如果我成功了，请你协助我帮其他人进行手术；如果它不幸爆炸了，请你对我实施急救。"
+    },
+    {
+        "id": 348,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_1963_1#3$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 349,
+        "raw": "[name=\"雷尔金\"]如果我因此死了......也请你把这件事告诉其他还在等着我的人。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "如果我因此死了......也请你把这件事告诉其他还在等着我的人。"
+    },
+    {
+        "id": 350,
+        "raw": "[name=\"雷尔金\"]现在，请你先离开这里——",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "现在，请你先离开这里——"
+    },
+    {
+        "id": 351,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_1730_1#3$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 352,
+        "raw": "[name=\"Raidian\"]不，先让我检查一下，可以吗？",
+        "type": "dialog",
+        "speaker": "Raidian",
+        "content": "不，先让我检查一下，可以吗？"
+    },
+    {
+        "id": 353,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_1963_1#1$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 354,
+        "raw": "[name=\"雷尔金\"]请吧。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "请吧。"
+    },
+    {
+        "id": 355,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 356,
+        "raw": "[charslot(slot = \"r\", focus=\"n\")]",
+        "type": "charslot",
+        "focus": "n"
+    },
+    {
+        "id": 357,
+        "raw": "[PlaySound(key=\"$d_avg_clothtrailground\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_clothtrailground.mp3",
+        "volume": 1
+    },
+    {
+        "id": 358,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 359,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_1730_1#2$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 360,
+        "raw": "[name=\"Raidian\"]......很不幸，芯片可能会爆炸的说法是真的。",
+        "type": "dialog",
+        "speaker": "Raidian",
+        "content": "......很不幸，芯片可能会爆炸的说法是真的。"
+    },
+    {
+        "id": 361,
+        "raw": "[name=\"Raidian\"]你体内的芯片的确携带了微型的烈性源石炸药，一旦芯片无法接收到矿区内或人体内的电信号，就会触发爆炸......",
+        "type": "dialog",
+        "speaker": "Raidian",
+        "content": "你体内的芯片的确携带了微型的烈性源石炸药，一旦芯片无法接收到矿区内或人体内的电信号，就会触发爆炸......"
+    },
+    {
+        "id": 362,
+        "raw": "[name=\"Raidian\"]如果大家想要从这片矿区撤离，拆除芯片恐怕是必要的。",
+        "type": "dialog",
+        "speaker": "Raidian",
+        "content": "如果大家想要从这片矿区撤离，拆除芯片恐怕是必要的。"
+    },
+    {
+        "id": 363,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_1963_1#6$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 364,
+        "raw": "[name=\"雷尔金\"]厉害。你的源石技艺？",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "厉害。你的源石技艺？"
+    },
+    {
+        "id": 365,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_1730_1#3$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 366,
+        "raw": "[name=\"Raidian\"]嗯......",
+        "type": "dialog",
+        "speaker": "Raidian",
+        "content": "嗯......"
+    },
+    {
+        "id": 367,
+        "raw": "[name=\"Raidian\"]也许，我可以暂时操控相同的电信号骗过芯片的信号接收器。但我必须提醒你，这样做依然有很大的风险。",
+        "type": "dialog",
+        "speaker": "Raidian",
+        "content": "也许，我可以暂时操控相同的电信号骗过芯片的信号接收器。但我必须提醒你，这样做依然有很大的风险。"
+    },
+    {
+        "id": 368,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_1963_1#2$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 369,
+        "raw": "[name=\"雷尔金\"]总不能等到每件事都万无一失再行动......有你这个办法就够了。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "总不能等到每件事都万无一失再行动......有你这个办法就够了。"
+    },
+    {
+        "id": 370,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_1730_1#4$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 371,
+        "raw": "[name=\"Raidian\"]稍等。",
+        "type": "dialog",
+        "speaker": "Raidian",
+        "content": "稍等。"
+    },
+    {
+        "id": 372,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 373,
+        "raw": "[charslot(slot = \"l\", posfrom=\"0,0\", posto=\"150,0\", duration=1)]",
+        "type": "charslot",
+        "posfrom": "0,0",
+        "posto": "150,0",
+        "duration": 1
+    },
+    {
+        "id": 374,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 375,
+        "raw": "[playsound(key=\"$d_avg_clothmovement\",volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_clothmovement.mp3",
+        "volume": 1
+    },
+    {
+        "id": 376,
+        "raw": "[charslot(slot = \"r\", posfrom=\"0,0\", posto=\"0,-50\", afrom=1, ato=0, duration=1, isblock=true)]",
+        "type": "charslot",
+        "posfrom": "0,0",
+        "posto": "0,-50",
+        "afrom": "1,",
+        "ato": "0,",
+        "duration": "1,",
+        "isblock": true
+    },
+    {
+        "id": 377,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 378,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 379,
+        "raw": "Raidian开始用源石技艺，使能量束以相同频率与芯片中的信号接收器共振。",
+        "type": "narration",
+        "content": "Raidian开始用源石技艺，使能量束以相同频率与芯片中的信号接收器共振。"
+    },
+    {
+        "id": 380,
+        "raw": "雷尔金点头，坐下来攥住刀柄，感受冰凉、光滑、坚硬，使它与掌心的茧相碰。",
+        "type": "narration",
+        "content": "雷尔金点头，坐下来攥住刀柄，感受冰凉、光滑、坚硬，使它与掌心的茧相碰。"
+    },
+    {
+        "id": 381,
+        "raw": "[charslot(slot = \"m\", focus=\"n\")]",
+        "type": "charslot",
+        "focus": "n"
+    },
+    {
+        "id": 382,
+        "raw": "[name=\"雷尔金\"]医生，你最好还是离我更远一点。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "医生，你最好还是离我更远一点。"
+    },
+    {
+        "id": 383,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1730_1#2$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 384,
+        "raw": "[name=\"Raidian\"]不了。这是第一次尝试，我必须实时监控情况。",
+        "type": "dialog",
+        "speaker": "Raidian",
+        "content": "不了。这是第一次尝试，我必须实时监控情况。"
+    },
+    {
+        "id": 385,
+        "raw": "[name=\"Raidian\"]我可以通过神经电信号引导你手臂的动作，要小心，不要破坏芯片。",
+        "type": "dialog",
+        "speaker": "Raidian",
+        "content": "我可以通过神经电信号引导你手臂的动作，要小心，不要破坏芯片。"
+    },
+    {
+        "id": 386,
+        "raw": "[charslot(slot = \"m\", focus=\"n\")]",
+        "type": "charslot",
+        "focus": "n"
+    },
+    {
+        "id": 387,
+        "raw": "[name=\"雷尔金\"]了不起......我有点遗憾没能早些认识你。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "了不起......我有点遗憾没能早些认识你。"
+    },
+    {
+        "id": 388,
+        "raw": "[name=\"雷尔金\"]......希望我们还有交谈的机会吧。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "......希望我们还有交谈的机会吧。"
+    },
+    {
+        "id": 389,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 390,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 391,
+        "raw": "雷尔金在匕首上倒了些酒，用刀刃对准腿上的疤痕，将其嵌入血肉里。",
+        "type": "narration",
+        "content": "雷尔金在匕首上倒了些酒，用刀刃对准腿上的疤痕，将其嵌入血肉里。"
+    },
+    {
+        "id": 392,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 393,
+        "raw": "[musicvolume(volume=0.2, fadetime=2)]",
+        "type": "music_volume",
+        "volume": "0.2,",
+        "fadetime": 2
+    },
+    {
+        "id": 394,
+        "raw": "[Blocker(a=0.5, r=0.92, g=0.4, b=0.3, fadetime=0.1, block=true)]",
+        "type": "blocker",
+        "a": "0.5,",
+        "r": "0.92,",
+        "g": "0.4,",
+        "b": "0.3,",
+        "fadetime": "0.1,",
+        "block": true
+    },
+    {
+        "id": 395,
+        "raw": "[PlaySound(key=\"$d_avg_attack_heavy\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_attack_heavy.mp3",
+        "volume": 1
+    },
+    {
+        "id": 396,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": true
+    },
+    {
+        "id": 397,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 398,
+        "raw": "[PlaySound(key=\"$d_gen_heartbeat\", volume=1, loop=true, channel=\"d\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_heartbeat.mp3",
+        "volume": "1,",
+        "loop": "true,",
+        "channel": "d"
+    },
+    {
+        "id": 399,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 400,
+        "raw": "[StopSound(channel=\"d\", fadetime=4)]",
+        "type": "stop_sound",
+        "channel": "d",
+        "fadetime": 4
+    },
+    {
+        "id": 401,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 402,
+        "raw": "[musicvolume(volume=0.6, fadetime=2)]",
+        "type": "music_volume",
+        "volume": "0.6,",
+        "fadetime": 2
+    },
+    {
+        "id": 403,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 404,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 405,
+        "raw": "[name=\"雷尔金\"]......呼......",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "......呼......"
+    },
+    {
+        "id": 406,
+        "raw": "[name=\"雷尔金\"]......成功了，对吧？",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "......成功了，对吧？"
+    },
+    {
+        "id": 407,
+        "raw": "青年矿工几乎要一跃而起，甚至忘记了自己鲜血淋漓的伤口。",
+        "type": "narration",
+        "content": "青年矿工几乎要一跃而起，甚至忘记了自己鲜血淋漓的伤口。"
+    },
+    {
+        "id": 408,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1730_1#4$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 409,
+        "raw": "[name=\"Raidian\"]请先冷静点，你的伤口需要包扎。",
+        "type": "dialog",
+        "speaker": "Raidian",
+        "content": "请先冷静点，你的伤口需要包扎。"
+    },
+    {
+        "id": 410,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 411,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 412,
+        "raw": "[playsound(key=\"$d_avg_clothmovement\",volume=0.5)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_clothmovement.mp3",
+        "volume": 0.5
+    },
+    {
+        "id": 413,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1963_1#2$1\", posfrom=\"0,-50\", posto=\"0,0\", afrom=0, ato=1, duration=1.5, isblock=true)]",
+        "type": "charslot",
+        "posfrom": "0,-50",
+        "posto": "0,0",
+        "afrom": "0,",
+        "ato": "1,",
+        "duration": "1.5,",
+        "isblock": true
+    },
+    {
+        "id": 414,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 415,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1963_1#2$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 416,
+        "raw": "[name=\"雷尔金\"]哦，当然，谢谢你医生，我欠了你一条命。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "哦，当然，谢谢你医生，我欠了你一条命。"
+    },
+    {
+        "id": 417,
+        "raw": "[name=\"雷尔金\"]你很厉害，我从来没有见过像你这样厉害的医生，你甚至让我想起了乌萨斯的军人。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "你很厉害，我从来没有见过像你这样厉害的医生，你甚至让我想起了乌萨斯的军人。"
+    },
+    {
+        "id": 418,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1730_1#4$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 419,
+        "raw": "[name=\"Raidian\"]......我不理解你的意思。",
+        "type": "dialog",
+        "speaker": "Raidian",
+        "content": "......我不理解你的意思。"
+    },
+    {
+        "id": 420,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1963_1#2$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 421,
+        "raw": "[name=\"雷尔金\"]抱歉，请不要误会，这是我能想到的最高尚的赞誉。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "抱歉，请不要误会，这是我能想到的最高尚的赞誉。"
+    },
+    {
+        "id": 422,
+        "raw": "[name=\"雷尔金\"]我是说，那些真正的乌萨斯军人——与那些纠察队的畜生不同，他们赶走了入侵的梦魇，推翻了骏鹰的暴政，是真正的英雄。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "我是说，那些真正的乌萨斯军人——与那些纠察队的畜生不同，他们赶走了入侵的梦魇，推翻了骏鹰的暴政，是真正的英雄。"
+    },
+    {
+        "id": 423,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1963_1#8$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 424,
+        "raw": "[name=\"雷尔金\"]对了，伊戈尔大帝的传记，你读过吗？",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "对了，伊戈尔大帝的传记，你读过吗？"
+    },
+    {
+        "id": 425,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1730_1#3$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 426,
+        "raw": "[name=\"Raidian\"]我们该继续准备其他人的手术了——总共有多少人？",
+        "type": "dialog",
+        "speaker": "Raidian",
+        "content": "我们该继续准备其他人的手术了——总共有多少人？"
+    },
+    {
+        "id": 427,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1963_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 428,
+        "raw": "[name=\"雷尔金\"]......恐怕是会让你和你的同伴有些劳累的数量。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "......恐怕是会让你和你的同伴有些劳累的数量。"
+    },
+    {
+        "id": 429,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1730_1#3$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 430,
+        "raw": "[name=\"Raidian\"]我操控的电信号能完全覆盖这一片区域，我的同伴们可以协同进行手术。这样的话，我估计我们需要在这里停留一段时间了。",
+        "type": "dialog",
+        "speaker": "Raidian",
+        "content": "我操控的电信号能完全覆盖这一片区域，我的同伴们可以协同进行手术。这样的话，我估计我们需要在这里停留一段时间了。"
+    },
+    {
+        "id": 431,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1963_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 432,
+        "raw": "[name=\"雷尔金\"]我们的时间紧张。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "我们的时间紧张。"
+    },
+    {
+        "id": 433,
+        "raw": "[name=\"雷尔金\"]医疗小队优先去帮助老人和孩子，然后教其他人该怎样做。把手术刀发给他们吧，我的同伴们从来不软弱。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "医疗小队优先去帮助老人和孩子，然后教其他人该怎样做。把手术刀发给他们吧，我的同伴们从来不软弱。"
+    },
+    {
+        "id": 434,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1730_1#4$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 435,
+        "raw": "[name=\"Raidian\"]雷尔金先生，请你不要代替医生做决定。",
+        "type": "dialog",
+        "speaker": "Raidian",
+        "content": "雷尔金先生，请你不要代替医生做决定。"
+    },
+    {
+        "id": 436,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1963_1#6$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 437,
+        "raw": "[name=\"雷尔金\"]啊，不，医生，我并不是想指挥你。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "啊，不，医生，我并不是想指挥你。"
+    },
+    {
+        "id": 438,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1963_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 439,
+        "raw": "[name=\"雷尔金\"]既然我已经担起了带领大家逃出这片矿区的责任，那我就需要做出相应的决定。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "既然我已经担起了带领大家逃出这片矿区的责任，那我就需要做出相应的决定。"
+    },
+    {
+        "id": 440,
+        "raw": "[name=\"雷尔金\"]随时可能追上来的纠察队，还有恶劣的天气、紧缺的物资——都是要命的东西。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "随时可能追上来的纠察队，还有恶劣的天气、紧缺的物资——都是要命的东西。"
+    },
+    {
+        "id": 441,
+        "raw": "[name=\"雷尔金\"]我希望我们可以达成共识。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "我希望我们可以达成共识。"
+    },
+    {
+        "id": 442,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1730_1#3$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 443,
+        "raw": "[name=\"Raidian\"]......无论如何，都要谨防感染。我的小队会监督大家做好消毒工作。",
+        "type": "dialog",
+        "speaker": "Raidian",
+        "content": "......无论如何，都要谨防感染。我的小队会监督大家做好消毒工作。"
+    },
+    {
+        "id": 444,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1963_1#2$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 445,
+        "raw": "[name=\"雷尔金\"]那就让我们开始吧。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "那就让我们开始吧。"
+    },
+    {
+        "id": 446,
+        "raw": "[name=\"雷尔金\"]“先动起来，再谈将来。”",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "“先动起来，再谈将来。”"
+    },
+    {
+        "id": 447,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 448,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 449,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 450,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 451,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 452,
+        "raw": "[Background(image=\"66_g3_miningarea\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "66_g3_miningarea.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 453,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 454,
+        "raw": "[PlayMusic(key=\"$darkness_03_loop\", volume=0.6)]",
+        "type": "play_music",
+        "key": "sound_beta_2/music/avg/m_avg_darkness_03_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 455,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 456,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 457,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1967_1#6$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 458,
+        "raw": "[name=\"尼克托\"]呕——！",
+        "type": "dialog",
+        "speaker": "尼克托",
+        "content": "呕——！"
+    },
+    {
+        "id": 459,
+        "raw": "[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.3,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 460,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1967_1#3$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 461,
+        "raw": "[name=\"尼克托\"]咳咳！呕......咳——！",
+        "type": "dialog",
+        "speaker": "尼克托",
+        "content": "咳咳！呕......咳——！"
+    },
+    {
+        "id": 462,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1963_1#9$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 463,
+        "raw": "[name=\"雷尔金\"]这就受不了了？",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "这就受不了了？"
+    },
+    {
+        "id": 464,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1963_1#2$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 465,
+        "raw": "[name=\"雷尔金\"]你之前在圣骏堡吃熏肉肠的时候，是不是从来没有想过它们是怎样做出来的？或者你有没有去看过卫星城里的屠宰场？",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "你之前在圣骏堡吃熏肉肠的时候，是不是从来没有想过它们是怎样做出来的？或者你有没有去看过卫星城里的屠宰场？"
+    },
+    {
+        "id": 466,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1967_1#5$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 467,
+        "raw": "[name=\"尼克托\"]去你的！*乌萨斯粗口*，雷尔金，你真该死！",
+        "type": "dialog",
+        "speaker": "尼克托",
+        "content": "去你的！*乌萨斯粗口*，雷尔金，你真该死！"
+    },
+    {
+        "id": 468,
+        "raw": "[name=\"尼克托\"]我吞了一肚子雪也盖不住鼻腔里的血腥味——下次我一定找机会在你的汤里掺最新鲜的驮兽血！",
+        "type": "dialog",
+        "speaker": "尼克托",
+        "content": "我吞了一肚子雪也盖不住鼻腔里的血腥味——下次我一定找机会在你的汤里掺最新鲜的驮兽血！"
+    },
+    {
+        "id": 469,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1971_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 470,
+        "raw": "[name=\"霍里\"]新鲜的驮兽血很贵，一桶要卖到一百多切尔文，我们现在买不起......",
+        "type": "dialog",
+        "speaker": "霍里",
+        "content": "新鲜的驮兽血很贵，一桶要卖到一百多切尔文，我们现在买不起......"
+    },
+    {
+        "id": 471,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1967_1#5$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 472,
+        "raw": "[name=\"尼克托\"]该死，我就是打个比方......霍里，我都不知道你还当过高级餐厅的厨师。",
+        "type": "dialog",
+        "speaker": "尼克托",
+        "content": "该死，我就是打个比方......霍里，我都不知道你还当过高级餐厅的厨师。"
+    },
+    {
+        "id": 473,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1971_1#3$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 474,
+        "raw": "[name=\"霍里\"]我儿子在当卡车司机的时候运过这种东西，圣骏堡的贵族们相信驮兽幼崽的血可以用来美容。",
+        "type": "dialog",
+        "speaker": "霍里",
+        "content": "我儿子在当卡车司机的时候运过这种东西，圣骏堡的贵族们相信驮兽幼崽的血可以用来美容。"
+    },
+    {
+        "id": 475,
+        "raw": "[name=\"霍里\"]他在信里给我讲过很多圣骏堡的事，但上一次来信已经是七年前了。希望他过得还好......",
+        "type": "dialog",
+        "speaker": "霍里",
+        "content": "他在信里给我讲过很多圣骏堡的事，但上一次来信已经是七年前了。希望他过得还好......"
+    },
+    {
+        "id": 476,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1963_1#2$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 477,
+        "raw": "[name=\"雷尔金\"]那我要拜托你小心点了，别让尼克托对我的晚餐动手脚。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "那我要拜托你小心点了，别让尼克托对我的晚餐动手脚。"
+    },
+    {
+        "id": 478,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1971_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 479,
+        "raw": "[name=\"霍里\"]我会小心的。没有人可以对大家的晚餐动手脚。",
+        "type": "dialog",
+        "speaker": "霍里",
+        "content": "我会小心的。没有人可以对大家的晚餐动手脚。"
+    },
+    {
+        "id": 480,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 481,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 482,
+        "raw": "[charslot(duration=1.5, isblock=true)]",
+        "type": "charslot",
+        "duration": "1.5,",
+        "isblock": true
+    },
+    {
+        "id": 483,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 484,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_1967_1#5$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 485,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_1963_1#2$1\", focus=\"n\")]",
+        "type": "charslot",
+        "focus": "n"
+    },
+    {
+        "id": 486,
+        "raw": "[name=\"尼克托\"]希望这不会是我们吃的最后一顿晚饭，不然我一定会诅咒你的，雷尔金。",
+        "type": "dialog",
+        "speaker": "尼克托",
+        "content": "希望这不会是我们吃的最后一顿晚饭，不然我一定会诅咒你的，雷尔金。"
+    },
+    {
+        "id": 487,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_1963_1#2$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 488,
+        "raw": "[name=\"雷尔金\"]随你怎么说，今天我的心情很好。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "随你怎么说，今天我的心情很好。"
+    },
+    {
+        "id": 489,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_1963_1#8$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 490,
+        "raw": "[name=\"雷尔金\"]......我很久没有觉得像这样自由过了。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "......我很久没有觉得像这样自由过了。"
+    },
+    {
+        "id": 491,
+        "raw": "[name=\"雷尔金\"]我们终于卸下了镣铐，我们是自由的。我们想做的事、想去的地方、我们的生活，都只由我们自己决定。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "我们终于卸下了镣铐，我们是自由的。我们想做的事、想去的地方、我们的生活，都只由我们自己决定。"
+    },
+    {
+        "id": 492,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_1967_1#5$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 493,
+        "raw": "[name=\"尼克托\"]你大可以找个更安定的时候再吟诗......",
+        "type": "dialog",
+        "speaker": "尼克托",
+        "content": "你大可以找个更安定的时候再吟诗......"
+    },
+    {
+        "id": 494,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 495,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 496,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_1967_1#1$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 497,
+        "raw": "[name=\"尼克托\"]雷尔金，我们接下来该怎么办？",
+        "type": "dialog",
+        "speaker": "尼克托",
+        "content": "雷尔金，我们接下来该怎么办？"
+    },
+    {
+        "id": 498,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_1963_1#1$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 499,
+        "raw": "[name=\"雷尔金\"]我们的计划没有变。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "我们的计划没有变。"
+    },
+    {
+        "id": 500,
+        "raw": "[name=\"雷尔金\"]去南边，去乌卡边境，找到那个由感染者建立，也只属于感染者的农庄。那里会有我们所有人的容身之处。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "去南边，去乌卡边境，找到那个由感染者建立，也只属于感染者的农庄。那里会有我们所有人的容身之处。"
+    },
+    {
+        "id": 501,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_1967_1#1$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 502,
+        "raw": "[name=\"尼克托\"]你就是愿意无理由地相信那个不知真假的“整合运动”......",
+        "type": "dialog",
+        "speaker": "尼克托",
+        "content": "你就是愿意无理由地相信那个不知真假的“整合运动”......"
+    },
+    {
+        "id": 503,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_1963_1#2$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 504,
+        "raw": "[name=\"雷尔金\"]不，我当然有理由相信。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "不，我当然有理由相信。"
+    },
+    {
+        "id": 505,
+        "raw": "[name=\"雷尔金\"]前些年我还在乌卡边境值守的时候，听到过许多关于他们的可信消息。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "前些年我还在乌卡边境值守的时候，听到过许多关于他们的可信消息。"
+    },
+    {
+        "id": 506,
+        "raw": "[name=\"雷尔金\"]他们收容感染者，免费分发药物，还把许多想要欺凌感染者的纠察队打得落荒而逃——我相信有人和我们的理想是一致的。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "他们收容感染者，免费分发药物，还把许多想要欺凌感染者的纠察队打得落荒而逃——我相信有人和我们的理想是一致的。"
+    },
+    {
+        "id": 507,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_1967_1#1$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 508,
+        "raw": "[name=\"尼克托\"]我只会怀疑这是感染者自欺欺人的幻想，或者是军队编出来索要税收的理由。",
+        "type": "dialog",
+        "speaker": "尼克托",
+        "content": "我只会怀疑这是感染者自欺欺人的幻想，或者是军队编出来索要税收的理由。"
+    },
+    {
+        "id": 509,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_1963_1#1$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 510,
+        "raw": "[name=\"雷尔金\"]我只会好奇，像这样的旗帜为什么直到现在才被举起来。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "我只会好奇，像这样的旗帜为什么直到现在才被举起来。"
+    },
+    {
+        "id": 511,
+        "raw": "[name=\"雷尔金\"]如果......如果我们发现他们不存在，就该由我们举起这面旗帜。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "如果......如果我们发现他们不存在，就该由我们举起这面旗帜。"
+    },
+    {
+        "id": 512,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_1967_1#2$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 513,
+        "raw": "[name=\"尼克托\"]呵......我原本以为在边境的军旅生涯会让你长些别的教训。",
+        "type": "dialog",
+        "speaker": "尼克托",
+        "content": "呵......我原本以为在边境的军旅生涯会让你长些别的教训。"
+    },
+    {
+        "id": 514,
+        "raw": "[name=\"尼克托\"]想象一下，要是当年你救的是那位伯爵大人，而不是那个感染者，你现在恐怕已经是中尉，甚至是上尉了。",
+        "type": "dialog",
+        "speaker": "尼克托",
+        "content": "想象一下，要是当年你救的是那位伯爵大人，而不是那个感染者，你现在恐怕已经是中尉，甚至是上尉了。"
+    },
+    {
+        "id": 515,
+        "raw": "[name=\"尼克托\"]像我们今天遇上的纠察队，只要你勾勾手指，他们就会爬过来亲吻你的靴子。",
+        "type": "dialog",
+        "speaker": "尼克托",
+        "content": "像我们今天遇上的纠察队，只要你勾勾手指，他们就会爬过来亲吻你的靴子。"
+    },
+    {
+        "id": 516,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_1963_1#2$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 517,
+        "raw": "[name=\"雷尔金\"]那我很感激我做出的选择，否则我不会有机会看清这个国家的真实面貌，也不会认识到自己这一生最重要的使命。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "那我很感激我做出的选择，否则我不会有机会看清这个国家的真实面貌，也不会认识到自己这一生最重要的使命。"
+    },
+    {
+        "id": 518,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_1963_1#10$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 519,
+        "raw": "[name=\"雷尔金\"]我们的人民已经在愚弄和蒙蔽下活了太久，他们认为自己眼前的生活就是理所应当的，完全忘了自己应得的是什么！",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "我们的人民已经在愚弄和蒙蔽下活了太久，他们认为自己眼前的生活就是理所应当的，完全忘了自己应得的是什么！"
+    },
+    {
+        "id": 520,
+        "raw": "[name=\"雷尔金\"]这不只是感染者和普通人的矛盾，假如有一天乌萨斯的感染者都死绝了，他们也会按另一套标准把一部分人送到矿场。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "这不只是感染者和普通人的矛盾，假如有一天乌萨斯的感染者都死绝了，他们也会按另一套标准把一部分人送到矿场。"
+    },
+    {
+        "id": 521,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_1963_1#10$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 522,
+        "raw": "[name=\"雷尔金\"]凭什么有些人生来就能拥有一切，另外一些人一辈子只能苟且求生？他们辛苦劳动取得的成果到底供养了谁？",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "凭什么有些人生来就能拥有一切，另外一些人一辈子只能苟且求生？他们辛苦劳动取得的成果到底供养了谁？"
+    },
+    {
+        "id": 523,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_1967_1#1$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 524,
+        "raw": "[name=\"尼克托\"]可是说到底，又是谁规定了什么是“应得”的？",
+        "type": "dialog",
+        "speaker": "尼克托",
+        "content": "可是说到底，又是谁规定了什么是“应得”的？"
+    },
+    {
+        "id": 525,
+        "raw": "[name=\"尼克托\"]也许这片大地现在的样貌就是真理，假使存在另外一个泰拉，假使文明进程推倒重来一万遍，也跳不出这套结构。",
+        "type": "dialog",
+        "speaker": "尼克托",
+        "content": "也许这片大地现在的样貌就是真理，假使存在另外一个泰拉，假使文明进程推倒重来一万遍，也跳不出这套结构。"
+    },
+    {
+        "id": 526,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_1963_1#3$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 527,
+        "raw": "[name=\"雷尔金\"]不......我不相信。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "不......我不相信。"
+    },
+    {
+        "id": 528,
+        "raw": "[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.3,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 529,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_1963_1#5$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 530,
+        "raw": "[name=\"雷尔金\"]当你睁眼看到发生在我们周围的一切时，你难道不会愤怒吗？当我们本能地感到愤怒的时候，那便说明这一切是错误的！",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "当你睁眼看到发生在我们周围的一切时，你难道不会愤怒吗？当我们本能地感到愤怒的时候，那便说明这一切是错误的！"
+    },
+    {
+        "id": 531,
+        "raw": "[name=\"雷尔金\"]尼克托，以你的经历，你应该明白的。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "尼克托，以你的经历，你应该明白的。"
+    },
+    {
+        "id": 532,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_1967_1#5$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 533,
+        "raw": "[name=\"尼克托\"]别提那些陈年旧事了......",
+        "type": "dialog",
+        "speaker": "尼克托",
+        "content": "别提那些陈年旧事了......"
+    },
+    {
+        "id": 534,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_1967_1#1$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 535,
+        "raw": "[name=\"尼克托\"]得了......就算像你说的那样，我们现在离边境还有多远？这一路上我们还会遇到多少事？",
+        "type": "dialog",
+        "speaker": "尼克托",
+        "content": "得了......就算像你说的那样，我们现在离边境还有多远？这一路上我们还会遇到多少事？"
+    },
+    {
+        "id": 536,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_1963_1#1$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 537,
+        "raw": "[name=\"雷尔金\"]我已经有了一个计划——你以为我为什么要让你收集这些芯片？",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "我已经有了一个计划——你以为我为什么要让你收集这些芯片？"
+    },
+    {
+        "id": 538,
+        "raw": "[name=\"雷尔金\"]虽然它们不像其他的芯片那样，摘出来就爆炸了，但这也意味着它们的定位功能还没有消失。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "虽然它们不像其他的芯片那样，摘出来就爆炸了，但这也意味着它们的定位功能还没有消失。"
+    },
+    {
+        "id": 539,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_1967_1#4$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 540,
+        "raw": "[name=\"尼克托\"]你......",
+        "type": "dialog",
+        "speaker": "尼克托",
+        "content": "你......"
+    },
+    {
+        "id": 541,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_1963_1#2$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 542,
+        "raw": "[name=\"雷尔金\"]总之，这些东西让我们吃了不少苦头，那我们为什么不利用它们反将纠察队一军呢？",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "总之，这些东西让我们吃了不少苦头，那我们为什么不利用它们反将纠察队一军呢？"
+    },
+    {
+        "id": 543,
+        "raw": "[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.3,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 544,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_1967_1#5$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 545,
+        "raw": "[name=\"尼克托\"]这和我们决定逃出去前说的不一样！",
+        "type": "dialog",
+        "speaker": "尼克托",
+        "content": "这和我们决定逃出去前说的不一样！"
+    },
+    {
+        "id": 546,
+        "raw": "[name=\"尼克托\"]雷尔金，你应该清楚大家的状态。现在还能动弹的人有多少？有原先的一半吗？",
+        "type": "dialog",
+        "speaker": "尼克托",
+        "content": "雷尔金，你应该清楚大家的状态。现在还能动弹的人有多少？有原先的一半吗？"
+    },
+    {
+        "id": 547,
+        "raw": "[name=\"尼克托\"]我们能击败这些纠察队一次两次，但我们不可能对抗整个乌萨斯！制造更多的流血冲突只会让我们陷入完全的被动！",
+        "type": "dialog",
+        "speaker": "尼克托",
+        "content": "我们能击败这些纠察队一次两次，但我们不可能对抗整个乌萨斯！制造更多的流血冲突只会让我们陷入完全的被动！"
+    },
+    {
+        "id": 548,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_1963_1#1$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 549,
+        "raw": "[name=\"雷尔金\"]我们想要活下去，走到这一步就只是时间问题。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "我们想要活下去，走到这一步就只是时间问题。"
+    },
+    {
+        "id": 550,
+        "raw": "[name=\"雷尔金\"]多杀一个纠察队的走卒，我们手中就至少能多一个备用的呼吸器。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "多杀一个纠察队的走卒，我们手中就至少能多一个备用的呼吸器。"
+    },
+    {
+        "id": 551,
+        "raw": "[name=\"雷尔金\"]夺来的物资能帮助我们走出冰原，也能帮别乔克那样的孩子多活些时日。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "夺来的物资能帮助我们走出冰原，也能帮别乔克那样的孩子多活些时日。"
+    },
+    {
+        "id": 552,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_1963_1#10$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 553,
+        "raw": "[name=\"雷尔金\"]而且，我们能离开的契机是什么，你难道忘了？",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "而且，我们能离开的契机是什么，你难道忘了？"
+    },
+    {
+        "id": 554,
+        "raw": "[name=\"雷尔金\"]即使那东西都算不上是个人，也是我们一起让它没了命。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "即使那东西都算不上是个人，也是我们一起让它没了命。"
+    },
+    {
+        "id": 555,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_1967_1#5$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 556,
+        "raw": "[name=\"尼克托\"]......我不知道你在说什么。",
+        "type": "dialog",
+        "speaker": "尼克托",
+        "content": "......我不知道你在说什么。"
+    },
+    {
+        "id": 557,
+        "raw": "[name=\"尼克托\"]我们甚至还没走出矿区，你就已经变得完全不可理喻了！",
+        "type": "dialog",
+        "speaker": "尼克托",
+        "content": "我们甚至还没走出矿区，你就已经变得完全不可理喻了！"
+    },
+    {
+        "id": 558,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_1963_1#3$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 559,
+        "raw": "[name=\"雷尔金\"]尼克托，我不愿意吵架——",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "尼克托，我不愿意吵架——"
+    },
+    {
+        "id": 560,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 561,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 562,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3"
+    },
+    {
+        "id": 563,
+        "raw": "[charslot(slot = \"m\", name = \"avg_4207_branch_1#10$1\", posfrom=\"-200,0\", posto=\"0,0\", duration=1.5, isblock=true)]",
+        "type": "charslot",
+        "posfrom": "-200,0",
+        "posto": "0,0",
+        "duration": "1.5,",
+        "isblock": true
+    },
+    {
+        "id": 564,
+        "raw": "[Delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 565,
+        "raw": "[name=\"别乔克\"]老，老师......？",
+        "type": "dialog",
+        "speaker": "别乔克",
+        "content": "老，老师......？"
+    },
+    {
+        "id": 566,
+        "raw": "[charslot(slot = \"m\", name = \"avg_4207_branch_1#10$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 567,
+        "raw": "[name=\"别乔克\"]还有，尼克托先生，您，也在......",
+        "type": "dialog",
+        "speaker": "别乔克",
+        "content": "还有，尼克托先生，您，也在......"
+    },
+    {
+        "id": 568,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1963_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 569,
+        "raw": "[name=\"雷尔金\"]怎么了？",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "怎么了？"
+    },
+    {
+        "id": 570,
+        "raw": "[charslot(slot = \"m\", name = \"avg_4207_branch_1#10$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 571,
+        "raw": "[name=\"别乔克\"]没、没事。我只是来看看，老师有没有吃饭......",
+        "type": "dialog",
+        "speaker": "别乔克",
+        "content": "没、没事。我只是来看看，老师有没有吃饭......"
+    },
+    {
+        "id": 572,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1967_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 573,
+        "raw": "[name=\"尼克托\"]哦，那你可以少操一份心了，他的肚子已经被他宏伟的理想填饱了。",
+        "type": "dialog",
+        "speaker": "尼克托",
+        "content": "哦，那你可以少操一份心了，他的肚子已经被他宏伟的理想填饱了。"
+    },
+    {
+        "id": 574,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1963_1#8$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 575,
+        "raw": "[name=\"雷尔金\"]哈哈......他说得也不算错。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "哈哈......他说得也不算错。"
+    },
+    {
+        "id": 576,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1963_1#2$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 577,
+        "raw": "[name=\"雷尔金\"]多关注一下那几位医生朋友吧，今天最辛苦的是他们。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "多关注一下那几位医生朋友吧，今天最辛苦的是他们。"
+    },
+    {
+        "id": 578,
+        "raw": "[charslot(slot = \"m\", name = \"avg_4207_branch_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 579,
+        "raw": "[name=\"别乔克\"]我刚刚，去看过他们了。他们，都准备，休息了。",
+        "type": "dialog",
+        "speaker": "别乔克",
+        "content": "我刚刚，去看过他们了。他们，都准备，休息了。"
+    },
+    {
+        "id": 580,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1963_1#2$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 581,
+        "raw": "[name=\"雷尔金\"]好的，你也辛苦了。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "好的，你也辛苦了。"
+    },
+    {
+        "id": 582,
+        "raw": "[name=\"雷尔金\"]伤口怎么样，还疼吗？",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "伤口怎么样，还疼吗？"
+    },
+    {
+        "id": 583,
+        "raw": "[charslot(slot = \"m\", name = \"avg_4207_branch_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 584,
+        "raw": "[name=\"别乔克\"]我......还好。大家，都一样。",
+        "type": "dialog",
+        "speaker": "别乔克",
+        "content": "我......还好。大家，都一样。"
+    },
+    {
+        "id": 585,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1963_1#2$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 586,
+        "raw": "[name=\"雷尔金\"]是啊，我们每个人都很勇敢......",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "是啊，我们每个人都很勇敢......"
+    },
+    {
+        "id": 587,
+        "raw": "[name=\"雷尔金\"]去休息吧，去填饱肚子，然后好好睡一觉。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "去休息吧，去填饱肚子，然后好好睡一觉。"
+    },
+    {
+        "id": 588,
+        "raw": "[charslot(slot = \"m\", name = \"avg_4207_branch_1#10$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 589,
+        "raw": "[name=\"别乔克\"]嗯......我们，食物有限，我的饭量，不大......",
+        "type": "dialog",
+        "speaker": "别乔克",
+        "content": "嗯......我们，食物有限，我的饭量，不大......"
+    },
+    {
+        "id": 590,
+        "raw": "[name=\"别乔克\"]老师，您也要，注意身体......",
+        "type": "dialog",
+        "speaker": "别乔克",
+        "content": "老师，您也要，注意身体......"
+    },
+    {
+        "id": 591,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 592,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 593,
+        "raw": "[charslot(duration=1.5, isblock=true)]",
+        "type": "charslot",
+        "duration": "1.5,",
+        "isblock": true
+    },
+    {
+        "id": 594,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 595,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1967_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 596,
+        "raw": "[name=\"尼克托\"]雷尔金，“小枝条”很信任你，她一直把你当作老师。",
+        "type": "dialog",
+        "speaker": "尼克托",
+        "content": "雷尔金，“小枝条”很信任你，她一直把你当作老师。"
+    },
+    {
+        "id": 597,
+        "raw": "[name=\"尼克托\"]......大家都是信任你的，他们都在等着你带他们走出去。",
+        "type": "dialog",
+        "speaker": "尼克托",
+        "content": "......大家都是信任你的，他们都在等着你带他们走出去。"
+    },
+    {
+        "id": 598,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1963_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 599,
+        "raw": "[name=\"雷尔金\"]我知道，所以我告诉她的每一句话，都是我发自内心认同的真理。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "我知道，所以我告诉她的每一句话，都是我发自内心认同的真理。"
+    },
+    {
+        "id": 600,
+        "raw": "[name=\"雷尔金\"]我也在带领大家走向我认为正确的路。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "我也在带领大家走向我认为正确的路。"
+    },
+    {
+        "id": 601,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1967_1#3$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 602,
+        "raw": "[name=\"尼克托\"]但愿吧......",
+        "type": "dialog",
+        "speaker": "尼克托",
+        "content": "但愿吧......"
+    },
+    {
+        "id": 603,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1963_1#2$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 604,
+        "raw": "[name=\"雷尔金\"]放轻松点，尼克托。今天是我们取得第一场胜利的日子，是一个好兆头，没必要这样愁眉苦脸。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "放轻松点，尼克托。今天是我们取得第一场胜利的日子，是一个好兆头，没必要这样愁眉苦脸。"
+    },
+    {
+        "id": 605,
+        "raw": "[name=\"雷尔金\"]当一个人因觉醒而决定出发的时候，就是一个伟大的开始。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "当一个人因觉醒而决定出发的时候，就是一个伟大的开始。"
+    },
+    {
+        "id": 606,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1967_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 607,
+        "raw": "[name=\"尼克托\"]又是《伊戈尔传》里说的？",
+        "type": "dialog",
+        "speaker": "尼克托",
+        "content": "又是《伊戈尔传》里说的？"
+    },
+    {
+        "id": 608,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1963_1#2$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 609,
+        "raw": "[name=\"雷尔金\"]不，是我自己说的。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "不，是我自己说的。"
+    },
+    {
+        "id": 610,
+        "raw": "[name=\"雷尔金\"]相信我，尼克托，我们在做一件伟大的事。",
+        "type": "dialog",
+        "speaker": "雷尔金",
+        "content": "相信我，尼克托，我们在做一件伟大的事。"
+    },
+    {
+        "id": 611,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 612,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 613,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 614,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 615,
+        "raw": "[Background(image=\"34_g10_tent_inside\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "34_g10_tent_inside.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 616,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 617,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 618,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 619,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_501_1#1$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 620,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_1730_1#3$1\", focus=\"n\")]",
+        "type": "charslot",
+        "focus": "n"
+    },
+    {
+        "id": 621,
+        "raw": "[name=\"罗德岛医疗干员\"]队长，所有人的手术都已经做完了。",
+        "type": "dialog",
+        "speaker": "罗德岛医疗干员",
+        "content": "队长，所有人的手术都已经做完了。"
+    },
+    {
+        "id": 622,
+        "raw": "[name=\"罗德岛医疗干员\"]条件实在有限，有些人开始发烧了，实在没办法避免......",
+        "type": "dialog",
+        "speaker": "罗德岛医疗干员",
+        "content": "条件实在有限，有些人开始发烧了，实在没办法避免......"
+    },
+    {
+        "id": 623,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_1730_1#7$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 624,
+        "raw": "[name=\"Raidian\"]知道了，之后我会去和他们的领袖协商，尽可能保障伤员的食物和水的供应。",
+        "type": "dialog",
+        "speaker": "Raidian",
+        "content": "知道了，之后我会去和他们的领袖协商，尽可能保障伤员的食物和水的供应。"
+    },
+    {
+        "id": 625,
+        "raw": "[name=\"Raidian\"]今天你们都辛苦了，尽快休息，也要保证自己的健康。",
+        "type": "dialog",
+        "speaker": "Raidian",
+        "content": "今天你们都辛苦了，尽快休息，也要保证自己的健康。"
+    },
+    {
+        "id": 626,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_501_1#1$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 627,
+        "raw": "[name=\"罗德岛医疗干员\"]队长，我们接下来还要......",
+        "type": "dialog",
+        "speaker": "罗德岛医疗干员",
+        "content": "队长，我们接下来还要......"
+    },
+    {
+        "id": 628,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_1730_1#3$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 629,
+        "raw": "[name=\"Raidian\"]如今远北全面戒严，天气也会影响通讯状况，我们很难与外界取得联系。",
+        "type": "dialog",
+        "speaker": "Raidian",
+        "content": "如今远北全面戒严，天气也会影响通讯状况，我们很难与外界取得联系。"
+    },
+    {
+        "id": 630,
+        "raw": "[name=\"Raidian\"]这里发生的事一定会引来乌萨斯的注意，我们不能留下，必须尽快离开。",
+        "type": "dialog",
+        "speaker": "Raidian",
+        "content": "这里发生的事一定会引来乌萨斯的注意，我们不能留下，必须尽快离开。"
+    },
+    {
+        "id": 631,
+        "raw": "[charslot(slot = \"l\", name = \"avg_npc_501_1#1$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 632,
+        "raw": "[name=\"罗德岛医疗干员\"]可是，我们确定要与他们一起行动吗？",
+        "type": "dialog",
+        "speaker": "罗德岛医疗干员",
+        "content": "可是，我们确定要与他们一起行动吗？"
+    },
+    {
+        "id": 633,
+        "raw": "[name=\"罗德岛医疗干员\"]队长，我很担心，这样下去我们会面临与乌萨斯对立的局面......",
+        "type": "dialog",
+        "speaker": "罗德岛医疗干员",
+        "content": "队长，我很担心，这样下去我们会面临与乌萨斯对立的局面......"
+    },
+    {
+        "id": 634,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_1730_1#2$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 635,
+        "raw": "[name=\"Raidian\"]当然，罗德岛没有立场与乌萨斯为敌，但是此时此刻在这里的，也只是许多想要活下去的人。",
+        "type": "dialog",
+        "speaker": "Raidian",
+        "content": "当然，罗德岛没有立场与乌萨斯为敌，但是此时此刻在这里的，也只是许多想要活下去的人。"
+    },
+    {
+        "id": 636,
+        "raw": "[name=\"Raidian\"]改变感染者的处境，这始终是罗德岛的志向。",
+        "type": "dialog",
+        "speaker": "Raidian",
+        "content": "改变感染者的处境，这始终是罗德岛的志向。"
+    },
+    {
+        "id": 637,
+        "raw": "[name=\"Raidian\"]更何况，这段时间我们也接受过他们不少帮助。",
+        "type": "dialog",
+        "speaker": "Raidian",
+        "content": "更何况，这段时间我们也接受过他们不少帮助。"
+    },
+    {
+        "id": 638,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_1730_1#3$1\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 639,
+        "raw": "[name=\"Raidian\"]先不用担心了，尽可能做好应对意外事件的准备，我会继续尝试与城中据点取得联系。",
+        "type": "dialog",
+        "speaker": "Raidian",
+        "content": "先不用担心了，尽可能做好应对意外事件的准备，我会继续尝试与城中据点取得联系。"
+    },
+    {
+        "id": 640,
+        "raw": "[name=\"Raidian\"]如果他们可以接收到我们之前发出的消息......希望他们前来支援时，也能发现我们留下的线索吧。",
+        "type": "dialog",
+        "speaker": "Raidian",
+        "content": "如果他们可以接收到我们之前发出的消息......希望他们前来支援时，也能发现我们留下的线索吧。"
+    },
+    {
+        "id": 641,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 642,
+        "raw": "[stopmusic(fadetime=3)]",
+        "type": "stop_music",
+        "fadetime": 3
+    },
+    {
+        "id": 643,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 644,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 645,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 646,
+        "raw": "[Background(image=\"66_g1_bleskstreet\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "66_g1_bleskstreet.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 647,
+        "raw": "[PlaySound(key=\"$d_avg_snowstormflp\", volume=1, loop=true, channel=\"sn\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_snowstormflp.mp3",
+        "volume": "1,",
+        "loop": "true,",
+        "channel": "sn"
+    },
+    {
+        "id": 648,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 649,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 650,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 651,
+        "raw": "[animtext(id = \"at1\", name = \"group_location_stamp\", style=\"avg_both\", pos = \"-400,-200\", block = false)]<p=1>乌萨斯远北地区，布列斯克</><p=2>三天前</>",
+        "type": "anim_text",
+        "style": "avg_both",
+        "content": "<p=1>乌萨斯远北地区，布列斯克</><p=2>三天前</>"
+    },
+    {
+        "id": 652,
+        "raw": "[delay(time=3)]",
+        "type": "delay",
+        "time": 3
+    },
+    {
+        "id": 653,
+        "raw": "[animtextclean]",
+        "type": "anim_text_clean"
+    },
+    {
+        "id": 654,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 655,
+        "raw": "[name=\"路过的报童\"]卖报——《布列斯克时报》——",
+        "type": "dialog",
+        "speaker": "路过的报童",
+        "content": "卖报——《布列斯克时报》——"
+    },
+    {
+        "id": 656,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 657,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_walk_n.mp3"
+    },
+    {
+        "id": 658,
+        "raw": "[charslot(slot = \"l\", name = \"avg_1037_amiya3_1#1$1\", posfrom=\"-200,0\", posto=\"0,0\", duration=1.5)]",
+        "type": "charslot",
+        "posfrom": "-200,0",
+        "posto": "0,0",
+        "duration": 1.5
+    },
+    {
+        "id": 659,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 660,
+        "raw": "[PlaySound(key=\"$rungeneral\", volume=1, loop=true, channel=\"r\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_rungeneral.mp3",
+        "volume": "1,",
+        "loop": "true,",
+        "channel": "r"
+    },
+    {
+        "id": 661,
+        "raw": "[StopSound(channel=\"r\", fadetime=1)]",
+        "type": "stop_sound",
+        "channel": "r",
+        "fadetime": 1
+    },
+    {
+        "id": 662,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_240\", posfrom=\"200,0\", posto=\"50,0\", duration=0.5)]",
+        "type": "charslot",
+        "posfrom": "200,0",
+        "posto": "50,0",
+        "duration": 0.5
+    },
+    {
+        "id": 663,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 664,
+        "raw": "[charslot(slot = \"r\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 665,
+        "raw": "[name=\"路过的报童\"]姐姐......要来一份报纸吗？",
+        "type": "dialog",
+        "speaker": "路过的报童",
+        "content": "姐姐......要来一份报纸吗？"
+    },
+    {
+        "id": 666,
+        "raw": "[charslot(slot = \"l\", name = \"avg_1037_amiya3_1#8$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 667,
+        "raw": "[name=\"阿米娅\"]哦，好、好的......多少钱？",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "哦，好、好的......多少钱？"
+    },
+    {
+        "id": 668,
+        "raw": "[charslot(slot = \"r\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 669,
+        "raw": "[name=\"路过的报童\"]二十帕拉......可以吗？",
+        "type": "dialog",
+        "speaker": "路过的报童",
+        "content": "二十帕拉......可以吗？"
+    },
+    {
+        "id": 670,
+        "raw": "[charslot(slot = \"l\", name = \"avg_1037_amiya3_1#8$1\", focus=\"l\")]",
+        "type": "charslot",
+        "focus": "l"
+    },
+    {
+        "id": 671,
+        "raw": "[name=\"阿米娅\"]好......",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "好......"
+    },
+    {
+        "id": 672,
+        "raw": "[name=\"阿米娅\"]不过我好像没有零钱了......这个给你吧。",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "不过我好像没有零钱了......这个给你吧。"
+    },
+    {
+        "id": 673,
+        "raw": "[charslot(slot = \"r\", focus=\"r\")]",
+        "type": "charslot",
+        "focus": "r"
+    },
+    {
+        "id": 674,
+        "raw": "[name=\"路过的报童\"]谢谢姐姐！你真是好人！",
+        "type": "dialog",
+        "speaker": "路过的报童",
+        "content": "谢谢姐姐！你真是好人！"
+    },
+    {
+        "id": 675,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 676,
+        "raw": "[charslot(slot = \"l\", posfrom=\"0,0\", posto=\"200,0\", afrom=1, ato=1, duration=1.5)]",
+        "type": "charslot",
+        "posfrom": "0,0",
+        "posto": "200,0",
+        "afrom": "1,",
+        "ato": "1,",
+        "duration": 1.5
+    },
+    {
+        "id": 677,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 678,
+        "raw": "[charslot(slot = \"r\", focus=\"n\")]",
+        "type": "charslot",
+        "focus": "n"
+    },
+    {
+        "id": 679,
+        "raw": "阿米娅小心翼翼地将一枚一切尔文的硬币放在孩子的手心里，拿到钱的孩子好像生怕对方后悔一样，一溜烟地消失在街角。",
+        "type": "narration",
+        "content": "阿米娅小心翼翼地将一枚一切尔文的硬币放在孩子的手心里，拿到钱的孩子好像生怕对方后悔一样，一溜烟地消失在街角。"
+    },
+    {
+        "id": 680,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 681,
+        "raw": "[PlaySound(key=\"$rungeneral\", volume=1, loop=true, channel=\"r\")]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_gen_rungeneral.mp3",
+        "volume": "1,",
+        "loop": "true,",
+        "channel": "r"
+    },
+    {
+        "id": 682,
+        "raw": "[StopSound(channel=\"r\", fadetime=1)]",
+        "type": "stop_sound",
+        "channel": "r",
+        "fadetime": 1
+    },
+    {
+        "id": 683,
+        "raw": "[charslot(slot = \"r\", name = \"avg_npc_240\", posfrom=\"50,0\", posto=\"-500,0\", afrom=1, ato=0, duration=0.5)]",
+        "type": "charslot",
+        "posfrom": "50,0",
+        "posto": "-500,0",
+        "afrom": "1,",
+        "ato": "0,",
+        "duration": 0.5
+    },
+    {
+        "id": 684,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 685,
+        "raw": "[charslot(slot = \"r\", afrom=1, ato=0, duration=0)]",
+        "type": "charslot",
+        "afrom": "1,",
+        "ato": "0,",
+        "duration": 0
+    },
+    {
+        "id": 686,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#7$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 687,
+        "raw": "[name=\"阿米娅\"]......",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "......"
+    },
+    {
+        "id": 688,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 689,
+        "raw": "[charslot(slot = \"m\", focus=\"n\")]",
+        "type": "charslot",
+        "focus": "n"
+    },
+    {
+        "id": 690,
+        "raw": "[Decision(options=\"阿米娅？;你在看什么？\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "阿米娅？;你在看什么？",
+        "values": "1;2"
+    },
+    {
+        "id": 691,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 692,
+        "raw": "[StopSound(channel=\"sn\", fadetime=2)]",
+        "type": "stop_sound",
+        "channel": "sn",
+        "fadetime": 2
+    },
+    {
+        "id": 693,
+        "raw": "[PlayMusic(intro=\"$loneliness_intro\", key=\"$loneliness_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/static/m_avg/m_avg_loneliness_intro.mp3",
+        "key": "sound_beta_2/music/static/m_avg/m_avg_loneliness_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 694,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 695,
+        "raw": "[name=\"阿米娅\"]那个孩子身上的衣服......好薄。",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "那个孩子身上的衣服......好薄。"
+    },
+    {
+        "id": 696,
+        "raw": "[name=\"阿米娅\"]布列斯克，比我印象里的乌萨斯，还要冷一点。",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "布列斯克，比我印象里的乌萨斯，还要冷一点。"
+    },
+    {
+        "id": 697,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 698,
+        "raw": "[charslot(slot = \"m\", focus=\"n\")]",
+        "type": "charslot",
+        "focus": "n"
+    },
+    {
+        "id": 699,
+        "raw": "[Decision(options=\"上一次来乌萨斯的时候是冬天。;布列斯克比切尔诺伯格还要更靠北。\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "上一次来乌萨斯的时候是冬天。;布列斯克比切尔诺伯格还要更靠北。",
+        "values": "1;2"
+    },
+    {
+        "id": 700,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 701,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#6$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 702,
+        "raw": "[name=\"阿米娅\"]我还记得那个时候......",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "我还记得那个时候......"
+    },
+    {
+        "id": 703,
+        "raw": "[name=\"阿米娅\"]那是我第一次见到那样激烈的战场，甚至紧张得忘了害怕......",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "那是我第一次见到那样激烈的战场，甚至紧张得忘了害怕......"
+    },
+    {
+        "id": 704,
+        "raw": "[name=\"阿米娅\"]我当时以为，再也不会有比那更危险的时刻了。",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "我当时以为，再也不会有比那更危险的时刻了。"
+    },
+    {
+        "id": 705,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 706,
+        "raw": "[charslot(slot = \"m\", focus=\"n\")]",
+        "type": "charslot",
+        "focus": "n"
+    },
+    {
+        "id": 707,
+        "raw": "[Decision(options=\"结果在那之后，我们又经历了很多。\", values=\"1\")]",
+        "type": "decision",
+        "options": "结果在那之后，我们又经历了很多。",
+        "values": "1"
+    },
+    {
+        "id": 708,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 709,
+        "raw": "[Decision(options=\"至少现在没有天灾和追兵。;至少现在我很清楚地知道自己是谁。\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "至少现在没有天灾和追兵。;至少现在我很清楚地知道自己是谁。",
+        "values": "1;2"
+    },
+    {
+        "id": 710,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 711,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#8$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 712,
+        "raw": "[name=\"阿米娅\"]嗯......",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "嗯......"
+    },
+    {
+        "id": 713,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#7$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 714,
+        "raw": "[name=\"阿米娅\"]博士，说起来，我们好像很少有机会像这样静静地观察一座城市。",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "博士，说起来，我们好像很少有机会像这样静静地观察一座城市。"
+    },
+    {
+        "id": 715,
+        "raw": "[name=\"阿米娅\"]不管是切尔诺伯格、龙门，还是伦蒂尼姆，我们的记忆里好像都充满了动乱和战火......",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "不管是切尔诺伯格、龙门，还是伦蒂尼姆，我们的记忆里好像都充满了动乱和战火......"
+    },
+    {
+        "id": 716,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 717,
+        "raw": "[charslot(slot = \"m\", focus=\"n\")]",
+        "type": "charslot",
+        "focus": "n"
+    },
+    {
+        "id": 718,
+        "raw": "[Decision(options=\"这才是这片大地本该有的样子。;我们应该记住这座城市现在的样子。\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "这才是这片大地本该有的样子。;我们应该记住这座城市现在的样子。",
+        "values": "1;2"
+    },
+    {
+        "id": 719,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 720,
+        "raw": "[Decision(options=\"看看今天的报纸吧。;上面有报道矿区封锁的原因吗？\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "看看今天的报纸吧。;上面有报道矿区封锁的原因吗？",
+        "values": "1;2"
+    },
+    {
+        "id": 721,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 722,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#3$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 723,
+        "raw": "[name=\"阿米娅\"]（摇头）",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "（摇头）"
+    },
+    {
+        "id": 724,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 725,
+        "raw": "[name=\"阿米娅\"]或许只有等阿洛伊泽小姐和那位女大公进行交涉后，才能知道更多了。",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "或许只有等阿洛伊泽小姐和那位女大公进行交涉后，才能知道更多了。"
+    },
+    {
+        "id": 726,
+        "raw": "[name=\"阿米娅\"]她说会为我们申请进入矿区的许可，可是，她到底会怎么做呢......",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "她说会为我们申请进入矿区的许可，可是，她到底会怎么做呢......"
+    },
+    {
+        "id": 727,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 728,
+        "raw": "[charslot(slot = \"m\", focus=\"n\")]",
+        "type": "charslot",
+        "focus": "n"
+    },
+    {
+        "id": 729,
+        "raw": "[Decision(options=\"她有意让我们意识到我们掌握的消息十分有限。;她想让我们处于被动的局面。\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "她有意让我们意识到我们掌握的消息十分有限。;她想让我们处于被动的局面。",
+        "values": "1;2"
+    },
+    {
+        "id": 730,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 731,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 732,
+        "raw": "[name=\"阿米娅\"]前面就是女大公的办公地了。",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "前面就是女大公的办公地了。"
+    },
+    {
+        "id": 733,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#7$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 734,
+        "raw": "[name=\"阿米娅\"]从我们之前收集到的信息来看，这位女大公名叫叶莉萨维塔·康斯坦丁诺夫娜·拉齐萨拉。",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "从我们之前收集到的信息来看，这位女大公名叫叶莉萨维塔·康斯坦丁诺夫娜·拉齐萨拉。"
+    },
+    {
+        "id": 735,
+        "raw": "[name=\"阿米娅\"]和许多人印象中的乌萨斯贵族不同，这位女大公治理辖地的政策是以“仁慈”出名——不论是对普通人还是对感染者。",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "和许多人印象中的乌萨斯贵族不同，这位女大公治理辖地的政策是以“仁慈”出名——不论是对普通人还是对感染者。"
+    },
+    {
+        "id": 736,
+        "raw": "[name=\"阿米娅\"]从各个渠道打听到的消息里都提到了她的好名声。",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "从各个渠道打听到的消息里都提到了她的好名声。"
+    },
+    {
+        "id": 737,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 738,
+        "raw": "[charslot(slot = \"m\", focus=\"n\")]",
+        "type": "charslot",
+        "focus": "n"
+    },
+    {
+        "id": 739,
+        "raw": "[Decision(options=\"有这样的好名声，只是“仁慈”是不够的。;这位女大公应该也是个足够聪明的人。\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "有这样的好名声，只是“仁慈”是不够的。;这位女大公应该也是个足够聪明的人。",
+        "values": "1;2"
+    },
+    {
+        "id": 740,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 741,
+        "raw": "[Decision(options=\"她的办公场所似乎不算宏伟。;看上去像是民居。\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "她的办公场所似乎不算宏伟。;看上去像是民居。",
+        "values": "1;2"
+    },
+    {
+        "id": 742,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 743,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#1$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 744,
+        "raw": "[name=\"阿米娅\"]布列斯克的建筑普遍比较低矮与规整，可能是乌萨斯远北特有的风格。",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "布列斯克的建筑普遍比较低矮与规整，可能是乌萨斯远北特有的风格。"
+    },
+    {
+        "id": 745,
+        "raw": "[name=\"阿米娅\"]不过，从地图上看，周边建筑都呈现出拱卫这栋楼的趋势，至少从城市规划角度来说，它确实有着相对独特的地理位置。",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "不过，从地图上看，周边建筑都呈现出拱卫这栋楼的趋势，至少从城市规划角度来说，它确实有着相对独特的地理位置。"
+    },
+    {
+        "id": 746,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 747,
+        "raw": "[charslot(slot = \"m\", focus=\"n\")]",
+        "type": "charslot",
+        "focus": "n"
+    },
+    {
+        "id": 748,
+        "raw": "[Decision(options=\"所以，我们还是在这里了。;这次甚至没让我们进去等。\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "所以，我们还是在这里了。;这次甚至没让我们进去等。",
+        "values": "1;2"
+    },
+    {
+        "id": 749,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 750,
+        "raw": "[Decision(options=\"一位雷厉风行的年轻女士。;一位颇有声望的地区领导者。\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "一位雷厉风行的年轻女士。;一位颇有声望的地区领导者。",
+        "values": "1;2"
+    },
+    {
+        "id": 751,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 752,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#6$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 753,
+        "raw": "[name=\"阿米娅\"]博士，你在担心吗？",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "博士，你在担心吗？"
+    },
+    {
+        "id": 754,
+        "raw": "[name=\"阿米娅\"]说实话，我也是。即使阿洛伊泽小姐表明了态度，她的真实目的也并不清晰——",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "说实话，我也是。即使阿洛伊泽小姐表明了态度，她的真实目的也并不清晰——"
+    },
+    {
+        "id": 755,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 756,
+        "raw": "[charslot(slot = \"m\", focus=\"n\")]",
+        "type": "charslot",
+        "focus": "n"
+    },
+    {
+        "id": 757,
+        "raw": "[Decision(options=\"（摇头）;不觉得现在的情况很熟悉吗？\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "（摇头）;不觉得现在的情况很熟悉吗？",
+        "values": "1;2"
+    },
+    {
+        "id": 758,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 759,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#8$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 760,
+        "raw": "[name=\"阿米娅\"]......啊。你是在说龙门那次？",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "......啊。你是在说龙门那次？"
+    },
+    {
+        "id": 761,
+        "raw": "[name=\"阿米娅\"]陈小姐的确算得上是雷厉风行。",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "陈小姐的确算得上是雷厉风行。"
+    },
+    {
+        "id": 762,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 763,
+        "raw": "[charslot(slot = \"m\", focus=\"n\")]",
+        "type": "charslot",
+        "focus": "n"
+    },
+    {
+        "id": 764,
+        "raw": "[Decision(options=\"难道不是“很难应付”了？\", values=\"1\")]",
+        "type": "decision",
+        "options": "难道不是“很难应付”了？",
+        "values": "1"
+    },
+    {
+        "id": 765,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 766,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#11$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 767,
+        "raw": "[name=\"阿米娅\"]让我们把它当成“严格”的另一种说法吧。",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "让我们把它当成“严格”的另一种说法吧。"
+    },
+    {
+        "id": 768,
+        "raw": "[name=\"阿米娅\"]在这点上，陈小姐无论对人对己都是一样的，不管是那时，还是现在。",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "在这点上，陈小姐无论对人对己都是一样的，不管是那时，还是现在。"
+    },
+    {
+        "id": 769,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#8$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 770,
+        "raw": "[name=\"阿米娅\"]对了！其实在出发前，我们还收到过陈小姐的消息。虽然她没有说自己的具体动向，但至少听上去状态还不错。",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "对了！其实在出发前，我们还收到过陈小姐的消息。虽然她没有说自己的具体动向，但至少听上去状态还不错。"
+    },
+    {
+        "id": 771,
+        "raw": "[name=\"阿米娅\"]她听说了之前发生的事，承诺如果罗德岛需要，她就会回来。",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "她听说了之前发生的事，承诺如果罗德岛需要，她就会回来。"
+    },
+    {
+        "id": 772,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 773,
+        "raw": "[charslot(slot = \"m\", focus=\"n\")]",
+        "type": "charslot",
+        "focus": "n"
+    },
+    {
+        "id": 774,
+        "raw": "[Decision(options=\"我们结识了许多朋友。;也有许多人离开了我们。\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "我们结识了许多朋友。;也有许多人离开了我们。",
+        "values": "1;2"
+    },
+    {
+        "id": 775,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 776,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#7$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 777,
+        "raw": "[name=\"阿米娅\"]我还记得，和陈小姐一起行动的时候，代表罗德岛与魏长官交涉的，其实是凯尔希医生。",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "我还记得，和陈小姐一起行动的时候，代表罗德岛与魏长官交涉的，其实是凯尔希医生。"
+    },
+    {
+        "id": 778,
+        "raw": "[name=\"阿米娅\"]......",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "......"
+    },
+    {
+        "id": 779,
+        "raw": "[charslot(slot = \"m\", name = \"avg_1037_amiya3_1#2$1\")]",
+        "type": "charslot"
+    },
+    {
+        "id": 780,
+        "raw": "[name=\"阿米娅\"]博士，我还是会担心，自己做不到像凯尔希医生那样处理问题，或者促成与他人的合作。",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "博士，我还是会担心，自己做不到像凯尔希医生那样处理问题，或者促成与他人的合作。"
+    },
+    {
+        "id": 781,
+        "raw": "[name=\"阿米娅\"]而且，我们对乌萨斯如今的情况、对这位女大公，都知之甚少。",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "而且，我们对乌萨斯如今的情况、对这位女大公，都知之甚少。"
+    },
+    {
+        "id": 782,
+        "raw": "[name=\"阿米娅\"]博士，我......",
+        "type": "dialog",
+        "speaker": "阿米娅",
+        "content": "博士，我......"
+    },
+    {
+        "id": 783,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 784,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 785,
+        "raw": "[Decision(options=\"我们没必要去做只有凯尔希才能做到的事。\", values=\"1\")]",
+        "type": "decision",
+        "options": "我们没必要去做只有凯尔希才能做到的事。",
+        "values": "1"
+    },
+    {
+        "id": 786,
+        "raw": "[Predicate(references=\"1\")]",
+        "type": "predicate",
+        "references": "1"
+    },
+    {
+        "id": 787,
+        "raw": "[Decision(options=\"就做你自己吧，阿米娅。;我们会有办法的。\", values=\"1;2\")]",
+        "type": "decision",
+        "options": "就做你自己吧，阿米娅。;我们会有办法的。",
+        "values": "1;2"
+    },
+    {
+        "id": 788,
+        "raw": "[Predicate(references=\"1;2\")]",
+        "type": "predicate",
+        "references": "1;2"
+    },
+    {
+        "id": 789,
+        "raw": "[PlaySound(key=\"$d_avg_snowbootwalk\", volume=1)]",
+        "type": "play_sound",
+        "key": "sound_beta_2/avg/d_avg_snowbootwalk.mp3",
+        "volume": 1
+    },
+    {
+        "id": 790,
+        "raw": "[charslot(slot = \"m\", name = \"avg_npc_1972_1#1$1\", duration=1.5)]",
+        "type": "charslot",
+        "duration": 1.5
+    },
+    {
+        "id": 791,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 792,
+        "raw": "[name=\"远北卫兵\"]请问，哪一位是罗德岛的Dr.{@nickname}？",
+        "type": "dialog",
+        "speaker": "远北卫兵",
+        "content": "请问，哪一位是罗德岛的Dr.{@nickname}？"
+    },
+    {
+        "id": 793,
+        "raw": "[name=\"远北卫兵\"]女大公殿下有请。",
+        "type": "dialog",
+        "speaker": "远北卫兵",
+        "content": "女大公殿下有请。"
+    },
+    {
+        "id": 794,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 795,
+        "raw": "[Blocker(a=0, r=0,g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 796,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 797,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 798,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 799,
+        "raw": "[Background]",
+        "type": "background"
+    },
+    {
+        "id": 800,
+        "raw": "[Image]",
+        "type": "image"
+    }
+]
