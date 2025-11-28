@@ -23,18 +23,18 @@ def txt2json(txt_file: str, story_variables: json) -> dict:
         match event["type"]:
             case "image" | "background":
                 try:
-                    event["image"] = f"{event["image"]}.png"
+                    event["image"] = f"{event['image']}.png"
                 except Exception as e:
                     pass
             case "charslot":
                 try:
-                    event["name"] = f"{event["name"]}.png"
+                    event["name"] = f"{event['name']}.png"
                 except Exception as e:
                     pass
             case "play_music" | "play_sound":
                 try:
                     var = event["intro"].split("$")[1]
-                    event["intro"] = story_variables[var].lower() + ".mp3"
+                    event["intro"] = f"audio/{story_variables[var].lower()}.mp3"
                 except Exception as e:
                     # logger.debug(f"Error processing play_music event at line {line_number}: {e}")
                     pass
@@ -89,7 +89,7 @@ def main():
                         continue
 
                 storyCache.append(id)
-        # save_json(storyCache, f"cache/{server}/story.json")
+        save_json(storyCache, f"cache/{server}/story.json")
 
 if __name__ == "__main__":
     main()
