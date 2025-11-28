@@ -23,7 +23,8 @@ def extract_props(line: str) -> Dict[str, Any]:
     inner = match.group(1)
 
     # key=value, key="value", key=1.23
-    pairs = re.findall(r'(\w+)=(".*?"|\S+)', inner)
+    # pairs = re.findall(r'(\w+)=(".*?"|\S+)', inner)
+    pairs = re.findall(r'(\w+)\s*=\s*(".*?"|\S+)', inner)
 
     for key, value in pairs:
         value = value.strip()
