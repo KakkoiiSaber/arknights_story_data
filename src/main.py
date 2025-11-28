@@ -6,6 +6,7 @@ import logging
 from typing import Optional
 import copy
 from pathlib import Path
+from utils.save_json import save_json
 
 
 
@@ -175,13 +176,6 @@ def get_audio_table(gameMusicId: str, audio_data: json) -> json:
         bank_info["loop"] = bank_info["loop"].lower() + ".mp3"
     return bank_info
 
-def save_table(table: json, path: str):
-    '''
-    Save table to json file
-    '''
-    Path(path).parent.mkdir(parents=True, exist_ok=True)  # ensure assets/{server} exists
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(table, f, ensure_ascii=False, indent=4)
 
 def main():
     # Load database config
@@ -282,13 +276,13 @@ def main():
 
         # Save story_meta_table and review_info_table
         logger.debug(f"[Server: {server}] Saving story_meta_table and review_info_table...")
-        save_table(story_meta_table, f"assets/{server}/story_meta_table.json")
-        save_table(audio_data, f"assets/{server}/audio_data.json")
+        save_json(story_meta_table, f"assets/{server}/story_meta_table.json")
+        save_json(audio_data, f"assets/{server}/audio_data.json")
         for id, entry in review_info_table.items():
-            save_table(entry, f"assets/{server}/story_review_info/{id}.json")
+            save_json(entry, f"assets/{server}/story_review_info/{id}.json")
         
         # update cache file
-        save_table(reviewCache, f"cache/{server}/review.json")
+        save_json(reviewCache, f"cache/{server}/review.json")
 
 if __name__ == "__main__":
     main()
