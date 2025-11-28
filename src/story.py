@@ -66,6 +66,8 @@ def main():
         story_variables = json.load(open(f"{GAME_DATABASE_CN}/{server}/{STORY_VARIABLES_PATH}" if server == "zh_CN" else f"{GAME_DATABASE_GLOBAL}/{server}/{STORY_VARIABLES_PATH}", "r", encoding="utf-8"))
 
         for id in story_meta_table.keys():
+            # for each story, if any of its txt fails, do not cache
+            flag_add_cache = True
             if id in storyCache:
                 logger.debug(f"[Server: {server}] Story {id} found in cache, skip.")
                 continue
@@ -86,9 +88,9 @@ def main():
                         save_json(events_table, f"assets/{server}/story/{storyTxtPath.replace('.txt', '.json')}")
                     except Exception as e:
                         logger.error(f"[Server: {server}] Failed to load story txt file: {storyTxtBasePath}/{storyTxtPath}. Error: {e}")
-                        continue
-
-                storyCache.append(id)
+                        flag_add_cache = False
+                if flag_add_cache:
+                    storyCache.append(id)
         save_json(storyCache, f"cache/{server}/story.json")
 
 if __name__ == "__main__":
