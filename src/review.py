@@ -202,7 +202,10 @@ def main():
         stage_table_complement = json.load(open(f"assets/stage_table_complement.json", "r", encoding="utf-8"))
         # merge stage_table_origin and stage_table_complement
         # if there are same keys, update entries using stage_table_complement
-        stage_table_origin.update(stage_table_complement)
+        for id, entry in stage_table_complement.items():
+            if id in stage_table_origin:
+                for key, value in entry.items():
+                    stage_table_origin[id][key] = value
 
         # Load audio_data
         logger.debug(f"[Server: {server}] Loading audio_data...")
