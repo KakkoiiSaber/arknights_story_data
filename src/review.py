@@ -115,13 +115,19 @@ def get_story_meta_table(review_table: json, stage_table: Optional[json]) -> jso
     '''
     Merge story_review_table and stage_table to get story_meta_table
     '''
+    try: kvImageId = stage_table["kvImageId"]
+    except: kvImageId = None
+    try: titleImageId = stage_table["titleImageId"]
+    except: titleImageId = None
+
+
     story_meta_table = {
         "id": review_table["id"],
         "name": review_table["name"],
         "type": review_table["type"],
         "startTime": review_table["startTime"],
-        "kvImageId": stage_table["kvImageId"] if stage_table else None,
-        "titleImageId": stage_table["titleImageId"] if stage_table else None,
+        "kvImageId": kvImageId,
+        "titleImageId": titleImageId
     }
     return story_meta_table
 
@@ -149,13 +155,23 @@ def get_review_info(review_table: json, stage_table: Optional[json], story_desc_
             "avgTag": data["avgTag"]
         }
         info_list.append(info)
+
+    try: desc = stage_table["desc"]
+    except: desc = None
+    try: gameMusicId = stage_table["gameMusicId"]
+    except: gameMusicId = None
+    try: gameMusicName = stage_table["gameMusicName"]
+    except: gameMusicName = None
+    try: backgroundId = stage_table["backgroundId"]
+    except: backgroundId = None
+    
     review_info = {
         "id": review_table["id"],
         "name": review_table["name"],
-        "desc": stage_table["desc"] if stage_table else None,
-        "gameMusicId": stage_table["gameMusicId"] if stage_table else None,
-        "gameMusicName": stage_table["gameMusicName"] if stage_table and stage_table["gameMusicId"] else None,
-        "backgroundId": stage_table["backgroundId"] if stage_table else None,
+        "desc": desc,
+        "gameMusicId": gameMusicId,
+        "gameMusicName": gameMusicName,
+        "backgroundId": backgroundId,
         "infoUnlockDatas": info_list
     }
     return review_info
@@ -200,12 +216,7 @@ def main():
         stage_response = requests.get(stage_url)
         stage_table_origin = stage_response.json()["storylineStorySets"]
         stage_table_complement = json.load(open(f"assets/stage_table_complement.json", "r", encoding="utf-8"))
-        # merge stage_table_origin and stage_table_complement
-        # if there are same keys, update entries using stage_table_complement
-        for id, entry in stage_table_complement.items():
-            if id in stage_table_origin:
-                for key, value in entry.items():
-                    stage_table_origin[id][key] = value
+
 
         # Load audio_data
         logger.debug(f"[Server: {server}] Loading audio_data...")
@@ -260,9 +271,15 @@ def main():
                 logger.debug(f"[Server: {server}] Review info of {id} not cached, fetching from source...")
                 logger.info(f"[Server: {server}] Processing story id: {id}...")
                 review_entry = review_table[id]
-                stage_entry = stage_table.get(id, None)
+                stage_entry = stage_table.get(id, {})
+                stage_complement_entry = stage_table_complement.get(id, None)
+                if stage_complement_entry:
+                    for key, value in stage_complement_entry.items():
+                        stage_entry[key] = value
 
-                gameMusicId = stage_entry["gameMusicId"] if stage_entry else None
+                try: gameMusicId = stage_entry["gameMusicId"]
+                except: gameMusicId = None
+                
                 if gameMusicId is not None:
                     audio_info = get_audio_table(gameMusicId, audio_data_origin)
                     audio_data[audio_info["name"]] = audio_info
