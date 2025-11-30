@@ -26,7 +26,7 @@ def txt2json(txt_file: str, story_variables: json) -> dict:
                     event["image"] = f"{event['image']}.png"
                 except Exception as e:
                     pass
-            case "charslot":
+            case "charslot" | "character":
                 try:
                     event["name"] = f"{event['name']}.png"
                 except Exception as e:
