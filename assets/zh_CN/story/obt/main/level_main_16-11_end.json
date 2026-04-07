@@ -4156,11 +4156,11 @@
     },
     {
         "id": "1",
-        "raw": "[avgdisplay(id=\"1\", name=\"act3mainss_01\", style=\"animekv\", slot=\"bgover\", x=-50, y=-30, scalex=1.05, scaley=1.05, entryfrom=0.6, entryto=0.8, duration=5, block=false)]",
+        "raw": "[avgdisplay(id=\"1\", name=\"act3mainss_01\", style=\"animekv\", slot=\"cgover\", x=-50, y=-30, scalex=1.05, scaley=1.05, entryfrom=0.6, entryto=0.8, duration=5, block=false)]",
         "type": "avg_display",
         "name": "act3mainss_01",
         "style": "animekv",
-        "slot": "bgover",
+        "slot": "cgover",
         "x": "-50,",
         "y": "-30,",
         "scalex": "1.05,",
@@ -4172,11 +4172,11 @@
     },
     {
         "id": "1",
-        "raw": "[avgdisplay(id=\"1\", name=\"act3mainss_01\", style=\"animekv\", slot=\"bgover\", xto=0, yto=0, scalexto=1, scaleyto=1, duration=20)]",
+        "raw": "[avgdisplay(id=\"1\", name=\"act3mainss_01\", style=\"animekv\", slot=\"cgover\", xto=0, yto=0, scalexto=1, scaleyto=1, duration=20)]",
         "type": "avg_display",
         "name": "act3mainss_01",
         "style": "animekv",
-        "slot": "bgover",
+        "slot": "cgover",
         "xto": "0,",
         "yto": "0,",
         "scalexto": "1,",
@@ -4185,12 +4185,19 @@
     },
     {
         "id": 584,
+        "raw": "[Image(image=\"66_i28\",screenadapt=\"coverall\")]",
+        "type": "image",
+        "image": "66_i28.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 585,
         "raw": "[Delay(time=0.1)]",
         "type": "delay",
         "time": 0.1
     },
     {
-        "id": 585,
+        "id": 586,
         "raw": "[SoundVolume(volume=1, channel=\"di\", fadetime=2)]",
         "type": "sound_volume",
         "volume": "1,",
@@ -4198,7 +4205,7 @@
         "fadetime": 2
     },
     {
-        "id": 586,
+        "id": 587,
         "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]",
         "type": "blocker",
         "a": "0,",
@@ -4209,40 +4216,40 @@
         "block": true
     },
     {
-        "id": 587,
+        "id": 588,
         "raw": "[name=\"Mantra\"]不......",
         "type": "dialog",
         "speaker": "Mantra",
         "content": "不......"
     },
     {
-        "id": 588,
+        "id": 589,
         "raw": "[name=\"Mantra\"]......只有......",
         "type": "dialog",
         "speaker": "Mantra",
         "content": "......只有......"
     },
     {
-        "id": 589,
+        "id": 590,
         "raw": "[name=\"Mantra\"]沉默？",
         "type": "dialog",
         "speaker": "Mantra",
         "content": "沉默？"
     },
     {
-        "id": 590,
+        "id": 591,
         "raw": "[name=\"Mantra\"]......？",
         "type": "dialog",
         "speaker": "Mantra",
         "content": "......？"
     },
     {
-        "id": 591,
+        "id": 592,
         "raw": "[dialog]",
         "type": "dialog_marker"
     },
     {
-        "id": 592,
+        "id": 593,
         "raw": "[SoundVolume(volume=0.6, channel=\"di\",fadetime=3)]",
         "type": "sound_volume",
         "volume": "0.6,",
@@ -4250,7 +4257,7 @@
         "fadetime": 3
     },
     {
-        "id": 593,
+        "id": 594,
         "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
         "type": "blocker",
         "a": "0,",
@@ -4261,7 +4268,7 @@
         "block": true
     },
     {
-        "id": 594,
+        "id": 595,
         "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]",
         "type": "blocker",
         "a": "1,",
@@ -4277,7 +4284,12 @@
         "type": "avg_display"
     },
     {
-        "id": 596,
+        "id": 597,
+        "raw": "[image]",
+        "type": "image"
+    },
+    {
+        "id": 598,
         "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.1, block=true)]",
         "type": "blocker",
         "a": "0,",
@@ -4288,36 +4300,36 @@
         "block": true
     },
     {
-        "id": 597,
+        "id": 599,
         "raw": "红。",
         "type": "narration",
         "content": "红。"
     },
     {
-        "id": 598,
+        "id": 600,
         "raw": "刺目的红。",
         "type": "narration",
         "content": "刺目的红。"
     },
     {
-        "id": 599,
+        "id": 601,
         "raw": "和雪地中的热血一样的红色，从视网膜四周攀缘而上。",
         "type": "narration",
         "content": "和雪地中的热血一样的红色，从视网膜四周攀缘而上。"
     },
     {
-        "id": 600,
+        "id": 602,
         "raw": "而后，她睁开眼。",
         "type": "narration",
         "content": "而后，她睁开眼。"
     },
     {
-        "id": 601,
+        "id": 603,
         "raw": "[dialog]",
         "type": "dialog_marker"
     },
     {
-        "id": 602,
+        "id": 604,
         "raw": "[SoundVolume(volume=0.3, channel=\"di\", fadetime=2)]",
         "type": "sound_volume",
         "volume": "0.3,",
@@ -4325,7 +4337,7 @@
         "fadetime": 2
     },
     {
-        "id": 603,
+        "id": 605,
         "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
         "type": "blocker",
         "a": "0,",
@@ -4336,7 +4348,7 @@
         "block": true
     },
     {
-        "id": 604,
+        "id": 606,
         "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]",
         "type": "blocker",
         "a": "1,",
@@ -4347,30 +4359,30 @@
         "block": true
     },
     {
-        "id": 605,
+        "id": 607,
         "raw": "[charslot]",
         "type": "charslot"
     },
     {
-        "id": 606,
+        "id": 608,
         "raw": "[Background]",
         "type": "background"
     },
     {
-        "id": 607,
+        "id": 609,
         "raw": "[imgeffect(name=\"$ib_screendistortion\", image=\"66_i09\")]",
         "type": "image_effect",
         "name": "$ib_screendistortion",
         "image": "66_i09"
     },
     {
-        "id": 608,
+        "id": 610,
         "raw": "[Delay(time=1)]",
         "type": "delay",
         "time": 1
     },
     {
-        "id": 609,
+        "id": 611,
         "raw": "[PlayMusic(intro=\"$lab_intro\", key=\"$lab_loop\", volume=0.6)]",
         "type": "play_music",
         "intro": "audio/sound_beta_2/music/beta3_181101/m_sys_lab_intro.mp3",
@@ -4378,7 +4390,7 @@
         "volume": 0.6
     },
     {
-        "id": 610,
+        "id": 612,
         "raw": "[Blocker(a=0.8, r=0, g=0, b=0, fadetime=2, block=true)]",
         "type": "blocker",
         "a": "0.8,",
@@ -4389,13 +4401,13 @@
         "block": true
     },
     {
-        "id": 611,
+        "id": 613,
         "raw": "[Delay(time=1)]",
         "type": "delay",
         "time": 1
     },
     {
-        "id": 612,
+        "id": 614,
         "raw": "[Subtitle(text=\"<color=#FF4200>（轻声哼唱）</color>\", x=300, y=350, alignment=\"center\", size=24, delay=0.04, width=700)]",
         "type": "subtitle",
         "text": "<color=#FF4200>（轻声哼唱）</color>",
@@ -4407,7 +4419,7 @@
         "width": 700
     },
     {
-        "id": 613,
+        "id": 615,
         "raw": "[Subtitle(text=\"<color=#FF4200>是什么，使我们等同？</color>\", x=300, y=350, alignment=\"center\", size=24, delay=0.04, width=700)]",
         "type": "subtitle",
         "text": "<color=#FF4200>是什么，使我们等同？</color>",
@@ -4419,12 +4431,12 @@
         "width": 700
     },
     {
-        "id": 614,
+        "id": 616,
         "raw": "[subtitle]",
         "type": "subtitle"
     },
     {
-        "id": 615,
+        "id": 617,
         "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]",
         "type": "blocker",
         "a": "0,",
@@ -4435,33 +4447,33 @@
         "block": true
     },
     {
-        "id": 616,
+        "id": 618,
         "raw": "[name=\"矿工\"]是忍受。",
         "type": "dialog",
         "speaker": "矿工",
         "content": "是忍受。"
     },
     {
-        "id": 617,
+        "id": 619,
         "raw": "[name=\"矿工\"]是虔信。",
         "type": "dialog",
         "speaker": "矿工",
         "content": "是虔信。"
     },
     {
-        "id": 618,
+        "id": 620,
         "raw": "[name=\"矿工\"]是痛苦。",
         "type": "dialog",
         "speaker": "矿工",
         "content": "是痛苦。"
     },
     {
-        "id": 619,
+        "id": 621,
         "raw": "[dialog]",
         "type": "dialog_marker"
     },
     {
-        "id": 620,
+        "id": 622,
         "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
         "type": "blocker",
         "a": "0,",
@@ -4472,7 +4484,7 @@
         "block": true
     },
     {
-        "id": 621,
+        "id": 623,
         "raw": "[Blocker(a=0.8, r=0, g=0, b=0, fadetime=1.5, block=true)]",
         "type": "blocker",
         "a": "0.8,",
@@ -4483,7 +4495,7 @@
         "block": true
     },
     {
-        "id": 622,
+        "id": 624,
         "raw": "[Subtitle(text=\"<color=#FF4200>错了，错了，错了。是爱。</color>\", x=300, y=350, alignment=\"center\", size=24, delay=0.04, width=700)]",
         "type": "subtitle",
         "text": "<color=#FF4200>错了，错了，错了。是爱。</color>",
@@ -4495,7 +4507,7 @@
         "width": 700
     },
     {
-        "id": 623,
+        "id": 625,
         "raw": "[Subtitle(text=\"<color=#FF4200>又是什么，需要被拯救？</color>\", x=300, y=350, alignment=\"center\", size=24, delay=0.04, width=700)]",
         "type": "subtitle",
         "text": "<color=#FF4200>又是什么，需要被拯救？</color>",
@@ -4507,12 +4519,12 @@
         "width": 700
     },
     {
-        "id": 624,
+        "id": 626,
         "raw": "[subtitle]",
         "type": "subtitle"
     },
     {
-        "id": 625,
+        "id": 627,
         "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]",
         "type": "blocker",
         "a": "0,",
@@ -4523,33 +4535,33 @@
         "block": true
     },
     {
-        "id": 626,
+        "id": 628,
         "raw": "[name=\"矿工\"]是灵魂？",
         "type": "dialog",
         "speaker": "矿工",
         "content": "是灵魂？"
     },
     {
-        "id": 627,
+        "id": 629,
         "raw": "[name=\"矿工\"]是灵魂。",
         "type": "dialog",
         "speaker": "矿工",
         "content": "是灵魂。"
     },
     {
-        "id": 628,
+        "id": 630,
         "raw": "[name=\"矿工\"]是灵魂！",
         "type": "dialog",
         "speaker": "矿工",
         "content": "是灵魂！"
     },
     {
-        "id": 629,
+        "id": 631,
         "raw": "[dialog]",
         "type": "dialog_marker"
     },
     {
-        "id": 630,
+        "id": 632,
         "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
         "type": "blocker",
         "a": "0,",
@@ -4560,7 +4572,7 @@
         "block": true
     },
     {
-        "id": 631,
+        "id": 633,
         "raw": "[Blocker(a=0.8, r=0, g=0, b=0, fadetime=1.5, block=true)]",
         "type": "blocker",
         "a": "0.8,",
@@ -4571,7 +4583,7 @@
         "block": true
     },
     {
-        "id": 632,
+        "id": 634,
         "raw": "[Subtitle(text=\"<color=#FF4200>是的，是的，是的。是灵魂。</color>\", x=300, y=350, alignment=\"center\", size=24, delay=0.04, width=700)]",
         "type": "subtitle",
         "text": "<color=#FF4200>是的，是的，是的。是灵魂。</color>",
@@ -4583,7 +4595,7 @@
         "width": 700
     },
     {
-        "id": 633,
+        "id": 635,
         "raw": "[Subtitle(text=\"<color=#FF4200>需要被拯救的，不是我们的身体，而是我们的灵魂。</color>\", x=300, y=350, alignment=\"center\", size=24, delay=0.04, width=700)]",
         "type": "subtitle",
         "text": "<color=#FF4200>需要被拯救的，不是我们的身体，而是我们的灵魂。</color>",
@@ -4595,7 +4607,7 @@
         "width": 700
     },
     {
-        "id": 634,
+        "id": 636,
         "raw": "[Subtitle(text=\"<color=#FF4200>爱与灵魂本是一体。爱使我们忍耐一切，相信一切，承受一切。</color>\", x=300, y=350, alignment=\"center\", size=24, delay=0.04, width=700)]",
         "type": "subtitle",
         "text": "<color=#FF4200>爱与灵魂本是一体。爱使我们忍耐一切，相信一切，承受一切。</color>",
@@ -4607,7 +4619,7 @@
         "width": 700
     },
     {
-        "id": 635,
+        "id": 637,
         "raw": "[Subtitle(text=\"<color=#FF4200>于是，我们愿意默想，并分担他人的痛苦。</color>\", x=300, y=350, alignment=\"center\", size=24, delay=0.04, width=700)]",
         "type": "subtitle",
         "text": "<color=#FF4200>于是，我们愿意默想，并分担他人的痛苦。</color>",
@@ -4619,7 +4631,7 @@
         "width": 700
     },
     {
-        "id": 636,
+        "id": 638,
         "raw": "[Subtitle(text=\"<color=#FF4200>使爱洁净，使灵魂得救。</color>\", x=300, y=350, alignment=\"center\", size=24, delay=0.04, width=700)]",
         "type": "subtitle",
         "text": "<color=#FF4200>使爱洁净，使灵魂得救。</color>",
@@ -4631,7 +4643,7 @@
         "width": 700
     },
     {
-        "id": 637,
+        "id": 639,
         "raw": "[Subtitle(text=\"<color=#FF4200>为你，为他，为一切忍耐痛苦的生灵......</color>\", x=300, y=350, alignment=\"center\", size=24, delay=0.04, width=700)]",
         "type": "subtitle",
         "text": "<color=#FF4200>为你，为他，为一切忍耐痛苦的生灵......</color>",
@@ -4643,7 +4655,7 @@
         "width": 700
     },
     {
-        "id": 638,
+        "id": 640,
         "raw": "[Subtitle(text=\"<color=#FF4200>不渴求自己的生，不决定自己的死。</color>\", x=300, y=350, alignment=\"center\", size=24, delay=0.04, width=700)]",
         "type": "subtitle",
         "text": "<color=#FF4200>不渴求自己的生，不决定自己的死。</color>",
@@ -4655,12 +4667,12 @@
         "width": 700
     },
     {
-        "id": 639,
+        "id": 641,
         "raw": "[subtitle]",
         "type": "subtitle"
     },
     {
-        "id": 640,
+        "id": 642,
         "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=1.5, block=true)]",
         "type": "blocker",
         "a": "0,",
@@ -4671,40 +4683,40 @@
         "block": true
     },
     {
-        "id": 641,
+        "id": 643,
         "raw": "[name=\"矿工\"]我忍耐。",
         "type": "dialog",
         "speaker": "矿工",
         "content": "我忍耐。"
     },
     {
-        "id": 642,
+        "id": 644,
         "raw": "[name=\"矿工\"]我相信！",
         "type": "dialog",
         "speaker": "矿工",
         "content": "我相信！"
     },
     {
-        "id": 643,
+        "id": 645,
         "raw": "[name=\"矿工\"]我承受......",
         "type": "dialog",
         "speaker": "矿工",
         "content": "我承受......"
     },
     {
-        "id": 644,
+        "id": 646,
         "raw": "[name=\"矿工\"]陛下在上——",
         "type": "dialog",
         "speaker": "矿工",
         "content": "陛下在上——"
     },
     {
-        "id": 645,
+        "id": 647,
         "raw": "[dialog]",
         "type": "dialog_marker"
     },
     {
-        "id": 646,
+        "id": 648,
         "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
         "type": "blocker",
         "a": "0,",
@@ -4715,7 +4727,7 @@
         "block": true
     },
     {
-        "id": 647,
+        "id": 649,
         "raw": "[Blocker(a=0.8, r=0, g=0, b=0, fadetime=2, block=true)]",
         "type": "blocker",
         "a": "0.8,",
@@ -4747,20 +4759,20 @@
         "block": false
     },
     {
-        "id": 650,
+        "id": 652,
         "raw": "[Delay(time=2)]",
         "type": "delay",
         "time": 2
     },
     {
-        "id": 651,
+        "id": 653,
         "raw": "[StopSound(channel=\"di\", fadetime=2)]",
         "type": "stop_sound",
         "channel": "di",
         "fadetime": 2
     },
     {
-        "id": 652,
+        "id": 654,
         "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]",
         "type": "blocker",
         "a": "1,",
@@ -4770,28 +4782,28 @@
         "block": true
     },
     {
-        "id": 653,
+        "id": 655,
         "raw": "[stopmusic(fadetime=2)]",
         "type": "stop_music",
         "fadetime": 2
     },
     {
-        "id": 654,
+        "id": 656,
         "raw": "[imgeffect]",
         "type": "image_effect"
     },
     {
-        "id": 655,
+        "id": 657,
         "raw": "[charslot]",
         "type": "charslot"
     },
     {
-        "id": 656,
+        "id": 658,
         "raw": "[Background]",
         "type": "background"
     },
     {
-        "id": 657,
+        "id": 659,
         "raw": "[Image]",
         "type": "image"
     }
