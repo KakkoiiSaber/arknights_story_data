@@ -1,0 +1,5804 @@
+[
+    {
+        "id": 1,
+        "raw": "[HEADER(key=\"title_test\", is_skippable=true, fit_mode=\"BLACK_MASK\")]",
+        "type": "header",
+        "key": "title_test",
+        "is_skippable": "true,",
+        "fit_mode": "BLACK_MASK"
+    },
+    {
+        "id": 2,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 3,
+        "raw": "[stopmusic]",
+        "type": "stop_music"
+    },
+    {
+        "id": 4,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 5,
+        "raw": "[Background(image=\"77_g3_schoolgate\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "77_g3_schoolgate.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 6,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 7,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 8,
+        "raw": "[delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 9,
+        "raw": "[playMusic(intro=\"$m_avg3_act54side_intro\",key=\"$m_avg3_act54side_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/avg/m_avg3_act54side_intro.mp3",
+        "key": "audio/sound_beta_2/music/avg/m_avg3_act54side_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 10,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 11,
+        "raw": "[Background(image=\"77_g3_schoolgate\",xScale=1.7, yScale=1.7, fadetime=1.5,screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "77_g3_schoolgate.png",
+        "xScale": "1.7,",
+        "yScale": "1.7,",
+        "fadetime": "1.5,screenadapt=\"coverall\""
+    },
+    {
+        "id": 12,
+        "raw": "[backgroundTween(xFrom = 0, xTo = -350,yFrom = 0, yTo = 150, duration=0, block=false)]",
+        "type": "background_tween",
+        "xFrom": "0,",
+        "xTo": "-350,yFrom",
+        "yTo": "150,",
+        "duration": "0,",
+        "block": false
+    },
+    {
+        "id": 13,
+        "raw": "[charslot(slot=\"l\",name=\"avg_npc_2387_1#1$3\", posfrom=\"0,0\", posto=\"0,-50\",afrom=1, ato=0,duration=0)]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_2387_1#1$3.png",
+        "posfrom": "0,0",
+        "posto": "0,-50",
+        "afrom": "1,",
+        "ato": "0,duration=0"
+    },
+    {
+        "id": 14,
+        "raw": "[charslot(slot = \"l\", action=\"zoom\", poszoom = \"0.5,0.5\", scale=1.2, duration = 0)]",
+        "type": "charslot",
+        "slot": "l",
+        "action": "zoom",
+        "poszoom": "0.5,0.5",
+        "scale": "1.2,",
+        "duration": 0
+    },
+    {
+        "id": 15,
+        "raw": "[charslot(slot=\"l\",afrom=0,ato=1,duration=1.5)]",
+        "type": "charslot",
+        "slot": "l",
+        "afrom": "0,ato=1,duration=1.5"
+    },
+    {
+        "id": 16,
+        "raw": "[charslot(slot=\"r\",name=\"avg_4219_yukari_1#7$4\", posfrom=\"0,0\", posto=\"0,-50\",afrom=1, ato=0,duration=0)]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_4219_yukari_1#7$4.png",
+        "posfrom": "0,0",
+        "posto": "0,-50",
+        "afrom": "1,",
+        "ato": "0,duration=0"
+    },
+    {
+        "id": 17,
+        "raw": "[charslot(slot = \"r\", action=\"zoom\", poszoom = \"0.5,0.5\", scale=1.2, duration = 0)]",
+        "type": "charslot",
+        "slot": "r",
+        "action": "zoom",
+        "poszoom": "0.5,0.5",
+        "scale": "1.2,",
+        "duration": 0
+    },
+    {
+        "id": 18,
+        "raw": "[charslot(slot=\"r\",afrom=0,ato=1,duration=1.5)]",
+        "type": "charslot",
+        "slot": "r",
+        "afrom": "0,ato=1,duration=1.5"
+    },
+    {
+        "id": 19,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 20,
+        "raw": "[charslot(slot = \"r\",name=\"avg_4219_yukari_1#7$4\", action=\"zoom\", poszoom = \"0.5,0.5\", scale=1.2, duration = 0,focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_4219_yukari_1#7$4.png",
+        "action": "zoom",
+        "poszoom": "0.5,0.5",
+        "scale": "1.2,",
+        "duration": "0,focus=\"r\""
+    },
+    {
+        "id": 21,
+        "raw": "[name=\"岳羽由加莉\"]（哈欠）呼啊……好困……",
+        "type": "dialog",
+        "speaker": "岳羽由加莉",
+        "content": "（哈欠）呼啊……好困……"
+    },
+    {
+        "id": 22,
+        "raw": "[name=\"岳羽由加莉\"]没有影时间，结果就是在拉特兰进行夜间调查的时候，时间还在一直向前走，真的变成熬夜了……暗影也一直冒出来……",
+        "type": "dialog",
+        "speaker": "岳羽由加莉",
+        "content": "没有影时间，结果就是在拉特兰进行夜间调查的时候，时间还在一直向前走，真的变成熬夜了……暗影也一直冒出来……"
+    },
+    {
+        "id": 23,
+        "raw": "[charslot(slot = \"l\",name=\"avg_npc_2387_1#1$3\", action=\"zoom\", poszoom = \"0.5,0.5\", scale=1.2, duration = 0,focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_2387_1#1$3.png",
+        "action": "zoom",
+        "poszoom": "0.5,0.5",
+        "scale": "1.2,",
+        "duration": "0,focus=\"l\""
+    },
+    {
+        "id": 24,
+        "raw": "[name=\"山岸风花\"]是啊，我也有点困……好在博士收集到足够的信息后就让我们回宿舍休息了，多少还是睡了一觉……",
+        "type": "dialog",
+        "speaker": "山岸风花",
+        "content": "是啊，我也有点困……好在博士收集到足够的信息后就让我们回宿舍休息了，多少还是睡了一觉……"
+    },
+    {
+        "id": 25,
+        "raw": "[charslot(slot = \"r\",name=\"avg_4219_yukari_1#4$4\", action=\"zoom\", poszoom = \"0.5,0.5\", scale=1.2, duration = 0,focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_4219_yukari_1#4$4.png",
+        "action": "zoom",
+        "poszoom": "0.5,0.5",
+        "scale": "1.2,",
+        "duration": "0,focus=\"r\""
+    },
+    {
+        "id": 26,
+        "raw": "[name=\"岳羽由加莉\"]博士还说，白天在学校还是要好好上课呢。等下得小心不能在听课时睡着了……",
+        "type": "dialog",
+        "speaker": "岳羽由加莉",
+        "content": "博士还说，白天在学校还是要好好上课呢。等下得小心不能在听课时睡着了……"
+    },
+    {
+        "id": 27,
+        "raw": "[charslot(slot = \"l\",name=\"avg_npc_2387_1#12$3\", action=\"zoom\", poszoom = \"0.5,0.5\", scale=1.2, duration = 0,focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_2387_1#12$3.png",
+        "action": "zoom",
+        "poszoom": "0.5,0.5",
+        "scale": "1.2,",
+        "duration": "0,focus=\"l\""
+    },
+    {
+        "id": 28,
+        "raw": "[name=\"山岸风花\"]咦，由加莉没看课表吗？今天上午好像是室外课程……",
+        "type": "dialog",
+        "speaker": "山岸风花",
+        "content": "咦，由加莉没看课表吗？今天上午好像是室外课程……"
+    },
+    {
+        "id": 29,
+        "raw": "[name=\"山岸风花\"]“不是铳，胜似铳”，这是教怎么用铳的课程吗……？",
+        "type": "dialog",
+        "speaker": "山岸风花",
+        "content": "“不是铳，胜似铳”，这是教怎么用铳的课程吗……？"
+    },
+    {
+        "id": 30,
+        "raw": "[charslot(slot = \"r\",name=\"avg_4219_yukari_1#4$4\", action=\"zoom\", poszoom = \"0.5,0.5\", scale=1.2, duration = 0,focus=\"n\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_4219_yukari_1#4$4.png",
+        "action": "zoom",
+        "poszoom": "0.5,0.5",
+        "scale": "1.2,",
+        "duration": "0,focus=\"n\""
+    },
+    {
+        "id": 31,
+        "raw": "[name=\"结城理\"]不好说。",
+        "type": "dialog",
+        "speaker": "结城理",
+        "content": "不好说。"
+    },
+    {
+        "id": 32,
+        "raw": "[name=\"结城理\"]街上的萨科塔，几乎每个人都会随身携带铳，感觉并不只是装饰品……",
+        "type": "dialog",
+        "speaker": "结城理",
+        "content": "街上的萨科塔，几乎每个人都会随身携带铳，感觉并不只是装饰品……"
+    },
+    {
+        "id": 33,
+        "raw": "[name=\"结城理\"]不过也多亏了这一点，没有人在意我们的召唤器。",
+        "type": "dialog",
+        "speaker": "结城理",
+        "content": "不过也多亏了这一点，没有人在意我们的召唤器。"
+    },
+    {
+        "id": 34,
+        "raw": "[charslot(slot = \"r\",name=\"avg_4219_yukari_1#8$4\", action=\"zoom\", poszoom = \"0.5,0.5\", scale=1.2, duration = 0,focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_4219_yukari_1#8$4.png",
+        "action": "zoom",
+        "poszoom": "0.5,0.5",
+        "scale": "1.2,",
+        "duration": "0,focus=\"r\""
+    },
+    {
+        "id": 35,
+        "raw": "[name=\"岳羽由加莉\"]嗯……这么说来，大家现在有带召唤器吗？",
+        "type": "dialog",
+        "speaker": "岳羽由加莉",
+        "content": "嗯……这么说来，大家现在有带召唤器吗？"
+    },
+    {
+        "id": 36,
+        "raw": "[charslot(slot = \"r\",name=\"avg_4219_yukari_1#8$4\", action=\"zoom\", poszoom = \"0.5,0.5\", scale=1.2, duration = 0,focus=\"n\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_4219_yukari_1#8$4.png",
+        "action": "zoom",
+        "poszoom": "0.5,0.5",
+        "scale": "1.2,",
+        "duration": "0,focus=\"n\""
+    },
+    {
+        "id": 37,
+        "raw": "[name=\"结城理\"]带了。",
+        "type": "dialog",
+        "speaker": "结城理",
+        "content": "带了。"
+    },
+    {
+        "id": 38,
+        "raw": "[charslot(slot = \"l\",name=\"avg_npc_2387_1#3$3\", action=\"zoom\", poszoom = \"0.5,0.5\", scale=1.2, duration = 0,focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_2387_1#3$3.png",
+        "action": "zoom",
+        "poszoom": "0.5,0.5",
+        "scale": "1.2,",
+        "duration": "0,focus=\"l\""
+    },
+    {
+        "id": 39,
+        "raw": "[name=\"山岸风花\"]带了……毕竟这里没有影时间，无法确定暗影什么时候会出现。我想，还是保险一点比较好……",
+        "type": "dialog",
+        "speaker": "山岸风花",
+        "content": "带了……毕竟这里没有影时间，无法确定暗影什么时候会出现。我想，还是保险一点比较好……"
+    },
+    {
+        "id": 40,
+        "raw": "[charslot(slot = \"r\",name=\"avg_4219_yukari_1#1$4\", action=\"zoom\", poszoom = \"0.5,0.5\", scale=1.2, duration = 0,focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_4219_yukari_1#1$4.png",
+        "action": "zoom",
+        "poszoom": "0.5,0.5",
+        "scale": "1.2,",
+        "duration": "0,focus=\"r\""
+    },
+    {
+        "id": 41,
+        "raw": "[name=\"岳羽由加莉\"]太好了，不是只有我一个人带了……",
+        "type": "dialog",
+        "speaker": "岳羽由加莉",
+        "content": "太好了，不是只有我一个人带了……"
+    },
+    {
+        "id": 42,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 43,
+        "raw": "[curtain(direction = 3,fillfrom = 0.01,fillto = 1, grad=true, fadetime=0.7)]",
+        "type": "curtain",
+        "direction": "3,fillfrom",
+        "fillto": "1,",
+        "grad": "true,",
+        "fadetime": 0.7
+    },
+    {
+        "id": 44,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 45,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 46,
+        "raw": "[Background(image=\"bg_black\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_black.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 47,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 48,
+        "raw": "[curtain(direction = 3,fillfrom = 1,fillto = 0.01, grad=true, fadetime=0)]",
+        "type": "curtain",
+        "direction": "3,fillfrom",
+        "fillto": "0.01,",
+        "grad": "true,",
+        "fadetime": 0
+    },
+    {
+        "id": 49,
+        "raw": "[curtain(direction = 7,fillfrom = 0.01,fillto = 1, grad=true, fadetime=0)]",
+        "type": "curtain",
+        "direction": "7,fillfrom",
+        "fillto": "1,",
+        "grad": "true,",
+        "fadetime": 0
+    },
+    {
+        "id": 50,
+        "raw": "[Background(image=\"77_g3_schoolgate\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "77_g3_schoolgate.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 51,
+        "raw": "[delay(time=0.5)]",
+        "type": "delay",
+        "time": 0.5
+    },
+    {
+        "id": 52,
+        "raw": "[curtain(direction = 7,fillfrom = 1,fillto = 0.01, grad=true, fadetime=0.7)]",
+        "type": "curtain",
+        "direction": "7,fillfrom",
+        "fillto": "0.01,",
+        "grad": "true,",
+        "fadetime": 0.7
+    },
+    {
+        "id": 53,
+        "raw": "[Delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 54,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2377_1#5$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2377_1#5$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 55,
+        "raw": "[name=\"班长\"]早上好！在聊什么呀？",
+        "type": "dialog",
+        "speaker": "班长",
+        "content": "早上好！在聊什么呀？"
+    },
+    {
+        "id": 56,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4219_yukari_1#1$4\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4219_yukari_1#1$4.png",
+        "focus": "m"
+    },
+    {
+        "id": 57,
+        "raw": "[multiline(name=\"岳羽由加莉\")]早上好。我们在聊……今天上午的课。",
+        "type": "dialog",
+        "speaker": "岳羽由加莉",
+        "content": "早上好。我们在聊……今天上午的课。",
+        "name": "岳羽由加莉"
+    },
+    {
+        "id": 58,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4219_yukari_1#12$4\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4219_yukari_1#12$4.png",
+        "focus": "m"
+    },
+    {
+        "id": 59,
+        "raw": "[multiline(name=\"岳羽由加莉\")]“不是铳，胜似铳”，这个课名有点看不懂……",
+        "type": "dialog",
+        "speaker": "岳羽由加莉",
+        "content": "“不是铳，胜似铳”，这个课名有点看不懂……",
+        "name": "岳羽由加莉"
+    },
+    {
+        "id": 60,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2377_1#4$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2377_1#4$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 61,
+        "raw": "[name=\"班长\"]哦，是“非铳”课呀。我想想该怎么解释……",
+        "type": "dialog",
+        "speaker": "班长",
+        "content": "哦，是“非铳”课呀。我想想该怎么解释……"
+    },
+    {
+        "id": 62,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2377_1#7$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2377_1#7$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 63,
+        "raw": "[name=\"班长\"]嗯……大家来到拉特兰，肯定更想了解铳械吧？但是，铳械学起来很难，所以学校专门给非萨科塔学生开设了“非铳”课。",
+        "type": "dialog",
+        "speaker": "班长",
+        "content": "嗯……大家来到拉特兰，肯定更想了解铳械吧？但是，铳械学起来很难，所以学校专门给非萨科塔学生开设了“非铳”课。"
+    },
+    {
+        "id": 64,
+        "raw": "[name=\"班长\"]“非铳”课和铳械课是一起上的，合称是“类铳型武装课程”。二者主要是教学器械不同，老师也会分开指导。",
+        "type": "dialog",
+        "speaker": "班长",
+        "content": "“非铳”课和铳械课是一起上的，合称是“类铳型武装课程”。二者主要是教学器械不同，老师也会分开指导。"
+    },
+    {
+        "id": 65,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2377_1#2$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2377_1#2$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 66,
+        "raw": "[name=\"班长\"]如果想要尝试铳械，其实也没问题。只是对非萨科塔学生来说，想要真正掌握还是太难了……",
+        "type": "dialog",
+        "speaker": "班长",
+        "content": "如果想要尝试铳械，其实也没问题。只是对非萨科塔学生来说，想要真正掌握还是太难了……"
+    },
+    {
+        "id": 67,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2377_1#5$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2377_1#5$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 68,
+        "raw": "[name=\"班长\"]铳械以外，我很推荐榴弹发射器哦，释放火力的手感很不错，而且也更容易上手。",
+        "type": "dialog",
+        "speaker": "班长",
+        "content": "铳械以外，我很推荐榴弹发射器哦，释放火力的手感很不错，而且也更容易上手。"
+    },
+    {
+        "id": 69,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4219_yukari_1#6$4\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4219_yukari_1#6$4.png",
+        "focus": "m"
+    },
+    {
+        "id": 70,
+        "raw": "[name=\"岳羽由加莉\"]……阿米娅？你在说什么……什么火力？",
+        "type": "dialog",
+        "speaker": "岳羽由加莉",
+        "content": "……阿米娅？你在说什么……什么火力？"
+    },
+    {
+        "id": 71,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 72,
+        "raw": "[curtain(direction = 3,fillfrom = 0.01,fillto = 1, grad=true, fadetime=0.7)]",
+        "type": "curtain",
+        "direction": "3,fillfrom",
+        "fillto": "1,",
+        "grad": "true,",
+        "fadetime": 0.7
+    },
+    {
+        "id": 73,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 74,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 75,
+        "raw": "[Background(image=\"bg_black\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_black.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 76,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 77,
+        "raw": "[curtain(direction = 3,fillfrom = 1,fillto = 0.01, grad=true, fadetime=0)]",
+        "type": "curtain",
+        "direction": "3,fillfrom",
+        "fillto": "0.01,",
+        "grad": "true,",
+        "fadetime": 0
+    },
+    {
+        "id": 78,
+        "raw": "[curtain(direction = 7,fillfrom = 0.01,fillto = 1, grad=true, fadetime=0)]",
+        "type": "curtain",
+        "direction": "7,fillfrom",
+        "fillto": "1,",
+        "grad": "true,",
+        "fadetime": 0
+    },
+    {
+        "id": 79,
+        "raw": "[Background(image=\"77_g18_firingrange\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "77_g18_firingrange.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 80,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 81,
+        "raw": "[curtain(direction = 7,fillfrom = 1,fillto = 0.01, grad=true, fadetime=0.7)]",
+        "type": "curtain",
+        "direction": "7,fillfrom",
+        "fillto": "0.01,",
+        "grad": "true,",
+        "fadetime": 0.7
+    },
+    {
+        "id": 82,
+        "raw": "[Delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 83,
+        "raw": "[CameraShake(duration=2, xstrength=30, ystrength=30, vibrato=40, randomness=60, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "2,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "40,",
+        "randomness": "60,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 84,
+        "raw": "[PlaySound(key=\"$d_avg_bulletbarrage\", volume=1,channel=\"bullet\")]",
+        "type": "play_sound",
+        "key": "audio/sound_beta_2/avg/d_avg_bulletbarrage.mp3",
+        "volume": "1,channel=\"bullet\""
+    },
+    {
+        "id": 85,
+        "raw": "[Delay(time=3)]",
+        "type": "delay",
+        "time": 3
+    },
+    {
+        "id": 86,
+        "raw": "[CameraShake(duration=0.3, xstrength=50, ystrength=50, vibrato=70, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.3,",
+        "xstrength": "50,",
+        "ystrength": "50,",
+        "vibrato": "70,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 87,
+        "raw": "[PlaySound(key=\"$grenade_explosion\", volume=1,channel=\"ex1\")]",
+        "type": "play_sound",
+        "key": "audio/sound_beta_2/avg/d_avg_grenade_explosion.mp3",
+        "volume": "1,channel=\"ex1\""
+    },
+    {
+        "id": 88,
+        "raw": "[StopSound(channel=\"ex1\",fadetime=1)]",
+        "type": "stop_sound",
+        "channel": "ex1",
+        "fadetime": 1
+    },
+    {
+        "id": 89,
+        "raw": "[Delay(time=1.01)]",
+        "type": "delay",
+        "time": 1.01
+    },
+    {
+        "id": 90,
+        "raw": "[CameraShake(duration=0.3, xstrength=50, ystrength=50, vibrato=70, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.3,",
+        "xstrength": "50,",
+        "ystrength": "50,",
+        "vibrato": "70,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 91,
+        "raw": "[PlaySound(key=\"$grenade_explosion\", volume=1,channel=\"ex2\")]",
+        "type": "play_sound",
+        "key": "audio/sound_beta_2/avg/d_avg_grenade_explosion.mp3",
+        "volume": "1,channel=\"ex2\""
+    },
+    {
+        "id": 92,
+        "raw": "[StopSound(channel=\"ex2\",fadetime=1)]",
+        "type": "stop_sound",
+        "channel": "ex2",
+        "fadetime": 1
+    },
+    {
+        "id": 93,
+        "raw": "[Delay(time=1.01)]",
+        "type": "delay",
+        "time": 1.01
+    },
+    {
+        "id": 94,
+        "raw": "[CameraShake(duration=0.3, xstrength=50, ystrength=50, vibrato=70, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.3,",
+        "xstrength": "50,",
+        "ystrength": "50,",
+        "vibrato": "70,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 95,
+        "raw": "[PlaySound(key=\"$grenade_explosion\", volume=1,channel=\"ex1\")]",
+        "type": "play_sound",
+        "key": "audio/sound_beta_2/avg/d_avg_grenade_explosion.mp3",
+        "volume": "1,channel=\"ex1\""
+    },
+    {
+        "id": 96,
+        "raw": "[StopSound(channel=\"ex3\",fadetime=1)]",
+        "type": "stop_sound",
+        "channel": "ex3",
+        "fadetime": 1
+    },
+    {
+        "id": 97,
+        "raw": "[Delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 98,
+        "raw": "[Background(image=\"77_g18_firingrange\",xScale=1.4, yScale=1.4,screenadapt=\"coverall\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "77_g18_firingrange.png",
+        "xScale": "1.4,",
+        "yScale": "1.4,screenadapt=\"coverall\",screenadapt=\"coverall\""
+    },
+    {
+        "id": 99,
+        "raw": "[backgroundTween(xFrom = 0, xTo = -150,yFrom = 0, yTo = 50, duration=0, block=false)]",
+        "type": "background_tween",
+        "xFrom": "0,",
+        "xTo": "-150,yFrom",
+        "yTo": "50,",
+        "duration": "0,",
+        "block": false
+    },
+    {
+        "id": 100,
+        "raw": "[charslot(slot=\"l\",name=\"avg_npc_2387_1#7$3\", posfrom=\"0,0\", posto=\"0,-100\",duration=0)]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_2387_1#7$3.png",
+        "posfrom": "0,0",
+        "posto": "0,-100",
+        "duration": 0
+    },
+    {
+        "id": 101,
+        "raw": "[charslot(slot = \"l\", action=\"zoom\", poszoom = \"0.5,0.5\", scale=1.3, duration = 0)]",
+        "type": "charslot",
+        "slot": "l",
+        "action": "zoom",
+        "poszoom": "0.5,0.5",
+        "scale": "1.3,",
+        "duration": 0
+    },
+    {
+        "id": 102,
+        "raw": "[name=\"山岸风花\"]……",
+        "type": "dialog",
+        "speaker": "山岸风花",
+        "content": "……"
+    },
+    {
+        "id": 103,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 104,
+        "raw": "[Background(image=\"77_g18_firingrange\",xScale=1.4, yScale=1.4,screenadapt=\"coverall\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "77_g18_firingrange.png",
+        "xScale": "1.4,",
+        "yScale": "1.4,screenadapt=\"coverall\",screenadapt=\"coverall\""
+    },
+    {
+        "id": 105,
+        "raw": "[backgroundTween(xFrom = 0, xTo = 250,yFrom = 0, yTo = 50, duration=0, block=false)]",
+        "type": "background_tween",
+        "xFrom": "0,",
+        "xTo": "250,yFrom",
+        "yTo": "50,",
+        "duration": "0,",
+        "block": false
+    },
+    {
+        "id": 106,
+        "raw": "[charslot(slot=\"r\",name=\"avg_4219_yukari_1#6$4\", posfrom=\"0,0\", posto=\"0,-100\",duration=0)]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_4219_yukari_1#6$4.png",
+        "posfrom": "0,0",
+        "posto": "0,-100",
+        "duration": 0
+    },
+    {
+        "id": 107,
+        "raw": "[charslot(slot = \"r\", action=\"zoom\", poszoom = \"0.5,0.5\", scale=1.3, duration = 0)]",
+        "type": "charslot",
+        "slot": "r",
+        "action": "zoom",
+        "poszoom": "0.5,0.5",
+        "scale": "1.3,",
+        "duration": 0
+    },
+    {
+        "id": 108,
+        "raw": "[name=\"岳羽由加莉\"]……",
+        "type": "dialog",
+        "speaker": "岳羽由加莉",
+        "content": "……"
+    },
+    {
+        "id": 109,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 110,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 111,
+        "raw": "[Background(image=\"77_g18_firingrange\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "77_g18_firingrange.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 112,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4219_yukari_1#6$4\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4219_yukari_1#6$4.png",
+        "focus": "l"
+    },
+    {
+        "id": 113,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_2387_1#7$3\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_2387_1#7$3.png",
+        "focus": "l"
+    },
+    {
+        "id": 114,
+        "raw": "[name=\"岳羽由加莉\"]竟然要在学校的课程中使用真正的铳械吗……亲眼看到，还是有点让人震惊……",
+        "type": "dialog",
+        "speaker": "岳羽由加莉",
+        "content": "竟然要在学校的课程中使用真正的铳械吗……亲眼看到，还是有点让人震惊……"
+    },
+    {
+        "id": 115,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_2387_1#2$3\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_2387_1#2$3.png",
+        "focus": "r"
+    },
+    {
+        "id": 116,
+        "raw": "[name=\"山岸风花\"]嗯……其实我还挺感兴趣的……铳械也是一种机械吧，说不定很有趣呢……",
+        "type": "dialog",
+        "speaker": "山岸风花",
+        "content": "嗯……其实我还挺感兴趣的……铳械也是一种机械吧，说不定很有趣呢……"
+    },
+    {
+        "id": 117,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4219_yukari_1#7$4\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4219_yukari_1#7$4.png",
+        "focus": "l"
+    },
+    {
+        "id": 118,
+        "raw": "[name=\"岳羽由加莉\"]风花，你真是……该说你是内心强大呢，还是好奇心旺盛呢……",
+        "type": "dialog",
+        "speaker": "岳羽由加莉",
+        "content": "风花，你真是……该说你是内心强大呢，还是好奇心旺盛呢……"
+    },
+    {
+        "id": 119,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 120,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4217_makoto_1#5$5\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4217_makoto_1#5$5.png",
+        "focus": "m"
+    },
+    {
+        "id": 121,
+        "raw": "[name=\"结城理\"]我理解风花的心情。这里的铳和我们使用的“枪”不同，是真正的武器……能有了解的机会也挺难得的。",
+        "type": "dialog",
+        "speaker": "结城理",
+        "content": "我理解风花的心情。这里的铳和我们使用的“枪”不同，是真正的武器……能有了解的机会也挺难得的。"
+    },
+    {
+        "id": 122,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 123,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 124,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\",volume=1)]",
+        "type": "play_sound",
+        "key": "audio/sound_beta_2/avg/d_gen_walk_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 125,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2377_1#2$1\",afrom=0, ato=1,duration=1.5,focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2377_1#2$1.png",
+        "afrom": "0,",
+        "ato": "1,duration=1.5,focus=\"m\""
+    },
+    {
+        "id": 126,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 127,
+        "raw": "[name=\"班长\"]我回来啦。问过卡拉老师了，虽然基础教学的部分之前已经结束了，不过你们是转学生，特殊照顾一下也没问题哦。",
+        "type": "dialog",
+        "speaker": "班长",
+        "content": "我回来啦。问过卡拉老师了，虽然基础教学的部分之前已经结束了，不过你们是转学生，特殊照顾一下也没问题哦。"
+    },
+    {
+        "id": 128,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 129,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 130,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\")]",
+        "type": "play_sound",
+        "key": "audio/sound_beta_2/avg/d_gen_walk_n.mp3"
+    },
+    {
+        "id": 131,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2382_1#1$1\",focus=\"m\",duration=2)]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2382_1#1$1.png",
+        "focus": "m",
+        "duration": 2
+    },
+    {
+        "id": 132,
+        "raw": "[delay(time=3)]",
+        "type": "delay",
+        "time": 3
+    },
+    {
+        "id": 133,
+        "raw": "[name=\"卡拉\"]这么说，你们就是Dr.{@nickname}班上新来的那几个外国转学生了。之前对铳械有了解吗？",
+        "type": "dialog",
+        "speaker": "卡拉",
+        "content": "这么说，你们就是Dr.{@nickname}班上新来的那几个外国转学生了。之前对铳械有了解吗？"
+    },
+    {
+        "id": 134,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4217_makoto_1#1$5\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4217_makoto_1#1$5.png",
+        "focus": "m"
+    },
+    {
+        "id": 135,
+        "raw": "[name=\"结城理\"]应该不太了解。",
+        "type": "dialog",
+        "speaker": "结城理",
+        "content": "应该不太了解。"
+    },
+    {
+        "id": 136,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2382_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2382_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 137,
+        "raw": "[name=\"卡拉\"]“应该”？为什么会说“应该”？",
+        "type": "dialog",
+        "speaker": "卡拉",
+        "content": "“应该”？为什么会说“应该”？"
+    },
+    {
+        "id": 138,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4217_makoto_1#1$5\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4217_makoto_1#1$5.png",
+        "focus": "m"
+    },
+    {
+        "id": 139,
+        "raw": "[name=\"结城理\"]……",
+        "type": "dialog",
+        "speaker": "结城理",
+        "content": "……"
+    },
+    {
+        "id": 140,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2382_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2382_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 141,
+        "raw": "[name=\"卡拉\"]哦？你们好像也带着铳啊……",
+        "type": "dialog",
+        "speaker": "卡拉",
+        "content": "哦？你们好像也带着铳啊……"
+    },
+    {
+        "id": 142,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4217_makoto_1#1$5\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4217_makoto_1#1$5.png",
+        "focus": "m"
+    },
+    {
+        "id": 143,
+        "raw": "[name=\"结城理\"]……这个召唤器只是外形相似而已。您要确认看看吗？",
+        "type": "dialog",
+        "speaker": "结城理",
+        "content": "……这个召唤器只是外形相似而已。您要确认看看吗？"
+    },
+    {
+        "id": 144,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2382_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2382_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 145,
+        "raw": "[name=\"卡拉\"]……外形确实很相似，但这并不是铳。你们既然都使用这种法杖，应该是学习同一种源石技艺的术师吧。",
+        "type": "dialog",
+        "speaker": "卡拉",
+        "content": "……外形确实很相似，但这并不是铳。你们既然都使用这种法杖，应该是学习同一种源石技艺的术师吧。"
+    },
+    {
+        "id": 146,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 147,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4219_yukari_1#1$4\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4219_yukari_1#1$4.png",
+        "focus": "r"
+    },
+    {
+        "id": 148,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_2387_1#3$3\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_2387_1#3$3.png",
+        "focus": "r"
+    },
+    {
+        "id": 149,
+        "raw": "[name=\"山岸风花\"]（小声）由加莉，召唤人格面具……算是源石技艺吗？按其他科目老师讲的内容来看，源石技艺是类似魔法那样的能力吧？",
+        "type": "dialog",
+        "speaker": "山岸风花",
+        "content": "（小声）由加莉，召唤人格面具……算是源石技艺吗？按其他科目老师讲的内容来看，源石技艺是类似魔法那样的能力吧？"
+    },
+    {
+        "id": 150,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4219_yukari_1#10$4\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4219_yukari_1#10$4.png",
+        "focus": "l"
+    },
+    {
+        "id": 151,
+        "raw": "[name=\"岳羽由加莉\"]（小声）应该……还是不太一样吧？不过，不知道要怎么和老师解释，先糊弄过去吧……",
+        "type": "dialog",
+        "speaker": "岳羽由加莉",
+        "content": "（小声）应该……还是不太一样吧？不过，不知道要怎么和老师解释，先糊弄过去吧……"
+    },
+    {
+        "id": 152,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4219_yukari_1#1$4\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4219_yukari_1#1$4.png",
+        "focus": "l"
+    },
+    {
+        "id": 153,
+        "raw": "[name=\"岳羽由加莉\"]嗯，没错，差不多……就是您说的那样。只是我们老家的说法可能不太一样。",
+        "type": "dialog",
+        "speaker": "岳羽由加莉",
+        "content": "嗯，没错，差不多……就是您说的那样。只是我们老家的说法可能不太一样。"
+    },
+    {
+        "id": 154,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 155,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2382_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2382_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 156,
+        "raw": "[name=\"卡拉\"]是术师的话，确实可以尝试一下。你们的源石技艺是哪一种？如果是咒法化形系或者塑能转换系，对铳械应该会好理解一些。",
+        "type": "dialog",
+        "speaker": "卡拉",
+        "content": "是术师的话，确实可以尝试一下。你们的源石技艺是哪一种？如果是咒法化形系或者塑能转换系，对铳械应该会好理解一些。"
+    },
+    {
+        "id": 157,
+        "raw": "[name=\"卡拉\"]就是指可以操纵物体，让它们动起来或者变样，或者是能发射电流、火球、能量束之类的源石技艺。",
+        "type": "dialog",
+        "speaker": "卡拉",
+        "content": "就是指可以操纵物体，让它们动起来或者变样，或者是能发射电流、火球、能量束之类的源石技艺。"
+    },
+    {
+        "id": 158,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 159,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4219_yukari_1#12$4\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4219_yukari_1#12$4.png",
+        "focus": "l"
+    },
+    {
+        "id": 160,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_2387_1#3$3\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_2387_1#3$3.png",
+        "focus": "l"
+    },
+    {
+        "id": 161,
+        "raw": "[name=\"岳羽由加莉\"]都不太一样……",
+        "type": "dialog",
+        "speaker": "岳羽由加莉",
+        "content": "都不太一样……"
+    },
+    {
+        "id": 162,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 163,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2382_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2382_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 164,
+        "raw": "[name=\"卡拉\"]好吧，总之先试试铳械的感觉吧。挑一把你们喜欢的，然后我来讲解持铳方式。",
+        "type": "dialog",
+        "speaker": "卡拉",
+        "content": "好吧，总之先试试铳械的感觉吧。挑一把你们喜欢的，然后我来讲解持铳方式。"
+    },
+    {
+        "id": 165,
+        "raw": "[name=\"卡拉\"]如果想了解不同铳的区别，也可以问梵里妮同学，她家是开制铳工坊的。阿米娅，去帮忙叫一下梵妮。",
+        "type": "dialog",
+        "speaker": "卡拉",
+        "content": "如果想了解不同铳的区别，也可以问梵里妮同学，她家是开制铳工坊的。阿米娅，去帮忙叫一下梵妮。"
+    },
+    {
+        "id": 166,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2377_1#7$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2377_1#7$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 167,
+        "raw": "[name=\"班长\"]好~",
+        "type": "dialog",
+        "speaker": "班长",
+        "content": "好~"
+    },
+    {
+        "id": 168,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 169,
+        "raw": "[curtain(direction = 3,fillfrom = 0.01,fillto = 1, grad=true, fadetime=0.7)]",
+        "type": "curtain",
+        "direction": "3,fillfrom",
+        "fillto": "1,",
+        "grad": "true,",
+        "fadetime": 0.7
+    },
+    {
+        "id": 170,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 171,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 172,
+        "raw": "[Background(image=\"bg_black\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_black.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 173,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 174,
+        "raw": "[curtain(direction = 3,fillfrom = 1,fillto = 0.01, grad=true, fadetime=0)]",
+        "type": "curtain",
+        "direction": "3,fillfrom",
+        "fillto": "0.01,",
+        "grad": "true,",
+        "fadetime": 0
+    },
+    {
+        "id": 175,
+        "raw": "[curtain(direction = 7,fillfrom = 0.01,fillto = 1, grad=true, fadetime=0)]",
+        "type": "curtain",
+        "direction": "7,fillfrom",
+        "fillto": "1,",
+        "grad": "true,",
+        "fadetime": 0
+    },
+    {
+        "id": 176,
+        "raw": "[Background(image=\"77_g18_firingrange\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "77_g18_firingrange.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 177,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 178,
+        "raw": "[curtain(direction = 7,fillfrom = 1,fillto = 0.01, grad=true, fadetime=0.7)]",
+        "type": "curtain",
+        "direction": "7,fillfrom",
+        "fillto": "0.01,",
+        "grad": "true,",
+        "fadetime": 0.7
+    },
+    {
+        "id": 179,
+        "raw": "[Delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 180,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_1779_1#1$2\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_1779_1#1$2.png",
+        "focus": "m"
+    },
+    {
+        "id": 181,
+        "raw": "[name=\"梵里妮\"]……最后，是狙击铳，射程最远，后坐力，大。铳托要，顶住肩部……这里可以，调节，长度。",
+        "type": "dialog",
+        "speaker": "梵里妮",
+        "content": "……最后，是狙击铳，射程最远，后坐力，大。铳托要，顶住肩部……这里可以，调节，长度。"
+    },
+    {
+        "id": 182,
+        "raw": "[name=\"梵里妮\"]你喜欢，哪一种？",
+        "type": "dialog",
+        "speaker": "梵里妮",
+        "content": "你喜欢，哪一种？"
+    },
+    {
+        "id": 183,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4217_makoto_1#5$5\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4217_makoto_1#5$5.png",
+        "focus": "m"
+    },
+    {
+        "id": 184,
+        "raw": "[name=\"结城理\"]（拿起一把小型铳）",
+        "type": "dialog",
+        "speaker": "结城理",
+        "content": "（拿起一把小型铳）"
+    },
+    {
+        "id": 185,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2382_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2382_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 186,
+        "raw": "[name=\"卡拉\"]和你们的召唤器很像，觉得亲切？这倒是个好开始。",
+        "type": "dialog",
+        "speaker": "卡拉",
+        "content": "和你们的召唤器很像，觉得亲切？这倒是个好开始。"
+    },
+    {
+        "id": 187,
+        "raw": "[name=\"卡拉\"]来，站到这里，注意铳口不要对人，举起来试试吧。",
+        "type": "dialog",
+        "speaker": "卡拉",
+        "content": "来，站到这里，注意铳口不要对人，举起来试试吧。"
+    },
+    {
+        "id": 188,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 189,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 190,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 191,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 192,
+        "raw": "[PlaySound(key=\"$d_avg_pistol_pickup\", volume=1)]",
+        "type": "play_sound",
+        "key": "audio/sound_beta_2/avg/d_avg_pistol_pickup.mp3",
+        "volume": 1
+    },
+    {
+        "id": 193,
+        "raw": "[Image(image=\"77_i06\", screenadapt=\"coverall\")]",
+        "type": "image",
+        "image": "77_i06.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 194,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 195,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 196,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 197,
+        "raw": "[name=\"卡拉\"]肩膀沉下去。食指现在不要放到扳机上，伸直放在铳侧。",
+        "type": "dialog",
+        "speaker": "卡拉",
+        "content": "肩膀沉下去。食指现在不要放到扳机上，伸直放在铳侧。"
+    },
+    {
+        "id": 198,
+        "raw": "[name=\"卡拉\"]手臂太紧张了。",
+        "type": "dialog",
+        "speaker": "卡拉",
+        "content": "手臂太紧张了。"
+    },
+    {
+        "id": 199,
+        "raw": "[name=\"卡拉\"]阿米娅，来，给结城示范一下手臂动作。",
+        "type": "dialog",
+        "speaker": "卡拉",
+        "content": "阿米娅，来，给结城示范一下手臂动作。"
+    },
+    {
+        "id": 200,
+        "raw": "[Image(image=\"77_i06\",fadetime=1, xScale=1.6, yScale=1.6,screenadapt=\"coverall\")]",
+        "type": "image",
+        "image": "77_i06.png",
+        "fadetime": "1,",
+        "xScale": "1.6,",
+        "yScale": "1.6,screenadapt=\"coverall\""
+    },
+    {
+        "id": 201,
+        "raw": "[ImageTween(xFrom = 0, xTo = 300,yFrom = 0, yTo = -50, duration=0, block=false)]",
+        "type": "image_tween",
+        "xFrom": "0,",
+        "xTo": "300,yFrom",
+        "yTo": "-50,",
+        "duration": "0,",
+        "block": false
+    },
+    {
+        "id": 202,
+        "raw": "[name=\"班长\"]结城同学，手肘这里可以弯一点，这样可以降低后坐力的影响，会比较灵活！",
+        "type": "dialog",
+        "speaker": "班长",
+        "content": "结城同学，手肘这里可以弯一点，这样可以降低后坐力的影响，会比较灵活！"
+    },
+    {
+        "id": 203,
+        "raw": "[Delay(time=1.01)]",
+        "type": "delay",
+        "time": 1.01
+    },
+    {
+        "id": 204,
+        "raw": "[Image(image=\"77_i06\",fadetime=1, xScale=1.6, yScale=1.6,screenadapt=\"coverall\")]",
+        "type": "image",
+        "image": "77_i06.png",
+        "fadetime": "1,",
+        "xScale": "1.6,",
+        "yScale": "1.6,screenadapt=\"coverall\""
+    },
+    {
+        "id": 205,
+        "raw": "[ImageTween(xFrom = 0, xTo = 120,yFrom = 0, yTo = 100, duration=0, block=false)]",
+        "type": "image_tween",
+        "xFrom": "0,",
+        "xTo": "120,yFrom",
+        "yTo": "100,",
+        "duration": "0,",
+        "block": false
+    },
+    {
+        "id": 206,
+        "raw": "[name=\"梵里妮\"]……脚尖，要朝着，目标方向。",
+        "type": "dialog",
+        "speaker": "梵里妮",
+        "content": "……脚尖，要朝着，目标方向。"
+    },
+    {
+        "id": 207,
+        "raw": "[name=\"梵里妮\"]手指不要，握这么紧……左手，往上来一点，压住右手。",
+        "type": "dialog",
+        "speaker": "梵里妮",
+        "content": "手指不要，握这么紧……左手，往上来一点，压住右手。"
+    },
+    {
+        "id": 208,
+        "raw": "[Delay(time=1.01)]",
+        "type": "delay",
+        "time": 1.01
+    },
+    {
+        "id": 209,
+        "raw": "[Image(image=\"77_i06\",fadetime=1, xScale=1.6, yScale=1.6,screenadapt=\"coverall\")]",
+        "type": "image",
+        "image": "77_i06.png",
+        "fadetime": "1,",
+        "xScale": "1.6,",
+        "yScale": "1.6,screenadapt=\"coverall\""
+    },
+    {
+        "id": 210,
+        "raw": "[ImageTween(xFrom = 0, xTo = 300,yFrom = 0, yTo = -50, duration=0, block=false)]",
+        "type": "image_tween",
+        "xFrom": "0,",
+        "xTo": "300,yFrom",
+        "yTo": "-50,",
+        "duration": "0,",
+        "block": false
+    },
+    {
+        "id": 211,
+        "raw": "[name=\"班长\"]结城同学，你在屏息吗？现在不用的，放松就好。",
+        "type": "dialog",
+        "speaker": "班长",
+        "content": "结城同学，你在屏息吗？现在不用的，放松就好。"
+    },
+    {
+        "id": 212,
+        "raw": "[Delay(time=1.01)]",
+        "type": "delay",
+        "time": 1.01
+    },
+    {
+        "id": 213,
+        "raw": "[Image(image=\"77_i06\",fadetime=1, xScale=1.6, yScale=1.6,screenadapt=\"coverall\")]",
+        "type": "image",
+        "image": "77_i06.png",
+        "fadetime": "1,",
+        "xScale": "1.6,",
+        "yScale": "1.6,screenadapt=\"coverall\""
+    },
+    {
+        "id": 214,
+        "raw": "[ImageTween(xFrom = 0, xTo = 120,yFrom = 0, yTo = 100, duration=0, block=false)]",
+        "type": "image_tween",
+        "xFrom": "0,",
+        "xTo": "120,yFrom",
+        "yTo": "100,",
+        "duration": "0,",
+        "block": false
+    },
+    {
+        "id": 215,
+        "raw": "[name=\"梵里妮\"]眼睛，不要闭，不看准星的眼睛，也睁开吧。",
+        "type": "dialog",
+        "speaker": "梵里妮",
+        "content": "眼睛，不要闭，不看准星的眼睛，也睁开吧。"
+    },
+    {
+        "id": 216,
+        "raw": "[Delay(time=1.01)]",
+        "type": "delay",
+        "time": 1.01
+    },
+    {
+        "id": 217,
+        "raw": "[Image(image=\"77_i06\",fadetime=1, xScale=1.5, yScale=1.5,screenadapt=\"coverall\")]",
+        "type": "image",
+        "image": "77_i06.png",
+        "fadetime": "1,",
+        "xScale": "1.5,",
+        "yScale": "1.5,screenadapt=\"coverall\""
+    },
+    {
+        "id": 218,
+        "raw": "[ImageTween(xFrom = 0, xTo = -200,yFrom = 0, yTo = -150, duration=0, block=false)]",
+        "type": "image_tween",
+        "xFrom": "0,",
+        "xTo": "-200,yFrom",
+        "yTo": "-150,",
+        "duration": "0,",
+        "block": false
+    },
+    {
+        "id": 219,
+        "raw": "[name=\"卡拉\"]不错，姿势很完美！",
+        "type": "dialog",
+        "speaker": "卡拉",
+        "content": "不错，姿势很完美！"
+    },
+    {
+        "id": 220,
+        "raw": "[name=\"卡拉\"]现在，感受铳和子弹中的源石回路，能把它们连通起来吗？",
+        "type": "dialog",
+        "speaker": "卡拉",
+        "content": "现在，感受铳和子弹中的源石回路，能把它们连通起来吗？"
+    },
+    {
+        "id": 221,
+        "raw": "[name=\"结城理\"]……",
+        "type": "dialog",
+        "speaker": "结城理",
+        "content": "……"
+    },
+    {
+        "id": 222,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 223,
+        "raw": "[Delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 224,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=false)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "1,",
+        "block": false
+    },
+    {
+        "id": 225,
+        "raw": "[PlaySound(key=\"$d_avg_keyboard_confirm\", volume=1)]",
+        "type": "play_sound",
+        "key": "audio/sound_beta_2/avg/d_avg_keyboard_confirm.mp3",
+        "volume": 1
+    },
+    {
+        "id": 226,
+        "raw": "[ImageTween(xFrom = -200, xTo = 0, yFrom =-150, yTo = -150,duration=10, block=false)]",
+        "type": "image_tween",
+        "xFrom": "-200,",
+        "xTo": "0,",
+        "yFrom": "-150,",
+        "yTo": "-150,duration=10,",
+        "block": false
+    },
+    {
+        "id": 227,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 228,
+        "raw": "[Background(image=\"77_g18_firingrange\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "77_g18_firingrange.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 229,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 230,
+        "raw": "[Image]",
+        "type": "image"
+    },
+    {
+        "id": 231,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 232,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 233,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4219_yukari_1#6$4\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4219_yukari_1#6$4.png",
+        "focus": "l"
+    },
+    {
+        "id": 234,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_2387_1#9$3\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_2387_1#9$3.png",
+        "focus": "l"
+    },
+    {
+        "id": 235,
+        "raw": "[name=\"岳羽由加莉\"]哎呀……",
+        "type": "dialog",
+        "speaker": "岳羽由加莉",
+        "content": "哎呀……"
+    },
+    {
+        "id": 236,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_2387_1#9$3\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_2387_1#9$3.png",
+        "focus": "r"
+    },
+    {
+        "id": 237,
+        "raw": "[name=\"山岸风花\"]和我们一样呢……",
+        "type": "dialog",
+        "speaker": "山岸风花",
+        "content": "和我们一样呢……"
+    },
+    {
+        "id": 238,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 239,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2382_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2382_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 240,
+        "raw": "[name=\"卡拉\"]没事，把铳放下吧。这也很正常，非萨科塔要理解铳械的击发一般都会有些困难。",
+        "type": "dialog",
+        "speaker": "卡拉",
+        "content": "没事，把铳放下吧。这也很正常，非萨科塔要理解铳械的击发一般都会有些困难。"
+    },
+    {
+        "id": 241,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 242,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4219_yukari_1#6$4\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4219_yukari_1#6$4.png",
+        "focus": "r"
+    },
+    {
+        "id": 243,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_2387_1#9$3\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_2387_1#9$3.png",
+        "focus": "r"
+    },
+    {
+        "id": 244,
+        "raw": "[name=\"山岸风花\"]对萨科塔来说很简单吗？",
+        "type": "dialog",
+        "speaker": "山岸风花",
+        "content": "对萨科塔来说很简单吗？"
+    },
+    {
+        "id": 245,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 246,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2382_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2382_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 247,
+        "raw": "[name=\"卡拉\"]不太一样。萨科塔几乎不需要去“理解”铳械回路的结构，我们和铳械交流的方式更像是共感……",
+        "type": "dialog",
+        "speaker": "卡拉",
+        "content": "不太一样。萨科塔几乎不需要去“理解”铳械回路的结构，我们和铳械交流的方式更像是共感……"
+    },
+    {
+        "id": 248,
+        "raw": "[name=\"卡拉\"]……",
+        "type": "dialog",
+        "speaker": "卡拉",
+        "content": "……"
+    },
+    {
+        "id": 249,
+        "raw": "[name=\"卡拉\"]唉，其实我有点担心。今年七年级学生初次上手铳械，进展明显比往年要慢。",
+        "type": "dialog",
+        "speaker": "卡拉",
+        "content": "唉，其实我有点担心。今年七年级学生初次上手铳械，进展明显比往年要慢。"
+    },
+    {
+        "id": 250,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2382_1#1$1\",focus=\"n\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2382_1#1$1.png",
+        "focus": "n"
+    },
+    {
+        "id": 251,
+        "raw": "[name=\"？？？\"]但最后大家还是都掌握了，不是吗？只要耐心一点，孩子们总能学会的。",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "但最后大家还是都掌握了，不是吗？只要耐心一点，孩子们总能学会的。"
+    },
+    {
+        "id": 252,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2382_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2382_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 253,
+        "raw": "[name=\"卡拉\"]安德切尔，你怎么来了，今天有低年级的课吗？",
+        "type": "dialog",
+        "speaker": "卡拉",
+        "content": "安德切尔，你怎么来了，今天有低年级的课吗？"
+    },
+    {
+        "id": 254,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 255,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 256,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\",volume=1)]",
+        "type": "play_sound",
+        "key": "audio/sound_beta_2/avg/d_gen_walk_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 257,
+        "raw": "[charslot(slot=\"m\",name=\"char_211_adnach_1#2\",afrom=0, ato=1,duration=1.5,focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "char_211_adnach_1#2.png",
+        "afrom": "0,",
+        "ato": "1,duration=1.5,focus=\"m\""
+    },
+    {
+        "id": 258,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 259,
+        "raw": "[name=\"安德切尔\"]哈哈，我只是应博士所托暂时帮忙而已。博士说今天有新来的学生在上铳武课，我就过来看看。",
+        "type": "dialog",
+        "speaker": "安德切尔",
+        "content": "哈哈，我只是应博士所托暂时帮忙而已。博士说今天有新来的学生在上铳武课，我就过来看看。"
+    },
+    {
+        "id": 260,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2382_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2382_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 261,
+        "raw": "[name=\"卡拉\"]这位是安德切尔，Dr.{@nickname}之前的学生，虽然不是教师，但他的天赋可是很厉害的，也很擅长指导学生。",
+        "type": "dialog",
+        "speaker": "卡拉",
+        "content": "这位是安德切尔，Dr.{@nickname}之前的学生，虽然不是教师，但他的天赋可是很厉害的，也很擅长指导学生。"
+    },
+    {
+        "id": 262,
+        "raw": "[charslot(slot=\"m\",name=\"char_211_adnach_1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "char_211_adnach_1.png",
+        "focus": "m"
+    },
+    {
+        "id": 263,
+        "raw": "[name=\"安德切尔\"]只是个“歪光环”而已……",
+        "type": "dialog",
+        "speaker": "安德切尔",
+        "content": "只是个“歪光环”而已……"
+    },
+    {
+        "id": 264,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2382_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2382_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 265,
+        "raw": "[name=\"卡拉\"]舛异光环却不愿意进教皇厅，连铳都不能用了，我是搞不懂你。",
+        "type": "dialog",
+        "speaker": "卡拉",
+        "content": "舛异光环却不愿意进教皇厅，连铳都不能用了，我是搞不懂你。"
+    },
+    {
+        "id": 266,
+        "raw": "[charslot(slot=\"m\",name=\"char_211_adnach_1#2\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "char_211_adnach_1#2.png",
+        "focus": "m"
+    },
+    {
+        "id": 267,
+        "raw": "[name=\"安德切尔\"]我觉得弩也很好哦？只是因为光环的样子就早早决定一生的道路，也很不划算吧。",
+        "type": "dialog",
+        "speaker": "安德切尔",
+        "content": "我觉得弩也很好哦？只是因为光环的样子就早早决定一生的道路，也很不划算吧。"
+    },
+    {
+        "id": 268,
+        "raw": "[name=\"安德切尔\"]别聊我的事啦。这几位就是结城、岳羽和山岸同学吧，你们进展到哪里了？",
+        "type": "dialog",
+        "speaker": "安德切尔",
+        "content": "别聊我的事啦。这几位就是结城、岳羽和山岸同学吧，你们进展到哪里了？"
+    },
+    {
+        "id": 269,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 270,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4219_yukari_1#6$4\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4219_yukari_1#6$4.png",
+        "focus": "r"
+    },
+    {
+        "id": 271,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_2387_1#9$3\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_2387_1#9$3.png",
+        "focus": "r"
+    },
+    {
+        "id": 272,
+        "raw": "[name=\"山岸风花\"]“感受源石回路”……到这里就没办法了。",
+        "type": "dialog",
+        "speaker": "山岸风花",
+        "content": "“感受源石回路”……到这里就没办法了。"
+    },
+    {
+        "id": 273,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4219_yukari_1#1$4\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4219_yukari_1#1$4.png",
+        "focus": "l"
+    },
+    {
+        "id": 274,
+        "raw": "[name=\"岳羽由加莉\"]不过，听起来并不是一定要学会铳械才可以，对吗？",
+        "type": "dialog",
+        "speaker": "岳羽由加莉",
+        "content": "不过，听起来并不是一定要学会铳械才可以，对吗？"
+    },
+    {
+        "id": 275,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 276,
+        "raw": "[charslot(slot=\"m\",name=\"char_211_adnach_1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "char_211_adnach_1.png",
+        "focus": "m"
+    },
+    {
+        "id": 277,
+        "raw": "[name=\"安德切尔\"]当然了。能不能使用铳械并不是能定义一个人的事，就算这里是拉特兰也一样。",
+        "type": "dialog",
+        "speaker": "安德切尔",
+        "content": "当然了。能不能使用铳械并不是能定义一个人的事，就算这里是拉特兰也一样。"
+    },
+    {
+        "id": 278,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 279,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4219_yukari_1#1$4\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4219_yukari_1#1$4.png",
+        "focus": "l"
+    },
+    {
+        "id": 280,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_2387_1#9$3\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_2387_1#9$3.png",
+        "focus": "l"
+    },
+    {
+        "id": 281,
+        "raw": "[name=\"岳羽由加莉\"]那我就要去试试那边的弓了哦，卡拉老师，可以吧？",
+        "type": "dialog",
+        "speaker": "岳羽由加莉",
+        "content": "那我就要去试试那边的弓了哦，卡拉老师，可以吧？"
+    },
+    {
+        "id": 282,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 283,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2382_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2382_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 284,
+        "raw": "[name=\"卡拉\"]当然没问题，结城，山岸，你们也想试试非铳武器吗？",
+        "type": "dialog",
+        "speaker": "卡拉",
+        "content": "当然没问题，结城，山岸，你们也想试试非铳武器吗？"
+    },
+    {
+        "id": 285,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 286,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4219_yukari_1#1$4\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4219_yukari_1#1$4.png",
+        "focus": "r"
+    },
+    {
+        "id": 287,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_2387_1#2$3\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_2387_1#2$3.png",
+        "focus": "r"
+    },
+    {
+        "id": 288,
+        "raw": "[name=\"山岸风花\"]唔……好的！其实我刚才就想试试阿米娅说的榴弹发射器了。",
+        "type": "dialog",
+        "speaker": "山岸风花",
+        "content": "唔……好的！其实我刚才就想试试阿米娅说的榴弹发射器了。"
+    },
+    {
+        "id": 289,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4219_yukari_1#6$4\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4219_yukari_1#6$4.png",
+        "focus": "l"
+    },
+    {
+        "id": 290,
+        "raw": "[name=\"岳羽由加莉\"]榴弹发射器？！风花，你真的想选那种不得了的东西啊……",
+        "type": "dialog",
+        "speaker": "岳羽由加莉",
+        "content": "榴弹发射器？！风花，你真的想选那种不得了的东西啊……"
+    },
+    {
+        "id": 291,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_2387_1#8$3\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_2387_1#8$3.png",
+        "focus": "r"
+    },
+    {
+        "id": 292,
+        "raw": "[name=\"山岸风花\"]啊哈哈……平时可没有办法接触到，机会难得嘛……",
+        "type": "dialog",
+        "speaker": "山岸风花",
+        "content": "啊哈哈……平时可没有办法接触到，机会难得嘛……"
+    },
+    {
+        "id": 293,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 294,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 295,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 296,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 297,
+        "raw": "[Image]",
+        "type": "image"
+    },
+    {
+        "id": 298,
+        "raw": "[Background(image=\"77_g18_firingrange\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "77_g18_firingrange.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 299,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 300,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 301,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 302,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4054_malist_1#1$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4054_malist_1#1$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 303,
+        "raw": "[charslot(slot=\"r\",name=\"avg_190_clour_1#3$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_190_clour_1#3$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 304,
+        "raw": "[name=\"生气的学生\"]不准再逃了！我们是一个小组的，你再逃，我就把你当成猎物捉回靶场！",
+        "type": "dialog",
+        "speaker": "生气的学生",
+        "content": "不准再逃了！我们是一个小组的，你再逃，我就把你当成猎物捉回靶场！"
+    },
+    {
+        "id": 305,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4054_malist_1#10$1\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4054_malist_1#10$1.png",
+        "focus": "l"
+    },
+    {
+        "id": 306,
+        "raw": "[name=\"无奈的学生\"]饶了我吧，不管是铳是弓还是弩我都没有兴趣啊！有这个时间让我在活动室画图行不行……",
+        "type": "dialog",
+        "speaker": "无奈的学生",
+        "content": "饶了我吧，不管是铳是弓还是弩我都没有兴趣啊！有这个时间让我在活动室画图行不行……"
+    },
+    {
+        "id": 307,
+        "raw": "[charslot(slot=\"r\",name=\"avg_190_clour_1#5$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_190_clour_1#5$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 308,
+        "raw": "[multiline(name=\"生气的学生\")]不行。你一直逃课，我们组的排名就一直低，那个人问起来会很麻烦……",
+        "type": "dialog",
+        "speaker": "生气的学生",
+        "content": "不行。你一直逃课，我们组的排名就一直低，那个人问起来会很麻烦……",
+        "name": "生气的学生"
+    },
+    {
+        "id": 309,
+        "raw": "[charslot(slot=\"l\",posfrom=\"0,0\", posto=\"-200,0\",afrom=1, ato=0,duration=1)]",
+        "type": "charslot",
+        "slot": "l",
+        "posfrom": "0,0",
+        "posto": "-200,0",
+        "afrom": "1,",
+        "ato": "0,duration=1"
+    },
+    {
+        "id": 310,
+        "raw": "[Delay(time=1.1)]",
+        "type": "delay",
+        "time": 1.1
+    },
+    {
+        "id": 311,
+        "raw": "[charslot(slot=\"r\",name=\"avg_190_clour_1#3$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_190_clour_1#3$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 312,
+        "raw": "[multiline(name=\"生气的学生\")]你怎么还想跑！",
+        "type": "dialog",
+        "speaker": "生气的学生",
+        "content": "你怎么还想跑！",
+        "name": "生气的学生"
+    },
+    {
+        "id": 313,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 314,
+        "raw": "[charslot(slot=\"r\",posfrom=\"0,0\", posto=\"-400,0\",afrom=1, ato=0,duration=1)]",
+        "type": "charslot",
+        "slot": "r",
+        "posfrom": "0,0",
+        "posto": "-400,0",
+        "afrom": "1,",
+        "ato": "0,duration=1"
+    },
+    {
+        "id": 315,
+        "raw": "[Delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 316,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 317,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4219_yukari_1#4$4\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4219_yukari_1#4$4.png",
+        "focus": "m"
+    },
+    {
+        "id": 318,
+        "raw": "[name=\"岳羽由加莉\"]虽然快下课了，但那两位同学这样追赶不会很危险吗……？",
+        "type": "dialog",
+        "speaker": "岳羽由加莉",
+        "content": "虽然快下课了，但那两位同学这样追赶不会很危险吗……？"
+    },
+    {
+        "id": 319,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2377_1#7$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2377_1#7$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 320,
+        "raw": "[name=\"班长\"]不会的，斯第奇同学对学校的建筑很了解，他不会跑到危险的地方的。",
+        "type": "dialog",
+        "speaker": "班长",
+        "content": "不会的，斯第奇同学对学校的建筑很了解，他不会跑到危险的地方的。"
+    },
+    {
+        "id": 321,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2387_1#12$3\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2387_1#12$3.png",
+        "focus": "m"
+    },
+    {
+        "id": 322,
+        "raw": "[name=\"山岸风花\"]已经要下课了吗？我还想再研究一下这个发射器呢……",
+        "type": "dialog",
+        "speaker": "山岸风花",
+        "content": "已经要下课了吗？我还想再研究一下这个发射器呢……"
+    },
+    {
+        "id": 323,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2377_1#7$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2377_1#7$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 324,
+        "raw": "[name=\"班长\"]风花喜欢的话，放学也可以来玩哦。市区里还有公共靶场，休息日也可以去。",
+        "type": "dialog",
+        "speaker": "班长",
+        "content": "风花喜欢的话，放学也可以来玩哦。市区里还有公共靶场，休息日也可以去。"
+    },
+    {
+        "id": 325,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2377_1#2$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2377_1#2$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 326,
+        "raw": "[name=\"班长\"]还好你们不用考铳武许可协议，不然要补好多课和实弹练习，可能真得把休息日全泡在靶场才行……",
+        "type": "dialog",
+        "speaker": "班长",
+        "content": "还好你们不用考铳武许可协议，不然要补好多课和实弹练习，可能真得把休息日全泡在靶场才行……"
+    },
+    {
+        "id": 327,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4219_yukari_1#6$4\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4219_yukari_1#6$4.png",
+        "focus": "m"
+    },
+    {
+        "id": 328,
+        "raw": "[name=\"岳羽由加莉\"]刚才就想问了，课上用的真的全都是实弹……？",
+        "type": "dialog",
+        "speaker": "岳羽由加莉",
+        "content": "刚才就想问了，课上用的真的全都是实弹……？"
+    },
+    {
+        "id": 329,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2377_1#7$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2377_1#7$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 330,
+        "raw": "[name=\"班长\"]是呀。其实十一、十二年级的铳械课都是实弹练习，两年内要在合法监督下打满一万三千六百发实弹，毕业才能考证呢。",
+        "type": "dialog",
+        "speaker": "班长",
+        "content": "是呀。其实十一、十二年级的铳械课都是实弹练习，两年内要在合法监督下打满一万三千六百发实弹，毕业才能考证呢。"
+    },
+    {
+        "id": 331,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4219_yukari_1#6$4\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4219_yukari_1#6$4.png",
+        "focus": "m"
+    },
+    {
+        "id": 332,
+        "raw": "[name=\"岳羽由加莉\"]真、真的是实弹啊……虽然大概知道这是拉特兰人的风俗了，但还是觉得有点可怕……",
+        "type": "dialog",
+        "speaker": "岳羽由加莉",
+        "content": "真、真的是实弹啊……虽然大概知道这是拉特兰人的风俗了，但还是觉得有点可怕……"
+    },
+    {
+        "id": 333,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2377_1#2$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2377_1#2$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 334,
+        "raw": "[name=\"班长\"]由加莉这样想也很正常啦，第一次来拉特兰的人，大多都会觉得不习惯。",
+        "type": "dialog",
+        "speaker": "班长",
+        "content": "由加莉这样想也很正常啦，第一次来拉特兰的人，大多都会觉得不习惯。"
+    },
+    {
+        "id": 335,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2377_1#3$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2377_1#3$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 336,
+        "raw": "[name=\"班长\"]我之前遇到过一位乌萨斯游客，她被冰淇淋机旁突然响起的铳声吓坏了……",
+        "type": "dialog",
+        "speaker": "班长",
+        "content": "我之前遇到过一位乌萨斯游客，她被冰淇淋机旁突然响起的铳声吓坏了……"
+    },
+    {
+        "id": 337,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2387_1#1$3\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2387_1#1$3.png",
+        "focus": "m"
+    },
+    {
+        "id": 338,
+        "raw": "[name=\"山岸风花\"]我能理解。虽然也开始习惯拉特兰的这一点了……回宿舍的路上会经过一处靶场，每天都很热闹呢。",
+        "type": "dialog",
+        "speaker": "山岸风花",
+        "content": "我能理解。虽然也开始习惯拉特兰的这一点了……回宿舍的路上会经过一处靶场，每天都很热闹呢。"
+    },
+    {
+        "id": 339,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2377_1#7$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2377_1#7$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 340,
+        "raw": "[multiline(name=\"班长\")]是呀，对拉特兰人来说，还是这种“热闹”更亲切。",
+        "type": "dialog",
+        "speaker": "班长",
+        "content": "是呀，对拉特兰人来说，还是这种“热闹”更亲切。",
+        "name": "班长"
+    },
+    {
+        "id": 341,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2377_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2377_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 342,
+        "raw": "[multiline(name=\"班长\")]如果哪一天，街上的铳声完全消失了……大概才比较可怕吧。",
+        "type": "dialog",
+        "speaker": "班长",
+        "content": "如果哪一天，街上的铳声完全消失了……大概才比较可怕吧。",
+        "name": "班长"
+    },
+    {
+        "id": 343,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 344,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 345,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 346,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 347,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 348,
+        "raw": "[Image]",
+        "type": "image"
+    },
+    {
+        "id": 349,
+        "raw": "[Background(image=\"77_g1_dorm\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "77_g1_dorm.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 350,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 351,
+        "raw": "[playMusic(intro=\"$m_avg2_act54side_intro\",key=\"$m_avg2_act54side_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/avg/m_avg2_act54side_intro.mp3",
+        "key": "audio/sound_beta_2/music/avg/m_avg2_act54side_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 352,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 353,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 354,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2388_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2388_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 355,
+        "raw": "[name=\"天田乾\"]结城哥，听说你们今天上铳械课了，有趣吗？",
+        "type": "dialog",
+        "speaker": "天田乾",
+        "content": "结城哥，听说你们今天上铳械课了，有趣吗？"
+    },
+    {
+        "id": 356,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4217_makoto_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4217_makoto_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 357,
+        "raw": "[name=\"结城理\"]挺有趣的。不过，并没有学会。",
+        "type": "dialog",
+        "speaker": "结城理",
+        "content": "挺有趣的。不过，并没有学会。"
+    },
+    {
+        "id": 358,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2387_1#12$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2387_1#12$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 359,
+        "raw": "[name=\"山岸风花\"]我们都没有学会……这里的“铳”好像比我们那边的枪械复杂很多，不懂“源石技艺”的话，连扳机都无法扣动。",
+        "type": "dialog",
+        "speaker": "山岸风花",
+        "content": "我们都没有学会……这里的“铳”好像比我们那边的枪械复杂很多，不懂“源石技艺”的话，连扳机都无法扣动。"
+    },
+    {
+        "id": 360,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2388_1#3$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2388_1#3$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 361,
+        "raw": "[name=\"天田乾\"]这样啊……我还挺在意的。今天我们班上在聊未来想要的守护铳……",
+        "type": "dialog",
+        "speaker": "天田乾",
+        "content": "这样啊……我还挺在意的。今天我们班上在聊未来想要的守护铳……"
+    },
+    {
+        "id": 362,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2388_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2388_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 363,
+        "raw": "[name=\"天田乾\"]你们知道“守护铳”吗？拉特兰，竟然会在每个萨科塔小学生十二岁的时候给他们发一把真铳……！",
+        "type": "dialog",
+        "speaker": "天田乾",
+        "content": "你们知道“守护铳”吗？拉特兰，竟然会在每个萨科塔小学生十二岁的时候给他们发一把真铳……！"
+    },
+    {
+        "id": 364,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2388_1#3$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2388_1#3$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 365,
+        "raw": "[name=\"天田乾\"]真是难以置信……但这就叫做风土人情的不同吧。嗯，我明白。",
+        "type": "dialog",
+        "speaker": "天田乾",
+        "content": "真是难以置信……但这就叫做风土人情的不同吧。嗯，我明白。"
+    },
+    {
+        "id": 366,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4219_yukari_1#12$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4219_yukari_1#12$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 367,
+        "raw": "[name=\"岳羽由加莉\"]对我们来说令人吃惊的事，在这里却是理所当然呢。十二岁就能拿到铳了啊……",
+        "type": "dialog",
+        "speaker": "岳羽由加莉",
+        "content": "对我们来说令人吃惊的事，在这里却是理所当然呢。十二岁就能拿到铳了啊……"
+    },
+    {
+        "id": 368,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2387_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2387_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 369,
+        "raw": "[name=\"山岸风花\"]天田确实也快要十二岁了呢，会得到“守护铳”吗？",
+        "type": "dialog",
+        "speaker": "山岸风花",
+        "content": "天田确实也快要十二岁了呢，会得到“守护铳”吗？"
+    },
+    {
+        "id": 370,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4219_yukari_1#6$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4219_yukari_1#6$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 371,
+        "raw": "[name=\"岳羽由加莉\"]别别别，别认真想这种事啦……再说，我们并不是萨科塔啊。",
+        "type": "dialog",
+        "speaker": "岳羽由加莉",
+        "content": "别别别，别认真想这种事啦……再说，我们并不是萨科塔啊。"
+    },
+    {
+        "id": 372,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2387_1#12$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2387_1#12$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 373,
+        "raw": "[name=\"山岸风花\"]说到这点，你们觉不觉得今天卡拉老师讲到萨科塔和铳械“交流”的时候，有点奇怪，好像在烦恼什么……",
+        "type": "dialog",
+        "speaker": "山岸风花",
+        "content": "说到这点，你们觉不觉得今天卡拉老师讲到萨科塔和铳械“交流”的时候，有点奇怪，好像在烦恼什么……"
+    },
+    {
+        "id": 374,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 375,
+        "raw": "[PlaySound(key=\"$doorknockquite\", volume=1)]",
+        "type": "play_sound",
+        "key": "audio/sound_beta_2/avg/d_gen_doorknockquite.mp3",
+        "volume": 1
+    },
+    {
+        "id": 376,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2387_1#12$1\",focus=\"n\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2387_1#12$1.png",
+        "focus": "n"
+    },
+    {
+        "id": 377,
+        "raw": "[Delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 378,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2387_1#7$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2387_1#7$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 379,
+        "raw": "[name=\"山岸风花\"]咦，会是谁……",
+        "type": "dialog",
+        "speaker": "山岸风花",
+        "content": "咦，会是谁……"
+    },
+    {
+        "id": 380,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 381,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 382,
+        "raw": "[PlaySound(key=\"$dooropenquite\", volume=1)]",
+        "type": "play_sound",
+        "key": "audio/sound_beta_2/avg/d_gen_dooropenquite.mp3",
+        "volume": 1
+    },
+    {
+        "id": 383,
+        "raw": "[charslot(slot=\"l\",name=\"avg_npc_2378_1#1$1\",afrom=0, ato=1,duration=1.5)]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_2378_1#1$1.png",
+        "afrom": "0,",
+        "ato": "1,duration=1.5"
+    },
+    {
+        "id": 384,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_2379_1#1$1\",afrom=0, ato=1,duration=1.5)]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_2379_1#1$1.png",
+        "afrom": "0,",
+        "ato": "1,duration=1.5"
+    },
+    {
+        "id": 385,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 386,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_2379_1#3$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_2379_1#3$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 387,
+        "raw": "[name=\"裘里奥\"]惊喜！亲爱的表弟表妹们，吉阿达小姐和我来看你们啦。",
+        "type": "dialog",
+        "speaker": "裘里奥",
+        "content": "惊喜！亲爱的表弟表妹们，吉阿达小姐和我来看你们啦。"
+    },
+    {
+        "id": 388,
+        "raw": "[charslot(slot=\"l\",name=\"avg_npc_2378_1#2$1\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_2378_1#2$1.png",
+        "focus": "l"
+    },
+    {
+        "id": 389,
+        "raw": "[name=\"吉阿达\"]就算是按照对执行者撒的谎，你在这里的假表亲也只有一位。",
+        "type": "dialog",
+        "speaker": "吉阿达",
+        "content": "就算是按照对执行者撒的谎，你在这里的假表亲也只有一位。"
+    },
+    {
+        "id": 390,
+        "raw": "[charslot(slot=\"l\",name=\"avg_npc_2378_1#1$1\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_2378_1#1$1.png",
+        "focus": "l"
+    },
+    {
+        "id": 391,
+        "raw": "[name=\"吉阿达\"]我们只是路过，但裘里奥说可以提前和你们讲一下志愿实践的安排。",
+        "type": "dialog",
+        "speaker": "吉阿达",
+        "content": "我们只是路过，但裘里奥说可以提前和你们讲一下志愿实践的安排。"
+    },
+    {
+        "id": 392,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_2379_1#10$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_2379_1#10$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 393,
+        "raw": "[name=\"裘里奥\"]以及给你们带两盒邻街的泡芙，以防你们还没有发现这家完美的泡芙店！",
+        "type": "dialog",
+        "speaker": "裘里奥",
+        "content": "以及给你们带两盒邻街的泡芙，以防你们还没有发现这家完美的泡芙店！"
+    },
+    {
+        "id": 394,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 395,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4217_makoto_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4217_makoto_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 396,
+        "raw": "[name=\"结城理\"]圣罗可街的泡芙店？我记得你提过。",
+        "type": "dialog",
+        "speaker": "结城理",
+        "content": "圣罗可街的泡芙店？我记得你提过。"
+    },
+    {
+        "id": 397,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 398,
+        "raw": "[charslot(slot=\"l\",name=\"avg_npc_2378_1#1$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_2378_1#1$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 399,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_2379_1#10$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_2379_1#10$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 400,
+        "raw": "[multiline(name=\"裘里奥\")]哇，你记得！",
+        "type": "dialog",
+        "speaker": "裘里奥",
+        "content": "哇，你记得！",
+        "name": "裘里奥"
+    },
+    {
+        "id": 401,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_2379_1#12$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_2379_1#12$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 402,
+        "raw": "[multiline(name=\"裘里奥\")]……但我和你提过吗？我怎么不记得了……",
+        "type": "dialog",
+        "speaker": "裘里奥",
+        "content": "……但我和你提过吗？我怎么不记得了……",
+        "name": "裘里奥"
+    },
+    {
+        "id": 403,
+        "raw": "[charslot(slot=\"l\",name=\"avg_npc_2378_1#9$1\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_2378_1#9$1.png",
+        "focus": "l"
+    },
+    {
+        "id": 404,
+        "raw": "[name=\"吉阿达\"]说正事。",
+        "type": "dialog",
+        "speaker": "吉阿达",
+        "content": "说正事。"
+    },
+    {
+        "id": 405,
+        "raw": "[charslot(slot=\"l\",name=\"avg_npc_2378_1#1$1\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_2378_1#1$1.png",
+        "focus": "l"
+    },
+    {
+        "id": 406,
+        "raw": "[name=\"吉阿达\"]殡仪堂内部已经能看到志愿实践的日程表了，你们在殡仪堂的实习是后天开始。",
+        "type": "dialog",
+        "speaker": "吉阿达",
+        "content": "殡仪堂内部已经能看到志愿实践的日程表了，你们在殡仪堂的实习是后天开始。"
+    },
+    {
+        "id": 407,
+        "raw": "[name=\"吉阿达\"]因为你填了两个相关的岗位，所以会实习两天，也就是后天和大后天。",
+        "type": "dialog",
+        "speaker": "吉阿达",
+        "content": "因为你填了两个相关的岗位，所以会实习两天，也就是后天和大后天。"
+    },
+    {
+        "id": 408,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 409,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4219_yukari_1#6$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4219_yukari_1#6$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 410,
+        "raw": "[name=\"岳羽由加莉\"]咦，不是明天吗？",
+        "type": "dialog",
+        "speaker": "岳羽由加莉",
+        "content": "咦，不是明天吗？"
+    },
+    {
+        "id": 411,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 412,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2387_1#3$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2387_1#3$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 413,
+        "raw": "[PlaySound(key=\"$d_avg_terminal\", volume=1)]",
+        "type": "play_sound",
+        "key": "audio/sound_beta_2/avg/d_avg_terminal.mp3",
+        "volume": 1
+    },
+    {
+        "id": 414,
+        "raw": "[Delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 415,
+        "raw": "[name=\"山岸风花\"]我看看……明天好像要先去甜食礼堂参加志愿实践，然后才是殡仪堂……",
+        "type": "dialog",
+        "speaker": "山岸风花",
+        "content": "我看看……明天好像要先去甜食礼堂参加志愿实践，然后才是殡仪堂……"
+    },
+    {
+        "id": 416,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 417,
+        "raw": "[charslot(slot=\"l\",name=\"avg_npc_2378_1#1$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_2378_1#1$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 418,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_2379_1#10$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_2379_1#10$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 419,
+        "raw": "[name=\"裘里奥\"]明天你们在甜食礼堂工作啊，真想翘班过去玩！",
+        "type": "dialog",
+        "speaker": "裘里奥",
+        "content": "明天你们在甜食礼堂工作啊，真想翘班过去玩！"
+    },
+    {
+        "id": 420,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 421,
+        "raw": "[charslot(slot=\"l\",name=\"avg_npc_2378_1#9$1\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_2378_1#9$1.png"
+    },
+    {
+        "id": 422,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_2379_1#10$1\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_2379_1#10$1.png"
+    },
+    {
+        "id": 423,
+        "raw": "[Delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 424,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_2379_1#12$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_2379_1#12$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 425,
+        "raw": "[multiline(name=\"裘里奥\")]——只是开玩笑，不会真的翘班啦！",
+        "type": "dialog",
+        "speaker": "裘里奥",
+        "content": "——只是开玩笑，不会真的翘班啦！",
+        "name": "裘里奥"
+    },
+    {
+        "id": 426,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_2379_1#3$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_2379_1#3$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 427,
+        "raw": "[multiline(name=\"裘里奥\")]我怎么会把葬礼全部交给吉阿达呢？",
+        "type": "dialog",
+        "speaker": "裘里奥",
+        "content": "我怎么会把葬礼全部交给吉阿达呢？",
+        "name": "裘里奥"
+    },
+    {
+        "id": 428,
+        "raw": "[charslot(slot=\"l\",name=\"avg_npc_2378_1#9$1\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_2378_1#9$1.png",
+        "focus": "l"
+    },
+    {
+        "id": 429,
+        "raw": "[name=\"吉阿达\"]……",
+        "type": "dialog",
+        "speaker": "吉阿达",
+        "content": "……"
+    },
+    {
+        "id": 430,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_2379_1#12$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_2379_1#12$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 431,
+        "raw": "[name=\"裘里奥\"]……？",
+        "type": "dialog",
+        "speaker": "裘里奥",
+        "content": "……？"
+    },
+    {
+        "id": 432,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_2379_1#5$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_2379_1#5$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 433,
+        "raw": "[multiline(name=\"裘里奥\")]对了对了，说正事对吧！",
+        "type": "dialog",
+        "speaker": "裘里奥",
+        "content": "对了对了，说正事对吧！",
+        "name": "裘里奥"
+    },
+    {
+        "id": 434,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_2379_1#10$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_2379_1#10$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 435,
+        "raw": "[multiline(name=\"裘里奥\")]吉阿达小姐直接把你们要到她的工作项目里了哦！",
+        "type": "dialog",
+        "speaker": "裘里奥",
+        "content": "吉阿达小姐直接把你们要到她的工作项目里了哦！",
+        "name": "裘里奥"
+    },
+    {
+        "id": 436,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_2379_1#10$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_2379_1#10$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 437,
+        "raw": "[name=\"裘里奥\"]虽然看起来冷淡，但吉阿达小姐完全是个细心又体贴的人啊。",
+        "type": "dialog",
+        "speaker": "裘里奥",
+        "content": "虽然看起来冷淡，但吉阿达小姐完全是个细心又体贴的人啊。"
+    },
+    {
+        "id": 438,
+        "raw": "[charslot(slot=\"l\",name=\"avg_npc_2378_1#9$1\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_2378_1#9$1.png",
+        "focus": "l"
+    },
+    {
+        "id": 439,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 440,
+        "raw": "[name=\"吉阿达\"]你在说什么？这是早就约好的事，和我体不体贴有什么关系。",
+        "type": "dialog",
+        "speaker": "吉阿达",
+        "content": "你在说什么？这是早就约好的事，和我体不体贴有什么关系。"
+    },
+    {
+        "id": 441,
+        "raw": "[charslot(slot=\"l\",name=\"avg_npc_2378_1#1$1\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_2378_1#1$1.png",
+        "focus": "l"
+    },
+    {
+        "id": 442,
+        "raw": "[name=\"吉阿达\"]结城，先和你说好，完成当天的实习工作、填好记录之后可以提前走，但不能直接翘班。我也需要对单位有交代。",
+        "type": "dialog",
+        "speaker": "吉阿达",
+        "content": "结城，先和你说好，完成当天的实习工作、填好记录之后可以提前走，但不能直接翘班。我也需要对单位有交代。"
+    },
+    {
+        "id": 443,
+        "raw": "[charslot(slot=\"l\",name=\"avg_npc_2378_1#2$1\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_2378_1#2$1.png",
+        "focus": "l"
+    },
+    {
+        "id": 444,
+        "raw": "[name=\"吉阿达\"]通知完了。你们好好休息。",
+        "type": "dialog",
+        "speaker": "吉阿达",
+        "content": "通知完了。你们好好休息。"
+    },
+    {
+        "id": 445,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_2379_1#5$1\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_2379_1#5$1.png",
+        "focus": "r"
+    },
+    {
+        "id": 446,
+        "raw": "[name=\"裘里奥\"]啊？就要走了吗，泡芙还没拆呢，不分享一下吗？",
+        "type": "dialog",
+        "speaker": "裘里奥",
+        "content": "啊？就要走了吗，泡芙还没拆呢，不分享一下吗？"
+    },
+    {
+        "id": 447,
+        "raw": "[charslot(slot=\"l\",name=\"avg_npc_2378_1#9$1\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_2378_1#9$1.png",
+        "focus": "l"
+    },
+    {
+        "id": 448,
+        "raw": "[name=\"吉阿达\"]是我要走。你想留下或者做什么都行，甜点本来也是你要买的。",
+        "type": "dialog",
+        "speaker": "吉阿达",
+        "content": "是我要走。你想留下或者做什么都行，甜点本来也是你要买的。"
+    },
+    {
+        "id": 449,
+        "raw": "[charslot(slot=\"l\",name=\"avg_npc_2378_1#2$1\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_npc_2378_1#2$1.png",
+        "focus": "l"
+    },
+    {
+        "id": 450,
+        "raw": "[name=\"吉阿达\"]再见。",
+        "type": "dialog",
+        "speaker": "吉阿达",
+        "content": "再见。"
+    },
+    {
+        "id": 451,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 452,
+        "raw": "[PlaySound(key=\"$doorclosequite\", volume=1)]",
+        "type": "play_sound",
+        "key": "audio/sound_beta_2/avg/d_gen_doorclosequite.mp3",
+        "volume": 1
+    },
+    {
+        "id": 453,
+        "raw": "[charslot(slot=\"l\",afrom=1, ato=0,duration=1.5,focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "afrom": "1,",
+        "ato": "0,duration=1.5,focus=\"l\""
+    },
+    {
+        "id": 454,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 455,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 456,
+        "raw": "[playMusic(intro=\"$mist_n_intro\", key=\"$mist_n_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/avg/m_avg_mist_n_intro.mp3",
+        "key": "audio/sound_beta_2/music/avg/m_avg_mist_n_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 457,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2388_1#9$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2388_1#9$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 458,
+        "raw": "[name=\"天田乾\"]……",
+        "type": "dialog",
+        "speaker": "天田乾",
+        "content": "……"
+    },
+    {
+        "id": 459,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2388_1#13$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2388_1#13$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 460,
+        "raw": "[name=\"天田乾\"]我都不敢说话了……",
+        "type": "dialog",
+        "speaker": "天田乾",
+        "content": "我都不敢说话了……"
+    },
+    {
+        "id": 461,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4220_kormr_1#5$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4220_kormr_1#5$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 462,
+        "raw": "[name=\"虎狼丸\"]汪……",
+        "type": "dialog",
+        "speaker": "虎狼丸",
+        "content": "汪……"
+    },
+    {
+        "id": 463,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2387_1#5$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2387_1#5$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 464,
+        "raw": "[name=\"山岸风花\"]之前听队长和裘里奥先生说，吉阿达小姐是个热心温柔的人……她，是心情不太好吗？",
+        "type": "dialog",
+        "speaker": "山岸风花",
+        "content": "之前听队长和裘里奥先生说，吉阿达小姐是个热心温柔的人……她，是心情不太好吗？"
+    },
+    {
+        "id": 465,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2379_1#7$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2379_1#7$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 466,
+        "raw": "[name=\"裘里奥\"]唉……应该是我的问题。抱歉啊，大概是我惹吉阿达生气了……",
+        "type": "dialog",
+        "speaker": "裘里奥",
+        "content": "唉……应该是我的问题。抱歉啊，大概是我惹吉阿达生气了……"
+    },
+    {
+        "id": 467,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2379_1#7$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2379_1#7$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 468,
+        "raw": "[name=\"裘里奥\"]她最近压力很大……",
+        "type": "dialog",
+        "speaker": "裘里奥",
+        "content": "她最近压力很大……"
+    },
+    {
+        "id": 469,
+        "raw": "[name=\"裘里奥\"]本来我们在工作上就有矛盾，然后又有志愿实践的事。学生的实习其实帮不上什么忙啊，只会增加带教和讲解的工作量而已。",
+        "type": "dialog",
+        "speaker": "裘里奥",
+        "content": "本来我们在工作上就有矛盾，然后又有志愿实践的事。学生的实习其实帮不上什么忙啊，只会增加带教和讲解的工作量而已。"
+    },
+    {
+        "id": 470,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4219_yukari_1#6$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4219_yukari_1#6$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 471,
+        "raw": "[name=\"岳羽由加莉\"]……",
+        "type": "dialog",
+        "speaker": "岳羽由加莉",
+        "content": "……"
+    },
+    {
+        "id": 472,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2379_1#5$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2379_1#5$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 473,
+        "raw": "[name=\"裘里奥\"]啊！我是不是又说错话了，不是怪你们的意思！完全没有！只是想解释一下吉阿达的情况……",
+        "type": "dialog",
+        "speaker": "裘里奥",
+        "content": "啊！我是不是又说错话了，不是怪你们的意思！完全没有！只是想解释一下吉阿达的情况……"
+    },
+    {
+        "id": 474,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2379_1#11$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2379_1#11$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 475,
+        "raw": "[name=\"裘里奥\"]其实我们之前在讨论葬礼场地布置的事，吉阿达和我解释了她的想法，但最后我还是不想改……",
+        "type": "dialog",
+        "speaker": "裘里奥",
+        "content": "其实我们之前在讨论葬礼场地布置的事，吉阿达和我解释了她的想法，但最后我还是不想改……"
+    },
+    {
+        "id": 476,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2379_1#12$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2379_1#12$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 477,
+        "raw": "[name=\"裘里奥\"]她气笑了，我还以为是被我的方案逗笑的，问她是不是很喜欢，结果就……",
+        "type": "dialog",
+        "speaker": "裘里奥",
+        "content": "她气笑了，我还以为是被我的方案逗笑的，问她是不是很喜欢，结果就……"
+    },
+    {
+        "id": 478,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2379_1#11$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2379_1#11$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 479,
+        "raw": "[name=\"裘里奥\"]我本来也是想趁着来看你们，一起吃点甜点，让她开心点的……",
+        "type": "dialog",
+        "speaker": "裘里奥",
+        "content": "我本来也是想趁着来看你们，一起吃点甜点，让她开心点的……"
+    },
+    {
+        "id": 480,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4219_yukari_1#7$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4219_yukari_1#7$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 481,
+        "raw": "[name=\"岳羽由加莉\"]嗯……裘里奥先生的心意还是好的……",
+        "type": "dialog",
+        "speaker": "岳羽由加莉",
+        "content": "嗯……裘里奥先生的心意还是好的……"
+    },
+    {
+        "id": 482,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2379_1#12$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2379_1#12$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 483,
+        "raw": "[name=\"裘里奥\"]但是我做得很不好吗？",
+        "type": "dialog",
+        "speaker": "裘里奥",
+        "content": "但是我做得很不好吗？"
+    },
+    {
+        "id": 484,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2387_1#12$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2387_1#12$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 485,
+        "raw": "[name=\"山岸风花\"]唔……也不能完全这么说吧，毕竟人的性格和行事方式不同……",
+        "type": "dialog",
+        "speaker": "山岸风花",
+        "content": "唔……也不能完全这么说吧，毕竟人的性格和行事方式不同……"
+    },
+    {
+        "id": 486,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2387_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2387_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 487,
+        "raw": "[name=\"山岸风花\"]不如说，我会觉得你们两位关系挺好的呢。",
+        "type": "dialog",
+        "speaker": "山岸风花",
+        "content": "不如说，我会觉得你们两位关系挺好的呢。"
+    },
+    {
+        "id": 488,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2379_1#5$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2379_1#5$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 489,
+        "raw": "[name=\"裘里奥\"]咦？真的吗？其实她没有生气？",
+        "type": "dialog",
+        "speaker": "裘里奥",
+        "content": "咦？真的吗？其实她没有生气？"
+    },
+    {
+        "id": 490,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4219_yukari_1#7$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4219_yukari_1#7$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 491,
+        "raw": "[name=\"岳羽由加莉\"]绝对生气了。",
+        "type": "dialog",
+        "speaker": "岳羽由加莉",
+        "content": "绝对生气了。"
+    },
+    {
+        "id": 492,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2379_1#7$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2379_1#7$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 493,
+        "raw": "[name=\"裘里奥\"]唉……",
+        "type": "dialog",
+        "speaker": "裘里奥",
+        "content": "唉……"
+    },
+    {
+        "id": 494,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2387_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2387_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 495,
+        "raw": "[name=\"山岸风花\"]但是，吉阿达小姐确实和裘里奥先生一起买了泡芙，然后一起来到了这里看望我们……对吧？",
+        "type": "dialog",
+        "speaker": "山岸风花",
+        "content": "但是，吉阿达小姐确实和裘里奥先生一起买了泡芙，然后一起来到了这里看望我们……对吧？"
+    },
+    {
+        "id": 496,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2387_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2387_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 497,
+        "raw": "[name=\"山岸风花\"]虽然态度有点冷淡，但如果真的讨厌你，我想她是不会愿意和你一起做这些事的。",
+        "type": "dialog",
+        "speaker": "山岸风花",
+        "content": "虽然态度有点冷淡，但如果真的讨厌你，我想她是不会愿意和你一起做这些事的。"
+    },
+    {
+        "id": 498,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2379_1#11$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2379_1#11$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 499,
+        "raw": "[name=\"裘里奥\"]唉，其实我也不想总是惹她生气。只是，偏偏在她最看重的事上，我却是一定不能……不想让步的。",
+        "type": "dialog",
+        "speaker": "裘里奥",
+        "content": "唉，其实我也不想总是惹她生气。只是，偏偏在她最看重的事上，我却是一定不能……不想让步的。"
+    },
+    {
+        "id": 500,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2387_1#3$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2387_1#3$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 501,
+        "raw": "[name=\"山岸风花\"]这样吗……",
+        "type": "dialog",
+        "speaker": "山岸风花",
+        "content": "这样吗……"
+    },
+    {
+        "id": 502,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2379_1#10$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2379_1#10$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 503,
+        "raw": "[name=\"裘里奥\"]往好处想，我和她终归都是想办好这场葬礼，所以之后我们肯定能和好的啦。",
+        "type": "dialog",
+        "speaker": "裘里奥",
+        "content": "往好处想，我和她终归都是想办好这场葬礼，所以之后我们肯定能和好的啦。"
+    },
+    {
+        "id": 504,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4220_kormr_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4220_kormr_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 505,
+        "raw": "[name=\"虎狼丸\"]汪嗷！",
+        "type": "dialog",
+        "speaker": "虎狼丸",
+        "content": "汪嗷！"
+    },
+    {
+        "id": 506,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2379_1#10$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2379_1#10$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 507,
+        "raw": "[name=\"裘里奥\"]虎狼丸也同意，对吧？",
+        "type": "dialog",
+        "speaker": "裘里奥",
+        "content": "虎狼丸也同意，对吧？"
+    },
+    {
+        "id": 508,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2379_1#3$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2379_1#3$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 509,
+        "raw": "[name=\"裘里奥\"]不用担心我们啦，你们自己也有在烦恼的事吧？放心，我们可是大人，会处理好的！",
+        "type": "dialog",
+        "speaker": "裘里奥",
+        "content": "不用担心我们啦，你们自己也有在烦恼的事吧？放心，我们可是大人，会处理好的！"
+    },
+    {
+        "id": 510,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2379_1#1$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2379_1#1$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 511,
+        "raw": "[name=\"裘里奥\"]我也该走啦。明天你们还要去甜食礼堂实习对吧？不要兴奋到睡不着哦。",
+        "type": "dialog",
+        "speaker": "裘里奥",
+        "content": "我也该走啦。明天你们还要去甜食礼堂实习对吧？不要兴奋到睡不着哦。"
+    },
+    {
+        "id": 512,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4217_makoto_1#13$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4217_makoto_1#13$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 513,
+        "raw": "[name=\"结城理\"]泡芙，不吃了吗？",
+        "type": "dialog",
+        "speaker": "结城理",
+        "content": "泡芙，不吃了吗？"
+    },
+    {
+        "id": 514,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2379_1#10$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2379_1#10$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 515,
+        "raw": "[name=\"裘里奥\"]啊……没事，你们吃吧。本来也是给你们买的嘛，我就不和小孩子抢了！",
+        "type": "dialog",
+        "speaker": "裘里奥",
+        "content": "啊……没事，你们吃吧。本来也是给你们买的嘛，我就不和小孩子抢了！"
+    },
+    {
+        "id": 516,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2379_1#10$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2379_1#10$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 517,
+        "raw": "[name=\"裘里奥\"]总之，你们照顾好自己哦。后天见啦。",
+        "type": "dialog",
+        "speaker": "裘里奥",
+        "content": "总之，你们照顾好自己哦。后天见啦。"
+    },
+    {
+        "id": 518,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 519,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 520,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 521,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 522,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 523,
+        "raw": "[Background(image=\"77_g12_street_night\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "77_g12_street_night.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 524,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 525,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 526,
+        "raw": "[PlayMusic(intro=\"$ponder_intro\", key=\"$ponder_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act15d0d0/m_avg_ponder_intro.mp3",
+        "key": "audio/sound_beta_2/music/act15d0d0/m_avg_ponder_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 527,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 528,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4217_makoto_1#1$3\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4217_makoto_1#1$3.png",
+        "focus": "r"
+    },
+    {
+        "id": 529,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_2388_1#3$2\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_2388_1#3$2.png",
+        "focus": "r"
+    },
+    {
+        "id": 530,
+        "raw": "[name=\"天田乾\"]博士今天不来吗？",
+        "type": "dialog",
+        "speaker": "天田乾",
+        "content": "博士今天不来吗？"
+    },
+    {
+        "id": 531,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4217_makoto_1#1$3\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4217_makoto_1#1$3.png",
+        "focus": "l"
+    },
+    {
+        "id": 532,
+        "raw": "[name=\"结城理\"]博士说既然确认了拉特兰人看不见暗影，之后的夜间行动就交给我们，收集到新的情报就报告过去。博士自己好像有别的工作要做。",
+        "type": "dialog",
+        "speaker": "结城理",
+        "content": "博士说既然确认了拉特兰人看不见暗影，之后的夜间行动就交给我们，收集到新的情报就报告过去。博士自己好像有别的工作要做。"
+    },
+    {
+        "id": 533,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_2388_1#3$2\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_2388_1#3$2.png",
+        "focus": "r"
+    },
+    {
+        "id": 534,
+        "raw": "[name=\"天田乾\"]好吧。说起来，博士给人的感觉有点神秘呢……博士真的只是普通的教师吗？",
+        "type": "dialog",
+        "speaker": "天田乾",
+        "content": "好吧。说起来，博士给人的感觉有点神秘呢……博士真的只是普通的教师吗？"
+    },
+    {
+        "id": 535,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4217_makoto_1#2$3\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4217_makoto_1#2$3.png",
+        "focus": "l"
+    },
+    {
+        "id": 536,
+        "raw": "[name=\"结城理\"]（摇头）",
+        "type": "dialog",
+        "speaker": "结城理",
+        "content": "（摇头）"
+    },
+    {
+        "id": 537,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4217_makoto_1#1$3\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4217_makoto_1#1$3.png",
+        "focus": "l"
+    },
+    {
+        "id": 538,
+        "raw": "[name=\"结城理\"]我从一开始就不觉得博士是普通的教师。",
+        "type": "dialog",
+        "speaker": "结城理",
+        "content": "我从一开始就不觉得博士是普通的教师。"
+    },
+    {
+        "id": 539,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_2388_1#1$2\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_2388_1#1$2.png",
+        "focus": "r"
+    },
+    {
+        "id": 540,
+        "raw": "[name=\"天田乾\"]嗯……博士几乎立刻就理解了“不同世界”的事，而且，也很快想到了利用风花姐的能力来定位门扉的办法……",
+        "type": "dialog",
+        "speaker": "天田乾",
+        "content": "嗯……博士几乎立刻就理解了“不同世界”的事，而且，也很快想到了利用风花姐的能力来定位门扉的办法……"
+    },
+    {
+        "id": 541,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 542,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4219_yukari_1#1$2\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4219_yukari_1#1$2.png",
+        "focus": "r"
+    },
+    {
+        "id": 543,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_2387_1#7$2\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_2387_1#7$2.png",
+        "focus": "r"
+    },
+    {
+        "id": 544,
+        "raw": "[name=\"山岸风花\"]……咦，什么？在说我吗？",
+        "type": "dialog",
+        "speaker": "山岸风花",
+        "content": "……咦，什么？在说我吗？"
+    },
+    {
+        "id": 545,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4219_yukari_1#10$2\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4219_yukari_1#10$2.png",
+        "focus": "l"
+    },
+    {
+        "id": 546,
+        "raw": "[name=\"岳羽由加莉\"]只是在聊博士啦。不过风花，你好像有心事……？",
+        "type": "dialog",
+        "speaker": "岳羽由加莉",
+        "content": "只是在聊博士啦。不过风花，你好像有心事……？"
+    },
+    {
+        "id": 547,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_2387_1#10$2\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_2387_1#10$2.png",
+        "focus": "r"
+    },
+    {
+        "id": 548,
+        "raw": "[name=\"山岸风花\"]嗯……",
+        "type": "dialog",
+        "speaker": "山岸风花",
+        "content": "嗯……"
+    },
+    {
+        "id": 549,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4219_yukari_1#4$2\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4219_yukari_1#4$2.png",
+        "focus": "l"
+    },
+    {
+        "id": 550,
+        "raw": "[name=\"岳羽由加莉\"]……晚上裘里奥先生跟我们告别的时候，你好像想对他说什么……是这件事吗？",
+        "type": "dialog",
+        "speaker": "岳羽由加莉",
+        "content": "……晚上裘里奥先生跟我们告别的时候，你好像想对他说什么……是这件事吗？"
+    },
+    {
+        "id": 551,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_2387_1#10$2\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_2387_1#10$2.png",
+        "focus": "r"
+    },
+    {
+        "id": 552,
+        "raw": "[name=\"山岸风花\"]由加莉真敏锐呢……",
+        "type": "dialog",
+        "speaker": "山岸风花",
+        "content": "由加莉真敏锐呢……"
+    },
+    {
+        "id": 553,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_2387_1#5$2\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_2387_1#5$2.png",
+        "focus": "r"
+    },
+    {
+        "id": 554,
+        "raw": "[name=\"山岸风花\"]我确实在想吉阿达小姐和裘里奥先生的事。总觉得他们两位可以好好相处的……",
+        "type": "dialog",
+        "speaker": "山岸风花",
+        "content": "我确实在想吉阿达小姐和裘里奥先生的事。总觉得他们两位可以好好相处的……"
+    },
+    {
+        "id": 555,
+        "raw": "[name=\"山岸风花\"]虽然吉阿达小姐对裘里奥先生冷冰冰的，但我觉得她可能也很难受。",
+        "type": "dialog",
+        "speaker": "山岸风花",
+        "content": "虽然吉阿达小姐对裘里奥先生冷冰冰的，但我觉得她可能也很难受。"
+    },
+    {
+        "id": 556,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_2387_1#10$2\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_2387_1#10$2.png",
+        "focus": "r"
+    },
+    {
+        "id": 557,
+        "raw": "[name=\"山岸风花\"]不知道怎么好好传达自己的心情，结果被认为是讨厌对方，这种事情……太难过了。",
+        "type": "dialog",
+        "speaker": "山岸风花",
+        "content": "不知道怎么好好传达自己的心情，结果被认为是讨厌对方，这种事情……太难过了。"
+    },
+    {
+        "id": 558,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4219_yukari_1#1$2\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4219_yukari_1#1$2.png",
+        "focus": "l"
+    },
+    {
+        "id": 559,
+        "raw": "[name=\"岳羽由加莉\"]……风花真温柔啊。不过，就像裘里奥先生说的，他们两个都是大人了，应该能处理好的。风花你不用太担心……",
+        "type": "dialog",
+        "speaker": "岳羽由加莉",
+        "content": "……风花真温柔啊。不过，就像裘里奥先生说的，他们两个都是大人了，应该能处理好的。风花你不用太担心……"
+    },
+    {
+        "id": 560,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_2387_1#5$2\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_2387_1#5$2.png",
+        "focus": "r"
+    },
+    {
+        "id": 561,
+        "raw": "[name=\"山岸风花\"]嗯……",
+        "type": "dialog",
+        "speaker": "山岸风花",
+        "content": "嗯……"
+    },
+    {
+        "id": 562,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 563,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 564,
+        "raw": "[PlaySound(key=\"$d_avg_explosion\", volume=0.8)]",
+        "type": "play_sound",
+        "key": "audio/sound_beta_2/avg/d_avg_explosion.mp3",
+        "volume": 0.8
+    },
+    {
+        "id": 565,
+        "raw": "[Delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 566,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4219_yukari_1#6$2\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4219_yukari_1#6$2.png",
+        "focus": "m"
+    },
+    {
+        "id": 567,
+        "raw": "[name=\"岳羽由加莉\"]……等等，这是什么声音？虽然已经了解拉特兰的风格了，但在半夜发出这么大的声音是不是也有点夸张了……！",
+        "type": "dialog",
+        "speaker": "岳羽由加莉",
+        "content": "……等等，这是什么声音？虽然已经了解拉特兰的风格了，但在半夜发出这么大的声音是不是也有点夸张了……！"
+    },
+    {
+        "id": 568,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 569,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4217_makoto_1#1$3\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4217_makoto_1#1$3.png",
+        "focus": "r"
+    },
+    {
+        "id": 570,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_2388_1#2$2\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_2388_1#2$2.png",
+        "focus": "r"
+    },
+    {
+        "id": 571,
+        "raw": "[name=\"天田乾\"]噢！课上好像讲过，拉特兰人能从铳响中感受到与主的连接，获得内心的安宁什么的……",
+        "type": "dialog",
+        "speaker": "天田乾",
+        "content": "噢！课上好像讲过，拉特兰人能从铳响中感受到与主的连接，获得内心的安宁什么的……"
+    },
+    {
+        "id": 572,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 573,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4219_yukari_1#12$2\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4219_yukari_1#12$2.png",
+        "focus": "l"
+    },
+    {
+        "id": 574,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_2387_1#7$2\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_2387_1#7$2.png",
+        "focus": "l"
+    },
+    {
+        "id": 575,
+        "raw": "[name=\"岳羽由加莉\"]说是这么说，这声音也太大了吧？这样真能安宁吗……",
+        "type": "dialog",
+        "speaker": "岳羽由加莉",
+        "content": "说是这么说，这声音也太大了吧？这样真能安宁吗……"
+    },
+    {
+        "id": 576,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_2387_1#11$2\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_2387_1#11$2.png",
+        "focus": "r"
+    },
+    {
+        "id": 577,
+        "raw": "[name=\"山岸风花\"]等等……我好像感觉到了暗影的反应，就在前面！这个声音，说不定不是市民发出的，是暗影在大闹……！",
+        "type": "dialog",
+        "speaker": "山岸风花",
+        "content": "等等……我好像感觉到了暗影的反应，就在前面！这个声音，说不定不是市民发出的，是暗影在大闹……！"
+    },
+    {
+        "id": 578,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4219_yukari_1#6$2\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4219_yukari_1#6$2.png",
+        "focus": "l"
+    },
+    {
+        "id": 579,
+        "raw": "[name=\"岳羽由加莉\"]不会吧，暗影……！前面好像是靶场，在那里大闹吗……",
+        "type": "dialog",
+        "speaker": "岳羽由加莉",
+        "content": "不会吧，暗影……！前面好像是靶场，在那里大闹吗……"
+    },
+    {
+        "id": 580,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4219_yukari_1#9$2\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4219_yukari_1#9$2.png",
+        "focus": "l"
+    },
+    {
+        "id": 581,
+        "raw": "[name=\"岳羽由加莉\"]这个时间点，不知道靶场里还有没有人……如果被袭击了就不好了！",
+        "type": "dialog",
+        "speaker": "岳羽由加莉",
+        "content": "这个时间点，不知道靶场里还有没有人……如果被袭击了就不好了！"
+    },
+    {
+        "id": 582,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 583,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4217_makoto_1#8$3\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4217_makoto_1#8$3.png",
+        "focus": "l"
+    },
+    {
+        "id": 584,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_2388_1#13$2\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_2388_1#13$2.png",
+        "focus": "l"
+    },
+    {
+        "id": 585,
+        "raw": "[name=\"结城理\"]赶紧过去看看吧。",
+        "type": "dialog",
+        "speaker": "结城理",
+        "content": "赶紧过去看看吧。"
+    },
+    {
+        "id": 586,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 587,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 588,
+        "raw": "[PlaySound(key=\"$d_avg_crowdrun\",volume=0.6)]",
+        "type": "play_sound",
+        "key": "audio/sound_beta_2/avg/d_avg_crowdrun.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 589,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 590,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 591,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 592,
+        "raw": "[Background(image=\"77_g19_firingrange_night\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "77_g19_firingrange_night.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 593,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 594,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=3, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "3,",
+        "block": true
+    },
+    {
+        "id": 595,
+        "raw": "[playMusic(intro=\"$plot_intro\", key=\"$plot_loop\", volume=0.6)]",
+        "type": "play_music",
+        "intro": "audio/sound_beta_2/music/act9d0d0/m_avg_plot_intro.mp3",
+        "key": "audio/sound_beta_2/music/act9d0d0/m_avg_plot_loop.mp3",
+        "volume": 0.6
+    },
+    {
+        "id": 596,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 597,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4220_kormr_1#2$1\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4220_kormr_1#2$1.png",
+        "focus": "m"
+    },
+    {
+        "id": 598,
+        "raw": "[name=\"虎狼丸\"]汪嗷！",
+        "type": "dialog",
+        "speaker": "虎狼丸",
+        "content": "汪嗷！"
+    },
+    {
+        "id": 599,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 600,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 601,
+        "raw": "[PlaySound(key=\"$d_avg_magicchange\", volume=1)]",
+        "type": "play_sound",
+        "key": "audio/sound_beta_2/avg/d_avg_magicchange.mp3",
+        "volume": 1
+    },
+    {
+        "id": 602,
+        "raw": "[PlaySound(key=\"$d_avg_atmosphere_horror\",channel=\"horror\",loop=true,volume=0.6)]",
+        "type": "play_sound",
+        "key": "audio/sound_beta_2/avg/d_avg_atmosphere_horror.mp3",
+        "channel": "horror",
+        "loop": "true,volume=0.6"
+    },
+    {
+        "id": 603,
+        "raw": "[stopsound(channel=\"horror\",fadetime=5)]",
+        "type": "stop_sound",
+        "channel": "horror",
+        "fadetime": 5
+    },
+    {
+        "id": 604,
+        "raw": "[CameraEffect(effect=\"Chaos\",from = \"chaos_none\", to = \"chaos_hard\", fadetime =1.5, keep=true)]",
+        "type": "camera_effect",
+        "effect": "Chaos",
+        "from": "chaos_none",
+        "to": "chaos_hard",
+        "fadetime": "1.5,",
+        "keep": true
+    },
+    {
+        "id": 605,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 606,
+        "raw": "[Background(image=\"77_g20_firingrange_dark\",screenadapt=\"coverall\", fadetime=1)]",
+        "type": "background",
+        "image": "77_g20_firingrange_dark.png",
+        "screenadapt": "coverall",
+        "fadetime": 1
+    },
+    {
+        "id": 607,
+        "raw": "[Delay(time=1.2)]",
+        "type": "delay",
+        "time": 1.2
+    },
+    {
+        "id": 608,
+        "raw": "[CameraEffect(effect=\"Chaos\", keep= false, fadetime =1.5)]",
+        "type": "camera_effect",
+        "effect": "Chaos",
+        "keep": "false,",
+        "fadetime": 1.5
+    },
+    {
+        "id": 609,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 610,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4219_yukari_1#5$2\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4219_yukari_1#5$2.png",
+        "focus": "l"
+    },
+    {
+        "id": 611,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_2387_1#11$2\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_2387_1#11$2.png",
+        "focus": "l"
+    },
+    {
+        "id": 612,
+        "raw": "[name=\"岳羽由加莉\"]果然是暗影……！",
+        "type": "dialog",
+        "speaker": "岳羽由加莉",
+        "content": "果然是暗影……！"
+    },
+    {
+        "id": 613,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_2387_1#11$2\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_2387_1#11$2.png",
+        "focus": "r"
+    },
+    {
+        "id": 614,
+        "raw": "[name=\"山岸风花\"]不太对劲……它们在追赶什么？",
+        "type": "dialog",
+        "speaker": "山岸风花",
+        "content": "不太对劲……它们在追赶什么？"
+    },
+    {
+        "id": 615,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_2387_1#7$2\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_2387_1#7$2.png",
+        "focus": "r"
+    },
+    {
+        "id": 616,
+        "raw": "[name=\"山岸风花\"]不对，不是追赶，是……有人在驱赶它们？",
+        "type": "dialog",
+        "speaker": "山岸风花",
+        "content": "不对，不是追赶，是……有人在驱赶它们？"
+    },
+    {
+        "id": 617,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 618,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 619,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 620,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 621,
+        "raw": "[Image(image=\"77_i07\", xScale=1.6, yScale=1.6, screenadapt=\"coverall\")]",
+        "type": "image",
+        "image": "77_i07.png",
+        "xScale": "1.6,",
+        "yScale": "1.6,",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 622,
+        "raw": "[Background(image=\"bg_black\", screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "bg_black.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 623,
+        "raw": "[ImageTween(xFrom = 0, xTo = -100, yFrom=0, yTo=-90,duration=0, block=false)]",
+        "type": "image_tween",
+        "xFrom": "0,",
+        "xTo": "-100,",
+        "yFrom": "0,",
+        "yTo": "-90,duration=0,",
+        "block": false
+    },
+    {
+        "id": 624,
+        "raw": "[ImageTween(xFrom = -100, xTo = 70,duration=30, block=false)]",
+        "type": "image_tween",
+        "xFrom": "-100,",
+        "xTo": "70,duration=30,",
+        "block": false
+    },
+    {
+        "id": 625,
+        "raw": "[PlaySound(key=\"$d_avg_ascend_blastoff\", volume=1,channel=\"aigis01\")]",
+        "type": "play_sound",
+        "key": "audio/sound_beta_2/avg/d_avg_ascend_blastoff.mp3",
+        "volume": "1,channel=\"aigis01\""
+    },
+    {
+        "id": 626,
+        "raw": "[Delay(time=1.5)]",
+        "type": "delay",
+        "time": 1.5
+    },
+    {
+        "id": 627,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 628,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 629,
+        "raw": "[name=\"？？？\"]……发射器部署！",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "……发射器部署！"
+    },
+    {
+        "id": 630,
+        "raw": "[name=\"？？？\"]全弹齐射——！",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "全弹齐射——！"
+    },
+    {
+        "id": 631,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 632,
+        "raw": "[Image(image=\"77_i07\",fadetime=0.3, screenadapt=\"coverall\")]",
+        "type": "image",
+        "image": "77_i07.png",
+        "fadetime": "0.3,",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 633,
+        "raw": "[PlaySound(key=\"$d_avg_launch_missile\", volume=1,channel=\"aigis02\")]",
+        "type": "play_sound",
+        "key": "audio/sound_beta_2/avg/d_avg_launch_missile.mp3",
+        "volume": "1,channel=\"aigis02\""
+    },
+    {
+        "id": 634,
+        "raw": "[PlaySound(key=\"$d_avg_cannon\", volume=1)]",
+        "type": "play_sound",
+        "key": "audio/sound_beta_2/avg/d_avg_cannon.mp3",
+        "volume": 1
+    },
+    {
+        "id": 635,
+        "raw": "[CameraShake(duration=0.5, xstrength=20, ystrength=20, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "20,",
+        "ystrength": "20,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 636,
+        "raw": "[Delay(time=1.2)]",
+        "type": "delay",
+        "time": 1.2
+    },
+    {
+        "id": 637,
+        "raw": "[Blocker(a=0, r=1, g=1, b=1, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "1,",
+        "g": "1,",
+        "b": "1,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 638,
+        "raw": "[CameraShake(duration=1, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "xstrength": "40,",
+        "ystrength": "40,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 639,
+        "raw": "[Blocker(a=1, r=1, g=1, b=1, fadetime=0.2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "1,",
+        "g": "1,",
+        "b": "1,",
+        "fadetime": "0.2,",
+        "block": true
+    },
+    {
+        "id": 640,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.2, block=false)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.2,",
+        "block": false
+    },
+    {
+        "id": 641,
+        "raw": "[Delay(time=0.3)]",
+        "type": "delay",
+        "time": 0.3
+    },
+    {
+        "id": 642,
+        "raw": "[playsound(key=\"$d_avg_autocannon\",volume=1)]",
+        "type": "play_sound",
+        "key": "audio/sound_beta_2/avg/d_avg_autocannon.mp3",
+        "volume": 1
+    },
+    {
+        "id": 643,
+        "raw": "[PlaySound(key=\"$d_avg_bulletbarrage\", volume=1,channel=\"aigis04\")]",
+        "type": "play_sound",
+        "key": "audio/sound_beta_2/avg/d_avg_bulletbarrage.mp3",
+        "volume": "1,channel=\"aigis04\""
+    },
+    {
+        "id": 644,
+        "raw": "[stopsound(channel=\"aigis04\",fadetime=2.5)]",
+        "type": "stop_sound",
+        "channel": "aigis04",
+        "fadetime": 2.5
+    },
+    {
+        "id": 645,
+        "raw": "[Blocker(a=0, r=1, g=1, b=1, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "1,",
+        "g": "1,",
+        "b": "1,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 646,
+        "raw": "[bgeffect(name=\"$eb_burn\",layer=1)]",
+        "type": "bg_effect",
+        "name": "$eb_burn",
+        "layer": 1
+    },
+    {
+        "id": 647,
+        "raw": "[playsound(key=\"$d_avg_cannon\",volume=1)]",
+        "type": "play_sound",
+        "key": "audio/sound_beta_2/avg/d_avg_cannon.mp3",
+        "volume": 1
+    },
+    {
+        "id": 648,
+        "raw": "[CameraShake(duration=1, xstrength=30, ystrength=30, vibrato=30, randomness=80, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "30,",
+        "randomness": "80,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 649,
+        "raw": "[Blocker(a=1, r=1, g=1, b=1, fadetime=0.2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "1,",
+        "g": "1,",
+        "b": "1,",
+        "fadetime": "0.2,",
+        "block": true
+    },
+    {
+        "id": 650,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.2, block=false)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.2,",
+        "block": false
+    },
+    {
+        "id": 651,
+        "raw": "[Delay(time=0.3)]",
+        "type": "delay",
+        "time": 0.3
+    },
+    {
+        "id": 652,
+        "raw": "[Blocker(a=0, r=1, g=1, b=1, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "1,",
+        "g": "1,",
+        "b": "1,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 653,
+        "raw": "[CameraShake(duration=1, xstrength=30, ystrength=30, vibrato=50, randomness=80, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "50,",
+        "randomness": "80,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 654,
+        "raw": "[Blocker(a=1, r=1, g=1, b=1, fadetime=0.2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "1,",
+        "g": "1,",
+        "b": "1,",
+        "fadetime": "0.2,",
+        "block": true
+    },
+    {
+        "id": 655,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.2, block=false)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.2,",
+        "block": false
+    },
+    {
+        "id": 656,
+        "raw": "[Delay(time=0.3)]",
+        "type": "delay",
+        "time": 0.3
+    },
+    {
+        "id": 657,
+        "raw": "[Blocker(a=0, r=1, g=1, b=1, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "1,",
+        "g": "1,",
+        "b": "1,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 658,
+        "raw": "[CameraShake(duration=1, xstrength=30, ystrength=30, vibrato=50, randomness=80, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "50,",
+        "randomness": "80,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 659,
+        "raw": "[Blocker(a=1, r=1, g=1, b=1, fadetime=0.2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "1,",
+        "g": "1,",
+        "b": "1,",
+        "fadetime": "0.2,",
+        "block": true
+    },
+    {
+        "id": 660,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.2, block=false)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.2,",
+        "block": false
+    },
+    {
+        "id": 661,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 662,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 663,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 664,
+        "raw": "熟悉的声音和自天而降的弹雨一同落下。",
+        "type": "narration",
+        "content": "熟悉的声音和自天而降的弹雨一同落下。"
+    },
+    {
+        "id": 665,
+        "raw": "所有人望向上空，少女的身姿在腾起的烟幕中回旋。",
+        "type": "narration",
+        "content": "所有人望向上空，少女的身姿在腾起的烟幕中回旋。"
+    },
+    {
+        "id": 666,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 667,
+        "raw": "[Image(image=\"77_i07\",fadetime=0.3, screenadapt=\"coverall\")]",
+        "type": "image",
+        "image": "77_i07.png",
+        "fadetime": "0.3,",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 668,
+        "raw": "[PlaySound(key=\"$grenade_explosion\", volume=1, channel=\"ex2\")]",
+        "type": "play_sound",
+        "key": "audio/sound_beta_2/avg/d_avg_grenade_explosion.mp3",
+        "volume": "1,",
+        "channel": "ex2"
+    },
+    {
+        "id": 669,
+        "raw": "[PlaySound(key=\"$d_gen_explo_n\", volume=1, channel=\"ex3\")]",
+        "type": "play_sound",
+        "key": "audio/sound_beta_2/avg/d_gen_explo_n.mp3",
+        "volume": "1,",
+        "channel": "ex3"
+    },
+    {
+        "id": 670,
+        "raw": "[Blocker(a=1,r=1, g=1, b=1,  fadetime=0.1, block=true)]",
+        "type": "blocker",
+        "a": "1,r=1,",
+        "g": "1,",
+        "b": "1,",
+        "fadetime": "0.1,",
+        "block": true
+    },
+    {
+        "id": 671,
+        "raw": "[CameraShake(duration=1, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 672,
+        "raw": "[PlaySound(key=\"$d_gen_explo_n\")]",
+        "type": "play_sound",
+        "key": "audio/sound_beta_2/avg/d_gen_explo_n.mp3"
+    },
+    {
+        "id": 673,
+        "raw": "[PlaySound(key=\"$d_sp_ballista\")]",
+        "type": "play_sound",
+        "key": "audio/sound_beta_2/avg/d_sp_ballista.mp3"
+    },
+    {
+        "id": 674,
+        "raw": "[PlaySound(key=\"$d_avg_rockfall\", volume=1)]",
+        "type": "play_sound",
+        "key": "audio/sound_beta_2/avg/d_avg_rockfall.mp3",
+        "volume": 1
+    },
+    {
+        "id": 675,
+        "raw": "[Blocker(a=0,r=0, g=0, a=0, fadetime=2, block=false)]",
+        "type": "blocker",
+        "a": "0,",
+        "g": "0,",
+        "fadetime": "2,",
+        "block": false
+    },
+    {
+        "id": 676,
+        "raw": "[delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 677,
+        "raw": "地面的暗影在炮弹的追踪下奔逃相撞，似乎发出了无声的尖叫。",
+        "type": "narration",
+        "content": "地面的暗影在炮弹的追踪下奔逃相撞，似乎发出了无声的尖叫。"
+    },
+    {
+        "id": 678,
+        "raw": "金发的少女再次升向空中，身后神明般凛然的身影张开双臂，坚盾屹立在少女的后方。",
+        "type": "narration",
+        "content": "金发的少女再次升向空中，身后神明般凛然的身影张开双臂，坚盾屹立在少女的后方。"
+    },
+    {
+        "id": 679,
+        "raw": "[bgeffect]",
+        "type": "bg_effect"
+    },
+    {
+        "id": 680,
+        "raw": "[curtain(direction = 0,fillfrom = 0.01,fillto = 0.2, grad=true, fadetime=1.5)]",
+        "type": "curtain",
+        "direction": "0,fillfrom",
+        "fillto": "0.2,",
+        "grad": "true,",
+        "fadetime": 1.5
+    },
+    {
+        "id": 681,
+        "raw": "[curtain(direction = 4,fillfrom = 0.01,fillto = 0.2, grad=true, fadetime=1.5)]",
+        "type": "curtain",
+        "direction": "4,fillfrom",
+        "fillto": "0.2,",
+        "grad": "true,",
+        "fadetime": 1.5
+    },
+    {
+        "id": 682,
+        "raw": "[Image(image=\"77_i07\", xScale=2, yScale=2,x=-400,y=-200,fadetime=0.5, screenadapt=\"coverall\")]",
+        "type": "image",
+        "image": "77_i07.png",
+        "xScale": "2,",
+        "yScale": "2,x=-400,y=-200,fadetime=0.5,",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 683,
+        "raw": "[name=\"？？？\"]蓄力——",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "蓄力——"
+    },
+    {
+        "id": 684,
+        "raw": "[name=\"？？？\"]发射！",
+        "type": "dialog",
+        "speaker": "？？？",
+        "content": "发射！"
+    },
+    {
+        "id": 685,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 686,
+        "raw": "少女如同坠落的金色流星，划破颜色诡异的天幕，重重击向被驱赶至一处的暗影！",
+        "type": "narration",
+        "content": "少女如同坠落的金色流星，划破颜色诡异的天幕，重重击向被驱赶至一处的暗影！"
+    },
+    {
+        "id": 687,
+        "raw": "[dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 688,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 689,
+        "raw": "[Blocker(a=1, r=0, g=0, b=0, fadetime=0.3, block=false)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.3,",
+        "block": false
+    },
+    {
+        "id": 690,
+        "raw": "[PlaySound(key=\"$d_avg_kaltswhoosh\", volume=0.8, loop=true, channel=\"fly\")]",
+        "type": "play_sound",
+        "key": "audio/sound_beta_2/avg/d_avg_kaltswhoosh.mp3",
+        "volume": "0.8,",
+        "loop": "true,",
+        "channel": "fly"
+    },
+    {
+        "id": 691,
+        "raw": "[ImageTween(xScaleFrom=2,xScaleTo=2.5,yScaleFrom=2,yScaleTo=2.5,xFrom = -400, xTo = -540, yFrom=-200, yTo=-320,duration=0.1, block=false)]",
+        "type": "image_tween",
+        "xScaleFrom": "2,xScaleTo=2.5,yScaleFrom=2,yScaleTo=2.5,xFrom",
+        "xTo": "-540,",
+        "yFrom": "-200,",
+        "yTo": "-320,duration=0.1,",
+        "block": false
+    },
+    {
+        "id": 692,
+        "raw": "[curtain(direction = 0,fillfrom = 0.2,fillto = 0.01, grad=true, fadetime=0.5)]",
+        "type": "curtain",
+        "direction": "0,fillfrom",
+        "fillto": "0.01,",
+        "grad": "true,",
+        "fadetime": 0.5
+    },
+    {
+        "id": 693,
+        "raw": "[curtain(direction = 4,fillfrom = 0.2,fillto = 0.01, grad=true, fadetime=0.5)]",
+        "type": "curtain",
+        "direction": "4,fillfrom",
+        "fillto": "0.01,",
+        "grad": "true,",
+        "fadetime": 0.5
+    },
+    {
+        "id": 694,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 695,
+        "raw": "[Background(image=\"77_g20_firingrange_dark\",screenadapt=\"coverall\")]",
+        "type": "background",
+        "image": "77_g20_firingrange_dark.png",
+        "screenadapt": "coverall"
+    },
+    {
+        "id": 696,
+        "raw": "[PlaySound(key=\"$d_avg_flying_side_kick\", volume=1,channel=\"aigis03\")]",
+        "type": "play_sound",
+        "key": "audio/sound_beta_2/avg/d_avg_flying_side_kick.mp3",
+        "volume": "1,channel=\"aigis03\""
+    },
+    {
+        "id": 697,
+        "raw": "[Delay(time=0.6)]",
+        "type": "delay",
+        "time": 0.6
+    },
+    {
+        "id": 698,
+        "raw": "[image]",
+        "type": "image"
+    },
+    {
+        "id": 699,
+        "raw": "[curtain]",
+        "type": "curtain"
+    },
+    {
+        "id": 700,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.2, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.2,",
+        "block": true
+    },
+    {
+        "id": 701,
+        "raw": "[StopSound(channel=\"fly\", fadetime=0.5)]",
+        "type": "stop_sound",
+        "channel": "fly",
+        "fadetime": 0.5
+    },
+    {
+        "id": 702,
+        "raw": "[Effect(name=\"$e_aigis_02\", layer=1)]",
+        "type": "effect",
+        "name": "$e_aigis_02",
+        "layer": 1
+    },
+    {
+        "id": 703,
+        "raw": "[Delay(time=1.4)]",
+        "type": "delay",
+        "time": 1.4
+    },
+    {
+        "id": 704,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 705,
+        "raw": "[Blocker(a=1, r=1, g=1, b=1, fadetime=0.5, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "1,",
+        "g": "1,",
+        "b": "1,",
+        "fadetime": "0.5,",
+        "block": true
+    },
+    {
+        "id": 706,
+        "raw": "[PlaySound(key=\"$d_sp_ballista\")]",
+        "type": "play_sound",
+        "key": "audio/sound_beta_2/avg/d_sp_ballista.mp3"
+    },
+    {
+        "id": 707,
+        "raw": "[PlaySound(key=\"$d_gen_explo_n\", volume=1, delay=0.05)]",
+        "type": "play_sound",
+        "key": "audio/sound_beta_2/avg/d_gen_explo_n.mp3",
+        "volume": "1,",
+        "delay": 0.05
+    },
+    {
+        "id": 708,
+        "raw": "[PlaySound(key=\"$d_gen_explo_n\", volume=1, delay=0.1)]",
+        "type": "play_sound",
+        "key": "audio/sound_beta_2/avg/d_gen_explo_n.mp3",
+        "volume": "1,",
+        "delay": 0.1
+    },
+    {
+        "id": 709,
+        "raw": "[CameraShake(duration=1, xstrength=40, ystrength=40, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "1,",
+        "xstrength": "40,",
+        "ystrength": "40,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 710,
+        "raw": "[Image]",
+        "type": "image"
+    },
+    {
+        "id": 711,
+        "raw": "[Delay(time=2)]",
+        "type": "delay",
+        "time": 2
+    },
+    {
+        "id": 712,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=4, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "4,",
+        "block": true
+    },
+    {
+        "id": 713,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 714,
+        "raw": "[PlaySound(key=\"$d_gen_walk_n\",volume=1)]",
+        "type": "play_sound",
+        "key": "audio/sound_beta_2/avg/d_gen_walk_n.mp3",
+        "volume": 1
+    },
+    {
+        "id": 715,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4218_aigis_1#4$2\",afrom=0, ato=1,duration=1.5,focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4218_aigis_1#4$2.png",
+        "afrom": "0,",
+        "ato": "1,duration=1.5,focus=\"m\""
+    },
+    {
+        "id": 716,
+        "raw": "[Delay(time=3)]",
+        "type": "delay",
+        "time": 3
+    },
+    {
+        "id": 717,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4217_makoto_1#3$3\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4217_makoto_1#3$3.png",
+        "focus": "m"
+    },
+    {
+        "id": 718,
+        "raw": "[name=\"结城理\"]埃癸斯！",
+        "type": "dialog",
+        "speaker": "结城理",
+        "content": "埃癸斯！"
+    },
+    {
+        "id": 719,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 720,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4219_yukari_1#1$2\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4219_yukari_1#1$2.png",
+        "focus": "r"
+    },
+    {
+        "id": 721,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_2387_1#8$2\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_2387_1#8$2.png",
+        "focus": "r"
+    },
+    {
+        "id": 722,
+        "raw": "[name=\"山岸风花\"]太好了……找到埃癸斯了！",
+        "type": "dialog",
+        "speaker": "山岸风花",
+        "content": "太好了……找到埃癸斯了！"
+    },
+    {
+        "id": 723,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4219_yukari_1#1$2\",focus=\"l\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4219_yukari_1#1$2.png",
+        "focus": "l"
+    },
+    {
+        "id": 724,
+        "raw": "[name=\"岳羽由加莉\"]埃癸斯，这边！",
+        "type": "dialog",
+        "speaker": "岳羽由加莉",
+        "content": "埃癸斯，这边！"
+    },
+    {
+        "id": 725,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 726,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4218_aigis_1#9$2\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4218_aigis_1#9$2.png",
+        "focus": "m"
+    },
+    {
+        "id": 727,
+        "raw": "[name=\"埃癸斯\"]理，各位！原来你们在这里……！",
+        "type": "dialog",
+        "speaker": "埃癸斯",
+        "content": "理，各位！原来你们在这里……！"
+    },
+    {
+        "id": 728,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 729,
+        "raw": "[charslot(slot=\"l\",name=\"avg_4219_yukari_1#1$2\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "l",
+        "name": "avg_4219_yukari_1#1$2.png",
+        "focus": "r"
+    },
+    {
+        "id": 730,
+        "raw": "[charslot(slot=\"r\",name=\"avg_npc_2387_1#1$2\",focus=\"r\")]",
+        "type": "charslot",
+        "slot": "r",
+        "name": "avg_npc_2387_1#1$2.png",
+        "focus": "r"
+    },
+    {
+        "id": 731,
+        "raw": "[name=\"山岸风花\"]太好了，终于会合了……！我们来到这里已经有几天了……埃癸斯是刚刚才到拉特兰吗？",
+        "type": "dialog",
+        "speaker": "山岸风花",
+        "content": "太好了，终于会合了……！我们来到这里已经有几天了……埃癸斯是刚刚才到拉特兰吗？"
+    },
+    {
+        "id": 732,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 733,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4218_aigis_1#11$2\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4218_aigis_1#11$2.png",
+        "focus": "m"
+    },
+    {
+        "id": 734,
+        "raw": "[name=\"埃癸斯\"]拉特兰？",
+        "type": "dialog",
+        "speaker": "埃癸斯",
+        "content": "拉特兰？"
+    },
+    {
+        "id": 735,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2388_1#1$2\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2388_1#1$2.png",
+        "focus": "m"
+    },
+    {
+        "id": 736,
+        "raw": "[name=\"天田乾\"]啊，要给埃癸斯说明一下吧——就是，我们现在所在的，是一个叫做拉特兰的国家……",
+        "type": "dialog",
+        "speaker": "天田乾",
+        "content": "啊，要给埃癸斯说明一下吧——就是，我们现在所在的，是一个叫做拉特兰的国家……"
+    },
+    {
+        "id": 737,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4219_yukari_1#5$2\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4219_yukari_1#5$2.png",
+        "focus": "m"
+    },
+    {
+        "id": 738,
+        "raw": "[name=\"岳羽由加莉\"]——天田，小心！！",
+        "type": "dialog",
+        "speaker": "岳羽由加莉",
+        "content": "——天田，小心！！"
+    },
+    {
+        "id": 739,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 740,
+        "raw": "[charslot]",
+        "type": "charslot"
+    },
+    {
+        "id": 741,
+        "raw": "[Blocker(a=0, r=1, g=1, b=1, fadetime=0, block=true)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "1,",
+        "g": "1,",
+        "b": "1,",
+        "fadetime": "0,",
+        "block": true
+    },
+    {
+        "id": 742,
+        "raw": "[Blocker(a=1, r=1, g=1, b=1, fadetime=0.3, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "1,",
+        "g": "1,",
+        "b": "1,",
+        "fadetime": "0.3,",
+        "block": true
+    },
+    {
+        "id": 743,
+        "raw": "[PlaySound(key=\"$d_avg_arrow\", volume=1,channel=\"arrow1\")]",
+        "type": "play_sound",
+        "key": "audio/sound_beta_2/avg/d_avg_arrow.mp3",
+        "volume": "1,channel=\"arrow1\""
+    },
+    {
+        "id": 744,
+        "raw": "[CameraShake(duration=0.3, xstrength=30, ystrength=30, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.3,",
+        "xstrength": "30,",
+        "ystrength": "30,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 745,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=0.3, block=false)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "0.3,",
+        "block": false
+    },
+    {
+        "id": 746,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 747,
+        "raw": "[CameraShake(duration=0.5, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=true, block=false)]",
+        "type": "camera_shake",
+        "duration": "0.5,",
+        "xstrength": "8,",
+        "ystrength": "6,",
+        "vibrato": "30,",
+        "randomness": "90,",
+        "fadeout": "true,",
+        "block": false
+    },
+    {
+        "id": 748,
+        "raw": "[Blocker(a=0.5, r=1, g=1, b=1, fadetime=0.1, block=true)]",
+        "type": "blocker",
+        "a": "0.5,",
+        "r": "1,",
+        "g": "1,",
+        "b": "1,",
+        "fadetime": "0.1,",
+        "block": true
+    },
+    {
+        "id": 749,
+        "raw": "[Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=false)]",
+        "type": "blocker",
+        "a": "0,",
+        "r": "0,",
+        "g": "0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": false
+    },
+    {
+        "id": 750,
+        "raw": "[PlaySound(key=\"$e_skill_skulsrsword\", volume=0.9)]",
+        "type": "play_sound",
+        "key": "audio/sound_beta_2/enemy/e_skill/e_skill_skulsrsword.mp3",
+        "volume": 0.9
+    },
+    {
+        "id": 751,
+        "raw": "[PlaySound(key=\"$d_avg_attack_heavy\")]",
+        "type": "play_sound",
+        "key": "audio/sound_beta_2/avg/d_avg_attack_heavy.mp3"
+    },
+    {
+        "id": 752,
+        "raw": "[delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 753,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4219_yukari_1#9$2\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4219_yukari_1#9$2.png",
+        "focus": "m"
+    },
+    {
+        "id": 754,
+        "raw": "[name=\"岳羽由加莉\"]可恶，这些暗影怎么这么顽强！",
+        "type": "dialog",
+        "speaker": "岳羽由加莉",
+        "content": "可恶，这些暗影怎么这么顽强！"
+    },
+    {
+        "id": 755,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4218_aigis_1#1$2\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4218_aigis_1#1$2.png",
+        "focus": "m"
+    },
+    {
+        "id": 756,
+        "raw": "[name=\"埃癸斯\"]……暗影？不，这些不是——",
+        "type": "dialog",
+        "speaker": "埃癸斯",
+        "content": "……暗影？不，这些不是——"
+    },
+    {
+        "id": 757,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4220_kormr_1#2$2\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4220_kormr_1#2$2.png",
+        "focus": "m"
+    },
+    {
+        "id": 758,
+        "raw": "[name=\"虎狼丸\"]嗷呜！！",
+        "type": "dialog",
+        "speaker": "虎狼丸",
+        "content": "嗷呜！！"
+    },
+    {
+        "id": 759,
+        "raw": "[charslot(slot=\"m\",name=\"avg_npc_2388_1#7$2\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_npc_2388_1#7$2.png",
+        "focus": "m"
+    },
+    {
+        "id": 760,
+        "raw": "[name=\"天田乾\"]它们又攻过来了！",
+        "type": "dialog",
+        "speaker": "天田乾",
+        "content": "它们又攻过来了！"
+    },
+    {
+        "id": 761,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4217_makoto_1#8$3\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4217_makoto_1#8$3.png",
+        "focus": "m"
+    },
+    {
+        "id": 762,
+        "raw": "[name=\"结城理\"]先战斗，详细情况回宿舍之后再讨论。",
+        "type": "dialog",
+        "speaker": "结城理",
+        "content": "先战斗，详细情况回宿舍之后再讨论。"
+    },
+    {
+        "id": 763,
+        "raw": "[charslot(slot=\"m\",name=\"avg_4218_aigis_1#7$2\",focus=\"m\")]",
+        "type": "charslot",
+        "slot": "m",
+        "name": "avg_4218_aigis_1#7$2.png",
+        "focus": "m"
+    },
+    {
+        "id": 764,
+        "raw": "[name=\"埃癸斯\"]……了解！",
+        "type": "dialog",
+        "speaker": "埃癸斯",
+        "content": "……了解！"
+    },
+    {
+        "id": 765,
+        "raw": "[name=\"埃癸斯\"]理，请给我作战指示！",
+        "type": "dialog",
+        "speaker": "埃癸斯",
+        "content": "理，请给我作战指示！"
+    },
+    {
+        "id": 766,
+        "raw": "[Dialog]",
+        "type": "dialog_marker"
+    },
+    {
+        "id": 767,
+        "raw": "[Delay(time=1)]",
+        "type": "delay",
+        "time": 1
+    },
+    {
+        "id": 768,
+        "raw": "[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]",
+        "type": "blocker",
+        "a": "1,",
+        "r": "0,g=0,",
+        "b": "0,",
+        "fadetime": "2,",
+        "block": true
+    },
+    {
+        "id": 769,
+        "raw": "[bgeffect]",
+        "type": "bg_effect"
+    },
+    {
+        "id": 770,
+        "raw": "[gridbg]",
+        "type": "grid_background"
+    },
+    {
+        "id": 771,
+        "raw": "[stopmusic(fadetime=2)]",
+        "type": "stop_music",
+        "fadetime": 2
+    },
+    {
+        "id": 772,
+        "raw": "[Image]",
+        "type": "image"
+    },
+    {
+        "id": 773,
+        "raw": "[charslot]",
+        "type": "charslot"
+    }
+]
