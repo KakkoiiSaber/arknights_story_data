@@ -7,11 +7,19 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
-from review import apply_stage_complement, resolve_stage_audio, copy_theme_fields
+from review import apply_stage_complement, resolve_stage_audio, copy_theme_fields, simplify_stage_table
 from utils.refresh_complement import refresh
 
 
 class ComplementTests(unittest.TestCase):
+    def test_mainline_background_uses_real_cover_suffix(self):
+        stage = {"storySetType": "MAINLINE", "mainlineData": {"zoneId": "main_0"},
+                 "kvImageId": "kv_evil_time_part1", "titleImageId": "title_evil_time_part1",
+                 "gameMusicId": None, "backgroundId": None}
+        self.assertEqual(simplify_stage_table(stage)["backgroundId"], "storybg_evil_time_part1.png")
+        stage["backgroundId"] = "storybg_override"
+        self.assertEqual(simplify_stage_table(stage)["backgroundId"], "storybg_override.png")
+
     def setUp(self):
         self.bank = {"name": "sys.example", "intro": None, "loop": "Audio/Example"}
         self.audio = {"musics": [{"id": "music_example", "bank": 42}],
@@ -47,10 +55,11 @@ class ComplementTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "Unknown music ID"):
             resolve_stage_audio({"gameMusicId": "missing"}, self.audio)
 
-    def test_explicit_story_fallback_can_be_resolved_again_after_refresh(self):
+    def test_story_music_is_not_used_as_review_theme_music(self):
         stage = {"gameMusicName": "story.path", "audio": {
             "name": "story.path", "intro": None, "loop": "https://example.com/path.mp3"}}
-        self.assertEqual(resolve_stage_audio(stage, self.audio), stage["audio"])
+        self.assertIsNone(resolve_stage_audio(stage, self.audio))
+        self.assertIsNone(resolve_stage_audio({"musicRole": "none"}, self.audio))
 
     def test_refresh_is_idempotent_and_preserves_existing_chapters(self):
         with tempfile.TemporaryDirectory() as folder:

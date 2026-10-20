@@ -35,6 +35,10 @@ def apply_stage_complement(stage_entry, complement, server):
 
 def resolve_stage_audio(stage_entry, audio_data):
     """Resolve real music IDs or bank names, then apply verified source URLs."""
+    if (stage_entry.get("musicRole") in ("none", "opening-story")
+            or (stage_entry.get("gameMusicName") or "").startswith("story.")
+            or (stage_entry.get("audio", {}).get("name") or "").startswith("story.")):
+        return None
     if stage_entry.get("gameMusicId"):
         audio_info = get_audio_table(stage_entry["gameMusicId"], audio_data)
     elif stage_entry.get("audio", {}).get("name"):
@@ -133,8 +137,12 @@ def simplify_stage_table(table: json) -> json:
             # for ep 15, relavant id is act2mainss => 15 = 13+ 2, split act and mainss
             relavantId = table["relevantActivityId"]
             id = "main_" + str(13 + int(relavantId.split("act")[-1].split("mainss")[0]))
-        # set backgrounId as storybg_main_#
-        backgroundId = f"storybg_{id}.png"
+        # Mixstory backgrounds share the cover's English asset suffix.
+        # storybg_main_N is not an extracted asset filename.
+        background_key = table.get("backgroundId")
+        if not background_key and table.get("kvImageId"):
+            background_key = "storybg_" + table["kvImageId"].removeprefix("kv_")
+        backgroundId = f"{background_key}.png" if background_key else None
         desc = None
     elif table["storySetType"] == "SS":
         id = table["relevantActivityId"]

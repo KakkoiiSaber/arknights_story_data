@@ -38,9 +38,8 @@
 - `gameMusicId`：游戏 `musics` 表中真实存在的 ID；不会为缺少 ID 的活动捏造标识。
 - `gameMusicName`：没有音乐 ID 时，可以指定游戏 `bgmBanks` 中真实存在的 bank 名。
 - `audio`：已验证可访问的 intro/loop URL 覆盖。生成时先解析真实 ID/bank，
-  再替换媒体地址，保留 bank 名。`story.path` 为明确标注的本地剧情音乐补充键，
-  不冒充游戏 music ID 或 bank。
-- `musicRole`：`activity-theme` 或 `opening-story`，区分活动主题音乐与剧情音乐替代。
+  再替换媒体地址，保留 bank 名。没有剧情回顾主题音乐时使用 `musicRole: none` 与空音轨；不借用首篇剧情音乐。
+- `musicRole`：`activity-theme` 为已配置的活动主题音乐，`none` 表示介绍页静音；旧版 `opening-story` 不再用于回顾页。
 
 部分地址来自 ArknightsAssets/ArknightsAssets2，部分来自旧版 ArknightsAssets 仓库。
 不要将它们改成当前 arkdata 根路径加文件名：文件实际不在同一目录。
@@ -54,3 +53,19 @@ python -m unittest discover -s tests -v
 
 `--audio-data` 必须使用游戏原始音频映射表，不能传入本仓库生成的同名文件。
 完整每日更新流程仍由 `.github/workflows/update.yml` 调用 `src/review.py`。
+
+
+## App 首页与主题资源更新清单
+
+Update Data Action 会在生成 review 数据后运行 `node scripts/review_manifest.mjs --refresh`，发布 `assets/review_manifest.json` 和 `assets/review_payload/files/*.json`。清单版本由元数据、素材 SHA-256 与分组生成；App 每次启动检查该版本，只下载本地缺少或校验值变更的文件。素材保持原始 CDN 来源，不提交图片和音频二进制文件。
+
+JSON 快照使用内容寻址并保留旧版，以兼容 CDN 中尚未过期的旧清单。`audio.loopSongId` 可为塞壬音源指定曲目 ID，生成器和 App 会获取最新地址，签名变化不会误判为音频内容更新。
+
+本地生成与测试：
+
+```sh
+node --test scripts/tests/review_manifest.test.mjs
+node scripts/review_manifest.mjs --public-base=https://raw.githubusercontent.com/KakkoiiSaber/arknights_story_data/dev
+```
+
+`--refresh` 强制校验远端媒体的新内容；`--locales=zh_CN,en_US,ja_JP,ko_KR` 可扩展语言。缺失素材时生成失败，保留上一版可用清单，Action 不发布不完整的数据更新。

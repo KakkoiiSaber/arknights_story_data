@@ -36,6 +36,17 @@ jobs:
 
       - name: Update review data
         run: python src/review.py
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Publish review version and resource checksums
+        env:
+          DATA_BRANCH: ${{ github.ref_name }}
+        run: |
+          node --test scripts/tests/review_manifest.test.mjs
+          node scripts/review_manifest.mjs --refresh --public-base="https://raw.githubusercontent.com/KakkoiiSaber/arknights_story_data/$DATA_BRANCH"
         
       - name: Update story data
         run: python src/story.py
