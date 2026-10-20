@@ -17,6 +17,55 @@ fmt = "%(asctime)s [%(levelname)s] [%(filename)s:%(lineno)d] %(message)s"
 ch.setFormatter(logging.Formatter(fmt=fmt, datefmt="%Y-%m-%d %H:%M:%S"))
 logger.addHandler(ch)
 
+# Optional theme fields supplied by stage_table_complement, including absolute
+# URLs for collabs that have no corresponding mixstory asset.
+THEME_FIELDS = (
+    "kvImageId", "titleImageId", "backgroundId", "coverContainsTitle", "titleIsBanner",
+    "coverSource", "backgroundUrls", "backgroundAspectRatio", "musicRole",
+    "themeSources", "themeNotes", "audio",
+)
+
+
+def apply_stage_complement(stage_entry, complement, server):
+    entry = copy.deepcopy(stage_entry)
+    if complement and server in complement.get("servers", [server]):
+        entry.update({key: value for key, value in complement.items() if key != "servers"})
+    return entry
+
+
+def resolve_stage_audio(stage_entry, audio_data):
+    """Resolve real music IDs or bank names, then apply verified source URLs."""
+    if (stage_entry.get("musicRole") in ("none", "opening-story")
+            or (stage_entry.get("gameMusicName") or "").startswith("story.")
+            or (stage_entry.get("audio", {}).get("name") or "").startswith("story.")):
+        return None
+    if stage_entry.get("gameMusicId"):
+        audio_info = get_audio_table(stage_entry["gameMusicId"], audio_data)
+    elif stage_entry.get("audio", {}).get("name"):
+        # Explicitly named story-music fallback, not a game music ID/bank.
+        audio_info = {}
+    elif stage_entry.get("gameMusicName"):
+        bank = next((item for item in audio_data["bgmBanks"]
+                     if item["name"] == stage_entry["gameMusicName"]), None)
+        if bank is None:
+            raise ValueError(f"Unknown music bank: {stage_entry['gameMusicName']}")
+        audio_info = format_audio_bank(bank)
+    else:
+        audio_info = {}
+    if stage_entry.get("audio"):
+        audio_info.update(copy.deepcopy(stage_entry["audio"]))
+    if not audio_info:
+        return None
+    if stage_entry.get("audio") and (not audio_info.get("name") or not audio_info.get("loop")):
+        raise ValueError("Complement audio requires a resolved name and loop")
+    return audio_info
+
+
+def copy_theme_fields(result, stage_entry):
+    if stage_entry:
+        result.update({key: stage_entry[key] for key in THEME_FIELDS if key in stage_entry})
+    return result
+
 def simplify_story_review_table(table: json) -> json:
     '''
     "act45side": {
@@ -88,8 +137,12 @@ def simplify_stage_table(table: json) -> json:
             # for ep 15, relavant id is act2mainss => 15 = 13+ 2, split act and mainss
             relavantId = table["relevantActivityId"]
             id = "main_" + str(13 + int(relavantId.split("act")[-1].split("mainss")[0]))
-        # set backgrounId as storybg_main_#
-        backgroundId = f"storybg_{id}.png"
+        # Mixstory backgrounds share the cover's English asset suffix.
+        # storybg_main_N is not an extracted asset filename.
+        background_key = table.get("backgroundId")
+        if not background_key and table.get("kvImageId"):
+            background_key = "storybg_" + table["kvImageId"].removeprefix("kv_")
+        backgroundId = f"{background_key}.png" if background_key else None
         desc = None
     elif table["storySetType"] == "SS":
         id = table["relevantActivityId"]
@@ -129,7 +182,7 @@ def get_story_meta_table(review_table: json, stage_table: Optional[json]) -> jso
         "kvImageId": kvImageId,
         "titleImageId": titleImageId
     }
-    return story_meta_table
+    return copy_theme_fields(story_meta_table, stage_table)
 
 def get_review_info(review_table: json, stage_table: Optional[json], story_desc_path: str) -> json:
     '''
@@ -174,7 +227,7 @@ def get_review_info(review_table: json, stage_table: Optional[json], story_desc_
         "backgroundId": backgroundId,
         "infoUnlockDatas": info_list
     }
-    return review_info
+    return copy_theme_fields(review_info, stage_table)
 
 def get_audio_table(gameMusicId: str, audio_data: json) -> json:
     musics_table = audio_data["musics"]
@@ -182,10 +235,18 @@ def get_audio_table(gameMusicId: str, audio_data: json) -> json:
     bgmBanks_table = audio_data["bgmBanks"]
 
     music_value = next((item for item in musics_table if item["id"] == gameMusicId), None)
+    if music_value is None:
+        raise ValueError(f"Unknown music ID: {gameMusicId}")
     bank_alias = music_value["bank"]
     bankName = bankAlias_table.get(str(bank_alias), bank_alias)
-    # use copy to avoid duplicated .mp3.mp3. //TODO: But why??
-    bank_info = copy.deepcopy(next((item for item in bgmBanks_table if item["name"] == bankName), None))
+    bank = next((item for item in bgmBanks_table if item["name"] == bankName), None)
+    if bank is None:
+        raise ValueError(f"Unknown music bank: {bankName}")
+    return format_audio_bank(bank)
+
+
+def format_audio_bank(bank):
+    bank_info = copy.deepcopy(bank)
     if bank_info["intro"] is not None:
         bank_info["intro"] = bank_info["intro"].lower() + ".mp3"
     if bank_info["loop"] is not None:
@@ -264,24 +325,20 @@ def main():
         logger.debug(f"[Server: {server}] Generating story_meta_table and review_info_table...")
         reviewCache = json.load(open(f"cache/{server}/review.json", "r", encoding="utf-8"))
         for id in review_table.keys():
-            if id in reviewCache:
+            # Complement edits must take effect even when the story is cached.
+            complement = stage_table_complement.get(id)
+            applies = complement and server in complement.get("servers", [server])
+            if id in reviewCache and not applies:
                 logger.debug(f"[Server: {server}] Review info of {id} found in cache, skip.")
                 continue
             else:
                 logger.debug(f"[Server: {server}] Review info of {id} not cached, fetching from source...")
                 logger.info(f"[Server: {server}] Processing story id: {id}...")
                 review_entry = review_table[id]
-                stage_entry = stage_table.get(id, {})
-                stage_complement_entry = stage_table_complement.get(id, None)
-                if stage_complement_entry:
-                    for key, value in stage_complement_entry.items():
-                        stage_entry[key] = value
-
-                try: gameMusicId = stage_entry["gameMusicId"]
-                except: gameMusicId = None
-                
-                if gameMusicId is not None:
-                    audio_info = get_audio_table(gameMusicId, audio_data_origin)
+                stage_entry = apply_stage_complement(
+                    stage_table.get(id, {}), complement, server)
+                audio_info = resolve_stage_audio(stage_entry, audio_data_origin)
+                if audio_info is not None:
                     audio_data[audio_info["name"]] = audio_info
                     stage_entry["gameMusicName"] = audio_info["name"]
 
@@ -291,7 +348,8 @@ def main():
                 review_info = get_review_info(review_entry, stage_entry, f"{local_path}/{server}/{STORY_INFO_PATH}")
                 review_info_table[id] = review_info
                 # update cache
-                reviewCache.append(id)
+                if id not in reviewCache:
+                    reviewCache.append(id)
 
 
         # Save story_meta_table and review_info_table
