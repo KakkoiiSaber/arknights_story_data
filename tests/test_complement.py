@@ -17,6 +17,10 @@ class ComplementTests(unittest.TestCase):
                  "kvImageId": "kv_evil_time_part1", "titleImageId": "title_evil_time_part1",
                  "gameMusicId": None, "backgroundId": None}
         self.assertEqual(simplify_stage_table(stage)["backgroundId"], "storybg_evil_time_part1.png")
+        for background in [*(f"bg_mainLine_{n}" for n in range(4)), "storybg_main_0"]:
+            with self.subTest(background=background):
+                stage["backgroundId"] = background
+                self.assertEqual(simplify_stage_table(stage)["backgroundId"], "storybg_evil_time_part1.png")
         stage["backgroundId"] = "storybg_override"
         self.assertEqual(simplify_stage_table(stage)["backgroundId"], "storybg_override.png")
 
