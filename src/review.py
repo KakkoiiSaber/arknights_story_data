@@ -5,6 +5,7 @@ from zoneinfo import ZoneInfo
 import logging
 from typing import Optional
 import copy
+import re
 from pathlib import Path
 from utils.save_json import save_json
 
@@ -138,9 +139,10 @@ def simplify_stage_table(table: json) -> json:
             relavantId = table["relevantActivityId"]
             id = "main_" + str(13 + int(relavantId.split("act")[-1].split("mainss")[0]))
         # Mixstory backgrounds share the cover's English asset suffix.
-        # storybg_main_N is not an extracted asset filename.
+        # bg_mainLine_N is a shared UI background ID, not a mixstory filename.
+        # Older generators also used the nonexistent storybg_main_N pattern.
         background_key = table.get("backgroundId")
-        if not background_key and table.get("kvImageId"):
+        if (not background_key or re.fullmatch(r"(?:bg_mainLine_|storybg_main_)\d+", background_key)) and table.get("kvImageId"):
             background_key = "storybg_" + table["kvImageId"].removeprefix("kv_")
         backgroundId = f"{background_key}.png" if background_key else None
         desc = None

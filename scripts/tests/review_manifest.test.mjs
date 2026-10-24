@@ -37,6 +37,15 @@ test('legacy invented main filenames are repaired without overriding explicit ar
   const meta = {type: 'MAIN_STORY', kvImageId: 'kv_evil_time_part1.png'};
   assert.equal(repairMainBackground(meta, {backgroundId: 'storybg_main_0.png'}).backgroundId,
     'storybg_evil_time_part1.png');
+  for (let n = 0; n < 4; n++) {
+    assert.equal(repairMainBackground(meta, {backgroundId: `bg_mainLine_${n}.png`}).backgroundId,
+      'storybg_evil_time_part1.png');
+  }
+  const explicit = {backgroundId: 'storybg_override.png'};
+  assert.deepEqual(repairMainBackground(meta, explicit), explicit);
+  const sideStory = {...meta, type: 'ACTIVITY_STORY'};
+  assert.equal(repairMainBackground(sideStory, {backgroundId: 'bg_mainLine_0.png'}).backgroundId,
+    'bg_mainLine_0.png');
   const custom = {backgroundId: 'https://example.com/bg.png'};
   assert.deepEqual(repairMainBackground(meta, custom), custom);
 });

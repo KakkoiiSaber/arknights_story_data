@@ -24,9 +24,10 @@ export function themeFor(id, meta, themes) {
 }
 
 export function repairMainBackground(meta, review) {
-  // Older data generators invented storybg_main_N. Actual mixstory filenames
+  // Shared bg_mainLine_N IDs and legacy storybg_main_N are not mixstory files.
+  // Actual mixstory filenames
   // share the verified cover suffix; don't override curated absolute URLs.
-  if (meta.type === 'MAIN_STORY' && /^storybg_main_\d+\.png$/.test(review.backgroundId ?? '') &&
+  if (meta.type === 'MAIN_STORY' && /^(?:storybg_main_|bg_mainLine_)\d+\.png$/.test(review.backgroundId ?? '') &&
       /^kv_[^/]+\.png$/.test(meta.kvImageId ?? ''))
     return {...review, backgroundId: meta.kvImageId.replace(/^kv_/, 'storybg_')};
   return review;
