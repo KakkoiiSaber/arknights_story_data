@@ -59,6 +59,21 @@ class ComplementTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "Unknown music ID"):
             resolve_stage_audio({"gameMusicId": "missing"}, self.audio)
 
+    def test_act55side_complement_overrides_missing_native_music_id(self):
+        complement = json.loads((ROOT / "assets/stage_table_complement.json").read_text(encoding="utf-8"))["act55side"]
+        original = {"gameMusicId": "music_3in1bg_act55side"}
+        stage = apply_stage_complement(original, complement, "zh_CN")
+        bank_name = "sys.ON_ACTIVITY_LOADED.act55side.theme1"
+        audio = {"musics": [], "bankAlias": {}, "bgmBanks": [
+            {"name": bank_name, "intro": None,
+             "loop": "Audio/Sound_Beta_2/Music/act55side/m_sys1_act55side_loop"}]}
+        track = resolve_stage_audio(stage, audio)
+        self.assertIsNone(stage["gameMusicId"])
+        self.assertEqual(track["name"], bank_name)
+        self.assertEqual(track["loop"], complement["audio"]["loop"])
+        self.assertEqual(apply_stage_complement(original, complement, "en_US"), original)
+        self.assertEqual(original["gameMusicId"], "music_3in1bg_act55side")
+
     def test_story_music_is_not_used_as_review_theme_music(self):
         stage = {"gameMusicName": "story.path", "audio": {
             "name": "story.path", "intro": None, "loop": "https://example.com/path.mp3"}}

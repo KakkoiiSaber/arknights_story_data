@@ -54,6 +54,10 @@ python -m unittest discover -s tests -v
 `--audio-data` 必须使用游戏原始音频映射表，不能传入本仓库生成的同名文件。
 完整每日更新流程仍由 `.github/workflows/update.yml` 调用 `src/review.py`。
 
+`act55side` 的上游 `gameMusicId` 暂未出现在 `musics` 表中，因此 complement
+将其显式覆盖为 `null`，通过 `gameMusicName` 选用活动主页第一首 `theme1`，
+并使用已验证的 PRTS 音源。仅设置 `gameMusicName` 不会覆盖非空的原始音乐 ID。
+
 
 ## App 首页与主题资源更新清单
 
