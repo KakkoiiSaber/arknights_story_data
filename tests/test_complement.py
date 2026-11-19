@@ -74,6 +74,20 @@ class ComplementTests(unittest.TestCase):
         self.assertEqual(apply_stage_complement(original, complement, "en_US"), original)
         self.assertEqual(original["gameMusicId"], "music_3in1bg_act55side")
 
+    def test_act55side_complement_replaces_all_unpublished_mixstory_images(self):
+        complement = json.loads((ROOT / "assets/stage_table_complement.json").read_text(encoding="utf-8"))["act55side"]
+        stage = {"kvImageId": "kv_time_set_forth.png",
+                 "titleImageId": "title_time_set_forth.png",
+                 "backgroundId": "storybg_time_set_forth.png"}
+        merged = apply_stage_complement(stage, complement, "zh_CN")
+        generated = copy_theme_fields({}, merged)
+        for field in ("kvImageId", "titleImageId", "backgroundId"):
+            self.assertTrue(generated[field].startswith("https://"))
+            self.assertIn(generated[field], complement["themeSources"])
+            self.assertNotEqual(generated[field], stage[field])
+        self.assertTrue(generated["coverContainsTitle"])
+        self.assertEqual(apply_stage_complement(stage, complement, "en_US"), stage)
+
     def test_story_music_is_not_used_as_review_theme_music(self):
         stage = {"gameMusicName": "story.path", "audio": {
             "name": "story.path", "intro": None, "loop": "https://example.com/path.mp3"}}
