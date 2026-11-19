@@ -57,8 +57,7 @@ python -m unittest discover -s tests -v
 `act55side` 的上游 `gameMusicId` 暂未出现在 `musics` 表中，因此 complement
 将其显式覆盖为 `null`，通过 `gameMusicName` 选用活动主页第一首 `theme1`，
 并使用已验证的 PRTS 音源。仅设置 `gameMusicName` 不会覆盖非空的原始音乐 ID。
-该活动尚未发布的三张 mixstory 图片也由 complement 覆盖为已验证的活动原始
-入口封面、中文标题与主页静态 KV 底图；底图不包含游戏中的分层动画。
+该活动使用 ArknightsAssets2 中的 mixstory 原版封面、独立标题和背景。
 
 `main_16`、`act48side`、`act51side`、`act53side`、`act21mini` 的六个音频
 在 GitHub 资源仓库中缺失，complement 直接指定 PRTS 的同名音源，保留原始
