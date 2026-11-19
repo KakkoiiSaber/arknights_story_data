@@ -60,6 +60,10 @@ python -m unittest discover -s tests -v
 该活动尚未发布的三张 mixstory 图片也由 complement 覆盖为已验证的活动原始
 入口封面、中文标题与主页静态 KV 底图；底图不包含游戏中的分层动画。
 
+`main_16`、`act48side`、`act51side`、`act53side`、`act21mini` 的六个音频
+在 GitHub 资源仓库中缺失，complement 直接指定 PRTS 的同名音源，保留原始
+音乐 ID 和 bank。此覆盖仅应用于中文服；PRTS 下载连接失败仍会阻止发布。
+
 
 ## App 首页与主题资源更新清单
 

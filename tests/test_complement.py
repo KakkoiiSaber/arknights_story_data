@@ -59,6 +59,20 @@ class ComplementTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "Unknown music ID"):
             resolve_stage_audio({"gameMusicId": "missing"}, self.audio)
 
+    def test_prts_overrides_preserve_native_music_identity(self):
+        complement = json.loads((ROOT / "assets/stage_table_complement.json").read_text(encoding="utf-8"))
+        for story in ("main_16", "act48side", "act51side", "act53side", "act21mini"):
+            with self.subTest(story=story):
+                original = {"gameMusicId": "music_example"}
+                entry = apply_stage_complement(original, complement[story], "zh_CN")
+                track = resolve_stage_audio(entry, self.audio)
+                self.assertEqual(entry["gameMusicId"], "music_example")
+                self.assertEqual(track["name"], self.bank["name"])
+                self.assertEqual(track["intro"], complement[story]["audio"]["intro"])
+                self.assertEqual(track["loop"], complement[story]["audio"]["loop"])
+                self.assertTrue(track["loop"].startswith("https://torappu.prts.wiki/"))
+                self.assertEqual(apply_stage_complement(original, complement[story], "en_US"), original)
+
     def test_act55side_complement_overrides_missing_native_music_id(self):
         complement = json.loads((ROOT / "assets/stage_table_complement.json").read_text(encoding="utf-8"))["act55side"]
         original = {"gameMusicId": "music_3in1bg_act55side"}
